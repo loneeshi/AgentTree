@@ -1,0 +1,779 @@
+{
+  "doc_id": "680d30a9-e019-4904-b434-b50d36cde910",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ICS 4S.020\nsa we\n中 Ee] SX ris PL WE Ae 2 Bb <= A PK en HE\nT/CAMET 04011.2—2018\n-一\n城市轨道交通”基于通信的列车运行\n控制系统 ( CBTC ) 互联互通接口规范\n第2部分: CBTC系统车地连续通信协议 |\nUrban rail transit — Interface specification for interoperability of |\ncommunication based train control system\nPart 2: Train-wayside communication protocol for CBTC system\n2018-09-10 发布 2018-12-31 Sit\n中国城市轨道交通协会 发 布",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "T/CAMET 04011. 2一2018\n目 次\nV",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "T/CAMET 04011. 2一2018\nA.2 ATO 控制命令蚌发送更新时机 pp 8\nVI",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "T/CAMET 04011.2-2018\nT/ CAMET 04011 { JJiX rrHfL:@: 3( Jffi ~ r Jffi {~ 1¥1 J\"iJ $ ili 1'T 1£ 1M * ME\n( CBTC) :!ilf*:!fjffi ~ D ~JI'.V&J Jj-1-J!.;) ~ J\\.1'$7t:\n-~ 1 $7t: 1ili:~~11L:K;\n-~ 2 $)t: CBTC *ME$±i!!.a~Jffi{~ij}i5l.;\n-~ 3 $7t :$~J\"IJ$ § ~{!f:jf'(ATP)/J'U$ § ~ili1'J( ATO) *ME\n_l::j$Wiji¥J~D;\n-~ 4 $7t: IK:fl!~t£1lltl~(ZC) i'BJ~ D;\n-~ 5 $7t :it~:tJLlf*~JJi ( CI) i'BJ~ D;\n-~ 6 $7t:J\"U$ § ZSIJ11ii:f£*MEC ATS)I'B]~D;\n-~ 7 $7t:{~~-1!r-T*ME_i::jMH?~#*MECMSS)I'BJ~ D;\n-~ 8 $7t:$~A:t!LJ'F.JHL\n;;$:$7j-~ T/CAMET 04011 8<]~ 2 $7ta\n:zls:$7ti1i:R~ GB/T 1. 1-2009 ~:±li¥J~JI'.!J!Uml1i!a\n~~•:zls:$7t~¥J¥®~Wey~~N~~.:z~s:$?t~¥J£~m~~~m\nift JJu :!! ® ~ 5fiJ 1¥1 ]if {:I: a\n:z!s:$7tffi~OOJJiXm~:i!txJffiij}~tt*~~~~~~~m:±l a\n:zls:$7tffi~OOJJiXm~:i!txJffiij}~ao a\n:zls:$7tml1i!lf!-11I xt£t4tU9:f5t:ft ~&0PJ ,:Jt}j!:xJffi*~ ,:Jt* ~~Jffi 1~\n=\nffl~~~~#~-~:ft~0PJ,~OO~:i!t#~~~~-~:ft~0PJJffifflffl~\n1iH~f/T A?lclfH ~$Btf-ti:E!/\"'\\J9:f5t:ft~&0PJ j1Jr¥IAirt4ttB9:f5t:ft~&0PJ a\n:zls:$7ti~ml1i!A = ~~~£l :I1~ ,xiJMi ,$iWl ,~;&~~ ,xiJ;K~ ,J:~,\n¥LEI( , xiJ ~1M , ~ !IT )jj(; S uf tiJ , 111 i1f , {:I: ~Ji , !ffi :h!HI , F 7't i:JJ3 , 8Jl JIID'f JE a '$\" 1lt\n~£l : $ ~ ~, 7Kf:fl, !f,1 :tt , ;J;~ 1:. ~, ¥LE f.@~ , 5!E ~ , I:@: ffJJ: , 5!E :Effi ~ , & ~ r ,\n'**\n$!IT x, $1.-t\\¥:, x)jj(;:fi¥, 1:I:f;J)[ lS, ~ 5fiJ tt, 5LE '<'fZ: ,xiJ !IT1JZ-\n0\nVII",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "T/CAMET 04011.2-2018\n~I\n~~*~~~m~m~~~~.~~*•~~m~m~~~-~~\nB{]'ilif~, JtiU f£7:/fmffl ,'ftf~;tt:$, =lX*)t*Et. PTM'~tt~ 8{] § :f!F, ifftJ JE~\n$~JtM~~¥-T~ {l\\fB{] 3'U *ili1it£iM .¥ ~ ( CBTC) ~-~~ .¥ 3'1j ~ f*\n:f;Ffft\n0\n•-*~•m~M<~m~m~~ ¥-T~mEJ{j~*ilifit£~.¥~\n( CBTC) ~-~~ _¥ ~~Jll. M ~ ( ~$ ~JtM ~~ ¥ -T~ {l\\i 8{] )liJ * ili 1it~iff!J\n.¥~( CBTC) ~-~~~ D~Jli.MH~$~JLM~~ ¥-T~{l\\f8{]3'U*ili1i\nt£iM .¥~( CBTC) ~-~~r~WM:~Jli.WL~(~$$)LM~~ ¥-T~{l\\f8{]3'U*\nili1it£i!ltl.¥~( CBTC)~-~~IW~JJin41-~Jli.M(l71-$:5t) o\nIX",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "T/CAMET 04011.2-2018\n*\nmtm m mfr\n:tliX * 3t im ~.:rim 1~ 1¥-.1 9IJ\nt~ iM ~Jt ( CBTC) 1i~1iim tiD ~J\\! ill\n~ 2 ffB~: CBTC *~3't$±tf!ii~~im f~tbi)[\n:zls:$:5H.!t5ET TICA\n1% Jf 1{1t!f jjff CBTC * ~l~~~E.~Ji..\nCI\n$~1§-'5-i)t-1}~ ..,_,.,.,,.....~:r.\n:zls:$:5t~Jil'f ~~'~ttil ( CBTC) *mfi{J*'f\nm m\n~ ,]!iffri&~lHt -'iF 1§-'% * Ef{J *\ni9: it j\"' rfb i9: it j}it\nT j tl )C 14 x1--'f :zls: $ :5t El<J Y Ef{J o JL ~ 1£ B M Ef{J 'J I ffl )C\n14 *, fJ . Err 1£ B M Ef{J JfN. :zls: ~ ffl r :zls: $ *:5t o JL ~ :;f 1£ B M Ef{J 'J I ffl )C 14 , ;It 1ft *'T\nr.& <- § 1% wr :ff Ef{J 1~ ~:&if! >~ m r $ :5t\no\nGBIT 12758-2004 :9itr!HJL:i1ii:3(Ji 1§-'% *mJ~ffltz;;f:5R-{4\nGB 50157-2013 ±if!.f<ki9:it~Jt~i1\ncJ/T 4o7-2o12 :9ltmttJL:i1ii:xJi¥rJi 1§ Ef{J jtl $ § i9J:fl1ff!J * mtz\n*~*\nT/CAMET 04010. 1 :9Jtr!J$JL:i1il3(Ji ¥rJi1§Ef{Jjtl$:iE1i':fliffU*m\n(CBTC)Jf~JfJi*m~.mri1 ~ 1 $:5f:*m,g,f*~)j(:\nT/CAMET 04010.2 :9Jtr!J$JL:i1il3(Ji ¥rJi1§Ef{Jjtl$:1E1i':fliff!J*m",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "T/CAMET 04011.2-2018\n( CBTC) E:~E:i~L*~Hll\\m: ~ 2 {fl))t: *m~;fkj;f0:9)~~7tWC\nTICAMET 04011.6 ~r!J!iifLJ1!3()M ~rilli1~i¥J~U$~1'J~1jjlj*m\n( CBTC) E:~E:illit# D ~]m; ~ 6 {fl))t: ~U$ § i;IJ.lKl:~*mC ATS) J'B]t# D\n~]tiL\n~~1~%(2010]267 Ji§-)C{lj= RSSP- I ~~{~Ji}g(~)M{~tf}i)(\n~~1~%(2010]267 %)(14 RSSP-II ~~1~-li}g(~)M{~tf}i)(\nEN 50159:2010 IFX~Hi~~illi1~1~%®!~1~,~,1'4'1ffitr*m J:j:lg(~im 1~\n;fjf-fl (Secure Communication Standards for Information Transmission Systems\nin the Field of Railway Communication Signals in Europe)\nIEEE 802. 3 fijj ~ ~ tf}i)l (Ethernet LAN protocols as defined in IEEE\n802. 3 suite)\nGB/T 12758-2004, GB 50157-2013, CJ!T 407-2012, T/CAMET\n04010. 1 ;fO T/CAMET 04010.2 Jf-J:Ei¥J..&~~~J*i!f;ftlmr~i!f:@fflr:<$:$\n:5ta ~T~r~ffl.~~--~iliTXJ:j:li¥J~~ffi~**o\n3. 1 *i~\n3. 1. 1\nm\ni}i! ~ ~ 3t il f~ ~ urban rail transit signal\n~fflr~m~Jtt3(im*m!:j:l,AI~§i;IJ~•B*m~;f0~$~fi\n~ffj!J ,g(~J'B]!Wj~ffj!J:JJ(*I¥J,~,fiJ\\o\n[GB/T 12758-2004,*i!!:iJ:E)(. 3.1]\n3. 1. 2\nill!; T-il f~ tr-.1 9U $1'Q $] communication based train control ( CBTC)\nillili~~-~§~$~ffl~OON§I¥J~$~7;1JJ:Emtt*,~-$­\n~~~~-illimtt*~..&~-~fig(~:9J~i¥1$ft;fO~OO~mftW~~\ni¥J~•:rt9ti$ § i;IJ~#ftl *ma\n[ CJ/T 407-2012, J:£5<.. 3. 1. 1]\n2",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "T/CAMET 04011.2-2018\n3. 1.3\n91J $ ~ Z;IJ~llitl automatic train control\nm%*m~Z;~J~~~*~~-~~~~®~fi~~·~*~~~o\n[ GB 50157- 2013 ,J£5( 2. 0. 37]\n3. 1.4\n91J $ ~ Z;IJ .lKi ~ * automatic train supervision\nmt.\n~ i\\'HIJ $ M ~IJ jg Y'IJ $ ~ q'T ~ Z;1J i&JE :itt :fllJ1M'J $ , ~ Jllli:Y'IJ $ ~ q'T\n1[\"~·~*~ ,g,~\\o\n[ GB 50157-2013 ,J£5( 2. 0. 38]\n3. 1. 5\n91J $ ~ Z;IJ IV] :J=? automatic train protection\n~ ZSJJ~~Y\"u*~q'TIBJ IWi .~m~~~ .:it!:Mt~~®* n •~~~* ~\n[ GB 50157-2013 ,J£5( 2. 0. 39]\n3. 1. 6\n91J $ ~ Z;IJ ill ~T automatic train operation\n~ Z;IJ~l.!\\\\Y'IJ$1m~, iJ\\¥1~ .1~$;fil$i'l 3fl~ .m~•~i~IJ~#~,g,~,a\n[ GB 50157-2013, J£5( 2. 0. 40]\n3. 1. 7\ni.tJJ:fJUIHiJi computer interlocking\nkJ. i-t•m~;;t;:jg ~ 'L'. ~ Z;~J ~:E.m:~ttMt, :JH tt, 1fi%m• ~~ ~* ~\n[ CJ/T 407-2012,JE5( 3. 1. 6]\n3. 1. 8\n£l :f.P 3!i: ~ ~ ;3t maintenance support system\n~i~Wic**ml*l :rt1m~-=r *mtt~1fi-~,. ttmflJJ *m~ll!7ttJT. mr *\nms\n'lit~7Etl~o\n[ T/CAMET 04010. 1 ,;;f:ijg- 3. 1. 8]\n3",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "T/CAMET 04011.2-2018\n3. 1. 9\nf* ~? !R ~ overlap section\n~~~m~~~.~~~~W$~~~~ffi81R~o\n[ GB/T 12758-2004, *i-B'!j ;EX 3. 12]\n3. 1. 10\n§ :fff-ii fft target speed\n~$~fi~~~§~~A~~~~ft~~mo\n[GB/T 12758-2004,*i-ft!j;:EX 3. 13]\n3. 1. 11\n§ ;f;r-Be:/§\\ target distance\n~$~fi~~~~~~A~~fim•o\n[ GB/T 12758-2004 ,#i\\3-!j ;EX 3. 14]\n3. 1. 12\n$: ~ f* ~?Be:/§\\ safe protection distance\n~U$ § i;IJ~t? *tft'i-t .~U$iffi~~tft~tilfl~~W$:J£1li'JBt .~~ lf:f*\n$m~••tt~~~~~~~.~~-~§~.iEW$fu~~§~~A~\n~~m•o\n[GB/T 12758-2004,*i-ft!j;:EX 3.15]\n3. 1. 13\nE.~E.il Interoperability\n••~~m%r•*•~•~~*~~~-·~~m%r•~~~\n•~-~~~x~~~~~~~~~x~~~Lx~~~~~~~\n[ T/CAMET 04010. 1, *i-8- 3. 1. 16]\n3. 1. 14\n~iiiEfr mix operation\n••~~r•*•*%~•~~*~~~-•~-r•~~m%~\n·~~L~~~A~~$:J£~§~®~-~~$:J£~§~x~~~~~\n~f!g\n0\n4",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "T/CAMET 04011.2-2018\n·*1#\n[ T/CAMET 04010. 2 3. 1. 18]\n3. 2 m; ll!&i!\nAM: )'Jj $ § z;IJ~ IJ9.!mP:; (Automatic Train Operating Mode)\nATC: )'Jj $ § z;IJ~1lltJ (Automatic Train Control)\nATO: )'iJ $ § z;!Jili:fi (Automatic Train Operation)\nAT P: )'Jj $ § z;IJ J?1j 1? ( Automatic Train Protection)\nATS :3'iJ$ § z;IJJKr~ (Automatic Train Supervision)\nCBTC: ¥ T jj 1~ 8{] )'Jj $ ~ 1lltJ ~ tff, ( Communication Based Train\nControl)\nCM:~~AI~l}9.!(Cod(}..~~~~\nCI: it~ fJUIHb~ ( Co!J61i~~!!l~~lm\nDCS: IJ&jj,5jj 1~ ~\nPSD : :;1~ fJ i'1 (\nRM:~~1lltJAI\n4\ntiDti~\n*\n~Jl'. m: xt Jffi ffl ·jj: 89 £L ~ ~~:dii,..~:\nm\n1*·~1£, xt~ o !ltltl!i5t£L 1*1 ~:it!:1ift o\n5 VOBC- ZC :J:&)0.!il$B\n5. 1 tiDiitiJJ~\n5. 1. 1 !1-m!.ltiD\nVOBC ~ ZC Zi'BJ*=fflJC~~~:it!:1iilll1~(r:)(VJ A ~,B ~:it!:1iWi\n~)ZC ~ VOBC Zi'BJB{]~~:j;fi:j:~~ftj*ffj A~ - A~ ,B ~ - B ~IW1'­\nfj!Jm\n0\n5. 1. 2 $;:i:~f~t#J.i.)'(\nZC ~ VOBC Z j'B] jj 1~ PI* ffl RSSP-II ~ RSSP- I ~ ~ jj 1~ 13} i;X. o\n5",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "T/CAMET 04011.2-2018\n*\nRSSP-IT gc~ Ji {jlf tf} i5( ~ J!-1* ~ ~ _IJi!. ili ¥ {jlf% ( 2010) 267 %X {4\n{ RSSP-IT ~~{jlf %gc~Jj {llftf}i5(~; RSSP- I gc~Jj {llftf}i5( ~ J{.{L$:~*~\nJli!.ili¥{Jlf% (2010 )267 %-)({4{ RSSP- I ~~{jlf%gc~Jj {Jlitf}i5(~ o *=ffl\nRSSP- I gc~Jj {Jlftf}i5( ~1Wm~f4 jg~ffl LTE-M Ji {jlf _§_ LTE-M ${.~~\nm * m\n0 :ha ifr;fM'Jl([ PJ ll1J 11: fjJ ~, CBTC {jlf% ~ ff -g.::==::~~ {511: ~ o 1:£ .llt lW\n~f4r ,1r*=ffl RSSP- I gc~Jj{ilftf}i.)(o\n~al!) I ?Jflj; ,;It SAI/MASL/ALE = _& ,~Wf RSSP-IT :f.i.FtfHJ\\'.~o\nVOBC zc\nt App App\n.,\n[/) T\n;;> SAl SAl\nt-<\n;>:)\n[/)\n[/) MASL MASL\n7'\n==\n_L\nz\n0\n.7,\n[/)\n;;>\n-<\n~\nTCP Jk IP _&~ffl:f.i.Fflt TCP/IP tf}i5l.~o\nMAC lJ<. PHY JR~tk:r/Gf\\ll ~ [ij]MH'ft~, 7[;~ [ij]~ffl7[;~:f_iF({ttf}i5(,\nfill liD [ijJ ~ ffl kJ j<;: [ijJ tf} i5( (IEEE 802. 3 ) o\n~ai!J 2 ?Jflj; ,;It RSSP- I tf}i5(Jl1J§ RSSP- I :f.i.Fflt~JI'.~o\nUDP _&~ffl:f.i.Fflt UDP tf}i5l.~o\n6",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "T/CAMET 04011.2-2018\nVOBC zc\nApp App\nRSSP-1 RSSP-l\nUDP UDP UDP UDP\n00 2 7C~~~ilf~#J.i..l( RSSP-1 #;!~\nMAC lJl.. PH Y Fzk !till#: -T ;If' IPJ i¥.1 lijJ % f'!t ?R , 7C ~ lijJ ~ ffl7C ~ fiF fft 1!)} i5!_,\n±tfl, ]if lijJ ~ffl ~ j;_lijj -!j}i;X_ (IEEE 802. 3) a\n5. 1. 3 it!J~3t1ift'ii£\n5. 1. 3. 1 ilf~m£Jfl~5i!f.!ft!,§:;E)(.\n~· ZC-V 0 BC i'EiJ 4it1' )ff] M ~ ~ )(E: i¥.1 ill ffl {JOr }~!,ill! :i:H£1. nlG ill! ffl ¥~ .~, §\nlt!:11-f~~, ~n ~ 3 eR~ a\nI\nii!imm.G!.-El.J\nc____ __ J\n003 ilm~a'E!~mm~••-E!*•=#iloo\n5. 1. 3. 2 f~ .1ft!, §~j\\;:;E)(,\nZC/VOBC 4ij:)ff] M!i$ ft it tit* 1 1-illlfflm .~, §, Jiffl ¥~ -~' § 9=' § 15\nZC ~ VOBC ;t_fEi]{~~i¥J~~mfflfi~L~,o\n7",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "T/CAMET 04011. 2一2018\n每个和通用消和县包首长不得赵过1工000 Sey md FH PF EL a Fe ok ge SZ aL\n表1 通用信息包格式定义\nSe ge Lyre SN 了 , we : A py ve gt Veg te AN Ms\n信息域定义 4 | 的 段 Ke fe 17 LAE MA ANI\n- 7 \\ 1\n1 ASH ey ANE\n接站信息奖而 - -一一 2h Ox0102:ZC-VORC 4% 11\n2 AS ATR {7\n3\nath. — ike Ib 4 Rak WAR ID\n[hot 5 ,\n6\n7\noe Hig 1p ai | 接收方设备 由\nfri Eh 9\n| 10\n1! |\n. ' 20 !7 VOBC\neas 12 * | 本 版本| 2管辖范因由.20 与 YOBC\n一 由 <世上同上的由小 | 二 [J 、_ , _\n14\n7 “4 】 ‘7 4 fd 网 、, ,,\nrest) i7 | ° 的周期计数\n18\n”19 yh yg wt fe TI: ob Fe Gls\nee 、 at. ie fh id fA Jed AU) , $n Ay 7 BP\n通信周期 -- 通信千期 2字节| 一\n20 (ms)\n8",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "T/CAMET 04011, 2一2018\n表1 BARBER RREM(S)\naa AN :他 rh HL 过 - 人 Al phe 了\n(re CLR aE SL i - FORE 长度 信息位定义及说明\n- 全了 ,\n2]\ncoe qt 22 记录收到对方上一条消息中\nXP Dy ey Ed sents eu lan peste ia en rt\npepe 7 Jy Sl 4) UME AAP vl\nry 23 默认值:OxFFFTFFFTFT\n24 |\n25 .\n收到| 条 95 | gOCl RE ce ok A 条消息\nif LAM Ay ye nT Hy MDC TL WUD EP\npy ayy 四 多 NA和人:OFEEFEFPFFE\ncy, %\n- | | Sa ROBC (1) Pp SCH AS, AS\n协议版本号”| 29 ah SS Ad hy 20 :\n应用尼 30 \" ee a, Me: BA ~ 报六结束的\n4 ttre _ ‘ 4 + J avers\ni NY So Ahi WEIL AMS MEAG UL 22 格式定义\n1 000\nEL. RU AS RESET OEE A ZC EK Joh LT\n2. ZC/VOBC FT BE NR AS BE SO EA OK I DM AS Oe Be se Se AS\n时 Wi UE 4 FE ted WT AP ad Fb\n“FES SAT BUA 1 ~ (29-1). REI AE IE EP a BE 2 fF\nBFR BOS AR ALLA Sd\" By 2 ALS a fed AO) A fe A\nTf EN APY Us 1] [ta] Bs\nRICE Mt TAA ey Jit cy ER PL :\n9",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "T/CAMET 04011.2-2018\nfl'f.~,~.;:£5( *11~% 11[)CI*J~ i>l. fJJ3\nI\n11[)C-K.J3r(11[)C~~- §.;:£)(,-J,F~I*J~~.!it!.\n1R::le-L~J3r 11[)Ct;!l*) 5. 3 1J\n2\n3 >E)(~-~ mm f l'i -~' o9 §.;:£)(,-J,F~I*J~~.!it!.\n11[)C~~\n4 f;]d,J1. 5. 3 1J\n5 0\nTY!M TY!M\n6 0\ntli:Ht-!1R::le.f1Ht>:£)( 0911[ Fl.;:£)(, iF~ I*J ~~.!it!.\n11[)CJ*J~ 7 -1R)C~Jl:[\n::lCA-i*I*J~ 5. 3 1J\n5. 1. 3. 3 ilfili~~~~\na) ZC blZM ~~l&iU 89 VOBC 89mJf:lm J~!,:itt1-T~r!-~~1t ·*~lt\n*~M.~~*~AA*l&~X1~89ElZJf:I~A~~~~H~~~\n~ ,3f·rc*11Pirfit~,o ~1*~1\\t~i-t~or:\n1 ) rl!f -~, P-J ~ 89- 3~lc~ ~ 1t : -EI. 1% ff'L~, 89 ~ ~ ~ rR -~ ~ 1t , ~ ~\ntil~~ rR -~ ~ 1\\t ~ lJ<. ff'f -~' :;c If-~ ;\n2) ~mmA-EJ.mAMEli-EI.*89~A89:;c:fftto\nb) ZC #I VOBC Ell~~ :5t JJUx t ~ fg ~ ~ i!t ~:itt 1-T #UW r (:flj Ell Jf:l Fzf :fi\n1m GAL -El.* 9=t ~~:it!:1-T#IJ i!JT, rm~~~~~ fgti}i)lFzf:it!:1-T 89 #IJ\nWr) :\n1) ZC ~~ ~ VOBC ~ ff'f 9=t i!JT 89 jffi B;f Bt j'B] JE 5( ~ TZcTimeout\n(3 s -9 s,PJ\"!fli,tl~til:6 s);\n2) VOBC ~~~ ZC ~{-gl=j=ti!JTB'~IffiB;fB;fj'B]JE_)(~ TVobcTimeout\n*(3 s -9 s,PJ\"!f'i':,tl~ffi:6 s) ;\n3) ZC ;(£ TZcTimeout lffiB;fB;fj'B] pg ,r9::ff~l&iU-* § VOBC 89\nfffnJrl!f ,~,, JJ!IJ ZC Ell~~~ VOBC 89~ {-g 9=t i!JT;\n*\n4) ZC #IJWrl&iUV OBC 89 GAL §~JlSB~£itiU TZcTimeout,\n10",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "T/CAMET 04011.2-2018\nY!U ZC E\\Z-!-~llt GAL §W;iAj;;.!=J VOBC :ii!'i{~I=J=tltlf;\n5) ;ff VOBC tE TVobcTimeout iffiS1BtfBJ 1*J, t9::ff~l&iU* § ZC\nm\n139 ff fiiJ }@, , Y!U V0 BC Ell iA j;; .!=] ZC 139 :ii!'i {~ 9=t !tiT ;\n6) ;ff VOBC *IJ !tiT l& iU ZC 139 GAL § M :i!S B fi: k5 iU\nTVobcTimeout,]J!Ij VOBC E\\Z-!-~llt GAL §W;iAj;;.!=J ZC :ii!'if~\n9=' !tiT ;\n7) E:.lf~t![:iifi~IXX]J:j=l .~rlftf VOBC .!=J~~~If!_t89 ZC 89:ii!'if~\niffi Bt Bt fB] Ell-:3& , 7~ ,@, :ff ~ M Bt ISJ Ell-:3& ;\n8) ~ -T ii ~ :t*\\; :Y U $ ~ ffiij ~JJIJ 139 VOBC *U !tiT.!=] ZC 139 :ii!'i f~ 9=' !tiT\nFn , ;ff :YU $ ~ -T if~~~ , YlU Ell~ tl:l ~ :ffi, iff!J i9J , ;ff :YU $ ~\n-Tif~~~ ,JJ!UPJ~ tl:l ~:ffi, ffiUlYJ o\nc) .¥:'i~JfH(~:iifi{~-[1}i)( RSSP- ll Bt, VOBC *Jjltlf.!=j ZC ltlf7f:ii!lf~,\n_fi:;f:J'I}.!=jm ZC :m:~m:lL:ii!'i {§ }§, E\\Zitlf:Tf.!=Ji:t ZC 139 TCP/IP\n)i}~;\n.¥:'iueffl~~:ii!'if~tJJ.i)( RSSP- I Bt, VOBC *Jjltlf.!=j ZC ltlf7f:ii!l{§,\n__§_:;f:J'I}.!=Jm ZC :m:~Jt:lL:ii!lff'lFn ,E\\Zitlf7f.!=JW: ZC 139 UDP ii~o\n5. 1. 4 111~-.'&!ll~H-'\nEN 50159:2010 9='!liL&89 7 #:Tf:fVc:t\\:~~:fftE89~~:iififf'jJXlll£L:ffgE13~~\n:ii!'i{~tiJ.i)(:it!:1-ii!M?, JXl~~§ni: :m:~ ,JIDIJ~ JffiA ,:m:f1i'ff, :fffltf, 1JJ~ ,~:i/S o\nc mmm rWJ\nzc-vosc)\n$:ttl!.x~:ii!'i ff'l~:/J 89:ii!lff'l~~~:mi7tj;; ~\nftjl·~()L:\na) ZC ;f1l VOBC xt -Tt~ l& iU 139 :m: ~, ~ ff 139 Ell ffl {f'j ,@, , * ffl ]I~-!­\n~89:/J:t\\:*fi~~.*_fiiAj;;*~M*l&~M:/J89ElZfflmA;\nb) illHf'l9=' !tiT 139 -~ 6L r ~ :ml: ;ff ZC/VOBC iA j;; .!=] M ~ jJ Ell ffl m :i i!'i\nmiffiS19='ttiT,**~lYJ~:tVc~~ii~89:/J:t\\:*fi~=mlo\n5. 2 iM1~'~**~#Y\n5. 2. 1 iM1~m~\nZC .!=j VOBC :ii!'i{~tiJ.i)(~~:\\10 1!1 4 Fff~ o\n11",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "T/CAMET 04011. 2-2018\nzc\nVOBC\n:'t;:~;ffl~\n!M5lif£tlii-'¥'-:7G\ni)ti]fJ:\n~~*~~tt•~~wm~n~~~~&~*~~-~tt~•.~mm~~­\n* ~ :r;JJ 11~ %il ;~t :>'~illi ffiJJJ tm 0\n00 4 ZC !o] VOBC ilf~#J.i.lHl~\n5. 2. 2 11 f~:flt :fiiJ\na) fR~~EB VOBC _btj@~~:i1~1¥JJ:l3L.:li~;\nb) ZC ~ VOBC *.Ftlfifl M.bt:l!;ft:Jr~L~,ff!!lt.bt i¥1:1f:ct::i1:H:Yill'i ff'i;\n*\nc ) ill'i fl§ ~ :1f :!!g * Rt:fc Yffif \"¥ TI uH-T ~ :Jm f~ !filtr ;\nd) ZC ~ VOBC :!!g llixH~41z: Ef{Jlli.FH ff'f .~,ill:1-T*U lfr;fn~m~m: o\n5. 3 ti I::ailimji\n5. 3. 1 !/&li~~:@)(\n;$:Tixt ZC ~ VOBC .ZJ'Blill'ifi§B~EIT~ lli.Ftlfi§.~,~ID!.&;Itff 5C.bt:l!\n:1f !PJ , -L~ J}UG: IE , $t :iE :1f :ct: Cfi fJ M I ~~ fifJ M ) ill: 1-T JE )( , .W.. ;& 3 o\n*\n3 ZC !o] VOBC il1~i¥JmJfl~1~.~,:@)(\n1-s.~~.~!fl 1s.~.-EL~ 'jj:j!)Jf[i] f'iH~Jl 'jj:j!)J;r_~\nOx0201 j'lj :$ ~ ffjlj {fi .~. ZC---> VOBC 4 WJWJ\n12",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "T/CAMET 04011.2-2018\n*3\nZC .g VOBC iMf~agn)ZJfl~f~.\\~UE:.>t(~)\n1*-~,~~ {fj -~' §1?; Llt~:!Jiol ~11*~ Llt~:!Jj.\\;\nOx0205 J.j\\IfFJ.&ii:!llfltH~n(ri]J.jlz ZC-.VOBC 4 ~r-JWJ ~m\nOx0207 zc ±79Ji1-f~iff}j( ZC-.VOBC 4 ~r-)WJ Wl\nOx0209 *¥'~ ~ fl~J :t!Uc ZC-.VOBC 4 ~r-JWJ WI\nOx020B zc .mxm ,~ ~5($Jlr ZC-.VOBC 4 JWJ~VJ\nOx020D ZC ~~~I ~5($Jlr ZC-.VOBC 4 )WJWJ\nOx0202 :vu $ {iz. )1 ffj ,@_ VOBC-.ZC 4 W!Wl\nOx0206 4 ~r-JWJ ~m\nOx0208 JWJWJ\nOx020A )WJWJ\n*\n~11 r:p 8{]\" l!ll\\iA\" {ll:\n( a) # xt Jl. 1 ** I \" ; fi r:f /G ~ lJ\\\\ 8{] ~ ~~ , :ii {llf ~ 1f PJ :{£ Jl. {;$:I ;fi r:f t\"J 5E ,\n*-\n;f§ \"¥ tli I& {ll $: l!J7\\ iA \" {ll\n0\n( b ) i9: 1t; :{£ fJJ ~€! {{. fG jjJG lW , :7C '$; fiffl }E ~ ~ B;J , ;f§ '!t:. \"¥ tli !& {ll $: :1! \" l!J7\\\niA {ll *\" o t~ t& 1ft& iU \" l!J7\\ iA \" {ll.5 , Eli iA :1-J 1* )~, ;ff ~* , /G :itt 1-T ~ lllL\n».. \"\n11 r:p 1tv _t 1-r , , \" r 1-r , 8{] 1f fl:iJ J£ JJ... , :15] m ~ 'if 1f fl:iJ ~.m J£ 8{] _t\nr1-T o ~~Bt, WHk~mt _t r1-T~'[g1f fOJ 5EJJ.../G-3&Bt, £:]!_t r1-T1f fOJ\nfllf }~, 8{] ~_m JJ!Uri ffJ 5E :1-J :f~ 4¥1 ~JidJt ~JUi' , $: :!! 1f fP: ft~ § ~ YT Jli1: ~ ~ ( zc 1~ YT\n:m\nHit~~, VOBC m:m:::k3'2~1WltifflYf:{:E~ ~) _t r 1-TJ:E JJ... :ltt1-T $::1!, E8 !J5c\n:Jrm*'l f~~o * *\nm-\n11 r:p 8{] \" tvrl¥1 , \"¥ tl:1: , £ 1r ±Ji o , t~ t& 1r PT :~G xt tvrl¥1 \"¥ tli 1-r\n13",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "T/CAMET 04011.2-2018\n~~0\n7-fs: \"'Pi:J=t l¥J$;1L:@ IK~ 1*1 i¥JilfU~ii£, ~fl.g :t5J .:1'1$~ ~ -T:tilll!li:J=t, W:$;1L:@\nIK~m$~~-T~i!l~fi~~l¥J~~o\n5. 4. 2 ZC jcJ VOBC £~f~ .~,\n5.4.2.1 9iJ$~iMf~.~-\nzc xt7W4JE MA ~:i!~{tj:i¥J~rJ$fif]WJ~:i!~tl$t£itH~.\\~L!Tt!,* 4o\n*\n4 9'1J$~itl]f~.~-\nt1HH9~ ~\"r'i-!.~Jl i~ 11)] ~ 1-Hc:@: ffi .\\i!,\nzc 10\nMA ~ J~ ¥0 ZC jtJ. !jf :rt1i: :tf if!& :i1 ZC\nT- ZC ID 4 Jti.Wnt~JEitffi .~, 1~3C:@:{~ .~,\n~~~:OxOOOOOOOO\n:imiU:iZs~Jm~!llfij ,J;UEJ~~~\nMA ffi .~, L~Jl\n.b\\\" MA :JJ 1nJ \"{)Li!J \"{~-%tJL:{}(~\"\n2 3C :@: {fi .~,\nJ)Jf;(;f~l)-!fll\n1'f5&1iHill :49 -429\nMA :JJ lnJ\n::(£ MA ®,i;';i.f;if:llnJ MA ~.l;';i.B<J:JJinJ,\nI ~MA®A~~~Tfi:JJinJJE~·JE 3C:ft{fi.~,\n~:f'T :Ox55, rfi :OxAA\n;JtfM~r£\nMA {fi.~,\n~ $ {~l:iiE i-Ff}j('\n;(;f :Ox55 ,7G :OxAA\n*;lt {*!R~ ~ 7'£\nI -w mm , 3C :@: {fi .~,\n* iiE ~ ~ tu~ rffiP.Yl\nx\n§ !fPn :riffl J£ , :im .rJt J}J ~~ !JlrJ ~ ~ :If~\nEJ7G~$i*iiEWf}j(\n~ $i*iiE i%:1( IT jrj-%'\n4 1'f5&7111E: 1- (231 -I) 3C:@:{~.~'\n~~~:OxFFFFFFFF\n14",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 20,
+      "text": "T/CAMET 04011.2-2018\nttoi*J~ *~-l~~ i.Jt. flfl ;llk~:t(~f~.~'\n- MA mL~ 1ft'ltL :t(~f~-~'\n4 tfLJi !K,I3!: ID\n!R,I3!: I*JiiJHt:J.li: ,lfl.fft: em\n4\n;f;f!{!Oi1 jjl] :OxO-OxFFFFFFFE\n- 3i: ~lin iP -~ fft f1:' :t(~fl'f.~,\n4 !tfLili!K,13!: ID\nlK f.9: I*J i!fHt fi1 , !)! 1ft : em\n4\n:fi !{!O't'i: Bl) : OxO - OxFFFFFFFE\n- ~lilt.~ fl'i -~'' :ti:~fl'f.~,\nMA fl'f.~,\n!tfL:itl!Kf.9: JD\n4\nmkiAV[:OxOOOOOOOO\n!Kf.9: I*Ji!fl!:ft£1 .~fft :em\n4 ;f;f~ti1Bl) :OxO -OxFFFFFFFE\n~iAV[:OxFFFFFFFF\n{JiH? !Kf.9:;f;f~t£ ( t'il:iP IKf.11:m:.V.:.\nB;f;f;f~)\nI ;f;f~ :Ox55 :t(~f~-~'\n5(;~ :OxAA\nmkiA V[ :OxFF\n2 J1l:ftf~.~,1-I/&(MA I*J§~~ll!:\n:t(~f~-~'\ntt ,-1'-1/&~~iil:.;f;f~m:oo ,o -2o)\"\n- ill ft ( 1 )f~ -~' :t(~fl'f.~,\nMH~fl'f.~,\n4 ID\nmft~~\n1\n}E fft :Ox55, }X 1ft :OxAA, ;fl;{tk~~ ~\n15",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 21,
+      "text": "T/CAMET 04011. 2-2018\n~Dpq?§ *11*1t i.lt IJfJ ~~1C~fl'f.@,\n... ...\n!Mf121l'i.~. mft c x) fl'i .~., x ~mftfl'i .~. 1-~\n- 1C~{l'f.~.\n*.131:1lX{i[\nPSD {l'f .~.~ ( MA pq §~ Ef(J PSD,\n2 1C~{l'f.~.\n1-~J;;~£1: ,1']3l:((1t'fffil :0-10)\n- PSD ( I ){l'f .@!. 1C~{l'f.~,\n4 10\nPSD~?.\\';;\n~F :k ffi .13. ~.Vi l'fl : Ox55\n:kl'fl.§.li.!lil'fl :OxAA\nPSD ~?.\\';;'\nI E:li.!lifrff~i'i :OxCC\n;It fl!!. =IF #i:\n*\nzc XE:'ifliffffl~t<#!:k~}Jfi~, nr~\nn,\nE: -t~~iff!¥ l~tlii.J;;\" :k :tl :FJil\n... ...\nPSD( Y){~[.Q,, Y ~ PSD {l'f.@.1-~\n- 1C~fl'f.~.\n*.131:1lX{i[\nESB {l'f .~. 1- ~ ( MA pq§~i¥J\n2 1C~{l'f.~.\nESB,1-~J;;~-J.~ ,1']3l:((1!1ffil :0 -10)\n- ESB ( I ) {jlf .~. 1C~{l'f.~.\nESB ~?.\\';;' 4 ID\nESB ~?.\\';;\nn:r ·**r\nI :Ox55 :OxAA\n:.ltflli : ~10 #i:\n... ...\n16",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 22,
+      "text": "T/CAMET 04011. 2一2018\n表4 列车控制信息(续)\nESB(Z) 信息,Z足 FSB 信息个数|\nSe Fe UR i\nFe AAT ie FE ATLAR AS C5 EE HEE |\nmwne || deeR oss Re 证安全全\n按钮状态 | HEF 0x55, K He FOxAA CBR IA coe\nfii)\nFor BEL adi 402 hb AN ORY (AN AG fy TIS ‘a\n[有效范用和aa\nO | -\n4 NDS oe 网\n人 |\n临时限速 和 .\nvo NG EY\nTv as ~ - -一-- -~\n三\n, Ry SO? IR .\nAy BOAT 0x0 ~ OPE EEREEEE |\nhin\n, thran USS PRE GH {EL\n| Liv ekin/h(Okm/h ~ 254km/h) 安全人 总\nOxPP SR LAA\n18 thea Uf BREE 10) fF 安全信息\n70-2 计算器边办点 MA 时,ZC 与村邻\niW fF aE WS ce ee\nA REG FEO ~ 10 000\n17",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 23,
+      "text": "T/CAMET 04011.2-2018\n::liH~ 1f ~ ~-ilJIJ z;IJ ill~\n1f :Ox55\nX :OxAA\nMA ~-~~ § a<Jit!J.~tt\n:iilHi :Ox55\ntJTJ3 :OxAA\n~1:Y El a<J @1¥.\\i::OxCC\nJt!l. Jiil i'.t ffi .Ill. i*:iJdi[ :OxFF\n;:& zc ::.t ffi :k ~ ~ , 9!U~ :i! !*: iJ..\n{][ o ;ff AT P x ;.f§ ;k ~ !Th , 9!H~ l& Jtt\n1~.\\ll. nt.lf' i1!1:Y~JJR\nfi'f%tJLa<J lD\n4 ZC ~l&¥Ua<J VOBC ~:ilitf<Jf~%t!L\nlD\n\"fi'f%t!La<J ID\" a<Jfi'f%t!L:l*~;\nCBTC ft itfi'f%: Ox55; CBTC ~ J.1:. fi'f\n%:OxAAo ~i}..ffi OxFF(it::tflfil::.t\nmat\n1~% ::g'p,;;·)\n\"1. ~1f~$fJ!HiE~:;:J(At ,.W$-I*i!Em:;:J(Xt!ilZf:V:NI'!n:;f;;:tc~fl1JtF.~{:V:'8:;\n2. fti(.A.~a<Jlt!Jma<Jf§!K¥.\\i::;f;;Jltr-~::lt!:Jma<Jf*tF IK¥.\\i: ,HWtF IK¥.\\i:.JJJil'fl at ,~11\n~$!ThMili~~tFIK¥.\\i:~a<JW$-I*~,JttM::lt!:Im!ilZ~~M.JJJi;\n3. zc 4fttlz~nltf.';$W~il1:;:J(nt, !ilZ9!AAW$WiiEii~:;:J(ff'~1J% ,xW$-I*~iEil'i\n4.W$-I*~a<J~~ZCJ.ilZ§~~~~IK*.If'~a<J.W$-i*~il!~~~!ilZo\n''I. ZC ;&:i! MA Bt ,MA ~.~{:V:rt!ilZ~:/&'J':ti:~Fn~.3~jN'J':ti:~JS~JS}lf-1'­\n~~J$:fli.lf';f1J't\\'fl5i'. r a<J:Itt7c @l~J~e~m:~z ~ c~ rttm:~ a<J~9ffil9ffil.~) o\n2. ~U$ft3(B;f ,;ff~'m' ZC jtgf;~tl$a<J MA ~.~:;/;;:IliiJ':ti:~JS~IfiJJS}lf{$-\n5Elle~ ,;ffxft:l( ZC a<J MA,9!UJtt_g{$11e~J.ilZ::f~::l.1 ZC ft:I(JtlWo\n3. VOBC ftiHtl$~1:YM ,J.ilZfl~fti'FiJH:Y::l.1if'!i!9=' ~U $:'ti:~-§.~$~$*1K~\n.:;f~MA1[~~o\n18",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 24,
+      "text": "T/CAMET 04011.2-2018\n'I. ZC 1oJ VOBC :5(:j!BiJ MA filf.@,§:j%:\n$':~1ltit?.~ :j1J$~M/Gfi~~~a9.~;\n~iti:f!lt .~ : {Ji1:!P !R~:ff~ At, ±ill~ pg QFo-1'-iH!ll !R~ I'JiJ~ .~;\n{Jj1:tp fR~V\\?.5 :if~ ,X~~l!JklAo\n2. $':~Jlti!P .~ fli:.'R;f1llfiti:1i~.~ fli:NI'JiJ:5t:i!~Ji'.J)!'J:1g :Jm:ll'1: zc :5t::i! I'JiJ\"{JI1:tp !R~:ff\n~tt\" f~Jt!l{i[Jg\":ff~\" ,ZC :5(::)! i'JiJ$':~Jltjtp .~ {li:NJ.i\\JJiffl{Ji1::YU$ilJ iE 'iitill\n:V~~$, iPJBt$Tif(J{JI1:$':~tt, l!f.tfi!L~:1g{JI1:tp !R~®.~{li:'D.';\n:!m:ll'1: zc :5t::i!B<J\"{JI1:J?!R~:fi~f1\"*~*--m:Jg\"::,t~\"~l!JkiA{i[,J)!IJ zc :5!::\n:i!I'JiJ~ii!L~ffi.@,Jg::,t~{i[;\n~MA~~Mm~Jltitp~Jgtrnffi%m,H•ffi%mJlti!PillMI'JiJ~-~ill\nMx{JI1:!PrR~M,$:~1lti!P~/GmM~•nnffi~mllti:tP~illM®~;\nzc W~+$:~1l1J!P .~ f~.@.nt ,m-El. *iii!:~$:iltffi3CI'JiJ$:~;;Jzfil o\n3. VOBC ~i&l$19J~~Ei<J~Jlli1f7'!:1g:\n(I) VOBC ~i&iU* Fl ZC I'JiJ MA {~.@.Fo:\n*AA$':~1l1J!P~m'Rillfi~$-~~~M-~~;\nVOBC ~JmjU$ill:V~~(fti~fJILm/G~ ZCMA ~ ~BiJ~nlnJo\n(2) {E{f{PJff'H£r ,~051'1::YU$1~~~1i~.~, VOBC m.ll:fin -~.i!JfJz;!Jo\n\"zc :5i:::i!:i1!ftV\\?.5{~.!HJl\\J)!iJ: MA 7[ IE pg ;ff§ *ili ftft~{ftfl, J)!IJ$:5(::)! it<:@\nft V\\?.5 ( Ji!ffl 'filift -=~j.\\$JtjQ !R~WiJ£1f~) 0\nZC:5(::J!:i1!ftffiAI'JiJ~~mill~MA®~Iol$':~1l1Jtp~1flol*~o\n'MA ~'i!IEI*JI'JiJ PSD/ESB Jltjtp[R~jft{ffiBt ,ZC loJ VOBC :5(::)!~ MA /Gm@lmi,\nIii VOBC ;JN:Jm MA ;[Bi!i*JI'JiJ PSD/ESB ~?.5:XHU$ill1l':J£i!lfJo\n'::,t lj(l.j At ~ifi'JiJ !R~, /G:5(:::J! II{!; B;J~~ififlr4(-;\nZC 1oJ VOBC :5(:::)!1'JiJI!(l;At~ififlr4(-9-1 , ]J;q1'11{l;Bt~ififlr4(-;;f$;(f{Eli!:~!R~;\nZC loJ VOBC :5(::)! I'JiJ II{!; Bt ~it iflr4(-7[ IE /Gm!ffi :±l MA 7[ IE (!tiL~ iU $':~ Jltjtp .~\n7!1IE);\n~B;J~if·4(--~$ill~MA®~IoJ$':~1l1Jtp~1floJ*~;\n~M~itiflr4r~~mmmlol~~mwi'JiJ1flolm~MA®~mlol~~I'JiJ1floJ\n:m\nIPl\n0\n';ff MA ~~Jll~.~ ,J)!IJ:I;l'P~it~- MA Bt E!f{rJ!ffli'JiJ ;ffi~ ZC BiJ{ilf.@,§BiJJ.[B;J;\n;ff MA *~~Jt13'\\'-.~ ,J)!IJ:f;j~Eif Oo VOBC ~UltiT MA I'JiJ:ff~ttM ,mtDI~-MBt o\nh 1. ZC ~lj ltJTilJ 1g $lx VOBC it~:ff~ MA, {§. flff~ VOBC liJtr :±l. ~. ffilJ ~At, :5(:\n* \"1f. ~. jjjfJ ~iflr4(-\" fili ,@,;\n2. ;s: zc xffi:k~flli,\" •~.i!lfJ~iflr1r\"*~:5t:*\"xiflr4r\";\n19",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 25,
+      "text": "T/CAMET 04011. 2-2018\n3. VOBC l&iUS¥:1£ ZC llt:i!i¥J\"ff~~JiiJ79J'lfli4-\"{~.@,Fn ,J.iii~:±l~~.ilJlj;IJ ,{E!.\n~~~~*·~-~*~~-~~-;\n4. VOBC lJH lJS¥:1£ ZC llt:i! ~ \";ff ~ ~-jfilj z;!Jfrr4-\" {~,@,At, J.jiz~i'iJ~~(f. ~ ~.\njfilj z;/J\n0\n;~.ft.iHtl* MA ~:\\1 k.Ai~d~l%M.~:Im9ffil~ill:JfllDt ,P::i! CBTC ft. it~~;~~\n.ft.iHtl* MA ~:tlVJW;{~l%M.~:Im9ffil~ill:JfllAt ,P::i! CBTC ~Jl:.~~o\n5. 4. 2. 2 mfflmgc:i:iiii 5±M15±ii1iP(o]m\nMr:$:~.tt:i! i¥JB::Ilit!B:f¥liff>.K ,zc )S lillW:11i:>c.!h!.* so\n*11\nt~l=li*J~ i>t ~ 19:!m/J:rt\n{~)j[\ntl:fllt Jilt:;IJ :Ox55, tl::fll};lcg& :OxAA\ntl:flltitl:fi!i nln.JJ.jiz I tl:fi!ililt:;/J :OxCC ~r-:tc 3H~ .@,\n;lt{lli~r-~\n~~1-tii!3\nOx** : tJ:jJit;li,:g&)Jj(~ ( :1&:®!&3::~\ntl:fllt;li.:NJj:)Jj( ~ I >J(J£50 ~r-:tc~{~.@,\nOxFF: ~iA -m:, tl:M ~:;/J!4Ji;tl:fi!i ~:;/J\nAt:l;i\"!EJ\nJ:V!OO 2 0\n5. 4. 2. 3 zc ±i';IJ5iij1ji¥f*\nZC i¥Jti:fj!j~{t:j: ~.:fl.Bt, W:f~f.~,;£5(JJ;!.* 6 o\n~Qpq~ *11*!3!: i>t FlJl flli:ffl/J~\ntJ:fj!ji)!j)j( :Ox55\ntl:fi!i$4- 1 ~r-:tc~{~.@,\n;lt{l!!.~r-~\n20",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 26,
+      "text": "T/CAMET 04011.2-2018\nfM' ~ f-t ~ : C:f iH\\lhll!. .:t ~ ;JU:E\n50\n2 0\n:7Gifr4' :OxAA\n;ttfm, ~~ f:k\n4\niil: \"~9*:JQ:llJ!U!Uc\" §.!:3\" :YU :tt:Fil!JtJf~L~.\" §:j'E IPJ- GAL§ 1*1 ::Fill IPJ Bt:fft£ * o\ni1 2 :~FrtfW:i1~ 9=' ,::F#JJ .IE.&:!!\" jlj $1£llJ!J f~ -~·\" EJ<J ~flj:, ill.&:!! ~9*:JQ:llJ!J\nX'E!.o *\ni1 3 : zc !J'IJ wr ::F 'it,Hu :tt: ~ :E. llJ!J i;IJ , f!! Ylii f!f: M' tt .lftt st , .& ~ 9* t£ llJ!J *-:>c -E!. , H\n\"~;E.llJ!Ji;!Jifr4-\"ff.l!:l&{i[/9\":7Gtfll4'\" 0\ni3:4: ~ VOBC l&3\\UEJ<J~9*:JQ:llJ!J:ffi_:)c<j:l\" ~;E,llJ!Ji;!Jifr4'\" ff.l!:/9\" :7Gifr4'\" St ,ill\n::F~Jltj]j{~£1:_~;E,lfj1Ji;IJ,;#{!f:M'.!3 ZC El<J'ti:~Ji~o\n21",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 27,
+      "text": "T/CAMET 04011.2-2018\n5. 4. 2. 5 zc fP.tm ~ :.@)(~9i\n~~~~A.m~~~~~mM~~~-~~~*~Wo A~~~\nzc\ntEI~r:J=t*;!' lH~~~ffi~*~~ .~llftff!gJ3\\Z~~;f§J3\\Z~~~o ~$ ~ ~5(\n~-M~L!~L!h!, 8 o\n5. 4. 2. 6 zc }jllj~:.@)(~9i\n~ ~~ 1~.~, .m~~~~ r-lftf*l:~~~~, ~ rlftf :5tJJ~~tu zc ~'1 fi9T\n0\nJfi{~~ VOBC !:j ~ ~~-T~-IlftfBt ,:/JPJ£:i!llftf ~ JE~~fl!o ZC )Jftf\n~ JE~~}!{~.~,_!h!,* 90\n~Di*J~ *1l-lfl.t i>?. lljj\n{~.~'~)( N Jt-1* 1*1 ~ E8 ~T lt'ii 7HJU ~ illtl\n5. 4. 3 VOBC jc] ZC ~~f~ .~,\n5. 4. 3. 1 91J $fll:ilf~ .~,\nit{~.~,]!JWJ£:!! ,ffl*£1E* ZC i9:4lt;fll VOBC i'BJ~~~{~~Ji~·I~L\n9tl$tE ZC i'BJ~x:i:f~r:p, VOBC !:j~5(,~~ ZC ~Bt~{~Bt, ~­\n]!JWJ~nJGEt{J !PJM-1- zc £:!!~\" 9U $1ft 'it{~.~,§\"~ ~m-3& o\n9tl${ftJt{~.~,§~~JJi!.* lOo\n*\n10 9tl$fll:i[f~.~-l*l~\n~Di*J~ *1l-lfl.t i>?. lljj ~ffl)j~\n:~&'J''!i.~Fo~m rOJ :~&7c'!i.~-ru-~\n-r\n1¥.1 :1J rOJ , lV-:llVJ' '!i. ~ Fo ~ ~ 1¥.1 -.t\n~1-T)J[OJ• I '!i.~f~f.~,\n1-T)J[O)liffl~\nI.1-T:Ox55\n22",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 28,
+      "text": "T/CAMET 04011.2-2018\n~opg~ ~11-L~J.t i~ ~ ~m:tf~\nr1-T:OxAA\n€1-T:tf rtJ. 1 ~i:A :OxFF 1>:~1§.~.\n:ft1l!!.~i07*\n;zjl: VOBC ~:aJg~f.!iYjffl(tff~JL\n:>'Ri¥J VOBC ~-$::il1~~f.!iYffij)\n~ti!iYffii 1 ~ff,Yffij :Ox55 1>:~1J'i.~.\n~F~ti!iYffii :OxAA\n:ftflli~l= 7*\n- ~1J$:/il::Jc:ti:~mJYffil1fi'lf.\n!fltiHIR~ ID'\n4\n~i:Ati[:OxOOOOOOOO\n!flt:ilt!R~J:i;]f.\\tH$:fll ,if!1fl :em\n4 :ff ~ 1i! IE : OxO - OxFFFFFFFE\nl!lki:A ti[: OxFFFFFFFF\n- :Ytl $:/ill]\\:ti:~mJYffiiffi.'i!t\n!f.ltill IRJ::l-1: ID'\n4\n~i,Ati[,OxOOOOOOOO\n~lj$§~~ IR~ r*J i\\TU :tt :fil:, if!ffl: em, :ff ~ WL 1>:~1§.~.\n4 IE :OxO - OxFFFFFFFE'\n~i:A ti[: OxFFFFFFFF\n- ~tl $:1ii::Jc:ti:~/8Yffiilli.ft\n!fltill!R~ ID'\n4\n~i,Ati[,OxOOOOOOOO\nlR J::l-1: J:i;] i\\TU :ft -Jil: , if! ffl : em, :ff ~ 1i1\n4 EJj] :OxO-OxFFFFFFFE'\nl!lki:A ti[: OxFFFFFFFF\n- ~'J $ :!IVJ' 1>: ~ /8 Yffii ffz 'i!\n23",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 29,
+      "text": "T/CAMET 04011.2-2018\n~~=~1*1~ ~l){~J![ i)2. IJJ3 ~ffl1J:t.\\\nVtii'i1Rf:11: ID'\n4\n~tlU[:OxOOOOOOOO\nIRW: i*J iliU ~ :Q, lf!. {)I: em, '(;f ~ trL\n4 ~ :OxO - OxFFFFFFFE'\n~ljtj::tQ_~~ ~tl U[ :OxFFFFFFFF :ti:~fff}~.\n~ti $ {~ JJt , Ijl {ft : em, 1'f ~ 1ri. l'!ll :\n2\n1 000-50 000\n~IJ $ $ ~ ~ - $(:; M 3iU$ fiJ {~ J!t\n2\n( ill {ft : em ) , 1'f ~ rrL ~ : 1 - 1 000\nOx01: CBTC; Ox02: J!:i. ;t.\\; Ox03: Jtk\n~ti$ill1'T\n1 -lb11£ ilJ!HIUJU ; ':ti:~{~.@.\n1£ilJ!WHJIJ~\n~{M~r!\nOx01: AM; Ox02: CM; Ox03: RM;\n~ti$ttl.:!&\n1 Ox04:EUM; ':ti:~{~.@.\n~;t.\\~\n~1M~r!\ntJ]${;\\iliiEnlnJJ.jiz'\nOx55: 1iJ IV. -I*$ ;OxAA: 7Gr!f!?$;\n1 ':ti:~{fi.@,\nOxFF: ~tl U[;\n~{M~r!\nf!?${;\\iliiEnlnJJ.jiz)T~U~'\n4 1if~r'rL~, 1- (23 ' -1) ':ti:~{~.@.\n~tlti[:OxFFFFFFFF\n*~~~\n-1*$1*-liExt m':ti:~ liJit? ..! :f. !fltm IR\n4 ¥.li: ID' ':ti:~{~.@.\n~tlti[:OxOOOOOOOO\nf!f${;\\illiEM m':ti:~ liJit? .r!:i.IRW: 1*1\nilfU~ :!lJ.:, Ijl {ft: em, 1'f ~ 1rL ~: OxO -\n4 ':ti:~{~.@.\nOxFFFFFFFE'\n~tlti[:OxFFFFFFFF\n24",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 30,
+      "text": "T/CAMET 04011, 2一2018\n表10 列车位置信息内容(续)\nety GLE 说 明 使用方式\nVe AE GE AP ee be AY WS LT Ix.\n#E TAH -0x00000000\n£3) 4 ARE AT Ind PS BS ES AY fed BS\n! 4 下 , 和位: 45 40 Ht [B. Ox se Aas\n| Ox FEFEEREE\nRUA Ox FEF FPEF\nj pont Oe et\niS {ti :0xFF SY\n4 is b NS pels we oa Pull Pa n\n有(人 人 AGE FP\n(4D YOK ) a. Lh 交全1\nOARSSAR RA ONAA AAR ZS ,\nOxAA: AN HEM\n其他:非法 |\nFA rik Fh vB AT\n0x55 Tiegh stl ae se\nOxAA : Dri dh AR KT Hh\n其他非法 非安全信息\nAY SUD Be th FE HK SR AB AT TA BR\nHE. AAG Dr RB ASAT IA BRE Ae TE Bb\nSH AA YD th DOD SE AS KT TA ER\n| fe. BT AS Ae ee pe PE ASAT AL BR\n25",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 31,
+      "text": "T/CAMET 04011. 2一2018\n表10 列车位置信息内容(续)\n紧名制动状态 |\n| Ox55 :不载 ATP HK HE Fi) 4: HW\nEH AR 2S 1 | 安全信息\n0xAA:车载 ATP 采华到和车辆反馈\n|已实施紧急制动\n, j Wr ip it yee /s\n2 杀生 安全信息\n| 4 BLE ~ 15 000\n| AE MSE Ti Ved (7 Fe WE Fe Fa Ie )\nSS a Cie Ach EL hy a7 :\n' 0x55; Hi ( $52 ALIKE AE Ih] HiT) | ie ee 0\n1 Sef AB\nTPS ,单位:em\nSec AS RUA LB ,列车从开始退行\n2 到倍车的直行此离 tf eT: 安全信息\nSil Ae ee 7 1 ~5 000\nAa iE He DIT Ox FREE\n0x55 EHE LL ES\nOxCC: FR A AE HE\nFW AB GR\nTRAX ES FRE fe HL |\n- TAT. fore Ape\n0x55 FLT 解锁 | 安全信息\nOxAA:不允许解锁 i\nFE BAR He\nSPE ZC(列车采用 MASTER SE hl\nfh scm ZC) Ay ID\n受控 ZCID 4 默认值:0x00000000 安全信息\n和车载 VOBC 末采用 MA ALS oR SE\niil FR SCS Ae RL\n26",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 32,
+      "text": "T/CAMET 04011.2-2018\nI - OxFFFFFFFF ,0 :1Jl!lkiJdi[\nVOBC :JILk~3!:f!JYjlijf!J::tfill:91J $\nili 1-T :1f rP1 f.iJ 19i ~ iU( f) :lbt :ili (f) IQJ rP1 f~\n4\n-%:fJL, VOBC P:m \"fJiH? IR&.ft iHrlf.\nlUll\" *131::11 ft itffiHIIl at, W:f~ -%fJL ID\nJ:iiZJg;ff~{i[\n'I. ;& V0 BC .!::3 ZC ~ .lr. Jill f~ at :5t ~t:fifJ J:iUIU'flfft ft J!U \"ili 1-T :1f rPJ \" , \":91j $:Ilk ::k\n~3!:1]1JY#ijfftft&f:(:Etltlll: lR 131: ID\",\" ?U$ :!& ::k~ 3!:1ltJ'Yjiijfft ft:(:E !fft J!l: lR 131: 1*1\niliUltii.i:\" ,\":9U$:QI]\\~3!:1]1JYjlij{iL'll:&f:(:E!fJLJ!l:IR13!: ID\" ,\":9U$:liiul,~3!:f!JY#ij\nfftft:(:E!fftlli lR 131: i*J ilfUltili:\" , \";91j $ :G: ::k ~ 3!: Fo Yjifffft ft EJT :(:E tiL:i 1! lR 131: ID\" ,\n\"YU::q :. :G: ::k ~ 3!: Fo Y'ffil1ft 'll: :(:E !f)L :i1! lR 131: 1*1 iliU l$ ill:\" , \" jlj tj:: :Ia: 1]' ~ 3!: Fn Y#ij 1ft 1l\nEJT:(:Etltil:! !R& ID\" , \"YU $QJJ,~3!:FnYjlij1ft'fl:(:E!fftllt lR 131: 1*1 iliU ltili:\" J$]:f;l'P;;\ns\nl!lkiAfli(Y1J$~3!:1ftft~~:tmoo m~) o\n2. VOBC J:iiZ fJiliiE: ;& \"ili 1-T :1f rPJ\" , \"YU$ :G: ::k ~ 3!: ntr Y#ij 1ft 1l J)Jf :(:E !fft J!l: lR W\nID\",\" YU $:G:::k~3!:ll1JYjlij1ft'fl:(:Etlt:i1'J lR 131: 1*1 iliUlt:fil:\" , \"?U$ :G:1J'~ 3!:num\n1ft'flJ!JT:(:E tltil:! lR 131: ID\" , \"YU$ :G: 1]' ~ 3!:nu m1ft ft :(:E !fJL llt lR 131: 1*1 iliU lt iil:\" ,\n\";91j $ :G: ::k~3!:Fo mfftft.Jifi:(:E!fftil:! !R& ID\" , \"?U $ :G: ::k ~3!: Fo Yjiff1ftft :(:E tiL\n:i1'J !R& P.J iliUl$£1\",\" jlj $Q1],~3!:Fnm1.li:ft&f:(:E!f)L:i1'J !R& ID\",\" YU$ :liluJ'\n~3!:Fnm1.li:rt:(:E!fftm IR & ~*~ iliU lt:fil:, *~ rtJ, ff-*.131: :~& ti1I :11 l!lkiA ti1I, Ji!IJ\n\"ili1-T::tf!PJ\", \":9U$:G:::k~3!:numf.li:ft&f:(:Eiit:ii IRW ID\",\" YU $:G:::k~3!:\nnumfft'lf:(:EiitilliR & 1*1 iliU lt iil,,\" YV$ :~& !J,~3!:1l1I mf.U: N m:(:E tit ill IR &\nID\",\" ?U $:![f(Jj,~3!:1itrm1.li:ft:(:Ei!tlll: IR.J31: 1*1 iliUltiil:\", \"jlj $:G:::k~ 3!:Fo m\n{.li:ft&f:(:Eiit:iti IR.J31: ID\",\" YU$ 1il: ::k~ 3!:Fo mf.li:'fl:(:E !f)L :ii lR .131: 1*1 iliU l$£1\",\n\"YU$:f&I]\\~3!:Fom{ftftEJT:(:E$Jtlll: IR~ ID\",\" YU$:lil~JJ,~3!:FoYjlij{ftft:(:EtiL\n:ili IR.J31: i*liliUlt:fil:\", \"~$1!iliiEnfril J:iiZ\", \"~$1!iliiEnfril J:iiZJ¥YU% \",\" ~$1JiliiE\n.Xt J:iiZ~3!:1ltftf .8 !#till!R~ ID\",\" ~$ fJiliiEJ<t J:iiZ ~ 3!: llfjtp .8 itt :ii lR .131: i*J ilfU\nltiil\" ,\"~$1JiliiE.XtJ:iiZI!ei:1~.8!fft:i1i!R.I31: ID\" ,\"~$1JiliiEMJ:iiZI!ei:~.8!fft:ili!R\n.131:il1Ultii.i:\" '\" ~$1JiliiE.Xt J:iiZ fjjltp !R.J31:;ff~tt\" *~!& {j[J:iiZ~Jgl!lkiJ.. {i1I 0\n3. zc tJHUf.li:.li11Hl:rl!lkiJ..ti1IFo ,;ffZ.iitr:5tYU$;ff~f.li:ft, f.iJ:iit;~t;.('\"f ~Hli!.Z-:\n( I ) P: m j:: i9J 7:Hi1J fi'-PJ(: ;\n( 2) ~ rPJ VOBC P:m fffl!J f~ ,@!,;\n(3) fJilM'iillf~ ,P:m\" ~ %!. i!J!J i9J\" (f]~~:J£i!J!J 1RX-E1, fg:#HU $fF :11 ~~Jill f~\n$5lt:flllo\n27",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 33,
+      "text": "T/CAMET 04011.2-2018\nm :!l!:11llz-,\n;t!izlltr\"ff~tl:$1'f%cfii.Y1., :l2l;~~r\n(I) £:1!£z;!Ji1:ft!i1i'f:;j(;\n(3) -!:*Jitfii.YI::f&-'S-fl'f .@!., * ffl Z 1ltr 89firli1lH\\r, ml;i}; .!=j VOBC Jil'i fi'L 11~\nm\nill1 ffi rJt Wr3L\n4. ~* VOBC :(££J!fftft:f&-'ffl!JkiJdm:At ,J.iiZtibl-JJIJmnc ZC J::.~6l.t11llo ;t!i ZC\nl&iU VOBC £:1! 8<JfirY1.:f&-'S-,..El.#l]J;;{r:lllJ1j::fft11:f&1f:;f:(£7jl: ZC ~~JE!H&W. ( 1-1\n7JI: zc ti' t;!H[ BllliZ. ;It fill zc 'lH\";!H[ Bl1 1*1 .!=j 7JI: zc Ei<J illA11R Hi1 Bl1 1*1 , llJ :i2l; ~ J:J\nr6lt11llz- ,\n(I )*l;i};£:1!1if-\"-*t£ifl!J:f&)C;\n(2)£:1! zc £z;!Ji1:ft!i1J'J:;J(;\n( 3) :;f ji'iJ VOBC ~:i!fffnJ fl'f ,@!,;\nJE*\nbl. \"~tl$Jg1-T1£!lilJ~J.HJ\" .!=j \"~tl$~ iJJCtii;~\" :=f:WI&-oo:J.iiZml II 89:'N>J< o\n2. :lltl1f:1JT:!Su:ffilrJ, ,;t!i:;JUifij,~9ifii VOBC :f?:(£Jli]fl•t.!=j ZC illifl'i:i:i:ffil,91tljjj(.l'ff9ifii\nVOBC .!=j ZC ~.ll::iill fl'l ,..EL* l&¥UZ C 891f%(~1J $1£ifl!HJ'f .G!. A*t, ii'iJ ZC £:1! B<J\n\"~tl $Jg1-Ti£flJi.l !:&JJtl\",\" ~tl $ ~~ iJJCtii;~\" :=f:W, I& lliJ.iiZ -Jg Jjj( 9ifii (!(]\" 3/tl $ Jg\n1-Ti£ifl!J !;&jjtl\",\" ~tl $ ~ iJJCtii;~\" :=f:W.!IR ffi. o\n'I. VOBC {l'Cli W;\" ~ liU' {\\I!Jtj\" 8<J MA 7f-l ,@, rp ~ ~ ;ff f!} $ {,'ji:J,iE 1J'J:;j( fF LL\\ J.iiZ ~, :;f\n3. ~5t{¥${J~'diEiJ1>J< nt, \"{¥${Jtl:liEirr:;J( :xt J.iiZ $:~Wit? l~ tiL ill IR W ID\",\" 1¥\n1j::{Ji.!:i-H'f>J<:xt J.iiZ$:~ Wit? .'~!€fLJ]: iRW{RiHtiil\",\" f!J$f.tt, J,iE1rr:;J(Xt J.iiZ ~f.nilt ,</R\ntiL:il!IRW ID\" ,\"{¥${;ti:iiEm>J<:xtJ.iiZJii'itiilt,~!€1LilliRJ31:iliil:ft:fil:\" ,\"W$1JiliiEi;'J\n:;J(:xt m-w:t? IRJ31:1f~ft\",\" 1¥$-w:iiE njli] J.iiZ\", \".p;' $1JiliiE njli] J.iiZ !¥ ~tl ~\" :=f: l31:\n£:1! l!JkiA. -m;\n4. ZC l&¥UV OBC ~:1!89W$1Jil·liEn(ri]J.iiZBt ,J.iiZ#UWrW$WiiEn(ri]J.iiZJ¥31']~,1.!J$\nWiiE:xtmmft.!=j~~~m89W$1JiliiE~*m•-•~m*mo\n*'l m\n\".tit :!d: 89 :IIi :;f 't-/'f 1£ , ~'] $ :ilH-T ~ :ltrt: ::k .ft it liE ;W; Bt ,\nI. i£ Jt -Jg ~ ::k ilH-T .ft ifi!l!. J3t;\n2. :Jmi£Jt'Jg:lllt::k-oo:; *\n3. ~1j ${ir =f:lfi::k:JI!iJt ( ill1-T~ ji'iJ 'Jgr:JI!i) , ..El.~lj $ tJJ 511=. ~ Bt IBJ, ~ ~. 11JJ! Z 9J\n1=.~~~·$:~~Z9Jtii;~ffi~M~~-Jg·::k-m.\n28",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 34,
+      "text": "T/CAMET 04011.2-2018\n'I. VOBC $::1!\" .ft.itfWHJJl\" {~L!~LFn, m {~:iHIJ :-!j:::;f4l;:lt!:A fltr1J{;f::J? IRJ:x;\n2. .!!!! ll'ifi&*'&¥0\" .ft. i!ff((fWl\" fi'L~.Fo, QJ f((fWEYU :-!f:]jtr1J~:J? !Rf\\1: o\n:lt!J. lliii-9:*'&¥0\" ft itWf~JJl\" {§.~.Fo, nJ:I'J{ ftf! lJ. TWi'f!t•1Jrt:z -ffft~JJl~U :-!f:lltr1J\n~:J? !Rf\\1::\n(I) ffftWm :-!f::IJ,l:::k3(~JitrYffillfrf£:it!:J!ti.)(;J' Eil:E~~:J? !Rf\\1:;\n(2)j(j!fWJ VOBC $::i!B<J{§~1JL ID .x;J']jizi]<J~:J?IRfll:o\nVOBC !/'UJt frm! .IE T~IJ ~{LJ:nt ,m$::1! ~U :-!j:: :lilt ::k 3( ~litrYffil [jf:f£ illmf )(;j' JJiZ ~ tp\nIRf\\1:\" ft itmWI .. ffif .~. c J Jt5'rilll!tl-m~u :-!J::Q::k3i:~rttrYffillfrt£illl!tl-) ,\n(I )~U$:f£:Utli*~Yffil{J'l~m.ll1Jtft.Sf.rttr~~o\nc2 ) ~u :-!f::li'lt::k3i:~lltrYffil*~:i11rHtf.il:'lt.lfr:f:E:ittmt ?KYffil1.il:'l:1\n0\n(3):ittmf~Yffil{i'f%t1L* I T:\nCBTC ilHJIJT:: ,,~V~~~~~~~s·Sf.{.il:'i:1-'=iurli*?KYffil{.il:'lt.5c\n*!I'U Jtfr: (I) ;ij {.il:'lt:;f:f:E:U!:li* ?KYffil, JWJ\niA /9 *~ Yffil ~ ~ , J3. 1$: Tilt .Sf. {.il: i'1 :f£\n:it!: ll* Yffil ' .@. 1;/;J 1$: ft\\1-.Sf. :5t ~ , _§_\n:t(~llfjtp ;(4);e=MA{i'f.@,I;/;J\ni$:W~x iA/9~Yffilm~m*\n7f1iL\nIM:..wJ~tJL J: Wf J3. {il: -T ;;js: :itt li* i*J\n~-~1!1:. I $~:i1:ittll*~Yffil{§.g.1JLJ:\n,._ii~Gfili. .... 11\"1 /9 :;f :ftHFo ~ o\n'VOBC ill~U $ili+r1J !OJ~ ~Qili i'i<J IPJ !OJ{§ ~m Bt, ~ ~111 ffil :;f fiUil:i1 * 5;o il-:\n~i]<]ffift 0\n--------\nEUM RM CM AM\nJ!f~:A;~Ij :-!j:::j£1tJij ~}jlj X X 0 0\n.Sf.rt:~tl$:j£ff;1J~§.l1J X X 0 0\n~Wl:j£1tJ1J~7.!1J 0 0 X X\ni±: x/0*7F·Jt:j£1tJ1J~jjiJT:;fJ'!.~ /J'!.~-Jt<~!JJl:~Ao\n29",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 35,
+      "text": "T/CAMET 04011.2-2018\nI\nI\nI\ni :Uw;l)l~ue ixw;l)l~ue i\n:· ~~ i ~ft·:\n' f '\n:liluJ'Y:~ :!f:J'!Hi'itt :G}::kY:~ :li};J'Y:~ :!f::!Jdtti.t :li}:;ic3i;~\nrnrJJ fll.'ll ForJJ mr~ fll.'ll TilrrJJ\n5. 4. 3. 2 m.Fflffil±Jlfrll±tfitw*\nVOBC m!JEB:;Illtltt~~{4Bt ,J.ilill!j[~*W:{~.~,o\nVO BC Ef{J 'IW:fif\" f.&ffl Fzf tt ;ljfr Itt~ 1-j *\" {~ .~, -E2 Ef{J GAL -E2 i=f , f.& /f 1t}\nfir\" ~u $1ft:ft1~ .~,, -E2 o\nt£;1jfrt£l~lff*pg~_m* 12o\n*\n12 l±Jlfrl±tfitw*\nmol*l~ *11-ff!Jr i.#. ~ {!Effl:tf~\nti:llfti]!fJj( :Ox55; tifi!li]!f:;j( :OxCC\ntUJft I ti fi!l i]!f Jj( 1 ~~=:tc~fflf.@.\n;f.t{tl!.~l=tt\ntJJ~ttfi!l :OxOl'\nm\n;fil Elf:fl ii ZC tt fi!l : Ox02\nti~JJJUzsl 1 ;f.t{tl!,)f,[ 1251 :OxFF ~~=:tc~{flj,@,\n;f.t 1t!(!!R ti~AI= rt\ntt:llfti~J:;j( At, :l;i'V31 OxFF\nBIOO 2 0\n*\n'VOBC ;Jf:!lfl rt:J ZC jt)!\" ti:llftf~f.@, §\" Ht, El3 'f JltAt VOBC l& i!J :i:i ZC B<J {i1f\n,@,, iJl\" tt:llft{i1f ,@, §\" 9=', GAL §$fli~ 9=' B<J \".xt:tfri!J ,@,}T:YU -1%\",\" l& i!J _t -~jj!j\n.@,Ht;$::1f}T:YIJ%\"*.13l:ltitta~~iAtao zc l&¥0Jlt~\"ti:llft{i1f.@,§\" 115 ,xrt*IJ\nJtlf\"$:{i1f.@, §:Jil;i!H:HAt ,JltBt ZC J3ii @1~2: GAL-§. (GAL -§.iJ!!Jr~ 9=' \"mfflfzB&®\n-!fit\"~ 0, _§_xJ3ilffl fzB&®) , Jlt2: GAL -El.$Yi~ 9=' i'J<J\" .xt:/Jri!l ,@,}T:YU%\",\" l&¥0\n30",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 36,
+      "text": "T/CAMET 04011.2-2018\nk-~m•~*~~~%\"*•••~--~~~·ttm~A~\"*~~\n~-0\nLit:i!89\nj;:J:Ij[~*itfilJJ!Hi,ZC !j VOBC W;JL.~~iH~Fo,ZC *~iiJ VOBC\nttMftf .~. § ritr, llJ .ffilWlLlt:i!~ GAL§ ( Jlt;rt} ~~/1'5& iff!J~;;;Jt) o\nv o s c -'=i zc rBJ J¥J r.:l:Jlft mt ~ .1g =\na) VOBC *U li;IT~ JE ¥_:E;ijfj-~{4 )§-, rPJ ZC ~:i! \"lili:Jil& ¥_:E;ijfj-!¥_:E ~~\" {l'f\n,~, -E1 , ;it J:f \" ¥.3:: MI ¥.3:: t~ if* \" * 3: JlR {![ jg \" ¥.3:: Mi 'H' * \" ( T %J ft\n·Jt -E1 jg\" ¥.3:: fflt{l'f '~' -E1\" ) ;\nb) VOBC 7Hil~:i!\"¥.i:fflt{J'f,~,§\" Ji5 ,J:ili:M'~~:i!.11~t&iU ZC ~\n:J! ~\" $l)tj Fz!:¥£;ijfj-1¥£~~ PrnJJ:ili:\" {l'f ,~, §, _§_\" ¥_:E;ijfj-!¥_:E~~ PrnJ $l\" *3:\nI¥J.flR{j[jg\" ¥£M nit~\" ( T %J ft-Jt§jg\" ¥£M nltJ)J PrnJ 1ili: -E1\") )§-'\n~ tt~:i!\" ¥J:M1l'f ,~, -E1\" , 7Hil ~:i!\" 7u ${.\\Lft{l'f ,~, \"-E1;\nc) ZC t&iU VOBC ~:i!i¥J\"¥J:;ijfj-{J'f,~,§\" ,H*IJltlf~JE¥.3::fflt~{tj:)§-,\nill:M'~~:i!\" ¥_:E;ijfj- nit~ PrnJ ill§\", 11~451:iU VOBC ~:i! i¥1 \"7'1j $\n1.\\Lif.{l'f -E1, :JrPJ *f7?K:J£iM1liJt\" 7u $:J£iM1l'f -E1\n,~,\" ~:i!\" ~\" ,~,\" o\nVOBC -'=j ZC i'BJ J¥]¥£~~Yfit~jg:\na) VOBC *IJltlf~JE¥.3::~~~{4]§- ,$L[P] ZC ~J!\"lili:fflFz!:¥£;ijfj-!¥_:E~~\"\n{J'f,~.§ ,;itJ:f \"¥£M1¥£~il*\" *3:.flR{l[jg \"¥.i:t~il*\" CT %1\nft-Jt§jg\"r£t~{J'f,~.§\") 0\nb) ZC t&iU VOBC ~:i!i¥J\"¥.i:i-¥HJ'f,~.§\" ,H*IJltlf~JE¥.3::t~~{4€i,\nill~:i!\" lili:ffl Fz!:¥£M1¥£t~ nrn! $I\" {J'f,~. -E1, _§_\" ¥£M1¥£~ nrn! 1ili:\" *\n3: i¥J.llR {l[jg\" ¥£~~ nltJ)J\" ( T%Jft-Jt§jg\" ¥J:~~n~t~nrn!J:ili: -E1\") o\nc) ZC 7f ~it ~ :J! \" ¥£ f~ nit Jj] PrnJ J:ili: § \" JB , J1L M' ~ ~ :J! , 11 ~ *IJ ltlf\nVOBC ltlf7f~~J!~~*IJ li;/T)i {J'f!llist o\nd) VOBC 3Hil ~:i!\" ¥£~~{s,~. -E1\" )§-, $l/G~~ ZC ~:i! 1¥1\" ¥.i:t~ nit\n• §\"\n~nrn!$L-E1\" zj~I¥Jjt{il!,{J'f,~, .ffM'~~:i!\" ¥£~{l'f ,~, '11~451:\niU ZC ~:)! i¥J\" ¥£~ nltJ)J PrnJ $I§\" ~*IJ li;/TJi {l'f Mi Bt o VOBC 41!: iU\nzc ~:)! 1¥1\" ¥£~~nit~ PrnJill §\" )§-$l.±i91 li;/TH~~J!~\n0\n31",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 37,
+      "text": "T/CAMET 04011.2-2018\nJi: jU:$ :t£ ZC J'B] -!;JJ:f*jj :{ljlcp, jC jjJZ-!;JJ:f*Fo, VOBC ~ ~ '][\" ZC {J?d~:ii!i ffi, ~ lJ; 3(\nzc ttrr Jf :ii!i fi1i a•t , fliJ lt 5t zc .6t :i1d!<J it fl!l IJR [I .1'1\" ·tJJ 1* i'± 1f!\" ; v o sc #tl ttrr ~a~ B9 Elf ::M\nzc :107Fnttrr7fat~(* ..R~-1- zc a~B9fr'Jl£) .JJ!UflilE!i'::M zc .6t:i!B9tt1f!IJR[1:10.1'1\n\";filE!f1'f:ii~ ZC i'±1fl\" ;;J't{iJ!.·!'i'!l£rB9il:1f!,VOBC fliltt1fl ZC ~:i!B<Jtt1f!IJR[!Jg\";ft\n11l!.IJRIZSI\"\no\n5. 4. 3. 3 VOBC ~m ~ ;i'E)(.~Jli\n~~~m•.m~~~§~mM~~~-~~ffi~~~oA~~~\n{EI;fi 9=' ;ff.H\\'5~ ~5FJ¥rf>JH''J~, § rlfff:l:!gJliZ~~ffiill~~~a VOBC ~m ~\nJE~~Jitf§.\\~L~.* 13 a\n*\n13 VOBC ~m ~ ;i'E)(.~Jliii'li .\\lt\n~Oj;l;]~ *l'Ii~JJ[ i)l ry:j\nf~.\\~U£5<. N A-I* P-1 ~:t£I:{Ii19=' ~~\n5. 4. 3. 4 VOBC riflJ ~ ;i'E)(.~Jli\n~ ~~ {§.~, .ffl~~~§rlfffM~~~~ ,§rlfffJtJJiJ~ijjlj a VOBC *'l\nWf~f§~ ZC ~§51-~~fPJ-rlfffBt,::tJPJ~:*rlfff§JE~®J'ia VOBC r\nJfff Ef ~~~]Jl{§.~,Jilf..* 14a\n*\n14 VOBC riflJ~:iE)(.~Jliii'li.\\11.\n*l'I\n~OP.J~ ·!f.Jj[ i)l ry:j\nf~.\\~U£5<. N A-I* j;~;j ~ rtJ ~ !Tfii ?HJ!J ~ iiJ!J\n5. 5 tJT il& 11IH¥ t.5l PR\n:ffj-)S1flt;fj)tj;jl§ ~!tffil VOBC ~fflg(~J!~~l§ ~ttffii VOBC :;f~fflg(\n~Jl~p;J;J~·If(£o :<$:119=' VOBCl :J1H*ttffiiffii~$* VOBC, VOBC2 ti1*ttffii\nffii~$~ VOBCa\n5. 5. 1 ~]§§ VOBC ~Jfl$:~jifi\n.llt~'lf6Gr ,VOBC {Etr]i~_t)t§Jtl~ ZC ~j'[_g(~J!~.JL1R7fL~,\n{E fi :i!i ~ _t )t }Jijf~ ~ ( fi ~ IP xt fi ~ IP , ]i ~ IP xt ]i ~ IP ) a I§ ~\nVOBC ~[PJ~ffl:J!~ll.g(~J!t~, I§~ VOBC ~ffl-1- VIDa ZC :~!' !K)tl§\n32",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 38,
+      "text": "T/CAMET 04011.2-2018\n~)Iffij VOBCo\nttr :IS :i:i ifi! :tm r :\na) VOBC __l::j ZC iE'/irJi1§,!t:J ZC jt:)! VOBCI :!J!t:I89\"~U${ftlt1§\n,~,\"-§,ZC jtJ VOBC jt:)! VOBCI :!J!t:J89\"~1J$j£fljlJ1§,~,\"-§;\nb) :Jfi:IS3H~J5, VOBC J:iiiW Jl::.jt* VOBCI jJ jtJ 89\" ~1j ${ft:1:1§,~,\"\n-§, f& :1;; jt* VOBC2 jJ jtJ 89 \"~U $ {ll :1: 1§ ,~,\"-§, VOBC J:iii -*iiE\n~u $1* !Iffii :i:i ifi! 9:t , ~u $1( ~ -EI. Mit /G MHB :fJT :IS !J=fL m: IE ;\nc) ZC ;t:tH~4~iU 89 VOBC\" ~U ${ft:1:1§ ,~,\" -§~tl $1\"~0 $ :!J !tJ jt 1: r&\n~ £L ~tl $1C ~ -EL Mit 7t ~ :i1t -=r m :I S ttfL pg , mu iA :1'1 ~u $1* !Iffii , ff ~~\njtJ VOBC jt* VOB j£fljlJ1§ ,\\~j,\"-§,;\nd) VOBC ~itl VO~sYJJ~~~e~\n5. 5. 2 ilt fig VOB\nll:t ;fr'tj!H£ Bt $ !fX.~t<:m.'­\n~J1.1(~J!}~o ;(:E:Jfi·'\"' L\"<T-\"=~\n~~o ll:tBt VOBCl, VO ~---~:.~.\njGJVt)5, VOBCl r:H~__I::j ZC 89 VOBC2 89)!}~ ( __l::j:Jfi:!S lfu\";f§\ntt, __l::j ZC Ji1§89 $~1&11 89 tt ill£ lijJ IP i!J!.hl:jt{t 7 tJJ 1*) o § ~ VOBC\n*ffl/G ~ 89 VIDo\nttr :IS Yfit ifi! :tm r :\na) VOBCl __l::j ZC iE'/irJi1§, jtJ ZC jt*::z!s:!Iffii\" ~lj${ft:ii1§,~, \"-§ ,ZC\njt] VOBCl jt*\"~U$j£11JU{§,~,\"-EI.o\nb) :Jfi:!Sff~~E, VOBC2 __l::j ZC ~~J1.1(~J!~,.'}fjtm\\ti:f:!JLJi1§\n~JL.J5, VOBC2 ~IJ$'T~U$W~E !tJ ZC jt*::z!s:!Iffii\" ~U ${ftli1§\n,~,\"-§, Jt 9:t \":Jfi:IS~~\" pg .Y: J:iii :1;;\" AR ~~\" , VOBC J:iii -*iiE~U\n$1*!Iffii:i:iifi! 9:t, ~U $1(~-EI.~/GMHl::l :fJT:Ig!J=fL m: IE o\n'*\nc) ZC __l::j VOBCl, VOBC2 ~ B;j\" t~ jj 1§, jtJ ~ VOBC jt * 89 pg\n33",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 39,
+      "text": "T/CAMET 04011.2-2018\n1) rt)jJI.] VOBC )t}}IJ$:~wJffilfi<J\"jU:tj=:~1ffJJ{~}~,\"§;\n2) rt] -j)ffij VOBC $:~·J$:j)ffij 8{]\" j!J :tj=:~1ffJJ {~ ,~,\" §, rPJ J'j -j)ffij$:\n~\" ~~~1M:tlix\" §, Jt r:f\" ~ ~, 1fflJ Zjjifr~\" ':f:tlill!l ii[$1-JJ\nZC *;jj!jJI.)j)ffij VOBC $:~8{]\"jU:tj=:{:\\l:Ji{~,~,\"§rpfi<J\"~fflj)ffij\" Ej\n\"AR J!* ~\" ':f:tli !#Ij ltfi rtJ jJf,] j)ffij $:~ 8<J {~ ,~, i*J ~ o ~Jl\\Jj!Ij -JJ :\n• ;E=jJI.)i%l\" jU $f:il:~tf~ ,~,\" -EI. r:p a<J \"~mi%l\" 1~ -~,:i:!g -JJ\" ~~~m\nj)ffij\" ,Y!lJ rt)jJI.]j)ffi)Fi'fiB;f$:~\" ~~~1!l!J:tiiX\" -EI.o\nm\n• ;E=jJI.)i%l\" jU $f:il:~tf~ -~'\" -EI. r:p :fr £*L f .£:ff- i%l a<J \"~ i%l, 1~ ,~,\n-JJ\" ~ m i% l\" • mu rtJ it< i%l $: ~ \" jU ~ 1fflJ 1~ ,~, \" -EI. , rP1 J'j - i%l $:\n~\"~1JR~1ffJJ:tliX.\"§;\n• ;E'jJ~.Jj)ffij\" jU$1:\\l:Jif~-~,\" § r:f 8<J\" ~ffli%l\" 1~-~,:i:!g-JJ\" ~ffli%l\",\nJj!IJ #Ij ltfi\" AR J!*~\" : ;:5 :ff £!. {)( :ff-j)ffij 8{] \"AR J!* ~\" -Jj\" AR J!*\n~\" ,9!'1 rtll!<i%l$:~\" jU $~1lllJ {~ ,~,\" §, rtJ J'j -i%l $:~\" ~1JR\n~1M:fliX\"§ ;;E'p;!jj)ffij\" AR J!*~\" :i:!g-Jj\" AR J!*~\"~\" ~~ AR J!*\n~\" ,Y!lJrtJp;!jj)ffi)Fi'iJB;f$:~\"~~~1fflJ:flix\"§o\nd)\n1) :tj=:~::tJ$1~-f* ZC Fi'i]B;f~j,(ilj VOBCl j)ffija<J\"~fflj)ffij\"{~,~,-Jj\n\" ~)% j)ffij\" , VOBC2 8{] \"~ ffl j)ffij\" {~ ,~, -JJ \" ~ )% j)ffij\" , £!.\nVOBC2 8{]\" AR J!*~\" -Jj \"AR J!* ~\"; z)§ VOBCl i¥J \"~)%\nj)ffij\" {~,~,:1JPJ~.-:h\" ~~~)% j)ffij\", if PJ 3H~tt#.i, VOBCl $1;(£\nVOBC2 fi<JjU:tj=::lfij(3'(~1Wi%lilim:fJT1SIK~1Wrtl ZC $:ilitl:\n-fiHW*o\n2) VOBC2 ~ilj ZC $:~8{] VOBC2 ::tJ[t]a<J\"jlj:tj=:~1fflJ{~,~,\"§\nZJW, :tj=:~::tJ $I -f*iiE VOBCI, VOBC2 $:~ 8{] jU :tj=:gc~§*\n{ljij~/flffi:ii 20 Cffi0\n3) VOBC2 ~ilJ VOBC2 ::tJ[t]fi<J\"jU:tj=:~1ffJJ{~,~,\"§J§,3ffr~;Jm\n~~~~$.;E=U'ij}~~~Aiffi:iiMi%lJ§a<J:Iiij;:3'2~1Wi%l\n34",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 40,
+      "text": "T/CAMET 04011.2-2018\no.\n-5ERE:~C1§'5E 5 m,ilJWCil':,~i*~-ffitEIW~P~5E),\n.ll!U VOBC2 Bla~~f*:M': CBTC ~fgo\n4) ~~%nlL/15,VOBC1 rPJ ZC ~:i!ttf~-ijp~,ltlf3f.!::j ZC 8<J\n:i!Ml:\n0\n5) $~:/JJ:ili:iifijf*, VOBCl .!::j ZC fEf~JGnlt~ltlfJfjj{]§fjg,\nVOBC2 rPJ ZC ~:i! B<J::zjs:~~U ${.\\IIi':{J§i ,~, ~\" :tFfjg~~\" 1*J!@:\n:/JilJ'&.1g\" ~~ AR ~~\" o\n6 VOBC -ATS mx~ffi\n6 . 1 :ti IJ it :ti 1.7 j\\';\n6. 1. 1 !lo/Jil:tiiJ\nV0 BC .!::j AT S ;<::. i'BJ :~Htl JC ~ fxxj;~ :itHl' jj {]§f o AT S .!::j V0 BC ;<::. i'BJ i3<J lXX]\n~f,fif~~;f~3¥Jfl A lXX]-A lXX] ,B lXX]- B !XXJ]J;q-1-fi!Jmo\n6. 1 . 2 gc ~ iM f~ i1J. i${.\nATS .!::j VOBC ;t:!'B]jj{J§iilJ*=.Ff:l RSSP- II n,X; RSSP- I gc~jj{]§ft}}\ni)(o RSSP- II gc~jj{]§ft}}i)(Ef<J~{.lt;.~*~~Jg~{J§f%(2010]267 %)(\n{tj:{RSSP- II ~Jm{]§f.Ji5-gc~jj {§t}}i)(~; RSSP- I gc~jj {§t}}i)( i3<J Ji,{.it;.\n~*~~j*gff~l{ J§f%(2010]267 .Ji5-)C{tj:{RSSP- I ~Jm{j§f.Ji5-gc~jj{]§ft}}\niX~o RSSP- I gc~jj{]§ft}}i)(B<J'fu'~~{tj:.1g{l!!.Ff:l LTE- M jj{]§f_§_\nLTE-M Ji-1lt~ D tJoWtt:!f:nff!:ilJ i?JJ l!:{l.J~ ,CBTC fR'% ~ mr.t~ -=:fg~f*~\n* o :ff:llt'fu'~~{tj:\"f ,lt*.li:l RSSP- I gc~jj{]§ft}}i)(o\n:l!O 00 6 Wfff\\, ;ft: SAI/MASL/ ALE -=:Fzf:, ~1m RSSP- II ;f~lfH~}E o\nTCP-.& IP Fzf:{l!!.Ff:l;f~$ TCP/IP t}}i)(~o\nMAC -.& PHY Fzf: llil tk: r :;f [PJ i3<J lXX] ~ # ~ , :7C ~ lXX] ill! .li:I:7G ~ ;f~ $ #} i)( ,\n:1:!!! 00 lXX] {l!!.Ff:ll2t:k lXX] tJ}i)( (IEEE 802. 3) o\n:l!OOO 7 Wfff\\ ,;ft: RSSP- I t}}i)(~1Jli RSSP- I t~fi~~JEo\nUDP Fzf:{l!!.Ff:l ;f~ $ UDP t}}i)(~ o\nMAC -.& PHY Fzf:lliltk:r :;f [PJ 8<J lXX] ~#~, :7C~ lXX] {l!!.Ff:l 7C~;f~$tJ}i)(,\n:1:!!! 00 lXX] ill! .Ff:l ~ :;k lXX] tJ} i)( (IEEE 802. 3) o\n35",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 41,
+      "text": "T/CAMET 04011. 2—2018\nVOBC ATS\n|\n| =\n8\n2 ~ , ; a 1\n| 1 1 , 4 4\n, I { ‘ ‘ ,\nss - . -_ a we 8 poe. 4 (2: + 4\n802.11-802.3\nan\n802.11-802.3\n图6 无线安全通信协议 RSSP - TR\nVOBC ATS\n|\n2\na a\n| 3 RSSp- I RSSp- I\n_\nLue || wor pwr || woe\nES\nB :\nn . ’ . .|\net : 1 .\n总 | :\n:\n802.11 -802.3\n_ Bridge\n802.11-802.3\n图7 无线安全通信协议 RSSP -工构架\n36",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 42,
+      "text": "T/CAMET 04011. 2一2018\n6.1.3 动态交互描述\n6.1.3.1 通信应用层消息包定义\n将 ATS — VOBC 问每个周期需要父下的应用信息通过组成通用消息\n包进行传输,如图8 STAR\nk.1 k.2 k.n\n-一一\nesa\nAS 通用消息包和应用层信息包关系结构图\n6.1.3.2 信息包格式定3 OCWALONo S\nATS/VOBC 5 FF YAP PAT Aik IONE BIS fT eddy\nA ATS 与 VOBC 22 RGRAY & 2 IHF EL 3\nRan\n‘SUT GR AG 1 alate NG AEX IL 15 和去 16.\nme 11\" ite, 一 Ay\nA} a VA ;\noh 7 A . ra of\net ee 0x0204:ATS - VOBC F¥\nAM 2 类型低位\n3\n标识信息 < (bit ram) AG IT We tr\n6 !\n7\nHe ly 一 8\nREMC | 吕的ID | 4字节 | 接收方设备 ID\n标识信息 9\n37",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 43,
+      "text": "T/CAMET 04011. 2一2018\n表15 iF AS BSR EM (ee)\na a ny 字 0] re 1a “re a Yate Ae\nfre EA RE len +e 段 le Be fri EM aE SC RY\naA 7\n11\n| ATS 4 VOBC |\nKIRA REx: | 12 . 本 igh | aceay | ATS BAIA MPa, ATS 5\n之问的版本 4p 、 aq pe pe an ps\nas fy a | 1 . ‘ LYS AS es ud £2 AI\nfei EM 13 se EAS VOBC [il 19 the ie AB BE 1\ni4\noe { -一 一 _ -. ee -\neS | 7 的周期计数\n' 18\n| 19\nal 47 JA) 1] 27 IE fir (7 IY | OY ems\n20\n1\nage | 2 记录用到对方上-条消息由\nhe nin _— A MYX ALLA ya fs\nmm 23 UAH 20x FF FFFFFE*\n| 24 : |\n收到上一-条 26 记了秋收到对六了上上一条消息\nTAY AS 4 字节 |时,本方的周期计数\nyewygh | 27 默认值:0OxFFFFEFEE\n28\nVOBC - ATS 的协议版本,本\n应用导数据 | 30 | | “度用层数据\"报文结束的字\nUs 应用层数据长度 | 2字节 | 全\n长度 31 13\n38",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 44,
+      "text": "T/CAMET 04011.2-2018\nfi'l .@.~.lEX ~11 ~ ~ *~ {i'f.@, {ft .lEX lJ<. i)i.ljij\nf.!lU%\n32-\nE~Zmm~m E~Zmm~m :3t-!.~ ~J!i!.* 16 m:a:.JEx\n1 000\n'1. ~mit& :2ji: t3l: ~ {§ ,@, JlR {UJll. .!J!Ij :(£ TfJHJr ~ ~ .lE ;\n2. ZC/ ATS !J'Ij Wf\" ~mJt&:lji:t3):~{J'j,@,\" :!j\\1;\" t!J.i)(Jt&:lji:%\" ~~t3):~/Gilli uBt, Eli: :it!\n{'j-~§:!j\\(;W(Jfilljfg~1Jll.o\n\"J¥ ~IJ% :ff ~ -m /9 1 - c2 \" - 1 ) ~ m :JJ Ell .W 1iE 1:: .1lR iW* § {~.@,§at , Jt!J 1!1. {~ .@. *\nrr 0 m, r1:\n1¥1\" *:1Jrf!l .H!.J¥~1J%, ~~ 1¥1 &:1l1Il3 \":~m f~ Ji!il ffi ~ .1lR p;g § rf!l .H!. 1¥1 M\nIBJ *i'BJ IWi o\n'~ 1& ill M:JJ rf!l .@. st, :9'P3 :!RiA -m o\n{~.@.~.lEX ~l)f.!lU% *Jtpg~ i)l.ljij\nI\n*Jt-!.~~\n*X -If~ §.lEX\n2 ( *Jt~ID! - *Jtt;!i*)\n3\n.JEX:Jtt-~EIIFH\n§.lEX\n*Jt~ID! 4 {J'f.@, 1¥1 t'F i.Jt\n5 0\nB\\00 B\\00\n6 0\n*\nn!!*xm:a:.JEx 1¥1\n§.lEX\n*Jtpg~ 7 - *Jt~i1i*\n*Jt:ll-f*f);]~\n6. 1. 3. 3 iai1l:1i~~~~\n:iffi f~P~ ~ \"'f Jlf!m -EI :JE :tm\" F 1*1 ~ =\na) A TS mx t M:; L& ¥U 1¥1 V 0 B C 1¥1 m f fl1~L~. :1111-T i; ;% ·ij: 1il: 1lt , ~ 1il: 1lt\n*:iiM.~~*~AA*L&~xt~B\"Jmffl*~~~~-H~~~\nMe , :Jf i.e }}HIP~ f~L~. a J'J.-f* 1il: 1,t ~ :r.t :tm\" F :\n39",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 45,
+      "text": "T/CAMET 04011. 2-2018\n1 ) m .~ , I*J ~ B<J-3~!cl1: ~ 1lt = -EL :m fj§f .~, B<J *~if rt ·11: ~ 1lt , * ~\n~ll ifi f7 't ·11: ~ 1lt ' ~ Et.. {j§f .~, jG ~ tt ~ 1lt ;\n2) DfflmA-ELmAM~-EL*fi<J~Afi<JJG~tt;\n3) Jt1m~m;f-5t1lt o\nm*\nb) ATS %il VOB*C ~**~? tJ *J! J:xtD fj§fJ!~ik:~:itHr*'l Wr (fir *~f fl\nm G AL -EL 9=' ~ rr *uW r, fffi ~p 1e ~ :ii fj§ftJJ-iX m fr B<J *U\nWf):\n1) ATS iJ,.-j;.!=j VOBC Ji{j§fl=j:lltlffi<JJI:HB1E11i'BJ}E)(.-jj TAtsTimeout,\nPJl!C!t,ti*{i[:6 s;\n2) VOBC iJ,.-jj .!=j ATS Ji{j§f 9=' ltJT fi<JJI:HB181i'BJ ):£5(.-jj TVobcTimeout,\nPJI£.1': 'ti*{i[ :6 s;\n3) :;& ATS :(:£ TAtsTimeout JI:HE11E11i'BJ pg, ~;ff~l&¥!J* § VOBC\nfi<J ff{iiJ i~ .~,, JJ!Ij ATS ~iJ,.-jj .!=j VOBC fi<J :ii {l'f 9=' ltJT;\n4) :;& ATS *tiltlf~5l¥iJ VOBC B<J GAL §~:IE E.~:itiiJ TAtsTimeout,\nJJ!Ij ATS ~-!:1f:JJt GAL §~iJ,.-jj.!=j VOBC :ii{l'fl=j:lltlf;\n5) :;& VOBC :(:£ TVobcTimeout Jm 8181 i'BJ pg, j)t ;ff ~ 1& ¥!J * 13\nATS fi<J{f{ilJY~.~, ,JJ!Ij VOBC ~iJ,.-jj.!=j ATS B~Df§iflltlf;\n6) :;& VOBC *'1Wfl&¥!J ATS fi<J GAL §~:iEE.i'£:itiiJ TVobcTimeout,\nJJ!Ij VOBC ~-!::J:F:JJt GAL §~i*J,. -jj.!=j ATS Ji{j§fl=j:lltlf;\n1 ) ill'i fl'i 9=' Wr B<J ·11n£ r , ~ 1: nX; i7 fl'i .~, ;\n8) E:.l!XE:.D~IXXJrp,~r~B<J VOBC .!=j~5R-~~J:fi<J ATS 8~\nm\nD{j§fJI:HEI1E11i'BJ~ -3&, .~,;ff~~M EI118J~ -3&o\nc) ~lj$:(:Ew;i ATS i'BJ~xff;f, VOBC *'1Wf~!J$:/:ii;J\\'J;c~J§\"~~:i:1\nAT S Ji1 !{-.8 )§\" , ~ .!=j ~X AT S ltJT 3f :ii {f'i o\nd) ~{51!ffl'J;c~;ii{j§fti}i)( RSSP- IT 81, VOBC *!Jltlf.!=j ATS ltlf3f:ii\n{j§f ,Ji~{J}.!=jm ATS ~JWTJ!Jl.Ji{j§f}§\" .~Wf3f.!=.im ATS fi<J TCP/\nIP a~; ~ {il!ffl '!;C ~ D {j§fti}i)( RSSP - I Ef;f, VOBC *tl ltJT .!=j ATS\nltJT 3f:@ {j§f , li ~ {l} .!=j W AT S ~ .iWT }! 3L D {j§f )§\" , ~ ltJT 3f .!=j m AT S\nB~ UDP :i!~o\n40",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 46,
+      "text": "T/CAMET 04011.2-2018\n6. 1. 4 iMi~t&i!t~!l\nEN50159 :2010 r:f:l~.&i¥1 7 #7f:$:J:t~tit;ff:f:Ei¥J~~Ji{§ JX\\.~:15) Ei3 ~~\nJi{§t!J.i.5llt!:fri?JJ1P ,JXI.~-§:ffi :!!!~ ,JllllJ~ ,miA,!f!tl~!r ,tM~, {1.1~ ,~JlS a $\nJL#·!fi£:\n:till:JC~Ji{§,zy_)J(ATS-VOBC)Jj)IfflFzfi¥Jii{§~~~H.liL5t:jg~Qr\na) ATS ;ft:J VOBC X'tr:Jtt&iU i¥1!1!~ ,~)Ti¥J}j)Iffl{§.!~L *fflii:lt-*\n#i¥J:JJJ:tlt!:fi~~.*H~:jg*~M*t&~X1·:JJI¥Jllliffl\n{§,\\1!,; *\nb) Ji{§ r:f:l lj)Ti¥J·If(£ r ~~: ATS/VOBC ~:jg ~:X;f.:JJ Jj)IfflFzfii\n~HMr:f:llj}T,*~~~-::fjj:~~~:Jti¥J}JJ:\\:JtEfi~~o\n6. 2 iMi~{;$:~~#il\n6.2.1 iMi~:fl~\n',..-.------------:il-liff-i~~ -------------..-.,\n6. 2. 2 iMi~fflittJ\nm :m\nii f§ 1jj!J -El. ~or I*J ?/I. =\na) {£~~ Ei3 VOBC £~~~~:Jti¥J~.1L:i:1~;\n41",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 47,
+      "text": "T/CAMET 04011.2-2018\n*\nb ) A TS !3 V 0 B* C f *fl ) WJ :l'm ~ :i! ;fO 7J!L~JM! ~ 8{] 1f ;r.t :itt 1'1 illl1~ ;\n.m\nc ) illl1~ m 1r :l41 :~ffir¥ 11 ff :itt 1'1 ~:1m fHtu ;\nd ) A TS !3 V 0 B C :i4J Jjiz x;f ~ 1& 8{] Jjiz ffl1~ .~.:itt 1'1 *IJ Wf ;fO ~ m : IE~ o\n6. 3 ~D~tiJH{i'j~\n6. 3. 1 ~fm~~~~\n7-js: 11 :X;f A TS .!:ij V 0 B C ;<: fEi] illlf~ 8{] FJT :ff Jj\\z ffl1~ .~. ~ lli! .& :;It* 5<. , ~ :i!\n1f rP1 , Kltm: IE.~:!! ::tf:r.t ( JWJ :J'm!~~ JWJ :AA) :itt1'T J£5<., JJU~ 17 o\n~ 17 ATS _g VOBC ili~l'f.l]iizffl~i~.~-~~\n{J'j .\\\\'!)),~ ID1 {J'i.@,§~ ~:i!:JfloJ .~. -KJ.i C¥11) ~:i!:Jf:rt.\nmWJ\nOx0201 A TS {,• ~E{J'j .!\\'!. ~J!r ATS---+VOBC 4 +8\nmm\nOx0203 ATO 1f[r~{J'i.!\\'!,!JWt ATS---+VOBC 4\nOx0205 ATS :I)£$ 13 };E)(~J!r ATS---+VOBC 4 ~~=mm\nOx0207 ATS )lflf 13 };E.:X.~J!r ATS---+VOBC 4 ~~=mm\nOx0202 A TO tJt ;:5 {J'j .@. ~J!r VOBC---+ ATS 4 mm\nmWJ\nOx0204 ~tltj::{J'i.!\\'!.!JWl VOBC---+ ATS 4\nmM\nOx0206 $~i9:4k1!i~{J'j,@J.dr VOBC---+ ATS 4\nOx0208 $~19:4} B ~:l*i5f§.@jJ!i VOBC---+ ATS 4 ~~=m~VJ\nOx020A VOBC :1)£\"$ 13 5;£5( ~J!r VOBC---+ ATS 4 ~~=m~VJ\nOx020C VOBC )lflf 13 };E)(~J!r VOBC---+ ATS 4 ~~=mm\n6. 3. 2 JiiZ ffl i~ .~. ~ ~\n6. 3. 2. 1 ~~\nm: mo\n7-ls:11 r:f 8{] \"~~'?!\" iE 'litilll1~M ~:i!::tf/fPJ~~~:i! 8{] ~~ '?! 1& ~\n*'J\n1& 1f 1& ¥0 GAL -§ rF 8{] Jjiz ffl1~ .~. ~Jil rp 1¥ ;(:£\" ~~ '?!\" ffi B;J , Jjiz Wf 7-js: GAL -§\n~:Jm:*ff ~, ***GAL-§ ,:Jt-i}..jg:<'js:)WJ:Jtij*l&¥U~:Jmo\nm\n11 r=P 8{]\" ~iA,\n=\n42",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 48,
+      "text": "T/CAMET 04011.2-2018\n( a) # xt J'!-f* I ;w 9=t :IF~ lJn i¥J :91 ~~ , iHH\"lli Xll :1J PI :(£ J'!-f* I ;w 9=t ~ JE ,\nm\nffi*-~3:I&m::tX~\" ~R\" j\nc b >' l&~rrw~~1tJCntiW. x#;;rifflJE:tk:~ at. :fJ3 *-~3:1& m:tX~\" ~\nm\"\niA o :f~t&::tJt&iU\" ~iA\" m:;g, EiliA:191\"lli ,lj'J,:ff~ ,/FitHT:tl1lflo\n*¥tv *m\n:z1s:11 If<.\" _t fi, , \"rfr\" B<J::tJ rP1 JE:X.. ~ ~ 'if::tJ rP1 ~Jli.JE B<J _t\nr1'T ii$f~st. WI;{;~Mt _t r1'T~'if:1JrP1 JE:X.::f-3&Bt. './X~_t r1'T:1J rP1\n0\nm\n1\"llf ,!j'J, i¥J ~Jli.Y!IJ fiffl JE jg: './X~ :1J :J:t( ~~ § 5J-J9T mi.~ JMt ( ATS J9T Jm ~ JMt, VOBC\nIt*\nt~ *3 C ~* 1 W ~ FJT rr ~ Mt >_ t r 1'T JE sc;~ 1'T '!X~ , El3 tt t& ::tJ ~we :tl1lf! o\n11 B<J \" M oo , ~ 3: •' !X~ ::tJ m- ±A o. tt t& ::tJ PI :IF xt M oo ~ 3: HH'T\n* *.\n:z1s:11 B<JttJLm IK3: 1*1 B<Jilfnf$:@: .~lf£,¢.(~:19$~ !'fl. -Tif!l.~ -~ttnm\nIK3:m$~i'fi.-Tif!l.OO_tfi:1J[P]i¥J~~o\n6. 3. 2. 2 ATS jcJ VOBC ~~~:!m\n6. 3. 2. 2. 1 ATS 'L' ~t fi1L'i'H!lr\nfj§ ,ll'!Jlil :1m '!X~ , J=li?!E MH4f A TS 19: ~ ;fO V0 B C i'BJ ill! fj§ t\\i iMt i¥J ii ~ 'i+:L\nATS 'L'JiiJ~fj§,!~!J_w_m~ 18o\n~ 18 A TS 'L' ~t flli ,~, ~Jlr\n~oi*J~ *1l*lt i_#. ~\nip I :fi~rr£oo 11 -99U&~ 2011 -2099 ip) ,ii1Het'I1~Ex~\nJl I :ff~711Em 1 -12,i!'liilim:Emx~\nB I :ff~711Em I -31 ,i!'liH:Jm:OOx~\n;j\\At I :ff~moo o-23 .mill moox~\n?till' I :ff~7!1oo o -s9,i!'liili711Emx~\ntJ!ill' I :ff~moo o -s9,i!'liilimoox~\nl1: atl!Pfi-1,~.~51..-:h ~ :i!!J.at ISJ o\n6. 3. 2. 2. 2 ATO ifP~flli JjUJlr\n~ ATS i&~FJrtg$'i!H~00 pq :ff~ltl~~tl $, ATS }3\\Z]j!i]:Jm [P]i,t VOBC './Xvs\n43",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 49,
+      "text": "T/CAMET 04011. 2一2018\nATO 命令信息.ATO 谷令信息帧内容见胡 19 -\n表19 ATO 命令信息帧\n| ,\n| 00 ~ 65 534 有效\nBe % ey 7 Be ty 2 BETA -OxFFFE\nBY AW AR TP AEM, ACK BR AL\n24 RR Ag 2 | 2 SR RA ay eM BE - Ep ill\n| VOBE fe Ae iy ao rE ZC APA BRAY OR -\n. 、 个 ZC1D “eK A iy He” Ee SE TAO Be\nkK - ZC ID\" . 4 2 ,\nTAP AY] aif\n| BETA GH Ay 0x00000000\n— VOB te AE 4 iat fe CLAS FE x ER ADR -\nK— CI ID\" 4 14S CHD\nTRIAL Ay Ox00000000\nVOBEC See Ac 4 iy oi HT fe ATS AF FE be bok PYF\n下一 ATSID\" 4 一个ATSID\nIAAT A 0x00000000\n4 AL EB ERB ee ae aL\n, 001 ~ 999 47 8 HEN TC\n为叭:标识\n源线路号 > 列 下 tn Ae ih 2X eS aa 2, PME :人怀识\nRUA -OxP FEF\npe 0001 ~ 9999 47 &, Ht Ht te TAG a , 0000 2% HK\nA. 次 了 2 、 _\n; IMA\nFl ety St 2 Be 2 BETA ft -OxF EFF\nBi) 4290 H HS AK BRL\n44",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 50,
+      "text": "T/CAMET 04011. 2一2018\n#19 ATO 命令信息帧(续)\n列车运行计划中列车运行的终点, 用ASCIHI\n们表示,好多4个AScCI码,低于4个,商位使用\n“| fig dy 3 4\nI] FY Sb | UA GE-OxFFFFFEPF\n| | Sih OAK PES Act 4a De RA\nRARE Cr re fe TPE] aff\n绚车运行计划中列车的运行方向\n计划运行方I ] I fy 2 Ov5S; PB Gps OANA; PRGA OxPP; MH fi;\n1 — TTT fp A yh He ID BEE a GE\nWe Ae ak FP ID\" | RIE a Le FH RR ORR ASE CE ER fT\nyy 0x00QQ0000 了\n-~ SOO ; . L) -\nFU Yep vr . ~~ —_ . Ny |\nB= He cht 1D\" nin i ek A EAS PDE Lh BE BE A\nSN ID” BRAT 4480098000\n= a a)\nwl y Shr: Bp\nPe 不小 J 0x0002 fies, Teel:\n站位有时间 | 2 |2~65 534\nME AL OxP RFE\n' ee 1 | ee\nFk BE 0x55\n下 “yi BIE Me i 1 r ee as ip WA | rl Ef x\nBRIA CY :OxFE\nHeft AB ve\n| 运行等级或区间运行时间(发车到下一站停\n, 车) ,根据业主需求确定, 在下联开通线网中应\n区间运行凋束命令 | 2 | ARAB EWG Aa (RD Oe aes AP\nBE— a0 FE K [i] we fo ie) AS aR SOA PR TAL. UU Fe\nVOBC 约定的默认运行曲线运行\n45",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 51,
+      "text": "T/CAMET 04011. 2一2018\n表19 ATO 命令信息帧(续)\n扣车有效:0x55\n扣车取消 ,无扣车:0xAA\n站车命令- 1\nSE ft 2 iA {f .OxFF\n其他非法\n| 4n \"skh & ID\nRL iA {iT -0x00000000\n1 Ae AS ST AE DU Ze a RD se AS a AS FI 4 ak\n取消本站扣车,则发送默认值\nJe: Ap UE AT Hy\nsali iy Dr i 0x55\naie 有和人站后折返:0xCC\nLp ik fir 1 oo -\n人 无人白动折返:0xAA\n不折返:0x33\n号认值:OxFF\nAL ape (rel Be. Io] B 0x55; 4S [al Be -OxA As ER\n“pe & a 1 Le At ’ : ’\nfit] Fe 4 oy | Mit Ox FF\n| SPAR 2 ALE 0x55\nIFAD. IR KAY -Oxe€\nlea} sf IT ASA YS re A YT SOx AA\nRIP AEDT BRIT Ay 07 2 I Ue) ob SE POs\nCORT Jha by fe RT Be oT EL aa DA)\nFIR ATE TER AED JA Tt He RP 20x22\n门控策略 | , 关双侧门:0x88 ;\nAOE FED TARR AEP EE A) BEE FTP] 20533 ;\nSE FRA TT AEE APT UE eT a HR ACT] 0x44,\nPRU (HE -OxFF\nWE CA BAW Te, Ae DEP DS RE. OPER SRY\nAAT ME SATE MEY A Ae DE eA A ln) AY Ae\n4 fill\n46",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 52,
+      "text": "T/CAMET 04011.2-2018\n4\n·~- ZC/Cll ATSID ffi.~. ,;(if'fi.t:Jtll ~U :$, ATS 1't;: m~~U :$~ ~-Tit:JGIJ 1t :m~1j :t;:::m:\n:k$:3tliiJ~Yf:(:E ZC/CI/ATS (1<]~-1' ZC/CliATS,;JtloJ VOBC ~:i2i;xt'f~F\nif:JGiJ~U $, ATS ~J!l!Jki)... f1io\n\"ATS 1oJ VOBC !1!:~\" 3\\U~~~~~ ID\",\" Itltflf~~~ ID\" ;fl:l\"~ -~$~~~ ID\",\" ~\n-~~Itltflffr;~\",\" ~~flfBti'i3J\",\" 1Ri'i3J~~'Ji]al~fr;~\" fi11.@. (:I<:J'M\\!ilUJ'l:\nI. \"iU~~~~~ ID\",\" It!~~~~~ ID\", \"~ -f\\?$Y~ ~ ID\", \"~ -~~Itlt~fr;~\",\n\"IR i'i3J~~'Ji}aj~fr;~\" ::f:f!i:, ATS i& iiJ VOBC fE ~li ~ ~:)! (!<] \"~U $fi1f .~. $J)l\"\n9=' a<J \"~~J $Witflf~:tJ\\~\" ::f:f!i:lllt 00\"..1'1 \"f.!? :ttl£!. Wit\" C~ f3i ffF\" f.!?l!Ef.!?~:tJ\\\n~,) nt ,]!!~Jg~ -~lil~ -IR i'i3Jfl1f .~., ~ ATS *i&iiJ VOBC ;(:E~~li ~ttl\na<J\"f'.}l{Eft}~,:{;}\\~\", Jill] f:E ATS #Ul tfr~U .$1±l ~li ( ATS $_ f*i..iE: ATS #IJ lt{r~IJ $\nili ~li (!<] Bt~Um/flf!.'f VOBC #IJ lt{r~U :tj:: :Q :k:ti: 3tlltr~~ 7Hli ~tiL i1! IR f!i: (!<]\nA;f~lj) Bt .:11!~.1'1~ -~lil~ -IR l'i3Jfl1f.~.o\n2. \"~lif.!?Rt 1'81 \"::f:f!i:, ATS i&¥UV OBC f:E~li ~ ~:)! i'J<J\" ?U$ fi1f ,@,iJiJ)l\" 9=' (!<]\" ?tl :$1.!}\nl!E~:ttl:tJ\\~\" ::f:f!i:JlltffiJg \"f.!? :ttl£!. f.!? liE\" Bt ,llltOO\". ATS Wlf/Htl $:(:E~~lif'-.}$ (!<]\n,g,Btl'i3J ,:!m~~liBti'i3JJ'l 30 s,:(:E?tl$f.!}~~:j!JJI'i3] ATS JWJWJtt~:i! 30 s;ATS i&¥U\nVOBC ~:)! (!<]\" ?tl$fl1f.~.$Jli\" 'fl (!<] \"~tl $~lfEf!?:ttl:tJ\\~\" ::f:f!i: Jllt 00\"./f .1'1\" flfttt\n£Lflflt\" At ,llltta:hl!lki:Atao ~~U$~F~It~:tt!Wll'i3J, VOBC i&¥U T \"~liflfnt\nl'i3J \"::f:f!i:lllt ta:h~Flllki:A {a(!<] ATO frr~fl1f.~.$Jli ,J)lU VOBC ;;fnjiij$_~~li~Atl'i3J o\n3. ATO #UitfrmJE!tltf~~{lj:a;J ,$_njiij$.1Ri'i3J ATO Itltf!ffr;~~llltri1l!tlt~fr;~o\n4. iU~li~li ~::!Htl:t;::~q.:r~q£_t i'J<J~ -1'-~li ~, 3m.:!J~ It!tf!f~li ~, JiliJ %1l It!tf!f~~\nfl-3& , 1-? !ilU ;fil ~ -tHliY~ ~-3& o\n5. ~:9U$$f~~q'T ·*~:ti ATS Jb.!Jf-, $11 ~li ~ J[l;l 'f~ ~i ~~'lf$'~'Wi 00 at,\nllO~~fr;~IJiJJl~:i!E~atm~ffl·A~~o\n'I. ATS $_~{f!;iii!:1\"/:lllltrMo:t;::fr;~a<J~fL\nc1 ) xt .!f!.-t-~~~ B<Jiii!:Nillltr!1lto:t;::;\n(2) ;(<j\"3t~~li~ a<Jllltri1l1o$;\n(3 l -l'Xttx<tllil1Jiol it1'~li~ i'J<Jiii!:.'!illllt 7Mo$ o\n2. 9=' {.•%1l$~li:l:5:J~1H9:.t'Ulllt 711Jto $:;tJ !'llio ATS $. IR ?L'!~.~ 9=' {.• ,$~li a<Jiii!:\n.a<JtiJ$frJ~o'fl~J&7f1ltiJ$~~Rfllilllt7f1l~'fl~iii!:-a<JtiJ$;$~llltffl\n:to:t;::~~Rfllillltri!i ~ $~liiii!:fta<J:to:t;::; <=P ,c,,.q $~liim fi1im~st, $~liPT'!!i\n11JlJ llltffl 9=' ,C.• iii!: :lit a<J:to $ o\n47",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 53,
+      "text": "T/CAMET 04011.2-2018\n3. ~ Jl\"~ k~-T~E~;JJtt5 st, xtW:Jl\"~ ki9:rtto :$>®~, 9!1Jto$ilr~1'1%1:, ~E~tflr\n~§i;JJ~lto\n5. i!itfl/ljR 7MO$ tf[r~ Fn, ATS .lz: t!n iPJ CI ~:iHO ~f-tflr~fi'i .~. o CI 1H1I!Jl\"Hi ~\n$ill l1a-st , :::/H~ E1 iiit 'i't to$ , Ji!IJ :itt J!!filf ~J.ilf! , {El /!'PI 7f Jlk , J1R 7Mo $ 1§ , 1J1f ~\nFl z;fjffj&\n0\n6. 31~ $:@: ::k * ~ Tl1J Yffii tJf :(:E Y~ f1 1'f to $tf[r~ At, ATS iPJ VOBC ~:ill\" to $1'1\n%1:\" ;*311J 1f::~::k*~11u~f:EJl\"~ k, i$:Jl\"~ k xto tt::tflr~, !Jlt31~ 1f:: :liiL ** ~nu\nYffii::ftEMEI ,Ji!IJ ATS iPJ VOBC ~:ill\"to$11Rt~ ,xto$\" o\n7. VOBC l&itl ATS ~:ill El<J \"to $1'1 %(\" 1~ .~. St, J1I f:E HMI _t liVi~ til $1'1 %(\nII!tif\n0\n8. VOBC :(:EY~EI~$ ,£l.!JHU:<fi:Jl\"~foj(J~tn$tf[r~st ,J1I/I'~tl:\\ ATO ~$:f'lff~o\n\"\"tlfjgfrr~\"*~Jf!T VOBC ittfitlfjg~~;ffi~~Jti~,J1IPI~P.!UU*J.Vr § ';Pn'f/:\n~fiJlt:Wrilia *J.Vr § ~:;:Jt: .flHJ.!i~ lla-'N'f i5L, f:E PI :ilHl'tlfjg fl91.li: 1t, VOBC .lti] ill\n1-Ttlf:Jg *~ ,9)1]-JtJ.Vi § rp, Jit*~Jl)L ffi-:Jg :ll.*:iA llio ;(J[J.Vr § ~:;:Jt: VOBC J1I ~ H!~\n31~ $it:Jt1J ,:i'-Eit:Jt1J~:ilt1-Ttlfjg B<Jf.li:rt1fnr~~tlfjg ,!i!U!lt*~l1Rm~9!U:imr,\nI. xt-TiH~3/1J$ ,31~ $:liit::k*~1luYffiif:EJl\"~ k pg At, ATS tJ( ftU~ $ili1l'it:Jt1J! f-iJ\nWf31~$:JiFa~:ill:1l'tlfjg: (I) *31~ $~:ill:1l'Jl\"Hutlfjg ,Ji!IJ ATS ~uH~mitlf\njgtf[r~, VOBC 1&iUFn ,31~$:(:EJl\"li k~~tFn ,lil}_~~~~~; (2) *31~ $ 'fl:ill\n1-11'1 AY~ Fntlf:Jg, !i!U ATS ~:U's1'1 AY~ Fntlf:Jgtflr~, ~ 31~ $:liit::k*~nu Yffiiill\nA tlfjg tiLFn, ATS ~:ill ~Yffijtf[r~, VOBC l& iUFn, f:Eili1l' 3?:JltJl\"~ Ei' Fn 8<.1 Jl\"li Fn\ntlfjg!tJL~~f-Fo ,lil}_~~Yffij~~; (3) *31~$'fl::itt1l'XA Fl i;!Jtlfjg ,Ji!lj ATS ~\n:ill XA Fl i9Jtlfjgtflr~, VOBC 1&iUFn ,31~$f:EJl\"~ Ei'~~Fo, lil}_~xA Fl z;fjtlf\njgm~, ~31~ $ :lbi ::k * ~nuYffii:ilfAJl\"~ Fo tlfjg tlt.Fn, ATS ~:ill ~Yffijtflr~,\nVOBC iJHUFo, f:Ey~ Fotlf:JgtiL~$Fo, l!Q.~~Yffij~~; ( 4) *jlj $/l':ilf1-T:J11·\njg, 9)1J ATS ~:ill::ftlfjg tflr~, VOBC l&itlFo ,/l'lil}_~tlfjg ~~ o\n2. xt-'f~f-if:Jtlj 3/iJ $, jlj $:/&::k*~fluYffiif:Ey~ f1 pg St, ATS ~:ill~iA 1J1i o\n3. 31~ $:lii::k*~1luYffii::ff:Ey~ Ei' pg ,£1./I':(:Etlfjgtlt. pg St, ATS ~:ill~iA 1J1i o\n4. xt-TEi ATS Xillif~fl931~$, VOBC ;f&!\\5$~1ti.T-:Illi00f¥1it1Rl3!:Jill'i'ilil}_~tlf\nVOBC :ill: AXA § i9J tlfjg 7i!LWFo, /!' J1I 129 5j ATS 8<.1 illi fj1j 9=' Wf !J)t ATS fl{jfj1j\n.~. pg -1¥ ffif ill tl:\\ XA Fl i9Jtlf:Jg 7i!LW o\n'I. ~ 3/IJ $:it::k*~1luYffii/l'f:E~~tiL pg :~UiJ $/I' 1J@] 13!:1f iPJ Bt, ATS iPJ VOBC\n~:illfl9\" @ll3!::J'Iff~\" *13!:-:hl!JXiAmo\n48",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 54,
+      "text": "T/CAMET 04011.2-2018\n2. ~ jlj $ :m: jc ':t: ~Au ~ t£ ~ i* tfLi *J J3. jtl :tt=: :Jl @] J31: 1f rPJ H;J , .X;J' 'f it J\\lj j lj $ ,\nATS :jtHJ,!i3'tl$ili1Tit1\\tl, rPJ VOBC P::i!\" @]J31:\"lj)(;\"~@]J31:\":Jii~ ,.x;J''f~ht\n3. VOBC .!=j ATS iffi fi'f iE 'II\\' ..El.I&itl B<J@] 131:ili\\~Of:l31:~1= ~iJdl[H;J, :l=!.HJ,li ATS @]\n131:ili\\~{J'l.~. ,!I'IHtlrtE~i*tfL i*J ~~ J[~@] 131:ili\\~; VOBC -'=i ATS iffi {i'fltif3f\n!JX;I&itli'!<:J @ll31:ili\\~Of:l31::h~iA:OO:At ,:@Wfltl. T-:.1-IP. ~IRNB<J IRJ31:Jmt.£, tE~\ni*tfL i*JJ[~ lillJ31:ili\\~ o\n':2jl:{i'f .~.$J)P:F ?'J .& \"ftli ioi ID\" B<J Of: 131:, *iti~ .x;J' J.l\\I {:ll :13: WJ {9!1] :!:\\:] :h ftli ioi, !iltl ATS\nnr P: :* ff Jd: - f9!1J tli ioi m\n0\n•.xt,zy f9!1J$ n~ i'll M:TFma<Yn'n;r. ,:TF n rBJ IWi~!iltltr:~ ~ I*JJ.l\\I -3& 0\n§ 5E 5<. f~L!~L ffl\n:tE I~ l=j=l ;ti.HJ! ~ ~i:Ji#J~~\n5<. ~JJ'r pg !@: !JU& 20 o\n6. 3. 2. 2. 4 ATS )ifij' ~ ;iESl\"'ll~=--.,....\n§ 5E 5<. fj§ .~, , ffl r ~ lJli ~ 1 l'lli *f ;ff :91 ~~ o ~ 1 l'lli 7t JiU5 E 1M o AT S *IJ\nttJTJAflifi¥1 VOBC ~ § 5t~rfPJ-)lfijB>j' ,1JPI~*1l'lli § )EJ<_~fl!o ATS\n)lfij § 5E5<.~JJ'rrkJ!@:.!A'..~ 210\n*\n21 A TS ) ifij ~ :iE .)(. ~Jli\n~0!1-J~ Of:l)i~!Jr i)t fJ)j\n{J'i.~.J£5( N !i--1* I*J ~ rn ~ 11!}] 5j-§JIJJE#JIJ\n6. 3. 2. 3 VOBC tcJ ATS £~~:1m\n6. 3. 2. 3. 1 ATO :IX~f* Jf!UJli\n~B~.lz: ATO~:a:;,VOBC L!Z)a],AA[P] ATS ~* ATO ~~fj§,~\"ATO\n49",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 55,
+      "text": "T/CAMET 04011.2-2018\n*\n:J:k ~ f~L'~Jj)f 1$ JJi!, 22 0 *\nA TS $. tt x;fHj: ~1j $ t8 A TO :J:k ~ {~ ,~, :itH:Y Ml B;f *IJ ttrf , DC Jl Bi\"IBJ i*J 45(\niiJt§m:9iJ $t8 ATO :j;k~{~,~,, Jnljyg~\"W:$ t8 ATO :j;k~{~,~, o\n*45(iU ATS ~:i!t8{~,~,mJ ,x1mf~±JP~I~iA·OL\n*\n22 ATO tl;:~{ilL'iU.dl\n~Dpq~ ~\"Ti-lf& i>?, FlJ3\n00-65 534 f-f~\n!Jlk-}A ffi :OxFFFF\nmt*-%1*-% 2\n;it1!B: ~~ r!\n37U$jg~Fit~'J$Bt ,Lit~lllk1Affi\n~Jli:l.~-% 2 ~Jli:l.~-% ,~IXX]~-~ff-ift,!Jlk-}Affi:OxFFFF\n$~l!-%tlfml~Jli:l.-% 2 $~1!-% tiT Jll:i~llt\\-%, !Jlk-}A {i! :OxFFFF\n=:ili:#J!Jiil3 ,oo1 -999 f-f ~, ooo *~ xt tlff-f 3JiJ $ a<J\n$~1!-% 2 Itt ,;ttf!B~~f!\n!Jlk-}A{il[ :OxFFFF\nlm\\~Jli:l.-% 2 37U:t j:::llil Lit:it!~Jli:l.~%, ~-}A ffi :OxFFFF\noooo-9999 f-f~ ,Jmt!Ht'!: ~X~ ,oooo *~* lJz-%\n$7Jz% 2 *i!it)E\n!Jlk-}A{i! :OxFFFF\n§a<Jit!J,~Jli:l.% 2 § (t(Jit!J,~Jli:l.~-%, !Jlk-}A ffi :OxFFFF\nfflA~nm*~,A~)E~pq~~Ifi~§~FlJ3-\n§a<Jit!J,% 4\n!Jlk-}A ffi :OxFFFFFFFF\n=:ili:#J!Jm\nl'iJtrL% 2 1 -65 534 f-f~,Jmtl:lm:~x~\n!Jlk-}A ffi: OxFFFF\nAM § z;IJ~~ :Ox03\nATO IfF~;;:\\ 1 ATO *~.:sL :OxOO\n;it1!B~~f!\n!Jlk-}Affi :OxFF\n50",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 56,
+      "text": "T/CAMET 04011.2-2018\n~IJP3~ ~11~1t i.JI. ljij\nVOBC r&¥0 (!{) ATS ;&:i! (!{) ~ 1i~¥Jk !JX IR i'SJ ~ 1i Bt\nIRI'SJ~1ii.ffll~ 2 IBJ ( ~tl $)A lltr -i6: &:tf 3ilJ T - i6f\"!11j:: Bt I'SJ, .ft!.{ft: s) ,\nir14-\n:jR:Jml[t.:J::lFo)jt~~, '*i)d~ :OxFFFF\nVOBC r&¥0 (!{) ATS ;&:i! (!{) HiJE{4':ifl4-\nHiJE~ :Ox55\nIt!EW~~ 1 :XltJ6Wirl4\"1lli<: ?~ HiJEW :OxAA\n'*iA {il :OxFF\n;lt{l!!.~!Or!\nVOBC r&¥0(1{) ATS ;&:i!~!<JtD$irJ4-\n1D$:fi%c :Ox55\nto$~~ 1 :fD$!1i<:m ,:X:fD$ :OxAA\n'*iAiil:OxFF\n;ltfM!Or!\nVOBC r&¥0(1{) ATS :&:i! (J{JT - W$:lf6 fcl' ID, '*iA\nT-W$:lf6fcl' ID 4\ntEI:OxOOOOOOOO\nVOBC L&¥0( !{) ATS ;&:i! (J{JHiJ6W:lf6 fcl' lD\nHiJE-i?i6F1 ID 4\n~i-\\{il:OxOOOOOOOO\nVOBC r&3i1J(J{J ATS £:i!(J{J:fD$i~il ID\n10$:lf6il ID 4\nl!Jki-\\ {il: OxOOOOOOOO\nVOBC r&!O (!{) ATS £:)! (J{Jt~Wat IBJ\n:lf~f\";BtiBJ 2\n'*iA {il :OxFFFF\nVOBC r&3iJJ(J{J ATS £:i!(J{Jf1~~~\nn~~~ 1\nl!Jki-\\ {il :OxFF\nJ:ilj00 4 :jR:Jml[t.:J::~)jt~J(\n~: \"$~il %\",\" $~il% Yi' Jiil ~jj}%\" El3 VOBC illl:i:i\" ATO ~~{~ .IHJll\" loJ ATS\n£:)!; ATS r&¥0ff;, 1oJ $ ~Jj_ :i! (!{) \"ATO ifl4-{~ .~, i1!!Ji\" 9=' ~ Eif r& ¥0 (!{) \"$ ~il\n%\",\" 1J::m% Yi' lit! ~jj}%\", r&!O Z litr:l;l'iEif !!JkiA {il; \"ATO ifl4-{~ .~, i1!!Ji\" 9=' (!{)\n;lt{l!!. f~ .~, El3 ATS ii!i :i:1:\" ATO ifl4-f~ .~, ii!!Ji\" 1oJ VOBC £ :i! ; VOBC !J5c ¥0f f; , 1oJ\nATS £:)! (!{)'' ATO ~~f~.~,~Jl1\" <j=I~Eif B 1fl.1i(J{J!<t !iii{~.~, {il, r&¥0 Z Jltr:J;I'iEi]\nl!Jki-\\ {il o 3Jltr ATO ifl4-1fl.1i 7t n)t)§\", :fE#Jf (!{) ifl4-¥0i tsz Jltr, VOBC J.iii ~~\n1oJ ATS &11f3Jltr ATO ifl4-(J{J1fl.1i:/k~o\n51",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 57,
+      "text": "T/CAMET 04011.2-2018\n6. 3. 2. 3. 2 91J$f~L~U!li\nm\n;zjs: .\\~L1g )WJ WI f~L\\~L .¥3 V 0 B C 5j A TS Z. JBJ 89 gc ~ :i1 :t-~ ~ }'[ Fo , JWJ WI\n:&.J! '91J $1*-~'~J)rpg ~~~ 23\n0\n;& 23 91J $ f~ ,Iii;!_ ~Jli\n*11*1Jt\n~QJ*j~ i~ IJJ'l\n~~~-% 2 ~~~-% .~I*J~-;fjdJt\n;ff )£ {.il:: Ox55\n7tl$5E{.il:~~ 1 7(;5£ {.il: :OxAA\n;JtfMJ=.#i:\n::@:;J''1i:.~Fn Yffiim iliJ Q7c'1i:.~mrYffii r:i<J1r\niliJ, ~:fiVJ''J;i:.~FnYffii:llt r:i<JJ: \"H-T1riliJlifa5£ a\nJ:1T :Ox55\n~1'11rlnl' 1\nr1T :OxAA\nl!lJ;:i)._ :OxFF\n;lt{lli: ~~=-$;\n:<$: VOBC :lik ~ -:tJ /1& f.!i Yffii ( § ~ JL ~ i¥1\nVOBC ~-.:lt:i!:liki1Jtr.5Yffii)\ni1Jtr.5Yffii 11J!(f.5Yffii :Ox55\n~J=.i1Ji(f,SYffij :OxAA\n;lt{lli: ~Jo $:\n$~JE~(litr:i1.1:) :Ox55\n$~1Ji~(Fnill) :OxAA\n*~~lnl 1\n;Jtfmtlllx~\n$~:11'~191 Btrli: IE~ .:ltill\n7tl $:1&7c'1i:.~JWYffii{.il:ft 71J$:lil:;!c3C~IiUYffii{.il:'£}jlf:(E!fJL:@IRfsi: ID\n4\nJj/f:ff!fiL:@IRfsi: ID' l!lkiA.till:OxOOOOOOOO\n7tl $:lfit7c3C~$Yffii{.il:J! .{.il: :em ,;ff~1[f[E :OxO-OxFFFFFFFE\n4\ntE!fiL:@ !Rfsi: I*J -wB ~:iii· l!lJ;:i)._ till :OxFFFFFFFF\n52",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 58,
+      "text": "T/CAMET 04011. 2一2018\n表23 列车信息帧(线)\n列车最小安全前端位置 4 Mt) Ae tye |S Be TT ag 7 PT EL KK Be ID\n所在轨道区段 TD” HE TM {HT -0x00000000\nHi) Fe Spe |y HE EB sa A PEE 4 LZ som, 47 ME -OxO ~ OXFFFFFFFE\nALAM XS Be AD th EB be EU -OxFFFFFFEF\nSNE de AS HE EG etd OT | 4 Bl he Ke eG a PT er fe att BZ 1D\nfr 4E We tt Re Be ID” \"KIM {EL :0x00000000\nBM 4 See KE ENT Sm EE p ATION. Os ETE 080 ~ OXF FFFFFFE\nCFA Le BAT Dd BB ak” /) AAA | TINGS FF FF\nSN 76 tes) a td ES eh 位置所在轨道区段 1D\n所在轨道区段 ID ” 要 OD 0\nBA ALAN EE Be Wet Si eS :0x0 - OxFFFFFFFF.\n在轨道! FL 1 thei FS fat RN Wk _\nh 0”\na] =\n列 Aco 种 ii xt 了 Tt 20x03\n和 | KUM #izt 0x04\nRIA TY OxFF\nJk ik AE ie\nCBTC.0x01\n| 点式:0x02\n列车运行控制级别- | ie fbi :0x03\n: 完整:0x55\nBl) ERE HE 1 IR GEE OXAA\n| 其他非法\n53",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 59,
+      "text": "T/CAMET 04011.2-2018\n~Oi*J~ ~11*& i>?. ~\n5[; ~ ~. ilJIJ z;!J :Ox55\njlj $ ~ ~. ilJIJ Z9J ~~ ,, 1 ~~. ilJ!Jz;IJ :OxAA\n:ft{1)1.~~7*\nj1J$~~:li~'fl ,JJj(~~ ATP .!=j ZC ~.lz:\nJill fs Fo.¥U7t-~ziitri¥J~~\njiJ$ AR ~~ 1 ~TAR~~ :Ox55\n*~r AR ~~:OxAA\n:ft{1)1.~~7*\n:9tl $i.ffi&ffi }~, 2 if! {:\\1: :em/ s, 1'1 ~ 711 !jjJ :0 - 15 000\nffl'l :Ox55\n:*i'l :OxAA\n$i'l~~ I i'l~jj},OxFF\n:ft{iB~~ 7*\n*X\nn n\n~jj}lJJ fi~!i!tlr&: n~:* ~J11l\n~~£!. f$f!E :Ox55\n*~~:OxAA\nJIJ$~~~~ 1\n~~f!!*~f!E:OxCC\n:ft{iB : ~~ 7*\n~$-f*i.iEnloJJ.ill\n11Ji2.(~$:0x55\n~$-f*i.iE~~ I 5(;7*~$ :OxAA\nJlkiA it :OxFF\n:fj;{1)1.~~7*\n5C)dJr:i!H1r A 9=' ( b\\$~ ATP ~l&iiJ:X\n.At.JTili-6114-ff:lmiiJ~~llu) ,oxss\n5CA.tJTilitJTili if' :OxAA\n*:(:E:XA.t.JT:Igcp :OxOO\n:XA.t!Tili~~ I llli(i,A it :OxFF\n:ft{iB~~ 7*\n*$~ ATP 5C~:*lJJfm ,Jj!IJ;&;i!llll(i,A it;\n* ATS x~:*lJJfm ,Ji!1JI1J/G~J11l.llt{JlL~.\n54",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 60,
+      "text": "T/CAMET 04011. 2一2018\n表23 Waa ah ( 2)\nte eter tte [opty | Ye.\n接口内容 字节长度 说 ny)\n车载 ATP FEVE BUA AY te RE\n| CBTC - AM-0x01\n| CBTC — CM :0x02\n预选模式 1 ITC — AM 0x03\n| ITC - CM:0x04\nIl, — RM -0x05\n共他值非法\nFe ef] IT ] 根据业主要求定义\n| 单位 em/s, ATP 由线对应的下B1 速度,布\n当前紧急制动扔发过度 2 oe\n| WAL OxFFIFE. “| VOBC Jb dz 2c UE IIe\n4¢5 EAE, Fe PRA AL\n) ffi om/s, ATO WPZe Of Oe 9 Ae AD ill iy Si\naes tps tne ete vie mE. 47 SALI E 0x0 ~ OxPFPE\n当 AY 推 te ye 2 - an te oo fan a i NI“ 1 ~ 、 ee 9 oe\nBUA: OxFFFR, “Y VOBC Jou: 4z i Ie\n(7 Ag ce RA\n| VOBC 采用的2ZC 的移动授权中的安全防\n安全防护点轨道区段 IDS , 4 | 护扣轨道区段 ID\n| \"FE LA {fT <0 x00000000\nVOBC 采用的ZC 的移动授权中的安全防\n安全防护点轨道 4 $e fi OL aT BR AY E47 We dE TH: OxO\nLX. Pty FS the\" ~ OxFFFFFFFF\nBRAT Ox FEREERF\nVOBC 采用的2C 的移动授权中的障碍点\npave a Laid [x FX ID\" | 4 .轨道区段 ID\n, 默认值:0x00000000\n| — VOBC 采用的ZC 的移动授权中的障碍点\nBre fi LA Lx. Be py 4 Heit Be Be te Fe oe. AT eke Ge Th: 0x0\nthy FY tye * ~ OxPFFFEREFE\nTRU Ox FFREFEFEF\n55",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 61,
+      "text": "T/CAMET 04011.2-2018\n~Di*J~ *1!1f!Jr i)l fljj\n:illft{~i,\\l!, V0 BC :llHR\" 1'8 Z C 1'8 oft i#J~ tR 1*1 -El:tf 1'8 :ill\n2\n1-~ ft1-~o 1f5&~'J1~ :0 -20\ni§:ft(l)ID 4 mft m\niltfttJ\\it\nmft c 1 > JE{:ll. :Ox55\nI\n;Jf\\;t Jj_ {:ll. :Ox AA\n;J;I;{t!!.:~Frt\nMA~1£ ... ... ...\n{~.5!,\ni!!ft(X)ID\n(Xjg\"i!!\n4 lllft ID\nft{R\".5!,1-~\"\n*WOO:)\n:il!fttJ\\it\nlllft( X) JE{:ll. :Ox55\nI\n;j}\\:·:=*: Jj_ {:ll. :OxAA\n;J;tfm ,~nt\n*\njlj tliU !_fi ffi ,!j!, I 1tl$tliU!_fi~{~.\\l!,, J&ffitiL~: I -20\nffi§\\1 4 :flll:WblJt.±~3~JE5(\n'*\nVOBC l=j ATS ~.:fz::illi{~B;j'~~~f8JE 1!£lPfl{:ll.i'1 ,J)!IJ\" ~1-T::tf rPJ\",\" 1tl$:@:;k:$:\n~rltrMfil{:ll.Nlfi':(:E!fJL ill IK 131: ID\",\" 1tl $ :1& :*:$\": ~rltrMfil{:ll.i'1 :(:£ !fJLit !: IK j::l[ 1*1 ilia oft\nill:\",\" 1tl$:11VJ'$:~rltrMfilf:ll.NE!TT:E!fJLm IKW ID\",\" 1tl $:fN:iJ'$:~1ltrMfilf:ll..'lf:(:£\n!fiLm IKW 1*1 ilieoftiil.:\",\" jlj $:®::k$:~Fo Mffl{:ll.:\\!tE!TT:E!fiLm IKW ID\",\" 1tl $ M:*\n$:~Fo Mfilf:ll.Ji:(:£$fLm IKW 1*1 1.\\iUoftiil\",\" 1tl $:flVJ'$:~FoMMW::'ltE!TT:E!fJLm IK 131:\nID\" , \"1tl $:®: 1j'$:~Fo Mfil{:ll.1f:(:£$JL m I K 131: i*J 1.\\iU oft ill:\" :ltg :l;l'P~ !llkiA 00: o\nb\" 1tl$~1f:J£1!JIJ~Jltl\" l=J \"1tl $~!J!e;f!Ji;~\" *WI&OO:mTilll JE r *M m#2..*, :J£111iJ\n~Jjljl=j~*!J!fef;lf !Ji;~.X;j\"fllt'Ji!,* 240\n'*\nATP ZC ~:i!J'I<J MA,J)!tl$:~llJJ1?.\\':\\!fili!!IKBi: ID,$:~llJJ1?.8!fJLmiKJ31:i\\iU\noft:£1 Jittli!l-.8!film IKW ID,J!iti:~.8!f1Lm IKW i*JifiUoftiil:I& ffi±tg:1-J*=.ffl 1'8 MA i*J ~;\n56",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 62,
+      "text": "T/CAMET 04011. 2一2018\nR23 列车信息帧(续)\n若 ATP 不采用 ZC RIN MA ,则安全防护点轨道区段 ID .安全防护点轨道区\n段偏移量障碍点轨道区段 ID .障碍点轨道区段内偏移量均发送默认值。\n4停车保证的具体含义参见本规范 5.4.2 节 VOBC - ZC 列车信息帧中\"停车保\n证响应”字段。\n表24 控制级别与驾驶模式对照表\nEEC\n点式列车控制级别 ee x\nry 4a\n6.3.2.3.3 arity a o |\nRR eT (RAI She\nos sHkeneey ey\nET eee ee ee\n报警信息数量 etd 8 8 (0), RI «8 ~ 20°\nATO 故障\n有故障 :0x55\n信息 1 1 无故障 ;0xAA\n默认值 :0xFF\n列车报车 其他值无效\n信息 BTM 故障\n信息2 1 无故障:0xAA\n默认值 :0xFF\n其他值无效\n57",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 63,
+      "text": "T/CAMET 04011. 2一2018\n表25 车载设备报警信息帧(续)\n接口内容 ry Kae | 说 二\n| AeA ACL FE MO i Bi\nAy ds BR 0x55\n信息3 | He bx bE OXAA\nBRIA {HH OxFF\n| SALA AK\n| | Eads CBRE CTT iE)\nAT de Be 0x55\n信息4 | 1 JE ABE OXAA\n| PRIA GE OxPF\nSEU DG\n| 与列车信息管理系统通信故障\n| 41 ABE 0555\n| 信息 5 |) EA BME OXAA\nBR GAA Ox FP\ngi) 44K | JEW Aa\ni 2 Ga fe a\n| fF HEB 0855\n| fri LL 6 1 | JE Hie BE OA A\n» PRGA OxFF\n| 上共他值匹效\n| Jah SE LE Eb PREC UE)\nAF AX BRE 0x55\n信息 7 1 无放陪:0OxAA\n| BRA (HY OXF F\n| 其他值无效\n| | ATP 故障( 与 ATS 通信正常时)\n| 47 ia bit 0x55\n(FAB 1 无故陪:0OxAA\n(BRA (EL Ox FE\n其他:非法\n58",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 64,
+      "text": "T/CAMET 04011. 2-2018\nm~=~l*l$ ~11-~JJl i)t. l!fl\n... ... .. .\njU:$1Rff\nfilL~. f~.~. n I ...\n;t& -t filL~. 6 F! ~)( ,:tEI~JY! § <P~-!*aJI:rifo\n':fRftf~-~- I -8 1'1 fm~f~--~. . ;M;fll!.:fRfHI'f.~, llJ:tE~f*I~ <Pi0J~ o\n6. 3. 2. 3. 4 $l.lti!!:§ B ~~~:H~ .~~.di\ns\n:$~19:1} ~if\\~{g}@,$Ji!Ji!,* 260\nfJiXm\n6. 3. 2. 3. 5 VOBC ~ ~)(~,di\n~~xma~m~~$~~m~~~~-~~ffi*~noA~~w\n:f:EI~ r:F~1.H~~~.iF1ffi=*~~ I~ )J{ij':f:5J]jiz~$ffim~~~o VOBC ~m §\n~X$Jf{g,lff!,_llt!.* 27 o\nm~=~l*l$ ~11-L~JJl i>t. l!fl\nfl'i.~.~)( N ~1*P3$:t£I~<Pi0J~\n6. 3. 2. 3. 6 VOBC }jllj ~ ~)(~,di\n§ ~X{g,lffl,\nI\nm~~$~)j{ij'~~~~~o ~)j{ij':*)tj jlj~1!J!Jo VOBC\n*il l!IT ~ {g- ~ A rs --'=3 § ~ )fij ~ IPJ - r j{ij' at 1J m $ t r j{ij' § ~ x $Ji\nI 0\nVOBC ~m § ~X$Jf{g,iffl,!Ji!,* 28o\n59",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 65,
+      "text": "T/CAMET 04011.2-2018\nt~D pq~ ~l'J-K:!Jt i)t ~\n{~.~.~)( N ~1* 1*1 ~ El3-* 1/ll :51-JJ~~i!JIJ\n6. 3. 3 jiJ$:tJT~ttf~ilfih5t~J.I\n6. 3. 3. 1 ~~\ntFf)g Ym~?t.:tr§ ~¥rm VOBC ~Y!Hc~:i!~--'=3§ ~¥rm VOBC /f~Jil;c\n~j!~p;g~tJ1i6L ;zjs:$ r:p VOBCI :&~¥rmllli8'9$~ VOBC, VOBC2 :&~¥rm\nIWB-9$~ VOBCo\n6. 3. 3. 2 i§ff=§ VOBC ~Jfl~~iiti\n.llt~·iiNr, VOBC ;(:Etl:]i[ij]J::.:)t~~--'=3 ATS ~.lz:3(~:i!~.JC~ylij,~,\n1£ tl: :iii lijJ 1:. :)t ~~ {~ ~ ( tl: lijJ IP :x1 tl: lijJ IP , :iii lijJ IP :x1 :iii lijJ IP ) o § ~\nVOBC ~IPJ{tffll!~ll.3(~:i!~. §~ VOBC ~ffl-1'- VIDo ATS /f!K:)t\n§~¥rm VOBCo\n:tFf)g:tt~:tmr:\na) VOBC --'=3 ATS Jl~·jjf~f,Jo] ATS ~:)! VOBCI jJJo]EJ'9\"J'tl${~L~,\n~Jl!\" ;fO\" ATO )j)t ~ {]§ ,~, ~Jl!\" , ATS Jo] VOBC ~:)! VOBCl :1J Jo] 8'9\n\"ATO tf[J~{j§,~,ri!!Ji\";\nb) :tFfjg :lf~iJ ,6 , VOBC 1ilZ ~ 11:.~:!! VOBCl :1J JoJ 89\" J'tl ${]§ ,~, ~\" ;fO\n\"ATO )j)t~ {]§ ,~, ~Jl!\" , i}ll: 1J ~:)! VOBC2 :1J JoJ ft<J \"J'rj ${]§ -~· ~JJi\" ;fil\n\"ATO tf[J~{j§,~JJJ!\";\nc ) AT S i'lHl* Wx: 3!~ 8'9 V0 BC \" J'tl $ {]§ ,~, ~Jl! \" ;fil \" AT O iit ~ {]§ ,~, ~Jl! \" *IJ\n~~$:/JioJ~~E&~H~$3?~~-~~m~:tFfjg~~.~~\n1JJ'tl $~¥rm, 3Hil Jo] VOBC ~:!! VOBC2 :Jj Jo] 8'9 \"ATO tf[J~{j§ ,~,\n~)Jl\" ;\nd) VOBC l& 3!UV OBC2 jJ JoJ 8'9\" ATO tf[J~ {]§ ,~, ~JJi\" , :7f ~il t@ lit~ ifftl\nJ'tl$ ,:tFfjgYJrt~~*\n0\n6. 3. 3. 3 i§ff=§ VOBC /f~Jfl~~iiti\n.llt~·i11f6(,B;f$~§ ~ VOBC {tffl /f [P] 8'9 ID, § ~ VOBC :)t~rj --'=3 ATS\n60",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 66,
+      "text": "T/CAMET 04011.2-2018\nJ!.1l.3(~~ML 1±tJT:iS:tlW9=t ,$~ VOBC2 -1:3 ATS ~J!.1I.3(~~~o\nl1t B;f VOBC 1, VOBC2 [ilJ B;f -1:3 ATS Jffi {J'j, :5t Jjlj MUft 3( ~ ~ ~ o :f* lijffl jG nlt\nfr5, VOBClltJTJf-1:3 ATS B{]~~.fJ.f.*\\¥1 VOBC2 B{]~~o\ntJT:JS mtw:t.mr\n=\na) VOBC 1 -1:3 ATS lE 1jt Jffi {j§f, [OJ ATS .£ z :<$: YW\" :9tl $ {§ ,\\~HJ1\" *il\n\"ATO )jj(~{J'j,~Jj!\", ATS rP:J VOBCI .£z\" ATO i!J~{g,~Jj!\";\nb) tJT :iS 7f friJ Fn, VOBC2 -1:3 ATS ~ J! _}[ 3( ~ ~ ~, jffi {j§f J! _}[ )15,\nVOBC2 [OJ ATS .£z:<$:!iiffl\":9tl${]§f,~JJ!\"*i!\"ATO )jj(~{g,~,$}!\",\n;lt9=t\":9tl.$ AR )jj(~\" pg?@:J.i\\Z~\"~=f AR )jj(~\";\nc) {J'j, [OJ i'W VOBC .£z;f§ [ilJ 8{]\nd) :f*YjfijjG,QltJ15 \"\" ....\" _,__ltJTJf -1:3 A *T S El<J ~ ~ ;\ne) VOBC 1 -1:3 .£z 8{] !iiffl:9tl :!J:: 11z\nrr\n13:{§,~, AR )jj(~\" o\n6. 3. 4 9tl$~~1l~(~~;;;~~~\n:9tl:!J::~~:ctw~~\"::; .I\"',_,__,\"'T o4oiJ. 60\n6. 3. 5 lf.ti~P ~ ih.lt\nATS J.i\\Z~1} NTP ij!f~LJ'!ill\n!# [llJ :!V, i:!L PI *ffl 6. 3. 2. 1. 1 ~~Miiiii~\nB;f tlp [ilJ t/7 o\n6. 3. 6 ATO ~$1J$~$Jli:£j!J!~!MM.i..lt~Jl\nATS J.i\\Z~1} NTP ijif*~J~~o VOBC PI~ffl NTP ijif*-1:3 ATS :itt1-TB;f\n!# [ilJ t/7, i:lL PI* ffl 6. 3. 2. 1. 1 AT S ,c,, l?iJt{g ,~, $}! 9=t 89 Bt I'BJ {]§f ,~, -1:3 AT S ill1-l\nB;ff# [ilJ t/7 o _lA!, flft* A o\n7 VOBC-CI f&:X:~m\n7. 1 :ti [] ii :ti 1Jj\\;\n7. 1. 1 !lmrnl:ti []\nVOBC -1:3 CI ZI'BJ*fflJG~~~:itt1-TJffi{go CI ~ VOBC Zi'BJ!l{]~~\n61",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 67,
+      "text": "T/CAMET 04011.2-2018\n:ffit~~f~*ffl A !XX]-A !XX] ,B !XX]- B IXXJWIT1-t\\iN*:it11-T:it*o\n7. 1. 2 gc~}l f~#J.i)l\nCI £5 VOBC Zi'8J:li!i{~PJ*ffl RSSP- II })X; RSSP- I ~~:li!i{~tl}i)(o\nRSSP - II ~ ~:® {~t!}i)( i¥1 ~f*~ * ~ Jh!, :IE~{~% [ 2010) 267 % )C {4\n{RSSP - II ~Mt{~%~~:® {~tl}i)()); RSSP- I ~~:® {~tl}i)( i¥J ~f*~\n>~~Jh!,:IE~{~%[2010)267 %)C{L:j:{RSSP - I ~Mtf~%~~:®{~-jj}i)())o\n*=ffl RSSP- I ~~:li!i{~tl}i)(i¥Jmi:J:IHJd4:1-Jf!ffl LTE- M :®{~_§_ LTE\nM ~~2: Cl:IJO*titJJTh:PJJW Jl.{jj~,CBTC {~%%d1t~it =~~f*~*o\n:tEJltmitlUk{LJ:r, 1r*=ffl RSSP- I ~~:® {~tl}i)( o\n:i!D~ 10 P.Jfff,: ,Jt SAIIMASL/ALE :=.Fz!: ,JW1fr RSSP- II fiFrtH!il.JEo\nTCP }}l_ IP Fz!:f!Jflt;Ffl TCP/IP tl}i)(~o\nMAC }Jl_ PHY Fz!:Jtit~r ~ [PJ i¥J !XX]~#~, 7C~ !XX] f!fflx~t;F fltJ}i)(,\n11!! 00 !XX]f!ffl!V-:* IXX]tl}i)( (IEEE 802. 3) o\nVOBC CI\nApp App\n(/J T\n\"'\ntq\" ' SAI SAl\n;.o\n.(/,J\n(/J MASL MASL\nI\n<:::;\n_L\nz TCP\n0\n\"\n\"' lP\n\"\"''\nq\n62",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 68,
+      "text": "T/CAMET 04011.2-2018\n:((Oi!J 11 FJfiF ,;l't: RSSP- I tf}i_:K~~ RSSP- I fff-rfHJl\\k:o\nU DP .& 1l!! Jt=Hff-If£ U DP tf} i_:K tJL\nMAC Jk PHY .Fzfl&t;k:-T/GIPJ~~~~?R.7C~~ftffl7C~Hff-ff£tf}i_:K,\nJtll, 00 ~ 'ftffl k.t:k ~ tf} i_:K (IEEE 802. 3) o\nVOBC CI\nApp App\nT\nC C\"Z Z\"l l RSSP-I RSSP-I\nI\n_I_\nUDP\nBridge\n802.11-802.3\nBridge\n802.11-802.3\n7. 1. 3 Z;~J~5tsftQj£\n7. 1. 3. 1 ilf~J§Zfflffi)A,l[l.§~.*-\n~- c I - vo B c i'BJ 4IJ 1'-J!Lltl'J m: ~ x Ji ~ J.iiZ JtJ f~L~3m :i::Hil. JfZ Jill JtJ 7~ )~, 1'L\n:itH-T fHHtr , :t!o 1!1 12 FJf iF o\n63",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 69,
+      "text": "T/ CAMET 04011.2-2018\n7. 1. 3. 2 f~.'il'H~!~j\\:iE)(. *\nm\nVOBC/CI ~)WJ M :!li ~ ft if:&._ :US 1 -1- GAL ,~,§,GAL § 9=' §\nVOBC lj CI ZJ'EiJ1~!ffitl¥J-1£.5REiZJiHi~L~.a ~-1- GAL ¥lt4.~,§.~,*::f~~H1H1\n;fl:l*\n1 ooo '¥11 ,:Ml:r\\5E5C~* 29 30a\n*\n29 jj ffl f~ .~, 'E! ~ j\\ :iE )(\n*11\n{~.~.~~)( * fli: -K JJr filL~, fli ~ )( Ed>I.Jlfl\ntliU%\nI ~ruiflifli\ntt o f~.@.~ru 2*11 Ox0206: VOBC - CI :Jt D\n2 ~ruf~f:ll\n3\n-\n:ti.J15.1J 4\n- i});(ID 4*11 illi {~ XJ[1J El<J ~ )(\n:f.if-iR {J'i .'&. 5\n-\n6\n7\n-\n8\nt~l&1J -\n13 E~J ID 4*l'i :iilHI'i Xll1J ~J ~ )(\n:fiFiJl.{J'L@,\n9\n-\n10\nII\nf----\nCI, VOBC\n12\n~-T-ft!J.OO~:;$: CI'm'ti!f7I!:E!llpg,CI .!=j VOBC\nf---- Z.i'ill i¥1~:;$: 4*l'i\nf,t~{~}~,' 13 - 3& 1'£ {l'f .~, ['8] (~J~:J:Iil~:ljs:f,t~{l'f.f&,\nf----\n14\n15\nf---- * * *\n:;$:1J7~.@, 16 ic '&. m. ~ r~ .~&. At , 1r\nf---- ff'~U% 4*l'i\nff'~U%\" 17 B<lfi!ilWli-t-~\nf----\n18\n64",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 70,
+      "text": "T/CAMET 04011. 2一2018\n表29 通用信息包格式定叉(综)\n信息域定义 | se 宁 B 长 度 信息位定义及说印\nayy\n19\n通信向期 20 | 通信周期 | 2 0 | Be a fT ALB), 0 ms\n20 |\n对方消息 hey jt WS ~~ ap\nWM og | | Piet Or at EL\nka As %\n消息 nt AL ; | 76 = f wn ar By) At Fy dl. — ea\n, 可贡计激\nrey 27 Ay 、 ey 网 UAT\n; ap S| at BP VORC fy Us BX hie AS, AS AL\nHIQWR A TY | 29 Per > By\n| NE gi Loy 20\neS 22 die 30 、 . 、 Wi AR OETA RS\nICME 31 | EMA SARC | 2 oc a pe\n- See) LL 下 - —_. ~ OC\n应用居数据 + 000 We JE doe BX thi TEAK | BW de 30 ta Ui XL\n“ELL SHU VAD MR AS Re Se REL TET Dy C1 TPE PC aR Le TEL\n\"PSS Ay Bt 1 ~ (2-1),\n当林收到对方消息时 SE S29 Ey OXF PEPEEFE\n“电子地岁版本校验信和息”、协议版本忆”过归进行校验.存校验不一致,则接\n收方进行五包或断于安全连接处王,\n65",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 71,
+      "text": "T/CAMET 04011. 2-2018\nfili.IV~)E.:X. ~iH.liti-% :JR::lCP'l~ i>l. lljj\n*\nI\n:JR::lei~~(:JR)C~~-\n:JR::le-lf~\n2 x~:~n\n3 )E x ;lit - ~ JE. m fill .~, a<J W.!A!.~f** o x¥=i\n:JR::le~~\n4 :f~lJt 4. 2-;1\n5 0\nffi\\¥1 ffi\\¥1\n6 0\n7-:fR::le t1i ftll::JRx~ :r.t:)E .:x. B<J :fix\n:JR::lCP'l~ W.!A!.~f*}~ D ::let~\n~* ~f*P'l~\n7. 1. 3. 3 ilf~~~~l!\n:@f~Pll\\~~:flll§~~Or pg~: *\na) JJlZ xt ~ ® *: ¥U 1¥1 v * o B c 1¥1 JJlZ ffl ¥~ .\\~Ut:Hr if r! ·ij: 1i1 lt , ;ff 1i1 lt :@\n:ct , iA 1'1 JWJ M ®: ¥U :xt 1J 1¥1 mm f ~ ,1~, ~ ± Z;JJ wr 7f !fi. ~ ~ t-~ o\n~f*:ti1lt1J:A::tmr:\n1) r~ ,~, pg ~ t¥J -3&·ij::ti1Jt = §~f~ ,~, t¥J -¥~ifr!·ij: :ti1lt, -¥~\nmififr!tt:*t i1lt~~m•~•tt:ti1lt;\nm\n2 ) r~ ,~, EJT -E1 t¥J f~ ,~, t¥J ~ • ·ij:\n0\nb) CI ;fil VOBC JJ)z~~)t:JJUxt:@ {~:i!~~~U!1'J:foiJ lilfr:\n1 ) CI iA jg E) VOBC :@ {~ rp lilfr 1¥J Jll1 B;f B;f j'B] )E 5I.. jg TCiTimeout\nc\n-anr~~t, ttf#{l[1'J 6 s) ;\n2) VOBC i:A1'J!:J CI jj{~rplilfri¥JJlllB;JB;Jj'B]}E5/...1'J TVobcTimeout\n(PI WC!t .ttf#{l[1'J 6 s) ;\n3) ;ff CI ;(:£ TCiTimeout JlllB;JB;Jj'B] pg, :l)t~~l&¥U* § VOBC 1¥J\n{f{PJr~ ,~,, Y!U CI JJlZi:Ajg E) VOBC I¥Jjj {~ rp lilfr;\n4) ;ff VOBC ;(:£ TVobcTimeout jij[ B;f B;J j'B] pg , :l)t ~ ~ l& ¥U * § CI\nfj{Jff{PJm,~, ,ff!IJ VOBC JJlZi:Ajg!:J CI 1¥Jjj{~r:f=llilfro\n66",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 72,
+      "text": "T/CAMET 04011.2-2018\n5) ~ C0~UI!IT~l&¥U VOBC i¥Jlili:Jtlf~L~JjgJ.ISB~.£it¥U TCiTimeout\nBt ,CI lili:**lltf~L~,§~i:A.jg~ VOBC Jfi{i'PPI!IT;\n6) VOBC CI TVobcTimeout\n~ !#IJI!IT~l&¥U i'J<Jlili:Jtlf~L~JjgJ.IS B~it¥U\nBt, VOBC lili:**lltfilf.~, §~i:A.jg~ CI Jj{ilfl=j=l l!iT o\nc) :!f~:![Jj~ jijJ i=f, $tt\"i9:fk~ ~~~~ _t i¥J~fJJi\"i9:fk i'J<Jjj {ilfjffi\nBtBti'BJJJ\\Z -3&, r~ .~,:ff3\\'Q:MBti'BJJJ\\Z -3&:\n1) ~ fJ! ffl 1( ~ Jj {ilf t}} i5(. RSSP - II , VOBC :(£ ~ CI 19: fk Jj {ilf\nBt, ~!#U I!IT ~ CI 19:fkJfi {ilf l:l9T 7f :Ji: H :If N~ xt1Jm j[ :ii ~\n)§\" ,J:ili:Wf7f~W: CI 19:fki¥J TCP/IP )i~;\n2) ~fl!Jtl1(~Jj{ilfti}ij( RSSP- I, VOBC :(£~ CI \"i9:fkJfi{ilf\nBt, ~!#UI!IT ~ CI 19:1k Jfi {ilf Wf7f :Ji: H/f N~ xt1J ~ j[ :ii ~\n)§\" ,JJ\\ZI!IT7f~W: CI 19:fki¥J UDP ~~o\nd) EN 50159:2010 i=ftliL&i'J<J 7 #7f:fi):;r.tjij]M'tf¥:(£i¥J1(~jj{§)Xt,~~\n:l!g rn 1( ~Jill filf tJJ i5Z. :itt 11-ll1f :J? , JXt. ~~ -E1 115 = £ ~ , i!IFJ ~ , m A , £ :f:lr\nrr\nj:9! ~, t*J?& ,~J.IS o\n$it1!.7C~Jfi{§~1J( CI-VOBC) JJ\\Zfflfz?: i¥JJffi{§$~~-Dll!?t:1-J:tmT JL\n#·~a=\n1) CI ;fO VOBC x1r~l&¥Ui¥J!ti:~,~)ri¥JJ:ili:Jtl{§,~, ,*ffl1I~\n**i¥11I:r.t:ittfi~~.:Ji:HiA:1-J*~M*l&~:xt•1Ji¥Jlili:\nffl{¥f.~,;\n2) Jffi{§i=fi!ITI¥J·[W('5GT CI/VOBC\n,~ iA:1-J~:xt•1JJ:ili:Jtjfz?;jj{§\n*\nMI Bt i=f WT, Jlt.:!:: ljj *¥1i!! 1(~~ ~ 1¥1 1J:r.t :itt11\" ~~ ;\n3) ~~JXt.~E81(~JffimtJJ~~~Il1J:J?~~o\n7. 2 i11l1ifiti:~Ui!i#;J\n7. 2. 1 il1l1i~~\nCL ~ VOBC Jffi{§ti}i5(.:m7J!l:tW00 13 E!fffio\n7. 2. 2 i11l1i*J1.%U\nm\nJill filf ifftJ -E1 115 ~o T 1*1 ~\n=\na) {£~~ E8 VOBC £®1(~Ji~i¥Jmj[:i1~;\n67",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 73,
+      "text": "T/CAMET 04011. 2-2018\nCl VOBC\nI J.iiiJtl'f!ill¥ I\n:t:~;f{f:!t:\n1:1J.i..)(~JK~5G ~~·I :t:~:~}jfm~:!'k I\nI I\n:ii]'jffi:;IJ!m:&:!'k\n00 13 CI !3 VOBC i!f~#J.i.)t.~~\n*\nb ) CI ~ V0 BC * JtJ )ffJ Wl ~ ~ #I ri!L!~UU!lt ~ 89 :1J A :itt 11-illi fl'i ;\nc) im fJ§f XJ( :n :l:!g m * ~ ~ -=w J¥: :itt 1-r ~tt~H~ ~ ;\nd) CI ~ VOBC :l:!g)jizx;f~l&Ei9EiiJtlfi'L~.:ilt1-T~Uifr%1l~m:JE~a\n1. 3 1i r::atttSWil£\n7. 3. 1 ~t!S~~jE)(_\n;;$:-:!pX;f VOBC ~ CI Z!'BJimfl'ffl9Eff1f Eilfflf]§f,~.~~.&Jt* 5f.. ,~~}J\nrliJ , -Kll m: IE,~~ :1JA C)f fJ WJ;~~ )ffJ WJ) :itt1-T~5t.., !A!.::& 31 a\n*\n31 CI !3 VOBC i!f~I¥JEi£Jf.lffiffi.~jE)(_\nfi'f.@!.~~ fi'f.@!,§~ Llt:i!1flol Llt:i!1f:rt\nOx0201 VOBC->CI ~ifjllfi'f.@!, VOBC->CI %!JWJ\nOx0202 CI->VOBC ~~fs.@!. CI->VOBC %i]WJ\nOx0203 VOBC->CI •L·W~~ VOBC->CI %!JWJ\nOx0204 CI->VOBC •L·~~~ CI->VOBC m~~\n68",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 74,
+      "text": "T/CAMET 04011.2-2018\nfi'i .~, -§. 4'; ~:*:1f!PJ ~:*:1f:A:\nOx0205 VOBC->CI :IJ£m Fl ~5dJ)r VOBC-+CI §~_)(\nOx0206 Cl-+VOBC :IJ£m § ~.)(il!dl CI-+ VOBC §~_)(\nOx0207 VOBC-+CI ~~ F! ~.)(qJJ)i VOBC->CI §~_)(\nOx0208 CI-> VOBC litlf I~ ~J(~J!i CI-+VOBC Fl~.)(\nOx0209 VOBC->Cl it~ lif>J<:il!dl VOBC->CI }ff] ~lil\nOx020a WHlil\n7. 3. 2. 1 ~~\n*\nVOBC ;(EyU$ !'It~ i:1 n B<J :tr ;fj] -*\nffi o VOBC ~ CI B<J •.....x·,..-,;-~ ~ 1r )i¥J :M }:£ )(,\n:xt JJi f\"l'i Ji¥J AA 1!Z 00 5:£ X11~\\J LY.!!~:Euf\"l'f.~,Fn (o] VOBC ~\n~Mill PSD i'J<J~~\n:X;f 'T PJ ft. i/f WJ ffliJ 7f PS D ~ f1:: WJ 1' /!' IPJ 8<J fit\n~5HJIJ~ffjtJ,1gWJ{P!Iji'J<J PSD :5t Pi-B<Jtffii.J{( &rPJ~yUB<J PSD ~\nfl::-1'-fit~, *~1g;ft:)tffC~Jaj Pi-B<J ID) o\n~~*·~~i'J<J~~fi}:£~,~1'J~M~J:£i'J<J~-~~fi1J(o]o\n7. 3. 2. 2 VOBC icJ CI ~~f*,~\n7. 3. 2. 2. 1 VOBC icJ CI ~~'L'~t~!li:\n;(E~$$~A*~~~-*ACIJli~g~~~~~~A~CA\nr\n1* B1 fJl il- ]{if F-1 }:£ 50 , .FIB!Oi M' V0 BC fit~ 5fil CI i'BJ Jli f\"l'i ~ M 8<J a\nYU$$~A*~~~-*A CI Jli{J§g~J§' ,7ffr€t~~~T!f!Jfl§.~,B;J/G\nW~~'L'!ij~il!!i'!o VOBC (o] CI ~~'L'!ij~ii!!JHJ§.~,_IA!,* 32o\n69",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 75,
+      "text": "T/CAMET 04011.2-2018\nmi::JP-J-1¥ ~1H~lt i)t fJJ=j\nX 0 ~~*~~~.W£~m~m•M~~~\n7. 3. 2. 2. 2 VOBC 1t:J CI £~~$1jf~ .~\nJAjtl$$*:&i:kg(~IWYifflittA CI imf~i!R,!31:3fMJ ,11:.3~3tl$:&i:kg(~\n1WYiffl~3f CI im{~!R,!3/:IW .~J!-$:{§\")~,-@o\nVOBC ~ CI ~:±l{§.~J~ D ~;& 33 ,JJ\\Zffl&:fli)CKJ.t Jj'i]):£ .~~U,'J~\nn~-%~~JJ\\Z~~~~-~~~JJ\\Z~~~)C#o\n*\n33 VOBC lt:J CI £~~$H~ ,\\'l!,\n~I::JP-1-1¥ ~\"P-lf!Jr i)t 1!8\n~*~B~~C·~-$~&*~~~\n•xr~~~)\nDIR_TRAIN I J:fr :Ox55\n-r-q.:y :OxAA\n~-JA :OxFF\nft ilf W1 P IR ¥9: .fffHll!-$ ~\nftiH!HJ!l :Ox55\n/Fft.itffffHJ!l :OxAA\nCMD_UNLOCKOVERLAP I ~{1!!.~107*\n~$~W$~W~W-~C~*~U~\n$ .~ , :J1T )S W $ -~ , IR IBJ ~ ;IJ W $ -~ ) ,\nV0 BC ;;t Pf Lit i±J ft ilf {¥ 1P IR ¥9: .fffHJ;'i-$ ~\n!/€ t:i11: IR¥9: ID\nI - OxFFFFFFFF, 0 Jg ~iA {][\nNlD_TRACK 4\nVOBC iil*~~Jltr-E/f:(:E CI :illi{l§iiR¥9:80\n!/€ till IR¥9: ID\nJ£bf17fl'lfi!b, VOBC l&:@f¥~W~Btxt ~\nfi<J ~ $ -~ l?d''J $ tfia ~£1. {j§j .~, ~ CI Lit :ii'df fl\nN_pSD_CMD_CODE I\nfi!b,'iif-t-Jfi'lfl!bxt~ CI %\\'~Jf8<J-~li.J£bi:i'\nn ,J£~i!Jfi'l!i!b~~W£tt 4o ~-JA{l[.1J o\n70",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 76,
+      "text": "T/CAMET 04011. 2一2018\n表33 VOBC f& CIAIKE HBL)\n| ng BE PA NY PSD AY RE UE CE He) O01 或\nN_PSD 1 此2;为0时,PSDL 和PSD_ 2 FRB PRIA\n值;为1时.PSD_2 “5° Beste PR ACRE\n| PSsD_ 1 的TID\n| 1 ~OxFFFFFFFF\n5 OCW BR IAC, Jeon ani ie A AS LF LE\n| | AT]\nPsD 1 | 一一 一 一一-一 一 -一一 一\n控制信息 , | | AP PSDLU NY FET it > Cats ITT\nih, JEL [iy BH N_PSD_CMD_CODE)\nNC_PSD_I | 1 JV] :0.55\nKEPT OxAA\n| | i CADE ic (FT Ox FF\n| | PSD_2 fy ED CH) Tex BL As bed) ry Fie dee)\n[ iki) )\n| NID. PSD_2 4 1 ~ OxFFFEEEEE\n| 0 ARIAT. dears i i 2 Pt AS PF CE\nfil]\nPSD_2 | 7\n2 dD YY TO OT oO oo\n控制作息 | | AE PSD_2 DFE Hil a CAP RAL LB\n| | HN PSD TYPE)\n| VC PSD 2 | FFP] 0x55\n| : Kel | -OxsAA\nPRIA JEL OxPE\n- i SALAD ID\n有 oe | { ~OxFFFFFFFE .0为默认值\nNID_SIGNAL| NID SIGNAL 4 ae ne un ae geen pa pe ee ge\n| VOBC fe kk €é 42 til sie i Ari 4) 4 ie 7\npea) vf 4 Re SN gy dee ME AY i ty FL\nELSE ATER CT Abdi VOBC 发送的信和叶机1D 回复对应的信号机状态 .\n注2:VO8C 发出允许保护区段解锁信息后,在电动或人工价认前方信号开放\n前 ,车载ATP应然止列车前向牵引\n7]",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 77,
+      "text": "T/ CAMET 04011.2-2018\n;:±3 :~lifl i'l~ffliJill~~~At:fJL:\n(I) JA7~$illA~Ii '€:!tiL~?~ $~fil*if !i<~tZlltr~ltliJill~~~mkiA {i;\nc2 J\" ~ :!f:f!i'lft f!i'~ .zrn ,* ill1'T *-~li ':€! n ~it z1ltr, ~ ffliJ ill~~~ l!!k\niA.tili;\nC3 J **-~lifl n~itlfi ,JE.tif~~~1if3\\'f{~ffliJill~ c * n Wt*-n J, :lli:~*\nMHIJ CI ~~ 89~/ifl i'l~~!5Wl~ii\\~-~Bt ,:lf:lfrl~~~iAtili;\n( 4) 7~2'J'=1JTiS:li~ rj:t ,1*Yifil.ZFn, VOBC :X•t CI ~~ E!<Hii ':€! i'l :7f1cill~ ~~\nllll\\iA m , ill1'T:lf*-i'l~itzFnt#~~~:.fi3\\'l{ 89~ili1Jill~, :lli:~*~ ru\nc1 ~ ~El<JYlifl n ~~!5tV:I~~~-~nt ,:TF~~:i!llll\\iAffi;\nm:;\ncs ) Y~:!f:~~fli'filif!i<~~~r .~ffliJill~ ~~llll\\iA\nC6 ) :ii!i fl'f /iJ. llf.! tfX ~ rn , * ill1'T :7f *-Y~i F1 i'l t:\\1! it z \"Au , ~ ffliJ ill ~ ~ ~ llll\\\nlAtilio\n*\nll 4 = Yli ':€! n n ~~51...\\\\!. ;t;{ 34 c ;F .J; 9=' 1: fj , r 1'T 1.1 It!. .:r Jl!! oo ~ 51.. r~ 1: r 1'T 1J\n1oJ ,{J;<:tt::.~ I ,f!f$.~ 2 [!{J~JI..~.\\1!. T/CAMET 04010. 3-2018):\n(I) VOBC ~~ 89 Y/i F1 1'l1fll~ rj:t f;;1if :7f i'l ill~ lit, :7f i'l lillJ fE_ ~:i!:.fi 3\\'1{ {l'f\n.ti!.; *WI1J!1J:l!';J 11*- n 1ilr~Wtllll\\iA m:, !i!~ Jf n f~Ibfl'f .@!.JE.~~llll\\iA -m 0\n*W]1)!1j PSD\n(2):7f(J~{l'f.Q,.R)(;f:7f(J1fll~:.fi3\\'l{o lfi]R•t~~7fi'l1fll~,!J!IJJfl'l\nf~Ib{l'f.G!.X•Jili!jjJ!Ij PSD :l$j1f3\\'l{;;ff- 1)!1J PSD ~~:7f/'lill~,-1Y!IJ~~1c/'lill\n~WGllJkiA.{R,J)!Ij;Jf( J~{l'f.~,)(;f7f/'l1fiJ~1J!IJ1'f~ ,)(;f;JFJ-1J!1J:JC~o\nx\n( 3) l'l ill~ XtM fE_ 1J!~3t$ PSD 1if3\\'l{ o\n;:±5: VOBC {£~~ CI ~jf,iJ{l'f.@!,-@.M, PSDID {-EiUHii F1 i'l [~J'h'fl£ r .ltri~:l;i'P~\nm:,\n1if3\\'l{ 1£:11'JJ.-4k ~li F1 n a9·1i'fl£ r :J:AEI llll\\iA ill o\n*-T\n;:±6:* VOBC CBTC ~~.!J!IJi'iJ:If'rPJ CI ~~\"ftiHfH!!i\" Utftl!. PSD,{i'f~\n:tJL~ffi1c{i'f.@,flH 'ffi' ~~) o\n*'l\n;:± 7: VOBC WrrY~~{tj: i'iJ uttMJEnt ,@~:i!{J.!Hft IRJ31:fti.HJ!H!Jl:\n(I) j~ 2'J'=f!i'~;\n( 2) jlj $:1i}:::k3i:3tlltrYifil* Jt!&:ct1tit{.!i: ftffr ;(£ill~* Yifil{.!i: ft (:itt 1m* Yifil{.!i:\n'rH/il7~${ti.t{.!i:Nfiinm--t-lfil rP!{i'fl%Vlffr:t£ttLill IRJ31:~.~);\n( 3 ) {(! tj-{.!z ft ffr :t£ :itt~ El<J ~ Yifil ff:f l% tiL* :7f fif;: , ~ 1* #~ Jjfr ~Jl\\ !J!Ij 1J : .~ rt; !;\\t Jllj\nr ,*:® CI ~~i¥J{i'fl%tll~~ ,#ljjjfr{l'f%tll:J!:~fffj)(;\n( 4) :lf'fl}gff~ Jtt:itt~El<Jfli!::Jft IRJ31:: 7~ ${.!}lftJ3. ~~At @iA 1.1 :lf'fl}7fri~, 7~\n$M:li~$8~~Mi1JiA1.J:If'fl}W~o\nfiT*\n;:± 8: CI !& iiJ VOBC ~~ El<Jfli!::jft !Rf.)[ft i'FfliHJ!I ill~ 1J .ft i'FfWHI)l nt, CI 1m\nVOBC ~~ 89t'Lii !Rf.)[ ID Wt{f:f %Vl ID !mWiM@ fli!::jft IRJ31: o\n72",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 78,
+      "text": "T/CAMET 04011.2-2018\nbit7 bit6 I bitS bit4 I bit3 I bit2 I bit I J bitO\n_t r1-Tf!?$.~, {Jf :tj:: .~ 5E 5I.. :Ytl $ ~ II'F ~ m i!&o 1'f ~ -m:: 00001 b -\no, r1.:r; 0 1 b : f!? $ .~ I JJJJJb\n0\nI ,_t:('j' IOb:f!?$.~ 2 {§IJ~D ,6 ~m:Ytl$J&{1l1g OOIIOb\n7. 3. 2. 2. 3 VOBC icJ CI ~~iJOCnH~ ~.)(.~9i\ne~~fflA.ffl~~~~~$M~~~-~~~*~fto A~~~\n:f£IW9=t:ltHW~~i%=>JH\"J~ .~)'jl}f:l:!gllli:~~t§llli:~fi~o VOBC (n] CI '&.\n*~$ §~~~.. M ~L\\~L~* 350~--.. ......\n~\\1~,!!!!!~,\n7. 3. 2. 2. 4\n§~~1~L~Lffl 7t~U;E1!JIJ,VOBC 1&\n¥U~~:<$:!1m~ !1m§,.._..--~ ):f :11J~ t~ 1& ):f --'=3 Fl\nB 1m ~ [PJ - ) 1m B;f ):f\n*\n360\n~Di*J~ *11-K.lJr i3UY'I\n{l'f.~,J:E51... N J'J:.-1* I*!~ Ei=I ~ rlt'lf?tjjiJJ:Eili-tJ\n7. 3. 2. 2. 5 VOBC jc] CI ~~j±~ijl'11f*~.9i\n1±3'U$:1U~~~--'=3 CI ~H~{~B;f ,VOBC (n] CI '&.*ti:~ij{~.~. . 1I¥\nVOBC l&iU CI @]j[~ti:~ij{~.~. . ~;J!f VOBC :1U~~1~MlBto\nVOBC '&.* ~\" tt~iff).K\" -El.,\" ~flf!J {J'f .~.\" -El.,\" {,' ~E\" -El.i£ [PJ- GAL\n-E2 r:p /fllli: [PJ Bt1f1±\n0\ntt~~iff>.K~Jl!!Ji!,* 37\n0\n73",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 79,
+      "text": "T/CAMET 04011. 2-2018\nm~=~Pi~ ~1'-KJJr i)ti!J3\nX 0 &~m~M*.~£mmmmAM~~~\ni!l: VOBC -m'~\" r.±fl!JiJ!i)jt~jl\" Ef9 GAL§ 9' ,m/f-m'~;lt{tl!.{Jlf.@!, -Era\ni12:r±fl!lw:;:JtM~:s::ii~:imr\n=\n(I) VOBC *rj Jtrr#i/ JE~:i!\" r.±fl!JiTJ:;:JtM\" £l<J~{Lj: }§, mt#~Fnl Wl ~:I!\" r.± trii\ni~f:;:Jt ~_m\" , ]I~ r& iUC I ~:I! E!9\" r.± fl!J@! ~HJ1\" ;\n(2) CI ~HU VOBC ~:i!E!9\" r.±fl!Jij'j:;:Jt ~flr'' Fn .mt#~.ffil :Wl~m\" r.±fl!J@! ~\n~fl!\" •. M~-'=i VOBC E!9:illl{Jliltlf:Tf;\n(3)VOBC t&i!J CI ~mfl9\"r.:J:ofl'j@] ~~ft\" }§ .m~ !1:.~:1!\" r.:J:ofl'jij'J)jt~g!\",\n;J'f:Jtrr:Tf-'=J CI Ef9:illl {f'f;\n( 4) 4IPVOBC iU$11f;igflt .~~ VOBC m:t£1!!3TJf6~Jlt§~ VOBC B-'=i CI r.±#l\nlllG~ii-~~Bt(m/f;J'T VOBC-CI :illl{f'fl'j:titlfBtiEiJ )Fn ,)JfiJrO) Cl ~m\n:jQ lh'IJ {Jli .@:§.\n0\n7. 3. 3 CI icJ VOBC £~f~ .~.\n7. 3. 3. 1 CI icJ VOBC £~'L'~~~Jli\n~ CI --1:3 VOBC Jt.fi.tJH~J§' ,_fii'bJ*l&iU VOBC loJ CI 2t*Et9~1!Ifj{l'f\n,\\'i!!, Z 1W , $t *it{ J'i .fi!!,-§ .flBIE tt }.f V0 BC 19: 1k :fil CI i'BJ Ji {J'i fii ~ Et9 ii ~ ·l~l:o\nCI loJ VOBC 2t*'L' !liJE$Jr {J'i ,fi!!,JA!,* 38 o\n:fk 38 CI icJ VOBC £~'L'~~~Jlif~ .~.\nm~=~Pi~ ~1'-KJJr i)t lj}j\nX 0 &~m~M*.~£mmmm•m~~~\n*\ni!l: CI -'=i VOBC iJl;.:lL:ti:~~mFn, CI t& iU VOBC ~:I! Ef9{f'j ,@!, ~tr, fiJ )WJ WJ~\nm•L'~E~Jl ( J!t1Jifj~/f5!il ftjij~:;:jt) o VOBC milf:Mt~ CI ~:I! 89 •C.•Wt~_m\" ~t:1J\nti!l ,@,lriU-\\'}\",\" t&i!J _t -~ri!l .@, Bt;;$: :1J lr7U-\\'}\" ~.13l:llt Ull:h l!JkiA Uli a\ni12: CI t&iUV OBC ~:I! Ef9§§{f'f.@!, .X~*rjltlf~j$(ttflt, ~:I!\" CI rO] VOBC ~\n:!! •L' ~E ~fll\"\n7. 3. 3. 2 CI icJ VOBC £~:tt~f~.~,\n~ CI l&iU VOBC eg~ffi!H~Lfi!!,ZJ§' ,2t*\"W:{J'i,fi!!,-§o\n74",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 80,
+      "text": "T/CAMET 04011. 2—2018\nCL fh] VOBC fap ih 477 Pe 11 ULE 39 .\n#% 39 CI向VOBC 发送状态信息\n接口内容 va Tn)\n长度 |\n_ CI fe ike EY VOBC 发送的轨道区\nNID TRACK 4 接收到的 有发达的轨道\n| CE PE HY VOBE He we 09 a A OTF\nN_PSD_CMD_CODE Po | Che te ts <TH\n| 门|何\nN_PSD ] inl 42K AS PSD fy Bete\nPSD_t (fy) ID, 1 ~ OxFFFRFFFF\n| NID_PSD_L | 4 O AERIAL. Ae as Si EL AS FF FE\n, whe Zn\n站全上\n| | PSD_I 的状态\nPSD-L , pe | | 开门 :0x55\n信息“| 关公 | -ESD-I pT | PTs Ox8A CAT BR I He ME 817 2\n| | BRIA{H OxFr\nPSD 1 RONG. , | ol 接收到的 VOB 对 PSD_1 的控制\n| 控制命令| PSDLI | 智信\n| | PSD_2 fy ID\n; 1 ~OxFFFEFFEF\nNID_PSD_2 4 | 本\n| 0为默认值,才到当前通伟位置不存在\nAK TTT J\npsD 2 | | | Pop oa\nwee | Q_PSD-2| 1 | 关门:0sAA CHL HERR Be |\nERIM if sOxFF\n| PSD_2 R_NC_ | Cl 接收到的YOBC 对 PSD_2 的控制\nPediat PSD_ 2 | 命令\n75",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 81,
+      "text": "T/CAMET 04011.2-2018\n*11\nt~ r::J r*J :g ],)?. l!)j\n-K!Jl\n1l§f Jt} m B <J m\n4\nCI ~i&¥01¥.J VOBC ~:i!fi<J1l§i%t!L ID\nQ_SIGNAL_ASPECT \"1l§f%tJI.a<J ID\" B<J1l§f%tJ!.;tf(;5\ni~~fti?f1l§i% :Ox55\n1\n.'~~~Jl::{l§i% :OxAA\nJ!lkiAffi :OxFF( -$::1Jr!i:J:Jt1l§f%tJ!.At:l;i'P~)\n7. 3. 3. 3 CI jc] VOBC ~~:IJilm ~ }i)(,~JJi\n~~~~•~m~~~~~mM~~~-~~ffi~~no A~~~\nf£If£!flt1H@~~i~>Jt~~ ~~1ltf:l:5Jm~~ffilliEJJ~~o CI [OJ VOBC 'it\n*~* ~ ~~~JI!fj§f,~,!];!,* 400\n*\n40 CI jc] VOBC ~~:IJilm ~ ;;i)(.~JJifili ,~,\n~Qf};]:g *11-L~!Jl i)?. ljij\n1l§f.I~U:E.:X. N Ai*r*J:g:(:Eif'!l.P~~\n7. 3. 3. 4 CI jc] VOBC ~~}~ ~ }i)(.~JJi\n~ ~~ fl~L~\"ffl ~~:EJI\\~)]tijM~~~~o ~1Jtf:5HJ1J~1ff!J, VOBC 1&\n¥U~!=;zfs:rltf~rltf ~ ~~~JI!fr§' PI /l':i1!1l'~H'l!o '1t*:1J#U Wf~l&:JJ ~ ~\nI\nB ~~Ill]-} Jtf at :1J PI 'it* o CI [OJ VOBC 'it*} Jtf ~ ~ ~ ~JI! fj§f ,~,!];!,\n*\n410\n~Qf};]:g *11-K!Jl i)?. ljij\n1§.@,~5( N A 1* r*J ~ E8 ~ i Jflf ~HJIJ ~ iiJIJ\n7. 3. 3. 5 CI jc] VOBC ~~liiilJ@l~~JJi\nfECI ~lJ5c¥U VOBC ~ffli1J1J)jt~JI!fr§' rOJ VOBC @l~fflJ!i @l~~JJ1o\n1\n76",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 82,
+      "text": "T/CAMET 04011.2- 2018\nCI ~:I! 89\" tHfi @I~\" {Y\"\" :1* ~ {§ }~,\" {Y\"\" 'L' ~E\" §{±Ill]- GAL §\nJ:j=r ::fm Ill] B;f:ff{± o CI (o] VOBC ~:i!fffi1J !ill ~~J)f{§ ,\\~L!h!.:1R 42 o\n*\n42 CI icJ VOBC £j!)ii~@l~UJlH~J~,\nt~Di*J~ ~11-L~JJ( iJt llfl\nx\n0 «~*~M~.W£$mm~•m~~~\n7. 3. 4 911 :!Hff i!& tt ~¥ 11 f~ t5l a~\n!JT)S YAEW:5t.1'J§ ~j}ffij VOBC ;tt: .ffi :tc~:ii*~§ ~j}ffij VOBC ::f;J:t:.ffi:tc\nm1*Yffil-mT89$=* m1*Yffil\n~:ii*mfr¥·1'J!J(£o ;zjs:l)J:j=r VOBCl VOBC, VOBC2\n!W89$~ VOBCo\n7. 3. 4. 1 'itf=§ VOBC A~~~\"\n.llt;pHW& r, v\n:tc~:ii *' J1~7fJ ,~,\n:x;f ~ lXX] IP ) o § ~\nV 0 B C ;tt: Ill] {51! .ffi :iX ~~~Jill~~ VID o CI ::f IR :5t §\n~j}ffij VOBCo !JT)S ~~~rf fd~~'~'~J)f\" ,{EI.\"~fljij{§\n7.3.4.2 'itf=§\n.lit frjl •I'JIJ (£ B;f $ ~ § ~U'i'/1. , § ~ VOBC :5t JJiJ ~ CI\n~ CI WTJ!JL.:tc~:ii*, WTJ!\n~~li*89~m~~~~-r~~~-=\na) VOBCl ~ CI 1£f11jjGJVI;J5, VOBC2 ::tlffr~~ CI J!JL.:ii*o\nb) VOBCl ~ CI *jGJVttfifilifHiA.-mT, VOBC2 lf~~ CI J!JL.:ii*~\n:J!,l.,~E§; VOBCl ~ CI jGnJGtfifilifHiA.Ja, ~Yffi!lffr~ (o] CI ~:I!\n~fljij{§,~,o\n77",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 83,
+      "text": "T/CAMET 04011.2-2018\nllM ~ A\n( ~*4·tillM~)\nATO ~itlj~~~~~~J!rtJf!M'fJL~f§lj\nA. 1 ~~~\n$h). A liti rPJ D liti jg 1'J , A liti lE 'it~$ , B Jiti C Jiti JtiJE ~ , D Jiti , E Jiti lE 'it\n~$0\nA. 2 ATO ~itlj~~~~~~j!rtJflf.tfJL\nATO t£1jjijifP~~J)t~*l!~Bt:fJLJlt!,* A. 1 ,~~J3iJE5<.Jh!,* A. 2\n0\n*A. 1 ATS icJ VOBC ~~ ATO ~itiJ~~~~J!rtJf!M'fJL\njtl$f:fl'E.lk.\nATO ~ilJIJ1ftl iUll'BH1 ~~~ll',Ii~ \"\"f-~ \"\"f-M IKIBJ~1i\nll',Iif.!tMI'EiJ\n4-JI!!il~:i!]l! ID lD $ll',Ii~ ID ~~~1flr4- iff,J~1flr4-\n¥rat:m\nI. A :ittll',Ii A - A Ox a a - A\n1-2 A - A Oxaa - A\n2.A~~ B B D Ox55 A A-B\n2-3 B B D Ox55 A A-B\n3.AJf$ B B D Ox55 - A-B\n3-4 B B D Ox55 - A-B\n4. A tf:lft,Ij B B D Ox55 - A-B\n4-5 B B D Ox55 - A-B\n5. B :ittll',Ii B B D Ox55 - A-B\n5-6 B B D Ox55 - A-B\n6.B~u\nB B D Ox55 - A-B\n1*$.~\n78",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 84,
+      "text": "T/CAMET 04011.2-2018\n:9tl ${.lz.:'lt&\nATO ~fljij-ftlr itl:!IH~ i:1 li&E~:!i~ i:1 r-~ r-:!1~ IR I'BJ ~~-T\nft~~Rti'BJ\n4-$J)!'$.:ili£ ID ID $:!i~i:l ID li&E~-ftlr4- iffll~-ftlr4-\nil'frRtVL\n6-7 B B D Ox55 - A-B\n7.B:±l:!i~ c c D Ox55 - B-C\n7-8 c c D Ox55 - B-C\n8. c itH~ c c D Ox55 - B-C\n8-9 c c D Ox55 - B-C\n9. c ~:11\nc c D Ox55 - B-C\n~$.~\n9-10 c c D Ox55 - B-C\n10. c :±l y~ D - D Oxaa - C-D\n10- 11 D - D Oxaa - C-D\nII. D itt:!!~ D - D Ox a a - C-D\n11-12 D - D Oxaa - C-D\n12.D~~ E - E Oxaa D D-E\ni.±: * r:j'1, I ,2· .. ··· *~ ll!'r fji:JE.)( rt' B<.J-1§. AHU, 1-2,2-3 ...... *~ -1§. BHIJ;<::.I'BJ\nB<Jati'BJ€!1:(::f~p;q~B<JBHtl), \"-\"*~W:*€!1:'JX:ili~iA..{l!o\n*A. 2 ATS icJ VOBC * ~ j! ATO ~$JJ~~~.tli\n1! 1FT ff.Hlli¥-J iifl\" ~ :€ .><.\njlj${.lz.ft]i'( ATO\n~fljij -ftlr4-$Jl!'$.:ili\n4§-ll!'r!€1:5E.)(\n£il'fratm-1§.\nM-!€1:5E.)(\nATS 1&3iiJ:9tl ${\\§.~Am 9=' B9:ti: ~ litit? -~!tit:@ IR 1€1: ID %11 iliU ~ii:!:,\nI. A itt:!~~\n~~$-*:ti:~~~~~A~~i:i'B<JAt~\n79",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 85,
+      "text": "T/CAMET 04011.2-2018\n~A. 2 ATS io:J VOBC £~ ATO ~$1J$~~Jli\n]!!~ ff.t:fJLI'f.J ~lift $9:~)(. ( ~)\njU $ f.lz )i'L& AT O\n~ ]jjtj frr -0-~.m ~:!!\n~fljfl?JiJ£5(\nl!~stm~\nfljfl?JiJ£5(\n2. ATS :Jf #1!& ~j jlj :$ fi1i .!§!. ljJjJr 9=' EB .pf :t% :!* ~ f tli I*J ~ 11 Ox55 EB\nA}'f~t\nBt~lj\n3. A:Jf$ A~:Jf~l&~~$mAijij)r<PEB?fa~~ftlil*l~~110~5EB\nAHU\n4. A tl:\\Yti ~*~*~~$-·:JfAMM~EBBt~\n5. B: i1.!::!tti ~*~*~~$-~~BMM~EBBt~\n6. B~:i:f~$.~ ~*~*~~$-~:i:fBM~$~EBBt~\n7. B tl:\\Yb ~*~*~~$-·:JfBMMkEBBt~\n8. c :i1.!::!tb ~*~*~~$-~~CMM~EBBt~\n9. c\n~:i:f?i'$.~ ~:$~*~~$-~:i:fCMW$~EBBt~\n10. c .':1:\\:!tb ~*~*~~$-·:JfCMM~EBBt~\n11. D: i1.!::!tb ATS l&iUjU $fi1f,l§!, ljJjJr 9=' EB~~ I!Jitp .~ ttl.:i:l! 18: t9: ID 'f1l {lijjftlit,\n~~*~*~~$-~~DMM~EBBt~\nATS $ffi.i§!,$J)r 9=' P3 Ox55 EB\n12. o f'fa :Jf~l&~Jjlj i¥J~·:l*~f.l31: ~11\nAHU\ni1 :*<P ,1 ,2······*~11lf.I31:JE5(9='EB~DHtlo\n80",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 86,
+      "text": "9=' 1'111 ~ rP tiL :i11 ~ :illi tiJ> 4l: ffi 1* ;tjf-It\n•*~-~~ ¥~~m~~*~ft\n~$1J ~H!t ( CBTC) s~s~:fliJ Ji!i!m\n~ 2 $:Sf: CBTC ~~$:1:t!!it~~ f~#J.i)l.\nT/CAMET 04011. 2-2018\n*\nrr\nlil~:iil tH !l&tHf ~i~Rl :±l 11&~11'\n( 100054 ,::ltJlHili!!iJJiXIR;fl:ti:lle!H!j 8 -t})\n0RJ~:IJJ:: http://www. tdpress. com\n::ltJ¥--iiil~~fl.ljliJ:ff~0RJ ~fljjllj\n7f:ljs:: 880 mm x 1 230 mm 1/32 ffl'IIE: 2. 875 '¥~: 78 T\n2o191¥ 5 JJ m 1 11& 2o191¥ 5 JJ m 1 c;,:fpliJtJ\n~~: 15113 . 5729 J:E-fft: 25.00 513\nJl& ;t>~. Ji.IT ~ fSH>I. &, ~\nfL~~~:iQ!l&~ ~ ,:lm:fffflfljiJ]j)J:iiJ:[P]Im, ij'j.Ej:ljs:0Rl~1l'fflll!Ud!~~o\n~rrll\"iltt!. ii!i, lllf(021 )73174, m ( o1o )51873174",
+      "source_file": "T_CAMET 04011.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第2部分-CBTC系统车地连续通信协议.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

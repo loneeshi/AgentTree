@@ -1,0 +1,779 @@
+{
+  "doc_id": "5f01dbc9-8508-43fb-98ab-e293d638a304",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ICS 45.020 |\nHe Ee] Sak wi i TE Ae 2 Bs = a PR be HE |\nT/CAMET 04010.3— 2018 3\n城市轨道交通 基于通信的列车运行\n控制系统 ( CBTC ) 互联互通系统规范\n第3部分: 芋载电子地图\nUrban rail transit 一 System specification for interoperability of\ncommunication based train control system\nPart 3: Onboard electronic map\n\n2018-09-10 发布 2018-12-31 实施\n\n中国城市轨道交通协会 发 布 |",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "T/CAMET 04010. 3一2018\n=) 次\nV",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "T/CAMET 040100 3-2018\n50 12 ~i~H!l9}1f1!.:7G(DSU) oo ....... oo .. oooooooooooooo••••oooooooo ....... oo 64\n5. 13 ~:i::illi{~t}}-J,;X.~ 000 000 ooo ooo ooo ooo 000 000 000 000 000 000 000 000 000 000 000 ooo 64\n6 ft!. T-!&~=~ititJ::lC14m1*~tAH~~ ·oo 000 000 000 000 000 000 ·oo 000 000 000 ooo oo. 78\nllf;t~ A0J11.711tl:l!fHR) ~im~ti:7G~llilti7111E 00000000000000000000000000 80\n•\nVI",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "T/CAMET 04010.3-2018\nT/CAMET 040100i~rP $JL:ii j(Jli £ T i!i f~i B{] ~rj $ ~ ~-T :j£ ffjtj ¥ ~\n( CBTC) JI.!J*JI.i!i¥~~~\"ifi.}:5tJ-J ~ ~ [lY1-$:5t:\n-~ 1 $:5t:¥~J~,1*~>R;\n-~ 2 $ :5t : ¥ ~ $¥! :f~Pfll J)] ~~ :5t ~ ;\n-~ 3 $?t:$~~tt.Y:it!!OO;\n-~ 4 $:5t: JI.Il*JI.i!il€~?t;fff\n0\n:<fs:$:5t~ T/CAMET 04010 B{]m 3 $?to\n;<fs:$:)tfl(P.~ GB/T 1.1-2009 ~,':f:l(j{J~~J)!tl}§~o\nw~~:<fs:$:5t~¥®~~~n~&~~.:<fs:$:5t(I{J~~m~~~m\n*'l\niJt Jjlj :l! ® ~ ~]}! 1f\n0\n:<1s:$:5tm~~~m$JL:ii3<:i!i~~tt#~*~~~m~mmo\n*$:5tffi~~~m$JL:ii3<:i!i~~~oo\n:<1s: $ :5t ® ~ ijif .lz : :l t ffi ~ B*i!i f~f{f'i% 1iJf ~tit it ll1G ~ ill :ff ~LH} if.~ , 3<: :J£\n#ttH~:ff~0if.l,~~-:ii#~1iJf~ll%-ill:ff~0if.li!iMM%1iJf~~,\nf* ?fH ~ 7j:: at ft It\"'\\ H 17} :ff II& 0 if.~ , WT 'II A -g.# tt M: {7} :ff II& 0 if.~ , :l t ffi 3<: i!i\n* $ :5t .± ~ J§lj1I .A. : gfiPHEL : :XtJ:{~} 1M,£ 1!, *~at, fm M )C , 5iE tF r:m,\njtj\\ BI , ~ ~ ~E! , 1f @I , III/§ ~, :XtJ ~ ~, M J®! ;£ , Jit 0:. ~, £ ~, :XtJ iU! o ijr 11t\n~Jl ::$ rp~ ,*f:JL~~ ,~:£ ~, 5iE#S~, 5iE ~, .:E:iif!JL 5iEl'JiOltL~~ 'T,\n:$*'f)C ,:$t~:£ ,)C~:f!f ,ff~ '**~, ~ *IJtl\" ,5iE~z ,:XtJ*'f.lJl-o\nVH",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "T/CAMET 04010.3-2018\n~I\n~~*~~~m~m~~m~~~~*•~~m~m~~~•~•\n(J9';1;f~ Jt¥Ut£~ ~m ,~Wl\\;:~t~, .Jt#J~Gllt-.& ~M~tt.Wk A~ Fl tff- fli!JJ£~\nI I\nm~m5~:• ~ r illi fi'i J¥J ~u :tt: :ili fj :~£ fli~J ~ m cc sTc) ~ !fX ~ill!~ ~u I?II f*\n;j:,f-(ff.o\n~~~-~~M(~$~:i1!~m M~-M~~$:ilift:!£~~m\n( CBTC) ~-~ ill'i5dJd!l mJ O~r!J $)Lill ~ill! ¥ ~. fi'i 89 ~U $ :ili q.:r :j£ fli~J\n~ m ( CBTC) ~-~illl ~ IJ ~Jl\\111> <~ rP !tJLll! 3{:. £~illl fl'f o{J ~1j !j:::iliqT\nt~fli!J ~me CBTC) ~JfX~~?YWiA~JllWL»<MTfl!f}Lill~illl M T-illlfff~ ~U $\n]gq'T:j£fliiJ~mC CBTC) g:·~-I~~Jll.~l1))4-t-•m:c 17 1'-$71-) o\nIX",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "T/CAMET 04010.3-2018\n#0Cmtmm£im\n~T-im1ai¥-J9U$\nlliqTt~iM ~tft ( CBTC) E.~E.im ~tft~J\\!ffi\n~ 3 $ ~ : $ tx: It -T ±if?. IE\nT I CAMET 04010 89 ;zjs: $ ~$::::!::~ :!i Jf* :!i iffi 89 tfE-89 $ ~ It T\nMOO Wi,\n89~Wi:m~, 1'1~Wi 1'1~Wi~11JiJf£{#tfE-\n89$~~T-M~~ J:!!T-M~~~89~~,\n*~~~~~~~ ~m*~~89~~\nm\n1ilZ 1± Fo ~JUJil. :®G\n;z!s:$?t~ffl-T\nJ! !& tt\n,]!~ ~~ @f~~'*;fi;f\ni&tit ,f'£i9:it ,,. ....\n~\"\"-.......,..\n2 AAJ mt t sl JlJ :>c 1*\n*\nT ~tl )( {lf xt -T $ ?t 89 J.ilZ ffl Ji!: &, ~ llJ .:9 89 o fL :N:: B: B M 89 51f fl X.\n14 ,1Jli9TB: B M 89Jt&;zls:~Jtl-T;z!s:$?to JL:N::~B: B M8951ffl)C14 ,;l'Uii.lff\nIt&* ( ·E'rl% J9T;ff 89 f~ ~&lt!) ~m -r;z~s: Hi5?t o\nGB 50157- 2013 M~i&tit~Jil.m\nCJIT 407- 2012 ~m!WL:ili3l:iffi¥-Tiffifs89~tl$13 z;IJ~1lifj*tfeii*\n~*\n~¥1~%(2010)267 % RSSP- ll ~~{~%~~J.ffi{~i?}}i)(\nGB 50157- 2013 ,CJ/T 407-2012 jfiJ T/CAMET 04010. 1 31!-~89 ~~\n1",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "T/CAMET 04010.3-2018\nT~#*~··*~m~*S*o ~T~~~ffi~~T~-~WT~~\nB<J\n.:E~;f§;.*:#ill 0\n3. 1 ;;f'i~\n3. 1. 1\n¥ril1llii¥J91J$~lM communication based train control (CBTC)\n~M~*•~~~*~m~•~•B<J~*.:E~~&tt#.~m*­\n~~~~•~mtt*~~-•~fi~~~•B<J*•~~w~~uw~•\ns9am:r.t9u* E! ~1£$1J *~ o\n[ CJ/T 407-2012 ~~)( 3. 1. I]\n3. 1. 2\niE fi main line\n• ~ 9tl *ill 'fg 89 1Jt ~ ~ ~ B<J ~ ~\n0\n[ GB 50157-2013 ~~)( 2. 0. 11]\n3. 1. 3\n9iJ $ ~ fdj~$JJ automatic train control\nm%*~EI~~~~*~1£.~~~~~illfi1£~•tt#B<J~·o\n[ GB 50157-2013 I~)( 2. 0. 37 J\n3. 1. 4\n}\"lj $ ~ fdJ .ll{j: ~ automatic train supervision\n:mM9u * st~IJ*~ 9u* ill 11\" E! ~~~*~, mm1f *, ~M!:9u *ill1 1\"\ntt# B<J ,g,:fifj\\\n~ ~. 0\n[ GB 50157-2013 I~)( 2. 0. 38 J\n3. 1. 5\n9iJ $ ~ fdJ ~ t? automatic train protection\nEJ~~J.m9tl*ill1'Jf8j!Wj,JmJ!~~.ltt~~~~*i'l.~:J£tt#B<J,g,.o\n[ GB 50157-2013 I~_)( 2. 0. 39 J\n3. 1. 6\n}\"IJ $ ~ W1:@ fr automatic train operation\nE! ~~~91J*:bol!. if.JJ.t -~*~*f17fl~ ,m~•:J£$1Jtt#B<J,g,•o\n2",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "T/CAMET 04010.3-2018\n[ GB 50157-2013 ,}E.)( 2. 0. 40]\n3. 1. 7\ni.tl'HlliiHli! computer interlocking\ntV. it~m~.itj;J tf< 'L', El ~ ~Im:itt~, m tt, fl'i%m~ ~t? tt.it 8{]\n[ CJ/T 407-2012 ,}E.)( 3. 1. 6]\n3. 1. 8\n~l :j:p ~ ffl ~HJC maintenan *ce support system\nllil: ffiHc ~-* tfE 1*1 ;¥t {if!.~ -T ~!dt tF f§ .~, , ~ifH!fJ-* tfE Me~ ?Hir , J=ll=f-*\ntfE 8 '/If; ~ 'l'f tt .J?\n0\n[T/CAMET 04010. 1 ,.iti! 3. 1. 8]\n3. 1. 9\nfB IIi ,S. danger point\n~$~fift~~ftW~$ffMBmMrlB{]M5E~o\n[ T/CAMET 04010. I , .iti! 3. 1. 10]\n3. 1. 10\n~l;:IJB'H3l movement authority\n~$mMJ:EB{]fi~~~:ittA#~~-M5E~ii!~mi*Jfi$8{]\nif PJ\n0\n[CJ/T407-2012,}E5( 3. 1. 7]\n3. 1. 11\n~~91J$ CBTC-equipped trains\n~~ T CBTC -*t!E$~19:~ .§. i9:~61£-TifF:J:}C~B{]Ji'tl$o\n[T/CAMET04010.1,.iti!3.1.11]\n3. 1. 12\n~~~~91J$ Non-CBTC-equipped trains\nN:ff~~ CBTC -*tfe$~i9:~!!X;~ CBTC -*tfE$~19:4&61£-T~IfF\n:J:JC~B{]Ji'U$o\n[T/CAMET 04010. 1 ,.iti! 3. 1. 12]\n3",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "T/CAMET 04010.3-2018\n3. 1. 13\n~~*A transfer track\nm m\n$ f:V W $ :t,m _l::j lE ~ 1¥1 li t ~HJL , 5E 'iK jtl $if lJJe AIl JJe tl:l ttt 1* $JL :i1\nW\" P , ~ ~14A-* at, :itHJ'jtl $5E fr~11JtJ ~JJrJ.bHb !JJe:mAttt~ o\n[ T/CAMET 04010. 1, *i!i- 3. 1. 13]\n3. 1. 14\n~ ~ iE ~T overline operation\n5E'i!~$if~-~~-~k~A~~~-~I¥J~R\"P,~--~R\nmA~*-~~Rmfi~~5Efii¥J~Ao\n[ T/CAMET 04010. 1 ,*i!i- 3. 1. 14]\n3. 1. 15\n:S:. ~ :S:. il interoperability\n&§~~M%ra*aN§t¥J~$~~if&§~~M%ra$JL~N§\nI¥J-~$JL~x~~-~~~~$JL~x~~-k~~§~,~~~~5E'i!o\n[T/CAMET 04010. 1 ,*i!i-3. 1. 16]\n3. 1. 16\n*Am IKW: track section\n1¥J¥:2fs:;M]JV(;.5t, IK\n$}1.~ IK~ft:.h~Rtfit~ ~ P.~~-5G~!M'1iEm1'T\n~:lW?t, ~tl?tJ]iY!U~f&*J1-T~R!imJJI!?t!Jf-,Q. ,ffl -Tttil£~R¥:2fs:1~-~, o\n3. 1. 17\nmt t 1K W: switch section\n:@ft IK~:.h Jm ·ij::f.J~ft I¥J$JL~ IK~, Wil£ T~Rtfit~ \"P :@ft IK~ 1¥1\n~-i/&!1!1~ -~'\n0\n3. 2 ~lll&iH\nAM: jtl $ EP~IJ~!JJe:mA( Automatic Train Operating Mode)\nATC: jtl $ Ef z;IJ~11JtJ (Automatic Train Control)\nATO: j tl $ El 19JJE1T (Automatic Train Operation)\nATP: jtl $ El Z9J llJjtp (Automatic Train Protection)\nATS: jtl $ § z;IJ%£~ (Automatic Train Supervision)\n4",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "T/CAMET 04010. 3一2018\n\nCRTC :基于通信的列车控制(Communjcation Based Train Control )\n\nC1: 计算机联锁(Computer Interlocking)\n\nCM :列车白动防护模式(Coded Train Operating Mode )\n\nDCS :数据通信系统(Data Communication System )\n\nEUM :非限制人工驾驶模式(Emergency Unrestricted Train Operating\nMode )\n\nMA :移动授权(Movement Authority )\n\nMSS :维护支持系统(Maintenance Support System)\n\nblS :乘客信息系统(Passenger Information System )\n\nPSD :站台门(Platform Screen-Door):.\n\nRM:限制人工 8 BBE ( RéatALLP Hain Operating Mode)\n\nTSR : fi Bt BR ( Tefaysotary” Speed Restrietidn) >,\n\nTMS :列车管理 He (rain Management CS\n\nVOBC :车载控制 (te egy)\n\nZC : BSE i AY Zo pe Optio Oh aa\n4 总体描述 AE, PR\n4.1 总体要求 Sa Se RTS RL”\n4.1.1 CBTC RH, VOBC Ayah AA Te 77 iH ty AR\nfai. FRA Hb rR BY BC BRON AE a FH CL fa as en HI ) 。\n4.1.2 电子地图数据可分为以下几类:\n\na) 线路数据:与运行线路相关的数据 ;\n\nb) 轨道区段数据 :线路轨道区段元素数据;\n\nc) 轨劳设备数据:应答器 fe OL EAS ZC ATS CI.DSU MSS 等\n\n数据;\n\nd) 安全通信协议数据。\n4.1.3 若地图中不存在某类数据,则该数据对应的整个表在电子地图\n中不存在。例如 ,若某线路中没有 DSU 设备,则该线路电子地图中应不\n存在 DSU 数据表。\n\n5",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "T/CAMET 04010.3-2018\n4. 1. 4 Jt.Yit!!.OOt;J.=:itHIJiJ)CftJ::1i:rtWi~o x;f~~l3~3:.~1JJ¥:1:1J1-.J\n*\nit 1J :(:£ iW Cj ;:J#H.IlH~ :1i :rt ) o\n4. 1. 5 Jtrit!!.I!J~:fm~f1;]'flj¥.J5tiiJ:;g~5(1¥.J'iW~~5(~* 1\n*1 0\n$~~-T~~~-~~*~~\niltr ~ * 'X.\nD- ll£7'~\nG- :Jl/{J}U~JJ[\nL- -KJJ[\nM - JtftB\nN\n- f.fi!-'%/~:fii:\nNID - iJUJIJ-'%\nQ_ ll&k:\nv JtJJ[\n-\nNC_\n~ilkf.fii-'%\nJt.Y~OO~tm~~~~5t~;g~~-I¥.J.~-~5tUQ~-#*5(,\n~~~~*5(1¥.J5t~~~~~I¥.J5t~;go\n4. 2 ~*~~\n4. 2. 1 *h.~IR~H~!J~Jm:9!1J\n*\n~~:to 1+ t;J. tV!. ili IR 3: .& tV!. J1! IR 3: fBJ 1¥.1 li! ~ :k Wi ~ o\nJ1!ftiR3:~tV!.J1!~3:~*ffi~~OO I ~002~ffio\n1·\\\ni)?.fj.Ej :\nWf;!fmJ:!!! !Kf,t:it1 #!'-.~ I ,2 ,3 5'~, ft~ A {fL ~ ti1.J.!iZ flo J.J $JL i1! lK ,[3[ :it1J't., tiJult lK ~ 1*1 ,\n$Jli1! IKf,[J.!iZ~O::l}J.J IA,A3 ,A2 =$ o\n~ 1 ~1-~ft'*h.~IR~~~J~\n6",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "T/CAMET 04010.3- 2018\ni)t~:\n7'r\nI~#JJJI!IR~:itl.W..~ I ,2,3 A ,ft~ A,B {:li:.'rt-tl1J.!Y:ftJg!fJL:iQIR~:itl3'\\t ,C .~J'l;f&\nWl lil'lirl'J~, :(£ A ,B i'BJ~i&!: l'fJ!fJI.ili IR~:itl.W. .~ [ B:] o liHt IR~ 1*1, $Jtllt IR~l!Y: :ltiJ?t\nJg 1A,2A,AC,CB,B3,B4 :t::~o\nit, c .~:li1::~:ff:t£, i'iT El3 ~~Jj}j' Jiillil'li Rf r)E.:X. o\n~2 •n~•~~-~~@\"~~~~-~~\n4. 2. 2 ~-Ti'l!!oo:n~c:~\nr oo\nIt-T ttl! 00 :1J loJ IV-..t 1-J Wi :1£ o Jt J:f , ..t 1-J :1J loJ JE 5<. :1-1 :{~% .1JL III B<J\noo\nJA tL iO ti :1J loJ , \"'f 1-J :1J loJ JE 5I.. :1-1 : f~ % .1JL ~ B<J JA t; iO tL :1J 1oJ , ~o III 3\nPrrlR\n0\nF07\nZl2\ni)t~:\n~~Jg~~-OO~I.!Y:i'fJffl%.0000,~~~-00~fi~~)E.:X.~J'JOO~M~~\n;fji¥J~~ 0\n7",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "T/CAMET 04010.3-2018\n4. 2. 3 ~tf-.o;!af:ll:m:\n~~~00~-~~5A&~~-~\"~~~m~R+S-~»~~\n-~0 ;It~ ,S.:iil::1;;1S-~~~~-Uf~f01 ,».~~~m~R~.~iU~tffi\n.~ 89RE~, ~PM!WLM ~Rtr:J#ffiU~tffi.~RE~ o\n4. 2. 4 CRC ~~ *\n1f: ~ ~ ~ ~ ~ !/& tm ~ , x>t 32 f:ll 89 eRe :t5t ~, x>t Ell $ :JJt ~ m\nOx4C11DB7(X32 +X26 +X23 +X22 +X16 +X12 +X11 +X10 +X8 +X7 +X5 +\nX4 + X2 +X + 1 ) , fJ] Mi {i[ :1;; OxFFFFFFFF o x;f 16 & 89 CRC :t5t ~, x;f Ell$\ntgt~j; Ox11021 ( X16 + X12 + X5 + 1) ,f]J:t!ft{i[Jg Ox0\n0\n4. 2. 5 ~tt!Rfal~)(.\n:1;;'(j! -rm~ ,x-tmtt ~~J1Hl'J£.:X. o\n~mtt ~~Jt:1;;ttiW~~,tt FoJE:&~~,tt Fo & f:ll ~~J1!:qfm~,\n:t!DOO 4 ~?Fo\nDl / '\n- - - - - fl2\nI t1 -\nA\ni~aA,\nMilift 01,1- A 19ll!ft89ft1ltr12U~;A-219:illft89ft)g~t]:IK~;A-319ltt\n1114\n~tt1Rfal~)(.(!)l1-Mft)\nflliU~;f,llt~Rt*J;ff$1-Mft89'1fH£,1!DOO 5 ~?Fo\n4. 2. 6 JRY!ic:J/X'fjc]~ft\nM~mJE:A*B~~f011S-~M~8S~M?t,*W:~f01~MW:Mft\n89ftiWK~¥Uft Fo ~~89:/J[O]ffi!PJ ,JJ!UW:Mft:1;;X>t f01Mft ;*W::!J f01 ~ M\nW:Mft89ftFo~~~ftft~~89~f01;f*i' IIPJ,~W:Mft:1;;~f01Mfto\n~ oo 5 1-J f91L »-it~ Jti 31!-,~~ 1 :tm , * .~~ ~ ~ ~ oo _t qf ~ f01 .Yfr !Wt m\n~R 14 1i!SMft, JJ!U D1 ,D4 :1;;x;f [OJ Mft, D2 ,D3 :1;; J!Wf [OJ Mft o\n8",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "T/CAMET 04010. 3一2018\n6 5\n| | D1 \\ D2 D3 1) 人 | 4\nA B C D4\nAS 1\n\n说明:\n\nAPE D1.1一A Wi BY SAT AB 为道岔的贫后定位区吉;A一2 Hil\n\n对道货 D2,B一C 为道岔的佑着区城了AT让为道岔的贫后定位区域;6一R With\n\n对道倪 D3,C一D 条 区和 前区域;B一C 为遂盆的办后定位区域;3一C 为首\nis eR SE oo Veh\n\nwhith p4.c—p hat Cae IX Sik, D—S itt\n\nSEAS Io) iH HEB: AR fi Un FAS 中, BE UE 道岔 D2 (9 2 A LK HR\nLA ie D3 AE Boel we Sy\n\n5 ie BME eine OLA HL)\n\n5 电子地图元素数据结构\n5.1 说明\n\n各电子地立元素数据结构中,单个死系字段的数据长度均为定值-\n涉及字段内存在多个元索的情况,大无特妹阅明,则各个数不足,则数盘\nNEN FE TIMES S 0。\n5.2 线路\n5.2.1 线路数据结构\n\n线路数据结构见吉2。\n\n9",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "_ 表2 线路数据结构 局\n一\n. 、 、 SCARCE do ana cue a 、 >\nlee 定义 AB Yt HE AUR ~ BS ii Hel a M z\n(1) =\n中\nSe RA RT £8 Be HH 8S UN Oy BT A Fa EM o\nM_STRUCT_LINE| = N ‘ | , &\n1 ~OaFF, SRA TESR IIIA NSO - i SH Aa SST. ;\n线路编导 NID_LINE a ARTES I ATT Br EAR °\n0 无效 程阶段约定 六\n本线路 | ro 按照 纺制地图版本号,只体 =”\n2 M_VERSION Y;0 ~OxFF\nsth ARS - - Y 2编导规则作工程阶段约定\n7 :0 ~ OxFFFF\n0 ~ OxFF.0 表示无\n1 - 线路可连接到的线路 1 A\n可连接的线路 1 本线路可连接到的线路 1] 的编\n0 ~OxFF.0 RARE ,\n1 ; LSE BR ny V4 FE St fy SE 2 19 4a\n0 ~OxFF.0 # RE oe\n_ 0 = OFF OR 本线路可连接到的线路 3 的编号\n可转线路 可连接的线路 3\n3 | pee NID_LT JEROARTRT\n去| 一 < ~ Oxtt, to .\nARLE Ry TT ie He OR Be 4 的编号\naie edt eh eh 4 AEE BATT EYE BUNS ZR BA 的纺\n0 ~OxFF.0 # RH\n可连接的线路5 AG PY We He BY AD ER BA 5 的纺\n0 ~OxFFLO mA 、 、\n1 线路可连接到的线路6 的编忌\n本线路可连接到的线路6 的纺",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "表2 线路数据结构(续)\n_ 、 、 3H IK EE uaa a 、\n序号| 完义 MRE | an 数据范围 ex\n字\n4 Re Td V_LMTmax 1 1 ~OxFF.0 xX RAR he -_ 于全, en\nFe RE ATP 应限制列车运行时不可帘释此速度位\n. CBTC :0x01\n的的 ITC:0x02 Zc oie ah pa aie as ttt dite hap date ote\n5 运营控制 M_SYSMODE LC ov0a ARES Fe AE AS fe a ae EE td\n- oe a pe NN)?\naa HE fh EK\n位淮 你淮徐的大小.单位:em ,\n, ut - M_ACCWin ] 1 ~OxFF ,0 无效 vOBC 判断列 车俐准时使用.\nBt Xi) 5G 5.2.2\n站台 ATP ATP IF HIT ff OM A), fy sem.\n7 允许开门 | M_ATP_ALWDoor 1 1 ~OxFF,O 7k ATP 判断输出列车开门允许时做用.\n窗口大小 7G 5.2.2 a\nOQ\n允许开门 |M_ATO_AT.WDoor| 1 1 ~OxFF.0 无效 ATO 划断足否可开门时使及: =\n窗口大小 Ey 5.2.2 3\n5\nATP 允许列车退行的最大上永离 ,单位:em 己\n退行 — L ~ 65 534. 4 fl ffi an San ex pe ee ne =\n9 D_REVERSE 2 Loy ATP FT Fe i'F Mi) AE AU TT BE AS fh AC SR il wo\n允许是离 FOL pan a Sy |\n— BAY fe K EBS nN\n~ =)",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "= 2 线路数据结构(续) <\nCQ\n. 、、 tap ey |数据长度 本 。 、 >\n序号 定义 变居名定义 ae HAR ait iH $M z\n(EW ) es\n|\noe ATP ftp A) ATI AE 1 skh 2\n10 | vey | Y-REVERSE | | ~OxFF,0 无效 ATP FUE ALERT Ta a |S\nTLL qi fae ; a. ‘\neeisis ah) 9 See ACE Ie 中\nN_TRACK 2 1 ~OxFFFF ,0 无禾 本线路内轨道区段的总北 a\nPX Ee RY fet\n全线折返 _ ;\n12 二 sdiee N_AR_AREA 2 0 ~OxFFFF AER BG A SAT ik PX Se OY EK\n[K do AK yt\nfe Hy | . 本线路内应等器的总个数、\n13 N_BALISE 2 L~OxFFFF ,0 4% .\naaa - . A | 参见5.2. 3\n全线 本线路内信和叶相的总个数.\n14 . ; N_SIGNAL 2 1 ~OxFFFF .0无效 _\nFi ALK EW 5.2.3\n1s eek seb el N_SHELTER | 1 0 ~OxFF 本线路册千挡的心个数",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "表2 线路数据结构(续)\n序号| 定义 变生名定义 anne 数据范围 含义\n(字节)\n20 ee DSU hh N_DSU oo 本线路内 DSU 的总个数\n全线 a eo ca pe Le ie\nRssp_ 1 _ 全线采用 RSSP - I安全遂信协议与\n21 si 面设备 N_Type Lo | 0一rr |VOBC通信的地而设备种类总数。\nhE A pid, Fo Oe\nhaat?) eee cota 个 NA,\nCRC 校验 _CRC RSE 了FFFFF sy? BCE Sth CRC\nTE Fe A BCR 7 HE HR A 2 > 9 RBI IF FE As 15 We HE SC ARSE St NO Meh BH LI 后\none 5 us 1 1 2\n文各数据表也应六循此原则,,,-,, 站 it\n\\ a ne \\ \\ ad \\ ! PO r ;\n<\nea]\n|\nSs\n>\nS\n2\nww\n_ 由\n全\nCo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "T/CAMET 04010.3-2018\nm[ ]\n*t1'\n5. 2. 2\nJlt:tl iTo :lf;Jt~#x-ttt;Jtii !Rr&~*-~ c ~ .w. s. 3. 10) JYTJf 89m o\n0\nilD*~mW$A~M~m~W89m•.~~~~6!9f~a\nmo\nI:\nc~;· \"'\"\n\"'\" *''' *''' :\nI I\n1\nI 2\n?}$.~\n*\n006 m[ ] tJ' 5F ~ oo\n5. 2. 3 N_BALISE/ N_SIGNAL( ~~~~~if~%t!L!/&1il:)\n*~1m 1*1 ~~~/ f~ %tJL 89 ,g,!j&\n0\nJlt:tla9\" :z~>:~Imi*l ~~M;f~%m, m~:m!ffi.Ylffi. r:z~>:~~m 1*1 89 ~~\n~~m%mo ~~-~~W-~:tlm%mR~M~89~~~-~~~~~\nno r\nfi , El3 ffi ~~~1m ftl!. i&t 1a- ~ :m! , 1§. ~ :m! 1ft. Ji11fi. :zls: ~1m 1*1 , ii!Ot :zls: ~1m it\n~**r&M&~~*~I*lo ~Mffi~~~m,~nM~~~~*•m%m;\n~~fio\n5. 2. 4 N_Type( ~~ RSSP- II :11!! ltii&!:1a-#~!/&1il:)\n~~*ffi RSSP- II ~~Jm.1~11J-i)(~ VOBC Jm,f~B'~:tl!!iifi&!:1a-#~\n,g,!j&\n0\n§mJ CBTC *~9=t~Jl\\}E ,ZC, CI,ATS,DSU ~ VOBC Jm,f~At*ffl\nRSSP- II ~~Jil1~11J-i)(, iiJE~£1~% [2010) 267 %*{R SSP- II ~/m1~\n%~~Jm. 1~11J-i50>fff-ft~*o N_Type !1R{i[:1-J~~/ml:j=t~ _t:i£i&!:1a-89#~\n,g,!j&o fY~:~m,~~/mi*Jfi ZC,CI,ATS,x DSU,]J!Ij N_Type !1R{i[:1-J 3;~~\n/mi*Jfi ZC,CI,ATS,DSU ,]J!IJ N_Type !1R{i[:1-J 4o\n5.3 *lt~IR~\n5. 3. 1 *lt~IR~~115~#il\n$JL:i1! !Rf&!/&~~¥;]t~ 1JX;.!A!.7& 3\n0\n14",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 20,
+      "text": "表3 轨道区段数据结构\nWe] 定义 MALE, EL Can) BE 含 文 |\nyi\n| Phill bE RIESE Ob HY BUR AD HE ,\n0 4 afi DX Ex M_STRUCT_ TRACK I re waht as ie an “ -\n数据星体结构 TRACK ACK * SNe N 的4 Vi Ka tii 1) ik ( Has He\nN+4 1 ~29 BY RR ICE AL) PA a ee\nny SEK CRC\n有 加 | ~OxFFFFFFFF.O] 0 ae\n1 |Shatilx Bet] = NID_TRACK 4 无效 hid ES ALE py ADU - Ai)\n«\n2 |所届线路编吕 NID_LINF | 1 ~OxFF.O AK PIP SiG BA aS (EL\n3 Ir Jas NID_ 4 0 ~ OsFFFFFEFFF, 0 fT EAN SEH AY ZC 编号\n\"| veges | 7Calfiliation eo ERR ZC BSE ETE) 2G Aa\n, 0 ~ OxFFFFFFFF , 0 Wie AEE ZC1 4\nFerR ACP BA ZC) ees ° =\n、 _ NN\n7 | 4 0 ~ OXPFFFFPEE. 0] oo ae rey apt 中\nnial 表示无所属接管ZXC2 | TA E\n4 | ZC 编号列表| NID_ZCadapter 可\n(B41. 5.3.2) , | 0 > OXFFFFFFFE, 0 6 RHEE et S\noo. Bee ZC3 fhe ey\nREET RDA 203 和 S\n己\n4 0 ~ OxFFFFFFFF, 0 Hie MR MEE Zc 4 co\n. _ Sr At. oY My TN cr . 编号\n_ Be AS JEP ah SEAT 7.C4 oan ° Ly\nLA S&S\noo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 21,
+      "text": "-\n~ 3 *ltii~R$ilit.1Hi!i#il(~) \">-3\n0\\ (i\n>\nff-1} )E)( ~iit~)E)( ~~*.ll ~~7t'!:Hil 15 )( ~\n( ~1)) tr.l\n>-3\nOx55 :J:lr 0\n-\"\"\nOxAA: \"\"\"fq'j- J!Jj'Jii.l~'m' ZCI t'i<Jjtfi~)fjnj o 0 ~\nI 0\nO:::XJ!Ji'/ilH~tl' ZCI ~~ 5. 3. 3 w\n..I.. ,\n;¥t1tl!.x3'&\n0\n~\n00\nOx55:J:~'T\nOxAA: T~'T J!Ji' liM~ 'm' ZC2 t'i<J :ii ~ )f inJ o\nI\nO:xJ!Ji'!ii.lm'ti' ZC2 ~~ 5. 3. 3\n.mtr-\nzc\n;ft11l!.x3'&\n5 :ii~Jrlnl Q_ZCaffDir\n~tl;t( Ox55: J:~'T\nOxAA:TH J!Jj'Jii.l~~ ZC3 t'i<J:ii~Jrlnl o\nI\nO:~J!Ji'Jii.l~tl' ZC3 ~.!,\\!. 5. 3. 3\n;fl;11l!.x3'&\nOx55: J:~'j\nOxAA: T~'J J!Ji'Jii.l~tl' ZC4 t'i<J:ii~Jrlnl o\nI\nO:::XJ!Ji'Jii.l~ti' ZC4 ~~ 5. 3. 3\n;lt{tl!.~3'&\n0 - OxFFFFFFFF, 0\n6 })If~ CI ~.£} NID_CI 4 J!Ji'J!JltHMG:I'IDI't<J CI f.lij.£}\n*~5CJ!Ji'~ CI",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 22,
+      "text": "表3 轨道区段数据结构(续)\n序号| 定义 变重名定义 | RS 数据范围 含义\n(字节 )\n所属 ATS 0 ~ OxFFFFFFFF, 0\nO ~OxKEEEFFFF ,0 #\n4 — gets 3 所展接符 ATS1 编号\n二网接等人Sn | “MEP AT!\n7?) RS) OPP PEREE “6! 3\n所属接管 rate ee ates aks, Wt ATS2 编号\nATS 编号 | NID_ATSadapter jet 3 eh = ~ a) *\n参见5.3.2 ale) ge i, COME BEAT ATS3 编号\nee pea a we\n| (| 0 -FE |\neae | OY (re © ATS4 编号\nreat. seis [| OBIE ATS 多\n“oy oad 0xAA aren\na oS 所属接管 ATS1 的连接方向\nER —- ST ya | a tS YE o\n- aes EHREE sm 5.3.3 2\nie ATS vical =\n连接方向 Q_ATSaffDir 一 =\n| eee mae | 所属接管 ASTS2 的连接方向。 S\n个 | 参见5.3.3 2\nATS2 w\n. 其他无效 NM\n~ —_\nco",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 23,
+      "text": "二 表 3 ”轨道区段数据结构(续)\n性\n、, 、 、 数据长度 网 a 、 >\nKE | 定义 变央名定义 fo vena ey z\n(SF 1) se\n—\n0x55; E fF =\nOxAA: Ffy S\nne ee ee ame | 所属接管ATS3 的连接方向. 2?\n] 0 Rm AM it He 47 . es)\nGL 5.3.3 |\nATS3 NS\nhyn AY ap : ar\nRe ATS Hh Mth ex &\n9 | 连接方向 O_ATSaffDir\n列表 0x55 :上行\nOxAA: FG\n_ om || GREE ATS4 的连接方向 .\n| 0 Fem oe Fit Ih Pe TF ; *\n、 BL 5.3.3\nATS4\nH(t, Fo XK\nbat FX BE Ox55: FF [a] — BX HEU AM NKASIT Rm 4s;\n10 wenens M_DIR_REF OxAA: FF la] HY AMHR ERGs EIA 1. KK Be\nIAAL J a . . 、 toy yp go ae — pea\n的对应关系 其他无效 上 ae eS TF [ue] WAAL BIT Hem OR TE.\nIS 人参见5.3.4\n轨道 1 ~ OxFFFPEEFE, 0\n11 | 1 TRACK 4 . 轧道区段的长度 .单位:em\n区段长度 无效 meas",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 24,
+      "text": "表3 轨道区段数据结构(续)\n. a 、 、 数据长度 tn awn 、\nT 1\n0x000001 :普通上行轨道区段\n0x000002 :普通下行轨道区段\n0x000004 :上行转换轨\n0x000008 :下行转换轨\n0x000010 :站侣\n0x000020 ; aft 4\n0x000040:上行车挡\n轨道 NID_ 1 ~ OxFFFFFFFF,O| 人 an\nI? X Ete | TRPROPERTY ‘ FE RL 0<000080. Fir ea\n又 0x000100 :上行线路终点\n0x000200 :下行线路终点\n0x000400 :二行灯泡线边界 |\n0x000800 :下行灯泡线边界\n0x040000 - CI 通信和轨道区段\n0x100000 :联络线( 预贸) | 2\n参见$.3.5 | =\nLane 0 ~ OxFFFFFFFF , 0 a , ee ue\neke bye dehy oe . ee te pet pe owe [47 A oy) _& Fl 8 BE 2 AY Ht Ee Ee aa S co\n13 | 链接轨道 | NID_TRUPLINK | 4 | RRAL AHEM] C. 4\nona \"on 01 5.3.6 Oo\n区段编号 区段 5\n下行方向 0 ~ OAFFFFFFFF, 6 . , sae tt oe =\n14 | 链接加道 NID_ 4 去示无下行链接轨道 上下行方向上相廓链接的轨道区段编吕 cn\n| TRDOWNLINK 天风53.6\nCD",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 25,
+      "text": "S 表3 轨道区段数据结构(续) a\n人\n类 ea >\n序号| ”定义 变熏名定义 |到扬长度 数据范转 含义\n(#7) res\n|\n0 ~ OxFFFFFFFF, 0 Oo\new ee | 上行方向链接道贫所属轨道区段编号。 s\n4 表示无上行链接道贫 #5 5.3.7 =\nHe HEIN NID ann «9\n15 | 所属轨道 - |\nSWITCHLINK nd\n区段编号 ~ OFTTETEETT 0) 下行方向链接道盆所属轨道区段编号。 =\n表示无下行链接道贫| 号由\n] 2, 5.3.7\n4 0 ~ OxFFFFFFFF,0) 上行方向链接道岔的 ID 编号。\n表示无上行链接道岔 | 参见5.3.8\n链接道岔 NID_ID_\n的ID 编号 SWITCHLINK\n0 ~ OxFFFFFFFF,0) 下行方向链接道岔的 ID 编号。\n表示无卞行链接道岔 | ”参见5.3.8\n轨道区段 一\n0 ~OxFF,0 HARX .\nww ES r Ah yey et - AY fi fan oe 编号\n(Bil 5.3.9)\n0 ~ 16383 ,0 Haw .\n2 th ; ay 上 Wy BS Ae 1 4",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 26,
+      "text": "表3 轨道区段数据结构(续)\n序号 定义 AE ht % FE _ Bx HE FG Fi a MM\n(FU)\n0 ~ OxFF,.0 表示无 .\nxFP.O #87 轨道区段上的应答器2 所属线路编号\n应答句2\n0, --16883s0-表示苇\n3 aes Obes 轨道区段上的应答器2编号\nLil BE 0\noS) OQ NA表示无4全\n0 BARRO FB Ab Cathe ox ee Fy nA BE 16 所属线路编号\nna aes 9 0 5383 Ome a GT 天\nTa [ aati | SUM RL toe aE 16 编号\n*, dap asc WR 0000-3. Aa wi oe ext re\n日的地号 | NID_TARGET | 4 taggPmammeaespg|e 各道区段对应目的地号的全线统一编号|。\n>\n0 ~ OxFFFFFFFF, _ 2\n4 点 1 > 立 C\n4 OxFFFFFFFF 表示无 上行方向停车, 偏移量 ,单位 cm =\nfH B&H 5.3.10 四\n轨道区段 上行方向停车点 1 =\n19 D_STOPPINGPOINT P=\n停车点 0 ~ OxFFFFFFFF,| 上行方向个车点2 BETES 忆\n4 |OxFFFFFFFF 表示无 bins 5 OD aE EBL CM 人\n. 上行方向停车点2 | eer? S\noo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 27,
+      "text": "表3 轨道区段数据结构(续) 2\nO\neu as y | MRI hap tle 、 >\nhes 定义 AR NH FE an ade a El a x z\n(Fy) =\n4\n0 ~ OxFFFFFFFF, i 、 ane . 4\nspews det FAT Fr ted BG aE, BEE om... S\n4 |OxFFFFFFFF 表示无 S\nFist ete a UL 5.3.10 °\n轨道区段 了妃罗人-和牛避 人\n19 | TERRES |p sTopPINGPOINT\nFE 0 ~ OxFFFFFFFF S\n: . 1 下行 上 te we 2 a } , 位 . 一\n4 OxFFFFFFFF # a & ane tet Fk AL cm. co\n下行方向停车点 2\n0x01 :折返傈车点\nOx02 :运党人车点\n0x03: A dr aR i - 行 轨道区段停车点必性, 釜见\nM_STOPPING_UP | x02 Ae iB 你 4 ‘47 Fy fe) Hh, ae Ke Ee Ay 4 IR HE,\nBORG EF 5.3.1]\n0:90 LTT 4a\n_ FE Axe\n20 ALAR Bz |\nfe HE A RR ME 网\n0x01 BPR by Eh\n0x03: Me Ht i {5 2E fy Ty i] ML atl IX Be i Ee a Pe, BW\nwm SIOPPING DOWN 1 x 32H 折返您于 Fos Fy to) Hy all PR Re ta) Zk Ia Pe I,\nHefty 76",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 28,
+      "text": "表3 轨道区段数据结构(续 )\n= : 、 |数据长度 a\nFe) eX RMB | aa 数据范围 e x\n(FT)\n0 ~ OxFFFFFFFF\n’ 45 B Bae hy it, an >\n4 OxFFFFFFFF 表示无 teeta a FE Lat, AZ sem\n土行参考停车点 1 ane\n0 ~ OxFFFFFFFF\n’ 行参3 ir “点2 Ay £4 - 位 °\n4 |OxFFFFFFFF 表示无 ene oe ra 4S Bk ,单位:cm\n= 上行参考停车点 2 wae\n21 |参考停车点|D_REF_STOPPOINT PE\n~ Xx\n2 ? 行参 2 点1 dt, 立 , 。\n4 |OxFFFFFFFF 表示无 和 owe 偏移世 ,单位:em\n下行参考停车点 1 anne\n0 ~ OxFFFFFFFF\n本 行参 -人 点 2 < ik, i: 。\n4 |OxFFFFFFFF 表示无 a SHE 偏移址,单位:em\n下行参考停车点 2\n站\na 0 ~ OxFFFFFFFF, 0 -3\n全 NID_STOPLEFT 4 A 轨道区段左侧的站人台 ID 忌\n区 表示无左侧站台 和 it S\n有 站台 ID\n0 ~ OxFFFFFFFF, 0\nNID_STOPRIGHT 4 _ ‘tt BE 4 MW AY G 1D 加\n们 stores) , | 表示无右侧站全 和的后 四\no | 车站 FAR ,长度不超过6 个汉字,字库编码| ”导\nw 名称 Q_STATIONNAME! = 12 采用 GB 18030 FE, HRB ORME. 以 =\n. 小\n= L\nCo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 29,
+      "text": "~ #3 轨道区段数据结构(续) S\n序号| ”定义 变悉名定义 | BORE 数据范围 ae y 2\n(#7) 加\n=\n2\nKt |T_STOPREVERUP| 2 9 = 1800, ABA | cme ik ta PRT M2 9 =\n站停 效 二\n时间 A\n(参见 15 ~ 1 800 ,其 =\n§,3.13.3)/TSTOPREVERDOWN| 2? 效 其他无 下行默认站停时间 ,单位:s\n站\n特 门侧信息 :\na are 0x01: ef] 站台侧车门信息。用于 ATP HBSS\n性| 信息 | Q-DOORDIR 0x02 ;右门 出该侧车门允许。\n22 人| °° 0x03 :左右门 参见 5.3.13.4\n见 其他非法\n二 开左门,之后关左\n一 | 默认 门:0x55\n开门 开右门,之后关右\n顺序 | Q_DOORSEQUP (J :0xCC; 默认上行开关门顺序\n(参见 同时开双侧门,之\n5.3 13.5) 后同时关双侧门:\nOxAA;",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 30,
+      "text": "T/CAMET 04010. 3一2018\n>\nth\ni\na -\n4K\nHe\nWe\n2\n>\nae 一 roa Ie 人\nGot ee mew Oe Ye,\n48 _ he S&S éi g-F se 名 Wate al o [7 Ho\niss ray BS p ips _ mene sie* Y GK'A ae 一\nco as e Se BO LEE a\na| 2 iat Cob rive Sx %\n> wei “\nLx! 未 区 小 ivr i a ee a\nR N SONS Bf SO NBS rp te oR\nRS “a\noe\n> =\n{h a\naw c\ncH S\nra A\nod\nx KRREN |\n世\nBNO WE HH (AVR 5.3. 13)\nSh nN\n25",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 31,
+      "text": "x 表3 轨道区段数据结构(续) S\n(FW) 四\n中\n开左门,之后关左 人\n1] :0x55 ; o\n开右门,之后关右 w\n| 门:0xCC; PL\n间时开双侧门,之后 | 5\n同时关双侧门:OxAA;\n站 先开左门青开右门之\n台 Q_DOORSEQDOWN 后同时关双侧门:0xl ;\ni 默认 先开右门再开左门之\n属 | 开门 和\n性 、 、 门 ,始终 、、 se 、\nae (on 闭双便车门:0x88, | RAPT RTM\n见 |53 5 先开左门绸关左门\na 再开右门再关右门;\n_ 0x33;\n二 FAIA\nBAAIAX AN:\nOx44;\nRIAA :OxFF,\n站台为双侧门时填写\n非默认值,单侧门时项\n写默认值。其他无效",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 32,
+      "text": "表3 轨道区段数据结构(续)\n站台 0 ~ OxFFFFFFFF, 0 ..\nih 门ID | NID_PSDLEFT 4 |表示无磊侧站台站 左侧站台门\n特 | (人参见\n#1 | 5.3. | NID_PSDRIGHT | 4 0 7 OxF ERE EEEE SG (34 G17 ID\n| 3.4) ~ 表示无右侧站人台门 AAG ST\n\n22 | 二\n& 0 ~OxFFFFFFFF ,0 # ,\n\nWye 2s NID_LEMG 4 Rate Fixe | ID\na | 紧急 - oe 示无紧急停车按钮1 | ROE\nw | 关按\nct | ati 4 0 ~OxFFFFFFFF 02 | pe ys gece 2 Ip\n\nRSF 0 ~8,其他无效,0表| ye.\n\nN_AIR_SHAFT . 轨道区段上风井和\n\n风 4 O~OxFFFFFFFF OxFF | UP 1 #8 Xt HL ae De Be ae oe AY Ot 局\n# FFFFFF 表示无风井1 | (相对于电子地网上行方向) ,单位:cm 四\n&\n\n23 | , 0 ~OxFFFFFFFF OxFF | 风井2 #0 Xt F SL att &K BE A AY th <\n只 | 风井 | ie SHAET FFFFFF 表示尖风井 2 | (相对于电子地网上行方向) ,单位:em 中\na\n\n2\n\n4 O ~OxFFFFFFFF ,OxFF | UH: 8 48 Xt F Hh ath Be eS ted 人\n\n本 FFFFFT 表示无风井8 |(相对于电子地图上行方向) ,单位:cm 六\n~ —_\nco",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 33,
+      "text": "ry 表3 轨道区段数据结构(续) S\n< >\n序号| ax | marge FRE 数据范围 az x z\n(#77) ie\nBi 17 0~8, HERO; VL “ee 2\nN_FLOOD_GATE % 区 j ff fyt 全\nw\n0 ~ OxFFFFFFFF, 0 、 |\n1 ID\n1 pe s\nfee}\n0 ~ OxFFFFFFFF, 0\n、 4 . 有 ’ By ¥Eh] 2 ID\n和 ee\n六 ps |\n& 0 ~ OxFFFFFFFF, 0\n24 re _ ‘78 ID\n- 0 ~ OxFFFF,0 表示 , ete mk\n= 2 peste 1 BY REIT 1 的区域长度 ,单位:em\nwre |- 0 ~ OxFFFF 表示\nBa we TJ 2 | OT ONRPRR,O FN | ei 2 Ay BC BREE, BAY sem\n区域 | D_AREA FLOODG Te Bi HN\") 2\nae ee ee\n0 ~OxFFFF .0 表示\n2 济门8的区域长度,单位:",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 34,
+      "text": "表3 轨道区段数据结构(续)\n,, 、、 |数据长度 a\n序号 定义 变基名定义 HB eo x\n(FW)\n0 ~ OxFFFFFFFF., te Me ere ded Le ts 4a\na |e RPR 二寺丰| DRED 1 相对十轨道区段起点的偏秘基\nXPrEESE rd he a 、\n(相对于电子地图上行方向) ,单位:em\n网 一\nat wR Ts NR\n<2 s0xPERRFEFRS. . oe ce\n~ , Gore a poe] 2 ARE atl Be A i\n, |S Re). | ge © OAT Past Fe CE ETA) .单位:em\n24 | 灵 |信移第| D-FLOOD-GATE | Sayfa) BAP RR :\ntse Uy | yas ’ away ae = feb wae 19 ty fps “1\nger 0 EFF pre 无 Spies 8 AR RY > A att EK Be ie 9 eg BS\nscl grag ge 区相对于电子地图上行方向) ,单位:em\n分 | 分自 32.轨道区段上分段限速的数呈,肥大\nJS | BRL Se N_ITERLmt¥ 1 4. Axe So Set Tae? Le ; = 四\n速 一 4\\ FAY we 1 xX 大 if [区 tL - 占 《\nnm 0 ~OxFEFFFFFE, #: . 4 ER IRR FA UF Bir ELE PE Bea vA 之\n25 | 参 D_LMTY 4 _. 4m ES yk FREE A tte PL 4 Pr ty HE SL\n见 | 分段 他无效 避\nww ThSd ,单位:cm 2\nuo | 限速1 °\n一 | ~OxFFFFFFFF ,其 _— ; . =\na L_LMTV 4 we ea 分段限速 1 的长度 ,单位:em 9\n忆\nco",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 35,
+      "text": "表3 轨道区段数据结构(续) 忆\nOQ\n, 2 >\neS] ”定义 ates gy PRR IE ae x Zz\n(字节) 站\na\n分段 - 有 2\n62 ik | V_LMT 0 ~OxFE, Fifth | “分段限速 ! 的限速值 2A 02 skh 二\no\n0 ~ OxFFFFFFFF,| 分段限速 2 相对于所在轨道区段起点的| 7\nD_LMTV 4 |OxFFFFFFFF 表示无|偏移重,按照电子地网上行方向进行偏移生| Ss\n分段限速 2 计算 ,单位:em o\n分自 0 ~ OxFFFFFFFF, 0\n分 | 限速 2 L_LMTV 4 加 , 及限速 2 的长 立:\n限\n速 0 ~OxFF,OxFF 表示 ,\n一 V_LMT 4y FE BR 2 的限速任 立 :km\na\n= 0 ~ OxFFFFFFFF,| 分段限速 32 相对于所在轨道区段起点的\n一 D_LMTV 4 | OxFFFFFFFF 表示无分| te #4 Gb, He BS ea St PAL 4 Py EA AS Ut\n分段 段限速 32 计算 ,单位:em\n限速 32 0 ~ OxFFFFFFFF , 0\nL_LMTV 4 , Ey GR 32 的长 an\n$e KIS BIR 2 分段限速 32 的长度 ,单位:cm\n. 0 ~OxFF ,OxFF 表示\nV_LMT <BR GR 32 的限速值 ,单位:k",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 36,
+      "text": "表3 轨道区段数据结构(续)\n序号| 定义 RMR HX | reir ew x\n(Tp)\n分段 1 ~32.扫道区段上分段坡度的数乙,取大\n坡度 N_ITERG 1 1 -32 .共他无效 _ «A EK EZ J oP SRE AY) tat Oe\naan Ae\nAS (ER . F | | Xf chee fe itt PK EE Aw da fy:\n0 = OXFFFFFFFF.. 共 Rihonake! NAF Bh EB PE Po 由\nD_RAMP 4 、 仿移忌,按照电子地多上行方向进行仿移惧\n他无效 、 .\n计算,单位:em\n分段 1 ~ OxFFIFFFFFF. #\n‘he L_RAMP 4 本 xt 分段坡度 【的长度 ,单位:em\n.| 坡度 1 他无效\nbt\nBE 4 a al | ‘ ; EE CE We Min\n26 |页 G_RAMP |) age tin ERY fie 0 eta FSP be edb Se eS AA Ja TT\nef ves (HF WERT Sy BAH\n(CD\non i i AE Ay ER WK AE 上 ek BE Se ik ab OE ey eR oH i, 4\n~ LIZ | G_CR_RAMP 4 0 ~ OxFFFFFFFF 单位 em, 5\nfe EG 5.3. 15.2 >\nKs\n0 ~ OxFIFFFFFFF, 4Sy FS HK RE 2 相对于所在轨道区段起点的 下\nD_RAMP 4 OxFFFFFFFF 22 ax 2c | tai #8 fr 2a FB a sl bt A rey ET Oa FS 2\n分自 分段坡度 2 计算.单位:em 三\n坡度 2 3s\n0 ~ OxFFFFFFFF, 0 _ _\nRAMP 4 分段坡度2 ICIS ,单位:ec\nco",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 37,
+      "text": "2 表3 轨道区段数据结构(续) S\nLe >\n序号| ”定义 变量名定义 REE 数据范围 含义\n(字节 ) 四\n中\nby BE - 128 ~ 127,47 | 分段坡度 2 的坡度值 ,单位:%o。\nene | CRAMP 1 |S, -128 表示无分| ”按照电子地图上行方向上坡时该值为正| SS\n四 段坡度 2 值 ,下坡时为负值\nve hoe 分段坡度 2 坡度变化处等效的曲线半径,| Ss\n| G_CR_RAMP 4 0 ~OxFFFFFFFF 单位 cm, °°\n半径。 参见 5.3.15.2\n网区2\n度 0 ~ OxFFFFFFFF,| 分段坡度 32 相对于所在轨道区段起点的\n参 D_RAMP 4 |OxFFFFFFFF 表示无|仿移熏,按照电子地图上行方向进行偏移黄\non 分段坡度 32 计算,单位:cm\n— | 分段 0 ~ OxFFFFFFFF, 0 . .\n- 128 ~ 127,48 7) 分段坡度 32 的坡度值 ,单位 Go,\nG_RAMP BH, -128 表示无分| 按照电子地网上行方向上坡叶该值为正\n段坡度 32 值 ,下坡时为负值\n坚曲线 分段坡度 32 坡度变化处等效的曲线半\n半径 32 G_CR_RAMP 4 0 ~ OxFFFFFFFF 径 ,单位 cm,\n‘ 参见5.3. 15.2",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 38,
+      "text": "表3 雪道区段数据结构(续)\n序号| 定义 ARTA EM 245) 数据范围 含义\n=\n分段山 、 ] ~32 Si KEL oP Et AFR AY tt A\nN_ITERCK 1 ~32 .其他无和\nan FWA | yg,\nSR 分段山率工相对于所在轨道区段起点的\n. 0: ORF FFEFFRE, SE |, . sd fe her Mi em ee By\nD_CRAMP 4 AF tiga © a Hs AB ak Ee PR HP ath AI 47 4 lel tt 47 tho FS Oe\n|计算,单位:em\n分段 ss) mer aan ~ tb 7 Se\n四 cae, [MEAT AP, ral\n- ‘he » { 1 了 a PRBEFF 用 -es we vs Wake 4: a.\n% G_CRAMP ABE! | ON PRE RFF SB a ith |.\" BBs YW AEE AS AZ sem\n27 | 网 “tell ton AIR gh 8 > EER S. 3.15.3\nur ASAE A Ih Wwe A\nWwW a oo + 、 FF ey Oo af wt Qa - ffp - EIL 4c ok af\n~ “Rp 0 ~ ORBFFFEPPRS 4) Beith 38 2 #8 a) Pr ee HL al BR Bee ag\nY D_CRAMP 4 ~S.O<BFFERFFE. eat Et EM FU haem) 已\n4S BRMRE 2 := |计算,单位:em g\nA Bt 2\noe L_CRAMP 4 0 > OXPEPRRFEF 0 分段曲率 2 AT ICE ,单个 加\ni 2 _ 1 oo, 又 EY 尘 JJ上人及,品位:om\na 表示无分段曲率 2 人 4\nfa\n0 ~ OxFFFFFFYF , =\n>\nOxFFFFFFFF 表示 di 。\n率为0.0 表示无分自 分段曲过 9曲率半径 ,单位:em i\n” His 2 =",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 39,
+      "text": "w 表3 轨道区段数据结构(续) 3\n性\n5 1 [4 of >\n序号| eM site y KE 数据范围 含义 2\npe fe C= TM—~—SsY CO\n5\n0 ~ OxFFFFFFFF,| 分段曲率 32 相对于所在轨道区段起点的 o\na D_CRAMP 4 /OxFFFFFFFF # me | WER RPM LTH MTB] 个\n率 分段曲率 32 计算 ,单位:em =\n27 |见 | 分自 0 ~ OxFFFFFFFF, 0\nw | ty te L_CRAMP 4 分段山率 32 的长度 ,单位:e\n7m 曲率 32 - 表示无分段曲率 32 5} Berth 3% 32 的长度,单位:cm\n~ 0 ~ OxFEFFFFFF,\nG_CRAMP 4 OxFFFFFFFF 表示曲率为| 9 4} Berth 42 32 的利率半径 ,单位:em\n0,0 表示无分段曲率 32\nwe | 信息 N_TUNNEL 1 .32 其他无效 1 ~32,轨道区段上隧道信息的数暴,私大\n道 | cht 为 32\nog |B M_TUNNEL 1 0x00 ; IE fe 隧道信息 1 Se AS BRE\ni | wth 其他无效\nin\nwo |信息1 站 te se % kh ate be gm det\n二 0 ~0xFFFFFFFE ,其 Renaene mans BY PVE U0 Be\nw D_TUNNEL 4 ab 点的偏移明,按照电子地图上行方向进行全\nWii, AA scm",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 40,
+      "text": "表3 轨道区段数据结构(续)\n序号| ay 变且名定义“|数 数据范围 a x\n(FH)\n隧道 1 ~ OxFFFFFFFF , 其\nNN ides aude Hee\n他元效 REIT. 【的长度,单位:em\n0x00 :非隧道 _\nM_TUNNEL 1 道信息 2 BA BRIE\n其他无效\nFok wit 0 ~ OxFFFFFFFF ,OxF 隧道信息2 起点相对于所在轨道区段起\nng |信息2| D_TUNNEL 4 | FFFFFFF 表示无隧道| AAU AS OE ,按照电子地图上行方向进行储\nic 信息 2 移世计算 ,单位:cm\nFi aT rl\n息 L_TUNNEL 4 0 ~ OxFFFFFFFE, 0 site 2 的长 ae\n0. . _ EWES AD 嵌道信息 2 的长度 ,单位:em\n见 P| poe ee\nx Poe |\nw Ox55 :是隧道 4\na 0x00 :非隧道 XN\n~ M_TUNNEL 1 符道信息 32 SER Peat\n其他无效 之\n隧道 要\n信息 32 0 ~OxFFFFEFFIFT ,OxF 隧道信息 32 起点相对于所在轨道区段起 ms\n和 D_TUNNEL 4 | FFFFFFF 表示无隧道| 点的偏移二 ,按照电子地图上行方向进行傅| ”局\n信息 32 BIT TH ,单位:em o\nWw\n0 ~ OxFFFFFFFF, 0 |\nL_ TUNNEL 4 ~ , 道信息 32 的长度,单位:ec =",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 41,
+      "text": "we 表3 轨道区段数据结构(续) S\n长 Dia . . 、 po\n(FH) =\n~ 16 ,轨道 - : Bet\nBt 16 S\n—\n无电区 w\n1 起点 0 - OxFFFFFFFF,| 撒述无电区 ! 的起点在所属轨道区段内| 。 册\n在轨道| D_NEUTRALINIT OxFFFFFFFF 表示无|的偏移其,按照电子地网上行方向进行储移 oo\n无|区段内 无电区 1 Gkit 4 ,单位:cm\n电 | dpa Et\n区\nffi 无电区 0 ~ OxFFFFFFFF,0| 描述无电区1工起点到终点的距离\nA L_NEUTRAL mane na\n29 ‘e 1 45 7 表示无无电区 1 单位:cm\n5 a\n二 |无电区\n= |16 起点 0 ~ OxFFFFFFFF,| 描述无电区 16 的起点在所属轨道区段内\n在轨道| DLNEUTRALINIT 4 OxFFFFFFFF 表示无|的偏移世,按照电子地岁上行方向进行候移\n区段内 无电区 16 Wit FY ,单位:em\nFBX 0 ~ OxFFFFFFFF, 0 ; _\nLs 点到终点的距离 ,单位,\nCRC 轨道区段数据束体 CRC,\n| |e] ree | | or | RES RRM CR",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 42,
+      "text": "T/CAMET 04010.3-2018\n~~*W!:lG~~-m:Vt11E:f$:!A!.I~fHk Ao $:5t'¥~i3t~Y'l~!A!. 5.3.2-\n5. 3. 16\n0\n5. 3. 2 ~1-:Ji'if ZC/ATS\nZC/ATS ZC/ATS at ,-il- ZC/ATS\n~-1- Ji:J\"JM~1- li!~IR\"iiJ!i~:ff]!~\n$:51-o i~!(ilJfi~ff::G:!€1LllliR~JIJ£r~1-ti~ ZC/ATS B~J'ti-1l£,:!m~ 7 YT~o\ni\nZCI ZC2\n!---------'~\n--+--i+ -\n.•. ........ +--1\nI\n.il\\.'\"\"'>.IPW- zc 1 P-1 (j(j f.il7t ' ~ ~ *II\n=f ZCl -9 ZC2 l¥.Jllt~\nI I¥J~'tl' ZCa\n5.3.3\nfi ~ ZCI AT S B<J .:tc~~\nJmrfi~ ZC/ATS B<JlJ!~ *\nqj-)J [Q)jgfj'\"iiJ utA·~~ ZCI ATS, .!i!tl* ZC/ ATS B<JiifiJr [QJ :1g J:qf;\n~$M~!€1LMIR~J:m~~-~~~fi:1J[QJ)Efi\"iiJU!:A·ti~ZU\nATS,.!i!tl* ZC/ATS\n~Jifi)J[Q]Jg~qfo\n5. 3. 4 M_DIR_REF( JggjJ[Q) ~!€fl.llliR~tit:l£~iA.Jr [QJ ~;{;j\" l.iiZ*.¥)\n$:tt!!.)Nfjtftr}}i)Up, VOBC [QJ:tt!!. oo~*~:i!~f~J~\":tt!!.Iii~*[QJ VOBC\n~:i!~MA~.~&Jr[Q}~\"f:~~~Jgg)J[Q)~J:~fiM:l£o JN•ml£\n~, i!itJfl:~~:tt!!.~M .fi:'ltm~~~.tt!!.OO ~J: ~qf~)E~Jr[Q} ~J:~q-:y-\n3& , ff!Ji!~ ~ W=~ ·m l£ ~ , \"iii li~5G 7* ~am , ~ .11t , 1lii ~ ~JHifu ~~.ttl!. oo ~ B<J J: ~\nfi~~~)ER:1J[QJ~J:~fi~~~M[QJ*.¥.~008Yf~o\n37",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 43,
+      "text": "T/CAMET 04010. 3-2018\nXQOI\n~~~~~~~~~~~~\n..:)\nFl8\ni)I.IJ}'! :\n~~~~~~~~~*m~m%•w~o mn~~~~~Tff~X.M~~~\n~x~~~!l!!.~~q-T/rlo:J .M~Io:Jtr.:~x~ ~~~~-n-T/rlo:J • .!X!.rr~~m tH (l{J/rlo:J 0\nEl3 \"'fill 'iJ~>.K ~ti'11£. ~~ill fin loJ ~X~: Mli: ~J ~>EX~ ill 'itf/r loJ ~T1-T/r loJ.\nM~~J~~X-:t.Jill 'i:f/r loJ (l{J~ff/rlo:J •. !X!.~~ 1m ili ~/r loJ o Jltf'!•·l\\'f!£ T .;J;§*-!fJLffi IK\n~t'J<J M_DIR_REF ~~llit-ffi~\"/rlo:J;J;§Di\" o\n008 ~~-~~~ft~~~~-~~~~ft~--\n~~~-~~n~~n~~·-~.~-~*~m~~~~-~\n(ti]~)( ~~~~~;i;!£1-t, Me M_DIR_REF ~)(:1-J~m ~~ma:Erm~~~-\n~·I~Eo\n5. 3. 5 NID_TRPROPERTY(tfJLm~~J~i'ti)\n5. 3. 5. 1 t}i PJI\n~~-~m~~.*~~m~~-tt~n~~o ~~-~m~~~\no\n*~JIJStt~~B1 ,JlJHimttl:1-JJl;ff~*JIJSttmttl:<:f!l\nfY!J ~Q , ;lit~ m ~ ~ w; :1-J ~ill! __t q-J ~ m ~ ~ ( JIJS •11: mt {l :1g OxOOOOO 1 ) ,\nY... -:h __t q-r ~ :Nc ~ ( • tt mt {l :1-J Ox000004 ) , JC ;tt: {il!. ff1L ·11: , JJ!U $}L m ~ ~. ·11:\nmt\n{illi -:Jg : Ox000005 ( OxOOOOO 1 + Ox000004) o\n5. 3. 5. 2 ~~~~~~l'*lli!!IR~\n*K#~•~·~*~~m~~__t~~fi~liiJ-:Rm~~~~~\n38",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 44,
+      "text": "T/CAMET 04010.3- 2018\n_t ff 1i IPJ , !JlU* $JL l1! ~ ~ 1J _t ~i $Jt ill IK ~ ; li iE -m· jg 1K at , jU $ tE $JL\nm~K~_t~jgfi1f!Pl1Jm~~*oo~~fi1i!Pl.~*$JI.ili~K~~~\nfi$JI.l1!1K~o iE#jgW~~$~$JL:Ut!K~_t~jgfi1JIPJ~~Ifi~\n~ 1Jf8 ~ , ~Jill _t , ~ ff $Jt l1! IK ~ ~ IFiJ - $JL l1! IK ~ 1m ·11: rJ;J :ll' ~ 3tft ~ , ~ll\n~ 9 FJTjj;o\n- ·nr- 1 12U!It?t-Jttt,j;ic.\nXQOl F07\nF02\n~lj,ij:\nm\nI l!fl' 131: liffJ ~ : iE 1~· :iii 1J Bt , ?'tl $ :(£ !fJL illl2\\: ~ G03 J: M. ::h !OJ ti: :iii fro liHJL ill!R\n~ G03 B<Jli.i!tt::h\"-'5'-illiTfi$JL:ilUR~\" o\nIll 9 ~ iM ...ti\"F ~1\" $JJ. j:g IK fi :iE ~ ff-f§tl\n5. 3. 5. 3 ...t/l'ff~~$JJ.\nlr$Jtill m-E:i fF $JL\n~K~~ f'F~~~$JL, .mu~~tt:JL ~\" _r_;~~-T\" ~f!fiM\nm~K~~\" _t;~~l'\"-~o\n5. 3. 5. 4 ~~\nlf$JI.llt IK~-E:itfi F11K~~!tft, !iW*$JI.l1! IR~A~1li i:i 1m tt, ~ .ulU,\n*$JLM IR~:Il'A~1fi tr JliS ·11: o\n5. 3. 5. 5 ]:gtt\nlf$JI.m!K~~*ff-l1!ft~ftfi&&IK~.~*$JI.l1!1K~A~l1!ft\nJlll·l1:, ~ JilU, * $JLM I K~:Il'A~lltft Jm·l1: o *\nVJ 00 5 ~ 19tJ, ~ !i€t ili IK ~~:ill ft 1m ·11: JQ. 4 o\n39",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 45,
+      "text": "T/ CAMET 04010.3-2018\n$JLill IRW: ll!ft~tt 1l tt\nx x\n1- A\nA- 2 1i §1!; Dl ft~.&:(ILIR~\nx\nA- B X\n6- B 1i -EI* D2 ft~.&lli:IR~\nx\nB-C X\n3- C 1i § 1ii D3 ft Fn .& lli: IRJ!;~\nx\nC- D X\nD- 4 X X\nD- 5 1i § 1ii D4 ft ~ .& {IL !Ri!~;\n* ·m\nllJ 1m 1¥ {£ !VL l! IK ~ xt ::f lfll ~ l!t t iJt § 15 !K ~ ::f lfll ~ ?£ , J~o 1!1 1o\n4\nwr\n7f\\\no\n5\nD2y\nDl h\nII A\"\\,2\nB\ni>l.~:\n$Jt:i1!:1R!31: B- C Jg:i]!ft D2 a<Jft~.&{ILIR~,I'i]B;f.1gll!ft D3 i¥Jfttltr~R~o tliffl!\n~){_, B-C-§.1 iiillft ( D2) a<Jft ~ & {ILIR~, i&m~:fimft ~tEo\n00 10 $Jt~12U~x-t:::t'll:il~ft§ *:::t' ll:il!R!Yl\n40",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 46,
+      "text": "T/CAMET 04010. 3-2018\n5. 3. 5. 6 ...tll'fr$t~\n~!fJLil! IK~...t ;ff $ ~, JJ!tl $ r-1 1¥1\" ...tlr q-]-\" J.ilZ ..!§ f1:: :1;] -if im !fJL :i1! IK ~\n1¥1\" ...tlrH\" -3&o\n,s\n5. 3. 5. 7 ...tll'~l'~Il&~\n~!fJLit!IK~:1;J~Jm~ ,s ( m~lm~=*) $Jtll!: IK~, JJ!tl~lm~ .#.I¥!\" ...tl\n-rq-T\" 1.ilZ .!3 f1:::1;J~im!ffL:i1! IK~ 1¥1 .. -.t.lrq-T\" -3& o\n5. 3. 5. s ...t l'fr!kr~~it!W\ni~OO:\n$Jtill:18:31: 1-2 ~rrr\n!UJL m 1 8: 31: 1.1 $JL m 1 8: 31: 1- 2 , 10c !flrn!~Bds~l\nillJJ11!, !fJLill18:31: 3-4,6-4 !ilZ,Q,:ff J:fr:tJ7<!!~ltiW)ii;if£, !fJL:ill: 18:31: 2-3,5- 6 ;;f'Jt,;ft\n:tJ7@~Jiil'f1o\n~: 1'1! T-:11!!00 <P1aB£~:J:Tffi!~lilif£1.1tliP.ll.l'!! -T:It!!OO:/Jic:Jl9ff~~:rrl@~!iiltt, Eitli\n~fti~ 't-1:/J lcJ fiQ~ ~:trffi!~Jilltt;;f' llll\n0\n11111\n!kr~~it!Wff-.111\n5. 3. 5. 9 CI ~~*lt~IK~\n~tH~I~im\"~~;X_«ff;R,~ VOBC 'JJ~ CI jtj!~$Jtll!:IK~ ID,JJ!tl~\n$Jtli[ !K$j~;ff CI Jffi {~!fJLllt IK~Jm tt o B JJ!U, ~!t!Lll!: IK~~~;ff CI im {fi\n$JL ll!: IK ~1m tt o\n41",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 47,
+      "text": "T/CAMET 04010.3-2018\n5. 3. 6 NID_TRUPLINK/ NID_TRDOWNLINK(_tfffj-1.f~l.iH~!fJL\n:11! IK f3f: ~% )\n:m\nb\\ !fJL :11! IK f3f: ¥£-...U -T :/J ~ 1! ~ , 3iU ffl ~ 8<J !fJL ill IK f3f: , x;J ;j:JHIS !fJL ill IK f3f:\nllH-T ~u ltiT *=\na) .R f¥ t£--1-ffl ~ !fJL lEt IK f3f: , Y!U -w< ff1 ~ !fJL lEt IK f3f: 1-:1 -w< !fJL ill IK f3f:\n8<J ...t ~-T tiH~ !fJL J1! IK f3f: ;\n*\nb ) f¥ t£ ~ -1-ffl ~ !fJL J1! IK f3f: , Y!U W: !fJL J1! IK f3f: rfr ...t ~-T 1f ~ -* Yffil !16, 1-:1\n••\nmftft~ -w<illftftm~&IK~~t£B<Jffi~~miKf31:~1-:1-w<\n!fJL l1l: IK f3f: 8<J ...t ~-T f3H~ !fJL ill IK f3f: o\n:m\nb\\! fJL ill IK f3f: ¥£--n-T 1f ~ t! ~ , 3i!J ff1 ~ 8<J !fJL lEt IK f3f: , M ff1 ~ !fJL J1! IK f3f:\n:itH-T ltiT :\n~lj *\na) .R f¥ t£--1-ffl ~ !fJL ill IK f3f: , Y!U W: ffl ~ ~lEt IK f3f: 1-:1 W: !fJL ill IK f3f:\n*B<J r ~-T Ttf ~ !fJL i1! IK f3f: ;\nb ) f¥ :0: ~ -1-ffl ~ !fJL lEt IK f3f: , Y!U-w < !fJL :11! IK f3f: ¥£-r ~-T 1f ~ -* Yffil !.16' 1-:1\nlltftft~.-W::i1!ftftFo~&lK~~t£8<Jff(~!fJLilllKf31:~1-:1-w<\n$JL lEt IK f3f: 8<J T ~-T T1f ~ $JL :i1! IK f3f: o\n*\n0 00 5 1-:1 f91J , ;j:Jtk !fJL J1! IK f3f: 8<J ...tFH-Tftf ~ !fJL ill IK f3f: .W.. 5 o\n*5\n*11.itiK.Ei£t-Jtii1l*11.itiK.Ei\nttltill!Rfli J: fr Tit ~ $Jt lli tR fli r1-r~mtt~tilltR fli\n1-A A-B ~:fEitillft!R~p;j\nA-2 ~:(E~:ili:ft!R~p;j 1-A\nA-B B-C 1-A\n6-B B-C ~:fEitillft!R~p;j\nB-C C-D A-B\n3-C C-D ~:(Eit<ittft!R~p;j\nC-D D-4 B-C\nD-4 ~:(E~:i1l:ft!R~p;j C-D\n42",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 48,
+      "text": "T/CAMET 04010. 3-2018\n.. tA-TtiHHJL i!t lK\n$Jt:i!t!K~ ~ rn-.ntm!f!LilliK~\nD-5 :lf'iE~i!tftiK~I*J C-D\nI z.;o~ 1-A :lf'iEJ!<i!tftlKJ!i.XI*J\n2 z.;.~ :lf'iEJ!<:ittft!K~I*J A-2\n3 z.;.~ 3-C :lf'iE~i!tftlKJ!i.XI*J\n4 2.7'~ :If' iE 1!< m tt IK ~~ 1*1 D-4\n5 Z.7'~ :lf'iEJ!<i!tftlK~I*J 0-5\n6 z.;.~ 6-B :lf'iE~i!tftlK~I*J\nilltl: f&t , ;g: $JL :ill IK $J1: 1'1 ~ ~ U1 !f. 5lt $Jt 51! IK $J1: , 9W W: $Jt :ill IK $J1: rl:iJ ;f1l ~ ~\n-~fl:ij~--$Jtill$.1'J;ffi~~~~$Jtill!K$J1:o\n5. 3. 7 NID_SWITCHLINK($JtiQIK$J1: ••\n:i1tftEJT~!€1Lll!IK$J1:)\n$Jt :i1t 1K $J1: +1H~ :i1t ft fifH ~ ljj!:J.i!U ~ .!N. 5. 3. 8o\n$Jt:i1tiK$J1:••mftEJTB$Jt:i1t~K$J1:fifH~~~1'1=fifH~$Jtlli~K$J1:&m•\nmztm,~•••mft~ftm&&IK~E!f~$Jt:i1!1K$J1:1'JW:$Jtll!IK$J1:~W:\n••mft~E!f~$Jtm~K$J1:o ~~s1'J~,~$Jt:i1t!K$J1:~m•mftEJTB$Jt\nm 6\n~K$J1:JN.~\n0\n!f!Li!t!K~ J: mit mm ft IUfi mulL m IK ~ r BiiH~ m tt .& J9f li4 $Am IK ~\n1-A 01 ( A-2) :X\nA-2 :X :X\nA-B :X .X\n6-B :X :X\nx\nB- C 02(6-B)\nx x\n3-C\n43",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 49,
+      "text": "T/CAMET 04010.3-2018\n*ltitl:!K~ ..t n tiU~ mt t lk Jifi fill *1t m r K ~ rfiliU~mtt lkPfi !ill*ltm rK~\nc-o 04( 0-5) D3(3-C)\n0-4 :X .:t\n0-5 :X :X\n5. 3. 8 NID _ID _SWITCHLINK ( $JL:@ 12U31: Ti¥ #Htl ft )\n5. 3. 8. 1 *lli1!1&¥jitiUii1!ttil1fl:iEl*!i!IJ\n~mtt~ttn~•~~:ii~mk.~•mtt~•~m~•~••m\n!A!.*\nft o k..( ~ 5 J;J{91J, ~!€/L:@ ~-~--:lift 7 o\n*ltl]!l&¥jitr.Jtiitii1!tt\n~7\n*ltitl:!K~ Titmmtt\n1-A 01\nA- 2 :X\nA-B :X\n6-B :X\nB-C 02\n3-C X;\nc-o 03,04\n0-4 :X\nD-5 :X\n5. 3. 8. 2 *lti1!1&¥jitiifii1!tt1Jic:Jil1fl:iEmtrorJ\n~~*:i i~•~•*•.m~~*OOkff~~m••~m~•~••\n:ii tt . jt: xt ~ Ti¥ mm t t 1>1 .t. ~1' m: tt . Jr!9f ~ m: tt :1'1 -n-T :ii tt o k rn-T ill\nft N *~ftC m~.t.~~?*f!.¥1J ~~ N 1-kFF~l':@ft o\niiimitttt\nk..( ~ 5 :1'lf91J. ~~~!A!.* 8\n0\n44",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 50,
+      "text": "T/CAMET 04010.3-2018\n*8 m :n\ntiHi ft iaJ\n..t A-Tti!f~:it!:ft T1-Tti!f~l1!ft\n1-A 01 :;t\nA-2 :;t 5t\nA-B 5t :;t\n6-B 5t 5t\nB-C :;t 02\n3-C :;t :;t\nC-D 04 03\nD- 4 :;t\nD-5 :;t\nl'll\"-\\.JIL!iWr 1¥.1 \" .t$: ilL if! IR f>i: 1*1\nEil~~, :m!Jw.JJllH:lL :tmtf ~ill W5 zHj§j%\n.ffLMEiZI¥J.:EEiZ~ ~ J:!IL {!! {Ji: -T .t$: ilL\n:11! IR 1*1 , .t$:\n~ ;(:£it~ -t-11!:~3f..J.I.t\n$}Lli IR~ pg 1¥.1 Eil~-~~im.;H~BIT1i\nNID_BALISE *f,l:t:f, \",fl.'l\"'~iil.::.iiii\n=I~!Jw.JJ11H:llrtEJT1'±~fij-, 1J!J :!!ntf~ill w~1~% m:x-t EiZ 1¥.1 .:Em ~:~m; J:Yr ~ EiZ ~:I*, El3\n~~~{ij-~OO~*~~.~~EJT~~{ij-~%)jiz~~~~~{ij-I¥J~~~%o\n5. 3. 10 D_STOPPINGPOINT(i!Lif!!Rf>I:{Jf$,r;~0\n*ilL if! IR ~ Jl-;(;f ~~ E! ffiltt ~ ;(:£ ..l.Ff q-j 7C JdJr iS f!f $1R ~ 1*1 ( ~ ~\ns. 4 ) , !J!U PI lfC :'ft ilL :11! 1R f>l: f!f $ ,~ o\nf!f$~1'±i!L:i1!1Rf>I:I*JMEIZ&~.~~$~~i!L:i1!1R~~-~~-­\nil:Wi:l£o\n~$~&~EiZ~~$;(:£:m~~$&ftf!f$~.~$~---~~­\nn xr\nt:f 'L' ~ EiZ 1¥.1 1:ll ~ o\n_t;-fq-T~ $ ,~ *~ jtl $ Yff ~ -T ~ 1!1 _tFfq-T1f r1iJ ;(:£ill if! 1R ~ 1*1 )E q-=r\n45",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 51,
+      "text": "T/CAMET 04010.3-2018\nW$Btf!JtJ ~f.!f$.~ o\n~BW*~*%~g~fi~*~~~mgm~~&ftM~~~~\n*.1tlli:~mgm;(:J~~.~~~~ff¥$.~1-J~~f~$.~ 1 .:@~~mgm\n~~~.~~~fi{¥$,~1-J~~f~$,~ 2o\nTftW$~*%~gTfi~$~~~mgm~~Q~M~~;b*\n* .~Jli:!tltl!t g~~~®.~~T~f-f¥$.~1-JT~fW$.~ 1, :@~~J!t g~\n~~®.~ ~T~f~$.~1-JT~fW$.~ 2o\n~$,~~~~000 12 EJT~o\n2\n~mg~{¥$~~A~~ft~~~Ifi~~~o\n5. 3.11 M_STOPPING_UP/ M_STOPPING_DOWN(~/T~f~lltg\n~W$.~Zitl:)\ntJT~~$.~ :?tl$izHftJT~1*~fF~Bt .1*~iW1f:~151!JtJ ~~*·~O\n~A~~tJT~Bt~151!m•W$~.~AtJT~EJ.tey151!m•w*~o~*•\n1ff~tJT~~$,~ fJ1?{t, ey:;:f~PjojtJT~:9Jfmo\n~'iE~$.~ :?tl$~i:!Bt!.i6,®fW$B<J~$.~o\nir~:iHg~~~~-1'-~~T~fW$.~ ,!ntl~-1'-~~T~fW$.~~ffiltt\nEll- 3?L\ntJT~1*~g~~ (~.'Ji!. 5. 4. 3. 2)~::<11*~1W$~DC!t~$B1{tffl~\n!tJLMg~W$.~ .ir~~!\\'W$.~ ,J)!tlftefttJT~W$.~0\n5. 3.12 D_REF_STOPPOINT(t5~tl1$.~)\n$~W$.~1-Jfil; ATO {EgfB]{¥$B1~~~W$.~ ,{EgfB]{~%tfLE!T~\n!tJLMg~~ncfi•W$~o ~*m•~~-~~mA•!tJLmg~.~m~~\n•~mg~m~!\\'~~~~~gi8Jf~%tfliW~$Bt,nr~J!tftffl•~*·~O\nt5~W$~~~J!tg~~~Ell&ft.~-t5~W$~M~mg~~\n46",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 52,
+      "text": "T/CAMET 04010.3- 2018\nj'fu ML~ i!fU ~ill: Wi J£ o\n•~w*~~~m~•~•w*~~~-~m~•~~~-~~~\n:lf'J.iil~B-Jff~o\n-~W$A~~m~-~~W$A~~-~m~-~~~-~~~\nm~atf¥~o ~~Ag~fi~5$A~W$8~A&~~~~~J.iil*~\nIXCN,\nf!PiEtltiH~-f.;$,~ ,~$8~ A~-9=t:I5J1'fW:~~W$.~f~.~,,\n..13. i!fU ~ :Q: ;ffi ~\n0\n~IT1-T8~f'-}$.~*ffij0$ni\"F~-=f.till00~/T1-T~~tEtltili~-~\n~ 1-TW$ B119!Jf.l ~ ~;;IJW$ -~\n0\n~fi-~W~A~%~B~fi-~W~~~~m~-~~&~M~\n~~~*,3ili~m~-~--A~~fi-~W$A~~fi~~~$A\n*\n1 '~~~ill~&':~ j'fu. -~ a<J ~ 1-T. ;;!Jf'-} ~ -~ ~ ~ 1-T. ~--w -~ 2\n0\nTfi-~W$A~%*gTfi-~W$A~~m~-~~&~M~\n~~**·$ili~ill~-~-~~~Tfi~~W$~~Tfi.;;!JW$A\n2o\n1 .~~~M~&':~j'fu~-~~T1-T.~W$.~~T1-T.~W$.~\nYfffi o\n-~W$.~ffi:Q:~rl ~ 13\n2\n11!13 ~~~$ •.f :\\ff-~lll\n-~W$~~A~-~~~~IW~~~o\n5. 3. 13 ~~~:fil mtt\n5. 3. 13. 1 ~~~~~!I\nOo\n;ff~ill~¥JixX1J.iiZY~it ,J)!~;ffi.:k~-j;j1~~\n5. 3. 13. 2 ~~'@!IJ}i:-*.\n;ff~M~-~tt~~fi.~$~.Y~OO~fi~~-~·M&~1'f­\n·11\"\nm~ ~ffi:k89~~-@!IJ\n0\n;ff~M~-~tt~Tfi,~$~.Y~OOTfi~~-~·Mit~1'f­\nm\n·11 , ~ ~ ffi :k 89 ~ 1=i ffliJ\n0\n47",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 53,
+      "text": "T/CAMET 04010.3- 2018\n5. 3. 13. 3 ~iA!liS~If.tfBJ\n,1£Jlt\n_t1-T~V..M~B1f8J .m?tl$~ff~ ~-T !i!!.~_t1-T:1JrllJU!:M1¥$J§'\n!tlt :ill IK ~ ;{;j mz v~ 1€ 89 ~ v.. v~ 1¥ at rBJ ; r H ~ v.. vM~ at rBJ , m ? tl $ nc Jffi ~ -r\n~~rH~rllJU!:MW$.1§',1£Jlt~:il!IK~mmzMEI89MiAMWB1~o\no\nv~~atrBJ1£I~~fl' ~liJfi;E\nm~~-*~f189M~.MiA89~~-*~f1at~**MJltlMV..M\n5. 3. 13. 4 Q_DOORDIR( *i'l{~lj{~,\\~'!-)/JliHHl ID\nv~ El fl ID Jltl ~ * f1 -@!tl1~ -~· llli fJC o I!P : ~ :fl M Fi f1 ID Ji!U !16, ~ :fl xt Jltl\n*1'1-Mtl\n0\nEB ~:ff{:Ey~ Et _t:7Cy~~ f1 89•r;t!6L, ~*fl-@!tlPJ~:ff{:Ey~ f1 f1 IDo\n5. 3. 13. 5 !HA7fflJ@i1¥\n_t1-TMiA*f1JiWiJ¥ ,{£Jlt!tJI.ili\n,m?tl$~~~ -T:!i!!.~_t1-T~rllJurv~~$J§'\nf1Ji[G!ff:; Et -T:tl!!.\nIKIDtJltlv~Eil/J3lU§89MiA* r1-T~iA*f1JiiD!J¥ ,m?tl$~J!~\n~r1-T~ rllJ urM~$.1§' . 1£Jlt~llt IKIDt mzv~ El~*:f§ 89•iA* f1JiW!ff:\n0\nJltl l1 :t1: , ~ ;f; fl 89 )E ~ :fJ ~ ft~ ~:ill lK ~1m tt \"P89 _t 1-T IT 1-T ~_m )E , tfJ.\n\"MiA*fl.ff:\"\"P89~~fl~~$W$~~~89~~flPJOO~-Bo\nf91J:tm, ~m IR~Jmtt:JJ_t1-T~ili IK~, r1-T ~iA* n JiWiff: :JJ\" '16*~~ n\n11}*~~ 1'1\" ,!i!U?U$~~ -T:!I!!.~r1-T~ rllJ U!:Y.S-Pf$B;j, ~ ~Jltl~JJ\\!89*\nn•ff::f1'16*~~-$flll}*~~-$flo\n5. 3. 14 JXl jt=l j!jjfft fli7C $.!&\no\n~llt~&~_t 89JXl;J:t;~7l@; rvx~ JKJiiD!ff:JltlttcJm~ -T:!i!!.~_t 1-T~rllJ14F?tl\n5. 3. 15 5H~JR}j/~J.l/lltl~/~lt\n5. 3. 15. 1 t~P.J3\n**\n~llttl!!~J.t/!lij $/~:@: JK~]ltz~:ff{£j!.g.$?j-0\n~ ill!R ~ i*J EIT :fl ?t ~ ~I.H!V~ J3tl !Ia $1~ iH IK ~ 89 ~.g. Jltl :fJ ~~ill\nIK~IK~o\n_t rllJ 14F?tl o\n?t~ ~~JI;~J.t;!lij $1~ili IK~Ji(G\"iff: Jltl~ .~~ ~ -T:!I!!.~ 1-T~\nn:r\nxt~~J.t1Ht~$89 IK~, ~o*;E~89!/&:kl:~rmmJEBt, **xt~\n1t rllJ :tc ~ -Mtl* ~ J§' .g. ;J:t 89 ~ ~ . t;,t m J E ;E ~ !!& J~~: o\n48",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 54,
+      "text": "T/CAMET 04010.3-2018\n5. 3. 15. 2 ~llil~=F~\nm~--~~~~~*amA@C~~m~••z~o\n*~~~*a~~~~-~~~m~~~~~.m~~~*@@m\n~~~~~~OO~fi~~~~ft-~•m~~~o *~•~•m~~~\n~~&f*~~oon~~~~<~~•~*~•oo~fi~~~~ft­\n~) .!i!U'ilJtEt§~~m~!¥JLM~~~{f~;lt-:l;i'!~ o\n~D:W:{~ %.ljl-iii 00 19:1ftff-til~ HE ~*1£, !i!U ±J1 Do\n~~~*1£~1J.~D00 14 3T~o\nA D\n3\n~fjij,\ntiLl!! IKE2: I ,2 ,3,\nf'ltJ ?f .W. .~ , 0 1-J tiL ill!K\n;e. o\n.~\"'F1rffi!~lti\nill!K E2: 2 ..t Ell ~1 :s} a<J ~\n0-E,E-Fo\n~r.tl:J~-*'~tili\nIBJ ;~ ii1J~-*':t£1il2 f~.Q,$ .13r1rL~, Bl-C ,C-O Z.IBJ ;~ dl!~\n~:t£ffi3$~~~ailllKE2:21'JtJ~./3rfflQC-OZ.~o\n~ D .~ 1-J ..t ~l' :JJ 7@ ~ill#)!. , 9!~ tiL ill 18: J3t I ..t Eli: :lj~ ~ B<J ~ ./3r fi'L\\l Eli: jg A-B, B\nBl, tiL:Ui: IKE2: 2 ..tEli:ft{~ B<J~&ffl ,@,JJ BI- C, C- D, tiL :itt IKE2: 3 ..t$~11§ B<J:!Jt&fi1f\n,Q.Jg E- F, 0-Eo ~~~~~~-*':t£1i1f I f~,gE)Z~t~:t£tflill!KJ3t I B<J:!Jt./3rf1f.Q, A-B,B\nBl Zi'iJJ; ~ r.tlJ ~-*':t£1il2 f~ ,Q,$~1j:t£t1Lill 18: E2: 2 B<J:!Jt&ffi ,@, B1 -C, C-D Z fiij;\n~rtll~-*'~ffi3~:t£aml8:&2B<J:Ilt&ffiac-oz.~.dam~Ka3B<J:Ilt&ma\n0-E o\nZ.~ff:ill;Jt-~1§\n:5 D .~J9Tfi1Jj(g~JtiW.,9!~ D .~jgtfl:i!!l8:E2: 2,a:i1!1KE2: 3 B<J..t~l'.®:ltrl.~o Jg\nr-tir:!Jt./3rf~.Q,B<J#Q:i£:/J~(Jt?fJ3t:!JtJJ[-P}~II:tJ~-*'~2) ,:t£t1Lill!K& 2,tiLJ1!18:& 3 B<J\n.®~4?t~~~-~$mB<1*1JtjgOB<J?tl3!::1Jt./3rffiA.M~~~rtll~-*'~-3~Jg~\n~~tllm~KaB<JM-~~r.tll~•a.:tE•m?tm:~Jt&ffiaz~~~o\n00 14 ~IIi! ~=F~.£ff-.lll\n49",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 55,
+      "text": "T/CAMET 04010. 3-2018\n5. 3. 15.3 !Itt**~£\n:m~fl:l Hi!~B{] Bti$¥1:L\n;(} ~ fl:l Btl ~ ;ff £ ~ $ ?t , Jil~ tjt Eff Bt , ::i: ft $ ?t f1l R Jli!, r - 1'-?t ~ Btl\n$ , \"iii :(:E J9T Jtl\\i ?t 3UI±! $9='1f ~ ;tt-ttt Eff o\n5. 3. 16 L_CRC( CRC ~~)\nxtr13-1f ~1'-5G* 8{]~1~H~;f1;J ( t1€ Lllt lR ~, tJTiS lR ~JLJ1l~:AA, f~%\nf}L,$:r-i,ZC,CI,ATS,MSS,DSU) ,CRC 1g!ffxt~1'-~Wi~;f1;J1t~o f§tl~U\n!#1.:@ IR~~Wi~f*~;f1;J .v;!.7& 9 o\n$.1Lill IRJ::lt N_TRACK\nL_CRC\nL_CRC ill~Wi!#Lllt!R~ 1-t€it:@!R~ N_TRACK B{]EJT;ff~Wi-tt~o\n5. 4 :tlf jJ& 1R i&!\n5. 4. 1 1JTiSIR~~Wi~;f1;J\n1JT)SJZ.~~Wi~;ftj;f'q)J~J;!.7& lOo\n5. 4. 2 NID_TRACK( tJTiS lR~1~I:~t€11:@ IR~tliU%)\n;(}1JT)SIR~~~13-~1'-~:@IR~.~~n~~-~kfi~~*~~Effo\n5. 4. 3 NID_TPPROPERTY( tJTiSIR~hlai)\n5. 4. 3. 1 t5C aJJ\nxt~-tJTiSIR~.~~tJTiS!R~JIJ!,tt\"iiJR~~o ~~-tJTiSIR~k\n~ ~ ms ·11: ~~At , ms tt Ilil -m: 1g A 1f 8{] ~1m 'li Ilil -m: :<: fl:l o\n{9ij ~0 , ;!!!; 1fT iS lR ~ ~ 1g k :fj 1fT iS~~ lR ~ ( Jli!, 'li I!il {i 1g OxOOOOO 1 ) ,\n)(. :1;] k 11':7G.A.tJTiSist$1R ~ (1m 'li I!il {i :1;] Ox000004) , 7G1t1i!!. Jtl\\i 'li, Jil~ 1FT\niS !R:h.!:tlmtt!lil {if1l:1g :Ox000005 ( OxOOOOOl + Ox000004) o\n50",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 56,
+      "text": "表10 折返区域数据结构\n序号 定义 变生名定义 Rca AS Be 数据范围 含义\n(字节 )\n折返区域数据整体的数据结\nHEM:\ni 区 ; 结构由\n\nSr ik EK Soh Be M _ STRUCT _ N_AR_ TB De IE ME Hs HTN\n\n整体结构 AR_AREA AREA «N44 AR_AREA 个长度为N 8973 BI\n\n- 数据构成(CN 表示序号1 ~5 的数\n\nTEAS EE AN) ,并增加4字节的整\n\n体 CRC\n1 折返区域编导 | NID_AR_AREA 4 折返区域 ID\n0 无效\n折返区域包含 折返区域内包含的轨道区段\n3 - N_TRACK 1 1 ~\n\n加本 amor ft mei\n1 ~OxFFFFFFFF, 加 、 we 、 ; 四\n. 0 ~ OxFFFFFFFF ,0 . a. . Zz\n折返区域包含 4 表示无轨道区段 2 折返区域内轨道区段 2 编号值 =\nUE DEB Be NID-TRACK > 0 EREEEEF 0 2\nL po 表示无轨道区跋 3 折返区域内轨道区段 3 编号值 2\n0 ~ OxFFFFFFFF ,0 138 MPU 4 BL 中\nnr 表示无轨道区段 4 人 N\noo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 57,
+      "text": "Vl ~ 1 o flf i'! !R ±9£ ~!#HE\" #Y ( ~ ) 't- 3\ntv n\n>\n~!lii-Knr\nh<% ii: )/.. ~fil:~ii:)l.. ~!liitilffil * )/.. 3:\n(~-;l)\n~\nt-3\nOxOOLOOO: J:1'Tt1Tl!Hl~~ [){J!i~ C>\no xoozooo : r 1'T tJT iS~ rtl.l lK .l!it C~ ~>\nOx004000: J: fi :X A tJT .IS.~$ C w>\nI\nIK O~ x 008000 : r 1.:Y x A tJT iS ~ $ N C ~ >\nNID _ TPPROP- l - OxFFFFFFFF, 00\n5 1rr iS IK :!!!X ~ 1'.£ 4 IK:fl!X\nERTY ox~ x\nOxOLOOOO: J: 1T A iff .IS.?}$\n'\nIK~\nOx020000 : r 1T X A 1rr iS?} :'f: I\nI\nIK~\n~.!A'. 5.4. 3\n6 CRC~~ L_CRC 4 0 - OxFFFFFFFF iFf iS IK~~t\\U'f-1* CRC J",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 58,
+      "text": "T/CAMET 04010.3-2018\n5. 4. 3. 2 J:./l'~'T1JfiiH~~IR!81\n~~*~~m~~~*fim~~-.~~~~~-~A~\"m~~\n·~-\"\nJmf.±o\nm~••~-~~~~•~*~~ft~Am~~~~~~*fi~•=~\n~*m~~~~~kfi~~~A~~~~.~~m~~~~kfim~~-~\n:lll~;~~'J*m~.:r~~a~rf1-T~~~A~~~~ . .m~w:m~~~~-n-rm~\n~-~~0 k~T1-rm~~·~~Im·l1:~1i>.l-m~~~HJ.i·I1:P'l~:!ilft~o\n~~ 9 ~{Ytl,~!t}Li!t~3: G03 ~-1-m~~·~~~~I~~3:~.!l\n~ .lltm~~~..R ~ *1-r J.Ati ~tr.~A. ~•ffi J.Atr. ~ti~ tf:l ~~~?At\n~ . .m~w:m~~~~T lltm~ ~-~ *1-r J.Ati ~\nli.~A .~-ffi J.Ati.~ 1-T J.Ali. ~ ;;fl~A, ••\nffi JA ti li. tf:l ..., ., ..\" ,,.,.,.,. ....., ,,\n~ ~ ~ k1-rm~~-~~~\nT1-rm~••~\"'\"''\"'.'\"\"\"'\n5. 4. 3. 3 J:./1'\n~m~~:lll~~ ;tc-~~~~~: MmA:tt~~£$\nm\n~ ~ ;f!l tf:l :tt ~ ~ .tU--t::.~r\\\n~~m~tF~st£\n*·.m~~m~~~~\nk1-T:JGAm~£*~ ~£$,.9!~~~~~\n-~T1-T7GA~~£$~ ~~~~1JT~£*~•Jm·11:~1i>.l-m\n~ ~~Jfl}·jg: pg ~:!ilft~\n0\n~~ 9 ~{Ytl .~$Jtl!t~3: G03 ~-1-m~~~~~I~~3:~.!l~ ,lit\nm~~~..R~*filAti~tr.~tf:l~:JGA~~m~?At~.~•m~~~~\nT1-T:JGA m~£* ~~; *~.m~~m~ ~~~ *1-r J.Ati ~ tr.~ tf:l . m ~ *\nfiJ.Atr.~ti~tf:l~m~?At~.~•m~~~li>.lstA~kfi:JGAm~£*\n~~ ~ T1-T:JGAm~£* ~~mate\n5. 4. 3. 4 J:./l'~'T:1C.A.1JfilH~$1&!81\n*~~~-~tF~7GA~~~~~**~-C~t5~A:U~~**\n~~;f!lmtf:l:tt~~**~~) . .9!~~-~tl$*1-T:JGA ~ ~~~fF~Bt~\nAW:m~~~~~~*fi~•=~~*m~.:r~~~kfi~~~Aw:m\n53",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 59,
+      "text": "T/CAMET 04010.3-2018\nr\nili!K~f§t$ ,9!tl~fJT~IK~J;; ..tfr:7CA fJT~~$1K~ ;~:9tl$1'ff ~ !1!!,00\n~~ft~~~A~fJT~IK~W$,~-m~IK~J;;~ft~Am~W$IK\n~o ..t.~ft:7CA:fJT~W$IK~atttr~-~miK•att~~-~o\n~m 9-jg~J.;tf!tJtmiK• G03J;;--t:fJT~IK~.~IW!lfl-~.mk:.!lt\nfJT~IK~9~*fi~~~ft~AW$,~~E~ft~~~W~:7CA§~\nf,tW,\ntJT~ 9Jtll?;(:fJT~ IK~J;;~~i:7CAtJT~ ~$\"'$; ::E'~.m~i*:fJT~ IK~~\n*fi~~~ft~AW$.~~E~ft~~~ili~:7CA§~:fJT~f,tW,~~\n§ ,9!tll?;(\n*~i ~ft~~~AW$ .~~Fn JA~~ft~,Ljj ~:7CA i;tJ:fJTi!Rmt~\nfJT~IK~~M~~..tft:7CAtJT~W$IK~.~ft:7CAtJT~W$IK~-tto\n:7CA § oo 1s ERm o\n~tJT;~g mt~:tm\ni.)tllJl:\nxA § i;/J11f}g:J::t~Jurf :itl$1£11fjgi8:J!J£ GO? :1f:tmxA § i;tJ11T.iSmt~ ,JA11fjgl8:\n~GO?~* .!ffA11fjgi8:J!J£ G03, .p;;:!j::Jt 0 i;IJ~rJJ ,zFn!ffA11f]gl8:~ G06 .p;;:tf: .7'G~x\n.A§ i;~J11f]g7fitW. tlH~JitmW .~~11fjgi8:.Ji;~JiiHi :x.A § i;~J11fjg:J::t~rp, El3 \"fitl$:(£\nGO?~* .~$1fio.JtJiP.l'{~t-T-:lt!lOOTrr:nio.J, /i!i£ G07 EiiA:.ffTl=rx.A11f]g~$18:J!J£!i4\nf.£; El3\"fi1J$:it!A G03 ¥J1$ ,:it!A1fio.JJ;;It T-.lt!!.OOTrr1fio.J ,$ G03 EiiJ'!.1:1TfrxA11T\n]g¥}$18::1!i~li&f.t;Fh\"fitl$:(£ G03 ~~.N.!rn\\lJilJ:J'j{P.l'{lt!.T-:lt!lOOT~'T1fioJllle.A,/i!i£ G03 $1\nA:.ffT~'J11T:Jg~rJtii8:J!J£11.iHi;EI3\"fi'J$iE G03 it$,~$/rio.Jt](Jffiet:!.T-:lt!l~L.U'T/rio.J,\n$ G03 EiiJ~::.ffL.~.:YxA11T]g~:tf:I8:J!J£!i4tt;Eh\"fi'J*:it!A G06 ?-?'1'i£,:ili:A1rioJJ;;It!.T\n:lt!lOOL.~.:Y:nio.J ,$ G06 EiiA:fl J:~'Tx.A.11f:Jg-w$18:~1i4ii.\nIll 15 'JC J... ~ Z;IJ tli' i1! 1M f.Vf-~\n54",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 60,
+      "text": "T/CAMET 04010.3-2018\n*\n;f§ tJT :iS IR ~~ Jl1l f.£ .!A!.~ 11 o\n~ 11 t.IT~ l&~~tt\ntrr~IR~ tlf;ig[K~Jiiltt\nG07 \"\"\"Hi'XAtrr~~$1R~\nG03 T~i:XAtrr~~$1R~, T~-Jtlfjgi*~IR~ ,_t~i:XA trr~~$1R~\nG06 _t~i .A:Al!f~-P;>$1R~\n5.5 J.!il~H\n5. 5. 1 J.!iZ~Hlll:tiHiH~\nill~~!l&i!HMtJf1J~.!Ji!.~ 120\n5. 5. 2 NID_BALPROPERTY(ill~~Ji~Stt)\n5. 5. 2. 1 i.~PJ.I\n~~-ill~~.*~~~-~ttmn~#o ~~-ill~~k*~~\n*1m\nfJ: ;:Jt # Bt , 1m f.£ l& {Jl:Y:J A ;ff 1¥.1 tt llX ili Z ;ftl o\nfJtl:!m, ;Jtt ~~~ret 1:1 k fr i'l.S it ft'J TifH ~$ill~~ < nn ·11 * m: 1:1\nOx0001), :X.:Y:Jr~TM itffHiffl~$~~~( lmtt*ffi1:1 Ox0002) , 7G;ft{i!!.~\ntt o\n.JJ!~~~~ftJStt*ffi~:Y:J :Ox0003 (Ox0001 + Ox0002)\n5. 5. 2. 2 ...tll'~T~>l.\nIV. fr.S it ft1 fiffJ ~$ill~~ 1:1 f7tl 0\n*~$mOO~~~OOkfi~~~~ill~~~.~~-~~~~1:/M\n~fflTifHW$~~ft~m.~-ill~ft~tt:Y:JkfiM~-TiffJW$ill~~o\n*~*~·~~~OOrfi~~~~~~~~.~--ill~~~:Y:JM\nitMTifHW$~~-~m.~•ill~~JiiStt:Y:JrfiM~STifHW$~~~0\n0\n;ft{!B~tt!V.lit~il\n5. 5. 2. 3 ~fH:W~ag.±J§Z~H\n*~~ftA~\"~~~!¥.1.:E~~:tm\" Jm·l1 .JJ!~mz ~Bt f.l-1il.:Em~ft--'=3\n:l;ilJEm~~~·l1o\n5. 6 i~-'%fJL\n5. 6. 1 ffi -'% fJL lll: tJUs ~\nflli %fft!l&i!Hi1if1Jf1J~.!Ji!.~ 13 o\n55",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 61,
+      "text": "ge #12 应答器数据结构 <\noe)\n(4) 四\n中\n应答器数据整体的数据结构定义: =\nVy ae! : a 结 es 一 一\n应答器数据 M _ STRUCT _|N_BALISE on eae BR He 和由 BALISE >\nWe bi os BALISE Nad 人长度为 N 的应答器数据构成(N 表 °\noo 示序号 1 ~8 的数据长度总和) ,并增| oy\n加4字节的属体 CRC oo\n1 ~16383,其他| 用于在一条线路内,唯一识判的\nWE BS pe NID_BALISE 2 . . i\"\nPR A SL\n注 :线路边界处离去信号机对应主\n2 | RRR NID_UINB 1 -0xFF,0 无效 |应答器/预告应答器位置在本线路内,\n故需在本线路内电子地图中描述,但\n所必线路为相邻线路\n应答器所在 1 ~ OxFFFFFFFF, ; oe\n3 NID_TRACK 4 tr ih GE IK BES\nny 4 48 ZE BL 应答器安装位置相对于所在轨道\n4 |道区段内的位| D_BALPOSOFF 4 0 ~0xFFFFFFFE |区段起点的偏移其,按照电子地图上\n置 行方向进行但移量计算 ,单位 cm",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 62,
+      "text": "~ 12 m~~!~HJ.Hili~C~)\nI\nI ~1\\H~lt\n1¥.1%1 ;E)( ~ill:~~)( ( :¥11) ~1\\JH'[~ I 1-1- 5I-.\nOxOOO l : _t 1-T ~li i1 t,'HifO f'J $ J.iii ~ -l*i\noxooo2: TH~Ii il~~lif!JW:tf:J.iii~-l*f\nOx0004: J:1-T~~;j3): fftJ.jiz~:ltlf\nOx0008: T1-T~12il3l:I'I£J.iii~~\nOxOOIO: _t 1-TiJtJEJ.j\\I~:ltif\nI\n5 I J.iii~=l*~t.£ 11:'0~;--·------- T.&..~.;fX' Ox0020: T1-T:!;i't1CJ.iii~~\nOx0040: J:1-T .1:$~~\nOx0080: T1-T .:tJ.iii~~\nOx0100: ;lt{ti!.IJ'il ;EJ.j\\I~:ltlf\nOx0200: Jlftffi1-f Em ±J.iiZ~=l*\n~!A!. 5. 5. 2\n6 I J.iii~=l*$:~~ Q_BALLOCACC~ '!/ ·~ Ox ~¥ ~ ! ;J. fi ili 'i]i J~ .j~ iz $ ~; ~~~ *J ~i f3( ., £lf J! .iil i l ~i J: Ecm ;fl'o ! fjlj ~ 3j(\nm13r\n.J.i • lm$:~m13r >-3\n'-..\n('1\n• ~xFFFFFFFF, .:X;f J.iii a9f~%tfltlia% '{SC~J.iiZ~=l*Jl >\nI -\nI MTE.i':m{~%~ ~ 4;l:f;i't)t:fjlj~~~.:trE.~~Jiilf.£atf.i 3:\n7 :tlltlia% NID_SIGNAL I 4 ~7 &7J'7C.:XtJ.iiifOl.!% ~0 )(;fllftffii!rl':m±J.iii~=l*.:tat~;JtfF tfj\n>-3\n-:R .:trE.~~.:xtJ.iiii':mf~%VLtlia.!% 0\n0\"\" '\"\n8 I\n.It!!. 00 It&* f¥1\nM_V ERSIONBAL 2\n:tat~-:R*J.iii~~WftH11 ~ 1*1 1m .It!!. 0~\n-~' 00 It&*, Jl-i*!l&*;E51-.it I~;E51-. w\nI\n~ I 9 I CRC;Bl:~ L_CRC 4 0 - OxFFFFFFFF J.j\\I~~~®Mfi;$: CRC \" 0- >\n~\n00",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 63,
+      "text": "...,\nU\\ ~ 13 f~-'iHJL~m~~ '-.\n00 (j\n>\n~m*JJt ::\n~-\\} ~ )( ~:fit.« };E)( ~mit! ill ~ )(\n( ~-;l) .t.'.lj,\nrn- %m~mJIHt: (/(J~m~;f:l;J ~ )(, 0\n.0~. ..\nrn -l}fJI.~!A!PliH*!S;f:l;J Ei=l N_ SIGNAL\nfFi -8-1JL ~ its M_STRUCT_ N_SIGNAL • 0\n0 ~~IJ[~N(!(Jffi~fJL~·;f:l;Jd(N. w\nffi4't.'iflil SIGNAL N +4 I\n7f-~% I -7 (/(J~--L~IJUHfl) ,Jt..m .N. ..\n0\n:tm 4 ~1)(/()Jf!}$: CRC 00\nI - OxFFFFFFFF,\n1 f~-1~)-fJl.~~- NID_SIGNAL 4 fj§f-l}tfl.tlii%\nO;JG%(\nffi:\nElf:(£~ 1m~-\\} 0\n2 FJT:(£~Rif~ NID_LINE I I - OxFF ,0 x%( i!: ~lm:ill!f~-2dtffi%1JL~ 'f.ff:l\n-'%\n{'jl~~'lf\"Jll! ,f.!!Eif:(£~~Eiz~:<$:~~\n3 tfLif ll l' :i (~ g- :V j3L\nl\nr ~; -r g: -t£ NID_TRACK 4 oxI % - (O xFFFFFFFF, ~F _JT\n!\nX:t l£\n.\n$ 5Jr .. m\n6.\n( 2g : ElU.Ili-'% m: o\nOxOOOl :ili:Mffi-l}fJL;\nOx0002: o'l:l Mffi%fJL;\nOx0004 : o'l:l M; 1ft :iQ ft llti tF f~ ~-.fJL ;\nNID_ I - OxFFFFFFFF,\n4 1l'f-!}1JL!iiltt SIGPROPERTY 4 ox%( Ox0008 :ill:ftllti!Pfj§f~fJL;\nOxOOIO: (g: ft3] ft3] l!i\\liffi~fJL;\nOx0020: ittl3ilill:~11i~VL;\nOx0040: o'l:ll3l/ o'l:l :f:~d~-8-tiL;\n---- ~---",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 64,
+      "text": "*\n13 1~-9tJL!&HJS~#;J(~)\n~1\\S-lfJ.!!:\nIf.-\\} .IE !1.. ~:!:i1A1.1E:X.. ~wmffil fil !1..\n(!¥11)\nOx0080: tl:l iff~ ~-tiL;\nOxOIOO :Aif{j§f~-tJL;\nNIO_ I - OxFFFFFFFF, Ox0200: ~~{l'J-'%fJL;\n4 {j§f-'% til. !ill tl 4\nS!GPROPERTY ox~ 0 x0400 : imJ $ fp,-'% tJL ;\nOx0800: I!Jl~fP,-'.}tiLo\n~~5.6.3\n{P, -'% tiL :(£ $JL ffi-'%tll.'ti:ili'tUz.ff.ffi:M=f&f:(E$}Lill\n5 ill!R ¥.2: P-J (J{J{:!L D_SIGPOSOFF 4 0 - OxFFFFFFFE IR¥.2:~.o!;i. (l{J{l19ft :fi.t, f1i Jlll Fl! =f :II!! 00 J:\nri. fiJI loJ :i~Hi'ilitiftfil:ltn:, l(!Uz. em\nOx55: J:~-T m\n6 1~-'% tJL 1I loJ Q_STGDIR I OxAA: ~1-T 1i1f-'% ttti~ a9JJ loJ o\n~~5.6.4\n;Jtfi!!X~\n1-3\n'\n~ 1F lR Bl: 111 Ox55 ::ff~t? IKBl: fP.% tiL fF :h ~ Yiru 1i':i '?·tiL (l{J :ill: ll1t ~ (\"')\n7 M_OVERLAP I >\n,Q, OxOO:X~if'IR¥.2: ~:ff ~~ .li-1¥1? IR¥.2: 3:\n8 CRC tlt@ L_CRC 4 0 -OxFFFFFFFF {l'f%tJL~!\\Sl'fi* CRC 1~ -3\n0\n...;....\n0\n0\nw\nI\nUl .N. ..\n\"' 0\n00",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 65,
+      "text": "T/CAMET 04010.3-2018\n5. 6. 2 m\"iHJ1JiJT1£$Jt~IRW:t.!l8~.&~~­\nB.,~%m~&&ft~1£X~~~-~%m~~iliM£~~-­\n~~*~o~~~~%m,~m~~%m~&&ft~1£~~m~m~~\n1*%VL1£~i!Lm~m.1.~iliU~il!:o\n~~%m~&&~&~~m~m~~.~~~%m~1£~%m~~\niliMjr~~~~ili~ft_t:ittfrtiS~o\nw\n~1*%m~&f.ftj'!If.ft~~1*%m~~iliMI*J, JJ!IJ1£ ~t -TJ!l! 1!1 ~,\nn~m%m~•&~&~x~~illM£~~--~,~~~~m~m\n?t ~ .8 >~ }Jl[ , 1± ~ 1~% m ~ ~ illM ,.~ ~ ~ ttJL m ~ m. 1. m ~ ~ 1~% m o\n5. 6. 3 NID_SIGPROPERTY( {~%m.lmtt)\n5. 6. 3. 1 tJiH,ij\n~~-~%m,~~~%m•tt*~ B~#o ~~-~%m.1.~~~\n'li ~ff Bt ' ~ 'li Jl5l'ffi :1g 1!-:fi I¥.J ~. 'li -m z ~\n0\nfYtl~o JIU*%m~ tl:l y~31ft~~1*%m, JJ!IJ;Jt!J6'1t-* ~ ~ ·!iJ;; tl:l Y:~1*\n=\n%Vl. ( Jfi4 tt Jl5l-ffi ~ Ox0002) , tl:l ft~ 3Ift if! ft ~ ~ f~% V1. ( Jli!. 'li Jl5l'ffi ~\nOx0004) ,ilift~~1~%m ( Mt.·!i!&-ffi~ Ox0008). ~~1~%m5CX11Bim\n'li ,J)!IJ{*%m~tt!&-ffif.iii~ :OxOOOE( Ox0002 + Ox0004 + Ox0008) o\n5. 6. 3. 2 tl:IM*~?tWH?i~~fll\n~{~% VLJ't.*\" tl:l ft~ :lift if! ft ~ ~ 1~% V1.\" Jl'l1, 'li , JJ!Ij J.iii !ill Bt 1!-tr\" tl:l l'c~\n{~%Vl.\", \"J1!ft~~{~%m\" J14·1io\n5. 6. 4 Q_SIGDIR( {~%Vl.~lo:J)\n~~*W~~t-TJ!l!I!I.1.B~Io:J~M~%mBt.~~m%miliB~~.\n~~m%m~lo:J~.1.fi;~~$W~It-TJ!l!I!ITfi~lo:J~M~%mBt,~\no\nx;J{~%Vlill11'~~ ,J)!IJ~1~%Vl~lo:J ~Tq'T\n5. 7 $tlli\n$f=Jf{ji~~~JVt.m~ 14\n0\n5. 8 IR!§!~$Jjft(ZC)\nZC f{ji~~~JVt.m~ 15o\n60",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 66,
+      "text": "表14 车挡数据结构\n序号| 定义 | eaeey | SBS 数据范围 e y\n(#47)\n车挡数据整体的数据结构定义;\n| 车挡数据整体结构由 N_ SHELTER\n车挡数据称| | M-STRUCT | NS全全 TER Che |个长度为N 的车挡数据构成CN 表示\n体结构 STBLK + pe ON etic de EnY\n| Bis A Lago Oa gy JRE 1-4 URE He BEB AD) ,并增加\n: ar, =>, NSO 4 字节的整体 CRC\nwt 7 ‘ % N Im\nff oe 及 4 ‘ oO F a\n车挡编号 NID_STBLK gee! 4 | f g OXF FEF FRRE, | 车挡 ID\n2: AP 7\n; foley nyt : a 7 -, }\ny | _所网线路编| Nip_LINE [Mctely | hig Broad fl ormexene se\nAE PS AT he Nh pale ORE BERET\n3 SA dy a ‘ , Ae py TE Sh itt OX BE eS mj\nfe Pete Bt 车挡相对于所在轨道区段 1 起点的 2\n| 4 | sce onaginig | D-STBLK 4 O~OxFFFFFFFE |偏移基,按照电子地图上行方向进行| ”四\noH. JJ个\n加 偏移直计算 ,单位 cm 5\nCRC KE ¥e L_CRC 0 ~ Ox¥FFFFFFF 车挡数据整体 CRC =\nCu\na S\noo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 67,
+      "text": "> #15 ZC 数据结构 <q\n~ 全\nBS] ie x 变星名定义 a 数据范围 合 义 <\nCy 1) 四\n吧\nZC 数据整体的数据结 =\nZC FR EA SR fd) N- w\nZC 数据些 , OO\n体结构 M_STRUCT_ZC | N_ZC #N+4 ZC PHC ME NY ZC By NS\n” Ryne (N ayy 1 ~7 a\nAy BB te LE A). JE\nm4 ay hy eA CRE\n对应 DSU : 0 ~OxFFFFFFFF.0 表示无| ZC 对应 DSU AH\n3 才应 ofa NID_Dsu 4 SF 表示无 | 应 编 it\n另 对应 DSU 网统一\nA 4 Fy IP FH O ~\nZC 网络地 255;\n4 M_ZCIPAI 442 ee | A Rost | + 4\nti CAB 网) In 27 AS is Cl, HC EL\nMU [E:0 ~ OxFFFF",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 68,
+      "text": "表15 ZC 数据结构(续)\n序号| ££ 义 AR it % EM SEK 数据范力 含 义\n(FA)\n前4字节为IP:各字节0 ~\n255;\nM_ZCIPB1 442 ' 8 网地址 1 +端口号\n- + 后 2 字节表示端口,取值| Delt\n范围:0 ~ OxFFFF\n前4字节为JP:各字节0 -~\n255;\n4 ZC 网络地| M_ZCIPA2 4+2 后 2字节表示端口,取值| A网地址2+端口号\n址(A.B 网) 范围:0 ~ OxFFFF;\n全0 表示无此卫端口\n前4字节为 IP:各字节0 -~\n255;\nM_ZCIPB2 4+2 后2字节表示端口,了到值| BR hhh 2+ HOS =\n范围:0 ~ OxFFFF; 5\n40 表示无此 IP 端口 e\nma te I an | 加\nM_ZCMASKA 4 MASK:各字节取值范围:| A 网的子网掩三 | 2\n。 | 2c M&F 0 ~ 255 | §\nFa SH 1 em | se OE. | 3s\na S\noe) —_—\nCo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 69,
+      "text": "*\n0\\ 15 zc ~i!~#;J ( ~) '-- 3\nn\n\"\"'\" >\n~WiL~Jlr\nJ( •;;- ~ :X. 1!: llc ~ ~ :X. ~.J1.!lt't1ffil ~ 5I... 3:\nC:¥1J)\n~\n--3\nM_ZCGT\\'\\'IPA 4 IP :4F¥1Jllit{{H't1ffil :0-255 A ~a<J~x 0\nzc ~~it J«] * ., 0\"\" '\"\n6 x I IP: ~ l!HCUU: ffil : 0 - 0~\n\\1_ZCGT\\'\\'IPB 4 B~(fJ!ijj): w\n255 I\nzc ~~ t)l J*J I W: zc ~Ll' t)f t't'Hlll J*J f§. -T N 0 ~\nCXl\n7 rt.J.-Tlfu~~* M_ZCMapCHK 4 0 - OxFFFFFF'FF lfu~~.Ji.jl;fll:~f~L@ ( VOBC\n.fli:~~#LQ. .EjW; zc .iill f,'int~ffl)\n8 CRC~.\\W! L_CRC 4 0 - OxFFFFFFFF ZC ~Wffi* CRC\n5. 9 i.tlHfl~lili ( CI)\nCI >i&W~n!Z.!A!.;& l6o\n5.10 91J$~WJ~~(ATS)\nATS >/&ili!i~~~~.'R.:& 17 o\n5. 11 ;i£t?3t~-T~~(MSS)\nMSS ~ili!i~f~~r£Jii!.~ 18o\n5. 12 ~i!~&~!P-:lC( DSU)\nosu\n~w~~.!ii!.* 190\n5. 13 ~~111~#1-i.)(~\n~ ~ :ii fl'it!J W ~ >!& 1AHM~ .f~ ~JR.~ 20",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 70,
+      "text": "表16 CI数据结构\n序号| #£ x Et A AE pe ae 数据范骨 含 x\n(2D )\nCl 数据整体的数据结\n构定义:\n\nCi 数据整体 CI数据整体结构由和-_\n\nsey “| MLSTRUCT_CI | N_CL a. NoEgTM rn. Cl 个长度为 N 的 CH 数据\n\nee ran 数据长度总和) ,并增加 4\n\n下 FAT AY HEAR CRC\npt | ce | pct ee 4 Ui -owrerayeilo sexe | cia\n2 POR ABS) Nip LINE ie 1 | i WE OxFE OF 无效| 线路编号值\nneh i} RAT 4 守节为 IP: & FW O ~\nM_CHPAI acme ee 天示端口服值| 8 Mba + is 5\n; Cl 网络地此 SoS SPR 0 ~ OxFFFF -\n(ABE) 前4 字节为 IP :各字节0 - 下\nM_CIIPB1 4+2 2953 B 网地址工+ 端口号 5\n+ + :\n\n- 后 2 字节表示端口,取什 三\n范围:0 ~ OxFFFF uo\n|\n&\ncn S\noO",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 71,
+      "text": "0 0\\\n\\\n~ 16 CI ~&~~(~) \"t n-3 '\n>\nf!Wf~JJ(\nrY.-43- k: >'-. ~fll:~k:>'-. f!Wili'Hill 1f >'-. ~\n(~11) t'1j\nt-3\nlltr 4 ~1119 IP:43-~'W 0- .C 1> »\nC>\n255; ~\nC>\nM_CIIPA2 4 +2 fr5 2 *11*7Rt;fil 1J ,.!litii A Jij.JJIJ!.:i:Il: 2 + t;fil IJ% w\nI\nTt!!Jll :0 -OxFFFF; N\n*iRxJit C>\nCI fij]~:til!.:i:Il: ~ 0 IP t;fil IJ 0~ 0\n3\n(A ,B fijJ) lltr\n4 ~1119 1P:43-*'W 0-\n255;\nM_CIIPB2 4 +2 !i52*1l*.7Rt;fi!IJ,Jiit{il[ Bfij]:tiJ!..I.IJ:2+t;fi!IJ%\nTt!!Jll :0 -OxFFFF;\n*iRxJit\n~ 0 IP t;fil IJ\nMASK: 43-'7-1' ~ ffi iri ffil:\nM_CIMASKA 4 Afij]~-=ffijj1fl!lil3\n0-255\nCl fijj~-=ffijj\n4\n1ti!lil3 MASK: 4} * 1' .!lit {Jl r{L I'll! :\nM_CIMASKB 4 B fijj(l<.J-=ffijj1fl!lil3\n0-255\nIP: 4} * 1' Jljt ft'.Ut11'fil : 0 -\nM_CIGTWIPA 4 A fijj(j{Jfij}~\n255\n5 cr fij]~fij]~\nIP: 43-* 11 .!lit {t'Ut1 ell : 0 -\nM_ClGTWIPB 4 B fijj(!{Jfijj.*\n255",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 72,
+      "text": "*\n16 CI ~ti!iHZJ ( ~)\nf£1\\H~J.t\njf-g }:E :X. ~:fi!:~}:E:X.. f£~7118ll * )!_\n<*il)\nI\nCI 'J!' t;!li*J It!. it CI '1! m' t;!ll {f. 00 pg ~ ~ I\nJt!! oo f£ :& ~ f\" .Q,\n6 T-:lt!!l¥lf£W:& M_CIMapCHK 4 0 - OxFFFFFFFF\n( VOBC !ijif;: CI }ill f;'j B;f{l!!\n@ffi.~,\nffl)\n7 CRC ;&@ L_CRC 4 0 - OxFFFFFFFF CI f£m!l'f-f* CRC\n*\n17 ATS ~mitiS#;]\nI\nJf.Ji} }:E :X. ~:fi!:~}:E:X.. f£~*13r r£mm:oo * )!_\n<*il)\n!\nATS f£Wm.f*~f£m~\n~_}:E:X..:\nATS f£ WI'£ l\\1 _ STRUCT _ ATSf£Wf)l'£-f*~~E9 N_ \">-3\n0\ni*~fq ATS\nN_ATS * N +4 - ATS 1-*IJ[1-J N B<J ATS f£ 1 ( >')\nW~liX.(N ~~If% *I - 6\n(i(J f£ m * J.t -~ *1l > • !tl = >tr -= : 3l\n1!0 4 *il(!(JJ'£-f* CRC 0\n~\n0\nI ATS B<J 1D NID_ATS 4 1 - OxFFFFFFFF ,0 :7[;%£ ATStlii% 0~\nw\nI\nWfliiS~lil}tlii\n0 -.)\\ 2 -'% NID_LINE 1 I - OxFF ,0 :7[;%£ ~lil}~%00: N 0\n~\n00",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 73,
+      "text": "...,\n0'1 ;&; 17 ATS !&it.IUi$#;1(~) '\n00 (j\n>\n~~H~J3t\n1¥% ~ 5I.. ~fil:~~:x. ~i~HP:ffil ~ 5I.. ~\n( -¥1l) ...,\n~\n1liJ 4 *1l:1J IP: ~*11 0- 0\n~\n255; 0\nM_ATSIPAI 4 +2 A jijj:ttl!:IJI: 1 +ft!JD% 0~\nFo 2 *1l~7f-9ffilo .~m w\nffi 00 :0 - OxFFFF I\nN\n0\n1liJ 4 *1l:1J IP:~*ll 0- 0~ 0\n255;\nM_ATSIPBI 4 +2 BIXXJ.!tl!.:f:li:I+9ffi!D%\nFo 2 *1l*m9ffilo .~m\nffiflll :0 -OxFFFF\nATS IXXl*!tl!. \"Au 4 *1l.1g IP:~*1H-\n3\n:f:li:(A,B ~) 255;\nM_ATSIPA2 4 +2 Fo 2 *1l~7f-9ffilo .~m A IXXJ:ttl!:f:ll:2+9ffi!D%\ntP:OO :0 -OxFFFF;\n~ 0 ~jf-:j;Jlt IP tffJ D\nlitr\n4 -¥1)1-J IP :~*1) 0-\n255;\nM_ATSIPB2 4 +2 Fn 2 *1l~7f-9ffi!D,~{R B lXX] Jtl!.:W: 2 + ttlij D ~-\n&!ill :0 -OxFFFF;\n~ 0 *7f-:XJlt IP 9ffi!D",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 74,
+      "text": "表17 ATS 数据结构(续)\n序呈| 定 x 变量名定义 ee y 数据范围 含义\nMASK: # “F 43 Me (ff 78 4: ,\n| | M_ATSMASKA 4 |» 256 cai ‘ A Fa) AY Fa He\n1! ATS 网络子 — {| 8\n= AN S77 Wa it Bl: ,\n' M_ATSMASKB je x Chee fay BAY ie\nyp eer 小、 vn\n| vs I pt sy 和 是\naa * iF £ 4 }p. aN 5] 落 十 0 _\nM_ATSCTWIPAY oH 4 AR 各 Pek pee A 网的网关\n5 ATS ERX | om - ‘ae er.\n| W eee, | | SP es as 0 ~\n| vars 4 | | iN | 各子 PPB eH B 网的网关\ny vf i | ss i i'm\nbe | WEset | 加| hy a cy 必\nhe Ae fe NRC ~ Pw of 该 ATS 管辖范围内电\nSh A ae et cee 子地图数据校验信息| oS\n4) 8 | M_ATSMapCHK aq’ S eh N\n6 Vit Ft FY HB -ATSMapCHK fen 妆 oa (VOBC 与该 ATS 通信时 eo\n! Be {7B | 一 使用 a\n7 CRC 校验 L_CRC 4 0 ~0OxFFFFFFFF ATS 数据整体 CRC 2\noS\n2\nw\n|\na 3\n已 oo",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 75,
+      "text": "~ #18 MSS 数据结构 q\noe\n. 1 |e >\n序号| #@ x 变量名定义 BU 数据范围 a x z\n(477) 四\n四\nMSS 数据整体的数据 S\n结构定义, 三\nMSS 数据整体结构由 N_ w\nthea lalla M_STRUCT_MSS| N_MSS * N +4 MSS 个长度为N BY MSS 数 3\nali 据构成CN 表示序号1-5| 忌\n的数据长度总和),并增\n加4字节的整体 CRC\n下Ta |e | corer xe [sme\n前4字节为了下:各字节0 -~\n255;\nM_MSSIPA1 442 , A tel +端口号\n- 后 2 字节表示喘口,取值| “Mea\nMSS 地 址 范围:0 ~OxFFFF\n3\n(A.B iY) 前4字节为 IP:各字节0 ~\nM_MSSIPB1 4+2 235% B 网也址 1 + 端口号\n-i 后 2 字节表示端口,取值",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 76,
+      "text": "~ 18 MSS ~jJUi!i~(~)\n~Wi*Jj[\nff~ ~ )I_ ~iii:~~)/_ ~mm:Em * )I_\nC:f:\"il)\nlitr 4 ::f:'il .19 IPA~::f:1! 0-\n255;\nM_MSSIPA2 4 +2 Fn 2 ::f: 11 ::& ffi 9'~ tl • I& {ll A jijJ .lt!!.:l:il: 2 + Y;lij tl-'5-\nfi!ffil :0 -OxFFFF;\nMSS .It!!. :1:11: ~ 0 :ti{ffixJlt IP ~ tl\n3\n(A,B jijj) Jitr4 ::f:1)1-J IP:~::f:\"il 0-\n255;\nM_MSSIPB2 4 +2 Fo 2 ::f:11:1i{ffi~tl .J&{Jl B iXXJ:lt!!:l:il:2+~tl~-\ntiL If,) :0-OxFFFF;\n~ 0 :ti{ffiXJlt IP ~ tl\nMASK: 4.} ::f: 1) !& {i til IE:\nM_MSSMASKA 4 AiXXJ~-TiXXJt<i!~\n0-255\n4 MSS -TiXXJt<i!~\nMASK: -it ::f: 1J J& {i til IJll: ~\nM_MSSMASKB 4 0 -255 B iXXJ~-TiXXJt<i!~ >~\n3:\nIP: ~ ::f: 1) J& ffi 1[ ffil : 0 -\nM_MSSGTWIPA 4 255 A jijj(J(Jjijj~ >~ -3\n5 MSS jijj.1(: * 0\n~\nIP : ::f: 1) J& ffi 1[ ffi] : 0 - 0\nM_MSSGTWIPB 4 B jijj(J(Jjijj.1(: 0~\n255\nw\nI\n-.) 6 CRC{lt~ L_CRC 4 0 - OxFFFFFFFF MSS ~ !\\HI'Hi' CRC N 0\n0~0",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 77,
+      "text": "~ #19 DSU 数据结构 s\n性\n数据长度 、 >\n序号| 2 x | sizaey | MER 数据范围 含义 <\n(47) es\n中\nDSU 数据整体的数据 号\n结构定义: r=\nDSU 数据整体结构由内\nDSU By dH M _STRUCT_] N_DSU « SEAR | 7 下\n0 tee Hy DSU Naa DSU 个长度为N AY DSU 数 总\n2r 据构成(N 表示序号1 ~8 oo\nfy 4 EA), FERS\n加4字节的整体 CRC\nce 天了ED二\n前4字节为IP:各宁节0 ~\n255;\nM_DSUIPAI_D 442 ; 7 A 网地址1 + HO\n* 后 2 字节表示端口,取值| “Me\n3\nHL (A.B 网/ 前4 字节为 JP;各字节0 -\n255 ;\nM_DSUIPBI_D 44+2 , _. B 网地址 1 口号\n+ 后 2 字节表示端上1,取值| Pele\n范围:0 ~ OxFFFF",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 78,
+      "text": "#19 DSU 数据结构(续)\n序号| £ x AE fit 4 WE i 数据范围 a x\n(47)\n前4 字节为 IP:各字节0 ~\n255 ;\nM_DSUIPA2_D 4+2 -后2字节表示端口,取值| A网地址2+端口号\n| ET Ot Ox PFFF\nOSS Rhee ,此 IP 端口\n3 DSU F i in MET ba Fk\n7 RS 人 AN\nik (A.B) Vege Eff Whe EA AYP, 6 F150 ~\nWL_DSUIPB2 DAS! 442 | 2 FRA A OE) 日网地址2+ 端口号\ncom Hey | age = OPS)\n四本 { ou fos ff\nae, AMBRIASK: 224 Be GE I |\nM_DSUMASKAL | 8: 2° 4c. VR es, ON a A DR ATH Pe HE AS\n6 F Fae SSL i, & et GE G\nM_DSUMASKBI 4 :各手下到但范围:| B 网的子网扼友 之\n0 ~ 255 ES\n5\nIP:各字节取值范围:0 ~\nM_DSUGTWIPA1 :各字节取值范围 A 网的网关 =\n。 | DsU 下载网 255 =\nS\nM_DSUGTWIPBI :各字节取值范围 B 网的网关 t\n~J 255 nN\nSo\ntad —_—\noO",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 79,
+      "text": "3 #19 DSU 数据结构(续) S\n(FW) i\n四\nWe4 A IP: BT 0 ~ 2\n; 255; cea =\nM_DSUIPAI_C 4+2 BST HRIAD 让什 A 网地址 1+ HOY =\n30, [ff :0 ~ OxFFFF rs\nA 4 EA HIP BH HO - °\nM_DSUIPBI_C 4 +2 255; B 网地址 1 + 端口好\n7 7 In 2 7 don Se UTA\n范围:0 ~ OxFFFF\nDSU 数据校\n6 |验地址(A.B fi] 4424 4 IP: 444 7 0 ~\n网) 255\nM_DSUIPA2_C 442 后 2 字节表示端口,取值| 4 网地址2 +端口号\n泪周:0 ~ OxFFFF;\n全0 das Kt IP Si\n前4 Ey PE 0 -\n255;\nM_DSUIPB2_C 442 AIF VRB Mi B Mee 2+ HS\n范围:0 ~ OXF FFE;\n全0 dom Felt WP 端口",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 80,
+      "text": "~ 19 DSU ~t!S!iH~ ( ~)\n~Wi*lt\nff I} ~ )/.. ~£]:~~)/.. ( '¥1') ~w;mm * )/..\nMASK: ~ '¥ 1' .lli!. 00: iff.. IE :\nDSU ~Witlt M_DSUMASKA2 4 0-255 A jijji¥.J-Tjijjt4Hi~\n7 !j~jijj~T-jijj~\nMASK: ~ '¥ 1) JUt ffi tff.. ffiJ :\n~ M_DSUMASKB2 4 Bjijji¥.J-T~~~\n0-255\nIP: ~ '¥ 1) .lli!. f.ll tff.. 00 : 0 -\nDSU ~Wi;& M_DSUGTWIPA2 4 255 A~a9~-*\n8 ~jijj%~~jijj\n* M_DS UG TWIPB2 4 IP: ~ '¥ 1) .Jli(. f.lltff.. mJ : 0 - B ~(19~.*\n255\n9 CRC ;&Hi L_CRC 4 0 -OxFFFFFFFF DSU ~:1,\\HI'f-f* CRC\n~ 20 ~:i:ili~~i)'(t~~t!S!i!i~\n1-3\nrY.% ~ )/.. ~£]:~~)/.. ~jl*!Jt ~mm:oo ~ )/.. n\"'\n( '¥11)\n>\n\"* a:\nw\n3i:i€ .~m 1~ 111-i.)( :fX ~ ft a9 ~ ~\n1-3\nMti'i¥41~)1..:\n0 i.)( .3 fXi: ~i€ i ®lli f ml1i# \" J *. CFGM _ STRUCT _ N_Type\"' N +2 - N_3 Ti y: pi e€ i 1l -l Ll ~f J3~ t# J;J ]. i N. ) B( 9: 3f iX :i~ i€lM lm\ni\nf* fft itR tJ~\n-\nim\n.)(\nC C C~ ~> >\n>\nti!i~ w\n:fX~jl~~( N *if-1¥% I - ll B<J~jl I\n-.l *iJr-~,flj) ,Jt~1Jn 2 '¥l'i'!<Jmf* CRC N C >\nVl '------- ._____ 0~ 0",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 81,
+      "text": "= #20 安全通信协议栈数据结构(续) <\nO\n. ae BR CIE te aed ae 、 >\nee) 定义 | BRABM iy Hee eS =\n(Fy) le]\n四\n1:70; =\nfom]\n5. DSU; °\n设备区型 M_Type 1 1 ~7 6:C1; 六\n2.3.7: 1H ; oo\nAL {ih 4EGe\nSAI JZ Tsvn O~OsFFFFFFFF, | SALE Tsyn fe Ay ah ab 1 (A ie it\n2 、 7 M_SAI_Tsyn 、 \\.\nSAI 层长局 、 。 7 He def eye\n3 linia a ia O ~OxFFFFFFFE, | SAI层长周期回调的周期数配党\n3 TU) fat iat ay Fal f ae i.\naK\nSAL Fe M_SAI_SEQ- - eae TL Lo ak ftp wg un pi\n4 | SAL Re ‘ : | -OxFIFE SAV FEF BCS RAE (TAL PEL\nSikK Zt | NUM\nSAI 层 EC M _ SAI eam pe Jk\n5 - 4 0 ~ OxFFFFFFFF SAL FE EC 4 MSAK ARE PE\n报管状态值 | ECALMSTTATE . “ 7\nSAl fi EC] M_SAI_ EC- an eG sat fie wea wpe pts\noe 4 0 ~ OxFFFFFFFF SAL层EC负人参数是测值配帝全\n负人参数回调值 | MAXNEG",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 82,
+      "text": "表20 安全通信协议栈数据结构(续)\n. ¥ 数据长度 4h the ‘\n- Dp\nSA] }2 i4 # | M_SAI_NMAX- ; eg oe\n7 an Ie * * 一 4 0 ~OxFFFFFFFF SAT 2 ee PIR Ge AC IC FT\nyt ik fy KA ERR\nSAl les 新 -2 = a Those Ok Ele vo yn te\nIK oe im e Mo o_ SAL _ oe 1 me =O. RRFFFFF SAL 2 © tad Big 22 Hi tee K rt\nei | NMAXREF PS | OTR epi\nat ats SF AY 二人、 ~ | ‘ the aN\noe fae 2st ET Sat, my 内 \\ oi 4 8 , . ae\nfy) “Fy TPA 0 ~ OxFFRERRKFR, | MASL fi Testab a ft a5 88 IH fF AL\n1 YOKE re ar ry oa qs . mek ge le ack le apt te\nALE层teon| ET 人 | [1] GU OxEFEFER, BALE ( Toon Af BF REMY (CLA HT\n‘ hoop. abe _ -b_1co 本 ~ vi a ; , a , ” pe .\n定时器超时值 ”| NAAR 5 0\nSOP pe SEE oe al ot :\nALE 导 TSN OSE Es | ggg z\nRe Te Ha xh | AE ee RS tr 5 2\n| zt 0x01 =\n一 四\n校验但 1 CRC | 2 0 ~OxEFEF 16 (iv CRE 98 , BW 5.13.2 2\n一 fom]\nS\nCD\n小\nSo\n~ aa\nOO",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 83,
+      "text": "T/CAMET 04010.3- 2018\n5. 13. 1 M_Type( tit*~~)\n~~illM~~~~-#M~~~~~tit**fi~flo @~~OO~~\n;fft£ ZC,CI,ATS,DSU tit*~-(~£ 5. 8,5. 9,5. 10,5. 12) ,]i!iJJ.i!Z~;ffif.i!Z\n~::t(~ill {~tJ].i)(~~-\n0\n5.13.2 L_CRC(CRC;fit~)\n~::t(~illf~t)}i)(f:!G~-~*~$1-~~~tit*ni:r1 ,]i!IJ CRC jg#xt\n~1-~-~~·Wr):o f9tl:tm . ~::t(~:illH~tl}i)l~~t!S*;ff ZC,CI,ATS,DSU\n~~11. ,]i!IJ~~~-1*~~£*. 210\n*\n21 $:~ilf~~i.>l.~~mfli*~#il\nL_CRC\n;It~ .~i)[*~~~J®!Jf~~~f!jlj, L_CRC lli*·Wf~.li~~tit*DC~\n~•~wr~~•ittto\nB ~~~oo=m~~~fli*~tMM#il\n:J:t(,~~U~l15 rp ~~~OO:lG~~tl~jiJJi!Y!Jf ,f&7J\\.f.11=jiJ ~~~OO:lG~ ,#\nf±)C{lj:;t~~1JO 4 ~-;1~ 32 Ul CRC fit~o ~-1*~-~f~.!A!.;& 22o\n*\n22 ~~~lllfli*~tM~#il\ntyj D 1k tE\n~~\n$1till!Kl3!:\n~MU~s*~~~ZBmM~.~~~~~~~-~-\n1JT;ig[Ki!J£\nCRC( ~p ~~~ 0\" mi*BmM~\" ;<:;.~B<JFJT:ff'=J:l3!:)\n~~~\nfl1i~t11.\n78",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 84,
+      "text": "T/CAMET 04010. 3-2018\n:ryj § * 7±\n$P-i\nzc\nCI\n*M~~s~M~ft·~-~~.~~%1~~~-ft·\nATS\nCRC( ~n I~ if% 0\" ~i*~·~flil\" zjij-(f{J!ifr:H\"f:¥.11:)\nMSS\nDSU\n1i=~illi f~J1}i.)(.f.JG\n32 {)I CRC tt!.T-!t!!OOmi* CRC\nEl3 =f \" ~1m\" :7G ~ 1-1 %: ~ ' !fi ~ lru {fli ttJ. i)l fX 0 fH ftC 5!l ~ li 1-1 %: ~ ' ..§_\n\"~$it .. :7G ~ rr ~Jt%: 7 ~t -T lt!?. ~ x 14 rr \"$Jr. ill~K ~ .. , \"trr )g ~K :1!!~ .. , \"m. ~\n$\" , \"f'R'% tJl\" , \" 7~ ~\" , \"ZC\" , \"CI\" , \"ATS\" , \" M*SS \" , \"DSU\"* , ,\" ~ ~\nRSSP-ll .tt!?.!Hiili!:*f;ll~i/&iii:\" jG~ 891-~, .fl.~ :7G ~ ]Jt ±t,J 1-J%: $: _t\n~~r~~-~~-M~m·~-~~~o\n79",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 85,
+      "text": "T/CAMET 04010.3-2018\nl!f.t ~ A\n(f;llmttl!f.t~)\n~ll&;tcut7e~~m-mm~\n~Mf3Clt:7G~Jfl1.ffirtHru.W.* A. 1 o\n~A., ~ll&;tcut7e~~m-mm~\nJY. -\\)~ ):E)( Jf)(.ffi~'l'£11'1\n~-*~-~-~M~W$~--(~~M-~M&\nI 2\n~ttfil;;Ht'F)\n2 ffrliil~'tf ZC,ATS !lii%~~:!il: 4\n3 -~~m~&~$~M~ rnQ~BQ 2\n4 JXt Jt: ~ ~ li'LIE-* ~ 2m\n80",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 86,
+      "text": "m\nrp ~ ~ r!H1L ill3( ii!i j;)} ~ jjj i* f,J;\n~m~~~~ ¥~~-~~*~ft\n~lttJ~~( CBTC) s~s~~~1J.ilm\nm\n3 $~=*~1@..::rii!!oo\nT/CAMET 04010.3-2018\n*\n<P l1il ~ill til II& fHf IS& 0 1'1] tl:l II& .3t ~f\n( 100054, ~tJi\\ r!H!i~!K~:t( (lg!jUj 8 -\\'})\n0 1'1] JijJ :bJ:: http://www. tdpress. com\n.jt ffi itr D. fiJ ~~ lf IS& 0 1'1] 10[16~\nJf;;'fi:: 880 mm X I 230 mm 1/32 f[l~lt: 2. 875 !¥1'£: 78 'f\n2019 if' 5}) t» I II& 2019 {f 5}) t» I lXfll~rj\n~-!}: 15113. 5658 )Efft: 25.00 5C\nJl&t.llJiJi'~ ~:f:X~~\nfLf4~~ill!I&III ~ ,:lm11 f!JlttJg(:fiHOJNJi, ii'i.!o.i:2fi:f±~~$1IU~llllfk\nm, m\n2t~llll~ Blf(021 )73174, (olo)51873I74",
+      "source_file": "T_CAMET 04010.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通系统规范 第3部分-车载电子地图.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

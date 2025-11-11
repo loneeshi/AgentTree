@@ -1,0 +1,23 @@
+{
+  "doc_id": "e9c934b2-1a49-443d-860a-c8e8ff5021c3",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "中国城市轨道交通协会\n《城市轨道交通 基于通信的列车运行控制\n系统( CBTC ) 互联互通测试规范 第1部分:\nCBTC 部分测试及验证》\n(T/CAMET 04012. 1—2018)\n团体标准第 1 号修改单\n本修改单经中国城市轨道交通协会于2024 年09 月03 日批准发布,\n自 2024 年 09 月 10 日起实施。\n一、编辑性修改\n1. 将3.1.14 中“路线运行 overline operation \"修改为“跨线运行 over-\nline operation” ,\n2. 删除3.1. 15“ SA Hy ole Bes TB] Bi EYP] ( 32 34) Fe Bs AY [iB] ) mean time\nbetween failures :指设备连续发生两次故障之间的平均间隔时间。?\n3. 将3.1.16 “I A shes sb Rist automatic manual train operation”\nWEA SIZE A oh 3b Ah automatic train operating mode” ,\n4. 4% 3.1.20 “426 BEX handover overlap region ”修改为“移交\nit 4 [X handover overlap area” ,\n5. 将表17 .147 151.6. 5.7 ge 176.177 A“ PK BR” EN “i ah\n区段” Lo)\n6. 将表 195 236 中“《RSSP- 工铁路信号安全通信协议》(运基信和号\n(2010 }267 号) ”修改为“TBAT 3528.1”,\n7. 将表 195 .215 .236 中“《RSSP- I铁路信号安全通信协议》( 运基\n1",
+      "source_file": "修改单-TCAMET 04012.1—2018《......互联互通测试规范 第1部分：CBTC部分测试及验证》.pdf",
+      "garbled": true,
+      "garbled_reason": "cid_markers",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "信号[2010]267 号) ”修改为“TBZT 3528.2” ,\n\n8. 将“参考文献\"的内容修改为:\n\n“[1] TB/T 3528.1—2018 ”铁路信号安全通信协议 第1部分:\n型协议\n\n[2] TB/T 3528.2 ”铁路信号安全通信协议 第2部分:I型协议\n\n[3] IEEE 802.3 系列标准”。\n\n二,技术性修改\n\n1. 将表224(第 141 页) 测试需求\"3. PL) 设置跳停命令 ,列车位\n置在跳停命令接收荡围内。列车将依据命令在跳停车站停车”修改为\n“1)设置跳停命令 ,列车位置在跳停命令接收荡围内。列车将依据命令\n在跳停车站不停车 ,以规定的速度越过该车站”。\n\n2. 将表228(第 145 页) “测试再求\"中”2 ) 测试接口内容:列车完整\n性。测试震求:连续级列车 ,运行过程中完整性丢失,则向 ATS 报告“列\n车完整性”为完整 ,否则报告列车不完整“修改为:2)测试接口内容:列\n车完整性。测斌需求:连续级列车 ,运行过程中完整性丢失 ,则向 ATS 报\n告“列车完整性”为不完整 ,否则报告列车完整”。\n2",
+      "source_file": "修改单-TCAMET 04012.1—2018《......互联互通测试规范 第1部分：CBTC部分测试及验证》.pdf",
+      "garbled": true,
+      "garbled_reason": "cid_markers",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "doc_id": "0a8ade7d-3d51-420d-9c04-1e7df9aed981",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "中国城市轨道交通协会\n《城市轨道交通 基于通信的列车运行控制\n系统( CBTC ) 互联互通测试规范 第2部分:\n点式部分测试及验证》\n(T/CAMET 04012. 2—2018)\n团体标准第 1 号修改单\n本修改单经中国城市轨道交通协会于2024 年09 月03 日批准发布,\n自 2024 年 09 月 10 日起实施。\n一、编辑性修改\n1. 将3.1.14 中“路线运行 overline operation \"修改为“跨线运行 over-\nline operation” ,\n2. 删除 3. 1. 15 \"平均故障间隔时间(平均无故障时间 ) mean time\nbetween failures :指设备连续发生两次故障之间的平均间隔时间。?\n3.\n4. 4% 3.1.20 “#46 Ht BX handover overlap region”修改为“移交\n重合区 handover overlap area” ,\n5. 将表14.表 15 e159 22 161 PP“ PEK Re” ee A tH KE” ,\n6. 将表 182 201 中“《RSSP - Il KREMAS KAA PM) Ge las\n(2010 ]267 号)”修改为“TB/T 3528. 2” ,\n7. 将表 201 中“RSSP -工铁路信号安全通信协议》(运基信和号\n[2010]267 号) \"修改为“TBXT 3528.1”,\n8. 将“参考文献\"的内容修改为:\n1",
+      "source_file": "修改单-TCAMET 04012.2—2018《......互联互通测试规范 第2部分：点式部分测试及验证》.pdf",
+      "garbled": true,
+      "garbled_reason": "cid_markers",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "“[1] TB/T 3528. 1一2018 ”铁路信号安全通信协议 第1部分:\n型协议\n[2] TB/T 3528.2 铁路信号安全通信协议 第 2 部分: TAM\n[3] IEEE 802.3 系列标准”。\n2",
+      "source_file": "修改单-TCAMET 04012.2—2018《......互联互通测试规范 第2部分：点式部分测试及验证》.pdf",
+      "garbled": true,
+      "garbled_reason": "cid_markers",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

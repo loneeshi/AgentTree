@@ -1,0 +1,266 @@
+{
+  "doc_id": "df9457f8-7727-4002-bca1-2e1113fef5b5",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "~ ‘ 一-一 4 . AS\nHh TH Sl 18 30 1H Re Bi AR Al Se\nCZJS/T 0028—2015\ns ea 一\n城市轨道交通 CBTC 信号系统一\n-上\nATP F AZRMSE\nTechnical specification of communication based train control system\nfor urban rail transit-ATP subsystem specification\n2015-06-01 发布 2015-09-01 实施\n中国城市轨道交通协会技术装备专业委员会 AA",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "CZJS/T 0028—2015\n= 次\n\n前言. c ec cece cee cece eee e cence eeeeeeeteneeeneeenntenctneetsveeenctteceevecseceeees Tl\n1 总则.1\n2 规范性引用文件,ss |\n3 Nit. TE AIBMK GE cc ce ccc cee cece eee eesecsecsecsecsecsecseceecseeseesa 2\n3.1 ne, a,c Ca 2\n3.2 GGMR GE ccc cc cece cee cece eee ceeeeeeeneeteannetteeeeneeeetneeeseeee 3\n7 | ay ca.\n5 坏境条件. ccc cee cence eee e eect ene eeeetnnetneetenesnneenneeenesneeseeesen JD\n6 PEREBESR ooo ccc cc ccc ccc ccc nec eee n cence ne eeeeeeseeeeseectecteceeceeesecseesee J\n6.1 BEDE ooo cece ce cee cece cece ee ee eens eeeeceeeectcteeecseeeceseeeee J\n6.2 GPSEPES HP PEMOR oo ccc ccc cee cece cee ceeeenesecsecevcseeseesees 6\n6.3 WARP PRB oo cc ccc ccc cee cece eee seeeeceeceneevesececeveseeseesees 6\n6.4 HTH SST ha] ATE 0 ccc cee cece cece cee ceecsecceeccereeseeess 6\n6.5 性能指标.ss 7\n7 DYPEMER oo ccc ccc cece cece cee ne etnneeeneesenneeenneeeennvtetnceesneeeea 7了\n7.1 PFET AU RSE ccc ccc cee cee nec n ec ec ene cncceccecetcetcetcctesees T\n7.2 BALTES HINZE TLR cc ccc cee cence nee ceneceeccencenceseeeseees 7\n7.3 TPBBIMIT IMR oo cc cee cee cee cee cee c ee ceecaeceeeceeceteetceteetesees 8\n7.4 处二移动授权 (MA) oe cc ccc ccc ccc ccc cnet ec neceeeneeneeneeecencetceeeetesees 8\n7.5 BUR ccc ccc ccc cece eee cee e nese ee eeeeeeeeeeeeeesecsnceeesee Y\n7.6 ZUXSIRID AID! oo ccc cc ccc cee cee n eee e eee e ee eeeeeeeseeeeseeesecsecseeseed JY\n7.7 CCAP TEP occ ccc ccc cece ec e eee caeeceeaeceenneeestvecesrveessees 10\n7.8 WTB ccc cc ccc ccc ccc cee cee e nec ne eee eneeesseceecsvceecsecseceecss 10\n7.9 FE cece nec ce cc eeeceectencsaneeneceevcstccsrecseees 10\n7.10 CBTC File BU cc ce cee cc ccc cee cece seceveectcsveececeecsesesees Ll\n7.11 列车退出 CBTC [Xt oc ccc ccc cece cence ceeeceeeeeccsrveetteveseseee Ll\n7.12 开门防护 12\n7.13 4D VIR ASU oo ccc ccc cece cece e nec ceneeceauneteaeceeenevcesnecessee LQ\n7.14 SEPP YESS cc cece ccc cece cece ences sececeececevsvcecsececeesees 12\n7.15 WE ALTGELD oo ccc cee cee cence eecencceuccevccsvceseessees 12\n7.16 SEER ccc ccc ccc cece nce e ene c ne enecnesnesncetcetceteetesseeeeses 13\n7.17 BRUNO cc ccc cee cee cece cece cece 13\n7.18 通信状态监督和改陪处理. cee cee cee cece ec cnecnececccetectccteeteses 13\n7.19 诈车折返.ss 14\n7.20 办而显示.14\nI",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "CZJS/T 0028—2015\n8 FEO LW ccc cee ce cece cece eeeteeneeeneeeseneceenneeceveceas 15\n8.1 “LR ATP/ATO 5 4FEL BER oo ccc ce cece cece ca ecceecceeceeecereees 15\n8.2 ATS 与地而ATP FEMUR cc ccc ccc cee cece ec cecceccecetcetcetcctecsesae LT\n8.3 ATS 与车载ATP/ATO $2 ESR. cc ccc cee ccc cece eee eeeceecteceeseeeesesss 18\n8.4 ALAC ATP/ATO 与地上ATP FEL ISESK oo ccc ccc ccc cee cee ceecseceeeeeesee LY\n8.5 CL 与地而ATP Pe) HOR cc ccc ccc cee cece ec eeceeceecsvcsvcevcsecsveses 20\n8.6 CI Li ZE4XK ATP/ATO RET EER ccc cc ccc cece cece cece sececeecececeecesee ZL\n9 FAME oo cc ccc ce cece cee c eee eeeseneeeucetncsecesncetscsteeses Zl\n9.1 HIRGAINADDLTH o 0 cc ee cee cee cece ese eceecetenseneceeceseccsecsseees ZI\n9.2 ATP WRENN WNIT. oc ccc ce ccc cee cece eee eceeceessecevcsececsccsecses 2)\n9.3 FH ccc ccc cee cee cece eee see sesseeeessvceucvcsecvceecseeseeses 2\n10 ECG A oc ccc cc cece cence cence eenneseanneseeecesneeessnecesreeess 2\n10.1 ATP HUE EH. cece cee eee eee ceeeecesnnetenvessreecsseeees 21\n10.2 ATP AQ eH occ cece cece cee cece eee eeceeeesececcecsceecececcecee 22\n附录A (规范性附录) 系统会数值,ss 23\n参书文献.ss 24\nII",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "CZUS/T 0028一2015\n~~ _—\nA =\n本技术规范规定了城市轨道交通CBTC信号系统ATP子系统的技术标准。\n本技术规范由中国城市轨道余通协会技术装备专业委员会捉出,丰城市轨道余通CBTC信号系统系\n列行业技术规范的 “个种要的组成部分。\n本技术规范由中国城市轨道菇通协会技术装备女业委员会负页只体技术内容的解释。在执行过程\n中,请各单位结合工程实践,认真总结经验,如发现击要修改和补充之处,请将意见和建议穷到CBTC\n信号系统系列行业技术规范主纳单位北京交通大尝《城市轨道交通CBTC信吕系统行业技术规范》顷写\n组《地址: 北京市海演区上园村3亿北京稀通大学轨道父通达行控制系统国家上程赋究中心,邮纺\n100044 )。\n城市轨道交通CBTC信号系统系列行业技术规范的主编单位、主此起曹人:\n主编单位: 北京交通大学\nEEA: HES DAC TIE\nAY ARATE ES A EEE A EB EAL\nEBL: AEC PERG PR ZS 7]\nAE ACH AY:\n\nBP: 卡斯柯信号有限公司\n北京全路通信信号研究设计院有限公司\n中国铁道科学钱乞院\n\n在规范的编制过程中,得旬北京轨道父通建设管理有限公司、北京地铁运营有限公司、上海中通地\n铁集团有限公司、广州市地下铁道总公司、深圳市地铁有限公司、重庆市轨道父通《集团) 有限公司、\n南京地铁集团有限公司、大津市地下铁道集团有限公司、此汉地铁集团有限公司、沈自地铁集团有限公\n可、西安市地下铁道有限商任公司、成者地铁有限商任公司、中铁检验认证中心的积极了配合与文持。\n\nEMA: KE TIGRE. TEACHES XR. KI ASS Pant. TA. TB. HED. BRS. xm\nTHe. Xi}\n\nRH AA: TRH. KER UR. OR RZ. TGR. Bort. Parc. (Thai. RAK,\nney a. EGE. LARA. AOE. BERR fd\n\nIII",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "CZJS/T 0028—2015\n: s . +o a+\n城市轨道交通 CBTC 信号系统一ATP 子系统规范\n\n1 总则\n1.1 为统 :城市轨道父通 CBTC 系统的 ATP 子系统的技术标准,以指导ATP 子系统的产品设计,,供设备\n招标、工程度计、并程验收等参攻,制定本规范。\n1.2 本规范共定了城市轨道交通 CBTC 系统中 ATP 子系统的一般更求、环境条件、性能要求、荔能要求、\nFELL. UMA AP. TELA TL AEWA\n1.3 AGRE 120km/h 及以下的地铁、轻轨、单轨等城市轨道父通系统。\n1.4 城市轨道交通 CBTC 系统由ATP 子系统说计,除应符合本规范此求外, 偿应符合国家现行有关强制\nPEAR EAS RULE ©\n2 规范性引用文件\n\n下刻文件对于本文件的应用是必不可少的。凡是注目期的引用文件,,仪所注目期的版本适用于本文\n件。凡是不汪上用期的引用文件,其最新版本〈包括所有的修改单) 下用于本文件。\n\nGB/T 20438. 6 电气/电子/可编程电子安全相关系统的功能安全 第6部分: GB/T 20438.2 和6GBAMT\n20438. 3 的应用指南 (GB/T 20438. 6-2006, IEC 61506-6: 2000, IDT)\n\nGB/T 21563 轨道交通 HLA 4 Se A ike: (GB/T 21563-2008, IEC 61737: 1999, IDT)\n\nGB/T 24338. 4 轨道交通 HARRI AD 第 3-2 部分:机车和车辆 设备 (GB/T 24338. 4-2009,\nIE C62236-3-2: 2003, MOD)\n\nGB/T 24338. 5 轨道交通 Mea 第4 部分: (A SARA IN A SHRIE (GB/T 24338. 5-2009,\nIEC 62236-4: 2003, IDT)\n\nGB/T 24339. 1 4hise0 WS {8 oy AAD AAS 第1部分:冉闭式传输系统由的安全相关授信(CGBAT\n24339. 1-2009, IEC 62280-1: 2002, IDT)\n\nGB/T 24339. 2 4niaccu Wa fey AA RA 第2部分: PT ea Se Ze AE AAA C3 CGB/T\n24339. 2-2009, IEC 62280-2: 2002, IDT)\n\nGB/T 25119 轨道父通 机车和车锁由子装曾 (GB/T 25119-2010, IEC 60571: 2006, MOD)\n\nGB/T 50343 建筑物电子信息系统防雷技术规范\n\nCJ/T 407 “城市轨道冬通茶寺通信的列车自动控制系统技术要求\n\nTB/T 2846 铁路地出信和生产品振动试验方法\n\nTB/T 2953 铁路地和面信号产品疝温及低温试验方法\n\n@kizs [2006] 26 +5 PRY +o WC i A TR EZRA RS tT ee\n\n1",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "CZJS/T 0028—2015\n铁建设【2007】39 -S FRED. LHASA PHT. BRP PTT\n(MTT AIL HE 3S CBT C1 5S AB AT MLA Pe — FG ok LL)\n3 ARS. EMAAR IA\nSU ATH ADE SC. Ae TE AP AS SCTE\n3.1 术语和定义\n3.1.1 基才通信的列车控制 communication based train control\n采用不依赖轨淮询车占用检测设备的询千主动定位技术和连续车-地双问数据通信抠术,通过能够\n执行安全功能网和车戟和地轴处理理而构建的连续式列车日动探制系统。\n3.1.2 列车目动控制 automatic train control\n城市轨道交通信吕系统实现列车口动监控ATS、列车启动防护ATP、列车口动运行 AT0 及计筑机联\n锁 CI 技术的总称。\n3.1.3 列车目动监控 automatic train supervision\n日动实现行千指措控制、列车运行监视和管理技术的总称。\n3.1.4 IP olay automatic train protection\nP12 SW 4s AT. RR. WER ee AE SEER ES BR\n3.1.5 刻车扑动运行 automatic train operation\n日动尖现列咎运行速嵌、作和车和车门等改控技术的总称。\n3.1.6 计算机联锁 computer interlocking\n以计算机技术为核心,明动实现进路、道贫、信殷机等防扩技术的总称。\n3.1.7 移动授权 movement authority\n列车沿给定的行轴方辐进入并和在某一特定轨道区段凡行车的许可。\n3.1.8 进蹊问疫时间 headway\n在站一线路、问加运行的疯歼刘车的前端经过线路问一地点的辣卫时间。\n3.1.9 哺行速度 operation speed\n3.1.10 列车安全制动模型 safe train braking model\n根据歼车安全间隔,依据列车特性、线路参数及这侣条件生成的列车制动昌线。\n3.1.11 限制速虔 restricted speed\n2",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "CZJS/T 0028—2015\nPER ARATE Rey SE PMS il] AZ Sil] 4 BS 25) FS SLIT SLE PY sc eS TAD SS PE ES il]\n3.1.12 保护区段 overlap section\n为尖现超速防护,保证安全你车而延伸的刚紫区段。\n3.1.13 H+pukiRé target speed\nMA Ty PW A LL pe VA BI UVP\n3.1.14 目标距离 target distance\nMie 47 BATT B ptlh es AYE TE\n3.1.15 Wet reliability\n产品在规定的条件下和规定的时间区问内完成规定功能的能力。\n3.1.16 WHIM availability\nry AE BS pe Ce BE ae ME EE TE FTE A 8 ie A HE — WAT) PY ER TE TE TB LE. AE ee\nHon are. ZEVS ME ROE AS Ce ULMEIN ZR GIA EE\n3.1.17 AES ME maintainability\nPm C1 FW RE AY PEA AR OB TPL AY Re A FP BS IBID. A aR a Wb PE EAR ASK AE\nBy an A he. RE, ER TO TER AS AY TIE YU\n3.1.18 ‘&4ztt safety\nCRU AT ZEA A A te CETTE J, PATE 2B EI Sl) FR Zoe AE A ee Pe TE FEE A RS EK\n3.2 缩略语\nAM: 列车上自动沈各模式 (Automatic Train Operating Mode)\nATC: 列车自动控制 (Automatic Train Control )\nATO: 列车日动过行 (Automatic Train Operation)\nATP: 列车日动防护 CAutomatic Train Protection)\nATS: 列车日动监控 (Automatic Train Supervision)\nCBTC: 基于通信的列车控制 (Communication Based Train Control )\nCl: 计算机联锁 (Computer Interlocking)\nCM: S47 AT. 244 (Code Train Operating Mode )\nDCS: 数据通信系统 (Data Communication System)\nMA: 移动授权 (Movement Authority)\nMMI: A WL3¢4. 441i] (Man Machine Interface)\nMTBF: 平均故障问隔上时间 (Mean Time Between Failures)\n3",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "CZJS/T 0028—2015\nMITR: 乎均修复时间 (Mean Time To Repair)\nRM: Plt l] AT. 254! (CRestricted Train Operating Mode)\nSIL: “CE 5CREPES ZR (Safety Integrity Level )\nTMS: 列秆管理系统 (Train Management System)\n4 一般要求\n4.1 ATP 设备应确保列车的安全和运行,实现齐革运行癌取控制、超速防护和和车门监控等功能。\n4.2 ATP 车载设备应满趾 24h 过营的要求,ATP 地和面设备应满足竺向了 FR RE 24h Pe) Wri Ef YES\n4.3 ATP 车载设备配置此求: 每列车菇头必两冰各设 LE ATP 车载设备。当列车两应各设置 仁::取\n二或二乘二取二安企计算机半台构成的ATP 车载设备时,则车头、车尾可不考虑隐余,侣则头尼两端车\nAM US th VAL LAR AY LEK\n4.4 fen) PLA LIV 4+ tle Shea ASLAN seh Fl LE Fe AA st, ALR A\na ANAS IYO A LOD 2 (SS BR, cE or EMR BER A 640*480.\n4.5 ATP 48k AIK. Ieee aK) Hd:\na) 2S BRET FE IR TT Kup ell ;\nb) Aaa Fee Beaty;\nc) Whi FZel;\nd) 车载设备切除开关。\n4.6 ATP 设备应适应不同方国运行编组长度问定的列车,包括:\na) 单方丫运行风组长度固定的询咎;\nb) 双方门运行央组长度固定的多车。\n4.7 ATP 设备可迁应不同方同运行编组长度可变的列车,也括:\na) 单方加运行纳组长上度可灾的列车;\nb) 双方向运行编组长度可变的列车;\nc) ASH BAZ ARISE AE ee Be AT\n4.8 ATP Wee Viv AS |i] 4AM RELY 5 4-PE ZR Ie 7\n4.9 ATP shite OR UE i AR A Ue AAR TT RS UA, Da At AR SEE\n4.10 ATP 车载改备在不同的ATP FU CAD Use 28 47 rl [<a Tr] 1) FR SZ Mt SY ET SS AT\n4.11 ATP Were jij AE ESE AY) ee eB a Pehl. il] — AA A eR\n4",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "CZJS/T 0028—2015\na) 连续通信的列车控制级别〈CBTC 级别) At s ASA Ps 7 oh, DET Reo SE ET, OK\nb) 点式询车控制级别〈点式级别) 为信号系统的降级控制方式,应基于问定闭案诛理,采几连续\nc) RAR CURR) 为信号系统的降级控制方式,ATP 车载设备应提供限制人工驾驶下\n的速度防护功能。\n4.12 ATP 车载设备永至少支持限制人工党驶模式 CRM 模式) ATP Waa RIA Ae sit CCM 模式) ,\nOn AS ATO 设备的,还应文持列车自动入各模式 CAM Ft) 。\n4.13 ATP 和车载谈备应 与车辆电路 :起捉供设备切除功能〈非限制人工区驶模式)》,此时 ATP Fade\n设备被切除,ATP 车载谎符不对列车这行进行监控,可机按操作规程区甬列车这行。\n4.14 ATP 设备宜有具备无人目动折巡功能。\n4.15 在具有列车作业方式的车辆段/仔车场,ATP 设备应所供超速防护切能。\n4.16 车载ATP/ATO 和ATP JAI Yc HOA ey ATS 校核时钟的能旋。\n4.17 ATP 车载设备严禁直出车辆限界,ATP 地面设备沪侍侵入设备限界。\n5 环境条件\n5.1 车载 ATP/ATO Visit GB/T 25119 中第 4 Be “IRE” SER.\n5.2 429% ATP/ATO 心满足 GB/T 21563 的要求。\n5.3 424% ATP/ATO 的 IP 防护等级要求分以下二类;\na) ”安装仕千体内部设计了车载机柜的车戟 ATP/ATO 设备 IP 护扩等级尿不低上了IP52;\nb) 安疙人在林机室扣驶台上的MMI 设备 IP 防护等级以不低:上TIP32;\nc) 安装在和车体外部的车载 ATP/ATO 相关设备 IP WA SEAR VY AMER T° IP65。\n5.4 ATP 地面设备应不代于TB/MT 2953 中第 3 类产品的要求。\n5.5 ATP 地而设备应满足TBMT 2846 中的相关要求。\n5.6 ATP 设备这用诗特珠趟培条件时,应保证ATP 设备在相应地区的坏培条件下安全可靠地运行,攻\n采取必要的附加措施保证 ATP 设备安全可靠地这行。\n6 性能要求\n6.1 安全性要求\n6.1.1 ATP 设备中完成与行车安全功能相关的设备应满足 SIL4 级要求。\n4",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "CZJS/T 0028—2015\n6.1.2 ATP 说备应符合故障-人女侍诛则。\n6.1.3 ATP 设备应采几二溢二取二或一取二安全宛余结构,二水二取二或一取二宛余结构的定义应符\n& GB/T 20438. 6 AER.\n6.1.4 '5 ATP FRB UE TAY A EV AE GB/T 24339 AY Lick.\n6.2 可靠性、可用性要求\n6.2.1 ATP 车载设备半均故障癌隔时间应满足: MTBF > 10°h.\n6.2.2 ATP 地面设备半均故障问阿时间应满足: MTBF S10°h.\n6.2.3 ATP 说备可用性应不小于 99. 99%.\n6.2.4 ATP 谱备的设计万命为 15 年。\n6.3 可维护性要求\n6.3.1 ATP 设备应具有上明诊断或远程诊断能力,以总少系统平均故障修复时间 (MTTR) 。\n6.3.2 按照说备所在地点划分,平均故障修复时间划求为:\na) 车载设备的半均收障修复时间: MTTR<30min;\nb) 车站设备的半均履障修复时间: MTTR< 45min;\nc) 轨郊设备的半均政障修复时间:,MITTR科4h。\n6.3.3 ATP 设备应能提供数据记肝功能,记录的数据应能及肌系统运行状兹。记有录的内容包括事件的\n时间和目期,数据记受时间要求抑附洒A。\n6.3.4 ATP 设备的记录数据应可直接或通过外接 PC 实现网形或其它可该格式输出和打印,并可按蓝求\n传送公车站及探制中心 ATS 或其他子系统。\n6.4 追踪间隔时间和旅行速度\n6.4.1 对应特定线路与特定列车的设计追踪间隔时间和设计旅行迷度应考虑下列因素:\na) 线路人参数,包括线路限速、线路坡度等;\nb) 线路配线;\nc) 列车人参数,包括旭革长度、刻车最大吕速度、最大常用制动、列车平均减速度、可保证的紧急\n制动凌等;\nd) 站仔时站 ;\ne) BALA ET TH;\n人列车测速及定位精度;\ng) 移动授权分辨次;\nh) 定位报告及移动授权更新频闪;\ni) A REGAIN In], GLE Ta Ly ae TARR EP bE i Be BH I ot AS PT RY Fe aT Ti\n6",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "CZJS/T 0028—2015\n3) ATP 设备啊应上时间,包括位置报告更新后生成新的移动授权所博时间、对应联锁条件牛成新的\n移动授权所寡有时间、移动授权出新后对应牛成新的可上度-昕离曲线所需时间等。\n6.5 性能指标\n6.5.1 487% ATP 车载设备的列车上自动控制系统的证要喇应时间要求:\na) 控制售令的及应时间,即命令发出至被控系统片始执行的时间应小寺或等于 1s;\nb) “车载信号设备白接收人钊地人出信和总至完成处理的时间应小十或等于 0. 75s;\nc) 当车载信张设备识别人钊涉及行车安全的系统故障时,应立即发出紧急制动命令,且延时永小十\n或等于 0. 75s.\n6.5.2 ATP Taiz tt 四电局动时间应小于 60s.\n7 功能要求\n7.1 列车速度和位置测定\n7.1.1 ATP 设备在CBTC 愉域内应能够销定列车的速虚、人位置〈包括列车两痛的位前) 和这行方加。\n7.1.2 ATP 车载设备应采用宛余方式的测志系统,速度信息的输出应相互校验,并实行断路检佣。\n7.1.3 ATP 设备的测速分辨尝和精度应注足本栋准规定的性能和安全些求,分辨雍和精度指标多附\noe Ac\n7.1.4 列车进入CBTC 区域或从故障状态恢复时,ATP 设备应能通过读取应答跨信息来白动初始化定位。\n7.1.5 ATP 车载设备应具有空转、打消检测功能,及列车迷度和位置测量谈差修下功能。\n7.1.6 应答需的配置应满足系统无故陪时的以下此求:\na) 人在由转换轨进入止线前,ATP 车载设备应完成列车速度/多车位置的测定;\nb) 在由联络线进入本线路运营前,ATP 车载设备应完成列车速度/多车位置的测完;\nc) 在车站站台、上下线停车线进入正线前,ATP 车载设备应完成列车速度/询和车位置的测定,\nd) 在点式询车控制级刊下,保证列车读取可 灾应答器的倍全显村与地和而们全显村的一红;\ne) ”在分歧线路处实现列车重定位。\n7.1.7 采用车轮转动来测基列车速度/位前时,ATP 车载设备宜县备白动轮径补偿功能。\n7.1.8 ATP 车载没备应具有和堆速度检测功能,雪述度检测的标准值参见附站A。\n7.2 列车安全制动曲线计算\n7.2.1 ATP 设备应采川连续的速度一虐亢肝线安全制动模型,实现列车速度控制,防下歼车超速,确\n保霹踪列车之间的安全行车间隔。\n7.2.2 MAEDA VOLT PILAR:\na) WT A AE A ANE PE\n7",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "CZUS/T 0028—2015\n\nb) 本车位置及不确定性;\n\nc) 列车长度;\n\nd) 列车网组;\n\ne) ATP 4-4 GU IRA\n\nf) ATP 4.4 Vc HUI VIPS Ti ;\n\ng) Vc re Fi Ha FF aE aA\n\nh) 多车的最大加速度\n\ni) ATP 车载设备检测到超迷时,车辆从切除牵引到紧急制动施加并年效前的最大啊应时间;\n\nj WA BY PRUE at\n\nk) 线路坡度。\n7.2.3 列车安全制动模型的参数和接口形式应络合共体ATP 设备应用上程傅定,应为不辐列车结构、\n性能指慰及过营管理模式梧备不器的参数或接口形式。\n7.2.4 采用ATP 车载设备防护的列车应不超过限制速度和移动授权终点。\n7.2.5 ATP 车载设备洋施紧急制动时, 列车俘车前中途不得组解。\n7.2.6 ATP 车载设备实施紧急制动停车后,如果续人敏列车紧急制动的原因已解除,则紧急制动袜能自\n7.3 管理临时限速\n7.3.1 ATP 设备应文持ATS 设置和取消临时限速,并能够明动存储临时限速信息。\n7.3.2 ATP 车载设备上作在 CBTC 级别时,应保计列车在通过临时限速区域范围时的速度不超过临时限\nDEEL A Bok.\n7.3.3 负责临时限速管理的 ATP 地而设备应保持与 ATS 连续通信。\n7.3.4 负责临时限速管理的 ATP 地而设备重启后,应与 ATS A, BOR ALE ATS 上对设备存储的限\n速值或上岂后默认设置的初始限速值进行确认后,地而ATP 设备的临时限速功能方可投入止常工作。\n7.4 处理移动授权 (MA)\n7.4.1 MA DVARH B SUAS TILE\n\na) SAD SANS Ts AH:\n\nb) WERRIKA. KBAR AS AMA. HER AS. PRI EK BRAS. 18 AURA:\n\nc) 前方装备 ATP 4 RIA AA\n\nd) FY ARASH ATP 车载设备的询车或 ATP 车载设备失效的列车所占几区域的边界及最不利条件下\n\n的列车尾部位壮;\n\ne) 癌定团宕和准移动团蛙下,闭鉴分区的边办;\n\nf) 站台紧总关闭状态和站台门状态;\n\ng) EPR\n8",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "CZJS/T 0028—2015\nh) SHAH Bo A.\n7.4.2 ATP dnive bv HAMEL EG IG) ATP 车载设备发送 MA。\n7.4.3 WAHABA CBTIC 级别前,ATP Si We A VTE aE ue AE i JP RS SS AE A FTE th SE\n7.4.4 Wey ATP 车载设备接收到的MA ORSAY, 4) 4 ED TO RET s NZR ee, OU) ATP\nALBUS Po DV we BYR LICHT TTY BE\n7.4.5 Ktsh oA fete bh, ea Aaa RE:\na) 当ATP 车载设备接收到的移动授权信息没有时效性时,ATP 车载设备收到的移动授权应持续有\nAM, ALSACE RB 个移动授权为止;\nb) 当 ATP 车载设备接收到的移动授权信息具有时效性时, 移动授权有效时间的设置不应影响列车\nA SI AT\n7.4.6 CBTC 列车控制级别上下,在列车运行过程中:\na) ATP 车载设备应对接收公的来自 ATP 地而设备的包括移动授权的全总进行时效性判新,如超过\n了所规定的时间,ATP 车载设备应采取导癌安全的措施;\nb) ATP 地面设备应对接收介的玉自 ATP 车载设备的包括位章汇报的全息进行时效性判断,如超过\n了所规定的时间,ATP 地面设备应采取导半安全的找施。\n7.5 超速防护\n7.5.1 ATP 于载设备应根据安企制动醒型和限制速度计算速度-此离肌线,并实时监督列车运行。治测\n定的列车速度超过速度-是次册线束度时,ATP 车载设备应立即实施制动,以保证列车安全间陋。\n7.5.2 ATP 限制速度应按卡歼因素中最六格的限制条件确定:\na) 线路限述;\nb) 临时限还;\nd) 与ATP 芋载设符强驶模式相关的限制速度;\ne) ”保证列车前庙进入限速区段时,绚车速度低于该区段的限制速度;\nf) 保证列车末端出洲限速区段前,人列车速度低于该区段的限制速度;\ng) 保计列车在移动授权终点有前安全停午。\n7.5.3 汉列车进站停车时,ATP 了系统应保证列车头部进入有效站台时的速度不超过站人台的限制速度;\n列车出站过程中,ATP 子系统订保让询车尾部网开有效站台前的速度不超过站台的限制速度。\n7.6 红灯误出发防护\n9",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "CZUS/T 0028—2015\n7.6.1 SUIS ALIS ES EIN TA TT i HEB, ATP Pa I LP fe. AE\nHt, CBTC 控制级别下,ATP 设备应启动确认前方信号状态;点式探制级别下,ATP et ey oye AT\n式人确认前方信号状态。\n7.6.2 点式控制级别下,当多车在站台运管停乍点停竺时,ATP 和车载设备各能连续按收首方地而信号\n状态信息以你证询革安全。\n7.6.3 点式控制级别下,对于无法通过连续通信获得首方地而信号状态信息的信号机前,人多车可在人\nTA TT SHE eB HE BURRS BSI\n7.7 安全间隔防护\n7.7.1 对CBTC 区域内的所有列车者应进行列车安全分隔。\n7.7.2 ATP 设备应根扩线路数据和 CI 了系统提供的列车进路等信息和确定相应列车的运行权限,并保证\n前行列车和和迄踩列车间的安全间隔。\n7.7.3 ATP 设备应连续、和动地对轨道目几/空附状态及列车位置进行检测,供证系统对列车进路的安\n全控制和对多藻这行速度及间隔的安全控制。\n7.7.4 在CBTC 级别下,应基于前行列车瞬时停车〈撞硬墙) 的康则实现装备 ATP 车载设备询车的安全\n4 BE\n7.7.5 AaB bi {eM ARIS, ATP MOE TE 4 AB Hl] ACT. 5 ga pe ol De a Bie A] SR\nfig, ATP 地而设备应对后续追足 CBTC 询车实施安全运往保护。\n7.7.6 混合模式运行时安全癌隔防扩':\na) “对寺林装备 ATP 车载设备或 ATP 车载设备履隐的列车,其安全间隔防护可通过地出列车占用稚\n测设备或遵照由运营部门规定的操作程序米实现;\nb) AW AT FU ALAR AS ATP 车载设备或ATP 车载设备履隔时, ATP 地射设备给后续 CBTC 级训刻车的MA\n应至少限制色前方歼车押在区域的边究及最不利条件下的列车尾部位前,宜限制色与前方询车\n问隔 个占用检测设备空闲区段所在区域的边鹤处。\n7.7.7 ATP 设备应防护列车在最大坡道及任何负载情况下的退行或后溜对列车造成的影响。\n7.7.8 “BOR ATU an SIN, CL 子系统可关闭出站进路,此时 ATP 地而设备应保计不同询秆发送允\n许询车出站运行的移动授权:人弥秆在进站过程中设置扣车命令时,应不影响列车止稍进站。\n7.7.9 ATP 设备应按相关条件要求,仪在车站站台门关闭及锁几、紧急停千按钮末按下时允许询千进\nYEA\n7.7.10 ATP icp ee ft MA 满足询千完全出站的条件下才人允许询千驶离站人台。\n7.8 退行防护\nATP 车载设备应监督实际刻车行驶方向,当退行中离或退行速度超过容许量时,系统应产生报警并\n立即采取紧急制动。退行防护标准见附录 A。\n7.9 列车完整性监督\n10",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "CZJS/T 0028—2015\n\n7.9.1 ATP 设备应连续监督从车辆接口状得的列车完整性信息,当列车完整性于尖时,ATP FREY\n7.9.2 ATP 车载设备检测到人列车完整性玉失后,在故隧修复前应不允许列车继续运行。\n7.10 CBTC 控制级别建立\n7. 10.1 在进入 CBTC [区域前,ATP 设备应获得 CBTC 区域边界信息。\n7. 10.2 列车进入 CBTC 区域应包含以上下达行情形:\n\na) 人询车出段/场,从非设符区进入止线设笛区转换轨;\n\nb) 列车从目线故障区域进入非故障区域;\n\nc) 人询车从止线非设备区域进入设备区域;\n\nd) 绚车进入试车线试车。\n7. 10.3 在进入CBTC 区域前,应对ATP 设备及相应的轨游设备进行检人肖,以验证是否满足进入 CBTC\n区域的条件,并为操作维护人员提供检又结果全总。检人钥的条件包括:\n\na) ATP 4-4 CVE\n\nb) 4a ey AAPL LAY\n\nc) ATP feiidiloy. 429|. 4.0 eek ay,\n7.10.4 VAUD SCH AEA E/E Say ED AEE B/C Sy LD A Fg BERL PG\n换,车载设备应自动或全园换为 CM Aa ok AM 7 SPT\n7.10.5 以列车作业方式出车辆段/俘车场时, 匣为开通 ATP 防护功能的车辆段/停车场,刻车可在由车\n辅段/俘车场停车库线运行下车辆段/停车场前进行鸥委模式的转换,车载设备应自动或人工转换为 CM\nAy UR So AM Ay sR SR\n7.10.6 列车自园换轨区段进入正线作业时,ATP 4280 DV BE De El Ee ASE EEA ATC 监控区的\nTHE, ATP ai SITAR CBTC 控制级别的条件应包括但不限于;\n\na) ATP 车戟说备识别并确认人记千位置;\n\nb) 已预说或人工选拼 CBTC 控制级别;\n\nc) ATP 和车载设备从ATP 地面设备接收到 MA。\n7.10.7 装备ATP 车载设备的列车在进入 CBTC 区域时可不停车升级 CBTC Fe Hill Ail.\n7.11 列车退出 CBTC 区域\n7.11.1 退出CBTC 区域乙前《如进入车辅段/停车场打) ,ATP 说答应获得 CBTC Xi AB, PE\nHU ZA LL AAI FR AS\n\n11",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "CZJS/T 0028—2015\n7.11.2 满足退出 CBTC [X域条件时,经可机确认厂,ATP 车载设备可转入 RM Bisli2 47.\n7.11.3 装备ATP 车载设备的列车在退出 CBTC 区域时可不停熙在人工人般认后退出 CBTC 控制级别。\n7.12 开门防护\n7.12.1 CM 模式和AM 模式卜,ATP 车载设备应检查 几肌的条件全部满足后才能允许打开规定侧的车门:\na) 列车以规定停车精上度在车站内指定的停车点停车;\nb) KM FlSuk HAA.\n7.12.2 CM aA AM 模式下 ATP ARB RR TEED RAS CF REP HI a Say) a A\n允许打井规定侧车门。\n7.13 车门状态监控\n7. 13.1 ATP 车载设备应监控车门的井局和关闭状态。\n7.13.2 CM 模式和AM 模式下,列车运行过程上站,若检测到车门不为关闭用锁闭状态,ATP 可采取下列\ntA WZ:\na) 实施紧急制动;\nb) 切除窑引,但不实施制动;\nc) 不切除未中,也不实施制动,列车运行至下一站。\n7.13.3 CM 模式和ANM 横式下,车门关堵且锁闭后才人允许列车和月车站司动发车《车门旁路时除外) 。\n7.13.4 RM 横式列车运行过程中,应对车门状态进行监督防护。若检测到车门不为关闭由锁痢状态,\nATP 车载没备应切除列车窑引或尖施紧总制动。\n7.14 站台门监控\n7. 14.1 如朵在安装有站台门的车站停车时,ATP 设备应持续检查站台门臣否处于关闭旦锁闭状态〈站\n台门开锁解除时除外)》 :\na) 当站人台门林止第大财攻锁朵时,ATP 设备应蓉下列车进入、在曾台内移动和驶出站台,必上归时\nWi Ne Sutil a) s\nb) wHATIIERAIFERAITE, AG SECCLIE TE ERY 4 i Sally)\n7.14.2 CBIC 级唱下,ATP 车载设备应提供站台门与列车车门的联动切能: SZ ATP 4 ae\n家提供站台门与列车车门的联动功能。\n7. 14.3 ATP 车载设备悄仪打开与站台需定侧的车门相x对尺的站人台门]。\n7.15 站台紧急停车按钮防护\n7.15.1 ATP Wee nk GASPAR A.\n12",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "CZJS/T 0028—2015\n7.15.2 “4 ATP sept oe ee PUES Bah AS te FAT AP A RIT, VE FSH 177 Be oh Td 7) AK A\n应的列车控制命令信息,ATP aS th VA I EAS Fh BA Re Hr GEIB STR AR\nHill 2]\n7.16 列车准备\n7.16.1 ATP 设备应共有必蓝的日动检测能力及报警和表沙装置。列车的非预期移动、ATP Se hie a i\n障、车载设备疏障、超过系统允许范围的车地通信中晰等均悄给出报和葡扣示,与行车安个相关的故障均\n以产生紧急制动。\n7.16.2 车载 ATP/ATO 应具有口检功能,口检应包含紧总制动测试,宜包含无线状态检测,并家提供车\n载广播测试信姑。\n7.17 驾驶模式管理\n7. 17.1 ATP 车载设备应至少支持限制人工召驶模式CRM 模式)、ATP 防扩下的大工怒驶模式CCM 模式),\nUU EAS ATO 设备的,偿应文持列车门动怒豫模式〈AM 模式) :\na) AM: 司机监控下的列车自动过行模式;\nb) CM: 司机在列车自动防护设备贤控人下芍驶列车运行\nc) RM: 在地面设备故障或未设地和面信息设备的线路,列车按规定限速达行,赵迷时实施制动,直\n7.17.2 在RM加驶模式下,ATP 车载设符限制剂车在固定的低速之下运行,训机根据调虔命令和地出\n信号显示驾驶刚和车,列车运行超过该固定的速度时,ATP 车载设备对人询车实施紧急制动, 强迫多车停车。\n7.17.3 四驶模式转换应符合下多规定:\na) ALAN ER (JH) 未全部纳入 ATP 设备改控时,必在 ATP 设备监控区域与非痪控区域的分界处,设\n党台模式转换区。根据倍纯系统的性能特点和这营需要,党驶模式转换可自动或于动完成。\n园换区的信号设备应与监控区域的信人怒设备 一敏;\nb) fe yee Ix he, ATP 设备人机失面上家提供芍驶模式转换的捉示;\nc) PRTG a ye ei, | Ze AN fs EGG He A ATR\nd) AM Hist bh, ATP ahi Oi Pe ATO WIN IRA, “4A Ao I A ald\nAM BEStSEE TT HE, DAMEN SCE Shad oH\ne) It AM/CM #ictin] RM 模式转换时,应在列车你车,由可机傅汰后转换驾驶横式: 但在退出 CBTC\nDd, BRA Ges AE, TU ANS ZED) BU A Pedy RM 模式。\n7.17.4 PBR RED UE BIT IR MAS o\n7.18 通信状态监督和故障处理\n7.18.1 ATP 设备应具有通们状态监督功能,在通倍故障后,应产生报答并保证导辐安全侧;\n13",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "CZJS/T 0028—2015\n\na) ATP 车载设备与ATP Heim ie th FAY PZ fi A RA:\n\nb) ATP 地而设备应监督共与CI 的通信状态;\n\nc) ATP 地而设备应监督共与相邻 ATP 地面设备的授信状态。\n7.18.2 站采用计铀设备作为询车占用检测设备时,计轴设备夏障或计轴数据传输发生错误时,ATP 设\n答能确定的计轴设备故障应不影响 CBTC 级别询车的止常运若。\n7.18.3 站茶一区域的ATP SIAL Se A CBRE, ATP 车载设备应产生报汐、并紧筷制动记牛,本机应将各\na VERA RM 营豫模式,并按地中信号显示大工千驶列车这行。\n7.18.4 六询车越过车地通倍故障区段后,通过车地通信设备收介可第的内倍总,且列车测速/定位功\nfee, ATP 车载设备应提示司机,司机可在停车/不停车的情况下将列车天级介 CBTC 2k i LA CM 模式\n或AM 模式运行。\n7.18.5 ATP 车载设备收障时,应产后报警并紧急制动仔车。司机应根据地和面倍和分显示加生列车,以限\n制人大工或非限制人二名和等锅驶横式执行收障运行,联锁设备傈证列车这行进路的安全。ATP 地和面设备\n应识别非通全列车和通合列车,实现一者的其线混跑。\n7.19 列车折返\n7.19.1 ATP 77. CM All AM 横式下应文持在定义的折返区域完成询御的让动换疹, AS BS) BEA\n7. 19.2 站上后折返时,由站台运行全折返区瑾的过程,可由本机强驶或ATO 月动剖驶完成。\n7.19.3 站前折返时,询车运行到折返站的过程,可由训机如驶或ATO 掉动驾驶完成。\n7. 19.4 ATP 车载设备香跟和车辆陀合提供井门换端功能,在 ATP 车载说备换痛过程中不会使打井状态的\nAT VIR KAI.\n7.19.5 ATP WHA CAT dike. VAG ATCA ar EAS te 4] LSE AA DY,\nWARE, SUA AATEC A ESI biol MiAw AEA AIS LU ZR, BT REA ARAL RE\nMISA i, PPOs Aa AT.\n7.20 AMER\n7.20.1 TEA RB ADL FETA AYALA BES ERD BLS HALE\n7.20.2 车载人机交杂界而 CMMI) 上应全少提供下列信息的显示:\n\na) 列车速度\n\nb) sh RR es NN AR\n\nc) FEA ALA oe Eh\n\nd) ATP 车载设备工作状态\n\ne) AT0 设备工作状态〈如果装各 ATO)\n\nf) uk te\n7.20.3 4-9 AML3C.4 FEM TE PER S(T EA AY Sas:\n14",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 20,
+      "text": "CZJS/T 0028—2015\na) A bpd)\nb) Abst\nd) VK\ne) 目的地名\nf) FRE AA ARIS\ng) frien\nh) BARA\ni) KATHE AS\nj) 车门和站人台门状态\nk) AT0 429]. tiloy. Hit KA Ee\n1) RFE/F IR ASRS\nm) MFA) FR as\nn) ATP 车载设备浆尾设备状态\no) 跳停、扣车状态\np) 日期和时间信息\nq) SI SCRETE\nr) $rikehens\ns) Fe K pes\n7.20.4 FARABLZCI FAL I] ALA P Sf Fe\na) RAE AWA BATS\nb) ATP 设备检测指令。\n8 接口与通道\n8.1 车载 ATP/AT0 与车辆接口要求\n8.1.1 车轼ATP/ATO 应实现与千辆制动安置的可第接11,你证安全和对人询千实施连续有效的控制。\n8.1.2 4-4 ATP/ATO 与千辆的接11分为开关旦、司拟旦、通售接11一种。\n8.1.3 涉及行千安全的电气接11尽采用安全输入/输出接1方式。\n8.1.4 48k ATP/ATO 应能够通过安全或非安全接11采集表 LH eT\n表1\n15",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 21,
+      "text": "CZJS/T 0028—2015\n车辆牵引已切除 是\n车辆已实施紧急制动 是\n牵引制动手柄在零位且方向手柄向前 是\nATO启动按钮 /\n运行模式状态确认和/或预设模式选择 /\n自动折返(AR)按钮 /\n左门开 /\n左门关 /\n右门开 /\n右门关 /\n门控方式 /\n注:“/”表示“对是否安全接口不做要求”\n8.1.5 车载ATP/ATO宜能够通过安全或非安全接口采集表2中开关量信息。\n表2\n车载ATP/ATO输入信号 安全接口\nATP已切除 /\n车辆保持制动已施加 是\n注:“/”表示“对是否安全接口不做要求”\n8.1.6 车载ATP/ATO应能够通过安全或非安全接口输出表3中的开关量信息。\n表3\n车载ATP/ATO输出信号 安全接口\n紧急制动 是\n牵引切除 是\n左门开门允许 是\n右门开门允许 是\n自动折返(AR)灯 /\nATO已激活 /\nATO牵引输出 /\nATO制动输出 /\n保持制动输出命令 /\n开左门命令 /\n开右门命令 /\n关左门命令 /\n右关门命令 /\nATO启动灯 /\n注:“/”表示“对是否安全接口不做要求”\n16",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 22,
+      "text": "CZJS/T 0028—2015\n8.1.7 车载ATP/ATO 可通过安全或非安全接口得出衣 4A Se a\n表4\n车载 ATP/ATO 输出信和号 安个接11\n注; “/ RA OME ARE HEL AHR”\n8.1.8 429% ATP/ATO 1) ie sch HA Fs ot Horie Me ZS Fa Nee KH RZ (07 Sho A a) BE | ttl\nUR REA «\n8.1.9 424% ATP/ATO 应能与列车管理系统〈TMS) SEM Mc im.\n8.1.10 4:4% ATP/ATO 宜能问 TMS 提供时钟们和全,以满足 TMS 时钟与 CBTC 系统时钟癌步的再要。\n8.2 ATS 与地面 ATP 接口要求\n8.2.1 本规范定义了ATS 与地自ATP IVA ee A,\n8.2.2 ATS ibis ATP 问的数据传输宜基二 IP 协议。\n8.2.3 ATS 与地自ATP 间信息冬换采用周期通倍和/或事件触发通傍的方式。\n8.2.4 MATS Hein ATP 的信息\na) ATS 传达给地面 ATP 的倍息包括以下内容;\n1) a LI BR DS\n2) 有临时限速: :次设置/取消信息\n3) 临时限速二次设置/取消信息\n4) RING\nb) YA ELI IT BH RD SFR OATS 在地面 ATP RS HI, GAD ATP AIA BR\nc) WGI BN AEE / Bs BS ATS 采用“二次人确认”方式设置/取消临时限述信息时的第 -次\nfit > Rik;\ndd) 临时限速一次设置/取消信息指 ATS 采用“一次确认”方式设置/取消临时限速信息时的第一次\nfit > Bid;\ne) ”校时信息指 ATS 与地而ATP 之问的时钟同步信息。\n8.2.5 从地人而ATP 41) ATS 的信息\na) 地面ATP 传送给 ATS 的信息包括以下内人穷:\n1) II BRA HS\n2) IRIN PRK WADA\n3) hii BRK A\n4) 4 Ze PR RR ASIA\n17",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 23,
+      "text": "CZUS/T 0028—2015\n5) PIN TS\nb) 首次二电临时限速确认中请信息指地而 ATP 首次于电时向 ATS 4K, FEE A A OR\nLAURIN BRR, TA ATS 确认的中请信息;\nc) 临时限速:次确认信息指ATS 采用“二次确认”方式设置/取消临时限速信息时,地而 ATP 对第\n一次命令的人确认;\nd) 临时限速一次确认信息指ATS 采用“一次确认”方式设置/取消临时限速信息时,地而 ATP 对第\n一次命令的确认;\ne) ”全线临时限速状态信息指全施线路上已经设置的临时限速信息,含限速区段和限速值;\nf) Bet (AAR OATS 与地而 ATP 之间的时钟同步信和总。\n8.3 ATS 与车载 ATP/ATO 接口要求\n8.3.1 本规范定义了ATS 与车载 ATP/ATO 问应用居交互信息。\n8.3.2 ATS 与藻载ATP/ATO [i AN Ace (esi A SE TIP 协议。\n8.3.3 ATS 154% ATP/ATO [itl (75 30 HRY Hil SR A/c A A HA AUT aK\n8.3.4 MATS 34% ATP/ATO AUT:\na) ATS 传送给车载 ATP/ATO 的信息包括以下内容:\n1) AR WU a\n2) 目的地\n3) Row\n4) “运营调整命令\n5) BEA i A\nb) A DUI MR BA SEA a. AER AS pS ty AU AL sh, ALK\nTy RAE iy Hea\nc) ELAM S ER ASR A Aedes 77 0p ETAT ZS a\nd) 下 :站指本次刻车运行所要旬达的前方站台;\ne) ”运营调整命令指 ATS 或人工根据列车实际这营 与计划的侦卷情况,对在线达营的列车所做的调\n整策略,包括扣车、跳停、调整站停时间、调整列车在多间运行时间《〈或区间运行等级) 等方式;\nf)校时信息指 ATS 15248 ATP/ATO 之问的时钟问步信息。\n8.3.5 从车载 ATP/ATO 4) ATS 的信息\na) “车载ATP/AT0 传送给 ATS 的信息包括以下内容:\n1) 询千运行速度和方问\n2) A) AP] Be Hl ROG Be pe\n3) “车门状态\n4) fafa\n18",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 24,
+      "text": "CZJS/T 0028一2015\n5) 列车报答信息\n6) FIN fA\nb) 人列车运行速度和方向指车载 ATP/AT0 TLE AY Sb RIE AA A 7 77\nc) 刻车控制级别和驾驶模式指车载 ATP/ATO 当前的控制级别和驾驶模式信息;\nd) 4D TR ASHE 424K ATP/ATO 采集到的列车车门的实际状态,友应多车和车门是谷处于关闭几锁半状态;\ne) ”停稳信息指记车在规定区域停和个,满足堆速条件的信息;\n人多车报警信息指询年在运行过程中所产生的各种噶笛报警信息,包括设备运行状态告符、询车\n紧急制动告警等内容;\ng) ROA AYE ATS 与车载 ATP/AT0 之间的时钟同步信息。\n8.4 车载ATP/AT0 与地面 ATP 接口要求\n8.4.1 本骨范定义了车载 ATP/AT0 Lith ity ATP 问应用居父开倍息。\n8.4.2 车载ATP/ATO 与地血 ATP 问的数据传输记基寺 IP 协以,应体证数据传输的委全性。\n8.4.3 车载ATP/ATO 与地而ATP 间作息伙换采用周期通全和和M或事件触发通信的方式。\n8.4.4 JAZE9K ATP/ATO SISA) ATP 的位息:\na) 4.4 ATP/ATO 传送给地而 ATP 的信息包括以下内容:\n1) SARE\n2) WALZ AT RE ADT 1]\n3) PRAT AS\n4) 列车控制级别和驾驶模式\n5) AAR SOE\n6) “无人折返状态指示信息\nb) “人询车位置信息指车载 ATP/ATO 月主测量的列车实际位置信息,以及可能存在的误半信息;\nc) WA RR RET AR A eS RRA SORT nA\nd) PPR TR U4 AE Ras Kt, A SR\ne) Si Fe Hi] Ne Hy A BP EHR ER ATP/ATO Gil DF HAS A A AS\nf) Si ARSE EMER 4A ATP/ATO HEAL SII) 4 ALL eS 1\ng) “无人折返状态指示信息指车载 ATP/ATO 对无人白动折返状态的指示信息。\n8.4.5 从地面 ATP 到车载 ATP/ATO 的信息;\na) “地而ATP 传送给车载 ATP/ATO 的信息包括以下内容:\n1) CBIC Rated AA\n2) RT EMR fa\n3) AAA A\n19",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 25,
+      "text": "CZUS/T 0028—2015\nb) CBTIC 级别移动授权信息指为你证列车安全运行,地而 ATP ib SEH 1 7 PACA YO FSS TT fe\n和速度的许可信息;\nc) 临时限速信忠指 ATS 根据运知需此,设置并下发的临时速度限制信忠;\nd) 无人折返按钮信息是指办理尤人自动折返的按钮状态信息。\n8.5 Cl 与地面 ATP 接口要求\n8.5.1 本规范定义了CI Bini ATP IV ADR ea.\n8.5.2 CI Shieh ATP HHI Aca te 4a TEBE IP BI, IM RUA Pe HRI ZAP\n8.5.3 CI Lyhieyiy ATP fal ih eH Pea i A/T AC a 1 I sh\n8.5.4 MCI #isthiay ATP Wf A:\na) CI 传送给地面 ATP 的信息包括以下内容;\n1) 区段状态\n2) AAD MRA\n3) MHA IRS\n4) ih GARR AS\n5) 进路信忠\nb) 区段状态是指物理区段检测设备检测到的区段状态信息:\nc) AAMT AT YB BUCA PB ar Fe RAS fF\nd) 站台门状态指站台门的状态信息,及应站台门吓侣处二关闭由锁闭状态;\ne) ”站台紧急关闭状态是指站人台的紧急停秆按钮是合按下的状态;\nf) 进路信息指联锁的进路信息,包括进路状态、信号机状态、区段锁闭状态,道岔信息和保护区\n8.5.5 AAdsteifii ATP #1) CI 的信息\na) 地面 ATP 传送给 CI 的信息包括以下内容:\n1) fi SALA Ae\n2) WELK efi\n3) Ra A\n4) PSK\n5) 无人折返状态指示信息\nb) 信吕机的多车接近信息是指地而 ATP 根据列车的属性信息控制对应的信吕机接近信息,联锁可\n利用该信息作为信生机的强制命令,探制信安机井关灯 显示\nc) 网辑区段信总赴指地霜 ATP 传递给 CI 系统的网辑区段状态信和息, 联锁可利用该信总妃蹊列车的\n位置;\nd) 倍稳信息是地人而ATP 送给联锁的列车舍各信和总,联锁可用米解锁保护区段;\n20",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 26,
+      "text": "CZJS/T 0028—2015\ne) PEAR AHI ATP G23 HK AY BR ERR an Fi BL BR HE PE BK A RE\n人“无人折返状态指示信息是地面 ATP FEiB ZS RA CA TI dK AS ATE a Ti\n8.6 Cl S24 ATP/ATO 接口要求\n8.6.1 本规范定义了CI 54 ATP/ATO AVA ee fa.\n8.6.2 CI 4-8 ATP/ATO 间的数据传输宜基寺 IP Hil, DV ER UE EIN EAE.\n8.6.3 CI 544% ATP/ATO [H} 13 AA 2c eK FA A HA (8 R/S fe Ad SI Jy kt\n8.6.4 MCI 旬车载 ATP/ATO 的信息:\na) CI 传送给车载 ATP/ATO 的信息包括以下内容: 站台门状态;\nb) 站台门状态指站台门是从处于关闭用锁周的状态信息。\n8.6.5 从车载 ATP/ATO 到 CI 的信息:\na) 44K ATP/ATO 传送给 CI IMM MELEE PAA: 站人台门命令;\nb) 站台门命令指车载 ATP/ATO 发出的站台门控制合令,CI 可利几访全总控制站从门开/关。\n9 电磁兼容防护\n9.1 电磁发射和抗扰\n9.1.1 ATP 设备的设计、研发、制造和安装及过用过程中,必通过技术措施抑制自蕊产生的电厂驭扰\n和来自外办的电磁骚扰。\n9.1.2 ATP 车载设备的电厂兼容性的发射与抗扰度放满足 GB/T 24338. 4 的要求。\n9.1.3 ATP 地和而设备的电磁莱容性的发射与抗扰度应满足 GB/T 24338. 5 的要求。\n9.2 ATP 设备室内设备的防雷\nATP 设备室内设备的防震悄满忠 GB 50343 的要求。\n9.3 接地\n9.3.1 ATP 设备室外设备的金属箱、愈光体应通过接地系统接地。严禁用钢轨代奉地线。\n9.3.2 ATP 车载说备的保护接地应与千体可千连接,并考虑连接而的电化学相容性,连接导体的横莽\n而秘:不小二 4mm 。\n9.3.3 ATP 车示说备的地线应经和车辆的接地装置接地。\n10 ”供电及电源设备\n10.1 ATP 地面设备供电\n21",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 27,
+      "text": "CZJS/XT 0028—2015\n10.1.1 ATP 地而设备供电应属末:级负荷,应说两路独立电源供电。\n10.1.2 ATP 地而设备应有不用六用的电源谋及配电详供电,应选用个问断电源 CUPS) 。\n10.2 ATP 车载设备供电\nATP 车载设备电源避直接采用车辆 110V 蓄电池电源或经稳卜要流设备灾换后供电,并应设过卜和\n过流保护。\n22",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 28,
+      "text": "CZJS/T 0028—2015\n附录 A\n(规范性附录)\nMIRA 系统参数值\nRES BUA WK AL 1。\nHA. 1 系统参数值\n车戟、地血设备数据记录时间 >168h\n用于ATP功能的列车测速分辨次 <2km/h\nHI FATP Ly BEY 71 Ze WR RE <2km/h\nFl) 7 THERE iT DL) ES +0. 5km/h~+5km/h\nea ween UR E(B Ah I> <1 km/h ee al HARES Pi] AN]\nAERIS ROU ARE ~\n2s\n退行防护标准 0. 5m~5mik = 5km/h\n23",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 29,
+      "text": "CZJS/T 0028—2015\n参考 M 献\n\n[1] IEEE Std1474. 1TM-2004 基于地信的列车口动控制系统性能和功能需求(IEEE Standard for\nCommunications-Based Train Control Performance and Functional Requirements)\n\n[2] IEEE Stdl1474. 2TM-2003 基于通信的列竺日动探制系统州户接上机求(IEEE Standard for User\nInterface Requirements in Communications- Based Train Control (CBTC) Systems)\n\n[3] IEE Std1474. 3TM-2008 4 7-38 117 AY 4 42 1 oy 28 ill 28 25 Th AU IY fe a ACC IEEE Recommended\nPractice for Communications-Based Train Control (CBTC) System Design and Functional\nAllocations )\n\n[4] IEEE 1483-2000 £74. 4-4Miz int ill FA ch BEL A 20 4 ET) Hie sri bx fE (IEEE Standard for the\nVerification of Vital Functions in Processor-Based Systems Used in Rail Transit Control)\n\n[5] IEEE 1478-2001 tk rtig fy 4M IL be IN He RT be HE (IEEE standard for environmental\nconditions for transit rail car electronic equipment)\n\n[6] IEC62278 tAPR IMA ARPES op FATES my eT A te Ae PE DAR R'E AL Sor ik; (TEC62278 Railway\napplications-The specification and demonstration of Reliability, Availability,\nMaintainability and Safety (RAMS))\n\n[7] IEC62279 铁路应用一通信、信全和处理系统一铁路控制和防护系统软件(IEC62279 Railway\napplications-Communication, signalling and processing systems-software for Railway\nControl and Protection systems)\n\n[8] IEC62425 tPA IN) — il fea. fea AME SE RR UAE RH fa ys 2H (IEC62425 Railway\napplications-Communication, signalling and processing systems-Safety related electronic\nsystems for signalling)\n\n[9] GB 9254-2008 信息技术设备的无线电骚扰限傅和测量方法\n\n24",
+      "source_file": "CZJST 0028—2015城市轨道交通CBTC信号系统-ATP子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

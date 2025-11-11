@@ -1,0 +1,122 @@
+{
+  "doc_id": "7c3a4e56-5552-4e9d-91b0-5320b93182fa",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "bh Th $l 18 20 BOR B@ i KR M se\nCZJS/T 0029—2015\ns ea 一一\n城市轨道交通 CBTC 信号系统一\n-上\nATO FAME\nTechnical specification of communication based train control system\nfor urban rail transit-ATO subsystem specification\n2015-06-01 发布 2015-09-01 实施\n中国城市轨道交通协会技术装备专业委员会 AA",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "CZJS/T 0029 2015\n= 次\n\n前言. cc ccc cee cece cece cece eee eens sense neeeenesnnteeseeeseneeensetestteesseessees Tl\n1 总则.1\n2 规范性引用文件,ss I\n3 Nitty TE MAIBMK GE cc ccc ccc cece eee ecseeseesecseceeceeeseeeeeseeseees I\n3.1 术话和和定义. 1\n3.2 缩略语.ss 3\n4 | ay a ca\n5 趟境条件. cece cee cece eee e anne etaeneteuneeenneetnnneeennetennetstsesss 4\n6 PEREBESR oo ccc ccc ccc cece cence nee e ee eeeeeeeeeeeeeceecceceeceeceecseeseesese 4\n6.1 ZEEE ccc cece cece cece eee ceneceeaneceeneecsnneetrnneestsees 4\n6.2 GPSEPES HP PEMOR oo cc cee ccc cee cece ce eceeeeeeeecsecevcsveseesees 4\n6.3 WARP PER oo ccc ccc cee cee cece cece eee eecenceecenceeceeeenceteeeeeees J\n6.4 性能指标.ss J\n7 功能要求. .5\n7.1 询和车门动如台.5\n7.2 站台停车控制.5\n7.3 不门临控 ss. J\n7.4 MAGPIES oo cc ccc cece cee cece cece eeeeseeeseeeececseseteceecseseceess 6\n7.5 TT UE ccc ccc cee cence ence neeeeneteneseneeneceeccetvceneeteesss 6\n7.6 过总辅助. ccc cee c cece nec ec se eeeneteneseneeneceeteetctsneeteesss 6\n7.7 故障诊断和报警.6\n8 接||与通道.6\n9 由做莫容防护.ss 7\n9.1 岂做发射和扩扰.ss 7\n9.2 按地.ss 7\n10 ME CRUE .7\nBase A 〈规范忻附录) 系统会数值.8\n会者文献.9\nI",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "CZUS/T 0029—2015\nvn _\nBl =\n本技术规范规定了城市轨道父通CBTC信妃系统ATO了了系统的技术栋准。\n本技术规范由中国城市轨道交通协会技术装备妆业委员会捉出,是城市轨道诡通CBTC信号系统系\nNAT MARAE AY :个焉要的组成阐分。\n本技术规范由中国城市轨道作通协会技术装备专业委员会负责其体技术内容的解释。在执行过程\n中,语各单位结合于程实践,认趴总结经验,如发现击要修改和补充之处,诈将意见和建议寄人到CBTC\n信号系统系列行业技术规范主编单位北京交通大学《城市轨道交通CBTC信号系统行业技术规范》编?\n组《地址:北京市海淀区上上四村3号北京交通大学轨道交通这行控制系统国家工程研究路心,邮编\n100044 )。\n城市轨道交通CBTC信吕系统系询行业技术规范的主纳单位、主要起曹人:\n证编单位: 北京父通大学\nKR A: RAL SCAG\nASF ARPA EB Ae EULA ALE AE A\n主编单位: 北京交探科技有限公司\nAb at atau A\n\nBam PA: 卡斯柯信魏有限公司\n北京全路通信信号研究设计院有限公司\n中国铁道科学研究院\n\n仔规范的编制过程中,得到北京轨道交通建设管理有限公本、北京地铁运营有限公本、上海中通地\n铁集团有限公司、广州市地下铁道总公司、深圳市地铁有限公司、重庆市轨道交通《集男) 有限公司、\n南京地铁集团有限公司、天津市地下铁道焦团有限公司、武汉地铁集财有限公司、沈阳地铁集财有限公\n司、西安市地下铁道有限责任公司、成都地铁有限责任公司、中铁检验认证中心的积极配合与文持。\n\n主要起草人: 谋涛、饥存海、黄友能、刘波、刘安信、杨旭文、十伟、宪科、汪小下、士侍、刘键、\n\n主要审查人: SRB. OK Tama. OA, ORK. ORT. BURT. Spc. (ha. AAR K.\nMin A ETE. TET. B/E AE TRI fk\n\n1",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "CZJS/T 0029 2015\n二 ‘ zx> =~ oO x Ht\n城市轨道交通 CBTC 信号系统一AT0 子系统技术规范\n1 总则\n1.1 为统 :城市轨道父通 CBTC 系统中 ATO 子系统的技术栋准,以指导 ATO 子系统的产品设计, 供设备\n招标、工程度计、并程验收等参攻,制定本规范。\n1.2 本规范规定了城市轨道交通 CBTC 系统中ATO 子系统的一般更求、环壕和条件、性能要求、功能更求、\nFELL. UMA AP. TELA TL AEWA\n1.3 AGRE 120km/h 及以下的地铁、轻轨、单轨等城市轨道父通系统。\n1.4 城市轨道交通 CBTC 系统中 ATO 子系统设计,除应符合本规范此求外,,述应符合国家现行有关给制\n性标准的规定。\n2 规范性引用文件\n下肇文件对于本文件的应用是必不可少的。凡是注目期的引用文件,,仪所注则期的版本适用-于本文\n件。凡是不汪上用期的引用文件,其最新版本〈包括所有的修改单) 下用于本文件。\nGB/T 24338. 4 轨道交通 岂做兼容 第 3-2 部分:机和车千辆 设备 (GB/T 24338. 4-2009,\nIEC62236-3-2: 2003, MOD)\nGB/T 25119 轨道交通 机秆车辆电子装置 CGB/T 25119-2010, IEC 60571: 2006, MOD)\nGB/T 21563 轨道交通 机车车辆设备冲击和振动试验 = (GB/T 21563-2008, IEC 61737: 1999, IDT)\nGB/T 50343 建筑物电子信总系统防击技术规范\nCJ/T 407 ”城市轨道交通基-二通信的列车自动控制系统技术要求\n《城市轨道父通CBTC信上纯系统行业技术规范一需求规范》\n3 木语、定义和缩略语\n直列术语利定义、缩略语适用于本文件。\n3.1 术语和定义\n3. 1.1 KE ae Ays! 4 Fel] communication based train control\nSEIN AS ARRAS ZED Re RA AEE FE BAS ADEE ZEAE |] BH ON, HT RE\n执行安全功能的车载和地面处理器而构建的连续式列车自动控制系统。\n3.1.2 放生和白动控制 automatic train control\n1",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "CZJS/T 0029—2015\n\nSN TTT UAE AC AR IW ET es ATS. 7A! AIP、列车蝇动运行 ATO 及计算机\n联锁 CI 技术的总称。\n3.1.3 列车日动监控 automatic train supervision\n\n自动实现行车指枚控制、列车这行监视和管理技术的心称。\n3.1.4 人询生启动防护 automatic train protection\n\n日动实现询村这行问陶、超速防护、进路安全和车门等监控技术的总称。\n3.1.5 列车门动达行 automatic train operation\n3.1.6 计算机联锁 computer interlocking\n\n以计算机技术为核心,站动实现进路、道分、信号机等防护技术的总称。\n3.1.7 移动授权 movement authority\n\nFEU FE WT SEA BEA SPER :特定轨道多段内行车的许可 。\n3.1.8 追踪问师时间 headway\n\n在站一线路、问加运行的疯歼刘革的前端经过线路问一地点的辣卫时间。\n3.1.9 旅行过上度 operation speed\n\n止负运营情况下,询车从起总站发车至终点站停竺的平均运行速度。\n3.1.10 列车安全制动模型 safe train braking model\n\n根扩列车安全问隐,依扫列车特性、线路参数及运党条件牛成的列车制动曲线。\n3.1.11 限制速度 restricted speed\n\nZa FEA Rye BR ti A Fl) ERS HFS LI SRM Lr A ALE BRR fl\n3.1.12 保护区段 overlap section\n\nFISERV WI. PRUE TEAS = Ty aE HH TD FA] JE XB\n3.1.13 Altxuk tf target speed\n\nNAT BW TT tot Vas BUY OVP RIE\n3.1.14 [ltrs target distance\n2",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "CZJS/T 0029—2015\n列车这行全前方目标地点的坪行距离。\n3.1.15 吕靠性 reliability\n产品在规定的条件下和规定的时间区癌内完成规定功能的能力。\n3.1.16 可诈性 availability\n可修复产品在某一特定降间维持其切能的概次或仁某一期间内维持其切能的时间比产。可用性是产\n中可筷性、维修性和维修供让性的综合指标。\n3.1.17 可维护性 maintainability\n产师企规定的使用条任下并按规定购程庆和于段实施维修时 , 为保持产师处二止铝使用状态或为修\n复产曲|的收障、缺哆,使之恢复执行功能状态的能力。\n3.1.18 “tt safety\n保让行车和人身以及设备安全的能力,以在给定时刀系统维持安全功能完善的概次指称。\n3.2 缩略语\nAM: 人询车日动光豫人异式 (Automatic Train Operating Mode)\nATC: 列车折动控制 (Automatic Train Control )\nAT0:,列车自动运行 (Automatic Train Operation)\nATP: 刻车上自动防护 (Automatic Train Protection)\nATS: 列车自动监控 (Automatic Train Supervision)\nCBTC: 茶寺通倍的列车控制 (Communication Based Train Control )\nCI: 计算机联锁 (Computer Interlocking)\nCM: A¢¢8 A 1.7548 (Code Train Operating Mode)\nDCS: Fei AZ (Data Communication System)\nMA: 移动授权 (Movement Authority)\nMMI: A WL3e 4.441] (Man Machine Interface)\nMTBF: *4J4) Hcl fn] BAM [A] (Mean Time Between Failures)\nMTTR: 半均修复时间 (Mean Time To Repair)\nRM: Pel] AT. 254! (Restricted Train Operating Mode)\nSIL: 余人全完整性等级 (Safety Integrity Level )\nTMS: 列车管理系统 (Train Management System)\n4 一般要求\n4.1 ATO 设笛应什ATP 设备的防护下实现列车日动气驶功能。\n4.2 ATO 设备应采用闹可秆性的硬件结构和软件设计,ATO 设备家采用了见余结构。\n3",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "CZJS/T 0029 2015\n4.3 为实现列车在车站站台或折返线定点停车,可在相应位置配置应答吉等设备。\n4.4 ATO 设备取置心与车戟 ATP IN ACS AAT DV.\n4.5 ATO 设备的故障应不影响 ATP 防护下的人王芍台列车这行。\n4.6 ATO VAI ATA eZ, Ld\na) Jp ialies fy Bm Zt EAD ET SAE\nb) ”双方四运行编组长度固定的列车。\n4.7 ATO 设备可适应不同的列车编组,包括:\na) 单方癌运行网组长度可变的列车;\nb) ”双方向运行编组长度可变的列车;\nc) ANIA F ZAC REI 4 Ais TP\n4.8 ATO We EZ A |i) EE BE LY 5 EER es 47\n4.9 ATO 设备应能满足基于通信的列车控制 CCBTC) ok, ere jap A OE AER\n4.10 ATOWHRUIHRLAB SAKE. SAA INICA Barak kA HPAL, By) SLC AAD IY\nWaele, Waa A RSet b, Ao SihiAi Gak AAG LUI ZR, Baw A A AA Ee\n停车后,目动打并车门和站人台门。\n4.11 424% ATP/ATO BLA! ATS 校核时钟的能力。\n4.12 ATO 设备严共超出和车辆限界。\n5 环境条件\n5.1 4.40 ATP/ATO 必满是《城市轨道交通 CBTC 系统行业技术规范一ATP 子系统规范》第 5 TE “Ip LEH\n件”的要求。\n5.2 ATO 设备运用于特殊环境条件时,应保证 ATO 设备在相应地区的环境条件下安全可笔地运行,或\n采取必要的附加措施保证 ATO. 设备安全可笔地这行。\n6 性能要求\n6.1 安全性要求\nATO 设备中完成与自动芍驶和和车门探制功能相关的谎备应满足 SIL2 AER.\n6.2 可靠性、可用性要求\n4",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "CZJS/T 0029—2015\n6.2.1 ATO Wh AOR HX HLEM IC RY.\n6.2.2 ATO 设备平均故障问隔时间应满足: MTBF > 10°h.\n6.2.3 ATO 设备可用性应不小于 99. 99%.\n6.2.4 ATO 谈备的设计万命为 15 件。\n6.3 可维护性要求\n6.3.1 ATO 设备训有具有白诊断或远程诊断能力,以减少系统平均故障修复时间 CMTTR) 。\n6.3.2 ATO 设备必共备对使什、软件以及数据通信链路周期性检测的能力,包括 ATO 与 ATP 数据通信\n链路的检测。\n6.3.3 ATO 设备的半均故障修复时间必满足: MTTR<30min。\n6.4 性能指标\n6.4.1 ATO 上门动加驶时,列车在站台停车精度的指标要求见附录 A\n6.4.2 ATO 设符上也有启动时间应小二 60s.\n7 功能要求\n7.1 列车自动驾驶\n7.1.1 ATO 设备应自动控制列车的忆动、加速、巡航、必行、制动运行过程。\n7.1.2 ATO 设备在正常运行时,刘车的冲市次应满趾舒适度的要求,有具体指标要求见附录 A\n7.1.3 ATO 设备的正常过行曲线应满足节能这行的要求。\n7.1.4 ATO 设备进入自动为积前应经过ATP 的授权和司机的确认。\n7.1.5 ATO 甩动条件满足的情况下,司机按下吧动按钮,AT0 设备应能自动控制列车司动。\n7.1.6 列车在车站治司机按 下ATO 内动按钮后,因车门或站台门打开或故障导邢列车不能且动时,收\n障消失后应要求司机各新按压按钮确认后才能岂动列车。\n7.1.7 CBIC 级别下区问停车后,条件满足的情况下,ATO 设备家能自动控制列车同动。\n7.1.8 “44 SHAPE AR REIN, ATO 说备应提示司机并上动退出 AM 模式。\n7.2 站台停车控制\n7.2.1 ATO 设备应自动控制列车在站内精确停千。\n7.2.2 ATO 设备控制列车在停车点停咎时,应采用 :次连续制动模式制动全日标停乍点,中途不得绥\nfe, HA EM IAS Dy FF AE ZR PR SR EE Re A a HE GP\n7.2.3 ATO 设备控制列车停车时应输出保持制动合令防上正汐车; SIAR AT ATO 设备应持续输出保持\nilo are.\n7.3 车门监控\n\n4",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "CZJS/T 0029 2015\n7.3.1 列车在站台停车后,在确认车门已关闭有由锁闭前《车门旁路时除外) ,ATO 设备应殖上路局动\n列车。\n7.3.2 ATO 设备应能支持以下几种井、关门方式:\n\na) ALOR]. ALS:\n\nb) Award. ALR:\n\nc) Hah, Bayer.\n7.4 站台门监控\n\n列车仔站人台停车后,在确认站人台门已关财县锁闭前《站人台门开锁解除时除外)》,AT0 设备应禁止启\n动询车。\n7.5 运行调整\n7.5.1 ATO 设备应能支持跳停、扣车、停站时间、站问运行时间等多种运行调整方式。\n7.5.2 接收到跳停指令时,AT0O 设备判断满足跳停条件后,应能控制询车不停车通过站人台。\n7.5.3 ATO 设备应能跳停-个或多个站台。\n7.5.4 接收到扣秆指令时,AT0O 设答应保持人询车在站停车状态,和车门、站台门笃傈持打井状态。\n7.5.5 接收到站癌运行时间调整命令时,AT0 设备应根据 ATS 期型的站问运行时间,选择不同的丫问\n运行曲线,以使灾际站间运行时间尽可能贴近期望的站问运行时间。\n7.5.6 ATO 设备应向 ATS FRG MAIS AT ARATE DAA ATS 能对在线运行的列车进行监控和调整。\n7.6 运营辅助\n7.6.1 ATO 设备应加列车广播设备捉供有关车载旅客信心显枯的数据。\n7.6.2 ATO 设备家通过车载MMI 加司机邱供推荐速度、关门提枯、发车提示、报警提人示等辅助加委售\nMOI abs.\n7.7 故障诊断和报警\n7.7.1 ATO 设备应共有和诊断功能,发牛故障时应立即退出白动驾驶模式,并向司机及ATP、ATS、维\nPSC HEE AIRS\n7.7.2 ATO BOR DVAGIEITIRAS. FREESE BAIR FIR ei. WORN A BAM I: ATO\nFRE. AEG /HIBIIES. 4EqI/ HI ACD. 4 AUT SERRE ZR Ae Se Bie FT RE MHZ.\nPe PFC PU ASA. RIE TES. be ER A AIR Bi. ITI OD AAS\n8 接口与通道\n\n车载 ATP/ATO 对外接11飞满忠《城市轨道交通 CBTC 系统行业技术规范一ATP 子系统规汇》第 8 TE\n“接1与通道”的蓝求。\n6",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "CZJS/T 0029—2015\n\n9 电磁兼容防护\n9.1 电磁发射和抗扰\n9.1.1 ATO WRN. WRAL HAR RISA RE, Va ERR ate FA ee ET eT,\nFOKE Ob FRI LES\n9.1.2 ATO Were eH AE HEM AM 25 Hrd Vi At GB/T 24338. 4 I 822k.\n9.2 接地\n9.2.1 ATO WGA RP pH hy yy PAY EME, FRE MEDEA AE, MEP GAA RB!\n不小于 4mm 。\n9.2.2 ATO 设备的地线应经车辆的接地装置按地。\n10 ”供电及电源设备\n\nATO 设备电源可直接采用车辆 110V 芒电池电源或经稳卜变流设备变换后供电,并应设过上永和过流\n保扩。\n\n7",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "CZUS/T 0029 2015\n附录 A\n(规范性附录)\n附录 A 系统参数值\nRRS BUA WK AL.\nKA. 1 系统参数值\nBT\nMERE Y]LO. 3m A ty HE S99. 99%\n列车在车站的停车精度 CATO) a ~\n精度范腹+0. SmiA AY AK S99. 9998%\n<0. 75n/s\"\n8",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "CZJS/T 0029—2015\n参考 M 献\n\n[1] IEEE Std1474. 1TM-2004 基于通信的列车口动控制系统性能和功能需求(IEEE Standard for\nCommunications-Based Train Control Performance and Functional Requirements)\n\n[2] IEEE Std1474. 2TM-2003 基才通信的列车日动控制系统用户接11征求(IEEE Standard for User\nInterface Requirements in Communications- Based Train Control (CBTC) Systems)\n\n[3] IEE Std1474. 3TM-2008 48 Jae {ri 19 9 EH oh Pit til] A We Uh A) fe ay AC C IEEE Recommended\nPractice for Communications-Based Train Control (CBTC) System Design and Functional\nAllocations )\n\n[4] IEEE 1483-2000 有扫车辆过输控制用处埋机系统证要功能的验证标准(IEEE Standard for the\nVerification of Vital Functions in Processor-Based Systems Used in Rail Transit Control)\n\n[5] IEEE 1478-2001 tke ie 17 7 ie th AYIA bie oR 4 bx HE (IEEE standard for environmental\nconditions for transit rail car electronic equipment)\n\n[6] IEC62278 铁路应用可靠性、可用性、可维护性和安全性技术条件和验证(IEC62278 Railway\napplications-The specification and demonstration of Reliability, Availability,\nMaintainability and Safety (RAMS))\n\n[7] IEC62279 铁路应用一通信、信号和处理系统一铁路控制和防护系统软件(IEC62279 Railway\napplications-Communication, signalling and processing systems-software for Railway\nControl and Protection systems)\n\n[8] IEC62425 HREM) — il fa. fey AME RR UAE ARH fa ys HH (IEC62425 Railway\napplications-Communication, signalling and processing systems-Safety related electronic\nsystems for signalling)\n\n[9] GB 9254-2008 fii AACA Ae th AY AZ A CB AEE A se 7 Vd\n\n9",
+      "source_file": "CZJST 0029—2015城市轨道交通CBTC信号系统-ATO子系统规范.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

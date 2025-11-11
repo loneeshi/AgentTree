@@ -1,0 +1,320 @@
+{
+  "doc_id": "685292a7-e097-4a5a-aa8f-c5a191ce6151",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Safety Engineering for Railway\nControl & Communications\nSystems\nAn introductory guide for candidates taking Module A of the IRSE Professional\nExamination\nR Short\nFebruary 2021",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "Part 1: Safety Principles\nThis part should be treated as an addendum to the item in the Module A reading\nlist entitled \"Back to Basics - Principles of Railway Safety Engineering, IRSE News,\nIssue 267, June 2020“ which explains the identification and analysis of hazards and\nrisks.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "Hazard, Risk and Safety Requirements\nHolder’s\n\nIt is essential to derive a complete and correct Responsibility\nspecification of safety requirements as part of system System Definition\ndevelopment. Risk Analysis\nSystematic identification of hazards generally involves two phases: Risk Evaluation\n。 anempirical phase (exploiting past experience, e.g. checklists)\n。 a deductive phase (proactive forecasting, e.g. brain-storming,\n\nstructured what-if studies, HAZOP, FMEA).\nHazard Control consists of a number of activities which can be x ]\nsumma rized as follows: 3 System Requirement Specification\n。 define the safety assumptions and system functions related to 外 Identified Hazards Aisitional hazards,\n\nthe defined hazards g Safety requirements\n。 define the system architecture and allocate system functions ,\n\nwithin the architecture (technical solution) to meet the safety\n\nrequirements including the defined THRs\n。 perform the hazard analysis (or causal analysis), to evaluate Hazard Analysis\n\nthe possible causes of hazards Demonstration of\ne determine the safety integrity requirements for the functions Compliance\n\nof the system\n¢ complete the safety requirements specification Rooreneibitity\n。 identify potential new hazards arising out of the system design\n\nProcess Overview",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "Risk Acceptance\nRisk acceptance criteria depend on national or international legislative requirements.\nThe Common Safety Method (CSM) promoted by the European Rail Agency (ERA) recognises three risk\nacceptance principles:\n use of a code of practice;\n use of a similar system as a reference;\n explicit risk estimation (here the ERA says “The acceptability of the estimated risks shall be evaluated\nusing risk acceptance criteria either derived from or based on legal requirements stated in Community\nlegislation or in notified national rules”).\nIn the UK the legal requirement (Health & Safety at Work Act) is that risk should be made as low as reasonably\npracticable (the ALARP principle – see next page).\nIn practice the CSM and ALARP principles are convergent, as use of a relevant industry code of practice or use\nof a system similar to one already in use in comparable applications may be accepted as meeting the ALARP\nprinciple by following industry best practice.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "A LA R Pp Unacceptable Risk cannot be justified\n. except in extraordinary\nregion\ncircumstances\nTolerable only if risk\nreduction is impractible\n4 ar if cost is grossly\nThe ALARP principle: disproportionate to the\n; ; improvement gained\nRisk should be made As Low As Reasonably Practicable\n. , . . The ALARP or\nA safety measure is not reasonably practicable if its cost is talerability region\ngrossly disproportionate to the safety benefit which it would (Risk is undertaken only\n. if a benefit is desired)\nprovide\nWays of demonstrating ALARP:\nCost/benefit analysis — show that the cost of preventing a\nfatality is greater than the nominal value of life. UK has Tolerable if cest of reduction would\nfinancial values for preventing fatalities based on surveys of exceed the improvement gained\npeople’s willingness to pay for safety. a\nBroadly acceptable Necessary to maintain assurance\n. , . i that risk ins at this level\nBest practice — show that best practice in the industry has been region (No need for an ish Femen's aking weve\ndetailed working to\napplied. It is not considered reasonably practicable to do demonstrate ALARP)\nmore than the best that others in the same industry achieve.\nCompliance with ENs may be enough to demonstrate ALARP.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "Engineering Safety Management\n\nSafety Management can be defined as the organisational measures applied to ensure that an acceptable level\nof safety is maintained throughout the life of a system. It has much in common with Quality Management:\nboth are concerned with the avoidance of loss.\n\nWhat distinguishes Safety Management from Quality Management, or from the principles of good\nmanagement in general, is that Safety Management must concern itself with events which are sufficiently\nimprobable to be ignored by other aspects of management. For this reason hazard identification and risk\nassessment are prominent components of Safety Management.\n\nThe respective contributions of Quality Management and Safety Management to the safety of a system can be\nsimply stated as follows: Quality Management ensures that the system does what was intended, while Safety\nManagement ensures that what was intended was safe.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "; , , (Strategy)\nThe safety management process, especially in high- yl\nhazard industry sectors, such as nuclear power, “7 一\naviation or petro-chemicals, is often depicted as oo ee\na\n‘Plan-Do-Check-Act’ and can be likened to a closed- aa\nloop feedback control system, as illustrated in the foe”\n\n。 。 。 。 Planning and\nfigure on the right, which is based on the model used -_—---\nby the Health and Safety Executive in their guidance. 一\n\n~ 、 ~\n‘“ 、 “on Measuring\n~~ 、 performance\noo\n~\nTM~\nReviewing\nperformance",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "Safety Management and Safety Integrity\nThe standards for safety-related electronic systems and software place particular emphasis on two aspects of\nengineering safety management: INDEPENDENCE and DOCUMENTATION.\nIndependence of Roles\nMany roles within an organisation, such as verifier, tester, validator or assessor, are concerned with confirming\nthe safety of what has been produced by other roles, such as designers and installers. Independence between\nsuch roles may be required in order to reduce the probability of people in different roles suffering from the\nsame misconceptions or making the same mistakes.\nIt is also important that people in roles which involve making judgements about the acceptability of a product\nor process from the point of view of safety should not be influenced by pressure from their peers or\nsupervisors, or by considerations of commercial gain.\nDocumentation\nTo engineer is essentially to generate or transform information, and engineering is a social activity involving\ncollaboration and exchanges between individuals and organisations. Engineers work primarily with their\nbrains, and documentation is the medium through which the product of this work is recorded and shared with\nothers.\nEnsuring the safety of complex systems is heavily dependent on large amounts of information being shared\namong all the parties concerned, including designers, operators, safety assessors, regulators and safety\nauthorities. Documents form the principal medium of exchange of information, and there are established\nstandards and guidelines for safety in systems engineering which set out requirements for what should be\ndocumented and by whom the documents should be reviewed and assessed",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "safety case “A documented body of evidence that provides\n\nthe documented demonstration that the a convincing and valid argument that a system\n\nproduct complies with the specified safety is adequately safe for a given application in a\n\nrequirements given environment”\n\niy In the term “Safety Case” the word “case” is used with\nPressurized {CP )) Turbine JB the same meaning as in a law court — the evidence\ngona | vate “< a uN offered in court to support a claim. ,\na J ' . Generator\n1 7 mTM Safety cases were first used in the nuclear\ncomnts a ae and off-shore oil industries to gain\nADT ager ~ approval from their safety regulators",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "Why Safety Cases?\n\n。 In a Safety Case regime the Developer has to demonstrate that the\nsystem is safe.\n\n。 This is potentially more effective than relying on the Assessor or\nApprover investigating the system to find out if it is safe.\n\n¢ With complex systems only the Developer has sufficient knowledge of\nthe system to produce the evidence of safety",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "Section 6 - Safety qualification test\nresults\nPart 6 - Conclusion\n| vst Section 5 — Safety-related\napplication conditions\nPart 5 — Related Safety Case\n; Section 4 — Operation with external\n| Part 4 - Technical Safety Report influences\n| Part 3 — Safety Management Report Section 3 — Effects of faults\n. Section 2 — Assurance of correct\nPart 2 — Quality Management Report functional operation\nPart 1 - Definition of System Section 1 — Introduction\nSafety Case , Technical\nSafety Report\nBS EN 50128:2011*A2:2020\nINCErREANNE CHENgEHdM hhrvscv 2016\nms. = &\n一一 BS) Standards Publication\n\nRailway applicathons - Communication,\n\nsignalling and processing systems - Software\n\nfor railway control and protection systems",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "Generic product Safety Case (independent of application) Specific Applicat\nA generic product can be re-used for different independent applications: Safety Case leation\nGeneric application Safety Case (for a class of application) Changes for\nA generic application can be re-used for a class/type of application with common functions; each application\non each railway ,\nSpecific application Safety Case (for a specific application) Generic Product\npe: - oe . . . Safety Case\nA specific application is used for only one particular installation.\n人 (iy a Aan A\n| ° = |\npreparation\nsystem\nThe three types of safety case would apply to a Signalling logic q |\nprogrammable interlocking system as shown y Fixed for each\nhere. The signalling logic embodies the Logic railway — Generic Application\nsignalling principles of the railway network, Safety Case\n, , , Fixed for all\nwhile the geographical data configures each Sa applications on\ninterlocking to its respective track and signal management all railways\nlayout ; Generic Product\n| —",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "Part 2: Achieving Safety Integrity",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "What is Safety Integrity?\n\nSafety Integrity is defined as the likelihood of a system satisfactorily\nperforming the required safety functions under all the stated\nconditions within a stated period of time.\n\nThe expression “required safety functions “ includes the function of\nreverting to a safe state in the event of a failure.\n\nTo achieve acceptable safety integrity we need to know why failures\noccur and how components and systems behave in the event of failure.\nFailures relevant to safety are commonly classified as being either\nrandom or systematic.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "Ra 门 q Om an q Syste aa at |C * From the point of view of the user, all failures are\n. random. If it was known when they would occur they\nFQ | | U res could be prevented or avoided.\n¢ The failure of physical components is determined by the\nFailure Categories laws of physics. They appear to happen at random\nbecause we do not know enough about the precise\nSystematic failure Random failure physical condition of the component.\n¢ The significant demarcation is between failures whose\n\n- Errors in distribution is known and those whose distribution is\n\nrequirements - Operating modes\n- Design and realisation - Environment unknown.\n\ninadequacies - Stress degradation —\n- Manufacturing - Wear out 。 Failures for which there is reliable statistical data, i.e.\n\neTiciencies\n\n_ Inherent weaknesses \" oh stress failures of well-established components, are treated as\n- Software errors Random Failures\n- Operating instruction\n\ndeficiencies 。 Failures for which reliable statistics do not exist, e.g.\n- Instruction inadequacies\n- Human errors design errors (especially software) or failures of new\n~ Etc. types of component, are treated as Systematic Failures.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "Designing to Take Account of Failure\nIn general, failures classified as “random” are those whose rate of occurrence cannot be made low enough to\nprovide to provide sufficient assurance of safety. For such failures safety is assured by means of the fail-safe\nprinciple, which can be defined as “a design property of signalling equipment, and of the system within which\nit is used, that under failure conditions will provide safety for traffic”.\nIn practice this is achieved by constructing signalling systems from subsystems or components having well-\ndefined predictable failure modes and ensuring that failure states correspond to restrictive traffic conditions.\nFail-safety, can be achieved in three different ways:\n Inherent fail-safety, where the system or subsystem is designed so that any credible failure mode of any\nof its component parts will result in a restrictive state.\n Composite fail-safety. With this technique, each safety-related function is performed by at least two\nitems. Each of these items shall be independent from all others, to avoid common-cause failures. Non-\nrestrictive activities can progress only if the necessary numbers of items agree.\n Reactive fail-safety. This technique allows a safety-related function to be performed by a single item,\nprovided its safe operation is ensured by rapid detection and negation of any hazardous fault by\nanother item.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "Inherent Fail-Safety: The Semaphore signal\nOFF ON\nPerhaps the simplest example of a fail-safe component\nis the semaphore signal with its counterbalance weight\nto restore the signal to the “on” position should the\noperating wire break.\nNote that fail-safe behaviour also depends on the drive\nrod being sufficiently strong not to beak or deform\nunder any force which may be applied to it.\nDrive rod a\nCounterbalance -一一\nweight",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "Inherent Fail-Safety: The Signalling Relay\nThe fail-safe characteristics of the signalling relay are at\nthe heart of almost all classical electrical signalling |\nsafety. In British signal engineering practice the principal — —_- tC\nrelay safety characteristics are an armature and contact = a\noperating mechanism with sufficient restoring forces | 有一 - | |\nfrom gravity and spring pressure to ensure that it will | lim - at\nrelease when the coil is de-energised, and non-weldable BO > wl “ES |\ncontacts formed from mating and silver-impregnated ee\ncarbon pairs. : ik\nSignalling circuitry using such relays is designed so that | iI i\nrelays are required to be energised to enable a ae an\n“proceed” signal aspect to be given. Any failure, such as\na broken wire or high-resistance contact, will cause one\nor more relays in the circuit concerned to de-energise,\nin which case a restrictive signal aspect will be\ndisplayed.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "Safety features of Signalling relay\nNon-weldable contacts Z\nRestoring spring ~ 1 |\nNon-magnetic stud to prevent 网 ar ae @\narmature being held by ; |, viggatie oe if\nresidual magnetism when relay | | oo\nde-energised 2 oo Beas |",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 20,
+      "text": "Composite and Reactive Fail-Safety\n\nInherent fail-safety is difficult to achieve in electronic systems because they generally comprise a large number\nof electronic components with a wide variety of possible failure modes, so that it is not feasible to design so\nthat no credible failure mode of any component will result in an unsafe state.\n\nInherent fail-safety has been achieved for relatively simple electronic devices, such as the transmitter and\nreceiver units of audio frequency track circuits, but for more complex applications based on microprocessors\nand other large-scale integrated electronic components, for example signal interlockings, composite or reactive\nfail-safety, or often a blend of the two, is almost always the preferred solution.\n\nBoth techniques depend on there being a very low probability of simultaneous failures in independent parts of\nthe overall system. This calls for the system design to ensure that the time to detect and react to individual\nfailures is sufficiently short. It is also necessary to ensure that inherent fail-safety will be achieved with regard\nto common-cause failures which might result in multiple simultaneous failures.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 21,
+      "text": "COMPOSITE FAIL-SAFETY\n. . . FAULT DETECTION\nComposite fail-safety not only requires two\nindependent functional channels to agree in NEGATION\nFUNCTION A 7,\nOUTPUT\norder to produce and output but also eUNCTION @ a) OX\nrequires that neither channel will have\ndetected a fault, typically by means of\n. . . FAULT DETECTION\ninternal self-testing routines.\nThe ability to detect a first fault and isolate\nthe faulty channel makes a significant\ncontribution to safety. If the first fault were FUNCTIONS\n. . a The probability of\nto remain undetected indefinitely, the DETECTION a 1st fault, combined with\noye 。 。 。 。 the probability of a\nprobability of a similar fault occurring in the FUNCTION B 2nd fault occurring\n。 。 during the 1st fault\nsecond channel during the life of the OUTPUT 一 detection-plus-‘negation\nequipment would be far from negligible. ‘ state > the specified probebilistic\ntarget.\nFIRST DETECTION NEGATION SECOND\nFAULT OF FIRST SWITCHES FAULT\nOCCURS FAULT OFF OCCURS\nINA INA OUTPUT IN B",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 22,
+      "text": "REACTIVE FAIL-SAFETY\n. . CTIO\nIn the event of a failure of Function A an\ne NEGATION\nunsafe output can be present until negated\nby the fault detection. Hence the value of T FUNCTION A So) OUTPUT\nfor reactive fail-safety is much shorter than\nthe value for composite fail-safety.\nFUNCTION A Detection-plus-negation\nDETECTION time T, after a fault in A,\nshall not exceed the\nReactive fail-safety is to be found in relay sav stion of a trenciont\ninterlocking, where failure of signal lamps, ourpor potentially - hazardous\nwhich are not inherently fail-safe, is | SAFE\ne e e e TAT\nprotected by lamp-proving circuits which\ni i FAULT DETECTION NEGATION\nrestrict the aspects of relevant signals when FAULT 。 DETECTION Oe\na lamp failure is detected. INA INA OFF OUTPUT",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 23,
+      "text": "Faults leading Faults leading A\n\nto Function A to Function B | |\n\nfailure failure 全 | Common\n\n一 - cause\nfailure failure\n\nThe Venn diagram and simple fault tree show how a common-cause failure (CCF) can\nundermine the protection given by composite fail-safety. A common-cause failure between\nfunction and fault detection would have a similar effect on reactive fail-safety.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 24,
+      "text": "Example of Combination of Safety Techniques within a Signalling System\n站\nComposite or Reactive Fail-Safety\nInterlocking 加 “一\n| /个、\nRemote Terminals 一>| AR High integrity software\n了 。\n人 Safe Data transmission\nInherent Fail-Safety\nSignals \\\n有\nEtc 和于Pa\n人\n、 人一一\n[rans > Train getection |\nae _. Fal N “etection , -",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 25,
+      "text": "“Reality”\ne e The environment in\nSystematic Failures os res tee\nWhat th stem i\nintended todo\n>) Cc >\nErrors of 一 eo S .\nintention Concention Misconceptions\nOverlooked How the system will be about the way the\n。 。 。 side effects, implemented world works\nSystematic failures result from errors which can occur at any special cases.\npoint in the lifecycle of a system or an item of equipment. a Specification Errors in expressing\nwha system shall dy and writing down\n. . , specifications\nExamples of such errors are shown on the right. It is not\npossible to use the fail-safe principle to protect against the Expression of spec. in Misconceptions about\n. . . logical statements and\neffects of systematic failures because there is no way of siructures the Way components\nensuring that the only errors which can occur will be those 二\nwhich result in a restrictive state. ea realisation of Mistakes\nFormation of operating Faulty tools\nteam\nProtection against systematic failure depends on preventing\n。 。 Faulty tools\nor detecting and removing errors at each stage of the Disturbances\n。 。 Installer/test\nlifecycle. The development of safety-related software is a sror\n。 。 Use Str\nprime example of this approach. sree\nDeterioration\nMaintain Faulty tools or\nMaintainer error",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 26,
+      "text": "The Advent of Software Solid State Interlocking\n° 一一-一一盖一一一一一一~一一\nThe development of processor based systems in the 1 ia | =\n1980s brought the problem of software, which cannot “ae ss\nbe fully tested. - — 了 i\nThe focus of safety assurance then shifted from product “se SS =\nto process. a: «=\n\nThe Welding Analogy . 一 ae\nWEL PES 2\n\nYou can’t fully test software, You can’t test every weld, : a\nso you rely on the production so you rely on the welding ‘(il = i\nprocess and the competence process and the competence - wee ©\nof the software engineers of the welder ae",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 27,
+      "text": "The SIL Concept\n• The concept of SIL (Safety Integrity Level) was introduced early in the development of standards\nfor safety related software because there was no way of measuring the probability of unsafe\nfailure of software.\n• There is still no way of measuring this probability.\n• Although it is not possible to determine a numerical value for the probability of failure, it is\nreasonable to believe that if more effective design and Verification & Validation methods are\nused, the probability will be lower.\n• If the best possible methods are used, the software will have the highest possible safety integrity.\nIt was decided to have four categories of method, so that SIL 4 is the highest possible.\n• The SIL concept has been extended from software to cover all types of systematic failure, such as\nerrors in requirements, design errors and manufacturing errors.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 28,
+      "text": "The SIL Concept Illustrated\nSafety integrity Description of safety\nlevel integrity\n4 Very High Integrity\n3 Increasing rigour\nand effectiveness\nof methods\n1\n0 Basic Integrity",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 29,
+      "text": "。 The following definitions are shared by standards BS EN 50126, 50128 and 50129\nsafety integrity\n\nability of a safety-related system to achieve its required safety functions under all the stated conditions\nwithin a stated operational environment and within a stated duration\n\nsafety integrity level\n\none of a number of defined discrete levels for specifying the safety integrity requirements of safety-related\nfunctions to be allocated to the safety-related systems\n\nsoftware safety integrity level\n\nclassification number which determines the techniques and measures that have to be applied to software\nsystem safety integrity level\n\nclassification number which indicates the required degree of confidence that an integrated system comprising\nhardware and software will meet its specified safety requirements",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 30,
+      "text": "机\nPrinciples of Development for SIL ”wsseeewes\nBSI Standards Publication\nThe principles applied in developing high integrity systems and software include, but Railway applications: Communiation,\nare not restricted to: for railway control and protection systems\nBS EN 50129:2018\n> top-down design methods RE\n> modularity So Milage ® ag het ame’\n> verified components and component libraries (mainly for software) BSI Standards Publication\n> verification of each phase of the development lifecycle, railway applications -Commueication,\n° eye weinted electronic syste for signalling”\n> clear documentation and traceability OO\n> auditable documents The standards EN 50129 (electronic systems)\n> validation and EN 50128 (software) include tables of\ntechniques and measures for implementing\n» assessment these principles to meet the required SIL\n> configuration management and change control\n> appropriate consideration of organisation and personnel competency issues",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 31,
+      "text": "Part 3: Safety of Data\nTransmission",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 32,
+      "text": "Railway na\nSignalling and Data =— a3 |\nTransmission > ea h\nThe diagram shows a state-of-the-art signalling | -\nsystem where there are no lineside signals and vital ¥\ndata giving authority for train movements is 一至 本\ntransmitted to the train by radio. A fixed data link, Nada | |\nwhich may use optical fibres or copper conductors orale ce ene\nfor its transmission medium, transmits command\nand status data between lineside equipment and the = ——*—\ncontrol centre, and a speech link is also provided by . A\nradio between the signaller and the train driver. This A A |\nsystem architecture is typical of that adopted for the a\nEuropean Train Control System (ETCS) 了 -\n\nf",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 33,
+      "text": "Conceptual Model of Data Transmission System\nInformation may be transmitted through a\nhierarchy of electronic systems which may Based on the OSI model of open transmission systems\nstore, forward or otherwise manipulate the\ninformation. Hardware or software faults in i IR\nany of these systems might corrupt the = ronal\ninformation in unpredictable ways. The vital Et —\ninformation receiver and the safe process iors ee an\nmust be capable of distinguishing between | __\nvalid and corrupt information. Ways of fee ~ Bete a\nmaking this distinction include: 一一和和 sr\n。 All physical signals above a certain ic | ; eee\namplitude or within a certain frequency P= = ; on eave\nband a a\n¢ Digital data which satisfies particular SS\ncoding rules\n。 Messages which satisfy certain protocols, Failures, errors and noise may affect any component in the model\ne.g. have correct addresses or valid time\nstamps",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 34,
+      "text": "Multidimensional View of Information\n* Physical signal — within this dimension only the analogue value\nof the physical signal is considered.\n* Data — in this dimension information is generally considered as ae RESET\nstrings of binary digits, and the relevant information protection LD PRESS_1\ntechniques focus attention on the patterns of digits, without any RESETTD ee\nconsideration of useful content or meaning. ST A_X43\n* Procedures — the information units considered are words consist-\ning of groups of digits, but checks refer to protocol or syntax Tre\nrather than meaning. EEE CUT\n* Content - in this dimension the meaning of transmitted informa- cag EM teeta\ntion is taken into account in checking its correctness. ne 4\nSources of Error\n® Inherent characteristics, error generated by sources within the\ntransmission system (e.g. thermal noise in resistors) i | | \\, ad\n° External influences (the electromagnetic environment), errors iy\ninjected from sources outside the system, generally referred to j Li , ;\nas electromagnetic interference (EMI) :\n* Equipment failure, errors which are solely the result of equipment\nfailure within the system.",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 35,
+      "text": "Methods of Protecting Information Transmission\nProtection in the Physical Signal Dimension\n> Screening of cables and equipment housings Fail-Safe\n> The use of balanced twisted conductors in copper cables The fail-safe principle is applied in the\n> Suppression of interference at source transmission of safety information by\n> Use of optical fibres as a transmission medium designing the receiving safe process to\nThe Data Dimension — Coding adopt a restrictive state in the event of\n> Repeat messages errors being detected or loss of\n> Block coding transmission\n> Convolution or cyclic block coding\nProtection in the procedural dimension\n> Closed-loop protocols: receiver repeats message back to sender and awaits confirmation from sender before acting\non message\n> Time stamping: message contains time of origin — receiver will reject information which is too old\n>» Sender’s address included in message — receiver will reject information from wrong sender, e.g. in the event of\nmessage routing errors or cross-talk",
+      "source_file": "17_Safety engineering for rway control and comms systems v1.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

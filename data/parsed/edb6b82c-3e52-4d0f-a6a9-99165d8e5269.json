@@ -1,0 +1,572 @@
+{
+  "doc_id": "edb6b82c-3e52-4d0f-a6a9-99165d8e5269",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ICS 45.020\nRS <\n中 国城市轨道交通协会团体标礁\nT/CAMET 04011.7-一2018\n城市轨道交通 ”基于通信的列车运行\n控制系统 ( CBTC ) 互联互通接口规范\n第7部分: 信号各子系统与维护支持系统\n( MSS ) 间接口\nUrban rail transit 一 Interface specification for interoperability of\n, communication based train control system\nPart 7: Interface between signal other subsystems and\nmaintenance support system\n2018-09-10 发布 2018-12-31 实施\n中国城市轨道交通协会 ”发 i",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "T/CAMET 04011. 7一2018\n\n=| 次\n6.2 道信和让次结构措述6\nV",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "T/CAMET 04011. 7—2018\n12.3 接口数据描述37\nVl",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "T/CAMET 04011.7-2018\nf*\nTI CAMET 04011 { ~ r!HIL :11! 3{: Ji ¥ 'F Ji fi{J ~U $ jg 11' t£ 1M %diE\nr\n( CBTC) D A1-$?t:\nJill*Jilit~ ~J\\\\1tD?t_:1;; ~\n-~ 1 'm?t: lili:~~jji)C;\n-~ 2 $?1-:CBTC *~$±i!!.a~ii1\"*t!J.i5l;\n-~ 3 $?1- :$~~U$ § ;!Jf*jft( ATP)/~U$ § ;IJJg1'J( ATO) *~\nJ=j$mfl{]~o;\n-~ 4 'm?t: IR:I!i~t£1!PJ~( ZC) IBJ~ D;\n5\n-~ $?t:it~:tllll*4.Jil(CI)I'B]~D;\n-~ 6 $ ?t : ~U $ § ;IJ 1!ii t£ * ~ ( ATS) i'BJ ~ D ;\n7\n-~ $?t:1~~~r*~J=j£1Hft3t:f-f*~(MSS) IBJ~D;\n8\n-~ $?J-:$~A:tJlJI\\!.Jiio\n:zls:$?1-;& T/CAMET 04011 fl{j~ 7 'm?to\n:zls:$?1-:J:ti:ft~ GB/T 1.1-2009 ~:±lfi{J~J\\\\JnU®.l¥Io\n-~~:zis:B?tfl{]~®~3~n~&~~.:z~s::m?tfl{]~~m~~~m\niJUIU i! ® ~ ~U fl{] ~ ff o\n:zis:'m?trn~oo~m~:i!!X:lit!J.~tt*~*~~~m~m:±lo\n:zis:B?trn~oo~m~:i!!X:lit!J.~~o o\n:zls:$?t®l¥Ilf!.ft: 7c'#-,:Jt*\n:X:t£f4ttlli1:1Jt~ ~IH~PJ ,:Jt:~C3(Ji ~!mli\n~~~M~~#~-m~~0PJ,~OO~:i!!f4'#-M~~-m~~0PJJi~\n,:f*7JH\nf\"*~M~E!f ~$Btftl=t! 4.JN1Jt~~~0PJ ,WTtrAif~4ttJNN~~~0PJ a\n:zls:'m?t±~®l¥IA : ~~£11.: :l!t~ ~~, 5tOffil~ 3iE S f;lf, ~ 00 ~, fPJ ft,\n5{E~,;j% !fJ, $: ~lj, ~ jE ;M\\, i'j,q J1[9fJE, ~l~ ,}E] flJeo *~~JI.: $: ~ M', *f;]ij,\nr,\ni!=X;ti5 ,~~~ ~, 5iE f@l ~,.:E. :11! ~,* 5iE * & , 5 ,iE :FH: ~, 3: ~ $: f;lf )C, $: tf-1it,\n)C JJX; :f-'f , ff:lffL ~ ~U tt 3iE ~ Z: , ~ :XU f;lf -1fZ-, ~ }1'1\\ o\nVII",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "T/CAMET 04011.7-2018\n51\n~~*~oo~m~~~~~~*.~ ~*~~~m~~~~~~~~\nEt1 ~ ~ , :15 ¥U~ 7Ji= ~ ffl Si 1m( ;tt: :$ ji 5t ill.&. PJ M' ~ ~ N € Et1 13 tff> , iM Ji: ~\nm$Jt~~~¥-T~ {~Etl~U $)Effi£ilitl * r}t ( CBTC) ~~~~*~U ill }11:\ntr-rfL\n•*~•m~~<~m~~~~ ¥r~mEtJ~$)EB1'£~*m\n*( C BTC) ~~~~*r}f.~J.MH~m$Jt~~~ ¥r~{~Etl~U$)E1it£f!i!J\nm\nr}t ( CBTC) ~~~~ ~ D ~J. ~1L ~ ( ~ ~ ~ ~ ~ ¥ r~ {~ Et1 ~U :$ JE 1-T\nm\ni£f!i!J* r}t ( CBTC) ~~~~ 19/IJii\\~J. m:H ~ $}1 ~ ~~ ¥ r:lil {~ Et1 ~U :$\nJE1ii£iffU*rJf.C CBTC) ~~~~I~~J.m:H ~~J,m;( 17 ~$?t) o\nVIII",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "T/CAMET 04011.7-2018\n*\nflOC rtJ t *m@ : jt im £T-im 1~ 1¥-1 9tJ ~ fr\n1~ iM fff. {C BTC) 1i~1iim ii D ~.!\\!ill\n~ 7 ffB# :1~~*-=f *t3C ~£l3=?~M=\n*t3C { MSS) f8] ii D\nT/CAMET 04011\n$~1'Tt£11JlJ-*~C CB\nn:: []\n*Jt711, §~£[~\n~~0\n~q'fl3 ?t~ JiFf - tl ( CBTC) -*~B<lAA\nJt ,]!Wf \"&~ ,& ft Jt ~~11 '\"'\"\"·\"\"\"~m~1~%~~~~~\n*\n-r ~tl x f~: xt :r: w ? t B<J JE. m :f i1: &:, ~PI .Y B<J o fL :fi1: tt s m B <J 51m x\n14, {Sl.§Ttt B :M B<J#&:<$:~ffl 'T>$:$51- o fL:fi!::/Gtt B MB <J51Jti)Cf4 ,;l't:/lltiff\n#Ji>$:( §~§T1'JB<J{~i;&-) ~ffl-'f:<'j>:$Jto\nGB/T 12758- 2004 ~rtfti=JL~5bffi{~% -*~Jffiffl1J(;;f:~{4\nGB/T24339. 1 $JL~j(Jffi Jffi{~,{~%:fa~Hltl-*~ ~ 1 $5t:i-tf~j\n:r.\\:{~~-* ~ r:f B<J:t(~;ffi=}CJJI {~ (IEC 62280-1 :2002, IDT)\nGB 50157-2013 itl!.~if~jf*Jt7!1\nCJ/T 407-2012 ~r!f$JL~j(Jffi~TJJl{~B<J~Ij $ § i)Jt£1fitl -*~iJL;;f:",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "T/CAMET 04011.7-2018\nT/CAMET 04010. 1 ~r!J!Wtillx:ii ¥r:ii{~[!<J~tl:$ili1-T1£iff!J~m\nm\n( CBTC) ::!il!*E::ii~~Nl\\?rL 1 'm%: ~m,g,f*~>Jt\nIEEE 802. 3 IV. j\\: ~ (Ethernet)\nGB/T 12758-2004, GB 50157-2013, CJ/T 407-2012 %1l T/CAMET\n0401 o. 1 J\\!-;;£ 89 bZ. r ~tl # i!HO ~ rurti~ m' ffl r ;;$: 'm5 5t o :1-J T {!~! r {5I! ffl , IV.\nr!l!:l~tl tl:l T;J't:ift 89 .:E~;f§:k#i*o\n3. 1 *i:et\n3. 1. 1\nm m\n:IJiX $h. 3t ii flli ~ urban rail transit signal\n~Jtlr~rll!Wtill~:ii~mift.AI~~~~~fi:$W·~~:$ilifi\n1Yiff!J fB] 89 ,g,tfj\\ 0\n,!fi;,~ 1Wi1Yiff!J~#\n[ GB/T 12758-2004 ,#m-'=J;;£5<.. 3. 1]\n3. 1. 2\n¥ -T ii flli a{] ~tl $ ~ %!J communication based train control ( CBTC)\n:ii:U/f*~*1L%'~tl :$ 6 Jtl~W!~i&:%t 89~tl :$ .:E ~ ;;£ {il. ~* ,ii~:$-±ih\n~~ftm:i*im ~#IV.JX.U5~fi!fi:.~~n89:$G®±Ihoo~gftw~m89\nn ~ :rt: ~u Fl ;tJ 1£ #iiJ ~ m o\n[ CJ/T 407-2012, ;;£..')( 3. 1. 1]\n3. 1. 3\n~lj $ ~ 'iifJ ~ %!J automatic train control\nm~~m~;tJ~~~*~1£,!fi:.~~~®ilifi1£~•~*89~~0\n[ GB 50157-2013, ;;£5<.. 2. 0. 37]\n3. 1.4\n~IJ $ ~ 'iifJ ~ ~ automatic train supervision\n~!@ ~IJ :$ B;f ~tl ;fZ :1-J ~tl :$ ili 1'J ~ i)b i&: };£ ut ~ , W• 1'J :$ , ~ 1i([ ~IJ :$ ili 1'J\n~Jll[·~#89,g,~o\n[ GB 50157-2013, };£5<.. 2. 0. 38]\n2",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "T/CAMET 04011.7-2018\n3. 1. 5\n9iJ $ ~ 'W1 IIJj t? automatic train pro *tec tion\n*\n§ Z9J ~:EJt9iJ *~ 11' rBJ 1%, lffilf ~:J?, ~11: ~%if$ n ~ JJil: J£ tt 1¥1\n[ GB 50157-2013 .~5( 2. 0. 39]\n3. 1. 6\n9iJ $ ~ 'W1 ill fr automatic train operation\n§ Z9J~:E.m91J$:1Jnlf, iJ!Jlf, W$%il$ n 7flf1 ,m~~J£1ff!Jtt;;f:i¥J ,g,f4\\ o\n[ GB 50157-2013, ~5( 2. 0. 40]\n3. 1. 7\ni.tJHJliiHJJi computer interlocking\n~it~ffLtt;;f: -Jg ~ ,c,,' § zg] ~ m\\Jl! ~' lltft '1J!f%;fJL~ ~1?tt;;f: Ei<J\n[GB 50157-2013,~5(2.0.40]\n3. 1.8\n~~ t? 3Z: *M= *~~i t maintenan *ce support system * *\nJJil: i~Hc ~ pg ~ft!!. ~ -T tfdt :Jft 1~ Ji!, , ~fiH!fJ ~ t.X ~~ :5HJT , ffl 'T\ns\n~ 'ljfjg ~~1i1?\n0\n[T/CAMET 04010. 1 ,;;f:i-f! 3. 1. 8]\n3. 2 ~P!&i~\nAM: 9iJ $ § l;b~ ~Jt:m:r\\ (Automatic Train Operating Mode)\nATC: 9iJ $ § 7;b :J£1ff!J (Automatic Train Control)\nATO: j lj $ § 7;1J~1'T (Automatic Train Operation)\nATP: 9iJ $ § 7;b liti1? (Automatic Train Protection)\nATS: jlj $ § Z9Jjj[:j£ (Automatic Train Supervision)\nBTM: lili:~1*11¥tffitrm:!;tt ( Balise Transfer Module)\nCBTC:~'Tilli1i!fB99iJ$3£1fftj(Communication Based Train Control)\nCI: it~;fJL!fH.ttf (Computer Interlocking)\nCM: 9iJ $ § 7;b ~:jft;j:~j.\\'; (Coded Train Operating Mode)\n3",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "T/CAMET 04011.7-2018\nCRC: {®:FifJL#;;fltl.l§L (Cyclic Redundancy Check)\nDCS: !/&t!i!i:iill {* * m (Data Communication System)\nEUM: ~~ ~~ 1jj!J AI~ ~flit :.t\\; (Emergency Unrestricted Train Operating\nMode)\nIP: E:If* ~ i:J}i)U!fl.:IJ.I:: (Internet Protocol Address)\nIPv4 : ~ ~,iF-pj}i)l .( : JIn Gte (rn et Protocol, IP) i¥J ~ 4 Jt&\nLEU: ift%' t:EI, T- Lineside Electronic Unit)\nMA: ;f$7,9)~1)( (Movement Authority)\nMAC:~{211:1)-.A~1jj!JB(Media Access Control)\nMSS: £fH?3tM=*m (Maintenance Support System)\nMTBF: .1jL :1!\\J$ Jlitf J'B] fWi B;f J'B] (Mean Time Between Failures)\nMTTR:-¥:1!\\Jf~*~ B;fJ'B](Mean Time To Repair)\nm\nPIS: *~{l'f ,~, (Passenger Information System)\nPSD : flli -E! i'l (Platform Screen Door)\nRM: ~~1jj!JAI~ ~f!it:r.t (Restricted Train Operating Mode)\nSIL:~~JM~'I*i~ ~(Safety Integrity Level)\nm\nTMS: 3/U $ ~:@ (Train Management System)\nTSR: llflj B1 ~~:11! (Temporary Speed Restriction)\nUDP: Jij p !/&t!i!i:flHf}i)l (User Datagram Protocol)\nUPS: /f J'B] Wf t:EI, 7W-( U ninterruptible Power System)\nZC: !20~~~1jj!J :f* (Zone Controller)\n4.1 f*-%*mE:II*E::iill:lf=:-1ffi-*mr~.Y!VR~*\"\"\"'rfb,I~,:JE'lE,\n£fH?~~1-:/Jlii, m'~m{lii:~Jl\\~U j'!, mftii-ir <51-tP-~tifii o\n4. 2 ~r!Jift:lft)(:iill CBTC *mE:If*Jf:ij:lf=::f~~f}/fiPJ{*-%r~$tti9:\nf}i¥J~$m~~~*/f1P1m-%r~ilt%'N*i¥1-~iltmx:ii~M~~~\n~iltmx:ii~MLx~E::ii~~m~:JE'tEo\n4",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "T/CAMET 04011. 7-2018\n4. 3 CBTC *mE:l!*E:illi B<J ,g,f* § ;f;f-~::1CJ~t@L~3(illi ~ ~{-t]E >g, ~:!?]\n~~3(Jm~~~~~}E>gEJ<j~~~$o\n4. 4 E:l!*E:illiE!<J CBTC *mllll*ffl1C~PJ~Ef<Jt'rfb ,;:J-t!JlZ~JE;f§:kOOF'\n1-t~~Jl:s.Ko\n*1.\n4. 5 :f:E E: 11* E: illi I~ ti:Hff-llfJ ~ , t1Hff-Jf!-f.lz lllZ :f:E ~if ;2js: 111 B<J ¥ r.lJ _t , ~\n!lffiE:ll*E:illi~~~ur*.m:tw Jfr 1E1~% *m;Jtfm~EI:k~~~ ,'11:~~ J\"i: o, ~i.t\n*\nm\n1¥1 J'!-1* ~ :s.K , % nX; J'!-1* I~ f~f% * ttHff-B<J 1X Jl >lt o\n~ 1PJ B<J J'!-f* ~ IJ, /J\nJl~~~m-,*m~\n:$ - :till f~L\\~HHlftr B<J ~ SJJ fHtu Jim ,\n~{~*!ftr:$5~1llit?1X*\n0\n4. 1o 1~% * mE:ll*E:illi ~llll~\"f**.m m:*.mJ£ ~\", lfllll ~if oo *:i?]q'Tffi\n7HJ. ~i1 B<J ~_m J£ o\n4. 11 *m*m B<J~**-o~tJ llll~-fr:ff :kiJHr oo *t;r,m~:ff :kq'T ~;t;r,\nfl B<J *J. JE\n0\n*~m:~illimttB<JE:ll*E:illi~oe•*fiJ£~,PJ~•I~~I3J'!­\nf*'lf&., :xt~ o e•3(E: 1*1 ~*q'T:tt M\n0\n5",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "T/CAMET 04011.7-2018\n6 MSS-VOBC 1'&3t~m\n6. 1 1i IJ iitiJJ~\n6. 1. 1 !fm!lti IJ\nMSS -T*m~ VOBC -Y*m;GJ'8Bl~:ffJJC~~~:ilt1-T!/&:Jmillif~ ,;fljffj\n* -~~~~•*m~~~~mA~*~•~o\n6. 1. 2 *M i~.Y~s:fiii * *\nj iJ _t 11!. ~* ni t JE: f.li. J§\" , :t& ~ j lJ EfT 611 1ft It , r!ffl JE: *1~ ,@, _t * EfT Jllli\nm m\n139 ~ MH<:J MSS 139 IP ~ :fJl:, jf )WJ WH~Utl!. rPJ MSS ~ iiC ~\n* *\nj iJ :itt 1-T !f!Z ~ f1:: ~ at , ~ j iJ ~ ~:itt A z c ~ ~ IR ~ J§\" , 1lif IR.l at\n~w-11-~~139 MSS *m:ilt1-TJWJ:WHiilli{~; ~jlj$~f*~:i1 ZC ~~\nIR ~Jll 31!-}§\", VOBC * mt£~ ~lW~ ~ 139 MSS * mJWJ M 'liilli f~ o\n6. 1. 3 ilii1it&~~!l\nMSS ~O*ii~Mi:ct#!ifJE: at J'B] 1$-~:;.f ¥1J VOBC 139 {f{ilJ!/&:Jm, 9!1J MSS\niJ-.:'Jg~ VOBC illif~rp ~!if, MSS #!· VOBC i9:~il\"\\~i9::'JJ*9:il o\n6. 2 ilil1iffi/},:~fZ]:fiji\n6. 2. 1 ~mHilmm\nMAC -T~~T IEEE 802.3 t~ffL\nMAC~ E8 14 1- ~ iHJl nit, 1 1-*flt {lUJ~ )¥ jlj ( 4 ~ 11) #!·fit :JJD :(£\nEthernet *_y1J§\" Tiff o\n6.2.2 ~~ffi\n;$: }~ Cl ~ ffj 1Pv4 i?}} i~ f1= :'}g ~ ~ ~ 139 i?}} i~ o\n6. 2. 3 ft~ffi\n*•Cl~~~*l39mA~ffJUDPi?}}~{1::'}g~·i?}}~o\nfi:*m\n6. 2. 4\nVOBC .bt*l39r*J~(vobcmsg1)rt(ft~* 1 ~J:\\:~*0\n6",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "T/ CAMET 04011.7-2018\n*\n1 VOBC ~.dl#:l:it\nRPt!J.i~~ num_msg' msgl_id\" length_msgl' msgld msg_id_Pr' length_msg_Pr' Msg_Pr' CRC\n15 -t:'f-11 l:'f-11 l:'f-11 2=¥11 N-i':'f-11 L:'f-11 2=¥11 N-t:'f-11 41-:'f-11\n'num_msg ::1'J:2fi:.ffllWJJt:i! Ei<JYJ1.i .~. 1-1/&, ;ff:::(£ - -1-.ffll ~m Jt:i! mt>~ 1J1.i .~. Ei<J l'iJ ~~,I 1-\n*l'i\n0\n\"m sg_id ::1'17J1.i.~.Ei<J~~ ,msg_id = 202ft~:2fi:rJ1.i.~.::1'11!rfH~.~.o\n'length_msgN ::1'11J1.i.~.I¥J msgN i'f<J L~JJr ,21-*l'i o\nd\nmsgN ::1'J:Jl-f*Ef<JYJ1.i.@,pg?fi:, i.-')SJA!. 6. 3. l\n0\n'msg_id_pr ::1'Jfflp Fl ~;!_ §1J1.i.~.~~o\n'Iength_msg_Pr ::1'1 Fl ~;!_ § Msg_Pr BH~JJr\n0\n• M sg_Pr ::1'1 13 ~ 5!. § i'f<J I*J ?fi: o\n:;tR 2 ~J.JE T RP t1Ji5l* 8{] pq ?(;.a\n*\n2 RP #J.i)'(~\nOxFF ~J)H.~Jt' Jtill)J;f.f-i.R ~ !& :11 ;f.f, i..R FHU%\"\n11-*l'i 21-*l'i 41-*l'i 41-*l'i 4-1-*l'i\n' ~J)t-K&: .M.ttill:1J;f.f-i.9..3?:~J)L~ fi<J*l'i -K!Jr o\n~. J'¥3iU-!3-::2fi::1Ja<Jfi'il~mitl/&,ttill:1J4!J.ffllWJ#f:2fi:i.H&1m t ,J'¥Ji1J%1H'd.i::1'1 t-\n(231 -1)\n0\n:;tR 3~JET~*~~~~~~mMAB{]pq?(;.a\n*\n3 ~~JJ~IHi®:::;J~i.Ri~.~\n~ t'i.J' ::k !]\\ i*J ?£i:\nVOBC :OxOI, MSS :Ox20\n)iYJ'\nID:X>f)iYJ'tfe-~%\ntt ill :11 t'F i./l:l. f~ .~. 4*l'i ~ ( 1i 6t bi il tl s ):1J : ::1'1 VOBC at, Jlt ~% ::1'1 :$: ~.!1; ~%, ~%\n15 - 14 bit,Bil¥1;\n13-2 bit,3i0$~%;\nI - 0 bit,$9iffl%\n7",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "T/CAMET 04011. 7-2018\n~ f* ;k;j\\ pg ?£i:\nVOBC :OxiO, MSS :Ox20\n~ t& 1J :fif, iJ!. f~ ,@, 4~1' rlilf ID:X<!Fll'!im-~%\n~~l&)JJ;] MSS Bt ,Jlti9:~:;1g MSS j'j<J ID\nmfflm\n6.2.5\n:z!s:~ D ~Bt11f:* i¥J{~ .~, ~ffl § JE5( i¥J mffl Fz!: tf}i)t. o ~f* j7;j ~ _l7i!, 6. 3\ni¥J ~Jl'.JE\n0\n6. 3 m r ::a~ tiHi ii\n6. 3. 1 ~~1'¥fif1Jj\\;~Qijf*tt\\l&1J5*\n~ D ~i\\H¥f~:1J:it*=ffl Big Endian, 1~±ill:l:!l:ff::fi}{llti!lli~3\\i ~1) o\nJi{~:B't~:JJ::rt*=ffl~JiFJG~~;fs'UJ~( CRC) o\n1:n\\t$JJ!;rt*ffl CRC32 ( Ox04c11 db7) , rfi:0::rt (1 )it~:\nG(x) = x32 + x26 + x23 + x22 + x'6 + x'2 + x\" + x'o\n+ x8 + x7 + x5 + x4 + x2 + x + 1 (1)\n;rt 9=' :\nG(x) -x i¥J 32 tX.;m::1:n\\t$J]Ii;rt;\nx-:Bt~i¥J=:itti!iJJ~;\n~-=f::rti¥J1JJ~ft{Eli&tYg OxFFFFFFFF o\n6. 3. *2 VOBC-+MSS\n4 ~Jl'.JET VOBC ~:*Mf MSS i¥Jp;j~o\n*\n4 VOBC ~i!~ MSS I¥Jf*.'ilU.!l!\n;k;j\\\n~ffj\\ ~t§'{j[ ~/j\\{j[ f&;k{i[ t!l*{i[ tlli :)£\n(Byte)\nmsg_id I 202 202 202 202 tl!J.@, ID\n$fflmii!i f*tMSL\nVersion_No 2 Ox200I I 65 535 N/A\nJUR;zjl:%\n8",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "T/CAMET 04011. 7一2018\n表4 VOBC 发送给 MSS 的信息帧(续)\nAy 大 小 hs pte | per tj a) t= lr HL {ity 中 by Ng\n名称 (a FF fl i alae KAS AL fii ik\n( Byte )\n| | | AI,\nTime 6 | NVA | N/A NZA NAA y Me AL AE\n1 CIE ae RP ay\nDriverNo | 2 0 0 [65535] 0 ARK al Ls\n| =IL - RM,2 =\niC -OM,3 =1TC - . ep\nChoiceMode | 1 AAA 5 | noe Srey 25 SE\n; AM 4 =CBTC -CM,\nP- ae\n本 CATE Og CBG AM\n了 At 人、 、\nCollevel 1 | AN全 a 3 3 CBRE aN il Pe il Be)\naf < 了 2% *\nDriveMode 1} BOS ! Kx PC al &. LO fi hb Be ESR\nA od > IC / SIA W404 ate ade fie\n. pec ~ | iN x 5 |, ‘A .\n| : ES SS (km/h)\nShy me a &/ Woke Ar 让 de eat apes sepe\n“biSpeed 2 xffff sb DXfffer fff gees AL |\nEbiSpeee | Os fff RY a Deft ey KO | ne ah)\nAtpDetailFault, 4 NZA 1 ATR TORI AG A AUDA Fp —— Bit HEE PAC te\nAtpInitRst 1 N/A i. * \" _ . 出 ue . \"\nHe 7 UCR OBESE AY\nid bk edie eC dE ATP ATO 设备) ,每 - Bit (EK\nDevieeFault 2 0 全 tr 网\n— 4 AX bie\na | ATO HLA EY Hig 2H HR OF, AE Bit (0 de-DE\nAtoDetaillFault 4 0 ; ae ee\n站台 和分(列车在\n| _ [x fla] ok on fo Ae BS ny\nPlatformld 4 0 0 : Oxffff |0 Rm xk 、 ay fcuk Za dee\n“ee | ae RJR TE te\n| | 稳时站台切有效)\n9",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "T/CAMET 04011. 7一2018\n表4 VOBC 发送给 MSS 的信息帧(续)\n大小 |。 | a gel pn ae gs ee Ae , 人、\nCaN (Bete) DT NL dee bs trl | te AA BEE ANT fii ik\nyte\nAtoOperation an ye ,. oe ge +.\nFault | 0 ATO 运行过程中的夏隧,等一个 Bit 代表一种放隧\n\"au\nAtpCutoff _ 、 a\n_TM 0 0 1 |0=匹效,1 =有有效| ATP TALI\nPropulsion\nAtpCouoff | a . . . . 、),.\nyee Si 4 DE AE SIG, BES Bin AG Ae: AIA, 14\nPropulsion 8 0 . pe — pe\nBi TE 1 Beas FT\nReason\nAtpEbA | 0 0 1 Os We ,1L =有效| ,- 和\n列车党用制动原由 , 年 FY Bin A AR Al Ep , i%\nAtpEbAReason 4 0 V4 N11 ti MIA, BE Bin {CAG ATAL, 1K\nBit Pt 1 AAR 47 a\nAtpPb 1 0 i 0 1 JO= Ke, 1=47 |, : XM\n| 制动\nBi Awe a Hl BOA. AE - Bit (Ge - - AMIGA | 1K\nAtpEbReason 4 0 ; M4 * iis i , PBC RRR °\n; Bi wt] eats xe\nAtpLoselLoc | 0 0 [ O= Kel =有效 Bl 4 HE FA\nAtpLose | MAE REMEMUM, Ob <4 Bit CAE ASE We\nLocReason , Bi如1表示有效\nTrainBrake 4 、 有 国\n| 1 0 | 0 1 |O= eae =有效| SAS lh dy Jy ie BE\nFault |\n一十 |\nET dl 0 ~ 254 Kas HAT a 0, Ros it\nullLoac te ph es 、\nRati 1 0 0 255 |分比 Af ah ARS A Ook\nallo Oe te ~ Week 4D cre\n一 255 ASC ATA) 在本线无此\n功能,发达磷效仁\n电子地向| , | oo |g | Ao Ry F se\n版本 版本\n10",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "T/CAMET 04011. 7一2018\n表4 VOBC 发送给 MSS 的信息帧(续)\n大小 ho] 了了 te ’ te Se dite iS 、\n名称 (Byte) BAIN oN te At! RAE EL thi 述\nyte\nATP_Version 4 0 QO | 0 4én8 HOA KAY AR\nMMI_ Version 4 0 0 O Ra TCX ”软件版本如\n| | | 区车停车精度\n| 效值(CATP) ,发这\n- 126 ~ 126 2% |ny!\n| Ay BNL 1G de He ‘|\n| een nay\n| jem, Ji nik Be & is ye\neppee tf ona | 0. Oxte | SAB RR ya te ge papi\nPrecisionATP br. Meat [ - 126, 7 . 、 te\nnon pewteane ME A AE, ACK HT\n| 1261的停企精度,y 0\n| | | 4 if — 196 a 196) 2 °°\n| | (iy is PEA\n| | SAL WE AE ES Uy\n为 0x7f( 127)\n] ed en ae Tv\nBE CATO) .发这 |\n| | = 126 ~ 126 & fil]\n| : | | rey BAT AG A HE\nFi Be ahh. de: he ny We he\n_ Precision 1 | NZA 0 Oxfe x i. / AY 4 Ef RINE 1%,\nATO sang jog qn: | ML AG ak BO ME tH\n| | 126]的停芋精度 | Wy Of\n| 发送-126或126 7\n| | | 的边界值,\n1 | 列车非停稳时\n| a AG, Fee fh\nWy Ox7£( 127)\n1]",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "T/CAMET 04011. 7—2018\n#4 VOBC 发送给 MSS 的信息帧(续)\noe aly «de 7bN pte 1 +- | 四 . Ute ofp See ge fe vp\nFS Be ee i dre bs fr | te ATA Re AE fF Siti 述\n(Byte)\nOxffftte| Oxffetrrerrete £6 45 _—\nCheck_Result 6 N/A (0) 本 , Ha SL\nfffffe | 无效\nVOBC_ZCIDI] 4 0 N/A | NZA [NSA | 移交ZC ID\nVOBC_ZCCO , 1 VOBC 与ZC 授信收隘摘述,0 Ae as AT EM Bite ok AS\nMToauiti , 70 de ays aah (Re HY\n接管 ZC 1D, 如\n{\nVOBC_ZCID2 4 0 N/A | N/A N/A 无 移交,也个\n_OXEEEIPPFEF\nVOBE_ZECO PF WORE 1 20 A NCH ER. 0 圾二授信故障或术\nMFault2 | 通信,1 AEWA IE HE APE I OSE\nVOBC_ATSIDI| 4 | 0 N/A | NVA NAA | 移交 ATS ID\nVORCATSCO] | VOB 1 ATS ATER 0 de SL (FA BBR A\nMFault! Wane LAS ss i (FFE\n| : | | 接管 ATS ID, la\nVOBC, ATSID2! + 0 | N/A N/A |N/A KR KL ME\nOXFFFEFEEF\nVOBC_ATSCO , | 0 , VOBC 与移秋ATS inh (FF BATH GAS 0 2e AS a FAK\nMFault2 MAW OL aU UE a AC Be PL ON FP\nC1 ID\nVOBC_CIID 4 0 N/A | NVA N/A Sig Wk IG IE BE EY\nCI fy ID\nVOBC | 0 VOBCE 23 CU inh (i be A O48 8 a 77 AK BB AS it]\n_CICOMFault fal #aswil(a hiv\nTrainComkaultl — | 0) 0 | O= Kee lL = a bit , it # 六 下 7\n| 舍正党,1 RA A\n12",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "T/CAMET 04011. 7一2018\n表4 VOBC 发送给 MSS 的信息帧(续)\nLy te 大 小 bly obs pte ; 7 roe | te oe Ate | Ts 、\nHA We Fe Pi tee ds je AC fre KE AE yf fii ik\n〖 Byte) |\n| | | '5 TMS iti fe? bv\nbie 0 代表与 TMS\nPmsComFault | ] 0 0 | 。 无效 = 404K | 通信正常,上代去\n| | 5 TMS inh {Fi a bit\n| O01: TCL ( -F iE i) ;\n| | | 02:TC2¢ 上二进制);\n| 要 pray eS, EEN fey 、 | ff: NE\neo COG ANN SN | iE: VOBC 头\nVOBC By es a N& X ic nt yo ore \"\na | YW AS | 2 N/A oe: (C1.02 为 TC2, ff\n_ HeadOrTail | | 7 ae = ~» Y ooo Ge IE gE ae\nYrs _ ht fon: | Ty Fo SCANT. EM A ete\n. > WE tO (Od Hifi\nA ay a ee j the AN 6 eA Bl 4c\n‘Trainkesene | 10 N/A pe: Nigh “A : MM 10 py\n| CRO REIS, iF OY\nCRC 4 N/A NZA | NSA | NSA jd Je MO mse _ id\n| =i) TrainReserve\n7 MSS -ZC 报文规范\n7.1 接口连接方式\n7.1.1 物理接口\nMSS 了系统与 ZC 和子系统的维护单邢之问采用维护网进行数据通\nfe. 其中,ZC 子系统的维护单元提供工路标准的以太网接口进行通信\nMSS 子系统提供标准的以太网接口进行诈信。\n13",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "T/CAMET 04011.7-2018\n{?.\n7. 1. 2 i';I:J~3t1ifili£\nZC r * tft ~t 5t; J!J ;1m ·lj::@ :i1 ~t IP ~ rPJ MSS r * tft ';!;_ :i! :J1i ~\n7. 1. 3 iMf~t&~~H~\nM§r*tfe~*fi:i1.~M~~~~~ZCr*tfe·tp·5t;~ffM\n~il!.!.i!U MSS r*tfeiAjg~ ZC r*tfejjfl'fr:j=l~;ZC r*tfe~t!P•5G~D\n*fi:i1-~Bti'BJ~~¥U MSS r*tfe~Jl\\Z~~il!.!.i!UiAjg ZC r*tfe~\nMSS r * tfejj {l'f r:p ~ ( PJ ili;:W ~~) , .lJt B;f ZC r * tfe~t IP .5G{)}~M J!] :1m\nMSS\n·lj:~ '&_:i!~il!~3£: o\n7. 2 ilf~m;x~#;Jfill£\n7. 2. 1 ~tmtiU~m\nMAC *r\n~ £'f'\nIEEE 802. 3 t.iFrfL\nMAC El3 14 1-'¥ 1Hil. JtZ, 1 1-Vffi ti: lJFL r¥ :9U ( 4 '¥ 11 ) *I-11Sl1Jn {£\nEthernet VffiJ§\"W\no\n1.2.2 ~~m\n*~ o ~ffl IPv4 t/}i)l. fP Jg ~ Ul ~ ~ti}·W. o\n7. 2. 3 ~~m\n;zjs:~D~M#:i!~~-~fflUDP~~fPjg#·~~o\nm:Jf.lm\n7. 2. 4\n:zls:~D~M#:i!~~-~ffl~~~~Jl\\Zffl~~~oA~~~~7.3\nB<J~Jll,~\n0\n7. 3 tlO~~fili£\n7. 3. 1 ~~:fffiiJJ~~iMf~~~JJ$\n~ D ~il!iffit:ff:rt*ffl Big Endian, {~lillhlif:fix:il~~31~'¥11 o\n:@ f~ ti: lJFL :ff :rt * ffl mt PF JC ~ ~ ti: lJFL o\n~!VZ$J_N:ct';*ffl CRC32(0x04clldb7) , :J:li:0Jt (I )it~ .~r:rt ~1JJ\n~iJ{i[i&tjg OxFFFFFFFF o\n7. 3. 2 ZC----+MSS\n~ 5 ~Jll,~T ZC '&-:!!~ MSS ~{~f,~,~~o\n14",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 20,
+      "text": "T/CAMET 04011. 7一2018\n表S$ ZKC 发送给 MSS 的信息帧\ni HE IA BR AK\nHEADER ]\n| | 默认值:OxAA\n| WIC HEC AAR MSG_ID 开始到CRC KE\n验结束)\nMSG_ID 1 | HS 1D\nMSG | PRIA {HL 0x20\nSTAMP 6 Pr | AH fap RR Pye\n( 1k yt thf fu) )\n| | ZC fy 2g 'o (1 JE i) )\nZC ATP RUE BA ZC 维护只无\nZC_INDEX 4 . 4 a cH uu os He 人\n东收到平台发米的数据之前,ZC -\nINDEX = 0\n| HE OE SS BMAD 1 UH\nSN 4 (ere Ba, Bil 4 OxPRRFRPEFE GY,\n| — ve te rel MO FP aa\nDevice NUM 1 设备包售加件数二\n-<一 ee - —____ 一-一 十一一 7 一一 人 — - —— 7 一\nree) | | oxff:帮障状态\n| | SEA ANC, TOL\n| Ue (nak AS\nDevice Cn) | | 0Oxff: Ae pRaLk AS\n| | 其他估,据贸\nHostStyle 1 | Ox77 1 系主用状态.2 RAL\nOxff ; SAL A Bite\n| tn (rt, BCFA\n15",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 21,
+      "text": "T/CAMET 04011. 7一2018\n表S$ ZC 发送给MSS 的信息帧( 续)\nHELLY FE | 字和长度- thi a\nZC 与 DSU 的通信状态\nOxaa sth ie\nye pst COM Ov55 : AM pe\nAG st ! 、 、 、 | 。、 -\n一一 0x33: 4 ALC ZC MES oe A HE SET\n. Oxff. HE DSU TE ME RTA ET\noo 7 | Off 无 iz : (IPR UA EL\nZG hg ATS 的通信状态\n0Oxaa :正常\n7ZC_ ATS_COM 1 OxSS : Abe piri\nOx33:4¢ ALO ZO ABW oc A ade SE My\nZ7C_CL_NUM 1 I AC I HS Ch Bue ese)\n“ZC_EL ID(1) 4 | cl 的1D4 [ie\nZO ChOL yan fea AS\nCIOL) 全 | Oxaas ie\nZC_CL_GOM(1 、\n一 (1) Ox55 . hy pre\n| 0x33. ACHICZEM Dei: SEU A ML)\n2c CLD) NA\n| Ze与CHo)的通信状态\nCin)信息 | 0xaa:止党\n7C_CI_COM 1\n-CLCOMCH) Ox55 :故障\n0x33 :术知(CZCM Deus JEU AE IY)\nZC ZXC_NEM 1 与Ze TY HIG ZC TEC PE AAD)\nwre wy | 4 | ATA ZOOL) HEIDE Fak iHH)\n1p ZC iil 名 ZC(1)的通信状态\nZC(]1 )信息 |xc_ZC_COM(D) ] Ca\n| 0x33: ARC ZCM 无法张取信息 )\n16",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 22,
+      "text": "T/CAMET 04011. 7一2018\n#5 ZC 发送给MSS 的信息帧(续)\nZC_ZC_1ID(n) 4 FIA ZC Cn) HY IDET aed)\nae Oxaa: EGY\n信和总 |zc_ZC_COM 1\nEAE LOM) | Ox55 :故障\n| 0x33 2 AAC ZOM Fee EUR AY EI)\nNID_SOFT_NUM | OF ARE he\nN{D_SOFT_Ver( 1) | 4 | AR PE Ag AS foe\nNID_SOFT_Ver(n) LU 1) ARE本号\nees Zion On.\nvoll a \" < 4 », * a\nALXLE SEG NUM 4 | lr Boo ERY IT\nNT A oe YA jib)\na OAL HS ES) SS\n| NDS | sigs Kn) 1D( | 进制) _\n(n) Q_ALXE_SEG IN 55 ARB\nTrai | | | ZC 44k ce LP AY SE Ee Co a Ey\nrd coun a . .\n“Te | ZC 可识别的列车)\nVOBC 的瞧一标识\n0: MINA IZ FH IDC BRIAN\nVOBC_indes 4 FR AUN AE 人 irl) 、\n| | Hof s Beas TY GL gH i) 4E ID( 十进制)\nTrain( 1) CEL)\n| ZC 与YOBC fy ial fe RAS\nZC_VOBC_COM | 1 Oxaa: Ef\n| 0x55:败障\n17",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 23,
+      "text": "T/CAMET 04011. 7一2018\n表S ZC 发送给 MSS 的信息帧(疆)\nVOBC 的唯一标识\n0:4 WF 4A Re IDC BREA\nVOBC_index 4 . AVI ae D( KIM ML)\nF(t aR LB 4 ID Cf DE tH)\nTrain(n) | ( ASH)\n; ZC 45 VOBC fan {AAR AS\n7C_VOBC_COM { 0Oxaa:正党\n0x55 = bY Be\nPrivate AN 上站定义和字段\n- SC 7 HH ix oh i Aeon 四\nEND | rae\n| FRIAGIL 0x55\nCRO KIS. REA AL TBE KA MSG ID\n3] END\n7.3.3 MSS —ZC\nMSS 收到 ZC Hd SOT ac We th A. 表6 AE TT MSS 发达给 ZC\n的信息内容,\n表6 MSS 发送给 ZC HEM\ntt OT ea ba AR\nHEADER |\n: 四认全:DOxAA\nLEN 2 由长度(从MSG_ID 开始到CRC 校验结束)\n”消息卫\nMSG_ID 1\n一 TKIA {Hf 0x21\nSTAMP 6 年月.HH 时、分.秒各占工个字节(北京时间)\nRCV_SN 4 应答对应的2Z6 报文序列导\nEND 1 buy ii tri\nCRC 4 CRC #4 TE EV SELB MSG_ID 3 END\n18",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 24,
+      "text": "T/CAMET 04011.7-2018\n8 MSS -DSU t&xm.m(llJJ2!;)\n8. 1 tiDj!ti:iJj\\;\n8. 1. 1 !fmlltiD\nMSS r*m--'=3 DSU r*mtt!P1!!:7GZfSJ*=JiH1Hf:t~itHr!l&tmJifi§o\nm\n:;It* , DSU -T * tt tp 1j! :7G tlfd;!t 1 ~tift fi 89 k.-{ :;:t ~ ~ D itHr Ji {1§; MSS\n~*m•~~fl89k.-{:;:t~~D*fi3imo\n8. 1. 2\n1if.l~3tsti~\nDSU MSS\nr*mttfftlj!:JG)WJ;IiJ'J'Ij:Ji:i:Hl!P~IoJ r*m~uH!iW{l§,~,o\n8. 1. 3 ilfl31&1!!~!1\nMSS -T *m:tmJ!Hll:iiW!JEBtfEiJ~®:::f¥0 DSU -T *m 89{f{iiJ!/&im, JJ!O\nMSS r*m-!Ajg--'=3 DSU r*m3ifi§9=rWf;DSU\nr*m:tmJIUi~:iiW!JEBtfEiJ\nt&::f¥0 MSS DSU r*m--'=:i MSS r*mJifi§\nr*m89!3lZ~!/&tm,JJ!0iAjg\n,litBt DSU MSS\n9='Wf(llJ:i2\\;W~~) r*miJJ-f*:M'JWJWJ~ ~*!l&im::f~o\n8. 2 ilfl3~/X~#;Jt£~\n8. 2. 1 ~t.liHiU&~\nMAC *-T ~~T IEEE 802.3 tiftflo\nMAC El3 14 1-'¥ 1H£!. ~, 1 1- ~JH:si: ~ ff :>'IJ ( 4 '¥ 1)) ~ ~ }J[J {£\nEthernet ~Jlrj§-jij o\n8. 2. 2 !XXJ~~\n;;1s:~o~m IPv4f)}i5l.f'F:Yg~~~B9wi5lo\n8. 2. 3 fHlftr~\n;;$:~D~~~*B9mA~fflUDP-pj}~~jg~-W~o\n8.2.4 Eilffl~\n;;$:~ D ~Bt1~*89{i§,~,~ffl § JE)( 89!3llffl~Wi5lo ~1* 1*1 ~_w., 8. 3\ni¥1~1.]£\n0\n8. 3\ntlD~Iiti~\n8. 3. 1 ~ji1=ffit:iJj\\;~OilfJ3~~JJ)!\n~ D !l&imfr~:/J:I:t*=ffl Big Endian, {~±t!!.:W:fr:li~:ii~:ff~'¥1) o\n19",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 25,
+      "text": "T/CAMET 04011. 7一2018\n通信校验方式采用循环吕余码校验(CRC ) :\n生成多项式采用 CRC32(0x04c11db7 ) fe Ast olyit tt ae cali wy\n始值设为 OxFFFFEFIFT\n8.3.2 DSU一MSS\n表7 DSU 发送给 MSS HEB\n1 WO JF aR da\nHEADER WR DAG cOXAA\nLEN | 2 | WEEE CA MSG_ID 开始条CRG 校验结束)\nMSG_ID | 放生 WD\n”一 BE UAT 0x90\nSTAMP 6 . EO TD abl. a BD ee 人(北京时\nli] )\nDSL 的编写(二进制)\nDSL_INDEX 4 DSU AIF AL aR RG Lor DSU ABA BL Ag\nVA RH AZ iy DSULINDEX = 0\nqe 072 i RL gD ede SRK FO,\nSN 4 Fail Oak PREERERE 后.下 OT DAC OP\n始\npevice_NUM ] 变符包舍加件数直\n| | 0Oxaa:正常状态\n2v1Ce | ] ,\npee) : osff:故障状态\nHo AL. BU\n设备(na)状态\nDevice! | , 0xaa:止常状态\n1 | 0xf:帮障状态\n| SAU AEE ,项外\n20",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 26,
+      "text": "T/CAMET 04011. 7一2018\n#7 DSU 发送给 MSS 的信息帧( 续)\ndee 11 AF FACIE fii\n| Oxaa: | 系主用状态,2 KAMARA\nHostStyle ] wo 、 ye bpp\n- | Ox77 1 系主用状态,2 He Awe\nNID SOFT_NUM | 1 CL FAK LP A\nNID_SOFT_Yer(1) fa | APE AS\nyi 中一 DSU:A RL BA EW | ALEHL2)\nVOTE_STATUS_A | fot saa NAN\nhe , , tiver = a) - sd |\nVOTE_STATUS_B Vo ‘ss FF\nx oy TN0:33 fg aA AL ok i ait Lo)\nEND | 1 Boy 2h Rb DY PRGA AIL 20x55\nCRC | 4 CRE FESS ,计算范围从 MSG_ID #1) END\n8.3.3 MSS--DSU\n#8 MSS 发送给 DSU 的信息帧\n接口内容 PARE hii 述\nHEADER ) 4 ue r ne\nLEN 2 | 帧长度(从 MSC_ID 开始到 CRC 校验结束)\n21",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 27,
+      "text": "T/CAMET 04011.7-2018\n*\n8 MSS ~~~ DSU B<Jm.~-~Jl!(~)\n}~ D i*J~ *1t*lt Wi :l£\nm.@l. m\nMSG_ID I\n~i}..{i[:Ox91\nif,,Jj, El ,At,:J},~1}~ 1-i'*lt(~t:Jil:A;j\nSTAMP 6\nI'SJ)\nRCV_SN 4 Jjiz;'@:X;J)jiz~ DSU i&XIT~tl%\n~.!Jlff<J~:iR;f;J(i.J!.\nEND 1\n~i}..{i[ :Ox55\nCRC 4 CRC ~~.itJ+rE:BlJJA MSG_ID 3\\IJ END\n9 MSS -ATS f&X:~m\n9. 1 ~ Q iifi1.Jj\\;\n9.1.1 !lo/J~tiQ\nMSS -T.¥~--'=3 ATS -T.¥~£ttF•:7Gzi'8J*=.FIH1H?~:itHJ-~m)~ifjL\nJtl=j=l ,ATS -T .¥~£t!P•:7Gmf:tt 1 JEH~ltEB<J IV.j(~~ 0 :ltH-Tlt!iffi; MSS -T\n.¥~m~~ltEB<JIV.j(~~o*ftlt!imo\n9. 1. 2 idJ~3ts:Jl'lij£\nATS --'=3 MSS ZIBJ3t:!f.B<J~m§1%,c_,~tfj§L~LATS :f!X~fj§LfLATS _¥\n~ !X€ flj: f!li ;zjs:% , AT S 11\" $ fj§f,!~!-( 15 CI l'l~:% f~L~. ) , AT S ~ f'F ic ~ o tE ;ffi [P]\n)i!iJ:fVH1'1 ,;;f[P]~ ~~1@ 8<J SN )IID!J¥ ~E) o [P] )i!iJ 1,ij 8<J ;ffi [P]~~~m 8<J SN\n;fEf [P]\n0\na) ,c_, ~t f~ ,~,\n,c_,~t~J)tffl -T J;J..)f 1* ~ J!i f~ ii ~ iE 'lito MSS )i!iJ W3 tt '&. J! ,c_, ~t ii!Vr ~\nATS, ATS )i!iJ :lt'Hfi'&.)!,c_,~t~J)t~ MSSo\nb) ATS :f!X~f~-~.\nATS )j!(J1,ij·ij:[PJ MSS '&.J!~JW~-f* ATS :f!X¥iff~-~,0\nc) ATS _¥~!fXftj:Jt&:z!s:%\n22",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 28,
+      "text": "T/CAMET 04011.7-2018\n§(J;::Ji}!,lmbi!l!:iiJ§'~ * ~fttiX{4 Jlfi:Ljs:% ~ 1:50!!1§', ATS 1oJ MSS\n:&:1!-(J;::~-f* ATS *~!tt{4Jlfi:Lfs:%o\nd) ATS ~-T${~1,~,(* CI Ji~:!:m{~,~,)\nAT S JWJ WH1: ~ B;f loJ MS S {~ ii li~ :!:m tiC~ !/& tliL iT~ :!:m [llJ tv !/& iJ~L !/& i\\H2A\n~~tt 9=' IR:1-J:J4~)tlf!-:lto ATS f*iiE&tX~:i!~ MSS ~ -§1/&ji 9=', ~ :±l\nrJ\\1. :m: ~ ~ {~ ,~,\n0\nATS JWJJmft~B;floJ MSS {~J.i$(J;::i!1!~1/&!W~o\ne) ATS m;{ti2*\n~~Jm:ff~~~ftic*Bt ,ATS .lr.RP~m;ftic*~~ MSSo\n9. 1. 3\n*i jffii\\tl!f~HI\n:tm MSS 1m u ff9i ~ B;f fB] * !& ilJ 'L' ~E, iA 1*g J ;X j] :ii ~ :±l lJ,l1. Me$, AT S\nia: *i!C~:1-J*9;Q, j:j: 1oJ ATS ~~:i!:ii $ iJ!t; J!O ATS lmu-Wf )£ B;f fB] * !&\n¥U 'L' ~E, iA 1g J;X j] :ii ~ :±l lJ,l1. Me ~ , lit B;f AT S j] !I! it illi {~ bi ~ , ~ 1~ MSS\n£Jio\n9. 2 Jjffimlx~#ilm~\n9. 2. 1 ~lm»U&m\nr\nMAC *. &£-T IEEE 802. 3 tf-lfL\nMAC El3 14 -1'-* -;n_.13. ~, 1 -1'- ~ ~ ~ 1¥ 3/U ( 4 * 11) :jfHBi: :hD :(£\nEthernet ~11§' iif o\n9.2.2 ~~m\n:;$: ~ tl ~ ffl IPv4 F)} iS( fP 1g ~ M't ,& ~F)} iS( o\n9. 2. *3 'ffl'~m\n~ o ~ m un r tJt iS( 1t 1-1 1~ twrPf} iS(\n0\nmz.mm\n9. 2. 4\n:Lfs:~t!~MW:i!~fflA~ffl~)E~~~ffl.&tJt~o A-f*:~~-~\n9. 3 ~~_m)E 0\n9.3 :tiD~im-~\n9. 3. 1 ~imfffmn~~ijffi~~:n*\n~ t1 1/&!W;ff~jJ;r\\Jl:?:ffl Big Endian ,{I;.HI!!.:t!l:r:f:t&!iF./i:ff5&*11 o\n23",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 29,
+      "text": "T/CAMET 04011.7-2018\nJi fg tit !JFi :1f A* Jf.l ~ JiF JC ~~tit !JFl ( c R c ) o\n1:.nlt$~A*Jf.l CRC32 ( Ox04cll db7) , :J:ti:0A (1) it;l'L ~r A B91JJ\nfri€tili_9:jg OxFFFFFFFF o\n9. 3. 2 ATS--+MSS\n9. 3. 2. 1 'L'lllJt{-g,~,\n;&. 9 ~Jii.J:ET ATS ,bt:*~ MSS (J9,L,,lllJt{-g,~,i*J~o\n~ 9 A TS ~ ~ ~~ MSS 1¥.1 JL' 83~ f~ ,ff}, ~Jli\n~DI*J~ ~15-Jf)Jt tl/i :)£\n~flUf Ml ~if-iit\nHEADER I\nl!lkiJdil :OxAA\nLEN 2 IPJJl-JfJl()A MSG_ID 7fAAiU CRC ~~~J~O\ntflJ.~, ID\nMSG_ID 1\nl!lkiJ... til :Ox50\n*\n1f:, .F.l , B , H•L 0-, ;£9 r!l 1 1' ~'it ( ~t *At\nSTAMP 6\nJ'aJ)\nSN 4 J:jjj\\!i~15\n~Jli~~:sR:t-F-J.Jl.\nEND 1\nl!lkiJ... til :Ox55\nCRC 4 CRC ~~ .~~71HID.M. LEN ilJ END\n9. 3. 2. 2 ilii}fg.~,\n;&. 10 ~Jii.J:ET ATS .bt:*~ MSS B91!i~fg.~,i*J~o\n~ 10 ATS ~~~ MSS I¥J:t!Hff~ ,ff},~Jli\n~DI*J~ ~lt-lf!l tl/i :)£\niJ!inffAA~iJ\\iit\nHEADER 1\nl!lkiA. til: Ox AA\niJ!in-Jf!l ()A MSG_ID 7f~tHU\nLEN 2\nCRC ~~~:sR:)\n24",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 30,
+      "text": "T/CAMET 04011. 7一2018\n表10 ATS 发送给MSS 的报警信息帧(纸)\nSE CLA ¢ WT ARLE 描 us\nMSG_ID 1 ji eh ED\n—_ —_ BRIA 10851\nSTAMP ! 6 年. 月、有.时、分.秒各证 1\n_ 四 | Le RCE OM)\n| | FR SCIRUS. waa 1 BE\ne , PR RK IM, Rat\n7 | [OSI Poi. Bik ta\n| 1 SE bs Ye\nALARM _NUM SE Fhe 5 py\n| ALARM_DE YARED - | Ng RECT\nALARM(1) | ALARM fix / Nee a\na 与 } — EE\nALARM(n) | ALAR EN my ao\n(n) : iM_® OW TS 下 加\n| ALARM_PA A ei Ee 52 44,\noo LL 加 < KR: 多效\n| BRA ft :0x55\nCRC | 4 CRE FES. RE Se TL AA LEN\n四 到 END\n9.3.2.3 hha fA\n311 ATS Rik MSS MRA Bh\nHEADER 四 BIE OH\n25",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 31,
+      "text": "T/CAMET 04011. 7一2018\n#11 ATS 发送给 MSS 的版本信息帧(续)\n接口内容 iW Ke Hi GR\n贞 ean MSG _ID JF #3\nCRC Fest aH Ae)\nMSG_ID 1 Wi ID\nHR IML 0852\n秆 、 ] 、 | acme, 、 By). 4. I; |\nSTAMP 6 ; r J - , Sp BD\nAoC A ge ip fd)\n| UY HS aM AL\nKd Cie tk Bm, Bit 2\nSn 4 [WA 后,下-次重新从\n上 ST ery AU\neen (Sc ae es) eee |\n, rm |\nATS_ID 4 ATS 设备编号\nVERSION_NUY 2 Wig As BR 8\nDEVICE_ID(C1 ) 4 1 Ee C1) Ag bb\nDEVICE |- ”| -一一\nDEVICE __VERSION (1) 4 Ps 1+) Wg As\nDEVICE _ID(n) 4 Uk Cn) REE\nDEVICE (n) 一 一一 一一一|一 -一一\nDEVICE VERSION (n) 4 Ue A Cm) AR AK SF\nee . 一 -一一一 一一一 _ _ -\nHV Ze Ae bas LL\nEXD naians L\nPRIM 20x55\nCRC 4 | Se MS RE her AL TT MA |\na) END\n9.3.2.4 站场信息\n412 规定了 ATS 发送给 MSS 的站场信和站内容-\n26",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 32,
+      "text": "T/CAMET 04011, 7一2018\n表12 ATS 发送给 MSS 的站场信息帧\nfyi FE aA be ak\nHEADER | 1\n| | 里认值:0xAA\nLEN | >| WHI RE CHK MSG_ID 开始到 CRC 校验结\n: ay Ed )\nMSC_ID | ) WAN TT\n| | BELA {ff 20x53\nSTAMP 6 | EAE EE EE at Bad l pr CMe nt\n- | | 时间 )\n报文订别号.沼始值为二.往次报文依次\nSN | 4 FIN SGT AE OxPFPPEFEE 在.下 KT\n| |\n— tp\n. FIR BRC TE 45 EE hE I LA OB AY oh Sy\n站场状态数据长度 2\nKEN | i 2 Ba Kn\ni SG AK AS Bs { N | IPP AE\nae FAAS BGT 48 UPN TT CY SA Sy\n站场问步数据长度 ? LE\n站场同步数据 PON HEP TTT GEE\nAe RE BE KOE | ; | HAS BR IGE AS Ub AY TBE EY LL bY 4K\ntA Wa eS TIN 一 yer at TA Ee\n* | |追踪数据攻度\nAGE BK N | 用户自定义\n| | 摘述除长度本身的两个字节以外的临时\n临时限速状态数据长度 2 . “\nBIRT RAR AS Baa (6 | esa ce\nHas WT PR BR AK AS Bi | oN | APP ED AE\ndeg pth a (a BARE | 4 | HHA BRAS BE As EP YB NY Lb A\n2六 ZATE TA Ah TN bat, : 一 | aoa ..\nreese | | 供电信息长度\na oe” te ee\n牵引供电信息 | N 用户自定义\n27",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 33,
+      "text": "T/CAMET 04011. 7一2018\n#12 ATS 发送给 MSS 的站场信息帧\nPrivate N Kae x Be\n帧的结束标记\nEND i\nCRC 4 CRO 校验,人校验范轩从 LEN 到 END\n9. 3.2.5 操作信息\n表13 ATS 发送给 MSS 的操作信息由\n接口内容 宁攻长度 thi 述\nWOE IE Wt ak AE\nHEADER 1\n; | 默认全:0OxAA\nLEN 4 由 Ic i OK MSC _ID 开始到 CRE 校\nMSG_ID ] 1\nTs 默认值:0xS4\n“Ee J) IE a) AR pe a\nSTAMP 6\n(北京时间)\nHR SCI SS .万始供为工.每次报文\nSN 4 依次水加.累计至 OXFFEFFFFF 后.下\n一次重新加0,从1开始\nRECORD_NUM 2 PAE {Cl oy Be\nqT HGR AS AR BE HE TY IEE, 28 a MEAL\n操作记录长度 2 | a ID 到命令参数最后个字首的守\nRECORD + ve\n(1) 源机器 ID 4 设备41D\nTEER 不定长 FA ELE\n28",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 34,
+      "text": "T/CAMET 04011. 7—2018\n表13 ATS 发送给 MSS 的操作信息帧(续)\n| | HAS AR AR AR EE KCI AE aS AE AIL\n加 记录长度 | 2 a ID its BARI 一个字 YY\nRECORD as\nPrivate | ah LE\nUN, Pett be\nEND 2 HO 起标识\ntty. 5\nCRC 人hb BC RAID AO IBM LEN 4) END\ne\n(1\n9.3.3 MSS >ATS -\n. ane 4 ee =\nHEADER l yi JF ee bade ,默认值:0vAA\nLEN 2 bide ECM MSG_ID JE Sa} ORO 校验结束 )\nMSC_ID | ah EA ID PRUE 0x57\nSTAMP | 6 | 年月.H TBE A} RAL EW CAE HIE)\nSN 4 | RAE\n1 帧的结束慰识\nEND 1\nCRC 4 | CRC BE ,校验范围从 LEN 到 END\n29",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 35,
+      "text": "T/CAMET 04011.7-2018\n10 MSS-CI f!R:X:~$B\n10. 1 fiDiifiJJit\n10. 1. 1 !IWJiflD\nM~~~~~-~~~~-~·~~~*m•~~*fi•M~fflo\n~J:j:t ,Uf3'i~~~~l~·~~1# 1 ~f.~Ffi[B~j\\:~~0*1-T~f~i;MSS ~\n~~~~~{i[B~j\\:~~O*fi~fflo\n10. 1. 2 zw~3ts#i\\j£\n-~~~~~-tt~M~~~~~~~SfflA,~m:U~*Wffl\n,~, ~•~ttt 14 #.&;1$:% ~-~19: ~ik~ffl ,~,\n0\nMSS\n~~~~M'i1:~~-i'X,C,,Jli!~®HfiUf~o\n10. 1. 3 ijiJ1ii!&lll~JI\nMSS ~ ~ ~~n:!if.!:MHiWf~ Eft ISJ ~i&;:fiU Uf~ ~-* ~ fB 1f fiiJ. M, !i!U\nMSS ~ -*~1A:1-;~·~~-* ~~ 1~ 9:t Wf; ·~ ~-* ~~U:!if.!:Jffi:i:iWf~ Eft\nI'BJi&;:fiU MSS MSS\n~~~[BJJ)Z~~M,!i!UiA:1-3Uf~~-*~~ ~-*~~\n1~ 9:t Wi ( llJ J2t :91 ~~ ) , .llt EJ;f. f~ ~ ~ ~ 1)}-f* ~ ~ M ~ MSS ~ ~ • M\n;:f :3t\n0\n10.2 ijiJ1i~IJ.:£E~#i\\j£\n10. 2. 1 ~11~~~\nMAC~ ~~T IEEE 802. 3 fiFfi o\nMAC ~ Ei3 14 1'-'¥ 1H_Ii ./iZ, 1 1'- ~~ ~ ~ )¥ Jtl ( 4 '¥ 11) ¥f flt :flO i£\nEthernet ~~J§'Uif o\n10. 2. 2 ~~~\nm\n;1$: ~ 0 it ffl IPv4 t1J. i5Cf1= :1-; lXX] ~ fB #} i.)( o\n10. 2. 3 tUtu~\n;1$:~ 0 ftffl UDP #}i.)( fF :1-J1t~FJJ.i5( o\n10.2.4 Jillffl~\n;1$:~o~Bt~~tBfflA'ftffl~~~tB!JlZffl~FJJ.~oA~~3#£\n10.3 fB~j,~o\n30",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 36,
+      "text": "T/CAMET 04011.7-2018\n10. 3 :tiD ~:tJiiH\\l~\n1 o. 3. 1 ~HS.fffii:1J~;f!Jil ilH~~:tn!\n~ D ~1~H¥fii:1J:r.t*ffl Big Endian ,{~:tll!.hlff:~!i~:f.f~*\"'P o\nJi 1~flt~:1J:r.t*ffl1ll:flf-JL~ii!bflt~ ( CRC) o\n1:nJG2t:rJ!Jt*ffl CRC32(0x04c11db7) ,rii;0Jt( 1 )-tt~ .~-T:r.ti391JJ\nftf-1-m:~:1-J OxFFFFFFFF o\n10. 3. 2 JIHJJi----+MSS\n10. 3. 2. 1 11Hf.&~*1~-~,\n*. 15 ~Jl'.~T~.WL'Bt~~ MSS 13911Pjl.&~*1~,~,i*J~o\n*\n15 ~f!Ji~~~ MSS ~:tlUfN.i9:.ffi.'ilU9!\n~l* :;k;J' (Byte) Wi :it\nIPJJl :3f 1irl :fij; ;t;\nHEADER I\n~iA-ffi :OxAA\nLEN 2 ~J)Hfi.t ()A MSG_ID :3f M/¥1J CRC tlt~~:!ilO\n?flj,~, ID\nMSG_ID l\n~iA-ffi :Ox40\nSTAMP 6 ~,.fl ,B ,R•L?t,#*dil-'i'f\"P(~~ffiBtl'aJ)\n11lJtJr.7u% ,fJ:JAA1i1J 1 ,&??z:fllJt1&7X~:Im, .lJiltt-~\nSN 4 OxFFFFFFFF Fn, T -7X11Ufr )A I :tf:lirl .lJil:IJO\nID: it .1§ Jr. R% ~l'HJl~ .lJil :lm , 7f fl 1\nCUD 4 ~Wf~{lr~%\nCI_INFO n ~Wi~ti~{\\1[.~,\n*\nCI_IO n i.jg i9J :tiH'Hm\nPrivate N fl~.)(fflt\n*\n~J)i B<J ~ f;j; i.J~\nEND 1\n~iA-ffi :Ox55\nCRC 4 CRC tlt~ ,;f5t~1[1EJA LEN ¥1J END\n31",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 37,
+      "text": "T/CAMET 04011. 7一2018\n10.3.2.2 软件版本依和以\n表16 联锁发送给 MSS 的版本信息帧\nfeo Bde bo fe\nHEADER I Bit bins\nPRIMA OxAA\nLEN 5 wi Ki KA MSG_ID 开始到 CRC\nBeye i ke )\n消息 ID\nMSG. ID DMs\n| HKALE: 0x41\n“ESP AP IN od Bt\nSTAMP 6 | a iT I DEE Hi\nhe YC Te ae Mp Tay )\ni tke SC a ee yo,\nKi MK Kw Hin, Bik 4\nSn 4 OsFFEPPEEE Wis FR tee BM\n: LOT bre 8 Ha\nre |\nCLID 4 联镇设备编号\nVERSION NUM 2 Jag Ax bb i Be\nDEVICE_ID(1) 4 \"Ue 1) Batt\nDEVICE( 1) 一- -一一 -.\nDEVICE _VERSION(1) 4 We fr (1) WAR\n| DEVICK_ID(n) 4 UE fh (n)\nDEVICE(n) ————- = ———. 一\nDEVICE _VERSION(n) 4 iS fir () Wie AR\nPrivate N fu ME\nEND | | 帧的 as bry\nCRC 4 . Be RE ALE MOLE\n' i) END\n32",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 38,
+      "text": "T/CAMET 04011. 7一2018\n10.3.3 MSS一联锁\n表17 MSS 发送给联锁的信息帧\n名称 “| 大小(Byte) | He\n| i 默认人:0OxAA\nLEN | 2 | WEI OM MSG_ID JE A CRO 校验结束)\n|\nMSG_ID 1 | a\nSTAMP : 6 I FONG WIESE)\nat: - a ‘ Re MYT PR I -所以由\nSN 4 人 NA\nCH | 4 NREC E\n11 MSS -计轴报文规范 ae Eo”\n11.1 接口连接方式\n11.1.1 物理接口\nMSS 和子系统与计负子系统维护单死之问采用维护网进行数据通舍、\n其中,计轴子系统维护单元提供 1 路标准的以太网接口进行通信;MSS 子\n系统提供标准的以太网接吕进行和通信。\n11.1.2 动态交互描述\n11.1.3 通信故障处理\nMSS 子系统如果赵过额定时间接收不到计轴子条统的任何数据 ,则\n33",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 39,
+      "text": "T/CAMET 04011.7-2018\n*\nMSS -T * tft i-A jg !:j it $11-T * tft J!i {~ 9=t tt/f ; it $11-T * tft :tm Jm :1:1: Wf ~ Bt i'BJ\nl&:lf'¥UM SS r*tfCB{]J.iiZ~~m ,Jl!Ui.Ajgit$11-T*tfe.!::j MSS r*tfeilli{~l:j:t\ntt/T (PI :i2!;:9Jfi~) , litBtit$11-T * tfe{)}{~j1j~ JifJM ~ MSS jt:*~m:lf'?:l'!:o\n11. 2 i1 f~ ffilx~ftJMJ£\n11.2.1 ~tmtiU&ffi\nMAC -T.&£-T IEEE 802.3 fiFffL\nMAC~ EE 14 1-¥ 1Hli nX;, 1 1- ~J]H~ ~ ff ~tl ( 4 ¥11) ~ fl![ :JJo :(:E\nEthernet ~.rJU§\" 00 o\n11.2.2 IXX.I~ffi\n*\n~ D {!!! ffl IPv4 tJ} i)Cft jg ~ ~ _& 8{] tJJ. i)l o\n11. 2. 3 ft~ffi\n*~ D ~Bt{~:* 8{]{~ .~, {!I!.Ff:l UDP t}}i)l f'Fjg{~ttJtrt}}i)l o\n11.2.4 Ellfflffi\n*~D~~~:*I'fJm&151!.Ff:l~~~l'fJJ.iil.Ff:l.&tJJ.~o A~~~~\n11.3 8{]~~0\n11.3 1lD~tm1\\li£\n11. 3. 1 ~tm.fffit)Jj\\\n~ D ~m1¥fit:1J:rt*ffl Big Endian, 11£:tt!!.:IJ.I:;f.f1it:lfl~:ff5&:¥11 o\n11. 3. 2 it*dl--+MSS\n'$: 18 ~Jl'.~Tif$11jt:*~ MSS B{]{~.~,r*J~o\n*\n18 it *dl ~}! ~ MSS l'fJ f~ .~ ~Jli\n:moP3~ *11:k;J\\ Wi it\nljJJii 3f .Ml t'F ;t-\nHEADER I\n~i:A {i'l: Ox AA\nLEN 2 ljJJii-lfJJr ( b\\~(~i'J ~~)\ni~.\\ll, 10\nMSG_ID I\n~i:Affi:Ox70\nf!::,A ,B ,H•L7J-,~4l-S I 1'*11(~t/'J',\nSTAMP 6\nBtl'iil)\n34",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 40,
+      "text": "T/CAMET 04011. 7一2018\n表18 计轴发送给 MSS A948 Bh ( B)\n报文序列号 ,初始值为1,每次报文依次\nSN 4 累加,累计至 0xFFFFFFFF 后,下一次重新\n回0,从1开始\nAXLE_INDEX 计轴子系统的车站编号\nAXLE_SECTION _ STATUS 1 计轴区段(1)状态\n(1) 状态根据厂家信息进行约定\nAXLE_SECTION _STATUS | 计轴区段(n)状态\n(n) 状态根据厂家信息进行约定\nAXLE_ SENSOR _STATUS | 传感器(1) 状态\n(1) 状态根据厂家信息进行约定\nAXLE_ SENSOR _STATUS 1 传感器(na) 状态\n(n) 状态根据厂家信息进行约定\nAXLE_TYPE_NUM 设备种类\nAXLE_TYPE(1) _STATUS ) TYPE(1)类型设备编号(1)的状态\n(1) 状态根据厂家信息进行约定\nAXLE_TYPE(1) _STATUS | TYPE(1)类型设备编号(na) 的状态\n(n) 状态根据三家信息进行约定\nAXLE_TYPE(n)_STATUS 1 TYPE(n)类型设备编号(1)的状态\n(1) 状态根据厂家信息进行约定\nAXLE_TYPE(n)_STATUS 1 TYPE(n)类型设备编号(n)的状态\n(n) 状态根据厂家信息进行约定\nPrivate 自定义字段\n帧的结束标识\n11.3.3 MSS一计轴\n表 19 规定了 MSS 发送给计轴的信息内容。\n35",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 41,
+      "text": "T/CAMET 04011.7-2018\n*Dpg~ .:f:l1::k+ Wi J£\n~J)y ff :1$ t-F iit;\nHEADER I\nl&Jki-\\ {l :OxAA\nLEN 2 ii!!Ji-KJ.t()A MSG_ID ffMliiJ CRC ~~f;!i*)\ntill,~ ID\nMSG_ID I\nl&Jki-\\ {l: Ox78\n*\nSTAMP 6 :lf<Fl , B , n•L ?t , :tl-' dl 1 1' .:f: 11 ( ~ t:f.l( At !'a])\nRCV_SN 4 )(t Eii it ~111PlH1L@!, § <P 1¥1 IP!Jl ff' jtl ~\nii!!Jii¥Jf;!i*t~i.R\nEND 1\nl&JkiA ffi :O x55\nCRC 4 CRC ~~, i.ttH11BilM. MSG_ID iU END\n12. 1 1il:lii1iJJj\\;\n12.1.1 !JWH~1il:l\nM~~~m~~-~~m•~•~~~*m•~~mfi~M~mo\n;lt\"P, ~-~~m£t~•~tlHJ:J; 1 ~fff-XIHJ<.J t;. .t :t:~ts; om1'T~{~ ;MSS ~\n~m•~~m~~*~n::omfi~mo\n12. 1. 2 i';IJ~3t:S::tii£\n~-~~m£t:tP-~JWJ AAtt~:tl£t:tP IXXJ (ri] MSS ~ ~ m'JY:.:i!1!iW\n12. 1. 3 il1ilii\\ti!l~~\nMSS ,Jjl!J\n~ ~m:!!o*lffi:tli.m~Bt!'BJtt::t&/f¥!J ~-~~m~ff{iiJ~M\nMss\n~~miA-:h~~-~~m~f~'i='ltiT; ~-~~m:!!o*m:ct~~atrBJ\nl&/f¥!J MSS MSS\n~~m~J.ili:~~M.!il!JiA-:h~K~~m~ ~~m~f~\"f\n36",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 42,
+      "text": "T/CAMET 04011.7-2018\nltJT ( PI~ :91 ff~ ) , Jlt Bt Et!.11* -T-* m { Tj {~':t~ JliLWH~ MSS $t z ~1m ::f :':Ito\n12. 2 ili~ffi/X~#ilnQ~\n12. 2. 1 ~~~iU&ffi\n-Tm£-T\nMAC IEEE 802.3 ;fff-f'io\nMAC :* E8 14 1' \"¥ 1H]. ~, 1 1' $J!r {~(: ~ !¥ :9tl ( 4 \"¥ 11) ~ ~ 1JD {£\nEthernet $J!r]§ ]if o\n12.2.2 jjj]~ffi\n*•Q~ffliT~~~~~~~m~~~o\n*•Q~B1{~.;=t;·~ ~A3\n12.3 ~~JU£o\n12. 3 1to~~na\n12. 3. 1 ~~.fffit\n-Q~!m:ff:~jj\n~f]{i[i&t~ OxFFFFFFFF o\n12. 3. 2 ~71lt-MSS\nmmii!~ 13/:jj(~il:~ El!~W:til~ 13 =\n:J:ti:P.ft~I!JF{l[::k:;H~rfttr o :l!D5!i!:;lit1':it~ § ~ 0, :Jj~.Z,:i!-t-:lil: ~ pg ~ ~\n-r\n~ ,;J't]§~-~~ -1'-il:~~ §\n0\nmmil:\nm\na) Et!.11*J}f-mffi:Ji:J:t( P.ft\"¥1) ( Byte){~rfitr, 1 -t-mtf.{il: r!:J 2 1''¥11,\nt~il:~{i[:f&:;k 100 {~;\nb) UPS mt~ii:J:ti:P.~Hff-li~¥-'¥-}~~1~rtm, 11'-mtf.{:fi!I~ 41'\"¥11 .m\n*\n-m\nt~ :it~ ::f :li~\n0\n37",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 43,
+      "text": "T/CAMET 04011.7-2018\nik~i!: :\na) Et!, 1m\\ JJf ik ~ill: 11( ~~ \"¥ 1) ( Byte) f~ ~ , 1 1'-ik ~ il: 2:1 ffl 1 \"¥ 1)\n(Byte) ;\nb) UPS5Eik~il: o\n1!f~il::\na) Et!.YmM.& UPS 1!fW:iiJ::J1( ftHfL (Bit) f#ffitr, 1 1'-1!f~il: 2:1 ffl 1 fil.\nc m\nBit), ,g,;~:tw;r~ B<J 2:1 B<J-=¥1)!/&~or =\n1 ) ~o =* 1!r if 1ii: !lit if!: ::!ik 8 B<J ~ !lit f-B' , JilU 1!r ~ iii 2:1 ffl B<J \"¥ 1) !lit\n11:\n1!f~:fil:!l&:iil/8 j\n2) ~o=*1rWiiJ:!!&:!il:/f::lik 8 B<J~!!&f~, JilU1!f~:!il: 2:1 ffl B<J\"¥1)!!&\n11:1 !rW:!ii:!A'tiil:l8 + 1 o\nb) Et!,1m()Jf .& UPS 1!rtf:fil: El3 'ffJ-1'-\"¥1) f~fil. ( 0 {il.) ~ ~ {il. ( 7 {il.) {:«\n{X :1;1'! JE , ~0 =* .¥31W i3<J \"¥ 1) ~:I$ JE 7t , JilU :1;1'! JE r -1'-\"¥ 1) o ~D =*\n1!f~:iil:/FJE 8 B<J~!!&f-B' ,lilU*'J1RB<Jw:i$tJE Oo\ni± :1!TW*191H~~~::flf 9 -t-1!rtHM~1~~, Jil~m~ ffl 2 -4'--*$1~~ o ~ --4'--*$\no -7Ul:-f&?X:!AYE1!r~ 1 -8 .1t=-1--*$ o 11i::!AYE1!TW 9 .~=-1--*$ 1 -7 fil.\ni9:f-J{i!!ffl ,:JAJE Oo Jk',;J!i( 20\n0\n~ 20 ~ l±l T Et!.7m1!rW~¥tl o *\"\n*\n20 Et!. ;m ~f§Jj\n1:\\r!iff:% 1:\\rW I 1!TW2 1:\\rW3 1:\\rW4 1:\\rWS 1:\\rf\\16 1:\\r!f7 1:\\rf\\18 1!TW9\n~~1:\\r~ f-T :X :X 1lf f-T :X :X f-T f-T\nUl:ff:% 0 1 2 3 4 5 6 7\n~--1--*$ 1( 1§-~ I) 0(1f~2) 0( 1rtf 3) I ( 1§-tf4) 1(1f~5) 0( 1r~ 6) 0(1f~7) 1(1§-~8)\n:tnn\n~=-1--*$ I( 1ftf9) 0(:\\i'OtO) O(:fti}CO) o( o) O(:fti}CO) 0(:\\n}CO) O(:fti}t;O) O(:fti}t;O)\n12. 3. 2. 1 Et7m11Uc\n~ 21 ~l\\U£TEt!.rmt~:i!~ MSS Ef<Jf~,\\~H''l~o\n38",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 44,
+      "text": "T/CAMET 04011. 7-2018\n~~=~P'l~ :¥1):;k;J\\ Wi i£\nHEADER I ~J!i 7f Mrt.if, ;t,\n!lJk iJ,:(i1i: 0 xAA\n~fli-J.~Jj[(,M. MSG_\nLEN 2 ID 7f:!frl¥UC RC tl(:\n~~*)\nYVJ.@, ID\nMSG_ID I\n!llki-A ffi :Ox30\niF,fl,B ,at,\nSTAMP 6 ?t,tt~Ci 11-\n:¥11 U~H:Ht i'BJ)\nSTATION_INDEX 1 Y~.#.~%\n11lJtff':YU% ,:W\nMl ffi Jg 1 , 41H'A 11l\nJt*l'A~1m, ~tt\nSN 4\n~ OxFFFFFFFF\nFo,r- ?'A m:~\n@] O,M. 1 JfM/\n~t!t~A~Hf.(\nINPUT_ANALOG_NUM 2\nii1:1-~n\n~t!t~A~tt(\nPMS_INPUT_ANALOG INPUT_ANALOG( 1) 2\niil: l\nINPUT_ANALOG( n) 2 ~t!t~A:W;tt(\nill n\n7f~:tk:?.tii1:1-\nSWITCH_STATE_NUM 2\n~n\nPMS_SWITCH_STATE\nJf~:tJ;:?.tiiJ.: I\nSWITCH_STATE( 1) 1 0: ltJf 7f; I:\n1~-%\n39",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 45,
+      "text": "T/CAMET 04011. 7一2018\n表21 电源发送给 MSS 的电源信息帧(疆)\nfH 1A #8 eK 摘 述\n1 开关状态时\nPMS_SWITCH_STATE SWITCH_STATE(n) | 0: r FF; 1:\n闭合\n人 全 ! a ZE 4K\nALARM_NUM 2 ‘i Aaa\n4~ Boon\n: fee A fe ha 2d. 他 ]\n-ALARML1T) | Bi A eT\nPMS_ALARM 0 下党ZL 4h\n输入输出上告\nALARMCn) 1 Bit we\n| Om a7 ty\nnay ip hes Vent aes\nOUTPUT_ ANALOG_NUM 2 HART es\nrye Da\nPMS_OUTPUT_ ANALOG > | ” —_\nOUTPUT_ ANALOG(1) 2 RE A\n| OUTPLT_ ANALOG(n) | 2 | pe ae\nKe te HEM a\nPWR MODULE. TYPE_NUM } x\n| em\nPWR _MODULE_TYPE(1) TYPE 1 KA DH IK\nAE MY Gey\nPWR _MODULE_TYPE( 1) NUM 1 7 BT AY Bs\nY ne n\nPWR_MODULE_ID | Mi bey yl A\nPWR _ MODULE _ OUTPUT’ > Rit Ee fi tty ARE ID\n_NUM ~ WEEE n\nPWR_MODULE_TYPE - i . .\n(1) 1 PWR _ MODULF _ OUTPUT 5 Be Rt ag tt BEAL\n(1) 一 让\nPWR _ MODULE _ PUTPUT 5 模块输出模拟\n(n) : hon\n40",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 46,
+      "text": "T/CAMET 04011. 7一2018\n#21 BRS MSS 的电源信息帧(续)\nPWR _MODULE _ STATUS > 模块状态量数\n.NUM fin\nPw _ MODULE _ STATUS RAR I\nPWR __ MODULE _ STATUS po yond 0\nPWR_MODULE_TYPE | (n)\n(1)_1 PWR __ MODULE _ ALARM > 模块告警重数\n_NUM in\nPE OClATION OS I | OER ee\nPVeATODULE -AD NS 模块状态量 n\nfSY NAY | 0正常/1告警\nBT Cm | - 模块输出模拟\n5 a Sp | Rtn\nRent fax, fl 模块输出模拟\nMI ys A he Hil\n2\n_NUM Hin\nPWR _ MODULE _ TYPE\nE_S\nPWR —MoDdL _ mrs) | YORI 0\nPWR _ MODULE _ ALARM > 模块告警量数\n_NUM fin\nPWR - MODULE - ALARM] | 模块告警量 1\n(1) 0 正常/1 告警\nPWR_MODULE -ALARM| | 模块告获量 n\n| (nm) | 0 正常/1 告警\n41",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 47,
+      "text": "T/CAMET 04011. 7一2018\n表21 电源发送给 MSS 的电源信息帧(续)\n类型 m 的模块\nm 1\nrenwoourrecm.rme | em\nPWR_MODULE_TYPE(m). NUM 1 ARE m HERR\n数量 n\nPWR_MODULE_ID MRS\nPWR_MODULE_OUTPUT _ 5 模块输出模拟\nNUM 重个数 n\nPWR_MODULE _0OUTPUT 5 模块输出模拟\n(1) 量1\nPWR_MODULE _ OUTPUT > 模块输出模拟\n(n) Hn\nPWR_MODULE _STATUS _ > 模块状态重数\nNUM fin\nPWR_ MODULE _ TYPE ODULE STATUS\n(m) 1 1 -TM - 1 模块状态量 1\nTATUS\nPWR_MODULE _ALARM _ > 模块告警量\nNUM 数量\nPWR __ MODULE _ ALARM | Bit 模块告警 1\n(1) 0 正常/1 告警\nPWR _MODULE _ ALARM | Bit 模块告警 n\n(n) 0 正常/1 ee\nPWR_MODULE_OUTPUT _ 模块输出模拟\nPWR_MODULE_OUTPUT > 模块输出模拟\n(1) 1\n42",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 48,
+      "text": "T/CAMET 04011. 7一2018\n表21 电源发送给 MSS 的电源信息帧(续)\nPWR __MODULE _ OUTPUT ) 模块输出模拟\n(n) fin\nPWR_MODULE_ STATUS _ 5 模块状态量数\nNUM Hin\nPWR _ MODULE _ STATUS\n—\nPWR _ MODULE _ TYPE| PWR __ MODULE _ STATUS ) 机次状态重\n(m)_n (n)\nPWR_MODULE_ ALARM _ 3 模块告警量数\nNUM fin\nPWR _ MODULE _ ALARM | 模块告警量 1\n(1) \"| 0正常/1告警\nPWR _MODULE _ ALARM 1 Bit 模块告警量 n\n(n) 0 正常/1 告警\nPrivate N 自定义字段\n帧的结束标识\nEND 1 WEIL {HE 0255\nCRC RR, 计\nCRC 4 算范围从 MSG _\nID 到 END\n12. 3.2.2 UPS报文\n表 22 规定了电源发送给 MSS 的 UPS 信息内容。\n表22 BRAK MSS 的 UPS 信息帧\n帧开始标志\nURN 帧长度(从 MSG_ID 开始到 CRC RBS\nRR)\n43",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 49,
+      "text": "T/CAMET 04011.7-2018\n~ffF ;k;j\\ tl1i k£\nffll.@, ID\nMSG_ID I\n!!lki:A.:Oi :Ox33\ne¥,.foJ ,B ,B•L?t,~-*~ 1 1'-~11(~~J¥-\nSTAMP 6\nBt IBJ)\nSTATION_INDEX I 9-~li(~-%\n:Jll)C.¥:9~-%, fJ.J :!trlmJ'J I, 4ij: IX :Jll)C of& IX\nSN 4 ~110, ~tj-~ OxFFFFFFFF Fn, T -IX'ID:~\n1m 0,)). 1 7f:!trl\nUPS_NUM I UPS~§\nUPS_ID I UPS i¥.J.¥%\nUPS_ANALOG_NUM 2 UPS :mW-:fil~ii1 n\nUPS_ ANALOG( I) 4 UPS mW-:fili\nUPS_ ANALOG( n) 4 UPS :mW-£1 n\nUPS_!\nUPS_ALARM_NUM 2 UPS 1r~iit~hl: n\nUPS 1r~iit I\nUPS_ALARM ( 1) I Bit\n0 iE ?;\\' /1 1rff\nUPS 15-~£1 n\nUPS_ALARM ( n) I Bit\n0 iE1ltli 15-f?\nUPS_ID 1 UPS i¥.Jff:-%\nUPS_ ANALOG_NUM 2 UPS mW-:iil:~iit n\nUPS_ ANALOG( I) 4 UPS ~tt(£11\nUPS_ ANALOG( n) 4 UPS ~W-ilt n\nUPS_n\nUPS - ALARM_NUM 2 UPS 15-·hl:~:Q n\nUPS 1rf?:Jll: I\nUPS_ALARM ( 1) 1 Bit\n0 iE1ltli1rff\nUPS 1!f~£*l •n\nUPS_ALARM ( n) I Bit\n0 .iE'ii\\'11\n44",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 50,
+      "text": "T/CAMET 04011, 7一2018\n表22 电源发送给 MSS 的 UPS Bt 22)\n名称 | 大小1 he aR\nPrivate N IT ai oy Be\nEND | ve nee\n—\nCRC 4 CRC FESR, if ty 1G (EAA MSG fID #) END\n12.3.3 MSS—RBIB\nsamen | As mh \\\nHEADER 和信 RRiA(L:OxA :\nMSG ID | 1 UA tt ni Fi 0536 Rx /\n- | 人039 AAA直8 7 加\nSTAMP | 6 OW Ae CA at WE Tay)\nHCV SS | 4 | ea Rae are\nBETA 0x55\na\nCRC | 4 CRE BENS TTY ATR A MSC_ID 3) END\n13 MSS -LEU 报文规范\n13.1 接口连接方式\n13.1.1 物理接口\nMSS 子系统与 LEU 子系统维护单邢之问采用维护网进行数据通售:\nste LEU 子系统维护单元提供1工路标准的以太网接口进行通信;MSS\n45",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 51,
+      "text": "T/CAMET 04011. 7-2018\n~*~-~~$~~~~-D*fi~~o\n13. 1. 2 Z;fJ~:stsm~\nm\nLEU ~ * ~i 1ft lf!-~ )WJ M •11: ~ i1 ~i 1ft ~ (o] MSS ~ * ~ Ji. :!! 1i %f\n13. 1. 3 ili~i!&lll~H~\nMSS ~ *~~0:5!~!Jiii1~5EBti'SJ.l&/f~U LEU~ *~~{f{ilJi/&:Wf ,Y!U\nMSS ~*~iAjg£3 LEU ~*~~{~rtt$'T;LEU ~*~~O:W:JI1li1~5:£Bti'BJ\n1&/f~U MSS ~*~~m~i/&:Wi,Y!Ui-Ajg LEU ~*~£3 MSS ~*~~{~\nrp$'f(PJ:J2\\;;::9J~~) ,JltBt LEU ~*~{)}f*~JWJWHfi MSS Ji.:i!i/&:Wi/f~o\n13.2 ili~glxta#i!M~\n13. 2. 1 ~tJiHii~g\nMAC *~~ £r IEEE 802.3 f~$o\nMAC Ef3 14 1'-* 11 ~_§_ $;, 1 1' ~J! ~ lj~tJ¥ ,tl ( 4 * 1)) ~ ~ :IJD :t£\nEthernet ~J!FoW o\n13. 2. 2 jjjj~g\n:<$:~ D {5e:ffl IPv4 t}}t\\(_ fPjg ~% ~ ~i:}}i5lo\n13. 2. 3 ~tAfrjg\n:<$:. D ~ Bt {~:!! ~ {~ J~!, {5e:ffl UD P 1:}} i)l fP jg {~ ~ 1:}} i)l o\n13. 2. 4 .@:fflg\n*•o~~~:i!~~-~ffl~J:E~~mffl~tJJ.iRo A~~W#~\n13. 3 ~~J.JEo\n13.3 ftiJ~twm~\n13. 3. 1 ~twt¥fi~JJj\\;~llili~:t3:t!J&JJ~\n~ D i/&:Wff.f~:tf:r\\*=ffl Big Endian, {~fi!!.:hlf.f:liJc:ft~:ff~j(*\"fi o\n~ {~~!JFL:tf:r\\*=ffl~PfJG~li!b~!JFL ( CRC) o\n1:$;$~:r\\*=ffl CRC32 ( Ox04cll db7) , :J1(0:r\\ (1 )it~lL ~~:r\\ ~W\n:tlil{i[i&[jg OxFFFFFFFF\no\n13. 3. 2 LEU~MSS\n;& 24 ~}ET LEU Jj;i!~ MSS ~{~,~,~Wo\n46",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 52,
+      "text": "T/CAMET 04011. 7一2018\n表24 LEU REA MSS 的信息帧\n帧的开始标志\nbi + BE (MA MSG_ID 开始到\nLEN > | cRc 校验结束)\n消息 ID\nMSG_ID 1 默认值.0x80\n年月、有日时、分、秒各占 1 个\nSTAMP | ”|部节(北京时间)\nSTATION_INDEX 1 车站的编号\nSN 4 次报警信息自动累加,累计至\nOxFFFFFFFF 后 ,下一次重新回 0,\n从1工开始\nLEU_NUM 1 LEU 数量\nLEU_INDEX(1) LEU 在所属车站的编号\nLEU(1) 主机状态\n0x00 无效表示 LEU 监测软件\nLEU(1)_ STATUS 1 接收不到 LEU 的状态帧,主机状\nAS AR\n| Oxaa: IE Mf 30x55 :\nLEU(1) | peu(i)_ DEV(1)_STATUS 1 LEU(1)的 DEV(1) RAS\nLEU(1)_ DEV(n)_STATUS 1 LEU(n) &) DEV(1) RA\nNID_ LEU _SW_NUM 1 LEU 软件数量\nNID_SW(1)_LEU(1) 3 LEU(1) &) SW(1) ERR AR\nNID_SW(n)_LEU(1) LEU (1) A) SW(n) S44 RAS\n47",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 53,
+      "text": "T/CAMET 04011.7-2018\n*\n24 LEU ~i!~ MSS 1¥-Jf~.tfi!,~.di(~)\n~JJpg~ :¥1';klj\\ jilt i£\nLEU_INDEX( 1) 4 LEU tEM'H&$Y~i'J<J~%\nLEU ( 1) j::;tJL~~\nOxOO :5[;~*~ LEU .ll\\r~U~{Lj:\nLEU ( 1) _STATUS 1 ~1&/FiiJ LEU i'f<J ~~ ~J!, .±:tJL~\n~*~\nOxaa: .iE 1jt ;Ox55: $!!1:i\nLEU(n)\nLEU(1)_ DEV(1)_STATUS 1 LEU(1)i'J<] DEV(I)~~\nLEU(!)_ DEV(n)_STATUS I LEU(n)i'J<] DEV(I)~~\nNID_ LEU _SW _NUM I LEU ~{Lj:J!(:£l\nNID_SW(l)_LEU(l) 3 LEU(l)EtS SW(1)~f4-Jt&::z!s:%\nNID_SW(n)_LEU(1) 3 LEU (I) i'J<J SW ( n) ~flj: Jt&::z!s:%\nPrivate N ~;E)(:¥f&\n*\n~J! B<J ~ tr-iJ(\nEND I\n/W:iA. -ai :Ox55\nCRC :flt!J@:, it~Ht'Hiil.b\\ MSG_ID\nCRC 4\niiJ END\n13. 3. 3 MSS---+LEU\n*\n25 ~X£7 LEU~:*~ MSS Ef<J{~.~.i*J~o\n*\n25 MSS ~j!~ LEU 1¥-Jf~ .~~.di\nm\n~JJpg~ :¥1';klj\\ i£\nii!!Jl7fMl1ff,~\nHEADER 1\n/W:iA. -ai :OxAA\nLEN 2 ~Jl-jfJ.t(J.>\\ MSG_ID 7f:llili1J CRC :flt!J@:~J;R)\nff-1.\\~. lD\nMSG_ID 1\n/W:iA. -ai :Ox88\nSTAMP 6 ~,Jl ,8 ,B;f,:5f,#~d:J I 1-:¥11d~;?.:B;f['a])\n48",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 54,
+      "text": "T/CAMET 04011. 7-2018\n*\n25 MSS ~~~fi LEU ag{~.~~Jli(~)\n~DP3~ :¥1l::k;J\\ tit u\nRCV_SN 4 )(;f J1L LEU 1ti fH~L@. § r:j:t 8<1 ~Jltff::91J-13-\n*\n$)J'! i'!<J t;5 :fjj; i,J!.\nEND 1\n!11J;:iJ,:Oli: :Ox55\nCRC 4 CRC ~~, it#HtH!l!JA MSG_ID ¥0 END\n14. 1 1i D ;iiji))j\\;\n14. 1 . 1 !lo/1!.!. :ji D\nMSS -T~ml:j X~~~.W: J1H1H? ~ :ltH:Y 1/& ihS\n:1m 1~ )t. \"P , ~ --~lEt: 8<1 ~ :;t: ~ 1i 1=1 ill1:Y\n0\nm,Jl[ty!tl.!:j\n~ MS~IINV'­\nm\n~ iii 1~ .~. o\n#;{;j{~~f~~~\n,ju n rm.ll[\n~~fifM7J :t:1~ ~ .~ lill ~ ~t\n1\n:x. --r x\n~tl , Pf ~ tk :!.f.; m mit Jl[ 1Y!tl ~ 1~ .~. , :!5J fF 1J !I~ !I illi § ~ Jj] ~~ , /fill\n1-T~J:lRo\na) 'L'~~f~-~'\n'L' ~~ ~ ffl r ~ /J 1* M' illi 1~ a 1i lE 1lt o MSS JWJ M 11: :&. * 'L' ~t ~Yi ~ ~\nm,Jl[~tl, ~m,Jl[ty!tl!RJ Ht ]WJ M·I1::&.*'L'~t~Yi~ MSSo\nh)\n~mJl[1Y!tl7F3Ciil::mWf~-~.\nMSS\n~m,Jl[l9]tlJWJM·I1: :&.*~f*¥iiilif~~i9:4itJf3Cfli:mW1~.~.o\nc) ~mJl[iUWmm:ill:f~.~.\n~MitffJWJMtl::&.*,Mftlt*mt ~Mft~fF~~:&.*~~It~*~\n-~ ' g~ ~ ty!lj iJ\\~ 19!tl iJ\\ ~ $ ~ :&. * 19!tl -JJ\\~\n0\n49",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 55,
+      "text": "T/CAMET 04011.7-2018\nd ) ;fJL 1!:\\i .¥ !X€ {Lj: Jl& *%\n~ 19!~ ~\ntll'X :ii ~ , Wrfii !!! :ii .5 ~ .¥ ~ !X€ 14 Jl& :zt>: % 1i. ~ ~ J! .5 , ~ ;fJL JKI 19!~ rllJ\nMSS Ji.:i!1!:\\i19!~.¥~!€t{Lj:Jl&:zll:%o\n14. 1. 3 i1 flli i'& l!.l ~tH~\n:tm:W: MSS 1JMluWi:iE BtiElJ *l&¥U 'L'&E, -}Ajj ~1J:ii~ :±l ~(!{II!,~\n;fJL1J:\\ilYJ~ 19: ~l*l* ~ 1JW 1* l=j:l Wr, 3t rllJ ~;fJLJKI19!~ Ji.;g!J!:ii $iff; ~~;fJLJKI19!Hli\n:i:J:Wi:i£ Bti'EIJ l&¥U 'L'&E, -JA1J;zy_1JJi~ :±l ~(!{!!!, lltBt~;fJLJKI19!~1J!J!JIJ!i\n1*fii~,~~~ MSS !f!:iio\n14. 2 ilflliffi/.X~#;!#tii£\n14. 2. 1 ~tliHiU!ffi\nMAC r ~£-T IEEE 802. 3 li\"f>l(L\nMAC* Ei3 14 -1'-* 1Hli ~, 1 -1'- ~Ji ~ ~ J¥ jtl ( 4 * \"'P) ¥J fJ§: :1JO tE\nEthernet o\n~Jir.5W\n14. 2. 2 [Xi]~ffi\n* ~ o -it ffl IPv4 tJJ. i)( fF 1J 1~.!£i'r ~ 89 tJJ. i)( o\n14. 2. 3 ~~ffi\n:zt;:~D~~#:i!89fflA{tfflUDPtJ].~fF1J#·tJJ.~o\n14. 2. 4 .Eil.lflffi\n:zii:~D~~#:i!89fflA-ftffleJ£~89~ffl~tJJ.~o A~~~-~\n14. 3 89~~;£0\n14.3\n:tiD~jg#tii£\n14. 3. 1 ~jg1¥fitJJ:it~llilflli~~JJ$\n~ D J;i£:Wif¥~1J:r\\:*ffl Big En dian, {E£ii!!:!Jl:f¥*:ftf.bf:f%(*\"'P\n* 0\nJ!1l 1* :fit~ 1J :r.t ffl ~ Yf JL ::>)'di.!?J :fit~ ( CR C ) o\n~~~JYr:r\\:*ffl CRC32 ( Ox04clldb7) , 11(0:r\\: ( 1 )it~ ,~r:r\\: 89fJJ\n:MJ{ii9:1J OxFFFFFFFF o\n14. 3. 2\n{l~UJL.l!{ll9W----+MSS\n14. 3. 2. 1 'L'&E~Jir\n:;& 26 ~~;£ 7 ~;fJL1!:\\i19!~ Ji.:i!~ MSS 89 'L'&Effl ,\\j!, ~ ~ o\n50",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 56,
+      "text": "T/CAMET 04011.7-2018\n~Dpg~ :¥11*1t tNi ~\n~ fF :Mt t'F fit\nHEADER l\nl*:iJ... {i[ : OxAA\nLEN 2 i!!li*.lt(JA STATIONID fF:MlfU CRC ;&@t;!f:Ji!O\nSTATIONID 2 tt'i:J1H~\nm\nr~.~.\nMSG_ID l\nl*:iJ... {i[ :Ox10\nSTAMP 6 ~,jj, B ,H•LJt,t)l~d;'l1':¥11(~~JRHti'EiJ)\nSN 4 Him:¥11\n$9i B<J AA sU'F iR\nEND 1\nl*:iJ... {i[ :Ox55\nCRC 4 CRC tlt@ ,tlt@1i1!!1ll./A LEN fiJ END\n14. 3. 2. 2 3f.*ifk:f1t~{~L~.\n*3f ;}C~*·~~~~-*ff~S~:f1t~o\n27 ~JUE711i&t!L.!Kl:19!~$t~~ MSS ~~-*ff11t~i*l?6o\n*n\n~m~~£~-M~~-M~ffi••••~\nm\n~Dpg~ :¥11*./t j£\n~fF:Im~iit\nHEADER I\nl*:iJ...{il,OxAA\n~ * J3t ()A STATIONID fF M; fiJ\nLEN 2\nCRCtlt@~:Ji!O\nSTATIONID 2 Y'.i:JR~\nm\nm.~.\nMSG_ID I\nlkiJ... {i[ :Ox20\n~,Jl, B ,at ,:)t,~·~ d;' 1 1'*\nSTAMP 6\n11 ( ~~ffi At !'BJ)\n51",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 57,
+      "text": "T/CAMET 04011.7-2018\nm-\n~DrJ;j~ 5f-l'-~13t ~\n1~)CJ¥ 7u-%, tJ:J :llft iti :;~;J 1 , 4!t 7X 1ll\n)C 1& tX ~ 1JO , ~ it .3?: OxFFFFFFFF\nSN 4 Fo,r- ?X£AAb\\ 1 Jt:llft~MC*~\ni\\'!ii~J)!-IfJJt::kT- 1024 5f-iJ ,:51-§89~~\n1\\'5§ B<J J¥7u %1JH~-3r0\nALARM_NUM 2 1~1}.~,~\n1~1}(1)~~\nALARM_ TYPE( 1) 1\nOx21 :i'Lii~ffMHIH~~\nALARM_DEV ( I ) 1 *~19:*\nALARM_STIME ( 1 ) 6 1~W:ii:1:Bti'i31 ,~):\\jl'fj STAMP\nALARM( 1)\nALARM_NTIME ( 1 ) 6 11P~'tt!C~ati'i31 ,~J:\\11'11 STAMP\n*1HI)i:k~\nI\nALARM_STATUS( 1) 1 OxOO :lE'!if\nOx55 :\"I&IU'ii\n1~~(n)~~\nALARM_ TYPE ( n) 1\nOx21 :i'Lii~ffJI:1HIH~~\nALARM_DEV( n) 1 1~~-&*\nALARM_STIME( n) 6 *~ii:1:Bt18J ,~J:\\11'11 STAMP\nALARM( n)\nALARM_NTIME ( n) 6 1UHfx M Bt IBJ , ~ ):\\ 11'11 STAMP\nt~~(n)i;k~\nALARM_STATUS( n) 1 OxOO: lE '!if\nOx55 :\"l&ll.fi'i\nPrivate N §)£)(5f-~\n$J)!B<J~:JR1,f,i.J~\nEND 1\n!ilk iA {ti : Ox55\nCRC ;fit ~, ;fit ~ fi1 00 b\\ LEI'i\nCRC 4\n~U END\n52",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 58,
+      "text": "T/CAMET 04011.7-2018\n14. 3. 2. 3 t!H~:i:fs,~,\nmm:lifs,~, 8{] I*J ~1'11% = gfS~ ,iiitt ~t vn: HE~ ,tttiii ~tff o jt!=f gfS~,\n~ ft It rl'it HE ~ , ~ :ff !!& ili5 F 1: Bt , JJ;i 1ft!~ § .3:: 'it. :i! !!& ili5 ~ MSS o !tiL iii It ff\n:00:, JJ;i~~ )WJ :M ·11: rflJ MSS 'it.:!! - {j.:§i':ff!j;JLiii ltff 8{] !J&i/i5 o\ntE MSG_ID r00./E5( TYPE_ID, Jfj r IR:)t:Ji!::INJ~-1'-~~ B{]!J&ili!f o\n;& 28 ~J..!ET1~tJLJJ;ijft!~'it.:i!~ MSS B{];f~H~:S:I*J~o\n*\n28 ~;fJtll{iW!IJ~~~ MSS 1¥J;f~tll.lA~ru\nTYPE_ID\nDLJY_INFO\nDCDL_INFO\n*E 6 :rgfS ~,iii ttl~~~\n,.. ....... __._.\n.1\n.\n'-!J& il *i!i§ 'it.:i! - 1'\nmm c\n19: 8{] :S: , Yr le:A•:llfl!'' '1!!~~~ 7r. i9: ff% 19tl :tm\nlHft ff%)\n0\nxtriiift~t mt :i! iii ft ij] f'F ik !!& ' tE\nw:\nANALOG( n) r!~:1JD ~ B{]mm:fi, I*J ~ 4\nt-'¥ 1H:V! 00\no\n~rtttiii~tffmm•JJ;r~.~~tffm~*B{]fflA.~f'F~§.!E5('¥~\n~1*-&!ffl\n0\n;& 29 ~.m.!E T 1~VLJJ;r~~'it.:i! B{]tfLiii ~tfft1H~ili'1 .m:r.tlmr\n0\n*w\n~m~~~~~M~I¥J~m*ff~~•aM\n~Di*J?@: f ll-lf!¥ WI JjS\n$Jll3f Mt ;j:jf, ;G;\nHEADER 1\niiJ!CiAffi:OxAA\nLEN 2 r~fl-KJJ!: ()A STATIONID 7HUIJ CRC tlt®~s~O\nSTATIONID 2 fiHIHil3\n53",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 59,
+      "text": "T/ CAMET 04011.7-2018\n~Dr*J~ ~1'Hff![ #a :1£\nm.@. m\nMSG_ID I\n~1-A-fi! :Ox30\nTYPE_ID I DATA TYPE\nSTAMP 6 1f:,.FJ ,B ,A•L?L#~Ci 1 1-~l'(~tffiAiJ'BJ)\ntR:>cff.~tl% ,f}]fr#{i!;fg 1 .<RJ~XtR:>c.f&J?;.:~j]fJ '~it It\nSN 4\nOxFFFFFFFF Fn,r-~lli:~b\\ l lffr#~jm\nANALOG_NUM 2 mm:fil:.~.~\nANALOG(!) 2 mmiil:Cl)~#dUHJ. lO,l)!{lf::V\nANALOG(n) 2 mmiil:(n)\nPrivate N §J.E)(~BI:\nIID!ii¥.1~J'.Rtf-1/~\nEND 1\n~1-A-fi! :Ox55\nCRC 4 CRC fH~ .~~ti100b\\ LEN !IJ END\nm\n:mor*J~ ~11-!ff!( :1£\n®Jr 7f :tm tr-;[;\nHEADER 1\n~i-A ffi :OxAA\n~_di-jff![(b\\ STATIONID lfAAitl CRC\nLEN 2\n~~~J'.R)\nSTAT!ONID 2 lilitR~\nm.@.\nro\nMSG_ID 1\n~i-A-fi!:Ox40\nTYPE_ID 1 DATA TYPE\n54",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 60,
+      "text": "T/CAMET 04011.7-2018\n~r:Jpg~ ~11-L~./t tNi :)£\n1f,J!, B ,At ,?j-,~~ ~ 1 -1-~11Ut\nSTAMP 6\nJl'i:At!EiJ)\n:JRxl¥~tl%,fJ1:1frl{i[1'11 .4IJ:l'f.::JRX*\nSN 4 {'}.:~1m , ~ tt 3?: OxFFFFFFFF Fn , r -{'}.:\n:li tiT M. 1 7f 1m~ )JO\nl9:~~%.*~W:~!!H1~~ n -4'-19:\n~B<J pg~ CM 'f ~~, tlti Vlklt!ft ;~JfF It!\nITEM_NO 2\nVlf.w~ .;J;t~~HfU!tPT ~~f!!!:m ,f](P.W!~c\nen\n.'R * e<J J®! 1¥ PI )\n1:j::,J!,B,Bt,?j-,~~~ 1-i'-~l)(::lt\nSTART_TJME 6\nJl'i: at !Eil )\n:i1!ft~:t#:/Jfiil\nO:%:f.il:¥U~UI\nI:~ {.il:¥U%:{.il:\nDIRECTION 1 2:%:UI¥U%:f.il:\n3:~f.il:¥U~f.il:\n4:%:f.il:¥U$J!J!!f.il:\ns,~f.il:¥U$J!J!!f.il:\n[llj~~~\nCURVE_TYPR I O:~VIf.\nI : 1i:VIf.\n[llj~~iilC:im:W:~1i:VIf.,Jj[U1'JI. :im:W:~\nCURVE_NUM 1\n~VIf. ,Jj[tl1'J3 ·*{X~ A,B ,C .=:;ffi)\nPOINT_NUM 2 *=1:/t~~:ill:( *~.'~fi<JAti'EiJIEiJI!illi :40 ms)\nCURVE( I) POINT( 1) 2 *~-~( 1)0'/-7'!~~~ 100,.if!UI:A)\nPOINT( n) 2 *~-~(n)(~~~~~ 100,i(J.f.il::A)\nPOINT_NUM 2 *=1/t~~:ill:(*~-~B<JRti'EiJ!'i!Ji!illi :40 ms)\nCURVE( n) POINT( 1) 2 *~-~( 1) (~~~~~ 100,i(J.f.il: :A)\nPOINT( n) 2 *~-~(n) (~~~~~ 100,.if!UI:A)\n55",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 61,
+      "text": "T/CAMET 04011. 7—2018\n表30 微机监测发送给 MSS 的道岔电流信息帧( 续)\n接口内容 | 季节长度 描述\nCRC 4 . Re ue FE a A MA 到\nSWITCH_CNT\nEND | PAE br i.\nBEIM AL 0x55\n2231 WEE 0 RL Ze ae AY OL A EB ae te feo UB\n表31 微机监测发送给 MSS & BA aes Bh\nfe VIA FE 3 LC Te | titi Zh\nWOE at bys abs\nIEEADER | et ih\n» OWETA PL ONAA\nLEN 2 pi IE CM STATIONID 开始到 CRO FE 904i fe )\nSTATIONID 2 | 站报凶\nMSG_ID | | PCL ID, BRIA GT -0x40\nTYPE_ID DATA TYPE\nSTAMP 6 Se) TT IM op Pb ld ec CAE ae Td)\nGN 4 Ho SCID EL 1 a He SK BEIM. HE\n加 i} 38 OXFFFFFFFE 后,下 :次得新从 1 JF a Be\n. He ter fit des 1H RO ta on 个设备的内容\nITEM_NO 2 | (对于绝缘 edt att 2 ee tanta SE DE Pe BED te\nay LA AS (i Pe MEE PE AS YT FU AY +)\n| ob AN of 2% fies MO Aco br fA COP He HE BR\n| | 示绝缘良好\nPrivate N Hoe x Fe\n56",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 62,
+      "text": "T/CAMET 04011.7-2018\n:moi*J~ *~*It Wi ~\n~ ~ ~* f;jd,J~\nEND I\n~iA {fi. :Ox55\nCRC 4 CRC t<,(~,;flZ~tQ;Efi])A LEN ¥1J END\n14. 3. 2. 4 1J&tJLJJ[iYJU.¥t!E?iX14AA:<$:%\n:;&. 32 ~1.~ T1J&tJLJJ[iYJU2t:i! B<JAA:<1>: P'1 ~ ,:ms:t:!mr o\n*\n32 ~l\\UJt 1l{f WI~ ~ ~ ~ MSS a9 1t& ;lti: 1l§ .\\lt ~Jli\n_.,\"'-\"\"-\"\"\"';fi~~\nHEADER\n:OxAA\nLEN\nSTITIONID\nMSG_ID\nSTAMP\n:jjl:)c !'¥ :91J-£}' fJJ Ml {fi. jg 1 '\n&~:Jllx-fiX~M<l:IJo, M<ltt~\nSN 4\nOxFFF'FFFFF )§, T-~ ![ ~\n)A 1 3fM/ ~:IJO\nVERSION_NUM 2\nDEVICE_ID ( I) 2\nDEVICE( 1)\nDEVICE _VERSION ( 1) 4\nDEVICE_ID( n) 2\nDEVICE ( n)\nDEVICE_V ERSION ( n) 4\n57",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 63,
+      "text": "*\n9=' ~ :ViX\"flfitr. :iA ~:iiii ~~ ~ f*t~\n•*~m~~ ¥~~-~~*~ft\n~mtJ~~( CBTC) Ji~Ji~:tiiJ~m\nm\n7 'lm*:fi§~*T~~~£l~P3t~~~( MSS) fBl:tiiJ\nT/CAMET 04011. 7-2018\n*\n9=' ~ ~ :iA :±l lttH± :ff II&% i'\\J :±l ~ ~ fr\nc nwm:\n1ooo54 ,::!~ffir!JWlJa 12Lt:l:'ti: 8 % >\n%i'\\J ~:l:Jl:: http :I/ www. tdpress. com\n'*'\n::!~ffi .Qlt En .llltl:ff 15&% i'\\J t:n .IJliJ\n3f:2jl:: 880 mm xI 230 mm 1132 t:n'ltE: 2. 25 ~~ :62 'T\nrx\n20 19 <¥ 5 Ji ~ 1 ~ 20 19 <¥ 5 Ji ~ 1 t:n liltl\n~%: 15113 ° 5733 ~1ft\" :20.00 5I;\nll&t.ll.PJT~ ~t.ll~'~\n}LJ!l;J~-t!kill!l&OO~, im1f fniMl!ll::lil:fiiJ/ffi, \"@ .. Spt;:0PJ £11\"$11Hdlll:t!i<o\n£11\"$ f!! ii5 :ll!t(021 )73 174 'rtf ( 010 )51873174",
+      "source_file": "T_CAMET 04011.7-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第7部分-信号各子系统与维护支持子系统(MSS)问接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

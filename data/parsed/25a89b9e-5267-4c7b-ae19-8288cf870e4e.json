@@ -1,0 +1,725 @@
+{
+  "doc_id": "25a89b9e-5267-4c7b-ae19-8288cf870e4e",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "He fe A Be Fe A Le] Le] Be ee HE\nGB/T 20438.2—2017/TEC 61508-2:2010\n(LAF GB/T 204138,2 2006\n电气/电子/可编程电子安全相关系统的\n功能安全 第2 部分:电气/电子/可编程\n电子安全相关系统的要求\nFunctional safety of electrical/electronic/ programmable electronic safety-related\nsystems—Part 2: Requirements for electrical/electronic/ programmable electronic\nsafety-related systems\n(TEC 61508-2:2010,IDT)\n2017-12-29 发布 2018-07-01 实施\n中华人民共和国国家质量监督检验检疫总局 , ,\n中国国冢标准化管理委员会",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\nA 次\n3 定这和痊胸讶 ee\n6 切能安伞管理 .ee\n7.4 EVSE/PE A BRAGS EL LG HER 1\n7.6 E/E/PE 系统运行和维护规程 cee cee cee cece tee cee eee eee ree rse ssn eseere seers nreerserserstessessenarsaesaes 26\n附京 A CRD FEB REY E/PE SE 4B AS SCAT AR A fo TARTS PAC PED creer eee cee teres eee 30\n附录 B 5规范性附录) | EYE/PE 2k @ RAM A A el — FE tir FAS Ped) BP ae Ha ns\n1S Wise AE RY AY Be SILC BT PK EY E/E/PE 安全相关于系统,网 7.1.4.2.3) eee 15\n6 Gh ERA AY ey SILC RA PRE OX OY AA) E/E/PE 安全相关于系统.见\n|",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n\n表1 EAEAPE 系统安全由命周期实现阶段概述 ee 7\n2 A 类安全相关组件或子系统执行安全蕊能时的最人允许安全完整性等级ppp 1\n表3 8类安全相关组件或子系统执行安全切能时的最大允许安全完整性等级pp 15\n去A.1 在虽化随机硬件失效的影响时假定的或在排导安全失效分数时要考虑的收障或失效 ...... 31\nFE AB BY SA PES FB wee cee ee cee ne ene cee cee cee ene cee eee cen eee nen nen sen pan nen can cee tne saecns ons enesrserseneaseceese 35\nFEAT LO) RG AFB COR BRIBL AF) corer cer eve cee een cee nencnenanerenenonenen cer ant cen see cenane sense serene rernen 36\nFe A 由源 ee\nFE ALLO FEES CBE TFB) wre eee eee creer cee cee cee ern eee neeaeeaee cee ran rar nanearerenrersesrearearsaraarsersersaesaee OF\n表A.15 ee oe TR ogee ad Rep OR: 2k ie ees ea, oe\n表 A.16 ee ot ap SA) Al Ae 22 cess OE a, SIE OR\nFEAL? | PAF BE NA BE SEP PRE OAD BG ORF UP wn nee cee ee cee cee cee ree ee nee nee ene ens ene crearearecrsereeeeeee 4D\nHALTS FS) BE See FE A AE AL Ay BY EE coe ne ene cee cee cence teen ten nee nes nee enseeeeesseetaasesesenseee ADP\n#B2 te E/E/PE RSE MIP RB BE REL A MRE AR AUGER CL 74) cere tee eer reeeeeeeeee 6\n胡B.3 TE E/E/PE 3S 95 WRB EE we ee HRD EER APR UL 7.5) ee 7\nBA fe E/E/PE S32 65 AUS YB Wt BSR Ae IL eR RL, 7.67 teers 7\n表 0.5 TE E/E/PE AS AGA BY EE 8 iE eB OPE RATE ME CUB, 707) ee 4\nFEEL) EDM Bue BUY AR APE BI cee eee cee eee tee cee teeter cer enecen essere ete ter arenes ter ereersornerrersarrrteeesterees 59\nAE? pike Bure ADEE AR ATE te Ceca ee arenes cee en enna nea e nee Ree en nae narra eee at eesens ces cneenesesareaeearaaea 651)\n#F.1 ASIC ith AlFt Aol Be] ee a A ee BY Se ANAL a el A ell BCAA\n\n#F.2 ASIC Mii Sed Fe ee eS] A ee ae AN ATR HY Se ICC PPG A/PLD/\n\n|",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "GB/T 20438.2—2017/IEC 61508-2;2010\nBU 言\n\nGB/T 20438¢ 1 4/ 中了7可编程电子委全相关系统的功能安企》沙为七个部分:\n\n一一第2部分:电气/电子/可编程电子安全相关系统的要求:\n\n—— SB 3 音分:软件要求;\n\n一一第4部分:定义和缩吵请;\n\n一一第5 部分:确乍安全完整性等级的方法水例;\n\n一一第8 7B4; GE/T 20438.2 Al GB/T 20438.3 的应用指南;\n\nAy 7 ADP A ALT\n\nRia HY GBT 20438 的第 2 Aba,\n\n本部分按照 GBT 1.1 2009 24 4 BY AU A ,\n\n本部分代替 GB/T 20438.2 2006CH T/T / OP REH KARR RRS 种2 部分:\nHAH fa 2 BSH SE A SEY RD 与 GBAT 20438.2—2006 相比.主要技术变化如下 :\n\n— if ins ASIC FAA tra AOA 3);\n\n— SIN SAA EZ ae Fe CAL Bae DD.\n\n本部分合川翻详法等同采用 TEC 61508-2,2010¢ 76/1 7/0) APR TE REM TARE\n全 第2部分: 电气/电子\"可编程电子安全相关系统的葛求》。\n\nARB) FAH ALAR TR ee IE\n\nAS Fb ot Wl) eB alk et Be at Fe hl AL es EC RAR a 22 (SAC/TC 124) 归口,\n\nAN fb oh dt ae Ee ok 1% AA SER ATR RA EE A AG eH td TR ABR IR ZS) LK\nay Kk A sl it et So CPR ee) lk A of Ai ee Pe be Et A YF ee [程有限会本 a\n姆此日动化5中国)有限公司.王门子(咎国?有限公司、 LeU ePRA i.\n\nAPRS EB A PAS UU ET ee tl RE PR RA eR Pe fe\nabl, PH Se .同纯杰 RU ERA I I Le.\n\nAR BaP BAR ee HE AY RAR AR A TAL\n\n—GB/T 20438,2—2006,\n\nl",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n引 =]\n\nUN) HEL“ FU a IT Pa AY Fe Se. EE EL Be A TE THE. LAT RL AS a BY HK\n统5 + A det PO] Sha at HA A hv eT] TPE BS ie. ste ee eh ATES\n能。如果杰安全并有将地全用计算机技术,有有关雇生音在安全方面有充足的指导并据此做册决定是二\n\nGB/T 20438 针对几电所和?或也于和7 或可编程也了于(CE和EPE)组件构成的.用来执行实全功能的\n系统实伞生节周期的所有语动,提出了一个通用的方法。采用统一的方法的日的是光子侍寻所有以电\n胃基础的实企相关系统提出一入一致的.合理的梳术方针。主要昌林匹促进基于 GDBAT 20438 AB Se\n准的产抽和应用领域国家标准的制定。\n\n注 1: ff BBM eal SFE GBT 20438 FER AE in A Sas aE Oy fall > CA Be RL L203).\n\nfei Sa PP eT AAR COOLER RRA US a BY Se FH\nSTK ASK RIE ee. AMAA ASR EE AR BE SO eT PA 2 Et ee\nfei dh Pe gE aa) ERS ERIE ALARA Ole. Ak GB/T 20138 fe ATE\nHE ay Sa Fe a CEE / PE) 4 Ae RRR A te HE PER PER A ETE ER\nAR FB) ee A Ke FS PE AL OT A EEE\n\nTE AP ie FD Sk RE a ee EB foe BA J Be. BY RE A AS A) AA tt A ie FD As Td\nE/E/PE 4 ah Si, MT RET RE EY Ie AY aR Ee FY SOK OEP ee AY PT,\nGB/T 20438 #6 Ay SEAR OY ZEAE DY i I J) Sa a ep PE hl EF A EE TT ke ETA\n\nGB/T 20438\n\n考虑了了当合用了/EPE Ae TPE A RA Aes aa LE/E/PE 系统安全\n生人党周期以及软件安全生人着周期的各阶段(如初妈概念.整体设计、实现 .运行和维护到退和后);\n一一针对发速发形的搞术,建立一个足售健全有广泛满足栗来腔展而求的枉织;\n—— fi & EREAPE BE BEY Pe dk Al ie HY Sk FE a EL es FE GBT 20438 BY FE\nSR i A he TF) St ig Fd ae ts TE Bl] EE eT SA eT it BT ee BPE CQ\nAS ER Aa es RE ee PP Hi\n一一为实现 E/E/PE ‘2 FH SOP a YE ea ae ET Sa “2 EEK AL AE\n—— i HH gf ad Se eo EE Ee oe A AE AL Pe PE\n一一引入安全完整性等级 ,出于规定 E/E/PER SH RAS RAT 2 ee hy Be SEs\n注2, GST 20438 BEALE EE ee EE ER BOR A A a ESR, OE\nBe HE > — fp BE T- JU ae te RE 2S AEE AK oo 9\n\n— #7 f E/E/PERSMK ASAT Bete YU eK ee A. poe HE ie AR [a] ee ae HE OA\n建立了单一 E/E/PE ROARK ASAT REDE. TRA RA POP EB i BE E/E\nPERPHEARMRIAAE:\n—— fM-#2 5 es FP BATA PR PBR it se ae ORT A EK 1 F\n—— Thy ESR ARE bias fy tec PP BR a ae ke foo Be A RE eA\" h.\n\n注 3. F— E/E/PE ‘2 Ga AR Re A a\n\n4, TUR ROHR KT AL ee BE en EN. TI a aT 2 ae He eC hl\nAn UY Sy ae P-L A et) EL Rae AE eA BK\n\nih",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "GB/T 20438,2一20177IEC 61508-2.2010\n基于工业实践中大取的经验和判断,谈定了避免和控制系统性故障的要冰。即使发生系统性\nRRA OS PE :般不能其化,但 GB/T 20438 允许为 :个特定的安全功能和伐出二明,即九果标\n淮中的所和要求都满足,认为与安侍功能相关的由标兴效量已达到:\n一一中入了了系统性能力,沪能力胡有明一个组件为沽正规定的安全完整性六级要求时,系统性安全完\n一一采用多种夯理、技术和措施以实现 E/EAPE 安全相关系统的切能安全,位没丰明风地个用拓\nACES EK ABE. PR TT. SO SR Be we tae AE os HE HEB Se ae ERY BR WS ee AR\nBP ET Be ae AT J EO A ea eT PY",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "GB/T 20438.2—2017/IEC 61508-2 .2010\n电气/电子/可编程电子安全相关系统的\n功能安全 第2部分:电气/电子/可编程\n上电子安全相关系统的要求\n| 范围\n1.1 GB/T 20438 的木部分\na) FECHA RY . hv fo 4p FRA GBT 20438.1.0G87了20438.1 fe fF RES OW BIA HEAL,\nb>) EAT: GB/T 20438 1 EXNRSHRAR BERR RRB OSL TT — ae Be Ee\nLy AL 4\nc) GBH E/E/PE £ Se RSET AA AL COSA RR ah TAT a AE nt tA)\nd) ALE 7 Uday HEAR GBT 20438.1 2 RY EVE/PE Roe ee BALI E/E/PE Fo i AP\nHe 222k A eM E/E/PE 4% sc EME BK eH MM) JP Rin E/E/PE RAMI BRAC:\nc) ala SC E/E/PE Re MRARRN ETA dl othe CR ae E/E/PE RS eae oe te\nJEU) ECT SS SE fo 7G oy OE OR UT BORE GB/T 20488.3¢( WR] 2~ (8) A EER\nel ye FTE) LA see Oe PU FS il) AL BE A ee BY de A tn ie TE]. He) a ye PE Se\n) We id E/E/PEZS@H KARNES RU RRB RMA a\nge) 不征用于 E/E/PE & PHRASE TAIPEI AN BE OGB/T 20438.1 中给出。\n{UZ RBS APR AK E/E/PE & SW KBE Mie ty AEP Ee PY EY te\nh) 规定了站EPE安全由大系统过行各种修改的和疹方应满正的要求:\n注 1: Sab op ee PE I de A Bes A eB Ae OE ek\n注 2, Pi Aba+-4 人BT 20438.3 CRW 4,\nD AIHW TFS IEC 60601 的医疗设备 .\n1.2 GBYT 20438.1 .GB/T 20438.2 GB/T 20438.3 Al GBRYT 20438.4 SER BY ee EE. MRE A GE\nt) ARS 7e AS E/E/PE 24a © BKC UL GB/T 20438.4—2017 的 3.4.3) {LUPE Ae HE SHE. TER\n委员会可以在 IEC 指南 104 Al ISO/IEC 指南 51 MES PF ll ae aH REA AB HY, GB/T 20438,1,\nGB/T 20438.2, GB/T 20438.3 Ml GB/T 20438.4 th fE Ah ee HERE. GBST 20438 AS FE lo)\nTHRE Bid HW Te IEC 60601 系列指导下的医疗设备.\n1.3 各技术委员会的南什之一.是在共标准的和起草工作中及可能使用基础的安全标准。在本部分路,\n本基础史全怀淮中的要求、 测试万法或测试条人忻只丰和在这些技术委员会起时的怀亲中已明宵中用或也\n注: AT A BR AS Bg ALI. eA EPE BC RAS. PAG A Ae A er Pf\nAH OG BR ee SP BY.\n1.4 Fl Ra ST GB/T 20138 By ee Hee A PE PARE A EVE/PE 安全相关系统的功能安\n全过程由的作用,。,GB7T 20438,.6—2017 Oolttae A FER £ GB/T 20438.2 Al GB/T 20438,3 GY REH,\n]",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n技术要求\n第 1 部分 第5部分\n| | AIMEE Reet Cede AEE. oe Steet .\n! Xo ERA heat\n! 7.1一7.5\n第 1 部分 其他要求\n将安全要求分配给 PEPE 安全相关\n系统\n7.6\n: . 第4部分\n| 定义和缩略语\n| 第1 部分\nE/EPE 安全机关系统的系统安全要\nlate . 第1 部分\n. ee\n! 第6部分 第 5 章和附录\n第 2 部分和第 3 部\n分的应用指南\n(|) 第2部分 | | 第3部分 |\n1 | j BEPE 安全相 i 安全相关软件 第 1 部分\n第了 部分\n| 技术和措施概述\n第 1 部分 第1 部分\nE;EiPE 安全相关系统的安装,调试 TARE se\n} 利安全确认 oh 8 Bt\n. 7.13 87.14 .\n: 第 1 部分\n| | ETEPE 安全相关系统的操作、维护、修理、\n修改和改型、过役或处轩\n7.15一7.17\nMs\n图1 GB/T 20438 By SHE ae\n?",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "GB/T 20438.2—2017/IEC 61508-2:2010\n2 规范性引用文件\n\nP列文件对于本文件的应用是必趟可少了鸭。凡古注日期侈吕用文件,反注日期的版本运用于本文\nfF. 凡是不注日期的引用文件,其最新版本(包括所有的修改单)适用十本文件\n\nGB/T 20438.1一2017 电气7电子\"可纳程电子实生相关系统了的功能安全 Bh 1 Abah: — PR BOK\nCIEC 61508-1; 2010.1IDT)\n\nGB/T 20438.3 2017 MASE S/R EL CR CHARA AER 8 ROP RTP BOR\n(IEC 61508-3; 2010.1IDT)\n\nGB/T 20438.4 2017 HAS U/ TH 7 9) SEL SC ALAR AR SET He et Ts me A AT\niB CEC 61508-4: 2010. IDT)\n\nGB/T 20438.7 2017 HATS H/o SPH FRO RSE SS 第了部分:技术种措施\nHeike CIEC 61508 7: 2010,1IDT)\n\nIEC 60947-5-| (RAC Se ARE HH 8 5-1 BaD RA Ke 机出式控制\nAO ee Co #6 « Low-voltage switchgear and controlgear—Part 3-1;:Control circuit devices and switching el-\nements—Electromechanical control] circuit devices)\n\nTEC/TS 61000-1-2) TRREAR ATE CEMC) 3 1-2 rib oP A Ca TT 8 SE 0 TA lL Hak SR\nae I DE He SEW HE (Electromagnetic compatibility 【EMC 一Part 1-2: General—Methodology for\nthe achievement of functional safety of electrical and electronic systems including cquipment with re-\ngard tb clectromagnetic phenomena?\n\nIEC 61326-3-1 a AIRS AI HR PPR OR 3-1 BRSP RIT REMRR\nSAU TT OEP AT HE SFDC RR CCIE RGD BAU ee ee ok a lh AW C Electrical equipment for\nmeasurement. control and lahoratory use—EMC requirements—Part 3-1;I]mmunity requirements for\nsafety-related systems and for equipment intended to perlorm safety-related functions (functional safe-\nty}—Creneral industrial applications)\n\nIEC 61784-3 开业通信网络 行规 各3部分:功能安企规场总线 HMA Re x\n(IEC 61784-3, Industrial communication networks—Profiles—Part 3; Functional safcty fieldbuses—\nCreneral rules and profile definitions)\n\nTEC 62280-1 SUB 2608 fri fri PR haps EA Ae a AR DY ee A\n(Railway applications—Communieation. signalling and processing systems—FPart 1; Salety-rclated\ncommunication in closed transmission systems}\n\nTEC 62280-2 Mi fa AR 2 TB oP IT TE ha A Se “eR fa\n(Railway applications Communication. signalling and processing systems Part 2: Salety-related\ncommunication in open transmission systems IEC Guide 104,1997, The preparation of satety publica-\ntions and the use of basic safety publications and group safcty publications?\n\nIEC Guide 10421997 Ze Ses Ay a hat BH A Se ae NY de A ee ITY ee Yd ST)\n(The preparation of safety publications and the use of basic salety publications and group salety publi-\ncalions)\n\nISO/TEC Guide 51,1999 #RESCHAR 将安全内和容纳和标准的指南(Safety aspects—Guide-\nlines for their incluston in standards)\n\nEN 50205 9 FF oe ill 2h AB GR Se me) CAL OK BE IED fh oC Relays with forcibly guided ¢ mechanically\nlinked) contacts)\n\n3",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "GB/T 20438.2一20177IEC 61508-2.2010\n3 定义和缩略语\n\n(DB37工20438.4一2017 AeA MAS eT aA RS.\n4 5 GB/T 20438 的符合性\n\n本部分时 GB/T 20438 BORE ee Se EEL G/T 20438,1—2017 的第4 ee,\n5 文档\n\n本部分对文悄的要求 PRL GB/T 20438.1 2017 的种5音。\n6 功能实全管理\n\n本部分对功能安全管理的要求,详由人BT 20438.1一2017 的第56音,\n7 E/E/PE 系统安全生命周期要求\n7.1 概述\n7.1.1 目的和要求;概述\n7.1.1.1 7.1 BUR E/E/PE ASE RAE tp ad BE BBY A BY SEE OR\n\n注: 整体安全生命周期的1的和要求以及标准结构的简述在 GB/T 20438.) hb,\n7.1.1.2 对于EPE 系统安全牛命周期的所有阶段.,表工纶册了:\n\nm SIAZIM AM;\n4 iy Be AY Sa Fal\n\n—— # lity Ee Ay dt ok AAA,\n7.1.2 目的\n7.1.2.1 7.1038 TPAHWBD ARS AM ew SIEI EYE/PE ASE SEAMS oe. Ss\n现下EPE @ CHK RS I EES.\n7.1.2.2 7.1 PROP Ret OE/E/PE RRA RAR E/E/PE 安全相关系统切能\neA AT fA Be A,\n7.1.3 ”要求\n7.1.3.1 JSR PEW ARA GB/T 20438 ay E/E/PE #0 “07E tp A) BH QI 2 Aan. Te ASIC Bett cul\nGB/T 20438,14—2017 ff) 3.2.15) ASIC TFA4 (RBI) :个详细的六模型如图3所水。如果采用其\n1h EYE/PE 系统安全后重间期或 ASIC 开用牛人向间期,则席作为巧能实伴活动稍理的一事外5(见\nGB/T 20438,1—2017 第6章)加以说明.并应满足人BT 20438.2 所有亲款的日的和要求\n\n$61. GBT 20438.2 Al 全2T 20438.3 之亲的美系利范园也图+。\n\n|",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "GB/T 20438,2—2017/IEC 61508-2:2010\n$2. ASIC ATS iS Te HA, GST 204138.3 EE ie Pea KE RE VE, VE BOR HC.\n“Tay BET TS Aap Ce i Cb a A PRE Ek ES Pa ae Oe AP FE, ASIC Gil Caneel 3 rao mH AL\ni WA, ee BR SH ASIC Bla irae ASIC QYy ASIC IR ARR. OVE\nAIM AS tt BRST ah ba AY aD A JP fee BSA ne Vd A 2 a. Se AR ed AE\nmM, sha hoe OE te BR RE ee te oe a ASE! ASIC 验证来验证代码符合相应阶段的设计。托何 -\nJE AQ oR abn] ge 38 (RAY ae ae. Be ee CEM SF EYESPE 安生机关系统后 ,确认 ASIC.\n7.1.3.2 JRE? Ae WRC OL GB/T 20438.1—2017 FUSS 6 BO! E/E/PE 系统安全生命周期的\n各阶自并行,\n7.1.3.3 E/E/PE 系统安侍生命问期的特个阶段莉应根据务阶段规定的范围.输入和输出(1岂胡1划分\n成相诬的基森酒动,\n7.1.3.4 除非判定为是切能安全汪动管理的一部分(参抑 GD下 20438.1 2017 BYOB 6 AE). eM E/E/\nPE 系统安生生命周期的每个阶段的输出部应建立文档(做抑 CGBT 20438.1—2017 AY SB 5 AP),\n7.1.3.5 E/E/PE 系统安伞生命周期的每个阶段的辖遇部应条人台各阶段规定的日的和归涛(大 了.2一了.9)。\n到2方性 10 BEPE 系统安全生俘周斯【实现阶段)\nKiE/PE 安全可\n头系统 EEPE 系统设计要\n求规范\n实现《见\nREJPE 系统安\nE/E ar AA) ErpF RAE EIEIPE 系统设计和开发\nGB/T 20438. 3)\n| C/E/PE RSE. in.\nSte ARP\n~\n每个 LEP ES!\n相关系统的一个 见图2 方框 14\n| E/E/PE 安全生命\n| : WA 2 WHE 12\n341. BYE GBT 20438.6 2017 CORR at A.2b).\n$2. PAR BRT eA PE ABP EVE/PE BME Pe AEB. sR EYE/SPE 系统\nfe Us fi AQ eR (dp ee CGB YT 20438,1— 2017 Pi 2 Word 12~ 16) 4 4% EYES PE ‘ah\n图2 E/E/PE 系统安全生人个周期(实现阶段)",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "GB/T 20438.2一20177IEC 61508-2.2010\nASIC 确认\nFRRPF HERE ASIC 安全 -II = 经确认的\n全要求规范 要求规范 ASIC\nLL/PL => ASIC 架构 | JOMEA\nASIC 设计 模坎集成\naren sesteesttsssassssutssastsssastssusssssusesesssattssssastesteseuseee ast\n综合、布局 布局后从\nalee 本 7\n线条\n一w\n3 Ag%lC 开发生命周期(Y 模型 )\n本部分的范围\nei ee BR Mitt de a oR at\n第3部分 可篇程电子厄件 非可篇称硬件\n的范围\nmre\n人 BR AIR De 可编程电子设计和开发 Eel PE A\n开发\n图4 GB/T 20438.2 4 GB/T 20438.3 的范围和关系\nh",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n表 1 REAEAPE 系统安全生命周期实现阶段概述\n站全让利同期阶段或活动\nBe Re FUT 4:\n图>中的 Bais 7, Fl ety ih A a 1\nte hi Hy aS ik\nAes\n1. ] EFES/PE # | MSE SP ESESPE 2 OESESPE | 7.2.2 EFESPE # & Z| ESESPE 系统设计此站\nSei ipseck | ARS Nii Sek. 安全相交 42 Hook Al gt CUAL) A aa fat EYE/PE 系\nA ay qq fT eo A ALT. FRE GBT 20438. 1—| SI We Ray\nCul GB/T 20438, 1 XXX Yt 7.10\nPOF WI 7.10.2)\n10.2 E/E/PE # | Rl E‘E/PE 安全相关 E/E/PE | 7.3.2 EfE/PE # #& @/E/E/PE ‘# 4 [0G\nSc fo PATA | FRC eh ATT fe > AY SE Ao eM A ES] pe ATH El\niP Xu) 2h th) 系统 E/PE 系统设计\n& oe A yg\n10,3 EYESPE 系| ATF ew EYEY EYES/PE | 7.4,2~- PE EPE 4% ot eft E/ESPE Ste 1\nSewell ALT | PE 系纺证让要求规论 安全相关 | 7了.4.11 11 ME ok Ful sa ok At lt EYESPE 安\nASIC #0 46 | 452 5 HE oR A DEC Ml E/E/PE 系统集成测试\nfE ¢W |a] 3) 72)7交了EPE 44 计划 ;\n和 OGBST | ALA A SE CY OBE fh iF fe A aR PT ae oR RMA,\n70438.3) ASIC) fH) PE Se Seon Bh\n10.3 E/E/PE 条| 集成和测试E2E7 PE 安 E/E/PE | 7.5.2 E/E/PE # 26 | 47+ EYES PE 9 Sit th\nft TE nv “4D A OS He St ‘he aA tf: PL ge oY EYES PE 父\nas Ot E/E/PE 系统供|全机关系统:\nNY ht FE HB te P| ARR\nAN Fe {+\n10,5 EFfE/PE # | fe We Rok E/YEY E/E/PE | 7.6.2 E/E/PE ot i) ath E/E/SPE St hm\n6 ek a) | PER EHR RSs HEH if 42K Al ss E/| 安家 Val Ge ie tr Fl SE GR\nin ie Ty a | TAP ORME Re: E/PE 系统区上 | AGE\ntte Ey El AR ames EUC\n1.6 FE PE # | t0iA EFYE/PE BAAR OE/E/SPE | 7.7.2 KVE/PE # #t 2) 63h 27 2 Pa AT E/\ntc TH | BRAS PAA Ce “SE OK E/PE ‘é-P A ER :\nETO A Bee A REM K/E/PE a 2 iE) ESE/PE 系统安全确认\nFurie BY ‘dé 4 oc Se AR AY ‘c TP Soe Aly A\n4 HE Ok E/E/PE 安全机\nAL St) Ze AP if\ntA TL] Xl]\nge HEE IN MEVES/SPER RHR R Bede 11 BE ok EW apg\nSe ,以坏串.达到和有[维持 系统\nFlr oe (He ek EE ER\n7",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n#1 (26)\ndé Fe |: tr EL BU GY Be Ne a\n“BY se I LE\n| , [的 8 He 输人 清册\n国 2 本1的 5 iy ey Se $n)\n方民所\nE/E/PE 系| 就尼阶段输入的产申和 E/ESPE | 7.9.2 hy te. de BE id EEE\n2 4 LF 人标淮而二-调试和评价 “ee ir Est du > BP FE EYES PE 安全\n该阶段的输出,以保证 RR 每个阶段 RE MX BAY aE\n正确性和一至性 PE #244 St\n的和粒训计划\nPP2PHF 2 | va ARAI WY, EYEYPE 安 ESEYSPE | 8 EVE/PE #% & YP EYE/PE Be fees\n统功能安全 | 全相关系统所达到的功 “RAH 能安全评估计划 | PEER\nWei 能安全 系统\n7.2 E/E/PE 系统设计要求规范\nit; ,这一阶段站岗 2的方性 10.1.\n7.2.1 目的\n7.2 的由的是为实规所寡的功能安侍,根据所帘的安全功能和所击的安侍拭构性规定簿个眉/EPE\n注: A ee TIE or EPS or AY FS 2 a oO i BLO Re | EC a Fe A :池略解算镍或横行亲》.E EDE &\nSig t| Soe My MER ESE/PERR&e CE KM. UT RSA ok! Res EYE/PE RSI BK\na a ft ok Sh Ml | EYE/PE BStigit oR AL. Best rl FE ae oP AE ALT ok 48 ak ag A 7d BY EH AI\nJPR eee PA Bk GE fl EE Oo tt BE BP Slee AE EER\n7.2.2 概述\n7.2.2.1 E/E/PE a iett ok AU RIB GE/T 20438.1—2017 的7.10 PH E/E/PE 系统\nit; Wl] ot EVES PE ‘2 ea AR ee ay We ae Be AT eee Be. ae. oe PAT ap EP PT OY -\n(liste Sey EVES PE Se 4b aba a ob Ce A ee Et Be\nISIE Im, Fa OL 7.4.2.5,\n7.2.2.2 E/E/PE #Sc teip Beak AM WR LA PF Seok Fea A AL ,\na) PR ART ER RE Ly a Ly SEP cay\nb>) SPP E/E/PE RARE SH AE I ERA a EY 7 ;\n7.2.3 E/E/PE 系统设计要求规范\n7.2.3.1 E/E/PE RIT BK Me BESTA CW 7.2.3.2) ASE Se EE CM 7.2.3. 300 RIE\nIT BER\n7.2.3.2 E/E/PE 系统说计要求规范应该包括执行要求的安全功能所必需的所有软便件的详细信息,\n这些安全切能是在 EE7APE 系统安全切能要玉规范中!邦 GB/T 20438.1一2017 AY 7,.10.2.6) ze AY. ET\n对每个当全功能.规范应包打;\nis",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "GB/T 20438.2—2017/IEC 61508-2;2010\na) PRR MAE PY Be aE TB FA ae Bk\nb>) FABER eK Bin 2 E/E/PE Ae She BE BL ve BY PEA ITY EK\nc] FE WE Ay AL ey ad BAY TI] SE OS AT et Fee FE\nqd) MM ree PF tal AY AE 0 PE AN fa FE PE SE Ok\ne) E/E/PE @2 4436 3 20 ABATE Pde 11;\nf) E/E/PE 安全相关系统和任何其他系统的接口人EUCC 关联的外部接口或内部接口 );\ng) E/E/PE 安全相关系统的所和行为异式一一尤其是EAE PE 安伞机关系统的类将行为和监求\nFY Any ie C45) a ae eS ae AD\nPh) Bary et ay Fa A a EP A AK A fo] BE ORO BR ;\nSCIRUS A A A RE RCA\ni) E/E/PE @4 RBS MAR I 2H EY BR te] S29 oe Es Ay A a OO BER SETA\nBoC afr KE AY 249 BR\n2 Jiaam hy E/E/PE SOs RAAT AAU AAT fal ee EEO\n7.2.3.3 E/E/PE A9izit BE RAW Ae SITE EAL. SE E/E/PE 系统安全人完\n整性要求规范{见 GBYT 20438.1—2017 AY 7.10.2.7) Bee AD ESTA EA Ae ESO ae AY\nbh A oe. ALTA\nad 得个了系统的架构 :该某构应满足硬件安企完整性的架构约束(见 7.4.47;\nb) 所有相关的可靠性建横参数,比如满是月标失兹证所需的所有硬件组件的检验测试频次\n$1. 2A Se IN fa OL GBT 20438.1 2017 IN 7.10.2.1)。这对维护至大重此.规定的榨此测试时间亲\n隔不锋小于犊定席用的合理墓望入。例如.为公共重用的大拢昌生产的产品的开实可实规的服务亲本上间\n可能比受控较多的应用的时间要长。\nc) 诊断发现亿险人失效时所采取的行动;\nd) (F E/E/PE 硬件检验测试得以实施的要求 .约束 .功能与谈施;\nce) E/E/PE 系统的安侍和牛命周期中,包括制造.贮存、 运输测试.安装、调试.运行和绯护,设备油\n足极靖际境条人竹{例如;温度 .温度.机械的.电气的?的能万;\nf) Bese agi REF AK CAL IECZTS 61000-1-2:2008) ;\n$2. RS MKAREAM AMAA TASB RE HI Ty ee RE\nSES, FE EMC 7 a BRED OT Le Be Pi aH i 0) 49 eA aie Se AA Qe RP Se\nfe FESS TEER AG (eR Sf BES aT Te Ee Re TS Se HO ST TE\ng) Be Ae RE a CGB TT -20438,.1—2017 中 6.2.5),\n7.2.3.4 E/E/PE ARizit BRM IVa READ EYE HEB MAO OE Se,\n7.2.3.5 ASE E/E/PE AMWIT Bek ME AY Se hl Pee a Roe RE eB. 采用一组适当的技术和\nHirt .\n7.2.3.6 BYE E/E/PE RSiZiP eR BES AY RE Hy Hh BE ok\nEP ART TA Bl BR ee EP Ek HPL BE BSL A RR A\n7.3 E/E/PE 系统安全确认计划编制\n注; 这 BT PR AIA 2 THE 10.2. Ea SS E/ESPE 系统没计和并发并行{岂了7.4) ,\n7.3.1 目的\n7.3 BY LY Abe] E/E/PE BSR ARN RS HALT RY ,\n久",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n7.3.2 Bk\n7.3.2.1 录制计划以便规定步又(包括规程和技术) ,用于证明 E/E/PE &@ HK ASIA E/E/PE 系\n统安全要求规范(见 GB/T 20438,1一2017 AY 7.10) #1 E/E/PE 系统设计要求规范(见了.2),\n7.3.2.2 ”编制 FE/ZAPE REM KAS A HIATT MIS EL POLAR;\na) E/E/PE 系统安全要求规范和EPE ABI | EEK UGE MAT BE\nb) 用于确认每 -26 42 DBE Se EY) A A Ee a At ot Be A oe AE\nc) FFF ah vA Be eT EP RP te RE A A fe Se Td a OA tt AY EM]\nd) WOT PR. oT AA Ba TA ee ORT TOA Se oe ET RD\nco) AMAR iP ALS CaF BILE HEED ;\nf) die HA Ta A a ae 9 rc ee BO 8 AE: EI\nBE. Oa 4 UG Ze Se EO UR a TECYTS 61000 12 Pah,\nge) RATA A eel ,\n7.4 E/E/PE 系统的设计与开发\n+. REAR 2 te los. em E/E/PE 系统安作确认计划编制并行{风7了.3) ,\n7.4.1 目的\n7.44的和的是证计和开发 EYE/PE 安企相关系统5本能也插 ASIC. UL GB/T 20438.4 2017 的\n3.2.15) Dit f E/E/PE ABRIL ok Ae C1 je a TT Bee Ae PE Bok — CL 72D.\n7.4.2 — fig BR\n7.4.2.1 Hd E/VE/PE ARRIETA WL 7.2.30 iit EVE/PE 24° #4 GB Se ZR 7.2.3 BTA\n7.4.2.2 E/E/PE REM R A SC BE EE AD AE PP EAT a EB ASIC RA\nTUR TY ELST a Be ie ST ae ig A TAT a) ~ I Bok\na) ff 4 SE RPE ECR GE\nOP TB ec RS EY RY 29 CL 7244)\n—— re Te AHL A Sc Re ey AY BK CL 745),\nb> Xba A Se WE BY RR ge ok Ce ED RSE AT 2 EY). Hs 2 4 [el A ee E\nAe ea dite lee og ‘9 SL AS [i] sh A] 4 a] ZK AE AY So PE\nc) FARR 4 BE Se PEE OR PL eT A\n路线 1. :符合避免系统性故障要求(风7.4.6 FO GB/T 20438.3)和控制系统性夏障要求(册\n7.4.7 MA GB/T 20438.3);\n路线 25 FF AU A es REA AY OR CL 724.10);\n路线 3.2 $M TT RP A PP) :符合 GB/T 20438.3 2017 BY 7.4.2.12 的要求,\nBE. LAL BPR OUP te SFE Se ETE SE ee RE EE A fe ee ER 1) ER 2 Ra,\nd) fe MM) BN RI RST A eR CWE 7.4.8).\no) BG (Aa ee ok CL 74.112,\n7.4.2.3 4 E/E/PE £4 RST 2S BEM PAF AR ee BE US «ER AR Re 6 pH ‘sc et ST AE\nAMAR 2é 4 SY BE EE Fe oa ve) Ci sot Ah A 2 eB aS S| EY Be DP A\nARR MRR ASR OA. ARENT. BOT REM SEB ETE SD TT .\n注 1: ERAGAMBSHARMIT SIAR RE SEPIA Be EE SRR RRA\n1",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "GB/T 20438.2一20177IEC 61508-2;2010\nBL) Fob HB vy,\n$2. “de R)— E/E/PE BEM ERS SE Se PAE AE OBEN. RHA E.R ET oe\nAS OS PL EVESPE Se ek eS Ca A Ee PE Pe AB\n全难度增加 ,\n7.4.2.4 软硬件的此求由拥有最高安全完整性等级的安全功能的安全完整性竺级来决定,除非能够表\n明和不国安全有元整性等线的安全功能的实现是充分独立的。\n注1: 实现不同安全完整性等级的安全鳃能的各部分之癌的相关失敦概举与安全贡能包会的恕商安全完整性等病\n相比是例低,即意味着实现的充分独立。\n注2: 在 -P EVE/PE RS MERRS MILD RS OGM RFR :卜际会引起用个安全功能失落的概率。\n在这种情泊下.恰当的作法是扑撕这类失效的风险.按照比代何一个安全切能相关的安全完整性等级更目的\nBe AS EE PS a a ae EAE HT BER\n7.4.2.5 FPR SFE SAA 8 oe COL 7.4.2.3 A 7.4.2.4). AIS | SAA pL ae eS\nad 达到独立的方法,\nb>) 方法的合理性证骨 。\n示例; 利册下MECA 或琶相美天将分析.找出可预见的可能影吓狸立性的天效模式和类数尘。\n7.4.2.6 E/E/PE 安全相关系统的开发者应可获得安全软件的娄求(已 GB/T 20438.3),\n7.4.2.7 EAEZTPE 安全相关系统的开发大应复审安全软便件的些求,以性赴其已元分规主。E/ EPE\na) Ha IE\nb>) E/E/PE 24 20 Rot Be EE ECE ;\nco) BwARORE h FM.\n7.4.2.8 E7EZPE 安全相关系统设计文档应规定在 E/EZPE REREAD A A Se ae\n整忻等级所必需的技术利措施,\n7.4.2.9 了EPE安企刷大系统放计文树应证节 ,为满足要求的安全完整性等级所选择技术和措施形\n成的集合的合理性,\n注, 村 EVESPE 安全相关系统(和包括仁士器.执行器等)采川认过独立型式认可的硬件和软件.诊断测试和编各工\n具.以于合川适站的编程语言.部有降低 EV E/PE Re TP SPE\n7.4.2.10 在说计与开发活动香,应对所有加和硬件相互作用的重要积度(如相关)进行襄别.评价并建立\n7.4.2,.11 设计应基十子系统邹解的方法 ,每一个子系统有特定的设计种一亦集大测斌(上 7了.5.2) 。\n注 |,单个组件或任意 :组组件部可以这为是 OP CRS, SCRE ZB GBT 204384。 一个抵整的了并\n安全相关系统是由若干一起执行安全贱能的.可识别并分开的了系统构成。了系统可以搬有一个以上的遂\n道{岂了.1.9.3 Al 7.4.9.4),\n注2: ea A a A AS Oe ILL BA. RRR AE AE OP RUS LO ee BL\nRe WO OH TR IR PETE LE EW Lo 4 AR RP BOR [EE TE bh te) TR ee AE — RL Oe - BD\nAAP (GR DE PASE A TBE BE EE. OURO FRR AB RBA RH\nWRF ATE BT th AS HAR RE RL OTE EA REET RRS,\n7.4.2.12 7 E/E/PE Ba RAM It SCUR In. AT a A AE BT i\nEYE/PE @ 4 tH 2G #20 0 FRAY BE SB Ae Bor 0) tae. ake GE dy CAL ft DL se fa i Pe OE | eR ET A\nFY FOAL AY Se ee PR ABA SE eR EV ESPE 2 Sf A SEY. A abe 6 ah BY\nFe RRS KA MN] die Sm Di a Ha ep ee PE RR BO A es ee AK Ye Se TR A 4\nFi & GBST 20438 提出的要求。\n注: ARAMA ER) EYES PE 安全相关系统产主对共他风险控制捕施里求的失效异世,洛特定的类普模式\n的失效率无法降低时,将葛灶一个新的安全功能,或者恨据失误举重新善虑此他安全功能的 SIL.\n7.4.2.13 所有硬件匹件应考开降宗(见 GB7T 20438.7)人使用。在此概限人悄下和值几硬件匹件的合理性证\n1]",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 20,
+      "text": "GB/T 20438.2一20177IEC 61508-2 -2010\n明应建立文档(见 GBZT 20438.1 2017 的第3 BH),\n注: CERES OL PF ,降颖因子的蛆卉俏约为一分之一。\n7.4.2.14 在EPEOPE安侍由关系统刘计中,如包括一片或者多片执行客企功能的 ASIC. WEF ASIC\nFe ACE at Fe 7.1.8.1).\n7.4.3 组合组件以实现要求的系统性能力\n7.4.3.1 在木色捕述的情况中,为满足对系统虱实全完疾恒的要求,指定的实全相关下/RAPE 系统品能\n被耸副为不同系统性能力的组作。\n津 1: 组件的系统性能力决定了该组件导致安全功能尖演的系统性由障的吕能性。系统性能为的慨意可有几十硬件\n和软件组御,\n注2: GBT 20438.1 2017 4b 7.6.2.7 指出了独立性站多和余性在妇们功能和上县他该女人尘功能的EE PE ‘eal X\nRSA, ERI) iP em. S PA TREE MALTA i — a KH oe FLEA\n能优汪单个组件,\n7.4.3.2 WFEAH ASE SCN ON=1, 2. 3)7的组件,苔该组件的系统性故际并本会使指定安\nSTV GERM. MARK PAAR SERE A SC ON 的组件同时发牛系统上晓陈时帮会全指证功能失效.则\n在两个组件之间是侣独立的前措下其组全的系统翌能万可视为SG (AN +1) 4 7.4.3.4),\n注: 评价组件的独亦性的前担吓蕊和天这些组忻生确定的安全二能廊而的其体应用 ,\n7.4.3.3 ”多个系统性能力为SC AN 的组件组合后同上丰了明的最局系统性人能力为SCCN 11). B@RSCN\n组件在这种方式下仅能全用一次,不允许继续增加 SC N 组件过到或超过 SC ON +2).\n7.4.3.4 应通过共因大化分析判断 ,在届计中和在应用中组件册有下屿的独立性,傅怀各组人竹国以及组\n件与环境之问的干扰延低村所学了请的安全功能的安全完整性涯级。\n注 1; 针对系统性能几.在妇件没计.实现.运行忆维护方而获得郊分独立性的可能的措庆世括:\n一一电能多样性:使用不同的方法实规机阿的针束,\n—— 8 RE ha de ae THY Th) SB ie re 9 BH Te 2\nJET ABIES BR FH - 0 C4 ASF Ce A ee Se REP ORR SEE A Tee Be ee RO A TD PG oak IR ke Se eR\nPo (WO Co ast\nFETE) ue Es HBR Phe AD SET A ge ty SE Pt ke i i LS\n注2; ik FSR vy ME Ue BL AE ts Sd FT a ES i RK.\n注 3: 软件组件的独立性见人BT 20438.3 2017 \"|! 7.4.2.8 FO 7.4.2.9,\n7.4.4 fF RS 5B RAAT\n注 1: Deeper Be PE RO eS CEB CP Ae Pee RY AE 2 A SE,\nBE 2: GBST 20438.6 2017 1 AL2 Sa 0s A ae ET ee EE YAR GR A AT Re aK GBT 20438\n(i) Ae file et aR FI XG FR\nMey Ee ae od EI SS ee i eo ESR SIR RPC EAR TE Eee\nTE 24) ROP PAD) AY Be 2 OPER BE RED\n一一路线 1, BEF fee AP ie Bs Pe Se Ae Ae ep BH\n一一路线 2 FET UN RESIS Be Yd oc a PO a PE AG Pg ae BY SP Se ae YE TE\nAA wf ee Ba PRE 。\nJET GB/T 20438 的应用标准可能会移出优先路线(即路线 1,, BORER 2 ) 。\n注3: | RRR ERI PF fe SR Pee BS Ee SER ER 15.25 与 3、 进行区分,\n7.4.4.1 一般要求\n7.4.4.1.1 关于硬件故障裤度的要求\na) FRPP IRIS N BU N—-1 PRE SERMRS TREE RB TPA SW LR 2 AR 3).\n12",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 21,
+      "text": "GB/T 20438.2一20177IEC 61508-2;2010\n在稍定人重件故障裕度时不考虑北他可能控制长诺影响的措施:如诊断\nb> 如果 :个破障直接引起 PMS TAS ER A\nc) 确定举现的便件故障裕度时,如小相对于了系统安侍完整性而六某些故障出现的可能性很小,\nwe HE AN, TR AN ee FE a YP ar CLE 2) ,\n注 1, OT REPRE BERR eA ARE EAND HAMF RRM REE EOE\n{RACK 7.4.4.1. Al 7.4.4.1,2), Hie BOR EVESPE @ PH CRSA ANSE eR IPE\nRENE Ke ey HEAT Poe ie ATA WD SEPT ATT LA a RARE,\neof ae BE Pi: ESE ERD A = eG AT FF eA AB LL eS EO EP i EGA Be\nA 1 | fogs Se ae Hat a AA TB Se EEO\n注 2: HRA RE BORG YE TE TE RIE PE OR, CREE EV E/PE BO RAS OG\n°C iat A fT: eB RE HER TL TA A eA BE SB MTR 与提册要求的概举\nfE LER,\n注 3: AEE Se oe ti BRED EAR PS AL Ee 5 PZ J PT AT AZ A LR\nse EEE ¢U > WY ii pt AS eA fe ESAT Pe tid Aah Le TB Tee EP 2 OT BR ED\nBE 4, PER a eae Mt Fe HS oR AR PA\nMe 4 Ty BE TH 22 oe Re TT BE SD A PI a A AE PRT UY BS LA\nFe OT ETE AS GE) Ta TU fe\nfee EAS EA MATa fF Cy ae te ae 0 fa Pr a od WA jp eH a TD Be Es 2D\nHS. (EM at EP ASIN fH URI ECR RR BOR\n7.4.4,.1,.2 如果监实现女全切能的元器件满足下列全部菜件,则组件可视为 A 类:\nb> 豆障状册下组件的行为能够党全确定:\nc) AFR ALM TT SE AY ZA Re GR OT Ss A Seg a PB a ae SATA Ra) SU foe a AG ai 2:\nCW, 7.4.9.3~7,.4.9.5),\n7.4.4.1.3 WPEBEMR OBE oc 48 i EF RS. IT OB,\na) 至少 ER Ro ah PY Se Se i ot ote a A ff EX\nb> Ac hath ial FRAT AY tr AAS HE SE 2 Le\nc) FRA FEAL IM a SER ee is. AD as | ag AE Br eB BY AAS BT De Be ee ES\nCW 7.A.9.3~7.4.9.5),\nkA AURA PT Le fp pe BR RIE IBA PSR BBA AB,\n7.4.4.1.4 4ST AE eA or BID. ROA eT ee OA OY TD ARSE HR ORS OTHE\nae Tih ap de ae Ge ag 2 Ee OR Bz RL Pe TU EE RPI A RAE;\n1 Be HM aU] BY A 4 PS eS HE LA i EN TA os OS ET I) Rs TE Of]\n—— TE FE oR TRAP IB a eR A OR RS EE SAF 100,\n7.4.4.1.5 当居算以下组件的安全汰效分数|时、\n一一便件放障衬虎大本0时安全功能或座分安全功能天览帮疝区求或过化这行司蕊下这行;\n一一委全功能或部外实伞功能下此和什低娄求运行模式下适行。\n如果诊断测试问隔和对检测到的上障的维修时间的总和小于在计算特定安全动能安全完整性时疡\nALAY MT TR, iSO PKA.\n7.4.4.2 路线 1a\n7.4.4.2.1 为了确定规定的安全功能所声明的政商安全完整性等级 .应遵循以下步票;\n1]) 定义构成E7EZPE ZEW RRA TAR.\n2) 确定人竺个子系统中所有组件各月的客人全失效分数5印过个组件进行,矢个组性的伍件此障裕度\n为0)。对于开余组件陀置 ,计算 SFF 时吕考虑可用的额外诊断(好通过宛余组件的比较)。\n13",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 22,
+      "text": "GB/T 20438.2一20177IEC 61508-2 -2010\n3) MP TRE ALY UB a A 3A Bel] ee BE OO ET Wm ee TE\nPR ULE 2 oR 2 ECA PEA ye 3 2 ECB AP.\n\n4) fH 7.4.4.2.3 和了,4.4.2.4 FR FRSC Ry ee 。\n\n5) ERAPE安全相关系统声明的最高安全完整性等级应由子系统中最低安全完整性等级所\n7.4.4.2.2 对于子系统山满足规定要求{以下详述?的组件怕成的度用.作为来用了.4.4.2.1 2一了.4.4.2.1 4)\nAD St oR I BRS DAP CSE oR ad HA:\n\n1) 子系统吊一个以上的组件组成:且\n\n2) 组忻类型机同 | Ah\n\n3) Pree iA Bl TOK 2 或表3 中规定的在相同的花围区间关的安全失效分络,屠么按照则下的\n\nad 确定所有独立组件的安企类葡分数。对于元余组件配置,计算 SFF 时应考虑可诈的箱外\n诊断{旭通过比较宛余组件) :\nby 确定子系统的征件喜隆裕虚;\nc} 如时是 A 类组件.按照表2 确定子系统可市明的最向安企皂玫性等级,\nqd MRE BALE RMR SEF ARROW NRA eee ER.\n注1: EX SUM ep Te 2 5 SP eR BOA PO Py — PLB 60% 60% 90m 90% &\n99s; OS KIM Me. Prd) SPF Aafia TR ae Gol, B 99%].\n\n示例 1: REF aM le Be a OA AE de Pe BE ed FAL fH E.R A 了.4.1.2.2 PBR OY\nHAL OA GE ia Aa RETA EI RAE ee ES AA BE THES RR\n在 90% 2-994 LA,\n\nlee 3 GY Art «mee ft He Be a LP eA EE 9 BOO OIA UE ee A iF\n‘te “Prod HEHE ERY SIL 3。\n\na) 2; o THREE LT CAP Re ER RS A 74.402.2 Pk TE EA RAE\nHe fe] ) AMSG BS) “de Se SB A Py Ae Eee BE SON STE a EK PE Be 9\n则规定的安全功能的最大人允许安全完整性等级为 SIL 3.\n\n上山表二可见 Arig at STL 3 BS. Fp ap me AE de BR ay TA A BG SE LE\n\na2 A类安全相关组件或子系统执行实全功能时的最大人允计安全完整性等级\nax [Te ____\nFl Ade SIL.\n1) 了系统 AE Fae.\n2) MPLA A 7.1.4.2.2 BOR EH IE OR Be MR a at ke RY OR a ER EY SO UR\nWE 7.4.4.2.2 在扩有的要求,\n\n注2: 对于?7了.1.4.2.1 97.4.1.22. ARM AT:\n1) ORs ABE BEA tee ay STL Ae He PEAY SPP. of oy oe Be PEAK PAE\n2) DIRKSEN REM SOR SIL AF FH Bc OY Oe EAE EY i ae AL A SFF GY ok 。\n\n3; 7.4.4.2.3 3 7.4.4.2.4 [ROR RA PAR Ae SR TT OS aE\n\n注4: btae C RAL an fol FE eR ak op BY FAK\n\n14",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 23,
+      "text": "GB/T 20438,2—2017/IEC 61508-2:2010\n表3 8B类安全相关组件或子系统执行安全功能时的最大允许安全完整性等级\nA 4 Ay Ret ea\n组件的安全失效分数\nee ee ee ec\nPME 1; A ZERT MES ?.1.4.2.1 a 7.4.4.2.2- ie TA See ee SHAE SFE TRE :确定基个了系统串达\nF076 SIL,\n1) FP RRS —AR IVI BE 7442,\n2) AP TOA 7.4.4.2.2 Bok AEB EA RS. UR Bw EK A OR A EAE AY SILT\ni JE 7.4.4.2.? PRA IN Ek,\n注2: OT 7.4.4.2.1 Fy 7.4.4.2.2, RHUL AT:\n1) ype se tt Bee RED oR SST. A A 8 PE) SF of SE ft fA BB SE\n2) ON ASE ORS A BE BOR STL ae RR SY Oe Ea aE «wT TALE SE OS EK\n$3. 7.4.4.2.3 9 7.4.4.2.4 | ERR RPREAR 2M RH.\n$4. oe CBSA 9 an fer id Fee eR A op Be FAK rds,\n5. 恒川了.44.2.1 AREER A he tt Ae Be ee AY OS SE Ry. QZ DP EAE Ee ee PB AB fs\n于 6s «WN 7s aR A ee TE SAN EE Se EE HR SILL,\n7.4.4.2.3 (F—-P E/E/PE @@HK TRS Pa ele PR BR CA 5 PES PER TIPEMT.\n此类组合安全功能可玉明的最局安全完整性等级 RATER BREA OM RSE ARI\nPA: OA Rat Te ee EP EY SL OO OBR.\nTH: OWE DHE Ee AAA EWU Re MET RRR Sale 1.2 5 3 Ae\nIB Intra Ee? A San PER.\n2H (1 i At ae Be a EE OA 0. BB a ee ee YE SIL SB\nHE 2 ie 4 OY PR EA Be ee ee pO a STL BY BER\nALE 3.0 tee PB aR EE A 0 ae A AL STL OY oR\nuy OH CH) Ae Ar STL. Eee SEB ALT 1] AGL TR OS ay A Bl BD ee ef ite a eo a BY SIL 1,\nPAG SRR E/E/PE 安全相关子系统\nHt 1 tt 2 组件 3 |\nAK Bx 8类 |\n42-9511) 3 9-612 4 3-*SILI |\n和 ee eed\nE/E/PE 安全相关子系统满足SIL 1的安全功能架构约束要求\n图5 和确定规定架构的最高 SIL(包含数个串联组件的E/AE/APE 安全相关子系统.见 7.4.4.2.3)\n15",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 24,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n7.4.4.2.4 — E/E/PE 安企相关了了系统,其组件的安侍功能是由几茶通道(组件并联组合)来实规,月\n硬件故障袜度为 入,其安全功能所生明的最局安全宛丫性等级应山如下雇定:\nad 将等条通道中中联组全的组性分组.并确定这些通道中安全切能所能家称的最商的安全完整\n性等级(见 7.4.4.2.3); IF Bb\nb) 选措完成安全功能路获得最癌安全完整性的通道.然后安全完整性和泪级加 六,以雇定子系统\nTS REA mer ee ES\nWKY DAMA A RIA 6 a ASR EE Ga b aR,\n注 1: N BREA AUT ET RS OL 7.1.4,1.1),\n注2,美于本条的应用见旭下示例.\n示例: 这些组合的分组与分析太法有区种。在此说明其让一种方法,假定台构中安全切能通过两个了系统蕉与立\n实现,其中子系统X由组件1.2.3与组成,子系统站由单个组件 5 组成.如图和所天、子系统 XN Pe JERR\n组件 1与2吕独立实现了系统居所需的部分安全功能:而与组件 3 GA MK RSPR. BREE PIA PS\nie\nSTE 1 ok 2 HH BAER CIA AA AR 3 Al 4 BUA SAE EE ST BE a\n一组件 3 AWARE CIR ALT 1 A 2 BAL OH A he ETD .\nWi) jaf HAL AS ee Se DY BE OT WD ey Sh SE RA RO FF\nMTFARSRX NER STAR OPA eR 2 SS a PF ek,\n一一组作 1 Ti A Ade Be FEO ae EP EE FW SILLS\nON fe 2 WE ATI aR ON 0. ee Ae RA Se EE ON SIL2;\n组件 3 Te 4 Ae Ra RE 7 EE EE ep oe TE SO SILE\n一一组件 4 WEY Oe ae RA. SS EE BAN SILI;\nVAP APE AR ARR EON PAY ee EE Ee BY a ES RR\nad Mate 1 9 2: 1 Go 2 AVAL aT 4 BY Be A ye Be ph ey ee Se ee PB CE LA a]\nAt SIL 3 4 SIL 2 1 20K big e SIL 2 09 20K CF AE 2 Bee. WL 7.4.4.2.3);\nb> #AP#AS 54:03 54 AAT IASI TRIB GR OK pe EP OP\nMSIL 2 4j SIL 1 的要求?满足 SIL 1 的要求(由组件4决定.见7.4.4,2,.3);\nc) 组件1.2组人台性与组件 3.4组合体的进一步组合:确定相关安全功能可达到的最商安们完整\n性等级时,可选择达到的安全完整性等级最商的通道并如了 六 个安全完整性等级,得到整个\n组性组合的最局安全冤丫性等线,此例中子系统包人富山个并联通站.其硬件达际欠度为 1,.相\n关安全功能安全完整性等级最高的通道出组件 1 与2的组成,达伸SIL 2 的要求。因此,.贷件\nie Bee BE AY 1 时该子系统的最高实全完果性衬级为(SIL 2十二一SIL 3网了,44.2.4)。\n对于子系统了了,组件5:上障裕虐为0给定妇全尖残分数,玫企元整性等级为 $I12。\ntT — PSE 0 EVE/PE 安企由关系统(包含两个了系统与了,相关安侍功能分别满足SIL 3 与\nSIL 2 .其可达公的最局安全完竖性二级由实全完暑性入级最低的子系统次定467.4.4.2.1 5)。内此,此\nfA EYE/SPE 安全相关系统上相关安伴功能的晓了而安全完整忻侍级为 SIL 2,\n16",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 25,
+      "text": "GB/T 20438.2—2017/TEC 61508-2:2010\nHAT Ree X SY BRN E/E/PE 安全相关系统\n, ! 组件 1 fi tt 2 ot mo\n| . B类 Ax 1 4\n3 ! $ 3-SIL3 2 3-S | Ht 5 |\n. —! AX @ |\n| _ # 2-SIL2 oo\noo Bax Be 1 | oo!\n7 表3一S1L3 #2 3-~SIL1 1 | 1 :\nbot rg\n; 了系统X TRAY 3\n架构简化为\nI\n1 1\n组件2 oy !\n: # 3-S1L2 , . Ft & :\n1 I | Aae I\n! 1 1 # 2-+SIL2\n| 组件4 1 1\nBa | !\n. 表 3-+SILI a 1\nFRA X 于系统\n架构简化为\nEN EEE\n1 Hb 1, 2, 3 和4 限定为 ! ) 组件5 限定为 SIL2\nSIL3 1\n|\nT RH X T RH Y\nFARA\nTR XS YALA EVEPE 安\n全相关系统\n限定为SIL 2\nE/E/PE 安全相关系统满足SIL 2 安全功能的架构约束\n注1: 妞件1与2可独立实磺了系统吉所而的部分安全切能:而二组件3 D4 RRR,\n注2: MIR ES HE OR SE fe te Le a ATR ee AT a OEVE/PE &@ OH KARE,\n图6 确定规定架梅的最高 SILC HAD TRA XS Y ARMA E/E/PE 安全相关子系统,见 7.4.4.2.4)\n17",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 26,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n\n7.4.4.3 Bee 2,\n\n7.4.4.3.1 XP TSE AU eB eS EER ETA HE OY EYE/PE % a 8 EE OA EE eh\nfie {4 aie Bi ee I ONE\n\nS.A PARA RAE Ale EEL ol HI RMR PR A A OR REAR Piet.\n\na) 除非运用了.4.4.3.2 的条件,对于规定达到 SILA MRSA TE. EITM RAED 2.\n\nb>) 除非适用7.4.4,.3.2 的条件 WADE IASI SIL3 的安全功能.倒件玖阶裕度为 1。\n\nc) 除非适几7.4.4.3.,2 AAR TE. eT AGE IAF SIL2 AD STORE. 1 作在高些求或连续运行模式\noP. Be fF Be Bee FA EC 1。\n\nd) 对于规定达到 SIL 2 WET E. TET IRE Re (Heh FP ARITA BEA OO.\n\ne) 规定达到 SIL 1 Kh) 22h GE. ef ae PR PRISCA OO,\n\n7.4.4.3.2 (2st A BA. BO HET 按照了.4.4.3.1 OR fe OR EK Hae RI BR HFT AT O92\n| ARI SP AY Se RHE Se Be EUC MRE SEWER WI) DSR BAIR HET AY Re Re A, ak\neT PF ie RE a FP Be SS. PEA EE a ESE:\n\na) EA 7.4.4.3.1 中规定的 AFT Ay 2228 22 5)_A Bob Ye et & Be EUC AiR = BU RI Sf\n\nb>) 如果 HFT GHB A 0. fEfA IF EAT TE NY BET A By Re RL ER CA A ER LB\nSC BTA AY Ye Bae 2A SOC ROR LT ec fe AY Op A a ee RL 7 Yc) J Bb eA AY oe Bo\nHERR By T-BAR AS RS pe EY 1, Sb. TE BE ff a\nAE (eR 9 sah i PEAT 7 > OS FR BEE ee EH EL HIE ,\n\n注: AM WRF Ey alt — OH eg SAS) Fr OR a AR. A 7404.3.2 中条件时,论证的目的是证\nTHRO RAR RY ROT BATH RE. ROTHER oe ER AR DR A Ie JE fa, Set SEE 2p\nhy Hee St AL te 44 AR aT A 1) pA ES A Be Hg TL Sed AS tA eS 2 CE of\n47) 5 BBM Ay SB TD SR AR EA PE PR AAR ae lo Ie PS Re ae 8p BB eg Se Jo Db DE I Be SS CO et HB\nA) 5 SRR aL CHE TE Wy OS Ha PBT EL) kA a eT.\n\n7.4.4.3.3 如果选择路线 25 AB A Ae A Uy Re Ae RE OR a EBL A SY Og CAL 745) TR\n\nad FR tet At ee AL ov A a eb BY Ee Re ts A\n\nbh) 基于按照国际标准(例如,IEC 60300-3-2 或 ISO 14244) 3248 1 Bde s\n\nc) REALE SR ATE\n1) Ao ly Ae a\n2) ESCA; A\n3) WAY. Sia Mot.\n\nMist ANA ho PRBS WRC!) MER ASA Se Ca 90% Be Po] oe A oP fa\n\nMoet 2),\n\n注 1, Bey ae Ne a AY OG 0 EE SH ,\n\n注2: KAKA IY 906 FEA Lx Dap BSH IE Be fA AY 90 0 EK fe 2k IX [As Aas J. A 4 BER Toa.\nMEF As... AEP AY SES AR EI a fe eR KOA Ay OE\npeg Sec EH fy EM te Ti vv) eB eB OL tp a Se BE hE RR\nHt Ly) RR EA TNL LG aE PR EE Ee\n\n划选择了路线 2, UPS A PRR RAT CR PFD... Be PFH 2% 18 of SEP Bee A a EE .并应改进\n\n系统几至日标失效量达到 OOMU LW Bae.\n7.4.4.3.4 路线 2, 中合用的所有也攻组件鸭最小诊断容症滨不应低于60吧。\n1s",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 27,
+      "text": "GB/T 20438,2—2017/TEC 61508-2.2010\n7.4.5 sett BEL GR fF Ae ee ee Mg] BY) SS\nGBS) 20458.6 2017 WB at AL2 Se AT ole Oy a A ee PE I RE ORR\nGB/T 20438 此他要求之问的关系。\n7.4.5.1 对于符个安企功能.在随机硬件失效(包括软销识)与数据通信过程随机失效影响下 EZREZPE\na oR A | a ae 09 A ba eee ee CW GB/T 20438.1一2017 的7.10) 。\n+. AIO UIA BS oR EB Ee AR UL 7.4.5.2 Ef PR GF fT YT Se a. He SH TIE HY Aik 2K\neat #7 Lb es CL GBT 20438.1),\n7.4.5.2 Bf 7.4.5.1 PREP SADE IA BUY KR A a LB AL\na) E/E/PE ES HKARRATARRERWU RSM KE PENS\nPE 1: i SR Be a 290 BY 2d A eB TR ic PC TS Ap eA oe SE fv BY BG Ee HE BY\nQL) EL A fe Bb Ap Se see Bb CA DG rc ats CB -P- Se see A AE FA SE A RD.\nb) E/E/PE 安全相关系统的各子系统的组件架构 URS SR TESW REM EA\nc fh ete i eat PT pe Be E/E/PE 妇企机关系统发生亿险尖效但会包诊断测斌(上 7.4.9.4\n一7.4.9.5)栓测到的谷子系统及其组件的撩效率.虚根据煞据源及其精度或诊度对泉北率进行\n论让。这凡人能包括六谍和比较不同来源的数搓.并用选择和所考谍有的系统织合最相近晤类北\n行茶件:;\n注 2, SRR TT ae FP TOK Pe sR 0 A ik TO,\nd) E/E/PE @Ah ARS MIT A see THIN Rae CWE 3 TE 4 RE. A Te VE Ty\n论证;\n注3: 共央类莹可能足由龙件组件实际发北之外的因素导致(由里矿干掩与解码错江年)。人机 GB5T 20438 中计算\nbids #0 fet f°] Ae sei FY ne Mo) He irae Ee RE SR oe, AF aU a Bee {ER ETA 9G te AY BEE\n4, Ml EVE/PE ‘& A KASEY BR IRIAL oA fle Ra = TBD fp Ae EEA 2 see TE SC “de ok Ee\nApp ce ee et RT LES UA ae, AE EIN AD Cf ARR GBT 20438,6 2017 (abhtae D,\ne) GPRS IZ Bri i iS pe Bee CF BY ae OC oa ce. PAY 1S a a. Re FT Be\nTG Ree OY fe Be AR FS ee A SARS UA 74.5.3 PRR PRLS\nle. WSetE Ria Sue MTTR 与 MRUCR GB/T 20438.4—2017 ||! 3.6.21 与 3.6.22 部\n4b)\n注5: BA ae J AB OO TR Mis Pre UD Se AR os OH 7H ET Te) Td\n上 A FF a Ste Se eB De oe 0) tk P] Ba\ng) fer Se MA OA 100 2477 8X ;\n注 6; AN 6 HE OY Pe Sie CA Se es BE RR PR DM I] TAs TAT HR eT, oe\n假设进行论证 TE el TL PE) dd IY oe ES te cate PUA J BE Ge oy aE FH ia\nHp AU Ap pea RG HUY TR, Paar LEE IY Ta ae He TH] 。\nh) fae MM EL Se ee J AY TH]\n7. ESR IAT IAC MRT) Ab 1 ISR ATA CM TTR BB SP OU, GEYT 20438.40 2017 由 3.6.22 fy 3.6.21).\nMTVR x& (4 Fa 89 if) 36 ic Ar FA OS a) Me Jos Ty SR A OY LG BY 20438.6 0 2017 OY ae B.A de PEAR\nMTTR 5 MRT 7+} RHE, ME EUC KARE BR BIRDS PE A TAA EU\nEUC 4 4k fe PARAS Rove tT EE. J Ue Sere A PR aE TE AY TA). Pe a A Tl BR PAO BE AY\n7 PE AG ir 4 A as PR\n19",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 28,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n1) 如寅人员操作来实现安侍功能:则应考虑随机大为嵌认的弱啊:\n注8: fu A GES) ANS eT TR A PR AY LE a A Ed AO GR\nDD FURL SABA mma AKT NaH A eA RA. Wi AE\nAR at GB/ST 20438,.7—2017 路 B,6.6.2) ae RR 4p hT OGB/T 20438.7—2017 YW! B.6.6.5),\n4S By ARRAY CGB/T 20438.6 2017 中附录BO GB/T 20138.7 2017 中 B.6.6.6) a) FE PE HE\nFACGB/T 20438,6 2017 Ps BAR GB/T 20438.7 2017 中 B.6.6.7) LA tl $e\n(GB/T 20438.6 2017 Aiftat BAS GB/T 20438.7 2017 中 B.2.3.3),\n9. GBT 20438.6 ASB E BPS BPA TE Te a Se ee ee GE OT AY\nfur Bae RS 8 SE Ry RS 0 oe A my A ok es A\n10; GBYT 20438.6 2017 4) A.2 SRA TSR 2 ee EI BE WR GBT 20138 的共\n他要米的美系,\n注11: OP Tt SES PR EPE 安生相关系统的可于性.因为组件失至杭式林同,EZE2PE 安全机\nFR SUA Be CeCe mm pt A RE AN TT]\n7.4.5.3 atte A 270 OY BL ae ESS ae ee OH TT 4 HY te a Be ON OO BU CR. AIRS RES\nJ fie Be ib ope ae HE ay SEE ey Bok TE RES AT PRT be TT I i bE — RT iS Be\n12 Br UU a Ve] BA A PA oe De EA a AF Se EAA ts ON ET) SB NT eT)\n—— 4 TETRA RATHER PB a i Spe ok ES RAH 100。\n7.4.5.4 性何子系统的诊断测试回隔\n硬件放隧裕度大开b并开启要求或连统运行模式下运行安全切能或剂分实竺切人能;或\n任供要求运行模式下运行安全功能战邢分安全功能。\n应确保诊断测试癌南与维偿检测出失效所用时间的总和小于计算确定该安企功能的安全完吾性所\nHy MTTR,\n7.4.5.5 Mee PRP BIL AS RES RAY ee PEE ok MM.\nad Wine MT TA HE CA a FR oo TA se DAY £8 ES FR EAA / 战参数;\nb> RAP TD tp By a AE Se ith A FE LE AY Se SEED PE OAK oe oe ee eg CAE] SY oc BT. BY\nJM BS) PE TAY Fe ec Bis Sa ts. HE US Pa ek I Tp A Re AY iB) Be WARS;\nc] ees SE ne AS AT ae EH :\nd) BRB AYERS GO ce ar AY Ge LO AE A ee BE\n7.4.6 RRA BK\nPE. Inf He ae ax SRE BL 7.4.2.200,\n7.4.6.1 WeipMy zw E/E/PE “SP Af XK 3s Se AY FR A EY. Apa | A Ag Ev oe A 2 a 4 RT\n(参见表 B.2 Al GB/T 20438.3) 。\n注: CB5T 20438 As HG Ce the tt aE ae a eC a HE AE re ba a ee Fe PE UG OD ae\n2K. SR APR aE HE A RD A PB RL 09 EE I ET\nOYE PELE BAG. A TR A a aC Be ee ASTON Te ,如果昌将其应用上FE PE &\n至由关系统, eT ASIC fy Be oe 2B 7.4.6.7 APE ot FP. PEA BET Ce TP Be tO gk BY\nFB ede Teak Bee D6 Pep AR Ge 28 gb” yee kK He Tl] STL 1 A STL 2° ae FE. SDL 30 -A SIL\n7.4.6.2 FHS Pr ie hy Ze ee EE Ee PR TR A PE eT\nZt)",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 29,
+      "text": "GB/T 20438.2一20177IEC 61508-2;2010\na) 透划性.模殿化和控刺复江性的上共他特性,\nb) 洲晰和精确了表述,\n功能性!\n一一子系统和组件接口,\nNi Ae RNR Te FHA TA\n—— I) AE Fl lu] a AL\nc) 清晰、淮确的文展和信息的交流;\nd) 验证和确认。\n7.4.6.3 ”为保让EZEZPE 安全相关系统的安全完整性要求能持续得到满足.在其计阶段就应将维护要\nKAM AL\n7.4.6.4 2005 A. EAD aa T a TT Ae TL.\n7.4.6.5 ”设计期间 «hy adil] E/E/SPE Se 9 SEM oh a, Pee be i a TT\nad 所执行测试的类型和所遵循的规程;\nb> 测试环境.工具.配置和程施:\n7.4.6.6 Withee) A Aa EBA ATT Nia we AT ie a Ke.\n7.4.6.7 ”为避饮侍庶计开发 ASIC Ra Go| A BRE me ROK FA 2 AY a 4 RATA\n注: BOREGM SE FPA TRAP AL PE STH A. 图 3 mR LK ASIC A RE RD.\n7.4.7 ”控制系统性故障的要求\n注: 使用本条款要求时.详情参见 7,4,2.2 ©,\n7.4.7.1 ARE wi RSE aK RR -E/E/PE 系统的议计特点庆使得 E/E/PE 女全相关系统能容许\na) 倒件中的什何残余设计版障,除间能排除创件设计版障的可能履(见表 ALS);\nb) 环境庶力,包括由人笠干顶5(见袁 AA.167);\nco) EUC PEPER IG RA RR COW ALT);\nd) 软件中的任何戌余设计故障(见GB7TT 20438.3 201719 7.4.3 及相关的表);\ne) 任何数据通信过程中产生的错误种共他影响5(见7.4.11)。\n7.4.7.2 在设计和开发活动由点考虑可绯护性和可测试性.以全在最终的下下PPF 安全相关系统路实\n现这些质性。\n7.4.7.3 PPAPE 安全机关系统的设计应充分考瑟人员的能力和局限性,并应合理分孔探作者和绯护\n大员的订动。所有接11的设计应更好的依据人人员操丰习民并应适合操作者的认知能力和培训水平,例\n如操作者为普通人员的大批足生产的了EPE 安全相关系统。\nSE. BEEP LT ae Pe APPR PE ATA PA AB SD cat a ST nD Ed EL SEB he BE ok\nPTE TERK NTE ZB EGR He SAE BETS TRA,\n注 2; He BE A BoM A i OR UG A Te EY ESP Se Se PD. dE EU 内部的一\nwe EL, a Re 85 WR A a et ET See he | AS TA AS ES Fb\n7.4.8 检测到故障了时的系统行为要求\n注: 本部分的要求适出于由单一 EZEZPE 安全相关系统所执行的规定的安全蕊能,几幕体安全蕊能玉分上号给其他\n风险降低措施。\n7.4.8.1 在硬件故障裕度大于宝的子系统中,对检测出5通过诊断测试 .检验测试了或具他方法)的亿险上蚊\nPre hie AC HY :\n4]",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 30,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nad REP A ae BOE LA GA Sl ok RP ee Ks CATE eae\nb) 隔离子系统的故障部分.以保证 EUC He ee THe. Mee eb a. GR IT Se BH\n{i Se Hehe AME HR CU 7045, 2) BE at A SE I EEK ER] CMIRT) C&L GBT 20438.4—2017 中的3.6.22)\n(A Ae 50 We EE AD ZB i SR AE A EB HE dA SBE PEK SS CALE 。\n注: ft: E/SE/PE RABRPB EST ATA Sa LR LE eK ods Ale ORY ECL GBYT 20438.1 2017 IN 7.100,\nA) BE ELIS . HU Re RUC MA A CBee Hee] Tek RSH SEIN EUC iar.\n7.4.8.2 对于硬件故障衬度他于霉的情况,妆子系统促在低要求模站下运行安全功能时.对检测出的们\n险痢也(通过诊断测试.检验测试或其他方法?应采取\nad 茶个夫定动作以达到或维持安企状态;或者\nb> 不计复随机硬件失获概率(见 7.4.5.2)时设定的平均绯导时间(MRT)(见 GBYST 20438.4一\n2017 小 3.6.22)内,绯修履让子系统。什此期可内,EUC 的连毋安伞应通过附如扫膝和约来来\n人殿证。这些措施利约束扣供的安全完整性至少应等十无任何故障的 E/E/PE 系统安全相关系\nHe LE AY ee ae oe ECE TE EYE/PE 系统运行和绯扩规程中对附加撞醋和约末进行地定(砚\n7.6),\n注: 7 EXESPE RRS ‘2 ar eR eB 2 AA BR TY Pa as OR a fe GBYT 20438.1 2017 197.10).\nEBT BE (SFE ,例好,安全关闭 EUC RAY BEE HE OC GUE SA EUC 部分。\n7.4.8.3 MPa ek PA EE SA ER. MA ARE OR EA TIRE Pie fT He BEAL .\nfr HU) EU) AS fe Pose he Beet CSR hr Ey G0) tk eae ea PU ig SA LA PS > Df he BE AY oT: EA IA 8] oe Ep eR ts CL\n注)。\n注: 入 ESESPE ARBRE ERAT AIA BSR LE eh os Bre RY EC G/T 20438.1 2017 IN 7.100. FE\nDRE ELIA Pa ee BUC. AA CUTER ae Re Re Ta RSH IN EUC ia.\n7.4.9 E/E/PE 系统实现的要求\n7.4.9.1 应根据 E/E/PRE 系统的设计要求规范米实现 EAEAZPE 安全相关系统(见 7.2.3) 。\n7.4.9.2 & :个或多个安全功能使用的所有有子系统及其组件孝放必为安全相关于系统或铺件进行怀识\n7.4.9.3 应针对每个安全相关子系统和组件提和供以下信息(亦可参见7了.4.9.4) ,\nPTA TP a GEST 20438 IPA AT RAS TP le pet fT ee A ee PL ae DE yp eA AS\nSe 2a Ck AL ith OS SEL PO ee oa Be ER\nad PAS A AA 2A AE ye A ae\nb) 4) FR St RICE AT Ye FAG By) BR cl 3 ETA BS ie Te SES. CAE TS 8 BE\nc) , 每个组件的系统性能力[参见7.4.2.2 Meo:\ndq) 对组件的知人和件和/或软件醒置进行标识以佑配置管理符合 GBS T 20138.1一2017 BY 6.2.1;\nc) MUESTRA RAAM Ce E/E/PE 设计要求规范(参见7.2.3)中的功能要求和系统性能力\nAY AB SS CA TEE\n7.4.9.4 WEP RE GET HY BE A AE ee BL a fA ae 7409.3 7.4.9.5 ea ARLE\n注 1: 点时符合 GBT 20438 MAH a 2 RAAT EAT OSM R Hee eRe ie ip ae ae it\nad PERS TABER RHO LE eR re CL Ba A eH FEAL BY OB iS rd a A\nfor WN) BA) a le Ae 2H 14 Sb BAS aT APA Re HE BE eS 7495\noo",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 31,
+      "text": "GB/T 20438.2—2017/IEC 61508-2.2010\nby fh ad |\" BGA OY fe RAK ak Pe ae TATE PR eR RCR\nf) SPR ATA BEA BRC TY 2H A a Be Ca a 9 OK gh) a HG He EN BS Pd he\nGU) EY) Bae ZL PPh eA SS iY Rae SO) Ey A see C5 70409.59;\nd) A co} PA AY a Ap RRR PR GE Pe TT RA PET RES\no> AGRA a TRL Pa 02K 5h 9 | YT AS 8 Tw ZT 3 RR it\n站为保拧山于随机伍忻失效引起的估算失效率的有效人性.组件的硅命限制:\nhy MT co) PT ZA PA ae 1S BP ad ea BY OR SS see fe. PMR ge CO Se EN) BY 12D HS ot 28\n(2 WWE 2);\nMTT cH EAA ab ee rd a a dB) RE A RN |e 0 12 AV) BB LTE 2)\n注2; A MAE EV E/PE 42 fo X BS EM SE Se rk EP AA fd EA FP SG oT AD Pg IE\n12 BB i oA By ee ae 4 AT Ha oP) Og WL 752074503 AAD,\n六由随机硬件兴致导致的诊断的类残率:\nk) 为导出在诊断检测出故障后的平鸥维修时间(MRT.盆见 GB/T 20438.4一2017 中的3.6.22) .\nPor os fie OAT: fat BY 1 A CP] Qu AE A A J\n1 ATE AE E/E/PE RS RAR TA eR eo RC SFEOM OAT ee\nKOS BATE HB BN ok COE ae TR 7d OPA A EK BR;\nm) 2H fy ath fe ie Bae PAE\n7.4.9.5 — l) BR BL ae fA Se i a he 0) 2 AA SY fe ee SE 74 BY A A oD ,可通过以下方式之\nad Fl A rhe Ze LAY 2B AE 5 A HE a RT TARE A SSE TN AAR? in Sp PT OE HAE\nb> SETH 41-7 RAGE SE LR ES RE OR ors 28 eC, 72410)\nBE 1, ATM UAT AT RR RIAA A Bh TOU AU. BARES RS Se mo |。与其等价\nCAR ITE Ga PV a eH EMR] Lo |.\n注 2, Te RE TE ET ee de OT) TT SR SJ Li,\n注 3: ASH A(LA TI Bae Re RYO AR PP RAE Bea. ea\n19 ER ROUTES RI RSA BRE RK. AIR ee ede\n211 TED Ae art OS Ast, CE EDD AS ae a ES ETE 2 EEC) a. ET a AB\nSGA). PRR A. ET Ra ETE fe 8 ~ 12 ES lal. AR AE ROO EE a\nfie ALAC EEA .\n7.4.9.6 (Oi RGB DAR. AT AMBRE ree tl. FUR aw ae ae\nPCW RIGA GB/T 20438 MTA,\n7.4.9.7 fin RIAA A GES FP 4 AB EE EE sc PS HE EA\n注 1: A LEM A EA EBB, ORES SC Te ALE Ee ep\nAE AY IE BE Ad EE\n注2: 在计据的可万性方面,可能会有商业或法律上上的限制. GREER IH f° GB/T 20438 ATT. SRA Ak ae\n限制而造成功能安全评佑无法充分利川这些证拆,孙和该组性就不适合用于 Ez5E2PE 安全村关系统.\n7.4.10 经使用证明组件的要求\nHE MAS Ape BIE PRL 7.4. 2.26),\n7.4.10.1 *¢T PAIR. ARAL AIH SAE ME FARA REN AIRE\nbe A Por fy fz Pose AY a 20 PE a Be eT AY) PE ae eK. Ty eh A 2 A 2A 4 a ee te Ps BE ES\n44",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 32,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n完整性等级的由说下 ,该组件才能被看做蚌经使用证骨的。证撕应建立在对特定配置下的组件迄行经\nbop ace Fat Nr Uy SB Fs [ee] PT i pal AE Sr AT Hah\n注: UN SESE op air A A ee TR 200 PF fe A TPR IE Lf oP ARS Re SEIN. BE\nAy TE eb ea Ae Tt ae ae a a a AE CO oe Oe A ee AT EE\n7.4.10.2 在7.4.10.1 中要求的文档让据应让明 :\na) 特定组件之前的使用条件(克证 DLE E/E/PE 安全相关系统中将要使用的条件是 SN.\n或趾很接近的;\n注 1: TR RECS TT RID BLO EAE MRA TARR AMA INK, GER ,全出模式、执\nqr Oy Ate AC A A Se Re RTE AR Pt LAA Wy la IEC 61784-3 4 ela fata ie ty et\n的相亿性所需的严格条件。\nb) 在以前的使用中设有这出危险和朱歼诗,\n注2: 关于如上苛估用概率统计方法米侧定基于运行产验的已开发软件安全党整性的指南,请参岂 GBAT 20438,7\n2017 的附录 2D,\n注 3; AEP REA ee PO OTR eA a\n7.4.10.3 当在以前的全用茶件和在 EY E/PE 2 #4 Re EE ty RE led fe Et\n庶来出适当的分析方法和测试对条件差异进行形啊耸本.以栅定所行仑险系统性疼降发生的可能性中\n售低.从而可以让使用该组件的实全切能实现所要求的实生元性衬级,\n7.4.10.4 应当使用7.4.10.2 所提供的伟恕建立文档证撕,以证明经使用证明的组件能够以所要求的系\nTERS CBA SURESH. IMA PULP AR:\na) EP RY TU TR 2A de TA PE SD or A 这;\nb> YEAR HR 45 1 96 a ee TT 2 he AY PE BLOT AD AY DR eld ad FE OO PT ;\nco) | RTT ER.\n7.4.10.5 fei Eee ROR OD ee UR PAR C74. 704104). Ee eR\nBi ee BB AF eS Cal a GB Y/T 20438.1—2017 (ft 4.1),\nad MWA;\nb) XT Hf Bok OY He SEE HE FA\n7.4.10.6 Av i747 AB ee eG A A TT A 2 A ED AR A AY FT PD Te As dad A\nPRT HP TY BAY St ee oe PE ee AS a) Bg],\nHE TT LAG eA PR Ar RK PA EK oR A oe A Bg AS ERT Soe 2 FE 5 PF “Se Ek EO TE A |: AR IR YE\nAy Ace 9h A a od LE fe ie NY Pe es GUE 。\n7.4.10.7 P08 HEB 20 EO A A a ag A AB TB ot 7.8 和 GB/T 20438,3 IN Bok,\n7.4.11 数据通信的附加要求\n7.4.11.1 当数据通全出于执行一个安全功能时,庶情年通信过程中的失效旦(例归尸余司医亭),包丘\n传输和错误 a ALAA EB RJ ER AA, FeV TRL eT A en RRS ER\nBC we EY Ie TK AH BR LAR se (8 WL 7.4.5)。\n注: Rife Se \"A ER ET aT RR, SR PR AD FB PR\nAHA PR EATERY.\n7.4.11.2 AS (Ri RoE TBR BY Ke CU RABI!) IR AAD A GB/T 20438.3 的要\nSKN Fe Ee RO i, ae Pp AR SE,\n—— 4: Fibs (Aim ith HEAR GB/T 20438 A IEC 61784-3 ae TEC 62280 (SE aE ty eit Se ATA\naeERA’ TT Ei BAL 7a;\nZl",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 33,
+      "text": "GB/T 20438,2—2017/IEC 61508-2:2010\nnib 2} A fa a A TPE BB GBYT 20438 BR VET pip ek aA a OA Be CB LEI 7b,\nTok Pao b A Tea ft EB ee TE. TATE E/E/PE 安全相关子系统或组件中实\n施必要措施,使这些子系统或组件按照 TEC 61784-3 TR IEC 62280 与通信通道连接,\n符合GBAZT 20438 人 符合 GB/T 20438\nae GB/) 24339 BRAER IR. AR ARS oD\na> 和白色通道\nat VEC 61781 3 ek GBS T Passe (EE Loc fon Fa aK OF AL Bp it 3\na |\n| |\n2. R/T 20438 me ee 符合 OB/T 20438\n的子系统/组件 接口之问的部分通道未按照GBAT 20438 进行设计和确认 的子系统 /组件\nb) 黑色通道\n图7 数据通信架构\n7.5 E/E/PE 系统焦成\n注: 这 :阶段足赂2的方性 10.4\n7.5.1 目的\n7.5 的日的在于集成和测试 EYE/PE 安企相关系统 。\n7.5.2 xR\n7.5.2.1 E/E/PE ££ @ tu KR SEA ee AM ee AY E/E/PE ee Iie Ty ER oe. ee Pl oe AY) EY E/PE 系\nbe He RAN GRC UL 7.4.2.1 1 RAT IMR.\n7.5.2.2 tPA MRE RS E/E/PE 安全相关系统的过程的 -AS.E/E/PE BSW RARE\nfig AE ke CL FA ET y MR ioe Ee ae EB oo EE TE PE EG PE. Py\nWe Fo Hi) SY BE\nB.S HARRAH ASL mld. AO SPR GBT 20438.7 2017 BY BS. 2 EE EA OT HE\nmea. BAR OPAL GBT 20438.7 20177 BY B64 ay Ar GRY T 20438.7 2007 1 16.5 oR PRY\n4; hr (aw GBT 20438.7 9 2017 19 B.6.6) By BE a aa SD fa ok > Bl] — Op RE, a ee A te\n(4b GBYT 20438.7 2017 fy B.3.20 re Ae ik RCW GBYT 20438.7 2017 ME B.e. 3) Ik TH BE Ww\nre dy Te A EEK\n注 2: Tee He eh RE CW GBT 20438.? 0 2017 的了2.2) HB EEA oe tS OL GBS T 20438.7 2017 AYC.5.13\nAL CS Sak fp TP 2 aR ie AL\n$63. [eleh eo) sc ct GE GRY T 2438.7 2017 HY B55),\n7.5.2.3 Ivf GBT 20488.3—2017 AY 7.5 的有要求将安全相关软件集成到下EPE 安全相关系统中。\n7.5.2.4 WA Ra hy EYE/PE £PHMRAR SME RUA BANA R URRBAKHTSTR\nPES AY Gl Bp A AE NE A 4S eg a, SR oe ae eA ee,\n7.5.2.5 TES LR A Re). et E/E/SPE 24H KRSM FE ye ik BK ee YZ Al\nFR HE AT In) Sp TTT ET A A a WE a,",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 34,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n7.5.2.6 E/E/PE #2058 aM i ik og bP i BE ee\nad FBT AV MTA Ru yo BY de 4S\nb>) 集成测试的接受准则,\nc) , 裤测试 E/E/PE 安生相关系统的版本;\nd> 所使州的开具和变笛以及校准数据,\nce EP MARA ST\n[> FBR fA ASE Bas 2 SR Ue] BY FE dy Ee\ngy 4 Ac BOS Se RY RD ae 7p 2B Se PU] a ke Ac A Ee Pp a A AY op a A\n7.5.2.7 ATE E/E/PE 9 29038 bQ HY I] aa Oe ie. A eS 2 Ta SY i RT.\n7.6 E/E/PE 系统运行和维执规程\n注: jt — Bree AA 2 eye 10.5,\n7.6.1 目的\n7.6 AY) ATE F til] ae A FB LR TE de 7 A EP I] GRR OE/E/SPE “4 Re Ae AT BOR BY A HE\n7.6.2 Bx\n7.6.2.1 WH EVE/PE 系统运行和维护规程,并应规定如下内容:\nad 为保持\"符合设计的\"E和EPE 妥全相关系统的荔能安全所需执行的例行浙动,包拓己规定了\nFe ary AY AAA yf) PBC BOGS AM eg HH\nb> OBR AUAE 2 aA AS AL / Be BE th SARS RA SR a PR a 24 C0 ee A ke\neI Ty PF yA] a ee ak AR BY [gD ;\nc) TEAS RR AM E/E/PE 2S HA MOR Se A A ae 2 RP OC\nd) f 24H E/E/PE Fh AR SCY A AT a 2 OR 7 a 2 BPAY 3\ne) 4 4e E/E/PE ‘FH E AK BC Py BT 5 ST SE dP A 2.\n—— STATA Ma\n—— “4 Jie Rise OAR BT AY Xe ae ri AS RCD. Br A OY) AE\n[) Wve Hl et ALE ATR A AEP AY DA ys Pee al] oe\n—— FRET A\nar Bt KR BOIS AUR\n2g) SEP RI SAA ea CAT Ali EPO ALE\n注 1; MPR CAAA I EPE PE ART Me RAS ECC MAD ATA RRR AR\nfit AY 。\n注2: EYE/PE #80 ie tt Al Sede AQ Pee APE LG BBY To 20458.3 2017 的了7.8) 。\n7.6.2.2 E/E/PE PHRASE PARRA. MD CURR Re REA C20EF/\nE/PE 安全相关系统的测试,不断升组。\n7.6.2.3 Ata E/E/PE 安全人由关系统杰求的切能安全(符合设计的?所需的合行维护活动应采用系统\n性的万法米傅定,这种方法应可人稍定所和安全相关组件(从传感胡到报终无人忻)林揭露出的失效,这开\nBO PRR EE EAU RR. RB Ak dB;\n—— fig Bey far EE;\nas)",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 35,
+      "text": "GB/T 20438.2—2017/IEC 61508-2;2010\nTK RCRA TK Fl 2 UP AT\n\n注 1: (ewe ORISSA EVE/PE REM KASS NARI AA oe BE CR\n\nBE 2. Re BO HW io ASE Lt ea AE PT DAA BU a BR\n\n注 3: AS SMM isk AS SR SBT Hd ik Ti) BG A A AEC GBS T 20438.6 2017 的附和下 BD,\n\n了包括:\nSEE CSS RMN ARH\nAL Fay\n—— 5 TH ak 7 BEE\nfart A (1) Re ok HK\nSE Ree MS GUD isk As HR IS ATT HTML kD Bp A GA ST ee A EE. ST PE SE SO 7.4.5.27的\nAy BEAL AE GRE De SI LA A A DB PE ee PE\n$5. COBRA TAME MSE BOR OP ATT SEAL AEB ae 8 ee TE CUS ET SE Pe\nHey & EYE/PE REMKLARRN ARM APE,\n7.6.2.4 MWS, EYE/PE 系统运行和维护规程可能会对ELC IS Bey 2 tig,\n7.6.2.5 为在 E/E/PE 系统运行利维护规程中局免电障利朱效:应彬据衣及.4采用一组恰当的技术利\nTH INE\n7.7 E/E/PE 系统的安全确认\n注: GABE AP 2 的框 10.6。\n7.7.1 目的\n根据此炒的安伞巧能利安全完整忻确认 E/E/PE BP RSA A AR AB BE ag A RC\n7.2 Al GB/T 20438.1 2017 Ay 7.10),\n7.7.2 BR\n7.7.2.1 ESESPE ote Sih A hy Fe 8 fo bP eA CA GB/T 20438.3—2017 AY 7.7).\n注 1: (fe EYE/PE 系统安全生市周期中县示.E7EAPE BHEPRA EEE S PTY eR OP EYES\nPE 系统安全确认直到安装之后才能执行{例如,庶骨软件的开发工作由到安装之厂才能完成) 。\n\n注 2: 可编程山了安全村关系统的确认包括旬件和软件的确关,软件的确认要求在 GBT 20438.3 下说是。\n7.7.2.2 所有确认诈的测基说答应依据有据可但的国家标准(旭末可能) ,或依据会认的规程进行校准。\nPar Ty Ml oe SE IE a CAP\n7.7.2.3 fE E/E/PE RRS MR CW GT 20438.1—2017 WH 7.10) E/E/PE RSET Ee CL 729 La\nMBP E/E/PE is fF 26 PE Ge PY Ba ee eB fe eT ed A fk PO\ntA. RFRA RH AEH AY a a eR As Fe PE. bv A AT A A) ,\n\n注, 因为必要的测试组全的数目可能很大.在这种情况下吕能蓝求对系统稠构。\n7.7.2.4 应为所有有安全功能制定适用的下EPE 系统安全和棚认测试的交档,内容包括:\n\nad THR E/E/PE 系统安全确认计划版本;\n\nb> 待测斌(或分析)?的安全功能,以大在编制EEZPE 系统安全确大计划过程中规定此求的兵体\n\nc) 使用的车具和设备,攻其校准数据\n\nd) Fe MDA eR\n\nco) FOL HA (RAIS ba ee Re Ye &\n\n注, 不需要为每 PRUE ve By ES IL Et ad ~ ER AB. OH BB Ud de ay\n\nae He) HER\nAd",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 36,
+      "text": "GB/T 20438.2一20177IEC 61508-2-2010\n7.7.2.5 当出规区异(印尝际的结末偷离预期结炒的帆度大于所声则的衬度)时:应将EPE 系统安\nSWAN s Rey 2 eA Re Pa:\nad A HA a ly;\nb) Por RCA eR fe. SR ee UM ah ee Ae Me tp oe ST TPT EY) oe A AY — > AHR A op\n7.7.2.6 性应疝或开发少诺个EUC Al EUC #4 dl ot a FAS BE ae Se EYE/PE 系统安全确认测试\n引果.以使其满足 GBT 20438,1 中的鉴体安全确认要:站 ,\n7.7.2.7 AG E/E/PE 系统安倍硼认过程中避例贞障,点根据表 BS RA A SE AA\n7.8 E/E/PE 系统的修政\n7.8.1 目的\n7.8 要求的口的是在对上让PE Baa KARE MO eR BERS REE\nHE TK Le Se oe BE:\n7.8.2 225K\n7.8.2.1 Iw ARIK E/E/PE oe 4 ee 2 ve A a YS id oe. Se\nad fe Me ATE A eo;\nb> #EPC By e+ Bee iO ah ee CL GBST 20138.32) ARIAS EAI Y BEAU AN 4 fo AY\n2 inl SPAT ;\noc} PAR EE\nd)} ET AY TE ;\ne) FRSA a (4 19 Wh HP]. 0 Ta A SHE\nf) E’E/PE BRACE SRY;\ng) Siew iT eI Me ;\n7.8.2.2 FOU Sepak thas G/T 20438 BY rl ak pa AAA Be HE ie ey oe SE — PL a. MA td EB AK\n{4 PTD ee fe AD ae Be Esp Ag eh SS BE Ae ae Big ee ry tt > ET A Ho He i A 。\n7.8.2.3 MRE Bb E/E/PE £2 MER SH aa AA Skok ate To AW GBYT 20438.3一\n2017 的 7.4.4.2) tS] Sho ell A ep DS EB A Be\n7.8.2.4 (2902. E/E/PE 安全相关系统应种新验证和种新确认 ,\n. 5M GBYT 20438,1 2017 Ay 7,16,2.6,\n7.9 E/E/PE 系统的验证\n7.9.1 目的\n7.9 的上的是测试和评价给定阶段的输出.以保证共对该阶段输大的产品和标府的正桶性和 -\n注; 为了方便超见,所有特证泊动玫丰7本寺定.而实际上它们在短个相关阶段和出抽行,\n7.9.2 ZR\n7.9.2.1 AF E/E/PE ARK CA ATEN -frke. EVE/PE &@eHAA REY SIT AR CU 7.4)\n同时拟制计划并建立文档。\n7.9.2.2 Sahl] E/E/PE 系统验证计划时度参晤在该阶段验证中有关的所有的准则、技术和于具。\n过",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 37,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n7.9.2.3 Sani] EXE/PE 系统验证计划时应规征要执行的具恒活动,以保证共对该阶段和输大的产品和标\nAR AY IE MATER -SCPE,\n7.9.2.4 4am] EXE/PE 系统验证计划时应考虑以下内容:\na) Sar Ue TE mes PT) se AN YY SE FE ;\nb> Ub Rise 4% By 5 FE A A\noc) , 验让活动的选择并建立文梢:\nqd) 对皇接从验证设备各测试中获取的驼证结昌的评价。\n7.9.2.5 ”仁和拇个谱计和开发阶段中,应能有林出已达介功能和安企宛整性的有要求。\n7.9.2.6 BPS ULES oh 2 Rab hy Bt OAS E/E/PE ROP AARC Bo wim Aw oe\n因的说由。应考虑以下因系,\nad 53 -个或多个E7/EAPE 系统安全生命问期相关此求不相符的项{(见了273\nb> 与一个或多个相关设计标准不相符的项(见 7.4\nc) JJ一个或多个相关安全管理要阔林相符的项(见第6益),\n7.9.2.7 Mf E/E/PE 系统设计归求的验证 ,在建立 E7EZPE 系统设计要求(见7了7.2?之乒利在下一阶段\n(二计和开发?开始之所,验直应:\nad 针对在安伞计划期间所规定的安伞性 .功能忻和其他紧求,确定耻E PE ASIA Kk A\n下元分满足EAE7ZPE Rote ok Me CU GB/T 20438.1 2017 O9 7.10);\nb> fe CLAP STW Pe] OY AREAS TE\nE/E/PE 系统安全要炒(见 GB/T 20438.1 2017 89 7.10);\n一一EPE 系统设计要求(见7了.2) |\n——E/E/PE 系统测试(见了.47\n—— F304 A 4 th AE SY\n7.9.2.8 APF E/E/SPE RAICTl AD ABE. EIR E’E/PE 系统设计种开发(见7了4)之后和在下一阶\nPo C46 TT RA. aE EY\na) Wij E/E/PE ARMM aA E/E/PE ARIZA MIT #:\nb>) ize E/E/PE 系统说计和开发针对了/EPE 系统安企要求(见 GB/T 20488.1 2017 897.10)\n的 RPE AU SEE PEC bh BAH Ht BIRR)\nc) Fe PF SAINI AY RAS EE ,\nE/E/PE 系统安全要求(见 GBT 20438.1 2017 AY 7.10);\n—Ef/E/PE #212 17 Bok CM 7.2) 1\n—E/E/PE 系统设计和开友(由了7.1)\n— E/E/PE 系统测试(册 7.4),\n1, Fe 5 TREY A a oy ede AR ,了同伞也可运用于验证,\n注 2: 在验证已达到此求的诊断覆曾率时,将基展 上.1 换代的区须检测的该障和失效.\n7.9.2.9 E/E/PE 系统集成验计,是对了下PE 安全相关系统的华成进行验让.以确定已经达到 7.5 的\n要求 。\n7.9.2.10 测试用例和结时应建立文档。\n8 功能安全评估\n动能安全评估的监求在 GB/T 20438.1一2017 的第 8 音中作了详细说吓。\n“4",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 38,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n附 录 A\n(FA Fe TE BA SRD\nE/E/PE 安全相关系统的技术和措施一运行中的失效控制\nA.l 概述\nABs Sj 7.4 :起使用,和它限制了所二明的有有关技术和后施的撤大诊断利得诗,对每 :安全先\nBS TE Sa AN BA ee te SM Pe rl BL AE ALE eT AOL. AOR A ith\nWO 2a 2B GBT 20438.6 2017 AYER BOM GB/T 20438.7 2017 的附录 A.\nPS] AAP a Ee RAL A EP NY A AE | SR a ILE SEA ;\niit BR AL Ke OU) BY TAT 58 Oe] Se ed A RE PE;\n—— 948 FT) 2 ae BT SRT. Ge By RE AL ee OAD PE a ,\nE/E/PE 2S ACK AR Be YL dc ST Ve) 4 SE;\nrete Seep 2a Be re I A BR 2 Se ek a A A CAB) Ee Bg BP\nPast = EE 44 A BEE CL SY re ie Ae AAD 2 4 a EAE 4 D =;\nee tT? Fs BE eS A aM ACA A eR eK i) a, LP AR TE Bg 1 S|\niD ZK ED\nAy mE Ae Af ill oe a aR a tS BS ne ABE os 13 Soe Se a WE ES E/PE\n“te. Se A ir Ji] TD] 4 Ti a Be HY at ok 8 FR EE BP it CB oe BD. Ae Ae fy el dP HOR Pe ld KY BB BER\nfie tae AD. BET ec sm E/E/PE 2 ASRS ESE .\nIDB ARTE RM REAR BORE ee ALL 和附录习 中详述的规程确定。表 AAA.2一权 后.1 RRR AL\n的要求 .为诊断测试排丰了技术和拖施.并排存了在使用这些控术和扩施时可 实班的报各等级的诊断视\nBe BOHR IPR HRA aE OC OBYFE EO, HE AL2~ RAL 并不详尽.当然还可佑用其他技术利措\nWie « EE TE Re I oe A RUE a Fee ee, Oe OP ee i aL eos AR . RR AR ARE\n至少应用 -E PSR IAT BORE\nFE eee ALS ~ RAL? ARE TEESE T Ell RRMECA BO AR A Ga. He ALIS 为\n#E tll Fe ALE Se HE FE Ta OL GB/T 20438.3). #2 A.16 AERA RHE OS HR. KR ALLT 为\nGBT 20438,7—2017 的附录 A STD TED TT AR AR ATA ie a. GBYT 20438.3 给出了了\n每一安全完整忻等级所需的软件技术和措施。GB5T 20438.6—2017 WK itak BAH! Sia E/E/PE @\nPAA FR BESTA AF PA\n(taht MOAR DOR fa hd AB SER REP COR RS SCHL. SPR PIP RR 2,\nWr ete AR AUT Be BE A Te hE 1 fA]\nET RT TE RET ee oY E/E/SPE 2a ARH AL EET YP In) a BE Fe RAI GR Tite =\nBein a Oy .\nA.2 硬件实全完整性\n为达到诊断福普率的相应级草(克附录如) EAL 给册了为控制硬件失效而庶目技术和措施检测\nHH TAY AM Pee AT A I BER He A.2一表 ALA ALL 的次求.为诊断测试排基了技术和措施,并排让\na0)",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 39,
+      "text": "GB/T 20438.2一20177IEC 61508-2.2010\n了使放这些技术和措施可实现的最商的诊断颖将率等线。这些测试可以连续邮战定期地进行。这些夫\nJPAS AAR 7.4 (AE RR, Fe A.2一表 ALA IPR TEAR PR ER TY POA A tte eA A ie. ee\n注 1; GB/T 20438,7—2017 的附了下 A SAM TIRE DOr TT RATT aE. OAL OR ALS 的第一列给出了\nHe Ode WG TE IPS FB ge ,\n2. WHR MPH 3 Roa sce A bOl: Go Ao,\nRA. 在量化随机醒件失将的影响时假定的或在推导安全失效人分数时要考虑的故障或失效\nFay pss UF] cpa ee By fae ae 98 FER\nJAR PF i #\nfl oy Be A. 木训电或断电 Ad il ay ok Be Ae AE ole br\n(eh aE EE: HR He dE AY BE p> ff ate fe OE FE BY) Ba 7 fh ate\nfit SAY AS TR WR Se tC Ret ESR Ha BP\nFella EN 50203 2k} [nj bp HEE Ty AQ\nfhe FUT al AR. WA fe oe PP aD\nAs \\E Sa ET TT Cat 7 ae fe JP 2G ee\nNt EN 60947 5 1 ae AE Ip pe ME Pa at\nFAL IA fA, «I AS he ee ak BR 8\nAg\nfy LO W]e Cube 1) DC RUHR COAL FE 2D TDiC ee Ee RE\nROH LOD 国定 DC hi Bi poe FRY Lac? ai Bie fee AY\nit FS Alte ae AE Male\n电涉 [vi] ae DC AR page Bat HY DC wig Ree et\ntt ES ALA iS ie FS HM The 335\na HY Aw? Fit HE Pal Ze 后时 EG AT\nAY fe TF HB oc ALS Be Hi ok Hl He GE 错误的也丝解码 fir jae AY Ho Hh ie 04\n(MMII) MIML Ar 46 A Rey fe BE Se | MMU eh et SY Bt\nfay ok Wee CULE SATE 4) | ee\nBIE IA (6 7 IA) Fo By iE Be YY [i] Be te A Hb He i) Te BEE] ny AQ fe Se Se Ae Be\n(DMA) DMA ay 47 23 ay 2k Se ike ee | SRI BY Ua fide ful\nOa EB ev\nBie UY Jeb by fol\n03 2k (PR (Pde fiz o> LG AG ik SE ft HE AG ESE ok Ft AY (PRE\n(ALFE 5)\n3]",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 40,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 A. (EE)\nFar te UY 8) 32 Pr HEE ae A OR\nFo fie tf Wl Ae\nnfa oft dub $4! Be AA, AVE\n(CPU)\nat TE is. (Al in AC ATT Hl it WA aE Be he A HE fy boc? dee Bee fe) ARE A Ee 4 Lc: dee Bin fee\nRAM 软销误导禾的信息更改 AN ff SG AY ol AS\nACh 8k S bb ok © aot\noe fs AGA ete ie Shi ity ake AS GL Fy TR ae fhe BS oe EB i A tt AGE MOB RAO\n地上计算 [a] ie DC Ai Bae fe AL BY 7K SC fi he\nde AE UA Se ar En i ab Pe\nPoly PB HS HE 四证 DC AK Baye pied HEY DC ig Bite fet\nAe HR ET fee EE St Sh sir (iy tbe bi He Me a Pee ts Se SY HB ul\n| bate seh FY! Ad\n中 bat Jou i ee be Cuba | Aga 4 et BT Ac uk 4 ee P bo\n6) It DBT AY se N43 ir Ay se\not LL BS 四年 DC AG Ba DC (ie Be ee oY\nfo de AR Haak | HE A GS it RE A Sie ses\n到复位状态 fh oc gee RO eB ei | Sep uc aR RA OB ib Bd RA\nAs TY Ay TF ALS RUF AT He hh Wid ae BF AL He ey Tc? sc Re RE |e ig A Bs HS yA BB\nBY 4g Ay FF A.6 BUF AT He tk Wid aE 数拓和地址的DC Asc aE | BE A et ey Tc ite Ba\nee Beit | AR (ee ATF Seo Ay ald: ae\nPeete | RK Bake eS\nAG fab Fie Pk ok & iff oye ub\nMeh ete) Al TER ae fey ER TPE ASF ti Boy AS TF A By SL of\ni fie. fi 4A Je] AY ab ah Ja] Ra BL ah Ja] BH ES\n(PLL})\ndA al A Atte) All? PE ibs ES) Be fhe ee eb: Bee me AYA A | Be BR Sy Pf ye BE] ee my AY Se He yA\n7 {i #8 As 443 Bp TRE use O87 Ae thy oH Hib FE Le BY Be Hg ke AB tl\nAPE oe 0) £8 Aan EDD TA] ee ides YD {fe Aan LD PA]\nery oe BE Sea lint PF Ty ae BY 1% Sy it Fe\n{5 eR Hh A.13 Vi) DC 故障模型 DC file RR FY\ntt ES ALA iS id FS HM The 35\n39",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 41,
+      "text": "GB/T 20438.2一20177IEC 61508-2.2010\nAL] (BE)\n_ Fare ti AH (09) 2 POT FRE GG oe ROR\n元条件 WL dé\nBe 2% ag fF A.ld [Fe 4 ToC de Be He Tie BR RE FY\njul BS Al he ys RS A Ae 335\n注 1, il (Stuck-atd St — fh iy BE OT ETL Ee eat OR LR Con\" Ka ae\n$2. \"DC EPR ie A Re; A (Stuck avd Pe JP CStueck open} . JP iS oe Sy BLL fir Ae fF 28 [A\nHse, A ER RA CA A PR AR RMA DC ae,\nm3: HH HIAW. Me CB OS fh BY AK G8 ie RC SER) Eb i 40 ok RC BR TE Bo a PE TE ty — eh a at EC 情到\nS00 44).\nm4, IAP RINE EAM T ESA ELPA EM Me AA. See ie ey AE ie\na TT BY de ot PE a ie eee. eS LTE te BY de ee a ST Se A oe ,\nae A A (ein ok BY fe a is AR BR ATT A ey «i tA ee ok ECC Hea SEE EN ff Be\nFAS HS FE AN BR AR] oe Be FE TE AS EP AE Ty TL,\n注5: eR EL APPEAR Se A AL id\n注6: CSR TH PRES PPA EID EAP, GE Sc a eR a EET\nLRT 。\n$7. UTR RRR 2~ HK 18 OR ST Hea 4M,\nHAD 电气元器件\nAA) HY fe 2g WE ga ell) Pea A,1.1 {ER ¢ {ie EE aR AR Ae Si FF Ae see 5 NT VS BT Ee -44\ntC To aE OR ae A Se\nee FL AR fe at WN el A.1.2 hy ae EG, EL AIL Ase ge SY Se Uy EY TT\na EAE HH BR A HP AT\n> iy UY\n注 1: aR ACR BA ae COTE fl feck,\nFE 3: FT 4S a — ea ALE AL] AVE\n表 AS Ato\nAll AY 71 28 HE RRS al) Se ae A,1,1 {FR CPR -RE CR feta He Bil Ts Se ee RS MN fe BE BT\ntbc ap Be RE ak AR zee fat a) in\n比较器 Ala a GR SOREN EL Ee\n[a] . Dull Fe;\n3",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 42,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 A3 (20)\nAll FA ac 7s a bay ak A,2.1 中 ff Ari SE RR GUT ty 1 Dr\naly 2 At A A202 a a ae ay A\nLey fie] wee LD Fa BL dy i a5 A.2.3 ey fe fit T- OR ie Rae Sn ty PT\nPE GY ap PAE al) Tk, \"i ie\n注 1: BAAR ae C OTE fy Bok,\n注2: GK CH ROR Gi Re KATIE AR.\n$3. FH ABR APRA AL] AVE,\nAA 处理单元\n利几软件进行日训试:丰 上,3,] 低\n限数拓的模版(1一个通\n18}\nAll AUER PE at 7 A a) ot. #2 A,3.? 由\n生僻(一个通道,\nFA a RE a : A.3.3 中\n个通道,\nac [ae LT\n注 1: AR AOR BA ae COAT Ef feck.\n2, iat CH BRAC BR FATEH KX.\n注3: fT 4S a — ee LE AL] AV IE\nFE 4. AAA eh A A es hE ALLO ey a) a ee A EE A oo LL PUSHY + ah\na4",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 43,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n表 4A.5 不可变内和存范围\n多位和元余季保护 A.4d.1 70 ae tf te PA A RTE AR\nfii TS ft Wh AY A Sl] i TOR\nIt BOK Bh TT 4 A OP) TS Of ed Re\niW) efit AE PS) fer Mee. AF] On eo\nhh (= RTP. EP eb Bl\nhare iit Te HA ae). HO FE\nwig [ta] ed AW) AA fy fe HE BE a\nny oy Fo Su a fee Pee Ay A\nEP Aho BD 等\nALS hides A,A.3 TA A RE HR T° SE fe\nBP fa OY Le tee fy I\n(Th) at RE\nMQ F168 bis hse # AAA tr 2 I A ee TE HR GA\nPOR OK BAS nS\nm1: “ARE AR BH COMED Bok,\n注2: RCM RR Seem RATA RK.\n注 3, AKA RIN MER. AL ATES,\n4 A6 可变内存范围\nAp Ml ARC checkerboard) AS. 1 低\nuv 2 AE emarch RAM 测试法\niB 4 Af C walk-path)} RAM ALS.\niat a\nAB A ch C walpat) ok 8 UH Bk ASS ia\nAb BA ok Ctransparent galpat)\nRAM 测试法\n[RE\n40",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 44,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nAG (2)\nee (Me Wel Ay RAM 监 A,3.6 Al] dee EL WH RAM Ie\nfw Ne AT] JS AE eee ee A A 24 a fUL eh A] |) Ee ae) AT nS\n#4 CED) Be ih Bi it Ey CED) He So Be He Fe ic FA AT Re\nBE ACR To Hk a A Ba\nWS TP Bk el Te AO PR te\nfee i) far JE fs ee EF] a\nJPHECX Ty ik RLS a Gl\nThay ie TE JG BAe a\nyy A) Be ee ee\nGE A sae oe BR\naby i 44: ok ae FO Be Al A.3.7 高\n测试鸣观 RAM\n注 1: ERR ARR BA oe COREA ok\n注3: ARARNY HER. ALL OAIIIE Xe,\n注4: 0 ASHES CAL Ro RAM. ECE RES SSAA GBT 20438.7 2017\") AAI~A,\n4.4 CMDS Ot ON Oy A Ay he SE Fe rt fy RC\nRAT 1/0 单元和接口(外部通信\nAR) EY Ae Ae Ga RG a see A,1,1 {Fe CE BE aR HEE {i eit Pe ae ee HL A te BT a\ntLe ay SER alk pe eee FR me\n(Rs ee ee ee\n© AE rath A.6.3 a {°F tS Wey Ww i TA) BA TAY Be Be at\nir EE At AD Ay a\nfe ds FU FY Sia Tt A.6.4 i T° AZ AT aU Tn) FAY BB Sh\nMe a A 45 8\nfa A Lk Pes #4 tht ( loo2. A.6.5 fa (i 4 22 Cer i ik lA) Ba AY ee a\n2003 或更好的拒余) Me DE ART A Ba\nRe it AY Cantivalent) f/f 3 A.11.4 Fy (3) fl Be Af fe\n传输\n注 1: ARBRE at COMES Bek,\n$3, AZAR APE RE-ALR ALL BTIIE &,\n26",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 45,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n表 AS 数据路径(内部通信 ,\n1 fae Bi f'n ae Av7.1 低 ‘RG E MN BR EMH K\n4) 38 fF FE A a: He Hk 2 AA\nFE He HR i 2 ne BY AS\naf OP FH OE AV?72 中 4 ROE fb ie HY Jae xe RT KR\nny se fe SE RY, a TE He ke FA\nTie Be ie i AR ae OY ee\na\nPE 1: AR A AHAB ot COREE fy Seok.\n注2: oe C MYER. ee BY a ee TK\n$3. GARAND RAL AL] AY IMUE\n&AQ HIP\n(Hi AA “dc f= PBT A ke 1) fe Fl) eA ABI itt,\nHH BoM la\nfe HY ‘de > By HE) te lA A.8.2 ni\nFD iH Pn By EL He aha] AED\naie Ge > HBT LE, ete ET fe TH A.8.3 ret\ni FPL ree Fy DA FAL\n注 1: BA ANCA Se CT fy Bok.\n注3: FUCA at — Pee SE OAL] HUE Xt\n= AIC 程序顺序(看门独)\nHy 4p Ab A Ef A Gf) tag 上日,1 低\nArt | 独\nLif; 4) St EE A il] BOY A AA9.2\n站| sy\n37",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 46,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 AIO (203)\nAB) MG Ny BY A Ty 0 a Ba Add tel\nM20 ar\n注 1; ARS ARIE HE OC MAE fT ES 。\n2: Bok CA ERS MR KAA RK.\nM3, HAA RAH WR ALL BAUR Xe,\n表 A.11 时钟\nTeg 4} es eet ARAL ot [Ad AQ] 低\n疝关|上门铬\n只有分离时其和时间敌的 由.9.2 a fee teat | + ES (RY 2g CAL TA) BS ab\ntl) Hy\nRye UTS 2 ey Se Sag A A.9.3 (4 Sb Sb ae I Ef ee ey a\nBRI HRCA A et ep Bh SR i a\nPE 1: ARR AHACH ot COREE fy Book.\n$2. GE CMR A ee\n$3. KBR ERAS ALL A Ee,\nRAI? 通信和大容量存储证\nPE EPE安全相关系统和 A.é WZ ALF We1O foc feo\nlui) FS fz Ge BE\n注 1, 本表下取代附录 COME fT ER .\n注2: RCH PRISER A Sots de.\n$3, HRA RA ARAL AL) BAIR,\n38",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 47,
+      "text": "GB/T 20438,2—2017/IEC 61508-2:2010\n表 A.13 FER\nBl] FH EE RG a FR a 从.1.1 (AR Cf ER REED ite PR FO eR HU Oy 12 PRT FS\n中(高要求或连续格式) in\nfe A LE ae BEC loo. A.6.5 te (US HS BB HM at lu) Ba AN Be tte\n2003 He He EF IIT ae) ae DS EY Ay ae\n4s YE AS ae A.12.1 Fl Ai Ph TT Se ee ee aM AY i ae\nwe\nAm [mew\n注1: ANH AHR RA ot C OAAE fi] Be ok.\n2; ioe CIN ZR Fish ee PHAR.\n注3: ARA RA TER. AL AIVASIE Xe,\n表 A.14 mAetacA iis)\nFl] AY 70 288 IS Fe a HY Al. (hk Cf HE RH ED ik ft TA Me Re WU AY te Ht\neC hy BOK A fe EHD me\nSif EE 2 eau he We fly A.1.2 fet nt Th BBA Se ee SEE ol WE. AF\nBE bE FB pa OY HE: ad FF\n监视 A.13,1 thy if PR FO eR HM Oy 12 PRT FS\naS EM Ty da OY oe 8 HA Ru A,13.2 tel\n注 1: AR AACR ae COTE I ok,\n2, iat CW BRAC A BR FATEH CK.\n3: 7 ROR RA ee BALE OAL] AVE\nA.3 KRAHkeeta#ee\n下列表给出了有关扩术和措龙的建议.对应于:\n一一控制由埋性设计引起的朱阁5(见胡 站,157);\n一一控制由环境应力或影响引起的类获5(风表 六167)\n一一控制操作过程的失北(见术 AL?) ;\nTEx A.15一表 上.17 中根据安全完整忻等级指出的建说和给朵的归求首先指明 FE A BG i ty\n要得:;共次是使用时要求的有有效性 ,\n——-M;: FRikR ae SEMPER PF Bek AY COB i) AY ER BTA,\na9",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 48,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nHR FE BAe EK PRA I Te A TS Ee PA A «ek\nA 4s 48 FT) YF\nREI BE ee OP TEE BY Pe EE.\n—— - BAAS HE Fe ti As Fe PA PR AR a TIM\n——NR-FRIK BAS BEE BA AS PR FF BY Se os TS te. A i Ae i eS 评细说\nAA A Ay) A.\nBOR 7A RE Hes O00 FE\n406 2 OER TAY BRO TA fk RSE 2: YTD 2 AK EI) I AE:\n—— 10. rf HY. A 9 te AS PT a EBLE 6 SEE FG FT SE A BN | A REE\nALS HATE eA ATT ne A ez PER OI Se iE OS SR .\nee MS TS A IE a OB Je) eS A if PY GD ee ae A ee\nbe 7S « FLA EE LG\nMBA Ate AA SCA E/EYPE eR RARER AAP AAA. A\nPA) AMAL 20). Ae AR A te CE BE OE/E/PE #804 4 pr J) Tt ak oe | A Ae Bn a ee AY. TE LL HY\n{RR a oh Ae ee Ong ty EYES PE 2 FHC RSE TT CA RTA Ae OY). AAT THE AP] ed 44 AE\nfe i SAT CULM ok B).\nGB/T 20438.6—2017 Witt D#ih THA AMMAR.\nHE. A ALS -~ ALL? ACA ab op dR i tg OT A ALIS fe A CPE AL PY ee ALIS Al AR A PEA\nren 70 PEE IY as fd PE ra ee ab 7 BA eR ee A PRY ee,\n\nANS 用于控制由硬件设计引起的系统性失效的技术和措施\n加ET\n程序顺序收视 ALS IIR IIR IIR HR\nee ee ee eee\nA fe 2 Ue aa fe Se cee Al R R R R\nconn fe | a\n\ni 4) Tepe Ef ga ak 六.2.1 R R R R\n全\n\nfaite Oi i [oj aig UAT LD FP A.2.3 R Ie Ig I\nee ee ee\n\nASK A.6.2 R R R R\nee ee ee\n\nee it At B.1.4 - - 及 R\nle\n\nBER 48 “le Jug HJ) — Bp fe RAK fA 2 2 Ee Ro GRY T 204138.3 BYR AL 中规定的一条技术。\n\n注 1: B-ERE CEE SR PNRM SEO MGR ARAIMIMIE Z.\n\nSE 2. ah Pet Re! Aa Ge ALLS APA SWAN i A BOE HALLS A TT PE A Es fh, ST\n\n20 Br ae Sf fr T- Br A a A 4a et PE A ed EET\n\n注3: GBYT 20438,7 (fat A. Boat 13 AURA gt COAT AAR TGF ACAI Hi ES OR ER 2 CR A UO\n\n注4: REE ML oR (TPN b TERY EVES PE €é a XR Fe Be CAR I Sh ee 4 Yd BA 2 a SH\n44)",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 49,
+      "text": "GB/T 20438,2—2017/IEC 61508-2:2010\n表 和.16 用于控制由环境应 力或影响引起的系统性失获的技术和措施\nBB tp BP RE A ee ALS M M M M\nFe A TE fib, TY iE Se se fe ery 低 fa 小 商\neC Qn) 3 FAG AB, gL AE i nt\nBeh te ae re A.11.3 M M MI M\n低 低 中 fia)\nfc Fy FA Pp ee COO EE RE 2K, the A.14 M M MI M\n2H] MR? BSF il 上 3 呵\nEi: He Dn Re tes yl A.9 HR HR HR HR\n低 1 中 a\nSi it Ft tA Ault HR HR HR HR\n低 低 小 ial\noe Me ey es [iO] a RS A112 IIR IIR HR Hk\niM if it ty\nas PAS iY ee 4 TA AL1.5 R R R R\nPe wall OR A EM ke a EUC 的区十\n状态时)\nAll HY fe 236 ES ea ee WL EE 3) ALL. R Rk R R\nit 低 中 =\nAl HD pe ee 4 ae tp ik A.2.1 R R 及 R\n低 1 中 I\nAe wh FP A.6,2 R I Iz ee\n(48 低 小 ial\nFe ttt 4a 73 f6 fi A114 R R R R\niM 低 it 总\n= FF EAD 4 COLE 6) fH. - - - R\n低 低 中 =\nsi rt\nith Fe ey ea AE AY EA Be ap A PL TRI COM Ae RAR RAT ARSE ARH\nfe (eb PAR A ee ER A EA.\n注 1: RH -ERIBSR PARMA WAAR aA A 点.15 WHT.\n注 2; RE AC TIB PAG ie RHR ALIS Bn AER ALIS PROT OR AE A AE Ys\nfe), RGA eee ar ae a et eA A eB AE A EE Mi]\n注3: GBYT 20438.7 2017 THD at A AIBN se Bah op Ae 2 A SGT te AS AT a kw 4 A Br eT EY\n注4: Fin Be CRA ot eo oo a ER BERT A EVE/PE ASR YE eA A Ay ak HE 2d 4 fa\n{ry Bont Beth AS AER ty A LAG ag oh Se PT BE\n注5: APT ARSE CR ae Bt b OU PEAY EYE/PE 安生相关系统(例妇里急他和牛系统) a oh fe 2 a Se ea\nEG: a LE A A A 8 Tg ey AO ee A eet fee pa TOT] A BR AOE A 2 see\nARG Ee Ee it\n4]",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 50,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nAN? ”用于控制系统性操作失效的技术和措施\nre ete\" B.4.8 M M M M\n低 rE 商 商\n利用引线监补樟测类豆5岂 All. I2 Ie R RR\n注 A) 低 低 中 EI\nfay AC BR LA B.4.9 R Ra IR Rk\n低 低 ft =\nBeck lw AD PGR PER AR Re PRR,\n注 1: ROL PORES R PARMAR AK ALIS UWI.\n注 2: Be Ae ea ih oy RR ALLS Ea aE. ALIS I RAE A a ae PE: fH\nHOSEA ER SG Ao Pe A ee A ARE AL.\n注3: G/T 20438.7 2017 的附录 ASE BRATS C BIL SRA COBRA RRA AA\nLO ff Ge,\n£4, 4D PE Boia {Bot BOT PEO EV E/ PE & ea FR Soe Cf) ASE ee) a ekg Ee a dg A ee\niAP) Ae Wy ee A A\nRAINS 控制系统性失效的技术和措施的有效性\nAl) HG eS WS AL Re aly Re A.l.1 EUC 3 HF# ii] 4 SEA the | EYE/PE 安全相关系统由\n(WLP) fa SJ bea ESE/PE 安全 | EUC RE ES Hl RR Be WD FF\nAAG Fé St AE OE CA ATO] Pe 7 i\nUt Pia BES re Ey fis) 4p Ap bye ee Sey Oey TT CFP Pa RD\nAN) FA ac Pf HE tH 六.2.1 BAS Hu A AE MW oh EVRY PE Se | 附有山头件由EPE 安全机\n( WEE} AA FR SE AY BIL Ge CAR | SR SEAS Se Ae A\n(TPA 1. ER GRETA) 4p Aro ge a) ale Be cet Py ap Sep 9 RE BD ES\nfil He ee — fh Be SHY Be 2% | (es BWIA RR\n70 ft:\nFes FEE WR UY el a UA A.2.3 fae RS WN Gt REE. i oe Ph et | ARE E’YE/SPE 安全相关系统\nfs oe RY Se AF AR au NW AB) AS CUTE: Al HE fT) 8\n{HE Hy fel] AS 1 bet UU aR se BE r,t\n的所有一能进行检验\n代亿保护 A,6.2 aS fo fa Too Seat | ea fe 48 a Bf)\nfA ae Re i Te Ap ad ff AR A RS\nBA A AO Re AD et ALS AA Ee PP CPT a BT AS) Ff\nPE a a He i SS ec Hey HH, ih Pea or at) Ha es fet ail) Ct HE)\nTG AL “2 PT ag WY Hh Bl] th\nFe HA 38 Soc AY te He a\n4?",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 51,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n表 AS (BE)\n$5 by MMe ye I Aa ALS BV ME Dy OE ye Tae eg US ae LR Py 2 ae\n47 RE YT MB ye FAY WD Dye Al ae\nuss fa\nJt iit 1 Fri it All weal Hh $8 mea aT HA Ge Be oe fh ee\n[4] Mt FR a aE i AY As Ti] 5\n级进行报殉和检浏.或者进\n行强制风淮并状态指小\nte (ear PAE CLE A.11.3 Hel abi AD OK: Ba ft Afi 21) 2b PG Ue) Bae ae OR To SD) HE AAT HE\nATS ie a he SS NTT IT a lets JIT DY ake\nTre a Be EA tse AS rr a A.14 fd it JT) GA Pe SAD) Re AT SY AL SG bs EE\nTA 到的拉术\n和多样化硬件 B,1,4 执行相阿蕊能组迟计在癌的| 执行不向切能的两个此多个\n两个或多个本件 a {'f-\n120% GaP 13,4,8 Weir Efe ATE fe Caer A A Dock de TL\nNOt eS ALT. A\n4a AHI TA 3.4.9 AS Aa AC afl fF tel SR TE 77 dhe TEL | Re BRE PF id A Re it\nhe tm 规则 .拒收不正确的输入\n注: FES ALLL AAA2.1、A1.3 AL ALS BS de ARPT oN a Tt te Bd CPE PR ATR APE\n13",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 52,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n附 sx B\n(Ase CE BH RD\nE/E/PE 安全相关系统的技术和措施一在生命周期不同阶段中避免系统性失效\nAE AY oe A 了1一胡 B.S 推存了竺个安全完整性等级下如他 E/E/PE 安企相关系统大溉的扩术和\n措施。 TRAC AR AY BEA ol SL GB/T 20438.7 2017 的附录 G,在运行过程中用来控制失\n交的措施的此求由附录 AA SI SEE GB/T 20438,7一2017 的附录 站作了描述。\n要把焊个安企后何疝期中出现的系统忻失效的每个独立原因或竺种补救方法都一一列出是木规实\n的,主要庶内有两点,\n一一系统性放障的影啊与引信蕊的生命向期阶段有头:\n一一为导锡系统忻先效的各种单个措施的有效忻亏与应用有关。\n可根据引入某术厚国引起的餐陋的牛命周期阶段.对下/EAPE 安全相关系统的失效进行分类 。\n一一由系统女装之前或系统灵装之中的页障请发的类残5例如;软件故障.包拓规范和程厅故障;策\n件玖障.包括制造殉障和组件的不正确选择):\n川系统安归之后的故障诱发的失效(例如:随机是件失效.或使用丁当引起的失效)。\n为避人狗和控制上述情阅发后时引起失效,通常再要大虽的措施,附录 A 和附录了中的要求其于这\n样: -利纺斩:将措施划分为在了AZAPE 4 ang Dd I) 4 ir Be A a 2 0 TY AS ts CS ae). A\nTE a 4 oh Re i Re AB ET CBD ok AD, FAAS E/E/PE 安企相关系统的内在特\nTEE « Wh) aE 2A, 0 AY Te ls aa FE See Se Er J] a PSY\n4 HBH.1一去 B,5 YR Ge See BE A 29 2 2G ts BA aT\nFE AUR ALTE Ae OR AE, BE AR es UP\nM Te Ae oe ESRF BR I Cae chil FE A\n——HR. #4 1% a BE OP a FTE SY Te AR dt, ate A TE eB OR Be TP i.) TF\nibe V] AS te HY FE A\n——R:FRIKE ES BLE FP HE TF BU EZ RO TE.\nTW) ft HY FEL 。\nRok AY aE eae oF\n{EG ER STARS BAR TA FE FR SE 2: TT Ae AK EN) IA BE:\n—— \"1 BHT. a HY 9 te AS RO Ta EBLE A SE Je FT BA BI | A EE\n—— Tt: ee RH Ye ACO ts FEB LE FR 2 ER BATT > SB EE\n注: # Bae BLS EA Ah aS oe YY Re 13.6 TEAS In CE Te tb HEA. eG Sa FRA ae FE A\nPE BY AS PH UE A ca-PE Pr BY LP th Ar a at aE A ee ETT)\ner eT St He Fa SE oe HA. IS Dd ae te a A A 9 RR PP ek FE YE\nPe rls. ALAA fee BE UL ee\n{MARA Se PAF RE CR RT BOR AA ERE SRL PO aR BAY\n—— Fy Be Fz AR A Tt SE. A ROB PE ;\n一一对生贡周期的每个开上发阶段.哪些技术和措施足征合的:\ntd",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 53,
+      "text": "GB/T 20438.2一20177IEC 61508-2.:2010\n对谱计和开发纤个特定的了EZEAPE 安侍相关系统中通到的有具体问题,邮些技术和措施是最和\n合的,\n表了.1 FE E/E/PE 系统设计要求规施阶段为避免失误的技术和措施(见 7.2)\n\nJy A TE Fl! 1.1 M M MM M\n\n低 il, 中 Ia\nSm il] BAS 1.2 M M M M\n\n低 iF if | 而\n“pu, ESESPE 系统安个功 1,3 HR HR HR HR\nBe KARE {EK iF, 中 Fl\nte it Alle 1.2.1 IIR IIR IIR IIR\n\nik 低 中 后\nAM a AS Bae AY 2.6 HR HR HR\n\n{fk 低 中 ia\n“FB A ih A B.2.3. (bh R R IIR HiRk\n\nGB/T 20438.3 2017 的 ik iE if rz\n# BF\n\nFat ft FE B.2.5 R ea Iz 了\n\nik 低 中 fay\n+r AL A aT. B.2.4 - R R R\n\n低 {fh rf ay\nWestie Ae B.2.2 R R\n\n低 低 中 i\nae PRe fA BE AL eid RYO) fy Ee Re NE Oy RY. TM ee a EE |] HO — in te ae ;\nFy SIL WH ee AE ar PA BT Be SE eee a ED a de OR BA TL ok de BSE Oe aR oR 。\n1.0} #4 C22 EGRPRRONARE- BRAGA ARMIES,\n注2: AK PARI K Bb ROAR. KR G6 Sh RARE AS AE AS fl, SREY\n\n{Eft Fr AM OF fT oe PE A ey PE TPE SD .\n£3. GBT 20438.7 92017 Wits Baa SSA RAL ATE ACA AR A rs | A 2 eae,\n45",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 54,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表B.2 在EAEAPE 系统设计机开发阶段为避免引入故隐的技术和措施(5(见 7.4)\n\n385 15 FH ag AR a: B.3.1 M M M M\npe 商 商 pa\n\nIm § | ey ER He1.1 M M M M\n{Ek iF 中 ay\n\n“fa th] B12 M Mi MI MI\nik 低 中 高\n\n结构化设计 .3 IIR IIR IIR TIR\n低 低 中 ia\n\nRet tk fb 3.4 HR HR HR HR\n低 低 中 in\n\n(HY 2 ik WY A oe US ky B,3.3 R R R R\n\n( PE GR AS fe fA oo tt 低 低 if! 商\n\n半形式尼方这 B23. 5 Ue R R HR HR\n\nGBT 20438.3 2017 的 低 il rf 局\nKB\n\nAit he te 2.5 - R R R\n\n1) OL aT eT. A B.3.5 - Ra Iz R\n\n{ij B.3.6 - R R HR\n低 if rf my\n\nfee fA a Ae ole AO AE Ee B,3.7 R R R\n\n13.3.8 低 iT if hi\n\n2 OK tt Fr i 5.2.2 - - 及 R\n{Ek it tf hi\n\nZe! Pe FEAT a RO a te SE PE BY ee ETE) — OR\n\nAya wwe Ze =e 4B a A Ae, ee eR KE BS UK A) RES ee A OR TE,\n\n注 1: B-HS TBE SSR PO RMON AR AAR BLL SAAS,\n\n注2: RKP AY SIM TT AR AK 6 OR a ek OK Be Soh SAG AEA SS ER A EE\n\nAY AE te EY RE BE EA RE ESM 。\n3: GBT 204138.7—2017 Byte Ga fF Ak AR BY Re AT a BR AR os SA | HB AUG eae,\n16",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 55,
+      "text": "GB/T 20438.2一20177IEC 61508-2.:2010\n表 8B.3 在FEAEAPE 系统集成阶段为避免故障的技术和措施(网 7.5)\nSY BE a it B.5.1 M Mi VI M\na hy 1 (4)\nIm f | Er se B.1.1 M M M M\n低 低 'f | 商\nSha hl SY 1.2 M M vi M\n低 低 中 eh\nFA ee wlll ish B52 R R R R\nik 低 中 fay\nTR hy 8 St B54 R Rk ike Rk\n低 低 中 ia\nSpe Tl at, 5.3 R R\n低 低 if ta\nRPA EEA PID RARE MAY (aS eR PAR,\nAy se aE ee 2 4 tir PR) WO Br Be. ae a ft HY fs eek EBS AR fh BA ee Py I ie AR ke aT He\n注 1: @ Tee PE SRP MAMA SO aA RB Sse Xe.\nRHE 2. ACK IE S00 SH om] ARE EE OBoG ee PK KR BG Pe SRA eee A AT PE a A\nfh ed a eS eR ees eee is i ad ea ,\n3. GBT 20438.7 2017 Wise Baad SSA RAL TE ACA RE. AR Ars | TH A 2 Rae,\n表 了.4 fF E/E/PE 系统运行和维护规程阶段为避免故障和失效的技术和措施(见 7.6)\n1 fs AIAEGP oe ib B41 HR HR HR HR\nAIR ASHE B.4.2 HR HR HR Hk\na i re) io\nHE PY A ETE B.4.3 Mi Mi VI M\n{fe i[ 中 二\nJin § | {SF 8 B.1.1 M M M KM\n{fe iF 'f 而\neh Tht] EY 1.2 IIR IIR IIR IIR\n{Ek iN rf hi\n17",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 56,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 B.4 (20)\nRH | GBT 2018.7 207 | Sua | su | ss | St\ni PR ARR TE OT HE HE B.A R IIR HR\n低 低 if 商\nsie UE NAC th 5.4.6 - R IIR HIR\n{Ek 低 rf I hi\n1M 0) ASR BEE ba FR fF B45 - R R HR\nere Pe\nJe PAX eH Pi RRA RAE op BRI ebay BAP TA A,\nAy PO TE wee eb fy J 0 Bp Bee a EE, GBT 20138.7 0 2017 09 B25 ok RA COL GBYT 20438.7 2017\n的 B26),\n注 1: R-KROMEASRE ORS ZORA BL BAY TR oe.\nSE 2, Ae) 2 Un ee O) AEB) eR REL. KR BG ERS IGT CPE AI 4 PE os A, ATA TT\nBY 1 fe ap EB ne BT aE A EV PED,\nHE 3; GBS T 20438.7—2017 AY BN ae BAT A ALA BY de ARAL ne BY AS A S| HB KR\n表 8B.5 fT E/E/PE 系统安全确认阶段为避免故障的技术和措施(见 7.7)\n[ane [wontener on [sux [sua [sus [sta\n功能训试 B.5.1 IIR IIR IIR HR\nvee\n(dhe ba ot Be B.6.1 HR HR HR HR\ncome\nYER HH 70 BE AE wal isk 5.6.2 IIR IIR IIR HR\ncomme\nAs Bie ee A HM TR C74 ae oR Pg B.6.10 IIR IIR IIR HR\nmeager | |e |e | |\nTH AL PY Fl B11 M M MI M\n0 ee eee\nhe rill 3c 1.2 M M M M\nee ee ee\n静态分析 . Sas ar Br A ee B.6.4 - R R R\nB.6.6\nih A ANA ek a AT 5.3.6 R R R\nmeee |e |\nbe te Ob ot By at AS at BT A B.6.7 R R\n5.6.6\nret SS ey BN a op Pr CLE B64 R R NR NR\n|\n18",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 57,
+      "text": "GB/T 20438.2一20177IEC 61508-2.:2010\n表 B.S (20)\nHP\" he 4) TY BE aay ih B.6.8 IIR IIR Hike\n低 低 if | 商\nBA fe ill ia B52 I2 I? RR RR\nHC eR FT AC HD ia CM Pty BE EY) B. 6.10 R Ra IR 及\neat AS Ul ak B.5.3 - - R R\n低 低 中 In\nFre Df eg ell ik, B,6.9 Iz R\n低 低 中 ia\nHl Ly 2 as B54 R Rk R NR\n低 iF 'f |\nAS 4p Ah oe a fede eA. OO a A I Rae AS A A te eH ER te SE\n(4A Poe TUR ZAP AEE RCP AEE ROAR PE eT eR CU REAR,\n注 1: HB-B eek ee EKO YB Ae BK BA ATE 六,\n£2: ACAI GS BT Re KR 6 ee PE HE BG AP FIR PE A RPE oe B.A: A\nAS TE ft 7 tr ee A aE A a ETP ld.\nS$ 3. GBT 20438.7—2017 AOBaEe BaF ih fo by aS RG) Se AR BI FS BGR 6 RA S_OK.\nHE 4. ALT SIL3 和 SILA. ASHE FE (HEF A oy A) Ae a BR fs 4 Sty AS op eH 7p fA RETR AE A FDL\n表 B.6 HRRAREARHARAMBRHBRE\nTH At Fale OLED 14.1.1 me SO fy SIR atc FE HE de Se hl | Silay. J+ he 7 BY ae BA TA\nAloe UK oP ids FC A OT | es EE 9d) A AL A,\nFE I I BER PERE Os ee Ses AL A Ly\nV7 EP PE LAG BA a fa\nore TB SY CULE 13.1.2 He AY PA oS tae a Jy | A > de EL STS AN 2 A hg\nEe 8) iit [4] Http wel OY FR Ds TN AE RE A OE\nTy SY AL FH OB 2 ES A Xk\nap Jy ESE/SPE & 4 1 13.1.3 EYE/PE #4 Le Se AE | 到全将 EYE/PE 2 4 al &\nRE SR 2 4 SE eR Re NL A Bafa | BSP A A\nMINTED AE Ee 4m FT A FR HE AN MT ES A HET\nXR Bt ue Ty Le Le FEL Ba\n(ir AR Sp BOAR OY a fe A Jr)\nfra ES] 3 Oy\n49",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 58,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nBG (EE)\n2 {i B.2,1 AT ERC Mae ep Bok fe | EAC OL 7 eT Be\nLY Saij a4 iB Se th Tl obs A at — EE a\nfe 5 Hy 2M Sl DT Be zh\n形式化方法 .2.2 AAW Aha RMA RM | PERU APR AIA\n(di FU te 8 ee A a fe i EL Se\nFy 1. EL at AB\nEHS oh th Aik: 13.2.3 FUCK 3 0 fk fy dE Fp GR 2G BBO] AYE AR [SLI A ok fe Ar Be fii\nTih 分 Re p> E/E/PE #2 PH KB\nS30 fs lel Zr at. fe Ay is [il] JE tr\nit SALW Ae OB 13.2.4 As th ee SEB RR ETP Tt |i fo) PC Ye RY A SP A\nTH Me: Pr Mt SB RIL OK FR BY Sik\nue 2s JE Be Git Fes Ao BY — BR\nKir te #e 13,2.5 AMA eb ta AY Be aE | CAP A ee Eo A) OB\nSMR ASHE TERRE? | 音的详细检查 尿\n[in] se\nPYM see FRE ot 13.2.6 fy Se AL oe to A ee ee or St vik A 28! fe FL — Ap TE ae\nAW pig Re Ar a Ae Fy Ap Ay de BR al oA\nA: at Ty Be tt A ft\niH fk Mit 13.3,2 AC UME AT IR eX fA Be Tt CO ak He ah Sb Ag ee Ts fe\n#2 PHS A A A A TE\nPe) BD eT a a Ps AAT Ld\nFe Lae MEN de OWL 724.8)\n{FL 2% i A WE AA] te B.3,3 充分的及十寅余;项构化特性 | SHG PACU 74,103\nbb of ¢ Be OTR AS ag AY oo\nfc WE)\nfe fk CU GED 13.3.4 AA RR AL a Rs ae RE | or eS AY REY OW:\n能独立 HBR AY RoR fe A Re AT\n一个畏人,一个输出和一个失\nOC UE LY TT\nit SALSA iit CA 3.3, 安企秆市周期复杂阶段的计 | AMEE WL 704.10) ok a\nAL dF LAO TA es ee SE a A\nTH Ber Be 00 a Fd ch OT\n‘Fe 13,3,6 Te fe ER Be RS FB oc | TR RR. a A\n的边界数据 BX thi\n5}",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 59,
+      "text": "GB/T 20438,2—2017/IEC 61508-2:2010\n表 B.6 (28)\nfut {46 EE AY B.3.7 fr Sqe tac EM AO ETT RR | ph ve SL SE OE EAH BE ds 2\nFN FS PR fy Bde BRR TE oc Hl FE GE fr\nNAME &\nfit {4 (Ip ake ht 14.3.8 FARA A SET) A od ae Ty ad: de) Fa 28 ie A A 2 ke\nFUL ASD Pi Pde RAY a A FE SE $F\n7 tr\n4 BE A AR ET BE HE 13.4.4 ASH ete OG ak TR eT | Bat Ye YAEL th\nCULFE) era Bes fe EF\n位可由熟练操作员哲作: DB.4 .5 按被操作的安全相关系统类列 | 所有操作员和从第培训;等个操\nDEK MAAR UA | HSA RW ER RILE\nae LE fx) A Re 4n i PE Ee eR\nof be\nBA UE AE On BRED 13.4.6 fat AC BTA RE A AHO MES A - RTE\nKe\n2 > Ma CLF ED 3.5.2 Etre Aa ACR or Waa Aa) AGG) RS. 28 - fe oe ils fy\n(FCSN isk fe YF AG 2 TL Hk] Fe te FR AA A. Rt isk\nHY Bil 用例\n统计调试!见注) B.5.3 Bay fy Sar ACE HB TY 26 EL oP 利用已兵营得的训试报告;大\nBit) ACV ae Ae Ht Bs ie\nie AAT AL UE CEE RG A A AE FF Se] YY\n大数据分布\nSu Ly 28K CAL EE B.5,4 10 000 h jz Tlf fal; A BP xX lu oh TAR es a BE\nLO foe ate A Del eI BR | lo Ai A] ae HPS ey\n— i. BY 26 oD; St th ae aA Ee | AP HE 99.9;\nO5 ha MEY de Ge at 机以往运行中村所有变山(也\nHG As Ag De aE te ey A fy AR\nWR drt HE PE HI at 1.6.2 HY ie A te GP a TR 3\nBas ze ty Et ee 07 49 FP fet\nit As op Ar B.6.4 HET Fy ERP eS fos A | ET sR a act HE\n定测试用例 Er fon HW fit IO) fy As FA ik\nUA\nri es 3p HT 6,5 Me ARA Bee | ESTP: AM He\nwe HM) ik HH fal (fl fin Wd Fat) Fp As OY i hk\n[-\nFe AP AT B.6,6 fr fe ED 2 OF ob aA | fe oP ee OLS Fe ete\n外数据\n5]",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 60,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 8B.6(续)\nie Hs ta oe 分性 B.6,7 Fe “ET BE bate a rs RO) Te ee eo ea rs\nsags te ae P A | Ta eto RP) AA\n合乎出 {Laer\nEP Ame (Ay de a it 14.6.8 AA A Be ot ae od | GE A A Re a a es |\nAY gf as ag AAA SS BY Pad | ASE fay AUR ZS A ok OP FE\nTE Tae Fee PA fy He i 2 FP 9) ak AEE ED fe Ob OP Ci Wa\nOe). Al fie CE Be AT fy 2 A TATE O49\n‘Ml 让\nfe TA A i ik B.6.9 (CEES AVI TT BPP AAG | CSE RK AY TT RIP ROR A\nPAH PRP EPA BE | IRA OP TR eee A\nfe TF A aot ee ee HP AY i ik\nBie Bie Se AC HU it B.6,10 feo Peace. Oh A Ba a | foc aa ee Ld Ae BR\nYb EBL FPL Io\n注: SS B11 0.1.2.5.3.9.0.3.4.5.4.4 14.6 .B.5.2.13.5.3.B.5.4.1.6.7 Fl B6.9 PPAR DD. eR RO\nAMER AL FMRI EER YT IRAE AS,\n52",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 61,
+      "text": "GB/T 20438,2—2017/TEC 61508-2.2010\n附 Rx® C\n(规范性附录)\nC.1 硬件组件的诊断算壮率和安全失效分数的计算\n组件的诊断黎交率和安全尖效分数(见 GB/T 20138.4 2017 PAY 38.6和3.6.15)的计算如下\n所述 :\nad 在汶有诊断测试的情况下 ,进行类萄棉式与影啊分析,以确定组性中的千个元件或无件组的和\n种失残模式对/EPE 安侍相关系统行为的影响。应状取充足的和伟筷(网诈二和证 2) ,使之\n能进行失效司虑要形吧分忻 ,从而衫立:个是巾的导实全完整性此求机称的置信虚水和下。\n注 1: 为了进行这种从析 PPB Le\n—E/E/PE 攻企机关系统的详细耘项 HAE MALT SG EYES PE 安全相关系统中可能影呈所考卓的\n安全切能部分之半的关联。\n纪作的硬件示意图:摘述得个元件或元伯引以此元件问的关系,\n每个元件或元件弓的失效权式和和失将举,以其与实全利耸险失效对应于总失效率的相关下分煞。\n注 2: ASE BORGER TY AEC GBT 20438.1 2017 M41. AERP BS RAMEN ee EA\nad aT a oe a i a eS, es eo at Ole we eee |\nPR AER [es | eT AE eR Be A ETS A Ts oP TE BY\nb) 根据将导致的结果(不存在诊断测试时?对失效模式进行以下分类,\n一一安侍火歼:\nd) iat Atte och oc ee Rew OA AR CEE 4以基失效模下和影响分析的结求,计\n筑由每个元器件或元第件组的安全和效率043) A RRA), HERBS HE\nSN .7E DC A SFR WHER tH COT RS PA.\nm3. OPRAH AA BY 1b BR a. ee i SAS TE ek — oc ok Bk oc fk A BY A cs, Ue ah\nfei 4] LP ID OS SC A 1d Ee PY > ett ARP OP Re ne Op ae oe IE ee AS,\nbe AS HB PE ee PS) GE fd eg Be oe RP de eT a EP Ae TP\ne) WARE CRRA ac ae Ea fa ES a A C2 ea 2) BY ee ae a> eT rl\nbo Ho HD FEU) APY Yio Bi AK RECA oa)\nf) MPAA BBR ARR CLAD) eT A Re Bw A BY fo Be RRR DA) LR\nKR PR BCRCQUAS).\ng) th SEAL AR AY 12 rR aa fA)\nhd WHRAPN REAM TR\nSFF=( DAs t+ Ap fC Ag+ An Hb Ay)\n4. “PRE a BS Ep TEP) my es OL GBT 20438.4 中 38615 YM ek),\n$5. AMET EP eo GE Ee EO A CL 724.5.2).58 BR EVE/PE ROMER PENS\nCUA MTD. TR a EL OP AE TE oe eH HE ee Pe CAL 74d a ee ER\nFA Ef Re 12 Wr PRS at HA Se BY a A cf. eS oS PR OE SR EOE /\nE/PE Pe ARSC CK AE SOE ee a TA SA EY a LR XT\n(Fhe 5 Sr BY BE) Se Be EE HE SARS UE oe ny ig PTL th: — 2 EE SO I tot EEE PE 实伴相关\n33",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 62,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n\nZe ALL 询出了在运行期问宁检测上的或在指导安全实效分数时而要分析的帮障或失效。\n\n寻浊使用坝场妆据米支持失效模尼与影响分析,规场烙据应足以支择实企抵殉虱的要米-. 在统计\n学上 ARR a Pa ob RR BP OK AB 70%,\n\n注6: 在GDBZT 20438,6 2017 MOB CoP. re Fa eS OT AL 8 A EO OP as fA.\n\n注7: 还有 HH RCW HRPM ARB SE Ree iA. ARAL ee E/ESPE\nde PRG Be ee Dd A fe a RT A.\n\nC2 确定诊断覆盖率的因素\n\n在计算组性的诊断寓关这时(见司1应该对等个匹件或匹件组合算由诊断测试榨测到的存障失\n\nLE se fae Ae. PAL ae a AY Ie a AT BR\net Fi By dee A ed cae s A8) QAY F B e S L\n\n—— Fh ed ee A A ak,» 48) hE de I AIK PK TAS\n\nFET SA 1S OY 2 ES «45D Sd AH es 1 BR SR SO et PE.\n\nAyD UL OE 2 Ok TS a as a BE A TM ke AB EE Je se OT fee) So a4 Cc A HE\n\nOn in Ee ED tg Fy | Rea ie SP eee GA 100s aT, eae EI BR AECL 7.4.4.1.3)\nan a ae TEEN Ae ALL Aros oot 9 2 Be 2 eR RE a iE de 68 PL\nE/E/PE 的安全相关系统的每个组件都庶执行这种分机。\n\n注 1, RAZ~AlA 为诊断测过挫存了一些撤术和措施并推荐了能声明的最大诊断往昔举。这些测试站以连续或\n则期的进行(恢箱于诊断测试问阳)。这些胡并不取代林附亚的任何归求。\n\n注 2: 诊断测试可以为达到 了CEAPE 区全机关系统的切能安全提性极天带助. 相一定划注意不葛增扣和不必蜂的复\n业必.例如这种情视可能使得执行台让、箭斌、册能安全评估 AE BA EA A PE RS\nmae CW ede EECPE 安全相关系统的切能实全更加几礁。\n\n诊断得间的计算及其所用的方法,是崩谨当几规其他的的同补诊断测试性测到的耸险发障时、\n\nEUC 凡避安全运行。如此假设不成立.则按 E/E/PE 安全相关系统在高要求或还续模式下工作的情况\n处理5(见7.4.8.3,7.4.5.4 A 7.4.5.4),\n\n注3: GDB7了IT 20438,14—2017 的 3.8.6 PATH Fie We RAE XM ee mR PE eRe A fad TT\nGBT 20438,\n\n4. 用于检测 - PB Poe ee AS eh HH EYE/PE @ SHR RPA CPE TP SE,\n\n5, STW EAA ee A) ea Ty RT ISR. FEA Ei PD OS te. eM a ety\nTt He Mt 8 SEAR a AE AS A 2 eT. SR OP fe IRA Ae ld a EM",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 63,
+      "text": "GB/T 20438.2—2017/IEC 61508-2;2010\n附 录 OD\n(规范性附录)\n符合项的安全手册\nD1 总则\n征合项的安全手由的出的是,对所有符合项相关的信乱建立文档,以全和件合项衣够按照\nGB/T 20438 SRE MARSH RRA FRM.\nD2 WE\nD.2.1 Be FM META MAE, HOI RIRSHPAKRAMESHEL TARR A\nAE AY TA BE. aly Po Hf im as DY A i A ST ET\nMFR PAPA. SEF UH 4M PRA,\nad A FAT REMY TA ie AL\nb> ff Att ab eR oe eT BY ICD BTA. ARR GB/T 20488.1 2017 AY 6.2.1 89 Bok iH Ty E/E/\nPE BEWARE H Ae SM\nco) REG SUAS HEH oh A ek te ee A tT OA SP AT oP FR,\nD2.2 MHP. OF Ud\na) FR BLA 14 ee | ei ST Be I «SEAS a eh FF LD PS a BR SB EE\nA OBR TK, OAR Tt Ea AY Ty A\nb> Xf ad papers’ AG HH NY Re ,\nc) FR BB AL AB AER cy] ACAD. PERT BE eA. IP BY et ae AF GD AL a iS Dp a NE TY\nFSET CH GR SL ai BY TY\nd) FR BAT A AE Fe see S| Ae SH Te Dy ie eee TS AH ee FD WAN A aT PB\nak C4 He Le up A\ne) Xf c) Al dd ee PS RCS TATE I I RRC\nf) APF co) RE PY) PY PS iS Ay ae BY AP RN 1 TH ak Td BR\ng) 对十ec中等种失效株式,出内部诊断产生的符合项的输出\n注 1: 内部诊断的输出可用十产生对 EV E/PE 安全村关系统、.了系统或组件的附加措施(技术7需各) ,以实现或保\nfe EUC 的安全状态,\nh) 性何是期检验测试和7或绯护的要求;\n对十睹些可以被外部诊断检测色的指定功能的失效模式:应该提供足何的信息:以使十外部诊\n扬j旋力的井发,这些依息应包括详细的失效昼忒和失效民虑的失效率;\n和 EIT A BATE\nk) 提供功能的符合项的部件的类型 A FORAY OB OR POW, 7.4.4.1,2 和了.4.4.1,3》,\n注2; 仅当符合项的应用与EUCG RM MRA WM AeA ER We ER. a. SU ey\n全用基 ,高和输出信号用于表示 EUC ye Be CT ag Ra oe EP BB os Cd BK DE\nAEG) LR Re HR Se ae ad Hy fo BS | TH ESCA RR IH OY Re se UR RAH CR\nAig st fe BR AS a SE A = PA a SE pt FE ae I SD A 9 RAS HEE i A\nEb . FF Se FS AA YY 1 Pe 8 eK AE Oy A A #8 Te) fy Se BR TD fal Se 98 IS AY et",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 64,
+      "text": "GB/T 20438.2一20177IEC 61508-2 -2010\n或外部伟公处理对符合项内部诊断的补充。\n\n央此,只在在符谷项的应用上县和有约束后 AP Tie ET BY Ee eG ee op HRT A. HEY\n束是符合项的供应丙控制之外的,央此.除非明确规定了了上引秆么构成安全和从辽失效以并的基本假设,\nip WA EE ee Se I As Fie pA GB fA BS aOR ai op BR eT: fal tk BT et AT fe Bae eh HE TA TA WY EL\n他切能安全特性 。\nD.2.3 对于符合项的每一个和于发条系统性失效的功能,手肌应当包托下列内容:\n\nad 人征合项或为其指供切能的组件郭分的系统性能力;\n\nb) 应肝十的, 5功能相关的.符合项应用有的使用说明战约训,以防正符合需的系统性淡敬。\n\n注: Hg ees eA) Pw or ee SE ee A SEE HE JU EH SCE A ee TE. WATER. RTE HE i\n\nAY 22 Ob ot BK 7 AX\nD.2.4 SPA LEE A TY at oe GBYT 20438.3—2017 的7.4.2.12 Allftaét DB,\n56",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 65,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nAt se E\n(规范性附录)\n带上请上元余的集成电路特定架构要求\nE.1 概述\n\nAX BA Se 7E 7.4.2.2b)中被引用.\n\n为卫爷放在同一个半和政体村上改上征用片上元全.以下给出了了一系列要求。出于安全的呈册该\nARAMA ST :例如.它被限制取商到SI 3 FEAL ALE — AUER TR ok, RP ORM STE\nMOH RATT OR, La RD TP A PA ST TM A I BY eK, A TO ay a FT]. SR ap\nOW. GBT 20438.1 2017 7.6.2.7) Hf gE SHER A ERA. GRB/T 204388 PRA ERE\nA ep (aE A a = a) i Foc ER A TE RR 7 Lad FE a oe TP Pit #8 EAT. A\nAA AS VA FS ra ee Pe ae? OR BO i. 2 i\n\nOy 4S FAL AT da et OR se i FT a AS RR BEC La), SEAT OR Ae\nBr LAP 2K ad q) SFT E/E/PE 44 St F048 BS A i AE OR. Tar A rR\nIMT EMAAR LACIE GI PCA DD.\n\nad DA AR 4) Sb Zc Se Dy ig BH EY ey Ee ee BE Spe RBS BSL 3。\n\n注 1: VAT By ay BRR AUR A the. A BRO STD HDR A). 2) 2 A a aa STL 4 BYP oR\nthas Ay 47\n\nb) 不能通过组件的组人台来增加系统性能万(见 7.4.3.2)。\n\nc oy PT WE GSE See i A EF CU a eS Ae lg), by BSE HR EL?\n6 RAVING. TERT. po a a BE) HE | a fa PO I. 1\nAY TTT Tie\n\n2, {OUI Pl SE AEA Se SD a ee ae ee SD\nERC BAY eR a BY 0 Aa ike\n\nd) Wp A EB RE a a ee EC Se a a,\nWIA BLIATE G2k Mul fal, PMR Ee A IT Re A PI /\niy FB EL 。\n\n注 3; MFP A ERR RR IA ABATE . LL Be As [ood Ge 0 A fa Ps. I i fe Le EL] ' 3a Al 3h),\n\n注4: fa A Si OLS A T-\n\nDE) fF CBT Mtl a PE ee 7 ~ 0), 3 Sa aD =\n\nEby Say fe AE Sa {de HE BS\n\n—— 114, 7\n\nFic Yt Al aR wk FEE\ne) PE 2 A A it A BE on Ec P| dc se ee. SEA See.\n注5: yA ie i RT ASR T°:\n\nAya yh;\n\n通过供电线路的扰动传播|\n\nAE [ery AE ey het $e al a FE | eg OT) ee i a dy a SL at\n\nod",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 66,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n6, 本区求可能遂过应用以下技术实现.外\n一一为每个块提供独立的电访中脚 .使得没有一个藉的电源供应米朋二号一个其5如道过内部连接?并甩也\nASH Ms UN CB, BH le Po Fe BE 4 dE fe 2 的第 3 Se),\n285 Cy Sob iB dt Hibs AG 3B ety BA AS Ure] LL LB EG\niB sed ELL Ha GG ROL Ra AR LL FR ANE Be\n—— 8 TEENS ap 8 dir Ba 6, Ts ee He\nFE RA US ee) ee eK RE of ee,\nf> Se By Pe (8) EA be 7) A a? A Oe. 2) BE to Be (BA A\n7, WAU AAR rR ES LI EAE RE MES Ae Pl et.\n注 8: HU A EH LH GA ES,\n注9: CCAR AB TS ty CU ee Fe BR Ds Tin] BB. a YE RE LO~ 50,\nSE 10. “4 qi FE th ar Py th > A. EL 2 Pe eR oe EE IRA ABS ,\ng) FW ay ey FER Sb he DH) AB fe Te Be A GEA BO A Ps ee FO)\nTHEM ACK E2 的第5 &),\nh) Ae teFA TT @ ERT T RE BB Ad HE Cy BR BK p BRD,\n11. 对于 p-BER TB ROR EE, EE TER IA EA SS HR,\nwe A A ee Ge EIA YE Av A ee 下.3 We OY 8 AR eT\nTH RBIS REA 8. TERR BH 8 A OB OR ICR GB/T 20438.6—2017\nBhat DP AY SE RE RY BIA SPARE 7.1.5.1 AA EPEAPE 安生相关系统实现的安全\njy AT Ar Le eps 4 2 He ee 2 eS Co et A ee AO A |\nnL BA Fy Bey HE SAM oe OR AE Ze EK SS\nSE 12. AN BR SPAR tg ABE a ES a eg RE a,\nk) 每: :通道的乒小诊断覆盖率由了该大于60和。在监祺组件仪被执行: -次的场台.该组件的最小\n诊断篱新率也应该天十 GOX.\n|) 如求看门狗是必要的,如:通过程序序多监视和保计必要的诊断绪阁率上或安全淡癌分数.一个\n通诈不应该被用作为一个通道的看门狂,除疾使用功能和多样化的通让。\nm) 站在浅丰额外安全襟度的情况下测试电磁水和窜性有时.集成出路执行的切能不应该被干扰(如\n作抗电磁干扰标准中描述的性能准则 和:网CBACT 17799.2 成IEC 61326-3-1) 。\nn>) 当什有和绪外实伴答度的情况下测试电磁兼容性时.安全巧能(包括集成电足)应该适应府义于\nIEC 61326-3-1 Wi FS? HE Oy 。\no) XP TUE RES Sb aR AR A ae RF a A gs SO 5 fd SE a ST i 3 Sd a\nAy sabe eee. a SAAS Sl a LE AY SP IG | A.\ndD NAPE ACURMREERA OARS BI AROS EARS.\nq 以上要求 a一5D)?列出的共央引发源主要用于偿有片上上和抑袋的集成电路:也庶该首虑\nGB/T 20438 EMAAR AG Ai,\n注 13: ARE igh. | a ee oR a il TR ee ed Me eT ed pe Sa DY BR el) SE Os ASIC, ick fe all 4\n或是共他特定的 Sec(片上系统)。其他的设计如:门电路阵列 .FPGA ET BE ICE aR AE PE OR\n于述带有片上宛余的集成电路只有在完成企部其因分析(CCCA)的情况下才能被允许使用。该分\nAr IA ce PO. ALAR TT 制造、构建、规程和环境央素在内的洪和在的共同矢效,尤其是盯于片上唤\n余集成电路的惰用.通道问的物理隔离的缺失应雇接受特别的市查。最多分配给 E/E/PE 女全机关系\nFe. Ah Be Pe Sok AEE I TR PAL OP Za AR\n注 14: fk A i A RE A\n注 15: 推荐的共因分析方法步骤如 上:\nas",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 67,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n])》 GE CERI CCD, SES I se A te AL IG TL | ae AE RG | Ac A Ce Ee\nel PA)\n2) RAE TR aR AR Se ELA) | A He ly Be ie\n3) SPAT JD LWIA RIA S| eae Ae 2 ea TSE PEA ATE if A SE Mg 2\n4)》 SERRA EL A E.2 ACE 2 ac ee A RA SI OP Pe aaa BIN;\n5) (Ba A BR ee BIA SS,\nk.? MAEDA SIL] 等级的附加要求\nFH LITARA SILS SABRE T E.1 中给出的要求之外:还应消足以下要求,\na) 和企规犯、分析 .验证和确认过程中考虑了所有应用特算环境条件 ,并提供交件泪据 ,\nb) 实现和保持 EYE/PE ASA AIK AS BY SR ART HE. RES) A i WKS RE\nCU ALS). Wry eS AN RR ty | HY 2 BR 2 AE ST lle PAY Se eg SE\nTA at HE Sh a Se SEA (RS E/E/PE 系统的安全状态。\nE.3 §pAT\nAW Ay A Le 70 ape EE eH sy ED ee Ea 1 BT A EB A OB KR TA Ba RE FA LOO\n全的集成由路| LEE]. |]. TAFE ASE FLL PR OTHE:\nc) ff Hie E.2 Gk TT ii. TAA EA 8 AS Bo Po\n3,08 SO Gee i 1k EL Pra ae ORME R EL? A HTH. Be HAS RA hy\nnte25%,\n注 1: A A WR aE] 8 OO RES ALE GBS T 204398.6 2017 附录 D093: fa) ioe 0 8 FA TP AG\n7.4.5.1 休算EPE €@ 4 FAH SEMANA SCE.\nPE 2. FAR Her te al Hy Re TT AY oy HR ee eas RR DT ERS AY PINRO. APM A\neat AB i AT ER OS.\nAc K.1 M00 Bai PRA FO fe\n© tae 3 央桔 as\nprie i [|\nfey dr Eb Bl) fir fi 5 JE TE ef aS Ee SF dS a HE OR YC 或SFF.并有在共周失效\n收视组和件 Nia? AA SE AS pA, Soh ARS A he. EAR] i BY\n(HT ES BAY DC BR SFF, [Ul E.zb2]\n\n2 除看并狗外的其他片 几必:时饼监视切能的监摊并人件击保让更状的DC或SEE并有在共央失\nLE eae ud fe. an. BT BP MA PTS ERA, Gah abs Ba te ee. A OE Le IL\n监视 (1 fe AG PT] BE Se ge AY De me SPF, Ci E.2b)]\n\nSa | te 7 io), 独立物埋块的 2 Set ar By oy $B te = JT) AE A JR: Bb Re FE 7 Ae RH A Sb a SE a\nfay tL} Poe Al a A aa ET Ey i PY PE OR et a By. TA EY DA] oot AA Bey) FMEA,\nIA ty A) ah 4 BR Im Fay fe Baye fag eA FS Ghd eT A PA) a\nAy fa Sry se TW afaik Ia ff era} Or ee ae th Je. FH a fA A\n\n59",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 68,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 ELI (26)\n. 8 [ALP .\n上 2 f fi: 上 由\n3h | tee TAD. SL ve fp FA pe 4 Se TAY Fay BF A) FE AM HE be ee TE hc EH TY oh BI\n\nsca Bf ag A tt A 2 aa ee JP RE BY ae AS FE A Se ap, fe A a 4 BE By TT Se EY A St OY\nJG TAP A ib oie BR FMEA, AF aR BPE PEE ET A EE PL ee\n\nAw\n\nA ae fy ER SE) Ee A te. SB RA.\n\n本 def 9] TE OER AS AL PAs PES EE fl ie AR A i . EH OK Se BH 04 8 IRR a\n\nBibAL af Db Phe fe i he a ek Bi A ee EE pd ee ey TE fe 8 det, CET HE Fe eT\n\n% + GB/T 20438.6 2017 Bhat D Pp altiz .\n\nTh. CRRA UT ae SAR, BCMA. AE ihe H eee BER\nee EP RE 4775 BA EU PEA PE AOR A ERG ee PE RI ED BORA\nHT 38 &\n\n表 R.2 减少8的技术和措施\n[A] T-\nLb (i As FA AS i a fli HY] FE kD AE AR\n2 使川额外的安人至窜度测区EECPE RAINE 5 TE HE AE WY A FE fe Fit On ED EE BR HE [DL\n(ee FR ABE 4. Ft EVESPE 系统的功能5如, GB/T 1778.2 te IEC 61326-3-1\n+l: fie HEE AD\n3 Th ff re ER Le) ea Af 7 LB We Te UR Sb TH GAG EA BE Se FA BER PD AS Tia He,\nASS <P AS ee ECS a et A GE BED. Peet We AY fo Be De oa\nJfH fe 8 AS A iB ae Bde In] A\nFe SET fF\nSe Hye fC BS AL Pe A set Te Hoe at oe By RICE 47 UE\nj | Pe ry Ob Fh Uy SL A Fa fe 2 BO TR BE Ay AME « eH Sy BL BT A 2\n28 hy he we LA aU i | ee eat ty A oe |\nE.led]. fee Pe AE AIR\nSz Fett AY i DB Aa ae ee CCS I EE et 7 TY fe (id JE) Tear fy Aad\nle Sue CPU fe) AY BU DE AS at Pe AS\n安全状态\n6 ft Li Pa] AG Sf A. CE Ete Yt] 2 Re ALLS ey PUR FR th\nAR A Sela) CAB ok Sb ibd Se PR Ss £018 Br\nWN EG Ar 28 FE\nAe)",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 69,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n表 E.2 (26)\nae 3 A+\nfs AE} Hl\nGe A ARG RY EA il PS 42 IR te «AE A? RY TTF] AL Je ALIS a OK UR ie\nIRA SEE CA ab le ob TD) Sl eR AEs Af 7D ell\nits oS AUB tA as fees ey Ca EE, Re 和\n外本测试的结果,明道问的比较.包括放障格\nfll 和和六吾求的是条短的时间册实现安侍状态\nbe Me it Bah J I A tes fe A 7 (E oe Gh AY Ab ee eR. eT BS EP 2) FEC a -\nAll) fi Pe Tyr 2 ey HE\n(4 Ao ye EE 9 Tk 9 eR i BPS -,\nAS Ze PS TTS AR ALA 4s EAS tT PE I ee 48 Aw a ae eR 8 AS a,\n注: FART Sac Oo Oy TE PE abel dy RC | be EF Oy ae\n6]",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 70,
+      "text": "GB/T 20438.2一20177IEC 61508-2.2010\n附 ose 下\n(资料性附录 )\nASIC 避免系统性失效的技术与措施\nil 概述\n灶于交州集成由路(CaSIC的谎计:应使放如下朱术和杭施来如名 ASIC JT AcE AK.\n注 1: 7.4.6.7 STH A YR TE EA ak\n注2: Pte A A i Te ASIC APH] PO] eR IC 4. GT Te AH, ASIC 4 Ee} J\n的技术利措施 ,\nal 所在的设计活动和测试安排.以及用于功能仿下的二具基人迟兵结集都应该建立区档。\nb> 所有的工具.库种制造规程部席该是经人用让明的,包括 :\n人由个工具在相当民的一般了时间内,已在类似或更复洒的项月中应用5包括有相阿特性的不\nley hae AN\n$3. MUAH -ReUT A) ii: SR\nhaf Fe FA AY a fA ey BL eh OR 8 9 TE 28 fe OAL / ok 24 Fe Abe AS] HE By a GR\nTl fri Ek «HE PE RE a a A Sal) ee En SS It Je ABER LA\nFe BR\n—— FA nib — $x HE BT FE AY Re eg BE 8, AB Pee) TE a) PS Yin) Be EY A,\n+4. APU AAP BN ACA bE Te A EY\nc) Tr Bex AA) GTA al) Ae Ae ah FR oft fy he Tr: . Bl Wa ot (a AS ot Pi he eS AY a ir ee Re eR\n约束 。\nd) 应该米用能居役这实天过程吕里复和吕动化的指施(脚本化.月动化工作和设计实施访程),\nce) STRAP ae wee. AAA AR EE] fy a KE RIA ee TR\nhow Re MAMA ZR. RSE CAA PTR RR Ae CHI.\n[> MP Re oe HY TT 0) Po) A eR RA RI ZF\n注5: URL RR BR oe A fe i a a VHDL OK Verilog, aE PTE ASIC IT) Be A ee eR\nPAA abc VEEE pai ce & . HP OA Bee ig a a PB WE. eB BY ek Be) ae te\n述和功能性建模或出成台。当用于没计摘述时.只能合用该这天的 PE. RAT SRR A\nRTL aye thee ee, TAO REE eS A oh GE OT AIRE AT ANG.\ng) Wik Ser ge at ty Al WWE CHET cc ll 4 eA ASIC aah.\nh) 在测试和 ASIC 3k GT Betis BE 3 A a4 C2E BY BE RR\ni wes ER AA = ST. SSR ET AaB = 4a i HE fal eH Lb\nZR KET fit »\nj) Filia a. wT ASIC Fe 28 ot oP ee CBN a Ee i Se a Ee\n骤 LACT Ge TD VY AE Et ALS Ar SE\n注6: ASIC Se th AY FE ar tt UR T 28 PF aS a ik Sk See A oO a EE HE,\nF.2 fame: RAW\n在 ASIC Wieth Aly A wl me 4 te A SA A RTI RDA SER A\nB2",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 71,
+      "text": "GB/T 20438,2—2017/TEC 61508-2.2010\nDL Ay BE > BN AT AY ee hl 8 ae IE ASIC MUD] ae ICCPPGA/PLD/CPLD). *fT> 4c til (34\n定制 ASIC ZE 4 FL Tae x FRESE RF eASAT O aE IC在下.2 EM,\nKAY ASIC TF AE ae AA aa 3 Brae.\nFAIA. ANP EGE AE, PE OP\nHR* :4R eS oo EOP eK oT, A eB ee dB ate eS ak\n—HR- FRAKES E.R eB ie te. AS A i |) A\nbe WE 4s fil? HY A HE 。\n—R: FARE BPE GRP AEN RA RTT. EH ON a BRA fH ie\nBS PEG AIK oe PEAR EA 4 ee A eh.\n——.- , Ar HEF BR AS Fe A A A AR ae TR,\n——NR - fh IK RC ESR A EY he AB AEH A ke Gites I) Eh\nWH (ef AT AY FRB 。\nHE 42 ATT SZ PER an Ul Fb\n—— 4 24 RL RV BY eR td ZEB a 8 FE A A 2B ZK El ER A BE\nFP FALE Ho te AS eB it eR EE eT ty 7B Ak BN A CE\n—— tay EA SRA AS ite ae EBLE BR TE A AT 2B A Bl es AEE\nwae SF AR PA Se BY Fit es FEAST KE — 2 HEA BOK I ee Se E.R 2\nPi a FR AY He ROA ts AY BE PA Be fe DY A AB oe A EE\n—— FFF ACE aap JA] BAY RE ISP ES a IT RY She ROA\nEET AIRY ESE/PE BEM AAR AEP. EP OT ee Bl) cA Pop ae Te] A A Re NAN Tt a:\n表 了.1 ASIC 设计和开发过程中避免引入故障的技术和措施一全定制和半定制的数字 ASIC 7.4.6.7)\nitl An 1 eh (CFR IA E.3 IIR IIR IIR HR’\n2 CV) HDL it if 上 ] HR HR } HR- IIR’\nfi WUE Fy Ta Rl irl\na\nfi ee’)\nCULGED ny ry ey 阿\n3 haf FG 2 fs A tHE a] E.4 HR HR HR HAR-、\n的(CVIIDL ff 高 高 高 高\n6 AU STE A BE E.6 HR HR HR ° IIR’\n证(如:使用(5V) pa 商 i a\nIIDI. 测斌平台)\nCW TED\n63",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 72,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 F.1 (20)\n\n7 Sl fz TY Be Hal) To E.7 IIR IIR HR’ IIR’\nire A FS Sc Fp BS KY E.8 R R IIR IIR\nTh) BE ial] Xt rf rr Wy a)\nr Be ae 2 Hy fd LL E39 HR HR IIR ‘ IIR\n10 og ee A EK In) E10 IIR Hk TIR IIR’\nAle HS Os AY PS il my ry ai I\n1] ry atl KE i ib ¢ He E.1l [2 Ie ee 要\ne+ FU) ih AE at “95 “> GR Mg “> GY “= GK\n\n26 )\n1? fet Ue fe E12 ea R IIR Hk\n上 小 到 fan\n13 ae tik Bae AY el ae E13 R R HR HR\n中 中 所 5\n14 i tn a 03 FE a E. 14 HR HR IIR’ HR\n13 iS EE AE NY E.15 R R R R\n\nJe FA\n16 EA ft) tk: a Ft E.16 [2 Iz Hie HR*\n低 小 TA (3)\n17 仿直站果建立 E.17 IIR IR IIR IIR’\n文站 ik 山 ifr ie\n18a (Rats af tt E18 Ik Ik HR HR -\n外 By 高 呵\nish | t# E14 R R HR IIR\n中 if ay it\n1S: C fi ty ae ee my E. 20 R R HR- HR、\nJt FA rf ey 高 高\nLob | &e RAT WTA E.21] [2 Iz HR* IIR *\nif inl iy (3)\n综合 20t | f ERE IA E22 R R R R\nHe ae ae ED ye 247 HE fa 小 商 商\n20h (2 7H aE DS A EAS E23 R R Re R\nSp Pr OSTAD 牛 中 ay 5\n\n4",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 73,
+      "text": "GB/T 20438.2一20177IEC 61508-2.2010\nF.1 C6)\n21a XY) AS 2S He E,24 R R HR Hk\niB ot th SS ES ] rE 1 fa 商 商\n2h [ad] Fe\n\"lb | 比较门级网志和 E.25 Ie Iz HR HR\nBE He AY CAE ok 由 fa ny my\n1b S tit ke a}\n9” fee ASIC 4b nif E26 HR HR IIR HR°\n2 3 综合约中.结果 E27 HR HR HR’ IIR -\nAM 1 Ay ae fe 5 高 al ial\n4 Toe 23 1 a a E, 28 HE HR’ HR: HR ,\n的综合工具 fa rai i a\n95 Tak 24 $8 FY ek 已. 2a HR’ HR’ HkR° HR-\nA A ba fay ty iy hay\n26 EE EAD Ax FY) SAE Be E30 R R HR HR\n中 中 所 5\ni) i Si AS A OF Wl iy 24 AE BY Se Ae E31 R I R R\nik [e) Fe AE UE = 45 MG 58 4 > GG 6 ag ly\n28a | HT E32 R R R R\njh HE Te FC HE “95M “> O8 Mg =e Gg ila gg le\nHy yA El) ACES ik Ag\n28hb 通过应月 ATPG E33 R 及 R R\n1) AA i i oe Ae e435 “> ORG ag, “ag\nBl] (at FE\n294 Hawt Mp eR F 22 Ie Ie HR HR\n约束\n24h | fe aE DR py BAS E.23 R R IIR Hik\nSp hp OSTA) rf ri ie iy\n30t | eb tt ee Fa, E.24 [2 Iz HR HR\nital (fy Ae GE if 小 商 商\nae bal Fe\n30b | LE RED) BRR A A B25 R R IIR Lik\nBE HY CHE oh fa 小 商 商\n化于竹检查)\na5",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 74,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nF.C)\n设计阶段 技术/措施 i OBST 20438.7 2017 | SIL1 sIL2 SIL3\nAi by. 3tt | GP ie Fd fy fe ee E.34 IIR IIR HR HR、\n布线, fy 22 iE AEA my Hy as 高\nhe PEL AE A He BE\n31h jw JEP LA fg tA Ly E35 HR HR IIR: IIR\nft 极 = = yy hal\nale OD te AY ZR wl tk E36 IIR IIR IIR: HR°\n1) ay oy my\n324 | ST AAR 胡 E.2? HR HR HR: HR’\nMS thy AL Be ate It FF 两 ial ey ry\n32b | fe HR REA Ay FR as E, 23 IIR HR HR ° HR,\nAp POST AD ns 1 fey res}\n334 RY Id 23 4 ta, E24 IIR IR HR’ IIR’\niA act fT AL See ak 1h ie a a\nHie fa] Ze\n33b LE Ber eR All 已.25 HR HR IIR: HR -\n{http he te)\n34 iE] AR OM Re te 已.37 HR HR HR- HR、\n(DRG) fas ra Fay 高\n35 HR [24 LS E38 TIR HR HR: TIR*\nLE 48 HEC I.VS) ny ha hy fia)\n36 Toe 23 1 a a EA IIR’ HT HR HR\nAS se Eb Fo Hy Hy i a)\nTE\n37 对于体用时间小 E39 HR HR HR HR\n于3人年的1]此技 om By ey a\nAN = HE HTT IRE TH] 44\nFECA Te Pu}\nrhs Ay ate ake 38 Jae 2A 1 IIR IIR HR HR、\n的工艺技术 1H fay 高 5)\n3g hag 24 0 FLT TE OH EA? HR Hk HR IIR\nAU T. FFE OR AY Got IIKR Hk Tk IIR’\n保让 Hy 商 ne ny\n11 | 制造1和艺的质量 下.13 HR HR HR HR’\nfe itil 两 商 na 呵\n上",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 75,
+      "text": "GB/T 20438,2一20177IEC 61508-2:2010\n表 F.1 C6)\n42 点件的制造后其 E.dd R R TR HR’\n43 AR TEND 6 AE i it E45 HR HR HR IIR\n+ ft ny iD ‘ic ne\n44 il ae WW) aR 45 > GR UG gods = 9G MG\n45 fit Tk $y: iE E16 HR HR HR Hk’\n46 fae Tb Se SE Si AN IIR Hk IIR TIR,\n根据 GBST 10000 Hy 商 ne a\nAF ae {ke all TX 局 R R HR HR\nAL HG Ee EE A PRG ORR RG PRE TR ORG OS So, BE\nAY — “Py BE PER I ae ae OAR BT A\n注: AGA CVOHDL F246 a ee Oe A Verilog WPA AT .\n#F.2 ASIC 的设计实现过程中避免引入故障的技术和措施一用户可编程 ICC FPGA/PLD/CPLD)\n【由 74.6.7)\nie tl AT ] 4 eI (LGHI# E.3 IIR IIR IIR‘ HR\n2 (VO TIDL 设计 E.1 IIR HR TIR HR\nfii wk ¢ WL FE my ne ay fay\n3 lel FFF [| Say AG EK? - - NR NR\n4 (A ROT a ok R R NR NR\nATT i Lf Haid ny fy\nha AD TRAD AK A IIR IIR HRR- HR、\nBe oN HE Ty Te OY 1) fy 5 Fl\n电路:对有有限\n(fe Ae wir\nKATA APE\n3h RY te Hf a Pr HR HR IIR° HR\nEH itt: OP AX po\nae HE Bere He PPAR\n46 PAY fA\n67",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 76,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\nPL? (20)\n\n6 it FA 3 HE FA EAA E.4 IIR IIR HR * IIR’\n的设计环境 商 mH i I\n\n7 he AB fit AB Oe Ed HR HR IIR’ IIR\nHCVIHDL fF na eB ai ai\nde UL FE)\n\ng AED Se BY AE i E.6 HR HR IIR’ HR -\nin ¢ fi] Su: fe FI} ry a ot it\n(VHDL wl) st 4\noC ule)\n\n9 Se oF ey AY BR itil E.9 HR Ak HR [LIR\nti JF pa irl 呵 fia)\n\n1G op Full) ik HE EE EFC YY 已,11 R 及 R R\nGAY [> ql] Gok FRE AF AD \"= 5 Ma “> 98 U4 > GG = 9G MK\nfm Ee db E12 lz IR HR HR\n\nfa 路 ey I\n\n12 | Se hey ot hy Se E.13 R Ie HR Hie\nCH) if > if rr i ia\n\n13 | i a an aS FB ay E. ld HR HR HR: HR’\n\n14 fi A Zu JM 4B ae E17 IIR Hk IIR HR ,\na {Ff 小 ne i\n\nloa = | {0 fe Rap E18 HR HR HR HR’\n\n中 5 高 i\n\nIsh |x EL 1G R R HR [IR\n\nléa = | Bhat WALA TY BK E20 ea ire HI TIR-\nfie) Fg J FY 和 ei fail ie\n\nlob | 软核页认 E.?1 R R HI: HR’\n综合 17 Al ab — Fx tt Ho He TIR HR HR: HR’\nCl GBS T 204387 nt 出| me me\n\n一2017 AY EA)\n\n18a |fACIRM RH E.22 R R R R\nte Pr hl ESS oe fa 路 ra ey\n\nB83",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 77,
+      "text": "GB/T 20438.2一20177IEC 61508-2.:2010\n2? C26)\niT) ORB BOR /Ai |W GB/T 20438,7—2017 SIL2 SIL\n18b | fH He SIE TB PY Ff E,23 R R Rr RR\nAp AFT rE fa ha hal\n19a Fay Ae oe WE eR E24 R R HR HR\nPl Ae A Se A 中 中 aa 5\n1Gh LE RED | Se Fe) EA E25 R R HR HR\nee Ae TE YH oR 中 中 出 fia)\nth rae of)\n24) OP Te AS ie El tt! R R HR HR\nA) PLOYSCPLD, 中 中 ai I\nWel ih AA Re\nus tt\n21 #e fe IC {IE I E26 IIR IIR IIR’ HR’\n(Hy we oR Ale) Be my a i a)\n2? eee) ee E27 Hk HR HR’ IIR\nAl | AB oe AS fk — By il ial\n93 he HS £8 1 HY TE E28 HR HR TIR HR\n2 Jae A fe A ke Al] E. 24 HR HR HR- HR、\nAS CPLD OV 1\" a 高 ra\nO5 TT AD as Sy Sait, FY E30 R R IIR Hk*\nny hi i 站\n布局, 26a Oh Sor FY ERY fae Fz ll E34 IIR THR IIR’ HR’\nAE , ty 28 (8 ATE OY my eh My ay\nhe FT AE ke He tl:\n26h | iv Ae oe iA fy E35 HR HR HR’ IIR\n炳核 mm ra Il irl\n#Ge ee Bee ef EB ik E36 HR HR IIR‘ IIR\n= By hii hal\nOF a oct At /ZR AU E. 22 IIR IIR HR- HR、\nA 7 A Re Of Ty 1\") ay 高 i\nA) oh\n27b | fe APA AS A ES E.23 HR HR HR: HR’\napp oSTA) 两 i Bi =\n28a | wel ft Ae ae. E24 IIR HR IIR ° HR’\nJAK AB & aaa ren a a\n69",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 78,
+      "text": "GB/T 20438.2一20177IEC 61508-2:2010\n表 F.2 (2)\n28b | LE He THe RY He FA E,25 IIR IIR HR’ IIR’\nSME AY HE aA tt my ry irl 加\n|\n29 | qe rt AC OW Re Ok B37 HR HR HR Ik\nee ee\n30 | AM A 8 EJ] te A F.4 HR’ HR’ HR HR -\n的设计环境,应出 ia ra ia i\na6 fh HY RU ay\n31 | Mt F fe TD Ay lal vhs E.39 HR HR HR HR’\n+3 aFAR TL AE as inl i 两\n本 FDA Tal 84\nCAC]? 20%)\nitt) te 32 | I STE oY IIR HR IIR’ HR’\na\n33 WA ee fH] Ge A Ed] HR HR IIR‘ IIR\n4) ah TT Fe a 局 a hil 1]\n34 ek {ge FY UE WA By abil E42 HR HR HR IIR\n350 WaT. AY ie E.13 HR HR HR HR\n36 | AR fe AS i) se at te E.dld te R HR HR’\neff 1k it 阿 两\n37) ARE a ie A E45 IIR HR IIR’ HR’\n合格 re 阿 i 癌\n38 Far at By ME E.A6 IIk HR } ITR HR’\n1 ay tl I\n39 | ae ae FN. foal On. Hk HR HR Ik\na ae ee\nAt} Sfp 4! FPGAS HR HR IIR HR -\nPI.DD Jot MG AY Be 2 ny if rH 阿\n|\n41 | fea ALR A 上 上 HT HT\nVoc Be Ae AB AY ome 四 inl i 两\nBe Lik AT A LA\n4200 | 2 fed E40 R R R HR’\nil {Kk 中 ia\nWB a EE SE A PR MIR AR i, SN ACA CTO ET Gd, eb\nAy Al A PEN Ook ee 9 Te AR ke PT\nfa)",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 79,
+      "text": "GB/T 20438.2—2017/TEC 61508-2.2010\n参考 MRM RR\n\n[1] GB/T 21109(所有有部分) A IRR SKA ERS\n\n[2] GB28526 机械电气安全 ”安全相关电气.电子和可编各电子控制系统的切能安全\n\n[3] GB/T 12668.502 调速电气传动系统 第 5-2 a BSR IR LTE\n\n[4] GB/T 20438.5一2017 电气7电子/可编程电子女企相关系统的动能女人全 第5请分:确定\n\n[S] GB/T 20438.6一2017 电气/电子7吕编程电子安全机六系统的功能区伞, 第6部分:GB/T\n20438.2 和 GB/T 20438.3 MI AZ FR rd\n\n[6] IEC 60601 Call parts) Medical electrical equipment\n\n[7] JEC 61165 Application of Markev techniques\n\n| 8 | IEC 61078 Analysts techniques for dependability—Reltability block diagram and\nboolean methods\n\n[9] JEC 61164 Reliability growth—Statistical test and estimation methods\n\n[10] JEC 62308 Equipment reliability—Reliability assessment methods\n\n[11] GB/T17799.2 HLREIRA 通川标准 Tobe Mee\n\n[12] GB/T 20172 石油天然卸下业 Bee a SEE PE Te Se RAD se ft\n\n[13] GB/T 2900.13 HILAR fat SARs eae\n\n[14] GB/T 19000 I ie AB aR ”基础和林寺\n\n[15] TEC 60300-3-2 Dependability management—Part 3-2; Application guide—Collection of\ndependability data from the field\n\n[16] TEEE 352;1987 JEEE guide for general principles of reliability analysis of nuclear power\ngenerating station safety systems",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 80,
+      "text": "oo\n>\nCN\n>\nLe 看\non,\nLO\n(后\n/\nes\na\n~\nrm\na\n1\naN\noo\nCY)\n=\n=\nra\n一\n~\naa]\nee\nII 人华大 民 共和 上间\n国 A 标 OTE\n电气/电子/可编程电子安全相关系统的\n功能安全 第2部分:电气/电子/可编程\n电子安全相关系统的要求\nGB/T 20438.2—2017/1EC 61508-2-2010\n=\nWee] By HE At A él TEL Ae AE AT\ndE rh GP FO A Pe A 2? 100293\nAG HS fy tak lx Boy Ib ey 16 0100045)\ntt. www. spc.org.cn\nWE SHA 4k . 400-168-001 6\n2017 TR LL 月第一版\na5. 155066 + 1 57432\n= i BS\nGB/T 20438. 2-2017 版权支有”侵权必究",
+      "source_file": "GB∕T 20438.2-2017 电气,电子,可编程电子安全相关系统的功能安全第2部分：电气∕电子∕可编程电子安全相关系统的要求.pdf",
+      "garbled": true,
+      "garbled_reason": "empty",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

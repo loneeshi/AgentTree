@@ -1,0 +1,176 @@
+{
+  "doc_id": "6ed41063-f709-41d2-b63d-a2b7a62ac5f9",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "UL人\n| ICS 45.020\n3a En\n|\nA Bee ris i SHE 3S Bs & BA HK Be HE\nT/CAMET 04013.2—2018\n| 城市轨道交通 Bias\n控制系统 ( CBTC ) 互联互通工程规范\n| 第2部分: 安全评估\nUrban rail transit 一 Engineering specification for\ninteroperability of communication based train control system\n, ' Part 2: Safety assessment\n2018-09-10 发布 , 2018-12-31 实施\n中国城市轨道交通协会 发 布",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "T/CAMET 04013. 2一2018\n\n目 次\nAll Eh cet eee cee eee cee cee cee ee eee cee eee eeeneeeeeeneee nie eesceeereeeeessseteeeneees Vil\n3 术语和缩上略语 pe\n3.2 缩有略语 3\n4.3 五联互通安全评估相互认可 cee ereeeeeteneeeee d\nV",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "T/CAMET 04013.2- 2018\n*\nm\nT I CAMET 04013 ( J)jX r!J $JL l1t 3{: Jm ¥ rill! {j§f ~ ~U :$ jg q=y 1£ i!itJ\n( CBTC) :S:ll*:S:illli~!H.m'fflJ?t:tJ ~ r :=: 1'-$?1-:\n-~ 1 $?1-: I~i&tit;\n-~ 2 'S'i~?t = 1i:~v\"¥1ti;\n-~ 3 $Jt:.XH¥2fs:~dlf:o\n:<$:$?1-~ TCAME/ T 04013 ~~ 2 $?to\n:<$:$?1-~J!f! GB/T I. 1-2009 ~ili~;ijl.!J!U®lf!o\n•~•*B*~~®~wmn~~~~.lfs:B?t~~~m~~~m\niJUJU jg ® ~ *U ~ ~ {f o\n2fs:B?t~~OOJJiXrn$JLm3tilll~~~*•*~~~~~-ilio\n2fs:B?t~~OOJJiXrn$Jl.m.XB~~ac o\n2fs:BJt®1j!i:1i!lli: ~~~~iA. iiE~'L' ,~t]t:9~$~~B3tJmJg*Utr~*~~\n%-:ffil&0PJ ,~W~* < J:~) tr~~&0PJ, ~ oo~mt4~1Vf~~~0Jtr ~&\n0PJ. {~{~%1VF~EJT ,.Xt£f4~Jli{5f:fl ~&0PJ ,::ltR: ~Jmilll{~{~%1VFJt:i5(\nit~ ~IHfl *Ill& 0 PJ , WT IT :A -frf4 ~ mt 15! *Ill& 0 PJ o\nlfs:'S'iS?t 3::~®1j!i:A: ~Eif ~il.: J'J'.Mi ,~7( B1, ~fS~1'15, Wi~J! 00, I~J;:J't!®',\n:XlJiE:tf-,91lP*'~ ,3:.~ 00 ,*Jl'tilli ,!fil'i~~ ,1f j]-,Jl!f~JL$ ,:$~~~ '~~ ~'\n5-lf~ 3lEf'i5o 14i:Jim =*iflr;4f '*~ ,~;tt '*~~~, 5itf@~ 3iE FL 5iE~~,\n~~r ,*fiff)C '*~1lr ,)C~ff, fffi, r4i t'Jtt, 5-lf\"'f~ '**IS ,:X!Jl ifT-¥,\nm\nI filL~}!,\n0\nVII",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "T/ CAMET 04013.2- 2018\n~I\n~~m~~~m~m~~-~.~~*•~~m~m~~IGI~\nB<.Jilif~, ~¥1J~7Jt~Jtl ,~1m\\~t$ ,i;{;;f:)t:ll!:Jk llJt#~'&.Jiik 8~ 13 t~, i!itJJE~\nmi/Lllt56m¥rlHi f~ 89~U $~~-T~i!itJ * tJf. ( CBTC) liGlilHi *~Urn i*\n;j:jf(f£o\n~•~•m~~<~m~m~~ ~r~MB<.J~$~fi~~•m\n( CBTC) E:Gli~-t1f.~.W.MH~m$JL:i1t~illl ¥-T~ f~89jtl$~~-T~fM\n*t1f.( CBTC) B:GB:Jm~ D ~.W.MH~m~l1l:xlHi ¥rilllfi§89~U$~~-T\nrti!itJ *t1f. ( CBTC) B:GB:~~tliit~.W.ri!H~m~iH~JHi ~rilllfi§ B<.l ~1j $\n~~-T~ilitJ*tfCC CBTC) liGlilHii~-M)4 1-.1t1( 17 1-$51-) o\nvm",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "T/CAMET 04013.2- 2018\n•m~m~~ ¥~~~~~*ilift~~\n(\n*~1f. CBTC) Ei~Ei~I~¥~J\\!m\n•\n~ 2 $~: ~~i:q!fii\n•\n*\n'lm~HW.~ 7 CBTC {~ ~Uii!MI!!!!I!IIIilill~\n~ ,j(B:~.&ll&*fl-~i>f\nm. :r ..\n*1m*~ ~ -Milo..~~\n*- --\nr ~u x ft ,)(>f .:r .£..,._..,...=\nft, {)lJiJfB: E1 WJ ~ ll&*~W.=t=:.43.i~~\nGB/T 21562- 2008 $JLllt3(Jffi l'iJ~'~, l'iJ ffl1~L PJ~itf~'~5fil:t<~\ntl:~JM[RlJ';{Yij( IEC 62278:2002, IDT)\nGBIT 21562.2-2015 $JLllt3(Jffi PJ;fttL l'iJ ffltl:, PJ~fld~ttlll:t<\n~tt•m.&~~ • 2'1m:5t::t<~tt~~mmm\n*G B/T 28808- 2012 $JLllt3(Jffi Jill{~ ,{~~lll~JJR~~ ~iMlll~\n1? ~ ~ ftj: (IEC 62279 :2002, IDT)\nJlR*\nGB/T 28809- 2012 $JL llt5/:illl illl {~, {~% 5fil ~ ~ {~% ffl :t<\n~ffi*.Et!.r*~( IEC 62425:2007 ,IDT)\nGB 50157- 2013 :it!!.~i9:it~.W.111\nCJIT 407-2012 ~r!J$JLllt3(Jffi¥rim{~~~U$ § ZJJ~ffi1J~~:Ji:;;f:~)jt",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "T/CAMET 04013.2- 2018\nT/CAMET 04010. l #iXr!H)Lil!X:iill ¥=fillif~iB9~tl$illqirtfiTIJ*~\n( CBTC):!L~::!iilli*~~]VG; ~ 1 $:5t:*~,trJ,{,t$:~>J(\nT/CAMET 04010.2 :9iXm!fJL:i!!X:iill ¥=fillif~B<J~tl$illqirtfiTIJ*~\n( CBTC) ::!i~::!iilli*~~]VG; ~ 2 $:5t: .¥~$W;t1;J~J)Jfm:5tllC\nT/CAMET 04010.4 :9iXm!fJL:i!txilli ~=fillif~B<J~tl$illqirtfiTIJ*~\n•\n( CBTC) ::!i~::!iiffi.¥~~]VG; ~ 4 $:)t :::!i~::!iilli~i!f:)ttJT\nCLC/TR 50506 - 1 $JL:i!txilli jffifl'f ,fl'f%;f06ZH11!.¥~ EN 50129\n•\n89J1I.FIH!ii~ ~ 1 $:)t: ffi::!iiJ.-.. iJJ (Railway applications- Communication,\nsignalling and processing systems-Application guide for EN 50129)\nEN 50128 -2011 $JL:i!txiffi illif-gf~-l5-.&6Zt.f11!.¥tft ~MH~fiTIJ;fO~\nf? .¥tft~flj: (Railway applications-Communication, signaling and processing\nsystems-Software for railway control and protection systems)\n3. 1 *~\nGB 50157- 2013, CJIT 407-2012, T/CAMET 04010. 1, T/CAMET\n04010. 2 ;fO T/CAMET 04010. 4 Jj!. ~ 13(] ,& \"\"F ~tl :;-f: ift ;fO t.r1i ~ ift~ ffi =f ;;$:\n:g~:)to\n3. 1. 1\n;<$: ~ local line\nm~-~-~-M~WB<J!fJL§&%~§M~J1IB<J.Ro\n[T/CAMET04010.4,:;-f:i-fr3.l.ll]\n3. 1. 2\nfm * ~ . other line\n~ ]i ~ ]i :1m i3{J ;It fill. Mf\n0\n[T/ CAMET04010.4,:;-f:i!3.1.12]\n3. 1. 3\n11! ~ fAS source data\n-~--~&%.¥~5~~A1*ftmB<J~~ttBMo\n2",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "T/CAMET 04013.2-2018\n3. 1.4\n~ ~ iE ~T overline operation\n~g~*~-~--~~k-rtffi~--·~--~.~-~-·\n~A~*-~--~fi~-~fi~~rto\n• [ T/CAMET 04010. 1, 11\\:i! 3. 1. 14]\n3. 1. 5\n~ ~ iE ~T mix operation\n•\n•*~~r•*Bffi%~6~~*ey~~-6~-r•~*ffi%~6\n.Mk3tM'~.~rt:Ytl$~iM~JJ'J;f1lji~rt:Ytl$~$J~JJU7G~.i3i:~ey1f;~'8 o\n[T/CAMET 04010. 2,~5( 3. 1. 18]\n3 . 2 f;f§ 1113 i~\nCBTC :¥T\":iffifili~:Ytl$~$J( Communication Based Train Control)\n4. 1 ilji.ij!j f* !j!lj\nr muw\n1i~ 1i: iffi ~ ~ Ei ~ill :i~Hfli :!m\n=\na) 1[1~1I:iffi3i:~i'f115~~3i:~i'ffi!:i:l'l3:k~~;f§1[i)..eyi-f1::1'J~1i:flo\nb) 21s:.iSJZ11.:i~:fn ~21s:-:lt!!. iiD~§;f1l~j::B~§8¢J3i:~iSJZ11.:i o\nc) fll!..;YIJ $:ittA21s:. B1, fill·{~%~~1l:litMW;iiE:ms, iiE ~fill.$\nB~43i:~~R-~1ia.EI:iffi$B~6~3i:~m*o\nd) fill.:Ytl$~A2ls:.B1 .21s:.f£f~-·i/&m, #in J!JYLH&m~ff£\n~tto 2ls:.Wfi!:i~:fnW•i/&M3i:~Wfi!:io ~•tnm•AaM\na9 !ft 1t , am jj!IJ ut 1k Jt 3e ~ vr= #! 0\nm\n\" e) 21s:~W1t~ :±l J!.~i.if1t:flH~-;~~IiiE 45 ~~~ OOill§ 15:ff\n2Js:-~'8~~~~~~~$B~§o\nf) ~ I!Jf 31: ~ ;&!i iE 45ill 1* 1m 21s: ~ :Ytl !j:: :]g .g. :it *t A • 1 ill ~ if~ iftJ iJt , iJt\niE fr , ut ~ 'Ei 5fll ~ fi ; Jt ilf 1m• :YO$ :Itt A ift1 ut , ut ~ fr , ut\ng) ~m§ 1l:li < ~~fl:li )/W;illfl:lif~% *tlt~tt ill• ~1i~1i:iffi~\n3",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "T/ CAMET 04013.2-2018\n* ,\n~Q I~~ D 1:}} i.J( , f'T $ t£ f!ItJ W; !/& ( ~Q :il! f'T , !§\" 71I! ~ 1? Re ~ !ll\nW\n,:1<:@:~1J~~~~.*4JUM&) ~0\n4. 2 -M~*\n~~~~:1<:@:ffi.*~£ill~~~~~~ffi*~m~~*·*~u~\nm~~~~millm·~~~~:1<:@:fl~o\n•\n4. 3 1i ~ 1i ~ ~ :i: ill! fiS ~!HilA \"iiT\n~-~~~m~~~~millmm~m~•~~~mH~,~*R~~\n•\n1¥Jf~i.li5-~'U1t~~~ o\n~~~~M~illm~m-•T~-~~~%~~d~~,~M~~\n~*~I~k*rr~•~~~~~~~~~ill~~illfflo\n~·~~M~illffl:1i::@:W~§**~~~illffl~:1i::@:W~,~~~\n~~m~£;~millm:1<:@:W~~ffi~~\"iiT~~~~m%*~~-~~\nM~illffl:1<:@:W~~ffi~~\"iiTo~~.*~M~illmm=~~-~••\n~-~~%*~~I~~§ ~-~RillS~ffl~o\n£ :1<:@:-i.'f=fili nr\na) ~fflillffl ~:illim~ B<Jifl'l~~\n~m~£~~millm~ffi~~\"iiT£~•~~w~~~*~ffi*~£B\nm\ni'f=11ii.iE m ~ ~ t& , -$: illl m ~ £ ~ ~ ill m 1¥1 ret fi if~ liE m , :tErm~ cLc\nx\nTRsoso6 -1 ~ ~ liJJ :tT-1ft 89 ~tr ~ T , 1lii * - tl7 i'f= fi!l ~ \"iiT 11t ~If*~ illl ilf fiS\n~Yfj~l&o\n~~m~£d:illimillm~fi~ll*~illl~:@:W~iiE:mi¥J~~k.~ll*\n~~M~illffl~:@:ff~~ill~~m~£~:illimillmHaffi~~nrw~m\n~.~~•~m~~d:illimillm~~rm~M~I~illml¥1~*0 •\nfl'i% )/f;Jtilllf'ij B rr-£\n*~~§• < ~~lf'ij ill~ ~v\"¥1ti:l:ti¥J ~fiilllm\n~~millm~M~I~illmi¥J&~*rr*Vr,~•~~~~I~illmw •\n11i~~W~&~*~X~.~~*Vri¥JW~~~*tt~T~3:\n-~fi I¥J:illimrc~,!!X::illimillm s<Jillfflff~ ,:9J~~;fl1'11f.i~ ,~:@:~~\nD J.f>J(, ~R RAM' m:f;Fifil THR2 £~~~M~illffl~;:_K;\nI <if ~'ia'.£ '<if J'IH1 & <if t!HJ\" tl ;\n2;&j.'fffi:~~.\n4",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "T/CAMET 04013. 2-2018\n-&:fF?HJT~f1JE%;\n-~~~::W~f1~**~fflF£~~ffi$ffl~~£;\n-IE 'T~:fF 51®~ JXt.~~~ B ~1&:1£11itJ o\n:!Ill*:!Iilllif:§:!I iA PI i'Y:1tiffliYJ $1:tdg CLC/TR 50506-1 ~~Ill! :fiT-?i~\n:J:~:tf!PL\nnr\nb) f~.!i7 -¥mE:l{)(E:~~li:$m~~i'¥1tr~:mE:iA\n~~.¥mE:l{)(:!I~~~:!IiAPI~*~E:l{)(1I~W~~~~~ffi%.¥\nmB::ll*B::illl i'fl1r~iiE:fm B~ t'~* ® :, :t~:m )E CLC-TR50506-l :g_l(; ~liS] ;f;F fifE ~IWm\n-r ,w : w 1 t i.iE w; 5t ~1J :itt- i-¥1t J?,;~t PI~*~ B:: 1fX :EL illl i'fl 111 ~ J9f m ®: , m ®:\n~;t~n\"f :\n*\nfil!. ~ :9~ .:$:ill A ~1!1/#P'f!~t:J:t.~~\n~ ~ ~ :& ; * ~ i'JZ 1tr ./. . l.J <Ll'l-Wo:>\"<: ~~ ~I~~ iftl iJ.\\ 'iJ.\\ ill\n11f JJ<. iJ.\\ ill fr a<J ~ ~ J9f ;fH~ Jilt 1tli ~ $ ~\nifit~o ~:&§~$ :>t.:V•~-4=-iffil iJ.\\ 'iJ.\\ ill q-j 'iJ.\\\n*\n~T GB/T 21562. , ffl EN 50128-2011 lJ<.\nGB/T 28809 :fif-r!:E,~~i~Z-fit~-&lw'ftf'1 illi*'iJE$FH~~i-'¥1tr:U~\nrp , .± ~ ~ ~ i'JZ1ti ffl iYJ-§. :Ji!d!! /f ~LF.f :\n-1:$J1fJAAID!'~:>c¥=Ffi~;\n-miJiJ.\\.'A!. i.iE;\n-:Jm:l:}JJ.9:tiil:~~*~\n0\na) 1:'1fPJ!lAAIDf~)C~iJi~\n~ ~ ±~~~:tEE:lfX:EL~~li:$ffl~~W~*1:-€P~MIDI'~~-E!Itli\nm m\nc ~JV1;1fti )/fA$1fti'Jff m:x ~ :>c ~JJ<. ~ ~1-r:1tr1r J9f:tf ~ ~ ~i'fl1tr IYJ,\nw:~iX:~I~ llfl ~, m:x:>c~ l!li-¥~miYJ s~ ~i5l, ~-@.ltli c ~Jilt 1tli) ;fj!;J.i!l\n5",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "T/ CAMET 04013.2- 2018\nIfil~fl\"~ W3CX~ v1 1i!i ffr ;fJ\nfflpnf;j(\n1jj §it~~\n±~~tl::!m\"\"F:\n:t<~it~~ -W1tr% >.tlf.ll1W ,;f:I;J~ ,~ r.:t ,&jg1-J\"Yf:tfl;\nm\nRAM it:!G~ -i'f1~i A 91 ~ J.ilt , A .!J1 ~!.lt 11. f.£.&. JX1. ~\nII~U1HlU;\nIJA ill tr l1ll it: !G~ -i'11it ~1] \"til: 1f r!; '!Ji iiE 1f r!; lk fP(j iJ,.}J r!;\nWJ it l1ll tt ;\n@iiEit:!Gtl\nif:i\\Ij,&_ -i'JZ1o~IJ\"til: ,@ii£,&_ fP(JiJ,. Ti!i;fJ B<JJ'E?J-t£;\nm\n~.>Ofl\"~ 190 iJ,. it: til -i!¥1i!i ~ ~ -t1tr .m:1 l~l ~fl\" ~ B<J 3f ~ i9J ~ 1§\nitJ11lif:i\\1j;\nlfeft~l11lit~~\n-i!f~~~~~~*~~~~-B<Jlfe~\n~li 1ft ~it:i\\lj ,&. 10!! ~; l1ll ;\n-i'f1i!iJ.iltnt'm'l11l 'lfeft'i'l'l11l ':t(~~l1!l7i!i\n~1]-til:ititl i9J it: 1\\lj ~~it J1l1 *\nm\nlt-tJ :llHn :t< ~ it:!Gtl W1Mt :t~J ~fl\" ~ ® iiE ;t1 ~ ~ :JE\n* ~fl\" ~!!iii£* 15'\n.i:~~tt~n\"\"F,\nfJJ tj;;fe: i!t?t.frr* 15' m re:\n-W1i!ite: 5JJ:?t~ £~ J£ iYr i'iJ ~ !'2-tt\n.!i!U~>R;\n*tlf.ie:1!f?t.trr~JX1. -Wfili JX1.~?t.frr1fr!.&. 7KLfil;\n~W1ii*-'6' -W~fe:1!?1!tlt1Jtirllf[~~t€l-~;\nfe: 1!t iJUJIJ ~ -W1i!i ~ ~ 4i't illi :J£ ~~iFf #I l1iJ B<J fe: i!f lw.\nJXl.~?t.trr *r.:t~l!i=?t.trr :ilH-T JX1. ~ ?1-.trr ;\n~fl\" Est -i'¥1i!i~~~illi~~WJ~ff~~4?11l'*\nJXl~;\nre:\nfe:i!tl3~ -i¥1i!i !l 1!t jj,'1J rEI'~ B<J Wi tF ;If; 1§ m JE K\n~E:iili~>l<:;\n-i'1~f12;~9!¥rti'1~; *\n* ~fl\" fst@iiE*-'6' m\n-w~* ~fl\" Est !!iii£ ;t1 ~~ 1t\n6",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "T/ CAMET 04013. 2-2018\nTlli11~f.ll: W?iCxr-i if 1t ffi IgJ\n:t~Jct±~or,\n*tit~ ;JU~ ilL -ifiilj~~it:!Gtl <P* ~)1-f.ll:ili:@ ,!Jl* ,11\ntt:\n(I{J @ffl;\n-ifftr*tlt RAM #I~~'Jj;j(, ]::'*~~ JS\n:SZ:~%i ;Rjlll 111 nr i)!rj t'£ '7'C ~ t'£ 'Pi - t'£ '.f,f-?11: r.r tE '\nnr\n.itiWJt'l~;\n-W1M~ o ;f11Yf'mJJ*~-&.f&:);EX:.;\nf£ t4!Hf£ ~ ~ J\"f -iff ,lj IN f£ tG ?11: til itt fli1 ;1i1; ::r,: mi .lE f£ tG\n*tit~*\nf!£~~JIIJ-~;J(;\nM\"f.ll:\n* tit 'JJ ;)( i)!rj iA ~ m -iH~f!Wf!Uil~Nftlil.lEf=ff.',B<J~;J<;\nJk i)!lj lA $-fYlj -if1t~ ;ff f!!G :It!! 00 :.llFiHJc P.!! tit-i'J<J f£\nWif!E~tM'*T; *\n$: ~ ~IJ ;:)( i)!~ iJ-0~ 111 -iff i'i ~ i3i jl}J ~ ';& * lk J:,' :;;)( :5}-1£:.%\nJk i)!lj lA ~ -fYlj ::r.:-1~; *'\n-i'l'f(jijllj iA ~ 1YtJ lk ~ iiE 11 tt: ~ ::r,: 1E\n%iM,JiftM'T;\n*~fl'f.ll:~iiE:JRi!r\n-ifftr*~fl'f.ll:~iiEffi79J:If::NJE:5t\nIN fJJ tf7 i3i it ±~~i:Unr:\n-ifftr:ti:~it:i\\tl <P*~fl' !31:iliW ,tt* ,11\n*tltm o 13itr~~m tt:\n(J~ J]Z Jfj ;\n-*-T *t1tJ.f;:J('AA'.il1 -Wftr~i ;)(:5}-~Ut91C:5ttElk-*Jlllt'£;\n-i'P:ftr~#:5t:tJT~N51~iillmt=~~:ii!i\n~#t'l0-.ffr\nffl@ffl~9!; * ;\n*tltl3itt\n~Jl\" 131: 1{L l- kT * i)!ljt ii At\n~\n1.1 {7:; 1;) J( i)!4 iA~ - -if ift Hrl. ~iU 1J ~r J ~ 8 9 i3 K i fi i i'J t<J :J IX f:1 :. ~ ::r. :~ Ttl iN l .!Ei . H If.c ! IX If. illl\n~;)(;*\n*tltm~jj!•J lJ\\:.1<~111 -W1h tlt)E X:.,* tit ';i';i ;)( rt1 (~J m D :ll!:\n:& jj!rj lJ\\ ~ 1YtJ ::r.:fl/ii!Jmi&bt;\n-ifftr i&iH11~~iJ!~iAI'tfJiliWJ;\n* ~)1-f.l1: lliiiE 11[ 1!r -iff tr * ~)1-f.l1: iiii iE ffi lgJ ;Q:-& Jf, 7t\n7",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "T/ CAMET 04013. 2-2018\nT.f!ilflfl~ m:xxot~ if= 115 r.s ;IJ\n.:1::.~ ~auurr,\n:IC~.=f.j!Jt\n-W#i*~it::!ttl r:fl:<$:1lfl~jjl£.f!il ,~7!t ,1f\njia<J~.ffl;\nJ£~* l'ci'Unt;r£ -W1(il lll:liltt-xtl B<J~:;Jt e !£1lk'li!Z.ffl;\n-:IC~ffi.s'E~.ffl~14E~1lk'li!Zil:l;\nffJ1JiiH1l\nI~~~lli¥1 -Wfi'i*~». f~ %~it:J;& i!f WI J?.Jii!XJi\n*~llfl~\n)ill~:;j(~Ml!;\nJ£ ~ ~ ·U!Hft ~-¥ JJJt -Wfi'iiili.fflf\"~~iillfflli!Zffl~t*~*\"fl,'1J\n:ll[ a'.J~:;j(~i!f e !£~Ht~Jffi:k-¥JJJt;\n-W'if'i:!i*:~ ~i!i'fmJ?.~1&i!'li~3j(;\n:<$: ~k ~ lliiiHIHr -Wf(i l!fl\" ~ lli liE m iY .l :1! :a JMt\n~tit~ J1Z ~~ iJ\\ *iff\n~ r ~ tit~ 1*1 7H!'l\ni.J\\~{YJJ\nJ¥! $ ;iJ $ ~ i.l1: :ti'Ut1\n».\n;t{ Ylj\n~$;1J$~~i.l\\~m: .:E~:ktt.!mr,\n».\n;t {Ylj -Wfi'i ~~ ii\\; tf YJJ ~H Bf*.J 1t ,: 5 H::E ;\ni.l1: ili fr il~ i.l1: ~ m: ». -W1 (i >!' r-t .g. l'ffi-1lk' ic ;JHJi !rn >!' r-t .g.\n;t{Ylj 19ItfJlll.;\n~ r ~ tit ~ !1-J ~I-~~ -i'Ji1(i*~ffi:X: mMc : ~1llitl/i:l£ 'J3..15<l~1lli\ni.l\\:JIHr :jQ l(ltJ iE i'iJ tiC Sf: !]] ;\n~tlti9fli:A *\n-W~ili~fiW.P~m*~ffi:kill.ffl\nllfi\"~ ~tit 'rld ll~ iJ\\ *iff\ng{dlf;\n!)i $ iYJ $]l~ iJ\\ *iff -i'¥1 iS ili 'S fi wr :p J9i' 1'f af.J J5<l ~ e !£ 1lk' ~\n~ $ iYJ $ll~ i.J\\jfi iff .rl[(,:jQl(j1JJ:k~Jlll.;\n- ili'Efl:k!fHI'A!Ji E~1lk'J?.'Jt~iJII;\niJ\\ ili fi iJ!iJ iJ\\ *iff\n-i'f#i RAM ~i!ffm )E#I;k~:;j(;\nili 'ii :f11 !ft !? -¥;lift -W-fiS :<$: flfl ~ lli iiE ffi ;iJ ~ ~ 1t: 5t\nH.AM j(iiff\nFRACAS\nr~tltlJ!IJii\\jtiiff\n*\nflfl ~ lli liE* iff\n8",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "T/CAMET 04013.2-2018\n:&~~;\n-.@!:fi!::&'ti:~'ifi ·f'!C\n-W1iilffi-B rp~Jtl89lfr11T.JUiiJiJE*'F11£\n71-~~31<;\n*rlt~l& .-1....-iiiilii:.Ei ~ilE .8dif0 V...1J rt (~) Jlt 11: i'l ; *\n~Jl'~ A-'1'-f~_m..a: f9tJ ilE B ~ 7'C .1iX , ;tH!ld,j~ T\nyj(;JaifflliY:ffl'ti:~.tll~liY:\n~-\"~~~~~Jl'~B~.-IjJg:\n:kliY:ffi~#~~B~\n1J'd4;\nii\\:~'i!f:&\n-i-'¥~~ i:r .i1W 1' lfr 1'f (J9 JX1. ~ B ~ 1&: ~\n~IHNJl'~ m\n,~ifi1J.& ~J11L\n;,f;:~Jl' fll:~ilE.&lifOV...\n*15- -~if:&~IH?J...m B~f&'.liU~!itiJII:\n-i'¥1ii;if;: 1\\ft ~~ilE:& lif6V... ~ ljj;f!~ JE'lt\nh ) :!f. IIX: :!f. lil iJ!!J mm Z 11 .& if1 1i *\n.1g 7 ~ jii).iJ(-§. fllj ( ~ JVt 1ffj\") /~ J.iii ~ ~ fi'i -\\} rJt ~ JE :!i !IX: :!ill ~9 ~\n*\n.~*1:Y.Iffj\" <~ Jalfif )1-W-;J.iii~w;rw~:* Ji~nT~'liJ\\Ift:\n-:!i.lf*:!ilffi~~~lYllliJ\\;\n-:2j>:~fl'i%*rJf.iWt~i?.iJii\\;\n- lj>: ~ ~tl $Jf!-$ iftj iJ\\ ;\n9",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "TICAMET 04013.2-2018\n-*~-*~lf*~J:f11:£~ii!:ilifr;\n-1LI f* B.3m ;lk ~ ir.l iii: ;\n-1[I f* 1[ :1m~~ i.ffl] lit ;\n-][lf*][lfli~$3:t:~ir.lii!:;\n-][If*][J m :£~iii: ili qf 0\n*. 2 £ !!.H!Ji :1£ :t£ ][If*][ :1m~ 5iU.ilZ .ffi ij!IJ iii: IDf Fi% ;$. § itlf ( ~ ~ itlf ) I W:\n~-~-~~~~~~~w~~~*·~~~w~m~.•*-&~••\nlifl\" ~ , • 3( ~ ;f~ :f11 W1ti 7i5 Z9J ~ ~ i)( , :$. § itlf ( ~ .fiJ(; [fij ) I W: mz [fij 1lf *- tg ~ llJF\nm x: ns\nl£ ir.l m jj!tl iii: lifl\" ~ , • x :ffl ;fU w~ Z9J\n0\n*\n2 1i ~ 1i i.M jj!tlJ.i\\:liS 1;I:J N 1!f fil\n~gut ~fl' tl!: m3Cx¥i if fili TiS 7;1]\nE.J!X:li.:illi iJ!j iJ!:it:lt~\n:li.ll)tE.::illi\nl))C~J!I~;\nE.:ll)tE.:ji§~®~~UI::AAl.Wf..&~f9lJ\n~®~iJ!~iJ!: 2) ~9UI:.!A!. iiE\nE.:l!X:li.:illi~®:¥:00UI:W.1lf\n:ttl!. ffii\"i2:~1-T-* t!dffll uem m: »..\n~f91J xr:J'if.i~ • .±~:ktt !;.( r i*l~,\n*~fi1l% :ttl!. ffii\"i2:~1-T-*~~UI:W.1lf -fili%12:~1-T-* ffl-1* ffl.J]}J\n*ffl-'1@~ JTh~q Ul:;\n$~12:~1-T-*ffl-~U\\:~711.&\niJ!:® --i~ttiJ!:~;\n~{91J\n-~'31 JlJ1JiSIJ:9JtlliU!:®\n$~i9:~1-T *~iffllUI::fR1lf\nI )*~lf!-$iS}J$~~o\n*~~BI!-~tt5 2) xf=i'ifi~ . .±~:kt£1;.( r\np;j~:\n-fl1f%*~:9Jfmut~~;\n*~~tl$ -f~%*~~friJ\\:~;\n:1j\\:~~1J:tj':lj!:tf:~U\\:~1!1lft..~fjlj\nlf!-:tf:~UI: -~'31 ,ilJ1JiSIJ:9Jflli~1JU\\:;\n-f$i9J~~;\n*\n-??$,~1lli1F;\n~ ~tl $!'(!$ 00 Ul:fR 1lf\n-~~$5£f:izo\n3) i)l!JU I:.!A!. iiE\n10",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "T/CAMET 04013.2- 2018\ni:l!IJiJ I: ~ff' J3!: tli\\3()(¥-i Wfi5f.li~J\nI ))Cr:f'ifi~ . .:E~*i:ft:).~I*J~:\n*~~.JUl~~* -fl'f%*m.:9J~UI:®;\n-fl'f%*m.iifrriA~;\n-~51 JfitJ?9HJJ~i:it~;\n*~*m\n*~ * m.lfX ~~I ,fn ~ ~ ilti?f qT i:l!~ -:Ytl :!f:i~H''ii;\nllX i'IUn\nUl: ~ tl1.& ~ fyij -fti;IJ~~;\n:2: 4\\1\\ iA i?f q.:y\n-'W:!f::.#-lltit?;\n-:Y'IJ$):£{.i/:o\n*~*mi!X ~Iii .t1l ~ ~UI:i?f q.:yjJ!~\n2)$$i;IJ$~~0\nUI:11H!J·\n3) jJ!jiJI:~ iiE\n0~1tT-.lt!!.OO I )Jtr:J'ifi~ •. :E~*i:ft;..(~fi;J~:\n-~~~UHhE.&l'iffJi)...;\n- fl'f% *m_xgq.:ym:~;\nE.:ll);E.:JN $~1&/:~:J.l;~~l;filt~~\n-ft?9J~:&;\n•Y!.$~~ m\n--1.1}$.#-lltit?;\nW;JUI: E.:lfXE.::iill~!~~-fflJ.!iljJ!~m:~\n-:Y'IJ$ JE ill. 0\n*~\n2) *~:Ytl $:il!:A.{t!J.~JG~f)(o\n1ill*1i:iill;k~~#!J.!il00ilt:tfi-'6- 3) jJ!tliJt~ iiE\n{t!J,~~ll*~* I) Jtr:J'ifi~ •. :E~*i:ft:).~fl;j~:\n-fi'f%*m.:~)j~iJI:!Ji;\n-fi1i% *m_xgqj'iJI:!Ji;\n$~1&/:~f.;~~ilt~~\n-~~~ ,jfitJZ9J:9J~jJ!tliJt;\nE.: II* E.: iN -fti91~~;\n~~~lit -~:!f ..~ lltit?;\n1iI I* B: :iilll/t.f ~ jJ!iJU l: ~-;[ .& ~ {9tj -:YrJ $):£ilL o\n2)1/t.f~~itS~iiEo\n3) *~:Ytl $:ill: A. 11!!.~~~ 0\nE.:K!i:iillf.f~jJ!~iJ.I:f&-'6- 4) jJ!tliJI:~ iiE\n11",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "T/CAMET 04013. 2- 2018\n001 iJ:t~fl\" £9: ~51: X~ if 1?1 f,5 ~J\n1) x~'i'li~ ,±.~~tl:~rP3~,\n*~-H~~~~\n-i1f~~~~iiE;\n-$$?1Ufi!:if!~;\n*~$~ CBTC iJ\\:J,g~-T~;tx -iHJHi'i-'% ~ ~ ~J !ThiJ\\~ ;\n-Jt{f~~{~.li5-%dtc.:J,g~-TiJ\\~;\n::!ill*::!iiili\n-~51 ,l~~~rw~iJ\\~;\n$$;It~ fill.~~-Utl~~\n-~il!J'&.-IX;\nif.lliJ\\\n::!i~::!iiili$$~~jj11j iJ\\~ trilX.. -f'~:!j:: ..~ lltf:Jf';\n-9tl$JE{lzo\n;t {91J\n2) ::!illX::!iiili$$~~~-jJ\\\ntt*X\n::!i~::!iiili~$~~~1Jtfll* 0\n3) ~~iJ\\.!A!. iiE\n2:n1Jtxgrroo\n::!i!IX::!iiili t)X~'ifi~;\n2:~1J\\j,gfi :J,gfit&ll(!ic~ 2) ::!i~::!iiili2:~1J\\~fi~*X\nc ) rm :t,m 191: ID: ~ ~ '$\" ~\nrm :t,m 191: :fit~ ~ '$\" ~ .:£ ~ -EI. ~ xt 7Ik -EI. 1llf < ~* n~~;, 1l lf ) ; f:~t 1iiz 1llf 8{] Jjj: ii1: , g *;,\nm\n~ ~ fJl!. '$\" ~ o *191: 1i£ tg fJl!. '$\" ~ § 115 : 191: ill: '1[-JllH,;t. ~tiL ;MJ , jjj: :Jlt tg :m!\ntiE , :>c 14 t£ ffltl , m1 !£. t=' :.& ili q'J gf 1? ~ f1l!. , :If' -EH~ t£ illtl , 191: :fit ic ~ , Be li~\n:m! LV. .& :$t -@.illf \"'*~ :m ! ~ ; $:. ~ tg fJl!. 'iti ~-§. 115 : !Ji. ~it ~tl ~liTh: , !Ji. ~ ~!1. t1UiS ;MJ ,\n~~:$t;ffrri5~ tff.Je;~ic~ ,~J!t£1fltJtgJ11! LV..&~~:t~HJII ~ o\n4. 4. 2 s~sJMgc~i!!!fi5±~3H1\n~-~~!Ji.~W~.:E~~M-EI.m~~!Ji.~W~I*:>cffl :\n-~~i,'JZ~if~IJ ;\n-:tm :I:JJ jjj: :!ii:!Ji. ~ 'iti ~ it~tl111H!i· ;\n-:tm~ij!rJiJt.W. iiEit~iJ11IH~r;\n-lt!$~$if.JiJt~~~;fX;\n-!Yf~iJ]iJt~~~;j:X;\n12",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "T/CAMET 04013.2-2018\n--ft~~~~$*A*~~~~~~~~~;\n--;t$$3$~~~~~~;\n--~~~~it$~~~~~~~~;\n--:zt;:~2~l~:i~Hr~~~~;z;\n--~~~~;tt~2~~~fj~~~.fj(;\n--ili~~~if11ifli.lff/iiE 45\n0\n4. 4. 3 11&*7H&1¥fiS\n~~~~*~~~-~:zt;:~~M~~-~T~*=\na) ~~~iffi~~X illi, ~lit~~:![ :iHi ~ ~~]!!, :zt;: ~~lit B>J:iffi ~il {i!!.\n~~]!!pq.§ ,;J:t[li]fb~' ,... ...~\n\\\nb)\n~~~~~~\n:Jmi:JJij!tl~ ,H\nc) ~~~jffi~~ o ~ ~!P.J{ill~f£3{:\"~]1!~\nPjnj*;f!Tf!i.Lff\"; ®:!!0'' ~~ !fi:~ ,~~~jffi~ Cl ~~\n~~~!/&& .~~~~.'![~ {i!!.~l*it* \"V1fi51:1~~-fl' %~~\nr\n~~Jill I 5fll m\\ :I;m ij!IJ ~ , J3. :iffi :11 § ~ _=: 1J ~ ~ if 115' ; 1f;'i :till ~\n£/F~ lit~~~;@ !fi:~ '~~~Jill~ Cl ~~~~Jill!/&~' {ill~\n$8/F~~~-~~~~,@~00~~~~~-£&o\nw\nd > ~ litJi!ifflf= £ ;Ji!im ~m ~~~ ~:91 m~ ~ ~£, *~1lff~ !P.I\nfi51J-~j\"'=£~_=:}J~~iffi5ii£&o\n13",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "\"*\nr:r l'iil-9it -m !fit llt x illi tJJ.% ~ tT> m\n·*~~~~ ¥~~-~~$ilift\n~it!J ~~( CBTC) 1i$;1i~.If¥~m\n~ 2 im*=~~l¥#1\nTICAMET 04013.2-2018\n*\nrr\n~~ill ti-l Jl!H±1HR 0 i'iJ ill J:&~rr\n( I00054,:ltJi01H!i~tK;fi3i:m.liW 8 ~)\n0i'i.J [Iii] :ttl:: http://www. tdpress. com\n:tt 3R ft JD. op JiliJ :rr ~ 0 i'i.l ~n lliiJ\n:ff:<fs:: 880 mm xI 230 mm 1/32 ~n'!!(: 0. 75 ~lf!c: 17 'f\nm\n2o19 :qo s JJ 1 J:& 2o19 &F 5 JJ m 1 ?XOf:JlliiJ\n-'B-l}: 15113 . 5710 )'Efft: 15.00 5G\nlt&~.llPJT~ ii~.ll~~\nfL~~~illJ:&OO.:f~, :!m:ff ~nff~JEJiiil:fiiJ~, il'I~:<fs:i~i'i.l:&:rr'Rill!X~ W.l~o\n~fr'Rillt!. i15: JIH021 )73174, $(010)51873174",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "UL\na\nBd\n市\n。 轨\ni\n, 交\n通\n1\n\n*\n于\n通\n信\n的\n列\n车\n运\n行\n控\n|\n, m\nSE\n' o\noo\n+\n2°\nez\nKK\n=e\nia\nx\nRm\n5d\n范\n第\n2\n部\n, 分\n安\n全\n评\n1&\n由\na\n铁\na\n出\n版\nit\n有\n151135710 x\n_ @#\n4: 15.00 元 nS\n\na a SS a",
+      "source_file": "T_CAMET 04013.2-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通工程规范第2部分 安全评估.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}

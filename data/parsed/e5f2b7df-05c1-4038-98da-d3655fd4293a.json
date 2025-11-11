@@ -1,0 +1,428 @@
+{
+  "doc_id": "e5f2b7df-05c1-4038-98da-d3655fd4293a",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ICS 45.0206\nSe we\nHe Ee] St ris i Te AS 3 Ps == Bl 1K x HE\nT/CAMET 04011.3— 2018\n城市轨道交通”基于通信的列车运行\n控制系统 ( CBTC ) 互联互通接口规范\n第3部分: 车载列车自动保护 (ATP ) /列车\n自动运行 (ATO) 系统与车辆的接口\nUrban rail transit 一 Interface specification for interoperability of\ncommunication based train control system\nPart 3: Interface between onboard Automatic Train Protection\n(ATP) & Automatic Train Operation (ATO) and vehicle\n\"2018-09-10 #75 2018-12-31 ”实施\n中国城市轨道交通协会 发 布",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 2,
+      "text": "T/CAMET 04011. 3一2018\n\nA 次\n前言 |||\n3 术语和缩略语 pe\n3. 1 术语 pp 2\n3.2 缩赂语 pp 3\n4总则 3\n5 功能接口 |\n.1 功能接口类型定义 3\n附录 AC 规范性附录) “与车辆功能接口特性参数 pe 37\nV",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": true,
+      "garbled_reason": "low_informative_ratio",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 3,
+      "text": "T/CAMET 04011. 3-2018\nT/CAMET 04011 {.#it$ ~Lit ;X:Ji ¥ -T :ij {~ 89 jtl $:IE fj 1£ 11i'J * ~\nr\n( CBTC) :!L~:!LJi~ D ~JI'JiD?tJg !;..( J\\.-1'-$71-:\n-~ 1 :g~:fr :!.ilZ~~HILt;\n2 $:fr:CBTC\n-~ *~$:it!!.:ii~Jiffit)}i)(;\n-~ 3 $:fr: $!tjtl$ § i;fj~tp ( ATP)/jtl$ § i;fJ:!Efj(ATO) *~\n.!3$m89~o ;\n-~ 4 $:fr: IR~t£11i'J~(ZC) i'BJ}~ D;\n-~ 5 :gi~:fr :itJHJL~Wi( CI) i'BJ~ D;\n-~ 6$71-:jtl$ § i;fJM{t:f£*~( ATS) IBJ~ D;\n-~ 7 $:fr :{~%il-r*~l:3;tt,P3tM=*~( MSS) i'BJ~ D;\n-~ 8 $:fr:$!tAtJLJI\\!-jiijo\n;;fs:$:fr~ T/CAMET 04011 89~ 3 S:fro\n;;fs:$:frf.t(Jrn GB/T 1.1-2009 ~:±l89~1.!i!U~1j!fo\n•~•*•*89~®~3~n~~~~.;;ts:S:fr89~~m~~~m\niJUJtl i!® \"W -*'1 89 }!( ff\no\n;;fs:$:fr~~~.#itrP~it;X:Jit)}~~#R*\"W~~~~-:±lo\n;;fs:fi:fr~~~~IP~i!X:JitJJ.~~D o\n;;fs:$:fr~:fi!:..qilli:::ltJ¥-~~Ji{~{*%1Vf~i9:it~~~~~&0~,X:t£f4\n~ftffi~~0~,~00-i!M~Wf~~-~~~0~Jiffiffi%1Vf~~,-~\n~$Btf\"tft'=c.ft1Jt~l1&0~ J41TiL~~f4~ftf)1~~~0~ ,~tJ¥-X:Ji::k~o\nm.:\n;;fs:fi:fr:E~~:fi!:A: ~~ 8 ~;ltiiJ, ff*.YL;j% ~5R, f.iJ :JG~, 3:. {1,\n*1WJ¥LIMSUML~::k!m,~$fm:,iWJI!W~,~titu~,:XlJ*~o ililf§:.ll:'*~~,\n*~ ,~~ ,~~~, 5-Ift%~, 5iE ~ ,.:Ellt4J.& ,5-I.Elffi~ ,f3i~'T ,::$~:>c ,::$tt\\~,\n:)CflX;:tt ,{f~ '**~' ~ -*'Jtl\" ,5{E~z SIJ~fo\nVII",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 4,
+      "text": "T/CAMET 04011.3-2018\n~I\n~§m~oo~*~m~w•~~~•#•~~m~m~w~•~w\n,tt;;¥:5\\Sm.&\ni':J<Jw~, :iE¥U~#F~ffl SiWl\\;tl;~ PTM=~2tmki¥J 13 ;fff-, ih'IJ~~\n(\n$$JLill~W¥rW f~B<J~tl $jgfi:J£il\\IJ -*~ CBTC) ~-~W-*~tl ffi-1*\n;fff-11L\n•-*~•m~M<~m~m~w ¥rWfflB<J~$jgfi:J£~-*~\n( CBTC) ~-~ W-* ~~.!t \"f[L) { ~ $ ~M ~ W ¥ r Wf 1g i¥J ~IJ $ jg fi :j£ il\\IJ\n-*~C CBTC)~-~Wtl D~.!tMH~$iiL:ilt~W ¥rW1i1Ht<J~tl:-!f::jg1'J\n:J£tM-* ~ ( CBTC) ~-~W ij!~iJt~.!tMH ~ $ ~:ilt~W ¥ rW 1~ 89 ~tl $\njg1'J:J£il\\IJ-*~CCBTC)~-~Wif.UW.mJ41-~Jtri1(171-$?f) o\nVIII",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 5,
+      "text": "T/CAMET 04011.3-2018\n~m~m~m a~m~~~*~ft\n1~iM ~~ft ( CBTC) 1i!l*1imfl D ~J\\!'W.\n~ 3 ~B 5.)- : $ ~ 91J $ ~ M 1* jp ( ATP) I 9tJ :$ ~ M\n~~T ( ATO) ~~ft !::J:$m~:ti D\nT/CAMET 04011 ~~ffoi'!\nATO\ni9:~J=j:$~Zft~tll:f.'.l!~\ns\n§t\n1~tiltrf~%B<J~::J: nn\n:<1s:$?t~Jflr ,=~~! ~ ( CBTC) -* tJE B<J ftiT\n~~L!J!ftf~ ~lHt :t~60''Iioe1~~ ~~{~% -*t1EB<:! -*tit\n2 ~ m:tt 51 JflJt i!f\nT ~u X flf xt r :<$: $ ?t B<J ill ffl :!! !16, .If' PJ :9 B<J o fL:!! 11 8 M B<J 51f fl X\n14 .tu9r11B M B<JJ:&:<1s:~m r:<1s:$?t o JL~.If'a aM B<Jsl mxf4 .Jtiiiftlf\n!:&:<$:( -EJ.MFJf~B9{~~-!f!.)~Jflr:L$:$?to\nGB/T 19666- 2005 ~li1t.Hilti;I<EE!.~t:!!~:ii!J!U\nGB/T 25119- 2010 $JI.:i1!3(JitJL:$:$~t:!!r~Ji(IEC 60571:2006,\nMOD)\nTB/T 1484 ;ffl:$:$~t:!!~\nTB/T 3153-2007 ~JmillffltJL:$:$~;{jj~~!J!~\nCJ/T 407- 2012 ~m$JI.:i1!3t.:ii~r:iimB<J~U:$ § i}fJ~ilitJ-*tit1t*\n~*\n1",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 6,
+      "text": "T/ CAMET 04011.3-2018\nCJ/T 407- 2012 !fj£~Jk \"FJ'tl #ift;f1lmi~i!~ffl r:zfs:$-0-o 7-J T\n1l r~ffl, k.J. \"'fm:j[J'tll±l T ;tt J:f ~ 3::~;f§*.#i! o\n3. 1 *i!t\n3. 1. 1\n$ti'litl D vehicle interface\n$~ ATP/A TO i9:4it-!:J1C~~W:ii4it~$iJizfBJ ~~D o\n[ CJ/ T 407- 2012 ,J£5( 7. 2]\n3. 1. 2\n~A. Wi.!% input signal\n83\n*~ $iJifHiltr~$~ ATP/ ATO ii4it~f~% o\n[ CJ/T 407-2012 ,]£5( 7. 2. 1]\n3. 1. 3\n~ ti:i f*.!% output signal\n83\n*~ $~ ATP/ ATO i.9:4itHHiltr~$iJi~f~% o\n[ CJ/ T 407- 2012 ,J£5( 7. 2. 2]\n3. 1.4\n:ti::'fmlj left side of the vehicle\nJ'tl $ill1 i: 1J (!i] ~ tc 1J!~ 7-1 $ mt c fYW o\n3. 1. 5\n;E''fmlj right side of the vehicle\nJ'tl $ ill 1i: 1J (!i] ~ ;{::1 tu 7-1 $ m ;{ ::1 1J!U o\n3. 1.6\n1i~ 1i1 1 interoperability\n~·~~m%r*$~ii4il~~$m~tr~4il~~m%r*~~ii\n4it~-~~m~~~-~~$•~m~~~-~~-~~1C~ma\n[T/CAMET 04010. 1 ,#itt 3. 1. 16]\n2",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 7,
+      "text": "T/CAMET 04011.3- 2018\n3. 2 ~l!l&i~\nBTM:Ji\\Z~$fHWi~!iUk:(Balise Transfer Module)\n4.1 ;/g{IEJlt!fJtlti:xJif~-'5-.*~$~ ATP/ATO i&t~~$~WLt.f8JB9:llft$\n·!i~1ii*'li ,:it¥U:£L!f*1iJi § B9, ;2fs:~~t[~;f$~ ATP/ ATO i&t~~~~:ft\nW:N~ B9 $Wi IBJ ~ D Jltq'J J£51.., §:J\\5~ D 1fj.\\~ ~ D ~J;t, 3f ~1$~\nATP/ ATO i&t~~~Urfl_ ,~~1fj.\\~Jttq'J 7 ~JR o\n4. 2 ;2fs:~t[l:j:l ,:9Jrm~ ot;f:m$~ ATP/ATO i&~~jtl$*iJI.*~,ifi!J\n~-*~~$Wi~~.*~Z~B<J~~~D o\n4. 3 ;2fs:~t[i:f:tJ1Al~~Dt~m$~ ATP/ATO .:EfJL$~Hffi~~'~i!ft\n~$ ,~~1fJJW:itf~~$,1JDi!ftf~~~ ,BTM 'JC~ ,$~7C~'JC~ B<JY:.\n~Drfi~~fBJ~ffl~~*o\n4. 4 ~tr:£L!I*:£LJi B<J~B!, $~f~ -'%1&~ !:f $ ~ll[ffi $ B<Jll[ffi~j.\\.&\n:w n-\n:J:t( til J£ )( , PJ VL 1* 1t: J:t( mY:. ~ 1:1I ~ ~ ~~ J£ 5t.. , tli ffi fir ~ ~ li[ ffi J£ 5t.. ,\n$~f~-'%1&~~ PIS ~)if~~ D.& 19J.i5l~E.:f¥M'-3&, Af*{EI~ID'! fsl:\n:itt qj' ~1 JE 0\n5. 1 J:}Jfj~:JlD~~:if:)(.\n~tr:Wfl~~ D ,;$:~~t[)E)( A~ ,B ~~ C ~ =f!!~~~o\ni± =**ffl:f:tfl!!.~lli!~ oli.\\\\;{tr ~=:f'P~lli!~ o :fl:::.FiliJ~:;J< .ar~;!kfi{[IVJJ3l::W:\nrr~~o\n5.1.1 A~:JlD\nA D ,Jt-A:ft IV.\n~~ ;/gfi'=f:~j.\\ -pj~m::\na ) tWi l±lf~ -'%\n$~ ATPIA TO i&t~tWi lfl1fj.\\§:J\\5m ~~fU!lu~ ~ E£!.3jl-4if,j l±l p;q~jt\n1i j.\\ , 3f Jl :ft tV. r J£ 5t..\n=\n1 ) ~'* ~ ~ ffi!lu~ 1i j.\\\n3",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 8,
+      "text": "T/ CAMET 04011. 3-2018\nm\n-1£i litJ 1~-'% -:t.J ~ ~ \" 1 \" , ~P t:g ~'~if Jf M -~ ffi 11 EJ;; '~if ffi\n1M!-~ ltfr Jf ; *• \" * *\n-1£i litJ 1~-'% -:t.J ~ o. . , ~P m t :g ~ '~if M ,r!R WT !l!Z ·rn· ffi\nti,r!R 11 o\nI~\n2 ) t:g .3f jj :it\n-1£11itH~-'%-:t.J~m\"l\"~~tlftrtl:l(.iljt:g.:if( ~DC 77 V);\n-1£ffitH~-'%-:t.J~~\"O\"~~tiltrtl:l{l£t:g.1JL( <DC 25 V) o\n3) ~~-ij:~*\nx;f -T ~~;X: iJUUtr tl:l {~-'% , ill* .F!H~ t:g ff '~if Jf fML~ , ~ $.14: \" 0 \"\nJ£)(1g~~19ltl 0\n~~;X:mtUtr:±~mt:g:HU~~~*•~fim~~-~•0\nb ) tUtr A f~-'% *\nm\n$ ~ A TP I ATO i&t *.$ . ;f7\\ ~ , ~ * ffl t:g ~ fM! ,r!R E);; {FL ~\nm *rn\nU.r!R 1~-'%, PJ t:g .lJZ-1~ -'5-o\nm\n1) t:gf.*M.r!R7Jj\\\nm\" m\n-1£ ittH~-'% -:t.J ~ 1 .. ~~ * • t:g :H -m· 3f M. r!R ffi il-EJ;;\n'~if ffi f&t<!R ltfr Jf ;\nm m\n-1£ ilitJ 1~-'% -:t.J ~ \"o\" ~~ *• t:g :H '~if Jf M, g WTJf EJ;;\n'~if ffi fM!J~ ffi 110\n2 ) t:g .1JL jj j\\\n-1£11itH~-'%-:t.J~m\"l \"~~tiltrAi% t:g.lJL( ~DC 77 V) ;\n-1£ffitH~-'%1J~~\"O\"~~tiltrA1!£Jtf( <DC 25 V)o\ni3: :~r~ffi-'=i~-~~~~~.¥!$:.!A!.I!I I o\n3) ~~ii~*\n~r~~;X:BMAmt:gUM~ffi-'%, $m~am2mM\n.r!R ,_§_u,g~* m- r-WJtli.MrJI.m t:g~; ;s:*m{)(am ' m\nfM!,g\n,!iltlill*ffl~~~WMii&B9ftH~~Jr:ito\nx;t-r~~~~;X:mtutr Am t:g:HfM!,g 1~-'%, *•ill af;Jt 1 tll.\nu.~o\n4",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 9,
+      "text": "T/ CAMET 04011.3-2018\n\"!\" ---------.---~E--.---\n\"0\" 1-------'----....::,--o------'\nov 25 v 77 v tt!.ffi(DC)\n5. 1. 2 B ~tiD\nB~~DJ!J..:frk-(~\n5.1.3 C ~tlD\nc~~DJ!J..:fl\n*=ffl\na) ~ D di11~@:\nb)\n:tn:.\\;\nc) C ~ ~ D JN fj§fti}i)CilJ 2:-\"\"\nm:cm\n2 ~)HM-To\n*~~n~o~tt••~*~m• Ao\n5. 1. 4 l}Jfi~tl05[.~,*\n- ~ -~T·A~~ft~D~~-~~*o\n*1 ~.A~l}J~tlD\nJ'f-% :mr:J~fj\\ ~~fi~}j( ~:S1J:l2l;ffl:mr:J 4ft a:\n:a\n1 ~;€,lji1J;IJ~~ ~~~m ~.!R,5.2.1\n:a\n2 ~tl:!f:iCJIH.:I:~~ ~~~ill! ~.!R. 5. 2. 2\n5",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 10,
+      "text": "T/ CAMET 04011. 3-2018\nff.g. ~D1l;f11; 3i:~f.£~;:j( Q:a'1-Jm.I'IH~ D 1ll tE\n3 :Yti $$fl~yjffi~;:5 3i:~*m ~ ~!A!. 5. 2.4\n4 ~~]f~m~;:5 3i:~;k~ ~ ~~ 5. 2.6\n3i:1itxm\n5 $$i~\"JI Btnl~~;:5 ~ ~!A!. 5. 2. 8\n1f !I;J -=F-tili !I;J ritr :&.. .3:.1£ -=F-tili\n6 3i:~~m ~ ~!A!. 5. 2. 10\n~Uz.~;$\n7 ~tJl1fii;J.=ftiliUz.N 3i:~:kl)t ~ ~~5.2.11\n8 :Yti$$flt't~~Jm 3i:~*m ~ ~!A!. 5. 2. 5\n9 9lJ$lfitli9Jt't~ 3i:~~m ~ ~!A!. 5. 2. 7\n10 :Yti $5fii!Jrfjlj-% 3i:~xm :i:l ~.!A!. 5. 2. 9\n11 $:i£ ATP/ATO ~Jm *~*~ ~ ~!A!. 5. 2. 13\n12 :YiJ$$f17f*t't~ ~~*~*m :.li!: ~!A!. 5.2. 3\n13 $f11£lfi!J~;r.tm:J:'i' ~~*~~lJJ! ~ ~!A!. 5.2. 14\n14 ~t/LAI:1fflfl1i-% ~~*~*m ~ ~!A!. 5. 2.15\n15 ~tlLAI*flffi-% ~~*~*m ~ ~!A!. 5. 2.16\n16 ~t/L.3:.1£-¥tiliUl..'i'1 ~~*~*m ~ ~!A!. 5. 2.12\n;± :~ D ~}fj\"~\" *if-~ D ilf*~I~~~ilJ:q'j-]2!;ffl, mffl \"~\" ~ D 89:ft;J 1-J\n~'~*fflii9~D o\nW 2 .2T•ili~~•mo~~·~~*o\nB 2 ~tf:H~xJ.l~1iO\n}f.f.} ~D~.tif!' *~f.£~;:j( :lil;i!i'1-JmJtJ~o 1ll tE\nI ~ ~-lfi!Ji 9rm ~ *~~i)l! ~ ~.!A!,5. 3. l\n2 :1ffl~~fi1f-% *~~m ~ ~!A!. 5. 3.4\n3 ~\"Jitnl~'i'ir.t~ *~*m ~ ~!A!. 5. 3. 5\n6",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 11,
+      "text": "T/CAMET 04011.3-2018\nif-'% t1HJ~~J\\ :ti:~f.t~:;:J( :lllo ~ yg :ilHH t.J € o ~ t1\n4 $:~ ATP/ ATO 7tl$:~~J.lfili% *~~m :lllo ~.!A!. 5. 3. 13\n5 ATO *51Jlt1Ji9.Jffi~ ~~:Ji':~~~ ~ ~.!,\\!. 5. 3.6\n6 ATO ~51Jlfltji9.J~UL ~~*~~~ ~ ~.!A!. 5. 3. 7\n•\n7 AM ~!)!t;gi;:r.\\:t/(~ ~~1<~~~ ~ ~.!A!. 5. 3. 8\n8 :Jffl:j-~~ ~~*~~t:JJ1 ~ ~.!,\\!.5.3.11\n9 :X: I'll~~ ~~1<~~~ ~ ~.!A!. 5. 3.12\n10 :fUtj(•ffi· ffl~J1J;/Jffi~ ~~*~~m ~ ~_!,11. 5. 3. 2\nII tt!~lfltJ;IJffi~ ~~*~-*m ~ ~_!,11. 5. 3. 3\n12 CM ~!J!t~~t'::~ ~~*~~- ~ ~_!,11. 5. 3. 9\n13 El ;trlJl· )g ~~1<~-*W! ~ ~.!,11.5.3. 10\n5. 2 ~.A.f~~\n5. 2. 1 ~ ~ :t!J i;IJ:jj;:~\n5. 2. 1. 1 tiiJmt\"i£ *ffl\n~~-ililJ~IP~~~~~~tirflojA{~~, itit D A ID!t~ D, #J'!:;:{f\n~ll\"\"f 2 #~~:\n-$iliJilff.JJil 1fj!Ji9J;\n'Et~-\n-$ili*Jilff.1Jil'Et~-1ttJZ9J\n0\n5. 2. 1. 2 ~~*fhl:\n~--i9J~~MDJ'!-1f~#rflojA~~.J'!.~~~~\"\"f:\n-r£1ttH~i~~~~\" 1 \"*ffi$iliJilff.:bll~~-1ttJZ9J;\n-t£1fj!J{~-~~~$ii:\"O\" *ffi$ili*Jilff.:bll ~~-1ttJi;IJ o\n'*\ni±: 2js:~J!Hi19=' ffr~)Cl;IJ~t.J€ 0 , EJI'i I!Jl :'h:ti:~~~t.J€ 0 , ;Jtftk*P'i I!Jl 8(] 1g ~IO:Ji':\n~~ltt.J€0 0\n5. 2. 2 9~$~fl1i:jj;:~\n5. 2. 2. 1 tiiJmt\"i£\nj lj $ 7tmtt~ ~ ~~ ~ ~ ilfrfloj A{~~, $ ~ ATPI ATO ii 4 ft~ jjllj iiJ\n7",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 12,
+      "text": "T/CAMET 04011.3- 2018\n:9U$ fG ~ tt-* ;/C Fo , ¥f ~ ~tu :±! ~ ~, fflij ;I]~~ o 1$: t§'HJ * ffl A ~ ~ 1::1 , 3f\n1!-:ff:tmT 2 ;fll~~:\n-:9tl$%~tt:ff~;\n-:9tl$%~ttx~o\n5. 2. 2. 2 -m~~~\n~$%~ttt& •• 1::11t-:ffM;fll·A~~.A~~~~T: •\n-~fflij{tf%J;J~Jt\" I \"*1f-:9tl$jG~f.f:ff~;\n-~ffliJfg%J;J~m\"o\"*7f-:9tl$%~·~:X~o\n5. 2. 3 91J$$fl1f~t*:~\n5. 2. 3. 1 tiiJ#Ii~\n:9U$$f17f*.~~;li!:-A{tf% ,JfJT:9U$$f17f,*.~~o 1$:}~ IJ*\nffl A ~-1::1:/J:r.\\;,.:ffA:ff:tmT 2 ;fll~~:\n-~$:9tl$$fl~iS~T-*.I::a:J~~;\n-:ff:91J$$fl*~T*.I;a'J~~o\n~: ;;jl::{119f~5( 89~U $$ n *~~~~-E! ~ii.l tJL~ n ~~ o :!m'iffi'-E! ~. iil:tEillil\n~Jl'l31: :i1t fj ~ ~\n0\n5. 2. 3. 2 m.!i5-~~\n~$$f17f*.~~A:ffM;fll·A~~.A~~~~T:\n-~ffliHtf%J;J~m\" 1 \"*7f-~$:9tl$$fl~iS~T-*.I;a'J~~;\n*7f-\n-~ ffliHtf% J;J ~$It\" o\" :ff :9tl $$ 1'1 * ~ .Y .* ffi ~ ~ o\n5. 2. 4 9tl$$fli.di~t*:~\n5. 2. 4.1 tiiJ#Ii~\n~$$flmffi~~;li!:~~$$f1.*ffiFo~mffi~~o ~$$flmffi\n~ ~ ;li!: ~~ *.il!. A {tf% , ;f# $ ~ AT P I ATO i&t 4& t& ~jW itl :9U$ $ fl 7f' ~\nT-MM~mffi~~.¥f~Sffi~~~~~~o i$:• 1J*fflA ~-IJ:/J\n:r.t ,.:ffA:ff~llT 2 ;fll~~:\n-~$:9tl$$fl~~T\"l.Y.!ffi~~;\nn\n-:ff:9u$ $ *~ .:rmffi ~~ o\n~ff-~$fl~~rr7f7f*.~.:rft~~~~.*•~•:±l~~•\n8",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 13,
+      "text": "TICAMET 04011.3-2018\n\":9tl$$f1*&1T-f!J!~~~\"\n0\n*&1~~~~~$$flf!J!~~~~~~~m•n~~o ~~~~.\nEJ{£I~M'~:itHT~~o\n5. 2. 4. 2 ffi~!tHiE\n~$$flf!J!~~~-~~~-A~~.A~~~~~:\n-t£fliiJ1~-'%7g~~\" 1 \"7&7F~'fflS:Ytl$$f1~~&1T-iJil?fl~~;\n• n\n-ts::flt~ffJ-'% 1g~~ \"o\" 7&7F~:9tl :$!~ *&1T-flilffi ~~ o\n5. 2. 5 ~tl$$fl:t*:~~Jm\n5. 2. 5. 1 ji IJiai~\n**\nn\n:9tl :1* ~~ ~~!fi ~111M*~~\n-'%o ~~~=~** m A~~ ,\n*\nn ..__,_,. ...\n-:Ytl ~ .~~.\nn\n:9tl :$:$ :1* ~~lilT-~~\n-t£fliiJ1~-'%7g~ 7f:k&1r~~:l*~;\n)~~~~~~7f:k&1T~~~~:l*~o\n5. 2. 6 ig!Jt~~iiS:t*:~\n5. 2. 6. 1 fiiJiai~\n~~-11&ffl:l*~~!Ji~:kli.A1~-'%.~~Q*ffl A ~~Q ,#-A\n~:tmr- 2 ~:I*~=\nm m\n-~ ~. ~ T-11& f.5 :1* ~ ~ :$ ~ A TP I A TO i1it 1l ~ ~ :$ fA;!& f~\n-'%~T-11&f.S:l*~;\n.m\n-~ ~-&1 T-11&f.StfiH~ :1* ~.13. :$ ~ ATP I ATO i'i[ 1l ~ ~ :$ mW\n~f~-'%~T-~m~~:l*~o\n5. 2. 6. 2 ffi~*¥~\n•••11&m~~-~~~•A:l*~.•~~~~~ =\n9",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 14,
+      "text": "T/ CAMET 04011.3- 2018\n-t£ffjtlf~i-%:19:~Z:m\" 1 \"~~~!J9!~~r~ffl:{j(~~$~ ATP/ ATO\n~*~~m$m~~ffi-%~r~ffl:{j(~;\n- t£ffitJ ffi-% :19 :~Z m \" o. . ~ ~ ~ !J9! :¥: ~ :r ~ mw f l1i :{j( ~ 13.$ ~\nATP/ ATO ij:tr 1¥1 £&m$m4!A~f~-'%~r~ffl:tf&~j!j :{j(~ o\n$mMW~m~~!J9!:¥:~~~~~fflo\n5. 2. 7 91J$$tJ~~~\n•\n5.2.7.1 tlDtaii£\n*=ffl\nYU$ffitJ~:{j(~;;!i!:~~3CiJHDtr A fg.J;}, W:~ Cl A lli! ~ Cl , Jt-~:ff\n~IJ\"'f 2 #:{j(~ :\n-$Wi*lilli::bo1~iH~ffitJ?9J 3~~1M~ ,-M· fflffitJ;~J ,:&7c'lit fflffitJ;~J ,·~w\nffjtj ?;IJ;f'll ~ %], ffjtj ?9J 'fl ~{f~-#;\nm ,:Ai*-m· m\n-$mWM=i!itJ ~, ~~ffitJ ~,'lit i!itJ? 9J flilJ; tJ ,·~Jt ffi-tJ ?915 f11\n~%!, i!itJ;~J, ?IIY:ff - # Blilli::bo o\n5. 2. 7. 2 ffi-5*-¥~\n~*~;~J:{j(~~cr~:ffm#•A:{j(~.~~~~~r=\nm\" w\n-:{j( *~ 1 ~% :1g :~Z 1 .. ~ ~ * m M= ffitJ; tJ , ~ 1'&. ffitJ~ , 'lit m ffiiJ ?9J ,\n{!{ -m· ffl i!itJ; tJ , ·~it i!itJ ~ ~ ~ %J, i!itJ~ ~ :bo ;\nm\n-:{j(~f~%:1g:~Zm \"O\" ~~ *mWM=i!itJ ~, ~~ffitJ ~,'lit ffl1J ~,\n:/:& 7c 1t1· ffl flilJ ;tJ , ·~it ffiiJ ;tJ lll ~ %J, fljlj ?9J * Jilli: :boo\n5. 2. 8 $*¥Ji~siE.tJJM;:tt~\n5. 2. 8. 1 tlDtaii£\n$m~iJIB-IJ.J~:{j(~~1<~3C~-A{~%,m~Cl*ffl A lli!~Cl ,\nJt-A :ff ~o \"'f 2 f11 :{j( ~ :\n-$m~iJIB-IJ.J~;\n-$m~iJI*-IJ.JI~o\n5. 2. 8. 2 ffi-5*-¥~\n$m~iJI B-IJ.J~:{j(~t~ cr ~:ffmf1,•A:{j(~ .Ai*~~~a\"'f:\n-J£flilJ1~%:1g:~Z$4:\" 1 .. ~~*m~iJI-IJ.J~;\n-t£ffi-tJ1~-%:1g:~Zm \"o\" ~~*m~ 51* -IJ.J~\n0\n10",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 15,
+      "text": "T/ CAMET 04011.3- 2018\n5. 2. 9 9lJ$~~J.lffii5-\n5. 2. 9. 1 tiDtit~\n9tl:!j::$~lt{§%£$:~:*lJUDtrA{§%, it~ D 31U'I'1 A lli!~ D ,;t-t.J'!\n::fr :t.m ~ 2 ~ :{?( ;:$ :\n-9tl:!j::~l.H=:$~lt:{7(1$;\n• - 9tl :!j::&1 r ~PI~lt :{?( 1$ o\n5. 2. 9. 2 i~i5-~U£\n~:!j::*~lt~%~DJ'!-::fr~#MA:{j(;:$,J'!-~~~~~ :\n-:j'QJ#tJfili%17~*~\" 1, *~9tl:!j::&1-=f~~)t:{j(;:$;\n-:J'QJ#tJ f~% 11~*~ \"O\" *~9tl :!j::&1-=f~l=~~lt:{7(1$ o\n5. 2. 10 ]Jic:J.\":f;fjljic:JWJN..±~.\":f;fjlj~fft:IX~\n5.2. 10.1 tiDtit~\nn~fm~~~~t£fm~w:{f(~£$:~:JemMA~%,tt~o*\nffl A lli! ~ D , ;t-j:J'!-::fj ~D ~ 2 # :{j( ;:$:\n-n~fm~~H~t£fm~f.li~fLJ:!fZfL;\n-n~fm~WIH~t£fm~m~#~!1ZfLo\n5. 2. 10. 2 i~i5-~U£\nn~fm~~~~t£fm$w:{j(1$A~~#MA:{j(~,A~~~\n~D~:\n-t£J#tJfili%17~•\" 1, *~n~ fm ~~ H~t£fm~f.li~fLJ:\n5. 2. 11 ~HJL:1Jic:J.\":f;fjljfft:i:\n5.2. 11.1 tiDHQ\"j£\nmmn~fmmft£~~:JC••A~%,.~o*m3mAID!~\nD , :fr j}lj j] :\na) ~~fii~}:Ii; D;\nb) ~.5111~~0 ;\n11",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 16,
+      "text": "T/ CAMET 04011.3- 2018\nc) )r[t]~{}Lmffit~ Do\n5.2.11.2 m-9*-fU£\n:tr rtJ rtJ 1itr 1}1: , rtJ Fo 1}1: m ff i ~ o l!l :tr rtJ ~ mm ff i ~ o ril ~ , Jt-1* ~ :x. .!A!.\n*\n3o\n1fl\"l (olJTltrm~~ r=~ 1floJIOJFnm~~r=~ 1fiDJ~1Jlm~~r=~ i'il mn (o;J -¥Wi11Ln\nI 0 0 10Jiltr1Jr\n0 I 0 IOJFnUI.\n0 0 I $&\n~ 1 :I *~:J£ffltH~-'%1.J~~\"I\" ;0 *~'l£ffltJm~1.J~$l\"O\" o\n~ 2: ~~_till-@-~7~ ,Jl;~!1f.-@-;k_,¥:ltg1.J$1!J1.ilio\n5. 2. 12 ~m.:t:J~-=F~f.!l:.ii\n5.2.12.1 tliJfit~\nm\nISJ .3::1£ -=f.fp3 UL N JHUtr A{~-'% , it:~ D ~ ~?:Jfl A ~ t~ D Jr ~ , i:!1 PI\n*Jfl\nC ~~DJr~o\na) :xt r C ~ t~ D }J ~ , illi i1 ,t,H~ illi {~ ~ 1& ISJ m .3 :: 1£ -=¥-WH}L fl 1~\nAoA~PJ8.!A!.(~~*·*·i£~~~--~~-mCM2\nJl&)}o\n*=ffl\nb) A~~ D}J~ ,:ii!li12 ~il A~~ D :i!HrtfitrA ,5H1lJ'-.I:\no;\n-i!f'311}l:Nmffit~\no;\n-ffi1J7;1J1}1:!1mffi~\n- .3::1£ ~ {}L {}L .ft 1~ ffi t~ D o\n5. 2. 12. 2 m-9*-fU£\n2f 51m ft:&ffi~ o , i!itJ 7;1Jf}L.'ii:mffit~ o l!l.:Er£~Ui: mJ!m ffi~ o ril\n~ ,J!.{*~)(_JA!,* 4o\n12",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 17,
+      "text": "T/CAMET 04011.3- 2018\n.:t:J£~t'I\n~51tti'1:mff-mr::~ lfiiJ~ttttmff-m r::1 i'i.lfJI..:E:IQ\"'f-:filit'IN\ntt:ztmff-mr::~\nI 0 0 ~51&\n0 l 0 lfiiJ~&\n• 0 0 I ~lli\n~ 1: I ~ff-:j£lfi1Jflli~:1-J~m\" I\" ;0 ~~:j£ffjtJ{Jli%:1-J~4W'O\" o\n~ z = 1~1< JV.J:mil-t:J 7-r:Jt~mii-ft:.* :~t;J :1-JMc 11.l:ili o\n$~ ATP/ ATO ~~~\no ·*Jt.:1r:~or 2 #\n-$~ATP\n-$~ ATP\n~: $~-lQ:.'lUH~ ATP/ ATO i5!:*~lltl7fft:.o ·it7fft:.:(:E~=f\" ~ ~~f.!i\" {ft:'&B1,\nWf7f:!jo~l\\ ATP/ATO iQ:4k!3:$~f8]!9f:ff A ~mr::1 o .$~1.ili:M~~7fft:.*l&-):£3i:~\n~tJ!'f'FI'~o\n5. 2. 14 $fl~:ttJm~~~\n5.2.*14 .1 tlDtiiiii * *\nn :fl 1li1J ;t;t j\\ :illi 3f :liU1ftr A 1~% , w: ~ o m 3 m A ~ ~ o ,\njJIJ 1J :\n- F-1 i9J7ffl/ 13 iYl*fl:illiilli~ 0 ;\n-§i9J7ffl!AI*fl:illiilli~O;\n-AI7ff1; AI*I'l:illiilli~ o o\n13",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 18,
+      "text": "L./l:VW.:3L. OPOll' £-ZOL8\n9' z· lv' l ~*.g.~n\n~ @fl:lL !~ @¥Uf¥fF!~ 1 t '~@fI: lL IYI¥Uf¥fF!~ 1t lfiY I\nfI: lL IYI¥Uf¥fF!~ 1 t~31~ 'fJ$~'S!iY1:¥ ~ o\n.9 $U~B~¥~-f!D~i%~N\nl;:l~ff±JL;ji!.{f l;:l~ff±JLIYI Y lf±U IY I :t :u :1$$1[\n~Uf¥fiU:ij[ ~U.WrriI:if?j[ ~u.w:mr~j( .ti'Xf\"\\:.Woft •\nI 0 0 f;llfff±JL;~~r~u\n0 I 0 l;l~ff±JLI Yl~U\n0 0 I Y lf±JL ; Y l£?U\n!lUii' l'flllQ;fU'f\"\\:\nff: 1:1 *~:fi!i$~H~ti?C~tJ1, 1\" !o *~:fi!itiH¥ti?C~itt,o ..\n0\nff: z:WIJQ;~f\"\\:L::. 'J3~ V.Jd/V.JO t}!{*~~.!f'J3 JL f!i'illYif± JL/ Y lk?\" U\n~f\"\\:0\n9· z· L9 .g( ~f1YI fHL~*.g.\n9' l' l9'l f!Df!~\n.g(iJJ'Yif±J.H~%W~...!fY}~-%'~~DE*{l! v @~Di!.~'-14.!:!1\n* flE J lli :f!? Jt =ti¥\n0\n~< ~~-£. J @~D=tf.~'fF!P'~f~l~fF!}~~p~.g(iJJ'Yif±lL}~·~o fI\n$! !l~ JYi'}~;a1::;3~~~fJi:$lf ~~~f'YJM.W~wW )~ z liN<< o\nq < * & v 181 :f!? o = ts~ r~n:;r: z ~31 v ffHf{ o :mr-£ ~-..! Iv '* snr ;r c:\n-.g[ffl'Yifl:t?~H lL}~% ~\n-.g[ ffl'YI fI: tE ~![ U J~-% o\nf±U:m-9ttcJ!fuf#:J¥~ 'ff.snr ;rc :\n-Yif±UcJ!~ ':¥~Yif±lL}l;1%~W ~\n-Yifl:lLfg~ ':¥~Yifl:lL}l;itf-fto:~~ o\n9· z· L9'Z ~i%<f:H!3\n.g [ffl'YI fl: t? ~I[ U }~ %flcJ! iuf #~-..!I Y : 1¥~ 'fH t~'SI ~u ..J :\nTP",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 19,
+      "text": "T/CAMET 04011.3-2018\n-t£ff;iJfi'f-'%7g~$]t\" 1 \"J:f:t-3=~-~Bt IBJ, ;fk?F P.l tJLAITFtr.iJ!tl fl\n:ff~&;\n-t£f f;fJ fl'f-'% 7g ~ $]t \"0\" ;ti:~ PJ tJLAITF tr.iJ!IJ fl x~ o\nP.ltJLAI7f~Mflffl-'%A:ff~~-A~~.A~~~~~ :\n-t£ff;iJfi'f-'%7g~~\" 1 \":fft-3=~-f;I:B;j'IBJ, ;ff?FP.JtJLAifftiiJ!IJ fl\n;ff~;\n-t£f f;fJ fl'f-'% 7g ~ ~]t \"o\" ;fk?F PJ tJLAITF ~ tiJ fl x~ o\nit :f*%fii~~M'~B;ffB]ifi~~.M!!illf fli~JEo\n5. 2. 16 PJ :fJ!.AI~ flf~~\n5.2. 16.1 tiiJ#/ii£\nP.ltJLAI*.flfi'f-'%~-A fl'f-'%, W:tl D 1r*=ffl A ~jl D }J;rt, ifL PI\n*ffl C ~jl D 1J:rto\na) :X;j'-T c ~18: D 1J:rt ,Jmu,~,~iifl'ftt<t&P.JtJLAITF flfl'fJil- A\n0\n~PJ$JN,{~!WL$m$~t£ff;iJ~MH&mif~)~H!i'.111C~ 2 Ji&)>o\nb) *ffl A ~18: D }J;rt, Ji:i:1 2 g_Ei A ~}~ D *~1'-A ,]tjjtl7g:\n- P.ltJLAI*.tr.ttlflfi'f-'%;\n-P.l fl o\ntJLAI*.~iY!IJ f~-'%\n.JtJJrJ7g:\n*.fltli4-A:ff~~~~\n-AI*.fTfi~~;\n-AI*.flx~~o\n5. 2. 16. 2 m~~UE\nP.ltJLAI*.tr.Mflffl-'%A:ff~~-A~~.A~~~~~:\n-t£ff;iJfi'f-'%7g~~\" 1\" :fft-3=~-f;I:B;j' IBJ, ;fk?F P.l fJLAI *.tr.f9!1J fl\n:ff~;\n-t£ff;iJf§-'%7g~~\"O\" ;fk?F P.l tJLAI*.tr.iY!IJ flx~~ o\nP.ltJLAI*.~Mflffl-'%A:ff~~-A~~.A~~~~~:\n-t£ff;iJf§-'%7g~~\" 1 \":fft-3=~-~Bti'BJ, ;ff?FPJ tJLAI*.~iY!IJ f1\n:ff~~;\n-t£ff;iHJ'f flx5&o\n-'%7g~~]t\"O\" ;ff?FP.JtJLAI*.~fY!tl\n15",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 20,
+      "text": "T/ CAMET 04011.3-2018\n5. 3 .tf:H~.!i5-\n5. 3. 1 ~iia:tUMffi~\n5.3.1.1 lj]fm~.>l.\n~~.ffltJ;t.Jm~~:1i:~~i}Uiftr o':l:l f~%, ~~ 1J *=ffl A~}~ D, :1f:fJ.:ff\n~or 2 ~~~=\n-~~,ffitJ;t.J»mno;\n-~ ~. tM $1 *nm1Jo o\no x-t mz\n~~ ~ r:9J~~~* =\na) $~f:E~L15c¥U ~ ~. ffitJ ;t.Jm~ J5 ,mz.rr. en rA~i' ~~Jill ;tJ;\nb) $~:(:£Jtt~i' ~~. itJlJ ;f) B9 [l:lJ Bt llitJJ ~~51 ;f.JJ:J;\nm ,\nc) $ lt A TPI A TO ~ 1\\-.§.'it. o':l:l ~ ~. ffjtJ ;f) ~ ®'[ :(:£ ~U Wf ~tl $ B\nW$:1ff:EM:&~~M;t.J~~M~J5 .~Rll!:fi~~M;t.Jm~B9\nw~;\nd) ~ ~. ffltJ ;fJ ifli~ ~ iilH~VF ft. ilf $~:it!: ~i' ~ ~. ffltJ ;tJ 89 ~ f1il , $ ~ :(:£\n:it!:~,.~~. ffjtJ ;f.J~flilJE~~~tJ.t.~i'~ 51;\ne) $lt ATP/ ATO ~1\\tE'JY!Mf~~r, ~~. 1b9J;t.Jm~~ 1J ~T ~\n~,ffjtJ;f.J~~o\nl± 1 : ~ ~. fl~J ;IJ JJ;:Ulf! : ~ ~-lti1J ;/J * r:l3 jtl $ 3i: 3t @I ~ 9<: ~ fft!t. :5/: o 3i: 3t [OJ ~ 9<: ~ Fo , l!JIJ\ni9J~ Hie i*l 'ffll ~k'.llltJ iYJ~ ~ AAJ9<: ~. 11:1 !tt7ili liij t¥~tt:Wi~.Qm Eli.JJ rr~~:iill ill\"\"' m AAJ. 4,\nmAAJmB~®¥WiB7ililli.7J.Wffi$00~8-~ffi.7J~¥a•~-~o\nl± 2 : ~ :Q, fli1J 7JIJ ~ fuU~· {4 : ~ ~-l!JIJ 7JIJ 00 ti .il't:c~'H4 Sl Ul: Fn <: !m~ ~-ffiiJ ~ m ffi ~ U1:\n~). 3i:3t @!~~{}~ 1\\!P ~if'. ~il!AAJ~~f'!!.fi$i/i~~Fo 1\\!PiiJ~ffjlf. ~~J~J;IJ o\n5. 3. 1. 2 m.!i5-*-fU£\n~•M;t.Jm~J?J.:ffM~•tl:l~~.JJ..~~~~r=\n-:flitJlJf~%11~•\" 1 \"*-7F~~-1fllJ;t.Jm~rr&~;\n-1Q itJlJ 1~% 11 ~ • \"o, *-1F ~ ~. ffltJ; tJ m~ o\n5. 3. 2 ~:k'.%JflittJMtlii~\n5. 3. 2. *1 1'iJJii~ *\n*\nw:\n:& -m-ffltM $1m~~ • tl:l 1~% , ~ o ffl A ~ t:& o , JJ.. :ff ~or\n16",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 21,
+      "text": "T/CAMET 04011.3-2018\nWJ#~~ :\n- :liljc1Jt ffl i!itJ iYJMJ!::IJU;\n- :lll7c1it ffl i!itJ iY1 *ME:bu\no\n5. 3. 2. 2 ffi~~~\nD7c-m-m~iYJm~~oA~WJ#•m~~.A~~~~~=\n-~i!itH~%.1'l~m\" 1\" i1VR:lil7c1it ffli!itJiYl*Mi!::IJU;\n-~i!itJ1~%.1'l~m \"o\" *1Flil7c1it mi!itJiYJME:IJu\n0\n5. 3. 3 'I*~$1Jf;.IJ~~~\n5. 3. 3. 1 tJom~\n3!0~:\n-~i!itH~%/'~, -\n-~i!itH~%.1'1\n5. 3. 4 7fflf~flliffi~\n5. 3. 4. 1 tlDnQ~\n7ff1{9!~~f~.!i}jg1(~:Jem• ilif~%, W:~ D *ffl2 ~ll A~~ D ,:)t\n~ljjg:\na) tr: {Y!IJ 7 *f n 19! ~~ ;\nb ) :fi' fY!tl n 19! ~~ o\n7ff119!~~f~%A~Wil#~~ ,?t~IJ.1..7 :\n- ftif7fi'l;\n-~J.1:7fflo\n5. 3. 4. 2 f*~~~\ntr:ru7fn19!nA~WJ#•m~~.A~~~~~=\n-~ijjtJf~ %.1'1~$!1:\" 1 \"*1Fti:fY!tl7f f1 if PI;\n17",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 22,
+      "text": "T/CAMET 04011.3-2018\n-F-lffitJ 1~% :JJ~m \"o, ~7F tr. iJ!~ 3f n i.lfnr *~715 o\n~M3ffl~RA~~#ffiili~~.A~~~~~=\n-1£ffiiJf~%:JJ~ltt\"I \"~jF;{jiJliJ3*ffl i.lf1'iJ;\nn\n-F-lffitJ 1~% :JJ ~m .. o, ~ffi 15 iJ!~ i.lf nr *~715 o\n5. 3. 5 ~51tJJM<~I:i~\n5. 3. 5. 1 1l1J!ii£\n~ 51·11JI~:Jit~;lik~~5ctiffi ili {~%, $ fi~ ATP/ ATO i&tfktl:ffi ,'fl ~IJ\n$f13fflf5J!H~U~ r:J:t .~ffi .':l:l~f~%, fl]j .il:.~tl$t£3ff1WJIBJ~J$o ~~ [:]\n*=ffl [:]\nA ~t~ ,;Jt-A~~ll~~f!P~~ :\n-~51tJJf~;\n-~iJitJJI~tit£~o\nit :iE2fn ATP/ATO i&1:4l\\-;(:E~'f~~m5:\\T .~ 91 {J]~:m~~ D ~'f~ 91 {]]~\n5. 3. 5. 2 i~~~ti£\n~51~fm=m~~ QA~~f!Pffiili~~ .A~:@~:tm~\n=\n-1£ffiiJf~i%:h~~·\" l \"~JF~ 51t JJ[~:Jt&~;\n-1£ ffilJ 1~% :JJ ~ m .. o, ~7F ~51 tJJ ~~ o\n5. 3. 6 ATO ~51/iMi;IJ~I:i~\n5. 3. 6. 1 1l1J!ii£\nATO ~511$fji9J:Jit~£4tu.':l:lf~%.~~[:]1[*ffl C ~}~r:J:/Jj\\,t!LI'iJ\n*\nffl A lli! t~ [:] jJ :it o\na) ~;j r C ~ t~ [:] 1J j\\ , jffi Ji ,~J&~ jffi {~ :J1t jF ~ JW $ ~ AT PI AT O i&t\n·~~o A~I'iJ#~(~~$-$8~~~~--~*mM\n(~ 2Wj)}o\n* m\nb ) ffl A lli! ~ [:] jJ j\\ , iffi i1: 2 A ~ t~ [:] :iJH:Y tWi :tl , :5t §}IJ 1g :\n-~51:Jit~~[:J ;\n-ffiiJ~J:Jit~~ [:]\n0\n!$<: 2 ~..13. A ~ t~ [:] jffi Jim if , :5t J}IJ )(if J.iiL 1m f!P ~ j\\ :\n-ffjlJ~J~:it. ,ATO 1f(i~$-:ilt:AffitJi9JIOJI.;\n18",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 23,
+      "text": "T/ CAMET 04011.3-2018\n-~51-mj.\\: ,ATO itl4'$ti'J3:it!A~51I&;\n-tlH-T.mj.\\ ,ATO itl4'$m:it!:A ~1-TI&;\n-x~:!{:il\\~ ,ATO $:~~~ D $:~o\n5. 3. 6. 2 f~~*f~.iE\nATO ~ 51/ffitj~ilf>.IU~ D Jl:ff IIY#~ ttl:il\\~ ,Jlf*JES<.!A!.~ 6o\n*\n6 ATO ~sllit!Jz;lri11n~1ir::Jm~*¥ID:\n~911Ji14-~D jjj1JZ9.J1Jii~~D ATO ~911lt.iJZ9.J1Jii4-;Jt43:.\\:\nxJ&m:a:\n1 1\n0 I jjj1JZ9.JfM3:.1:\ntrH-=rm:a:\n0 0\nI 0 ~91~~\n)3: 1: I *~t£Jlj1J1i'f%:1<J~$~\" 1\" ;0 *~t£Jlj1J1i'f%:1<J~$:l:\"O\" o\nit 2: i±X~ti::~T, :!f-Wil'§:ftiJljlJ i;JJfM3:.\\:~JJR.\n5. 3. 7 ATO ~51/ittli';IJ~f.!l:\n5.3.7. 1 1ir::Jtiil~\nATO ~51 /jfrlj i;IJ m_ {.iL:Jik~ ili {~%, W:~ D 10lUI'I C ID! ~ D 1f j.\\, ill 1lT\n*\n)fJ B ID! ~ D )j j.\\ o ~ D ~ ATO ~51 /ffjtj i9J fEi 4- ~Jl if , JfJ T ATO x;f ~U $\n1¥1 ~ lJle 1£ ffjtj\n0\nxt:r c w~ o:1fj.\\, m~$m:fl{ ftHJtiEilitli9J$~*sl $:it!1i1£1frlL\nJlf*llT ~ !A!.Ooc$Jt$m$~1£1frlJ ~~-M&i~H!z':i!~Jll.m: Cm 2 Jl&) >\" P i¥1~Jil.JEo\n*Jfl\nB ID!~ D )fj.\\ ,:im:UE£!.1fli:Pf!:f E£!.1fli::k;J'~~ ~lW~i51$/jfrlji9J$o\n5. 3. 7. 2 B ~1ir::lf~~*fffi:\nB ID!~ D {~%t#{iEJlf*~lf'F:\na) ATO *slli!itl~fE14':7g1~JZ}IJ,mj.\\\nE£!.1M:Pf \"PEg 1fli::k;J' Ul.oor) ~~ffitj~$ ,Jlf*x;fB iZ**~IJr:\n1) /Loop <4 mA,X~ttl:il\\~,$m:fl{ft~ffitj~$:7g 0 ~ilio\n2) 4 rnA ~I Loop ~ 18 rnA ' $ m :i j'( ft~ ~ ·11 tt f9tl ~ ili jfr!J i9J $ ' $ m\ntiJtriliffitJZ}IJ$ L2:fl{0j.\\(l)~~:\n19",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 24,
+      "text": "T/ CAMET 04011.3-2018\nI -4\nLz = Loop X ft :Jc ~· ffl iiJtJ' i;IJ $\n14\n........................ (1)\ns:I:!:f:\nLz-tt:m~lliiiJtJ'i;IJ$;\nI Loop- It!, 7At:Jc;J\\I¥JI/&{i[ ,i(!{}Ijg~gc (rnA) ;\nl/&::f:4 jgft;J\\;ff~lt!,7At(4 rnA) ,1/&::f: 14 jg;ff~~lt7Attr100(18 rnA -\n4 rnA)\n3) 18 rnA </Loop~20 rnA,:!i==mttcmtl-ll:fc'litfflilltJ'i;IJ$~tl:lo\n4) /Loop >20 rnA,$mttcfff!ft:fc~·ffli1JtJ'i;IJ$~l:f:lo\nb) ATO ~iJI!iiJtJ'i;IJm4-jg~iJI~it\nIt titf.f !:fit 7At:fc;J\\ (/Loop)*~~ iJI$ , ~-f*x;f ElZ.7R-*~DT:\n1) /Loop <4 rnA .x~ lli :jj;:~, tt:m:JJc ~~iJI $jg 0 ~ tl:l o\n2) 4 rnA~/Loop ~ 18 rnA,:!i==m:JJcffH~tl: ttf9iJ~ tl:l ~ iJI $ , tt:m\n~ lli ~ iJI$ LQ:JJ(i~s:.\\; (2) 1*~:\nI - 4\nL = Loop X Jt jc ~ iJ I$\n14\nQ\n........................ (2)\nit!:f:\nLQ-:!i==m~ lli ~ iJ I$;\n/Loop- It!, »it:fc;j\\ I¥JI/&{j[, (rnA) o\nif!{fLj]~~\nl/&::f:4 jgft;J\\;ff~~lt7At(4 rnA) ,1/&::f: 14 JJ;ff~~ltmttr100(18 rnA-\n4 rnA)\n3) 18 rnA </toop~20 rnA,$m:JJcfff!ft:fc~iJI$~tl:lo\n4) /Loop > 20 rnA, $m:JJc fff! 1JJ ~~ iJ 1:1Js:I:t£i1Jtlo\n5. 3. 8 AM ~IJtmit:fX~\n5. 3. 8. 1 jllJ til~ *\nAM ~~~it:jj;:;:~~di!::~ lli {~%, W:fi D '§:*ffl C lli!fi D :1Jj\\;, i:l1 r.iJ\nffl A !\\! fi IJ 1.J it o\na) x;f r C !\\! ti D 1.J it , Jm :11 ,g, ~ lffi {~ m ~ 3 WI$~ A TP I A TO iR:\n*~rAM ~~~s:t.~-!*r.u~~<~~*m*~f£~~~1/&\n20",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 25,
+      "text": "T/CAMET 04011.3-2018\nm: n\n:t~H~:i~Jm <~ 2 AA\n0\nb) *mAID!~ o 1rif:. ,illH11 ~il AID!~ o :i!Hl-*llii ttl ·*~:tm\"f:\n-$~ ATP/ ATO i&t~5ttr AM ~IJ:e.m:r-t~rli:/k~;\n-$~ ATP/ATO i&t~5ttr AM ~!J!£.m~t*=~rli:/k~o\n5. 3. 8. 2 f*.!i5-*¥UE\nAM ~ $£ f:fi ;r-t :{k ~ Jt. ~ WIT# *llii ttl :{k ~ , Jt. f* ~ )(. :~m \"f :\n-:flflj!Jfl§i%];;~m\" 1\" *~$~ ATP/ATO i&t~5ttr AM ~!J.!£.m\n:r-t~m:!k~;\n' u$ ~ A TP I A TO i9:\nWi $ ~:flflj!J jijJ glr!/&\nb) :itH'T*lliitl:l,*~~ll\"f:\n-$~ ATP/ A _\"!J:ef:fi:r-t~rli:/k~;\n-$~ ATP/ATO i&t~5ttr CM ~!J.l£f:fi:r-t*~rli:/k~o\n5. 3. 9. 2 fi:li.!i5-*¥UE\nCM ~$£;j;fi;r-t:{k~Jt.~WIT#*llii ttl:/k~ ,Jt.f*~)(.~ll\"f:\n-:flflj!Jfl§i%);;~$l\"1\"*~$~ ATP/ATO i&t~5ttr CM ~~;f~\n:r-t~m:!k~;\n-:flflj!J{J§i%];;~$l\"O\"*~$~ ATP/ ATO i&t~5ttr CM ~~!tf:fi\n;r_t*~rli:/k~o\n5. 3. 10 ~ 1dJ:tJfll&\n5.3. 10.1 tiD:til~\nEl l9Jtlfjg:J;;*llii tf:l fj§f%, 'W:~ 0 ±~ § 1¥J ;ljk~Jm$ ~ ATP/ ATO i&t ~\n21",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 26,
+      "text": "T/CAMET 04011.3-2018\n~~~$~~~~~*fi~~~~o-·O*fflA~-O~~o\n2 tl3.\nEI$J~~•o*m A ~mo ,Ai*~o~:\na) El $J~~Jgqi~[li]{~%-0, -{~%A:ff~O~ 2 ;fll:j;l\\~:\n-$~ ATP/ATO fit~ilJ4-$m:Jgqi~[li]~\" [li]ffif\";\n-$~ ATP/ ATO fit~ft&#j:Jgqi~fOJ\" [O]ffif\" -®4- o\nb) $m-t'3m!!lHW.{~-I§--o, -{~%A:ff~o~ 2 ;fll;J:;l\\~:\n-$~ ATP/ ATO fit~t¥J!ffifjj.$m-tJJ~{~%::tl=f~tfr:j;l\\~;\nm\n-$~ ATPI A TO i& ~ t¥1 J,t jjj. $ -t'3 ~ {~% ::tl =f ~ 15 fi& <fj!j\n5. 3. 10. 2 1~~*¥UE\nEl $J~~)Eqi~[li]{~%9=t :\n-~11Jlj{~%~~m\"l \"7&.~$~ ATP/ATO i~~ilJ4-$m:Jg1i~\n[OJ~\" [O]ffif\";\n-~i!J1J1~%~~m\"o\" :tR.~fi&t!!i:Jg1i~fOJ\" [O]ffif\"-®4- o\n*m-mm;mtw.f~% 9=t =\n-~iiJlj{~%~~~!\\:\"l\":tR,~$~ ATP/ATO i~~t¥JJ,tf!j.$mtJJ~\n{~%::tl=f~tfrt'\\~;\n-~i!J1J{~%~~m\"0\"7&.~$~ ATP/ATO fit~t¥JJ,tjjj.$mtJJJ&\n{~%::tl=f~tfrfi&<fj1j;jj\\~ 0\n''if*\nii : 13 iYrl1r :Jg 1:11 ffl 1 ~Jl A ID! ~ JJ * ~ , ~ :tt: WHi!'liiDalHfJ. fili% %U ~ 1-T 1:r ioJ fili\n%it'#~tl:l ,x>tJ.iilffi%~W::imr,\n-~jf,!Jfi1f%1:7~m\"I\"*~$~ ATPIATO i&1:1lrB9E!HfJ.$WHJL'l!;ffi%~f~\nf,S~~.§_:tj':~ ATP/ ATO i9:~i[s~$W:i~1'J1f JoJ 1:7\" Jolnu\";\n-~jf,ljfi1f%1:J~m.\"O\"*~$~ ATP/ATO i&I:~B{JEfi1fJ.$Wj.fAm;{i1f%~fjj)l{\nf,Sj(«fj!j~~,&$~ ATP/ ATO i&1:~tf«flli~1'J1:f(oj\" Jo]Jiu\" ifP~ o\n5.3.11 7fflt~~\n5. 3. 11. 1 nu:::Hai:i£\n:TFnm4-~rmne1~%,•mo1I*m A ~-o~~,mlli*ffl c ~\n22",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 27,
+      "text": "T/ CAMET 04011.3- 2018\n~IJ1J~o\na) xt=f c ~:f~ o 13~, imi:t,~-~illl f~i.~:i!7f f1 :&~ o A-l*llJ $.!A!.\n{~$Jt$~$~t£ijjtJ~MHH~1#:i!~JUI1<~ 2 !t&Ho\nb) * ffl A ~ j~ D 1J ~ , illl i:t 2 ~ll A lli! ~ D :itH'J mtl .'t\\ , :7HJIJ7 g :\n-tr.~m7fn:m~;\n-;{=j1)11J1ffl:&~o\n1f f1 t~ ~:f-l..~ iW fllntk 1$ , :7H:l'J7 -J :\n-Hnt~~;\nn\n-H t~~tr«<f~ o\n5. 3. 11. 2 ffi -5*¥~.iE\ntr.•1fn:&~A~iW#Mili~1$,A1*~~~~ =\n-t£ijj!Jfili-~::h~m\" 1, *~~-~atrBJ <It!. 3JZ-~JI* l!fl) , 7&7Ftr.1J!IJ\n7ff1:&~; *\n-t£* 'J f\"ili-'% :;~g ~ $!i: \"o, 7F tr.1J!IJ H n m ~ tiN ii!i o\n:tl1J!iJ1ffl:&~A~iW#mtlili~1$ ,A-I*~~:tm~:\n-tQijj!J{\"jlf-'%7-J~m\" 1\" Jf~~-~Bt i'BJ ( ft!. 3JZ-~Ji* l!fl), 7&7F ti1J!IJ\n1ff1:&~;\n-t£* '1f \"ili-'% 7k ~$It\" o, 7&7F ti1 J!tl1f n t~ 4?-tiN <f~ o\n5. 3. 12 ~fltl1i~\n5. 3. 12. 1 tiD#!~\n:kflt~~~mtltl:\\f~i-'%,~~D1i*ffl A lli/~D1J~,i:l11lJ*JfJ C lli/\n~D1J~o\na) :xt=f c ~* o:n~ ,Jffii:t,~-~W1~~~:knm~o A-l*llJ$.!A!.\n(~!fft$~$~t£ijj!J ~~*1/&'®-f#:i!~.W.m: ( ~ 2 it&)}\n0\nm\nb) *Jfj A lli!-11 € D 1J~, illli:t 2 A lli! fi D :itH'Jmtl 1±\\, 71-Jilj:;/g:\n-tr.1J!,J:knm4-;\n* n m\n-:tl1 J!tl ~ o\n*\nn :&4?-A~ml'Jl~1$, 71-JiiJJ'J =\n-:kn:&~;\n23",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 28,
+      "text": "T/CAMET 04011.3- 2018\n-fr.flm~iiil~o\n5. 3. 12. 2 ffi-5*¥UE\n~•*nm+A~~#•w~~.A~~x~~ =\n-1£1jj!Jf~%:1:J~m\" 1 \"#M'~-~B-tfBJ .~~~iY!U3Cflffi~;\n-1£* '1 f~% :1-:J ~$~\" o. . ~~ tr. iYIU* n m +:ft{(~ o\n~•*-nm~A~~#•w~~.A~~x~~ =\n-1£#JIH~%:1:J~m\" 1 \"#M~-~B-tfBJ .~~~iY!U3Cflffi+;\n-1£* '1 1~% :1-:J ~ m \"o .. ~~ ~ iY!u *-n tl[+ tr&~\n0\n5. 3. 13 $~ ATP/ATO ~~]Jt{~-5\n5. 3. 13. 1 1tom~\n$~ ATP/ ATO ~tl$~~1ff~%~3(3tfr.iJ:Hiftr t±:ffl\\%, W:ft D *ffl A\n~~ D ,#A~:!UJ~ 2 #~~:\n-?U$~r5f~J.t~~;\n-jU$~T~~5?~Jjt~~o\n$~ ATP/ ATO N~iffi:i:t § :!1rit~ .~tl~jtl$ 1¥1?-1$ ,ftJg]~~ o\n5. 3. 13. 2 ffi-5*¥UE\n$~ ATP/ATO ~tl$~~Jjtf~%A~~#tfitrW~~.A~JEX:tm~:\n-t£1jj!Jf1§f% :1-:J~m\" 1 .. ~lf-jU *5tt r~:~tlf ~~;\n-1£1jj!J f]§f% :1-:J~m \"0\" ~~ jU$ 5lt r ~PJJ::it!Jt ~~ o\n5. 4 ~imJ.Litfl!!1i D\n$ ~ A TPI A TO 19: ~-fN: * ffl $ Wj 1fi It rt!!. ur ql' f~ It o f~ It!. ti!f: f_£ flC\nGB/T 25119-2010 9=' 5. 1. 1 89~1.JEo\n$~ ATP/ ATO ~MilP11§i,\\~U~~i1:illi:i1 TMS ~~$Wio\n6 fJt~1iD\n6. 1 )IJij;t;*\nilliffl~*A~:tm~:\na) $~ ATP/ ATO N~lliz3(~{1:JJ.JEB<J~~~I.UHG:OOI*J ;\nb) $~ ATP/ ATO i9:~1t~lliz*ffl liD JE~urql' IIDJE, #:@:W!$Wi\n24",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 29,
+      "text": "T/CAMET 04011. 3一2018\n6.2 车内设备\n6. 2. 1 车载 ATP/ATO 主机\n6.2.1.1 安装位置\n车载 ATP/ATO 主机应安装在车辆电气屏柜内,在电气屏柜柜门开\n启后应保证主机柜前留有 600 mm 的维护操作空间,主机柜上下各留有\n150 mm 的走线及通风散热空间。\n6.2.1.2 安装空间\n车辆应为车载 ATP/ATO 主机预留最小为 650 mm(宽) x 580 mm\n(深) x1 200 mm( 7 ) BY See ae\n6.2.1.3 通风 coCA- ON OA\n车辆提供给车载ATPKTO 主机安装安很应具备良好的通风条\n件 ,车载 ATP/ATO pier re 2 [i] Yet EIS GRY TRIS 相关环境条件。\n6.2.1.4 接地 FS 二 9\n车载 ATP/ATQ 把 >), 地电缆的导体鹤面\n积应不小于 10 mm? es EA ha > Tete, eA B+ 500 mm,\n6.2.2 车载显示器 \\ Qs\n6.2.2.1 安装位置 Fae cw,\nATP FGM EE Oe, 5) a] HL SE RN 8 ZI\n不应有障碍物阻挡司机的视线 ,车载显示器不宜暴露于直射日光下 。\n6. 2.2.2 安装空间\n车辆应为 ATP 车载显示圳预留最小为 345 mm( GE) x250 mm(深) x\n250 mm(高)的安装空间,无麻碍物阻挡空间为 415 mm(宽) x250 mm\n(深) x320 mm( Te)\n6. 2. 2.3 通风\n车辆提供给 ATP 车载显示器安装空间内应具备良好的通风条件 ,车\n载显示器安装空间与司机室内温度差不宜超过S7Y 。\n6.2.2.4 ”接地\n车载显示器采用最短的路径引入最近的接地点,接地电缆的导体截\n25",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 30,
+      "text": "T/ CAMET 04011.3-2018\nrmlRJE:::f;J\\-'f 6 mm2 o .tw~W!~7&jf-,E:ffl:J!i!f~~ ,~:1'1!!.~-Kltm:::f:kr\n500 mmo\n6. 3 $Iii!!:*\n6. 3. 1 BTM 72~\n6. 3. 1. 1 ~~fft~\nBTM :X~JE$:~{£~1]$ 9=' {,,~_tjf .fi® ili:IW~$fkj l't!J{}Ljf_, ~11 00 2\nEJTjf-\n0\nBTM :X~9='·l.'~~$WJIW~$fkJ:i!~lmlle~.!h!.7& 7 o\n7& 7 ~ 'L'~Jie~\n$~Ja~llili!J$~ BTM 3-d~ lf'{,,~JIE~ ( !)!{ft: mm .ftiti*~: ± 10)\nLt L2\nAlt/$ 3 320 4 410\nI ~ 2 690 3 750\nBlt/$\nII~ 3 130 4 190\ni± l:L,*~7}C'j'-~gc~1Js:\\':\"\"f .$~~~003IU$tl BTM 7(~!f'·L'~IIE7lio\ni± 2:L2*~5(:~gc~:1fs:\\':\"\"f ,$~~t~llili!J$~ BTM ;;R:~If!·L'~RE~o\ni± 3: J ~*~~$¥:1Jt/'-J 20 460 mm ft-]1J::rPJio\ni± 4: II ~*~~$-f.~!Jtjg 20 900 mm fl(]1J::rPJio\n26",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 31,
+      "text": "T/ CAMET 04011.3-2018\n6.3.1. 2 :r:ttl!ht?\nBTM 7C ~ ~ ~ J.iiZ :i!!:HHii El! ~ -T 1ft IR ~ ( jill El! fJL , JXl fJL ~;It fi!!. ~ il-1'19\n7C~fflili) ,)liJ Elil7f'J.l\\Z:ff~$:1g 3 MHz-5. 5 MHz 89f~i%t'~Wito\n6. 3. 1. 3 ~~~18)\n1f::~7C~fflili~*x~~~1*, ~:i!!!3ex1'f~%-ffl'W!tr89-TrJC .Jt-1*~*\n~~3~~4~~o 5JC~Eg-~~~-~7f'-~~~~~o\nil::a;;o410 mrn;b;;o50 rnrn\n0\nit:b;;o50 mm;c;;o450 mm\n0\nIf! 4 7C ~ ~ ~ 7C ~ ~ 1R :Ia ( iJlH!A~ ~ )\n6. 3. 1. 4 ~~mm~\n~~-*~*~~.~-·*·89Jt.~ffl~-*~*~~~~*-~*k~\n~-T~InJ~ko ~~tl$5d:~fJti$,~~,~~B;j' ,;Jt~-~i.lf~&JA!.* 8a\n27",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 32,
+      "text": "T/CAMET 04011.3-2018\n~~t»l !/&ill 00 ~\n~~$Jll]!iiiBY:Ji~:JJ\\~~ Hm;n 165 mm p\n$ll7dJI. \\ J 1\n!\n~t\n~~$Jt.J.9!jijB<J:/N:7::.~~ Hmu 240 mm I\n1 j(_\nI\ncp\n*\"\n$Jt.~ t:p •L' ~ tj:: ..t 7C ~ BY~ lfE\n±5 mm H\n.~ Z Z.fBJBY:Iil7::.ilil~ Ym. . I\nj_ j_\nI\n( )\nux~T\nill1-T tj:: 1J [i;] BY :liX: 7::. 1'J!IH~ if! ± I o JL\n+().-() j_\n( ! )\n-m8z~~m -:&!t:~:£7(~ -\n71Hiii [I;] :lll::kf~ifl ± l 0\nlj!~~\nTm~\ni'IHI!; 1H-T tj:: 1J [I;] Q ::k f~ if! ± l 0\n-\n() () ~1'$1fiol\n.\n28",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 33,
+      "text": "T/ CAMET 04011.3-2018\n6. 3. 2 ~i*~~a\n6. 3. 2. 1 ~~f.!L:~ *ffl\n~~~it f{ ~~ llT m fD!l!A: !!X;~~ m fD!l!:a:, ii: tJ:: ~t£~~ i;IJ tJ ~ 89 ~\n~~$#~~;(£~~~Lo mfD!l!:a:~~~it~~~~~i;IJ$*~*m89\n~~.ffia, Jt.i*tJ::~mft Iii I~1J~1iffl~\n0\n6. 3. 2. 2 ~~QfB] *\n-r\n~fl r Et~am~fffif!,t, Et ~am~ !1l (r:i) 1t9!*-~ 15°-60° _§_:i!!f~\nmam~~~~ffo .mft~89-NJ1L~£:i!!tH--~·o\n~~~it~~~~am~~~~tJ::~f1l~~~~a9~~*~·~~\n6. 3. 3 ~iltf~~it~~a\n6. 3. 3. 1 ~~mit\nm~~-~!J::~;(£$-f*T1J,M~~-~~-~89~L1Jo -~$\n•••~~~m•r*i*~~~*H!J::~.~~*mf1l~~-~$••\nW~!J::~;(£~~$1*00;$V·S~~-!J::~;(£~(r:i]~L,$V•m~~\n,c,,~~~~~,c,,~HE~~(80 ± IO)mmo ~!J;:~{il~~~1WOO 6 Err~o\n6. 3. 3. 2 ~~Q fB] *\n$ V1tfrm ~ Jt-1* tJ:: ~ :£ fBJ ~ :!m -r\n=\na) $V•it~!J::~;(£$m~#ta9!J::~3t~Lo !J::~3t~89$V\no.\n•s~m!Ml7&mi.lJ!-~~'J\\r 5 mm .~M~IY!mi.lJ!-fj _§_JlE~;(£\n29",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 34,
+      "text": "T/CAMET 04011. 3一2018\n和 车辆运行方向\n= 上 ie it} ey een a a\nmilf |e 车体中心线 mr __* et\n车辆运行方向 钢轨中心线\n图6 多普勒雷达安装位置\n500 mm ~ 800 mm 之间。\n\nb) 多普勒雷达对安装空间的需求如图7 Pm. AREER ARR\n正常地发送和接收,图中的阴影区域是一个专用区域 ,在该区\n域内不能放置任何其他设备或活动物体。\n\n单位为训米\n1 126~1 690\nage} sg\nP| 。 侧视图\n\n0\n\n\\ 钢轨顶而\n\n图7 多普勒雷达扫描范围\n30",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 35,
+      "text": "T/ CAMET 04011. 3-2018\n6. 3. 3. 3 tiit!!\n:t~ Jt!21t!. ~ 8{] ~ i* ~ ffif fR Jlli ~ ;J' r I 0 m m 2 , 101?: J'ltiiPJl-*X 4fuH'~ ~ o\n6. 3. 4\n1JDiiJ.l~~H\n6. 3. 4. 1 ~~f.!z:I[\n~~~#·~~-~$~~*·~-~,~-~Jlll--~~~~#\n--~~-~~(·~~#~-~·~~#··~~~--~~-~\nm B<Jm''!k\n~) ~ $JL:l1! ~ ,c_,~~tl -*!W*~ ~ , ~n 11n~ ttm~ &:,~¥fl-$WiW-\n~~m~*•~~*~~o ~•mlli•~-*W~~*•~mmfi~•tt\n•iftiJ\n~, :illf:!.M''Jt 1.1:. at ~ilf.J1Lllf~jij o\nE:\n~. {Ji: :!t ~ ~ $ '!k %if :!j:: ~ ~ A TPI A TO 3:: ;fJL fJ!,;f€ T ~ , \"fW it1i\\i 1m~\n~1~~~1[~-:(£~ IRJ $i.*-@!lj, E:$J.II .$. ~ ~ 'l.'~o )1;~-Ulfl:~ll\n1!1 8 J'fi ffi\n0\n6. 3. 4. 2 ~~QjB]\n~~~#Sfilli~-~~-~,m•$i*~~~ffif~~~E:BM\n100 mmo ~-JlllmfJEj]i]~~1~--g 'J ,;E~ j~!1JiJtfll£fHf'fr.f~ ,110:1!~\n1~-~B<JJ.9f~iU ATP/ ATO ±f!Lf!L;f € ~Jff$lli::ff JE ~:£ IBJ, Jt.i*g '.1\"'~\nIW~))([Ilfl~~~o\n6. 3. 4. 3 1i it!!\n~~~#·~~-~E:*m••••~~o\n6. 4 $~:7C~7i:~\n$?t,t~~x~Ai*~}j(~OT:\n#m1l-19!\na) ~~$Jt!2x~lffi 1~-&!ffl ~~ IRJ, $t\\t~-~ IRJ ~ 7(~\n31",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 36,
+      "text": "T/ CAMET 04011.3-2018\n~:If'~ 8<J 7C~UR ir,-§. ni: § E8 i&: 7C ~, l.&: ~ 7C ~, mi ~JE rP1 f\n:.f&7C~ '~=:#7C~ 9=' :If'~ B<J!:ilir;\nb) E*lf fi7C~B<J~~~:If'~~MH:I:l$ililltt~~~A ~4HttW.;\nc) ~ ~ ~ :t£ ~tl * 7'~ w A -t • ill* :mt WJ J.K m :M I!: , WJ 11: m * #}A*\ni* 1*1\n0\n6. 4. 1 ~Ell 5&:~~\n§ E8 t&:7C~Jt.i*~>R~or =\na) § E8i&:7C~(J\\.*7C~,f-:.f&7C~~l&i8~7(~)fflr~l&x~\nEf EH~{J§f~o\nb) ~tl$B<l$*#.1$~~~~m~* El E8 i&:7C~, 7(~ 8<J 9=' 'L'~~f!/*B\n~ill Ej ~~ $ ~ ~f 1J rPJ f-~f ' :m: ft if J.)c f-jFJ It~£ ± 1° ' :m:\nfti!f¥1t1FJJ.t~£ ± 1° 0\nc) /\\.*7C~~f-1&7C~3i.~:t£~~ $~~~]Ji$, 1lfi:t£~ IDe~JJi$\n3i.~f-oo7HL, 7C~IW !IZ'®rff ---tx~JIJS IK, x~~ IK~:1t:t£\n~;R~jg t:p,[.,B<J 70°1Fl m;~ 1*1 o ~~B1B<Jx~Jm ~~~ IKff-:'@:\n00 .!A!. 00 9\n0\n70°\n7(~:5[~\n7(~\n\"---X~JiJ!IK\n'---$J!jj~;f&\nd) ~:f!!.~:*~ill!Ji.~:t£~~ $$]Ji, ~7(~7g 9=' ,[., ,~~£1-J 1 m 8<J\nm:~ I*J:If'illfi.imtf:l *~ 2/3 ~Wilt B<J~llt ~m~ <7 1'**~) . ..ll\n7(~1Ji$~Ej$·8~1ltt~~-fi;Wj.*f-o Siflft7(~!Ji.\n~B18<Jx~Jm$m~IK7f-:i&:JA!.OO 100\n32",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 37,
+      "text": "T/ CAMET 04011.3-2018\ne) liil-IR:I!j£~~1f~~7C~'hr~ r, $~7C~7C~ ( *ftfill*t!C\nz\n7C~) fBI[!{] 1%/tr Jle/tr l!ll:;k =f o. 6 m o\no jg~f¥x~fs% ~il~l·~·~~~~~~\n~x~~JE[I{]M\ng) 7C ~Ell~~ -~:;\"- ...~~~\nh) *~m;~}IIJJ!::;j,~ ~~.X~> rBJx~~\nw\nm 10m , .!=IA-;gj!i'fltfrm\no mJ:Joo~*~~\n~~lrl!lZ ~m.E~*~~itt?\n[i{J{j!~IJ o\ni) *~~~~~~\n~~~~!ool!LJ~-rtl#J $1* 7f:U ~ IL, 1H£ :;f\n1J\\ =f 40 mm, 5i: ,c,, ,1a Ell xt if , 1* ft :;f iffi :1:1\n3 mmo7fiLJ.!lZ -*=BWU, il*ffl:UIL'f¥t?~uHT'f¥f? o\n6. 4. 2 ;&:~~fi\n?&:~*~1!-f*~>J<::tmr\n=\na) 7l!Z~7C~( .lft&k:fll17C~)~~r$1*m;$!})t~inJ~01HI~:$$1Ji\n*ffl~.:::$Jt::tf~~ It, i&:~7C~ PI !mk:~~tE$1-*.l., 13.7&:~\n7C~lliz/tr~ .=:$ftmMff, =:tr i'BJ Jle:;fJ.!lZ'J\\=f 300 mm), ffl =f\nm~~ffi-~WM%o ~m$Wli~~[l{]ilifi,tE~$[1{]~-~\n~~~~?&:~7C~.13.~•[i{J~~*~ElZ*m$milifi::trinJ~\n,c.-~xt~~~::tf~o\nb > t1IZ ~*~.X~ PI mmr$1*~ $, .Ji:~:;fl!lZJm:U$1-*W ~~, 5r.\n33",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 38,
+      "text": "T/CAMET 04011.3-2018\n~~7C~~fillltiii89f~J.t~*/]\\=f 0. 5 mmo 7J!l~7C~I=j:l'L'~\n~tl:!i=:~~fjj\"flil 9=I 'L'~Re~:1-J 1 162 mm, 7(~T *iii !:j~!f}L_U&\niiiRe~1r:1-J 320 mm( {Egfr~ ,~~' 11-ft~'l'ifi£ T), 1(~~~71'\nJtii:i:1: ±5 ffiffi0 7J!l~7(~1(~~:\\tt:!zlli!Jll Flf~o\nI\nI\nI\njg~'j1floJ<P~c.,~\nE\nE\nr~ ~\n~\nffl*ll N\nC-\nI j~~~\nI\n(1162±5) mm\nr:n\nc) 1£i&:~7(~ 100 mm, 0 7J!l~7(~ :1-1 9=I 'L' 150°1JJ% n!UfJ1 K\n:i!}t 711 ~ I*J , kJ lJt. 7J!l ~ 7( ~ T jJ 10 0 m m ~J !flL 00 , Re iJJl ~ 7( ~ itl ill\"\n250 mm 7i1~1*J.1-J~Hii~IK.1£W:IK:f!1ti*JEizf*iiEX1fr:m.l:±l~o Wl\n~*~:1C~B>t89:X1fr:m! IK~~:tzn 00 12 Elf~ o\n6. 4. 3 iliiii'A!7C~\nt\\fi~7C*~J t.1*~*:tznT = *\nx\na) :tzn ~:%~ffl ~ ~ ~ :1-1 ~ 1l-it~$ :ttl!. ~ {F-f ,~, , 1r ffl f ;f& JE\n34",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 39,
+      "text": "T/ CAMET 04011.3-2018\nli.€@'T/Jrtl'=P•L'ii!l\n(I 162±5)mm\nloJ 7C~ ( 3C~t£$~1Jltliii) ~?iil1§.~7C~, ~1&$JL-*~~lH1iiM l±l\n~fi~~~M%,~1ol.~7C~~K1§.87C~K~~-*Mo\nb) ·~7C~3C~-Tf>(1~11LiL1Ue~!Fitiii 600 mm -800 mmo\nc) 7C~lili&,~1f -1'-~~~ 1K, ~~~ IK~>Jt:f£~ 7C~jg q:s,c,, ~\n70°Jfl fl100 I*J o ~~7C~3C~UL~.&.3C~B;f~~~~ !Kff-~:(lll\n1!1 13 JiJT ff-\n0\n* * * * *\nd) ~ m m ~ [l;T-~:@ ~-T , :fE ~tl ~ ~ ;f11 ~ ~ :1e ~ p;q ~ ~ ~\n~ '4ii:~3C~ p;r;j 1'-~~*~' j'tl $:@ ~-T/J loJ .:p ,c,, ~~>tf*3C ~\n0\n~~7C~~$JL-*~~~*•~~~~~u2 m(~~*•~~\n35",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 40,
+      "text": "T/CAMET 04011.3- 2018\n;ttHW~ ~ffii;wiStit1ifHJE) o\n6. 5 ii~l't!i'~\n6. 5. 1 l't!i'~ttfm~*\n$~{J§l% ffl Jt!.~lili:~if !;..( \"'F~*:\n-Jt!.~-f.Bt'li~~E)zmJJE;fij(i TB/T 1484 i¥.J~)jt;\n-Jt!.~1t?.d?tf.i~~lili:miJE GB/T 19666-2005 9:t ~* Jt!.~~iftilt~\nc\n~HJl'.JE;\n-It!.~~ ift F.J1 i¥J {~ :® tt: -If~ 1ili: mJ )E GB IT 19666-2005 i¥J j;Jll. JE ( :ii\nJj\\~7t.$ ;:::,:80%);\n-Jt!.~5C J8i mtffitt~~E)zmJ )E GB/T 19666-2005 i¥.Jj;Jli.J£ (pH :bD ;{)(\n1i ;:::,:4. 3, It!.~$::;:; 10) 0\n6. 5. 2 ft!i'~;(j]~~gc~~*\n~~i¥.J:I:E~blrn!IJE~P,~ TB/T 3153 i¥.J~)jtfAfr:\na) It!. ~ ;fJl J]Jc :ii ;w 9:t tt ft. xt ~ ~:itt fr {!;i!: 1ft , 1r :bD ~ {!;i!: 1ft 7'~ Fzf: ; *-* Iii\n:ft:fJL$7'~$~~1¥J~1~P¥~~/GIJ\\T 200 mm ,Jtfi!!.~~~~*~~\n/Gij\\-=f 150 mm\n0\nb ) It!. ~ ;fJl ~ B1 , 1ili: ~ :::k ~ .$ It!. H :ffl ~ 5t 7f :ffl it{ , ~ ~ !:i ~11. It!. :ffl ~\n¥- ~T :IE ~ , :tm: :2 ifoJ It!. ~ , It!. :fJL , 3k ;l:T I'!! ~ o !:i ~11. It!. ;fJl ~ IBJ RE /G\nMIJ\\-=f 200 mm\n0\nc ) I'!! ~:IE~ 1ili: ~ 7f f116 W! ~ ~ ~ , 1* iiE It!. ~ EJf ~ :ff ~ W! 1t /G Jffi :tt Jt\nft ilf i¥.J IfF ¥1l! 1t\no\nd) It!.~ !:i i&!>~ :ii ~% ~ J§' , WHI!ij ~ J.ili: Jjl 00 ~ ~ -K 1t J§' :fl} :itt ~-T rntl\nJE , 1£ -T ltf ~ ~H£ ffl1 , llti 11: :ffl ~ Dl: hl :tt %t , 1* iiE 19: 1Hfi: ~ :1f 1£ ,\n~~:ffl~~~bl~n:tt:::*kW ~~ltf~H~M/G~o\ne ) :fJL $ 7'~ $ *-* ~ It!.~ ltf ~ ~ 1ili: Jlit llti 1.K 1i11 ME o\n36",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 41,
+      "text": "T/CAMET 04011.3-2018\ni!M ~ A\nc\n~.mm:tti!M~)\n~$mJJJ~1liJ*¥tt~~\nA. 1 A ~fiiJ\nA ?JM :r~ o ;~g~ .±1 f~%, illnw JE -r J£~*:\na) ;*B: ~~iYJitff DC 110 V ~flfr ,:Qi:k~l±\\ltYHE 200 rnA;\nb) nfJ!~~flif% ,7f/*.fl m~, ~ %!. ttJ 19Jm~:a:nw JE.ffi*.tfi~~\n*~ftJ:r ,-m::k\nA ?l\\!}~ D ;lg~A\na) fi1trAitYHE\nb) xt-Tt:Ji~\nlt~iYJfF\nA. 2 B ~fiiJ\nB ?J,\\! t~ D ~.A ~i«~\na) ~ ¥HE It ~l!Jil\nb) ~A~5HJ$$\nA. 3 ~~:ttl Z;1J t~ ~ .bU\\'t ~ iM~-;;;;;.~\n-A~Z9Jm~~-~~Z9J~~$·~-A.l ~~~>Ro ·A~Z9J\nPioJ$~B;f ~00 A. 1o\n1¥-% ~~~~ ~~tin~ ~ta 1.l tt\njlj:tj:: flli~iiEB<J :fii;j\\ B9 ~ liJ ~ iiE B9 ~ £'.1fiil\nliJ 1j iiE (f(J ~ ~-\nI ~. ili1J i9J llJ£ ))£ * ' Jtt ~ {Jl1.J i9J~:it*tET~rp\niliiJ iJJ llJ£ il!Ut~\n3i:3!:ffl~ :il:H'i'~JE\n:t:E~~.lli'J iJJ M.:lt at~~*\n2 ~'JI-!)JI~}[Bt .ff::(£ ~ 'll I at, ~ 91 -!)] ~ ,.o. 30 s\n}[ nt J)Jf ~= at fiiJ\n37",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 42,
+      "text": "T/CAMET 04011.3- 2018\nff% ~~~ffj; ~~ttal£ ~it[ ~ it\nJA fl1i% A'd'ft~ ili ~ ~-fllll\n3 ~ ~-ili'J Zj/Jjjf :I& Zj/Jf.r~iiJ *m1ffi!.11u ~'=<. flllJ ~0. 5 s :llll!¥1 A. l q:> T,\nUtiBJ\nZj/]jJ 10% JYf'ilJDtiBJ\n*\n)}.. fl1i% ~~ :±l ~ fl', fljlj\n4 BtiB~~ J- flllJZj/Ji(o]Jiii Zj/Jf.r~iiJ $m1Hl!.1Jn~'=<. flllJ ~l.6s :llll!¥1 A. l q:> T 2\nf;IJiJ 90% ErrWEltiBJ\n*\n)}.. ffi% ~~ ili ~ ~-fljlj )}.. 1¥1 A. I q:> t0 ~ $\n~~-flllJZj/J~;-5\n5 Zj/Jf.r~¥IJ$m&~~~-lli1J ~55 ms m~fl!.it1JZjl]~~m~\n&iiJH!5Bt\nZji]B~tnJ!.i'fJ~Bt ~1ll·7fM.~ ffi ~at lB.!\nit:* A. I'* A. 2,* A. 3 q:>;fl~!;~~~~;§lirrl£~flj:::t£ AW ,AW 7J<. AW\n0 2 3\ni$t!IH~I£ r ,{£~ :M'f:l~UJLitLt ,$~1'1*./lJ*€~;5 .~'l $M.:liikiPi :ili1l'l!.OC\n<:IE~l!JJrt£ 120 km/h JJ<.J;.(r)iiJ~:!f=:o\nBR\nBR_full\n\"\nBR_fullx0.9 -------- -------------------;\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nBR_fu~~~ -------- ---------/(\nI\n) T,\nf.N·:h~$ll\"I\" T2\nto\ni~IJi.l: I. W,~ BR M:!f=:m~~JZj/J$,itq:> BRJull ;jlUT-~~.ili'JZj/JTQ:;I@'={.fljljZj/JjJ;\n2. ~tiL t 1-J At IBJ , it q:> to 1'1 £It ~ ,gUI!,~ ffi ~at IBJ .~ ;\n3. 1¥1 r:p ~~ .. ~ :iltl ;,.Jtjg~:t! 1¥1 .~~J1j;~ ~ ~.illtl ?;IJitJiJ Zj/J$~ ili illil:'.Jt;\n4. 1¥fq:>J!i~~~Jg$~ ATP/ATO ia:~~~.flllJf;IJtuliilif.r~o\nIll A. 1 ~~$1JJ;IJPiaJJSiH.l£it1\n38",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 43,
+      "text": "T/CAMET 04011.3-2018\nA. 4 1j;' J'ij$tji';f)ffi~~tt~ti *\n'lit m~Ji9Jffi.*%'·11:~J:Illim J£ A. 2 ~rffi~* o ~ :tt::!ii::k~ 51 JJ\n¥~ :fG: 7c 'ffl' ffl ~J ~ 1¥.1 ~ 1* !Xi. 00 A. 2 , ~ :$}}.. i1f ~T ¥~ :fG: 7c 'lit ffl ~j ~ PloJ $_ Bl IEiJ\n!MOO A. 3o\n!¥% :$~~ffl' ~m: ~ tl:\nI ATO T:lii:k1it Jflffi!Jz;IJ~if* ;;;. I. 0 m/s2\n2 ~$ ·\"'!· m ff i!J19J Ej ~ 91 ~11m It ,;;0. I m/s2 ATO ~ ffi!J T , ~ $'lit ffl\nili-tJ19J Ej ~ 91 :/iil)'~lliil:\n~$:/ii:k~ 91 :h ¥JJ:Q:k -m· fflffi!J\n3 ,;;3. 5 s\nZ9J B9 ~~at faJ\n3. I m~:StJJI!~M ,;;200 ms\nm-t-ufillil41-T-uw\n3. 2 .M. :It£ :k 1m itJ j[ ~ f~ ¥JJ o B9 at fiiJ ,;;J.Ss\n(3. I -3.4H.li~. A.f*~\n3.3 :t-tJ z;IJ -* tit )A ~ lJ:I( -tit; ~ ¥1J Z9J fl:: DW. ,;;0. 3 s .!4!,~ A.2\nJmntfiil\n*\nffi!J 19J ~ if Jj[ b\\ 0 ¥1J :@: til B9\n3.4 ,;;l.Ss\nB;j'fii]\n*\nm $ b\\ trH=r ¥JJ :Iii ·Iii' m ffi!J 19J :tJ\n4 ,;;J.7s J.l.f*~ .!4!, 00 A. 3\nn(.!JJ.!!ZHti'BJ\n:ltl:;;lc~'liJJ\n: }TI;:i/SIItfil) :\n.---------.\nI\nI\nI\nI\nI\nI\n~ii\nn\n111 A. 2 fl$:Ql::k~sl 3¥tJ:Ql::km-m mtli';fJB'!J~~\n39",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 44,
+      "text": "T/ CAMET 04011.3-2018\nB;fl'iiJ\ni\n~:i/SB;fl'iiJ\n---\n~------\n'\nATOi.lttl:J (:j(jifj!Ji9J1ftr4-tJJ~\n* ~w\n111 A. 3 !l J.A 11Hr ~~J ~ * '*' m itl J MP (o] m1 M' iBJ\ns\nA. ~sl :m*!fl}:11~~\n~51ifEJ;k~·I1~~1}\\ItlijJE~ A. 3 ~Jffi~>Ro ~:$h\\ffH1·¥1J!i7c~\n51} J B<1 $li ~ Bt IBJ .IJi!. 00 A. 4 , ~ :$ h\\ :il 7c 'lit Jfl1M i;b i!J J1i jc ~ 51 iJ !fii ~ Bt IBJ\n.IJi!.OO A. So\nff:% ~~ill* ~{R ~ 71:\n~$)f.. :ll1t *~51 j] ill.,.~ ~l.7s 1ft ffl ffiil 29J!iX:11H-TT i'!<J~ 517J1lil!\nI\n1-T i'!<J ~ 1tHt l'iiJ <0. 2 s 1f ~-ffiiJ Z9JT i'!<J~ 51 -I:JJ iW;\n~51}[:i8Bti'BJ\n<0. 2 s JJ...f~%~~'}}:_ :±l ~51 m~ill$\n~$Jf.. ffH-TiiJ~:k~ 51 m~JJo~51:JJ to% Jfr~strBJ\n2\n:fJB<J~~atriiJ\n~51~1l:Bti'BJ\n~l.7s JJ...1~% ~ ~ '}}:_ :±l ~ s 1m ~ill$\nmJ)(fi:tm~ 51 :fJ 100% Jfr\\WIHti'iiJ\n*\n~$)f.. :&1 'It ffl ffjij i9J ill\n3 ~3. 5 s ~-i*~ J\\1. 00 A. 5\n~:k~sl:fJ~~atriiJ\n4 km/h~v~ ti il\" ffjij i9J Wl18J (!(_) ffjij z;IJ tt fj-g iliii ~\n4 tiil\"ffiiJi}fJ-I:]J~~.!t\n8 km/h ~*~ ± 10%\n40",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 45,
+      "text": "T/CAMET 04011. 3一2018\nmie 新的期望牵引帮\n以前要求的力大小\n在转换过程中的Jerk冲击全要求\n| 时间\nATO发出的达引命令加换 PSM\nBik\n图A.4 整车从情行到最大挛引力的转换时间\nTIO\nOCIATION\noo Or PQ UWA SL\n六 pc\nATOH 起 oy!\na Px, \\ ph iA\na AP\n¥ 156 ec ft i EN erk Pos fA Bk\nee AN\nmn \\ ey\nBi Br ae eg 4 AA\nD3\nBAS £2 WS ey ie HK ssl HHH\nA.6 车门控制相关参数\n车门控制相关参数应满足表 A.4 各项要求。\n表A.4 车门控制相关特性参数表\n_ 、 从开门动作开始到车门完全\n车 Kal +0.5)s\n从开关门指令发出到开/关 pended ups\n41",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": true,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 46,
+      "text": "T/CAMET 04011.3-2018\n~~:X:~\n[ 1 J ~$1!.$ili$~t£ilJ!J ~ ~-ftf£i'l&ft:iiHW.m: C~ 2 it&)\n42",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    },
+    {
+      "page_number": 47,
+      "text": "m\n\"fl 00 ~ $JL 11!3( ii FJJ.~ I~Hfi: :tiF 1l\n·*~-~~ -~~-~~$~ft\n~$1J ~tft ( CBTC) :S:~:S:il:ti D ni!5ir\nm-\n3 :00~ :$f!91J$ ~ fdlf*~? ( ATP)/ 91J$ ~ 'iifJ\nm\n~ ~T ( AT O) ~ t1t ..!:3 $ ~:tiD\nT/CAMET 04011.3-2018\n*\n'P ~~:ill til Jl.HHfi!IH~ liJ til !l.OC >lt fi'\n<l ooos4,:ftJ?:miDimx~K:tl'Ji:fliDim 8 ~·>\n01ilfi'l:!JI:: http://www. tdpress. com\n:It J¥-iii~ rMP lliHfll& 0 liJ \"P jjiiJ\n**: 880 mm xI 230 mm 1/32 \"P*: I. 625 *:fl£: 43 =f\n2019 fF 5 YJ ~ I Xfi 2019 fF 5 YJ ~ I ~\"flljilj\n45-1:}: 15113.5728 ~-fit: 15.00 jC\nll& t.ll PJi' fl\" i~HH~, ~\nfLJ!J~~mX&m 45 .:!m:fi \"'!$1JJ.ilHitJ'iiJR!, mEi*01il>lt~'Tllli~HiiJ.llfk.\n2tfi''ffl! If! liS,~< 021 )73174. -m < o 1o )51873174",
+      "source_file": "T_CAMET 04011.3-2018-城市轨道交通 基于通信的列车运行控制系统(CBTC)互联互通接口规范第3部分 车载列车自动保护（ATP)列车自动运行(ATO)系统与车辆的接口.pdf",
+      "garbled": false,
+      "garbled_reason": "ok",
+      "ocr_used": false,
+      "ocr_engine": "tesseract"
+    }
+  ]
+}
