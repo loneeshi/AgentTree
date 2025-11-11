@@ -1,0 +1,3588 @@
+--- Document Chunk 0 ---
+12
+
+--- Document Chunk 1 ---
+Robert Cooke, Mark Glover  
+
+--- Document Chunk 2 ---
+& Richard Roberts
+
+--- Document Chunk 3 ---
+Back to basics:  
+
+--- Document Chunk 4 ---
+Metro train control  
+
+--- Document Chunk 5 ---
+systems
+
+--- Document Chunk 6 ---
+In this month’s back to basics 
+
+--- Document Chunk 7 ---
+article, three of the team behind 
+
+--- Document Chunk 8 ---
+the new IRSE textbook, Metro 
+
+--- Document Chunk 9 ---
+Train Control Systems, introduce 
+
+--- Document Chunk 10 ---
+the underpinning principles that 
+
+--- Document Chunk 11 ---
+make train control for metro 
+
+--- Document Chunk 12 ---
+railways different to other types 
+
+--- Document Chunk 13 ---
+of railways. The article looks at 
+
+--- Document Chunk 14 ---
+some of the unique challenges that 
+
+--- Document Chunk 15 ---
+engineers working on this type of 
+
+--- Document Chunk 16 ---
+network face and identifies some 
+
+--- Document Chunk 17 ---
+of the solutions that tend to be 
+
+--- Document Chunk 18 ---
+used when current systems are 
+
+--- Document Chunk 19 ---
+installed or upgraded.
+
+--- Document Chunk 20 ---
+What is a metro?
+
+--- Document Chunk 21 ---
+Let’s start by considering what a metro 
+
+--- Document Chunk 22 ---
+is. Metro railways are also referred to 
+
+--- Document Chunk 23 ---
+by the generic term ‘mass transit’ and 
+
+--- Document Chunk 24 ---
+by more local terms such as ‘Tube’ 
+
+--- Document Chunk 25 ---
+or ‘Subway’. There are often major 
+
+--- Document Chunk 26 ---
+differences between systems in different 
+
+--- Document Chunk 27 ---
+parts of the world, but also a set of 
+
+--- Document Chunk 28 ---
+common challenges and approaches. 
+
+--- Document Chunk 29 ---
+The textbook explains:
+
+--- Document Chunk 30 ---
+“Metros differ from other railways in 
+
+--- Document Chunk 31 ---
+that they carry passengers only and 
+
+--- Document Chunk 32 ---
+run a more intense train service. They 
+
+--- Document Chunk 33 ---
+are concentrated in the world’s cities, 
+
+--- Document Chunk 34 ---
+providing travel both above and below 
+
+--- Document Chunk 35 ---
+ground for the people who live and 
+
+--- Document Chunk 36 ---
+work in them, as well as those who 
+
+--- Document Chunk 37 ---
+visit and commute to them. They 
+
+--- Document Chunk 38 ---
+range in size from a few kilometres in 
+
+--- Document Chunk 39 ---
+length, to those such as Tokyo, Beijing 
+
+--- Document Chunk 40 ---
+or New York that are measured in 
+
+--- Document Chunk 41 ---
+hundreds of route-kilometres. They 
+
+--- Document Chunk 42 ---
+move millions of people over relatively 
+
+--- Document Chunk 43 ---
+short distances, sometimes for twenty-
+
+--- Document Chunk 44 ---
+four hours per day.
+
+--- Document Chunk 45 ---
+“To do that successfully, the metro 
+
+--- Document Chunk 46 ---
+service needs to be reliable and resilient. 
+
+--- Document Chunk 47 ---
+Rail operations need to be organised, 
+
+--- Document Chunk 48 ---
+structured and integrated with other 
+
+--- Document Chunk 49 ---
+transport modes. Densely populated 
+
+--- Document Chunk 50 ---
+cities cannot function efficiently 
+
+--- Document Chunk 51 ---
+unless all modes of transport are 
+
+--- Document Chunk 52 ---
+carefully co-ordinated.”
+
+--- Document Chunk 53 ---
+What does that mean for the 
+
+--- Document Chunk 54 ---
+train control system?
+
+--- Document Chunk 55 ---
+On the face of it, metro signalling sounds 
+
+--- Document Chunk 56 ---
+simple compared to complex main line 
+
+--- Document Chunk 57 ---
+areas. The trains tend to move relatively 
+
+--- Document Chunk 58 ---
+slowly, perhaps up to 80 or 100km/h, 
+
+--- Document Chunk 59 ---
+they accelerate and brake quickly, and 
+
+--- Document Chunk 60 ---
+they tend to be of the same type and 
+
+--- Document Chunk 61 ---
+configuration (but not always!). That 
+
+--- Document Chunk 62 ---
+means they have the same, or at least 
+
+--- Document Chunk 63 ---
+very similar, characteristics in terms of 
+
+--- Document Chunk 64 ---
+acceleration, braking and top speed, the 
+
+--- Document Chunk 65 ---
+variables that most significantly influence 
+
+--- Document Chunk 66 ---
+design. There are no slow-moving 
+
+--- Document Chunk 67 ---
+freight trains to worry about, the railway 
+
+--- Document Chunk 68 ---
+Metros can be very varied in the way they look, the way they operate and the solutions adopted. 
+
+--- Document Chunk 69 ---
+From left to right, Beijing, Moscow and New York.
+
+--- Document Chunk 70 ---
+Photos Shutterstock/Markus Mainka/Volkova Natalia/Oneinchpunch.
+
+--- Document Chunk 71 ---
+ IRSE News |  Issue 296  |  February 2023
+
+--- Document Chunk 72 ---
+13
+
+--- Document Chunk 73 ---
+is nearly always operated as a fully 
+
+--- Document Chunk 74 ---
+vertically integrated business, there are 
+
+--- Document Chunk 75 ---
+few points, crossings and complicated 
+
+--- Document Chunk 76 ---
+junctions and there tend not to be 
+
+--- Document Chunk 77 ---
+connections to neighbouring railways.
+
+--- Document Chunk 78 ---
+However, a metro train will typically 
+
+--- Document Chunk 79 ---
+carry several hundred people, often 
+
+--- Document Chunk 80 ---
+up to 1000, crushed together in peak 
+
+--- Document Chunk 81 ---
+periods, at headways as low as 90s with 
+
+--- Document Chunk 82 ---
+dwell times of 45s at busy interchange 
+
+--- Document Chunk 83 ---
+stations through constrained 
+
+--- Document Chunk 84 ---
+infrastructure and crowded stations. 
+
+--- Document Chunk 85 ---
+Many lines will be moving between 
+
+--- Document Chunk 86 ---
+20 000 and 50 000 people per hour 
+
+--- Document Chunk 87 ---
+per direction. Managing that many 
+
+--- Document Chunk 88 ---
+people, often in confined spaces, poses 
+
+--- Document Chunk 89 ---
+particular challenges, some of which we 
+
+--- Document Chunk 90 ---
+will discuss in this article.
+
+--- Document Chunk 91 ---
+It's true that the physics of trains are 
+
+--- Document Chunk 92 ---
+the same whether you’re moving at 
+
+--- Document Chunk 93 ---
+80km/h, 100km/h, 200km/h or even 
+
+--- Document Chunk 94 ---
+at 500km/h. Newton’s laws apply 
+
+--- Document Chunk 95 ---
+however, the parameters can differ, 
+
+--- Document Chunk 96 ---
+whether that's train resistance, motoring 
+
+--- Document Chunk 97 ---
+or braking acceleration or adhesion, or 
+
+--- Document Chunk 98 ---
+a combination of these. This leads to 
+
+--- Document Chunk 99 ---
+metros offering a different challenge to 
+
+--- Document Chunk 100 ---
+other railway systems.
+
+--- Document Chunk 101 ---
+So, all metro systems face the 
+
+--- Document Chunk 102 ---
+same challenges?
+
+--- Document Chunk 103 ---
+Whilst most metros face the challenges 
+
+--- Document Chunk 104 ---
+of moving large numbers of people 
+
+--- Document Chunk 105 ---
+safely through urban areas, several 
+
+--- Document Chunk 106 ---
+factors vary from city to city. Although 
+
+--- Document Chunk 107 ---
+in some cases, for example in China 
+
+--- Document Chunk 108 ---
+where there is rapid development of new 
+
+--- Document Chunk 109 ---
+urban railways, there can be a relatively 
+
+--- Document Chunk 110 ---
+similar approach for new-build city 
+
+--- Document Chunk 111 ---
+railways, that is not the case for most 
+
+--- Document Chunk 112 ---
+railways worldwide. 
+
+--- Document Chunk 113 ---
+Some metro systems have been 
+
+--- Document Chunk 114 ---
+operating for a very long time, for 
+
+--- Document Chunk 115 ---
+example London where parts of the 
+
+--- Document Chunk 116 ---
+Metropolitan line have followed the 
+
+--- Document Chunk 117 ---
+same route since the 1860s. Paris Metro 
+
+--- Document Chunk 118 ---
+began operation in 1900 and New York 
+
+--- Document Chunk 119 ---
+Subway in 1904. Clearly there have 
+
+--- Document Chunk 120 ---
+been multiple upgrades on each railway 
+
+--- Document Chunk 121 ---
+over the century, but culture, historical 
+
+--- Document Chunk 122 ---
+approaches and unique solutions to 
+
+--- Document Chunk 123 ---
+engineering problems have posed 
+
+--- Document Chunk 124 ---
+problems ever since. In many well-
+
+--- Document Chunk 125 ---
+established cities, it is not straightforward 
+
+--- Document Chunk 126 ---
+to dig new tunnels through existing 
+
+--- Document Chunk 127 ---
+congested sub-surface areas, as 
+
+--- Document Chunk 128 ---
+demonstrated by the recent Crossrail 
+
+--- Document Chunk 129 ---
+project in London.
+
+--- Document Chunk 130 ---
+One challenge comes from the 
+
+--- Document Chunk 131 ---
+infrastructure that current railway 
+
+--- Document Chunk 132 ---
+engineers have inherited. There are parts 
+
+--- Document Chunk 133 ---
+of the London Underground network 
+
+--- Document Chunk 134 ---
+where there are no station overruns 
+
+--- Document Chunk 135 ---
+at all, with trains having to stop safely 
+
+--- Document Chunk 136 ---
+immediately in front of an immoveable 
+
+--- Document Chunk 137 ---
+object such as a station concourse 
+
+--- Document Chunk 138 ---
+or even a redundant tunnel boring 
+
+--- Document Chunk 139 ---
+shield. Maintaining high performance 
+
+--- Document Chunk 140 ---
+running whilst ensuring that overruns 
+
+--- Document Chunk 141 ---
+that may cause significant human and 
+
+--- Document Chunk 142 ---
+material damage cannot occur is a 
+
+--- Document Chunk 143 ---
+significant challenge.
+
+--- Document Chunk 144 ---
+Whilst some metros operate entirely 
+
+--- Document Chunk 145 ---
+end-to-end within busy urban areas, 
+
+--- Document Chunk 146 ---
+others run multiple lines from different 
+
+--- Document Chunk 147 ---
+suburbs through common central 
+
+--- Document Chunk 148 ---
+sections. One example of this is the Oslo 
+
+--- Document Chunk 149 ---
+T-bane where there is a high capacity, 
+
+--- Document Chunk 150 ---
+low headway central section, served by 
+
+--- Document Chunk 151 ---
+trains running in from the outskirts of 
+
+--- Document Chunk 152 ---
+the city. Finding a viable solution that 
+
+--- Document Chunk 153 ---
+allows economic fitment and efficient 
+
+--- Document Chunk 154 ---
+operation on a railway where there is 
+
+--- Document Chunk 155 ---
+a 15-minute headway in places, but a 
+
+--- Document Chunk 156 ---
+two-minute headway in others requires 
+
+--- Document Chunk 157 ---
+detailed systems engineering.
+
+--- Document Chunk 158 ---
+Metros are complex systems of systems needing a range of solutions and interconnections. However when a railway is 
+
+--- Document Chunk 159 ---
+over 100 years old the challenges multiply. This photo shows cabling old and new and ancient disconnection boxes on 
+
+--- Document Chunk 160 ---
+London's Underground. Photo Pixabay/JLenio.
+
+--- Document Chunk 161 ---
+Holmenkollen station on Oslo Metro. Whilst service on this line is typically one train per 
+
+--- Document Chunk 162 ---
+direction every 15 minutes, trains on this route soon join the common central section with 
+
+--- Document Chunk 163 ---
+headways around two minutes. This station is also designed to handle extremely high 
+
+--- Document Chunk 164 ---
+passenger demand during winter sporting events. Photo Shutterstock/Markus Mainka.
+
+--- Document Chunk 165 ---
+>>>
+
+--- Document Chunk 166 ---
+ IRSE News |  Issue 296  |  February 2023
+
+--- Document Chunk 167 ---
+14
+
+--- Document Chunk 168 ---
+Some of the busiest mass transit systems 
+
+--- Document Chunk 169 ---
+in the world can be found in areas where 
+
+--- Document Chunk 170 ---
+there are monsoon downfalls at varying 
+
+--- Document Chunk 171 ---
+intervals. One example is Singapore’s 
+
+--- Document Chunk 172 ---
+Mass Rapid Transit (MRT) system 
+
+--- Document Chunk 173 ---
+which has sections both in tunnel 
+
+--- Document Chunk 174 ---
+and on viaducts. 
+
+--- Document Chunk 175 ---
+Ensuring that adhesion is adequate 
+
+--- Document Chunk 176 ---
+to run at close train intervals in 
+
+--- Document Chunk 177 ---
+these exposed areas requires a clear 
+
+--- Document Chunk 178 ---
+understanding of the odometry used on 
+
+--- Document Chunk 179 ---
+the train to determine current speed and 
+
+--- Document Chunk 180 ---
+location and dynamic reduction of brake 
+
+--- Document Chunk 181 ---
+rates when low adhesion conditions are 
+
+--- Document Chunk 182 ---
+detected with rain detectors at stations. 
+
+--- Document Chunk 183 ---
+There are many other examples of 
+
+--- Document Chunk 184 ---
+railways that must deal with extreme 
+
+--- Document Chunk 185 ---
+weather conditions, be it extreme 
+
+--- Document Chunk 186 ---
+heat (for example Riyadh) or passing 
+
+--- Document Chunk 187 ---
+typhoons (for example Hong Kong 
+
+--- Document Chunk 188 ---
+or Taiwan), where the forces exerted 
+
+--- Document Chunk 189 ---
+by high winds can impact braking 
+
+--- Document Chunk 190 ---
+distances. Extreme weather has other 
+
+--- Document Chunk 191 ---
+impacts, such as forces on PSD (Platform 
+
+--- Document Chunk 192 ---
+Screen Doors), and trains which have 
+
+--- Document Chunk 193 ---
+to be considered for the platform-train 
+
+--- Document Chunk 194 ---
+gap, this can also be an outcome with 
+
+--- Document Chunk 195 ---
+tunnel ventilation forces if they are not 
+
+--- Document Chunk 196 ---
+considered correctly during design.
+
+--- Document Chunk 197 ---
+Do all metros have full train 
+
+--- Document Chunk 198 ---
+control systems?
+
+--- Document Chunk 199 ---
+Nearly all metros have full 
+
+--- Document Chunk 200 ---
+signalling systems. 
+
+--- Document Chunk 201 ---
+The vast majority also have at least 
+
+--- Document Chunk 202 ---
+a simple form of Automatic Train 
+
+--- Document Chunk 203 ---
+Protection (ATP), based on the use of 
+
+--- Document Chunk 204 ---
+mechanical or electronic trainstops that 
+
+--- Document Chunk 205 ---
+can cause a train to apply its brakes 
+
+--- Document Chunk 206 ---
+should it pass beyond a safe location. 
+
+--- Document Chunk 207 ---
+These are linked directly to trackside 
+
+--- Document Chunk 208 ---
+signals, and the design of the railway 
+
+--- Document Chunk 209 ---
+provides an overlap beyond each 
+
+--- Document Chunk 210 ---
+signal, the length of which is designed 
+
+--- Document Chunk 211 ---
+to emergency brake a train to rest 
+
+--- Document Chunk 212 ---
+within the overlap distance to prevent 
+
+--- Document Chunk 213 ---
+collisions with other trains/buffer stops 
+
+--- Document Chunk 214 ---
+or derailments at points. Where close 
+
+--- Document Chunk 215 ---
+stopping to buffer stops or trains is 
+
+--- Document Chunk 216 ---
+required speed control of the train on 
+
+--- Document Chunk 217 ---
+the approach is supervised by the ATP to 
+
+--- Document Chunk 218 ---
+reduce the required overlap distance. 
+
+--- Document Chunk 219 ---
+Since the 1960s metro railways have 
+
+--- Document Chunk 220 ---
+invested in technology to allow 
+
+--- Document Chunk 221 ---
+performance to be increased whilst 
+
+--- Document Chunk 222 ---
+maintaining safety. The provision of ATP 
+
+--- Document Chunk 223 ---
+has been combined with Automatic Train 
+
+--- Document Chunk 224 ---
+Operation (ATO) in many cases, allowing 
+
+--- Document Chunk 225 ---
+trains to be driven by on-board systems. 
+
+--- Document Chunk 226 ---
+This automation has allowed trains to 
+
+--- Document Chunk 227 ---
+be driven very close to the safe limits 
+
+--- Document Chunk 228 ---
+protected by the ATP, allowing optimum 
+
+--- Document Chunk 229 ---
+use of the capacity permitted by the 
+
+--- Document Chunk 230 ---
+infrastructure to be achieved.
+
+--- Document Chunk 231 ---
+From the 1990s onwards the state 
+
+--- Document Chunk 232 ---
+of technology had reached a point 
+
+--- Document Chunk 233 ---
+at which the first Communications-
+
+--- Document Chunk 234 ---
+Based Train Control (CBTC) systems 
+
+--- Document Chunk 235 ---
+could be introduced. Commonplace 
+
+--- Document Chunk 236 ---
+for new-build metro projects and 
+
+--- Document Chunk 237 ---
+upgrades, CBTC systems continuously 
+
+--- Document Chunk 238 ---
+update the position and speed of 
+
+--- Document Chunk 239 ---
+each train to determine the safe 
+
+--- Document Chunk 240 ---
+speed and distance at which they can 
+
+--- Document Chunk 241 ---
+travel at every point along the line to 
+
+--- Document Chunk 242 ---
+ensure the safe separation of trains. 
+
+--- Document Chunk 243 ---
+The communications medium of the 
+
+--- Document Chunk 244 ---
+earlier systems was typically inductive 
+
+--- Document Chunk 245 ---
+loop systems in the track, but today’s 
+
+--- Document Chunk 246 ---
+systems are typically based on radio 
+
+--- Document Chunk 247 ---
+communication. CBTC’s ability to 
+
+--- Document Chunk 248 ---
+provide constant updates not only allows 
+
+--- Document Chunk 249 ---
+trains to run closer together but also 
+
+--- Document Chunk 250 ---
+enhanced control of the running profile 
+
+--- Document Chunk 251 ---
+of each train and optimises the collective 
+
+--- Document Chunk 252 ---
+behaviour of the service. 
+
+--- Document Chunk 253 ---
+The efficient operation of a metro is 
+
+--- Document Chunk 254 ---
+dependent on the provision of a highly 
+
+--- Document Chunk 255 ---
+functional control centre system. 
+
+--- Document Chunk 256 ---
+Automation within these centres has 
+
+--- Document Chunk 257 ---
+again developed rapidly in recent 
+
+--- Document Chunk 258 ---
+decades, and these systems have 
+
+--- Document Chunk 259 ---
+been referred to as Automatic Train 
+
+--- Document Chunk 260 ---
+Supervision (ATS) since the 1960s, 
+
+--- Document Chunk 261 ---
+recognising the way that technology 
+
+--- Document Chunk 262 ---
+either enacts decisions or advises staff of 
+
+--- Document Chunk 263 ---
+the optimum choice that can be made. 
+
+--- Document Chunk 264 ---
+What is Automatic Train 
+
+--- Document Chunk 265 ---
+Supervision?
+
+--- Document Chunk 266 ---
+A modern metro cannot function 
+
+--- Document Chunk 267 ---
+effectively without ATS. As well as 
+
+--- Document Chunk 268 ---
+managing the signalling and train 
+
+--- Document Chunk 269 ---
+control systems, the ATS will typically 
+
+--- Document Chunk 270 ---
+have interfaces to other systems such 
+
+--- Document Chunk 271 ---
+as those for passenger information, 
+
+--- Document Chunk 272 ---
+maintenance management, Supervisory 
+
+--- Document Chunk 273 ---
+Control and Data Acquisition (SCADA) 
+
+--- Document Chunk 274 ---
+systems that control the traction 
+
+--- Document Chunk 275 ---
+power and station equipment, and now 
+
+--- Document Chunk 276 ---
+emerging as a requirement the Rail 
+
+--- Document Chunk 277 ---
+Enterprise Asset Management Systems 
+
+--- Document Chunk 278 ---
+(REAMS) used to optimise maintenance 
+
+--- Document Chunk 279 ---
+and asset replacement. With trains being 
+
+--- Document Chunk 280 ---
+automatically driven, the station to 
+
+--- Document Chunk 281 ---
+station run times are more predictable 
+
+--- Document Chunk 282 ---
+than when driven by human operators 
+
+--- Document Chunk 283 ---
+that have individual driving styles. 
+
+--- Document Chunk 284 ---
+With predictable and adjustable inter-
+
+--- Document Chunk 285 ---
+station run-times the Automatic Train 
+
+--- Document Chunk 286 ---
+Regulation (ATR) function of the ATS can 
+
+--- Document Chunk 287 ---
+regulate the service to maintain/restore 
+
+--- Document Chunk 288 ---
+the timetable or desired headway.
+
+--- Document Chunk 289 ---
+Singapore's new NSEW lines control centre, home to high-performance  
+
+--- Document Chunk 290 ---
+ATS and SCADA systems.
+
+--- Document Chunk 291 ---
+ IRSE News |  Issue 296  |  February 2023
+
+--- Document Chunk 292 ---
+15
+
+--- Document Chunk 293 ---
+Is there an ETCS/CTCS type 
+
+--- Document Chunk 294 ---
+system for metros?
+
+--- Document Chunk 295 ---
+The lack of requirements for 
+
+--- Document Chunk 296 ---
+interoperability between metro railways, 
+
+--- Document Chunk 297 ---
+the variations between them, the way 
+
+--- Document Chunk 298 ---
+in which they have evolved and the 
+
+--- Document Chunk 299 ---
+fact that a limited number of train 
+
+--- Document Chunk 300 ---
+types operate on them has led to no 
+
+--- Document Chunk 301 ---
+common global standard being adopted 
+
+--- Document Chunk 302 ---
+to date. The current situation is that a 
+
+--- Document Chunk 303 ---
+small number of suppliers have created 
+
+--- Document Chunk 304 ---
+proprietary systems which most new or 
+
+--- Document Chunk 305 ---
+updated systems are based on with new 
+
+--- Document Chunk 306 ---
+line or upgraded line projects usually 
+
+--- Document Chunk 307 ---
+having a single system supplier. 
+
+--- Document Chunk 308 ---
+In most cases modifications are made 
+
+--- Document Chunk 309 ---
+to tailor the basic systems to the needs 
+
+--- Document Chunk 310 ---
+of the cities they are being delivered to. 
+
+--- Document Chunk 311 ---
+It is generally the case that the supplier 
+
+--- Document Chunk 312 ---
+of trackside equipment will also provide 
+
+--- Document Chunk 313 ---
+the onboard equipment necessary for 
+
+--- Document Chunk 314 ---
+ATP and ATO functionality, even if the 
+
+--- Document Chunk 315 ---
+trains themselves are not manufactured 
+
+--- Document Chunk 316 ---
+by them. This affects the procurement 
+
+--- Document Chunk 317 ---
+strategy for many authorities as they 
+
+--- Document Chunk 318 ---
+must decide to have a common system, 
+
+--- Document Chunk 319 ---
+a few preferred suppliers or a complete 
+
+--- Document Chunk 320 ---
+free market approach which could result 
+
+--- Document Chunk 321 ---
+in all lines having different systems (even 
+
+--- Document Chunk 322 ---
+from the same suppliers) and the long-
+
+--- Document Chunk 323 ---
+term maintenance and obsolescence 
+
+--- Document Chunk 324 ---
+issues these create.
+
+--- Document Chunk 325 ---
+Common standards like ETCS bring 
+
+--- Document Chunk 326 ---
+commercial advantages to railway 
+
+--- Document Chunk 327 ---
+authorities, in particular the ability to 
+
+--- Document Chunk 328 ---
+be able to make comparisons between 
+
+--- Document Chunk 329 ---
+multiple suppliers when purchasing, 
+
+--- Document Chunk 330 ---
+and to be confident that if extensions or 
+
+--- Document Chunk 331 ---
+replacements are required, they can – at 
+
+--- Document Chunk 332 ---
+least to some extent – be procured from 
+
+--- Document Chunk 333 ---
+competing companies. The detailed 
+
+--- Document Chunk 334 ---
+definition of the air gap interface means 
+
+--- Document Chunk 335 ---
+that onboard equipment from one 
+
+--- Document Chunk 336 ---
+company can be expected (guaranteed?) 
+
+--- Document Chunk 337 ---
+to function properly with trackside 
+
+--- Document Chunk 338 ---
+equipment from other companies. 
+
+--- Document Chunk 339 ---
+Whilst initiatives such as the Urban 
+
+--- Document Chunk 340 ---
+Guided Transport Management System 
+
+--- Document Chunk 341 ---
+(UGTMS) specification and IEEE 
+
+--- Document Chunk 342 ---
+1474 series before that, have sought 
+
+--- Document Chunk 343 ---
+to make something approaching a 
+
+--- Document Chunk 344 ---
+standard, the greatest progress towards 
+
+--- Document Chunk 345 ---
+standardisation has been driven by some 
+
+--- Document Chunk 346 ---
+of the railways that are large enough 
+
+--- Document Chunk 347 ---
+to require it in their procurement 
+
+--- Document Chunk 348 ---
+processes. In Paris the Ouragan project 
+
+--- Document Chunk 349 ---
+and on New York Metro the Canarsie 
+
+--- Document Chunk 350 ---
+line project have aimed to create 
+
+--- Document Chunk 351 ---
+environments in which more than one 
+
+--- Document Chunk 352 ---
+supplier can deliver current and future 
+
+--- Document Chunk 353 ---
+systems based on common interfaces, 
+
+--- Document Chunk 354 ---
+but these are based on the specific 
+
+--- Document Chunk 355 ---
+needs of those cities. Other cities have 
+
+--- Document Chunk 356 ---
+ended up with de facto standards, for 
+
+--- Document Chunk 357 ---
+example on the London Underground 
+
+--- Document Chunk 358 ---
+one supplier has provided systems for 
+
+--- Document Chunk 359 ---
+all except one of the new railways or 
+
+--- Document Chunk 360 ---
+line upgrades of the past twenty years, 
+
+--- Document Chunk 361 ---
+despite competitive tendering.
+
+--- Document Chunk 362 ---
+What else is different  
+
+--- Document Chunk 363 ---
+about metros?
+
+--- Document Chunk 364 ---
+There are a wide range of interfaces 
+
+--- Document Chunk 365 ---
+that metro train control systems 
+
+--- Document Chunk 366 ---
+must deal with that main line railways 
+
+--- Document Chunk 367 ---
+typically don’t. 
+
+--- Document Chunk 368 ---
+On the trackside these can be as diverse 
+
+--- Document Chunk 369 ---
+as interlocking to flood gates or bomb 
+
+--- Document Chunk 370 ---
+blast doors that block tracks, they can 
+
+--- Document Chunk 371 ---
+also include detectors to ensure that big 
+
+--- Document Chunk 372 ---
+trains can’t be sent down small tunnels 
+
+--- Document Chunk 373 ---
+or a wide range of protection devices 
+
+--- Document Chunk 374 ---
+to allow track access for maintenance. 
+
+--- Document Chunk 375 ---
+For new underground metro systems, 
+
+--- Document Chunk 376 ---
+the ATS system regulates the number of 
+
+--- Document Chunk 377 ---
+trains permitted in a ventilation section 
+
+--- Document Chunk 378 ---
+to ensure smoke control strategies can 
+
+--- Document Chunk 379 ---
+move smoke away from passengers 
+
+--- Document Chunk 380 ---
+in the event of a fire. This is supported 
+
+--- Document Chunk 381 ---
+by the ATS providing train location 
+
+--- Document Chunk 382 ---
+information to the ventilation system 
+
+--- Document Chunk 383 ---
+SCADA so that the best ventilation and 
+
+--- Document Chunk 384 ---
+evacuation strategies can be presented 
+
+--- Document Chunk 385 ---
+to the operator. The ATS also manages 
+
+--- Document Chunk 386 ---
+train movements and authorities to react 
+
+--- Document Chunk 387 ---
+to fire detection, for example holding 
+
+--- Document Chunk 388 ---
+trains that have reported a potential fire 
+
+--- Document Chunk 389 ---
+on board at the next platform to facilitate 
+
+--- Document Chunk 390 ---
+evacuation and not dispatching trains 
+
+--- Document Chunk 391 ---
+towards fire incidents.
+
+--- Document Chunk 392 ---
+One of the most common systems 
+
+--- Document Chunk 393 ---
+that metro signalling systems have 
+
+--- Document Chunk 394 ---
+to interface with are Platform Screen 
+
+--- Document Chunk 395 ---
+Doors (PSDs) which provide positive 
+
+--- Document Chunk 396 ---
+segregation between trains and 
+
+--- Document Chunk 397 ---
+passengers within stations. These 
+
+--- Document Chunk 398 ---
+are used for environmental reasons, 
+
+--- Document Chunk 399 ---
+ensuring that station systems operate 
+
+--- Document Chunk 400 ---
+efficiently without trying to air condition 
+
+--- Document Chunk 401 ---
+tunnels, and for safety, allowing trains 
+
+--- Document Chunk 402 ---
+to enter stations at full line speed, 
+
+--- Document Chunk 403 ---
+if braking distances allow, whilst 
+
+--- Document Chunk 404 ---
+keeping passengers away from the 
+
+--- Document Chunk 405 ---
+track. Dwell times can be managed 
+
+--- Document Chunk 406 ---
+efficiently, providing another piece in 
+
+--- Document Chunk 407 ---
+the jigsaw of ensuring the delivery of the 
+
+--- Document Chunk 408 ---
+highest capacity.
+
+--- Document Chunk 409 ---
+PSDs have to interface with train and 
+
+--- Document Chunk 410 ---
+trackside equipment, ensuring that 
+
+--- Document Chunk 411 ---
+both train doors and PSD operation is 
+
+--- Document Chunk 412 ---
+synchronised to reduce the entrapment 
+
+--- Document Chunk 413 ---
+risk of passengers between the train 
+
+--- Document Chunk 414 ---
+and PSDs. There are various failure 
+
+--- Document Chunk 415 ---
+modes that need to be dealt with which 
+
+--- Document Chunk 416 ---
+increase the complexity of the interface. 
+
+--- Document Chunk 417 ---
+One of the most common systems that metro signalling systems have to interface with are 
+
+--- Document Chunk 418 ---
+Platform Screen Doors (PSDs). These half-height units are in Singapore.
+
+--- Document Chunk 419 ---
+>>>
+
+--- Document Chunk 420 ---
+ IRSE News |  Issue 296  |  February 2023
+
+--- Document Chunk 421 ---
+16
+
+--- Document Chunk 422 ---
+What does a typical metro 
+
+--- Document Chunk 423 ---
+signalling and train control 
+
+--- Document Chunk 424 ---
+system look like?
+
+--- Document Chunk 425 ---
+This section describes the typical 
+
+--- Document Chunk 426 ---
+architecture and subsystems of a CBTC 
+
+--- Document Chunk 427 ---
+metro train control system, as shown in 
+
+--- Document Chunk 428 ---
+the simplified block diagram in Figure 1. 
+
+--- Document Chunk 429 ---
+There are subtle differences between 
+
+--- Document Chunk 430 ---
+systems from different suppliers as 
+
+--- Document Chunk 431 ---
+delivered to different cities, but the basic 
+
+--- Document Chunk 432 ---
+functions remain the same, although 
+
+--- Document Chunk 433 ---
+in some cases they are delivered by 
+
+--- Document Chunk 434 ---
+different subsystems.
+
+--- Document Chunk 435 ---
+As in most signalling systems for any 
+
+--- Document Chunk 436 ---
+type of railway the heart of the system 
+
+--- Document Chunk 437 ---
+is one or more interlockings, or devices 
+
+--- Document Chunk 438 ---
+performing interlocking functionality. 
+
+--- Document Chunk 439 ---
+The interlocking may be combined with 
+
+--- Document Chunk 440 ---
+the ATP into a zone controller or work 
+
+--- Document Chunk 441 ---
+with a separate ATP system. Unlike main 
+
+--- Document Chunk 442 ---
+line systems that have equipment rooms 
+
+--- Document Chunk 443 ---
+and remote line side cabinets metros 
+
+--- Document Chunk 444 ---
+have restricted space in tunnels and with 
+
+--- Document Chunk 445 ---
+ATO provide a high-risk environment 
+
+--- Document Chunk 446 ---
+for maintainers so active trackside 
+
+--- Document Chunk 447 ---
+equipment is kept to a minimum. Metros 
+
+--- Document Chunk 448 ---
+can have a range of architectures with 
+
+--- Document Chunk 449 ---
+the most common being centralised or 
+
+--- Document Chunk 450 ---
+sectorised with sectors of two to three 
+
+--- Document Chunk 451 ---
+stations which minimises the impact of a 
+
+--- Document Chunk 452 ---
+sector failure.
+
+--- Document Chunk 453 ---
+The interlocking subsystem is 
+
+--- Document Chunk 454 ---
+responsible for the safe routing of trains 
+
+--- Document Chunk 455 ---
+to prevent collisions or derailments at 
+
+--- Document Chunk 456 ---
+junctions and for preventing trains from 
+
+--- Document Chunk 457 ---
+travelling in opposing directions on the 
+
+--- Document Chunk 458 ---
+same section of track. Interlockings 
+
+--- Document Chunk 459 ---
+are directly responsible for the safe 
+
+--- Document Chunk 460 ---
+operation of trains and so must be 
+
+--- Document Chunk 461 ---
+designed to Safety Integrity Level (SIL) 4. 
+
+--- Document Chunk 462 ---
+The interlockings react to commands 
+
+--- Document Chunk 463 ---
+from the ATS system to ensure that 
+
+--- Document Chunk 464 ---
+trains are routed in accordance with 
+
+--- Document Chunk 465 ---
+the timetable. 
+
+--- Document Chunk 466 ---
+Metro railways tend not to need so 
+
+--- Document Chunk 467 ---
+many trackside signals, especially for 
+
+--- Document Chunk 468 ---
+GoA3/4 systems where there is no train 
+
+--- Document Chunk 469 ---
+driver at the front of the train, instead 
+
+--- Document Chunk 470 ---
+they relay all necessary movement 
+
+--- Document Chunk 471 ---
+authority information directly to 
+
+--- Document Chunk 472 ---
+onboard computers, or to the cab if 
+
+--- Document Chunk 473 ---
+there is a driver.
+
+--- Document Chunk 474 ---
+The ATP subsystem determines the 
+
+--- Document Chunk 475 ---
+limit of movement authority for each 
+
+--- Document Chunk 476 ---
+train, which determines where the 
+
+--- Document Chunk 477 ---
+train is permitted to travel, based on 
+
+--- Document Chunk 478 ---
+the routes set by the interlocking and 
+
+--- Document Chunk 479 ---
+the position of trains within the route. 
+
+--- Document Chunk 480 ---
+The ATP determines the position of all 
+
+--- Document Chunk 481 ---
+trains using train position reports and/or 
+
+--- Document Chunk 482 ---
+interlocking train detection status. How 
+
+--- Document Chunk 483 ---
+this is done varies greatly from system to 
+
+--- Document Chunk 484 ---
+system. ATP subsystems also supervise 
+
+--- Document Chunk 485 ---
+train movements and ensure that they 
+
+--- Document Chunk 486 ---
+only occur on authorised routes, in 
+
+--- Document Chunk 487 ---
+the correct direction and within the 
+
+--- Document Chunk 488 ---
+limits of the movement authority. The 
+
+--- Document Chunk 489 ---
+ATP supervises the safety of all train 
+
+--- Document Chunk 490 ---
+movements whether train control is from 
+
+--- Document Chunk 491 ---
+the ATO or the train operator, and as a 
+
+--- Document Chunk 492 ---
+result the ATP is also designed to SIL 4. 
+
+--- Document Chunk 493 ---
+ATP equipment is situated trackside 
+
+--- Document Chunk 494 ---
+and on the train.
+
+--- Document Chunk 495 ---
+ATO is the subsystem that drives the train 
+
+--- Document Chunk 496 ---
+between stations within the constraints 
+
+--- Document Chunk 497 ---
+established by the ATP subsystem. 
+
+--- Document Chunk 498 ---
+The functionality of the ATO will vary 
+
+--- Document Chunk 499 ---
+depending on the grade of automation – 
+
+--- Document Chunk 500 ---
+if the railway is fully automated the ATO 
+
+--- Document Chunk 501 ---
+will need to replace all the functions of 
+
+--- Document Chunk 502 ---
+the driver in normal operation, degraded, 
+
+--- Document Chunk 503 ---
+emergency and fault modes. Actions 
+
+--- Document Chunk 504 ---
+are either automated or remotely 
+
+--- Document Chunk 505 ---
+controlled from the control centre. The 
+
+--- Document Chunk 506 ---
+ATO replaces the train operator but 
+
+--- Document Chunk 507 ---
+one of the goals for automated systems 
+
+--- Document Chunk 508 ---
+is to eliminate the errors that humans 
+
+--- Document Chunk 509 ---
+introduce, so the ATO subsystem is 
+
+--- Document Chunk 510 ---
+typically defined as a SIL 2 system. 
+
+--- Document Chunk 511 ---
+Allocation of SIL to the subsystems has 
+
+--- Document Chunk 512 ---
+varying approaches, in that respect 
+
+--- Document Chunk 513 ---
+metros are no different to other 
+
+--- Document Chunk 514 ---
+railways, a balance is struck following 
+
+--- Document Chunk 515 ---
+the requirements and guidance from 
+
+--- Document Chunk 516 ---
+governing standards, but that outcome is 
+
+--- Document Chunk 517 ---
+not identical for what may appear to be 
+
+--- Document Chunk 518 ---
+the same system function.
+
+--- Document Chunk 519 ---
+ATP systems need to know both where 
+
+--- Document Chunk 520 ---
+the train is, and how fast it is moving, 
+
+--- Document Chunk 521 ---
+to a high degree of accuracy all the 
+
+--- Document Chunk 522 ---
+time. CBTC solutions are moving block 
+
+--- Document Chunk 523 ---
+systems where the available block length 
+
+--- Document Chunk 524 ---
+to the train ahead or other obstruction 
+
+--- Document Chunk 525 ---
+determines the maximum speed a train 
+
+--- Document Chunk 526 ---
+can travel and as the train ahead moves 
+
+--- Document Chunk 527 ---
+so does the available block. This means 
+
+--- Document Chunk 528 ---
+that safe operation is entirely dependent 
+
+--- Document Chunk 529 ---
+upon having this information available 
+
+--- Document Chunk 530 ---
+all the time so the decision not to apply 
+
+--- Document Chunk 531 ---
+the emergency brakes can be made. 
+
+--- Document Chunk 532 ---
+This is typically achieved by combining 
+
+--- Document Chunk 533 ---
+Beacon
+
+--- Document Chunk 534 ---
+Speed 
+
+--- Document Chunk 535 ---
+Sensors
+
+--- Document Chunk 536 ---
+Radio
+
+--- Document Chunk 537 ---
+Event 
+
+--- Document Chunk 538 ---
+Recorder
+
+--- Document Chunk 539 ---
+Beacon 
+
+--- Document Chunk 540 ---
+Reader
+
+--- Document Chunk 541 ---
+Signal
+
+--- Document Chunk 542 ---
+Point Switch
+
+--- Document Chunk 543 ---
+PSD
+
+--- Document Chunk 544 ---
+SCT
+
+--- Document Chunk 545 ---
+ATP
+
+--- Document Chunk 546 ---
+CBI
+
+--- Document Chunk 547 ---
+PSDC
+
+--- Document Chunk 548 ---
+Local ATS 
+
+--- Document Chunk 549 ---
+System
+
+--- Document Chunk 550 ---
+Emergency Vital 
+
+--- Document Chunk 551 ---
+Signalling 
+
+--- Document Chunk 552 ---
+Control Panel
+
+--- Document Chunk 553 ---
+Central ATS 
+
+--- Document Chunk 554 ---
+System
+
+--- Document Chunk 555 ---
+Emergency 
+
+--- Document Chunk 556 ---
+Stop Plunger 
+
+--- Document Chunk 557 ---
+Overview 
+
+--- Document Chunk 558 ---
+Display of 
+
+--- Document Chunk 559 ---
+Railway
+
+--- Document Chunk 560 ---
+Staff 
+
+--- Document Chunk 561 ---
+Protection
+
+--- Document Chunk 562 ---
+Key Switch
+
+--- Document Chunk 563 ---
+Radio Antenna
+
+--- Document Chunk 564 ---
+SCTs
+
+--- Document Chunk 565 ---
+Radio
+
+--- Document Chunk 566 ---
+Key:
+
+--- Document Chunk 567 ---
+ATP Automatic Train Protection System
+
+--- Document Chunk 568 ---
+ATO Automatic Train Operation System
+
+--- Document Chunk 569 ---
+ATS Automatic Train Supervision System
+
+--- Document Chunk 570 ---
+CBI Computer Based Interlocking System
+
+--- Document Chunk 571 ---
+PSD Platform Screen Doors
+
+--- Document Chunk 572 ---
+PSDC Platform Screen Doors Controller
+
+--- Document Chunk 573 ---
+SCT Signalling Control Terminal
+
+--- Document Chunk 574 ---
+TDMS Train Data Management System
+
+--- Document Chunk 575 ---
+Radio
+
+--- Document Chunk 576 ---
+Figure 1 – Simplified block diagram of a typical metro train control system.
+
+--- Document Chunk 577 ---
+ IRSE News |  Issue 296  |  February 2023
+
+--- Document Chunk 578 ---
+17
+
+--- Document Chunk 579 ---
+information from multiple systems 
+
+--- Document Chunk 580 ---
+such as a tachogenerator or speed 
+
+--- Document Chunk 581 ---
+probe determining how many times a 
+
+--- Document Chunk 582 ---
+wheel has rotated, a doppler radar or 
+
+--- Document Chunk 583 ---
+accelerometer to allow adjustments 
+
+--- Document Chunk 584 ---
+based on wheel slip or slide or changing 
+
+--- Document Chunk 585 ---
+wheel size, and absolute position 
+
+--- Document Chunk 586 ---
+references based on trackside beacons 
+
+--- Document Chunk 587 ---
+which are read by the train as it passes 
+
+--- Document Chunk 588 ---
+over them to assure location.
+
+--- Document Chunk 589 ---
+For modern CBTC systems there 
+
+--- Document Chunk 590 ---
+will be additional functionality that 
+
+--- Document Chunk 591 ---
+could be included as part of the ATO 
+
+--- Document Chunk 592 ---
+subsystem or by the provision of an 
+
+--- Document Chunk 593 ---
+additional processor unit. The Train Data 
+
+--- Document Chunk 594 ---
+Management System (TDMS) provides 
+
+--- Document Chunk 595 ---
+an interface between the signalling and 
+
+--- Document Chunk 596 ---
+train systems for functions that support 
+
+--- Document Chunk 597 ---
+train operation but are not directly 
+
+--- Document Chunk 598 ---
+involved with the train driving. This 
+
+--- Document Chunk 599 ---
+is especially true for fully automated 
+
+--- Document Chunk 600 ---
+trains that need to be told to ‘wake’ 
+
+--- Document Chunk 601 ---
+or ‘sleep’, configured for the correct 
+
+--- Document Chunk 602 ---
+mode of operation such as heating, 
+
+--- Document Chunk 603 ---
+air conditioning, lighting controls, 
+
+--- Document Chunk 604 ---
+closing dampers for train washing and 
+
+--- Document Chunk 605 ---
+the co-ordination of isolated doors 
+
+--- Document Chunk 606 ---
+for PSD operation.
+
+--- Document Chunk 607 ---
+Communication between the trackside 
+
+--- Document Chunk 608 ---
+and onboard systems is established 
+
+--- Document Chunk 609 ---
+over a trackside radio system providing 
+
+--- Document Chunk 610 ---
+a highly reliable link over which high 
+
+--- Document Chunk 611 ---
+integrity data can be transferred. 
+
+--- Document Chunk 612 ---
+There is a range of ways of making 
+
+--- Document Chunk 613 ---
+this happen, for example using highly 
+
+--- Document Chunk 614 ---
+directional antennas or ‘leaky feeder’ 
+
+--- Document Chunk 615 ---
+cables in tunnels or more conventional 
+
+--- Document Chunk 616 ---
+base stations in open air areas. Many 
+
+--- Document Chunk 617 ---
+systems use Wi-Fi in the ISM (Industrial, 
+
+--- Document Chunk 618 ---
+Scientific and Medical) bands but can 
+
+--- Document Chunk 619 ---
+also use 4G/5G, with cities in China 
+
+--- Document Chunk 620 ---
+mandating 4G as it is deemed less 
+
+--- Document Chunk 621 ---
+prone to interference. With IP based 
+
+--- Document Chunk 622 ---
+communications between sub-systems 
+
+--- Document Chunk 623 ---
+the CBTC can effectively be bearer 
+
+--- Document Chunk 624 ---
+agnostic if the required bandwidth and 
+
+--- Document Chunk 625 ---
+availability requirements can be met.
+
+--- Document Chunk 626 ---
+The ATS subsystem is responsible for the 
+
+--- Document Chunk 627 ---
+overall line control function, presenting 
+
+--- Document Chunk 628 ---
+the status of the railway to the operators, 
+
+--- Document Chunk 629 ---
+controlling trains and providing the 
+
+--- Document Chunk 630 ---
+operators with tools to both configure 
+
+--- Document Chunk 631 ---
+the timetable and the ability to intervene 
+
+--- Document Chunk 632 ---
+when the service deviates beyond the 
+
+--- Document Chunk 633 ---
+recovery capability of the ATS subsystem.
+
+--- Document Chunk 634 ---
+Grades of automation
+
+--- Document Chunk 635 ---
+As technology develops the level 
+
+--- Document Chunk 636 ---
+of automation of metros is rapidly 
+
+--- Document Chunk 637 ---
+increasing. The level of automation 
+
+--- Document Chunk 638 ---
+is generally measured by a railway’s 
+
+--- Document Chunk 639 ---
+Grade of Automation or GoA as 
+
+--- Document Chunk 640 ---
+illustrated in Figure 2. 
+
+--- Document Chunk 641 ---
+GoA2 railways retain a train operator in 
+
+--- Document Chunk 642 ---
+the cab but use computer systems to 
+
+--- Document Chunk 643 ---
+drive the train from location to location. 
+
+--- Document Chunk 644 ---
+ATP is required. In the event of ATO 
+
+--- Document Chunk 645 ---
+failure the driver can operate the train. 
+
+--- Document Chunk 646 ---
+An example would be the Central line 
+
+--- Document Chunk 647 ---
+of London Underground. GoA2 systems 
+
+--- Document Chunk 648 ---
+form most metro train control systems 
+
+--- Document Chunk 649 ---
+currently in service around the world.
+
+--- Document Chunk 650 ---
+GoA3 railways no longer need a full-time 
+
+--- Document Chunk 651 ---
+operator in the cab. Whilst there is still 
+
+--- Document Chunk 652 ---
+someone on the train who can operate it 
+
+--- Document Chunk 653 ---
+in the event of system failure, the train’s 
+
+--- Document Chunk 654 ---
+systems are entirely responsible for the 
+
+--- Document Chunk 655 ---
+operation of the train. The operator is 
+
+--- Document Chunk 656 ---
+freed up for passenger interaction. An 
+
+--- Document Chunk 657 ---
+example would be the Docklands Light 
+
+--- Document Chunk 658 ---
+Railway in London.
+
+--- Document Chunk 659 ---
+Finally, GoA4 railways need no-one 
+
+--- Document Chunk 660 ---
+on the train. They have sufficient 
+
+--- Document Chunk 661 ---
+automation to fully manage the 
+
+--- Document Chunk 662 ---
+opening and closing of doors, making 
+
+--- Document Chunk 663 ---
+the decision to start, and dealing 
+
+--- Document Chunk 664 ---
+with the majority of failures that can 
+
+--- Document Chunk 665 ---
+occur. An example would be Line 14 of 
+
+--- Document Chunk 666 ---
+the Paris Metro.
+
+--- Document Chunk 667 ---
+GoA3 and GoA4 systems need to be 
+
+--- Document Chunk 668 ---
+designed with appropriate obstruction 
+
+--- Document Chunk 669 ---
+detection and mitigation – there isn’t 
+
+--- Document Chunk 670 ---
+an operator looking out of the front 
+
+--- Document Chunk 671 ---
+window to identify that the train is likely 
+
+--- Document Chunk 672 ---
+to hit, or has hit, an obstruction. This is 
+
+--- Document Chunk 673 ---
+straightforward for tunnels, but not so 
+
+--- Document Chunk 674 ---
+simple for metros operating at grade 
+
+--- Document Chunk 675 ---
+or on viaducts.
+
+--- Document Chunk 676 ---
+GoA4 railways require detailed systems 
+
+--- Document Chunk 677 ---
+engineering to establish and mitigate 
+
+--- Document Chunk 678 ---
+the risks associated with not having an 
+
+--- Document Chunk 679 ---
+operator. This may involve the use of 
+
+--- Document Chunk 680 ---
+PSDs to manage the platform interface, 
+
+--- Document Chunk 681 ---
+or having enhanced communication 
+
+--- Document Chunk 682 ---
+systems to allow control centre 
+
+--- Document Chunk 683 ---
+operators to talk directly to passengers 
+
+--- Document Chunk 684 ---
+when issues arise.
+
+--- Document Chunk 685 ---
+Some key requirements are redundancy 
+
+--- Document Chunk 686 ---
+of equipment to prevent stalled trains, 
+
+--- Document Chunk 687 ---
+critical alarm reporting from train to the 
+
+--- Document Chunk 688 ---
+control centre and passenger-initiated 
+
+--- Document Chunk 689 ---
+safe evacuation in tunnels. These are 
+
+--- Document Chunk 690 ---
+generally specific to individual metros.
+
+--- Document Chunk 691 ---
+It’s all about  
+
+--- Document Chunk 692 ---
+system engineering
+
+--- Document Chunk 693 ---
+The systems are typically well contained 
+
+--- Document Chunk 694 ---
+and there are rarely challenges like 
+
+--- Document Chunk 695 ---
+level crossings (although some metros 
+
+--- Document Chunk 696 ---
+do have them) or frequent trespass 
+
+--- Document Chunk 697 ---
+incidents, however this is balanced 
+
+--- Document Chunk 698 ---
+Grade of 
+
+--- Document Chunk 699 ---
+automation Type of train operation Setting the train 
+
+--- Document Chunk 700 ---
+in motion
+
+--- Document Chunk 701 ---
+Stopping
+
+--- Document Chunk 702 ---
+the train
+
+--- Document Chunk 703 ---
+Door
+
+--- Document Chunk 704 ---
+closure
+
+--- Document Chunk 705 ---
+Operation in 
+
+--- Document Chunk 706 ---
+the event of 
+
+--- Document Chunk 707 ---
+disruption
+
+--- Document Chunk 708 ---
+4 Unattended Train Operation (UTO) Automatic Automatic Automatic Automatic
+
+--- Document Chunk 709 ---
+1
+
+--- Document Chunk 710 ---
+ATP and Train Operator,
+
+--- Document Chunk 711 ---
+Non-automated Train Operation 
+
+--- Document Chunk 712 ---
+(NTO)
+
+--- Document Chunk 713 ---
+Driver Driver Driver Driver
+
+--- Document Chunk 714 ---
+2 ATP, ATO and Train Operator,
+
+--- Document Chunk 715 ---
+Semi Automatic Train Operation (STO) Automatic Driver Driver
+
+--- Document Chunk 716 ---
+3 Attended, Driverless Train 
+
+--- Document Chunk 717 ---
+Operation (DTO) Automatic Automatic
+
+--- Document Chunk 718 ---
+T
+
+--- Document Chunk 719 ---
+rain
+
+--- Document Chunk 720 ---
+Attendant
+
+--- Document Chunk 721 ---
+0 Operator only, 
+
+--- Document Chunk 722 ---
+On-sight Train Operation (TOS) Driver Driver Driver Driver
+
+--- Document Chunk 723 ---
+Automatic
+
+--- Document Chunk 724 ---
+Train
+
+--- Document Chunk 725 ---
+Attendant
+
+--- Document Chunk 726 ---
+Figure 2 – Grades of automation and the differences between them.
+
+--- Document Chunk 727 ---
+>>>
+
+--- Document Chunk 728 ---
+ IRSE News |  Issue 296  |  February 2023
+
+--- Document Chunk 729 ---
+18
+
+--- Document Chunk 730 ---
+against the fact that metros are 
+
+--- Document Chunk 731 ---
+complex systems of systems. Each 
+
+--- Document Chunk 732 ---
+subsystem, for example ATP or ATO, 
+
+--- Document Chunk 733 ---
+are complex systems in their own right, 
+
+--- Document Chunk 734 ---
+but the overall solution involves myriad 
+
+--- Document Chunk 735 ---
+interfaces and interactions which need 
+
+--- Document Chunk 736 ---
+to be fully understood and managed 
+
+--- Document Chunk 737 ---
+if overall requirements, including 
+
+--- Document Chunk 738 ---
+safety and capacity, are to be met and 
+
+--- Document Chunk 739 ---
+proven to be met.
+
+--- Document Chunk 740 ---
+Systems engineering underpins the 
+
+--- Document Chunk 741 ---
+successful deployment of most metro 
+
+--- Document Chunk 742 ---
+signalling and train control projects, with 
+
+--- Document Chunk 743 ---
+the ‘V’ lifecycle clearly and accurately 
+
+--- Document Chunk 744 ---
+implemented throughout.
+
+--- Document Chunk 745 ---
+Reliability, Availability, Maintainability 
+
+--- Document Chunk 746 ---
+and Safety (RAMS) are evaluated in 
+
+--- Document Chunk 747 ---
+detail throughout metro projects 
+
+--- Document Chunk 748 ---
+(as explained in the article by Boyd 
+
+--- Document Chunk 749 ---
+McKillican in IRSE News January 2022, 
+
+--- Document Chunk 750 ---
+irse info/irsenews295). Reliability and 
+
+--- Document Chunk 751 ---
+maintainability directly drive availability 
+
+--- Document Chunk 752 ---
+(how much of the time the railway is 
+
+--- Document Chunk 753 ---
+available for service being based on how 
+
+--- Document Chunk 754 ---
+often individual parts go wrong and how 
+
+--- Document Chunk 755 ---
+long they take to fix), and safety in turn 
+
+--- Document Chunk 756 ---
+depends on the system operating as 
+
+--- Document Chunk 757 ---
+planned. With any mass transit system 
+
+--- Document Chunk 758 ---
+operating at high passenger loads, a 
+
+--- Document Chunk 759 ---
+stopped train can in itself be dangerous, 
+
+--- Document Chunk 760 ---
+particularly if traction power has to be 
+
+--- Document Chunk 761 ---
+removed and air conditioning/ventilation 
+
+--- Document Chunk 762 ---
+is no longer operative. SIL levels of the 
+
+--- Document Chunk 763 ---
+overall system need to be apportioned 
+
+--- Document Chunk 764 ---
+to subsystems to ensure the rate at 
+
+--- Document Chunk 765 ---
+which unsafe conditions could occur 
+
+--- Document Chunk 766 ---
+are clearly understood and managed. 
+
+--- Document Chunk 767 ---
+In the same way the impact of failure 
+
+--- Document Chunk 768 ---
+modes and their criticality needs to be 
+
+--- Document Chunk 769 ---
+established throughout the engineering 
+
+--- Document Chunk 770 ---
+phases of projects in order to ensure that 
+
+--- Document Chunk 771 ---
+the required levels are met, not just on 
+
+--- Document Chunk 772 ---
+opening day but throughout the service 
+
+--- Document Chunk 773 ---
+life which can typically be 20 to 25 years.
+
+--- Document Chunk 774 ---
+Modern metros are designed to deal 
+
+--- Document Chunk 775 ---
+with such incidents and the CBTC 
+
+--- Document Chunk 776 ---
+technology is considered when planning 
+
+--- Document Chunk 777 ---
+the line in terms of overruns and 
+
+--- Document Chunk 778 ---
+optimising safety and performance. Old 
+
+--- Document Chunk 779 ---
+systems are generally more of an ALARP 
+
+--- Document Chunk 780 ---
+(As Low as Reasonably Practicable) 
+
+--- Document Chunk 781 ---
+approach to get as safe as possible 
+
+--- Document Chunk 782 ---
+given the constraints. The term ALARP 
+
+--- Document Chunk 783 ---
+is subtlety different to SFAIRP (So Far 
+
+--- Document Chunk 784 ---
+As Is Reasonably Practical), ALARP 
+
+--- Document Chunk 785 ---
+and SFAIRP both have the concept of 
+
+--- Document Chunk 786 ---
+implementing hazard controls if practical 
+
+--- Document Chunk 787 ---
+and not grossly disproportionate to the 
+
+--- Document Chunk 788 ---
+benefit, however ALARP is presented as 
+
+--- Document Chunk 789 ---
+having a threshold, SFAIRP does not and 
+
+--- Document Chunk 790 ---
+forces evidence that possible, realistic 
+
+--- Document Chunk 791 ---
+and relevant hazard controls have been 
+
+--- Document Chunk 792 ---
+considered and included, unless they are 
+
+--- Document Chunk 793 ---
+grossly disproportionate to the benefit.
+
+--- Document Chunk 794 ---
+Computer simulation is widely used to 
+
+--- Document Chunk 795 ---
+ensure that the equipment provided 
+
+--- Document Chunk 796 ---
+delivers the performance necessary. 
+
+--- Document Chunk 797 ---
+This is the only realistic approach for 
+
+--- Document Chunk 798 ---
+CBTC systems to determine where the 
+
+--- Document Chunk 799 ---
+pinch points are as traditional signal to 
+
+--- Document Chunk 800 ---
+signal type headway calculations are 
+
+--- Document Chunk 801 ---
+not applicable when multiple trains 
+
+--- Document Chunk 802 ---
+can enter a route. This has been a 
+
+--- Document Chunk 803 ---
+science developed since the 1980s 
+
+--- Document Chunk 804 ---
+and is depended upon by railway 
+
+--- Document Chunk 805 ---
+authorities and suppliers alike now. 
+
+--- Document Chunk 806 ---
+For more information about how this 
+
+--- Document Chunk 807 ---
+works see the article on the topic 
+
+--- Document Chunk 808 ---
+in the May 2022 issue of IRSE News 
+
+--- Document Chunk 809 ---
+(irse.info/irsenews288).
+
+--- Document Chunk 810 ---
+System integration is also essential if 
+
+--- Document Chunk 811 ---
+multiple systems are to be brought 
+
+--- Document Chunk 812 ---
+together smoothly and all interfaces 
+
+--- Document Chunk 813 ---
+proven before delivering solutions on 
+
+--- Document Chunk 814 ---
+the railway. A strong example of this is 
+
+--- Document Chunk 815 ---
+the integration carried out for London’s 
+
+--- Document Chunk 816 ---
+Crossrail over the past couple of years. 
+
+--- Document Chunk 817 ---
+Full emulation, and later target hardware, 
+
+--- Document Chunk 818 ---
+of the three signalling solutions and two 
+
+--- Document Chunk 819 ---
+ATP solutions on the line were integrated 
+
+--- Document Chunk 820 ---
+in the lab with train carried systems and 
+
+--- Document Chunk 821 ---
+PSD control equipment to significantly 
+
+--- Document Chunk 822 ---
+de-risk the hugely complex project. 
+
+--- Document Chunk 823 ---
+Other railways take similar approaches, 
+
+--- Document Chunk 824 ---
+for example Singapore’s LTA mandates 
+
+--- Document Chunk 825 ---
+the use of offsite test track testing as 
+
+--- Document Chunk 826 ---
+well as building an integrated test track 
+
+--- Document Chunk 827 ---
+centre in Singapore, Melbourne has an 
+
+--- Document Chunk 828 ---
+Integrated Test lab (ITL). Test tracks are 
+
+--- Document Chunk 829 ---
+essential for modern complex CBTC 
+
+--- Document Chunk 830 ---
+systems to ensure that the signalling 
+
+--- Document Chunk 831 ---
+equipment is fully integrated and 
+
+--- Document Chunk 832 ---
+tested for all trains before delivery 
+
+--- Document Chunk 833 ---
+to the customer.
+
+--- Document Chunk 834 ---
+Delivering metro signalling and 
+
+--- Document Chunk 835 ---
+train control systems
+
+--- Document Chunk 836 ---
+In metro railways we refer to ‘greenfield’ 
+
+--- Document Chunk 837 ---
+and ‘brownfield’ sites. Greenfield systems 
+
+--- Document Chunk 838 ---
+are provided to new railways that are not 
+
+--- Document Chunk 839 ---
+currently in operation. These projects 
+
+--- Document Chunk 840 ---
+generally involve extended tested and 
+
+--- Document Chunk 841 ---
+trial operation phases during which the 
+
+--- Document Chunk 842 ---
+systems that were proved in the off-site 
+
+--- Document Chunk 843 ---
+integration phase are proved to operate 
+
+--- Document Chunk 844 ---
+as expected in real life situations. Whilst 
+
+--- Document Chunk 845 ---
+not straightforward for complex modern 
+
+--- Document Chunk 846 ---
+railways, this has the advantage of not 
+
+--- Document Chunk 847 ---
+impacting passenger services. This 
+
+--- Document Chunk 848 ---
+may require an additional temporary 
+
+--- Document Chunk 849 ---
+control centre to deal with the migration 
+
+--- Document Chunk 850 ---
+as a line will typically open in stages. 
+
+--- Document Chunk 851 ---
+Great care has to be taken during the 
+
+--- Document Chunk 852 ---
+migration testing to ensure that the 
+
+--- Document Chunk 853 ---
+stages under test do not affect those 
+
+--- Document Chunk 854 ---
+already in service.
+
+--- Document Chunk 855 ---
+Brownfield systems are upgrades 
+
+--- Document Chunk 856 ---
+of existing railways. In some (rare) 
+
+--- Document Chunk 857 ---
+cases it is possible to shut down the 
+
+--- Document Chunk 858 ---
+railway completely and carry out the 
+
+--- Document Chunk 859 ---
+engineering in the same way as for a 
+
+--- Document Chunk 860 ---
+greenfield site. However, reality is that 
+
+--- Document Chunk 861 ---
+if there is a business case to upgrade 
+
+--- Document Chunk 862 ---
+an existing railway it is likely to be an 
+
+--- Document Chunk 863 ---
+important transport artery, and closing 
+
+--- Document Chunk 864 ---
+it is not likely to be viable. Upgrades 
+
+--- Document Chunk 865 ---
+therefore often involve complex 
+
+--- Document Chunk 866 ---
+migration from old to new systems 
+
+--- Document Chunk 867 ---
+using ‘overlay’ or ‘underlay’ approaches 
+
+--- Document Chunk 868 ---
+that allow both old and new systems 
+
+--- Document Chunk 869 ---
+to co-exist for some time. This can be 
+
+--- Document Chunk 870 ---
+hugely complex in terms of managing 
+
+--- Document Chunk 871 ---
+train fleets, especially if the rolling 
+
+--- Document Chunk 872 ---
+stock is not being replaced at the time 
+
+--- Document Chunk 873 ---
+of the upgrade. There is rarely enough 
+
+--- Document Chunk 874 ---
+space on a train for two types of ATP/
+
+--- Document Chunk 875 ---
+London's Crossrail project, now operating as the Elizabeth line, made extensive use of integration 
+
+--- Document Chunk 876 ---
+facilities to enable the introduction of CBTC operation in a highly complex configuration.
+
+--- Document Chunk 877 ---
+ IRSE News |  Issue 296  |  February 2023
+
+--- Document Chunk 878 ---
+19
+
+--- Document Chunk 879 ---
+ATO equipment and their associated 
+
+--- Document Chunk 880 ---
+peripherals, and interfacing two systems 
+
+--- Document Chunk 881 ---
+to one train can be challenging. Space 
+
+--- Document Chunk 882 ---
+has to be found – or created – for 
+
+--- Document Chunk 883 ---
+example, under seats or in cubicles 
+
+--- Document Chunk 884 ---
+added in passenger carriages.
+
+--- Document Chunk 885 ---
+Migration in this manner can 
+
+--- Document Chunk 886 ---
+often take many years for any 
+
+--- Document Chunk 887 ---
+appreciable size of metro.
+
+--- Document Chunk 888 ---
+Maintaining metro signalling 
+
+--- Document Chunk 889 ---
+and train control systems
+
+--- Document Chunk 890 ---
+Keeping a metro system operational 
+
+--- Document Chunk 891 ---
+once it has been installed can also offer 
+
+--- Document Chunk 892 ---
+challenges. In most cases the foremost 
+
+--- Document Chunk 893 ---
+amongst these will be getting access 
+
+--- Document Chunk 894 ---
+to trackside equipment to carry out 
+
+--- Document Chunk 895 ---
+maintenance. Many city railways operate 
+
+--- Document Chunk 896 ---
+for 24 hours a day, most only have brief 
+
+--- Document Chunk 897 ---
+shutdowns of four to five hours per 
+
+--- Document Chunk 898 ---
+night. The time available for safe access 
+
+--- Document Chunk 899 ---
+is then further limited by the need to 
+
+--- Document Chunk 900 ---
+remove traction current and prove the 
+
+--- Document Chunk 901 ---
+railway safe – and the time necessary 
+
+--- Document Chunk 902 ---
+to ensure that after the work has been 
+
+--- Document Chunk 903 ---
+carried out, all plant and staff have safely 
+
+--- Document Chunk 904 ---
+left the railway. A few railways (e.g. parts 
+
+--- Document Chunk 905 ---
+of the New York Subway) have multiple 
+
+--- Document Chunk 906 ---
+lines which allow trains to keep running 
+
+--- Document Chunk 907 ---
+at a reduced level whilst work is being 
+
+--- Document Chunk 908 ---
+carried out, others support bidirectional 
+
+--- Document Chunk 909 ---
+working which fulfils the same function.
+
+--- Document Chunk 910 ---
+Obsolescence can also introduce further 
+
+--- Document Chunk 911 ---
+challenges. Metro signalling and train 
+
+--- Document Chunk 912 ---
+control solutions tend to be towards the 
+
+--- Document Chunk 913 ---
+higher technology end of the spectrum, 
+
+--- Document Chunk 914 ---
+largely due to the need to provide high-
+
+--- Document Chunk 915 ---
+capacity operation through the use of 
+
+--- Document Chunk 916 ---
+innovative techniques. The railways 
+
+--- Document Chunk 917 ---
+also tend to be early adopters of new 
+
+--- Document Chunk 918 ---
+ideas, for example some of the earliest 
+
+--- Document Chunk 919 ---
+uses of high integrity processor-based 
+
+--- Document Chunk 920 ---
+safety systems were on metros. Over the 
+
+--- Document Chunk 921 ---
+service life of a system (typically 20 years 
+
+--- Document Chunk 922 ---
+or more), this means supporting those 
+
+--- Document Chunk 923 ---
+technologies can require skills and tools 
+
+--- Document Chunk 924 ---
+that become harder to source. 
+
+--- Document Chunk 925 ---
+As an example of this many systems 
+
+--- Document Chunk 926 ---
+from the 1980s and 1990s made the use 
+
+--- Document Chunk 927 ---
+of microprocessors designed to support 
+
+--- Document Chunk 928 ---
+digital signal processing in a highly 
+
+--- Document Chunk 929 ---
+efficient way. As the decades passed 
+
+--- Document Chunk 930 ---
+and standard devices became powerful 
+
+--- Document Chunk 931 ---
+enough to remove the advantages 
+
+--- Document Chunk 932 ---
+of using special purpose chips, the 
+
+--- Document Chunk 933 ---
+knowledge of the programming 
+
+--- Document Chunk 934 ---
+languages and assembler code used to 
+
+--- Document Chunk 935 ---
+develop the original solutions faded, and 
+
+--- Document Chunk 936 ---
+emulators, compilers and test software 
+
+--- Document Chunk 937 ---
+became harder to source. In some cases, 
+
+--- Document Chunk 938 ---
+railways have even bought the rights to 
+
+--- Document Chunk 939 ---
+the masks for the processors in order 
+
+--- Document Chunk 940 ---
+to mitigate the risk of unavailability of 
+
+--- Document Chunk 941 ---
+key components.
+
+--- Document Chunk 942 ---
+With the high development costs 
+
+--- Document Chunk 943 ---
+of new products suppliers are now 
+
+--- Document Chunk 944 ---
+starting to use generic hardware that 
+
+--- Document Chunk 945 ---
+can be configured for either main line 
+
+--- Document Chunk 946 ---
+or metro use, thus providing a larger 
+
+--- Document Chunk 947 ---
+user base which makes obsolescence 
+
+--- Document Chunk 948 ---
+management more cost effective with a 
+
+--- Document Chunk 949 ---
+smaller range of products.
+
+--- Document Chunk 950 ---
+People and skills
+
+--- Document Chunk 951 ---
+Whilst many of the skills necessary 
+
+--- Document Chunk 952 ---
+for metro signalling and train control 
+
+--- Document Chunk 953 ---
+are the same as on main line railways, 
+
+--- Document Chunk 954 ---
+the experience gained of delivering a 
+
+--- Document Chunk 955 ---
+particular type of system or meeting 
+
+--- Document Chunk 956 ---
+the needs of a particular railway can be 
+
+--- Document Chunk 957 ---
+hard to gain and maintain. There tends 
+
+--- Document Chunk 958 ---
+to be a migration around the world as 
+
+--- Document Chunk 959 ---
+those people with that specific metro 
+
+--- Document Chunk 960 ---
+knowledge are encouraged to move 
+
+--- Document Chunk 961 ---
+from city to city as major innovative 
+
+--- Document Chunk 962 ---
+projects are undertaken.
+
+--- Document Chunk 963 ---
+With processor-based systems it is much 
+
+--- Document Chunk 964 ---
+harder for authorities to fully understand 
+
+--- Document Chunk 965 ---
+the technology they are buying unless 
+
+--- Document Chunk 966 ---
+they set up their own labs such as RATP 
+
+--- Document Chunk 967 ---
+in Paris. Thus, the skills that could be 
+
+--- Document Chunk 968 ---
+gained by working on older relay-based 
+
+--- Document Chunk 969 ---
+systems are harder to obtain when 
+
+--- Document Chunk 970 ---
+accepting black box type systems with 
+
+--- Document Chunk 971 ---
+proprietary software. As an industry we 
+
+--- Document Chunk 972 ---
+need to ensure we are supporting the 
+
+--- Document Chunk 973 ---
+development of those skills and the 
+
+--- Document Chunk 974 ---
+underpinning knowledge for the decades 
+
+--- Document Chunk 975 ---
+to come. The importance of systems 
+
+--- Document Chunk 976 ---
+engineering, RAMS analysis, simulation 
+
+--- Document Chunk 977 ---
+and integration cannot be overstated, 
+
+--- Document Chunk 978 ---
+and the understanding of the particular 
+
+--- Document Chunk 979 ---
+needs of urban railways is important. 
+
+--- Document Chunk 980 ---
+Summary – and to find  
+
+--- Document Chunk 981 ---
+out more
+
+--- Document Chunk 982 ---
+In summary metro railways tend to have 
+
+--- Document Chunk 983 ---
+some common characteristics, but since 
+
+--- Document Chunk 984 ---
+they do not need to interoperate and 
+
+--- Document Chunk 985 ---
+some have been operating for over 100 
+
+--- Document Chunk 986 ---
+years, they have tended to evolve in 
+
+--- Document Chunk 987 ---
+isolation from one another. The result 
+
+--- Document Chunk 988 ---
+of this is a situation in which proprietary 
+
+--- Document Chunk 989 ---
+train control systems are procured and 
+
+--- Document Chunk 990 ---
+altered to meet the specific needs and 
+
+--- Document Chunk 991 ---
+expectations of different railways, and 
+
+--- Document Chunk 992 ---
+standardisation is limited.
+
+--- Document Chunk 993 ---
+There are many common elements to 
+
+--- Document Chunk 994 ---
+most solutions, and nearly all modern 
+
+--- Document Chunk 995 ---
+systems are based on CBTC technology 
+
+--- Document Chunk 996 ---
+with varying grades of automation. 
+
+--- Document Chunk 997 ---
+Development is rapid, particularly in 
+
+--- Document Chunk 998 ---
+Asia, with high rates of investment 
+
+--- Document Chunk 999 ---
+in sustainable, highly reliable, high-
+
+--- Document Chunk 1000 ---
+capacity public transport systems. Many 
+
+--- Document Chunk 1001 ---
+of the skills necessary for deployment 
+
+--- Document Chunk 1002 ---
+of these systems are common with all 
+
+--- Document Chunk 1003 ---
+other types of railway engineering, but 
+
+--- Document Chunk 1004 ---
+there are specific requirements around 
+
+--- Document Chunk 1005 ---
+some techniques.
+
+--- Document Chunk 1006 ---
+This is a fascinating and complex area of 
+
+--- Document Chunk 1007 ---
+our industry, and one in which there is 
+
+--- Document Chunk 1008 ---
+significant growth 
+
+--- Document Chunk 1009 ---
+and opportunity. 
+
+--- Document Chunk 1010 ---
+For more 
+
+--- Document Chunk 1011 ---
+information the 
+
+--- Document Chunk 1012 ---
+IRSE Metro Train 
+
+--- Document Chunk 1013 ---
+Control Systems 
+
+--- Document Chunk 1014 ---
+textbook is a 
+
+--- Document Chunk 1015 ---
+unique body 
+
+--- Document Chunk 1016 ---
+of knowledge. 
+
+--- Document Chunk 1017 ---
+Written by 
+
+--- Document Chunk 1018 ---
+many of the 
+
+--- Document Chunk 1019 ---
+best engineers 
+
+--- Document Chunk 1020 ---
+in this field 
+
+--- Document Chunk 1021 ---
+worldwide 
+
+--- Document Chunk 1022 ---
+and with contributions from 
+
+--- Document Chunk 1023 ---
+railways across the planet, the textbook 
+
+--- Document Chunk 1024 ---
+goes into detail about many of the 
+
+--- Document Chunk 1025 ---
+subsystems and processes necessary for 
+
+--- Document Chunk 1026 ---
+smooth deployment. It uses hundreds 
+
+--- Document Chunk 1027 ---
+of illustrations, comprehensive case 
+
+--- Document Chunk 1028 ---
+studies and introductions to several of 
+
+--- Document Chunk 1029 ---
+the proprietary systems in use today. To 
+
+--- Document Chunk 1030 ---
+order your copy visit irse.org/store
+
+--- Document Chunk 1031 ---
+About the authors
+
+--- Document Chunk 1032 ---
+Robert, Mark and Richard are all 
+
+--- Document Chunk 1033 ---
+chartered engineers and have over 100 
+
+--- Document Chunk 1034 ---
+years' experience in metro signalling 
+
+--- Document Chunk 1035 ---
+and train control between them! 
+
+--- Document Chunk 1036 ---
+Robert worked for London Underground 
+
+--- Document Chunk 1037 ---
+and Westinghouse Rail Systems in the 
+
+--- Document Chunk 1038 ---
+UK before moving to Singapore. Rob 
+
+--- Document Chunk 1039 ---
+is currently the deputy chief specialist 
+
+--- Document Chunk 1040 ---
+(signalling) at the Land Transport 
+
+--- Document Chunk 1041 ---
+Authority in Singapore, a member of the 
+
+--- Document Chunk 1042 ---
+IRSE Council and the IRSE International 
+
+--- Document Chunk 1043 ---
+Technical Committee. 
+
+--- Document Chunk 1044 ---
+Mark has a background in metro 
+
+--- Document Chunk 1045 ---
+signalling and train control, and 
+
+--- Document Chunk 1046 ---
+experience in a wide range of 
+
+--- Document Chunk 1047 ---
+mass transit and main line projects 
+
+--- Document Chunk 1048 ---
+worldwide. He has been production 
+
+--- Document Chunk 1049 ---
+manager of IRSE News since 2014, 
+
+--- Document Chunk 1050 ---
+and is currently head of marketing and 
+
+--- Document Chunk 1051 ---
+strategy support, Rail Infrastructure at 
+
+--- Document Chunk 1052 ---
+Siemens Mobility in the UK.
+
+--- Document Chunk 1053 ---
+Richard specialises in systems 
+
+--- Document Chunk 1054 ---
+engineering for railway signalling in 
+
+--- Document Chunk 1055 ---
+mass transit applications. He worked for 
+
+--- Document Chunk 1056 ---
+Westinghouse Signals Limited, which 
+
+--- Document Chunk 1057 ---
+became Invensys Rail and then Siemens 
+
+--- Document Chunk 1058 ---
+Rail Automation, before moving to 
+
+--- Document Chunk 1059 ---
+technology delivery in the operational 
+
+--- Document Chunk 1060 ---
+domain with Metro Trains Melbourne 
+
+--- Document Chunk 1061 ---
+as system architect for the Metro 
+
+--- Document Chunk 1062 ---
+Tunnel Project.
+
+--- Document Chunk 1063 ---
+Metro Train Control  
+
+--- Document Chunk 1064 ---
+Systems
+
+--- Document Chunk 1065 ---
+Metro Train Control Systems
+
+--- Document Chunk 1066 ---
+Metro Train Control Systems is an essential reference and guide for the railway 
+
+--- Document Chunk 1067 ---
+engineer seeking to understand the challenges to be met in developing signalling 
+
+--- Document Chunk 1068 ---
+and train control systems for metro, or mass transit, railways. Metros are the 
+
+--- Document Chunk 1069 ---
+lifeblood of modern cities and are essential to their economic growth. That growth 
+
+--- Document Chunk 1070 ---
+demands ever-increasing train service levels of up to 36 trains per hour or beyond, 
+
+--- Document Chunk 1071 ---
+with levels of automation to support such high reliability, from the attended to  
+
+--- Document Chunk 1072 ---
+the unattended, or driverless, train control system. 
+
+--- Document Chunk 1073 ---
+This book, authored by a team of train control experts from across the world, 
+
+--- Document Chunk 1074 ---
+aims to give the reader an understanding of metro railways. It outlines in detail 
+
+--- Document Chunk 1075 ---
+the principles and applications of modern metro signalling, transitioning to  
+
+--- Document Chunk 1076 ---
+‘moving block’ techniques and bringing the integrated Train Control System into 
+
+--- Document Chunk 1077 ---
+focus. The design development is explained together with simulation techniques to 
+
+--- Document Chunk 1078 ---
+optimise the train service frequency. The book makes extensive use of diagrams and 
+
+--- Document Chunk 1079 ---
+photographs to bring the words to life and contains detailed presentations provided 
+
+--- Document Chunk 1080 ---
+by the major signalling suppliers describing their own technical solutions. 
+
+--- Document Chunk 1081 ---
+In this area of rapid development, Communications-Based Train Control (CBTC) 
+
+--- Document Chunk 1082 ---
+systems vary between suppliers to provide solutions tailored to meet operators’ 
+
+--- Document Chunk 1083 ---
+specific needs in the metro environment. This is in contrast to the interoperable 
+
+--- Document Chunk 1084 ---
+European Rail Traffic Management System (ERTMS) specifications employed on 
+
+--- Document Chunk 1085 ---
+main line operations, but there are nevertheless many commonalities that all 
+
+--- Document Chunk 1086 ---
+modern train control or railway engineers need to consider in their roles. The book 
+
+--- Document Chunk 1087 ---
+concludes with case studies from major transit authorities across the world.
+
+--- Document Chunk 1088 ---
+Metro Train Control Systems is both a textbook and a reference book, making it an 
+
+--- Document Chunk 1089 ---
+essential element of the knowledge library for the metro railway engineer.
+
+--- Document Chunk 1090 ---
+The Institution of Railway Signal Engineers 
+
+--- Document Chunk 1091 ---
+is the professional institution for all those 
+
+--- Document Chunk 1092 ---
+engaged in or associated with railway signalling 
+
+--- Document Chunk 1093 ---
+and telecommunications, train control, traffic 
+
+--- Document Chunk 1094 ---
+management and allied professions.
+
+--- Document Chunk 1095 ---
+Find out more at www.irse.org
+
+--- Document Chunk 1096 ---
+Metro Train Control  
+
+--- Document Chunk 1097 ---
+Systems
+
+--- Document Chunk 1098 ---
+Metro Train Control Systems
+
+--- Document Chunk 1099 ---
+Metro Train Control Systems is an essential reference and guide for the railway 
+
+--- Document Chunk 1100 ---
+engineer seeking to understand the challenges to be met in developing signalling 
+
+--- Document Chunk 1101 ---
+and train control systems for metro, or mass transit, railways. Metros are the 
+
+--- Document Chunk 1102 ---
+lifeblood of modern cities and are essential to their economic growth. That growth 
+
+--- Document Chunk 1103 ---
+demands ever-increasing train service levels of up to 36 trains per hour or beyond, 
+
+--- Document Chunk 1104 ---
+with levels of automation to support such high reliability, from the attended to  
+
+--- Document Chunk 1105 ---
+the unattended, or driverless, train control system. 
+
+--- Document Chunk 1106 ---
+This book, authored by a team of train control experts from across the world, 
+
+--- Document Chunk 1107 ---
+aims to give the reader an understanding of metro railways. It outlines in detail 
+
+--- Document Chunk 1108 ---
+the principles and applications of modern metro signalling, transitioning to  
+
+--- Document Chunk 1109 ---
+‘moving block’ techniques and bringing the integrated Train Control System into 
+
+--- Document Chunk 1110 ---
+focus. The design development is explained together with simulation techniques to 
+
+--- Document Chunk 1111 ---
+optimise the train service frequency. The book makes extensive use of diagrams and 
+
+--- Document Chunk 1112 ---
+photographs to bring the words to life and contains detailed presentations provided 
+
+--- Document Chunk 1113 ---
+by the major signalling suppliers describing their own technical solutions. 
+
+--- Document Chunk 1114 ---
+In this area of rapid development, Communications-Based Train Control (CBTC) 
+
+--- Document Chunk 1115 ---
+systems vary between suppliers to provide solutions tailored to meet operators’ 
+
+--- Document Chunk 1116 ---
+specific needs in the metro environment. This is in contrast to the interoperable 
+
+--- Document Chunk 1117 ---
+European Rail Traffic Management System (ERTMS) specifications employed on 
+
+--- Document Chunk 1118 ---
+main line operations, but there are nevertheless many commonalities that all 
+
+--- Document Chunk 1119 ---
+modern train control or railway engineers need to consider in their roles. The book 
+
+--- Document Chunk 1120 ---
+concludes with case studies from major transit authorities across the world.
+
+--- Document Chunk 1121 ---
+Metro Train Control Systems is both a textbook and a reference book, making it an 
+
+--- Document Chunk 1122 ---
+essential element of the knowledge library for the metro railway engineer.
+
+--- Document Chunk 1123 ---
+The Institution of Railway Signal Engineers 
+
+--- Document Chunk 1124 ---
+is the professional institution for all those 
+
+--- Document Chunk 1125 ---
+engaged in or associated with railway signalling 
+
+--- Document Chunk 1126 ---
+and telecommunications, train control, traffic 
+
+--- Document Chunk 1127 ---
+management and allied professions.
+
+--- Document Chunk 1128 ---
+Find out more at www.irse.org
+
+--- Document Chunk 1129 ---
+Metro Train Control  
+
+--- Document Chunk 1130 ---
+Systems
+
+--- Document Chunk 1131 ---
+Metro Train Control Systems
+
+--- Document Chunk 1132 ---
+Metro Train Control Systems is an essential reference and guide for the railway 
+
+--- Document Chunk 1133 ---
+engineer seeking to understand the challenges to be met in developing signalling 
+
+--- Document Chunk 1134 ---
+and train control systems for metro, or mass transit, railways. Metros are the 
+
+--- Document Chunk 1135 ---
+lifeblood of modern cities and are essential to their economic growth. That growth 
+
+--- Document Chunk 1136 ---
+demands ever-increasing train service levels of up to 36 trains per hour or beyond, 
+
+--- Document Chunk 1137 ---
+with levels of automation to support such high reliability, from the attended to  
+
+--- Document Chunk 1138 ---
+the unattended, or driverless, train control system. 
+
+--- Document Chunk 1139 ---
+This book, authored by a team of train control experts from across the world, 
+
+--- Document Chunk 1140 ---
+aims to give the reader an understanding of metro railways. It outlines in detail 
+
+--- Document Chunk 1141 ---
+the principles and applications of modern metro signalling, transitioning to  
+
+--- Document Chunk 1142 ---
+‘moving block’ techniques and bringing the integrated Train Control System into 
+
+--- Document Chunk 1143 ---
+focus. The design development is explained together with simulation techniques to 
+
+--- Document Chunk 1144 ---
+optimise the train service frequency. The book makes extensive use of diagrams and 
+
+--- Document Chunk 1145 ---
+photographs to bring the words to life and contains detailed presentations provided 
+
+--- Document Chunk 1146 ---
+by the major signalling suppliers describing their own technical solutions. 
+
+--- Document Chunk 1147 ---
+In this area of rapid development, Communications-Based Train Control (CBTC) 
+
+--- Document Chunk 1148 ---
+systems vary between suppliers to provide solutions tailored to meet operators’ 
+
+--- Document Chunk 1149 ---
+specific needs in the metro environment. This is in contrast to the interoperable 
+
+--- Document Chunk 1150 ---
+European Rail Traffic Management System (ERTMS) specifications employed on 
+
+--- Document Chunk 1151 ---
+main line operations, but there are nevertheless many commonalities that all 
+
+--- Document Chunk 1152 ---
+modern train control or railway engineers need to consider in their roles. The book 
+
+--- Document Chunk 1153 ---
+concludes with case studies from major transit authorities across the world.
+
+--- Document Chunk 1154 ---
+Metro Train Control Systems is both a textbook and a reference book, making it an 
+
+--- Document Chunk 1155 ---
+essential element of the knowledge library for the metro railway engineer.
+
+--- Document Chunk 1156 ---
+The Institution of Railway Signal Engineers 
+
+--- Document Chunk 1157 ---
+is the professional institution for all those 
+
+--- Document Chunk 1158 ---
+engaged in or associated with railway signalling 
+
+--- Document Chunk 1159 ---
+and telecommunications, train control, traffic 
+
+--- Document Chunk 1160 ---
+management and allied professions.
+
+--- Document Chunk 1161 ---
+Find out more at www.irse.org
+
+--- Document Chunk 1162 ---
+Metro Train Control  
+
+--- Document Chunk 1163 ---
+Systems
+
+--- Document Chunk 1164 ---
+Metro Train Control Systems
+
+--- Document Chunk 1165 ---
+Metro Train Control Systems is an essential reference and guide for the railway 
+
+--- Document Chunk 1166 ---
+engineer seeking to understand the challenges to be met in developing signalling 
+
+--- Document Chunk 1167 ---
+and train control systems for metro, or mass transit, railways. Metros are the 
+
+--- Document Chunk 1168 ---
+lifeblood of modern cities and are essential to their economic growth. That growth 
+
+--- Document Chunk 1169 ---
+demands ever-increasing train service levels of up to 36 trains per hour or beyond, 
+
+--- Document Chunk 1170 ---
+with levels of automation to support such high reliability, from the attended to  
+
+--- Document Chunk 1171 ---
+the unattended, or driverless, train control system. 
+
+--- Document Chunk 1172 ---
+This book, authored by a team of train control experts from across the world, 
+
+--- Document Chunk 1173 ---
+aims to give the reader an understanding of metro railways. It outlines in detail 
+
+--- Document Chunk 1174 ---
+the principles and applications of modern metro signalling, transitioning to  
+
+--- Document Chunk 1175 ---
+‘moving block’ techniques and bringing the integrated Train Control System into 
+
+--- Document Chunk 1176 ---
+focus. The design development is explained together with simulation techniques to 
+
+--- Document Chunk 1177 ---
+optimise the train service frequency. The book makes extensive use of diagrams and 
+
+--- Document Chunk 1178 ---
+photographs to bring the words to life and contains detailed presentations provided 
+
+--- Document Chunk 1179 ---
+by the major signalling suppliers describing their own technical solutions. 
+
+--- Document Chunk 1180 ---
+In this area of rapid development, Communications-Based Train Control (CBTC) 
+
+--- Document Chunk 1181 ---
+systems vary between suppliers to provide solutions tailored to meet operators’ 
+
+--- Document Chunk 1182 ---
+specific needs in the metro environment. This is in contrast to the interoperable 
+
+--- Document Chunk 1183 ---
+European Rail Traffic Management System (ERTMS) specifications employed on 
+
+--- Document Chunk 1184 ---
+main line operations, but there are nevertheless many commonalities that all 
+
+--- Document Chunk 1185 ---
+modern train control or railway engineers need to consider in their roles. The book 
+
+--- Document Chunk 1186 ---
+concludes with case studies from major transit authorities across the world.
+
+--- Document Chunk 1187 ---
+Metro Train Control Systems is both a textbook and a reference book, making it an 
+
+--- Document Chunk 1188 ---
+essential element of the knowledge library for the metro railway engineer.
+
+--- Document Chunk 1189 ---
+The Institution of Railway Signal Engineers 
+
+--- Document Chunk 1190 ---
+is the professional institution for all those 
+
+--- Document Chunk 1191 ---
+engaged in or associated with railway signalling 
+
+--- Document Chunk 1192 ---
+and telecommunications, train control, traffic 
+
+--- Document Chunk 1193 ---
+management and allied professions.
+
+--- Document Chunk 1194 ---
+Find out more at www.irse.org
+
+--- Document Chunk 1195 ---
+///
+

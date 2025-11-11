@@ -1,0 +1,3477 @@
+--- Document Chunk 0 ---
+8
+
+--- Document Chunk 1 ---
+Francis How
+
+--- Document Chunk 2 ---
+Back to basics: signals
+
+--- Document Chunk 3 ---
+Back to basics
+
+--- Document Chunk 4 ---
+In this article in our “Back to basics” 
+
+--- Document Chunk 5 ---
+series we look at lineside railway 
+
+--- Document Chunk 6 ---
+signals. Signals are referred to 
+
+--- Document Chunk 7 ---
+frequently in other "Back to basics" 
+
+--- Document Chunk 8 ---
+articles, but without exploring the 
+
+--- Document Chunk 9 ---
+subject in detail.
+
+--- Document Chunk 10 ---
+Movement authorities
+
+--- Document Chunk 11 ---
+Trains and train drivers need to be 
+
+--- Document Chunk 12 ---
+provided with information telling them 
+
+--- Document Chunk 13 ---
+when to move, and where and when to 
+
+--- Document Chunk 14 ---
+stop. The generic term for information 
+
+--- Document Chunk 15 ---
+that permits a train to move onto a 
+
+--- Document Chunk 16 ---
+section of line is ‘movement authority’. 
+
+--- Document Chunk 17 ---
+Although railways vary enormously 
+
+--- Document Chunk 18 ---
+in how they operate, almost all rely 
+
+--- Document Chunk 19 ---
+on one of three means by which 
+
+--- Document Chunk 20 ---
+movement authority information is 
+
+--- Document Chunk 21 ---
+given to the train:
+
+--- Document Chunk 22 ---
+Verbal instructions given to the train 
+
+--- Document Chunk 23 ---
+driver to proceed to a designated 
+
+--- Document Chunk 24 ---
+location on the line ahead. The 
+
+--- Document Chunk 25 ---
+instruction is usually issued via a train 
+
+--- Document Chunk 26 ---
+radio system by a person in the control 
+
+--- Document Chunk 27 ---
+(dispatching) centre or similar location, 
+
+--- Document Chunk 28 ---
+such as a signal box. These types of 
+
+--- Document Chunk 29 ---
+systems are often used on low-capacity 
+
+--- Document Chunk 30 ---
+lines (sometimes referred to as ‘dark 
+
+--- Document Chunk 31 ---
+territory’) where a costly signalling 
+
+--- Document Chunk 32 ---
+system cannot be justified. For more 
+
+--- Document Chunk 33 ---
+information about these systems and 
+
+--- Document Chunk 34 ---
+their more modern equivalents, you 
+
+--- Document Chunk 35 ---
+should read Robert Baird’s Back to basics 
+
+--- Document Chunk 36 ---
+article on Low-Cost Electronic Authority 
+
+--- Document Chunk 37 ---
+Systems in issue 282 of IRSE News 
+
+--- Document Chunk 38 ---
+(November 2021) irse.info/irsenews282 
+
+--- Document Chunk 39 ---
+Railways also use verbal instructions to 
+
+--- Document Chunk 40 ---
+drivers when the normal lineside or cab 
+
+--- Document Chunk 41 ---
+signalling system has failed.
+
+--- Document Chunk 42 ---
+Lineside signals (also called wayside 
+
+--- Document Chunk 43 ---
+signals), which comprise arrangements 
+
+--- Document Chunk 44 ---
+of visual symbols (coloured lights, 
+
+--- Document Chunk 45 ---
+mechanical devices, signs) positioned 
+
+--- Document Chunk 46 ---
+at pre-determined locations at the 
+
+--- Document Chunk 47 ---
+trackside for the driver to see and 
+
+--- Document Chunk 48 ---
+react to in the required manner. In the 
+
+--- Document Chunk 49 ---
+early days of railways lineside signals 
+
+--- Document Chunk 50 ---
+were mainly mechanically operated 
+
+--- Document Chunk 51 ---
+semaphores, and although many 
+
+--- Document Chunk 52 ---
+examples of such signalling can still be 
+
+--- Document Chunk 53 ---
+found around the world, all modern 
+
+--- Document Chunk 54 ---
+systems use colour light signals, which 
+
+--- Document Chunk 55 ---
+superficially look like road traffic 
+
+--- Document Chunk 56 ---
+lights/signals. This article focuses 
+
+--- Document Chunk 57 ---
+predominantly on lineside signals.
+
+--- Document Chunk 58 ---
+Cab signalling, where the movement 
+
+--- Document Chunk 59 ---
+authority information is displayed in the 
+
+--- Document Chunk 60 ---
+driving cab, rather than at the lineside. 
+
+--- Document Chunk 61 ---
+We will briefly consider cab signalling to 
+
+--- Document Chunk 62 ---
+understand how the provision of in-cab 
+
+--- Document Chunk 63 ---
+information compares with lineside 
+
+--- Document Chunk 64 ---
+signals. However, a full exploration 
+
+--- Document Chunk 65 ---
+of the topic, which includes systems 
+
+--- Document Chunk 66 ---
+such as Communications-Based Train 
+
+--- Document Chunk 67 ---
+Control (CBTC), the European Train 
+
+--- Document Chunk 68 ---
+Control System (ETCS) and Positive Train 
+
+--- Document Chunk 69 ---
+Control (PTC), is well beyond the scope 
+
+--- Document Chunk 70 ---
+of this article. 
+
+--- Document Chunk 71 ---
+So, we are talking mostly about lineside 
+
+--- Document Chunk 72 ---
+colour light signals, the information they 
+
+--- Document Chunk 73 ---
+convey, and how to ensure that train 
+
+--- Document Chunk 74 ---
+drivers can see the signals and respond 
+
+--- Document Chunk 75 ---
+to them appropriately. However, we 
+
+--- Document Chunk 76 ---
+are not going to explore all the types 
+
+--- Document Chunk 77 ---
+of signals used in different parts of the 
+
+--- Document Chunk 78 ---
+world – a whole book could be written 
+
+--- Document Chunk 79 ---
+about that! Nor are we discussing the 
+
+--- Document Chunk 80 ---
+decision-making technology which 
+
+--- Document Chunk 81 ---
+enables a signal to display movement 
+
+--- Document Chunk 82 ---
+authority information to a driver. That 
+
+--- Document Chunk 83 ---
+topic is covered in two Back to basics 
+
+--- Document Chunk 84 ---
+articles about Interlocking – see issues 
+
+--- Document Chunk 85 ---
+265 and 266 of IRSE News (April and 
+
+--- Document Chunk 86 ---
+May 2020) irse.info/irsenews265 and 
+
+--- Document Chunk 87 ---
+irse.info/irsenews266 
+
+--- Document Chunk 88 ---
+Photo Pixabay/Didgeman.
+
+--- Document Chunk 89 ---
+See page 36 for references to all the  
+
+--- Document Chunk 90 ---
+Back to basics articles published so far.
+
+--- Document Chunk 91 ---
+Signals such as these in Germany are an essential 
+
+--- Document Chunk 92 ---
+link in the chain of safety for most railways.
+
+--- Document Chunk 93 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 94 ---
+9
+
+--- Document Chunk 95 ---
+Why do railways need signals?
+
+--- Document Chunk 96 ---
+When you drive a road vehicle, you are 
+
+--- Document Chunk 97 ---
+‘driving on sight’. You are responsible 
+
+--- Document Chunk 98 ---
+for observing the road ahead and other 
+
+--- Document Chunk 99 ---
+nearby traffic and making decisions 
+
+--- Document Chunk 100 ---
+accordingly. You choose which route 
+
+--- Document Chunk 101 ---
+to take at junctions, maintain a safe 
+
+--- Document Chunk 102 ---
+distance from any vehicle you can 
+
+--- Document Chunk 103 ---
+see ahead of you, and you slow down 
+
+--- Document Chunk 104 ---
+when you see the need to do so. If you 
+
+--- Document Chunk 105 ---
+can see that a collision may be about 
+
+--- Document Chunk 106 ---
+to occur, you can try to take avoiding 
+
+--- Document Chunk 107 ---
+action by emergency braking and by 
+
+--- Document Chunk 108 ---
+steering the vehicle. Although traffic 
+
+--- Document Chunk 109 ---
+lights (road signals) are provided at some 
+
+--- Document Chunk 110 ---
+road junctions, most have no signals and 
+
+--- Document Chunk 111 ---
+safety is dependent solely on all drivers 
+
+--- Document Chunk 112 ---
+complying with a set of rules.
+
+--- Document Chunk 113 ---
+Railways are quite unlike roads. It is 
+
+--- Document Chunk 114 ---
+not possible to steer a train; it will go 
+
+--- Document Chunk 115 ---
+wherever the rails and points (switches) 
+
+--- Document Chunk 116 ---
+take it. A train cannot be stopped 
+
+--- Document Chunk 117 ---
+quickly; a passenger train travelling at 
+
+--- Document Chunk 118 ---
+200km/h will have a typical braking 
+
+--- Document Chunk 119 ---
+distance of over 2.5km. So, except 
+
+--- Document Chunk 120 ---
+for very low speed railways such as 
+
+--- Document Chunk 121 ---
+tramways, driving a train is not a ‘drive 
+
+--- Document Chunk 122 ---
+on sight’ operation. 
+
+--- Document Chunk 123 ---
+To maintain safety in this very different 
+
+--- Document Chunk 124 ---
+operational environment, railway tracks 
+
+--- Document Chunk 125 ---
+are divided into ‘block’ sections, and 
+
+--- Document Chunk 126 ---
+normally only one train is allowed to be 
+
+--- Document Chunk 127 ---
+in each block section at any one time. A 
+
+--- Document Chunk 128 ---
+block section may be quite long (several 
+
+--- Document Chunk 129 ---
+kilometres), or very short (a couple of 
+
+--- Document Chunk 130 ---
+hundred metres or less, particularly on 
+
+--- Document Chunk 131 ---
+metros). Each block section may be 
+
+--- Document Chunk 132 ---
+plain line, or it may have points in the 
+
+--- Document Chunk 133 ---
+route; and in some cases trains may 
+
+--- Document Chunk 134 ---
+be permitted to travel through it in 
+
+--- Document Chunk 135 ---
+either direction. 
+
+--- Document Chunk 136 ---
+The driver of a train at the start of a 
+
+--- Document Chunk 137 ---
+block section may not be able to see 
+
+--- Document Chunk 138 ---
+all the track that comprises the section 
+
+--- Document Chunk 139 ---
+ahead. They cannot be sure whether 
+
+--- Document Chunk 140 ---
+points in the block section are set and 
+
+--- Document Chunk 141 ---
+locked correctly, nor know with certainty 
+
+--- Document Chunk 142 ---
+the movements of other trains already 
+
+--- Document Chunk 143 ---
+in (or approaching) the same block 
+
+--- Document Chunk 144 ---
+section. Because the driver cannot know 
+
+--- Document Chunk 145 ---
+if it is safe to proceed, a 'block' signal 
+
+--- Document Chunk 146 ---
+is positioned at the start of each block 
+
+--- Document Chunk 147 ---
+section to provide that information. 
+
+--- Document Chunk 148 ---
+An approaching train must stop at the 
+
+--- Document Chunk 149 ---
+signal unless it displays an indication to 
+
+--- Document Chunk 150 ---
+proceed. The signal is operated from the 
+
+--- Document Chunk 151 ---
+control centre via an interlocking, and 
+
+--- Document Chunk 152 ---
+it will display a proceed indication only 
+
+--- Document Chunk 153 ---
+when the block section is set and locked 
+
+--- Document Chunk 154 ---
+for the train, with no other conflicting 
+
+--- Document Chunk 155 ---
+train movements. The driver can then 
+
+--- Document Chunk 156 ---
+move the train through the block section 
+
+--- Document Chunk 157 ---
+to the signal that marks the start of the 
+
+--- Document Chunk 158 ---
+next section. If everything is working to 
+
+--- Document Chunk 159 ---
+plan (the timetable), train drivers should 
+
+--- Document Chunk 160 ---
+only infrequently encounter signals 
+
+--- Document Chunk 161 ---
+displaying ‘stop’, thereby minimising 
+
+--- Document Chunk 162 ---
+journey times and making maximum use 
+
+--- Document Chunk 163 ---
+of the line capacity.
+
+--- Document Chunk 164 ---
+Because a train takes a considerable 
+
+--- Document Chunk 165 ---
+distance to stop, a signal displaying 
+
+--- Document Chunk 166 ---
+‘stop’ may not be visible to the driver at 
+
+--- Document Chunk 167 ---
+the location where they need to start 
+
+--- Document Chunk 168 ---
+slowing down. To ensure the driver is 
+
+--- Document Chunk 169 ---
+given adequate advance information and 
+
+--- Document Chunk 170 ---
+can brake appropriately, one or more 
+
+--- Document Chunk 171 ---
+‘distant’ signals (also sometimes called 
+
+--- Document Chunk 172 ---
+'approach' signals) are provided on the 
+
+--- Document Chunk 173 ---
+approach to each signal that can display 
+
+--- Document Chunk 174 ---
+a stop indication. 
+
+--- Document Chunk 175 ---
+The distance from the first of these 
+
+--- Document Chunk 176 ---
+signals to the stop signal will be the 
+
+--- Document Chunk 177 ---
+longest braking distance (under normal 
+
+--- Document Chunk 178 ---
+adhesion conditions) of all the trains 
+
+--- Document Chunk 179 ---
+that are authorised to use the line, plus a 
+
+--- Document Chunk 180 ---
+D11 11 D13 13
+
+--- Document Chunk 181 ---
+Train
+
+--- Document Chunk 182 ---
+Block section
+
+--- Document Chunk 183 ---
+Braking distance Braking distance
+
+--- Document Chunk 184 ---
+Distant signal Distant signalBlock signal Block signal
+
+--- Document Chunk 185 ---
+Proceed Proceed Caution, prepare to
+
+--- Document Chunk 186 ---
+stop at next signal Stop
+
+--- Document Chunk 187 ---
+Figure 1 – Examples of lineside signals in Switzerland (left), the UK (centre) and Germany (right).
+
+--- Document Chunk 188 ---
+Figure 2 – Block signals displaying 'proceed' (11) and 'stop' (13), with associated 
+
+--- Document Chunk 189 ---
+distant signals displaying 'proceed' (D11) and 'prepare to stop' (D13) indications.  
+
+--- Document Chunk 190 ---
+With acknowledgements to Jörn Pachl.
+
+--- Document Chunk 191 ---
+Photo Shutterstock/Lachlan1.
+
+--- Document Chunk 192 ---
+Photo Siemens Mobility.
+
+--- Document Chunk 193 ---
+>>>
+
+--- Document Chunk 194 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 195 ---
+10
+
+--- Document Chunk 196 ---
+margin for safety. If a signal is displaying 
+
+--- Document Chunk 197 ---
+stop, the preceding distant signal(s) will 
+
+--- Document Chunk 198 ---
+display appropriate ‘caution’ information 
+
+--- Document Chunk 199 ---
+to warn the driver of the need to slow 
+
+--- Document Chunk 200 ---
+down and be prepared to stop at a signal 
+
+--- Document Chunk 201 ---
+further ahead. If a signal is displaying 
+
+--- Document Chunk 202 ---
+‘proceed’ (rather than stop) then the 
+
+--- Document Chunk 203 ---
+preceding distant signal(s) will display 
+
+--- Document Chunk 204 ---
+information to tell the driver that there 
+
+--- Document Chunk 205 ---
+is no need to slow down. These two 
+
+--- Document Chunk 206 ---
+scenarios are shown in Figure 2.
+
+--- Document Chunk 207 ---
+On routes where the traffic density is 
+
+--- Document Chunk 208 ---
+higher, every signal may be capable of 
+
+--- Document Chunk 209 ---
+displaying ‘proceed’, ‘caution, prepare to 
+
+--- Document Chunk 210 ---
+stop at next signal ahead’ and ‘stop’, and 
+
+--- Document Chunk 211 ---
+a block section is simply the portion of 
+
+--- Document Chunk 212 ---
+track between one signal and the next, 
+
+--- Document Chunk 213 ---
+equal in length to the braking distance 
+
+--- Document Chunk 214 ---
+(plus a margin). This is shown in Figure 3.
+
+--- Document Chunk 215 ---
+On very busy railways, the block sections 
+
+--- Document Chunk 216 ---
+may be made shorter than full braking 
+
+--- Document Chunk 217 ---
+distance to further improve capacity 
+
+--- Document Chunk 218 ---
+(by reducing the headway). In such 
+
+--- Document Chunk 219 ---
+cases, more than one preceding signal 
+
+--- Document Chunk 220 ---
+will display a ‘caution’ indication on 
+
+--- Document Chunk 221 ---
+the approach to a signal displaying 
+
+--- Document Chunk 222 ---
+stop, with full braking distance from 
+
+--- Document Chunk 223 ---
+the first of these signals to the stop 
+
+--- Document Chunk 224 ---
+signal – see Figure 4 for an example. 
+
+--- Document Chunk 225 ---
+The aspects of the signals at caution 
+
+--- Document Chunk 226 ---
+(9 and 11) are usually different from each 
+
+--- Document Chunk 227 ---
+other, to avoid misleading the driver as 
+
+--- Document Chunk 228 ---
+to which signal ahead is displaying a 
+
+--- Document Chunk 229 ---
+stop indication.
+
+--- Document Chunk 230 ---
+Signal engineers, railway operators 
+
+--- Document Chunk 231 ---
+and train drivers use the word ‘aspect’ 
+
+--- Document Chunk 232 ---
+in association with signals, by which 
+
+--- Document Chunk 233 ---
+we mean all the information that is 
+
+--- Document Chunk 234 ---
+presented by a signal to the driver at a 
+
+--- Document Chunk 235 ---
+particular time, such as stop, proceed, 
+
+--- Document Chunk 236 ---
+and ‘caution, prepare to stop at a signal 
+
+--- Document Chunk 237 ---
+further ahead’. 
+
+--- Document Chunk 238 ---
+The aspects displayed by successive 
+
+--- Document Chunk 239 ---
+signals that a driver encounters is called 
+
+--- Document Chunk 240 ---
+an ‘aspect sequence’. 
+
+--- Document Chunk 241 ---
+How driving information is 
+
+--- Document Chunk 242 ---
+conveyed by lineside signals
+
+--- Document Chunk 243 ---
+In accordance with international 
+
+--- Document Chunk 244 ---
+technical standard UIC 732, most 
+
+--- Document Chunk 245 ---
+railways use the colour red for signals 
+
+--- Document Chunk 246 ---
+displaying a stop aspect (sometimes 
+
+--- Document Chunk 247 ---
+called a ‘danger’ aspect); green for 
+
+--- Document Chunk 248 ---
+‘proceed’ (often called a ‘clear’ aspect); 
+
+--- Document Chunk 249 ---
+and yellow for ‘caution’ (sometimes 
+
+--- Document Chunk 250 ---
+called an ‘approach’ aspect). See Figure 5 
+
+--- Document Chunk 251 ---
+for an example of an aspect sequence 
+
+--- Document Chunk 252 ---
+using these colours.
+
+--- Document Chunk 253 ---
+A signal may also provide additional 
+
+--- Document Chunk 254 ---
+information for the driver, most 
+
+--- Document Chunk 255 ---
+importantly for diverging junctions 
+
+--- Document Chunk 256 ---
+where the train needs to slow down 
+
+--- Document Chunk 257 ---
+to traverse the points safely. There 
+
+--- Document Chunk 258 ---
+are basically two different ways in 
+
+--- Document Chunk 259 ---
+which this is done.
+
+--- Document Chunk 260 ---
+Most of the world’s lineside signalled 
+
+--- Document Chunk 261 ---
+railways use ‘speed signalling systems’, 
+
+--- Document Chunk 262 ---
+whereby the signals tell a driver how fast 
+
+--- Document Chunk 263 ---
+to proceed on the approach to diverging 
+
+--- Document Chunk 264 ---
+junctions and, in some systems, when 
+
+--- Document Chunk 265 ---
+approaching a signal showing a stop 
+
+--- Document Chunk 266 ---
+aspect. However, there is generally little 
+
+--- Document Chunk 267 ---
+or no information provided about which 
+
+--- Document Chunk 268 ---
+route is set for the train at a junction.
+
+--- Document Chunk 269 ---
+By way of an example, the Dutch speed 
+
+--- Document Chunk 270 ---
+signalling system, which is based on 
+
+--- Document Chunk 271 ---
+USA practices, uses three basic aspects 
+
+--- Document Chunk 272 ---
+(red, yellow and green), supplemented 
+
+--- Document Chunk 273 ---
+where required by illuminated numeric 
+
+--- Document Chunk 274 ---
+indicators which tell the driver of a 
+
+--- Document Chunk 275 ---
+speed limit ahead; for instance, ‘8’ to 
+
+--- Document Chunk 276 ---
+indicate a maximum speed of 80km/h 
+
+--- Document Chunk 277 ---
+– see Figure 6.
+
+--- Document Chunk 278 ---
+Some other speed systems use 
+
+--- Document Chunk 279 ---
+combinations of colour lights to indicate 
+
+--- Document Chunk 280 ---
+speed limits, rather than displaying 
+
+--- Document Chunk 281 ---
+a number. For instance, the Italian 
+
+--- Document Chunk 282 ---
+national railway uses two lights displayed 
+
+--- Document Chunk 283 ---
+vertically (yellow over green) to warn the 
+
+--- Document Chunk 284 ---
+driver of the speed limit over a junction 
+
+--- Document Chunk 285 ---
+ahead that is set for the diverging route. 
+
+--- Document Chunk 286 ---
+In the example shown in Figure 7, the 
+
+--- Document Chunk 287 ---
+yellow/green aspect tells the driver 
+
+--- Document Chunk 288 ---
+that the junction ahead is set and must 
+
+--- Document Chunk 289 ---
+be traversed at a speed not exceeding 
+
+--- Document Chunk 290 ---
+30km/h. For higher speed turnouts 
+
+--- Document Chunk 291 ---
+(60km/h and 100km/h), flashing yellow 
+
+--- Document Chunk 292 ---
+over green lights are used.
+
+--- Document Chunk 293 ---
+9 11 13
+
+--- Document Chunk 294 ---
+Train
+
+--- Document Chunk 295 ---
+Block section
+
+--- Document Chunk 296 ---
+Braking distance Braking distance
+
+--- Document Chunk 297 ---
+Proceed Caution, prepare to
+
+--- Document Chunk 298 ---
+stop at next signal Stop
+
+--- Document Chunk 299 ---
+Block section
+
+--- Document Chunk 300 ---
+9 11 13
+
+--- Document Chunk 301 ---
+Train
+
+--- Document Chunk 302 ---
+Block section
+
+--- Document Chunk 303 ---
+Braking distance
+
+--- Document Chunk 304 ---
+Proceed Caution, prepare
+
+--- Document Chunk 305 ---
+to stop at next signal Stop
+
+--- Document Chunk 306 ---
+Block section
+
+--- Document Chunk 307 ---
+7
+
+--- Document Chunk 308 ---
+Caution, prepare to
+
+--- Document Chunk 309 ---
+stop two signals ahead
+
+--- Document Chunk 310 ---
+Block section
+
+--- Document Chunk 311 ---
+Braking distance
+
+--- Document Chunk 312 ---
+Figure 3 – Signal sequence with all signals capable of displaying 'proceed', 'prepare to stop' and 'stop' indications. 
+
+--- Document Chunk 313 ---
+With acknowledgements to Jörn Pachl.
+
+--- Document Chunk 314 ---
+Figure 4 – Signal sequence with 'prepare to stop two signals ahead'. 
+
+--- Document Chunk 315 ---
+With acknowledgements to Jörn Pachl.
+
+--- Document Chunk 316 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 317 ---
+11
+
+--- Document Chunk 318 ---
+Braking distance
+
+--- Document Chunk 319 ---
+Braking distance
+
+--- Document Chunk 320 ---
+Signal 9
+
+--- Document Chunk 321 ---
+Signal 11
+
+--- Document Chunk 322 ---
+Signal 13
+
+--- Document Chunk 323 ---
+30km/h
+
+--- Document Chunk 324 ---
+Although speed signalling predominates, 
+
+--- Document Chunk 325 ---
+some countries (including Britain and 
+
+--- Document Chunk 326 ---
+other countries that have systems based 
+
+--- Document Chunk 327 ---
+on British practice) use an alternative 
+
+--- Document Chunk 328 ---
+called ‘route signalling’. Information is 
+
+--- Document Chunk 329 ---
+provided at signals that protect diverging 
+
+--- Document Chunk 330 ---
+junctions to tell the driver which route is 
+
+--- Document Chunk 331 ---
+set for the train. The driver is expected to 
+
+--- Document Chunk 332 ---
+know the prevailing speed for the route 
+
+--- Document Chunk 333 ---
+set, and when to start braking to traverse 
+
+--- Document Chunk 334 ---
+the junction safely. The signals provide 
+
+--- Document Chunk 335 ---
+no information about speed limits 
+
+--- Document Chunk 336 ---
+over junctions. 
+
+--- Document Chunk 337 ---
+The route information may take the form 
+
+--- Document Chunk 338 ---
+of a junction indicator (a ‘bar’ of white 
+
+--- Document Chunk 339 ---
+lights set at an angle corresponding to 
+
+--- Document Chunk 340 ---
+the route set, usually mounted above 
+
+--- Document Chunk 341 ---
+the main signal, see the centre photo in 
+
+--- Document Chunk 342 ---
+Figure 1); or an illuminated alphanumeric 
+
+--- Document Chunk 343 ---
+character may be displayed above or 
+
+--- Document Chunk 344 ---
+alongside the main signal to indicate the 
+
+--- Document Chunk 345 ---
+route set; or, less commonly, a pair of 
+
+--- Document Chunk 346 ---
+signals may be provided alongside each 
+
+--- Document Chunk 347 ---
+other, one for the straight route and one 
+
+--- Document Chunk 348 ---
+for the diverging route. The one for the 
+
+--- Document Chunk 349 ---
+route set displays the appropriate aspect 
+
+--- Document Chunk 350 ---
+to allow the train to proceed over the 
+
+--- Document Chunk 351 ---
+junction, while the other remains at red. 
+
+--- Document Chunk 352 ---
+To reduce the risk of a driver 
+
+--- Document Chunk 353 ---
+inadvertently traversing a diverging 
+
+--- Document Chunk 354 ---
+junction too fast on a route-signalled 
+
+--- Document Chunk 355 ---
+railway, which could result in derailment, 
+
+--- Document Chunk 356 ---
+‘approach release’ (also known as 
+
+--- Document Chunk 357 ---
+‘approach control’) of junction signals 
+
+--- Document Chunk 358 ---
+is employed. This typically involves 
+
+--- Document Chunk 359 ---
+holding the junction signal at ‘stop’ with 
+
+--- Document Chunk 360 ---
+the preceding signal(s) displaying the 
+
+--- Document Chunk 361 ---
+corresponding caution aspect(s) until 
+
+--- Document Chunk 362 ---
+the train has slowed and the driver can 
+
+--- Document Chunk 363 ---
+clearly see the junction signal ahead, 
+
+--- Document Chunk 364 ---
+at which point the interlocking allows 
+
+--- Document Chunk 365 ---
+the signal to display the appropriate 
+
+--- Document Chunk 366 ---
+aspect and route indication for the train 
+
+--- Document Chunk 367 ---
+to proceed over the junction. At some 
+
+--- Document Chunk 368 ---
+high-speed junctions in Britain the 
+
+--- Document Chunk 369 ---
+junction signal may initially be held at 
+
+--- Document Chunk 370 ---
+‘caution’ (single yellow) with the junction 
+
+--- Document Chunk 371 ---
+indicator displayed, and the preceding 
+
+--- Document Chunk 372 ---
+signal(s) display flashing yellow aspects 
+
+--- Document Chunk 373 ---
+to warn of the need to slow down for 
+
+--- Document Chunk 374 ---
+the diverging route. 
+
+--- Document Chunk 375 ---
+Although signalling systems can be 
+
+--- Document Chunk 376 ---
+classified broadly as ‘route’ or ‘speed’ 
+
+--- Document Chunk 377 ---
+in type, some speed signalling systems 
+
+--- Document Chunk 378 ---
+include some features of route 
+
+--- Document Chunk 379 ---
+signalling, and to a limited extent vice-
+
+--- Document Chunk 380 ---
+versa. For example, the Italian speed 
+
+--- Document Chunk 381 ---
+system referred to earlier includes both 
+
+--- Document Chunk 382 ---
+speed and (limited) route information in 
+
+--- Document Chunk 383 ---
+the signal aspects on the approach to 
+
+--- Document Chunk 384 ---
+a diverging junction. Furthermore, not 
+
+--- Document Chunk 385 ---
+only do some countries have more than 
+
+--- Document Chunk 386 ---
+one type of speed or route signalling, a 
+
+--- Document Chunk 387 ---
+few (notably the USA and Australia) use 
+
+--- Document Chunk 388 ---
+route signalling on some railways and 
+
+--- Document Chunk 389 ---
+speed signalling on others. Wikipedia 
+
+--- Document Chunk 390 ---
+provides a useful summary of the signal 
+
+--- Document Chunk 391 ---
+aspects used in various Australian states. 
+
+--- Document Chunk 392 ---
+irse.info/idkn9
+
+--- Document Chunk 393 ---
+Fixed lineside speed reminder signs may 
+
+--- Document Chunk 394 ---
+be provided with both route and speed 
+
+--- Document Chunk 395 ---
+systems. This is arguably more important 
+
+--- Document Chunk 396 ---
+with route signalling than speed 
+
+--- Document Chunk 397 ---
+signalling, although it in no way replaces 
+
+--- Document Chunk 398 ---
+or lessens the need for route knowledge. 
+
+--- Document Chunk 399 ---
+The IRSE’s textbook “European Railway 
+
+--- Document Chunk 400 ---
+Signalling” provides information about 
+
+--- Document Chunk 401 ---
+the many different systems of signal 
+
+--- Document Chunk 402 ---
+aspects used by European railway 
+
+--- Document Chunk 403 ---
+administrations. It illustrates well 
+
+--- Document Chunk 404 ---
+just how much they vary from one 
+
+--- Document Chunk 405 ---
+country to another. 
+
+--- Document Chunk 406 ---
+The driver’s perspective
+
+--- Document Chunk 407 ---
+Having considered the information 
+
+--- Document Chunk 408 ---
+provided by lineside signals to drive a 
+
+--- Document Chunk 409 ---
+train safely, we will now think about how 
+
+--- Document Chunk 410 ---
+to ensure that each signal displays the 
+
+--- Document Chunk 411 ---
+information in a manner that drivers can 
+
+--- Document Chunk 412 ---
+assimilate and use.
+
+--- Document Chunk 413 ---
+Good practice for signal visibility is 
+
+--- Document Chunk 414 ---
+based on the needs of the driver. On 
+
+--- Document Chunk 415 ---
+approaching a signal, a driver has 
+
+--- Document Chunk 416 ---
+Figure 5 – A typical sequence of successive signals corresponding to 
+
+--- Document Chunk 417 ---
+Figure 3, displaying 'proceed', 'caution, prepare to stop at next signal 
+
+--- Document Chunk 418 ---
+ahead' and 'stop' (green, yellow and red respectively).
+
+--- Document Chunk 419 ---
+Figure 6 – An example of a Netherlands railway signal,  
+
+--- Document Chunk 420 ---
+instructing the driver to reduce speed to 80km/h before  
+
+--- Document Chunk 421 ---
+reaching the next signal ahead.
+
+--- Document Chunk 422 ---
+Figure 7 – An example of Italian speed signalling, where the diverging route is set and must be traversed at no 
+
+--- Document Chunk 423 ---
+more than 30km/h. The red over green (proceed) aspect displayed by the junction signal confirms to the driver 
+
+--- Document Chunk 424 ---
+that the diverging route is set and that the next signal ahead is also displaying a proceed aspect.
+
+--- Document Chunk 425 ---
+>>>
+
+--- Document Chunk 426 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 427 ---
+12
+
+--- Document Chunk 428 ---
+firstly to read the signal (observe the 
+
+--- Document Chunk 429 ---
+information displayed), then interpret the 
+
+--- Document Chunk 430 ---
+aspect (understand what it means), and 
+
+--- Document Chunk 431 ---
+then drive the train accordingly.
+
+--- Document Chunk 432 ---
+Reading a signal requires that:
+
+--- Document Chunk 433 ---
+1. It is clearly applicable to the driver 
+
+--- Document Chunk 434 ---
+of an approaching train, and readily 
+
+--- Document Chunk 435 ---
+distinguishable from any other signals 
+
+--- Document Chunk 436 ---
+in the vicinity (for instance, other 
+
+--- Document Chunk 437 ---
+adjacent signals, and signals further 
+
+--- Document Chunk 438 ---
+ahead on the line).
+
+--- Document Chunk 439 ---
+2. All the illumina ted lights that 
+
+--- Document Chunk 440 ---
+comprise the aspect displayed are 
+
+--- Document Chunk 441 ---
+clearly visible for a sufficient length 
+
+--- Document Chunk 442 ---
+of time for the driver to observe 
+
+--- Document Chunk 443 ---
+the aspect, taking into account the 
+
+--- Document Chunk 444 ---
+highest attainable or permissible 
+
+--- Document Chunk 445 ---
+approach speed.
+
+--- Document Chunk 446 ---
+3. It is visible under all conditions 
+
+--- Document Chunk 447 ---
+and at all times of day and night, 
+
+--- Document Chunk 448 ---
+including those where sunlight or 
+
+--- Document Chunk 449 ---
+nearby artificial lighting might make 
+
+--- Document Chunk 450 ---
+readability difficult.
+
+--- Document Chunk 451 ---
+Interpreting a signal requires that:
+
+--- Document Chunk 452 ---
+1. The aspect displayed is one o f an 
+
+--- Document Chunk 453 ---
+established set of aspects applicable 
+
+--- Document Chunk 454 ---
+to the railway, with a clearly defined 
+
+--- Document Chunk 455 ---
+meaning for drivers. 
+
+--- Document Chunk 456 ---
+2. The in formation conveyed by the 
+
+--- Document Chunk 457 ---
+aspect is unambiguous, so that the 
+
+--- Document Chunk 458 ---
+driver is not placed in a position of 
+
+--- Document Chunk 459 ---
+uncertainty as to what action to take; 
+
+--- Document Chunk 460 ---
+nor be ‘conditioned’ by previous 
+
+--- Document Chunk 461 ---
+driving experience to expect to take 
+
+--- Document Chunk 462 ---
+a particular course of action, only to 
+
+--- Document Chunk 463 ---
+find on rare occasions that a different 
+
+--- Document Chunk 464 ---
+action is required even though the 
+
+--- Document Chunk 465 ---
+aspect displayed is the same.
+
+--- Document Chunk 466 ---
+3. The aspect is not corrupted (all 
+
+--- Document Chunk 467 ---
+relevant lights illuminated, and no 
+
+--- Document Chunk 468 ---
+others), to avoid the driver either 
+
+--- Document Chunk 469 ---
+not understanding the information 
+
+--- Document Chunk 470 ---
+presented or interpreting it as having 
+
+--- Document Chunk 471 ---
+a different meaning to that intended 
+
+--- Document Chunk 472 ---
+by the signalling system.
+
+--- Document Chunk 473 ---
+When the driver has read and interpreted 
+
+--- Document Chunk 474 ---
+a signal, they then decide on what action 
+
+--- Document Chunk 475 ---
+to take, making use of their knowledge 
+
+--- Document Chunk 476 ---
+of the rolling stock, the route ahead and 
+
+--- Document Chunk 477 ---
+the applicable operational rules.
+
+--- Document Chunk 478 ---
+Driveability of the signal requires that:
+
+--- Document Chunk 479 ---
+1. The aspect f orms part of a logical 
+
+--- Document Chunk 480 ---
+aspect sequence encountered by the 
+
+--- Document Chunk 481 ---
+driver, except of course in emergency 
+
+--- Document Chunk 482 ---
+or failure conditions, for instance if 
+
+--- Document Chunk 483 ---
+a signal reverts to red to stop a train 
+
+--- Document Chunk 484 ---
+because of an unexpected unsafe 
+
+--- Document Chunk 485 ---
+condition ahead.
+
+--- Document Chunk 486 ---
+2. Wher e the aspect requires the 
+
+--- Document Chunk 487 ---
+driver to reduce speed, it must be 
+
+--- Document Chunk 488 ---
+possible to meet the speed reduction 
+
+--- Document Chunk 489 ---
+requirement by means of normal 
+
+--- Document Chunk 490 ---
+(service) braking, taking into account 
+
+--- Document Chunk 491 ---
+factors such as the maximum 
+
+--- Document Chunk 492 ---
+attainable/permissible speed on the 
+
+--- Document Chunk 493 ---
+approach to the signal, rolling stock 
+
+--- Document Chunk 494 ---
+performance and braking capability, 
+
+--- Document Chunk 495 ---
+gradients and distance to next signal.
+
+--- Document Chunk 496 ---
+Train drivers need a wide range of information to do their 
+
+--- Document Chunk 497 ---
+job, of which signals are only one part. The information and 
+
+--- Document Chunk 498 ---
+knowledge they require includes:
+
+--- Document Chunk 499 ---
+• Route and infrastructure information (commonly known 
+
+--- Document Chunk 500 ---
+as ‘route knowledge’), including the locations (and 
+
+--- Document Chunk 501 ---
+layouts) of junctions, stations, lineside signals, permitted 
+
+--- Document Chunk 502 ---
+speeds and gradients. This information is relatively 
+
+--- Document Chunk 503 ---
+static, with occasional changes when the infrastructure 
+
+--- Document Chunk 504 ---
+manager alters track layouts and signalling.
+
+--- Document Chunk 505 ---
+• Rolling stock information, including the train’s maximum 
+
+--- Document Chunk 506 ---
+speed, braking capability and length. This information 
+
+--- Document Chunk 507 ---
+is particular to each type of train, and some of it (such 
+
+--- Document Chunk 508 ---
+as length and braking capability), may be particular to 
+
+--- Document Chunk 509 ---
+each individual train trip – particularly in the case of 
+
+--- Document Chunk 510 ---
+freight trains.
+
+--- Document Chunk 511 ---
+• Timetable information, telling the driver about planned 
+
+--- Document Chunk 512 ---
+departure, passing and arrival times at specific locations. 
+
+--- Document Chunk 513 ---
+• Driving rules for driving the train safely under normal 
+
+--- Document Chunk 514 ---
+operational conditions, in degraded modes and in 
+
+--- Document Chunk 515 ---
+emergency situations; and for activities such as those 
+
+--- Document Chunk 516 ---
+associated with arrival/departure from stations (passenger 
+
+--- Document Chunk 517 ---
+trains) and loading/unloading operations (freight trains).
+
+--- Document Chunk 518 ---
+• Movement authorities. The driver must know the 
+
+--- Document Chunk 519 ---
+meaning of the information displayed by lineside 
+
+--- Document Chunk 520 ---
+signals (or the in-cab display), and how to respond to 
+
+--- Document Chunk 521 ---
+that information.
+
+--- Document Chunk 522 ---
+In the case of a metro, the operation of all the trains using 
+
+--- Document Chunk 523 ---
+any one line is more or less identical and driving is a relatively 
+
+--- Document Chunk 524 ---
+straightforward task, particularly if the trains are fitted with 
+
+--- Document Chunk 525 ---
+automatic train protection and operation (ATP, ATO). At the 
+
+--- Document Chunk 526 ---
+other extreme, the manual driving of long and heavy freight 
+
+--- Document Chunk 527 ---
+trains, where each one may have different characteristics, is 
+
+--- Document Chunk 528 ---
+much more complex.
+
+--- Document Chunk 529 ---
+The knowledge and information required for train driving
+
+--- Document Chunk 530 ---
+Figure 8 – A lineside signal in Japan, indicating a route set to the right at a diverging junction. 
+
+--- Document Chunk 531 ---
+Japan predominantly uses speed signalling, but with route signalling at junctions.
+
+--- Document Chunk 532 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 533 ---
+13
+
+--- Document Chunk 534 ---
+3. The in formation displayed is of fairly 
+
+--- Document Chunk 535 ---
+immediate relevance to the driver. 
+
+--- Document Chunk 536 ---
+Displaying information well before 
+
+--- Document Chunk 537 ---
+the driver needs to act on it could 
+
+--- Document Chunk 538 ---
+risk them forgetting it by the time it 
+
+--- Document Chunk 539 ---
+becomes relevant. 
+
+--- Document Chunk 540 ---
+Two important corollaries to these 
+
+--- Document Chunk 541 ---
+requirements are firstly that drivers must 
+
+--- Document Chunk 542 ---
+meet the relevant eyesight (colour vision 
+
+--- Document Chunk 543 ---
+and visual acuity) and competence 
+
+--- Document Chunk 544 ---
+requirements; and secondly that driving 
+
+--- Document Chunk 545 ---
+cabs should be designed to provide the 
+
+--- Document Chunk 546 ---
+driver with an optimal view of lineside 
+
+--- Document Chunk 547 ---
+signals, not only from a distance but also 
+
+--- Document Chunk 548 ---
+when close to, or stationary at, a signal.
+
+--- Document Chunk 549 ---
+Positioning signals
+
+--- Document Chunk 550 ---
+It should be clear by now that designing 
+
+--- Document Chunk 551 ---
+a lineside signalling system requires 
+
+--- Document Chunk 552 ---
+careful consideration of the train drivers’ 
+
+--- Document Chunk 553 ---
+needs. In particular, the locations 
+
+--- Document Chunk 554 ---
+of signals for optimum viewing and 
+
+--- Document Chunk 555 ---
+correct driver response are of critical 
+
+--- Document Chunk 556 ---
+importance. The locations are initially 
+
+--- Document Chunk 557 ---
+determined by headway and signal 
+
+--- Document Chunk 558 ---
+spacing calculations, taking account 
+
+--- Document Chunk 559 ---
+of the topography of the railway 
+
+--- Document Chunk 560 ---
+infrastructure (including track layout, 
+
+--- Document Chunk 561 ---
+gradients and speed limits), operational 
+
+--- Document Chunk 562 ---
+requirements, the rolling stock that 
+
+--- Document Chunk 563 ---
+will use the railway, and capacity 
+
+--- Document Chunk 564 ---
+requirements. Other factors may also 
+
+--- Document Chunk 565 ---
+need to be considered, such as:
+
+--- Document Chunk 566 ---
+• Line curvature and structures (such 
+
+--- Document Chunk 567 ---
+as bridges, station infrastructure and 
+
+--- Document Chunk 568 ---
+overhead line equipment) that may 
+
+--- Document Chunk 569 ---
+impede signal visibility.
+
+--- Document Chunk 570 ---
+• Viaducts and tunnels, where it is 
+
+--- Document Chunk 571 ---
+inadvisable to place signals unless 
+
+--- Document Chunk 572 ---
+unavoidable because of the risks 
+
+--- Document Chunk 573 ---
+associated with evacuating a train 
+
+--- Document Chunk 574 ---
+in an emergency.
+
+--- Document Chunk 575 ---
+• Nearby artificial lighting (on stations, 
+
+--- Document Chunk 576 ---
+buildings and roads) which could 
+
+--- Document Chunk 577 ---
+impair the clarity with which 
+
+--- Document Chunk 578 ---
+signals can be seen.
+
+--- Document Chunk 579 ---
+• The effects of sunlight (shining 
+
+--- Document Chunk 580 ---
+either into the signal or into the 
+
+--- Document Chunk 581 ---
+driver’s eyes).
+
+--- Document Chunk 582 ---
+• The possible consequences of a 
+
+--- Document Chunk 583 ---
+train passing the signal at danger 
+
+--- Document Chunk 584 ---
+(stop) – commonly known in Britain 
+
+--- Document Chunk 585 ---
+and some other countries as a SPAD 
+
+--- Document Chunk 586 ---
+(Signal Passed At Danger’).
+
+--- Document Chunk 587 ---
+The proposed location and light beam 
+
+--- Document Chunk 588 ---
+alignment of each signal is usually 
+
+--- Document Chunk 589 ---
+subject to review to ensure that in 
+
+--- Document Chunk 590 ---
+practice a driver will be able to read the 
+
+--- Document Chunk 591 ---
+signal aspect reliably and accurately, and 
+
+--- Document Chunk 592 ---
+that there are no unforeseen hazards 
+
+--- Document Chunk 593 ---
+associated with the location. 
+
+--- Document Chunk 594 ---
+This review process, which may involve 
+
+--- Document Chunk 595 ---
+site visits and/or the use of simulation 
+
+--- Document Chunk 596 ---
+systems, is known as ‘signal sighting’ 
+
+--- Document Chunk 597 ---
+(in Britain, at least), and is a joint activity 
+
+--- Document Chunk 598 ---
+involving signalling designers and train 
+
+--- Document Chunk 599 ---
+operators. Signal maintainers may also 
+
+--- Document Chunk 600 ---
+participate so that maintainability issues 
+
+--- Document Chunk 601 ---
+can be considered and addressed.
+
+--- Document Chunk 602 ---
+Where the time for which a signal is 
+
+--- Document Chunk 603 ---
+visible to a driver is unacceptably short 
+
+--- Document Chunk 604 ---
+(for example, because of tight curvature 
+
+--- Document Chunk 605 ---
+on the approach) and it is not possible 
+
+--- Document Chunk 606 ---
+to place the signal in a better location, 
+
+--- Document Chunk 607 ---
+repeater signals are sometimes used, 
+
+--- Document Chunk 608 ---
+located a short distance before the main 
+
+--- Document Chunk 609 ---
+signal. As their name implies, they repeat 
+
+--- Document Chunk 610 ---
+some or all of the information displayed 
+
+--- Document Chunk 611 ---
+by the main signal to give the driver an 
+
+--- Document Chunk 612 ---
+extended time to read and interpret 
+
+--- Document Chunk 613 ---
+the aspect. It should be noted that if 
+
+--- Document Chunk 614 ---
+the signal is displaying ‘stop’, the driver 
+
+--- Document Chunk 615 ---
+is expected to stop at the main signal, 
+
+--- Document Chunk 616 ---
+not the repeater.
+
+--- Document Chunk 617 ---
+Countdown marker boards are also 
+
+--- Document Chunk 618 ---
+sometimes provided on the approach 
+
+--- Document Chunk 619 ---
+to signals to aid the driver. On some 
+
+--- Document Chunk 620 ---
+railways this is done routinely; on others 
+
+--- Document Chunk 621 ---
+it is done only in special circumstances, 
+
+--- Document Chunk 622 ---
+for instance where the signal 
+
+--- Document Chunk 623 ---
+sighting time is poor.
+
+--- Document Chunk 624 ---
+Most railways have conventions about 
+
+--- Document Chunk 625 ---
+whether signals are located to the left or 
+
+--- Document Chunk 626 ---
+the right of the track, usually dependent 
+
+--- Document Chunk 627 ---
+on whether, on double track lines, trains 
+
+--- Document Chunk 628 ---
+are normally on the right-hand or left-
+
+--- Document Chunk 629 ---
+hand track in the direction of running. 
+
+--- Document Chunk 630 ---
+Main signals are usually positioned at 
+
+--- Document Chunk 631 ---
+or above driver’s eye level, on either 
+
+--- Document Chunk 632 ---
+posts (masts), cantilever structures or 
+
+--- Document Chunk 633 ---
+gantries. The latter two are used mostly 
+
+--- Document Chunk 634 ---
+on busy routes with several parallel lines 
+
+--- Document Chunk 635 ---
+where there may not be room to place 
+
+--- Document Chunk 636 ---
+individual signal posts between the 
+
+--- Document Chunk 637 ---
+tracks, see Figure 9.
+
+--- Document Chunk 638 ---
+Figure 9 – Signal structures in the USA, with signals on a cantilever structure above the main running lines.  
+
+--- Document Chunk 639 ---
+To the right is a signal on a post for trains exiting the loop line.
+
+--- Document Chunk 640 ---
+Photo Shutterstock/Pat Folsem.
+
+--- Document Chunk 641 ---
+>>>
+
+--- Document Chunk 642 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 643 ---
+14
+
+--- Document Chunk 644 ---
+On some railways, notably underground 
+
+--- Document Chunk 645 ---
+metros, there may be insufficient room 
+
+--- Document Chunk 646 ---
+to place signals in locations that are 
+
+--- Document Chunk 647 ---
+clear of the swept envelope of the train. 
+
+--- Document Chunk 648 ---
+In such cases, smaller signal heads 
+
+--- Document Chunk 649 ---
+might be used and/or they might be 
+
+--- Document Chunk 650 ---
+positioned near ground level instead 
+
+--- Document Chunk 651 ---
+of being elevated, where there is 
+
+--- Document Chunk 652 ---
+more room for them.
+
+--- Document Chunk 653 ---
+Lastly on the subject of signal positions, 
+
+--- Document Chunk 654 ---
+each signal may be assigned an 
+
+--- Document Chunk 655 ---
+alphanumeric identity that is unique 
+
+--- Document Chunk 656 ---
+within the area of the control centre. 
+
+--- Document Chunk 657 ---
+Typically the identity is shown on a 
+
+--- Document Chunk 658 ---
+plate attached to the signal structure, 
+
+--- Document Chunk 659 ---
+and on the signalling display system 
+
+--- Document Chunk 660 ---
+in the control centre. If a driver and 
+
+--- Document Chunk 661 ---
+signaller need to speak with each 
+
+--- Document Chunk 662 ---
+other (by radio or phone) when a train 
+
+--- Document Chunk 663 ---
+is stationary at a signal, the identity is 
+
+--- Document Chunk 664 ---
+used to verify the train's location. This is 
+
+--- Document Chunk 665 ---
+vital for safety, particularly if the signal 
+
+--- Document Chunk 666 ---
+is displaying 'stop' because of a failure 
+
+--- Document Chunk 667 ---
+and the driver has to be given verbal 
+
+--- Document Chunk 668 ---
+instructions to proceed.
+
+--- Document Chunk 669 ---
+Signal head design
+
+--- Document Chunk 670 ---
+Signal heads have many different 
+
+--- Document Chunk 671 ---
+designs. The predominant form is 
+
+--- Document Chunk 672 ---
+a metal structure within which are 
+
+--- Document Chunk 673 ---
+separate lamp (bulb) and lens assemblies 
+
+--- Document Chunk 674 ---
+for each coloured light that the signal 
+
+--- Document Chunk 675 ---
+requires. Each assembly has an electrical 
+
+--- Document Chunk 676 ---
+connection to the signalling system 
+
+--- Document Chunk 677 ---
+which switches the lamp on or off.
+
+--- Document Chunk 678 ---
+Some railways use lamp and lens 
+
+--- Document Chunk 679 ---
+assemblies that allow multiple colours to 
+
+--- Document Chunk 680 ---
+be displayed through a single lens, rather 
+
+--- Document Chunk 681 ---
+than having a separate assembly for each 
+
+--- Document Chunk 682 ---
+colour. The so-called ‘searchlight’ signal 
+
+--- Document Chunk 683 ---
+(an electromechanical device) is one 
+
+--- Document Chunk 684 ---
+example of this. Other types use dichroic 
+
+--- Document Chunk 685 ---
+mirrors or colour LEDs.
+
+--- Document Chunk 686 ---
+The filament (incandescent) lamps 
+
+--- Document Chunk 687 ---
+traditionally used for signals are generally 
+
+--- Document Chunk 688 ---
+low power devices (typically 24W or less) 
+
+--- Document Chunk 689 ---
+specifically designed for the purpose, 
+
+--- Document Chunk 690 ---
+in front of which is a lens system, see 
+
+--- Document Chunk 691 ---
+Figure 10. This arrangement produces a 
+
+--- Document Chunk 692 ---
+very concentrated beam of light that is 
+
+--- Document Chunk 693 ---
+visible as much as a kilometre away in 
+
+--- Document Chunk 694 ---
+good conditions, with a narrow angle 
+
+--- Document Chunk 695 ---
+of divergence to help ensure that the 
+
+--- Document Chunk 696 ---
+signal can be seen predominantly by 
+
+--- Document Chunk 697 ---
+drivers on the line to which it applies 
+
+--- Document Chunk 698 ---
+but less so by drivers on other (parallel) 
+
+--- Document Chunk 699 ---
+lines. Lens systems can also be wide-
+
+--- Document Chunk 700 ---
+angled when necessary to aid viewing 
+
+--- Document Chunk 701 ---
+in special circumstances, such as when 
+
+--- Document Chunk 702 ---
+approaching on a sharp curve.
+
+--- Document Chunk 703 ---
+LED technology has led to a revolution 
+
+--- Document Chunk 704 ---
+in railway signals, enabling heads to 
+
+--- Document Chunk 705 ---
+be much more compact, lighter and 
+
+--- Document Chunk 706 ---
+reliable, with a less complex lens system, 
+
+--- Document Chunk 707 ---
+whilst still meeting the requirement 
+
+--- Document Chunk 708 ---
+to produce a concentrated beam of 
+
+--- Document Chunk 709 ---
+light with beam intensities suitable for 
+
+--- Document Chunk 710 ---
+long, medium or short-range viewing. 
+
+--- Document Chunk 711 ---
+For these reasons many railways 
+
+--- Document Chunk 712 ---
+now use LED signals in preference 
+
+--- Document Chunk 713 ---
+to filament lamp types for signalling 
+
+--- Document Chunk 714 ---
+schemes and renewals.
+
+--- Document Chunk 715 ---
+Although the visibility of a signal from 
+
+--- Document Chunk 716 ---
+a distance is of prime importance, a 
+
+--- Document Chunk 717 ---
+driver also needs to be able to see the 
+
+--- Document Chunk 718 ---
+aspect displayed when stopped close 
+
+--- Document Chunk 719 ---
+to the signal. Various techniques are 
+
+--- Document Chunk 720 ---
+used to ensure this, including a specially 
+
+--- Document Chunk 721 ---
+designed part of the lens which shines 
+
+--- Document Chunk 722 ---
+light down towards the driving cab; 
+
+--- Document Chunk 723 ---
+using small repeater (or co-acting) 
+
+--- Document Chunk 724 ---
+signals at cab height for close-up 
+
+--- Document Chunk 725 ---
+viewing; and requiring drivers to stop a 
+
+--- Document Chunk 726 ---
+few metres before the signal, where it is 
+
+--- Document Chunk 727 ---
+clearly visible to them.
+
+--- Document Chunk 728 ---
+The visibility of signals can be 
+
+--- Document Chunk 729 ---
+problematical in locations where at 
+
+--- Document Chunk 730 ---
+some times of the day and year the sun 
+
+--- Document Chunk 731 ---
+is either shining directly into the signal 
+
+--- Document Chunk 732 ---
+or is shining directly behind it. Signals 
+
+--- Document Chunk 733 ---
+are usually equipped with hoods to 
+
+--- Document Chunk 734 ---
+reduce the problem, and lenses are 
+
+--- Document Chunk 735 ---
+designed so far as possible to minimise 
+
+--- Document Chunk 736 ---
+the reflection of sunlight, which could 
+
+--- Document Chunk 737 ---
+otherwise produce so called ‘phantom 
+
+--- Document Chunk 738 ---
+aspects’ where the lamp appears to be 
+
+--- Document Chunk 739 ---
+alight but is not.
+
+--- Document Chunk 740 ---
+Signals must be highly reliable, for 
+
+--- Document Chunk 741 ---
+both safety and train performance 
+
+--- Document Chunk 742 ---
+reasons. On many railways, failure of 
+
+--- Document Chunk 743 ---
+a signal light is considered sufficiently 
+
+--- Document Chunk 744 ---
+hazardous that the signalling system 
+
+--- Document Chunk 745 ---
+has built-in mitigations to minimise 
+
+--- Document Chunk 746 ---
+the risk of a driver encountering 
+
+--- Document Chunk 747 ---
+an un-illuminated (‘black’ or ‘dark’) 
+
+--- Document Chunk 748 ---
+signal. Typical arrangements include 
+
+--- Document Chunk 749 ---
+double filament lamps, one being the 
+
+--- Document Chunk 750 ---
+standby for the other; proving within 
+
+--- Document Chunk 751 ---
+the signalling system that the signal 
+
+--- Document Chunk 752 ---
+ahead is alight before a driver is given 
+
+--- Document Chunk 753 ---
+a movement authority towards it; and 
+
+--- Document Chunk 754 ---
+restricting aspects and their sequences 
+
+--- Document Chunk 755 ---
+so that drivers only encounter correctly 
+
+--- Document Chunk 756 ---
+illuminated signals. Railways’ operating 
+
+--- Document Chunk 757 ---
+rules usually state that in the unlikely 
+
+--- Document Chunk 758 ---
+event of a driver encountering an 
+
+--- Document Chunk 759 ---
+un-illuminated signal, they should treat 
+
+--- Document Chunk 760 ---
+it as displaying ‘stop’.
+
+--- Document Chunk 761 ---
+The use of LEDs in signals has made the 
+
+--- Document Chunk 762 ---
+sudden failure of a light very infrequent 
+
+--- Document Chunk 763 ---
+compared with filament lamps. Each 
+
+--- Document Chunk 764 ---
+light typically comprises a matrix of 
+
+--- Document Chunk 765 ---
+multiple LEDs and therefore a single LED 
+
+--- Document Chunk 766 ---
+failure only marginally degrades visibility.
+
+--- Document Chunk 767 ---
+Maintenance considerations
+
+--- Document Chunk 768 ---
+Signals need to be maintained, which 
+
+--- Document Chunk 769 ---
+may include cleaning the lenses, 
+
+--- Document Chunk 770 ---
+replacing failed lamps, and periodically 
+
+--- Document Chunk 771 ---
+checking beam alignment and 
+
+--- Document Chunk 772 ---
+lamp voltages. 
+
+--- Document Chunk 773 ---
+Safe access for maintenance staff is 
+
+--- Document Chunk 774 ---
+therefore an important consideration 
+
+--- Document Chunk 775 ---
+in the design of signal structures and, 
+
+--- Document Chunk 776 ---
+to some extent, in their positioning as 
+
+--- Document Chunk 777 ---
+well (although the needs of the driver 
+
+--- Document Chunk 778 ---
+take precedence). Signals are usually 
+
+--- Document Chunk 779 ---
+equipped with ladders for access, 
+
+--- Document Chunk 780 ---
+although some modern lightweight 
+
+--- Document Chunk 781 ---
+single post structures have a fold-down 
+
+--- Document Chunk 782 ---
+arrangement so that the signal can be 
+
+--- Document Chunk 783 ---
+lowered to the ground for maintenance. 
+
+--- Document Chunk 784 ---
+Cantilever and gantry structures are 
+
+--- Document Chunk 785 ---
+sometimes used in preference to 
+
+--- Document Chunk 786 ---
+Lamp (bulb)
+
+--- Document Chunk 787 ---
+Main filament at focal point
+
+--- Document Chunk 788 ---
+Clear 
+
+--- Document Chunk 789 ---
+outer lens
+
+--- Document Chunk 790 ---
+Coloured
+
+--- Document Chunk 791 ---
+inner lens
+
+--- Document Chunk 792 ---
+Figure 10 – A cutaway side view of a typical filament lamp lens system.
+
+--- Document Chunk 793 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 794 ---
+15
+
+--- Document Chunk 795 ---
+single posts to facilitate access for 
+
+--- Document Chunk 796 ---
+maintenance purposes without requiring 
+
+--- Document Chunk 797 ---
+staff to cross the tracks, a walkway for 
+
+--- Document Chunk 798 ---
+maintainers being an integral part of 
+
+--- Document Chunk 799 ---
+the structure. 
+
+--- Document Chunk 800 ---
+Some signals use optical fibres to 
+
+--- Document Chunk 801 ---
+transmit the light to the signal head, 
+
+--- Document Chunk 802 ---
+allowing the lamp unit to be placed 
+
+--- Document Chunk 803 ---
+closer to ground level to make 
+
+--- Document Chunk 804 ---
+maintenance easier and allowing the 
+
+--- Document Chunk 805 ---
+signal head to be mounted on a simpler 
+
+--- Document Chunk 806 ---
+structure, or even on the overhead 
+
+--- Document Chunk 807 ---
+electrification supports if space and 
+
+--- Document Chunk 808 ---
+visibility requirements permit.
+
+--- Document Chunk 809 ---
+Signals for low‑speed 
+
+--- Document Chunk 810 ---
+movements
+
+--- Document Chunk 811 ---
+So far, we have only discussed the main 
+
+--- Document Chunk 812 ---
+signals used for running movements, 
+
+--- Document Chunk 813 ---
+where a train is travelling at speed 
+
+--- Document Chunk 814 ---
+from A to B. Railways must also make 
+
+--- Document Chunk 815 ---
+provision for a variety of other train 
+
+--- Document Chunk 816 ---
+movements, for which distinctly different 
+
+--- Document Chunk 817 ---
+signals are generally used. These 
+
+--- Document Chunk 818 ---
+movements include:
+
+--- Document Chunk 819 ---
+• Shunting into and out of sidings. 
+
+--- Document Chunk 820 ---
+Such movements may be in 
+
+--- Document Chunk 821 ---
+the opposite direction to the 
+
+--- Document Chunk 822 ---
+normal traffic flow.
+
+--- Document Chunk 823 ---
+• Detaching/attaching locomotives 
+
+--- Document Chunk 824 ---
+and wagons from/to trains.
+
+--- Document Chunk 825 ---
+• Enabling a train to enter a section 
+
+--- Document Chunk 826 ---
+of line already occupied by another 
+
+--- Document Chunk 827 ---
+train, for instance where a platform is 
+
+--- Document Chunk 828 ---
+to be shared by two trains or where 
+
+--- Document Chunk 829 ---
+two trains are to be joined together.
+
+--- Document Chunk 830 ---
+• Moving a train over a crossover from 
+
+--- Document Chunk 831 ---
+one line to another so that it can 
+
+--- Document Chunk 832 ---
+reverse direction and travel back on 
+
+--- Document Chunk 833 ---
+the other line.
+
+--- Document Chunk 834 ---
+The signals used for these purposes are 
+
+--- Document Chunk 835 ---
+generally known as shunting or position 
+
+--- Document Chunk 836 ---
+light signals, although when associated 
+
+--- Document Chunk 837 ---
+with a main signal (i.e., attached to the 
+
+--- Document Chunk 838 ---
+same structure) they are sometimes 
+
+--- Document Chunk 839 ---
+called subsidiary signals. The colour 
+
+--- Document Chunk 840 ---
+red is commonly used to denote stop, 
+
+--- Document Chunk 841 ---
+and authority to proceed is indicated 
+
+--- Document Chunk 842 ---
+by white or yellow lights (often in pairs), 
+
+--- Document Chunk 843 ---
+see Figure 11. This is not universal 
+
+--- Document Chunk 844 ---
+practice however, and railways use many 
+
+--- Document Chunk 845 ---
+different forms. The USA, for instance, 
+
+--- Document Chunk 846 ---
+has several types of position light signals 
+
+--- Document Chunk 847 ---
+(and, incidentally, main signal aspects 
+
+--- Document Chunk 848 ---
+as well), their existence being due to 
+
+--- Document Chunk 849 ---
+the varied historical development of the 
+
+--- Document Chunk 850 ---
+railroad companies.
+
+--- Document Chunk 851 ---
+Because shunting signals are used only 
+
+--- Document Chunk 852 ---
+for low-speed movements, they are 
+
+--- Document Chunk 853 ---
+not designed to be visible over great 
+
+--- Document Chunk 854 ---
+distances, nor is there any need for 
+
+--- Document Chunk 855 ---
+aspect sequences to warn drivers to slow 
+
+--- Document Chunk 856 ---
+down when approaching a shunt signal 
+
+--- Document Chunk 857 ---
+displaying stop. The signals are generally 
+
+--- Document Chunk 858 ---
+located close to ground level, except 
+
+--- Document Chunk 859 ---
+where they are associated with a main 
+
+--- Document Chunk 860 ---
+signal, when they are mounted alongside 
+
+--- Document Chunk 861 ---
+or immediately below the main head.
+
+--- Document Chunk 862 ---
+Tramways (streetcar systems) also 
+
+--- Document Chunk 863 ---
+generally operate at low speeds and 
+
+--- Document Chunk 864 ---
+braking distances are sufficiently short 
+
+--- Document Chunk 865 ---
+that a tram (streetcar) can be brought 
+
+--- Document Chunk 866 ---
+to a stand when the driver sees a signal 
+
+--- Document Chunk 867 ---
+displaying stop, without the need for 
+
+--- Document Chunk 868 ---
+‘distant’ signals. Signals are provided 
+
+--- Document Chunk 869 ---
+to indicate when and where to stop 
+
+--- Document Chunk 870 ---
+at intersections with roads and other 
+
+--- Document Chunk 871 ---
+tram lines (including entry to single line 
+
+--- Document Chunk 872 ---
+sections), and they may also indicate 
+
+--- Document Chunk 873 ---
+which route is set. 
+
+--- Document Chunk 874 ---
+Tramway signals take many different 
+
+--- Document Chunk 875 ---
+forms, and streets both intersect tram 
+
+--- Document Chunk 876 ---
+tracks and share the same space. It is 
+
+--- Document Chunk 877 ---
+therefore important to ensure that signs, 
+
+--- Document Chunk 878 ---
+road markings and signals for trams 
+
+--- Document Chunk 879 ---
+are distinct and different from those 
+
+--- Document Chunk 880 ---
+applicable to motorists and pedestrians. 
+
+--- Document Chunk 881 ---
+Both motorists and tram drivers need to 
+
+--- Document Chunk 882 ---
+be aware of signals applicable to them, 
+
+--- Document Chunk 883 ---
+and to some extent also understand the 
+
+--- Document Chunk 884 ---
+meaning of those which apply to the 
+
+--- Document Chunk 885 ---
+other mode of transport, see Figure 12.
+
+--- Document Chunk 886 ---
+How train warning and 
+
+--- Document Chunk 887 ---
+protection systems help 
+
+--- Document Chunk 888 ---
+drivers to obey lineside signals
+
+--- Document Chunk 889 ---
+A separate “Back to Basics” article deals 
+
+--- Document Chunk 890 ---
+with the subject of train protection 
+
+--- Document Chunk 891 ---
+systems, and it is not the intention to 
+
+--- Document Chunk 892 ---
+go into the details of such systems 
+
+--- Document Chunk 893 ---
+here. However, it is worth mentioning 
+
+--- Document Chunk 894 ---
+the role of both warning systems and 
+
+--- Document Chunk 895 ---
+protection systems in the context of 
+
+--- Document Chunk 896 ---
+lineside signalling.
+
+--- Document Chunk 897 ---
+Train-borne warning systems alert 
+
+--- Document Chunk 898 ---
+the driver to take note of information 
+
+--- Document Chunk 899 ---
+presented by lineside signals, and they 
+
+--- Document Chunk 900 ---
+may initiate braking if the driver fails 
+
+--- Document Chunk 901 ---
+to acknowledge the warning. After 
+
+--- Document Chunk 902 ---
+acknowledgement, the train is usually 
+
+--- Document Chunk 903 ---
+solely under driver control. 
+
+--- Document Chunk 904 ---
+Train-borne protection systems monitor 
+
+--- Document Chunk 905 ---
+the speed of the train and cause a brake 
+
+--- Document Chunk 906 ---
+application if the train is being driven 
+
+--- Document Chunk 907 ---
+outside safe limits. Some, such as train-
+
+--- Document Chunk 908 ---
+stops, intervene to apply the brakes if 
+
+--- Document Chunk 909 ---
+a train passes a signal at danger (stop) 
+
+--- Document Chunk 910 ---
+but without providing a visual or audible 
+
+--- Document Chunk 911 ---
+warning before doing so. At the opposite 
+
+--- Document Chunk 912 ---
+end of the spectrum, continuous 
+
+--- Document Chunk 913 ---
+Figure 11 – An example of a shunting signal. This one is in Great 
+
+--- Document Chunk 914 ---
+Britain; the appearance and aspects of shunting signals vary widely  
+
+--- Document Chunk 915 ---
+on different railways.
+
+--- Document Chunk 916 ---
+Photo Paul Darlington.
+
+--- Document Chunk 917 ---
+Figure 12 – Two tram and two bus signals on a single supporting 
+
+--- Document Chunk 918 ---
+structure in Germany. 
+
+--- Document Chunk 919 ---
+Photo Wikimedia/PaulT, under GNU licence.
+
+--- Document Chunk 920 ---
+>>>
+
+--- Document Chunk 921 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 922 ---
+16
+
+--- Document Chunk 923 ---
+Automatic Train Protection systems (ATP) 
+
+--- Document Chunk 924 ---
+provide comprehensive information 
+
+--- Document Chunk 925 ---
+about the speed profile that the driver 
+
+--- Document Chunk 926 ---
+should be following, warn the driver of 
+
+--- Document Chunk 927 ---
+over-speeding, and intervene to slow 
+
+--- Document Chunk 928 ---
+the train down if the train speed is not 
+
+--- Document Chunk 929 ---
+reduced appropriately.
+
+--- Document Chunk 930 ---
+Warning and protection systems that 
+
+--- Document Chunk 931 ---
+are provided in conjunction with 
+
+--- Document Chunk 932 ---
+lineside signals can assist the driver 
+
+--- Document Chunk 933 ---
+in several ways:
+
+--- Document Chunk 934 ---
+1. They can help maintain the driver’s 
+
+--- Document Chunk 935 ---
+vigilance by providing in-cab visual/
+
+--- Document Chunk 936 ---
+audible indications or warnings 
+
+--- Document Chunk 937 ---
+on the approach to each signal, 
+
+--- Document Chunk 938 ---
+repeating some of the information 
+
+--- Document Chunk 939 ---
+provided by the signal.
+
+--- Document Chunk 940 ---
+2. They can pr ovide an in-cab reminder 
+
+--- Document Chunk 941 ---
+of the aspect or information 
+
+--- Document Chunk 942 ---
+displayed by a signal after the 
+
+--- Document Chunk 943 ---
+driver has passed it.
+
+--- Document Chunk 944 ---
+3. They can aid the driver in observing 
+
+--- Document Chunk 945 ---
+signals in conditions of poor 
+
+--- Document Chunk 946 ---
+visibility, such as fog.
+
+--- Document Chunk 947 ---
+4. They can intervene to slow the train 
+
+--- Document Chunk 948 ---
+down if the system judges that the 
+
+--- Document Chunk 949 ---
+train speed is too high.
+
+--- Document Chunk 950 ---
+Cab signalling
+
+--- Document Chunk 951 ---
+Before we go further, note that trains 
+
+--- Document Chunk 952 ---
+which are driven using Automatic Train 
+
+--- Document Chunk 953 ---
+Operation (ATO) are not part of this 
+
+--- Document Chunk 954 ---
+discussion, nor are we considering Driver 
+
+--- Document Chunk 955 ---
+Advisory Systems (DAS), which assist the 
+
+--- Document Chunk 956 ---
+driver in driving optimally (better time-
+
+--- Document Chunk 957 ---
+keeping and energy-efficient driving) but 
+
+--- Document Chunk 958 ---
+are not a substitute for lineside signals. 
+
+--- Document Chunk 959 ---
+See ITC Report 44 for more information 
+
+--- Document Chunk 960 ---
+about DAS. irse.info/itc44
+
+--- Document Chunk 961 ---
+Cab signalling may be provided for 
+
+--- Document Chunk 962 ---
+various reasons, including better 
+
+--- Document Chunk 963 ---
+operational performance, improved 
+
+--- Document Chunk 964 ---
+safety and reduced costs. Bob Barnard’s 
+
+--- Document Chunk 965 ---
+article “What can cab signalling ever 
+
+--- Document Chunk 966 ---
+do for us?” in issue 239 of IRSE News 
+
+--- Document Chunk 967 ---
+(December 2017) irse.info/irsenews239 
+
+--- Document Chunk 968 ---
+provides an excellent broader 
+
+--- Document Chunk 969 ---
+perspective on the challenges and 
+
+--- Document Chunk 970 ---
+benefits of cab signalling.
+
+--- Document Chunk 971 ---
+Modern cab signalling systems 
+
+--- Document Chunk 972 ---
+provide comprehensive in-cab driving 
+
+--- Document Chunk 973 ---
+information for the driver to operate 
+
+--- Document Chunk 974 ---
+the train safely and optimally without 
+
+--- Document Chunk 975 ---
+the need for lineside signals (even if 
+
+--- Document Chunk 976 ---
+they are still provided for unfitted rolling 
+
+--- Document Chunk 977 ---
+stock). On lines without signals, lineside 
+
+--- Document Chunk 978 ---
+signs (marker boards) may be provided 
+
+--- Document Chunk 979 ---
+to tell the driver precisely where to 
+
+--- Document Chunk 980 ---
+stop the front of the train at the end of 
+
+--- Document Chunk 981 ---
+a movement authority, but apart from 
+
+--- Document Chunk 982 ---
+that almost all the information the driver 
+
+--- Document Chunk 983 ---
+requires is available via the cab display 
+
+--- Document Chunk 984 ---
+(see Figure 13). 
+
+--- Document Chunk 985 ---
+The display is often called a driver-
+
+--- Document Chunk 986 ---
+machine interface (DMI), but we will 
+
+--- Document Chunk 987 ---
+continue to use the term 'cab display' 
+
+--- Document Chunk 988 ---
+in this article.
+
+--- Document Chunk 989 ---
+Most cab signalling systems include 
+
+--- Document Chunk 990 ---
+ATP which, as we have already noted, 
+
+--- Document Chunk 991 ---
+monitors the driver’s actions and 
+
+--- Document Chunk 992 ---
+intervenes if the train exceeds the 
+
+--- Document Chunk 993 ---
+maximum safe speed. Under normal 
+
+--- Document Chunk 994 ---
+circumstances the driver is in full control 
+
+--- Document Chunk 995 ---
+of the train. Even if the system warns 
+
+--- Document Chunk 996 ---
+them that the train is travelling too fast, 
+
+--- Document Chunk 997 ---
+the driver remains in control unless they 
+
+--- Document Chunk 998 ---
+fail to heed the warning and slow down. 
+
+--- Document Chunk 999 ---
+Like lineside signals, the cab display must 
+
+--- Document Chunk 1000 ---
+be readable, interpretable and driveable.
+
+--- Document Chunk 1001 ---
+Readability of the cab 
+
+--- Document Chunk 1002 ---
+display means that:
+
+--- Document Chunk 1003 ---
+1. It must be easily visible by the driver 
+
+--- Document Chunk 1004 ---
+from their normal position in the 
+
+--- Document Chunk 1005 ---
+cab, even under difficult lighting 
+
+--- Document Chunk 1006 ---
+conditions such as bright sunlight.
+
+--- Document Chunk 1007 ---
+2. W arnings and other important ‘alert’ 
+
+--- Document Chunk 1008 ---
+information must be particularly 
+
+--- Document Chunk 1009 ---
+prominent and supported by clear 
+
+--- Document Chunk 1010 ---
+and distinguishable audible warnings.
+
+--- Document Chunk 1011 ---
+Interpretability of the cab 
+
+--- Document Chunk 1012 ---
+display means that:
+
+--- Document Chunk 1013 ---
+1. The in formation displayed must be 
+
+--- Document Chunk 1014 ---
+clear, unambiguous and consistent 
+
+--- Document Chunk 1015 ---
+with any other information that 
+
+--- Document Chunk 1016 ---
+may be available to the driver 
+
+--- Document Chunk 1017 ---
+(whether in the cab or by lineside 
+
+--- Document Chunk 1018 ---
+signals and signs).
+
+--- Document Chunk 1019 ---
+2. The in formation must make sense 
+
+--- Document Chunk 1020 ---
+to the driver without the need for 
+
+--- Document Chunk 1021 ---
+mental computations or geo-spatial 
+
+--- Document Chunk 1022 ---
+interpretation.
+
+--- Document Chunk 1023 ---
+Driveability requires that:
+
+--- Document Chunk 1024 ---
+1. In formation must be provided to 
+
+--- Document Chunk 1025 ---
+enable the train to be driven safely, 
+
+--- Document Chunk 1026 ---
+including, for example, current and 
+
+--- Document Chunk 1027 ---
+upcoming speed limits/profiles, 
+
+--- Document Chunk 1028 ---
+the distance to the next stopping 
+
+--- Document Chunk 1029 ---
+position, gradients and other relevant 
+
+--- Document Chunk 1030 ---
+driving information. 
+
+--- Document Chunk 1031 ---
+2. In formation must be provided on a 
+
+--- Document Chunk 1032 ---
+timely basis, so that the driver does 
+
+--- Document Chunk 1033 ---
+not need to take abnormal action 
+
+--- Document Chunk 1034 ---
+(such as emergency braking) to 
+
+--- Document Chunk 1035 ---
+comply with it.
+
+--- Document Chunk 1036 ---
+3. In formation that requires the driver 
+
+--- Document Chunk 1037 ---
+to take action (either immediately or 
+
+--- Document Chunk 1038 ---
+later) must remain displayed for as 
+
+--- Document Chunk 1039 ---
+long as it is relevant. 
+
+--- Document Chunk 1040 ---
+4. The system must be designed so tha t 
+
+--- Document Chunk 1041 ---
+the driver can control the train speed 
+
+--- Document Chunk 1042 ---
+without the system intervening – 
+
+--- Document Chunk 1043 ---
+provided of course that they comply 
+
+--- Document Chunk 1044 ---
+with speed limits and do not pass 
+
+--- Document Chunk 1045 ---
+the end of any movement authority. 
+
+--- Document Chunk 1046 ---
+Where a system intervention may 
+
+--- Document Chunk 1047 ---
+become necessary (for instance, due 
+
+--- Document Chunk 1048 ---
+to over-speeding), it should normally 
+
+--- Document Chunk 1049 ---
+be preceded by a warning so that 
+
+--- Document Chunk 1050 ---
+the driver can take the appropriate 
+
+--- Document Chunk 1051 ---
+corrective action.
+
+--- Document Chunk 1052 ---
+Most cab signalling systems are designed 
+
+--- Document Chunk 1053 ---
+on the ‘head up’ principle. In other 
+
+--- Document Chunk 1054 ---
+words, the driver looks out of the cab 
+
+--- Document Chunk 1055 ---
+window at the track ahead most of the 
+
+--- Document Chunk 1056 ---
+Figure 13 – Typical cab display for ETCS (left) and a CBTC system (right).
+
+--- Document Chunk 1057 ---
+ IRSE News |  Issue 304  |  November 2023
+
+--- Document Chunk 1058 ---
+17
+
+--- Document Chunk 1059 ---
+time, glancing at the display only when 
+
+--- Document Chunk 1060 ---
+necessary. This is particularly important 
+
+--- Document Chunk 1061 ---
+on railways where it is possible that 
+
+--- Document Chunk 1062 ---
+an obstruction could arise on the line 
+
+--- Document Chunk 1063 ---
+ahead – although of course there is 
+
+--- Document Chunk 1064 ---
+no guarantee that the driver could 
+
+--- Document Chunk 1065 ---
+take action to prevent a collision. 
+
+--- Document Chunk 1066 ---
+The ‘head up’ principle makes it doubly 
+
+--- Document Chunk 1067 ---
+important that the in-cab system, and 
+
+--- Document Chunk 1068 ---
+the display in particular, is designed to 
+
+--- Document Chunk 1069 ---
+facilitate this driving style, for instance 
+
+--- Document Chunk 1070 ---
+by providing audible alerts when new 
+
+--- Document Chunk 1071 ---
+information is displayed that requires a 
+
+--- Document Chunk 1072 ---
+response by the driver.
+
+--- Document Chunk 1073 ---
+Cab displays are usually interactive, 
+
+--- Document Chunk 1074 ---
+requiring the driver to input information 
+
+--- Document Chunk 1075 ---
+(for example, at the start of a journey, 
+
+--- Document Chunk 1076 ---
+or when changing the driving mode, 
+
+--- Document Chunk 1077 ---
+or to acknowledge warnings). Other 
+
+--- Document Chunk 1078 ---
+information, such as the speedometer, 
+
+--- Document Chunk 1079 ---
+may also be integrated into the display. 
+
+--- Document Chunk 1080 ---
+Ergonomic factors are therefore 
+
+--- Document Chunk 1081 ---
+important in the design of the display 
+
+--- Document Chunk 1082 ---
+and associated input keys.
+
+--- Document Chunk 1083 ---
+Closing remarks
+
+--- Document Chunk 1084 ---
+In this article we have attempted to 
+
+--- Document Chunk 1085 ---
+present a broad picture of lineside colour 
+
+--- Document Chunk 1086 ---
+light signals, their purposes, and their 
+
+--- Document Chunk 1087 ---
+variations. We have explained the most 
+
+--- Document Chunk 1088 ---
+commonly used aspects, the differences 
+
+--- Document Chunk 1089 ---
+between speed and route signalling, 
+
+--- Document Chunk 1090 ---
+and the importance of meeting the 
+
+--- Document Chunk 1091 ---
+driver’s need for signals to be readable, 
+
+--- Document Chunk 1092 ---
+interpretable and driveable. 
+
+--- Document Chunk 1093 ---
+We have considered how train 
+
+--- Document Chunk 1094 ---
+protection and warning systems support 
+
+--- Document Chunk 1095 ---
+the driving task in lineside signalled 
+
+--- Document Chunk 1096 ---
+territory. Finally, we have acknowledged 
+
+--- Document Chunk 1097 ---
+that, although full cab signalling (with 
+
+--- Document Chunk 1098 ---
+ATP) removes many of the issues 
+
+--- Document Chunk 1099 ---
+associated with lineside signals, the need 
+
+--- Document Chunk 1100 ---
+to make the information displayed in the 
+
+--- Document Chunk 1101 ---
+cab readable, interpretable and driveable 
+
+--- Document Chunk 1102 ---
+remains important.
+
+--- Document Chunk 1103 ---
+If you are new to railway signalling, we 
+
+--- Document Chunk 1104 ---
+recommend that you learn more about 
+
+--- Document Chunk 1105 ---
+the lineside signals that are used on 
+
+--- Document Chunk 1106 ---
+railways with which you are familiar. 
+
+--- Document Chunk 1107 ---
+What aspects and aspect sequences 
+
+--- Document Chunk 1108 ---
+are used? How are diverging junctions 
+
+--- Document Chunk 1109 ---
+signalled? How well do the signals 
+
+--- Document Chunk 1110 ---
+meet the needs of drivers, as set out 
+
+--- Document Chunk 1111 ---
+in this article?
+
+--- Document Chunk 1112 ---
+You might also investigate types of 
+
+--- Document Chunk 1113 ---
+signals that have not been mentioned 
+
+--- Document Chunk 1114 ---
+– for instance, special signals used 
+
+--- Document Chunk 1115 ---
+to authorise a train to depart from a 
+
+--- Document Chunk 1116 ---
+platform when it is ready to leave; or 
+
+--- Document Chunk 1117 ---
+situations where fixed lineside signs are 
+
+--- Document Chunk 1118 ---
+used instead of colour light signals; or 
+
+--- Document Chunk 1119 ---
+signals used in conjunction with some 
+
+--- Document Chunk 1120 ---
+types of level (grade) crossings.
+
+--- Document Chunk 1121 ---
+The contributions of others to 
+
+--- Document Chunk 1122 ---
+the production of this article are 
+
+--- Document Chunk 1123 ---
+acknowledged, with thanks in particular 
+
+--- Document Chunk 1124 ---
+to Robert Baird, Richard Barrow, 
+
+--- Document Chunk 1125 ---
+Hugh Barton, Wim Coenraad, 
+
+--- Document Chunk 1126 ---
+Piers Connor, David Fenner, Mark Glover,  
+
+--- Document Chunk 1127 ---
+Ian Mitchell and Allan Neilson.
+
+--- Document Chunk 1128 ---
+A rainy day in Glasgow, but good sighting and modern signals 
+
+--- Document Chunk 1129 ---
+give drivers a clear indication of their movement authority. 
+
+--- Document Chunk 1130 ---
+About the author
+
+--- Document Chunk 1131 ---
+Francis has been a long time 
+
+--- Document Chunk 1132 ---
+member of the IRSE. His career 
+
+--- Document Chunk 1133 ---
+has seen him work for British 
+
+--- Document Chunk 1134 ---
+Rail/Railtrack, Atkins, the Railway 
+
+--- Document Chunk 1135 ---
+Industry Association and finally as 
+
+--- Document Chunk 1136 ---
+chief executive of the IRSE before 
+
+--- Document Chunk 1137 ---
+his retirement.
+
+--- Document Chunk 1138 ---
+Francis was an IRSE Exam 
+
+--- Document Chunk 1139 ---
+Thorrowgood Scholar and served on 
+
+--- Document Chunk 1140 ---
+Council for many years, becoming 
+
+--- Document Chunk 1141 ---
+president in 2012-2013.
+
+--- Document Chunk 1142 ---
+He has previously written 
+
+--- Document Chunk 1143 ---
+"Back to basics" articles on 
+
+--- Document Chunk 1144 ---
+interlockings and points.
+
+--- Document Chunk 1145 ---
+///
+
+--- Document Chunk 1146 ---
+If you found this article useful we're sure you will 
+
+--- Document Chunk 1147 ---
+enjoy other Back to basics articles, including:
+
+--- Document Chunk 1148 ---
+Interlockings
+
+--- Document Chunk 1149 ---
+Francis How
+
+--- Document Chunk 1150 ---
+Part 1 April 2020 irse.info/irsenews265  
+
+--- Document Chunk 1151 ---
+Part 2 May 2020 irse.info/irsenews266
+
+--- Document Chunk 1152 ---
+Points
+
+--- Document Chunk 1153 ---
+Francis How
+
+--- Document Chunk 1154 ---
+Part 1 February 2022 irse.info/irsenews285 
+
+--- Document Chunk 1155 ---
+Part 2 March 2022 irse.info/irsenews286 
+
+--- Document Chunk 1156 ---
+Train protection
+
+--- Document Chunk 1157 ---
+David Fenner
+
+--- Document Chunk 1158 ---
+July 2020 irse.info/irsenews268
+

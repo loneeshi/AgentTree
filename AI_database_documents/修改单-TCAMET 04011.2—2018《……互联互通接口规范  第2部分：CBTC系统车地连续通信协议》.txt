@@ -1,0 +1,312 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通 基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统(CBTC ) 互联互通接口规范 第 2 部分:
+
+--- Document Chunk 4 ---
+CBTC 系统车地连续通信协议》
+
+--- Document Chunk 5 ---
+( T/CAMET.04011. 2一2018 )
+
+--- Document Chunk 6 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 7 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月 03 日批准发布，
+
+--- Document Chunk 8 ---
+自2024 年 09 月 10 日起实施。
+
+--- Document Chunk 9 ---
+一、编辑性修改
+
+--- Document Chunk 10 ---
+1. 将3.1.9 的"保护区段 overlap section ”修改为“保护区段
+
+--- Document Chunk 11 ---
+overlap”。
+
+--- Document Chunk 12 ---
+2. 将3.1.14 的"共线运行 mix operation ”修改为“共线运行"mixed
+
+--- Document Chunk 13 ---
+operation ”。
+
+--- Document Chunk 14 ---
+3. 将3.2 的“CM:列车自动防护模式(Code Train Operating Mode)”
+
+--- Document Chunk 15 ---
+修改为"CM:列车自动防护模式(Coded Train Operating Mode)”。
+
+--- Document Chunk 16 ---
+4将3.2 的“VOBC :车载控制器(Vehicle On - Board Controller) ” {&
+
+--- Document Chunk 17 ---
+改为"VOBC : 车载控制器( Vehicle Onboard Controller)” ,
+
+--- Document Chunk 18 ---
+5. 将5.1.3.3 的oj项再3当使用安全通信协议 RSSP -工时, VOBC
+
+--- Document Chunk 19 ---
+判断与 ZC 断开通信,且不再与该 ZC 重新建立通信后 ,应断开与该 ZC
+
+--- Document Chunk 20 ---
+UDP 连接"修改为:”当使用安全通信协议 RSSP- 工时,VOBC 判断与 ZC
+
+--- Document Chunk 21 ---
+断开通信后*且不再与该 ZC 重新建立通信后,应不再向该 ZC 发送应
+
+--- Document Chunk 22 ---
+消息”。
+
+--- Document Chunk 23 ---
+S
+
+--- Document Chunk 24 ---
+--- Page 2 ---
+
+--- Document Chunk 25 ---
+6. 将6.1.3.3 的d)项中"*当使用安全通信协议 RSSP- 工时, VOBC
+
+--- Document Chunk 26 ---
+判断与 ATS 断开通信, 且不再与该 ATS 重新建立通信后,凡断开与该
+
+--- Document Chunk 27 ---
+ATS 的 UDP 连接"修改为:” 当使用安全通信协议 RSSPSJL 时wVOBC 判
+
+--- Document Chunk 28 ---
+断与 ATS 断开通信后,且不再与该 ATS 重新建立通信后;应不再向该
+
+--- Document Chunk 29 ---
+ATS 发送应用消息”。
+
+--- Document Chunk 30 ---
+7. 将7.1.3.3 的ce)条的2)项中*当德用安全通信协议 RSSP- 工时，
+
+--- Document Chunk 31 ---
+VOBC 在与 CI 设备通信时,当判断与[CT设备通信上断开并且不再与对方
+
+--- Document Chunk 32 ---
+建立连接后,应断开与该 中设备的 UDP 链接"修改为 当使用安全通信
+
+--- Document Chunk 33 ---
+协议 RSSP -工时,Y9BC FA) 5 CI 断开通信后,且不再与该 CI 重新建立
+
+--- Document Chunk 34 ---
+通信后,应不再疝该 CI 发送应用消息”。
+
+--- Document Chunk 35 ---
+二、技术性修改
+
+--- Document Chunk 36 ---
+1. FESS 2 章中将“运基信号[2010]267 号文件(RSSP -工铁路信号
+
+--- Document Chunk 37 ---
+安全通信协议》 ”修改为”TBZT 3528. 1 铁路信号安全通信协议 第 1 前
+
+--- Document Chunk 38 ---
+2. 在第 2 章中将*运基信号[2010]267 号文件(RSSP - 工铁路信号
+
+--- Document Chunk 39 ---
+全通信协议》”修改为:TBZT 3528. 2 铁路信号安全通信协议 第 2 部
+
+--- Document Chunk 40 ---
+3. 删除第 2 Beep EN 50159:2010 欧洲铁路通信信呈领域信息传输
+
+--- Document Chunk 41 ---
+系统中安全通信标准(Secure Communication, Standards’ for Information
+
+--- Document Chunk 42 ---
+Transmission Systems in the Field of Railway Communication Signals in
+
+--- Document Chunk 43 ---
+Europe)” .
+
+--- Document Chunk 44 ---
+4. 将5.1.2中"*运基信号[2010]267 号文件(RSSP- I eR A
+
+--- Document Chunk 45 ---
+通信协议》"修改为"TBAT 3528.2” 5
+
+--- Document Chunk 46 ---
+5. 将 5.1.2 中和过基信生[2010]267 号文件(RSSP- 工铁路信号安全
+
+--- Document Chunk 47 ---
+通信协议六修改为%rBMT 3528.1"。
+
+--- Document Chunk 48 ---
+6. 将5.1.3.2表1 的脚注2序列号有效值为1一(2 -1) 。发送方
+
+--- Document Chunk 49 ---
+应保证生成两包信息包时,两包信息报中的"本方消息序列号"字段的差
+
+--- Document Chunk 50 ---
+值与“通信周期" 相乘等于生成两包消息的时间间隔" 修改为:序列号有
+
+--- Document Chunk 51 ---
+2
+
+--- Document Chunk 52 ---
+--- Page 3 ---
+
+--- Document Chunk 53 ---
+效值为 1一(2 -1) 。发送方应保证生成两包信息包时,两包信息包中的
+
+--- Document Chunk 54 ---
+“本方消息序列号”字段的差值与“通信周期"相乘等于生成两包消息的
+
+--- Document Chunk 55 ---
+时间间隔。本消息的“本方消息序列号" 与“收到上一条消息时本议序列
+
+--- Document Chunk 56 ---
+号"的差值与“通信周期"相乘不应大于该消息的实际处理时间”。
+
+--- Document Chunk 57 ---
+7. 删除5.1.4 中“EN50159:2010 中提及的 7条开放式网络存在的
+
+--- Document Chunk 58 ---
+通信风险均由安全通信协议进行防护,风险包括:重复删除.插入、
+
+--- Document Chunk 59 ---
+重排序.损坏 伪装、延迟。的描述。
+
+--- Document Chunk 60 ---
+8. 将6.1.2 中*运基信号
+
+--- Document Chunk 61 ---
+通信协议》"修改为"TBXT3558.2"。
+
+--- Document Chunk 62 ---
+9. 将6.12 中*运基信和号[2010]267 号文件(RSSP- 工铁路
+
+--- Document Chunk 63 ---
+通信协议沁修改为"TBMT 3528.1”。
+
+--- Document Chunk 64 ---
+0. 将6.13.2表15 的脚注“序列号有效值为1一(22 -1)。发送
+
+--- Document Chunk 65 ---
+[2010 ]267 号文件(RSSP- 工铁路信号安全
+
+--- Document Chunk 66 ---
+售号安全
+
+--- Document Chunk 67 ---
+方应保证生成两包信息包时，
+
+--- Document Chunk 68 ---
+而包信息报中的“本方消息序列号"字段的
+
+--- Document Chunk 69 ---
+差值与"通信周期" 相乘等于4
+
+--- Document Chunk 70 ---
+有效值为1一(2 -1)。发送
+
+--- Document Chunk 71 ---
+E成两包消息的时间间隔"修改为:序列号
+
+--- Document Chunk 72 ---
+方应保证生成两包信息包时,两包信息包
+
+--- Document Chunk 73 ---
+中的“本方消息序列号"字段
+
+--- Document Chunk 74 ---
+息的
+
+--- Document Chunk 75 ---
+4差值与"通信周期" 相乘等于生成两包消
+
+--- Document Chunk 76 ---
+间间隔。本消息的“本方消息序列号" 与“收到上一条消息时本方
+
+--- Document Chunk 77 ---
+上
+
+--- Document Chunk 78 ---
+序列号"的差值与"通信周期”
+
+--- Document Chunk 79 ---
+1
+
+--- Document Chunk 80 ---
+相乘不应大于该消息的实际处理时间”。
+
+--- Document Chunk 81 ---
+NIE 6.1.4 中*EN50159 :2010 中提及的7 种开放式网络存在的
+
+--- Document Chunk 82 ---
+议进行防护,风险包括:重复删除.插入、
+
+--- Document Chunk 83 ---
+将7.1.2中"*运基信号[2010]267红文作《RSSP -工铁路信号安
+
+--- Document Chunk 84 ---
+将7.1.2 中"运基信号K2010 ]267 号文件(RSSP -工铁路信号安
+
+--- Document Chunk 85 ---
+4. 将7.13.2 表29 的脚注“序列号有效值为1一(2 -1) 。发送
+
+--- Document Chunk 86 ---
+安全通信风险均   安全通信
+
+--- Document Chunk 87 ---
+重排序 .损坏,伪装延迟。的描述。
+
+--- Document Chunk 88 ---
+全通 本  议》”修改为“TBT 3528. 2"
+
+--- Document Chunk 89 ---
+全通 本  议》”"修改为“DB和3528.1"。
+
+--- Document Chunk 90 ---
+方应保证生成两包信息包时，
+
+--- Document Chunk 91 ---
+而包信息报中的“本方消息序列号"字段的
+
+--- Document Chunk 92 ---
+差值与通信周期" 相乘等于4
+
+--- Document Chunk 93 ---
+有效值为1一(2” -1)。发送
+
+--- Document Chunk 94 ---
+E成两包消息的时间间隔"修改为:序列号
+
+--- Document Chunk 95 ---
+方应保证生成两包信息包时,两包信息包
+
+--- Document Chunk 96 ---
+3
+
+--- Document Chunk 97 ---
+--- Page 4 ---
+
+--- Document Chunk 98 ---
+中的“本方消息序列号"字段的差值与"通信周期"相乘等于生成两包消
+
+--- Document Chunk 99 ---
+息的时间间隔。本消息的“本方消息序列号" 与"收到上一条消息时本方
+
+--- Document Chunk 100 ---
+序列号”的差值与“通信有周期” 相乘不应大于该消息的实际处理时间”。
+
+--- Document Chunk 101 ---
+15. 删除7.1.3.3 中 d)条中"EN50159:2010 中提及的7 种开放式网
+
+--- Document Chunk 102 ---
+络存在的安全通信风险均由安全通信协议进行防护*羽险包括:重复 .删
+
+--- Document Chunk 103 ---
+BR ALA THEI? .损坏 ,伪装、延迟癌的描述》
+

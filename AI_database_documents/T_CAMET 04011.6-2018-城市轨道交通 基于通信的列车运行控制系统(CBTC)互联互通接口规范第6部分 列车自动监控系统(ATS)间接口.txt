@@ -1,0 +1,3162 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+ 45.020                                                                    SFI
+
+--- Document Chunk 2 ---
+中 ey Dae vis Pi FH AS Ta We Zz Al HK be HE
+
+--- Document Chunk 3 ---
+T/CAMET 04011.6—2018
+
+--- Document Chunk 4 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通接口规范
+
+--- Document Chunk 6 ---
+第6部分: 列车自动监控系统 ( ATS ) 间接口
+
+--- Document Chunk 7 ---
+Urban rail transit 一 Interface specification for interoperability of
+
+--- Document Chunk 8 ---
+communication based train control system
+
+--- Document Chunk 9 ---
+Part 6: Interface between automatic train supervision systems
+
+--- Document Chunk 10 ---
+2018-09-10 发布                         2018-12-31 实施
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 12 ---
+--- Page 2 ---
+
+--- Document Chunk 13 ---
+T/CAMET 04011. 6—2018
+
+--- Document Chunk 14 ---
+a a
+
+--- Document Chunk 15 ---
+I
+
+--- Document Chunk 16 ---
+=|
+
+--- Document Chunk 17 ---
+=|
+
+--- Document Chunk 18 ---
+3.2 缩略语 ，
+
+--- Document Chunk 19 ---
+4 总则                      “
+
+--- Document Chunk 20 ---
+5.1 通信机制 ，
+
+--- Document Chunk 21 ---
+5.2 接口详细描述 -        —s
+
+--- Document Chunk 22 ---
+附录 A(规范性附录)  人和 设备色码定义、列车信息识别号
+
+--- Document Chunk 23 ---
+mmhbnpb一一
+
+--- Document Chunk 24 ---
+--- Page 3 ---
+
+--- Document Chunk 25 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 26 ---
+Ill
+
+--- Document Chunk 27 ---
+T/CAMET 04011《城市轨道交通 基于通信的列车运行控制系统
+
+--- Document Chunk 28 ---
+(CBTC )互联互通接口规范》分为以下八个部分:
+
+--- Document Chunk 29 ---
+一一第 1 部分:应答器报文;
+
+--- Document Chunk 30 ---
+一一第 2 部分:CBTC 系统车地连续通信协议;
+
+--- Document Chunk 31 ---
+一一第 3 部分:车载列车自动保护(ATP)/列车自动运行(ATO)系统
+
+--- Document Chunk 32 ---
+与车辆的接口;
+
+--- Document Chunk 33 ---
+一一第4 部分:区域控制器(ZC )间接口;
+
+--- Document Chunk 34 ---
+一一第5 部分:计算机联锁(CI) 间接口;
+
+--- Document Chunk 35 ---
+一一第6 部分:列车自动监控系统(ATS) 间接口;
+
+--- Document Chunk 36 ---
+一一第7 部分:信号各子系统与维护支持系统(MSS)间接口;
+
+--- Document Chunk 37 ---
+一一第 8 部分:车载人机界面。
+
+--- Document Chunk 38 ---
+本部分是 T/CAMET 04011 的第 6 部分。
+
+--- Document Chunk 39 ---
+本部分按照 CB/T 1. 1一2009 给出的规则起草。
+
+--- Document Chunk 40 ---
+请注意本部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 41 ---
+识别这些专利的责任。
+
+--- Document Chunk 42 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 43 ---
+本部分由中国城市轨道交通协会归口 。
+
+--- Document Chunk 44 ---
+本部分起草单位 :北京全路通信信号研究设计院集团有限公司 .交控
+
+--- Document Chunk 45 ---
+科技股份有限公司.中国铁道科学研究院集团有限公司通信信号研究所、
+
+--- Document Chunk 46 ---
+株洲中车时代电气股份有限公司、浙江众合科技股份有限公司。
+
+--- Document Chunk 47 ---
+本部分主要起草人 :编写组 :陈逸 a SE, PRE A IK A,
+
+--- Document Chunk 48 ---
+郭吉.王丽丽、黎邓根、邬斌剑.王春。审核组:李中浩.朱翔.赵炜.郑生全、
+
+--- Document Chunk 49 ---
+张艳兵,张良.王道敏,张琼燕、段晨宁、李新文.李德堂、文成祥、任敬、
+
+--- Document Chunk 50 ---
+RAGA REE BAF.
+
+--- Document Chunk 51 ---
+三
+
+--- Document Chunk 52 ---
+--- Page 4 ---
+
+--- Document Chunk 53 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 54 ---
+引
+
+--- Document Chunk 55 ---
+了
+
+--- Document Chunk 56 ---
+为促进中国城市轨道交通建设,实现并满足城市轨道交通互联互通
+
+--- Document Chunk 57 ---
+的需要,达到经济适用 ,资源共享 .技术先进及可持续发展的目标 ,制定城
+
+--- Document Chunk 58 ---
+市轨道交通基于通信的列车运行控制系统(CBTC ) 互联互通系列团体
+
+--- Document Chunk 59 ---
+标准。
+
+--- Document Chunk 60 ---
+该系列规范包括《城市轨道交通“基于通信的列车运行控制系统
+
+--- Document Chunk 61 ---
+(CBTC )互联互通系统规范》《城市轨道交通”基于通信的列车运行控制
+
+--- Document Chunk 62 ---
+系统(CBTC)开联互通接口规范兴城市轨道交通 ”基于通信的列车运行
+
+--- Document Chunk 63 ---
+控制系统(CBTC )互联互通测试规范3城市轨道交通“基于通信的列车
+
+--- Document Chunk 64 ---
+运行控制系统(CBTC) 互联互通工程规范》4 个规范(17 个部分) 。
+
+--- Document Chunk 65 ---
+MI
+
+--- Document Chunk 66 ---
+--- Page 5 ---
+
+--- Document Chunk 67 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 68 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 69 ---
+控制系统( CBTC) 互联互通接口规范
+
+--- Document Chunk 70 ---
+第 6 部分:列车自动监控系统(ATS) 间接口
+
+--- Document Chunk 71 ---
+1 范围
+
+--- Document Chunk 72 ---
+T/CAMET 04011 的本部分规     互联互通相邻线路间线路级列车
+
+--- Document Chunk 73 ---
+自动监控系统(以下简称           儿江括通信架构.信息内容、 党
+
+--- Document Chunk 74 ---
+据交互流程可扩展                  义、列车信息识别号
+
+--- Document Chunk 75 ---
+段说明。
+
+--- Document Chunk 76 ---
+本部分适用于国                   制系统(CBTC ) 的新
+
+--- Document Chunk 77 ---
+Bee Ry ep                 者导信和号系统的系统
+
+--- Document Chunk 78 ---
+Bit MART AR
+
+--- Document Chunk 79 ---
+下列文件对于       H    Ries    人    >的。凡是注日期的引用文
+
+--- Document Chunk 80 ---
+件,仅所注日期的版本适用于本部分。凡是不注日期的引用文件,其最新
+
+--- Document Chunk 81 ---
+版本(包括所有的修改单)适用于本部分。
+
+--- Document Chunk 82 ---
+CI/T 407一2012 ”城市轨道交通基于通信的列车自动控制系统技术
+
+--- Document Chunk 83 ---
+要求
+
+--- Document Chunk 84 ---
+T/CAMET 04010. 1一2018 ”城市轨道交通”基于通信的列车运行控
+
+--- Document Chunk 85 ---
+制系统(CBTC )互联互通系统规范 第1 部分:系统总体要求
+
+--- Document Chunk 86 ---
+运基信和号[2010] 267 号”RSSP - 工铁路信号安全通信协议
+
+--- Document Chunk 87 ---
+IEEE 802.3 以太网(Ethernet)
+
+--- Document Chunk 88 ---
+RFC 791 互联网协议(Internet Protocol)
+
+--- Document Chunk 89 ---
+RFC 793 ”传输控制协议( Transmission Control Protocol )
+
+--- Document Chunk 90 ---
+--- Page 6 ---
+
+--- Document Chunk 91 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 92 ---
+3 术语各缩略语
+
+--- Document Chunk 93 ---
+GB 50157—2013 .CJZT 407—2012 和 T/CAMET 04010. 1一2018 界定
+
+--- Document Chunk 94 ---
+的及下列术诸和缩略请适用于本部分。为了便于使用,以下重复列出了
+
+--- Document Chunk 95 ---
+其中的主要相关术语。
+
+--- Document Chunk 96 ---
+3.1 术语
+
+--- Document Chunk 97 ---
+3.1.1
+
+--- Document Chunk 98 ---
+基于通信的列车控制”communication based train control (CBTC)
+
+--- Document Chunk 99 ---
+通过不依赖轨旁列车占用检测设备的列车主动定位技术.连续车 -
+
+--- Document Chunk 100 ---
+地双向数据通信技术以及能够执行安全功能的车载和地面处理器而构建
+
+--- Document Chunk 101 ---
+的连续式列车自动控制系统。
+
+--- Document Chunk 102 ---
+[CJZT 407一2012 ,定义3.1.1]
+
+--- Document Chunk 103 ---
+3.1.2
+
+--- Document Chunk 104 ---
+IE# main line
+
+--- Document Chunk 105 ---
+载客列车运营的贯穿全程的线路。
+
+--- Document Chunk 106 ---
+[GB 50157一2013 ,定义2.0.111]
+
+--- Document Chunk 107 ---
+3.1.3
+
+--- Document Chunk 108 ---
+列车自动监控automatic train supervision
+
+--- Document Chunk 109 ---
+根据列车时刻表为列车运行自动设定进路.指挥行车 .实施列车运行
+
+--- Document Chunk 110 ---
+管理等技术的总称。
+
+--- Document Chunk 111 ---
+[ GB 50157一2013 ,定义2.0.38]
+
+--- Document Chunk 112 ---
+3. 1. 4
+
+--- Document Chunk 113 ---
+列车自动防护。 automatic train protection
+
+--- Document Chunk 114 ---
+自动实现列车运行间隔.超速防护 .进路安全和车门等监控技术的
+
+--- Document Chunk 115 ---
+总称。
+
+--- Document Chunk 116 ---
+[GB 50157一2013 ,定义2.0.39]
+
+--- Document Chunk 117 ---
+3. 1.5
+
+--- Document Chunk 118 ---
+列车自动运行 automatic train operation
+
+--- Document Chunk 119 ---
+自动实现列车加速,调速、停车和车门开闭 ,提示等控制技术的总称。
+
+--- Document Chunk 120 ---
+--- Page 7 ---
+
+--- Document Chunk 121 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 122 ---
+[ GB 50157一2013 ,定义2.0.40]
+
+--- Document Chunk 123 ---
+3.1.6
+
+--- Document Chunk 124 ---
+itp computer interlocking
+
+--- Document Chunk 125 ---
+以计算机技术为核心,自动实现进路.道岔\信和号机等防护技术的
+
+--- Document Chunk 126 ---
+总称。
+
+--- Document Chunk 127 ---
+CJ/T 407一2012 ,定义3.1.6]
+
+--- Document Chunk 128 ---
+3.1.7
+
+--- Document Chunk 129 ---
+移动授权 movement authority
+
+--- Document Chunk 130 ---
+列车沿给定的行驶方向进入并在某一特定轨道区段内行车的许可。
+
+--- Document Chunk 131 ---
+CJMT 407一2012 ,定义3.1.71]
+
+--- Document Chunk 132 ---
+3.1.8
+
+--- Document Chunk 133 ---
+转换轨 ~~‘ transfer track
+
+--- Document Chunk 134 ---
+指车辆段/停车场与正线的连接轨 ,运营列车在驶人/驶出转换轨过
+
+--- Document Chunk 135 ---
+程中,当条件具备时 ,进行列车运行控制级别及驾驶模式转换。
+
+--- Document Chunk 136 ---
+T/CAMET 04010. 1 ,术语3.1.131]
+
+--- Document Chunk 137 ---
+3. 1.9
+
+--- Document Chunk 138 ---
+跨线运行”overline operation
+
+--- Document Chunk 139 ---
+运营列车在两条或两条以上制式相同或兼容的线路中,由一条线路
+
+--- Document Chunk 140 ---
+进入另外一条线路进行共线运行的方式。
+
+--- Document Chunk 141 ---
+[TAXCAMET 04010. 1一2018 ,术语 3.1.14]
+
+--- Document Chunk 142 ---
+3.1.10
+
+--- Document Chunk 143 ---
+互联互通 interoperability
+
+--- Document Chunk 144 ---
+装备不同信号厂家车载设备的列车可以在装备不同信号厂家轨旁设
+
+--- Document Chunk 145 ---
+备的一条轨道交通线路内或多条轨道交通线路上无缝互通安全可靠
+
+--- Document Chunk 146 ---
+运营。
+
+--- Document Chunk 147 ---
+[ T/CAMET 04010. 1一2018 ,术语3.1.16]
+
+--- Document Chunk 148 ---
+3.2 缩略语
+
+--- Document Chunk 149 ---
+AM:列车自动驾驶模式(Automatic Train Operating Mode)
+
+--- Document Chunk 150 ---
+ATO :列车自动运行(Automatic Train Operation)
+
+--- Document Chunk 151 ---
+--- Page 8 ---
+
+--- Document Chunk 152 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 153 ---
+ATP:列车自动防护(Automatic Train Protection)
+
+--- Document Chunk 154 ---
+ATS :列车月动监控(Automatic Train Supervision )
+
+--- Document Chunk 155 ---
+CBTC :基于通信的列车控制(Communication Based Train Control)
+
+--- Document Chunk 156 ---
+CI; 计算机联锁( Computer Interlocking)
+
+--- Document Chunk 157 ---
+CM:列车自动防护模式(Coded Train Operating Mode)
+
+--- Document Chunk 158 ---
+EUM :非限制人工驾驶模式(Emergency Unrestricted Train Operating
+
+--- Document Chunk 159 ---
+Mode)
+
+--- Document Chunk 160 ---
+GAL:通用应用层(GCeneric Application Layer)
+
+--- Document Chunk 161 ---
+TPv4 :互联网协议(Internet Protocol ,IP) 的第 4 版
+
+--- Document Chunk 162 ---
+MA :移动授权(Movement Authority)
+
+--- Document Chunk 163 ---
+PSD :站台门(Platform Screen Door)
+
+--- Document Chunk 164 ---
+RM: BR ii] A 13 Sb Rat ( Restricted Train Operating Mode)
+
+--- Document Chunk 165 ---
+TCP ; f& 487 £5 fi] Ph 18. (Transmission Control Protocol )
+
+--- Document Chunk 166 ---
+TSR : ffi A BRE ( Temporary Speed Restriction )
+
+--- Document Chunk 167 ---
+ZC :区域控制器( Zone Controller)
+
+--- Document Chunk 168 ---
+4 BW
+
+--- Document Chunk 169 ---
+城市轨道交通基于通信的列车运行控制系统(CBTC ) 互联互通的一
+
+--- Document Chunk 170 ---
+个重要日标是可实现列车跨线路运行,列车跨线运行涉及到不同厂商 .多
+
+--- Document Chunk 171 ---
+条线路的 ATS 之问在列车运行调度指挥方面进行协调.交接。当前 ATS
+
+--- Document Chunk 172 ---
+接口支撑的功能包括:互联互通线路站场信息共享 ,路线运行列车信息共
+
+--- Document Chunk 173 ---
+享 .跨线运行列车计划调整信息共享 ,跨线运行列车接人站首站跳停命令
+
+--- Document Chunk 174 ---
+下达功能。根据后续工程实施中用户需求的增加,可对 ATS 间接口内容
+
+--- Document Chunk 175 ---
+进行扩展。
+
+--- Document Chunk 176 ---
+5 ATS -ATS 报文规范
+
+--- Document Chunk 177 ---
+5.1 通信机制
+
+--- Document Chunk 178 ---
+ATS 问通信机制如下:
+
+--- Document Chunk 179 ---
+--- Page 9 ---
+
+--- Document Chunk 180 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 181 ---
+a) 相邻 ATS 间通信应采用周期与非周期发送的方式进行
+
+--- Document Chunk 182 ---
+通信，;
+
+--- Document Chunk 183 ---
+b) 通信双方应均采用大端字节序进行数据传输。
+
+--- Document Chunk 184 ---
+5.2 接口详细描述
+
+--- Document Chunk 185 ---
+5.2.1 通信层次结构描述
+
+--- Document Chunk 186 ---
+ATS 间通信层次结构划分见图 1。
+
+--- Document Chunk 187 ---
+网络层:PPv4。
+
+--- Document Chunk 188 ---
+传输层:TCP 协议。
+
+--- Document Chunk 189 ---
+应用层:参见 5.2.3 详细定义。
+
+--- Document Chunk 190 ---
+图1 ATS 间通信和层次结构
+
+--- Document Chunk 191 ---
+5.2.2 接口连接方式
+
+--- Document Chunk 192 ---
+5. 2.2.1 物理接口
+
+--- Document Chunk 193 ---
+ATS 应元余接人通信和网络,网络拓扑结构为A网-A网B网-B
+
+--- Document Chunk 194 ---
+网 ,接口间宜通过防火墙进行隔离。
+
+--- Document Chunk 195 ---
+5. 2.2.2 通信层次描述
+
+--- Document Chunk 196 ---
+ATS 与 ATS 间应建立对等的逻辑连接。通信层次如图 2 所示(箭头
+
+--- Document Chunk 197 ---
+5
+
+--- Document Chunk 198 ---
+--- Page 10 ---
+
+--- Document Chunk 199 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 200 ---
+指向表示服务端,红蓝线表示双网逻辑连接) 。
+
+--- Document Chunk 201 ---
+说明:
+
+--- Document Chunk 202 ---
+第一组通道 ,线路一 ATS 的主机应作为客户端同时与线路 ATS 的主机和币机
+
+--- Document Chunk 203 ---
+建立双网连接,用于传送本线路内产生的信息。
+
+--- Document Chunk 204 ---
+第二组通道 ,线路二 ATS 的主机应作为客户端同时与线路一 ATS 的主机和备机
+
+--- Document Chunk 205 ---
+建立双网连接,用于传送本线路内产生的信息。
+
+--- Document Chunk 206 ---
+服务端侦听端口应为9 900。
+
+--- Document Chunk 207 ---
+ 2 通信层次
+
+--- Document Chunk 208 ---
+5.2.2.3 动态交互描述
+
+--- Document Chunk 209 ---
+5.2.2.3.1 信息帧格式定义
+
+--- Document Chunk 210 ---
+相邻 ATS 间每个周期需要交互的信息应组成通用应用层(GAL) 信
+
+--- Document Chunk 211 ---
+息包进行传输,如图3 BTA.
+
+--- Document Chunk 212 ---
+应出层信息包
+
+--- Document Chunk 213 ---
+kn
+
+--- Document Chunk 214 ---
+GAL fi,
+
+--- Document Chunk 215 ---
+m
+
+--- Document Chunk 216 ---
+ 3 GAL 信息包和应用层信息包关系结构图
+
+--- Document Chunk 217 ---
+kl
+
+--- Document Chunk 218 ---
+k.2
+
+--- Document Chunk 219 ---
+应用层信息包   ]  本
+
+--- Document Chunk 220 ---
+§.2.2.3.2 信息包格式定义
+
+--- Document Chunk 221 ---
+ATS 间通信的 CAL 信息包中包含 ATS 间传输的各条应用信息。每
+
+--- Document Chunk 222 ---
+--- Page 11 ---
+
+--- Document Chunk 223 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 224 ---
+个 GAL 信息包总长应不得超过 65 000 字节。每个 CAL 信息包应只包含
+
+--- Document Chunk 225 ---
+一类应用信息包。GCAL 信息包格式定义见表 1 和表 2。
+
+--- Document Chunk 226 ---
+#1 GAL 信息包格式定义
+
+--- Document Chunk 227 ---
+信息域定义                                 信息位定义及说明
+
+--- Document Chunk 228 ---
+0xDFDF
+
+--- Document Chunk 229 ---
+用于将 GAL 包双网传输的唯一标识。
+
+--- Document Chunk 230 ---
+发送方设置 ,双网发送数据时,同一 CAL
+
+--- Document Chunk 231 ---
+包的双网序列号必须保证相同。
+
+--- Document Chunk 232 ---
+通信连接建立后,通信双方将各自的
+
+--- Document Chunk 233 ---
+“双网序列号"置 0,并随着 CAL 包的发
+
+--- Document Chunk 234 ---
+送递增计数,每发一包 ,计数加1 ,到达8
+
+--- Document Chunk 235 ---
+字节限制后又变成0。
+
+--- Document Chunk 236 ---
+接收方接收双网数据时,如果当前
+
+--- Document Chunk 237 ---
+CAL 包的双网序列号等于或小于上一个
+
+--- Document Chunk 238 ---
+接收的 GAL 包的双网序列号,则委弃当
+
+--- Document Chunk 239 ---
+前 GAL包
+
+--- Document Chunk 240 ---
+0x0404:ATS - ATS 接口
+
+--- Document Chunk 241 ---
+发送方设备 ID
+
+--- Document Chunk 242 ---
+接收方设备 ID
+
+--- Document Chunk 243 ---
+--- Page 12 ---
+
+--- Document Chunk 244 ---
+T/CAMET 04011. 6—2018
+
+--- Document Chunk 245 ---
+Ri GAL 信息包格式定义(续)
+
+--- Document Chunk 246 ---
+信息域定义 |字节编号| 字段 | ke     信息位定义及说明
+
+--- Document Chunk 247 ---
+21
+
+--- Document Chunk 248 ---
+数据版本| 22 ,| 数据   as   、    ，
+
+--- Document Chunk 249 ---
+hewstne   os mee | 4字节 | ATS ae cE Ae
+
+--- Document Chunk 250 ---
+24
+
+--- Document Chunk 251 ---
+25
+
+--- Document Chunk 252 ---
+26         记录发送本条消息时,本方的
+
+--- Document Chunk 253 ---
+spony ey | a gay | 记录八送本条消息时,本方的周期
+
+--- Document Chunk 254 ---
+27         计数
+
+--- Document Chunk 255 ---
+28
+
+--- Document Chunk 256 ---
+29 | ite
+
+--- Document Chunk 257 ---
+通信周期         2 字节 | 设备通信周期,单位:ns
+
+--- Document Chunk 258 ---
+30  周期
+
+--- Document Chunk 259 ---
+对方消息     co |e | 记录收到对方上一条消息中的对方消
+
+--- Document Chunk 260 ---
+Fay Se   SR ES | oy
+
+--- Document Chunk 261 ---
+收到上 -                、      ;    ”
+
+--- Document Chunk 262 ---
+Bi  一条消息时，  的
+
+--- Document Chunk 263 ---
+入消息对下| oo | 订光时| 4 时方上一条消息时,本方的
+
+--- Document Chunk 264 ---
+方序列号                ue
+
+--- Document Chunk 265 ---
+协议版| 4, | | | ATS ATS 的协议版本,可参照下条
+
+--- Document Chunk 266 ---
+本号       版本号| ”|约定
+
+--- Document Chunk 267 ---
+应用层信   BAUS | CAL 包内含有的所有应用层信息包
+
+--- Document Chunk 268 ---
+息包个数  34 信息包 | 1 字节 个数
+
+--- Document Chunk 269 ---
+，         个数
+
+--- Document Chunk 270 ---
+,| 35 |应用层
+
+--- Document Chunk 271 ---
+人     信息 | 2 字节 | “应用层信息"的长度.单位:字节
+
+--- Document Chunk 272 ---
+和     36 | ice
+
+--- Document Chunk 273 ---
+     wee | MR | 会列表2格式定义
+
+--- Document Chunk 274 ---
+oo
+
+--- Document Chunk 275 ---
+--- Page 13 ---
+
+--- Document Chunk 276 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 277 ---
+#1 GAL 信息包格式定义(续)
+
+--- Document Chunk 278 ---
+信息域定义 |字节编号| 字段 | 长度     信息位定义及说明
+
+--- Document Chunk 279 ---
+wi         2 字节 | OxFDFD
+
+--- Document Chunk 280 ---
+“序列号有效值为1 ~ (2”-1)。发送方应保证生成两包信息包时,两包信息
+
+--- Document Chunk 281 ---
+报中的“本方消息序列号"字段的差值与“通信和周期" 相乘等于生成两包消息
+
+--- Document Chunk 282 ---
+的时间间隔, 主要用于心跳信息包交互时判断通信延时的参考依据,但不强
+
+--- Document Chunk 283 ---
+制要求通信延时的处理方式。
+
+--- Document Chunk 284 ---
+"当未收到对方消息时 ,此字段应填写 0xFFFFFFFF。
+
+--- Document Chunk 285 ---
+SATS 判断“协议版本号"字段校验不通过时 ,应进行委包或断开通信处理。
+
+--- Document Chunk 286 ---
+当前包号     有     正在发送的信息| 应用层信息包需要拆分时,此
+
+--- Document Chunk 287 ---
+8     包序号,从1 开始“|信息包在所有信息包中的序号
+
+--- Document Chunk 288 ---
+按照报文格式定
+
+--- Document Chunk 289 ---
+容 |9-~  结            义 ,详细内容参见 5. 2. 3.
+
+--- Document Chunk 290 ---
+报文内容    报文结束 义的报文具体内容   自定义 ,详细内容参见 5. 2.3.3
+
+--- Document Chunk 291 ---
+5. 2.2.3.3 通信状态的监督和管理
+
+--- Document Chunk 292 ---
+ATS 间通信状态的监督和管理如下 :
+
+--- Document Chunk 293 ---
+a) ATS 应对接收到的应用信息进行合法性检查。若检查未通过，
+
+--- Document Chunk 294 ---
+应认为本周期未收到相邻 ATS 的应用信息,并应记录报警信
+
+--- Document Chunk 295 ---
+息。具体检查方式如下 :
+
+--- Document Chunk 296 ---
+--- Page 14 ---
+
+--- Document Chunk 297 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 298 ---
+b)
+
+--- Document Chunk 299 ---
+c)
+
+--- Document Chunk 300 ---
+1)
+
+--- Document Chunk 301 ---
+2)
+
+--- Document Chunk 302 ---
+3)
+
+--- Document Chunk 303 ---
+ATS Siz BEX
+
+--- Document Chunk 304 ---
+信息内容的一致性检查:包括信息的字段合法性检查 .字
+
+--- Document Chunk 305 ---
+段组合合法性检查 .以及信息完整性检查
+
+--- Document Chunk 306 ---
+GAL 信息包数据所应包含的信息的完整性;
+
+--- Document Chunk 307 ---
+其他逻辑检查。
+
+--- Document Chunk 308 ---
+头中字段进行判断 :
+
+--- Document Chunk 309 ---
+ATS 与相邻 ATS 通信中断的超时时间值(Tsrsnssw)应可配
+
+--- Document Chunk 310 ---
+置(范围:3 s~9 s),且宜采用推荐值:6 s。
+
+--- Document Chunk 311 ---
+若 ATS 在 Tursnseu超时时间内,没有接收到来白相邻 ATS
+
+--- Document Chunk 312 ---
+的任何消息,则 ATS 应认为与相邻 ATS 通信中断。若 ATS
+
+--- Document Chunk 313 ---
+1)
+
+--- Document Chunk 314 ---
+2)
+
+--- Document Chunk 315 ---
+3)
+
+--- Document Chunk 316 ---
+4)
+
+--- Document Chunk 317 ---
+5)
+
+--- Document Chunk 318 ---
+6)
+
+--- Document Chunk 319 ---
+通信连接状态进行判断,即应用层根据 GAL 信息包
+
+--- Document Chunk 320 ---
+收到双网的通信通道中站
+
+--- Document Chunk 321 ---
+应认为该通信连接恢复。
+
+--- Document Chunk 322 ---
+若 ATS 判断接收到相邻
+
+--- Document Chunk 323 ---
+9任何一网通道上的正确数据,即
+
+--- Document Chunk 324 ---
+ATS 的周期性应用信息延迟已经
+
+--- Document Chunk 325 ---
+达到或超过 Tirsrsw时,ATS 可丢奔此信息包 ,并应认为与
+
+--- Document Chunk 326 ---
+相邻 ATS 通信中断或发生丢包。
+
+--- Document Chunk 327 ---
+通信中断的情况下 ,应生
+
+--- Document Chunk 328 ---
+连接断开时应立即重连。
+
+--- Document Chunk 329 ---
+成报警信息。
+
+--- Document Chunk 330 ---
+互联互通线网中,各厂商的 ATS 间的通信超时时间应一
+
+--- Document Chunk 331 ---
+臻,消息有效期时间应一
+
+--- Document Chunk 332 ---
+通信中断的创机切换逻辑:
+
+--- Document Chunk 333 ---
+1)
+
+--- Document Chunk 334 ---
+2)
+
+--- Document Chunk 335 ---
+3)
+
+--- Document Chunk 336 ---
+4)
+
+--- Document Chunk 337 ---
+ATS 和相邻 ATS 的备机
+
+--- Document Chunk 338 ---
+ATS 和相邻 ATS 在通信中断后应首先尝
+
+--- Document Chunk 339 ---
+Ko
+
+--- Document Chunk 340 ---
+只有在完成了与各自系统主机的
+
+--- Document Chunk 341 ---
+以后才应与对方进行通信联系。
+
+--- Document Chunk 342 ---
+重新建立连接，
+
+--- Document Chunk 343 ---
+只有在重建连接仍不成功后,才应进行倒机切换逻辑
+
+--- Document Chunk 344 ---
+FAS 6
+
+--- Document Chunk 345 ---
+ATS 主备机之间 AASB ATS 主备机之间应通过其他的物理
+
+--- Document Chunk 346 ---
+连接相互沟通各自系统主备机之问的通信连接状态 ,为倒
+
+--- Document Chunk 347 ---
+机切换提供准确.可靠的
+
+--- Document Chunk 348 ---
+判断依据。
+
+--- Document Chunk 349 ---
+ATS 和相邻 ATS 只有在主机之间的通信连接发生故障以
+
+--- Document Chunk 350 ---
+--- Page 15 ---
+
+--- Document Chunk 351 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 352 ---
+后才应进行倒机切换。备机与备机之间、主机与备机之间
+
+--- Document Chunk 353 ---
+的通信中断后只报警而不倒机。
+
+--- Document Chunk 354 ---
+5) ATS 和相邻 ATS 主机通信中断且持续一段时间(该时间应
+
+--- Document Chunk 355 ---
+可配置,范围:2 s~4 s)内不能恢复,且在判断 ATS 备机与
+
+--- Document Chunk 356 ---
+相邻 ATS 主机通信正常的情况下, ATS 才应进行倒机
+
+--- Document Chunk 357 ---
+切换。
+
+--- Document Chunk 358 ---
+5.2.3 接口数据描述
+
+--- Document Chunk 359 ---
+5.2.3.1 数据类型定义
+
+--- Document Chunk 360 ---
+表3 规定了 ATS 间通信的所有应用信息类型及其含义、发送方向、
+
+--- Document Chunk 361 ---
+长度范围 发送方式(周期/非周期)的内容。
+
+--- Document Chunk 362 ---
+表3 ATS 间通信的应用层信息定义
+
+--- Document Chunk 363 ---
+信息类型        信息包名            发送方向     长度(至少字节数) |发送方式
+
+--- Document Chunk 364 ---
+0x0201       站场显示信息包            双向                  4              周期
+
+--- Document Chunk 365 ---
+0x0202         列车信息包              双向                  4              周期
+
+--- Document Chunk 366 ---
+0x0203 | 列车运行调整信息包 | 交出站一接人站            4              周期
+
+--- Document Chunk 367 ---
+列车接人站跳停命
+
+--- Document Chunk 368 ---
+一                   4
+
+--- Document Chunk 369 ---
+0x0204    令信息包                接人站一交出站                         非周期
+
+--- Document Chunk 370 ---
+列车接人站跳停回
+
+--- Document Chunk 371 ---
+0205                                     一                   4               55
+
+--- Document Chunk 372 ---
+Ox     执信息包         交出站一接人站              非周期
+
+--- Document Chunk 373 ---
+0x020A | ATS 城市自定义信息包        双向                4           非周期
+
+--- Document Chunk 374 ---
+0x020B | ATS 厂商自定义信息包       双向              4          非周期
+
+--- Document Chunk 375 ---
+5. 2. 3.2 数据交互方式定义
+
+--- Document Chunk 376 ---
+图4表明了两个线路 ATS 间互传的数据流,具体定义如下 :
+
+--- Document Chunk 377 ---
+a) 人:本线路的列车运行调整信息;
+
+--- Document Chunk 378 ---
+b) B:本线路的站场显示信息、列车信息、接人站跳停命令及回执
+
+--- Document Chunk 379 ---
+信息;
+
+--- Document Chunk 380 ---
+c) CC:心跳信息。
+
+--- Document Chunk 381 ---
+--- Page 16 ---
+
+--- Document Chunk 382 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 383 ---
+线路二
+
+--- Document Chunk 384 ---
+第一类通道                                 ATS
+
+--- Document Chunk 385 ---
+线路二
+
+--- Document Chunk 386 ---
+第一类通道                                                         ATS
+
+--- Document Chunk 387 ---
+A类信息
+
+--- Document Chunk 388 ---
+线路二
+
+--- Document Chunk 389 ---
+第二类通道                                                          ATS
+
+--- Document Chunk 390 ---
+第二类通道
+
+--- Document Chunk 391 ---
+B类信息
+
+--- Document Chunk 392 ---
+线路一
+
+--- Document Chunk 393 ---
+第一、二类通道| ATS
+
+--- Document Chunk 394 ---
+说明:
+
+--- Document Chunk 395 ---
+箭头方向表示数据流向 ,实线表示通信连接建立且发送数据,虚线表示通信连接
+
+--- Document Chunk 396 ---
+建立但只发送心跳信息 ,不发送其他信息。
+
+--- Document Chunk 397 ---
+图4 数据交互方式
+
+--- Document Chunk 398 ---
+5.2.3.3 应用信息定义
+
+--- Document Chunk 399 ---
+5.2.3.3.1 说明
+
+--- Document Chunk 400 ---
+本节中的“无效"值:正常通信时发送方不可能发送的非法取值。接
+
+--- Document Chunk 401 ---
+12
+
+--- Document Chunk 402 ---
+--- Page 17 ---
+
+--- Document Chunk 403 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 404 ---
+收方收到 GAL 包中的应用信息包中存在“无效"值时,应对 GAL 包应用
+
+--- Document Chunk 405 ---
+信息包中无效字段进行容错处理。
+
+--- Document Chunk 406 ---
+本节中的“默认”值:
+
+--- Document Chunk 407 ---
+a)针对具体工程中不实现的功能,通信双方可在具体工程中约定，
+
+--- Document Chunk 408 ---
+相关字段取值应按照默认”值发送。
+
+--- Document Chunk 409 ---
+b)设备在初始化完成前 ,无法确定状态时,相关字段取值应按照默
+
+--- Document Chunk 410 ---
+认"值发送。接收方收到“默认”值后 ,应认为信息有效 ,不进行处理。
+
+--- Document Chunk 411 ---
+本节中涉及"上行” “下行"的方向定义,应采用运营方向规定的上
+
+--- Document Chunk 412 ---
+Fit.
+
+--- Document Chunk 413 ---
+5.2.3.3.2 ”心跳信息包
+
+--- Document Chunk 414 ---
+ATS 应周期性发送心理      基体铭动名应用信息包为0的GAL 信
+
+--- Document Chunk 415 ---
+息包。
+
+--- Document Chunk 416 ---
+5.2.3.3.3 站场显 eA
+
+--- Document Chunk 417 ---
+ATS ALE at          a DENI 3K 4 ASB ATS ,见
+
+--- Document Chunk 418 ---
+#4,                 <=
+
+--- Document Chunk 419 ---
+=                  Sh,
+
+--- Document Chunk 420 ---
+段       :
+
+--- Document Chunk 421 ---
+本信息包产生时间。
+
+--- Document Chunk 422 ---
+时间            9       以数字表示年(2 字节) 月日.时、分.秒、
+
+--- Document Chunk 423 ---
+毫秒(2 字节)
+
+--- Document Chunk 424 ---
+车站信息个数       1       信息包内车站个数
+
+--- Document Chunk 425 ---
+站码        4      车站 ID
+
+--- Document Chunk 426 ---
+站信息长       2      站信息字节长度
+
+--- Document Chunk 427 ---
+m4       设备类型     1        数值,取值见附录 A. 1。其他值无效
+
+--- Document Chunk 428 ---
+AS 1),
+
+--- Document Chunk 429 ---
+设备                  每站每种设备类型下单独编号,设备类型
+
+--- Document Chunk 430 ---
+信息 1设备编号      4       和设备编号一起应能唯一标识一个站内的设
+
+--- Document Chunk 431 ---
+备。设备编号应优先采用互联互通信号系统
+
+--- Document Chunk 432 ---
+13
+
+--- Document Chunk 433 ---
+--- Page 18 ---
+
+--- Document Chunk 434 ---
+T/CAMET 04011, 6一2018
+
+--- Document Chunk 435 ---
+表4 站场显示信息包(续)
+
+--- Document Chunk 436 ---
+字    段       长度/字节                 说    明
+
+--- Document Chunk 437 ---
+设备编号。当互联互通信号系统设备编号文
+
+--- Document Chunk 438 ---
+jis 4 Bh     4      (EARLE RAR A AY SS tO eh fa
+
+--- Document Chunk 439 ---
+PR Be
+
+--- Document Chunk 440 ---
+色码长度|      1        数值 ,表示色码字节个数
+
+--- Document Chunk 441 ---
+设备                 N 个字节顺序组成(bito ~ bit8N-1)这 8N 个
+
+--- Document Chunk 442 ---
+信息1              bit 位。色码意为设备状态组位但,假设设备
+
+--- Document Chunk 443 ---
+车站                    Ai on F(n<BN) Hh AR AS, H iO <i <8N) Fl!
+
+--- Document Chunk 444 ---
+az 1        fi       N     状态占用 Mi位,这 Mi位叫做第i个组位,则
+
+--- Document Chunk 445 ---
+色码的8N 位由这些状态组位纽成,设备状态
+
+--- Document Chunk 446 ---
+的扩展即为扩组位。
+
+--- Document Chunk 447 ---
+TE MEL aR A. 2
+
+--- Document Chunk 448 ---
+设备信息 2
+
+--- Document Chunk 449 ---
+设备信息 mn
+
+--- Document Chunk 450 ---
+车站信息 2
+
+--- Document Chunk 451 ---
+车站信息                 m 为“车站信息个数"字段取值
+
+--- Document Chunk 452 ---
+5. 2. 3. 3,4 列车信息包
+
+--- Document Chunk 453 ---
+ATS 应周期性将复视车站的所有列车状态信息发送给相邻 ATS ,见表 5。
+
+--- Document Chunk 454 ---
+表5 列车信息包
+
+--- Document Chunk 455 ---
+字 B         长度             说 OM
+
+--- Document Chunk 456 ---
+线路号                4    线路 ID
+
+--- Document Chunk 457 ---
+本信息包产生时间。
+
+--- Document Chunk 458 ---
+时间                  9    以数字表示年(2 PT) ST ED Ea
+
+--- Document Chunk 459 ---
+秒 ,毫秒(2 字节)》
+
+--- Document Chunk 460 ---
+--- Page 19 ---
+
+--- Document Chunk 461 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 462 ---
+RS ”列车信息包(续)
+
+--- Document Chunk 463 ---
+字    Ex          长度              说    明
+
+--- Document Chunk 464 ---
+车站信息个数              1     信息包内午站个数
+
+--- Document Chunk 465 ---
+站码                4     车站 ID
+
+--- Document Chunk 466 ---
+FX ht             2      ei PS EE CB) A eB et
+
+--- Document Chunk 467 ---
+列车信息长度 | 2 | 列车信息字节长度
+
+--- Document Chunk 468 ---
+源线路号       4     详见附录 A.3
+
+--- Document Chunk 469 ---
+日的线路号      4     详见附录 A.3
+
+--- Document Chunk 470 ---
+               1] 为计划车,2 为头码车,3 为人工车,其
+
+--- Document Chunk 471 ---
+te
+
+--- Document Chunk 472 ---
+列车类型       1   他无效
+
+--- Document Chunk 473 ---
+表号长度       1     数值
+
+--- Document Chunk 474 ---
+RS                字符,个数由表长度指定 ,详见附录 A. 3
+
+--- Document Chunk 475 ---
+ASK | 1 | 数值
+
+--- Document Chunk 476 ---
+车站      车次号         aoe 车次号长度指定,详见附
+
+--- Document Chunk 477 ---
+信息1                          一
+
+--- Document Chunk 478 ---
+列车| 元
+
+--- Document Chunk 479 ---
+Gayo BA) 4 | emma
+
+--- Document Chunk 480 ---
+路号
+
+--- Document Chunk 481 ---
+车组号长度     1     数值,详见附录 A.3
+
+--- Document Chunk 482 ---
+oye            字符,个数由车组号长度指定,详见附
+
+--- Document Chunk 483 ---
+车组号
+
+--- Document Chunk 484 ---
+了录A.3
+
+--- Document Chunk 485 ---
+目的地号长度    1     数值
+
+--- Document Chunk 486 ---
+目的地号          字符,个数由目的地号长度指定 ,详见附
+
+--- Document Chunk 487 ---
+录A.3
+
+--- Document Chunk 488 ---
+odes      车头所在位置
+
+--- Document Chunk 489 ---
+wae 到 在| 4       默认值:0x00000000 ;
+
+--- Document Chunk 490 ---
+           无数值:0xFFEFFFFEF
+
+--- Document Chunk 491 ---
+15
+
+--- Document Chunk 492 ---
+--- Page 20 ---
+
+--- Document Chunk 493 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 494 ---
+#5 列车信息包(续)
+
+--- Document Chunk 495 ---
+说    明
+
+--- Document Chunk 496 ---
+最大车头所在         单位:em
+
+--- Document Chunk 497 ---
+逻辑区段内偏| 4      默认值:O0xFFFFFFFF;
+
+--- Document Chunk 498 ---
+wht                  有效范围:0x0 ~ OxEFFPFFFE
+
+--- Document Chunk 499 ---
+车尾所在位置
+
+--- Document Chunk 500 ---
+本   4     默认值:0x00000000;
+
+--- Document Chunk 501 ---
+            无效值:0xFFFFFFFF
+
+--- Document Chunk 502 ---
+最小车头所在         单位 :cm
+
+--- Document Chunk 503 ---
+BHEAA ) 4     默认值:0xFFFFFFFF;
+
+--- Document Chunk 504 ---
+Bit                  有效范围:0x0 ~ OxFFFFFFFE
+
+--- Document Chunk 505 ---
+ATS 系统内的列车运营方向
+
+--- Document Chunk 506 ---
+运行方向        1 | oxol:下行;0x02:上行;:0x00:未知;其他
+
+--- Document Chunk 507 ---
+_
+
+--- Document Chunk 508 ---
+ATP 系统位置报告中的列车方向
+
+--- Document Chunk 509 ---
+车站 | 列车   io 4报告| 1 |  ox01;下行,0x02:上行;0x00:未知;其他
+
+--- Document Chunk 510 ---
+信息有信息1                      无效
+
+--- Document Chunk 511 ---
+车轮正转(前进) :0x01;
+
+--- Document Chunk 512 ---
+_                   车轮反转(后退) :0x02;
+
+--- Document Chunk 513 ---
+eee        1 | sewatseat
+
+--- Document Chunk 514 ---
+me Se      1     0 为正点,1 为早点,2 为晚点 ,其他无效
+
+--- Document Chunk 515 ---
+早晚点时间      4     数值 ,单位:s
+
+--- Document Chunk 516 ---
+By I bit位1表示ATP切除,0表示 ATP
+
+--- Document Chunk 517 ---
+未切除 AK 7bit 表示列车状态 ,1 为通信和车，
+
+--- Document Chunk 518 ---
+2 为非通信车,3 为通信状态未知,其他
+
+--- Document Chunk 519 ---
+无效。
+
+--- Document Chunk 520 ---
+列车通信状态 | 1 | 补充说明:若某一方 ATS 无 ATP 切除功
+
+--- Document Chunk 521 ---
+能,则对方作为信息接收方可不处理本字
+
+--- Document Chunk 522 ---
+段高 hit,本方作为信息发送方应将本字段
+
+--- Document Chunk 523 ---
+高 lbit 兽为0
+
+--- Document Chunk 524 ---
+16
+
+--- Document Chunk 525 ---
+--- Page 21 ---
+
+--- Document Chunk 526 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 527 ---
+RS ”列车信息包(续)
+
+--- Document Chunk 528 ---
+字 段             KE                   说 明
+
+--- Document Chunk 529 ---
+0x01:CBTC 车;
+
+--- Document Chunk 530 ---
+列车状态         1      0x02:非 CBTC *;
+
+--- Document Chunk 531 ---
+Hf
+
+--- Document Chunk 532 ---
+1:停准且停稳;
+
+--- Document Chunk 533 ---
+停准停稳       1
+
+--- Document Chunk 534 ---
+列车速度信息
+
+--- Document Chunk 535 ---
+车站 | 列车
+
+--- Document Chunk 536 ---
+0x00 :ATO 未建立;
+
+--- Document Chunk 537 ---
+ATO 工作异式| 1  0x03:AM 自动驾驶;
+
+--- Document Chunk 538 ---
+其他无效
+
+--- Document Chunk 539 ---
+_          运行等级或区间运行时间(列车从前一
+
+--- Document Chunk 540 ---
+区风速行调整| 2 |站发在到下一站停车时间,单位,s) OT AL
+
+--- Document Chunk 541 ---
+i        据工程需求确定
+
+--- Document Chunk 542 ---
+0x55:有;0xAA:无;0xhF:状态无意义;其
+
+--- Document Chunk 543 ---
+<5 fy Ap
+
+--- Document Chunk 544 ---
+BES tit     1  他无效
+
+--- Document Chunk 545 ---
+扣车命令   1  0x55:有;0xAA:无;0xFF:状态无意义
+
+--- Document Chunk 546 ---
+i              他无效
+
+--- Document Chunk 547 ---
+17
+
+--- Document Chunk 548 ---
+--- Page 22 ---
+
+--- Document Chunk 549 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 550 ---
+表5 ”列车信息包(续)
+
+--- Document Chunk 551 ---
+长度    mH
+
+--- Document Chunk 552 ---
+0x01:列车阻塞;0x02 :列车  ;
+
+--- Document Chunk 553 ---
+plea    本 列车阻塞;0x02:列车非蛆塞;其他
+
+--- Document Chunk 554 ---
+同《城市轨道交通”上基于通信的列车运
+
+--- Document Chunk 555 ---
+，     行控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 556 ---
+sil | PEORIA) 工 |第2部分:CBTC 系统车地连续通信协议》
+
+--- Document Chunk 557 ---
+信息1           中的定义
+
+--- Document Chunk 558 ---
+列车完整性“| 1 | 0x01:完整,0x02;不完整;其他无
+
+--- Document Chunk 559 ---
+列车紧急制动| ， | 0x01 :紧急制动10x02:无紧急抽动;其他
+
+--- Document Chunk 560 ---
+状态       无效
+
+--- Document Chunk 561 ---
+We        a
+
+--- Document Chunk 562 ---
+fri a                 ny" FER” FB
+
+--- Document Chunk 563 ---
+mn 为"车站信息个数"字段取值
+
+--- Document Chunk 564 ---
+A oy
+
+--- Document Chunk 565 ---
+“FAME RRA FRR AE RAM hE
+
+--- Document Chunk 566 ---
+时限(可设置)的状态信息。
+
+--- Document Chunk 567 ---
+5. 2. 3. 3. 5 ”列车运行调整信息包
+
+--- Document Chunk 568 ---
+对于跨线列车 ,线路 ATS
+
+--- Document Chunk 569 ---
+处交出车站的计划运行图/时刻表 实迹运行图/时刻表和计划调整信息。
+
+--- Document Chunk 570 ---
+间应周期性互传各自线路内跨线运营分界
+
+--- Document Chunk 571 ---
+互传信息内容见表6。
+
+--- Document Chunk 572 ---
+表6 列车运行调整信息包
+
+--- Document Chunk 573 ---
+TF B         长度                 说 OF
+
+--- Document Chunk 574 ---
+线路号                 4     线路 ID
+
+--- Document Chunk 575 ---
+本信息包产生时间。
+
+--- Document Chunk 576 ---
+时间                9     以数字表示年(2 FE) 月.日.时、分,秒\毫
+
+--- Document Chunk 577 ---
+秒(2 字节)
+
+--- Document Chunk 578 ---
+--- Page 23 ---
+
+--- Document Chunk 579 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 580 ---
+表6 列车运行调整信息包(续)
+
+--- Document Chunk 581 ---
+字 。 且        长度               BO
+
+--- Document Chunk 582 ---
+车站信息个数          1 | ”信息包内车站个数
+
+--- Document Chunk 583 ---
+站码           4 | EMD
+
+--- Document Chunk 584 ---
+列车数最        2 | 本调度日内从该车站交出的列车数量
+
+--- Document Chunk 585 ---
+=信息
+
+--- Document Chunk 586 ---
+ceo   2 | “列车信息字节长度
+
+--- Document Chunk 587 ---
+源线路号 | 4 | 详见附录A.3
+
+--- Document Chunk 588 ---
+月的线| 4 | 详见附录A.3
+
+--- Document Chunk 589 ---
+路号
+
+--- Document Chunk 590 ---
+pieacyy | 1 | 1 为计划车,2 为头码车,3 为人工车,其他
+
+--- Document Chunk 591 ---
+无效
+
+--- Document Chunk 592 ---
+表号长度 | 1 | 数值
+
+--- Document Chunk 593 ---
+RS             字符,个数由表长度指定,详见附录 A.3
+
+--- Document Chunk 594 ---
+列车 |一一
+
+--- Document Chunk 595 ---
+信息 !| ， 车次号          字符,个数由车次号长度指定,详见附示 A.3
+
+--- Document Chunk 596 ---
+车组所局    、
+
+--- Document Chunk 597 ---
+ae       4     详见附录 A. 3
+
+--- Document Chunk 598 ---
+车组号        cae:
+
+--- Document Chunk 599 ---
+见附录 A.
+
+--- Document Chunk 600 ---
+长度         1     数值 ,详匈附录 A. 3
+
+--- Document Chunk 601 ---
+车级号           字符,个数由车组号长度指定,详见附录A3
+
+--- Document Chunk 602 ---
+目的地号
+
+--- Document Chunk 603 ---
+1
+
+--- Document Chunk 604 ---
+长度             数值
+
+--- Document Chunk 605 ---
+ae 个         i. He dE SE WL
+
+--- Document Chunk 606 ---
+nase     AE, TH 8 Ie HE
+
+--- Document Chunk 607 ---
+ok A.3
+
+--- Document Chunk 608 ---
+ewe | 1 | ATS RAMEE Ee
+
+--- Document Chunk 609 ---
+OxO1 :下行;0x02:上行;:0x00 : Ae A 5 FL fh FE
+
+--- Document Chunk 610 ---
+19
+
+--- Document Chunk 611 ---
+--- Page 24 ---
+
+--- Document Chunk 612 ---
+T/CAMET 04011, 6一2018
+
+--- Document Chunk 613 ---
+RO ”列车运行调整信息包(续)
+
+--- Document Chunk 614 ---
+字 Bp        长度                说 明
+
+--- Document Chunk 615 ---
+|
+
+--- Document Chunk 616 ---
+计划调整后的预计交出时间。
+
+--- Document Chunk 617 ---
+Bite)     以数字表示年(2 字节) AL IE OP BET
+
+--- Document Chunk 618 ---
+叶间              个字节全为 0 表示列车已经实际交出。
+
+--- Document Chunk 619 ---
+无计划信息时取值为 0xFFFFFFFFFFFFFF
+
+--- Document Chunk 620 ---
+表示计划在本线路调整完成后剩父的时间仿
+
+--- Document Chunk 621 ---
+mata        差值,也即需要下一线路 ATS 进行计划调整的
+
+--- Document Chunk 622 ---
+时记 的计划    4 |时间偏差值,无计划信息列车按照准点处理。
+
+--- Document Chunk 623 ---
+swine           jit0 ~ bit29 为偏离时分数值,单位:
+
+--- Document Chunk 624 ---
+bit30 ~ bit31 为早晚点标志,0 为准点,L 为时
+
+--- Document Chunk 625 ---
+列车
+
+--- Document Chunk 626 ---
+信息中实际交出       列车实际运行的交出时间。
+
+--- Document Chunk 627 ---
+车站  时间    | 了    以数字表示年(2 字节) 月.日.时、分.秒,7
+
+--- Document Chunk 628 ---
+信息1                      个字节全为 0 表示列车还未实际交出
+
+--- Document Chunk 629 ---
+早晚点信息。无计划信息列车按照准点
+
+--- Document Chunk 630 ---
+实际交出       处理。
+
+--- Document Chunk 631 ---
+时刻的计划| 4     bitO ~ bil29 为偏离时分数值,单位:s
+
+--- Document Chunk 632 ---
+偏离时分           bit30 ~ bit31 为早晚点标志,0 为准点、! 为早
+
+--- Document Chunk 633 ---
+点.2 为晚点
+
+--- Document Chunk 634 ---
+KK
+
+--- Document Chunk 635 ---
+的预计运行| 2     单位:s
+
+--- Document Chunk 636 ---
+时间
+
+--- Document Chunk 637 ---
+ae
+
+--- Document Chunk 638 ---
+ces                  mE EB
+
+--- Document Chunk 639 ---
+ean                                  in 为“车站信息个数"字段取值
+
+--- Document Chunk 640 ---
+--- Page 25 ---
+
+--- Document Chunk 641 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 642 ---
+5. 2.3.3.6 列车接入站跳停命令信息包
+
+--- Document Chunk 643 ---
+对跨线列车 ,当在接人线接人站(人工或自动) 设置跳停时 ,应由接
+
+--- Document Chunk 644 ---
+ASG ATS 发送站台跳停命令至至交出线 ATS。当交出线 ATS 下到中入
+
+--- Document Chunk 645 ---
+命令后,应发送接收回抉给接人站 ATS ,并应由交出站 ATS 负责管理接
+
+--- Document Chunk 646 ---
+加
+
+--- Document Chunk 647 ---
+入站台的卡停命令和确定将命令发送至列车的时机, 当回执超时且重发
+
+--- Document Chunk 648 ---
+次数达剑配置数基
+
+--- Document Chunk 649 ---
+均应可配置。跳停命令信息包
+
+--- Document Chunk 650 ---
+后应报待,并应停止发送。回执超时时让
+
+--- Document Chunk 651 ---
+见表?7。
+
+--- Document Chunk 652 ---
+表7 列车接入站跳停命令信息包
+
+--- Document Chunk 653 ---
+= 8    KBE        em
+
+--- Document Chunk 654 ---
+sen 1D              ME — PRL, EAT aa HE
+
+--- Document Chunk 655 ---
+接入站所在线路号
+
+--- Document Chunk 656 ---
+接人站站码
+
+--- Document Chunk 657 ---
+交出站站码
+
+--- Document Chunk 658 ---
+交出站所在线路号
+
+--- Document Chunk 659 ---
+有时间
+
+--- Document Chunk 660 ---
+让台数二
+
+--- Document Chunk 661 ---
+站人编号       数字,员台统一编号
+
+--- Document Chunk 662 ---
+       数字,1 为无跳停,2 为所有列车跳停,3 为有
+
+--- Document Chunk 663 ---
+aon       SE SACRE ONPFFF BRU, ,其他无效
+
+--- Document Chunk 664 ---
+ne             HE OB 1 ML AD 所有列车
+
+--- Document Chunk 665 ---
+信息| 列车数量       跳停,本字段应为0,跳停列车信息仅在跳停类
+
+--- Document Chunk 666 ---
+B             型为指定列不跳停时有效
+
+--- Document Chunk 667 ---
+wee | RES     评见附录A. 3
+
+--- Document Chunk 668 ---
+eB
+
+--- Document Chunk 669 ---
+二         详见附孙 A.3
+
+--- Document Chunk 670 ---
+81 pe       详见附录
+
+--- Document Chunk 671 ---
+21
+
+--- Document Chunk 672 ---
+--- Page 26 ---
+
+--- Document Chunk 673 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 674 ---
+表7 ”列车接入站跳停命令信息包(表)
+
+--- Document Chunk 675 ---
+字段        长度                说 。 明
+
+--- Document Chunk 676 ---
+tT                          一
+
+--- Document Chunk 677 ---
+wesc | 1 | _妆值,表号长度和车次号长度为0 时,表示指
+
+--- Document Chunk 678 ---
+            定车组跳停
+
+--- Document Chunk 679 ---
+RE            字符,个数由表长度指定,详见附录 A.3
+
+--- Document Chunk 680 ---
+车 次号
+
+--- Document Chunk 681 ---
+长度          (| 数值
+
+--- Document Chunk 682 ---
+跌停 | 车次号           字符,个数由车次号长度指定,详见附录 A.3
+
+--- Document Chunk 683 ---
+列车| 示组有
+
+--- Document Chunk 684 ---
+信息1 one  4 | 详见附录 A.3,车组号长度为 0 时无效
+
+--- Document Chunk 685 ---
+sit       车组号| ， | 数字,车组号攻度为0 时,表示指定车次中
+
+--- Document Chunk 686 ---
+信息        长度              停,表号.车次号,车组号不能同时为空
+
+--- Document Chunk 687 ---
+车组号           字符,个数由车组号长度指定,详见附录 A.3
+
+--- Document Chunk 688 ---
+下一停车      WARE EGS ,定义同站台编号，
+
+--- Document Chunk 689 ---
+站台编号         默认值为 0xFFFF
+
+--- Document Chunk 690 ---
+跳停
+
+--- Document Chunk 691 ---
+列车                     为“列车数量"字段取什
+
+--- Document Chunk 692 ---
+fa Bon
+
+--- Document Chunk 693 ---
+下一刘
+
+--- Document Chunk 694 ---
+全信息
+
+--- Document Chunk 695 ---
+5. 2. 3.3.7 列车接入站跳停回执信息包
+
+--- Document Chunk 696 ---
+对跨线列车 ,当接入线接人站站台设置跳停时,交出线 ATS 在收到
+
+--- Document Chunk 697 ---
+接和人站发送的接人站站台跳停命令信息包后应回复接收回执。列车接和人
+
+--- Document Chunk 698 ---
+站跳停回执信息包见表8。
+
+--- Document Chunk 699 ---
+22
+
+--- Document Chunk 700 ---
+--- Page 27 ---
+
+--- Document Chunk 701 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 702 ---
+RS 列车接入站跳停回执信息包
+
+--- Document Chunk 703 ---
+字    段       KE                  说    明
+
+--- Document Chunk 704 ---
+    操作加  ft 16 | UUTD ,命令唯一标识,与回复的命令ID 相同   |
+
+--- Document Chunk 705 ---
+eRe       4 | sem
+
+--- Document Chunk 706 ---
+mime | 1 | ett
+
+--- Document Chunk 707 ---
+Sei BAA               Pah
+
+--- Document Chunk 708 ---
+01:车站
+
+--- Document Chunk 709 ---
+回执单位类型         1
+
+--- Document Chunk 710 ---
+02 :中心
+
+--- Document Chunk 711 ---
+回执单位编码           2
+
+--- Document Chunk 712 ---
+单位类型为中心时 ,单位编码为调度台 ID ,服务器
+
+--- Document Chunk 713 ---
+ID 为0
+
+--- Document Chunk 714 ---
+单位类翅为千站时 ,单位编码为站码
+
+--- Document Chunk 715 ---
+回执单位名称长度 1 数值
+
+--- Document Chunk 716 ---
+回执单位名称  字符串
+
+--- Document Chunk 717 ---
+回执模块名称长度 I 数值
+
+--- Document Chunk 718 ---
+同热模块名称  字符串
+
+--- Document Chunk 719 ---
+数值 ,0x01 :接收成功,0x02 :接收失败
+
+--- Document Chunk 720 ---
+其他无效
+
+--- Document Chunk 721 ---
+接收返回信息长度 2 数值
+
+--- Document Chunk 722 ---
+接收返回信息 和 字符
+
+--- Document Chunk 723 ---
+预留信息长度 2 数值
+
+--- Document Chunk 724 ---
+wea   字节
+
+--- Document Chunk 725 ---
+23
+
+--- Document Chunk 726 ---
+--- Page 28 ---
+
+--- Document Chunk 727 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 728 ---
+5. 2.3.3.8 ATS 城市自定义信息包
+
+--- Document Chunk 729 ---
+自定义信息包用于实现各城市特有的互联互通相关功能。具体内容
+
+--- Document Chunk 730 ---
+可在了工程中根据实际需求约定。城市自定义信息包见表 9。
+
+--- Document Chunk 731 ---
+RI ATS 城市自定义信息包
+
+--- Document Chunk 732 ---
+字 自  长度 |    mW
+
+--- Document Chunk 733 ---
+信息定义  N |   具体内容在工程中约定   |
+
+--- Document Chunk 734 ---
+§.2.3.3.9 ATS 厂商自定义信息包
+
+--- Document Chunk 735 ---
+自定义信息包用于实现各厂商特有功能,具体内容可由各厂商分别
+
+--- Document Chunk 736 ---
+定制。发送方应判断当接收方与自身属于同一厂商时才可发送厂商自定
+
+--- Document Chunk 737 ---
+义信息包。ATS 收到非本厂商的厂商自定义信息包后,可不进行处理。
+
+--- Document Chunk 738 ---
+厂商自定义信息包见表 10。
+
+--- Document Chunk 739 ---
+#10 ATS 厂商自定义信息包
+
+--- Document Chunk 740 ---
+字段     长度          Ca         |
+
+--- Document Chunk 741 ---
+信息定义      N       县体内容册各厂商分别定制 |
+
+--- Document Chunk 742 ---
+24
+
+--- Document Chunk 743 ---
+--- Page 29 ---
+
+--- Document Chunk 744 ---
+T/CAMET 04011, 6一2018
+
+--- Document Chunk 745 ---
+附 录 A
+
+--- Document Chunk 746 ---
+(规范性附录)
+
+--- Document Chunk 747 ---
+设备类型定义.设备色码定义、列车信息识别号字段说明
+
+--- Document Chunk 748 ---
+A.1 设备类型定义
+
+--- Document Chunk 749 ---
+表A. 1 给出了设备类型定义。
+
+--- Document Chunk 750 ---
+表A.1 设备类型定义
+
+--- Document Chunk 751 ---
+设备类型 | 设备类型名称         &       |
+
+--- Document Chunk 752 ---
+Oxi]        i
+
+--- Document Chunk 753 ---
+2 Oxl6
+
+--- Document Chunk 754 ---
+3 Oxl4
+
+--- Document Chunk 755 ---
+4 0x18
+
+--- Document Chunk 756 ---
+5
+
+--- Document Chunk 757 ---
+6                   CY errr
+
+--- Document Chunk 758 ---
+|  0x41    = ‘  Phy 20 ith 1 .接口电源灯等表示灯
+
+--- Document Chunk 759 ---
+PPO ve Be. Ah RE He on AT
+
+--- Document Chunk 760 ---
+wea cea 3”        =
+
+--- Document Chunk 761 ---
+9   0x52   站台紧急关闭
+
+--- Document Chunk 762 ---
+10 0x54 安全门/屏蔽门
+
+--- Document Chunk 763 ---
+ll 0x61 供电区段      |
+
+--- Document Chunk 764 ---
+A.2 设备色码定义
+
+--- Document Chunk 765 ---
+A.2.1 逻辑区段
+
+--- Document Chunk 766 ---
+表A. 2 给出了赐辑区段定义。
+
+--- Document Chunk 767 ---
+25
+
+--- Document Chunk 768 ---
+--- Page 30 ---
+
+--- Document Chunk 769 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 770 ---
+表A.2 逻辑区段
+
+--- Document Chunk 771 ---
+比特位   状态      fi       说 明  _|
+
+--- Document Chunk 772 ---
+ee   0:无故障     ATS 与联锁通信故障时
+
+--- Document Chunk 773 ---
+0   通信故库状态   1:有故障    的一种特殊状态表示
+
+--- Document Chunk 774 ---
+0:出清
+
+--- Document Chunk 775 ---
+1 | 非通信列车占用惟态 | OU
+
+--- Document Chunk 776 ---
+2    镇闭状态   ea
+
+--- Document Chunk 777 ---
+    0 EHR
+
+--- Document Chunk 778 ---
+3    Bc A   1 ACA A
+
+--- Document Chunk 779 ---
+0:非封锁
+
+--- Document Chunk 780 ---
+4    封锁状态   La
+
+--- Document Chunk 781 ---
+;    CBTC 通信   0:出消
+
+--- Document Chunk 782 ---
+列车占用状态   1:右用
+
+--- Document Chunk 783 ---
+   0:非锁闭
+
+--- Document Chunk 784 ---
+6   保护区段锁闭   ain
+
+--- Document Chunk 785 ---
+0:非切除
+
+--- Document Chunk 786 ---
+1    区段切除   he
+
+--- Document Chunk 787 ---
+8.9    Eu,
+
+--- Document Chunk 788 ---
+0:无计轴复位(或| ATS 没有此信息,应
+
+--- Document Chunk 789 ---
+10   计轴复位   默认值)     发送默认值,作为信息接
+
+--- Document Chunk 790 ---
+1:有计轴复位 | 收方时可不处理本字段
+
+--- Document Chunk 791 ---
+11    预留
+
+--- Document Chunk 792 ---
+12,13    预留
+
+--- Document Chunk 793 ---
+14,15    HB
+
+--- Document Chunk 794 ---
+16 ~22    a
+
+--- Document Chunk 795 ---
+0:无故障
+
+--- Document Chunk 796 ---
+23    ARB 故障   1有故障
+
+--- Document Chunk 797 ---
+26
+
+--- Document Chunk 798 ---
+--- Page 31 ---
+
+--- Document Chunk 799 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 800 ---
+表A,2 HR RR (SS)
+
+--- Document Chunk 801 ---
+比特位   状 &      ffi      a |
+
+--- Document Chunk 802 ---
+ane     若 ATS 没有此信息,应
+
+--- Document Chunk 803 ---
+24,25   OD 占用   10,138    发送默认值,作为信息接
+
+--- Document Chunk 804 ---
+11 .点用          收方时可不处理市字段
+
+--- Document Chunk 805 ---
+26 ~31       ih      |                            ‘|
+
+--- Document Chunk 806 ---
+A.2.2 物理区段
+
+--- Document Chunk 807 ---
+如没有该信息 ,可不用发送此类设备信息。表 A.3 给出了物理区段
+
+--- Document Chunk 808 ---
+表A.3 物理区段
+
+--- Document Chunk 809 ---
+比特位      状态    |    ff           说 明
+
+--- Document Chunk 810 ---
+an      0无政障        ATS 与联钙通信故障时
+
+--- Document Chunk 811 ---
+°     通信故障状态     LAA       的一种特殊状态胡示
+
+--- Document Chunk 812 ---
+本      Oda BiH
+
+--- Document Chunk 813 ---
+‘      Bere      1故障镇闭
+
+--- Document Chunk 814 ---
+        0:非切除
+
+--- Document Chunk 815 ---
+2      区段切除      I ine
+
+--- Document Chunk 816 ---
+en      0:计轴复位
+
+--- Document Chunk 817 ---
+>      TRS fi      1:计轴未复位
+
+--- Document Chunk 818 ---
+4-7       ra
+
+--- Document Chunk 819 ---
+A.2.3 i8@
+
+--- Document Chunk 820 ---
+表A.4给出了道岔定义。
+
+--- Document Chunk 821 ---
+表A.4 道岔
+
+--- Document Chunk 822 ---
+比特位     状 次    |      ffi           说 Om
+
+--- Document Chunk 823 ---
+0:无故障        ATS 与联锁通信收障时
+
+--- Document Chunk 824 ---
+1A HM       的一种特殊状态表示
+
+--- Document Chunk 825 ---
+27
+
+--- Document Chunk 826 ---
+--- Page 32 ---
+
+--- Document Chunk 827 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 828 ---
+比特位    状态        ff            明
+
+--- Document Chunk 829 ---
+1 | 非通信列车占用状态  a
+
+--- Document Chunk 830 ---
+i       0.48
+
+--- Document Chunk 831 ---
+2    BEL.    1 tH
+
+--- Document Chunk 832 ---
+       0,4 Bc Be
+
+--- Document Chunk 833 ---
+3    inal    1 At
+
+--- Document Chunk 834 ---
+00:四开(无表示》
+
+--- Document Chunk 835 ---
+a        01 :定位
+
+--- Document Chunk 836 ---
+4,5    道岔位置    lain
+
+--- Document Chunk 837 ---
+11 :挤盆
+
+--- Document Chunk 838 ---
+二    0.:非单镇
+
+--- Document Chunk 839 ---
+6    单镇状态    pe
+
+--- Document Chunk 840 ---
+0:非单封
+
+--- Document Chunk 841 ---
+7    单封状态    1:单封
+
+--- Document Chunk 842 ---
+CBTC 通信列车     0:测清
+
+--- Document Chunk 843 ---
+8    占用状态    1:占用
+
+--- Document Chunk 844 ---
+    0.4 Mia
+
+--- Document Chunk 845 ---
+9   (29 BRB   ee
+
+--- Document Chunk 846 ---
+       0.:非切除
+
+--- Document Chunk 847 ---
+10   ‘yt ox BTR   ae
+
+--- Document Chunk 848 ---
+_OE HG
+
+--- Document Chunk 849 ---
+|  11      区段封锁状态     mr
+
+--- Document Chunk 850 ---
+12 ~18       预贸
+
+--- Document Chunk 851 ---
+21,22       A
+
+--- Document Chunk 852 ---
+23 ~ 29       预留
+
+--- Document Chunk 853 ---
+--- Page 33 ---
+
+--- Document Chunk 854 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 855 ---
+表A.4 道岔(续)
+
+--- Document Chunk 856 ---
+比特位      状   态            ffi             说   明
+
+--- Document Chunk 857 ---
+0:无故障
+
+--- Document Chunk 858 ---
+30      ARB 故障      1 .有故障
+
+--- Document Chunk 859 ---
+00 : BRE
+
+--- Document Chunk 860 ---
+fee          2 ATS 没有此信息,应
+
+--- Document Chunk 861 ---
+31,32      op 占用       10:出清        发送默认值,作为信息接
+
+--- Document Chunk 862 ---
+11 :占用        收方时可不处理木字段
+
+--- Document Chunk 863 ---
+33 ~39       a
+
+--- Document Chunk 864 ---
+A. 2.4 临时限速区段
+
+--- Document Chunk 865 ---
+BAS 给出了临时
+
+--- Document Chunk 866 ---
+比特位                                           Om
+
+--- Document Chunk 867 ---
+0                                                                        ATS 癌此临时限速
+
+--- Document Chunk 868 ---
+是再有效
+
+--- Document Chunk 869 ---
+车 ATS 没有限速验证通
+
+--- Document Chunk 870 ---
+过、取消验证通过状态,作
+
+--- Document Chunk 871 ---
+了   A
+
+--- Document Chunk 872 ---
+1,2       Ol PRES                         为信息接收方时可不处理
+
+--- Document Chunk 873 ---
+:取消验证通过“| 本字段的上述状态
+
+--- Document Chunk 874 ---
+00: FB          若 ATS WA MM EE
+
+--- Document Chunk 875 ---
+01:限速验证通过 “|过 取消验证通过状态,作
+
+--- Document Chunk 876 ---
+34       ATP 限过状态       10:限速执行成功 “| 为信息接收方时可不处理
+
+--- Document Chunk 877 ---
+11:取消验证通过“| 本字段的上述状态
+
+--- Document Chunk 878 ---
+CIC, BL GEO ~
+
+--- Document Chunk 879 ---
+5-11    ATP 限速等级    128 km/h), 0 为无
+
+--- Document Chunk 880 ---
+效信
+
+--- Document Chunk 881 ---
+12~15        预贸                                             |
+
+--- Document Chunk 882 ---
+29
+
+--- Document Chunk 883 ---
+--- Page 34 ---
+
+--- Document Chunk 884 ---
+T/CAMET 04011. 6—2018
+
+--- Document Chunk 885 ---
+A.2.5 信号机
+
+--- Document Chunk 886 ---
+信号机的颜色可用两位(高位,低位,低位为靠近灯柱位置,高位为
+
+--- Document Chunk 887 ---
+远离灯柱的位置 ) 的颜色组合来表示 ,表示方法如下:
+
+--- Document Chunk 888 ---
+a) ”室外信和号机关闭 :高位、低位均为无色;
+
+--- Document Chunk 889 ---
+b) 一个颜色:比如绿一一高位无色 .低位为绿;
+
+--- Document Chunk 890 ---
+c) 两个颜色:比如红白一一高位为红\低位为白。
+
+--- Document Chunk 891 ---
+表A.6给出了信号机定义。
+
+--- Document Chunk 892 ---
+表A.6 信号机
+
+--- Document Chunk 893 ---
+[es人   状态       ffi       说 明
+
+--- Document Chunk 894 ---
+0:无故障           ATS 与联锁通信故障时
+
+--- Document Chunk 895 ---
+1:有故障         的一种特殊状态表示
+
+--- Document Chunk 896 ---
+0x00 :无色
+
+--- Document Chunk 897 ---
+0x01 :绿
+
+--- Document Chunk 898 ---
+0x02 :黄
+
+--- Document Chunk 899 ---
+0x03 :红
+
+--- Document Chunk 900 ---
+:白
+
+--- Document Chunk 901 ---
+:蓝
+
+--- Document Chunk 902 ---
+0       通信故障状态
+
+--- Document Chunk 903 ---
+0x04
+
+--- Document Chunk 904 ---
+0x05
+
+--- Document Chunk 905 ---
+0x06 3K
+
+--- Document Chunk 906 ---
+0x07 :
+
+--- Document Chunk 907 ---
+0x08 ;
+
+--- Document Chunk 908 ---
+0x09 : HE
+
+--- Document Chunk 909 ---
+Ox0a:
+
+--- Document Chunk 910 ---
+0x0b ~ 0x0f:预留
+
+--- Document Chunk 911 ---
+1~4       低位颜色
+
+--- Document Chunk 912 ---
+0:无闪烁
+
+--- Document Chunk 913 ---
+5    ALA    1 et
+
+--- Document Chunk 914 ---
+6~9       高位颜色        取值同“低位颜色”
+
+--- Document Chunk 915 ---
+0:无闪烁
+
+--- Document Chunk 916 ---
+10    #5 ALA    ie
+
+--- Document Chunk 917 ---
+0:非关闭
+
+--- Document Chunk 918 ---
+12       室外信和号机关闭       1 ;关闭
+
+--- Document Chunk 919 ---
+--- Page 35 ---
+
+--- Document Chunk 920 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 921 ---
+表A.6 信号机(续)
+
+--- Document Chunk 922 ---
+[ee   状态      fit      说 明
+
+--- Document Chunk 923 ---
+AR ROUT AE it
+
+--- Document Chunk 924 ---
+内存在有临时限速的区段
+
+--- Document Chunk 925 ---
+0:无屏杭一次临时|时,进路始端信号机不开
+
+--- Document Chunk 926 ---
+.    | Ree      ii RE — 2k EB
+
+--- Document Chunk 927 ---
+4 | 不配一次临时限速 | Ne we — ac hi mt | od ERC GE BBL
+
+--- Document Chunk 928 ---
+Be            次有效。林项表示信号机
+
+--- Document Chunk 929 ---
+6s SI a — Ue i
+
+--- Document Chunk 930 ---
+SC DMM 0
+
+--- Document Chunk 931 ---
+15    预留
+
+--- Document Chunk 932 ---
+20 ~23     入      wa
+
+--- Document Chunk 933 ---
+A. 2.6 按钮
+
+--- Document Chunk 934 ---
+HAT 给出了按钮定义。
+
+--- Document Chunk 935 ---
+RAT ”按钮
+
+--- Document Chunk 936 ---
+比特位   状态      ff   | ok 四
+
+--- Document Chunk 937 ---
+| 0:无故障      ATS 与联镇通信故障时
+
+--- Document Chunk 938 ---
+°   BI HMA SS   LAr a    的一种特殊状态表示  |
+
+--- Document Chunk 939 ---
+|     _     0:弹起
+
+--- Document Chunk 940 ---
+1    按下状态   LEE
+
+--- Document Chunk 941 ---
+2    闪烁    Bi
+
+--- Document Chunk 942 ---
+3    封锁状态   wie
+
+--- Document Chunk 943 ---
+4~7    顶留   ] ae
+
+--- Document Chunk 944 ---
+A. 2.7 联锁计数器
+
+--- Document Chunk 945 ---
+表 A. 8 给出了联锁计数器定义。
+
+--- Document Chunk 946 ---
+31
+
+--- Document Chunk 947 ---
+--- Page 36 ---
+
+--- Document Chunk 948 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 949 ---
+RAS 联锁计数器
+
+--- Document Chunk 950 ---
+Pete        状态               i               说 明
+
+--- Document Chunk 951 ---
+四         0.:无故障        表示 ATS 与联锁通信故
+
+--- Document Chunk 952 ---
+| °       EERE       1A a          障时的一种特殊状态胡示
+
+--- Document Chunk 953 ---
+1~8        计时值         0 ~ 255             计时单位:s
+
+--- Document Chunk 954 ---
+9~15         预留         预留
+
+--- Document Chunk 955 ---
+A.2.8 表示灯
+
+--- Document Chunk 956 ---
+表 A.9 给出了表示灯定义。
+
+--- Document Chunk 957 ---
+表A.9 表示灯
+
+--- Document Chunk 958 ---
+[ wes        状态               {ti               说 明
+
+--- Document Chunk 959 ---
+0.:无故障           ATS 与联镇通信故障时
+
+--- Document Chunk 960 ---
+本
+
+--- Document Chunk 961 ---
+°       SHARE       1:有故障          的一种特殊状态表示
+
+--- Document Chunk 962 ---
+0x00 :无色
+
+--- Document Chunk 963 ---
+0x01 :绿
+
+--- Document Chunk 964 ---
+0x02 :黄
+
+--- Document Chunk 965 ---
+0x03 :红
+
+--- Document Chunk 966 ---
+0x04 :白
+
+--- Document Chunk 967 ---
+0x05 :蓝
+
+--- Document Chunk 968 ---
+'4         ae         0x06: 3K
+
+--- Document Chunk 969 ---
+Ox07 ;: #&
+
+--- Document Chunk 970 ---
+0x08 :黑
+
+--- Document Chunk 971 ---
+0x09 : HE
+
+--- Document Chunk 972 ---
+Ox0a:
+
+--- Document Chunk 973 ---
+0x0b ~ OxOf: HAF                       |
+
+--- Document Chunk 974 ---
+;             0, PUI
+
+--- Document Chunk 975 ---
+5           闪烁          1闪烁
+
+--- Document Chunk 976 ---
+6,7          HR          预留
+
+--- Document Chunk 977 ---
+32
+
+--- Document Chunk 978 ---
+--- Page 37 ---
+
+--- Document Chunk 979 ---
+A.2.9 站台紧急关闭
+
+--- Document Chunk 980 ---
+表A. 10 给出了站台紧急关闭定义。
+
+--- Document Chunk 981 ---
+表A. 10 ”站台紧急关闭
+
+--- Document Chunk 982 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 983 ---
+比特位           状态                    fi                    ww
+
+--- Document Chunk 984 ---
+i      0:无故障     ATS 与联镇通信故障时|
+
+--- Document Chunk 985 ---
+°   道信故阶状态   1:有故障     的一种特殊状态表示
+
+--- Document Chunk 986 ---
+1   站台紧急关闭   Me
+
+--- Document Chunk 987 ---
+比特位
+
+--- Document Chunk 988 ---
+5)  一种特殊状态表示
+
+--- Document Chunk 989 ---
+TS 与联锁通信故障时
+
+--- Document Chunk 990 ---
+若 ATS RA BH KT A
+
+--- Document Chunk 991 ---
+旁路开门状态,作为信息
+
+--- Document Chunk 992 ---
+aA
+
+--- Document Chunk 993 ---
+te      Ne      10 er]    接收方时以上两种状态宜
+
+--- Document Chunk 994 ---
+| LRT   按照正常关门处理
+
+--- Document Chunk 995 ---
+3 -7    i  | we
+
+--- Document Chunk 996 ---
+A.2.11 供电区段
+
+--- Document Chunk 997 ---
+表A. 12 给出了供电区段定义。
+
+--- Document Chunk 998 ---
+表A- 12 HBR
+
+--- Document Chunk 999 ---
+比特位        状态       qT       ffi        |       BOO
+
+--- Document Chunk 1000 ---
+|               er           ATS 5 WK ia or
+
+--- Document Chunk 1001 ---
+通信故障状态
+
+--- Document Chunk 1002 ---
+°       MMPS      1:有改障         的一种特殊状态表朱
+
+--- Document Chunk 1003 ---
+33
+
+--- Document Chunk 1004 ---
+--- Page 38 ---
+
+--- Document Chunk 1005 ---
+T/CAMET 04011. 6一2018
+
+--- Document Chunk 1006 ---
+表A-. 12 供电区段(续)
+
+--- Document Chunk 1007 ---
+比特位    状态        ff        ee |
+
+--- Document Chunk 1008 ---
+00:
+
+--- Document Chunk 1009 ---
+1,2    供电状态    01 :通电
+
+--- Document Chunk 1010 ---
+10 :断电
+
+--- Document Chunk 1011 ---
+| 3     HR     BR                 |
+
+--- Document Chunk 1012 ---
+A.3 列车信息识别号字段说明
+
+--- Document Chunk 1013 ---
+表A. 13 给出了列车信息识别号字段说明定义。
+
+--- Document Chunk 1014 ---
+表A. 13 列车信息识别号字段说明
+
+--- Document Chunk 1015 ---
+A OF             说 明
+
+--- Document Chunk 1016 ---
+we    AE We Be ih Ce eS BY ot EE a Se AL A I
+
+--- Document Chunk 1017 ---
+es   BASS AOA eS AD
+
+--- Document Chunk 1018 ---
+om ea   列车终到所在线路导,可由字母或数字组成,非跨线列车
+
+--- Document Chunk 1019 ---
+日的线路号           ‘   7
+
+--- Document Chunk 1020 ---
+日的线路号与源线路号相同
+
+--- Document Chunk 1021 ---
+列车类型    1 为计划车;2 为头码车;3 为人工车;其他无效
+
+--- Document Chunk 1022 ---
+三  表号     由两位数字或三位数字组成,默认值为"00"或“000”
+
+--- Document Chunk 1023 ---
+Amity aw, RABY -OMO” AAEM oo -|
+
+--- Document Chunk 1024 ---
+车次号    9999。9000 ~ 9999 作为顶留车次范围(车次号范围定义可
+
+--- Document Chunk 1025 ---
+按照业主需求进行配置)
+
+--- Document Chunk 1026 ---
+车组所属线路号   车组所属线路号 ,可由字母或数字组成
+
+--- Document Chunk 1027 ---
+四    由三位数字组成,有效范围 001 ~ 999 ,车组所属线路号 +
+
+--- Document Chunk 1028 ---
+一       车组号应在互联互通线路内唯一
+
+--- Document Chunk 1029 ---
+可由字蔷或数字组成,月的线路号 + 目的地号在互联互
+
+--- Document Chunk 1030 ---
+日的地号   加      ey
+
+--- Document Chunk 1031 ---
+通线路内应统一定义
+
+--- Document Chunk 1032 ---
+ATS 系统内的列车运营方向
+
+--- Document Chunk 1033 ---
+0x01:下行;0x02:上行;0x00:林知;其他无效
+
+--- Document Chunk 1034 ---
+34
+
+--- Document Chunk 1035 ---
+--- Page 39 ---
+
+--- Document Chunk 1036 ---
+中国城市轨道交通协会团体标准
+
+--- Document Chunk 1037 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 1038 ---
+控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 1039 ---
+第6 部分:列车自动监控系统(ATS ) 间接口
+
+--- Document Chunk 1040 ---
+T/CAMET 04011.6一2018
+
+--- Document Chunk 1041 ---
+*
+
+--- Document Chunk 1042 ---
+中国铁道出版社有限公司出版发行
+
+--- Document Chunk 1043 ---
+《100054 ,北京市两城区右安门西街8 号)
+
+--- Document Chunk 1044 ---
+公司网址: hup-//www. tdpress. com
+
+--- Document Chunk 1045 ---
+北京铭成印刷有限公司印刷
+
+--- Document Chunk 1046 ---
+开本: 880 mm x1 230 mm 1/32 印张:1.375 SEH; 36 F
+
+--- Document Chunk 1047 ---
+2019 第5月第1版 2019年5月第1次印刷
+
+--- Document Chunk 1048 ---
+书号: 15113 + 5732    定价: 15. 00 re
+
+--- Document Chunk 1049 ---
+版权所有 侵权必究
+
+--- Document Chunk 1050 ---
+凡购买铁道版网书 ,如有印制质量问题 ,请与本公司发行部联系调换。
+
+--- Document Chunk 1051 ---
+发行部电话:路(021)73174 ,市(010)51873174
+
+--- Document Chunk 1052 ---
+--- Page 40 ---
+
+--- Document Chunk 1053 ---
+   SESARE AHSBERAR CHEE (CBTC) RMERORR Rokhh RHMRAMMS (ATS) SHO       Faso mcm <)
+

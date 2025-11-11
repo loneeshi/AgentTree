@@ -1,0 +1,5883 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+1s 45.020                   SI
+
+--- Document Chunk 2 ---
+中 fe] Sat rhs i TE 3S 3a Bi == A 4K on HE
+
+--- Document Chunk 3 ---
+T/CAMET 04011.7—2018
+
+--- Document Chunk 4 ---
+城市轨道交通“基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通接口规范
+
+--- Document Chunk 6 ---
+第7部分: 信号各子系统与维护支持系统
+
+--- Document Chunk 7 ---
+(MSS ) #0
+
+--- Document Chunk 8 ---
+Urban rail transit — Interface specification for interoperability of
+
+--- Document Chunk 9 ---
+communication based train control system
+
+--- Document Chunk 10 ---
+Part 7: Interface between signal other subsystems and
+
+--- Document Chunk 11 ---
+maintenance support system
+
+--- Document Chunk 12 ---
+2018-09-10 发布                        2018-12-31 实施
+
+--- Document Chunk 13 ---
+中国城市轨道交通协会 a
+
+--- Document Chunk 14 ---
+--- Page 2 ---
+
+--- Document Chunk 15 ---
+8
+
+--- Document Chunk 16 ---
+3. 1
+
+--- Document Chunk 17 ---
+3.2
+
+--- Document Chunk 18 ---
+接口描述
+
+--- Document Chunk 19 ---
+MSS - VOBC 报文规范
+
+--- Document Chunk 20 ---
+6.1
+
+--- Document Chunk 21 ---
+6.2
+
+--- Document Chunk 22 ---
+6.3
+
+--- Document Chunk 23 ---
+MSS - ZC 报文规范
+
+--- Document Chunk 24 ---
+7.1
+
+--- Document Chunk 25 ---
+7.2
+
+--- Document Chunk 26 ---
+7.3
+
+--- Document Chunk 27 ---
+MSS - DSU 报文规范(可选)…………
+
+--- Document Chunk 28 ---
+8.1
+
+--- Document Chunk 29 ---
+8.2
+
+--- Document Chunk 30 ---
+8.3
+
+--- Document Chunk 31 ---
+MSS - ATS 报文规范
+
+--- Document Chunk 32 ---
+9.1
+
+--- Document Chunk 33 ---
+规范性引用文件
+
+--- Document Chunk 34 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 35 ---
+=
+
+--- Document Chunk 36 ---
+术语
+
+--- Document Chunk 37 ---
+缩略语 “
+
+--- Document Chunk 38 ---
+接口连接方式 ，
+
+--- Document Chunk 39 ---
+玫信层次结构措述
+
+--- Document Chunk 40 ---
+co 了mhompbpnp 一一
+
+--- Document Chunk 41 ---
+通信层次结构描述
+
+--- Document Chunk 42 ---
+接口数据描述………
+
+--- Document Chunk 43 ---
+通信层次结构撒述………
+
+--- Document Chunk 44 ---
+接口数据描述
+
+--- Document Chunk 45 ---
+--- Page 3 ---
+
+--- Document Chunk 46 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 47 ---
+10 MSS
+
+--- Document Chunk 48 ---
+10.1
+
+--- Document Chunk 49 ---
+10.2
+
+--- Document Chunk 50 ---
+10.3
+
+--- Document Chunk 51 ---
+11 MSS
+
+--- Document Chunk 52 ---
+11.1
+
+--- Document Chunk 53 ---
+11.2
+
+--- Document Chunk 54 ---
+11.3
+
+--- Document Chunk 55 ---
+12 MSS
+
+--- Document Chunk 56 ---
+12.1
+
+--- Document Chunk 57 ---
+12.2
+
+--- Document Chunk 58 ---
+12.3
+
+--- Document Chunk 59 ---
+13.1
+
+--- Document Chunk 60 ---
+13.2
+
+--- Document Chunk 61 ---
+13.3
+
+--- Document Chunk 62 ---
+14. MSS
+
+--- Document Chunk 63 ---
+14.1
+
+--- Document Chunk 64 ---
+14.2
+
+--- Document Chunk 65 ---
+14.3
+
+--- Document Chunk 66 ---
+15 MSS
+
+--- Document Chunk 67 ---
+15.1
+
+--- Document Chunk 68 ---
+15.2
+
+--- Document Chunk 69 ---
+15.3
+
+--- Document Chunk 70 ---
+~ CL 报文规范 …
+
+--- Document Chunk 71 ---
+接口连接方式 …
+
+--- Document Chunk 72 ---
+2 Bi
+
+--- Document Chunk 73 ---
+— GPIB ICAL
+
+--- Document Chunk 74 ---
+2 CEH I Zk
+
+--- Document Chunk 75 ---
+Ye BIR
+
+--- Document Chunk 76 ---
+-电源报文规范
+
+--- Document Chunk 77 ---
+通信层次结构
+
+--- Document Chunk 78 ---
+匀口数据撕述 +
+
+--- Document Chunk 79 ---
+-LEU 报文规范
+
+--- Document Chunk 80 ---
+通信层次结构
+
+--- Document Chunk 81 ---
+=-微机监测报文规沧
+
+--- Document Chunk 82 ---
+通信层次结构描述
+
+--- Document Chunk 83 ---
+-DCS 报文规范
+
+--- Document Chunk 84 ---
+楼口数据描述 ene
+
+--- Document Chunk 85 ---
+楼口连接方式 eee
+
+--- Document Chunk 86 ---
+赦口连接方式 eee
+
+--- Document Chunk 87 ---
+通信层次结构撒述 ………
+
+--- Document Chunk 88 ---
+迷口数据描述
+
+--- Document Chunk 89 ---
+--- Page 4 ---
+
+--- Document Chunk 90 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 91 ---
+Il}
+
+--- Document Chunk 92 ---
+T/CAMET 04011《城市轨道交通 基于通信的列车运行控制系统
+
+--- Document Chunk 93 ---
+(CBTC )互联互通接口规范》分为以下八个部分:
+
+--- Document Chunk 94 ---
+一一第1 部分:应答器报文
+
+--- Document Chunk 95 ---
+第2 部分:CBTC 系统车地连续通信协议;
+
+--- Document Chunk 96 ---
+第 3 部分:车载列车白动保护(ATP)7列车魏动运行(ATO ) 系统
+
+--- Document Chunk 97 ---
+与车辆的接口;
+
+--- Document Chunk 98 ---
+第4部分:区域控制句(ZC)间接口;
+
+--- Document Chunk 99 ---
+一一第5 部 分:计算机联锁(CT)问接口;
+
+--- Document Chunk 100 ---
+eee eee nea y
+
+--- Document Chunk 101 ---
+第7 部分:信号各子系统与维护支持系统(MSS)间接口;
+
+--- Document Chunk 102 ---
+8 ae
+
+--- Document Chunk 103 ---
+本部分是T/CAMET 04011 的第7 部分。
+
+--- Document Chunk 104 ---
+本部分按照 CGBXMT 1.1一2009 给出的规则起草。
+
+--- Document Chunk 105 ---
+请注意本部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 106 ---
+识别这些专利的责任。
+
+--- Document Chunk 107 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 108 ---
+本部分由中国城市轨道   协会归口。
+
+--- Document Chunk 109 ---
+本部 分起草音位， 交控科技股份有限公司 .北京交通大学 .北京全路通
+
+--- Document Chunk 110 ---
+信信和号研究设计院集团有限公司 .中国铁道科学研究院集团有限公司通信
+
+--- Document Chunk 111 ---
+言号研究所 ,株洲中车时代电气股份有限公司 .浙江众合科技股份有限公司。
+
+--- Document Chunk 112 ---
+本部分主要起草人:编写组 BAC AE KH ,张日新.智国盛.何丹、
+
+--- Document Chunk 113 ---
+ike HS .李刚 MK WME BRIA. PAA: SPAR,
+
+--- Document Chunk 114 ---
+赵炜 AOA SE IK GR EA IK IK SRR BUR TE EB
+
+--- Document Chunk 115 ---
+文成祥、任敬 .肖利君 SSPE AR ZR UO ARTA
+
+--- Document Chunk 116 ---
+MI
+
+--- Document Chunk 117 ---
+--- Page 5 ---
+
+--- Document Chunk 118 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 119 ---
+引
+
+--- Document Chunk 120 ---
+mt
+
+--- Document Chunk 121 ---
+为促进中国城市轨道交通建设 ,信
+
+--- Document Chunk 122 ---
+的需要 ,达到经济适用 ,资源共
+
+--- Document Chunk 123 ---
+市轨道交通基于
+
+--- Document Chunk 124 ---
+通信的列车运行控制系统(
+
+--- Document Chunk 125 ---
+实现并满足城市轨道交通互联互通
+
+--- Document Chunk 126 ---
+\技术先进及可持续发展的日标 ,制定城
+
+--- Document Chunk 127 ---
+标准。
+
+--- Document Chunk 128 ---
+该系列规范包括《城市轨道交通
+
+--- Document Chunk 129 ---
+(CBTC) 互联互通系统规范兴城市轨道交通“基于通
+
+--- Document Chunk 130 ---
+系统(CBTC ) 互联互通接口规范兴城市轨道交通”基于
+
+--- Document Chunk 131 ---
+控制系统(CBTC)互联互通测试规范
+
+--- Document Chunk 132 ---
+运行控制系统(CBTC ) 互联互通工程规范》4 个规范(17 个部分) 。
+
+--- Document Chunk 133 ---
+(CBTC ) 互联互通系列团体
+
+--- Document Chunk 134 ---
+基于通信的列车运行以制系统
+
+--- Document Chunk 135 ---
+enn nee   基于通信的列车
+
+--- Document Chunk 136 ---
+--- Page 6 ---
+
+--- Document Chunk 137 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 138 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 139 ---
+控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 140 ---
+第7 部分:信号各子系统与维护支持
+
+--- Document Chunk 141 ---
+系统(MSS) 间接口
+
+--- Document Chunk 142 ---
+互通的各子系名
+
+--- Document Chunk 143 ---
+本部分适用于国呼中用3            EAP anil (CBTC) 系统的新
+
+--- Document Chunk 144 ---
+aE .更新改造及扩建       Sebaeoe tiled MDD te Sri s BEN RHE
+
+--- Document Chunk 145 ---
+设计 .产品设计、设备
+
+--- Document Chunk 146 ---
+2 规范性引用文件
+
+--- Document Chunk 147 ---
+下列文件对于本部分的应用是必不可少的。凡是注日期的引用文
+
+--- Document Chunk 148 ---
+件,仅所注日期的版本适用于本部分。凡是不注日期的引用文件 ,其最新
+
+--- Document Chunk 149 ---
+版本(包括所有的修改单)适用于本部分。
+
+--- Document Chunk 150 ---
+GB/T 12758一2004 ”城市轨道交通信号系统通用技术条件
+
+--- Document Chunk 151 ---
+GB/T 24339. 1 轨道交通 通信、信号和处理系统 第1 部分:封闭
+
+--- Document Chunk 152 ---
+式传输系统中的安全相关通信(IEC 62280-1 ;2002 , IDT)
+
+--- Document Chunk 153 ---
+GB 50157一2013 ”地铁设计规范
+
+--- Document Chunk 154 ---
+CJ/T 407一2012 ”城市轨道交通基于通信的列车自动控制系统技术
+
+--- Document Chunk 155 ---
+--- Page 7 ---
+
+--- Document Chunk 156 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 157 ---
+T/CAMET 04010.1 城市轨道交通“基于通信的列车运行控制系统
+
+--- Document Chunk 158 ---
+(CBTC) 互联互通系统规范 第1部分:系统总体要求
+
+--- Document Chunk 159 ---
+IEEE 802.3 以太网(Ethernet)
+
+--- Document Chunk 160 ---
+3 ”术语和缩略语
+
+--- Document Chunk 161 ---
+GB/T 12758一2004 ,GB 50157一2013 .CJ/T 407一2012 和 T/CAMET
+
+--- Document Chunk 162 ---
+04010. 1 界定的及下列术诸和缩略语适用于本部分。为了便于使用,以
+
+--- Document Chunk 163 ---
+下重复列出了其中的主要相关术语
+
+--- Document Chunk 164 ---
+3.1 术语
+
+--- Document Chunk 165 ---
+3.1.1
+
+--- Document Chunk 166 ---
+城市轨道交通信号”urban rail transit signal
+
+--- Document Chunk 167 ---
+应用于城市轨道交通系统中,人工或自动实现行车指挥和列车运行
+
+--- Document Chunk 168 ---
+控制 .安全间隔控制技术的总称-
+
+--- Document Chunk 169 ---
+[CBZT 12758一2004 ,术语与定义3.1]
+
+--- Document Chunk 170 ---
+3.1.2
+
+--- Document Chunk 171 ---
+基于通信的列车控制”communication based train control (CBTC)
+
+--- Document Chunk 172 ---
+通过不依赖轨劳列车占用检测设备的列车主动定位技术 .连续车-地
+
+--- Document Chunk 173 ---
+双向数据通信技术以及能够执行安全功能的车戟和地面处理器而均建的
+
+--- Document Chunk 174 ---
+连续式列车自动控制系统
+
+--- Document Chunk 175 ---
+TcCJMT 407一2012 ,定义3.1.1]
+
+--- Document Chunk 176 ---
+3.1.3
+
+--- Document Chunk 177 ---
+列车自动控制 automatic train control
+
+--- Document Chunk 178 ---
+信号系统自动实现列车监控 .安全防护和运行控制等技术的总称。
+
+--- Document Chunk 179 ---
+[GB 50157—2013 ,定义2.0.37]
+
+--- Document Chunk 180 ---
+3.1.4
+
+--- Document Chunk 181 ---
+列车自动监控 automatic train supervision
+
+--- Document Chunk 182 ---
+根据列车时刻表为列车运行自动设定进路 .指挥行车 .实施列车运行
+
+--- Document Chunk 183 ---
+管理等技术的总称。
+
+--- Document Chunk 184 ---
+[GB 50157一2013 ,定义2.0.38]
+
+--- Document Chunk 185 ---
+--- Page 8 ---
+
+--- Document Chunk 186 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 187 ---
+3.1.5
+
+--- Document Chunk 188 ---
+列车自动防护automatic train protection
+
+--- Document Chunk 189 ---
+自动实现列车运行间隔.超速防护.进路安全和车门等监控技术的
+
+--- Document Chunk 190 ---
+总称。
+
+--- Document Chunk 191 ---
+[GB 50157一2013 ,定义2.0.39]
+
+--- Document Chunk 192 ---
+3.1.6
+
+--- Document Chunk 193 ---
+列车自动运行 automatic train operation
+
+--- Document Chunk 194 ---
+生动实现列车加速 ,凋速 ,停车和车门开闭 ,提示等控制技术的总称。
+
+--- Document Chunk 195 ---
+[GB 501572013, # % 2.0.40]
+
+--- Document Chunk 196 ---
+3.1.7
+
+--- Document Chunk 197 ---
+计算机联锁。 computer interlocking
+
+--- Document Chunk 198 ---
+以计算机技术为核心,所动实现进路 .道岔,信号机等防护技术的
+
+--- Document Chunk 199 ---
+EARL.
+
+--- Document Chunk 200 ---
+{ GB 50157—2013 , #2 % 2.0. 40]
+
+--- Document Chunk 201 ---
+3.1.8
+
+--- Document Chunk 202 ---
+维护支持系统 maintenance support system
+
+--- Document Chunk 203 ---
+监测记录系统内其他各子系统维护信息 AD A BE OP TIP
+
+--- Document Chunk 204 ---
+统日常运营维护.
+
+--- Document Chunk 205 ---
+[ETZCAMET 04010. 1, Riff 3.1.8)
+
+--- Document Chunk 206 ---
+3.2 缩略语
+
+--- Document Chunk 207 ---
+AM:列车月动驾驶模式(Automatic Train Operating Mode)
+
+--- Document Chunk 208 ---
+ATC, Si 4 (4 oh $8 iil (Automatic Train Control)
+
+--- Document Chunk 209 ---
+ATO:列车FF
+
+--- Document Chunk 210 ---
+ATP:列车自动防护(Automatic Train Protection)
+
+--- Document Chunk 211 ---
+ATS :列车自动监控(Automatic Train Supervision )
+
+--- Document Chunk 212 ---
+BTM: :应答器传输模块( Balise Transfer Module)
+
+--- Document Chunk 213 ---
+CBTC :基于通信的列车控制(Communication Based Train Control)
+
+--- Document Chunk 214 ---
+CI:计算机联锁(Computer Interlocking )
+
+--- Document Chunk 215 ---
+CM :列车自动防护模式(Coded Train Operating Mode)
+
+--- Document Chunk 216 ---
+运行(Automatic Train Operation )
+
+--- Document Chunk 217 ---
+--- Page 9 ---
+
+--- Document Chunk 218 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 219 ---
+CRC : HA IC A KE IG (Cyclic Redundancy Check )
+
+--- Document Chunk 220 ---
+EUM :非限制人工驾驶模式(Emergency Unrestricted Train Operating
+
+--- Document Chunk 221 ---
+Mode)
+
+--- Document Chunk 222 ---
+JP:互联网协议地址(Internet Protocol Address)
+
+--- Document Chunk 223 ---
+IPv4 :网际协议(Internet Protocol,IP) 的第 4 版
+
+--- Document Chunk 224 ---
+LEU:轨旁电子单元(Lineside Electronic Unit)
+
+--- Document Chunk 225 ---
+MA :移动授权(Movement Authority)
+
+--- Document Chunk 226 ---
+MAC :媒体介入控制层( Media Access Control)
+
+--- Document Chunk 227 ---
+EDP CHF
+
+--- Document Chunk 228 ---
+MTBF ; 34) dik Bre fia] aj fii] (Mean Time Between Failures )
+
+--- Document Chunk 229 ---
+MTTR :平均修复时间( Mean Time To Repair)
+
+--- Document Chunk 230 ---
+PIS :乘客信息系统( Passenger Information System )
+
+--- Document Chunk 231 ---
+PSD :站人台门(Platform Screen Door)
+
+--- Document Chunk 232 ---
+RM: bi di) AT. 23 gue EER ( Restricted Train Operating Mode)
+
+--- Document Chunk 233 ---
+SIL:安全完整性等级(Safety Integrity Level)
+
+--- Document Chunk 234 ---
+TMS:列车管理系统(Train Management System )
+
+--- Document Chunk 235 ---
+TSR :临时限速(Temporary Speed Restriction )
+
+--- Document Chunk 236 ---
+UDP :用户数据报协议(User Datagram Protocol)
+
+--- Document Chunk 237 ---
+UPS :不间断电源(Uninterruptible Power System)
+
+--- Document Chunk 238 ---
+ZC:区域控制器(Zone Controller )
+
+--- Document Chunk 239 ---
+系统(Data Communication System )
+
+--- Document Chunk 240 ---
+(Maintenance Support System )
+
+--- Document Chunk 241 ---
+4 总则
+
+--- Document Chunk 242 ---
+4.1 信号系统互联互通是一项系统工程,涉及需求 .产品.工程.运营、
+
+--- Document Chunk 243 ---
+维护等各个方面,需要整体规划 ,点面结合 .分步实施
+
+--- Document Chunk 244 ---
+4.2 城市轨道交通 CBTC 系统互联互通是指装备不同信号三家车载设
+
+--- Document Chunk 245 ---
+备的列车可以在装备不同信号厂家轨旁设备的一条轨道交通线路内或多
+
+--- Document Chunk 246 ---
+4
+
+--- Document Chunk 247 ---
+--- Page 10 ---
+
+--- Document Chunk 248 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 249 ---
+4.3 CBTC 系统互联互通的总体目标是支持轨道交通网络化运营,实现
+
+--- Document Chunk 250 ---
+4.4 互联互通的 CBTC 系统应采用安全可靠的产品 ,并应满足相关国产
+
+--- Document Chunk 251 ---
+化政策要求。
+
+--- Document Chunk 252 ---
+4.5 在互联互通丁程招标阶段 ,招标单位应在符合本规范的基础上,恨
+
+--- Document Chunk 253 ---
+据互联互通线路网络规划 ,补充信号系统其他相关功能 ,性能 ,接口 .设计
+
+--- Document Chunk 254 ---
+的具体需求,形成具体工程信号系统招标的技术要求
+
+--- Document Chunk 255 ---
+4.6 CBTC 系统涉及互联互通的设备接口应符合国际/国内/行业标准
+
+--- Document Chunk 256 ---
+的规定,对于无佣关标准规定的接吕ee在满足系统安全 .可和、功能完整的
+
+--- Document Chunk 257 ---
+4.7 采用本互联互通    Gi      根据相关因际/国内/
+
+--- Document Chunk 258 ---
+om                     布置以及特定工程须
+
+--- Document Chunk 259 ---
+4.9 互联互通信号系统脏写攻        yc 2 ih tri KBE WCS) 作为
+
+--- Document Chunk 260 ---
+车-地信息传输的透明传输通道 ,处用满足 GB/T 24339. 1 慰准要求的网
+
+--- Document Chunk 261 ---
+络传输安全防护技术。
+
+--- Document Chunk 262 ---
+4. 10 ”信号系统互联互通除应遵守本规范规定外,还应符合国家现行相
+
+--- Document Chunk 263 ---
+关规范的规定。
+
+--- Document Chunk 264 ---
+4.11 系统采用的设备和需材应符合有关现行国家标准和有关行业标
+
+--- Document Chunk 265 ---
+HE AY LAE
+
+--- Document Chunk 266 ---
+5 接口描述
+
+--- Document Chunk 267 ---
+本规范对通用性的互联互通接口数据进行定义,可根据工程项目具
+
+--- Document Chunk 268 ---
+体情况 ,对接口数据交互内容进行扩展。
+
+--- Document Chunk 269 ---
+--- Page 11 ---
+
+--- Document Chunk 270 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 271 ---
+6 MSS - VOBC 报文规范
+
+--- Document Chunk 272 ---
+6.1 接口连接方式
+
+--- Document Chunk 273 ---
+6.1.1 物理接口
+
+--- Document Chunk 274 ---
+MSS 子系统与 VOBC 子系统之间采用和宛余网络进行数据通信,利用
+
+--- Document Chunk 275 ---
+车 -地无线传输系统完成交互信息发送与接收。
+
+--- Document Chunk 276 ---
+6.1.2 动态交互描述
+
+--- Document Chunk 277 ---
+列车上了电完成定位后,根据列车所处位置,确定信息上报所属
+
+--- Document Chunk 278 ---
+的线路的 MSS 系统的JP地址,并周期性地向 MSS 系统发送状态
+
+--- Document Chunk 279 ---
+列对进行转线作业时 ,当列车完全进入 ZC 其管区域乒,需同时
+
+--- Document Chunk 280 ---
+与两个线路的 MSS 系统进行周期性送信; 当列车整体越过 ZC SE
+
+--- Document Chunk 281 ---
+Ri PR, VOBC 系统仪与当前
+
+--- Document Chunk 282 ---
+6.1.3 通信故障处理
+
+--- Document Chunk 283 ---
+MSS 如果连    过额定时间都接收不到 YOBC 的任何数据,则 MSS
+
+--- Document Chunk 284 ---
+认为与VOBC 通信和中断,MSS 将 VOBC 设备状态设为未知。
+
+--- Document Chunk 285 ---
+6.2 通信层次结构描述
+
+--- Document Chunk 286 ---
+6.2.1 数据链路层
+
+--- Document Chunk 287 ---
+MAC 子层基于 TERE 802. 3 你准。
+
+--- Document Chunk 288 ---
+MAC Sk pH 14 个字节组成,1 个帧校验序列(4 字竹) 将被如在
+
+--- Document Chunk 289 ---
+Ethernet 帧后面.
+
+--- Document Chunk 290 ---
+线路的 MSS 系统周期性适信，
+
+--- Document Chunk 291 ---
+6.2.2 网络层
+
+--- Document Chunk 292 ---
+本接口使用 JPv4 协议作为网络层的协议。
+
+--- Document Chunk 293 ---
+6.2.3 ”传输层
+
+--- Document Chunk 294 ---
+本接口实时传送的信息使用 UDP 协议作为传输协议。
+
+--- Document Chunk 295 ---
+6.2.4 RRB
+
+--- Document Chunk 296 ---
+VOBC 发送的内容(vobemsgl )按照表1 格式发送。
+
+--- Document Chunk 297 ---
+--- Page 12 ---
+
+--- Document Chunk 298 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 299 ---
+表1 VOBC 帧格式
+
+--- Document Chunk 300 ---
+RP 协议头    msgl_id" eth a | msgl" | msg_id_Pr'
+
+--- Document Chunk 301 ---
+15个字训 veh | eH
+
+--- Document Chunk 302 ---
+“num_msg 为本周期发送的消息个数 ,存在一个周期发送两种消息的可能,1 个
+
+--- Document Chunk 303 ---
+Fi.
+
+--- Document Chunk 304 ---
+"msg_id 为消息的类型,msg_id = 202 代表本消息为告警信息
+
+--- Document Chunk 305 ---
+“length_msgN 为消息的 msgN 的长度,2 个字节
+
+--- Document Chunk 306 ---
+“msgN 为具体的消息内容 ,详见 6.3.1。
+
+--- Document Chunk 307 ---
+“msg_id_Pr 为用户白定义包消息类型
+
+--- Document Chunk 308 ---
+1iength_msg_Pr 为自定义包 Msg_Pr 的长度
+
+--- Document Chunk 309 ---
+“Msg_Pr 4 ae MELAS FE
+
+--- Document Chunk 310 ---
+num_msg"                                                    length_msg Pr'| Msg PX | CRC
+
+--- Document Chunk 311 ---
+#2 规定了 RP协议头的内容。
+
+--- Document Chunk 312 ---
+#2 RP 协议头
+
+--- Document Chunk 313 ---
+一
+
+--- Document Chunk 314 ---
+or | wie | 发送方标识“| 接收方标讯 | res
+
+--- Document Chunk 315 ---
+1个字节| 个字季        Wea        ape | 4个字节
+
+--- Document Chunk 316 ---
+“辆长度:从发送方标识至帧必的字节长度
+
+--- Document Chunk 317 ---
+“库列号:本方的周期计数 ,发送方每周期将本计数加 工,序列怠有效值为1 ~
+
+--- Document Chunk 318 ---
+(2"” -1)
+
+--- Document Chunk 319 ---
+表3 规定了发送方和接收方标识信息的内容。
+
+--- Document Chunk 320 ---
+表3 发送方和接收方标识信息
+
+--- Document Chunk 321 ---
+名 称   大小 |        内 容        |
+
+--- Document Chunk 322 ---
+VOBC ;0x01 , MSS ;0x20
+
+--- Document Chunk 323 ---
+厂商 1D :对厂商统一编号
+
+--- Document Chunk 324 ---
+当发送方为 VYOBC 时,此编号为车载编号, 编号
+
+--- Document Chunk 325 ---
+(16 bits) :
+
+--- Document Chunk 326 ---
+15 ~ 14 bit, HM;
+
+--- Document Chunk 327 ---
+13 ~2 bit ,列车编号;
+
+--- Document Chunk 328 ---
+11 ~0 bit,车端号
+
+--- Document Chunk 329 ---
+发送方标识信息 | 4 字节
+
+--- Document Chunk 330 ---
+--- Page 13 ---
+
+--- Document Chunk 331 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 332 ---
+表3 发送方和接收方标识信息(续)
+
+--- Document Chunk 333 ---
+名 称             大小                                      内 容
+
+--- Document Chunk 334 ---
+VOBC:0x10 ,MSS:0x20
+
+--- Document Chunk 335 ---
+49 |厂商ID:对厂商统一编导
+
+--- Document Chunk 336 ---
+当接收方为 MSS 时,此设备为 MSS 的 ID
+
+--- Document Chunk 337 ---
+6.2.5 WAR
+
+--- Document Chunk 338 ---
+本接口实时传送的信息使用自定义的应用层协议。 具体内容见 6.3
+
+--- Document Chunk 339 ---
+的规定。
+
+--- Document Chunk 340 ---
+6.3 接口数据描述
+
+--- Document Chunk 341 ---
+6. 3.1 数据存储方式和通信校验方法
+
+--- Document Chunk 342 ---
+接口数据存储方式采用 Big Endian ,低地址存放最高有效字节，
+
+--- Document Chunk 343 ---
+通信校验方式采州循环宛余码校验(CRC ) 。
+
+--- Document Chunk 344 ---
+生成多项式采用 CRC32(0x04c11db7) ,按公式(1计算:
+
+--- Document Chunk 345 ---
+al   a2  26  23  22    2
+
+--- Document Chunk 346 ---
+G(x) =x te ex tx? tal ea? gal tl?
+
+--- Document Chunk 347 ---
+tg te tate txt         (1)
+
+--- Document Chunk 348 ---
+式中:
+
+--- Document Chunk 349 ---
+G(x)      x 的 32 次 APE REA
+
+--- Document Chunk 350 ---
+给的二进制数;
+
+--- Document Chunk 351 ---
+余子式的初始 an  by OF FFFFFEP.
+
+--- Document Chunk 352 ---
+6.3.2 VOBC—MSS
+
+--- Document Chunk 353 ---
+表4规定了 VOBC 发送给 MSS 的内容。
+
+--- Document Chunk 354 ---
+表4_VOBC 发送给 MSS 的信息由
+
+--- Document Chunk 355 ---
+oe     大小 |全全全|下              a         ae
+
+--- Document Chunk 356 ---
+RM    (Byte) weal Hie] FE Be AE     BO fT        描    述
+
+--- Document Chunk 357 ---
+msg_id       1 | 202 | 202 | 202       202        消息 ID
+
+--- Document Chunk 358 ---
+|
+
+--- Document Chunk 359 ---
+Version No | 2 |ox2001] 1 |65535      N/A       应用层通信协议
+
+--- Document Chunk 360 ---
+--- Page 14 ---
+
+--- Document Chunk 361 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 362 ---
+表4 VOBC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 363 ---
+名称     x  SAR EL die I APE | he EL     BOE          描述    |
+
+--- Document Chunk 364 ---
+(Byte)
+
+--- Document Chunk 365 ---
+Time       6 | N/A | N/A | N/A | N/A        分、秒各占 1 AE
+
+--- Document Chunk 366 ---
+5 Cle atk 问)
+
+--- Document Chunk 367 ---
+DriverNo        2      0      0 |65 535| 0 表示无效        wil HL
+
+--- Document Chunk 368 ---
+1 =I -RM,2 =
+
+--- Document Chunk 369 ---
+;                                        ITC - CM,3 = ITC =
+
+--- Document Chunk 370 ---
+ChoiceMode     1 | N/A     1      5
+
+--- Document Chunk 371 ---
+AM ,4 =CBTC -CM,
+
+--- Document Chunk 372 ---
+CirlLevel             1                                                                         当前控制级别
+
+--- Document Chunk 373 ---
+DriveMode          1                                                                           号驶模式
+
+--- Document Chunk 374 ---
+                                                藻当前速度
+
+--- Document Chunk 375 ---
+Speed         >                                       列车当前速度
+
+--- Document Chunk 376 ---
+(km/h)
+
+--- Document Chunk 377 ---
+EbiSpeed            2                                      |                            应(lmyhy)
+
+--- Document Chunk 378 ---
+AtpDetailFault) 4                    慨级故障报等,每一 Bit 代表一个故阵
+
+--- Document Chunk 379 ---
+，                     ATP ik ff {LAS     fi BU ERPS He
+
+--- Document Chunk 380 ---
+AtpInitRst     1 | MA | a we 0 deat
+
+--- Document Chunk 381 ---
+iS fi ACB SS (AE ATP ATO 设备) ,每一 Bit 代表
+
+--- Document Chunk 382 ---
+DeviceFault    2    0   ees 4 (dE       i tr), t— Bi 代表
+
+--- Document Chunk 383 ---
+_               ATO 具体的板级故障报警,每一 Bit 代表一个故障，
+
+--- Document Chunk 384 ---
+AtoDetailFault| 4     0   其中工表示改陈,0 表示正党
+
+--- Document Chunk 385 ---
+站台号(列车在
+
+--- Document Chunk 386 ---
+Platformld       4      0       0 | oxftff |0 表示无效        区间或站台全
+
+--- Document Chunk 387 ---
+发无效值,在     a
+
+--- Document Chunk 388 ---
+和时站全号有效) |
+
+--- Document Chunk 389 ---
+9
+
+--- Document Chunk 390 ---
+--- Page 15 ---
+
+--- Document Chunk 391 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 392 ---
+#4 VOBC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 393 ---
+名称 | 大小 |缺省值|员小全|及天值| 枚涯全         Tes
+
+--- Document Chunk 394 ---
+(Byte)
+
+--- Document Chunk 395 ---
+rea     1 | 0 | avo 运行过程中的故陈,每一个 Bi 代表一种故障
+
+--- Document Chunk 396 ---
+ApCutf        1      0      0       1 |o=无效,1 =有效| ATP NALA!
+
+--- Document Chunk 397 ---
+Propulsion
+
+--- Document Chunk 398 ---
+AtpCouoff
+
+--- Document Chunk 399 ---
+~ ‘hoes      slo     列车切断牵引原因,每一个 Bit 代表一种原因,该
+
+--- Document Chunk 400 ---
+pe                     Bit 置 1 表示有效
+
+--- Document Chunk 401 ---
+Reason
+
+--- Document Chunk 402 ---
+AtpEbA        1      0      0      1 los semen = ty], ATP 实施常用
+
+--- Document Chunk 403 ---
+制动
+
+--- Document Chunk 404 ---
+.                                  列车常用制动原内,每一个 Bit {1G AE — A EIN HK
+
+--- Document Chunk 405 ---
+AlpEbAReason 4     © | pie ee 1 dene ara
+
+--- Document Chunk 406 ---
+AtpEb        1     0  |  0     1 JO = Kak    有效 + a
+
+--- Document Chunk 407 ---
+计动原因.和一个 Bit代炎一 TDM. i
+
+--- Document Chunk 408 ---
+AtpEbReason | 4     0              动原内,等一个 Bi 代表一种原内,该
+
+--- Document Chunk 409 ---
+a
+
+--- Document Chunk 410 ---
+AtpLoseLoc      1      0      0      1 |0= Kab =有效| AMER
+
+--- Document Chunk 411 ---
+AtpLose        4     0              位这原央,每一个 Bit 代表一种原因,该
+
+--- Document Chunk 412 ---
+LocReason                         Tak
+
+--- Document Chunk 413 ---
+TrainBrak:
+
+--- Document Chunk 414 ---
+的      1      0      0      1 |o=无效,1 =有效| 列车制动轧故障
+
+--- Document Chunk 415 ---
+Fault
+
+--- Document Chunk 416 ---
+roll and                          0 ~ 254 #8 aR | AM 0, A Ut
+
+--- Document Chunk 417 ---
+R fi         1     0     0    255 |分比           时满载率为 0 或者
+
+--- Document Chunk 418 ---
+-                                255 为无效值 |未知) 若本线无此
+
+--- Document Chunk 419 ---
+功能,发送无效值
+
+--- Document Chunk 420 ---
+电子地图| ， | 4       0                                     车载电子地图
+
+--- Document Chunk 421 ---
+版本                                            版本
+
+--- Document Chunk 422 ---
+--- Page 16 ---
+
+--- Document Chunk 423 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 424 ---
+#4 VOBC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 425 ---
+xn]               | uae a
+
+--- Document Chunk 426 ---
+名称     (R i Skee {0 | Se AMAL ike CAEL     BOL          thi    述
+
+--- Document Chunk 427 ---
+yte
+
+--- Document Chunk 428 ---
+ATP_Version | 4    0    0         0 表示无效     软件版本号
+
+--- Document Chunk 429 ---
+ATO_Version | 4    0    0         0 表示无效     软件版本号
+
+--- Document Chunk 430 ---
+MMI_Version | 4    0    0         0 表示无效     软件版本号
+
+--- Document Chunk 431 ---
+列车停车精度
+
+--- Document Chunk 432 ---
+数值(ATP) , 发送
+
+--- Document Chunk 433 ---
+= 126 ~ 126 之问
+
+--- Document Chunk 434 ---
+的数值,代表停车
+
+--- Document Chunk 435 ---
+精度数值,单位:    a.    he
+
+--- Document Chunk 436 ---
+列车的个全
+
+--- Document Chunk 437 ---
+cm, JERE 下 玫信和
+
+--- Document Chunk 438 ---
+Stopped      1 | wA | 0 | oue | XP: BE BAC RY yas sg page
+
+--- Document Chunk 439 ---
+Precision ATP                bh Mid [= 126] yw   下
+
+--- Document Chunk 440 ---
+,see | NE    fi
+
+--- Document Chunk 441 ---
+126) 的倍企精度， 为ovr
+
+--- Document Chunk 442 ---
+发送-126 we 126| 7? °*
+
+--- Document Chunk 443 ---
+fy a Pet
+
+--- Document Chunk 444 ---
+BN 4 NE He RUS
+
+--- Document Chunk 445 ---
+FRAN ERC, EGE ANT
+
+--- Document Chunk 446 ---
+为0x7f(127)
+
+--- Document Chunk 447 ---
+SN AEH ARG ME
+
+--- Document Chunk 448 ---
+数值(ATO ) ,发送
+
+--- Document Chunk 449 ---
+= 126 ~ 126 之问
+
+--- Document Chunk 450 ---
+的数值,代表停竺
+
+--- Document Chunk 451 ---
+烙度数值,单位| ae ay a
+
+--- Document Chunk 452 ---
+Stopped                        eae 负数  iH
+
+--- Document Chunk 453 ---
+_Precision     1] NA oo | oxte SPN         列车非停稳时该
+
+--- Document Chunk 454 ---
+ti. 超过 [ -126,| ， 一
+
+--- Document Chunk 455 ---
+ATO                               ww |值无效, 发送值
+
+--- Document Chunk 456 ---
+126]的停车精度， Jy OTE
+
+--- Document Chunk 457 ---
+发送 - 126 或 126
+
+--- Document Chunk 458 ---
+的边界值 。
+
+--- Document Chunk 459 ---
+列车非停稳时
+
+--- Document Chunk 460 ---
+ied 0x7f(127)
+
+--- Document Chunk 461 ---
+--- Page 17 ---
+
+--- Document Chunk 462 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 463 ---
+表4 VOBC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 464 ---
+Kal      .     _     _
+
+--- Document Chunk 465 ---
+名称    小|缺省值|地小全|最天人
+
+--- Document Chunk 466 ---
+(Byte)
+
+--- Document Chunk 467 ---
+Oxfffttt | Oxftftrrrttttt 表示
+
+--- Document Chunk 468 ---
+Sheck_Result]} 6 | N/A | 0                      FES
+
+--- Document Chunk 469 ---
+Check_Result               ite |无效           自定义
+
+--- Document Chunk 470 ---
+VOBC_ZCID1| 4   0   N/A | MA |N/A         移交 ZC ID
+
+--- Document Chunk 471 ---
+VOBC_ZCCO | 1     0     VOBC 与 ZC 通信故障描述 ,0 餐天通信收障或术通
+
+--- Document Chunk 472 ---
+MFaultl            信,1 才示授信正常
+
+--- Document Chunk 473 ---
+接管 ZC TID,如
+
+--- Document Chunk 474 ---
+VOBC_ZCID2| 4   0   N/A | N/A |N/A       KB 38, Me fit
+
+--- Document Chunk 475 ---
+OxPFFEFEFE
+
+--- Document Chunk 476 ---
+VOBC_ZCCO   |    0     VOBC 与 ZC 通信故障描述,0 表    AP AC BRE a AS
+
+--- Document Chunk 477 ---
+MFault2                      通信,1 AeA CAE ECA ON FP
+
+--- Document Chunk 478 ---
+VOBC_ATSIDI | 4    0   N/A | N/A |N/A           移交 ATS ID
+
+--- Document Chunk 479 ---
+VOBC_ATSCO] )     0      VOBG 与 ATS SO {17 BRAN EAS O28 08 i nF He Be a AS
+
+--- Document Chunk 480 ---
+MFaultl               通信,1 表示通信1
+
+--- Document Chunk 481 ---
+接管 ATS ID, 如
+
+--- Document Chunk 482 ---
+VOBC_ATSID2| 4    0   N/A | N/A |N/A         无移交 MR ft
+
+--- Document Chunk 483 ---
+/OxF    FF
+
+--- Document Chunk 484 ---
+|             |
+
+--- Document Chunk 485 ---
+VOBC_ATSCO   )    0     VOBC 与移交 ATS 通信故障描述,0 表示通信收障
+
+--- Document Chunk 486 ---
+MFault2           或本通信.1 表      无移交,取值 OXF
+
+--- Document Chunk 487 ---
+|                                          clip
+
+--- Document Chunk 488 ---
+VOBC_CIID   4    0   N/A | N/A |N/A           SNES Sie Jr ie He
+
+--- Document Chunk 489 ---
+cl fi ID
+
+--- Document Chunk 490 ---
+VOBC           ;      0       VOB           故障找述,0 表示通信故障或未适
+
+--- Document Chunk 491 ---
+_CICOMFault           信,1 表示ii
+
+--- Document Chunk 492 ---
+ATP 3k Fe jul (ri Ak
+
+--- Document Chunk 493 ---
+TrainComFault| 1 | 0 | 0 | 1 |0=36%&,1 = 47% :   eee 大
+
+--- Document Chunk 494 ---
+尾通信故障
+
+--- Document Chunk 495 ---
+--- Page 18 ---
+
+--- Document Chunk 496 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 497 ---
+表4 VOBC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 498 ---
+名称 ney et kt  Het    hak
+
+--- Document Chunk 499 ---
+|                                                                                    |
+
+--- Document Chunk 500 ---
+与 TMS idl fri AK
+
+--- Document Chunk 501 ---
+Be. 0 代表与 TMS
+
+--- Document Chunk 502 ---
+ii     ied
+
+--- Document Chunk 503 ---
+与TMS 通信故障
+
+--- Document Chunk 504 ---
+TmsComFault | 1      0      0      1 |0=无效,1 =有效
+
+--- Document Chunk 505 ---
+Woh BEMIS:
+
+--- Document Chunk 506 ---
+0O:TCI(十进制);
+
+--- Document Chunk 507 ---
+(十进制) ，
+
+--- Document Chunk 508 ---
+VOBC
+
+--- Document Chunk 509 ---
+—HeadOrTail
+
+--- Document Chunk 510 ---
+SY AS
+
+--- Document Chunk 511 ---
+区为激活
+
+--- Document Chunk 512 ---
+如6        列车,1
+
+--- Document Chunk 513 ---
+号车而为TC1,6 分
+
+--- Document Chunk 514 ---
+车而为 TC2
+
+--- Document Chunk 515 ---
+-|
+
+--- Document Chunk 516 ---
+TrainReserve | 10
+
+--- Document Chunk 517 ---
+预留 10 个字
+
+--- Document Chunk 518 ---
+CRC fe 92, if 9
+
+--- Document Chunk 519 ---
+CRE        4   N/A | N/A | N/A |N/A          HG TH A msg _ id
+
+--- Document Chunk 520 ---
+到 TrainReserve
+
+--- Document Chunk 521 ---
+7 MSS - ZC 报文规范
+
+--- Document Chunk 522 ---
+7.1 接口连接方式
+
+--- Document Chunk 523 ---
+7.1.1 物理接口
+
+--- Document Chunk 524 ---
+MSS 子系统与 ZC 子系统的维护单元之间采用维护网进行数据通
+
+--- Document Chunk 525 ---
+其中,ZC 子系统的维护单元提供 上路标准的以太网接口进行通信，;
+
+--- Document Chunk 526 ---
+MSS 子系统提供标准的以太网接口进行通信。
+
+--- Document Chunk 527 ---
+--- Page 19 ---
+
+--- Document Chunk 528 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 529 ---
+7.1.2 动态交互描述
+
+--- Document Chunk 530 ---
+LC 子系统维护单元周期性通过维护网向 MSS 子系统发送报等
+
+--- Document Chunk 531 ---
+ae  通信故障处理
+
+--- Document Chunk 532 ---
+MSS 子系统如果超过额定时间接收不到 ZC 子系统维护单元的任何
+
+--- Document Chunk 533 ---
+数据,则 MSS 子系统认为与 ZC 子系统通信中断;ZC 子系统维护单元如
+
+--- Document Chunk 534 ---
+果超过额定时间收不到 MSS 子系统的应答数据,则认为 ZC 子系统与
+
+--- Document Chunk 535 ---
+统通信中断(可选功能) ,此时 ZC 子系统维护单元仍保持周期
+
+--- Document Chunk 536 ---
+fi MSS 发送数据不灾
+
+--- Document Chunk 537 ---
+7. 2  通信层  次结构描述
+
+--- Document Chunk 538 ---
+7.2.1 数据链路层
+
+--- Document Chunk 539 ---
+MAC 子层基于JEEE 802.3 标准
+
+--- Document Chunk 540 ---
+MAC 头巾 14 个字 篆组成,1 个帧校验亩列(4 字节)将被加在
+
+--- Document Chunk 541 ---
+Ethernet (Wij ii
+
+--- Document Chunk 542 ---
+7.2.2  _—
+
+--- Document Chunk 543 ---
+本接口使用 Pv Ds it fy Bal 24 JE YY Bi -
+
+--- Document Chunk 544 ---
+7.2.3 传输层
+
+--- Document Chunk 545 ---
+本接口实时传送的信息使用 UDP 协议作为优输协议，
+
+--- Document Chunk 546 ---
+7.2.4 应用层
+
+--- Document Chunk 547 ---
+本接口实时传送的信息便用自定义的应用层协以，只体内容见7.3
+
+--- Document Chunk 548 ---
+的规定
+
+--- Document Chunk 549 ---
+7.3 接口数据描述
+
+--- Document Chunk 550 ---
+7.3.1 数据存储方式和通信校验方法
+
+--- Document Chunk 551 ---
+接口数据存储方式采用 Big Endian ,低地址存放最高有效字节
+
+--- Document Chunk 552 ---
+通信校验方式采用循环元余码校验
+
+--- Document Chunk 553 ---
+生成多项式采用 CRC32(0x04c11db7 ) ,按公式(1) 计算,余子式的初
+
+--- Document Chunk 554 ---
+始值设为 OxFFFFFFFF。
+
+--- Document Chunk 555 ---
+7.3.2 ZC一MSS
+
+--- Document Chunk 556 ---
+表5 规定了 ZC 发送给 MSS 的信息内容。
+
+--- Document Chunk 557 ---
+14
+
+--- Document Chunk 558 ---
+--- Page 20 ---
+
+--- Document Chunk 559 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 560 ---
+#5 ZC 发送给 MSS 的信息帧
+
+--- Document Chunk 561 ---
+接口内容
+
+--- Document Chunk 562 ---
+字节长度
+
+--- Document Chunk 563 ---
+fh GB
+
+--- Document Chunk 564 ---
+HEADER
+
+--- Document Chunk 565 ---
+1
+
+--- Document Chunk 566 ---
+帧开始标志
+
+--- Document Chunk 567 ---
+默认值:OxAA
+
+--- Document Chunk 568 ---
+LEN
+
+--- Document Chunk 569 ---
+iD
+
+--- Document Chunk 570 ---
+帧长度(从 MSG_ID 开始到 CRC Fe
+
+--- Document Chunk 571 ---
+验结束)
+
+--- Document Chunk 572 ---
+MSG_ID
+
+--- Document Chunk 573 ---
+消息 ID
+
+--- Document Chunk 574 ---
+SKILL 0x20
+
+--- Document Chunk 575 ---
+STAMP
+
+--- Document Chunk 576 ---
+SEA I oD GE
+
+--- Document Chunk 577 ---
+(北京时间)
+
+--- Document Chunk 578 ---
+ZC_INDEX
+
+--- Document Chunk 579 ---
+ZC 的编号(十进制)
+
+--- Document Chunk 580 ---
+ZC 林开机或初始上电,ZC 维护单无
+
+--- Document Chunk 581 ---
+AW BUTE A Re AY WO Zi, ZO
+
+--- Document Chunk 582 ---
+INDEX = 0
+
+--- Document Chunk 583 ---
+SN
+
+--- Document Chunk 584 ---
+He SCHR US, BM LO 1, BK HI
+
+--- Document Chunk 585 ---
+Kei BM, Rib 4 OxFFFFFFFF 后,下
+
+--- Document Chunk 586 ---
+DRTC MOL CL OF ht
+
+--- Document Chunk 587 ---
+Device NUM
+
+--- Document Chunk 588 ---
+BE fhe tol 2 DAE BE
+
+--- Document Chunk 589 ---
+Device (1)
+
+--- Document Chunk 590 ---
+设备(1)
+
+--- Document Chunk 591 ---
+Oxaa; |
+
+--- Document Chunk 592 ---
+Ost: A Pie
+
+--- Document Chunk 593 ---
+SEAL AL, BUR
+
+--- Document Chunk 594 ---
+Device(n)
+
+--- Document Chunk 595 ---
+设备(n)状
+
+--- Document Chunk 596 ---
+Oxaa: IE AY
+
+--- Document Chunk 597 ---
+Oxf: AC BREAK 2S
+
+--- Document Chunk 598 ---
+其他值 ,预贸
+
+--- Document Chunk 599 ---
+HostStyle
+
+--- Document Chunk 600 ---
+0x55:1 系备用
+
+--- Document Chunk 601 ---
+0x77:1 系主用      系故障
+
+--- Document Chunk 602 ---
+0x99:1 系故障.,2 系主用状态
+
+--- Document Chunk 603 ---
+0Oxff:双机故障
+
+--- Document Chunk 604 ---
+SAU (AL, BAL FF
+
+--- Document Chunk 605 ---
+15
+
+--- Document Chunk 606 ---
+--- Page 21 ---
+
+--- Document Chunk 607 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 608 ---
+#5 ZC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 609 ---
+接口内容
+
+--- Document Chunk 610 ---
+宣季长度
+
+--- Document Chunk 611 ---
+tii     述
+
+--- Document Chunk 612 ---
+ZC 5 DSU 的通信
+
+--- Document Chunk 613 ---
+0xaa:正常
+
+--- Document Chunk 614 ---
+Ox55 :故障
+
+--- Document Chunk 615 ---
+ZC_DSU_COM         '  0533: Aa ZC 维护单元无法状取
+
+--- Document Chunk 616 ---
+i)
+
+--- Document Chunk 617 ---
+Oxff: FE DSU 设备时的默认什
+
+--- Document Chunk 618 ---
+|                                   ZC 与 ATS 的通信状态
+
+--- Document Chunk 619 ---
+0xaa :正常
+
+--- Document Chunk 620 ---
+ZC_ATS_COM                   1       OxSS : AA Bi
+
+--- Document Chunk 621 ---
+0x33: AB Ml (ZC       :单元无法获取
+
+--- Document Chunk 622 ---
+ZXC_CLNUM                      1        "5 ZC iA fy Ch Bue Tie dil)
+
+--- Document Chunk 623 ---
+.                                     二
+
+--- Document Chunk 624 ---
+7C_C1_ID(L)       4      C1CL) AY IDC 上进制)
+
+--- Document Chunk 625 ---
+|                          ZC 5 CI的授信状态
+
+--- Document Chunk 626 ---
+CID信息|
+
+--- Document Chunk 627 ---
+ZC_CLCOM(T)      1      0x55 see
+
+--- Document Chunk 628 ---
+0x33 RAI ZEM EU: SRT)
+
+--- Document Chunk 629 ---
+ZC_CLID(n)            4           N/A
+
+--- Document Chunk 630 ---
+ZC 与CIUn) 的通信状态
+
+--- Document Chunk 631 ---
+CI)信息 |                 Oxaa sib
+
+--- Document Chunk 632 ---
+ZC_C\_COM(n)          1           0.55，
+
+--- Document Chunk 633 ---
+0x33 :术知(ZCM 无法获取信息)
+
+--- Document Chunk 634 ---
+ZC_ZC_NUM                            1          与ZC 通信的相邻 ZC WCE PvE tl)
+
+--- Document Chunk 635 ---
+ZC_ZC_ID(1)          4        相邻 ZC(1)的1D(十进制)
+
+--- Document Chunk 636 ---
+相邻                  Ze MENS
+
+--- Document Chunk 637 ---
+ZC(1)信息 |zc_ZzC_COMOD)     1       wee
+
+--- Document Chunk 638 ---
+0x55 :故障
+
+--- Document Chunk 639 ---
+0x33 :未知(ZCM 无法获取信息)
+
+--- Document Chunk 640 ---
+--- Page 22 ---
+
+--- Document Chunk 641 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 642 ---
+表5 ZC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 643 ---
+接口内容
+
+--- Document Chunk 644 ---
+度                              ti         it
+
+--- Document Chunk 645 ---
+ZC_ZC_ID(n)       4       HA ZC(n) fy ID(十进制)
+
+--- Document Chunk 646 ---
+相邻 ZC(n)                          ZC 与相邻 ZC(n)的通信状态
+
+--- Document Chunk 647 ---
+2C_ZC_COM(n)     1      Oxaa :正常
+
+--- Document Chunk 648 ---
+ACCOM          Ox55 :故障
+
+--- Document Chunk 649 ---
+0x33 :未知(ZCM 无法获政信息)
+
+--- Document Chunk 650 ---
+NID_SOFT_NUM                     1         包含软件数此
+
+--- Document Chunk 651 ---
+NID_SOFT_Ver(1)                                        软件版本全
+
+--- Document Chunk 652 ---
+NID_SOFT_Ver(n)
+
+--- Document Chunk 653 ---
+ID(十进制)
+
+--- Document Chunk 654 ---
+计 fh be
+
+--- Document Chunk 655 ---
+(1)
+
+--- Document Chunk 656 ---
+段
+
+--- Document Chunk 657 ---
+p AL
+
+--- Document Chunk 658 ---
+_|
+
+--- Document Chunk 659 ---
+it fil K FE
+
+--- Document Chunk 660 ---
+(n)             Q_ALXE_SEG
+
+--- Document Chunk 661 ---
+ZC AS 4H ETH PY BY Fd Ae Be Ce Fd Mey
+
+--- Document Chunk 662 ---
+Train_count                                  1         LC. 可识别的列车)
+
+--- Document Chunk 663 ---
+VOBC 的唯一祭识
+
+--- Document Chunk 664 ---
+0:未知列车设备 TDC BRIA AHL)
+
+--- Document Chunk 665 ---
+VOBC-inder         其他:表示可识别列车 1D(十进制)
+
+--- Document Chunk 666 ---
+Ta                                (车组号)                        |
+
+--- Document Chunk 667 ---
+ZC 与 VOBC 的通信状态
+
+--- Document Chunk 668 ---
+ZC_VOBC_COM |     1        0xaa:正常
+
+--- Document Chunk 669 ---
+0x55 :故障
+
+--- Document Chunk 670 ---
+L
+
+--- Document Chunk 671 ---
+17
+
+--- Document Chunk 672 ---
+--- Page 23 ---
+
+--- Document Chunk 673 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 674 ---
+RS ZC 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 675 ---
+接口内容
+
+--- Document Chunk 676 ---
+字节长度                                 ail          ik
+
+--- Document Chunk 677 ---
+5
+
+--- Document Chunk 678 ---
+VOBC 的唯一标识
+
+--- Document Chunk 679 ---
+0:未知列车设备 IDC BRIAMIE)
+
+--- Document Chunk 680 ---
+one i            4
+
+--- Document Chunk 681 ---
+someones              JEM Beis BUM 4. 1D CHE)
+
+--- Document Chunk 682 ---
+Train(n)                           (车组号)
+
+--- Document Chunk 683 ---
+ZC "3 VOBC 的通信状态
+
+--- Document Chunk 684 ---
+ZC_VOBC_COM         i          Oxaas ik
+
+--- Document Chunk 685 ---
+OxSS :上故障
+
+--- Document Chunk 686 ---
+Me aa
+
+--- Document Chunk 687 ---
+END                   1     WO tS Bi KE ba
+
+--- Document Chunk 688 ---
+TRIM 0x55
+
+--- Document Chunk 689 ---
+CRC FES, BE HO HE TELA MSG _ ID
+
+--- Document Chunk 690 ---
+7.3.3 MSS—+ZC
+
+--- Document Chunk 691 ---
+MSS 收到 ZC 的报文后 ,立即反馈
+
+--- Document Chunk 692 ---
+的信
+
+--- Document Chunk 693 ---
+&
+
+--- Document Chunk 694 ---
+答。表6 规定了 MSS 发送给 ZC
+
+--- Document Chunk 695 ---
+表6， MSS 发送给 ZC 的信息帧
+
+--- Document Chunk 696 ---
+接口内容           字节长度                       措     述
+
+--- Document Chunk 697 ---
+HEADER               1          跌认全:0OxAA
+
+--- Document Chunk 698 ---
+LEN                    2          帧长度(从 MSC_ID 开始到 CRC Bey
+
+--- Document Chunk 699 ---
+MSC_ID                1          默认值:021
+
+--- Document Chunk 700 ---
+STAMP             6        年月.日.时分.秒各占1个字节(北京时间)
+
+--- Document Chunk 701 ---
+RCV_SN                4          应答对应的 ZC 报文序列号
+
+--- Document Chunk 702 ---
+_                                 WHS i PRIA
+
+--- Document Chunk 703 ---
+END                    '          默认值:0x55
+
+--- Document Chunk 704 ---
+CRC                   4          CRC 校验 ,计算范围从 MSC_ID 到 END
+
+--- Document Chunk 705 ---
+--- Page 24 ---
+
+--- Document Chunk 706 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 707 ---
+8 MSS -DSU 报文规范(可选)
+
+--- Document Chunk 708 ---
+8. 1 接口连接方式
+
+--- Document Chunk 709 ---
+8.1.1 物理接口
+
+--- Document Chunk 710 ---
+MSS 子系统与 DSU 子系统维护单元之间采用维护网进行数据通信。
+
+--- Document Chunk 711 ---
+其中,DSU 子系统维护单元提供 1 路标准的以太网接口进行通信; MSS
+
+--- Document Chunk 712 ---
+子系统提供慰准的以太网接口进行通信。
+
+--- Document Chunk 713 ---
+8. 1.2 动态交互描述
+
+--- Document Chunk 714 ---
+DSU 子系统维护单元周期性通过维护网向 MSS 子系统发送报答信息。
+
+--- Document Chunk 715 ---
+8. 1.3 通信故障处理
+
+--- Document Chunk 716 ---
+MSS 子系统如果超过领定时间接收不到 DSU 子系统的任何数据 ,则
+
+--- Document Chunk 717 ---
+MSS 子系统认为与 DSU 子系统通信中断;DSU 子系统如果超过撤定时间
+
+--- Document Chunk 718 ---
+收不到 MSS 子系统的应答数据,则认为 DSU 子系统与 MSS 子系统通信
+
+--- Document Chunk 719 ---
+中断(可选功能) ,此时 DSU 子系统仍保持周期给 MSS 发送数据不变。
+
+--- Document Chunk 720 ---
+8.2 通信层次结构描述
+
+--- Document Chunk 721 ---
+8.2.1 数据链路层
+
+--- Document Chunk 722 ---
+MAC 子层基于 IEEE 802. 3 你准。
+
+--- Document Chunk 723 ---
+MAC 头由 14 个字节组成,1 个帧校验序列(4 字节)将被加在
+
+--- Document Chunk 724 ---
+Ethernet Um if.
+
+--- Document Chunk 725 ---
+8.2.2 AAR
+
+--- Document Chunk 726 ---
+本接口使用 IPv4 协议作为网络层的协议。
+
+--- Document Chunk 727 ---
+8. 2.3 传输层
+
+--- Document Chunk 728 ---
+本接口实时传送的信息使用 UDP 协议作为传输协议。
+
+--- Document Chunk 729 ---
+8.2.4 应用层
+
+--- Document Chunk 730 ---
+本接口实时传送的信息使用自定义的应用层协议。有具体内容见8.3
+
+--- Document Chunk 731 ---
+的规定。
+
+--- Document Chunk 732 ---
+8.3 接口数据描述
+
+--- Document Chunk 733 ---
+8. 3.1 数据存储方式和通信校验方法
+
+--- Document Chunk 734 ---
+接口数据存储方式采用 Big Endian ,低地址存放最高有效字节。
+
+--- Document Chunk 735 ---
+--- Page 25 ---
+
+--- Document Chunk 736 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 737 ---
+i Fi BE 7 A A OA IT ARS BE 4 (CRC)
+
+--- Document Chunk 738 ---
+生成多项式采用 CRC32(0x04c11db7 ) ,按公式(1)计算.余子式的初
+
+--- Document Chunk 739 ---
+始值设为 O0xFFFFFFFF。
+
+--- Document Chunk 740 ---
+8.3.2 DSU一MSS
+
+--- Document Chunk 741 ---
+#7 规定了 DSU 发送给 MSS 的信息内容。
+
+--- Document Chunk 742 ---
+#7 DSU 发送给 MSS 的信息帧
+
+--- Document Chunk 743 ---
+接口内容       字节长度                 描述
+
+--- Document Chunk 744 ---
+.                                    帧的开始慰志
+
+--- Document Chunk 745 ---
+HEADER                       1           RIA <OxAA
+
+--- Document Chunk 746 ---
+LEN                   2       帧长度(从 MSG_ID 开始到 CRC 校验结束)
+
+--- Document Chunk 747 ---
+                               消息 ID
+
+--- Document Chunk 748 ---
+MSC_ID                             1             WIR Gt «0290
+
+--- Document Chunk 749 ---
+年     fa RSL OR   in My
+
+--- Document Chunk 750 ---
+STAMP             6    |  FF月.日时、分.秒各占工个关竹(北京时
+
+--- Document Chunk 751 ---
+间)
+
+--- Document Chunk 752 ---
+DSU 的编号(十进制)
+
+--- Document Chunk 753 ---
+DSU_INDEX            4       DSU AIP ALOR BH Gt LL. DSU 维护机末收到
+
+--- Document Chunk 754 ---
+平台发来的数据之前,DSU_INDEX = 0
+
+--- Document Chunk 755 ---
+报文序列全,初始值为二,竺次报文依次累加，
+
+--- Document Chunk 756 ---
+SN                     4     Yi HE OXFFFFFFFE 后,下一次重新加1 ,从1工开
+
+--- Document Chunk 757 ---
+始
+
+--- Document Chunk 758 ---
+Device_NUM                      1             i fh OL Ped
+
+--- Document Chunk 759 ---
+设备(1)状态
+
+--- Document Chunk 760 ---
+Device(1)                     |          Oxf:故障状态
+
+--- Document Chunk 761 ---
+其他值 ,预留
+
+--- Document Chunk 762 ---
+设备(n) 状态
+
+--- Document Chunk 763 ---
+Deviece(n)               1
+
+--- Document Chunk 764 ---
+其他值 ,预贸
+
+--- Document Chunk 765 ---
+--- Page 26 ---
+
+--- Document Chunk 766 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 767 ---
+#7 DSU 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 768 ---
+接口内容              字节长度                                   fit        述
+
+--- Document Chunk 769 ---
+0xaa:l 系主用状态,2 系备用状态
+
+--- Document Chunk 770 ---
+备用状
+
+--- Document Chunk 771 ---
+0x77:1 系主用状态
+
+--- Document Chunk 772 ---
+0x99:1 系故隙,2 F
+
+--- Document Chunk 773 ---
+其他值 HR
+
+--- Document Chunk 774 ---
+NID_SOFT_NUM                1            包含软件数时
+
+--- Document Chunk 775 ---
+HostStyle                           1
+
+--- Document Chunk 776 ---
+NID_SOFT_Ver(1)            4           软件版本导
+
+--- Document Chunk 777 ---
+NID_SOFT_Ver(n)            4         iss         7
+
+--- Document Chunk 778 ---
+CS    SU:A 条    A 主机1 和主机2)
+
+--- Document Chunk 779 ---
+VOTE_STATUS_A       ay      Oxeai 束      a
+
+--- Document Chunk 780 ---
+=        0x55           及
+
+--- Document Chunk 781 ---
+rs)                       3,  iN YN ee Lt)
+
+--- Document Chunk 782 ---
+B:                             eri         HL 3 和主机4)
+
+--- Document Chunk 783 ---
+eo     .                   xaa
+
+--- Document Chunk 784 ---
+VOTE_STATUS_B          )         0:35 kak     水
+
+--- Document Chunk 785 ---
+BNW 0:33 srg PYAR woe yy Lt)
+
+--- Document Chunk 786 ---
+Private                 N       Pie &
+
+--- Document Chunk 787 ---
+END                                 1            OCA 2A AE Pa BE BRIA IT 20x55
+
+--- Document Chunk 788 ---
+CRC                       4        CRC 校验 ,计算范围从 MSG_ID 到 END
+
+--- Document Chunk 789 ---
+8.3.3 MSS-»DSU
+
+--- Document Chunk 790 ---
+# 8 规定了 MSS 发送给 DSU 内容。
+
+--- Document Chunk 791 ---
+#8 MSS 发送给 DSU 的信息帧
+
+--- Document Chunk 792 ---
+接口内容 | 字节长度 |          描述
+
+--- Document Chunk 793 ---
+帧的开始标志
+
+--- Document Chunk 794 ---
+HEADER          默认值:OxAA
+
+--- Document Chunk 795 ---
+LEN                        2         帧长度(从 MSG_ID 开始到 CRC 校验结束)》
+
+--- Document Chunk 796 ---
+21
+
+--- Document Chunk 797 ---
+--- Page 27 ---
+
+--- Document Chunk 798 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 799 ---
+#8 MSS 发送给 DSU 的信息帧(续)
+
+--- Document Chunk 800 ---
+接口内容        字节长度                   描述
+
+--- Document Chunk 801 ---
+消息 ID
+
+--- Document Chunk 802 ---
+MSG_ID                    1         BRIA 0x91
+
+--- Document Chunk 803 ---
+年     st 分.秒各占工个字节(北京用
+
+--- Document Chunk 804 ---
+STAMP             6    _  于月、昌.时、分.秒各占工个字节(北京时
+
+--- Document Chunk 805 ---
+间)
+
+--- Document Chunk 806 ---
+RCV_SN                   4        应答对应的 DSU 报文序列导
+
+--- Document Chunk 807 ---
+帧的结束标识
+
+--- Document Chunk 808 ---
+END        BRIMML 0x55
+
+--- Document Chunk 809 ---
+CRC                       4        CRC 校验,计算范围从 MSC_ID 到 END
+
+--- Document Chunk 810 ---
+9 MSS -ATS 报文规范
+
+--- Document Chunk 811 ---
+9.1 接口连接方式
+
+--- Document Chunk 812 ---
+9.1.1 物理接口
+
+--- Document Chunk 813 ---
+MSS 子系统与 ATS 子系统维护单元之问采用维护网进行数据通信。
+
+--- Document Chunk 814 ---
+其中,ATS F 3    作护单元提供 工路标准的以太网接口进行通信;MSS 子
+
+--- Document Chunk 815 ---
+系统提供标准的以太网接口进行通信。
+
+--- Document Chunk 816 ---
+9.1.2 动态交互描述
+
+--- Document Chunk 817 ---
+ATS 与 MSS 之间交互的数据包括心跳信息 .ATS 报警信息 ATS 系
+
+--- Document Chunk 818 ---
+统软件版本号 ATS 行车信息(含 CI 站场信息) ATS 操作记录。在相同
+
+--- Document Chunk 819 ---
+周期内,不同类型数据的 SN 顺序编写。同周期的相同类型数据的 SN
+
+--- Document Chunk 820 ---
+相同。
+
+--- Document Chunk 821 ---
+a) 心跳信息
+
+--- Document Chunk 822 ---
+心跳帧用于双方保持通信连接正常。MSS 周期性发送心跳帧给
+
+--- Document Chunk 823 ---
+ATS ATS 周期性发送心跳帧给 MSS 。
+
+--- Document Chunk 824 ---
+b) ATS 报警信息
+
+--- Document Chunk 825 ---
+ATS 周期性向 MSS 发送当前全体 ATS 报警信息。
+
+--- Document Chunk 826 ---
+c) ATS 系统软件版本号
+
+--- Document Chunk 827 ---
+22
+
+--- Document Chunk 828 ---
+--- Page 28 ---
+
+--- Document Chunk 829 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 830 ---
+首次连接 ,断链重连后或系统软件版本号发生变更后,ATS 向 MSS
+
+--- Document Chunk 831 ---
+发送一次全体 ATS 系统软件版本号。
+
+--- Document Chunk 832 ---
+d) ATS 行车信息(含 CI 站场信息)
+
+--- Document Chunk 833 ---
+ATS 周期性实时向 MSS 传递站场状态数据 .站场同步数据,数据以
+
+--- Document Chunk 834 ---
+锁集中区为划分单元。ATS 保证每次发送给 MSS 的一包数据中 ,不出
+
+--- Document Chunk 835 ---
+天重修的仿生
+
+--- Document Chunk 836 ---
+ATS 周期性实时血
+
+--- Document Chunk 837 ---
+e) ATS 操   3
+
+--- Document Chunk 838 ---
+os SAR 记录时,ATS 7 BERR PE IC oe 2c 2 MSS 。
+
+--- Document Chunk 839 ---
+.3 通信故障处理
+
+--- Document Chunk 840 ---
+如果 MSS 超过招定时间示收到心跳,认为双方连接出现履障,ATS
+
+--- Document Chunk 841 ---
+设备状态为森知,并向 ATS 发起重连申请;如果 ATS 超过和祷定时间未收
+
+--- Document Chunk 842 ---
+到心跳,认为双方连接出现故障,此时 ATS 方重置通信和链路,等待 MSS
+
+--- Document Chunk 843 ---
+TE.
+
+--- Document Chunk 844 ---
+9.2 通信层次结构描述
+
+--- Document Chunk 845 ---
+9. 2.1 数据链路层
+
+--- Document Chunk 846 ---
+MAC 子层基于 IEEE 802. 3 brik.
+
+--- Document Chunk 847 ---
+MAC 头由 14 个字节组成,1 个帧校验序列(4 字节) 将被加在
+
+--- Document Chunk 848 ---
+Ethernet 帧后面。
+
+--- Document Chunk 849 ---
+9.2.2 网络层
+
+--- Document Chunk 850 ---
+本接口使用 IPv4 协议作为网络层的协议。
+
+--- Document Chunk 851 ---
+9.2.3 传输层
+
+--- Document Chunk 852 ---
+本接口使用 UDP 协议作为传输协议。
+
+--- Document Chunk 853 ---
+9.2.4 应用层
+
+--- Document Chunk 854 ---
+本接口实时传送的信息使用自定义的应用层协议。具体内容参见
+
+--- Document Chunk 855 ---
+9.3 的规定。
+
+--- Document Chunk 856 ---
+9.3 接口数据描述
+
+--- Document Chunk 857 ---
+9.3.1 数据存储方式和通信校验方法
+
+--- Document Chunk 858 ---
+接口数据存储方式采用 Big Endian ,低地址存放最高有效字节。
+
+--- Document Chunk 859 ---
+23
+
+--- Document Chunk 860 ---
+车次追踪数据等。
+
+--- Document Chunk 861 ---
+bd
+
+--- Document Chunk 862 ---
+二
+
+--- Document Chunk 863 ---
+--- Page 29 ---
+
+--- Document Chunk 864 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 865 ---
+通信校验方式采用循环元余码校验(CRC ) :
+
+--- Document Chunk 866 ---
+生成多项式采用 CRC32(Ox04e11db7) ,按公式(1)计算,余子式的初
+
+--- Document Chunk 867 ---
+始值设为0xFFFFFFFF。
+
+--- Document Chunk 868 ---
+9.3.2 ATS一MSS
+
+--- Document Chunk 869 ---
+9.3.2.1 心跳信息
+
+--- Document Chunk 870 ---
+表9 规定了 ATS 发送给 MSS 的心跳信息内容。
+
+--- Document Chunk 871 ---
+表9 ATS 发送给 MSS 的心跳信息帧
+
+--- Document Chunk 872 ---
+9.3.2.2 报警信息
+
+--- Document Chunk 873 ---
+接口内容                  字节长度                            th ik
+
+--- Document Chunk 874 ---
+帧开始标志
+
+--- Document Chunk 875 ---
+HEADE                  1
+
+--- Document Chunk 876 ---
+      R                         BRIAMIT:OxAA
+
+--- Document Chunk 877 ---
+LEN                    2        WEI OK MSG_ID 开始到 CRC 忱3
+
+--- Document Chunk 878 ---
+MSG.                       1
+
+--- Document Chunk 879 ---
+ep                          默认值:0x50
+
+--- Document Chunk 880 ---
+STAMP                 6     | es
+
+--- Document Chunk 881 ---
+fal )
+
+--- Document Chunk 882 ---
+SN                      4        NE 得
+
+--- Document Chunk 883 ---
+ET) Sei AE Hae
+
+--- Document Chunk 884 ---
+END                     1
+
+--- Document Chunk 885 ---
+默认值:0x55
+
+--- Document Chunk 886 ---
+CRC                    4        CRC BEM, BESS ETAL A LEN 到 END
+
+--- Document Chunk 887 ---
+表 10 规定了 ATS 发送给 MSS 的报警信息内容。
+
+--- Document Chunk 888 ---
+#10 ATS 发送给 MSS 的报警信息帧
+
+--- Document Chunk 889 ---
+接口内容              FUR           ik
+
+--- Document Chunk 890 ---
+“oo                             1       默认值:0xAA
+
+--- Document Chunk 891 ---
+Wi Ie 度      5     ree
+
+--- Document Chunk 892 ---
+LEN                                     2        i He HE (A MSG_ID 开始到
+
+--- Document Chunk 893 ---
+24
+
+--- Document Chunk 894 ---
+--- Page 30 ---
+
+--- Document Chunk 895 ---
+T/CAMET 04011.7一2018
+
+--- Document Chunk 896 ---
+表10 ATS 发送给 MSS 的报警信息帧(续)
+
+--- Document Chunk 897 ---
+接口内容
+
+--- Document Chunk 898 ---
+MSG_ID
+
+--- Document Chunk 899 ---
+默认值:0x51
+
+--- Document Chunk 900 ---
+STAMP
+
+--- Document Chunk 901 ---
+年.月.日.时.分.秒各占 1
+
+--- Document Chunk 902 ---
+个字节(北京时间)
+
+--- Document Chunk 903 ---
+SN
+
+--- Document Chunk 904 ---
+报文序列吕 ,初始值为 1,每
+
+--- Document Chunk 905 ---
+次报文依次累加,累计至
+
+--- Document Chunk 906 ---
+OxFFRFFFPFF 后,下一次重新从
+
+--- Document Chunk 907 ---
+1 开始累加
+
+--- Document Chunk 908 ---
+ALARM(1)
+
+--- Document Chunk 909 ---
+ALARM_NUM
+
+--- Document Chunk 910 ---
+ALARM_DE CREP
+
+--- Document Chunk 911 ---
+[         y
+
+--- Document Chunk 912 ---
+ALARM(n)
+
+--- Document Chunk 913 ---
+ALARM_PAQAS
+
+--- Document Chunk 914 ---
+Private
+
+--- Document Chunk 915 ---
+END
+
+--- Document Chunk 916 ---
+BRIA AL 0x55
+
+--- Document Chunk 917 ---
+CRC
+
+--- Document Chunk 918 ---
+CRC Pes. BES aL IB ALLEN
+
+--- Document Chunk 919 ---
+到END
+
+--- Document Chunk 920 ---
+9.3.2.3 版本信息
+
+--- Document Chunk 921 ---
+RAK
+
+--- Document Chunk 922 ---
+规定了 ATS 发送给 MSS 的版本信息内容。
+
+--- Document Chunk 923 ---
+表11 ATS 发送给 MSS 的版本信息帧
+
+--- Document Chunk 924 ---
+接口内容
+
+--- Document Chunk 925 ---
+HEADER
+
+--- Document Chunk 926 ---
+帧开始人慰志
+
+--- Document Chunk 927 ---
+默认值:OxAA
+
+--- Document Chunk 928 ---
+25
+
+--- Document Chunk 929 ---
+--- Page 31 ---
+
+--- Document Chunk 930 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 931 ---
+表 11
+
+--- Document Chunk 932 ---
+ATS 发送给 MSS 的版本信息帧(续)
+
+--- Document Chunk 933 ---
+接口内容
+
+--- Document Chunk 934 ---
+字节长度
+
+--- Document Chunk 935 ---
+fh 述
+
+--- Document Chunk 936 ---
+帧长度(从 MSG_ID 开始到
+
+--- Document Chunk 937 ---
+°   ae He)
+
+--- Document Chunk 938 ---
+                  消息 ID
+
+--- Document Chunk 939 ---
+Me            '   BRIA AL 10552
+
+--- Document Chunk 940 ---
+STAND                        6      年.月.时、分.秒各占 1
+
+--- Document Chunk 941 ---
+                                     个字竹(北京时间)
+
+--- Document Chunk 942 ---
+HME A MT
+
+--- Document Chunk 943 ---
+次报文依次累加，
+
+--- Document Chunk 944 ---
+SN                                     4
+
+--- Document Chunk 945 ---
+ATS_ID                                    4         ATS i fr Ha
+
+--- Document Chunk 946 ---
+VERSION_NUM                            2        WR AS SBC
+
+--- Document Chunk 947 ---
+DEVICE_ID(1)               4         BS fe (1) i
+
+--- Document Chunk 948 ---
+DEVICE (1)                     1
+
+--- Document Chunk 949 ---
+DEVICE VERSION (1) | 4       设备(1)版本全
+
+--- Document Chunk 950 ---
+DEVICE_ID(n)               4         设备(n)编外
+
+--- Document Chunk 951 ---
+DEVICE (n)                                       一
+
+--- Document Chunk 952 ---
+DEVICE _VERSION (n)      4        设备(n)版本号
+
+--- Document Chunk 953 ---
+Private                                     N         Mo AER
+
+--- Document Chunk 954 ---
+帧的结束祭识
+
+--- Document Chunk 955 ---
+                                      1
+
+--- Document Chunk 956 ---
+END                                            默认值:0x55
+
+--- Document Chunk 957 ---
+CRC BE se, HE Se aE FLA LEN
+
+--- Document Chunk 958 ---
+CRC                                   4
+
+--- Document Chunk 959 ---
+到 END
+
+--- Document Chunk 960 ---
+9.3.2.4 站场信息
+
+--- Document Chunk 961 ---
+表 12 规定了 ATS 发送给 MSS 的站场信息内容。
+
+--- Document Chunk 962 ---
+26
+
+--- Document Chunk 963 ---
+--- Page 32 ---
+
+--- Document Chunk 964 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 965 ---
+表12 ATS 发送给 MSS 的站场信息由
+
+--- Document Chunk 966 ---
+接口内容         字节长度
+
+--- Document Chunk 967 ---
+帧开始标志
+
+--- Document Chunk 968 ---
+HEADER                   1       默认值:OxAA
+
+--- Document Chunk 969 ---
+LEN                         5       a 长度(从 MSG_ID 开始到 CRC 校验结
+
+--- Document Chunk 970 ---
+束)
+
+--- Document Chunk 971 ---
+wep                    '       默认值:0x53
+
+--- Document Chunk 972 ---
+STAMP                     6       全 STL IE AP Bb A HD EW Cle it
+
+--- Document Chunk 973 ---
+时间)
+
+--- Document Chunk 974 ---
+报文庄列号,初始人疆为1每次报文依次
+
+--- Document Chunk 975 ---
+SN                            4      累加.累计至 ONFFEFFFFF 后,下一次重新
+
+--- Document Chunk 976 ---
+加0,从1开始
+
+--- Document Chunk 977 ---
+        .                          FHLB CIE EE EL HL
+
+--- Document Chunk 978 ---
+站场状态数据长1             状态数据长度
+
+--- Document Chunk 979 ---
+站场状态数据              N      用户自定义
+
+--- Document Chunk 980 ---
+，                  FI    EAS UE PN A JH
+
+--- Document Chunk 981 ---
+站场回步数据长度           2          ，
+
+--- Document Chunk 982 ---
+站场回步数据长               bel J Mah Kee
+
+--- Document Chunk 983 ---
+站场同步数据              N      用户明定义
+
+--- Document Chunk 984 ---
+-     ，       .                  FAN SAR BRR IRE ASU A EB OY AE
+
+--- Document Chunk 985 ---
+车次追踪数据长度           2
+
+--- Document Chunk 986 ---
+车次追踪数据长度            2     追踪数据长度
+
+--- Document Chunk 987 ---
+车次追踪数据               N       用户自定义
+
+--- Document Chunk 988 ---
+找述除长度本身的两个字节以外的临时
+
+--- Document Chunk 989 ---
+临时限速状态数据长         2     限速状态数据长度
+
+--- Document Chunk 990 ---
+临时限速状态数据           N       用户白定义
+
+--- Document Chunk 991 ---
+描述除长度本身的两个字节以外的牵引
+
+--- Document Chunk 992 ---
+供电信息长度
+
+--- Document Chunk 993 ---
+牵引供电信息长度              2      供电信息长度
+
+--- Document Chunk 994 ---
+牵引供电信息               N       用户自定义
+
+--- Document Chunk 995 ---
+27
+
+--- Document Chunk 996 ---
+--- Page 33 ---
+
+--- Document Chunk 997 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 998 ---
+表12 ATS 发送给 MSS 的站场信息帧
+
+--- Document Chunk 999 ---
+DELL PY #F           字节长度                   描
+
+--- Document Chunk 1000 ---
+Private                         N         自定义字段
+
+--- Document Chunk 1001 ---
+帧的结束标识
+
+--- Document Chunk 1002 ---
+END                           '         默认值:0x55
+
+--- Document Chunk 1003 ---
+CRC                           4     |   CRC 以验 ,以验范围从 LEN 到 END
+
+--- Document Chunk 1004 ---
+9. 3.2.5
+
+--- Document Chunk 1005 ---
+表 13 规定了 ATS 发送给 MSS 的操作信息内容
+
+--- Document Chunk 1006 ---
+表13 ATS 发送给 MSS 的操作信息帧
+
+--- Document Chunk 1007 ---
+接口内容            字节长度               iti     it
+
+--- Document Chunk 1008 ---
+ane                                   帧开始慰志
+
+--- Document Chunk 1009 ---
+HEADER                         1        MIA MEOSAA
+
+--- Document Chunk 1010 ---
+帧长度(从 MSG_ID 厅始到 CRO RE
+
+--- Document Chunk 1011 ---
+oy                           >
+
+--- Document Chunk 1012 ---
+LEN                             > l geetetey
+
+--- Document Chunk 1013 ---
+ops                                     消息 ID
+
+--- Document Chunk 1014 ---
+MG                                 |            BRIA Hi 20054
+
+--- Document Chunk 1015 ---
+.    ，                 |          4B LE a} RE ED EY
+
+--- Document Chunk 1016 ---
+STAMI                                           °         (北京时间)
+
+--- Document Chunk 1017 ---
+报文床列只,初始值为1等次报文
+
+--- Document Chunk 1018 ---
+SN                             4     Rev BM, Rib OxFFFFFFFF 后, 下
+
+--- Document Chunk 1019 ---
+一次重新间0,从1 开始  :
+
+--- Document Chunk 1020 ---
+RECORD_NUM                    2        PEAR Ic ok ER
+
+--- Document Chunk 1021 ---
+:               描述本条操作的长度,表示从源机
+
+--- Document Chunk 1022 ---
+操作记录长度       2     器ID 到命令参数最后一个字节的字
+
+--- Document Chunk 1023 ---
+RECORD                    -
+
+--- Document Chunk 1024 ---
+(1)          源届器 ID             4        设备 1D
+
+--- Document Chunk 1025 ---
+1           用户自定义
+
+--- Document Chunk 1026 ---
+不定长       用户白定义
+
+--- Document Chunk 1027 ---
+28
+
+--- Document Chunk 1028 ---
+--- Page 34 ---
+
+--- Document Chunk 1029 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1030 ---
+表13 ATS 发送给 MSS 的操作信息帧(续)
+
+--- Document Chunk 1031 ---
+接口内容             EWE
+
+--- Document Chunk 1032 ---
+FTA AR RR EY IRIE, 28 aS OL
+
+--- Document Chunk 1033 ---
+操作记录长度       2     器ID 到命令参数最后一个字竹的字
+
+--- Document Chunk 1034 ---
+节数
+
+--- Document Chunk 1035 ---
+RECORD
+
+--- Document Chunk 1036 ---
+(n)            WALA ID              4          设备 ID
+
+--- Document Chunk 1037 ---
+操作类型              1         用户昌定义
+
+--- Document Chunk 1038 ---
+PETE BK           AEN      用户生定义
+
+--- Document Chunk 1039 ---
+Private                                        自定义字段
+
+--- Document Chunk 1040 ---
+END
+
+--- Document Chunk 1041 ---
+CRC
+
+--- Document Chunk 1042 ---
+9.3.3 MSS一ATS
+
+--- Document Chunk 1043 ---
+ELLY 4
+
+--- Document Chunk 1044 ---
+HEADER                                & ,默认值:0xAA                   ]
+
+--- Document Chunk 1045 ---
+LEN                  2         帧长度(从 MSG_ID 开始到 CRC BESO 4H HE)
+
+--- Document Chunk 1046 ---
+MSC_ID               1         消息 ID ,默认值:0x57
+
+--- Document Chunk 1047 ---
+STAMP               6         年月日.时、分.秒各占 1个字节(北京时间)
+
+--- Document Chunk 1048 ---
+SN                   4         预留字节
+
+--- Document Chunk 1049 ---
+END                  1         woe
+
+--- Document Chunk 1050 ---
+CRC 校验 ,校验范围从 LEN 到 END
+
+--- Document Chunk 1051 ---
+29
+
+--- Document Chunk 1052 ---
+--- Page 35 ---
+
+--- Document Chunk 1053 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1054 ---
+10 MSS - CI 报文规范
+
+--- Document Chunk 1055 ---
+10.1 接口连接方式
+
+--- Document Chunk 1056 ---
+10.1.1 物理接口
+
+--- Document Chunk 1057 ---
+MSS 子系统与联锁子系统维护单元之间采用维护网进行数据通信。
+
+--- Document Chunk 1058 ---
+其中,联锁子系统维护单元提供 1 路标准的以太网接口进行通信;MSS 子
+
+--- Document Chunk 1059 ---
+系统提供标准的以太网接口进行通信:
+
+--- Document Chunk 1060 ---
+10.1.2 动态交互描述
+
+--- Document Chunk 1061 ---
+联锁子系统周期性向 MSS -F 2
+
+--- Document Chunk 1062 ---
+息 .联锁软件版本吕 .联锁没备状
+
+--- Document Chunk 1063 ---
+MSS 子系统周期性发大:次忆
+
+--- Document Chunk 1064 ---
+10.1.3 通信故障处理
+
+--- Document Chunk 1065 ---
+MSS 子系统如果契过祷定时间接收不到联锁子系统的任何数据.则
+
+--- Document Chunk 1066 ---
+MSS 子系统认为与联锁子系统通信和中断;联锁子系统如果超过领定由
+
+--- Document Chunk 1067 ---
+间收不到 MSS 子系统的应答数据,则认为联久子系统与 MSS
+
+--- Document Chunk 1068 ---
+信中断(可选功能) ,此时联锁子系统仍保持周期给 MSS 发送
+
+--- Document Chunk 1069 ---
+不变，
+
+--- Document Chunk 1070 ---
+10.2 通信层次结构描述
+
+--- Document Chunk 1071 ---
+10.2.1 数据链路层
+
+--- Document Chunk 1072 ---
+MAC 子层基于 IEEE 802. 3 标准。
+
+--- Document Chunk 1073 ---
+MAC 头由 14 个字节组成,1 个帧校验序列(4 字节)将被加在
+
+--- Document Chunk 1074 ---
+Ethernet Ua il;
+
+--- Document Chunk 1075 ---
+发送全部信息,包括: 联锁报答信
+
+--- Document Chunk 1076 ---
+kt帧给联锁
+
+--- Document Chunk 1077 ---
+10.2.2 网络层
+
+--- Document Chunk 1078 ---
+本接口使用 IPv4 协议作为网络层的协议。
+
+--- Document Chunk 1079 ---
+10.2.3 ”传输层
+
+--- Document Chunk 1080 ---
+本接口使用 UDP 协议作为传输协议。
+
+--- Document Chunk 1081 ---
+10.2.4 MAR
+
+--- Document Chunk 1082 ---
+本接口实时传送的信息使用自定义的应用层协议。具体内容参见
+
+--- Document Chunk 1083 ---
+10. 3 的规定。
+
+--- Document Chunk 1084 ---
+30
+
+--- Document Chunk 1085 ---
+--- Page 36 ---
+
+--- Document Chunk 1086 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1087 ---
+10.3 接口数据描述
+
+--- Document Chunk 1088 ---
+10. 3.1 数据存储方式和通信校验方法
+
+--- Document Chunk 1089 ---
+接口数据存储方式采用 Big Endian ,低地址存放最高有效字节。
+
+--- Document Chunk 1090 ---
+HF RBH AR AEH TUR RE (CRC).
+
+--- Document Chunk 1091 ---
+生成多项式采用 CRC32(0x04cl1db7) ,按公式(1)计算 ,余子式的初
+
+--- Document Chunk 1092 ---
+始值设为 0xFFFFFFFF。
+
+--- Document Chunk 1093 ---
+10.3.2 ”联锁一MSS
+
+--- Document Chunk 1094 ---
+10. 3.2.1 报警及设备信息
+
+--- Document Chunk 1095 ---
+表 15 规定了联锁发送给 MSS 的报警及设备信息内容。
+
+--- Document Chunk 1096 ---
+HIS 联锁发送给 MSS 的报警及设备信息帧
+
+--- Document Chunk 1097 ---
+大小(Byte)                    eR
+
+--- Document Chunk 1098 ---
+BUT tia
+
+--- Document Chunk 1099 ---
+默认值:0xAA
+
+--- Document Chunk 1100 ---
+HIS BE (A MSG_ID 开始到 CRC 校验结束)
+
+--- Document Chunk 1101 ---
+消息 ID
+
+--- Document Chunk 1102 ---
+默认值:0x40
+
+--- Document Chunk 1103 ---
+年月日.时分\秒各占 1 个字节(北京时间)
+
+--- Document Chunk 1104 ---
+报文序列号 ,初始值为 1 ,每次报文依次累加,累计至
+
+--- Document Chunk 1105 ---
+OxFFFFFFFF 后,下一次重新从 1 开始累加
+
+--- Document Chunk 1106 ---
+重连后序列号继续累加,不置 1
+
+--- Document Chunk 1107 ---
+联锁设备编号
+
+--- Document Chunk 1108 ---
+联锁站场信息
+
+--- Document Chunk 1109 ---
+驱动采集数据
+
+--- Document Chunk 1110 ---
+自定义字引
+
+--- Document Chunk 1111 ---
+帧的结束标识
+
+--- Document Chunk 1112 ---
+默认值:0x55
+
+--- Document Chunk 1113 ---
+CRC 校验 ,校验范围从 LEN 到 END
+
+--- Document Chunk 1114 ---
+31
+
+--- Document Chunk 1115 ---
+--- Page 37 ---
+
+--- Document Chunk 1116 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1117 ---
+10.3.2.2 软件版本信息
+
+--- Document Chunk 1118 ---
+# 16 规定了联锁发送给 MSS 的版本信息内容。
+
+--- Document Chunk 1119 ---
+R16 联锁发送给 MSS 的版本信息帧
+
+--- Document Chunk 1120 ---
+名称                Pes Byte)           描述        国
+
+--- Document Chunk 1121 ---
+;                                         Ui JE fa i al
+
+--- Document Chunk 1122 ---
+HEADER                               1        MRIA (HL :OxAA
+
+--- Document Chunk 1123 ---
+WUE A MSG_ID 开始到CRC
+
+--- Document Chunk 1124 ---
+LEN                          2     oa
+
+--- Document Chunk 1125 ---
+校验结束)
+
+--- Document Chunk 1126 ---
+sc ip                           1       消息 ID
+
+--- Document Chunk 1127 ---
+Men                                               BRIA fied
+
+--- Document Chunk 1128 ---
+TAN                    6     年.月.日时、分.秒各十1
+
+--- Document Chunk 1129 ---
+四                                          个空管(北京时间)
+
+--- Document Chunk 1130 ---
+FRSC AL, MAA 1, tie
+
+--- Document Chunk 1131 ---
+UW He AR UK RI, 累计至
+
+--- Document Chunk 1132 ---
+Sn                                     4     OxFFFFFFEF 后,下 UK TBE
+
+--- Document Chunk 1133 ---
+加                                            1 OF ee BA
+
+--- Document Chunk 1134 ---
+vi 1
+
+--- Document Chunk 1135 ---
+cLID                            4      TABLAS thr Shi
+
+--- Document Chunk 1136 ---
+VERSION _NUM                                   2           版本分总数
+
+--- Document Chunk 1137 ---
+DEVICE_ID(1)             4         设备(1)编全
+
+--- Document Chunk 1138 ---
+DEVICE(1)
+
+--- Document Chunk 1139 ---
+DEVICE _VERSION(1)       4        GE ff (1) WAS
+
+--- Document Chunk 1140 ---
+DEVICE_ID(n)              4         BE fr (m) Shi
+
+--- Document Chunk 1141 ---
+DEVICE(n)                                                              |
+
+--- Document Chunk 1142 ---
+DEVICE _VERSION(n)       4         设备(nm)版本号
+
+--- Document Chunk 1143 ---
+Private                                     N         肯定义字段                |
+
+--- Document Chunk 1144 ---
+;                                                                                                   帧的结束慰识
+
+--- Document Chunk 1145 ---
+EXD                                   '        BRIA HHL 0455
+
+--- Document Chunk 1146 ---
+C                          4      CRC 校验,校验范围从 LEN
+
+--- Document Chunk 1147 ---
+CR                                          |到 END
+
+--- Document Chunk 1148 ---
+32
+
+--- Document Chunk 1149 ---
+--- Page 38 ---
+
+--- Document Chunk 1150 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1151 ---
+10.3.3 MSS一联锁
+
+--- Document Chunk 1152 ---
+表 17 规定了 MSS 发送给联锁的信息内容-
+
+--- Document Chunk 1153 ---
+#17 MSS 发送给联锁的信息帧
+
+--- Document Chunk 1154 ---
+大小(Byte)                         描     述
+
+--- Document Chunk 1155 ---
+默认值:0xAA
+
+--- Document Chunk 1156 ---
+HEADER
+
+--- Document Chunk 1157 ---
+LEN           2        帧长度(从 MSG_ID 开始到 CRO BESS HE)
+
+--- Document Chunk 1158 ---
+MSG_ID
+
+--- Document Chunk 1159 ---
+STAMP
+
+--- Document Chunk 1160 ---
+NP
+
+--- Document Chunk 1161 ---
+11 MSS -计轴报文规范   a 6
+
+--- Document Chunk 1162 ---
+11.1 接口连接方式
+
+--- Document Chunk 1163 ---
+11.1.1 物理接口
+
+--- Document Chunk 1164 ---
+MSS 子系统与计轴子系统维护单元之问采用维护网进行数据通信。
+
+--- Document Chunk 1165 ---
+其中,计轴子系统维护单元提供 !1 路标准的以太网接口进行通信;MSS 子
+
+--- Document Chunk 1166 ---
+系统提供标准的以太网接口进行通信。
+
+--- Document Chunk 1167 ---
+11.1.2 动态交互描述
+
+--- Document Chunk 1168 ---
+计轴子系统维护单元周期性通过维护网向 MSS FOR HE AIK IR
+
+--- Document Chunk 1169 ---
+信息。
+
+--- Document Chunk 1170 ---
+11.1.3 通信故障处理
+
+--- Document Chunk 1171 ---
+MSS 子系统如果超过额定时间接收不到计轴子系统的任何数据,则
+
+--- Document Chunk 1172 ---
+33
+
+--- Document Chunk 1173 ---
+--- Page 39 ---
+
+--- Document Chunk 1174 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1175 ---
+MSS 子系统认为与计轴子系统通信中断;计轴 Fa GEA eA BE
+
+--- Document Chunk 1176 ---
+收不到 MSS 子系统的应答数据 WA TE KBE MSS 子系
+
+--- Document Chunk 1177 ---
+断(可选功能) ,此时计轴子系统仍保持周期给 MSS 发送数据不变-
+
+--- Document Chunk 1178 ---
+11.2 通信层次结构描述
+
+--- Document Chunk 1179 ---
+11.2.1 数据链路层
+
+--- Document Chunk 1180 ---
+MAC 子层基于 IEEE 802. 3 标准。
+
+--- Document Chunk 1181 ---
+MAC 头由 14 个字节组成,1 个帧校验序列(4 字节) 将被加在
+
+--- Document Chunk 1182 ---
+Ethernet 帧后面
+
+--- Document Chunk 1183 ---
+11. 2.2 ABE
+
+--- Document Chunk 1184 ---
+本接口使用 IPv4 协议作为网络层的协议。
+
+--- Document Chunk 1185 ---
+11.2.3 ”传输层
+
+--- Document Chunk 1186 ---
+本接口实时传送的信息使用 UDP 协议作为传输协议 。
+
+--- Document Chunk 1187 ---
+11.2.4 应用层
+
+--- Document Chunk 1188 ---
+本接口实时传送的信息使用自定义的应用层协议。上基体内容见
+
+--- Document Chunk 1189 ---
+11.3 的规定,，
+
+--- Document Chunk 1190 ---
+11. 3  接口数据描述
+
+--- Document Chunk 1191 ---
+11.3.1 数据存储方式
+
+--- Document Chunk 1192 ---
+接口数据存储方式采用 Big Endian ,低地址存放肛高有效字节。
+
+--- Document Chunk 1193 ---
+11.3.2 计轴一MSS
+
+--- Document Chunk 1194 ---
+表 18 规定了计轴发送给 MSS 的信息内容。
+
+--- Document Chunk 1195 ---
+RS 计轴发送给 MSS 的信息帧
+
+--- Document Chunk 1196 ---
+接口内容  字节大小    描述
+
+--- Document Chunk 1197 ---
+LEN        BE HE LB BE)
+
+--- Document Chunk 1198 ---
+:   7a BEEIAEE
+
+--- Document Chunk 1199 ---
+cramp     ; ARR OEE TE iF IR
+
+--- Document Chunk 1200 ---
+34
+
+--- Document Chunk 1201 ---
+--- Page 40 ---
+
+--- Document Chunk 1202 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1203 ---
+RIS H+ MRK MSS 的信息帧(续)
+
+--- Document Chunk 1204 ---
+报文序列号 ,初始值为 1 ,每次报文依次
+
+--- Document Chunk 1205 ---
+中                      4     累加,累计至 0xFFFFFFFF 后,下一次重新
+
+--- Document Chunk 1206 ---
+回0,从1开始
+
+--- Document Chunk 1207 ---
+AXLE_INDEX                       2 |  计轴子系统的车站编号
+
+--- Document Chunk 1208 ---
+AXLE_SECTION _ STATUS                      计轴区段(1)状态
+
+--- Document Chunk 1209 ---
+(1)                                     状态根据厂家信息进行约定
+
+--- Document Chunk 1210 ---
+AXLE_SECTION _ STATUS                      计轴区段(n) 状态
+
+--- Document Chunk 1211 ---
+(n)                                     状态根据厂家信息进行约定
+
+--- Document Chunk 1212 ---
+AXLE_ SENSOR _ STATUS |                    传感器(1) 状态
+
+--- Document Chunk 1213 ---
+(1)                                     状态根据厂家信息进行约定            ]
+
+--- Document Chunk 1214 ---
+AXLE_ SENSOR _ STATUS               传感器(n) RAS
+
+--- Document Chunk 1215 ---
+(n)                                     状态根据厂家信息进行约定
+
+--- Document Chunk 1216 ---
+AXLE_TYPE_NUM                    2            设备种类
+
+--- Document Chunk 1217 ---
+AXLE_TYPE(1) _STATUS                    TYPE(1)类型设备编号(1) 的状态
+
+--- Document Chunk 1218 ---
+(1)                                     状态根据厂家信息进行约定
+
+--- Document Chunk 1219 ---
+AXLE_TYPE(1) _STATUS                   TYPE(1)类型设备编号(n) 的状态
+
+--- Document Chunk 1220 ---
+(n)                                     状态根据厂家信息进行约定
+
+--- Document Chunk 1221 ---
+AXLE_TYPE(n)_STATUS|         TYPE(n)类型设备编号(1)的状态
+
+--- Document Chunk 1222 ---
+(1)                                     状态根据厂家信息进行约定
+
+--- Document Chunk 1223 ---
+AXLE_TYPE (n) _STATUS                      TYPE(n)类型设备编号(n)的状态
+
+--- Document Chunk 1224 ---
+(n)                                     状态根据厂家信息进行约定
+
+--- Document Chunk 1225 ---
+Private                                    N            自定义字段
+
+--- Document Chunk 1226 ---
+帧的结束标识
+
+--- Document Chunk 1227 ---
+默认值 :0xAA
+
+--- Document Chunk 1228 ---
+END
+
+--- Document Chunk 1229 ---
+11.3.3 MSS一计轴
+
+--- Document Chunk 1230 ---
+表 19 规定了 MSS 发送给计轴的信息内容。
+
+--- Document Chunk 1231 ---
+35
+
+--- Document Chunk 1232 ---
+--- Page 41 ---
+
+--- Document Chunk 1233 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1234 ---
+表19 MSS 发送给计轴的信息帧
+
+--- Document Chunk 1235 ---
+接口内容     F KA                         描     述
+
+--- Document Chunk 1236 ---
+.         OTF We a ods
+
+--- Document Chunk 1237 ---
+HEADER |      1         ORD ML OKA
+
+--- Document Chunk 1238 ---
+LEN              2         帧长度(从 MSG_ID 开始到 CRC 校验结束)
+
+--- Document Chunk 1239 ---
+MSG_ID    1   HG ID
+
+--- Document Chunk 1240 ---
+四                      默认侦:0x78
+
+--- Document Chunk 1241 ---
+STAMP           6      | 年月中.时、分.秒各占工个字节(北京时间)
+
+--- Document Chunk 1242 ---
+RCV_SN        |          4                 Rip ng A Ae tr CY
+
+--- Document Chunk 1243 ---
+END     1
+
+--- Document Chunk 1244 ---
+CRC      4    CRC 校验,计算范围从 MSG_LD 到 END
+
+--- Document Chunk 1245 ---
+_I
+
+--- Document Chunk 1246 ---
+12) MSS -电源报文规范
+
+--- Document Chunk 1247 ---
+12.1 接口连接方式
+
+--- Document Chunk 1248 ---
+12.1.1 物理接口
+
+--- Document Chunk 1249 ---
+MSS 子系统与电源子系统维护单元之间采用维护网进行数据通信。
+
+--- Document Chunk 1250 ---
+其中,电源子系统维护单元提供 1 路标准的以太网接口进行适信;MSS 子
+
+--- Document Chunk 1251 ---
+系统提供标准的以太网接口进行通信,
+
+--- Document Chunk 1252 ---
+12.1.2 MARE
+
+--- Document Chunk 1253 ---
+电源子系统维护单元周期性通过维护网向 MSS A BE RIK AR
+
+--- Document Chunk 1254 ---
+信息。
+
+--- Document Chunk 1255 ---
+12.1.3 通信故障处理
+
+--- Document Chunk 1256 ---
+MSS 子系统如果超过额定时间接收不到电源子系统的任何数据,则
+
+--- Document Chunk 1257 ---
+MSS 子系统认为与电源子系统通信中断;电源子系统如果超过额定时间
+
+--- Document Chunk 1258 ---
+收不到 MSS 子系统的应答数据,则认为电源子系统与 MSS 子系统通信中
+
+--- Document Chunk 1259 ---
+36
+
+--- Document Chunk 1260 ---
+--- Page 42 ---
+
+--- Document Chunk 1261 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1262 ---
+断(可选功能) ,此时电源子系统仍保持周期给 MSS 发送数据不变。
+
+--- Document Chunk 1263 ---
+12.2 通信层次结构描述
+
+--- Document Chunk 1264 ---
+12.2.1 数据链路层
+
+--- Document Chunk 1265 ---
+MAC 子层基于 IEEE 802. 3 标准。
+
+--- Document Chunk 1266 ---
+MAC 头由 14 个字节组成,1 个帧校验序列(4 字节) 将被加在
+
+--- Document Chunk 1267 ---
+Ethernet WUBI.
+
+--- Document Chunk 1268 ---
+12.2.2 网络层
+
+--- Document Chunk 1269 ---
+本接口使用 耳v4 协议作为网络层的协议 。
+
+--- Document Chunk 1270 ---
+12.2.3 ”传输层
+
+--- Document Chunk 1271 ---
+本接口实时传送的信息使用
+
+--- Document Chunk 1272 ---
+12.2.4 应用层
+
+--- Document Chunk 1273 ---
+本接口实时传;
+
+--- Document Chunk 1274 ---
+12.3 的规定。
+
+--- Document Chunk 1275 ---
+始值设为 0xFFFFFFFF。
+
+--- Document Chunk 1276 ---
+12.3.2 ”电源一MSS
+
+--- Document Chunk 1277 ---
+模拟量数目/状态量数目/告警量数目:
+
+--- Document Chunk 1278 ---
+按照实际值大小传输。如果某个量数目为0,那么这个量的内容为
+
+--- Document Chunk 1279 ---
+空 ,其后紧接的是下一个量的数目。
+
+--- Document Chunk 1280 ---
+BUR:
+
+--- Document Chunk 1281 ---
+a) 电源屏模拟量按照字节(Byte) 传输,1 个模拟量占 2 个字节 ,模
+
+--- Document Chunk 1282 ---
+拟量数值放大 100 倍;
+
+--- Document Chunk 1283 ---
+b) UPS 模拟量按照标准的浮点数传输,1 个模拟量站 4 个字节 ,模
+
+--- Document Chunk 1284 ---
+拟量数值不放大。
+
+--- Document Chunk 1285 ---
+37
+
+--- Document Chunk 1286 ---
+--- Page 43 ---
+
+--- Document Chunk 1287 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1288 ---
+RSE:
+
+--- Document Chunk 1289 ---
+a) 电源屏状态量按照字节(Byte)传输,1 个状态量占用 1 SH
+
+--- Document Chunk 1290 ---
+(Byte) ;
+
+--- Document Chunk 1291 ---
+b) UPS无状态量。
+
+--- Document Chunk 1292 ---
+告警量:
+
+--- Document Chunk 1293 ---
+a) ”电源屏及 UPS 告警量按照位(Bit) 传输,1 个告警量占用 1 位
+
+--- Document Chunk 1294 ---
+(Bit) ,总共需要的占用的字节数如下:
+
+--- Document Chunk 1295 ---
+1) 如果告警量数量是 8 的整数倍,则告警量占用的字节数
+
+--- Document Chunk 1296 ---
+为:告警量数量/8 ;
+
+--- Document Chunk 1297 ---
+2) 如果告警量数量不是 8 的整数倍,则告警量占用的字节数
+
+--- Document Chunk 1298 ---
+为:告警量数量/8 + 1 。
+
+--- Document Chunk 1299 ---
+b) 电源屏及 UPS 告警量由每个字节低位(0 位)向高位(7 位)依
+
+--- Document Chunk 1300 ---
+次填充,如果当前的字节被填充完,则填充下一个字节。如果
+
+--- Document Chunk 1301 ---
+告警量不足 8 的整数倍,则剩余的位填充 0。
+
+--- Document Chunk 1302 ---
+ESSE BUA 9 个告警需要传输,则需要用 2 个字节传输。第一个字节
+
+--- Document Chunk 1303 ---
+0 ~7位依次填充告警 1 ~8 ,第二个字节 0 位填充告警9,第二个字节 1 ~7 位
+
+--- Document Chunk 1304 ---
+没有使用,填充0。见表20。
+
+--- Document Chunk 1305 ---
+表 20 给出了电源告警实例。
+
+--- Document Chunk 1306 ---
+表20 电源告警实例
+
+--- Document Chunk 1307 ---
+第一个字节| (入车1) 0(告警2)|0(告警3)|1(告警4)|1(告警5)|0(告警6)|0(告著7)
+
+--- Document Chunk 1308 ---
+第二个字节|1(告警9)|0(填充0)|0(填充0)|0(填充0)|0(填充0)|0(填充0)|0(填充0)
+
+--- Document Chunk 1309 ---
+12. 3.2.1 电源报文
+
+--- Document Chunk 1310 ---
+表 21 规定了电源发送给 MSS 的信息内容。
+
+--- Document Chunk 1311 ---
+38
+
+--- Document Chunk 1312 ---
+--- Page 44 ---
+
+--- Document Chunk 1313 ---
+表21
+
+--- Document Chunk 1314 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1315 ---
+电源发送给 MSS 的电源信息帧
+
+--- Document Chunk 1316 ---
+帧开始标志
+
+--- Document Chunk 1317 ---
+默认值:0xAA
+
+--- Document Chunk 1318 ---
+帧长度(从 MSG_
+
+--- Document Chunk 1319 ---
+ID 开始到 CRC 校
+
+--- Document Chunk 1320 ---
+验结束)
+
+--- Document Chunk 1321 ---
+消息 ID
+
+--- Document Chunk 1322 ---
+默认值:0x30
+
+--- Document Chunk 1323 ---
+STAMP
+
+--- Document Chunk 1324 ---
+年月、日.时、
+
+--- Document Chunk 1325 ---
+分\、秒各占 1 个
+
+--- Document Chunk 1326 ---
+字节(北京时间)
+
+--- Document Chunk 1327 ---
+STATION_INDEX
+
+--- Document Chunk 1328 ---
+站点编号
+
+--- Document Chunk 1329 ---
+报文序列号,初
+
+--- Document Chunk 1330 ---
+始值为 1,每次报
+
+--- Document Chunk 1331 ---
+文依次累加,累计
+
+--- Document Chunk 1332 ---
+至 0xFFFFFFFF
+
+--- Document Chunk 1333 ---
+后,下一次重新
+
+--- Document Chunk 1334 ---
+回0,从1开始 |
+
+--- Document Chunk 1335 ---
+PMS_INPUT_ANALOG
+
+--- Document Chunk 1336 ---
+INPUT_ANALOG_NUM
+
+--- Document Chunk 1337 ---
+系统输入模拟
+
+--- Document Chunk 1338 ---
+重个数n
+
+--- Document Chunk 1339 ---
+INPUT_ANALOG(1)
+
+--- Document Chunk 1340 ---
+系统输入模拟
+
+--- Document Chunk 1341 ---
+量1
+
+--- Document Chunk 1342 ---
+JINPUT_ANALOG(n)
+
+--- Document Chunk 1343 ---
+系统输入模拟
+
+--- Document Chunk 1344 ---
+fin
+
+--- Document Chunk 1345 ---
+PMS_SWITCH_STATE
+
+--- Document Chunk 1346 ---
+SWITCH_STATE_NUM
+
+--- Document Chunk 1347 ---
+开关状态量个
+
+--- Document Chunk 1348 ---
+Hen
+
+--- Document Chunk 1349 ---
+SWITCH_STATE(1)
+
+--- Document Chunk 1350 ---
+开关状态量 1
+
+--- Document Chunk 1351 ---
+0: 断开; 1:
+
+--- Document Chunk 1352 ---
+闭合
+
+--- Document Chunk 1353 ---
+--- Page 45 ---
+
+--- Document Chunk 1354 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1355 ---
+R21 电源发送给 MSS 的电源信息帧(续)
+
+--- Document Chunk 1356 ---
+接1内容                     字节大小      fi
+
+--- Document Chunk 1357 ---
+FP RAR ASHE n
+
+--- Document Chunk 1358 ---
+PMS_SWITCH_STATE — | SWITCH_STATE(n)            1         0: 断 JF
+
+--- Document Chunk 1359 ---
+闭合
+
+--- Document Chunk 1360 ---
+| 输入输出告管
+
+--- Document Chunk 1361 ---
+ALARM_NUM            2
+
+--- Document Chunk 1362 ---
+一                            个数"
+
+--- Document Chunk 1363 ---
+ne Hey 1
+
+--- Document Chunk 1364 ---
+ALARM(1                   1 Bit
+
+--- Document Chunk 1365 ---
+PMS_ALARM                  )                     ，      0 正常51 告各
+
+--- Document Chunk 1366 ---
+输入输出告
+
+--- Document Chunk 1367 ---
+ALARM(n)              1Bit |等m
+
+--- Document Chunk 1368 ---
+0正常/1 告党
+
+--- Document Chunk 1369 ---
+OUTPUT_ ANALOG_NUM      2       fait BEAL Me Be
+
+--- Document Chunk 1370 ---
+hin
+
+--- Document Chunk 1371 ---
+PMS_OUTPUT_ ANALOG |
+
+--- Document Chunk 1372 ---
+OUTPUT_ ANALOG(1)        2       4 tN SEAL Ae 1
+
+--- Document Chunk 1373 ---
+|
+
+--- Document Chunk 1374 ---
+OUTPUT_ ANALOG(n)         2        输出模拟县
+
+--- Document Chunk 1375 ---
+PWR_MODULE_ TYPE_NUM                        1     7  Bik BO
+
+--- Document Chunk 1376 ---
+Km
+
+--- Document Chunk 1377 ---
+:           ，                                   类型 1 的模块
+
+--- Document Chunk 1378 ---
+PWR_MODULE_TYPE(1) TYPE                1
+
+--- Document Chunk 1379 ---
+-        “yr                                  类型三
+
+--- Document Chunk 1380 ---
+类型 1 Ay BEY
+
+--- Document Chunk 1381 ---
+PWR_MODULE_TYPE(1) NUM                     1       FMLA BE
+
+--- Document Chunk 1382 ---
+Bun
+
+--- Document Chunk 1383 ---
+PWR_MODULE_ID             1        模块序号
+
+--- Document Chunk 1384 ---
+PWR_MODULE _ OUTPUT    5      模块输出异拟
+
+--- Document Chunk 1385 ---
+_NUM                        一      hk He n
+
+--- Document Chunk 1386 ---
+PWR_MODULE_TYPE
+
+--- Document Chunk 1387 ---
+(it             PWR _ MODULE _ OUTPUT    5      Hee fg BEAD
+
+--- Document Chunk 1388 ---
+(1)                            ~      fed
+
+--- Document Chunk 1389 ---
+PWR _ MODULE _ PUTPUT      2         异块输出模拟
+
+--- Document Chunk 1390 ---
+(n)                                fin
+
+--- Document Chunk 1391 ---
+40
+
+--- Document Chunk 1392 ---
+--- Page 46 ---
+
+--- Document Chunk 1393 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1394 ---
+表21 电源发送给 MSS 的电源信息帧(续)
+
+--- Document Chunk 1395 ---
+PWR _ MODULE _ STATUS
+
+--- Document Chunk 1396 ---
+.NUM
+
+--- Document Chunk 1397 ---
+PWR _ MODULE _ STATUS
+
+--- Document Chunk 1398 ---
+(1)                            i.
+
+--- Document Chunk 1399 ---
+PWR _ MODULE _ STATUS
+
+--- Document Chunk 1400 ---
+PWR_MODULE_TYPE | (n)   7                                !           BRREMn
+
+--- Document Chunk 1401 ---
+(1)_1                     PWR _MODULE _ ALARM|   本         模块告警量数
+
+--- Document Chunk 1402 ---
+_NUM                                 fin
+
+--- Document Chunk 1403 ---
+PWR                    M                           1
+
+--- Document Chunk 1404 ---
+(1    OCWATION |  iH poe aed
+
+--- Document Chunk 1405 ---
+B® ATODULE _ AL          a      模块状态量 n
+
+--- Document Chunk 1406 ---
+A.           0 正常/1 告警
+
+--- Document Chunk 1407 ---
+°          模块序号
+
+--- Document Chunk 1408 ---
+模块输出模拟
+
+--- Document Chunk 1409 ---
+U                         di       | VK n
+
+--- Document Chunk 1410 ---
+KY
+
+--- Document Chunk 1411 ---
+模块状态量 1
+
+--- Document Chunk 1412 ---
+及  UL
+
+--- Document Chunk 1413 ---
+7       料_OUT|
+
+--- Document Chunk 1414 ---
+_ MODULE _ OUTPUT,          模块输出模拟
+
+--- Document Chunk 1415 ---
+                        Ai               m1
+
+--- Document Chunk 1416 ---
+PI IP                   U                        模块输出模拟
+
+--- Document Chunk 1417 ---
+(n)                                   和量n
+
+--- Document Chunk 1418 ---
+PWR _MODULE _ STATUS          模块状态量数
+
+--- Document Chunk 1419 ---
+PWR _MODULE _ TYPE  二                                         zat
+
+--- Document Chunk 1420 ---
+|
+
+--- Document Chunk 1421 ---
+(1) _m _~MODULE _ STATUS                    模块状态量 1
+
+--- Document Chunk 1422 ---
+PWR _MODULE          ‘ATU:
+
+--- Document Chunk 1423 ---
+ne -    SSTETUB       模块状态量n
+
+--- Document Chunk 1424 ---
+PWR _MODULE _ ALARM               |    模块告警量数
+
+--- Document Chunk 1425 ---
+_NUM                                    fin
+
+--- Document Chunk 1426 ---
+PWR _ MODULE _ ALARM                   模块告警量 1
+
+--- Document Chunk 1427 ---
+(1)               0 正常/1 SR
+
+--- Document Chunk 1428 ---
+PWR _MODULE _ ALARM                   模块告警重 "
+
+--- Document Chunk 1429 ---
+(n)                                                     0 正常/1 告警
+
+--- Document Chunk 1430 ---
+--- Page 47 ---
+
+--- Document Chunk 1431 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1432 ---
+表21 电源发送给 MSS 的电源信息帧(续)
+
+--- Document Chunk 1433 ---
+字节大小
+
+--- Document Chunk 1434 ---
+类型 m 的模块
+
+--- Document Chunk 1435 ---
+类型码
+
+--- Document Chunk 1436 ---
+类型 m 的模块
+
+--- Document Chunk 1437 ---
+数量n
+
+--- Document Chunk 1438 ---
+模块序号
+
+--- Document Chunk 1439 ---
+PWR_MODULE_OUTPUT_               模块输出模拟
+
+--- Document Chunk 1440 ---
+NUM                                  重个数 n
+
+--- Document Chunk 1441 ---
+PWR _ MODULE _OUTPUT          模块输出模拟
+
+--- Document Chunk 1442 ---
+(1)                                       量1
+
+--- Document Chunk 1443 ---
+PWR_MODULE _OUTPUT                      模块输出模拟
+
+--- Document Chunk 1444 ---
+(n)                                   in
+
+--- Document Chunk 1445 ---
+PWR_ MODULE _STATUS_                              BRREEK
+
+--- Document Chunk 1446 ---
+PWR_MODULE_TYPE(m)_TYPE                                                  1
+
+--- Document Chunk 1447 ---
+PWR_MODULE_TYPE(m)_NUM                                                   1
+
+--- Document Chunk 1448 ---
+PWR_MODULE_ID
+
+--- Document Chunk 1449 ---
+NUM                        |             fin
+
+--- Document Chunk 1450 ---
+besa. >  PWR __ MODULE _ STATUS
+
+--- Document Chunk 1451 ---
+(m)_1          i    本      1   模块状态量 1
+
+--- Document Chunk 1452 ---
+(1)
+
+--- Document Chunk 1453 ---
+PWR _ MODULE _ STATUS
+
+--- Document Chunk 1454 ---
+1           模块状态量 n
+
+--- Document Chunk 1455 ---
+(n)
+
+--- Document Chunk 1456 ---
+PWR_MODULE _ALARM_      A          RAH
+
+--- Document Chunk 1457 ---
+NUM                                           数量
+
+--- Document Chunk 1458 ---
+PWR - MODULE - ALARM) | Bit        模块告警 1
+
+--- Document Chunk 1459 ---
+外
+
+--- Document Chunk 1460 ---
+(1)                       0 正常/1 告警
+
+--- Document Chunk 1461 ---
+PWR_MODULE_ ALARM| | Bi        模块告警n
+
+--- Document Chunk 1462 ---
+(n)                              ‘       0 正常/1 告警
+
+--- Document Chunk 1463 ---
+模块序号
+
+--- Document Chunk 1464 ---
+PWR_MODULE_OUTPUT_          模块输出模拟
+
+--- Document Chunk 1465 ---
+PWR - MODULE _TYPE | NUM                                 2       量个数n
+
+--- Document Chunk 1466 ---
+(m)_n
+
+--- Document Chunk 1467 ---
+PWR _ MODULE _ OUTPUT                        模块输出模拟
+
+--- Document Chunk 1468 ---
+(1)                       量1
+
+--- Document Chunk 1469 ---
+PWR_MODULE_ID
+
+--- Document Chunk 1470 ---
+42
+
+--- Document Chunk 1471 ---
+--- Page 48 ---
+
+--- Document Chunk 1472 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1473 ---
+表21 电源发送给 MSS 的电源信息帧(续)
+
+--- Document Chunk 1474 ---
+接口内容
+
+--- Document Chunk 1475 ---
+PWR_MODULE _ OUTPUT      >        模块输出模拟
+
+--- Document Chunk 1476 ---
+(n)                       in          Ho
+
+--- Document Chunk 1477 ---
+PWR_MODULE _ STATUS _      a    | 模块状态量数
+
+--- Document Chunk 1478 ---
+NUM                                | Bon
+
+--- Document Chunk 1479 ---
+ron _ MODULE _ STATUS        7     |    模决状态量1
+
+--- Document Chunk 1480 ---
+PWR _ MODULE _ TYPE| PWR _ MODULE _ STATUS        1           模块状态重"
+
+--- Document Chunk 1481 ---
+(m)_n                   (n)
+
+--- Document Chunk 1482 ---
+PWR_MODULE_ ALARM _      5        模块告警量数
+
+--- Document Chunk 1483 ---
+NUM                                 | it n
+
+--- Document Chunk 1484 ---
+PWR_ MODULE - ALARM| | Bi        模块告警量 1
+
+--- Document Chunk 1485 ---
+(1)                                     0 正常/1 告警
+
+--- Document Chunk 1486 ---
+PWR_ MODULE - ALARM| 1 Bi        模块告警量 n |
+
+--- Document Chunk 1487 ---
+(n)                                     0 正常/1 告警
+
+--- Document Chunk 1488 ---
+Private                                                  N         自定义字段
+
+--- Document Chunk 1489 ---
+帧的结束标识
+
+--- Document Chunk 1490 ---
+END                                                          7          默认值:0x55
+
+--- Document Chunk 1491 ---
+CRC 校验, 计
+
+--- Document Chunk 1492 ---
+CRC                                   4    算范围从 MSG _
+
+--- Document Chunk 1493 ---
+ID 到 END
+
+--- Document Chunk 1494 ---
+12. 3. 2. 2 ”UPS 报文
+
+--- Document Chunk 1495 ---
+表 22 规定了电源发送给 MSS 的 UPS 信息内容。
+
+--- Document Chunk 1496 ---
+表22 电源发送给 MSS 的 UPS 信息帧
+
+--- Document Chunk 1497 ---
+帧开始标志
+
+--- Document Chunk 1498 ---
+默认值:0xAA
+
+--- Document Chunk 1499 ---
+WHR BE (JA MSG_ID 开始到 CRC 校验结
+
+--- Document Chunk 1500 ---
+东)
+
+--- Document Chunk 1501 ---
+--- Page 49 ---
+
+--- Document Chunk 1502 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1503 ---
+表22 电源发送给 MSS 的 UPS 信息帧(续)
+
+--- Document Chunk 1504 ---
+MSG_ID
+
+--- Document Chunk 1505 ---
+消息 ID
+
+--- Document Chunk 1506 ---
+默认值:0x33
+
+--- Document Chunk 1507 ---
+STAMP
+
+--- Document Chunk 1508 ---
+年\月日.时分\秒各占 1 个字节(北京
+
+--- Document Chunk 1509 ---
+时间)
+
+--- Document Chunk 1510 ---
+STATION_INDEX
+
+--- Document Chunk 1511 ---
+站点编号 -
+
+--- Document Chunk 1512 ---
+一
+
+--- Document Chunk 1513 ---
+SN
+
+--- Document Chunk 1514 ---
+报文序列号 ,初始值为 1 ,每次报文依次
+
+--- Document Chunk 1515 ---
+累加,累计至 0xFFFFFFFF 后,下一次重新
+
+--- Document Chunk 1516 ---
+回0,从1开始
+
+--- Document Chunk 1517 ---
+UPS_n
+
+--- Document Chunk 1518 ---
+UPS_NUM                                   1         UPS 数目
+
+--- Document Chunk 1519 ---
+UPS_ID                      1        UPS 的序号
+
+--- Document Chunk 1520 ---
+UPS_ANALOG_NUM | 2      UPS 模拟量数量n
+
+--- Document Chunk 1521 ---
+UPS_ ANALOG(1)         4        UPS 模拟量 1
+
+--- Document Chunk 1522 ---
+UPS_ANALOG(n)        4       UPS 模拟量 n
+
+--- Document Chunk 1523 ---
+=   UPS_ALARM_NUM       2      UPS 告警重数量 n
+
+--- Document Chunk 1524 ---
+UPS          1
+
+--- Document Chunk 1525 ---
+UPS_ALARM(1)           1 Bit} go hae *
+
+--- Document Chunk 1526 ---
+       1 Bit    ange .
+
+--- Document Chunk 1527 ---
+UPS_ID                      1        UPS 的序号
+
+--- Document Chunk 1528 ---
+UPS_ANALOG_NUM | 2 | UPs模拟量数量
+
+--- Document Chunk 1529 ---
+UPS_ ANALOG(1)          4         UPS 模拟量 1
+
+--- Document Chunk 1530 ---
+UPS_ ANALOG(n)         4        UPS 模拟量 n
+
+--- Document Chunk 1531 ---
+44
+
+--- Document Chunk 1532 ---
+UPS_ALARM_NUM      2      UPS 告警量数量 n
+
+--- Document Chunk 1533 ---
+UPS 告警量 1
+
+--- Document Chunk 1534 ---
+UP      M(1      1 Bi
+
+--- Document Chunk 1535 ---
+S_ALARM(1)        it | 0 正常/1告警
+
+--- Document Chunk 1536 ---
+UPS 告警量 n
+
+--- Document Chunk 1537 ---
+UPS_ALA          1 Bi
+
+--- Document Chunk 1538 ---
+PS_ALARM(n)        让| 0 正常/L 告区
+
+--- Document Chunk 1539 ---
+--- Page 50 ---
+
+--- Document Chunk 1540 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1541 ---
+表22 电源发送给 MSS 的 UPS 信息帧(续)
+
+--- Document Chunk 1542 ---
+大小                 描述
+
+--- Document Chunk 1543 ---
+Private                                              N           WE MERE
+
+--- Document Chunk 1544 ---
+默认值:0x55
+
+--- Document Chunk 1545 ---
+END
+
+--- Document Chunk 1546 ---
+CRC                                   CRC 校验 ,计算范围从 MSG_ID 到 END
+
+--- Document Chunk 1547 ---
+12.3.3 MSS—HR
+
+--- Document Chunk 1548 ---
+名称
+
+--- Document Chunk 1549 ---
+HEADER
+
+--- Document Chunk 1550 ---
+LEN
+
+--- Document Chunk 1551 ---
+MSG_ID
+
+--- Document Chunk 1552 ---
+STAMP
+
+--- Document Chunk 1553 ---
+RCV_SN
+
+--- Document Chunk 1554 ---
+END             1
+
+--- Document Chunk 1555 ---
+TRIM 0x55
+
+--- Document Chunk 1556 ---
+CRC            4         CRC Bese EP SL ETA MSC_ID 到 END             |
+
+--- Document Chunk 1557 ---
+13 MSS - LEU 报文规范
+
+--- Document Chunk 1558 ---
+13. 1 接口连接方式
+
+--- Document Chunk 1559 ---
+13.1.1 物理接口
+
+--- Document Chunk 1560 ---
+MSS 子系统与 LEU 子系统维护单元之间采用维护网进行数据通信。
+
+--- Document Chunk 1561 ---
+其中,LEU 子系统维护单元提供 1 路标准的以太网接口进行通信;MSS
+
+--- Document Chunk 1562 ---
+45
+
+--- Document Chunk 1563 ---
+--- Page 51 ---
+
+--- Document Chunk 1564 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1565 ---
+子系统提供标准的以太网接口进行通信
+
+--- Document Chunk 1566 ---
+13.1.2 动态交互描述
+
+--- Document Chunk 1567 ---
+LEU 子系统维护单元周期性通过维护网向 MSS eH He eI He
+
+--- Document Chunk 1568 ---
+13.1.3 通信故障处理
+
+--- Document Chunk 1569 ---
+MSS 子系统如果超过祝定时间接收不到 LEU 子系统的任何数据,则
+
+--- Document Chunk 1570 ---
+MSS 子系统认为与 LEU 子系统通信中断;LEU 子系统如果超过招定时间
+
+--- Document Chunk 1571 ---
+收不到 MSS 子系统的应答数据.则认为 LEU 子系统与 MSS 子系统通信
+
+--- Document Chunk 1572 ---
+中断(可选功能) ,此时 LEU 子系统仍保持周期给 MSS 发送数据不变
+
+--- Document Chunk 1573 ---
+13.2 通信层次结构描述
+
+--- Document Chunk 1574 ---
+13.2.1 数据链路层
+
+--- Document Chunk 1575 ---
+MAC 子层是于IEEE 802. 3 你准
+
+--- Document Chunk 1576 ---
+MAC 头巾 14 个和衬节组成.1个帧校验是列(4 宇玫) 将被加在
+
+--- Document Chunk 1577 ---
+Ethernet 帧后面
+
+--- Document Chunk 1578 ---
+13.2.2 MAR
+
+--- Document Chunk 1579 ---
+AS PEL LAE UPA URC Jy 2 JS A Bb iL
+
+--- Document Chunk 1580 ---
+13.2.3 ”传输层
+
+--- Document Chunk 1581 ---
+本接中实时传送的信息使用 UDP 耻议作为传输协议
+
+--- Document Chunk 1582 ---
+13.2.4 应用层
+
+--- Document Chunk 1583 ---
+本接中实时传送的信息使用中定义的应用层协议，兵体内容优见
+
+--- Document Chunk 1584 ---
+13.3 的规定
+
+--- Document Chunk 1585 ---
+13. 3 接口数据描述
+
+--- Document Chunk 1586 ---
+13. 3.1 数据存储方式和通信校验方法
+
+--- Document Chunk 1587 ---
+接口数据存储方式采用 Big Endian ,低地址存放最高有效字节
+
+--- Document Chunk 1588 ---
+通信校验方式采用循环宛余码校验(CRC ) 。
+
+--- Document Chunk 1589 ---
+生成多项式采用 CRC32(Ox04e11db7) FEAL) IR A FS
+
+--- Document Chunk 1590 ---
+始值设为 OXFFFFFFFF
+
+--- Document Chunk 1591 ---
+13. 3.2 LEU—MSS
+
+--- Document Chunk 1592 ---
+表24 规定了 LEU 发送给 MSS 的信息内容。
+
+--- Document Chunk 1593 ---
+46
+
+--- Document Chunk 1594 ---
+--- Page 52 ---
+
+--- Document Chunk 1595 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1596 ---
+表24 LEU 发送给 MSS 的信息帧
+
+--- Document Chunk 1597 ---
+帧的开始标志
+
+--- Document Chunk 1598 ---
+默认值 :0xAA
+
+--- Document Chunk 1599 ---
+帧长度(从 MSG _ID 开始到
+
+--- Document Chunk 1600 ---
+CRC 校验结束)
+
+--- Document Chunk 1601 ---
+消息 ID
+
+--- Document Chunk 1602 ---
+默认值:0x80
+
+--- Document Chunk 1603 ---
+STAMP
+
+--- Document Chunk 1604 ---
+ALAND. Bed 1个
+
+--- Document Chunk 1605 ---
+字节(北京时间)
+
+--- Document Chunk 1606 ---
+STATION_INDEX
+
+--- Document Chunk 1607 ---
+车站的编号
+
+--- Document Chunk 1608 ---
+帧序列号,初始值为 1 ,发送一
+
+--- Document Chunk 1609 ---
+次报警信息自动累加, 累计至
+
+--- Document Chunk 1610 ---
+OxFFFFFFFF 后,下一次重新回0，
+
+--- Document Chunk 1611 ---
+从1开始
+
+--- Document Chunk 1612 ---
+zl
+
+--- Document Chunk 1613 ---
+LEU_NUM
+
+--- Document Chunk 1614 ---
+LEU 数量
+
+--- Document Chunk 1615 ---
+-
+
+--- Document Chunk 1616 ---
+LEU_INDEX(1)
+
+--- Document Chunk 1617 ---
+LEU 在所属车站的编号
+
+--- Document Chunk 1618 ---
+LEU(1)_ STATUS
+
+--- Document Chunk 1619 ---
+LEU(1) 主机状态
+
+--- Document Chunk 1620 ---
+0x00 无效表示 LEU 监测软件
+
+--- Document Chunk 1621 ---
+接收不到 LEU 的状态帧,主机状
+
+--- Document Chunk 1622 ---
+BRA
+
+--- Document Chunk 1623 ---
+Oxaa: TE 50x55 :故障
+
+--- Document Chunk 1624 ---
+LEU(1)_ DEV(1)_STATUS
+
+--- Document Chunk 1625 ---
+LEU(1) ff) DEV(1) RAs
+
+--- Document Chunk 1626 ---
+LEU(1)_ DEV(n)_STATUS
+
+--- Document Chunk 1627 ---
+LEU(n) ff) DEV(1) RAS
+
+--- Document Chunk 1628 ---
+NID_ LEU _SW_NUM
+
+--- Document Chunk 1629 ---
+LEU 软件数量
+
+--- Document Chunk 1630 ---
+了本
+
+--- Document Chunk 1631 ---
+NID_SW(1)_LEU(1)
+
+--- Document Chunk 1632 ---
+LEU(1)的SW(I)软件版本号
+
+--- Document Chunk 1633 ---
+NID_SW(n)_LEU(1)
+
+--- Document Chunk 1634 ---
+LEU(1)的 SW(n)软件版本号
+
+--- Document Chunk 1635 ---
+--- Page 53 ---
+
+--- Document Chunk 1636 ---
+T/CAMET 04011.7一2018
+
+--- Document Chunk 1637 ---
+#24 LEU 发送给 MSS 的信息帧(续)
+
+--- Document Chunk 1638 ---
+接口内容            字节大小           描述
+
+--- Document Chunk 1639 ---
+LEU_INDEX(1)                   4          LEU 在所居车站的编号
+
+--- Document Chunk 1640 ---
+LEU(1) 主机状态
+
+--- Document Chunk 1641 ---
+0x00 AK # 7K LEU HE |
+
+--- Document Chunk 1642 ---
+LEU(1)_ STATUS           1     接收不到 LEU 的状态
+
+--- Document Chunk 1643 ---
+0xaa:正常;0x55 :故障
+
+--- Document Chunk 1644 ---
+JEU(C) | LEUCD_ DEV(1)_STATUS     1      LEU(1) ft) DEVCIDARAS
+
+--- Document Chunk 1645 ---
+LEUC1)_ DEV(n)_STATUS         1          LEU(n) fy DEV CL) AR AS
+
+--- Document Chunk 1646 ---
+NID_ LEU _SW_NUM               1          LEU 软件数亿
+
+--- Document Chunk 1647 ---
+NID_SWCD_LEU(CI)                3          LEU(1) 9 SW(1) FRE RR AE
+
+--- Document Chunk 1648 ---
+NID_SW(n)_LEU(1)                3          LEU(1) fy SWC) FR PEM AS
+
+--- Document Chunk 1649 ---
+Private                          N
+
+--- Document Chunk 1650 ---
+FE bas HEL
+
+--- Document Chunk 1651 ---
+EN                             1           可
+
+--- Document Chunk 1652 ---
+END                                              BRGAL 10055
+
+--- Document Chunk 1653 ---
+CRC 校验,计算范围从 MSG_ID
+
+--- Document Chunk 1654 ---
+ERE                          4          REGS TP TLL AA    一
+
+--- Document Chunk 1655 ---
+13. 3.3 MSS一LEU
+
+--- Document Chunk 1656 ---
+表25 规定了 LEU 发送给 MSS 的作
+
+--- Document Chunk 1657 ---
+到 END
+
+--- Document Chunk 1658 ---
+#25 MSS 发送给LEU 的信息帧
+
+--- Document Chunk 1659 ---
+帧开始标志                                |
+
+--- Document Chunk 1660 ---
+HEADER       1        BEIAAE -OnAA
+
+--- Document Chunk 1661 ---
+LEN            2         WHE HE (HA MSG_ID 开始到 CRC 校验结束)
+
+--- Document Chunk 1662 ---
+MSC_1D        '        默认值 :0x88
+
+--- Document Chunk 1663 ---
+STAMP        6        年月.日.时.分.秒各占 1个字节(北京时间)
+
+--- Document Chunk 1664 ---
+48
+
+--- Document Chunk 1665 ---
+--- Page 54 ---
+
+--- Document Chunk 1666 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1667 ---
+表25 MSS 发送给LEU AY Bhi (SE)
+
+--- Document Chunk 1668 ---
+对应 LEU 报车信息包中的由序列号
+
+--- Document Chunk 1669 ---
+帧的结束标识
+
+--- Document Chunk 1670 ---
+默认值:0x55
+
+--- Document Chunk 1671 ---
+CRC 校验 ,计算范围从 MSG_ID 到 END
+
+--- Document Chunk 1672 ---
+14 MSS -微机监测报文规范
+
+--- Document Chunk 1673 ---
+14. 1 接口连接方式
+
+--- Document Chunk 1674 ---
+14. 1.1 物理接口
+
+--- Document Chunk 1675 ---
+MSS 子系统与微              SNM FA EP Pi EE AF Be HE
+
+--- Document Chunk 1676 ---
+ifs. H+, POM EFA               bis WE FH) LA AC BE EAT
+
+--- Document Chunk 1677 ---
+通信;MSS 子系统提供标反           国信
+
+--- Document Chunk 1678 ---
+14. 1.2 动态交互
+
+--- Document Chunk 1679 ---
+微机监测与 MS                                  \开关量报警信息及
+
+--- Document Chunk 1680 ---
+模拟量信息。
+
+--- Document Chunk 1681 ---
+针对《铁路信号集中惠                      区基信号[2010]709 号)
+
+--- Document Chunk 1682 ---
+要求的其余监测信息,如外电评综台遍蜗改测、列车信号点灯回路电流监
+
+--- Document Chunk 1683 ---
+测、环境状态模拟量监测等信息 ,均作为互联互通自定义功能,下文不进
+
+--- Document Chunk 1684 ---
+行约束。
+
+--- Document Chunk 1685 ---
+a) 心跳信息
+
+--- Document Chunk 1686 ---
+心跳帧用于双方保持通信连接正常。MSS 周期性发送心跳帧给微
+
+--- Document Chunk 1687 ---
+机监测 ,微机监测同时周期性发送心跳帧给 MSS。
+
+--- Document Chunk 1688 ---
+b) 微机监测开关量报警信息
+
+--- Document Chunk 1689 ---
+微机监测周期性 MSS 发送全体基础信号设备开关量报警信息。
+
+--- Document Chunk 1690 ---
+c) 微机监测模拟量信息
+
+--- Document Chunk 1691 ---
+轨道电压周期性发送,道岔电流在道贫动作完后发送所有电流采集
+
+--- Document Chunk 1692 ---
+点,绝缘测试在测试完毕后发送测试结果。
+
+--- Document Chunk 1693 ---
+49
+
+--- Document Chunk 1694 ---
+--- Page 55 ---
+
+--- Document Chunk 1695 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1696 ---
+d) 微机监测系统软件版本导
+
+--- Document Chunk 1697 ---
+首次连接 .断链重连后或系统软件版本只发生变更后,微机监测向
+
+--- Document Chunk 1698 ---
+MSS 发送监测系统软件版本号。
+
+--- Document Chunk 1699 ---
+14. 1.3 通信故障处理
+
+--- Document Chunk 1700 ---
+如果 MSS 方超过额定时间未收到心跳,认为双方连接出现帮障,微
+
+--- Document Chunk 1701 ---
+机监测设备状态为通信中断,并向微机监测发起重连申请;若微机监测超
+
+--- Document Chunk 1702 ---
+过额定时间未收到， 心跳 认为双方连接出现故障 ,此时微机监测方重置通
+
+--- Document Chunk 1703 ---
+信和链路,等待 MSS 重连
+
+--- Document Chunk 1704 ---
+14. 2  通信层次结构描述
+
+--- Document Chunk 1705 ---
+14. 2.1 数据链路层
+
+--- Document Chunk 1706 ---
+MAC 子层基于 IEEE 802. 3 标准，
+
+--- Document Chunk 1707 ---
+MAC Seth 44 个字节组成,1个帧校验序列(4 字节) 将被加在
+
+--- Document Chunk 1708 ---
+Ethernet WUR It.
+
+--- Document Chunk 1709 ---
+14.2.2 ”网络层
+
+--- Document Chunk 1710 ---
+本接口使用 Pw 协议作为网络居的协议。
+
+--- Document Chunk 1711 ---
+14.2.3 ”传输层
+
+--- Document Chunk 1712 ---
+本接口实时传送的信息使用 UDP 协议作为传输协议。
+
+--- Document Chunk 1713 ---
+14.2.4 MAB
+
+--- Document Chunk 1714 ---
+本接口实时传送的信息使用自定义的应用居协议。有其体内容人参见
+
+--- Document Chunk 1715 ---
+14. 3 的规定
+
+--- Document Chunk 1716 ---
+14.3 接口数据描述
+
+--- Document Chunk 1717 ---
+14.3.1 数据存储方式和通信校验方法
+
+--- Document Chunk 1718 ---
+接! [数据 存 WES H Big Endian ,低地址存放最高有效字节。
+
+--- Document Chunk 1719 ---
+fri BE        HMA TC AS HS BE ME (CRC) 。
+
+--- Document Chunk 1720 ---
+viseant 2) JH CRC32(0x04c11db7) ,按公式(1) 计算,余子式的初
+
+--- Document Chunk 1721 ---
+始值设为 OxFFFFFFFF-
+
+--- Document Chunk 1722 ---
+14.3.2 ”微机监测一MSS
+
+--- Document Chunk 1723 ---
+14.3.2.1 心跳帧
+
+--- Document Chunk 1724 ---
+表 26 规定了微机监测发送给 MSS 的心跳信息内容。
+
+--- Document Chunk 1725 ---
+50
+
+--- Document Chunk 1726 ---
+--- Page 56 ---
+
+--- Document Chunk 1727 ---
+T/CAMET 04011.7一2018
+
+--- Document Chunk 1728 ---
+R26 ”微机监测发送给 MSS 的心跳信息帧
+
+--- Document Chunk 1729 ---
+帧开始标志
+
+--- Document Chunk 1730 ---
+默认值:0xAA
+
+--- Document Chunk 1731 ---
+LEN                           帧长度(从 STATIONID 开始到 CRC 校验结束)
+
+--- Document Chunk 1732 ---
+站报码
+
+--- Document Chunk 1733 ---
+消息 ID
+
+--- Document Chunk 1734 ---
+默认值:0x10
+
+--- Document Chunk 1735 ---
+HEADER
+
+--- Document Chunk 1736 ---
+年月.日时、分\秒各占 1 个字节(北京时间)
+
+--- Document Chunk 1737 ---
+预留字节
+
+--- Document Chunk 1738 ---
+帧的结束标识
+
+--- Document Chunk 1739 ---
+| Rite 20x55
+
+--- Document Chunk 1740 ---
+CRC 校验 ,校验范围从 LEN 到 END
+
+--- Document Chunk 1741 ---
+14. 3. 2. 2 ”开关量报警信息
+
+--- Document Chunk 1742 ---
+开关量信息主要是轨道电压的超限报警。
+
+--- Document Chunk 1743 ---
+表 27 规定了微机监测发送给 MSS 的轨道电压报警内容。
+
+--- Document Chunk 1744 ---
+表27 ”微机监测发送给 MSS 的轨道电压报警信息帧
+
+--- Document Chunk 1745 ---
+帧开始标志
+
+--- Document Chunk 1746 ---
+默认值 :0xAA
+
+--- Document Chunk 1747 ---
+帧长度(从 STATIONID 开始到
+
+--- Document Chunk 1748 ---
+CRC 校验结束)
+
+--- Document Chunk 1749 ---
+HEADER
+
+--- Document Chunk 1750 ---
+LEN
+
+--- Document Chunk 1751 ---
+STATIONID                               站报码
+
+--- Document Chunk 1752 ---
+消息 ID
+
+--- Document Chunk 1753 ---
+默认值:0x20
+
+--- Document Chunk 1754 ---
+年月、日.时分\秒各占 1 个字
+
+--- Document Chunk 1755 ---
+节(北京时间)
+
+--- Document Chunk 1756 ---
+--- Page 57 ---
+
+--- Document Chunk 1757 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1758 ---
+R27 微机监测发送给 MSS 的轨道电压报警信息帧(续)
+
+--- Document Chunk 1759 ---
+报文序列号 ,初始值为 1 ,每次报
+
+--- Document Chunk 1760 ---
+文依次累加, 累计至 OxFFFFFFE
+
+--- Document Chunk 1761 ---
+后,下一次重新从 1 开始累加(若
+
+--- Document Chunk 1762 ---
+据帧长度大于 1024 字节,分包的各
+
+--- Document Chunk 1763 ---
+据包的序列号保持一致)
+
+--- Document Chunk 1764 ---
+ALARM(1)
+
+--- Document Chunk 1765 ---
+ALARM_NUM                                           报警总数
+
+--- Document Chunk 1766 ---
+报警(1)类型
+
+--- Document Chunk 1767 ---
+AUARMETYPE (1)                  0x21 :轨道电压超限报警
+
+--- Document Chunk 1768 ---
+ALARM_DEV(1)                              报警设备
+
+--- Document Chunk 1769 ---
+ALARM_STIME(1)
+
+--- Document Chunk 1770 ---
+报警发生时间 ,格式同 STAMR,
+
+--- Document Chunk 1771 ---
+ALARM_NTIME(1)
+
+--- Document Chunk 1772 ---
+报警恢复时间 ,格式同 STAMP
+
+--- Document Chunk 1773 ---
+ALARM_STATUS(1)
+
+--- Document Chunk 1774 ---
+报警(1) 状态
+
+--- Document Chunk 1775 ---
+0x00 :正常
+
+--- Document Chunk 1776 ---
+0x55 :故障
+
+--- Document Chunk 1777 ---
+ALARM_TYPE(n)
+
+--- Document Chunk 1778 ---
+报警(n) 类型
+
+--- Document Chunk 1779 ---
+0x21 :轨道电压超限报警
+
+--- Document Chunk 1780 ---
+ALARM(n)
+
+--- Document Chunk 1781 ---
+=
+
+--- Document Chunk 1782 ---
+ALARM_DEV(n)
+
+--- Document Chunk 1783 ---
+报警设备
+
+--- Document Chunk 1784 ---
+ALARM_STIME(n)
+
+--- Document Chunk 1785 ---
+| ae aR wtf ,格式同 STANE
+
+--- Document Chunk 1786 ---
+ALARM_NTIME(n)
+
+--- Document Chunk 1787 ---
+报警恢复时间 ,格式同 STAMP
+
+--- Document Chunk 1788 ---
+ALARM_STATUS(n)
+
+--- Document Chunk 1789 ---
+报警(n) 状态
+
+--- Document Chunk 1790 ---
+0x00 :正常
+
+--- Document Chunk 1791 ---
+0x55 :故障
+
+--- Document Chunk 1792 ---
+自定义字段
+
+--- Document Chunk 1793 ---
+END
+
+--- Document Chunk 1794 ---
+帧的结束标识
+
+--- Document Chunk 1795 ---
+默认值:0x55
+
+--- Document Chunk 1796 ---
+CRC 校验,校验范围从
+
+--- Document Chunk 1797 ---
+到 END
+
+--- Document Chunk 1798 ---
+--- Page 58 ---
+
+--- Document Chunk 1799 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1800 ---
+44.3.2.3 ”模拟量信息
+
+--- Document Chunk 1801 ---
+模拟量信息的内容包括:绝缘,道岔电流曲线、轨道电压。其中绝缘、
+
+--- Document Chunk 1802 ---
+盆电流曲线,当有数据产生时,监测自主发送数据至 MSS。轨道电压
+
+--- Document Chunk 1803 ---
+,监测周期性向 MSS 发送一次所有轨道电压的数据。
+
+--- Document Chunk 1804 ---
+在 MSG_ID 下面定义TYPE_ID ,用于区分是娜个类型的数据。
+
+--- Document Chunk 1805 ---
+表 28 规定了微机监测发送给 MSS 的模拟量内容。
+
+--- Document Chunk 1806 ---
+表28 微机监测发送给 MSS 的模拟量类型
+
+--- Document Chunk 1807 ---
+TYPE_ID
+
+--- Document Chunk 1808 ---
+DLJY_INFO
+
+--- Document Chunk 1809 ---
+DCDL_INFO
+
+--- Document Chunk 1810 ---
+GDDY_INFO
+
+--- Document Chunk 1811 ---
+对于轨道电压模拟量监测 ,除电压值以外的信息 ,均作为自定义字段
+
+--- Document Chunk 1812 ---
+供厂家使用。
+
+--- Document Chunk 1813 ---
+表29 规定了微机监测发送的轨道电压模拟量包,格式如下。
+
+--- Document Chunk 1814 ---
+表29 微机监测发送给 MSS 的轨道电压状态信息帧
+
+--- Document Chunk 1815 ---
+帧开始标志
+
+--- Document Chunk 1816 ---
+默认值:0xAA
+
+--- Document Chunk 1817 ---
+WIE BE (A STATIONID 开始到 CRC 校验结束)
+
+--- Document Chunk 1818 ---
+STATIONID                     站报码
+
+--- Document Chunk 1819 ---
+--- Page 59 ---
+
+--- Document Chunk 1820 ---
+T/CAMET 04011.7一2018
+
+--- Document Chunk 1821 ---
+表29 微机监测发送给 MSS 的轨道电压状态信息帧(续)
+
+--- Document Chunk 1822 ---
+MSG_ID            1        i “ “OH
+
+--- Document Chunk 1823 ---
+TYPE_ID            1         DATA TYPE
+
+--- Document Chunk 1824 ---
+STAMP        6   | 年\月日.时分\秒各占 1 个字节(北京时间)
+
+--- Document Chunk 1825 ---
+SN            4      报文序列号 ,初始值为 1 ,每次报文依次累加 ,累计至
+
+--- Document Chunk 1826 ---
+OxFFFFFFFF 后 ,下一次重新从 1 开始累加
+
+--- Document Chunk 1827 ---
+ANALOG_NUM        2         模拟量总数
+
+--- Document Chunk 1828 ---
+ANALOG(1)         2        模拟量(1)算法是除以 10 ,单位:V
+
+--- Document Chunk 1829 ---
+ANALOG(n)          2         模拟量(n)
+
+--- Document Chunk 1830 ---
+Private              N    |   自定义字段
+
+--- Document Chunk 1831 ---
+CRC                 4         CRC 校验,校验范围从 LEN 到 END
+
+--- Document Chunk 1832 ---
+表 30 规定了微机监测发送的道岔电流模拟量包 ,格式如下。
+
+--- Document Chunk 1833 ---
+表30 微机监测发送给 MSS 的道岔电流信息帧
+
+--- Document Chunk 1834 ---
+题开始标志
+
+--- Document Chunk 1835 ---
+BRUMB:0xAA
+
+--- Document Chunk 1836 ---
+LK BE (A STATIONID 开始到 CRC
+
+--- Document Chunk 1837 ---
+校验结束)
+
+--- Document Chunk 1838 ---
+STATIONID                                                 站报码
+
+--- Document Chunk 1839 ---
+消息 ID
+
+--- Document Chunk 1840 ---
+默认值 :0x40
+
+--- Document Chunk 1841 ---
+DATA TYPE
+
+--- Document Chunk 1842 ---
+--- Page 60 ---
+
+--- Document Chunk 1843 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1844 ---
+表30 微机监测发送给 MSS 的道岔电流信息帧(续)
+
+--- Document Chunk 1845 ---
+年\月日时、分\秒各占 1 个字节(北
+
+--- Document Chunk 1846 ---
+京时间)
+
+--- Document Chunk 1847 ---
+报文序列号,初始值为 1 ,每次报文依
+
+--- Document Chunk 1848 ---
+次累加,累计至 OxFFFFFFFF 后,下一次
+
+--- Document Chunk 1849 ---
+重新从 1 开始累加
+
+--- Document Chunk 1850 ---
+设备编号,表示该数据包是第 n 个设
+
+--- Document Chunk 1851 ---
+备的内容(对于绝缘、漏流\. 道岔动作电
+
+--- Document Chunk 1852 ---
+流需要 ,其余模拟量可以不使用,按照配
+
+--- Document Chunk 1853 ---
+置表的顺序即可)
+
+--- Document Chunk 1854 ---
+START_TIME
+
+--- Document Chunk 1855 ---
+年月日时、分\秒各占 1 个字节(北
+
+--- Document Chunk 1856 ---
+京时间)
+
+--- Document Chunk 1857 ---
+DIRECTION
+
+--- Document Chunk 1858 ---
+道岔转换方向
+
+--- Document Chunk 1859 ---
+0:定位到反位
+
+--- Document Chunk 1860 ---
+1:反位到定位
+
+--- Document Chunk 1861 ---
+2:定位到定位
+
+--- Document Chunk 1862 ---
+3:反位到反位
+
+--- Document Chunk 1863 ---
+4:定位到故障位
+
+--- Document Chunk 1864 ---
+5:反位到故障位
+
+--- Document Chunk 1865 ---
+CURVE_TYPR
+
+--- Document Chunk 1866 ---
+曲线类型
+
+--- Document Chunk 1867 ---
+0:交流
+
+--- Document Chunk 1868 ---
+1:直流
+
+--- Document Chunk 1869 ---
+CURVE_NUM
+
+--- Document Chunk 1870 ---
+曲线数量(如果是直流,则为 1。如果是
+
+--- Document Chunk 1871 ---
+交流,则为3,依次是A`.B、C 三相)
+
+--- Document Chunk 1872 ---
+POINT_NUM
+
+--- Document Chunk 1873 ---
+采集点数量(采集点的时间间隔:40 ms)
+
+--- Document Chunk 1874 ---
+CURVE(1) | POINT(1)
+
+--- Document Chunk 1875 ---
+采集点(1) (算法是除以 100 ,单位:A)
+
+--- Document Chunk 1876 ---
+POINT(n)
+
+--- Document Chunk 1877 ---
+采集点 (n) (算法是除以 100 ,单位:A)
+
+--- Document Chunk 1878 ---
+POINT_NUM
+
+--- Document Chunk 1879 ---
+采集点数量(采集点的时间间隔:40 ms)
+
+--- Document Chunk 1880 ---
+CURVE(n) | POINT(1)
+
+--- Document Chunk 1881 ---
+采集点(1) (算法是除以 100 ,单位:A)
+
+--- Document Chunk 1882 ---
+POINT(n)
+
+--- Document Chunk 1883 ---
+采集点(n) (算法是除以 100,单位:A)
+
+--- Document Chunk 1884 ---
+--- Page 61 ---
+
+--- Document Chunk 1885 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1886 ---
+表30 MALLE
+
+--- Document Chunk 1887 ---
+发送给 MSS 的道岔电流信息帧(续)
+
+--- Document Chunk 1888 ---
+接口内容                    字节长度                             描 GR
+
+--- Document Chunk 1889 ---
+SWITCH_CNT                4      道岔动作次效
+
+--- Document Chunk 1890 ---
+Private                            N         自定义字段
+
+--- Document Chunk 1891 ---
+ere                      4     |      we HD, BE YS MW TM MA LEN 到
+
+--- Document Chunk 1892 ---
+SWITCH_CNT
+
+--- Document Chunk 1893 ---
+END                       1       win
+
+--- Document Chunk 1894 ---
+PRUE 0055
+
+--- Document Chunk 1895 ---
+表31 MAE FOL
+
+--- Document Chunk 1896 ---
+PEL AY A Bo RU, TT
+
+--- Document Chunk 1897 ---
+表31 微机监测发送给 MSS 的电缆绝缘信息帧
+
+--- Document Chunk 1898 ---
+接口         se
+
+--- Document Chunk 1899 ---
+fii
+
+--- Document Chunk 1900 ---
+HEADER          1         HEIA GE -OAA
+
+--- Document Chunk 1901 ---
+LEN              2          帧长度( 从 STATIONID 开始到 CRO FE
+
+--- Document Chunk 1902 ---
+STATIONID         2         站报码
+
+--- Document Chunk 1903 ---
+MSC_ID          1         消息 ID, PRIA (0x40
+
+--- Document Chunk 1904 ---
+TYPE_ID             1           DATA TYPE
+
+--- Document Chunk 1905 ---
+STAMP          6        年月.中时、分.秒各占1 WE (AE act fi )
+
+--- Document Chunk 1906 ---
+SN           4       报文库列号.初始值为1 .每次报文依次累加,累
+
+--- Document Chunk 1907 ---
+让至 OxFFFFFFFF 后,下 次重新从1工开始乏加
+
+--- Document Chunk 1908 ---
+ITEM_NO
+
+--- Document Chunk 1909 ---
+is)
+
+--- Document Chunk 1910 ---
+设备编5     该数据包足第m 个设备的内容
+
+--- Document Chunk 1911 ---
+(对于绝缘 .湄流,道岔动作电流震归,共余异拟时
+
+--- Document Chunk 1912 ---
+可以不使用,按照配痪表
+
+--- Document Chunk 1913 ---
+ANALOG
+
+--- Document Chunk 1914 ---
+wv
+
+--- Document Chunk 1915 ---
+了电费绝缘.单位:
+
+--- Document Chunk 1916 ---
+100) -小于5 说明乡
+
+--- Document Chunk 1917 ---
+示绝缘良好
+
+--- Document Chunk 1918 ---
+Private                  N
+
+--- Document Chunk 1919 ---
+自定义字段
+
+--- Document Chunk 1920 ---
+--- Page 62 ---
+
+--- Document Chunk 1921 ---
+T/CAMET 04011. 7一2018
+
+--- Document Chunk 1922 ---
+表31 微机监测发送给 MSS 的电缆绝缘信息帧(续)
+
+--- Document Chunk 1923 ---
+帧的结束标识
+
+--- Document Chunk 1924 ---
+默认值:0x55
+
+--- Document Chunk 1925 ---
+CRC 校验,校验范围从 LEN 到 END
+
+--- Document Chunk 1926 ---
+14. 3. 2. 4 微机监测系统软件版本号
+
+--- Document Chunk 1927 ---
+表32 规定了微机监测发送的版本内容,格式如下。
+
+--- Document Chunk 1928 ---
+表32 微机监测发送给 MSS 的版本信息帧
+
+--- Document Chunk 1929 ---
+STITIONID
+
+--- Document Chunk 1930 ---
+MSG_ID
+
+--- Document Chunk 1931 ---
+年月日.时分\秒各占1
+
+--- Document Chunk 1932 ---
+STAMP                                   个字节(北京时间)
+
+--- Document Chunk 1933 ---
+报文序列号,初始值为 1，
+
+--- Document Chunk 1934 ---
+每次报文依次累加, RZ
+
+--- Document Chunk 1935 ---
+OxFFFFFFFF 后,下一次重新
+
+--- Document Chunk 1936 ---
+从1开始累加
+
+--- Document Chunk 1937 ---
+VERSION_NUM                                        版本号总数
+
+--- Document Chunk 1938 ---
+DEVICE_ID(1)                                  设备(1)编号
+
+--- Document Chunk 1939 ---
+DEVICE _VERSION wot             设备(1)版本号
+
+--- Document Chunk 1940 ---
+DEVICE_ID(n)                        设备(n)编号
+
+--- Document Chunk 1941 ---
+DEVICE _VERSION (n)                 设备(mn) 版本号
+
+--- Document Chunk 1942 ---
+DEVICE(1)
+
+--- Document Chunk 1943 ---
+DEVICE (n)
+
+--- Document Chunk 1944 ---
+--- Page 63 ---
+
+--- Document Chunk 1945 ---
+中国城市轨道交拓协会全体标准
+
+--- Document Chunk 1946 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 1947 ---
+控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 1948 ---
+第7 部分:信号各子系统与维护支持系统(MSS ) 间接口
+
+--- Document Chunk 1949 ---
+T/CAMET 04011. 7—2018
+
+--- Document Chunk 1950 ---
+中国铁道出版社有限公司出版发行
+
+--- Document Chunk 1951 ---
+(100054 .北京市西城区布安门西街8 号)
+
+--- Document Chunk 1952 ---
+公司网址: http://www. tdpress com
+
+--- Document Chunk 1953 ---
+北京铭成印刷有限公司印刷
+
+--- Document Chunk 1954 ---
+开本: 880 mm x1 230 mm 1/32) Esk;      字数:62 T-
+
+--- Document Chunk 1955 ---
+2019 年5月第1版 2019年5月第1次印刷
+
+--- Document Chunk 1956 ---
+书号: 15113 . 5733 定价:20. 00 元
+
+--- Document Chunk 1957 ---
+版权所有 RW
+
+--- Document Chunk 1958 ---
+凡购买铁道版图书,如有印制质扩问题,请与    司发行部联系调换
+
+--- Document Chunk 1959 ---
+发行部电话:路(021)73174 ,市(010)51873174
+
+--- Document Chunk 1960 ---
+公
+

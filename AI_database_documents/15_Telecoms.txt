@@ -1,0 +1,6495 @@
+--- Document Chunk 0 ---
+14
+
+--- Document Chunk 1 ---
+Paul Darlington and Trevor Foulkes
+
+--- Document Chunk 2 ---
+Back to basics: 
+
+--- Document Chunk 3 ---
+Telecoms part 1
+
+--- Document Chunk 4 ---
+This ‘Back to basics’ article covers the 
+
+--- Document Chunk 5 ---
+subject of railway telecommunications. As 
+
+--- Document Chunk 6 ---
+with other such articles, our intention is 
+
+--- Document Chunk 7 ---
+to provide an overview for IRSE members 
+
+--- Document Chunk 8 ---
+new to the industry or who may not have 
+
+--- Document Chunk 9 ---
+experience of working in this specific area. 
+
+--- Document Chunk 10 ---
+The content may also be useful for people 
+
+--- Document Chunk 11 ---
+studying for the IRSE Exam. The objective is 
+
+--- Document Chunk 12 ---
+to describe the subject in a generic manner 
+
+--- Document Chunk 13 ---
+and we have used examples based mainly 
+
+--- Document Chunk 14 ---
+on UK main line railways. Part 1 covers 
+
+--- Document Chunk 15 ---
+telecoms networks and part 2 in another 
+
+--- Document Chunk 16 ---
+issue of IRSE News will look at telecoms for 
+
+--- Document Chunk 17 ---
+passenger use. 
+
+--- Document Chunk 18 ---
+Communication is essential to all businesses 
+
+--- Document Chunk 19 ---
+including railways and without telecoms 
+
+--- Document Chunk 20 ---
+services trains would not run effectively. It is 
+
+--- Document Chunk 21 ---
+possible for trains to move without signalling, 
+
+--- Document Chunk 22 ---
+but communications are necessary for efficient 
+
+--- Document Chunk 23 ---
+operation. Railway telecoms covers voice, data 
+
+--- Document Chunk 24 ---
+and radio for rail operations, rail business, and 
+
+--- Document Chunk 25 ---
+passenger use. It can also cover commercial 
+
+--- Document Chunk 26 ---
+telecoms services for some railways. 
+
+--- Document Chunk 27 ---
+Role of operational telecoms 
+
+--- Document Chunk 28 ---
+Operational telecoms systems have four 
+
+--- Document Chunk 29 ---
+roles for a railway:
+
+--- Document Chunk 30 ---
+• To facilitate normal day-to-day voice and 
+
+--- Document Chunk 31 ---
+data communications. This includes links 
+
+--- Document Chunk 32 ---
+to support the operation of signalling and 
+
+--- Document Chunk 33 ---
+electrification systems.
+
+--- Document Chunk 34 ---
+• To facilitate quick communications in the 
+
+--- Document Chunk 35 ---
+event of a problem or hazard.
+
+--- Document Chunk 36 ---
+• To facilitate communications of those 
+
+--- Document Chunk 37 ---
+attending an accident.
+
+--- Document Chunk 38 ---
+• To provide bearer services for other 
+
+--- Document Chunk 39 ---
+systems to enable communications where 
+
+--- Document Chunk 40 ---
+and when required.
+
+--- Document Chunk 41 ---
+Normal day-to-day operational verbal 
+
+--- Document Chunk 42 ---
+communication includes the use by signallers to 
+
+--- Document Chunk 43 ---
+give instructions to drivers to move their trains 
+
+--- Document Chunk 44 ---
+in the event of a signalling system failure and to 
+
+--- Document Chunk 45 ---
+persons wishing to use level crossings. They are 
+
+--- Document Chunk 46 ---
+also used to take and give back line possessions 
+
+--- Document Chunk 47 ---
+and grant electric traction isolations for 
+
+--- Document Chunk 48 ---
+emergencies and to facilitate engineering works. 
+
+--- Document Chunk 49 ---
+“Without 
+
+--- Document Chunk 50 ---
+communications 
+
+--- Document Chunk 51 ---
+trains cannot 
+
+--- Document Chunk 52 ---
+move”
+
+--- Document Chunk 53 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 54 ---
+15
+
+--- Document Chunk 55 ---
+It also includes day-to-day conversations to plan 
+
+--- Document Chunk 56 ---
+train movements and manage the railway. In all 
+
+--- Document Chunk 57 ---
+these cases it is very important that the receiver of 
+
+--- Document Chunk 58 ---
+the instruction correctly interprets the instruction 
+
+--- Document Chunk 59 ---
+in order to carry it out. Most railways do this by the 
+
+--- Document Chunk 60 ---
+use of a voice protocol which requires messages 
+
+--- Document Chunk 61 ---
+to be repeated back. However, for the telecoms 
+
+--- Document Chunk 62 ---
+service it is important that the voice channel is 
+
+--- Document Chunk 63 ---
+clear and of sufficient volume to enable messages 
+
+--- Document Chunk 64 ---
+to be understood. Also, if the display system 
+
+--- Document Chunk 65 ---
+shows the location or role of the users then this 
+
+--- Document Chunk 66 ---
+must be proven correct, as far as is practical, since 
+
+--- Document Chunk 67 ---
+credible but incorrect information could mislead a 
+
+--- Document Chunk 68 ---
+user into making an incorrect decision or miss-
+
+--- Document Chunk 69 ---
+understanding the context of the message being 
+
+--- Document Chunk 70 ---
+passed. A misinterpretation of an operational 
+
+--- Document Chunk 71 ---
+message can result in an incorrect action and 
+
+--- Document Chunk 72 ---
+potentially lead to a hazardous situation.
+
+--- Document Chunk 73 ---
+When there is a hazardous situation it needs to 
+
+--- Document Chunk 74 ---
+be rectified, often with trains being stopped, 
+
+--- Document Chunk 75 ---
+before an accident occurs. Railway telecoms 
+
+--- Document Chunk 76 ---
+radio systems have a key role in managing such 
+
+--- Document Chunk 77 ---
+situations where trains need to be stopped. Trains 
+
+--- Document Chunk 78 ---
+may need to quickly alert the signaller of a hazard 
+
+--- Document Chunk 79 ---
+and request assistance. The person becoming 
+
+--- Document Chunk 80 ---
+aware of the hazard needs to be able to contact 
+
+--- Document Chunk 81 ---
+all trains in the immediate area quickly and easily, 
+
+--- Document Chunk 82 ---
+and instruct the drivers to bring their trains to a 
+
+--- Document Chunk 83 ---
+stop. Time is of the essence in passing this type 
+
+--- Document Chunk 84 ---
+of message. Even if the train cannot be brought 
+
+--- Document Chunk 85 ---
+to a stand before the collision, a reduction 
+
+--- Document Chunk 86 ---
+in speed can significantly reduce the impact 
+
+--- Document Chunk 87 ---
+of the accident.
+
+--- Document Chunk 88 ---
+If there is an accident it is important that the 
+
+--- Document Chunk 89 ---
+emergency services can be contacted quickly to 
+
+--- Document Chunk 90 ---
+help with recovery and reach any injured people. 
+
+--- Document Chunk 91 ---
+In many cases the emergency services provide 
+
+--- Document Chunk 92 ---
+their own communications systems but when 
+
+--- Document Chunk 93 ---
+access distances are extended, for example in 
+
+--- Document Chunk 94 ---
+sub-surface stations, tunnels, or remote locations, 
+
+--- Document Chunk 95 ---
+the equipment to allow the emergency services to 
+
+--- Document Chunk 96 ---
+extend their normal radio systems may need to be 
+
+--- Document Chunk 97 ---
+provided by the railway.
+
+--- Document Chunk 98 ---
+Voice communications by telephone
+
+--- Document Chunk 99 ---
+Some railways provide lineside telephones for the 
+
+--- Document Chunk 100 ---
+public at level crossings so they can contact the 
+
+--- Document Chunk 101 ---
+signaller in an emergency or to obtain permission 
+
+--- Document Chunk 102 ---
+to cross the track. Other lineside phones may also 
+
+--- Document Chunk 103 ---
+be provided to facilitate engineering or operational 
+
+--- Document Chunk 104 ---
+activities, although these are often undertaken 
+
+--- Document Chunk 105 ---
+using a public or railway specific radio system. 
+
+--- Document Chunk 106 ---
+Lineside telephones are normally analogue 300-
+
+--- Document Chunk 107 ---
+3400Hz in operation and connected via a twisted 
+
+--- Document Chunk 108 ---
+copper pair in a cable to the nearest signal box or 
+
+--- Document Chunk 109 ---
+transmission node. No power supply is required 
+
+--- Document Chunk 110 ---
+at the telephone location, as it is powered over 
+
+--- Document Chunk 111 ---
+the copper circuit, at normally 50V DC. This is 
+
+--- Document Chunk 112 ---
+known as Central Battery (CB) working. When a 
+
+--- Document Chunk 113 ---
+user wishes to establish a call, they lift the handset, 
+
+--- Document Chunk 114 ---
+which places a 600Ω loop on the pair. This allows 
+
+--- Document Chunk 115 ---
+a current to flow which is detected at the far end. 
+
+--- Document Chunk 116 ---
+The actual loop current will be dependent on the 
+
+--- Document Chunk 117 ---
+resistance of the copper circuit and will decrease 
+
+--- Document Chunk 118 ---
+with distance. Depending on the use of the 
+
+--- Document Chunk 119 ---
+telephone, the far end may route the call directly 
+
+--- Document Chunk 120 ---
+to the signaller and return ringing tone to the user. 
+
+--- Document Chunk 121 ---
+This is a point-to-point telephone circuit and is 
+
+--- Document Chunk 122 ---
+commonly used for level crossings. Alternatively, 
+
+--- Document Chunk 123 ---
+the far end may return dial tone which tells the 
+
+--- Document Chunk 124 ---
+user to enter the number for the extension or 
+
+--- Document Chunk 125 ---
+service they require. The number is normally sent 
+
+--- Document Chunk 126 ---
+as a sequence of multi-frequency tones which 
+
+--- Document Chunk 127 ---
+are decoded at the far end and used to route 
+
+--- Document Chunk 128 ---
+the call to the required destination. Once the 
+
+--- Document Chunk 129 ---
+far end answers the call, a duplex speech path is 
+
+--- Document Chunk 130 ---
+established back to the initiator and conversations 
+
+--- Document Chunk 131 ---
+can take place. When the user wishes to terminate 
+
+--- Document Chunk 132 ---
+the call, he replaces the handset which removes 
+
+--- Document Chunk 133 ---
+the loop. If a phone needs to be rung, an AC 
+
+--- Document Chunk 134 ---
+ringing current typically 75V at 25Hz is applied 
+
+--- Document Chunk 135 ---
+to the line. The current is interrupted to give the 
+
+--- Document Chunk 136 ---
+distinctive ringing cadence. The telephone will be 
+
+--- Document Chunk 137 ---
+rung by this current until the handset is lifted and 
+
+--- Document Chunk 138 ---
+the loop applied. At this point the ringing current is 
+
+--- Document Chunk 139 ---
+removed and the speech circuit established.
+
+--- Document Chunk 140 ---
+Copper cable
+
+--- Document Chunk 141 ---
+Telephones will normally be connected via a 
+
+--- Document Chunk 142 ---
+two pair ‘tail cable’ to a lineside location or 
+
+--- Document Chunk 143 ---
+connection box where the circuit is connected 
+
+--- Document Chunk 144 ---
+to the main line side cable. Copper cables come 
+
+--- Document Chunk 145 ---
+in many varieties as the number of pairs can vary 
+
+--- Document Chunk 146 ---
+from single pairs to hundreds of pairs and the 
+
+--- Document Chunk 147 ---
+conductor size can vary from typically 0.63mm or 
+
+--- Document Chunk 148 ---
+0.9mm gauge (diameter) to much bigger sizes on 
+
+--- Document Chunk 149 ---
+older copper cables. Each pair is twisted together 
+
+--- Document Chunk 150 ---
+“If there is an 
+
+--- Document Chunk 151 ---
+accident it is 
+
+--- Document Chunk 152 ---
+important that 
+
+--- Document Chunk 153 ---
+the emergency 
+
+--- Document Chunk 154 ---
+services can 
+
+--- Document Chunk 155 ---
+be contacted 
+
+--- Document Chunk 156 ---
+quickly”
+
+--- Document Chunk 157 ---
+Telecommunications 
+
+--- Document Chunk 158 ---
+are essential for the safe 
+
+--- Document Chunk 159 ---
+and smooth operation of 
+
+--- Document Chunk 160 ---
+railways worldwide. The 
+
+--- Document Chunk 161 ---
+people upon which the 
+
+--- Document Chunk 162 ---
+network depends work in 
+
+--- Document Chunk 163 ---
+different roles, and have 
+
+--- Document Chunk 164 ---
+different needs of their 
+
+--- Document Chunk 165 ---
+equipment.
+
+--- Document Chunk 166 ---
+Photos Shutterstock/
+
+--- Document Chunk 167 ---
+APChanel, Paveils 
+
+--- Document Chunk 168 ---
+Dunalcevs, 1000Words 
+
+--- Document Chunk 169 ---
+and Chuyuss.
+
+--- Document Chunk 170 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 171 ---
+16
+
+--- Document Chunk 172 ---
+to reduce crosstalk from other circuits in the cable 
+
+--- Document Chunk 173 ---
+and from external sources. In cables with many 
+
+--- Document Chunk 174 ---
+pairs, these are arranged in layers. A system of 
+
+--- Document Chunk 175 ---
+colour coding is used so that each pair and the 
+
+--- Document Chunk 176 ---
+conductors forming each pair (known as legs) 
+
+--- Document Chunk 177 ---
+can be individually identified. The copper pairs 
+
+--- Document Chunk 178 ---
+are normally protected by a moisture barrier and 
+
+--- Document Chunk 179 ---
+petroleum jelly to prevent water ingress, and an 
+
+--- Document Chunk 180 ---
+insulating sheath, which can be zero halogen and 
+
+--- Document Chunk 181 ---
+low smoke if required for underground locations. 
+
+--- Document Chunk 182 ---
+Some older copper cables were provided with a 
+
+--- Document Chunk 183 ---
+steel armoured layer for electrification traction 
+
+--- Document Chunk 184 ---
+immunisation purposes, but this is now normally 
+
+--- Document Chunk 185 ---
+provided by a separate screening conductor. The 
+
+--- Document Chunk 186 ---
+sheath is normally marked with information so that 
+
+--- Document Chunk 187 ---
+cables can be identified. 
+
+--- Document Chunk 188 ---
+Telecoms copper cables can be used to carry 
+
+--- Document Chunk 189 ---
+DC signalling circuits, but not vice versa as 
+
+--- Document Chunk 190 ---
+conventional signalling cables are not constructed 
+
+--- Document Chunk 191 ---
+with twisted pairs since they are designed for only 
+
+--- Document Chunk 192 ---
+DC circuits. If a telecoms cable is used to carry 
+
+--- Document Chunk 193 ---
+both telecoms and signalling circuits it is normally 
+
+--- Document Chunk 194 ---
+recommended to fully terminate all the cable pairs 
+
+--- Document Chunk 195 ---
+in every trackside location case, using a method 
+
+--- Document Chunk 196 ---
+which facilitates easy identification of pairs, testing 
+
+--- Document Chunk 197 ---
+and isolation. For good quality speech and data 
+
+--- Document Chunk 198 ---
+services, a telecoms cable will require a cable 
+
+--- Document Chunk 199 ---
+insulation resistance of several megohms, which is 
+
+--- Document Chunk 200 ---
+far higher than needed for a DC signalling circuit. 
+
+--- Document Chunk 201 ---
+Fibre cables 
+
+--- Document Chunk 202 ---
+The introduction of fibre optics revolutionised 
+
+--- Document Chunk 203 ---
+telecoms cable networks for railways. Fibre optic 
+
+--- Document Chunk 204 ---
+cables are small and light (compared to copper 
+
+--- Document Chunk 205 ---
+multipair cables) and can be used to transmit very 
+
+--- Document Chunk 206 ---
+high data rates (several 100Gbit/s) and are immune 
+
+--- Document Chunk 207 ---
+from electrical interference. The distance between 
+
+--- Document Chunk 208 ---
+transmission nodes can be increased significantly 
+
+--- Document Chunk 209 ---
+compared to copper cabling.
+
+--- Document Chunk 210 ---
+Fibres carry short wavelength light pulses and 
+
+--- Document Chunk 211 ---
+are used in conjunction with digital transmission 
+
+--- Document Chunk 212 ---
+systems. Early fibre cables were multimode 
+
+--- Document Chunk 213 ---
+graded-index but were quickly superseded by 
+
+--- Document Chunk 214 ---
+single mode fibre using 1310 nanometre (nm) 
+
+--- Document Chunk 215 ---
+wavelength with improved attenuation and 
+
+--- Document Chunk 216 ---
+bandwidth. Multimode cable remains cheaper 
+
+--- Document Chunk 217 ---
+and can still be used on short haul applications, 
+
+--- Document Chunk 218 ---
+typically in buildings. Early cables typically 
+
+--- Document Chunk 219 ---
+contained 8 or 10 fibres positioned within a loose 
+
+--- Document Chunk 220 ---
+tube construction with a Kevlar® central strength 
+
+--- Document Chunk 221 ---
+member with no metallic elements. Fibre count 
+
+--- Document Chunk 222 ---
+within cables has increased and cables containing 
+
+--- Document Chunk 223 ---
+hundreds of fibres in several tubes are now 
+
+--- Document Chunk 224 ---
+available. Fibre cables, being much smaller than 
+
+--- Document Chunk 225 ---
+copper equivalents, can be rolled on to a drum in 
+
+--- Document Chunk 226 ---
+much greater lengths, requiring less joints when 
+
+--- Document Chunk 227 ---
+installed trackside. Care has to be taken however 
+
+--- Document Chunk 228 ---
+during design and installation not to bend the fibre 
+
+--- Document Chunk 229 ---
+cable too tightly around corners.
+
+--- Document Chunk 230 ---
+The essential tools for working on fibre are 
+
+--- Document Chunk 231 ---
+a fusion splicer and an Optical Time Domain 
+
+--- Document Chunk 232 ---
+Reflectometer (OTDR). A splicer effectively 
+
+--- Document Chunk 233 ---
+heats and welds the fibre together. Early models 
+
+--- Document Chunk 234 ---
+required the jointer to align the two ends 
+
+--- Document Chunk 235 ---
+mechanically using a built-in microscope but now 
+
+--- Document Chunk 236 ---
+the process is automated. The OTDR is used to 
+
+--- Document Chunk 237 ---
+send pulses of light down a fibre and measure any 
+
+--- Document Chunk 238 ---
+reflection that occurs, to identify any problems 
+
+--- Document Chunk 239 ---
+that might be present in the cable. A clean cut is 
+
+--- Document Chunk 240 ---
+easy to locate but a poor joint or deteriorating 
+
+--- Document Chunk 241 ---
+fibre connection will result in a higher reflection 
+
+--- Document Chunk 242 ---
+reading, with the OTDR indicating the distance 
+
+--- Document Chunk 243 ---
+to the problem.
+
+--- Document Chunk 244 ---
+Spare network bandwidth can also be leased 
+
+--- Document Chunk 245 ---
+to others for commercial telecoms purposes, 
+
+--- Document Chunk 246 ---
+if permitted by the national legislation 
+
+--- Document Chunk 247 ---
+covering commercial telecoms. This could 
+
+--- Document Chunk 248 ---
+include individual fibres or capacity in railway 
+
+--- Document Chunk 249 ---
+telecoms cable routes leased to third parties. 
+
+--- Document Chunk 250 ---
+Any lease agreements will need to take into 
+
+--- Document Chunk 251 ---
+account the priority of telecoms services 
+
+--- Document Chunk 252 ---
+for railway operational purposes and the 
+
+--- Document Chunk 253 ---
+maintenance arrangements. 
+
+--- Document Chunk 254 ---
+Concentrators
+
+--- Document Chunk 255 ---
+At the signal box there will be an operator 
+
+--- Document Chunk 256 ---
+interface, sometimes called a “concentrator”, to 
+
+--- Document Chunk 257 ---
+which all the lineside phones and other phones 
+
+--- Document Chunk 258 ---
+are connected e.g. phone connections to 
+
+--- Document Chunk 259 ---
+adjacent signal boxes, electrical control rooms 
+
+--- Document Chunk 260 ---
+and operational control rooms. When a phone 
+
+--- Document Chunk 261 ---
+is ringing in, an appropriate light flashes or the 
+
+--- Document Chunk 262 ---
+display is changed to show which phone it is. 
+
+--- Document Chunk 263 ---
+The signaller can choose which line to answer by 
+
+--- Document Chunk 264 ---
+lifting his handset and selecting the particular line. 
+
+--- Document Chunk 265 ---
+He can also ring a phone by lifting the handset 
+
+--- Document Chunk 266 ---
+and pressing the appropriate button. In some 
+
+--- Document Chunk 267 ---
+railways, phone lines for some level crossings 
+
+--- Document Chunk 268 ---
+give a distinctive different ringing sound so the 
+
+--- Document Chunk 269 ---
+signaller can take quicker action. Sometimes 
+
+--- Document Chunk 270 ---
+the signaller’s handset is equipped with a press-
+
+--- Document Chunk 271 ---
+to-talk button so that the driver can only hear 
+
+--- Document Chunk 272 ---
+what is said by the signaller to the handset and 
+
+--- Document Chunk 273 ---
+not hear conversations on other lines. There are 
+
+--- Document Chunk 274 ---
+many versions of concentrators based on the 
+
+--- Document Chunk 275 ---
+technology available when they were brought 
+
+--- Document Chunk 276 ---
+into service. Some have a key and lamp for each 
+
+--- Document Chunk 277 ---
+line, others are based on touch screens telephone 
+
+--- Document Chunk 278 ---
+systems similar to those used in money markets 
+
+--- Document Chunk 279 ---
+and known as ‘dealer boards’. Some combine the 
+
+--- Document Chunk 280 ---
+radio and fixed lines on the same display as the 
+
+--- Document Chunk 281 ---
+signalling controls. Modern concentrators are 
+
+--- Document Chunk 282 ---
+based on computers that communicate using the 
+
+--- Document Chunk 283 ---
+Internet Protocol (IP) see later.
+
+--- Document Chunk 284 ---
+If the signal box and phone are separated by an 
+
+--- Document Chunk 285 ---
+appreciable distance, say over 15km (10 miles), 
+
+--- Document Chunk 286 ---
+then a transmission system will be needed to 
+
+--- Document Chunk 287 ---
+extend the circuit. This is covered later. 
+
+--- Document Chunk 288 ---
+Voice communication by radio
+
+--- Document Chunk 289 ---
+UHF (Ultra High Frequency) radios are generally 
+
+--- Document Chunk 290 ---
+used for station management, shunting and to 
+
+--- Document Chunk 291 ---
+facilitate engineering work. Some are used as 
+
+--- Document Chunk 292 ---
+‘back-to-back’ radios and some have base stations 
+
+--- Document Chunk 293 ---
+which allow the connection of a landline from, say 
+
+--- Document Chunk 294 ---
+the signal box. UHF radios are normally simplex so 
+
+--- Document Chunk 295 ---
+each user has to press a button when they wish 
+
+--- Document Chunk 296 ---
+to talk and release to listen. Individual radios are 
+
+--- Document Chunk 297 ---
+distinguished by callsigns and strict voice protocol 
+
+--- Document Chunk 298 ---
+is required as a licence condition. When used by 
+
+--- Document Chunk 299 ---
+a shunter to give instructions to a driver, some 
+
+--- Document Chunk 300 ---
+radios have a facility to transmit a confidence 
+
+--- Document Chunk 301 ---
+tone so the driver knows the shunter still wishes 
+
+--- Document Chunk 302 ---
+them to continue or else the shunter has to keep 
+
+--- Document Chunk 303 ---
+“Telecoms 
+
+--- Document Chunk 304 ---
+copper cables 
+
+--- Document Chunk 305 ---
+can be used 
+
+--- Document Chunk 306 ---
+to carry DC 
+
+--- Document Chunk 307 ---
+signalling 
+
+--- Document Chunk 308 ---
+circuits, but not 
+
+--- Document Chunk 309 ---
+vice versa as 
+
+--- Document Chunk 310 ---
+conventional 
+
+--- Document Chunk 311 ---
+signalling 
+
+--- Document Chunk 312 ---
+cables are not 
+
+--- Document Chunk 313 ---
+constructed with 
+
+--- Document Chunk 314 ---
+twisted pairs”
+
+--- Document Chunk 315 ---
+“UHF radios 
+
+--- Document Chunk 316 ---
+are generally 
+
+--- Document Chunk 317 ---
+used for station 
+
+--- Document Chunk 318 ---
+management, 
+
+--- Document Chunk 319 ---
+shunting and 
+
+--- Document Chunk 320 ---
+to facilitate 
+
+--- Document Chunk 321 ---
+engineering 
+
+--- Document Chunk 322 ---
+work”
+
+--- Document Chunk 323 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 324 ---
+17
+
+--- Document Chunk 325 ---
+repeating the instruction. For engineering work 
+
+--- Document Chunk 326 ---
+public radio networks are often used if there is 
+
+--- Document Chunk 327 ---
+coverage at the location. 
+
+--- Document Chunk 328 ---
+Many railways have or are installing their own 
+
+--- Document Chunk 329 ---
+national radio networks to the GSM-R standard. 
+
+--- Document Chunk 330 ---
+This system is based on the 2G version of public 
+
+--- Document Chunk 331 ---
+networks with some extra enhanced facilities:
+
+--- Document Chunk 332 ---
+• Railway Emergency Call (REC).
+
+--- Document Chunk 333 ---
+• Prioritisation for important calls.
+
+--- Document Chunk 334 ---
+• Location dependent addressing e.g. contact 
+
+--- Document Chunk 335 ---
+the signaller who controls the section of line 
+
+--- Document Chunk 336 ---
+for the train making the call.
+
+--- Document Chunk 337 ---
+• Functional dependent addressing e.g. contact 
+
+--- Document Chunk 338 ---
+the driver of train number 50629.
+
+--- Document Chunk 339 ---
+• Voice group calls e.g. a shunting group.
+
+--- Document Chunk 340 ---
+• Data services e.g. European Train Control 
+
+--- Document Chunk 341 ---
+System (ETCS) data.
+
+--- Document Chunk 342 ---
+Figure 1 shows a schematic of typical GSM-R 
+
+--- Document Chunk 343 ---
+system. GSM-R systems have dedicated spectrum  
+
+--- Document Chunk 344 ---
+which is harmonised across Europe as: Uplink  
+
+--- Document Chunk 345 ---
+876–880MHz for mobile transmission and 
+
+--- Document Chunk 346 ---
+Downlink 921–925MHz for mobile reception.
+
+--- Document Chunk 347 ---
+Radio coverage is critical to the success of a 
+
+--- Document Chunk 348 ---
+GSM-R system. Many issues affect radio coverage, 
+
+--- Document Chunk 349 ---
+including cuttings, trees, hills, mast height and 
+
+--- Document Chunk 350 ---
+the frequency used. A public mobile system radio 
+
+--- Document Chunk 351 ---
+coverage will be optimised for revenue and it may 
+
+--- Document Chunk 352 ---
+be acceptable for small areas to have no coverage. 
+
+--- Document Chunk 353 ---
+For a railway radio network, complete coverage 
+
+--- Document Chunk 354 ---
+along a line of route will be required, including all 
+
+--- Document Chunk 355 ---
+cuttings, bridges and tunnels. 
+
+--- Document Chunk 356 ---
+It makes a significant difference to radio coverage 
+
+--- Document Chunk 357 ---
+design if a network is being designed for vehicle 
+
+--- Document Chunk 358 ---
+mounted mobile radios or hand held portable 
+
+--- Document Chunk 359 ---
+radios, as the former can have the antennas 
+
+--- Document Chunk 360 ---
+mounted on the train or vehicle roof and have 
+
+--- Document Chunk 361 ---
+higher power levels. As a train passes along 
+
+--- Document Chunk 362 ---
+a section of route it reselects the next base 
+
+--- Document Chunk 363 ---
+station to monitor based on the “neighbour list” 
+
+--- Document Chunk 364 ---
+transmitted from each base station and the relative 
+
+--- Document Chunk 365 ---
+received signal strengths of each neighbour and 
+
+--- Document Chunk 366 ---
+the currently selected base station. 
+
+--- Document Chunk 367 ---
+In a public network it does not matter which 
+
+--- Document Chunk 368 ---
+base station is used for a call, but for a railway 
+
+--- Document Chunk 369 ---
+emergency call it is important as it is established 
+
+--- Document Chunk 370 ---
+around the GSM-R cell which the train mobile 
+
+--- Document Chunk 371 ---
+had selected before the call set up, to make sure 
+
+--- Document Chunk 372 ---
+a call is routed to the controlling signaller. Thus, 
+
+--- Document Chunk 373 ---
+the control of the reselection is important and 
+
+--- Document Chunk 374 ---
+needs careful design of frequency allocation 
+
+--- Document Chunk 375 ---
+and neighbour lists, especially when there is a 
+
+--- Document Chunk 376 ---
+parallel railway close by. Frequency allocations 
+
+--- Document Chunk 377 ---
+also have to take account of any noise which 
+
+--- Document Chunk 378 ---
+may be introduced by the receivers picking up 
+
+--- Document Chunk 379 ---
+signals on the same or adjacent frequencies 
+
+--- Document Chunk 380 ---
+from other masts in the area. In addition, to 
+
+--- Document Chunk 381 ---
+reduce the size and hence impact of a railway 
+
+--- Document Chunk 382 ---
+emergency call, operators normally want to be 
+
+--- Document Chunk 383 ---
+able to distinguish between trains on the various 
+
+--- Document Chunk 384 ---
+lines approaching busy junctions with often the 
+
+--- Document Chunk 385 ---
+base station mast covering three or more sections 
+
+--- Document Chunk 386 ---
+of line approaching a junction. This has to be 
+
+--- Document Chunk 387 ---
+achieved using only a small number of frequencies 
+
+--- Document Chunk 388 ---
+compared to a public GSM system. In Europe only 
+
+--- Document Chunk 389 ---
+19 are currently available for GSM-R.
+
+--- Document Chunk 390 ---
+It is also important for the handover of calls to 
+
+--- Document Chunk 391 ---
+occur robustly so as to not interrupt speech 
+
+--- Document Chunk 392 ---
+or data communications. This handover takes 
+
+--- Document Chunk 393 ---
+time and therefore the handover zone has to 
+
+--- Document Chunk 394 ---
+increase as the maximum line speed increases. 
+
+--- Document Chunk 395 ---
+Care has to be taken when trains enter a tunnel, 
+
+--- Document Chunk 396 ---
+for example, to ensure there is sufficient time for 
+
+--- Document Chunk 397 ---
+a handover. Additional base station or repeaters 
+
+--- Document Chunk 398 ---
+Base Station
+
+--- Document Chunk 399 ---
+Controller (BSC)
+
+--- Document Chunk 400 ---
+BTS BTS BTS
+
+--- Document Chunk 401 ---
+Mobile Switching
+
+--- Document Chunk 402 ---
+Centre (MSC)
+
+--- Document Chunk 403 ---
+BSC BSC
+
+--- Document Chunk 404 ---
+PortablesMobiles
+
+--- Document Chunk 405 ---
+Other
+
+--- Document Chunk 406 ---
+networks
+
+--- Document Chunk 407 ---
+Operations and
+
+--- Document Chunk 408 ---
+maintenance centre Dispatcher Radio block
+
+--- Document Chunk 409 ---
+centre
+
+--- Document Chunk 410 ---
+Signaller
+
+--- Document Chunk 411 ---
+fixed terminal
+
+--- Document Chunk 412 ---
+Base Transceiver
+
+--- Document Chunk 413 ---
+Station (BTS)
+
+--- Document Chunk 414 ---
+A GSM-R network will typically 
+
+--- Document Chunk 415 ---
+have more than one MSC, 
+
+--- Document Chunk 416 ---
+several BSCs and many BTSs
+
+--- Document Chunk 417 ---
+Figure 1 – Schematic of 
+
+--- Document Chunk 418 ---
+typical GSM-R network.
+
+--- Document Chunk 419 ---
+“Radio coverage 
+
+--- Document Chunk 420 ---
+is critical to the 
+
+--- Document Chunk 421 ---
+success of a 
+
+--- Document Chunk 422 ---
+GSM-R system”
+
+--- Document Chunk 423 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 424 ---
+18
+
+--- Document Chunk 425 ---
+may be required in large stations, cuttings, under 
+
+--- Document Chunk 426 ---
+bridges and tunnels. 
+
+--- Document Chunk 427 ---
+A common problem to almost all railways is 
+
+--- Document Chunk 428 ---
+providing radio communications in tunnels. 
+
+--- Document Chunk 429 ---
+Communication using a tunnel mounted aerial 
+
+--- Document Chunk 430 ---
+in a single bore tunnel at 450MHz is possible 
+
+--- Document Chunk 431 ---
+up to around 500m, whilst it can reach 1.5km 
+
+--- Document Chunk 432 ---
+in a double track tunnel. At the higher band 
+
+--- Document Chunk 433 ---
+frequency of 900MHz the distance increases to 
+
+--- Document Chunk 434 ---
+around 2km or more for double track tunnels. 
+
+--- Document Chunk 435 ---
+The tunnel dimensions become significant as 
+
+--- Document Chunk 436 ---
+greater propagation distances have been found in 
+
+--- Document Chunk 437 ---
+the tunnels on the high-speed lines in Germany, 
+
+--- Document Chunk 438 ---
+which are built to a more generous loading gauge 
+
+--- Document Chunk 439 ---
+than other railways, such as the UK. 
+
+--- Document Chunk 440 ---
+The effect of introducing a train into the tunnel 
+
+--- Document Chunk 441 ---
+is to increase the attenuation rate due to the 
+
+--- Document Chunk 442 ---
+blocking presence of the train. In a single 
+
+--- Document Chunk 443 ---
+bore tunnel this can be a significant problem, 
+
+--- Document Chunk 444 ---
+depending on the tunnel dimensions. In a double 
+
+--- Document Chunk 445 ---
+track tunnel the effect may become significant 
+
+--- Document Chunk 446 ---
+when trains are passing. At certain frequencies 
+
+--- Document Chunk 447 ---
+some tunnels can act as waveguides, which 
+
+--- Document Chunk 448 ---
+can lessen the rate of field strength attenuation 
+
+--- Document Chunk 449 ---
+through the tunnel. Factors that can increase the 
+
+--- Document Chunk 450 ---
+rate of attenuation include the presence of bends 
+
+--- Document Chunk 451 ---
+in the tunnel and the construction of the tunnel 
+
+--- Document Chunk 452 ---
+(concrete, brick or rock-lined).
+
+--- Document Chunk 453 ---
+The space occupied by trains in the tunnel is 
+
+--- Document Chunk 454 ---
+also important. In tunnels with no overhead line 
+
+--- Document Chunk 455 ---
+electrification and a restricted clearance, for 
+
+--- Document Chunk 456 ---
+example, the distance radio waves propagate 
+
+--- Document Chunk 457 ---
+is lower than comparable tunnels with a larger 
+
+--- Document Chunk 458 ---
+gap between the roof of the train and the 
+
+--- Document Chunk 459 ---
+tunnel ceiling.
+
+--- Document Chunk 460 ---
+The alternative approach to the use of free-space 
+
+--- Document Chunk 461 ---
+antenna propagation is to use leaky feeders or 
+
+--- Document Chunk 462 ---
+radiating cables. These have the advantage of 
+
+--- Document Chunk 463 ---
+having a consistent and generally predictable level 
+
+--- Document Chunk 464 ---
+of attenuation, which is not affected by passing 
+
+--- Document Chunk 465 ---
+trains. The cable is ‘leaky’ in that it has gaps or 
+
+--- Document Chunk 466 ---
+slots in its outer conductor which unbalances the 
+
+--- Document Chunk 467 ---
+radio signal in the cable and causes it to propagate 
+
+--- Document Chunk 468 ---
+radio frequencies along its entire length. 
+
+--- Document Chunk 469 ---
+Work is underway on the replacement for 
+
+--- Document Chunk 470 ---
+GSM-R, called FRMCS (Future Railway Mobile 
+
+--- Document Chunk 471 ---
+Communication System) but it is expected that 
+
+--- Document Chunk 472 ---
+the current GSM-R functionality will be carried 
+
+--- Document Chunk 473 ---
+forward to the new system.
+
+--- Document Chunk 474 ---
+Data
+
+--- Document Chunk 475 ---
+Railway telecoms does not just use voice as data 
+
+--- Document Chunk 476 ---
+circuits are required to allow remote control 
+
+--- Document Chunk 477 ---
+and monitoring of equipment. Data circuits are 
+
+--- Document Chunk 478 ---
+provided to support signalling systems, e.g. SSI, 
+
+--- Document Chunk 479 ---
+Westlock, Smartlock when long distance terminals 
+
+--- Document Chunk 480 ---
+are required. Data circuits can be supported over 
+
+--- Document Chunk 481 ---
+copper cables using modems or plug directly into 
+
+--- Document Chunk 482 ---
+transmission equipment.
+
+--- Document Chunk 483 ---
+The near continuous data connection between 
+
+--- Document Chunk 484 ---
+trains and control centre to support the European 
+
+--- Document Chunk 485 ---
+Train Control System (ETCS) is normally provided 
+
+--- Document Chunk 486 ---
+via a GSM-R network in Europe and beyond. 
+
+--- Document Chunk 487 ---
+Railways, particularly metros, that use other cab 
+
+--- Document Chunk 488 ---
+based signalling systems (e.g. Communications 
+
+--- Document Chunk 489 ---
+Based Train Control CBTC) may adopt an 
+
+--- Document Chunk 490 ---
+alternative radio system such as TErrestrial Trunked 
+
+--- Document Chunk 491 ---
+Radio (TETRA) or even Wi-Fi if the line is in tunnel 
+
+--- Document Chunk 492 ---
+where external interference can be controlled. 
+
+--- Document Chunk 493 ---
+Early versions of ETCS used circuit switched data 
+
+--- Document Chunk 494 ---
+and hence required a constant data connection 
+
+--- Document Chunk 495 ---
+circuit to be available for the whole journey. This 
+
+--- Document Chunk 496 ---
+causes problems in dense areas where many 
+
+--- Document Chunk 497 ---
+trains are trying to access the network. To address 
+
+--- Document Chunk 498 ---
+this, some GSM-R networks are being enhanced 
+
+--- Document Chunk 499 ---
+to support GPRS (General Packet Radio Service) 
+
+--- Document Chunk 500 ---
+which allows better use of the radio bandwidth. 
+
+--- Document Chunk 501 ---
+Packet and circuit switching are explained later in 
+
+--- Document Chunk 502 ---
+the IP section. 
+
+--- Document Chunk 503 ---
+SCADA Systems
+
+--- Document Chunk 504 ---
+Supervisory Control and Data Acquisition (SCADA) 
+
+--- Document Chunk 505 ---
+systems can be used to monitor and control many 
+
+--- Document Chunk 506 ---
+different processes and systems for railways. 
+
+--- Document Chunk 507 ---
+However, the primary railway application is the 
+
+--- Document Chunk 508 ---
+control of electric traction systems over wide 
+
+--- Document Chunk 509 ---
+areas. Telecoms data links with high availability 
+
+--- Document Chunk 510 ---
+will be required for electric traction SCADA system 
+
+--- Document Chunk 511 ---
+control, together with robust voice services 
+
+--- Document Chunk 512 ---
+for routine and emergency isolation purposes. 
+
+--- Document Chunk 513 ---
+Tunnels require 
+
+--- Document Chunk 514 ---
+significant consideration 
+
+--- Document Chunk 515 ---
+when providing radio 
+
+--- Document Chunk 516 ---
+communications.
+
+--- Document Chunk 517 ---
+Photo Shutterstock/
+
+--- Document Chunk 518 ---
+Dirtymouse.
+
+--- Document Chunk 519 ---
+“Tunnel 
+
+--- Document Chunk 520 ---
+dimensions 
+
+--- Document Chunk 521 ---
+become 
+
+--- Document Chunk 522 ---
+significant”
+
+--- Document Chunk 523 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 524 ---
+19
+
+--- Document Chunk 525 ---
+Eliminating common failures which could isolate 
+
+--- Document Chunk 526 ---
+more than one successive electrical supply site is 
+
+--- Document Chunk 527 ---
+important, so an emergency isolation can still be 
+
+--- Document Chunk 528 ---
+implemented. SCADA systems may also be used 
+
+--- Document Chunk 529 ---
+for the monitoring and control of ancillary systems 
+
+--- Document Chunk 530 ---
+such as lifts and escalators, ventilation and air-
+
+--- Document Chunk 531 ---
+conditioning and drainage systems and will also 
+
+--- Document Chunk 532 ---
+require telecoms links.
+
+--- Document Chunk 533 ---
+Traditionally signalling telemetry systems are 
+
+--- Document Chunk 534 ---
+generally not regarded as SCADA systems but 
+
+--- Document Chunk 535 ---
+they perform a very similar function, transmitting 
+
+--- Document Chunk 536 ---
+commands and receiving indications on the status 
+
+--- Document Chunk 537 ---
+of signals, points, track circuits. However in some 
+
+--- Document Chunk 538 ---
+railways SCADA capable equipment is used for 
+
+--- Document Chunk 539 ---
+signalling remote control systems. 
+
+--- Document Chunk 540 ---
+Transmission systems
+
+--- Document Chunk 541 ---
+Transmission systems are used to transmit 
+
+--- Document Chunk 542 ---
+and receive more information than a single 
+
+--- Document Chunk 543 ---
+cable pair or fibre and over longer distances. 
+
+--- Document Chunk 544 ---
+They have evolved over time, mainly driven by 
+
+--- Document Chunk 545 ---
+developments for public telephone networks. 
+
+--- Document Chunk 546 ---
+Nowadays transmission systems are normally 
+
+--- Document Chunk 547 ---
+designed in layers to reflect the capacity and 
+
+--- Document Chunk 548 ---
+points of presence for the different services. 
+
+--- Document Chunk 549 ---
+The core network layer has relatively few nodes 
+
+--- Document Chunk 550 ---
+connected by high speed links and configured 
+
+--- Document Chunk 551 ---
+in a diverse manner. The access layer, on the 
+
+--- Document Chunk 552 ---
+other hand, would have frequent nodes situated 
+
+--- Document Chunk 553 ---
+where services are required, e.g. at base stations 
+
+--- Document Chunk 554 ---
+or signal boxes. 
+
+--- Document Chunk 555 ---
+Transmission equipment is normally connected 
+
+--- Document Chunk 556 ---
+using lineside fibre cables, but older systems may 
+
+--- Document Chunk 557 ---
+still be connected by copper cable. To provide 
+
+--- Document Chunk 558 ---
+diversity transmission equipment can also be 
+
+--- Document Chunk 559 ---
+connected by a service provided from a public 
+
+--- Document Chunk 560 ---
+telephone operator. 
+
+--- Document Chunk 561 ---
+Primary layers and primary 
+
+--- Document Chunk 562 ---
+multiplexers
+
+--- Document Chunk 563 ---
+Older telecoms and data transmission systems, 
+
+--- Document Chunk 564 ---
+such as Plesiochronous Digital Hierarchy (PDH) 
+
+--- Document Chunk 565 ---
+and Synchronous Digital Hierarchy (SDH) are 
+
+--- Document Chunk 566 ---
+known as “circuit switched” transmission, with a 
+
+--- Document Chunk 567 ---
+permanent connection established between two 
+
+--- Document Chunk 568 ---
+applications. The primary layer is where channels 
+
+--- Document Chunk 569 ---
+are converted from analogue to digital form so 
+
+--- Document Chunk 570 ---
+they can be combined with other circuits and 
+
+--- Document Chunk 571 ---
+sent around the network. When the primary layer 
+
+--- Document Chunk 572 ---
+is connected to line side cables, this is normally 
+
+--- Document Chunk 573 ---
+done using a primary multiplexer (PMux). PMuxs 
+
+--- Document Chunk 574 ---
+can support, speech circuits and data circuits up 
+
+--- Document Chunk 575 ---
+to 2Mbit/s. PMuxs are connected using an E1 data 
+
+--- Document Chunk 576 ---
+stream at 2Mbit/s. PMuxs can be configured as 
+
+--- Document Chunk 577 ---
+point to point or in rings. Each E1 data stream has 
+
+--- Document Chunk 578 ---
+32 timeslots. Timeslot (TS) 0 is for synchronisation 
+
+--- Document Chunk 579 ---
+and alarms and normally TS16 is used for channel 
+
+--- Document Chunk 580 ---
+associated signalling. The other 30 timeslots each 
+
+--- Document Chunk 581 ---
+of 64kbit/s can be used to support speech or 
+
+--- Document Chunk 582 ---
+data circuits. The main interface cards used on a 
+
+--- Document Chunk 583 ---
+railway network may be:
+
+--- Document Chunk 584 ---
+• Subscriber – to connect to a phone via the 
+
+--- Document Chunk 585 ---
+lineside cable.
+
+--- Document Chunk 586 ---
+• Exchange – to connect to the exchange 
+
+--- Document Chunk 587 ---
+or concentrator.
+
+--- Document Chunk 588 ---
+• 4-wire E&M – to provide transmit and receive 
+
+--- Document Chunk 589 ---
+paths and up to 4 status circuits which can be 
+
+--- Document Chunk 590 ---
+used to operate relays.
+
+--- Document Chunk 591 ---
+• G703 data interface for SSI.
+
+--- Document Chunk 592 ---
+• V24 or X21 for lower speed data.
+
+--- Document Chunk 593 ---
+• ISDN (Integrated Services Digital Network) for 
+
+--- Document Chunk 594 ---
+some terminal equipment.
+
+--- Document Chunk 595 ---
+A normal telephone circuit has a frequency range 
+
+--- Document Chunk 596 ---
+of 300-3400Hz. A PMux converts analogue 
+
+--- Document Chunk 597 ---
+speech into a digital form by sampling the sound 
+
+--- Document Chunk 598 ---
+every 125μS (i.e. 8kHz) and then converting 
+
+--- Document Chunk 599 ---
+the sample value to a digital number between 
+
+--- Document Chunk 600 ---
+-128 and 128 i.e. 8bits. This conversion is called 
+
+--- Document Chunk 601 ---
+quantising and is done to limit the noise due to 
+
+--- Document Chunk 602 ---
+the process to a small proportion of the amplitude 
+
+--- Document Chunk 603 ---
+of the signal. So, the overall bit rate by channel is 
+
+--- Document Chunk 604 ---
+8bits/sample x 8000samples/second = 64kbits/s. 
+
+--- Document Chunk 605 ---
+The interface card then allocates this data stream 
+
+--- Document Chunk 606 ---
+into a timeslot of the E1 circuit. In addition, it 
+
+--- Document Chunk 607 ---
+detects items such as the loop condition or 
+
+--- Document Chunk 608 ---
+ring current and sends codes in timeslot 16 
+
+--- Document Chunk 609 ---
+to enable the interface card at the far end to 
+
+--- Document Chunk 610 ---
+reproduce the condition.
+
+--- Document Chunk 611 ---
+Above from left, a 
+
+--- Document Chunk 612 ---
+signallers fixed GSM-R 
+
+--- Document Chunk 613 ---
+terminal.
+
+--- Document Chunk 614 ---
+Cab GSM-R mobile unit.
+
+--- Document Chunk 615 ---
+Small ‘key and lamp’ 
+
+--- Document Chunk 616 ---
+signallers concentrator.
+
+--- Document Chunk 617 ---
+“Transmission 
+
+--- Document Chunk 618 ---
+equipment is 
+
+--- Document Chunk 619 ---
+now normally 
+
+--- Document Chunk 620 ---
+connected using 
+
+--- Document Chunk 621 ---
+lineside fibre 
+
+--- Document Chunk 622 ---
+cables”
+
+--- Document Chunk 623 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 624 ---
+20
+
+--- Document Chunk 625 ---
+PMuxs are normally connected via bearer services 
+
+--- Document Chunk 626 ---
+through the higher order transmission layers but 
+
+--- Document Chunk 627 ---
+can also be supported using Digital Subscriber 
+
+--- Document Chunk 628 ---
+Line (DSL) modems over lineside copper networks. 
+
+--- Document Chunk 629 ---
+A typical network configuration based on SDH 
+
+--- Document Chunk 630 ---
+equipment is shown in Figure 2.
+
+--- Document Chunk 631 ---
+To connect a circuit switched network to an 
+
+--- Document Chunk 632 ---
+Internet Protocol (IP) network, gateways are 
+
+--- Document Chunk 633 ---
+required to convert the circuits or E1 data 
+
+--- Document Chunk 634 ---
+streams into a set of packets to send round 
+
+--- Document Chunk 635 ---
+the network. Data circuits for some signalling 
+
+--- Document Chunk 636 ---
+applications (example SSI) have specific time delay 
+
+--- Document Chunk 637 ---
+requirements which need to be addressed in the 
+
+--- Document Chunk 638 ---
+design of the core network and require allocation 
+
+--- Document Chunk 639 ---
+rules for such circuits, or for the E1 data streams 
+
+--- Document Chunk 640 ---
+supporting the circuits.
+
+--- Document Chunk 641 ---
+Figure 3 shows a typical example of how lineside 
+
+--- Document Chunk 642 ---
+phones may be connected to a signal box, using 
+
+--- Document Chunk 643 ---
+older circuit switched transmission.
+
+--- Document Chunk 644 ---
+Internet Protocol (IP) networks
+
+--- Document Chunk 645 ---
+IP (Internet Protocol) as its name suggests is 
+
+--- Document Chunk 646 ---
+the basic protocol used on the internet, but has 
+
+--- Document Chunk 647 ---
+been the heart of all new telecoms networks and 
+
+--- Document Chunk 648 ---
+data communications systems provided for a 
+
+--- Document Chunk 649 ---
+number of years. 
+
+--- Document Chunk 650 ---
+The PDH and SDH “circuit switched” transmission, 
+
+--- Document Chunk 651 ---
+with a permanent connection established between 
+
+--- Document Chunk 652 ---
+two applications, ‘locks up’ the communication 
+
+--- Document Chunk 653 ---
+resource and is inefficient, as the transmission 
+
+--- Document Chunk 654 ---
+path is used even when no data is being 
+
+--- Document Chunk 655 ---
+transmitted. IP however is a “packet switched” 
+
+--- Document Chunk 656 ---
+network, with the data message split into small 
+
+--- Document Chunk 657 ---
+packets to share capacity and transmission paths 
+
+--- Document Chunk 658 ---
+which are only used when data needs to be sent. 
+
+--- Document Chunk 659 ---
+This requires ‘routing’ to be established for each 
+
+--- Document Chunk 660 ---
+data exchange, however resilience is built in and 
+
+--- Document Chunk 661 ---
+the communications resources are shared, making 
+
+--- Document Chunk 662 ---
+IP far more efficient than circuit switching.
+
+--- Document Chunk 663 ---
+Each packet needs to be given information about 
+
+--- Document Chunk 664 ---
+the destination, its origin, and other information, 
+
+--- Document Chunk 665 ---
+to allow the data to be routed around a meshed 
+
+--- Document Chunk 666 ---
+network of routers. An IP packet is shown in 
+
+--- Document Chunk 667 ---
+Figure 4. The payload is a variable amount of data 
+
+--- Document Chunk 668 ---
+to be transmitted and is typically a few kilobytes, 
+
+--- Document Chunk 669 ---
+but can be up to 64 kilobytes. The IP header is 
+
+--- Document Chunk 670 ---
+fixed at 20 bytes and contains a 32-bit source 
+
+--- Document Chunk 671 ---
+and destination address as well as an indication 
+
+--- Document Chunk 672 ---
+of the length of the overall packet. Other fields 
+
+--- Document Chunk 673 ---
+provide a checksum, the version of IP being 
+
+--- Document Chunk 674 ---
+used, and a simple type of service indicator. The 
+
+--- Document Chunk 675 ---
+“time to live” field is used to set the maximum 
+
+--- Document Chunk 676 ---
+number of hops between router nodes to prevent 
+
+--- Document Chunk 677 ---
+unsuccessful delivered packets circulating and 
+
+--- Document Chunk 678 ---
+clogging up the network. After the packet has 
+
+--- Document Chunk 679 ---
+transferred its specified number of hops it is simply 
+
+--- Document Chunk 680 ---
+discarded and ‘dies’.
+
+--- Document Chunk 681 ---
+The IP network as described in its raw state is 
+
+--- Document Chunk 682 ---
+simply a “best effort network”, and there is no 
+
+--- Document Chunk 683 ---
+guarantee of the packets arriving, or in which 
+
+--- Document Chunk 684 ---
+order they arrive, and the network is what is 
+
+--- Document Chunk 685 ---
+known as connectionless, so the transport layer 
+
+--- Document Chunk 686 ---
+manages the flow of IP packets. Transmission 
+
+--- Document Chunk 687 ---
+Core SDH transport
+
+--- Document Chunk 688 ---
+(STM-16)
+
+--- Document Chunk 689 ---
+Access SDH transport
+
+--- Document Chunk 690 ---
+(STM-1)
+
+--- Document Chunk 691 ---
+Access DSL 
+
+--- Document Chunk 692 ---
+transport
+
+--- Document Chunk 693 ---
+(2Mbit/s)
+
+--- Document Chunk 694 ---
+Primary 
+
+--- Document Chunk 695 ---
+layer
+
+--- Document Chunk 696 ---
+Copper 
+
+--- Document Chunk 697 ---
+layer
+
+--- Document Chunk 698 ---
+High bandwidth services
+
+--- Document Chunk 699 ---
+(e.g. IT and GSM-R)
+
+--- Document Chunk 700 ---
+2/34/45Mbit/s
+
+--- Document Chunk 701 ---
+services
+
+--- Document Chunk 702 ---
+Sub 2Mbit/s
+
+--- Document Chunk 703 ---
+services
+
+--- Document Chunk 704 ---
+Analogue
+
+--- Document Chunk 705 ---
+services
+
+--- Document Chunk 706 ---
+Figure 2 – Typical network 
+
+--- Document Chunk 707 ---
+configuration based on 
+
+--- Document Chunk 708 ---
+SDH equipment.
+
+--- Document Chunk 709 ---
+Concentrator
+
+--- Document Chunk 710 ---
+Transmission
+
+--- Document Chunk 711 ---
+node A
+
+--- Document Chunk 712 ---
+Transmission
+
+--- Document Chunk 713 ---
+node B
+
+--- Document Chunk 714 ---
+Transmission
+
+--- Document Chunk 715 ---
+nodePrimary multiplexer
+
+--- Document Chunk 716 ---
+with exchange cards
+
+--- Document Chunk 717 ---
+Primary multiplexer
+
+--- Document Chunk 718 ---
+with exchange cards
+
+--- Document Chunk 719 ---
+Primary multiplexer
+
+--- Document Chunk 720 ---
+with subscriber 
+
+--- Document Chunk 721 ---
+cards
+
+--- Document Chunk 722 ---
+Junction
+
+--- Document Chunk 723 ---
+boxes
+
+--- Document Chunk 724 ---
+Copper cable
+
+--- Document Chunk 725 ---
+Tail cable
+
+--- Document Chunk 726 ---
+Fibre cable
+
+--- Document Chunk 727 ---
+Figure 3 – Lineside 
+
+--- Document Chunk 728 ---
+telephone connected 
+
+--- Document Chunk 729 ---
+using circuit switched 
+
+--- Document Chunk 730 ---
+transmission.
+
+--- Document Chunk 731 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 732 ---
+21
+
+--- Document Chunk 733 ---
+Payload (max 65kbytes) Header (20 to 60 bytes)
+
+--- Document Chunk 734 ---
+Options
+
+--- Document Chunk 735 ---
+0-40
+
+--- Document Chunk 736 ---
+Destination
+
+--- Document Chunk 737 ---
+address
+
+--- Document Chunk 738 ---
+4
+
+--- Document Chunk 739 ---
+Source
+
+--- Document Chunk 740 ---
+address
+
+--- Document Chunk 741 ---
+4
+
+--- Document Chunk 742 ---
+2 2 21 1 1 12
+
+--- Document Chunk 743 ---
+Header checksum
+
+--- Document Chunk 744 ---
+Protocol
+
+--- Document Chunk 745 ---
+Time to live
+
+--- Document Chunk 746 ---
+Fragment offset
+
+--- Document Chunk 747 ---
+Identification
+
+--- Document Chunk 748 ---
+Length
+
+--- Document Chunk 749 ---
+Type of service
+
+--- Document Chunk 750 ---
+Version and header length
+
+--- Document Chunk 751 ---
+Control Protocol (TCP) sits within the IP payload 
+
+--- Document Chunk 752 ---
+and envelopes the source data by a 20-bit header 
+
+--- Document Chunk 753 ---
+and is carried by the IP packet as the payload. TCP 
+
+--- Document Chunk 754 ---
+acts as a connection-ordinated protocol within 
+
+--- Document Chunk 755 ---
+the connectionless network, it assumes the IP 
+
+--- Document Chunk 756 ---
+network is unreliable and numbers the IP packets 
+
+--- Document Chunk 757 ---
+or “datagrams” at the transmitting end of the link. 
+
+--- Document Chunk 758 ---
+It examines the numbers at the receiving end and 
+
+--- Document Chunk 759 ---
+requests the retransmission of any packets not 
+
+--- Document Chunk 760 ---
+arriving within a specified period. The numbering 
+
+--- Document Chunk 761 ---
+sequence is used to arrange the packets into the 
+
+--- Document Chunk 762 ---
+correct order, and finally TCP monitors the flow of 
+
+--- Document Chunk 763 ---
+packets getting through the network and adjusts 
+
+--- Document Chunk 764 ---
+the launch rate accordingly.
+
+--- Document Chunk 765 ---
+A network of routers is shown in Figure 5 together 
+
+--- Document Chunk 766 ---
+with the role of the TCP and IP headers. The 
+
+--- Document Chunk 767 ---
+routers only examine the IP packet header, and 
+
+--- Document Chunk 768 ---
+simply pass the datagram packet onto the next 
+
+--- Document Chunk 769 ---
+router in the network, according to a table held 
+
+--- Document Chunk 770 ---
+within the router. Multiple paths for the packets 
+
+--- Document Chunk 771 ---
+are available so the transmission network is more 
+
+--- Document Chunk 772 ---
+reliable and it is possible for consecutive packets 
+
+--- Document Chunk 773 ---
+to be routed over different paths between router 
+
+--- Document Chunk 774 ---
+nodes. Once the packets are delivered to their 
+
+--- Document Chunk 775 ---
+end-point, the TCP assembles packets in the 
+
+--- Document Chunk 776 ---
+correct sequence and requests the retransmission 
+
+--- Document Chunk 777 ---
+of delayed or errored packets if required.
+
+--- Document Chunk 778 ---
+Not every application has the same requirements 
+
+--- Document Chunk 779 ---
+for the delivery of IP packets. For example, when 
+
+--- Document Chunk 780 ---
+transmitting a document or email it is critical 
+
+--- Document Chunk 781 ---
+the entire data message is transmitted with no 
+
+--- Document Chunk 782 ---
+corruption. It does not matter if it takes a few 
+
+--- Document Chunk 783 ---
+milliseconds to receive the data message, so TCP 
+
+--- Document Chunk 784 ---
+is used, which will request the re-transmission of 
+
+--- Document Chunk 785 ---
+any missing or corrupt data packets. However, 
+
+--- Document Chunk 786 ---
+a voice or video image signal is time critical 
+
+--- Document Chunk 787 ---
+but very small gaps in the image or voice can 
+
+--- Document Chunk 788 ---
+be tolerated, and may not even be noticed. 
+
+--- Document Chunk 789 ---
+For these applications User Datagram Protocol 
+
+--- Document Chunk 790 ---
+(UDP) is used. This assembles the data packets in 
+
+--- Document Chunk 791 ---
+the correct order, but does not arrange for the 
+
+--- Document Chunk 792 ---
+retransmission of corrupt or missing packets; they 
+
+--- Document Chunk 793 ---
+are simply discarded. 
+
+--- Document Chunk 794 ---
+Multi-Protocol Label Switching (MPLS)
+
+--- Document Chunk 795 ---
+MPLS is a method of providing a guaranteed 
+
+--- Document Chunk 796 ---
+Quality of Service (QoS) and Virtual Private 
+
+--- Document Chunk 797 ---
+Network (VPN) capability within an IP network, 
+
+--- Document Chunk 798 ---
+and is a method of making the connectionless 
+
+--- Document Chunk 799 ---
+IP network connection orientated. MPLS uses 
+
+--- Document Chunk 800 ---
+Data
+
+--- Document Chunk 801 ---
+Data
+
+--- Document Chunk 802 ---
+Payload IP header
+
+--- Document Chunk 803 ---
+TCP header
+
+--- Document Chunk 804 ---
+Data
+
+--- Document Chunk 805 ---
+Data TCP header
+
+--- Document Chunk 806 ---
+IP packet IP packet
+
+--- Document Chunk 807 ---
+Routers examine only
+
+--- Document Chunk 808 ---
+IP packet headers
+
+--- Document Chunk 809 ---
+Payload IP header
+
+--- Document Chunk 810 ---
+Figure 4 – An IP packet.
+
+--- Document Chunk 811 ---
+Figure 5 – A network of 
+
+--- Document Chunk 812 ---
+routers showing the role 
+
+--- Document Chunk 813 ---
+of TCP and IP headers.
+
+--- Document Chunk 814 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 815 ---
+22
+
+--- Document Chunk 816 ---
+‘labels’ to specify a virtual path for the IP packets 
+
+--- Document Chunk 817 ---
+to follow using a 20-bit label attached to the front 
+
+--- Document Chunk 818 ---
+of each packet. MPLS provides better latency for 
+
+--- Document Chunk 819 ---
+time critical applications, such as voice and video, 
+
+--- Document Chunk 820 ---
+and with VPN capability for security. The faster 
+
+--- Document Chunk 821 ---
+routing is because the label switching is done in 
+
+--- Document Chunk 822 ---
+hardware, whereas normal IP routing involves the 
+
+--- Document Chunk 823 ---
+slower processing of software to deconstruct and 
+
+--- Document Chunk 824 ---
+decode the IP address. MPLS also incorporates 
+
+--- Document Chunk 825 ---
+Class of Service (CoS) network performance to 
+
+--- Document Chunk 826 ---
+differentiate between time critical, high priority 
+
+--- Document Chunk 827 ---
+traffic and delay tolerant, low priority traffic. To use 
+
+--- Document Chunk 828 ---
+this service, MPLS capable routers are required.
+
+--- Document Chunk 829 ---
+Voice Over IP (VoIP)
+
+--- Document Chunk 830 ---
+VoIP systems offer many advantages compared to 
+
+--- Document Chunk 831 ---
+a traditional circuit switched telephone exchange 
+
+--- Document Chunk 832 ---
+network, as voice simply becomes another 
+
+--- Document Chunk 833 ---
+application running on an IP network, this offers 
+
+--- Document Chunk 834 ---
+many advantages and the capability of exceptional 
+
+--- Document Chunk 835 ---
+good quality sound. This is because high speed 
+
+--- Document Chunk 836 ---
+codecs convert the voice to IP packets without 
+
+--- Document Chunk 837 ---
+needing the normal 4kHz frequency filtering. 
+
+--- Document Chunk 838 ---
+This higher quality is subject to loading on the IP 
+
+--- Document Chunk 839 ---
+network, which can lead to loss of packets and 
+
+--- Document Chunk 840 ---
+hence degradation of sound quality; which is 
+
+--- Document Chunk 841 ---
+why a high Quality of Service (QoS) IP network 
+
+--- Document Chunk 842 ---
+is required for VoIP. A power supply for the VoIP 
+
+--- Document Chunk 843 ---
+telephone will also be required. 
+
+--- Document Chunk 844 ---
+Security is a concern with IP networks, so real time 
+
+--- Document Chunk 845 ---
+cyber security using encryption and firewalls along 
+
+--- Document Chunk 846 ---
+with “defence in depth” techniques with multiple 
+
+--- Document Chunk 847 ---
+layers of defences is critical.
+
+--- Document Chunk 848 ---
+Protocol layers
+
+--- Document Chunk 849 ---
+One way of explaining the various IP 
+
+--- Document Chunk 850 ---
+protocols and layers is to map TCP/IP and its 
+
+--- Document Chunk 851 ---
+supporting protocols against the Open Systems 
+
+--- Document Chunk 852 ---
+Interconnection (OSI) model as shown in Figure 6. 
+
+--- Document Chunk 853 ---
+At physical Layer 0 and 1 there are the various 
+
+--- Document Chunk 854 ---
+transmission systems and cables in the access and 
+
+--- Document Chunk 855 ---
+core network. At Layer 2 there are various data 
+
+--- Document Chunk 856 ---
+link systems that may be used in the telecoms 
+
+--- Document Chunk 857 ---
+IP network, including Ethernet and possibly the 
+
+--- Document Chunk 858 ---
+Public Switched Network for dial up connections. 
+
+--- Document Chunk 859 ---
+IP resides at Layer 3, the Network layer. At Layer 4, 
+
+--- Document Chunk 860 ---
+the Transport Layer, there is either TCP for the 
+
+--- Document Chunk 861 ---
+latency tolerable, or UDP for the latency intolerant 
+
+--- Document Chunk 862 ---
+applications. There is a vast array of protocols 
+
+--- Document Chunk 863 ---
+covering many possible applications that may run 
+
+--- Document Chunk 864 ---
+over an IP network, either internet or intranet or 
+
+--- Document Chunk 865 ---
+an IP based secure signalling system; and it is at 
+
+--- Document Chunk 866 ---
+this level where full end to end data security needs 
+
+--- Document Chunk 867 ---
+to be addressed. The design and standards for IP 
+
+--- Document Chunk 868 ---
+and the internet are administered by a consortium 
+
+--- Document Chunk 869 ---
+of users, academics, and manufacturers known 
+
+--- Document Chunk 870 ---
+as the Internet Engineering Task Force (IETF), 
+
+--- Document Chunk 871 ---
+unlike traditional telecoms networks which were 
+
+--- Document Chunk 872 ---
+designed to international standards governed by 
+
+--- Document Chunk 873 ---
+the International Telecommunications Union (ITU). 
+
+--- Document Chunk 874 ---
+The IETF have set recommendations for OSI layers 
+
+--- Document Chunk 875 ---
+2 to 7, however the IETF considers layers 5 to 7 a 
+
+--- Document Chunk 876 ---
+single entity. 
+
+--- Document Chunk 877 ---
+Management of a telecoms network
+
+--- Document Chunk 878 ---
+Software-Defined Networks (SDN) are now 
+
+--- Document Chunk 879 ---
+common. SDN enables remove dynamic, efficient 
+
+--- Document Chunk 880 ---
+network configuration and alarm management 
+
+--- Document Chunk 881 ---
+in order to improve network performance and 
+
+--- Document Chunk 882 ---
+monitoring, making it more like cloud computing 
+
+--- Document Chunk 883 ---
+than traditional network management.
+
+--- Document Chunk 884 ---
+In many cases modern business systems are based 
+
+--- Document Chunk 885 ---
+on an IP network and the methods of connecting 
+
+--- Document Chunk 886 ---
+computers, printers and servers are well defined. 
+
+--- Document Chunk 887 ---
+VoIP telephones are increasingly used in offices 
+
+--- Document Chunk 888 ---
+and if a railway telecoms IP network is provided 
+
+--- Document Chunk 889 ---
+for operational use it is also possible to extend 
+
+--- Document Chunk 890 ---
+it for business purposes. Interfaces may be 
+
+--- Document Chunk 891 ---
+required to any older circuit switched digital 
+
+--- Document Chunk 892 ---
+telephone exchanges which could still be used in 
+
+--- Document Chunk 893 ---
+a railway network. 
+
+--- Document Chunk 894 ---
+Increasing capacity
+
+--- Document Chunk 895 ---
+Coarse Wavelength Division Multiplexing (CWDM) 
+
+--- Document Chunk 896 ---
+or Dense Wavelength Divisional Multiplexing 
+
+--- Document Chunk 897 ---
+(DWDM) technology can be used to make better 
+
+--- Document Chunk 898 ---
+use of installed fibre. These systems use Frequency 
+
+--- Document Chunk 899 ---
+Division Multiplex (FDM) with between 18 and 160 
+
+--- Document Chunk 900 ---
+wavelengths of light over single mode fibre. In this 
+
+--- Document Chunk 901 ---
+way many transmission links can be overlaid onto 
+
+--- Document Chunk 902 ---
+the same fibre, to significantly increase capacity.
+
+--- Document Chunk 903 ---
+HTTP SMTP POP FTP SNMP
+
+--- Document Chunk 904 ---
+NFS
+
+--- Document Chunk 905 ---
+XDR
+
+--- Document Chunk 906 ---
+TCP UDP
+
+--- Document Chunk 907 ---
+IP
+
+--- Document Chunk 908 ---
+e.g. Ethernet
+
+--- Document Chunk 909 ---
+e.g. SDH, PDH, ADSL
+
+--- Document Chunk 910 ---
+e.g. Copper, fibre, radioL0
+
+--- Document Chunk 911 ---
+L1: Physical
+
+--- Document Chunk 912 ---
+L2: Link
+
+--- Document Chunk 913 ---
+L3: Network
+
+--- Document Chunk 914 ---
+L4: Transport
+
+--- Document Chunk 915 ---
+L5: Session
+
+--- Document Chunk 916 ---
+L6: Presentation
+
+--- Document Chunk 917 ---
+L7: Application
+
+--- Document Chunk 918 ---
+OSI Internet
+
+--- Document Chunk 919 ---
+Figure 6 – The Open 
+
+--- Document Chunk 920 ---
+Systems interconnection 
+
+--- Document Chunk 921 ---
+(OSI) model.
+
+--- Document Chunk 922 ---
+HTTP is Hypertext 
+
+--- Document Chunk 923 ---
+Transfer Protocol, SMTP 
+
+--- Document Chunk 924 ---
+is Simple Mail Transfer 
+
+--- Document Chunk 925 ---
+Protocol, POP is Post 
+
+--- Document Chunk 926 ---
+Office Protocol, FTP is 
+
+--- Document Chunk 927 ---
+File Transfer Protocol, 
+
+--- Document Chunk 928 ---
+SNMP is Simple Network 
+
+--- Document Chunk 929 ---
+Mail Protocol, NFS is 
+
+--- Document Chunk 930 ---
+Network File System, 
+
+--- Document Chunk 931 ---
+XDR is External Data 
+
+--- Document Chunk 932 ---
+Representation, PDH is 
+
+--- Document Chunk 933 ---
+Plesiochronous Digital 
+
+--- Document Chunk 934 ---
+Hierarchy and ADSL is 
+
+--- Document Chunk 935 ---
+Asynchronous Digital 
+
+--- Document Chunk 936 ---
+Subscriber Line.
+
+--- Document Chunk 937 ---
+“Security is a 
+
+--- Document Chunk 938 ---
+concern with 
+
+--- Document Chunk 939 ---
+IP networks, 
+
+--- Document Chunk 940 ---
+so real time 
+
+--- Document Chunk 941 ---
+cyber security is 
+
+--- Document Chunk 942 ---
+critical”
+
+--- Document Chunk 943 ---
+ IRSE News |  Issue 270  |  October 2020
+
+--- Document Chunk 944 ---
+23
+
+--- Document Chunk 945 ---
+Electrification, interference  
+
+--- Document Chunk 946 ---
+and immunisation
+
+--- Document Chunk 947 ---
+Electric traction systems can cause problems 
+
+--- Document Chunk 948 ---
+for telecommunications with electromagnetic 
+
+--- Document Chunk 949 ---
+induction of high voltages and noise into speech 
+
+--- Document Chunk 950 ---
+circuits. This can arise from harmonics resulting 
+
+--- Document Chunk 951 ---
+from the electric field generated by the current 
+
+--- Document Chunk 952 ---
+drawn by electric trains in 25kV overhead line 
+
+--- Document Chunk 953 ---
+systems, or by the AC feeder cables and the 
+
+--- Document Chunk 954 ---
+crude rectification of the AC supply to provide 
+
+--- Document Chunk 955 ---
+a DC traction system either using third rail or 
+
+--- Document Chunk 956 ---
+overhead catenaries. S&T engineers have to 
+
+--- Document Chunk 957 ---
+ensure interference will not cause malfunction 
+
+--- Document Chunk 958 ---
+of safety related circuits, particularly that short 
+
+--- Document Chunk 959 ---
+circuit currents do not generate high voltages that 
+
+--- Document Chunk 960 ---
+would damage equipment or cause a dangerous 
+
+--- Document Chunk 961 ---
+health hazard to staff. Also, higher frequency 
+
+--- Document Chunk 962 ---
+harmonics from traction systems should not cause 
+
+--- Document Chunk 963 ---
+speech circuits to become noisy and interfere with 
+
+--- Document Chunk 964 ---
+data circuits. 
+
+--- Document Chunk 965 ---
+Various traction systems are in use around 
+
+--- Document Chunk 966 ---
+the world with 25kV 50Hz one of the main 
+
+--- Document Chunk 967 ---
+systems in use today. The ITU (International 
+
+--- Document Chunk 968 ---
+Telecommunications Union) requires induced 
+
+--- Document Chunk 969 ---
+voltages in telecoms copper cables under normal 
+
+--- Document Chunk 970 ---
+conditions to be no more than 60V RMS, and 
+
+--- Document Chunk 971 ---
+under system fault conditions 430V RMS. The 
+
+--- Document Chunk 972 ---
+noise limit for telephone circuits is a psophometric 
+
+--- Document Chunk 973 ---
+electromotive force of 1mV. Psophometric noise is 
+
+--- Document Chunk 974 ---
+‘weighted’ the same as human-perceived levels of 
+
+--- Document Chunk 975 ---
+noise. This is more important for telephony than 
+
+--- Document Chunk 976 ---
+the raw noise voltage.
+
+--- Document Chunk 977 ---
+A range of solutions are required to mitigate 
+
+--- Document Chunk 978 ---
+the effects of traction power supplies on 
+
+--- Document Chunk 979 ---
+line side services:
+
+--- Document Chunk 980 ---
+• Limiting the lengths of copper cable section.
+
+--- Document Chunk 981 ---
+• Having a robust balance to earth interface for 
+
+--- Document Chunk 982 ---
+powered equipment.
+
+--- Document Chunk 983 ---
+• Position of the cable route (and hence cables) 
+
+--- Document Chunk 984 ---
+with respect to the traction cables.
+
+--- Document Chunk 985 ---
+• Providing an earthed screening cable in 
+
+--- Document Chunk 986 ---
+the cable route.
+
+--- Document Chunk 987 ---
+• Replace longer distance copper cabling with a 
+
+--- Document Chunk 988 ---
+fibre optic based system.
+
+--- Document Chunk 989 ---
+Some railways provide traction current at 25kV, 
+
+--- Document Chunk 990 ---
+50Hz to the train with currents of around 300A 
+
+--- Document Chunk 991 ---
+flowing through the train from the catenary wire 
+
+--- Document Chunk 992 ---
+to the rails. To minimise interference, a booster 
+
+--- Document Chunk 993 ---
+transformer is used whereby the overhead line 
+
+--- Document Chunk 994 ---
+equipment (OHLE) is separated into in sections 
+
+--- Document Chunk 995 ---
+of about 3km and at the end of the section a 
+
+--- Document Chunk 996 ---
+Booster Transformer (BT) is used to ‘suck’ the 
+
+--- Document Chunk 997 ---
+return current out the rails and into a separate 
+
+--- Document Chunk 998 ---
+return conductor mounted on the outside of the 
+
+--- Document Chunk 999 ---
+overhead stanchions roughly at the same height 
+
+--- Document Chunk 1000 ---
+as the catenaries. This creates an opposite phase 
+
+--- Document Chunk 1001 ---
+and opposing electric field that helps to cancel 
+
+--- Document Chunk 1002 ---
+out the effect of the current in the catenaries but 
+
+--- Document Chunk 1003 ---
+the effects of the currents within the occupied 
+
+--- Document Chunk 1004 ---
+overhead line section still need to be addressed. 
+
+--- Document Chunk 1005 ---
+More recent electrification projects use a 50kV 
+
+--- Document Chunk 1006 ---
+auto-transformer system whereby, a ‘second 
+
+--- Document Chunk 1007 ---
+catenary’ is mounted on the outside of the 
+
+--- Document Chunk 1008 ---
+stanchion to permit a 25kV-0-25kV arrangement 
+
+--- Document Chunk 1009 ---
+giving a more balanced system. Trains continue to 
+
+--- Document Chunk 1010 ---
+take power at the 25kV voltage with the current 
+
+--- Document Chunk 1011 ---
+being returned in the ‘other’ catenary wire. In this 
+
+--- Document Chunk 1012 ---
+way, for sections which do not have a train taking 
+
+--- Document Chunk 1013 ---
+power, the currents in the OHLE conductors are 
+
+--- Document Chunk 1014 ---
+the same magnitude but in opposite phase. This 
+
+--- Document Chunk 1015 ---
+means that at any point which is an equal distance 
+
+--- Document Chunk 1016 ---
+from both the conductors the induced magnetic 
+
+--- Document Chunk 1017 ---
+field will be effectively zero. This is the ideal place 
+
+--- Document Chunk 1018 ---
+for the cable route. It is not possible to directly 
+
+--- Document Chunk 1019 ---
+align with this ideal positioning as the catenary 
+
+--- Document Chunk 1020 ---
+wires move from side to side and go up and down 
+
+--- Document Chunk 1021 ---
+for obstacles such as bridges and level crossings. 
+
+--- Document Chunk 1022 ---
+However the nullifying effect still significantly 
+
+--- Document Chunk 1023 ---
+reduces the electric field. As has been mentioned 
+
+--- Document Chunk 1024 ---
+previously, the advent of fibre optic cables 
+
+--- Document Chunk 1025 ---
+with no metallic components has significantly 
+
+--- Document Chunk 1026 ---
+reduced the problem of electrical interference 
+
+--- Document Chunk 1027 ---
+and associated immunisation for new systems and 
+
+--- Document Chunk 1028 ---
+in some cases may allow the use of simple feed 
+
+--- Document Chunk 1029 ---
+catenary systems.
+
+--- Document Chunk 1030 ---
+In part 2 of this article we will look at telecoms 
+
+--- Document Chunk 1031 ---
+systems for passenger use and the differences 
+
+--- Document Chunk 1032 ---
+between public and railway telecoms networks.
+
+--- Document Chunk 1033 ---
+“S&T engineers 
+
+--- Document Chunk 1034 ---
+have to ensure 
+
+--- Document Chunk 1035 ---
+interference 
+
+--- Document Chunk 1036 ---
+will not cause 
+
+--- Document Chunk 1037 ---
+malfunction of 
+
+--- Document Chunk 1038 ---
+safety related 
+
+--- Document Chunk 1039 ---
+circuits”
+
+--- Document Chunk 1040 ---
+“The advent of 
+
+--- Document Chunk 1041 ---
+fibre optic cables 
+
+--- Document Chunk 1042 ---
+with no metallic 
+
+--- Document Chunk 1043 ---
+components 
+
+--- Document Chunk 1044 ---
+has significantly 
+
+--- Document Chunk 1045 ---
+reduced the 
+
+--- Document Chunk 1046 ---
+problem of 
+
+--- Document Chunk 1047 ---
+electrical 
+
+--- Document Chunk 1048 ---
+inteference”
+
+--- Document Chunk 1049 ---
+“Back to basics” and the IRSE Exam 
+
+--- Document Chunk 1050 ---
+We hope our “Back to basics” articles are 
+
+--- Document Chunk 1051 ---
+particularly interesting and useful to those 
+
+--- Document Chunk 1052 ---
+of you who are maybe new to the industry 
+
+--- Document Chunk 1053 ---
+and are working to build up your knowledge, 
+
+--- Document Chunk 1054 ---
+or who have moved to a new role involving 
+
+--- Document Chunk 1055 ---
+telecommunications. For those considering 
+
+--- Document Chunk 1056 ---
+taking the IRSE exam, these articles should be 
+
+--- Document Chunk 1057 ---
+particularly relevant to assist your studies. 
+
+--- Document Chunk 1058 ---
+As an example, why not think about how you 
+
+--- Document Chunk 1059 ---
+would answer these questions from the 2019 
+
+--- Document Chunk 1060 ---
+Module 6 of the exam, based on what you have 
+
+--- Document Chunk 1061 ---
+learnt from the article? 
+
+--- Document Chunk 1062 ---
+You are required to produce a radio 
+
+--- Document Chunk 1063 ---
+communication system that provides coverage 
+
+--- Document Chunk 1064 ---
+for trains within tunnels and for station staff 
+
+--- Document Chunk 1065 ---
+throughout an underground system. The 
+
+--- Document Chunk 1066 ---
+train traction system is an overhead 25kV 
+
+--- Document Chunk 1067 ---
+catenary system. 
+
+--- Document Chunk 1068 ---
+a) With the aid of diagrams describe your 
+
+--- Document Chunk 1069 ---
+chosen system and explain the factors 
+
+--- Document Chunk 1070 ---
+you would consider as part of your 
+
+--- Document Chunk 1071 ---
+design.    [12 marks] 
+
+--- Document Chunk 1072 ---
+b) Produce an outline test plan including the 
+
+--- Document Chunk 1073 ---
+tests you would undertake to prove the 
+
+--- Document Chunk 1074 ---
+functionality of the system.     [13 marks] 
+
+--- Document Chunk 1075 ---
+You are the telecommunications 
+
+--- Document Chunk 1076 ---
+designer for a project which is to renew 
+
+--- Document Chunk 1077 ---
+a telephone concentrator and associated 
+
+--- Document Chunk 1078 ---
+lineside telephones. 
+
+--- Document Chunk 1079 ---
+Using a risk assessment methodology 
+
+--- Document Chunk 1080 ---
+of your choice outline the hazards, and 
+
+--- Document Chunk 1081 ---
+proposed mitigations, throughout the asset 
+
+--- Document Chunk 1082 ---
+lifecycle.    [25 marks]
+
+--- Document Chunk 1083 ---
+11
+
+--- Document Chunk 1084 ---
+Paul Darlington and Trevor Foulkes
+
+--- Document Chunk 1085 ---
+Back to basics: 
+
+--- Document Chunk 1086 ---
+Telecoms part 2
+
+--- Document Chunk 1087 ---
+Part 2 of ‘back to basics’ for railway 
+
+--- Document Chunk 1088 ---
+telecommunications covers telecoms for 
+
+--- Document Chunk 1089 ---
+passenger or customer assistance. As with 
+
+--- Document Chunk 1090 ---
+other similar articles, the intention is to 
+
+--- Document Chunk 1091 ---
+provide an overview for IRSE members 
+
+--- Document Chunk 1092 ---
+new to the industry or who may not have 
+
+--- Document Chunk 1093 ---
+experience of working in this specific area. 
+
+--- Document Chunk 1094 ---
+The content may also be useful for people 
+
+--- Document Chunk 1095 ---
+studying for the IRSE Exam. The objective is 
+
+--- Document Chunk 1096 ---
+to describe the subject in a generic manner 
+
+--- Document Chunk 1097 ---
+and we have used examples based mainly on 
+
+--- Document Chunk 1098 ---
+UK main line railways. 
+
+--- Document Chunk 1099 ---
+Public Address (PA) 
+
+--- Document Chunk 1100 ---
+PA systems have always been important for 
+
+--- Document Chunk 1101 ---
+communicating with customers and staff, and are 
+
+--- Document Chunk 1102 ---
+also used for emergency purposes when linked 
+
+--- Document Chunk 1103 ---
+to fire detection systems. A badly designed sound 
+
+--- Document Chunk 1104 ---
+system will quickly annoy customers and may 
+
+--- Document Chunk 1105 ---
+result in negative comments and poor publicity. 
+
+--- Document Chunk 1106 ---
+So, all sound systems should be designed by 
+
+--- Document Chunk 1107 ---
+competent sound communications engineers.
+
+--- Document Chunk 1108 ---
+A good PA system will depend on four 
+
+--- Document Chunk 1109 ---
+key requirements:
+
+--- Document Chunk 1110 ---
+1. Loudness or sound pressure level. This 
+
+--- Document Chunk 1111 ---
+should be at a volume or level to please 
+
+--- Document Chunk 1112 ---
+those intending to hear the communications 
+
+--- Document Chunk 1113 ---
+message, but not too loud to annoy 
+
+--- Document Chunk 1114 ---
+neighbours and residents close to a railway 
+
+--- Document Chunk 1115 ---
+station, or train passengers who may not need 
+
+--- Document Chunk 1116 ---
+to hear the announcement.
+
+--- Document Chunk 1117 ---
+2. Intelligibility. This is one of the most important 
+
+--- Document Chunk 1118 ---
+requirements of a PA system and where many 
+
+--- Document Chunk 1119 ---
+systems fall short.
+
+--- Document Chunk 1120 ---
+The concourse at 
+
+--- Document Chunk 1121 ---
+Birmingham New 
+
+--- Document Chunk 1122 ---
+Street station in 
+
+--- Document Chunk 1123 ---
+the UK is typical 
+
+--- Document Chunk 1124 ---
+of the challenging 
+
+--- Document Chunk 1125 ---
+environment for PA 
+
+--- Document Chunk 1126 ---
+designers.
+
+--- Document Chunk 1127 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1128 ---
+12
+
+--- Document Chunk 1129 ---
+3. Naturalness. A natural sounding PA system is 
+
+--- Document Chunk 1130 ---
+one where pre-recorded announcements will 
+
+--- Document Chunk 1131 ---
+sound the same or similar to real time voice 
+
+--- Document Chunk 1132 ---
+announcements. 
+
+--- Document Chunk 1133 ---
+4. Reliability. All PA systems need to have good 
+
+--- Document Chunk 1134 ---
+reliability and availability, with appropriate 
+
+--- Document Chunk 1135 ---
+redundancy in their design, this is especially 
+
+--- Document Chunk 1136 ---
+important with voice alarm systems which may 
+
+--- Document Chunk 1137 ---
+have performance requirements mandated by 
+
+--- Document Chunk 1138 ---
+national legislation. 
+
+--- Document Chunk 1139 ---
+The first three requirements are dependent 
+
+--- Document Chunk 1140 ---
+on the acoustic environment, which can be 
+
+--- Document Chunk 1141 ---
+particularly challenging at railway stations with 
+
+--- Document Chunk 1142 ---
+variable building design and noisy trains. Sound 
+
+--- Document Chunk 1143 ---
+may be reflected, refracted, diffracted, absorbed 
+
+--- Document Chunk 1144 ---
+or transmitted through obstructions, dependent 
+
+--- Document Chunk 1145 ---
+upon the material and size of the obstruction.
+
+--- Document Chunk 1146 ---
+A typical railway station will need careful design 
+
+--- Document Chunk 1147 ---
+of its speaker system to make the best of what 
+
+--- Document Chunk 1148 ---
+can be a very challenging acoustic environment. 
+
+--- Document Chunk 1149 ---
+The sound design engineer will need to consider: 
+
+--- Document Chunk 1150 ---
+the operating environment of the equipment in 
+
+--- Document Chunk 1151 ---
+terms of temperature, humidity and dust; security 
+
+--- Document Chunk 1152 ---
+of equipment; listed building consent as many 
+
+--- Document Chunk 1153 ---
+stations in some countries are protected buildings; 
+
+--- Document Chunk 1154 ---
+any noise abatement notices that may have been 
+
+--- Document Chunk 1155 ---
+served; density of nearby housing and residents; 
+
+--- Document Chunk 1156 ---
+platform possessions and isolations needed for 
+
+--- Document Chunk 1157 ---
+installation and maintenance; feedback from users 
+
+--- Document Chunk 1158 ---
+on the existing system, such as areas of poor 
+
+--- Document Chunk 1159 ---
+coverage along with any customer complaints; 
+
+--- Document Chunk 1160 ---
+glass shelters, as these can attenuate sound by 
+
+--- Document Chunk 1161 ---
+approximately 25dB. 
+
+--- Document Chunk 1162 ---
+Coverage in general should be provided in all 
+
+--- Document Chunk 1163 ---
+areas where most customers stand when waiting 
+
+--- Document Chunk 1164 ---
+for information on train services or disruption, 
+
+--- Document Chunk 1165 ---
+and in all weather conditions. In Europe the 
+
+--- Document Chunk 1166 ---
+regulations for Persons with Reduced Mobility 
+
+--- Document Chunk 1167 ---
+(PRM) require PA coverage in all public areas of 
+
+--- Document Chunk 1168 ---
+the station and the UK Equality Act 2010 requires 
+
+--- Document Chunk 1169 ---
+all station operators to take reasonable steps to 
+
+--- Document Chunk 1170 ---
+ensure they do not discriminate against people 
+
+--- Document Chunk 1171 ---
+with reduced mobility.
+
+--- Document Chunk 1172 ---
+Loudness and intelligibility
+
+--- Document Chunk 1173 ---
+Station PA systems must be carefully designed 
+
+--- Document Chunk 1174 ---
+to avoid conflict between wanted and unwanted 
+
+--- Document Chunk 1175 ---
+noise, and simply specifying a sound pressure 
+
+--- Document Chunk 1176 ---
+level and intelligibility requirement may provide 
+
+--- Document Chunk 1177 ---
+a system acceptable for rail users, but one which 
+
+--- Document Chunk 1178 ---
+annoys nearby residents. There have been cases 
+
+--- Document Chunk 1179 ---
+where PA systems have been renewed with an 
+
+--- Document Chunk 1180 ---
+overall lower volume, but with better intelligibility 
+
+--- Document Chunk 1181 ---
+resulting in more complaints from neighbours. An 
+
+--- Document Chunk 1182 ---
+extreme case resulted in a noise prohibition notice 
+
+--- Document Chunk 1183 ---
+and for the station PA system to be switched 
+
+--- Document Chunk 1184 ---
+off until the problem was resolved. A detailed 
+
+--- Document Chunk 1185 ---
+investigation found a number of issues. The 
+
+--- Document Chunk 1186 ---
+station at times was busy with announcements 
+
+--- Document Chunk 1187 ---
+as frequent as every 30 seconds. A second issue 
+
+--- Document Chunk 1188 ---
+was that some announcers took 34 seconds to 
+
+--- Document Chunk 1189 ---
+communicate the same information as other 
+
+--- Document Chunk 1190 ---
+announcers did in 6 seconds. The solution 
+
+--- Document Chunk 1191 ---
+consisted of a number of changes which included 
+
+--- Document Chunk 1192 ---
+zoning of the system and establishing common 
+
+--- Document Chunk 1193 ---
+scripts for all announcements. 
+
+--- Document Chunk 1194 ---
+Ambient noise sensing continuously monitors the 
+
+--- Document Chunk 1195 ---
+changing ambient noise levels and adjusts the 
+
+--- Document Chunk 1196 ---
+audio level of the PA system. This is particularly 
+
+--- Document Chunk 1197 ---
+relevant for railway stations with wildly varying 
+
+--- Document Chunk 1198 ---
+background sound levels usually caused by trains. 
+
+--- Document Chunk 1199 ---
+The maximum volume of the PA will need to be 
+
+--- Document Chunk 1200 ---
+limited as some trains can be very loud and it may 
+
+--- Document Chunk 1201 ---
+not be possible to announce over the top of the 
+
+--- Document Chunk 1202 ---
+train noise for health and safety reasons. Storing 
+
+--- Document Chunk 1203 ---
+and transmitting an announcement when the 
+
+--- Document Chunk 1204 ---
+background noise is lower is something that can 
+
+--- Document Chunk 1205 ---
+be considered. 
+
+--- Document Chunk 1206 ---
+Dividing a station public address system into 
+
+--- Document Chunk 1207 ---
+defined zones can be helpful, particularly where 
+
+--- Document Chunk 1208 ---
+limiting the noise to neighbours is required with 
+
+--- Document Chunk 1209 ---
+only those zones selected being addressed. The 
+
+--- Document Chunk 1210 ---
+output from the amplifier can be automatically 
+
+--- Document Chunk 1211 ---
+routed to the chosen zone or zones either by 
+
+--- Document Chunk 1212 ---
+using zone selection keys on a controller, or by a 
+
+--- Document Chunk 1213 ---
+stored speech system announcing the timetable 
+
+--- Document Chunk 1214 ---
+to only areas requiring the message. Simultaneous 
+
+--- Document Chunk 1215 ---
+but different announcements can be made to 
+
+--- Document Chunk 1216 ---
+From left, a row of 
+
+--- Document Chunk 1217 ---
+speakers at Birmingham 
+
+--- Document Chunk 1218 ---
+New Street station.
+
+--- Document Chunk 1219 ---
+Speakers at Crewe station.
+
+--- Document Chunk 1220 ---
+Inductive loop for hearing 
+
+--- Document Chunk 1221 ---
+aid users. 
+
+--- Document Chunk 1222 ---
+Combing PA with CIS 
+
+--- Document Chunk 1223 ---
+is effective for good 
+
+--- Document Chunk 1224 ---
+communications.
+
+--- Document Chunk 1225 ---
+“A typical railway 
+
+--- Document Chunk 1226 ---
+station will need 
+
+--- Document Chunk 1227 ---
+careful design 
+
+--- Document Chunk 1228 ---
+of its speaker 
+
+--- Document Chunk 1229 ---
+system to make 
+
+--- Document Chunk 1230 ---
+the best of what 
+
+--- Document Chunk 1231 ---
+can be a very 
+
+--- Document Chunk 1232 ---
+challenging 
+
+--- Document Chunk 1233 ---
+acoustic 
+
+--- Document Chunk 1234 ---
+environment”
+
+--- Document Chunk 1235 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1236 ---
+13
+
+--- Document Chunk 1237 ---
+different parts of the station and using male and 
+
+--- Document Chunk 1238 ---
+female voices can help to distinguish between the 
+
+--- Document Chunk 1239 ---
+messages but care must be taken to minimise the 
+
+--- Document Chunk 1240 ---
+over hearing between zones.
+
+--- Document Chunk 1241 ---
+A PA system can be used to feed directly to 
+
+--- Document Chunk 1242 ---
+hearing aid users using a specially designed 
+
+--- Document Chunk 1243 ---
+induction loop amplifier and associated cable 
+
+--- Document Chunk 1244 ---
+system. The engineering and design of induction 
+
+--- Document Chunk 1245 ---
+loops is complex and is environment dependent 
+
+--- Document Chunk 1246 ---
+– steel-constructed buildings can make it 
+
+--- Document Chunk 1247 ---
+particularly difficult.
+
+--- Document Chunk 1248 ---
+Background music can be used to fill the ‘silence’ 
+
+--- Document Chunk 1249 ---
+between announcements and is sometimes used 
+
+--- Document Chunk 1250 ---
+at less busy stations. If provided this should not 
+
+--- Document Chunk 1251 ---
+be loud enough to be obtrusive, but should be 
+
+--- Document Chunk 1252 ---
+adjusted so that it adds to the ambiance of the 
+
+--- Document Chunk 1253 ---
+environment. Music should never be so loud that 
+
+--- Document Chunk 1254 ---
+customers cannot communicate, or that advice 
+
+--- Document Chunk 1255 ---
+given by station staff cannot be heard.
+
+--- Document Chunk 1256 ---
+Voice alarm systems
+
+--- Document Chunk 1257 ---
+Train operators have a duty to ensure the safety of 
+
+--- Document Chunk 1258 ---
+customers at all times. When an emergency such 
+
+--- Document Chunk 1259 ---
+as a fire or a security threat arises or whenever 
+
+--- Document Chunk 1260 ---
+there is the need to evacuate a station this can 
+
+--- Document Chunk 1261 ---
+be best achieved by a speech announcement, 
+
+--- Document Chunk 1262 ---
+rather than bells or sounders. The spoken word 
+
+--- Document Chunk 1263 ---
+can be ‘live’ from a microphone, or pre-recorded. 
+
+--- Document Chunk 1264 ---
+Stored announcements can be initiated by the 
+
+--- Document Chunk 1265 ---
+station’s or an adjacent building’s fire alarm 
+
+--- Document Chunk 1266 ---
+installation. When the alarm is activated the 
+
+--- Document Chunk 1267 ---
+sound system automatically broadcasts the stored 
+
+--- Document Chunk 1268 ---
+emergency message. 
+
+--- Document Chunk 1269 ---
+Public Address Voice Alarm (PAVA) sound systems 
+
+--- Document Chunk 1270 ---
+designed to warn of danger normally require 
+
+--- Document Chunk 1271 ---
+special fire-safe wiring and complete building 
+
+--- Document Chunk 1272 ---
+coverage with approved loudspeakers sited to 
+
+--- Document Chunk 1273 ---
+cover all public and staff areas. The provision of 
+
+--- Document Chunk 1274 ---
+auxiliary power sources, so that in the event of 
+
+--- Document Chunk 1275 ---
+an AC mains supply failure, the sound system can 
+
+--- Document Chunk 1276 ---
+continue to operate, will be required. In addition 
+
+--- Document Chunk 1277 ---
+equipment redundancy, self-checking alarms, 
+
+--- Document Chunk 1278 ---
+sound level and intelligibility requirements should 
+
+--- Document Chunk 1279 ---
+be considered. 
+
+--- Document Chunk 1280 ---
+Passenger (or Customer)  
+
+--- Document Chunk 1281 ---
+Information Displays
+
+--- Document Chunk 1282 ---
+Visual PIS/CIS are now common in many railways. 
+
+--- Document Chunk 1283 ---
+They generally originated with hand painted 
+
+--- Document Chunk 1284 ---
+boards but migrated to using revolving printed 
+
+--- Document Chunk 1285 ---
+‘flap’ displays installed at larger stations to increase 
+
+--- Document Chunk 1286 ---
+the display content, either operated manually 
+
+--- Document Chunk 1287 ---
+or using card reading machines. In the 1980s 
+
+--- Document Chunk 1288 ---
+processor systems controlling monochrome 
+
+--- Document Chunk 1289 ---
+Cathode Ray Tube (CRT) displays started to 
+
+--- Document Chunk 1290 ---
+be installed at smaller stations with ‘next train’ 
+
+--- Document Chunk 1291 ---
+platform displays and departure/arrival summary 
+
+--- Document Chunk 1292 ---
+displays. Flap displays were inflexible and required 
+
+--- Document Chunk 1293 ---
+extensive ‘re-flapping’ when timetable changes 
+
+--- Document Chunk 1294 ---
+were carried out. LCD displays originally using 
+
+--- Document Chunk 1295 ---
+a 7x5 dot matrix often replaced flap displays to 
+
+--- Document Chunk 1296 ---
+increase flexibility although often with a poorer 
+
+--- Document Chunk 1297 ---
+display readability. LED displays then replaced  
+
+--- Document Chunk 1298 ---
+LCD at larger ‘main board’ displays and CRT 
+
+--- Document Chunk 1299 ---
+platform displays to improve both readability and 
+
+--- Document Chunk 1300 ---
+reliability. It is easier to read upper- and lower- 
+
+--- Document Chunk 1301 ---
+case than all upper- case, which is why road signs 
+
+--- Document Chunk 1302 ---
+in most countries use upper- and lower- case. 
+
+--- Document Chunk 1303 ---
+Displays should therefore be able to display 
+
+--- Document Chunk 1304 ---
+information ideally in the train company font with 
+
+--- Document Chunk 1305 ---
+both upper- and lower-case text with proper 
+
+--- Document Chunk 1306 ---
+descenders, e.g. for “y” and “g”. 
+
+--- Document Chunk 1307 ---
+PIS/CIS systems consist of either a central or local 
+
+--- Document Chunk 1308 ---
+processor and controller for the displays, together 
+
+--- Document Chunk 1309 ---
+with power supplies and communication links to 
+
+--- Document Chunk 1310 ---
+and from the displays. These links have migrated 
+
+--- Document Chunk 1311 ---
+from RS422/RS232 to Ethernet and Wi-Fi, with 
+
+--- Document Chunk 1312 ---
+systems now controlled from real time signalling 
+
+--- Document Chunk 1313 ---
+control systems (usually the train describer) 
+
+--- Document Chunk 1314 ---
+and linked to comprehensive train timetable 
+
+--- Document Chunk 1315 ---
+systems. Systems can also provide real time train 
+
+--- Document Chunk 1316 ---
+information to third party mobile applications for 
+
+--- Document Chunk 1317 ---
+public use. Unfortunately, when train disruption is 
+
+--- Document Chunk 1318 ---
+severe and with no trains moving it can be difficult 
+
+--- Document Chunk 1319 ---
+to display train information at just the time it is 
+
+--- Document Chunk 1320 ---
+really required. It is hoped that traffic management 
+
+--- Document Chunk 1321 ---
+systems may be able to provide accurate 
+
+--- Document Chunk 1322 ---
+predictive information for displays in the future.
+
+--- Document Chunk 1323 ---
+“Public Address 
+
+--- Document Chunk 1324 ---
+Voice Alarm 
+
+--- Document Chunk 1325 ---
+(PAVA) sound 
+
+--- Document Chunk 1326 ---
+systems  
+
+--- Document Chunk 1327 ---
+designed to 
+
+--- Document Chunk 1328 ---
+warn of danger 
+
+--- Document Chunk 1329 ---
+normally require 
+
+--- Document Chunk 1330 ---
+special fire-safe 
+
+--- Document Chunk 1331 ---
+wiring”
+
+--- Document Chunk 1332 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1333 ---
+14
+
+--- Document Chunk 1334 ---
+When designing and siting displays on stations 
+
+--- Document Chunk 1335 ---
+the structure gauge for the railway should be 
+
+--- Document Chunk 1336 ---
+complied with and take into account signal 
+
+--- Document Chunk 1337 ---
+sighting along with installation and maintenance 
+
+--- Document Chunk 1338 ---
+access, cable containment and power supply 
+
+--- Document Chunk 1339 ---
+requirements. Listed building consent may be 
+
+--- Document Chunk 1340 ---
+required, and if replacing an existing system 
+
+--- Document Chunk 1341 ---
+feedback from users of the system should be 
+
+--- Document Chunk 1342 ---
+obtained and analysed together with any customer 
+
+--- Document Chunk 1343 ---
+complaints. The footfall where most people 
+
+--- Document Chunk 1344 ---
+stand when waiting for a service in all weather 
+
+--- Document Chunk 1345 ---
+conditions should be taken into account when 
+
+--- Document Chunk 1346 ---
+designing the system, together with requirements 
+
+--- Document Chunk 1347 ---
+for persons with reduced mobility. Future train 
+
+--- Document Chunk 1348 ---
+service changes should also be considered. 
+
+--- Document Chunk 1349 ---
+Involving human factors specialists and local 
+
+--- Document Chunk 1350 ---
+operators will help to identify the location of 
+
+--- Document Chunk 1351 ---
+displays to maximise their effectiveness. Double 
+
+--- Document Chunk 1352 ---
+sided displays should be used where ever possible 
+
+--- Document Chunk 1353 ---
+to maximise the network capability of the system. 
+
+--- Document Chunk 1354 ---
+Some operators use scrolling displays, but 
+
+--- Document Chunk 1355 ---
+these can be difficult for persons with sight and 
+
+--- Document Chunk 1356 ---
+comprehension issues to read and understand. 
+
+--- Document Chunk 1357 ---
+Displays which change but hold messages fixed 
+
+--- Document Chunk 1358 ---
+for a short time are better.
+
+--- Document Chunk 1359 ---
+Closed-circuit television 
+
+--- Document Chunk 1360 ---
+Closed-circuit television (CCTV) systems provide 
+
+--- Document Chunk 1361 ---
+surveillance capabilities to improve safety, assist 
+
+--- Document Chunk 1362 ---
+railway and station operation, and to combat 
+
+--- Document Chunk 1363 ---
+crime and terrorism. A CCTV system links a 
+
+--- Document Chunk 1364 ---
+camera to a video monitor or receiving system 
+
+--- Document Chunk 1365 ---
+using a direct transmission system. This differs 
+
+--- Document Chunk 1366 ---
+from broadcast television where the signal is 
+
+--- Document Chunk 1367 ---
+transmitted over the air and viewed on screen. It 
+
+--- Document Chunk 1368 ---
+is important that CCTV systems provide quality 
+
+--- Document Chunk 1369 ---
+video images in an easily re-playable form to 
+
+--- Document Chunk 1370 ---
+third parties, such as law enforcement agencies. 
+
+--- Document Chunk 1371 ---
+This can be critical should there be a need to use 
+
+--- Document Chunk 1372 ---
+the images as evidence of a crime. This article 
+
+--- Document Chunk 1373 ---
+does not cover driver only operation or level 
+
+--- Document Chunk 1374 ---
+crossing CCTV systems. 
+
+--- Document Chunk 1375 ---
+CCTV technology is improving all the time with 
+
+--- Document Chunk 1376 ---
+better performance in areas such as digital 
+
+--- Document Chunk 1377 ---
+equipment options, data storage, component 
+
+--- Document Chunk 1378 ---
+miniaturisation, wireless communications, and 
+
+--- Document Chunk 1379 ---
+video image analysis. A CCTV system for a 
+
+--- Document Chunk 1380 ---
+railway may be part of a multi-layered security 
+
+--- Document Chunk 1381 ---
+system. Undertaking a comprehensive needs 
+
+--- Document Chunk 1382 ---
+assessment at the start of any project helps to 
+
+--- Document Chunk 1383 ---
+ensure all required functionality is identified. 
+
+--- Document Chunk 1384 ---
+Clear requirements, a comprehensive site survey, 
+
+--- Document Chunk 1385 ---
+compliance with legislation and proper equipment 
+
+--- Document Chunk 1386 ---
+selection will all contribute to the design of a 
+
+--- Document Chunk 1387 ---
+good CCTV system. 
+
+--- Document Chunk 1388 ---
+In order to properly implement a CCTV system 
+
+--- Document Chunk 1389 ---
+and to highlight any engineering, operational, 
+
+--- Document Chunk 1390 ---
+management and monitoring issues, the site-
+
+--- Document Chunk 1391 ---
+specific characteristics need to be assessed by 
+
+--- Document Chunk 1392 ---
+a knowledgeable multidisciplinary team with 
+
+--- Document Chunk 1393 ---
+the right level of expertise. This could include 
+
+--- Document Chunk 1394 ---
+operators, security personnel, power and 
+
+--- Document Chunk 1395 ---
+structural engineers to identify key functional and 
+
+--- Document Chunk 1396 ---
+operational needs and restrictions. Functional 
+
+--- Document Chunk 1397 ---
+requirements will include determining the area of 
+
+--- Document Chunk 1398 ---
+surveillance, locations or assets that will benefit 
+
+--- Document Chunk 1399 ---
+from CCTV surveillance. Operational requirements 
+
+--- Document Chunk 1400 ---
+will define what information and detail the 
+
+--- Document Chunk 1401 ---
+system will be expected to provide. Factors to 
+
+--- Document Chunk 1402 ---
+consider may include the viewing scope of the 
+
+--- Document Chunk 1403 ---
+area, the ability to recognise someone walking 
+
+--- Document Chunk 1404 ---
+through a barrier or door, and to read vehicle 
+
+--- Document Chunk 1405 ---
+registration numbers. 
+
+--- Document Chunk 1406 ---
+There are four key requirements that need to be 
+
+--- Document Chunk 1407 ---
+covered in the initial design.
+
+--- Document Chunk 1408 ---
+• Functional – to define the precise area of 
+
+--- Document Chunk 1409 ---
+camera coverage such as surveillance of 
+
+--- Document Chunk 1410 ---
+perimeters, storage areas, key assets and 
+
+--- Document Chunk 1411 ---
+entrances and exits.
+
+--- Document Chunk 1412 ---
+• Operational – to define the capabilities of the 
+
+--- Document Chunk 1413 ---
+CCTV system components that will provide 
+
+--- Document Chunk 1414 ---
+the expected information under all operating 
+
+--- Document Chunk 1415 ---
+conditions. These will include security, day and 
+
+--- Document Chunk 1416 ---
+night operation, lighting, weather conditions, 
+
+--- Document Chunk 1417 ---
+vibration and temperature changes. 
+
+--- Document Chunk 1418 ---
+• Infrastructure – to include installation 
+
+--- Document Chunk 1419 ---
+constraints for installing or accessing fibre 
+
+--- Document Chunk 1420 ---
+“Involving human 
+
+--- Document Chunk 1421 ---
+factors specialists 
+
+--- Document Chunk 1422 ---
+and local 
+
+--- Document Chunk 1423 ---
+operators will 
+
+--- Document Chunk 1424 ---
+help to identify 
+
+--- Document Chunk 1425 ---
+the location 
+
+--- Document Chunk 1426 ---
+of displays to 
+
+--- Document Chunk 1427 ---
+maximise their 
+
+--- Document Chunk 1428 ---
+effectiveness”
+
+--- Document Chunk 1429 ---
+“It is important 
+
+--- Document Chunk 1430 ---
+that CCTV 
+
+--- Document Chunk 1431 ---
+systems provide 
+
+--- Document Chunk 1432 ---
+quality video 
+
+--- Document Chunk 1433 ---
+images in an 
+
+--- Document Chunk 1434 ---
+easily re-playable 
+
+--- Document Chunk 1435 ---
+form” 
+
+--- Document Chunk 1436 ---
+York station with CCTV 
+
+--- Document Chunk 1437 ---
+coverage of all train 
+
+--- Document Chunk 1438 ---
+movements. This camera 
+
+--- Document Chunk 1439 ---
+is broadcasting live, see  
+
+--- Document Chunk 1440 ---
+irse.info/zibhw. 
+
+--- Document Chunk 1441 ---
+Photo Network Rail.
+
+--- Document Chunk 1442 ---
+Most cameras are now 
+
+--- Document Chunk 1443 ---
+fixed.
+
+--- Document Chunk 1444 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1445 ---
+15
+
+--- Document Chunk 1446 ---
+and /or, copper data cables, wireless networks 
+
+--- Document Chunk 1447 ---
+access, power, listed building constraints, and 
+
+--- Document Chunk 1448 ---
+people with reduced mobility. Authorisation 
+
+--- Document Chunk 1449 ---
+for works on listed buildings may be required 
+
+--- Document Chunk 1450 ---
+before any works commence.
+
+--- Document Chunk 1451 ---
+• Video retention – to define the video retention 
+
+--- Document Chunk 1452 ---
+and storage needs. These should take into 
+
+--- Document Chunk 1453 ---
+account security and data protection, which 
+
+--- Document Chunk 1454 ---
+may be subject to legislation.
+
+--- Document Chunk 1455 ---
+Whenever possible, CCTV systems should be 
+
+--- Document Chunk 1456 ---
+included in the planning and design stage of 
+
+--- Document Chunk 1457 ---
+any new facility, building or asset to ensure 
+
+--- Document Chunk 1458 ---
+all necessary infrastructure requirements for 
+
+--- Document Chunk 1459 ---
+the CCTV are adequately incorporated into 
+
+--- Document Chunk 1460 ---
+the overall design. Factors to consider in the 
+
+--- Document Chunk 1461 ---
+detailed design of any CCTV system include: the 
+
+--- Document Chunk 1462 ---
+number and locations of cameras including lens 
+
+--- Document Chunk 1463 ---
+selection, cabling and cable containment together 
+
+--- Document Chunk 1464 ---
+with fixing arrangements; lighting levels for all 
+
+--- Document Chunk 1465 ---
+proposed camera coverage areas; unhindered 
+
+--- Document Chunk 1466 ---
+but secure camera access for both installation 
+
+--- Document Chunk 1467 ---
+and maintenance; no interference or blocking of 
+
+--- Document Chunk 1468 ---
+signal sighting; power requirements, including 
+
+--- Document Chunk 1469 ---
+appropriate separation of power and data 
+
+--- Document Chunk 1470 ---
+cables to comply with standards and reduction 
+
+--- Document Chunk 1471 ---
+of interference.
+
+--- Document Chunk 1472 ---
+Inadequate power can be a problem with CCTV 
+
+--- Document Chunk 1473 ---
+equipment and can often cause interference. 
+
+--- Document Chunk 1474 ---
+Proper system performance requires a clean and 
+
+--- Document Chunk 1475 ---
+reliable power source. Therefore, the design may 
+
+--- Document Chunk 1476 ---
+need to specify power conditioning or backups, 
+
+--- Document Chunk 1477 ---
+to ensure the quality of the video across the 
+
+--- Document Chunk 1478 ---
+entire system is unaffected by primary power 
+
+--- Document Chunk 1479 ---
+source disruption. Placing low-voltage power 
+
+--- Document Chunk 1480 ---
+components near high-voltage lines can induce 
+
+--- Document Chunk 1481 ---
+currents in the low-voltage system, presenting 
+
+--- Document Chunk 1482 ---
+hazards. A power source located too far away 
+
+--- Document Chunk 1483 ---
+can cause power fluctuations and may require 
+
+--- Document Chunk 1484 ---
+larger conductor sizes to reduce voltage drop. 
+
+--- Document Chunk 1485 ---
+Therefore, it is advisable to locate the power 
+
+--- Document Chunk 1486 ---
+source close to the CCTV control equipment 
+
+--- Document Chunk 1487 ---
+and to include an Uninterruptible Power Supply 
+
+--- Document Chunk 1488 ---
+(UPS) to protect equipment and ensure the power 
+
+--- Document Chunk 1489 ---
+supply is stable. 
+
+--- Document Chunk 1490 ---
+Older CCTV systems generally used co-axial 
+
+--- Document Chunk 1491 ---
+cable to connect cameras to the control hub, 
+
+--- Document Chunk 1492 ---
+but nowadays video transmission for CCTV is 
+
+--- Document Chunk 1493 ---
+normally via unshielded twisted pair (UTP) or fibre 
+
+--- Document Chunk 1494 ---
+cable. Many problems with video image quality 
+
+--- Document Chunk 1495 ---
+can be avoided by selecting the appropriate 
+
+--- Document Chunk 1496 ---
+transmission media and following manufacturer’s 
+
+--- Document Chunk 1497 ---
+recommended installation techniques and 
+
+--- Document Chunk 1498 ---
+procedures. As CCTV technology has evolved, 
+
+--- Document Chunk 1499 ---
+video transmission has progressed from analogue 
+
+--- Document Chunk 1500 ---
+to digital equipment, often with an Internet 
+
+--- Document Chunk 1501 ---
+Protocol (IP) capability to transmit compressed 
+
+--- Document Chunk 1502 ---
+video as digital data. Some railways now mandate 
+
+--- Document Chunk 1503 ---
+all new CCTV systems will use IP, but analogue 
+
+--- Document Chunk 1504 ---
+systems using digital recording are still used 
+
+--- Document Chunk 1505 ---
+by some railways as IP CCTV systems can be 
+
+--- Document Chunk 1506 ---
+complex to configure.
+
+--- Document Chunk 1507 ---
+IP CCTV solutions, while complicated, do offer 
+
+--- Document Chunk 1508 ---
+more facilities and can be integrated seamlessly 
+
+--- Document Chunk 1509 ---
+with other control systems to deliver integrated 
+
+--- Document Chunk 1510 ---
+centralised control and monitoring. Data from 
+
+--- Document Chunk 1511 ---
+other security devices and from business systems 
+
+--- Document Chunk 1512 ---
+can be linked with IP CCTV images and recordings 
+
+--- Document Chunk 1513 ---
+while cameras can be easily controlled and 
+
+--- Document Chunk 1514 ---
+monitored from web browsers. 
+
+--- Document Chunk 1515 ---
+CCTV systems regularly need to be checked 
+
+--- Document Chunk 1516 ---
+to meet changing operational requirements 
+
+--- Document Chunk 1517 ---
+and equipment obsolescence so the ability 
+
+--- Document Chunk 1518 ---
+to easily incorporate hardware and software 
+
+--- Document Chunk 1519 ---
+updates should be considered. Using existing 
+
+--- Document Chunk 1520 ---
+CCTV workstations
+
+--- Document Chunk 1521 ---
+local or remote
+
+--- Document Chunk 1522 ---
+Firewall
+
+--- Document Chunk 1523 ---
+To Station Management
+
+--- Document Chunk 1524 ---
+and other systems
+
+--- Document Chunk 1525 ---
+Video
+
+--- Document Chunk 1526 ---
+storage
+
+--- Document Chunk 1527 ---
+CCTV
+
+--- Document Chunk 1528 ---
+control
+
+--- Document Chunk 1529 ---
+system
+
+--- Document Chunk 1530 ---
+Router
+
+--- Document Chunk 1531 ---
+Pan, tilt, zoom
+
+--- Document Chunk 1532 ---
+(PTZ)
+
+--- Document Chunk 1533 ---
+Fixed cameras
+
+--- Document Chunk 1534 ---
+Power over 
+
+--- Document Chunk 1535 ---
+Ethernet
+
+--- Document Chunk 1536 ---
+(POE)
+
+--- Document Chunk 1537 ---
+Overview diagram  
+
+--- Document Chunk 1538 ---
+of a typical station  
+
+--- Document Chunk 1539 ---
+CCTV system.
+
+--- Document Chunk 1540 ---
+“Nowadays video 
+
+--- Document Chunk 1541 ---
+transmission for 
+
+--- Document Chunk 1542 ---
+CCTV is normally 
+
+--- Document Chunk 1543 ---
+via unshielded 
+
+--- Document Chunk 1544 ---
+twisted pair (UTP) 
+
+--- Document Chunk 1545 ---
+or fibre cable”
+
+--- Document Chunk 1546 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1547 ---
+16
+
+--- Document Chunk 1548 ---
+CCTV infrastructure such as cameras, housings 
+
+--- Document Chunk 1549 ---
+and cable runs may reduce costs, but CCTV 
+
+--- Document Chunk 1550 ---
+equipment is improving all the time, as the 
+
+--- Document Chunk 1551 ---
+capabilities of CCTV components advances. 
+
+--- Document Chunk 1552 ---
+Replacing old equipment and infrastructure may 
+
+--- Document Chunk 1553 ---
+therefore improve system performance and be a 
+
+--- Document Chunk 1554 ---
+more cost-effective solution. 
+
+--- Document Chunk 1555 ---
+Station Management Systems (SMS) are typically 
+
+--- Document Chunk 1556 ---
+deployed at large stations or in a group of stations 
+
+--- Document Chunk 1557 ---
+along a route managed from a central location. 
+
+--- Document Chunk 1558 ---
+The SMS is the focal point for station operations 
+
+--- Document Chunk 1559 ---
+and provides the operator with a user-friendly, 
+
+--- Document Chunk 1560 ---
+functional environment from which to monitor 
+
+--- Document Chunk 1561 ---
+and control all station systems. The SMS should 
+
+--- Document Chunk 1562 ---
+gather information from many sources and 
+
+--- Document Chunk 1563 ---
+provide control of the various individual station 
+
+--- Document Chunk 1564 ---
+systems, such as CCTV, public address, customer 
+
+--- Document Chunk 1565 ---
+information and alarm systems. Integrating the 
+
+--- Document Chunk 1566 ---
+control and operation of the CCTV system in a 
+
+--- Document Chunk 1567 ---
+clear, consistent and integrated format will help to 
+
+--- Document Chunk 1568 ---
+provide efficient and cost effective management 
+
+--- Document Chunk 1569 ---
+of the station. The SMS will usually be interfaced 
+
+--- Document Chunk 1570 ---
+with a fire alarm system so that in the event of an 
+
+--- Document Chunk 1571 ---
+alarm activation, cameras covering the area will 
+
+--- Document Chunk 1572 ---
+automatically be displayed to the operator. 
+
+--- Document Chunk 1573 ---
+A CCTV system is built up from a number of 
+
+--- Document Chunk 1574 ---
+different components.
+
+--- Document Chunk 1575 ---
+Cameras
+
+--- Document Chunk 1576 ---
+CCTV cameras are either fixed or pan-tilt-zoom 
+
+--- Document Chunk 1577 ---
+(PTZ). Fixed cameras are intended to constantly 
+
+--- Document Chunk 1578 ---
+view a single scene, while PTZ cameras are motor 
+
+--- Document Chunk 1579 ---
+driven and can pan left or right, tilt up or down, 
+
+--- Document Chunk 1580 ---
+and zoom in or out to instantly customise the 
+
+--- Document Chunk 1581 ---
+view as needed. Most systems nowadays use fixed 
+
+--- Document Chunk 1582 ---
+cameras to view and record complete areas as 
+
+--- Document Chunk 1583 ---
+PTZ cameras require full time operators. 
+
+--- Document Chunk 1584 ---
+An Ingress Protection (also known as IP and not 
+
+--- Document Chunk 1585 ---
+to be confused with Internet Protocol) rating 
+
+--- Document Chunk 1586 ---
+is to protect equipment from attack from solid 
+
+--- Document Chunk 1587 ---
+foreign objects e.g. stone throwing, and from 
+
+--- Document Chunk 1588 ---
+harmful effects due to the ingress of water. Ingress 
+
+--- Document Chunk 1589 ---
+Protection IP always has a number. So cameras 
+
+--- Document Chunk 1590 ---
+should typically have an IP rating of IP34 when 
+
+--- Document Chunk 1591 ---
+used internally and IP65 for external cameras. The 
+
+--- Document Chunk 1592 ---
+“IK” rating or code is an international standard 
+
+--- Document Chunk 1593 ---
+to define the level of resistance of enclosures to 
+
+--- Document Chunk 1594 ---
+mechanical impacts. Cameras are recommended 
+
+--- Document Chunk 1595 ---
+to have an IK vandalism rating of IK10, along with 
+
+--- Document Chunk 1596 ---
+a typical operating temperature range of -15C 
+
+--- Document Chunk 1597 ---
+to 45C external to the housing. This may need 
+
+--- Document Chunk 1598 ---
+to be revised depending on local conditions. 
+
+--- Document Chunk 1599 ---
+The minimum resolution of cameras in a railway 
+
+--- Document Chunk 1600 ---
+system is typically 720 pixels, and systems with 
+
+--- Document Chunk 1601 ---
+1080p resolution or higher are often provided.
+
+--- Document Chunk 1602 ---
+Clockwise from left:
+
+--- Document Chunk 1603 ---
+A CCTV camera and 
+
+--- Document Chunk 1604 ---
+loudspeaker sharing a 
+
+--- Document Chunk 1605 ---
+lamppost.  
+
+--- Document Chunk 1606 ---
+Photo A N Hurst.
+
+--- Document Chunk 1607 ---
+Fixed camera installation 
+
+--- Document Chunk 1608 ---
+in a concourse area.
+
+--- Document Chunk 1609 ---
+A similar camera to that 
+
+--- Document Chunk 1610 ---
+in the first photo, but 
+
+--- Document Chunk 1611 ---
+mounted on a passenger 
+
+--- Document Chunk 1612 ---
+display sign.
+
+--- Document Chunk 1613 ---
+“Most systems 
+
+--- Document Chunk 1614 ---
+nowadays use 
+
+--- Document Chunk 1615 ---
+fixed cameras to 
+
+--- Document Chunk 1616 ---
+view and record 
+
+--- Document Chunk 1617 ---
+complete areas 
+
+--- Document Chunk 1618 ---
+as PTZ cameras 
+
+--- Document Chunk 1619 ---
+require full time 
+
+--- Document Chunk 1620 ---
+operators”
+
+--- Document Chunk 1621 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1622 ---
+17
+
+--- Document Chunk 1623 ---
+Despite increasing use of IP network cameras, 
+
+--- Document Chunk 1624 ---
+analogue cameras still exist in many older systems 
+
+--- Document Chunk 1625 ---
+since there may be a high cost involved in 
+
+--- Document Chunk 1626 ---
+upgrading and converting to a new transmission 
+
+--- Document Chunk 1627 ---
+network. Analogue cameras can also transmit 
+
+--- Document Chunk 1628 ---
+high definition pictures, making them appropriate 
+
+--- Document Chunk 1629 ---
+for various surveillance needs. These cameras 
+
+--- Document Chunk 1630 ---
+also have cyber security advantages because 
+
+--- Document Chunk 1631 ---
+the cable connections require a physical access 
+
+--- Document Chunk 1632 ---
+for them to be breached or damaged. They are 
+
+--- Document Chunk 1633 ---
+easier to configure, but will not provide as many 
+
+--- Document Chunk 1634 ---
+features as IP systems.
+
+--- Document Chunk 1635 ---
+Power over Ethernet (PoE) IP cameras will not 
+
+--- Document Chunk 1636 ---
+generally require a local power supply but must 
+
+--- Document Chunk 1637 ---
+be able to operate in the railway environment. PoE 
+
+--- Document Chunk 1638 ---
+extenders will need to provide sufficient power 
+
+--- Document Chunk 1639 ---
+to meet the camera’s operational requirements. 
+
+--- Document Chunk 1640 ---
+Connections to individual cameras can be via 
+
+--- Document Chunk 1641 ---
+wireless such as Wi-Fi, but a local power supply 
+
+--- Document Chunk 1642 ---
+will be required and the wireless connections 
+
+--- Document Chunk 1643 ---
+should be encrypted for security. Possible 
+
+--- Document Chunk 1644 ---
+interference with other Wi-Fi channels in the area 
+
+--- Document Chunk 1645 ---
+should be assessed. 
+
+--- Document Chunk 1646 ---
+Day/night cameras and low-light or night vision 
+
+--- Document Chunk 1647 ---
+cameras can be used to capture images in dark 
+
+--- Document Chunk 1648 ---
+environments. Low-light cameras are designed to 
+
+--- Document Chunk 1649 ---
+perform in some level of ambient lighting, such as 
+
+--- Document Chunk 1650 ---
+indoor conditions, station lighting, or a full moon 
+
+--- Document Chunk 1651 ---
+but are not intended for use in complete darkness. 
+
+--- Document Chunk 1652 ---
+Night vision cameras used in CCTV systems 
+
+--- Document Chunk 1653 ---
+typically consist of near-infrared (NIR) and infrared 
+
+--- Document Chunk 1654 ---
+(IR) cameras with built-in IR illuminators and are 
+
+--- Document Chunk 1655 ---
+designed to allow the viewing of night scenes. 
+
+--- Document Chunk 1656 ---
+The IR light emitted can be at wavelengths that 
+
+--- Document Chunk 1657 ---
+are invisible to the human eye. Some operational 
+
+--- Document Chunk 1658 ---
+environments may require a thermal imaging 
+
+--- Document Chunk 1659 ---
+camera to detect situations even if conditions 
+
+--- Document Chunk 1660 ---
+such as fog or smoke are encountered. These 
+
+--- Document Chunk 1661 ---
+detect infrared or heat radiation that is invisible to 
+
+--- Document Chunk 1662 ---
+the human eye. 
+
+--- Document Chunk 1663 ---
+The most complex CCTV systems may 
+
+--- Document Chunk 1664 ---
+incorporate hundreds of cameras and sensors 
+
+--- Document Chunk 1665 ---
+integrated into one overall security network. 
+
+--- Document Chunk 1666 ---
+With larger quantities of data being collected, it is 
+
+--- Document Chunk 1667 ---
+essential that the system be capable of retaining 
+
+--- Document Chunk 1668 ---
+data in accordance with a company’s policies 
+
+--- Document Chunk 1669 ---
+and procedures, together with data protection 
+
+--- Document Chunk 1670 ---
+and CCTV legislation. EMC requirements will 
+
+--- Document Chunk 1671 ---
+need to be considered, such as defined in 
+
+--- Document Chunk 1672 ---
+standard EN 50121-4.
+
+--- Document Chunk 1673 ---
+Camera lenses
+
+--- Document Chunk 1674 ---
+A lens has components and characteristics that 
+
+--- Document Chunk 1675 ---
+determine its capabilities. These include the 
+
+--- Document Chunk 1676 ---
+focal length, type of aperture and focus control. 
+
+--- Document Chunk 1677 ---
+The focal length and size of the image sensor 
+
+--- Document Chunk 1678 ---
+determine the angle from which the lens accepts 
+
+--- Document Chunk 1679 ---
+light to focus on the image sensor. Any lens with 
+
+--- Document Chunk 1680 ---
+a focal length greater than the standard lens is a 
+
+--- Document Chunk 1681 ---
+telephoto lens, while a lens with a focal length less 
+
+--- Document Chunk 1682 ---
+than the standard lens is a wide-angle lens. 
+
+--- Document Chunk 1683 ---
+Camera lenses shall normally be fitted with either 
+
+--- Document Chunk 1684 ---
+an auto-iris fixed lens, vari-focal lens or zoom 
+
+--- Document Chunk 1685 ---
+lens. Remote vari-focus, zoom, controlled back 
+
+--- Document Chunk 1686 ---
+focus and remote camera alignment will all 
+
+--- Document Chunk 1687 ---
+contribute to efficient operation and maintenance 
+
+--- Document Chunk 1688 ---
+of the system, and will eliminate the need for 
+
+--- Document Chunk 1689 ---
+working at height to adjust the camera.
+
+--- Document Chunk 1690 ---
+Cameras mounted on extendable or hinged posts 
+
+--- Document Chunk 1691 ---
+will facilitate easy maintenance and minimise 
+
+--- Document Chunk 1692 ---
+working at height during both installation and 
+
+--- Document Chunk 1693 ---
+maintenance, but no hinged or extendable 
+
+--- Document Chunk 1694 ---
+post should come close to any electric traction 
+
+--- Document Chunk 1695 ---
+system or other hazards. Fixed camera mounts 
+
+--- Document Chunk 1696 ---
+with adjustable horizontal and vertical planes 
+
+--- Document Chunk 1697 ---
+will maximise operational effectiveness. Camera 
+
+--- Document Chunk 1698 ---
+positions should be selected to enable routine 
+
+--- Document Chunk 1699 ---
+access (for cleaning and replacement) without the 
+
+--- Document Chunk 1700 ---
+need for blocking train movements or isolating 
+
+--- Document Chunk 1701 ---
+overhead power. Individual and isolated columns 
+
+--- Document Chunk 1702 ---
+supporting lighting or cameras should be 
+
+--- Document Chunk 1703 ---
+positioned to avoid creating obstructions to the 
+
+--- Document Chunk 1704 ---
+movement of station users. The camera assembly, 
+
+--- Document Chunk 1705 ---
+housing and sunshield should take account of 
+
+--- Document Chunk 1706 ---
+the effects of sunlight during the course of the 
+
+--- Document Chunk 1707 ---
+day and also the seasons of the year in order to 
+
+--- Document Chunk 1708 ---
+maintain the viewing requirements of the system.
+
+--- Document Chunk 1709 ---
+“Power over 
+
+--- Document Chunk 1710 ---
+Ethernet (PoE) IP 
+
+--- Document Chunk 1711 ---
+cameras will not 
+
+--- Document Chunk 1712 ---
+generally require 
+
+--- Document Chunk 1713 ---
+a local power 
+
+--- Document Chunk 1714 ---
+supply”
+
+--- Document Chunk 1715 ---
+“Notices may 
+
+--- Document Chunk 1716 ---
+be required at 
+
+--- Document Chunk 1717 ---
+locations in 
+
+--- Document Chunk 1718 ---
+areas of CCTV 
+
+--- Document Chunk 1719 ---
+coverage to 
+
+--- Document Chunk 1720 ---
+inform members 
+
+--- Document Chunk 1721 ---
+of the public that 
+
+--- Document Chunk 1722 ---
+an area is being 
+
+--- Document Chunk 1723 ---
+monitored and 
+
+--- Document Chunk 1724 ---
+recorded”
+
+--- Document Chunk 1725 ---
+From left. Traditional  
+
+--- Document Chunk 1726 ---
+camera housing and a 
+
+--- Document Chunk 1727 ---
+dome camera housing.
+
+--- Document Chunk 1728 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1729 ---
+18
+
+--- Document Chunk 1730 ---
+Notices may be required at locations in areas 
+
+--- Document Chunk 1731 ---
+of CCTV coverage to inform members of the 
+
+--- Document Chunk 1732 ---
+public that an area is being monitored and 
+
+--- Document Chunk 1733 ---
+recorded. These will need to be provided in 
+
+--- Document Chunk 1734 ---
+accordance with national and local legislation, 
+
+--- Document Chunk 1735 ---
+such as the General Data Protection Regulation 
+
+--- Document Chunk 1736 ---
+(GDPR) and the UK Data Protection Act 1998.
+
+--- Document Chunk 1737 ---
+CCTV workstation and monitors
+
+--- Document Chunk 1738 ---
+To provide good picture quality, the minimum 
+
+--- Document Chunk 1739 ---
+monitor resolution should be at least that of 
+
+--- Document Chunk 1740 ---
+the cameras. Multiple camera images at original 
+
+--- Document Chunk 1741 ---
+resolution may be required for viewing onto 
+
+--- Document Chunk 1742 ---
+a high-resolution screen, so for example, a 
+
+--- Document Chunk 1743 ---
+30” 4K resolution monitor could display 4 x 
+
+--- Document Chunk 1744 ---
+15” 1080p resolution cameras. The camera 
+
+--- Document Chunk 1745 ---
+identification should be easily available so the 
+
+--- Document Chunk 1746 ---
+operator knows where they are looking.
+
+--- Document Chunk 1747 ---
+A bank of monitors to create a ‘video wall’ 
+
+--- Document Chunk 1748 ---
+is commonplace in larger control centres. 
+
+--- Document Chunk 1749 ---
+These can be programmed to periodically 
+
+--- Document Chunk 1750 ---
+change the picture displayed on the monitors 
+
+--- Document Chunk 1751 ---
+to help relieve the boredom from seeing the 
+
+--- Document Chunk 1752 ---
+same scene all the time and to concentrate 
+
+--- Document Chunk 1753 ---
+the multitude of camera images on to a 
+
+--- Document Chunk 1754 ---
+sensible number of screens. A typical railway 
+
+--- Document Chunk 1755 ---
+CCTV control room could have 500 cameras 
+
+--- Document Chunk 1756 ---
+covering a route with about 50 monitors in 
+
+--- Document Chunk 1757 ---
+the video wall.
+
+--- Document Chunk 1758 ---
+An ergonomic assessment of the operator’s 
+
+--- Document Chunk 1759 ---
+workstation location should be undertaken 
+
+--- Document Chunk 1760 ---
+to determine the most appropriate size and 
+
+--- Document Chunk 1761 ---
+position. Providing the control systems for 
+
+--- Document Chunk 1762 ---
+camera selection and PTZ operation with 
+
+--- Document Chunk 1763 ---
+industry standard telemetry protocols with 
+
+--- Document Chunk 1764 ---
+an open architecture, will help with the 
+
+--- Document Chunk 1765 ---
+whole life support of the CCTV system and 
+
+--- Document Chunk 1766 ---
+interoperability with other systems.
+
+--- Document Chunk 1767 ---
+An agreed format for event reporting and 
+
+--- Document Chunk 1768 ---
+alarms will be required and telemetry data from 
+
+--- Document Chunk 1769 ---
+all camera input channels with time/date and 
+
+--- Document Chunk 1770 ---
+camera description will provide a consistent 
+
+--- Document Chunk 1771 ---
+format to identify station, camera location and 
+
+--- Document Chunk 1772 ---
+camera number. This will assist the operation 
+
+--- Document Chunk 1773 ---
+and management of the system, especially if 
+
+--- Document Chunk 1774 ---
+the information is consistent with details in the 
+
+--- Document Chunk 1775 ---
+asset register.
+
+--- Document Chunk 1776 ---
+Monitors may be required for public behaviour 
+
+--- Document Chunk 1777 ---
+and surveillance monitoring, for example at ticket 
+
+--- Document Chunk 1778 ---
+gate lines, so higher performance specifications 
+
+--- Document Chunk 1779 ---
+should be considered to enhance visibility 
+
+--- Document Chunk 1780 ---
+of the display. Public surveillance monitors 
+
+--- Document Chunk 1781 ---
+may require additional vandalism and ingress 
+
+--- Document Chunk 1782 ---
+protection suitable for the location in which the 
+
+--- Document Chunk 1783 ---
+monitor is being installed, such as a minimum 
+
+--- Document Chunk 1784 ---
+IP65 for all external monitors and IP32 for all 
+
+--- Document Chunk 1785 ---
+internal monitors.
+
+--- Document Chunk 1786 ---
+Control system
+
+--- Document Chunk 1787 ---
+ONVIF (Open Network Video Interface Forum) 
+
+--- Document Chunk 1788 ---
+is an open industry forum for the interface of 
+
+--- Document Chunk 1789 ---
+physical IP-based security products. The ONVIF 
+
+--- Document Chunk 1790 ---
+specification covers how IP products within video 
+
+--- Document Chunk 1791 ---
+surveillance and other physical security areas 
+
+--- Document Chunk 1792 ---
+can communicate with each other. Therefore, 
+
+--- Document Chunk 1793 ---
+procuring CCTV systems in compliance with the 
+
+--- Document Chunk 1794 ---
+ONVIF specification will assist interoperability 
+
+--- Document Chunk 1795 ---
+between network video products from different 
+
+--- Document Chunk 1796 ---
+suppliers. ONVIF aims to provide standardisation 
+
+--- Document Chunk 1797 ---
+of communication between IP-based physical 
+
+--- Document Chunk 1798 ---
+security products to give interoperability 
+
+--- Document Chunk 1799 ---
+regardless of the brand, and is open to all 
+
+--- Document Chunk 1800 ---
+companies and organisations. Using ONVIF 
+
+--- Document Chunk 1801 ---
+equipment will help with not becoming locked 
+
+--- Document Chunk 1802 ---
+in to any particular proprietary technical solution 
+
+--- Document Chunk 1803 ---
+devised by individual manufacturers.
+
+--- Document Chunk 1804 ---
+System security is important so access to the 
+
+--- Document Chunk 1805 ---
+system and any recorded images should be strictly 
+
+--- Document Chunk 1806 ---
+controlled to prevent tampering or unauthorised 
+
+--- Document Chunk 1807 ---
+viewing. This could be via electronic access 
+
+--- Document Chunk 1808 ---
+controls, including but not limited to passwords 
+
+--- Document Chunk 1809 ---
+or encryption, to prevent unauthorised access 
+
+--- Document Chunk 1810 ---
+to the building, system and recordings, with an 
+
+--- Document Chunk 1811 ---
+audit trail and record of who accessed the system 
+
+--- Document Chunk 1812 ---
+and when. Different levels of user privileges, 
+
+--- Document Chunk 1813 ---
+such as Administrator, User and Maintainer, 
+
+--- Document Chunk 1814 ---
+may be appropriate. Further information can 
+
+--- Document Chunk 1815 ---
+be found in BSI document ‘Code of Practice 
+
+--- Document Chunk 1816 ---
+“Recorded 
+
+--- Document Chunk 1817 ---
+images should  
+
+--- Document Chunk 1818 ---
+be strictly 
+
+--- Document Chunk 1819 ---
+controlled 
+
+--- Document Chunk 1820 ---
+to prevent 
+
+--- Document Chunk 1821 ---
+tampering or 
+
+--- Document Chunk 1822 ---
+unauthorised 
+
+--- Document Chunk 1823 ---
+viewing”
+
+--- Document Chunk 1824 ---
+“External remote 
+
+--- Document Chunk 1825 ---
+access will also 
+
+--- Document Chunk 1826 ---
+need security 
+
+--- Document Chunk 1827 ---
+via firewalls and 
+
+--- Document Chunk 1828 ---
+compliance 
+
+--- Document Chunk 1829 ---
+with individual 
+
+--- Document Chunk 1830 ---
+company’s 
+
+--- Document Chunk 1831 ---
+security policies”
+
+--- Document Chunk 1832 ---
+A number of dome 
+
+--- Document Chunk 1833 ---
+cameras providing 
+
+--- Document Chunk 1834 ---
+comprehensive 
+
+--- Document Chunk 1835 ---
+monitoring of a ticket 
+
+--- Document Chunk 1836 ---
+barrier.
+
+--- Document Chunk 1837 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1838 ---
+19
+
+--- Document Chunk 1839 ---
+for Legal Admissibility of Information Stored 
+
+--- Document Chunk 1840 ---
+Electronically’ (BIP0008) or from local Police 
+
+--- Document Chunk 1841 ---
+Crime Reduction Officers.
+
+--- Document Chunk 1842 ---
+External remote access will also need security 
+
+--- Document Chunk 1843 ---
+via firewalls and compliance with individual 
+
+--- Document Chunk 1844 ---
+company’s security policies. The system should 
+
+--- Document Chunk 1845 ---
+prevent transmitted images from being corrupted 
+
+--- Document Chunk 1846 ---
+or modified in transit. Where the proposed system 
+
+--- Document Chunk 1847 ---
+does not provide the specified security functions, 
+
+--- Document Chunk 1848 ---
+the network or transmission medium used could 
+
+--- Document Chunk 1849 ---
+be employed to provide equivalent security.
+
+--- Document Chunk 1850 ---
+Video analytics such as the detection of unusual 
+
+--- Document Chunk 1851 ---
+movement in a normally static picture may be 
+
+--- Document Chunk 1852 ---
+specified in the design, as these can further 
+
+--- Document Chunk 1853 ---
+improve the overall effectiveness of the CCTV 
+
+--- Document Chunk 1854 ---
+security solution. Video analytics monitor the 
+
+--- Document Chunk 1855 ---
+video streams in near real-time and automatically 
+
+--- Document Chunk 1856 ---
+create security alerts when recognising specific 
+
+--- Document Chunk 1857 ---
+types of events and activities. Video analytics 
+
+--- Document Chunk 1858 ---
+can also be used for analysing historical data 
+
+--- Document Chunk 1859 ---
+to identify specific incidents and patterns 
+
+--- Document Chunk 1860 ---
+(forensic analysis).
+
+--- Document Chunk 1861 ---
+Using a video analytics system to automatically 
+
+--- Document Chunk 1862 ---
+monitor camera video feeds and providing alerts 
+
+--- Document Chunk 1863 ---
+for events of interest enables efficiency and cost 
+
+--- Document Chunk 1864 ---
+reductions by reducing the need for human 
+
+--- Document Chunk 1865 ---
+concentration and helps operators to notice and 
+
+--- Document Chunk 1866 ---
+respond to threats sooner. Typical uses are for 
+
+--- Document Chunk 1867 ---
+perimeter protection intrusion management, 
+
+--- Document Chunk 1868 ---
+crowd management and situation awareness. 
+
+--- Document Chunk 1869 ---
+They can also be used for ‘footfall’ counting to 
+
+--- Document Chunk 1870 ---
+assist the commercialisation of retail space on 
+
+--- Document Chunk 1871 ---
+stations and passenger loading on trains.
+
+--- Document Chunk 1872 ---
+On initial installation, consideration should be 
+
+--- Document Chunk 1873 ---
+given to fit spare switching, optical and Cat 5E/6 
+
+--- Document Chunk 1874 ---
+copper cable (where appropriate) for at least an 
+
+--- Document Chunk 1875 ---
+additional 10 per cent spare capacity in agreement 
+
+--- Document Chunk 1876 ---
+with stakeholders’ policy. This will allow expansion 
+
+--- Document Chunk 1877 ---
+for future requirements.
+
+--- Document Chunk 1878 ---
+Video storage
+
+--- Document Chunk 1879 ---
+The system will need to store recordings for all 
+
+--- Document Chunk 1880 ---
+connected cameras for a time period of typically 
+
+--- Document Chunk 1881 ---
+31 days so as to assist with any post incident 
+
+--- Document Chunk 1882 ---
+investigations. All video data once past the stated 
+
+--- Document Chunk 1883 ---
+time period should be automatically deleted 
+
+--- Document Chunk 1884 ---
+unless marked for retention. A facility for local 
+
+--- Document Chunk 1885 ---
+or remote users to mark specific pictures or 
+
+--- Document Chunk 1886 ---
+sequences identified as relevant to an investigation 
+
+--- Document Chunk 1887 ---
+for retention should be considered. To optimise 
+
+--- Document Chunk 1888 ---
+storage capacity, agreement from stakeholders 
+
+--- Document Chunk 1889 ---
+should be obtained as to the circumstances in 
+
+--- Document Chunk 1890 ---
+which images will be recorded for review and 
+
+--- Document Chunk 1891 ---
+at what resolution, together with date and time 
+
+--- Document Chunk 1892 ---
+stamping requirements. Care may need to be 
+
+--- Document Chunk 1893 ---
+taken that any video compression does not 
+
+--- Document Chunk 1894 ---
+compromise video quality.
+
+--- Document Chunk 1895 ---
+Clocks
+
+--- Document Chunk 1896 ---
+Accurate clocks are important for a smooth-
+
+--- Document Chunk 1897 ---
+running railway, and telecoms engineers in 
+
+--- Document Chunk 1898 ---
+many railway companies have provided clock 
+
+--- Document Chunk 1899 ---
+systems for many years. Originally they were 
+
+--- Document Chunk 1900 ---
+provided using centrally located ‘master clocks’ 
+
+--- Document Chunk 1901 ---
+communicating with slave clocks via telecoms 
+
+--- Document Chunk 1902 ---
+cables. More recently clocks are Global Navigation 
+
+--- Document Chunk 1903 ---
+Satellite System (GNSS) controlled, so just need 
+
+--- Document Chunk 1904 ---
+a power supply and possibly an external antenna 
+
+--- Document Chunk 1905 ---
+to receive the satellite signal. The positioning 
+
+--- Document Chunk 1906 ---
+of clocks needs to take into account similar 
+
+--- Document Chunk 1907 ---
+criteria to PA, CIS and CCTV systems with regards 
+
+--- Document Chunk 1908 ---
+to height, maintenance and not obstructing 
+
+--- Document Chunk 1909 ---
+signal sighting.   
+
+--- Document Chunk 1910 ---
+Internet connection for trains
+
+--- Document Chunk 1911 ---
+Most train passengers now have an expectation 
+
+--- Document Chunk 1912 ---
+that a connection to the internet will be available 
+
+--- Document Chunk 1913 ---
+on trains. With an on-board internet connection, 
+
+--- Document Chunk 1914 ---
+real time ticket sales via debit/credit card are 
+
+--- Document Chunk 1915 ---
+possible, along with seat occupancy reporting 
+
+--- Document Chunk 1916 ---
+and real time seat reservations. Communications 
+
+--- Document Chunk 1917 ---
+An historic clock at 
+
+--- Document Chunk 1918 ---
+London Victoria station, 
+
+--- Document Chunk 1919 ---
+mounted next to several 
+
+--- Document Chunk 1920 ---
+very modern speaker 
+
+--- Document Chunk 1921 ---
+arrays.
+
+--- Document Chunk 1922 ---
+Photo Institute of Sound, 
+
+--- Document Chunk 1923 ---
+Communication and 
+
+--- Document Chunk 1924 ---
+Vision Engineers (ISCVE).
+
+--- Document Chunk 1925 ---
+“Accurate clocks 
+
+--- Document Chunk 1926 ---
+are important 
+
+--- Document Chunk 1927 ---
+for a smooth-
+
+--- Document Chunk 1928 ---
+running railway“
+
+--- Document Chunk 1929 ---
+“The positioning 
+
+--- Document Chunk 1930 ---
+of clocks needs 
+
+--- Document Chunk 1931 ---
+to take into 
+
+--- Document Chunk 1932 ---
+account similar 
+
+--- Document Chunk 1933 ---
+criteria to PA, 
+
+--- Document Chunk 1934 ---
+CIS and CCTV 
+
+--- Document Chunk 1935 ---
+systems with 
+
+--- Document Chunk 1936 ---
+regards to height, 
+
+--- Document Chunk 1937 ---
+maintenance and 
+
+--- Document Chunk 1938 ---
+not obstructing 
+
+--- Document Chunk 1939 ---
+signal sighting”
+
+--- Document Chunk 1940 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 1941 ---
+20
+
+--- Document Chunk 1942 ---
+and preventative maintenance are also key to 
+
+--- Document Chunk 1943 ---
+enhancing operational efficiency. This could 
+
+--- Document Chunk 1944 ---
+include data to monitor and manage the train, 
+
+--- Document Chunk 1945 ---
+and if adequate bandwidth is available real time 
+
+--- Document Chunk 1946 ---
+forward and rear facing CCTV cameras for track 
+
+--- Document Chunk 1947 ---
+and signalling maintenance. While GSM-R will 
+
+--- Document Chunk 1948 ---
+provide the wireless connection for ERTMS /
+
+--- Document Chunk 1949 ---
+CBTC movement authority, it does not have 
+
+--- Document Chunk 1950 ---
+sufficient capacity for train Wi-Fi applications 
+
+--- Document Chunk 1951 ---
+and use of public 4G or 5G LTE networks is more 
+
+--- Document Chunk 1952 ---
+usual for provision of the internet connection. 
+
+--- Document Chunk 1953 ---
+The replacement for GSM-R, known as FRMCS 
+
+--- Document Chunk 1954 ---
+(Future Radio Mobile Communication System), 
+
+--- Document Chunk 1955 ---
+is planned to provide for all train connectivity 
+
+--- Document Chunk 1956 ---
+requirements, including business and passenger 
+
+--- Document Chunk 1957 ---
+communications.
+
+--- Document Chunk 1958 ---
+To improve or provide an internet connection on 
+
+--- Document Chunk 1959 ---
+trains it is likely to require equipment both on the 
+
+--- Document Chunk 1960 ---
+infrastructure and train. Like many applications, 
+
+--- Document Chunk 1961 ---
+such as operational voice and ETCS/CBTC, this 
+
+--- Document Chunk 1962 ---
+will require close working between rolling stock 
+
+--- Document Chunk 1963 ---
+and S&T engineers, and for each to have an 
+
+--- Document Chunk 1964 ---
+appreciation of the engineering principles for both 
+
+--- Document Chunk 1965 ---
+infrastructure and trains. 
+
+--- Document Chunk 1966 ---
+By their construction, train vehicles create 
+
+--- Document Chunk 1967 ---
+attenuation which degrades the usable signal 
+
+--- Document Chunk 1968 ---
+in the train. The degree of attenuation varies 
+
+--- Document Chunk 1969 ---
+between 5 to 35dB depending on the rail vehicle 
+
+--- Document Chunk 1970 ---
+profile and a loss of 3dB results in halving the 
+
+--- Document Chunk 1971 ---
+available power. The on-train user experience 
+
+--- Document Chunk 1972 ---
+can vary as a result of the differing levels of signal 
+
+--- Document Chunk 1973 ---
+attenuation due to a significant mix of different 
+
+--- Document Chunk 1974 ---
+devices, with an increasing trend towards the use 
+
+--- Document Chunk 1975 ---
+of multiband smartphones and tablets. Multiband 
+
+--- Document Chunk 1976 ---
+devices incorporate wider band receivers which 
+
+--- Document Chunk 1977 ---
+weaken the performance for any one single band, 
+
+--- Document Chunk 1978 ---
+and coupled with multiband antennas becoming 
+
+--- Document Chunk 1979 ---
+integrated into the handsets themselves makes 
+
+--- Document Chunk 1980 ---
+reception on-board trains even more challenging. 
+
+--- Document Chunk 1981 ---
+There is a significant cost involved in the 
+
+--- Document Chunk 1982 ---
+design and implementation of additional public 
+
+--- Document Chunk 1983 ---
+operator radio sites along rail routes and careful 
+
+--- Document Chunk 1984 ---
+consideration is required for any additional public 
+
+--- Document Chunk 1985 ---
+radio coverage to avoid signal interference with 
+
+--- Document Chunk 1986 ---
+GSM-R and FRMCS.
+
+--- Document Chunk 1987 ---
+Internet connectivity can be improved by 
+
+--- Document Chunk 1988 ---
+providing digital on-board repeaters (D-OBR). A 
+
+--- Document Chunk 1989 ---
+D-OBR is an active multi-band, multi-operator 
+
+--- Document Chunk 1990 ---
+repeater which is designed to provide coverage 
+
+--- Document Chunk 1991 ---
+within train vehicles by amplifying and re-radiating 
+
+--- Document Chunk 1992 ---
+(repeating) the external 2G, 3G and 4G/LTE mobile 
+
+--- Document Chunk 1993 ---
+operator signals through dedicated ceiling-
+
+--- Document Chunk 1994 ---
+mounted antennas. A D-OBR will provide Internet 
+
+--- Document Chunk 1995 ---
+access to mobile phones without a Wi-Fi facility; 
+
+--- Document Chunk 1996 ---
+however, most passengers now expect Wi-Fi 
+
+--- Document Chunk 1997 ---
+to be available, although some train operators 
+
+--- Document Chunk 1998 ---
+have ‘quiet coaches’ to restrict nuisance use by 
+
+--- Document Chunk 1999 ---
+some travellers who can adversely impact the 
+
+--- Document Chunk 2000 ---
+journey experience. 
+
+--- Document Chunk 2001 ---
+One or more external mounted wideband 
+
+--- Document Chunk 2002 ---
+antennas can be provided on trains and 
+
+--- Document Chunk 2003 ---
+connected to a communications device known 
+
+--- Document Chunk 2004 ---
+as a Mobile Communications Gateway (MCG). 
+
+--- Document Chunk 2005 ---
+A wideband antenna capable of receiving a 
+
+--- Document Chunk 2006 ---
+wide range of Mobile Network Operator (MNO) 
+
+--- Document Chunk 2007 ---
+services and 2.5GHz or 5GHz point to point Wi-Fi 
+
+--- Document Chunk 2008 ---
+connections at stations can be provided, with 
+
+--- Document Chunk 2009 ---
+6GHz Wi-Fi systems also being introduced. Care 
+
+--- Document Chunk 2010 ---
+will be needed on the location of the wideband 
+
+--- Document Chunk 2011 ---
+train antennae so they do not interfere with the 
+
+--- Document Chunk 2012 ---
+train GSM-R antenna.
+
+--- Document Chunk 2013 ---
+Antennae are one of the most critical items to 
+
+--- Document Chunk 2014 ---
+deliver good connectivity on and off the train, 
+
+--- Document Chunk 2015 ---
+and creating an efficient antenna solution will 
+
+--- Document Chunk 2016 ---
+do much to improve system efficiency. Many of 
+
+--- Document Chunk 2017 ---
+the radio frequency problems associated with 
+
+--- Document Chunk 2018 ---
+antennae also stem from poor fitment of feeder 
+
+--- Document Chunk 2019 ---
+cables, which should be installed in accordance 
+
+--- Document Chunk 2020 ---
+with the manufacturer’s instructions.
+
+--- Document Chunk 2021 ---
+The MCG (or number of MCGs) provides ‘a 
+
+--- Document Chunk 2022 ---
+cloud’ of connectivity to the train via a number 
+
+--- Document Chunk 2023 ---
+of MNO services and external Wi-Fi connections 
+
+--- Document Chunk 2024 ---
+aggregated together. Fixed Wi-Fi at stations 
+
+--- Document Chunk 2025 ---
+or trackside is a good way of enhancing the 
+
+--- Document Chunk 2026 ---
+connectivity as this is within the control of the rail 
+
+--- Document Chunk 2027 ---
+industry. At terminal stations it can provide a good 
+
+--- Document Chunk 2028 ---
+link to a train and this is where many people open 
+
+--- Document Chunk 2029 ---
+their device and ‘log on’. Wi-Fi systems are ‘licence 
+
+--- Document Chunk 2030 ---
+free’ so care may need to be taken to prevent 
+
+--- Document Chunk 2031 ---
+interference from other Wi-Fi systems, which 
+
+--- Document Chunk 2032 ---
+could be located away from the railway. 
+
+--- Document Chunk 2033 ---
+Most train passengers 
+
+--- Document Chunk 2034 ---
+now have an expectation 
+
+--- Document Chunk 2035 ---
+that a connection to the 
+
+--- Document Chunk 2036 ---
+internet will be available 
+
+--- Document Chunk 2037 ---
+on trains.
+
+--- Document Chunk 2038 ---
+Photo Icomera.
+
+--- Document Chunk 2039 ---
+“Antennas are 
+
+--- Document Chunk 2040 ---
+one of the most 
+
+--- Document Chunk 2041 ---
+critical items 
+
+--- Document Chunk 2042 ---
+to deliver good 
+
+--- Document Chunk 2043 ---
+connectivity on 
+
+--- Document Chunk 2044 ---
+and off the train”
+
+--- Document Chunk 2045 ---
+ IRSE News |  Issue 271  |  November 2020
+
+--- Document Chunk 2046 ---
+21
+
+--- Document Chunk 2047 ---
+Paul Darlington CEng, FIET, FIRSE, joined the S&T department 
+
+--- Document Chunk 2048 ---
+of the London Midland Region of British Rail in 1975 as a 
+
+--- Document Chunk 2049 ---
+trainee telecoms technician. After maintaining telephone 
+
+--- Document Chunk 2050 ---
+exchanges, he became an instructor at the regional S&T 
+
+--- Document Chunk 2051 ---
+training centre. In the 1980s he moved to the telecoms 
+
+--- Document Chunk 2052 ---
+project office in Birmingham and was involved in designing 
+
+--- Document Chunk 2053 ---
+and implementing CIS, CCTV, SPT and radio systems.  
+
+--- Document Chunk 2054 ---
+Moving to Railtrack in 1994 Paul led the asset management 
+
+--- Document Chunk 2055 ---
+of telecoms for the north west of England and became 
+
+--- Document Chunk 2056 ---
+engineering manager for all disciplines. In 2008 he moved 
+
+--- Document Chunk 2057 ---
+to London as head of telecoms engineering for Network 
+
+--- Document Chunk 2058 ---
+Rail and finished his full-time career as route asset manager 
+
+--- Document Chunk 2059 ---
+signalling in Manchester. Paul also led the work to enhance 
+
+--- Document Chunk 2060 ---
+the Network Rail network with IP, which led to the creation 
+
+--- Document Chunk 2061 ---
+of Network Rail Telecoms (NRT) and the Network Rail FTNx 
+
+--- Document Chunk 2062 ---
+IP network. He also chaired the safety approval panel for 
+
+--- Document Chunk 2063 ---
+the GSM-R Network.
+
+--- Document Chunk 2064 ---
+Retiring in 2012, today Paul is an engineering writer, managing 
+
+--- Document Chunk 2065 ---
+editor for IRSE News and also interviews applicants for 
+
+--- Document Chunk 2066 ---
+professional registration with the IET and IRSE.
+
+--- Document Chunk 2067 ---
+Trevor Foulkes MA, CEng, FIRSE joined British Rail in 1979 as 
+
+--- Document Chunk 2068 ---
+a sponsored management trainee engineer. After graduating 
+
+--- Document Chunk 2069 ---
+from Fitzwilliam College, Cambridge his training was based 
+
+--- Document Chunk 2070 ---
+in the S&T department of the Western Region, followed 
+
+--- Document Chunk 2071 ---
+by a series of roles in the design of systems and the 
+
+--- Document Chunk 2072 ---
+management of technicians and engineers.
+
+--- Document Chunk 2073 ---
+In 1994 Trevor joined Railtrack and specified telecoms 
+
+--- Document Chunk 2074 ---
+works for the south and west of the country after which 
+
+--- Document Chunk 2075 ---
+he joined HQ and set national standards for equipment. 
+
+--- Document Chunk 2076 ---
+He then joined the West Coast Main Line (WCML) 
+
+--- Document Chunk 2077 ---
+resignalling team in 1996.
+
+--- Document Chunk 2078 ---
+In 2000, he led the business case development for the 
+
+--- Document Chunk 2079 ---
+telecoms network, now known as the Fixed Telecom 
+
+--- Document Chunk 2080 ---
+Network (FTN), before becoming the design authority for 
+
+--- Document Chunk 2081 ---
+the FTN and GSM-R systems. In 2012, he was seconded to 
+
+--- Document Chunk 2082 ---
+the High Speed 2 project to develop the control, command 
+
+--- Document Chunk 2083 ---
+& signal engineering design. He also led the Spectrum 
+
+--- Document Chunk 2084 ---
+Group of the UIC project developing the next generation of 
+
+--- Document Chunk 2085 ---
+operational radio to replace GSM-R.
+
+--- Document Chunk 2086 ---
+Trevor retired in 2015 and is chair of the London & 
+
+--- Document Chunk 2087 ---
+South-East Section of the IRSE and has assisted with the 
+
+--- Document Chunk 2088 ---
+telecoms aspects of the new Certificate in Railway Control 
+
+--- Document Chunk 2089 ---
+Engineering Fundamentals (module A).
+
+--- Document Chunk 2090 ---
+About the authors ...
+
+--- Document Chunk 2091 ---
+The connectivity to the MCG may also include satellite 
+
+--- Document Chunk 2092 ---
+connections, although some systems can be troubled by higher 
+
+--- Document Chunk 2093 ---
+latency times to and from a moving train. A train compares 
+
+--- Document Chunk 2094 ---
+unfavourably with a more stable platform like an aircraft, 
+
+--- Document Chunk 2095 ---
+which is how an internet connection is provided in the air 
+
+--- Document Chunk 2096 ---
+industry. Satellite communications will not work in tunnels or 
+
+--- Document Chunk 2097 ---
+deep cuttings. 
+
+--- Document Chunk 2098 ---
+An acceptable customer service in order to support email and 
+
+--- Document Chunk 2099 ---
+social media browsing can be provided with a data bandwidth 
+
+--- Document Chunk 2100 ---
+as low as a few hundred kbits/s, but obviously the more 
+
+--- Document Chunk 2101 ---
+bandwidth the better. Limiting each customer to a maximum 
+
+--- Document Chunk 2102 ---
+will help to provide an acceptable service to all customers 
+
+--- Document Chunk 2103 ---
+on the train. In order to provide a reliable non-discriminatory 
+
+--- Document Chunk 2104 ---
+service, certain high bandwidth applications, such as video and 
+
+--- Document Chunk 2105 ---
+audio streaming services or peer-to-peer file sharing, may need 
+
+--- Document Chunk 2106 ---
+filtering and restricting. On train bandwidth requirements will 
+
+--- Document Chunk 2107 ---
+vary depending on the number of active Wi-Fi customers and 
+
+--- Document Chunk 2108 ---
+may increase as passengers become aware of Wi-Fi availability, 
+
+--- Document Chunk 2109 ---
+therefore additional bandwidth should always be planned for.
+
+--- Document Chunk 2110 ---
+Final thoughts
+
+--- Document Chunk 2111 ---
+So, given all that has been covered in both parts of the back 
+
+--- Document Chunk 2112 ---
+to basics of railway telecoms, what makes railway telecoms 
+
+--- Document Chunk 2113 ---
+different from providing a public telecoms network?
+
+--- Document Chunk 2114 ---
+Many pieces of equipment can be used for railway and public 
+
+--- Document Chunk 2115 ---
+telecommunications e.g. cables, transmission and exchange 
+
+--- Document Chunk 2116 ---
+equipment. There are pieces of equipment which are specific 
+
+--- Document Chunk 2117 ---
+to the railway such as signalling centre concentrators and 
+
+--- Document Chunk 2118 ---
+GSM-R cab radios. These items are normally developed to 
+
+--- Document Chunk 2119 ---
+provide a feature which is unique to the railway – e.g. using the 
+
+--- Document Chunk 2120 ---
+GSM-R frequency bands or needing to be designed to prevent 
+
+--- Document Chunk 2121 ---
+an activity which may cause risk, such as two drivers speaking 
+
+--- Document Chunk 2122 ---
+to a signaller at the same time. The equipment also has to 
+
+--- Document Chunk 2123 ---
+operate correctly in the railway environment which is normally 
+
+--- Document Chunk 2124 ---
+harsher than an office environment. Factors to take into 
+
+--- Document Chunk 2125 ---
+account include Electromagnetic Compatibility (EMC), vibration, 
+
+--- Document Chunk 2126 ---
+temperature, and humidity.
+
+--- Document Chunk 2127 ---
+Railway telecoms is managed in a different way to a public 
+
+--- Document Chunk 2128 ---
+telephone network. An example would be that railway operators 
+
+--- Document Chunk 2129 ---
+expect any engineering or station works that will disrupt the 
+
+--- Document Chunk 2130 ---
+train service, to be pre-planned, agreed with them and to be 
+
+--- Document Chunk 2131 ---
+told when a facility is restored. Similarly, if a significant fault 
+
+--- Document Chunk 2132 ---
+occurs it has to be investigated to ascertain the root cause so 
+
+--- Document Chunk 2133 ---
+that, if necessary, steps can be taken to prevent recurrence. 
+
+--- Document Chunk 2134 ---
+Such situations demand telecommunication requirements that 
+
+--- Document Chunk 2135 ---
+may be difficult to obtain from the service provided by a public 
+
+--- Document Chunk 2136 ---
+telecom operator.
+
+--- Document Chunk 2137 ---
+A railway telecom engineer is expected to understand the rules 
+
+--- Document Chunk 2138 ---
+and procedures employed on the railway so that when they are 
+
+--- Document Chunk 2139 ---
+designing systems to support the operation, they can define 
+
+--- Document Chunk 2140 ---
+what functionality is required and also understand the safety 
+
+--- Document Chunk 2141 ---
+and performance implications of any failures. So if an off the 
+
+--- Document Chunk 2142 ---
+shelf piece of equipment is used, the engineer needs to be sure 
+
+--- Document Chunk 2143 ---
+that it is fit for the purpose intended, for example, it provides 
+
+--- Document Chunk 2144 ---
+sufficient protection to be used in places of high induced 
+
+--- Document Chunk 2145 ---
+voltages or vibration.
+
+--- Document Chunk 2146 ---
+If it is decided to use a public telephone system (fixed or 
+
+--- Document Chunk 2147 ---
+mobile) to support a railway application, then the possible 
+
+--- Document Chunk 2148 ---
+shortcomings of using the standard facilities should be 
+
+--- Document Chunk 2149 ---
+considered. For instance, the radio coverage may change over 
+
+--- Document Chunk 2150 ---
+time and not cover areas of the track. A public operator may not 
+
+--- Document Chunk 2151 ---
+be able to provide diversity between two circuits for the last few 
+
+--- Document Chunk 2152 ---
+miles at a reasonable cost. The public service may be turned 
+
+--- Document Chunk 2153 ---
+off for maintenance overnight and at short notice. If these 
+
+--- Document Chunk 2154 ---
+shortcomings are acceptable then the use of public services 
+
+--- Document Chunk 2155 ---
+can provide a cost-effective solution for some railways.
+
+--- Document Chunk 2156 ---
+There may be a temptation for some governments and railway 
+
+--- Document Chunk 2157 ---
+authorities to ‘sell off’ the railway telecoms assets and resource 
+
+--- Document Chunk 2158 ---
+to raise finance or for commercial purposes. This has occurred 
+
+--- Document Chunk 2159 ---
+several times across the world. However, in nearly every 
+
+--- Document Chunk 2160 ---
+example, the railway authority has had to buy back or re-install 
+
+--- Document Chunk 2161 ---
+its own telecoms infrastructure, plus rebuilding a telecoms 
+
+--- Document Chunk 2162 ---
+workforce. Telecoms is a vital part of railways operations and 
+
+--- Document Chunk 2163 ---
+with the increasing use of digital signalling systems and the 
+
+--- Document Chunk 2164 ---
+internet of things, it is becoming ever more important. 
+

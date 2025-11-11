@@ -1,0 +1,345 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通“基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统(CBTC ) 互联互通工程规范一第1部分:
+
+--- Document Chunk 4 ---
+工程设计》( T/CAMET)04013. 1一2018 )
+
+--- Document Chunk 5 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 6 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月03 日批准发布，
+
+--- Document Chunk 7 ---
+自2024 年09 月10 日起实施。
+
+--- Document Chunk 8 ---
+一、编辑性修改
+
+--- Document Chunk 9 ---
+1. 将第3.1.10 条术语“保护区段 overlap section ”修改为“保护区
+
+--- Document Chunk 10 ---
+2. 将第3.1.13 条术语“安全保护距离 safe protection distanée” 修改
+
+--- Document Chunk 11 ---
+Dy RARE RS safety margin”。
+
+--- Document Chunk 12 ---
+3. 将第 3.1.16 条术语"共线运行 mix operation” (By :“SEAGIZ fT
+
+--- Document Chunk 13 ---
+mixed operation” ,
+
+--- Document Chunk 14 ---
+4. 将第3.1.18 条术语“物理区段 physical track section ,物理区段
+
+--- Document Chunk 15 ---
+安装在轨旁的计轴传感器进行分割,也称浪计轴区段 "修改为"计轴
+
+--- Document Chunk 16 ---
+段 axle track section ,由安装在轨织的计轴传感器进行分割”。
+
+--- Document Chunk 17 ---
+5. 将第 3.1. 19 条术请"逻辑区段是将较长的物理区段在逻辑上划
+
+--- Document Chunk 18 ---
+分为若干个虚拟区段,作为 CBTC 系统中检测列车占用出清的最小单
+
+--- Document Chunk 19 ---
+元。修改为:将较长的计轴区段在逻辑上划分为若干虚拟区段 ,作为
+
+--- Document Chunk 20 ---
+CBTC 系统中检测列车占用出清的最小单元。
+
+--- Document Chunk 21 ---
+6. 增加第 3. 2 条缩略语“SB :有源应答器(Switchable Balise)”
+
+--- Document Chunk 22 ---
+区
+
+--- Document Chunk 23 ---
+--- Page 2 ---
+
+--- Document Chunk 24 ---
+7.
+
+--- Document Chunk 25 ---
+这
+
+--- Document Chunk 26 ---
+各第 5.2 条应答器安装精度要求中”折返轨/存车线内应答器:
+
+--- Document Chunk 27 ---
+"修改为… 折返轨/存车线精确停车应答器: +2 om” 4
+
+--- Document Chunk 28 ---
+8. 将第12.2条ATS Cl BB KAA “ATS .CU重登区的长度
+
+--- Document Chunk 29 ---
+应不小于进路触发区段的长度" 修改为: ATS 重码区的长度应不小于进
+
+--- Document Chunk 30 ---
+路触发区段的长度”。
+
+--- Document Chunk 31 ---
+9. 将第 14 条临时限速区段划分原则忠“临时限速区段划分应遵循
+
+--- Document Chunk 32 ---
+如下原则:a)在无岔区段中,按照沟辑区段进行划分;p) 在道岔区段内，
+
+--- Document Chunk 33 ---
+按照三段式轨道区段进行划分。 修改为:轨道区段划分应遵循如下原
+
+--- Document Chunk 34 ---
+则:a) 在无贫区自中,按照计轴区段进行划分;b)在道岔区段内,按照三
+
+--- Document Chunk 35 ---
+三、技术性修改
+
+--- Document Chunk 36 ---
+1. 在第4.1 条“区段划分原则”中 :
+
+--- Document Chunk 37 ---
+1) 将"a)物理区段分界点(计轴点) 应为轨道区段的分界点”修改
+
+--- Document Chunk 38 ---
+为:a)计轴区段分界点(计轴点)应为轨道区段的分界点”
+
+--- Document Chunk 39 ---
+2) 将“ec)无贫物理区段内,轨道区段的边界点应为巡辑区段分界
+
+--- Document Chunk 40 ---
+点"修改为:ec)无贫计轴区段内,轨道区段的边界点应为逻辑
+
+--- Document Chunk 41 ---
+区段分界点”
+
+--- Document Chunk 42 ---
+3) 将"e)单个物理区段内轨道区段总个数:不超过12 余"修改为
+
+--- Document Chunk 43 ---
+“e)单个计轴区段内轨道区段总个数:不超过 124,”
+
+--- Document Chunk 44 ---
+2. 将第3.3 b)条中"本规范中车站站台精确停车的位置,不同编组
+
+--- Document Chunk 45 ---
+列车以站台两端对标停车”修改为注本文件中车站站台精确停车的位
+
+--- Document Chunk 46 ---
+置,不同编组均采用正方向运行站人台问居和停车的原则”。
+
+--- Document Chunk 47 ---
+3. 将第 5.4 条”车辆段/停车场与正线转换应答器布置原则”中”*当
+
+--- Document Chunk 48 ---
+车辆由车辆段/停车场进欠正线时 ,需要在转换轨前布置两个轮径校正应
+
+--- Document Chunk 49 ---
+答器,用于实现列车的轮径校准及列车初始定位。应答器布置间距为 20
+
+--- Document Chunk 50 ---
+米至 60 米(视工程项目具体情况确定) ” ,修改为:" 当车辆由车辆段/停
+
+--- Document Chunk 51 ---
+车场进大正线时 ,应在转换轨前布置至少两个轮径校正应答器,用于实现
+
+--- Document Chunk 52 ---
+列车的轮径校准及列车初始定位。应答器布置间距为 20 米至 60 米(视
+
+--- Document Chunk 53 ---
+2
+
+--- Document Chunk 54 ---
+=
+
+--- Document Chunk 55 ---
++2 cm”
+
+--- Document Chunk 56 ---
+%
+
+--- Document Chunk 57 ---
+1
+
+--- Document Chunk 58 ---
+--- Page 3 ---
+
+--- Document Chunk 59 ---
+工程项目具体情况确定) ”。
+
+--- Document Chunk 60 ---
+4. 在第5.5.2 条“有效站台(140 米)应答器布置原则"中:
+
+--- Document Chunk 61 ---
+1) a) 站台内ATO 位置校正应答器距离出站方向的停车标的
+
+--- Document Chunk 62 ---
+距离应符合表 1 的规定"修改为”站台内 AT9,位置校正应答
+
+--- Document Chunk 63 ---
+器距离出站方向的停车标的距离参考值如表 工所示,工程项目
+
+--- Document Chunk 64 ---
+根据具体情况确定";
+
+--- Document Chunk 65 ---
+2) 将表 1 标题”ATO 校正应答器布置间距”修改为:ATO 校正应
+
+--- Document Chunk 66 ---
+答器布置间距参考值!，
+
+--- Document Chunk 67 ---
+(3) 修改表 1 中长度值;表 1 修改为:
+
+--- Document Chunk 68 ---
+表1 ATO 校正应答器布置间距参考值 (单位为米)
+
+--- Document Chunk 69 ---
+应答器间距                                  长 度
+
+--- Document Chunk 70 ---
+sl                                            5
+
+--- Document Chunk 71 ---
+82                                           10
+
+--- Document Chunk 72 ---
+S3                          站台中心点到 FB2 的距离上+5
+
+--- Document Chunk 73 ---
+S4                          Wi AA FBS (Ws +20
+
+--- Document Chunk 74 ---
+4) HG b) MEAP TT A AE A RSS SoS. 2D) 布置”
+
+--- Document Chunk 75 ---
+修改为”应用于双方向精确停车的应答器参考5.5.2的a)
+
+--- Document Chunk 76 ---
+5) 将"站台内ATO 位置校正应答器的距离应符合表 2 的规定"修
+
+--- Document Chunk 77 ---
+改为:站台内 ATO 位告校正应答器的距离参考值如表 2 所示，
+
+--- Document Chunk 78 ---
+[程项目根据具体情况确定”;
+
+--- Document Chunk 79 ---
+6) 将表2 标题s双向 ATO 校正应答器布置间距"修改为: 双向
+
+--- Document Chunk 80 ---
+ATO 校正应答器布置间距参考值”;
+
+--- Document Chunk 81 ---
+7) | 修改表2 中长度值,表 2 修改为
+
+--- Document Chunk 82 ---
+--- Page 4 ---
+
+--- Document Chunk 83 ---
+表2 双向ATO 校正应答器布置间距参考值(单位为米)
+
+--- Document Chunk 84 ---
+sl                                            4
+
+--- Document Chunk 85 ---
+2                                           10
+
+--- Document Chunk 86 ---
+S3               0.5 * 短编组列车长度 -SL -S2 +5
+
+--- Document Chunk 87 ---
+S4               035 * 短编组列车长度 -S1 - S2 +5
+
+--- Document Chunk 88 ---
+S5                                           10
+
+--- Document Chunk 89 ---
+S6                                           5
+
+--- Document Chunk 90 ---
+s7                                           10
+
+--- Document Chunk 91 ---
+S8                                           5
+
+--- Document Chunk 92 ---
+5. 在第5.5.3 条"有效站台(120 米)应答器布置原则"中:
+
+--- Document Chunk 93 ---
+1) 将a) 站人台内位置校正应答器距离出站方向的停车标的距离应
+
+--- Document Chunk 94 ---
+符合表3 的规定"修改为;站台内位置校正应答器距离出站方
+
+--- Document Chunk 95 ---
+向的停车标的距离参考值如表 3 所示,工程项目根据具体情况
+
+--- Document Chunk 96 ---
+2) 将表 3 标题”ATO 校正应答器布置间距"修改为:AT 校正应
+
+--- Document Chunk 97 ---
+答器布置间距参考值”;
+
+--- Document Chunk 98 ---
+3) 修改表3 中长度值,表3 修改为:
+
+--- Document Chunk 99 ---
+表3 ATO 校正应答器布置间距参考值(单位为米)
+
+--- Document Chunk 100 ---
+sl                       5
+
+--- Document Chunk 101 ---
+82                       10
+
+--- Document Chunk 102 ---
+S3                            站台中心点到 FB2 的距离+5
+
+--- Document Chunk 103 ---
+S4          Wi AA PBS 的距离二20
+
+--- Document Chunk 104 ---
+--- Page 5 ---
+
+--- Document Chunk 105 ---
+4) 将pb)“站台内位置校正应答器的距离应符合表 4 的规定"修改
+
+--- Document Chunk 106 ---
+为”站台内位置校正应答器的距离参考值如表 4 所芍*王程项
+
+--- Document Chunk 107 ---
+目根据具体情况确定”;
+
+--- Document Chunk 108 ---
+5) 将表4 标题"双向停车站台精确停车应答器布置" 修改为，双
+
+--- Document Chunk 109 ---
+向停车站人台精确停车应答器布置间距参考值
+
+--- Document Chunk 110 ---
+6) 修改表4 中长度值,表4 修改为;
+
+--- Document Chunk 111 ---
+R4 双向停车站台精确停车应答器布置间距参考值(单位为米)
+
+--- Document Chunk 112 ---
+S1,SI’                       5
+
+--- Document Chunk 113 ---
+$282’                       10
+
+--- Document Chunk 114 ---
+$3 $3’                     站台中心点到FB2 FB4 的距离上5
+

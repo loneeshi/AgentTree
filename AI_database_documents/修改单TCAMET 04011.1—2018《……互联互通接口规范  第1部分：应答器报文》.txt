@@ -1,0 +1,66 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通“基于通信的列车迁行控制
+
+--- Document Chunk 3 ---
+系统( CBTC ) 互联互通接口规范全 第 1 部分，
+
+--- Document Chunk 4 ---
+应答器报文》(T/ZCAMIET 04011. 1—2018 )
+
+--- Document Chunk 5 ---
+团体标准第 1 号修改音
+
+--- Document Chunk 6 ---
+本敌改单经中国城市轨道交通协会于2024 年 09 月 03 日批准发布，
+
+--- Document Chunk 7 ---
+自2024 年 09 月 10 日起实施。
+
+--- Document Chunk 8 ---
+一、技术性修改
+
+--- Document Chunk 9 ---
+HIBS 3. 1. 3"兼预告的主应答器"的术语和定义。
+
+--- Document Chunk 10 ---
+oh 2 BA“ GB/T 24339. 1一2009 轨道交通 通信、信号和处理系
+
+--- Document Chunk 11 ---
+统第1部分:封闭式传输系统中的安全相关通信(IEC 62280-T:2002 ，
+
+--- Document Chunk 12 ---
+IDT) ” BBC“ GB/T 24339一2023 轨道交通 通信 信号和处理系统 FH
+
+--- Document Chunk 13 ---
+系统中的安全相关通信(IEC 62280:2014,IDT)”。
+
+--- Document Chunk 14 ---
+3. 将5.2.2 中"地面应答器与车载应答器天线间的信息传输接口
+
+--- Document Chunk 15 ---
+(也称接口 A) .应答器编码与解码应满是JCBZAT24339. 1一2009 和 TB/T
+
+--- Document Chunk 16 ---
+3485一2017 的要求。 修改为“地面应答器与车载应答器天线间的信息传
+
+--- Document Chunk 17 ---
+输接口(也称接口 A) .应答器编码与解码应满足 GB/T 24339一2023 和
+
+--- Document Chunk 18 ---
+TB/T 3485—2017 的要求.
+
+--- Document Chunk 19 ---
+se 二
+
+--- Document Chunk 20 ---
+ro 一
+
+--- Document Chunk 21 ---
+isd
+

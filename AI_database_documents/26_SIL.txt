@@ -1,0 +1,558 @@
+--- Document Chunk 0 ---
+12
+
+--- Document Chunk 1 ---
+Paul Darlington and Ian Mitchell
+
+--- Document Chunk 2 ---
+Back to basics: SIL explained
+
+--- Document Chunk 3 ---
+Safety Integrity Level (SIL) is an 
+
+--- Document Chunk 4 ---
+indicator of the relative risk-
+
+--- Document Chunk 5 ---
+reduction provided by a safety 
+
+--- Document Chunk 6 ---
+function in a device. A SIL number 
+
+--- Document Chunk 7 ---
+between 1 and 4 (SIL 1 being the 
+
+--- Document Chunk 8 ---
+lowest level of safety protection and 
+
+--- Document Chunk 9 ---
+SIL 4 the highest) is used to describe 
+
+--- Document Chunk 10 ---
+the degree of safety protection 
+
+--- Document Chunk 11 ---
+required and the safety reliability of 
+
+--- Document Chunk 12 ---
+a system which is needed to achieve 
+
+--- Document Chunk 13 ---
+that protection. It should be noted 
+
+--- Document Chunk 14 ---
+that safety reliability is not the same 
+
+--- Document Chunk 15 ---
+as performance reliability, as this 
+
+--- Document Chunk 16 ---
+back-to-basics article will explain. 
+
+--- Document Chunk 17 ---
+For traditional hardware‑based 
+
+--- Document Chunk 18 ---
+systems, safety is typically specified 
+
+--- Document Chunk 19 ---
+and demonstrated in terms of Mean 
+
+--- Document Chunk 20 ---
+Time Between Wrong Side Failure 
+
+--- Document Chunk 21 ---
+(MTBWSF), which can be calculated 
+
+--- Document Chunk 22 ---
+from the observed random failure rates 
+
+--- Document Chunk 23 ---
+of the individual components. When 
+
+--- Document Chunk 24 ---
+programmable systems began to be 
+
+--- Document Chunk 25 ---
+used in safety critical applications, 
+
+--- Document Chunk 26 ---
+duplicated or triplicated system 
+
+--- Document Chunk 27 ---
+architectures were adopted to give very 
+
+--- Document Chunk 28 ---
+high MTBWSF as a result of random 
+
+--- Document Chunk 29 ---
+hardware failures. But what about failure 
+
+--- Document Chunk 30 ---
+of the software embedded in these 
+
+--- Document Chunk 31 ---
+systems? Software failures may appear 
+
+--- Document Chunk 32 ---
+to be random, but in fact they are always 
+
+--- Document Chunk 33 ---
+systematic; if the circumstances are 
+
+--- Document Chunk 34 ---
+repeated the result will be the same. This 
+
+--- Document Chunk 35 ---
+means that any attempt to predict safety 
+
+--- Document Chunk 36 ---
+from observed failure rates of the system 
+
+--- Document Chunk 37 ---
+is futile – a small change in operating 
+
+--- Document Chunk 38 ---
+circumstances can reveal or hide a latent 
+
+--- Document Chunk 39 ---
+defect in the software.
+
+--- Document Chunk 40 ---
+The solution is to recognise that the 
+
+--- Document Chunk 41 ---
+hazardous failure rate as a result of 
+
+--- Document Chunk 42 ---
+these ‘systematic failures’ cannot be 
+
+--- Document Chunk 43 ---
+quantified, and instead it is necessary 
+
+--- Document Chunk 44 ---
+to demonstrate safety by means of 
+
+--- Document Chunk 45 ---
+the rigour of the design and validation 
+
+--- Document Chunk 46 ---
+process for the system and the software. 
+
+--- Document Chunk 47 ---
+This is inevitably a qualitative (as 
+
+--- Document Chunk 48 ---
+opposed to a quantitative) approach and 
+
+--- Document Chunk 49 ---
+the SIL system provides an internationally 
+
+--- Document Chunk 50 ---
+recognised approach to managing this 
+
+--- Document Chunk 51 ---
+issue for safety critical systems.
+
+--- Document Chunk 52 ---
+The concept of SIL originated in 
+
+--- Document Chunk 53 ---
+the International Electrotechnical 
+
+--- Document Chunk 54 ---
+Committee standard IEC 61508: 
+
+--- Document Chunk 55 ---
+Functional Safety of Electrical/
+
+--- Document Chunk 56 ---
+Electronic/Programmable Electronic 
+
+--- Document Chunk 57 ---
+Safety‑related Systems. IEC 61508 is 
+
+--- Document Chunk 58 ---
+not railway specific and applies to all 
+
+--- Document Chunk 59 ---
+safety engineering disciplines. For the rail 
+
+--- Document Chunk 60 ---
+industry CENELEC (European Committee 
+
+--- Document Chunk 61 ---
+for Electrotechnical Standardisation) 
+
+--- Document Chunk 62 ---
+derived the following standards 
+
+--- Document Chunk 63 ---
+from IEC 61508 to meet railway 
+
+--- Document Chunk 64 ---
+specific requirements. 
+
+--- Document Chunk 65 ---
+• EN 50126: The specification 
+
+--- Document Chunk 66 ---
+and demonstration of Reliability, 
+
+--- Document Chunk 67 ---
+Availability, Maintainability 
+
+--- Document Chunk 68 ---
+and Safety (RAMS).
+
+--- Document Chunk 69 ---
+• EN 50128: Railway applications 
+
+--- Document Chunk 70 ---
+– Communication, signalling 
+
+--- Document Chunk 71 ---
+and processing systems – 
+
+--- Document Chunk 72 ---
+Software for railway control and 
+
+--- Document Chunk 73 ---
+protection systems. 
+
+--- Document Chunk 74 ---
+• EN 50129: Railway applications 
+
+--- Document Chunk 75 ---
+– Communication, signalling and 
+
+--- Document Chunk 76 ---
+processing systems – Safety related 
+
+--- Document Chunk 77 ---
+electronic systems for signalling.
+
+--- Document Chunk 78 ---
+Safety Integrity Levels can be assigned to 
+
+--- Document Chunk 79 ---
+virtually any function presenting a safety 
+
+--- Document Chunk 80 ---
+risk. Typical examples of SIL functions 
+
+--- Document Chunk 81 ---
+for rail are: SIL 1 light metro train speed 
+
+--- Document Chunk 82 ---
+monitoring and display, SIL 2 monitoring 
+
+--- Document Chunk 83 ---
+of axle box bearing temperature, SIL 3 
+
+--- Document Chunk 84 ---
+depot protection, SIL 4 interlocking of 
+
+--- Document Chunk 85 ---
+points and signals. The allocation of SIL 
+
+--- Document Chunk 86 ---
+    Safe        
+
+--- Document Chunk 87 ---
+         Safer            
+
+--- Document Chunk 88 ---
+    Safest
+
+--- Document Chunk 89 ---
+ IRSE News |  Issue 292  |  October 2022
+
+--- Document Chunk 90 ---
+13
+
+--- Document Chunk 91 ---
+takes into account the frequency and severity of the risk that 
+
+--- Document Chunk 92 ---
+is being managed, and whether there are other systems or 
+
+--- Document Chunk 93 ---
+manual processes that can mitigate the effect of a hazardous 
+
+--- Document Chunk 94 ---
+system failure.
+
+--- Document Chunk 95 ---
+When developing systems to a required SIL, techniques are 
+
+--- Document Chunk 96 ---
+selected from a list of recommended or mandatory techniques 
+
+--- Document Chunk 97 ---
+dependent upon the level of SIL. For example, when creating 
+
+--- Document Chunk 98 ---
+the software requirements specification for a SIL 4 system the 
+
+--- Document Chunk 99 ---
+techniques include: formal methods, modelling, structured 
+
+--- Document Chunk 100 ---
+methodology, and decision tables.
+
+--- Document Chunk 101 ---
+A common misconception is that individual products or 
+
+--- Document Chunk 102 ---
+components have SIL ratings. But simply buying a SIL suitable 
+
+--- Document Chunk 103 ---
+component (if possible) does not ensure a SIL system. Rather, 
+
+--- Document Chunk 104 ---
+products and components may be suitable for use within a 
+
+--- Document Chunk 105 ---
+given SIL system, but they are not individually SIL rated. 
+
+--- Document Chunk 106 ---
+SIL levels apply to safety functions and safety systems, and 
+
+--- Document Chunk 107 ---
+products and components are only suitable for use in specific 
+
+--- Document Chunk 108 ---
+SIL applications if the end user can ensure that the overall 
+
+--- Document Chunk 109 ---
+safety system is implemented correctly. The equipment 
+
+--- Document Chunk 110 ---
+or system must also be operated and used in the way it 
+
+--- Document Chunk 111 ---
+was designed in order to achieve the required safety risk 
+
+--- Document Chunk 112 ---
+reduction level.
+
+--- Document Chunk 113 ---
+The owner/operator must determine the acceptable level of 
+
+--- Document Chunk 114 ---
+risk, based on standards or other factors such as ALARP and 
+
+--- Document Chunk 115 ---
+society acceptance of the risk. A risk level that one owner 
+
+--- Document Chunk 116 ---
+determines is tolerable may be unacceptable to another. 
+
+--- Document Chunk 117 ---
+Unfortunately, the requirements for a given SIL are not 
+
+--- Document Chunk 118 ---
+consistent among all of the functional safety standards across 
+
+--- Document Chunk 119 ---
+different industries, which does cause some confusion. 
+
+--- Document Chunk 120 ---
+Some asset owners and project managers may be tempted 
+
+--- Document Chunk 121 ---
+to specify a high SIL simply for availability reasons, and SIL 
+
+--- Document Chunk 122 ---
+is sometimes mistakenly used to imply that a product has 
+
+--- Document Chunk 123 ---
+better quality and higher reliability, but this is incorrect. Some 
+
+--- Document Chunk 124 ---
+products may be described as ‘SIL rated’, suggesting that they 
+
+--- Document Chunk 125 ---
+are suitable for use in safety systems, but this depends on 
+
+--- Document Chunk 126 ---
+many other aspects of the overall system design. Even when 
+
+--- Document Chunk 127 ---
+a product genuinely complies with SIL requirements, this only 
+
+--- Document Chunk 128 ---
+provides assurance that it is capable of performing a specific 
+
+--- Document Chunk 129 ---
+role within a safety system. Its safety reliability may be high, but 
+
+--- Document Chunk 130 ---
+its general reliability may not be. 
+
+--- Document Chunk 131 ---
+An item is highly available if it does not fail very often and, 
+
+--- Document Chunk 132 ---
+when it does, it can be quickly returned to service. A system 
+
+--- Document Chunk 133 ---
+is considered to be safe if it is reliably performing its safety 
+
+--- Document Chunk 134 ---
+function. However, the system may fail much more frequently 
+
+--- Document Chunk 135 ---
+in ways that are considered not to be dangerous (fail safe). 
+
+--- Document Chunk 136 ---
+Therefore, a safety system may be less reliable overall (i.e. with 
+
+--- Document Chunk 137 ---
+a lower mean time between failures) than a non‑safety system 
+
+--- Document Chunk 138 ---
+performing a similar function. 
+
+--- Document Chunk 139 ---
+Selecting the appropriate SIL level must be done carefully. 
+
+--- Document Chunk 140 ---
+Whole life costs are generally considerably higher in order to 
+
+--- Document Chunk 141 ---
+achieve higher SIL levels. This is because designing, testing 
+
+--- Document Chunk 142 ---
+and maintaining systems to meet high levels of safety integrity 
+
+--- Document Chunk 143 ---
+is complicated, time‑consuming and expensive, and can lead 
+
+--- Document Chunk 144 ---
+to lower levels of overall system performance reliability which 
+
+--- Document Chunk 145 ---
+has cost implications. It can also be an obstacle to future 
+
+--- Document Chunk 146 ---
+enhancements of the system to meet new requirements and 
+
+--- Document Chunk 147 ---
+operational circumstances.
+
+--- Document Chunk 148 ---
+For example, some industries outside of rail with a lower safety 
+
+--- Document Chunk 149 ---
+risk requirement (for example factory production) companies 
+
+--- Document Chunk 150 ---
+will typically accept designs up to SIL 2. If an assessment 
+
+--- Document Chunk 151 ---
+indicates a requirement for a higher SIL, owners will usually 
+
+--- Document Chunk 152 ---
+require the redesign of the process to lower the intrinsic 
+
+--- Document Chunk 153 ---
+process risk, rather than design the system to achieve SIL 3.
+
+--- Document Chunk 154 ---
+In modern railway signalling systems the use of SIL 4 is 
+
+--- Document Chunk 155 ---
+usually restricted to those parts of the signalling which are 
+
+--- Document Chunk 156 ---
+safety critical, for example the interlocking. Other parts of the 
+
+--- Document Chunk 157 ---
+signalling system, such as the control panel or workstation, are 
+
+--- Document Chunk 158 ---
+usually of a lower SIL value (typically SIL 0 to SIL 2). Network 
+
+--- Document Chunk 159 ---
+Rail in the UK has recently reviewed its standards to determine 
+
+--- Document Chunk 160 ---
+where the SIL 4 interlocking could be simplified by deploying 
+
+--- Document Chunk 161 ---
+lower SIL functions in another part of the system. 
+
+--- Document Chunk 162 ---
+Further reading
+
+--- Document Chunk 163 ---
+• Understanding Safety Integrity Levels (SIL) International 
+
+--- Document Chunk 164 ---
+Technical Committee (ITC) IRSE News October 2015. 
+
+--- Document Chunk 165 ---
+irse.info/yahut
+
+--- Document Chunk 166 ---
+• The Use and Misuse of SILs (2009) Roger Short IRSE News 
+
+--- Document Chunk 167 ---
+February 2009. irse.info/0s8vc
+
+--- Document Chunk 168 ---
+• Understanding the Use, Misuse and Abuse of Safety 
+
+--- Document Chunk 169 ---
+Integrity Levels (2000). Felix Redmill Proceedings of the 
+
+--- Document Chunk 170 ---
+Eighth Safety‑critical Systems Symposium, Southampton, 
+
+--- Document Chunk 171 ---
+UK, February 2000. irse.info/1jsow 
+
+--- Document Chunk 172 ---
+Safety integrity level Tolerable Functional 
+
+--- Document Chunk 173 ---
+Failure Rate per hour
+
+--- Document Chunk 174 ---
+SIL 1 10‑5 to 10‑6
+
+--- Document Chunk 175 ---
+SIL 2 10‑6 to 10‑7
+
+--- Document Chunk 176 ---
+SIL 3 10‑7 to 10‑8
+
+--- Document Chunk 177 ---
+SIL 4 10‑8 to 10‑9
+
+--- Document Chunk 178 ---
+What the SIL levels mean in terms of tolerable failure rates.
+
+--- Document Chunk 179 ---
+A complex railway system will typically employ systems with different 
+
+--- Document Chunk 180 ---
+SIL levels. Interlocking, train absence detection and automatic train 
+
+--- Document Chunk 181 ---
+protection for example may be SIL 4 systems, whilst the automatic 
+
+--- Document Chunk 182 ---
+train operation and control centre systems may be configured to 
+
+--- Document Chunk 183 ---
+meet the failure rates of SIL 2.
+
+--- Document Chunk 184 ---
+Photo Pixabay/Jan Hloušek.
+
+--- Document Chunk 185 ---
+///
+

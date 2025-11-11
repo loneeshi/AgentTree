@@ -1,0 +1,810 @@
+--- Document Chunk 0 ---
+16
+
+--- Document Chunk 1 ---
+Fundamental requirements for a 
+
+--- Document Chunk 2 ---
+train control system
+
+--- Document Chunk 3 ---
+In the first of a planned series of ‘back to basics’ subjects 
+
+--- Document Chunk 4 ---
+on train control and communications, this article 
+
+--- Document Chunk 5 ---
+summarises the fundamental requirements for a train 
+
+--- Document Chunk 6 ---
+control system. These requirements will be familiar to 
+
+--- Document Chunk 7 ---
+experienced signalling engineers, but are recommended 
+
+--- Document Chunk 8 ---
+reading for anyone new to railway control and 
+
+--- Document Chunk 9 ---
+communications and for IRSE members preparing to 
+
+--- Document Chunk 10 ---
+take the IRSE Exam. 
+
+--- Document Chunk 11 ---
+The requirements were originally set out in the IRSE Signalling 
+
+--- Document Chunk 12 ---
+Philosophy Review (2001) and have subsequently been 
+
+--- Document Chunk 13 ---
+reviewed and revised a number of times. They are available in 
+
+--- Document Chunk 14 ---
+full via the IRSE website at irse.info/ex3ous. 
+
+--- Document Chunk 15 ---
+The requirements are not mandated by the IRSE, although 
+
+--- Document Chunk 16 ---
+the Institution regards them as essential for any train 
+
+--- Document Chunk 17 ---
+control system. 
+
+--- Document Chunk 18 ---
+The word ‘signalling’ is defined by the IRSE as all the equipment, 
+
+--- Document Chunk 19 ---
+electrical, mechanical or otherwise, methods, regulations and 
+
+--- Document Chunk 20 ---
+principles whereby the movement of railway or other traffic is 
+
+--- Document Chunk 21 ---
+controlled. Throughout the requirements, and in this article, the 
+
+--- Document Chunk 22 ---
+phrase “train control system” includes the people, procedures 
+
+--- Document Chunk 23 ---
+and technology used to signal trains; and where the single word 
+
+--- Document Chunk 24 ---
+“system” is used it means the “train control system”. Where 
+
+--- Document Chunk 25 ---
+the phrase “signalling system” is used, this means the part of 
+
+--- Document Chunk 26 ---
+the train control system which is implemented by means of 
+
+--- Document Chunk 27 ---
+technology, which could be both infrastructure-based and 
+
+--- Document Chunk 28 ---
+train-borne. The requirements are equally applicable whatever 
+
+--- Document Chunk 29 ---
+form of train control system (as defined above) is used to 
+
+--- Document Chunk 30 ---
+control train movements. Accordingly, they are written at a 
+
+--- Document Chunk 31 ---
+high level, with the intention that users interpret and apply the 
+
+--- Document Chunk 32 ---
+requirements through the specific method of train control that 
+
+--- Document Chunk 33 ---
+is proposed for a railway.
+
+--- Document Chunk 34 ---
+The requirements are in three sections. The first deals 
+
+--- Document Chunk 35 ---
+with operational requirements, the second with functional 
+
+--- Document Chunk 36 ---
+safety requirements, and the third addresses supporting 
+
+--- Document Chunk 37 ---
+safety requirements.
+
+--- Document Chunk 38 ---
+Operational requirements for  
+
+--- Document Chunk 39 ---
+train control systems 
+
+--- Document Chunk 40 ---
+The system will need to meet the needs of 
+
+--- Document Chunk 41 ---
+operators in terms of:
+
+--- Document Chunk 42 ---
+• permitted train movements (such as normal running; 
+
+--- Document Chunk 43 ---
+joining/ splitting; platform sharing, shunting); 
+
+--- Document Chunk 44 ---
+• permitted routing of trains; 
+
+--- Document Chunk 45 ---
+• capacity provision and utilisation;
+
+--- Document Chunk 46 ---
+• and flexibility of operations. 
+
+--- Document Chunk 47 ---
+The system may also contribute to efficient resource 
+
+--- Document Chunk 48 ---
+management, such as efficiency in traction energy 
+
+--- Document Chunk 49 ---
+consumption, and minimising wear and tear on the track. 
+
+--- Document Chunk 50 ---
+If, in addressing requirements for safety, the proposed design 
+
+--- Document Chunk 51 ---
+constrains the operability of the railway, the impact of this will 
+
+--- Document Chunk 52 ---
+need to be assessed and minimised (but without compromising 
+
+--- Document Chunk 53 ---
+acceptable levels of safety, of course).
+
+--- Document Chunk 54 ---
+In order to deliver the timetabled train service, the specification 
+
+--- Document Chunk 55 ---
+and attainment of appropriate levels of reliability and availability 
+
+--- Document Chunk 56 ---
+are essential. Reliability and availability also contribute to overall 
+
+--- Document Chunk 57 ---
+levels of system safety. Maintainability is essential in order to 
+
+--- Document Chunk 58 ---
+ensure that the specified levels of reliability and safety continue 
+
+--- Document Chunk 59 ---
+to be met throughout the service life of the system. 
+
+--- Document Chunk 60 ---
+To achieve required levels of overall availability, the provision 
+
+--- Document Chunk 61 ---
+of degraded modes of operation is desirable. However, human 
+
+--- Document Chunk 62 ---
+intervention as a means of safely controlling train movements 
+
+--- Document Chunk 63 ---
+under failure conditions (e.g. signallers authorising trains to pass 
+
+--- Document Chunk 64 ---
+signals at danger, manual on-site operation of points) entails 
+
+--- Document Chunk 65 ---
+significantly higher risk and is therefore not the preferred means 
+
+--- Document Chunk 66 ---
+of meeting this requirement. Transitions to and from degraded 
+
+--- Document Chunk 67 ---
+modes of operation will need to minimise risk, facilitated by 
+
+--- Document Chunk 68 ---
+“graceful degradation” as well as timely and safe mechanisms 
+
+--- Document Chunk 69 ---
+for recovery to normal operation. 
+
+--- Document Chunk 70 ---
+ IRSE News |  Issue 259  |  October 2019
+
+--- Document Chunk 71 ---
+17
+
+--- Document Chunk 72 ---
+Functional safety requirements for  
+
+--- Document Chunk 73 ---
+train control systems
+
+--- Document Chunk 74 ---
+Before a train is given authority to move along a section of 
+
+--- Document Chunk 75 ---
+line, the section of line needs to be proved to be secure (see 
+
+--- Document Chunk 76 ---
+below) and clear of other traffic, to prevent derailments and 
+
+--- Document Chunk 77 ---
+collisions, and to avoid conflict with movement authorities 
+
+--- Document Chunk 78 ---
+given for other trains. 
+
+--- Document Chunk 79 ---
+Exceptions to this are circumstances where a train is permitted 
+
+--- Document Chunk 80 ---
+to enter an occupied section of line, such as for platform 
+
+--- Document Chunk 81 ---
+sharing, coupling of trains, permissive working, and shunting. 
+
+--- Document Chunk 82 ---
+Where the train is stationary at a station, depot or siding, 
+
+--- Document Chunk 83 ---
+activities such as train preparation, loading, unloading, closing 
+
+--- Document Chunk 84 ---
+doors must also be completed before the train is moved. 
+
+--- Document Chunk 85 ---
+However, these activities are not normally regarded as part of 
+
+--- Document Chunk 86 ---
+the functionality of the train control system. 
+
+--- Document Chunk 87 ---
+The term “secure” (see above) refers to a limited set of safety 
+
+--- Document Chunk 88 ---
+requirements, primarily relating to the position and locking 
+
+--- Document Chunk 89 ---
+of points, and the routing of other trains. Signalling systems 
+
+--- Document Chunk 90 ---
+do not usually prove that the line is clear of all obstructions, 
+
+--- Document Chunk 91 ---
+or that the gauge is correct and the track is physically stable, 
+
+--- Document Chunk 92 ---
+so other control measures may need to be considered to 
+
+--- Document Chunk 93 ---
+manage these risks.
+
+--- Document Chunk 94 ---
+When authority to move along a section of the line has been 
+
+--- Document Chunk 95 ---
+given, the security of the line needs to be maintained for the 
+
+--- Document Chunk 96 ---
+movement until the complete train has:
+
+--- Document Chunk 97 ---
+• passed clear of the section of line; or
+
+--- Document Chunk 98 ---
+• the authority has been rescinded (withdrawn) and the train 
+
+--- Document Chunk 99 ---
+has come to a stand; or 
+
+--- Document Chunk 100 ---
+• the authority has been rescinded (with information 
+
+--- Document Chunk 101 ---
+communicated to the train) with the train having 
+
+--- Document Chunk 102 ---
+sufficient space to come to a stand safely before the 
+
+--- Document Chunk 103 ---
+start of the section of line over which authority to move 
+
+--- Document Chunk 104 ---
+had been given. 
+
+--- Document Chunk 105 ---
+In some signalling systems sectional route release is used, 
+
+--- Document Chunk 106 ---
+whereby parts of a section of line are released progressively 
+
+--- Document Chunk 107 ---
+when the train has passed clear, to facilitate earlier setting 
+
+--- Document Chunk 108 ---
+of other routes. 
+
+--- Document Chunk 109 ---
+The train driver (or the automatic train operation sub-
+
+--- Document Chunk 110 ---
+system [ATO]) will require unambiguous, consistent and 
+
+--- Document Chunk 111 ---
+timely information that enables safe control of the train. 
+
+--- Document Chunk 112 ---
+This may include:
+
+--- Document Chunk 113 ---
+• proceed/stop information; 
+
+--- Document Chunk 114 ---
+• the provision of warning information regarding the 
+
+--- Document Chunk 115 ---
+approach to the end of the movement authority or a section 
+
+--- Document Chunk 116 ---
+of lower speed line, to enable the train to brake safely;
+
+--- Document Chunk 117 ---
+• the provision of speed, routing, gradient, braking 
+
+--- Document Chunk 118 ---
+capability information.
+
+--- Document Chunk 119 ---
+In addition, data entry sub-systems may be required in order to 
+
+--- Document Chunk 120 ---
+input train parameters that are relevant to the safe operation of 
+
+--- Document Chunk 121 ---
+the train control system (e.g. weight, length, braking capability). 
+
+--- Document Chunk 122 ---
+Sufficient space will be required between following trains 
+
+--- Document Chunk 123 ---
+to allow each train to brake to a stand safely; this is usually 
+
+--- Document Chunk 124 ---
+calculated on the assumption that the train ahead is stationary. 
+
+--- Document Chunk 125 ---
+Suitable control measures will be required in order to prevent 
+
+--- Document Chunk 126 ---
+and/or mitigate the consequences of a train:
+
+--- Document Chunk 127 ---
+• passing the end point of its movement authority;
+
+--- Document Chunk 128 ---
+• exceeding the maximum permitted speed;
+
+--- Document Chunk 129 ---
+• moving without authorisation. 
+
+--- Document Chunk 130 ---
+Examples of technical solutions for these include overlaps, train 
+
+--- Document Chunk 131 ---
+protection/warning systems, flank protection, approach control/
+
+--- Document Chunk 132 ---
+release of signals, provision of trap points and speed signs. 
+
+--- Document Chunk 133 ---
+It may also include other measures, e.g. driver competence, 
+
+--- Document Chunk 134 ---
+provision of information to drivers and operating rules.
+
+--- Document Chunk 135 ---
+Protection will be required for the public and trains at level 
+
+--- Document Chunk 136 ---
+crossings, although not all level crossings are necessarily 
+
+--- Document Chunk 137 ---
+protected by the signalling system itself (in simple cases an 
+
+--- Document Chunk 138 ---
+independent means of protection may be adequate based on 
+
+--- Document Chunk 139 ---
+risk). The operation of a level crossing will need to minimise the 
+
+--- Document Chunk 140 ---
+road closure time, otherwise this could lead to crossing misuse 
+
+--- Document Chunk 141 ---
+by pedestrians and road vehicle drivers. 
+
+--- Document Chunk 142 ---
+Trains, worksites and workers will need to be protected during 
+
+--- Document Chunk 143 ---
+engineering work. This could include:
+
+--- Document Chunk 144 ---
+Train control has a long history but is evolving rapidly as technological change offers new 
+
+--- Document Chunk 145 ---
+alternatives to manage the safe movement of trains to deliver the optimum experience for 
+
+--- Document Chunk 146 ---
+railway passengers and freight users. There is however a series of underpinning requirements 
+
+--- Document Chunk 147 ---
+for any train control system. Photo Shutterstock/hxdyl.
+
+--- Document Chunk 148 ---
+ IRSE News |  Issue 259  |  October 2019
+
+--- Document Chunk 149 ---
+18
+
+--- Document Chunk 150 ---
+What do you think?
+
+--- Document Chunk 151 ---
+What other ‘back to basics’ articles would you like to see 
+
+--- Document Chunk 152 ---
+in IRSE News? Why not share your experiences with other 
+
+--- Document Chunk 153 ---
+engineers? Email editor@irsenews.co.uk.
+
+--- Document Chunk 154 ---
+• facilities for controlling the access of trains to sections of 
+
+--- Document Chunk 155 ---
+line where work is taking place or where safety has been 
+
+--- Document Chunk 156 ---
+reduced as a result of engineering work; 
+
+--- Document Chunk 157 ---
+• ensuring that the section of line is clear of obstructions (e.g. 
+
+--- Document Chunk 158 ---
+engineering vehicles) when work is complete and before 
+
+--- Document Chunk 159 ---
+trains are allowed to run over it; 
+
+--- Document Chunk 160 ---
+• restricting the speed of trains to help protect track workers 
+
+--- Document Chunk 161 ---
+or because of the condition of the track;
+
+--- Document Chunk 162 ---
+• warning trackside workers of the approach of trains. 
+
+--- Document Chunk 163 ---
+In order to provide a safe and efficient railway the signaller 
+
+--- Document Chunk 164 ---
+will require unambiguous, consistent and timely information, 
+
+--- Document Chunk 165 ---
+and suitable control facilities, to enable the safe authorisation 
+
+--- Document Chunk 166 ---
+of train movements (the term signaller also include other 
+
+--- Document Chunk 167 ---
+personnel who may have responsibility for authorising train 
+
+--- Document Chunk 168 ---
+movements). This includes the provision of information 
+
+--- Document Chunk 169 ---
+required under failure and degraded mode conditions, as well 
+
+--- Document Chunk 170 ---
+as for normal operations. Ancillary information systems such 
+
+--- Document Chunk 171 ---
+as train describers, critical fault alarms and data entry systems 
+
+--- Document Chunk 172 ---
+may also be required. When designing the signaller interface 
+
+--- Document Chunk 173 ---
+systems, human factors assessments will contribute to safety 
+
+--- Document Chunk 174 ---
+and efficiency. 
+
+--- Document Chunk 175 ---
+Facilities for communication between signallers and others 
+
+--- Document Chunk 176 ---
+will be required, for both normal operation and degraded/
+
+--- Document Chunk 177 ---
+emergency working. This includes communication with:
+
+--- Document Chunk 178 ---
+• train drivers;
+
+--- Document Chunk 179 ---
+• signallers in neighbouring control centres;
+
+--- Document Chunk 180 ---
+• train operators and route controllers;
+
+--- Document Chunk 181 ---
+• level crossing users;
+
+--- Document Chunk 182 ---
+• emergency services. 
+
+--- Document Chunk 183 ---
+The nature of the communications systems will need to 
+
+--- Document Chunk 184 ---
+be appropriate for the purposes required, for both normal 
+
+--- Document Chunk 185 ---
+operations and failure/degraded mode situations. 
+
+--- Document Chunk 186 ---
+A means will be required for preventing trains from being routed 
+
+--- Document Chunk 187 ---
+onto a section of line with which they are not compatible. 
+
+--- Document Chunk 188 ---
+Situations where this requirement could apply include:
+
+--- Document Chunk 189 ---
+• incompatibilities of gauge between track and train;
+
+--- Document Chunk 190 ---
+• incompatible traction supply systems for the train;
+
+--- Document Chunk 191 ---
+• incompatible train-borne train control sub-systems;
+
+--- Document Chunk 192 ---
+• restrictions on access to tunnels for certain types of trains;
+
+--- Document Chunk 193 ---
+• restrictions on specific train types being permitted on 
+
+--- Document Chunk 194 ---
+routes, adjacent lines etc, at the same time, such as 
+
+--- Document Chunk 195 ---
+hazardous freight and passenger trains.
+
+--- Document Chunk 196 ---
+In order to instruct a train to stop in an emergency, appropriate 
+
+--- Document Chunk 197 ---
+facilities will be required. This could be met by functionality 
+
+--- Document Chunk 198 ---
+within the signalling system itself to enable a movement 
+
+--- Document Chunk 199 ---
+authority to be withdrawn, or by the use of an alternative/
+
+--- Document Chunk 200 ---
+independent means such as radio communication with the 
+
+--- Document Chunk 201 ---
+driver. The speed and reliability with which a message can be 
+
+--- Document Chunk 202 ---
+given to a train to stop needs to be commensurate with the 
+
+--- Document Chunk 203 ---
+risks associated with the emergency. The risk of stopping trains 
+
+--- Document Chunk 204 ---
+in unsuitable locations also needs to be taken into account. 
+
+--- Document Chunk 205 ---
+Essential supporting safety requirements for 
+
+--- Document Chunk 206 ---
+train control systems 
+
+--- Document Chunk 207 ---
+The assignment of safety targets for a train control 
+
+--- Document Chunk 208 ---
+system will need to:
+
+--- Document Chunk 209 ---
+• be commensurate with, or better than, the levels of safety 
+
+--- Document Chunk 210 ---
+performance of comparable systems already in service;
+
+--- Document Chunk 211 ---
+• meet the reasonable expectations of users;
+
+--- Document Chunk 212 ---
+• comply with legal requirements. 
+
+--- Document Chunk 213 ---
+The compatibility of the operating rules with the rest of the 
+
+--- Document Chunk 214 ---
+train control system (and their completeness) is essential for 
+
+--- Document Chunk 215 ---
+the safe operation of the railway under normal, degraded and 
+
+--- Document Chunk 216 ---
+emergency conditions. 
+
+--- Document Chunk 217 ---
+Even though the system may be highly automated, there will 
+
+--- Document Chunk 218 ---
+always be a measure of dependence on human interaction, 
+
+--- Document Chunk 219 ---
+for instance during degraded mode operation or during 
+
+--- Document Chunk 220 ---
+maintenance. Appropriate allocation of functions between the 
+
+--- Document Chunk 221 ---
+signalling system and operators, and designing the overall train 
+
+--- Document Chunk 222 ---
+control system to make it easy for operators and maintainers 
+
+--- Document Chunk 223 ---
+to perform their actions safely, is vital. The human factors will 
+
+--- Document Chunk 224 ---
+need to be addressed to help provide a safe and easy system to 
+
+--- Document Chunk 225 ---
+operate, both for operators and maintainers.
+
+--- Document Chunk 226 ---
+Modern signalling systems usually revert to a safe state, such 
+
+--- Document Chunk 227 ---
+as signals automatically restoring to “stop”, although this may 
+
+--- Document Chunk 228 ---
+not always be necessary or desirable (and indeed mechanical 
+
+--- Document Chunk 229 ---
+signalling systems do not generally do this). Designing the 
+
+--- Document Chunk 230 ---
+system so that failures and faults are self-revealing to operators 
+
+--- Document Chunk 231 ---
+and maintainers will aid prompt and safe rectification, and will 
+
+--- Document Chunk 232 ---
+help to avoid situations where a fault is latent (hidden) and does 
+
+--- Document Chunk 233 ---
+not reveal itself until some other event occurs. 
+
+--- Document Chunk 234 ---
+Unsafe interactions of the system with other railway systems 
+
+--- Document Chunk 235 ---
+and equipment need to be avoided. This includes both 
+
+--- Document Chunk 236 ---
+interactions where there is an intentional interface with other 
+
+--- Document Chunk 237 ---
+systems and equipment, such as other railway infrastructure 
+
+--- Document Chunk 238 ---
+and trains; and interaction where there is no interface, such as 
+
+--- Document Chunk 239 ---
+electromagnetic interference. Unwanted external influences 
+
+--- Document Chunk 240 ---
+that could adversely affect the safety and availability of the 
+
+--- Document Chunk 241 ---
+system include:
+
+--- Document Chunk 242 ---
+• environmental/ climatic effects;
+
+--- Document Chunk 243 ---
+• cyber-attacks on software-based subsystems;
+
+--- Document Chunk 244 ---
+• vandalism;
+
+--- Document Chunk 245 ---
+• unwanted electrical/radio interactions with non-
+
+--- Document Chunk 246 ---
+railway systems. 
+
+--- Document Chunk 247 ---
+Problems can occur when introducing new rolling stock on 
+
+--- Document Chunk 248 ---
+routes with older signalling systems, which may not be immune 
+
+--- Document Chunk 249 ---
+to interference generated by new trains. Introducing new rolling 
+
+--- Document Chunk 250 ---
+stock in a controlled manner will facilitate early identification 
+
+--- Document Chunk 251 ---
+and rectification of problems not addressed at the design stage. 
+
+--- Document Chunk 252 ---
+Systems that are designed so far as possible to prevent the 
+
+--- Document Chunk 253 ---
+possibility of inadvertent errors during maintenance and repair 
+
+--- Document Chunk 254 ---
+work, and which incorporate diagnostic systems for monitoring 
+
+--- Document Chunk 255 ---
+the health of the equipment, will contribute to its continuing 
+
+--- Document Chunk 256 ---
+safe operation and minimise the risk of introducing undue risk 
+
+--- Document Chunk 257 ---
+to either the operational railway or the personnel carrying out 
+
+--- Document Chunk 258 ---
+the work. These considerations may have implications for e.g. 
+
+--- Document Chunk 259 ---
+the design of equipment and its physical location. 
+
+--- Document Chunk 260 ---
+Personnel who design, build, test, commission, operate and 
+
+--- Document Chunk 261 ---
+maintain the signalling system, or in any other way form part 
+
+--- Document Chunk 262 ---
+of the train control system, will need to be competent in 
+
+--- Document Chunk 263 ---
+order to perform their tasks and duties safely and efficiently. 
+
+--- Document Chunk 264 ---
+This includes the competence of designers, testers, 
+
+--- Document Chunk 265 ---
+drivers, signallers, maintainers and others whose activities 
+
+--- Document Chunk 266 ---
+contribute to the overall safe working of the system. The 
+
+--- Document Chunk 267 ---
+application of suitable procedures for personnel selection, 
+
+--- Document Chunk 268 ---
+training, assessment and periodic review will contribute to 
+
+--- Document Chunk 269 ---
+continuing competence. 
+

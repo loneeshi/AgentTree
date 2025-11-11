@@ -1,0 +1,90 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通”基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统( CBTC) 互联互通测试规范一第 2 部分:
+
+--- Document Chunk 4 ---
+点式部分测试及验证》
+
+--- Document Chunk 5 ---
+( T/CAMET 04012. 2一2018 )
+
+--- Document Chunk 6 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 7 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月03 日批准发布，
+
+--- Document Chunk 8 ---
+自2024 年09 月 10 日起实施。
+
+--- Document Chunk 9 ---
+一、编辑性修改
+
+--- Document Chunk 10 ---
+1. 将3.1.14 中“路线运行 overline operation ”修改为“跨线运行 over-
+
+--- Document Chunk 11 ---
+line operation ”。
+
+--- Document Chunk 12 ---
+2. 删除 3.1. 15 "平均故障间隔时间(平均无故障时间)ineaistime
+
+--- Document Chunk 13 ---
+between failures:指设备连续发生两次故障之间的平均间隔时间。”
+
+--- Document Chunk 14 ---
+4. 将3.1.20 中"移交重琶区 handever overlap. region ”修改为“移交
+
+--- Document Chunk 15 ---
+handover overlap area”。
+
+--- Document Chunk 16 ---
+5. 将表14 42 15 .表 159.98 TOL 中"物理区段"修改为“ 人
+
+--- Document Chunk 17 ---
+6. 将表 182 .201 Has CRSSP -工铁路信号安全通信协议》(运
+
+--- Document Chunk 18 ---
+[2010]267 “:) "4 WS TB/T 3528. 2”,
+
+--- Document Chunk 19 ---
+7. ¥§4@ 201 FP“ CRSSP -工铁路信号安全通信协议》(运基信号
+
+--- Document Chunk 20 ---
+[2010]267-号”修改为"TB人3528.1”。
+
+--- Document Chunk 21 ---
+8. 将"参考文献"的内容修改为:
+
+--- Document Chunk 22 ---
+上由
+
+--- Document Chunk 23 ---
+ms
+
+--- Document Chunk 24 ---
+x
+
+--- Document Chunk 25 ---
+--- Page 2 ---
+
+--- Document Chunk 26 ---
+“[1] TB/T 3528. 1一2018 ”铁路信号安全通信协议 第1部分:工
+
+--- Document Chunk 27 ---
+型协议
+
+--- Document Chunk 28 ---
+[2] TB/T 3528.2 ”铁路信号安全通信协议 第 2 部分: 下型协议
+
+--- Document Chunk 29 ---
+[3] IEEE 802.3 系列标准”。
+

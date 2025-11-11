@@ -1,0 +1,7623 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+eee                   SFI
+
+--- Document Chunk 2 ---
+HP ey Sak ris Oi 3 AS 3 Be = A 1K bx HE
+
+--- Document Chunk 3 ---
+T/CAMET 04011.2—2018
+
+--- Document Chunk 4 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通接口规范
+
+--- Document Chunk 6 ---
+第2部分: CBTC系统车地连续通信协议
+
+--- Document Chunk 7 ---
+Urban rail transit — Interface specification for interoperability of
+
+--- Document Chunk 8 ---
+communication based train control system
+
+--- Document Chunk 9 ---
+Part 2: Train-wayside communication protocol for CBTC system
+
+--- Document Chunk 10 ---
+2018-09-10 发布                        2018-12-31 实施
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 12 ---
+--- Page 2 ---
+
+--- Document Chunk 13 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 14 ---
+s
+
+--- Document Chunk 15 ---
+Dk a
+
+--- Document Chunk 16 ---
+i
+
+--- Document Chunk 17 ---
+3.2 缩略语
+
+--- Document Chunk 18 ---
+4 接口描述 ，
+
+--- Document Chunk 19 ---
+5 VOBC-ZC 报文规范
+
+--- Document Chunk 20 ---
+5.1 接口连接方式 +
+
+--- Document Chunk 21 ---
+6.3 接口数据描述
+
+--- Document Chunk 22 ---
+7 VOBC-CI 报文规范
+
+--- Document Chunk 23 ---
+7.1 接口连接方式，
+
+--- Document Chunk 24 ---
+7.2 通信体系结构…
+
+--- Document Chunk 25 ---
+--- Page 3 ---
+
+--- Document Chunk 26 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 27 ---
+附录 A(资料性附录) ATO 控制命令帧发送更新时机示例…
+
+--- Document Chunk 28 ---
+A.2 ATO 控制命令帧发送更新时机PN 8
+
+--- Document Chunk 29 ---
+Vi
+
+--- Document Chunk 30 ---
+--- Page 4 ---
+
+--- Document Chunk 31 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 32 ---
+前       言
+
+--- Document Chunk 33 ---
+T/CAMET 04011《城市轨道交通 基于通信的列车运行控制系统
+
+--- Document Chunk 34 ---
+(CBTC )互联互通接口规范》分为以下八个部分:
+
+--- Document Chunk 35 ---
+一一第 1 部分:应答器报文;
+
+--- Document Chunk 36 ---
+一一第2 部分:CBTC 系统车地连续通信协议;
+
+--- Document Chunk 37 ---
+一一第3 部分:车载列车自动保护(ATP)7列车自动运行(ATO)系统
+
+--- Document Chunk 38 ---
+与车笨的接口，
+
+--- Document Chunk 39 ---
+一一第4 部分:区域控制需(ZC)间接口，
+
+--- Document Chunk 40 ---
+第5 部分:计算机联锁(CU间接口;
+
+--- Document Chunk 41 ---
+第6 部分:列车扫动监控系统(ATS )间接口;
+
+--- Document Chunk 42 ---
+第7 部分:信号各子系统与维护支持系统(MSS)间接口;
+
+--- Document Chunk 43 ---
+本部分是 T/CAMET 04011 的第 2 部分。
+
+--- Document Chunk 44 ---
+本部分按照 CBMT 1. 1一2009 给出的规则起草。
+
+--- Document Chunk 45 ---
+请注意本部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 46 ---
+识别这些专利的责任。
+
+--- Document Chunk 47 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 48 ---
+本部分由中同城市轨道交通协会归口。
+
+--- Document Chunk 49 ---
+本部分起草单位:交控科技股份有限公司 .北京交通大学 .北京全路通信
+
+--- Document Chunk 50 ---
+信号研究设计院集团有限公司 .中国铁道科学研究院集团有限公司通信信和号
+
+--- Document Chunk 51 ---
+研究所 株洲中车时代电气股份有限公司 .浙江众合科技股份有限公司。
+
+--- Document Chunk 52 ---
+本部分主要起草人:编写组:王伟、刘超 .李凯 .黄友能 ,刘宏杰 EB 、
+
+--- Document Chunk 53 ---
+Se XS .马新成,刘剑 .范楷、任颖.鲍旭红\严光明 .胡顺定。审查
+
+--- Document Chunk 54 ---
+组:李中浩.朱翔.赵炜、.郑生全 ,张艳兵.张良.王道敏.张琼燕、段晨宁、
+
+--- Document Chunk 55 ---
+李新文 ,李德堂 文成祥 EM .朱东飞 .肖利君 SRE SE BE
+
+--- Document Chunk 56 ---
+Vl
+
+--- Document Chunk 57 ---
+--- Page 5 ---
+
+--- Document Chunk 58 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 59 ---
+引
+
+--- Document Chunk 60 ---
+了
+
+--- Document Chunk 61 ---
+为促进中国城市轨道交通建设,实现并满足城市轨道交通互联互通
+
+--- Document Chunk 62 ---
+Wi SE ,达到经济适用 ,资源款   本先进及可持续发展的目标,制定城
+
+--- Document Chunk 63 ---
+市轨道诡通基于通信的列车运行控制系统(CBTC ) 互联互通系列团体
+
+--- Document Chunk 64 ---
+标准。
+
+--- Document Chunk 65 ---
+该系列规范包括《城市轨道交通“基于通信的列车运行控制系
+
+--- Document Chunk 66 ---
+(CBTC ) 互联互通系统规范兴城市轨道交通”基于通信的列车运行书
+
+--- Document Chunk 67 ---
+系统(CBTC )互联互通接口规范兴城市轨道交通 ”基于通信的列车运行
+
+--- Document Chunk 68 ---
+控制系统(CBTC )互联互通测试规范兴城市轨道交通”基于通信的列车
+
+--- Document Chunk 69 ---
+运行控制系统(CBTC )互联互通工程规范》4 个规范(17 个部分) 。
+
+--- Document Chunk 70 ---
+--- Page 6 ---
+
+--- Document Chunk 71 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 72 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 73 ---
+控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 74 ---
+第 2 部分:CBTC 系统车地连续通信协议
+
+--- Document Chunk 75 ---
+1 范围
+
+--- Document Chunk 76 ---
+括互联五通下 CBTC 4 Se
+
+--- Document Chunk 77 ---
+车载信号设备与 CI igh
+
+--- Document Chunk 78 ---
+本部分适几于辕
+
+--- Document Chunk 79 ---
+人建 ,更新改造及扩建
+
+--- Document Chunk 80 ---
+设计 .产品设计、`设人香
+
+--- Document Chunk 81 ---
+下列文件对于本部分的性      少的。凡是注日期的引用文
+
+--- Document Chunk 82 ---
+件,仅所注日期的版本适几于本部分，凡是不注日期的引用文件 ,其最新
+
+--- Document Chunk 83 ---
+版本(包括所有的修改单)适用于本部分。
+
+--- Document Chunk 84 ---
+CBZT 12758一2004 ”城市轨道交通信号系统通用技术条件
+
+--- Document Chunk 85 ---
+GB 50157一2013 ”也铁设计规范
+
+--- Document Chunk 86 ---
+CI/T 407一2012 ”城市轨道交通基
+
+--- Document Chunk 87 ---
+术要求
+
+--- Document Chunk 88 ---
+T/CAMET 04010. 1 城市轨道交通“基于通信的列车运行控制系统
+
+--- Document Chunk 89 ---
+(CBTC )互联互通系统规范 第1部分:系统总体要求
+
+--- Document Chunk 90 ---
+T/CAMET 04010.2 ”城市轨道交通“基于通信的列车运行控制系统
+
+--- Document Chunk 91 ---
+1
+
+--- Document Chunk 92 ---
+通信的列车自动控制系统技
+
+--- Document Chunk 93 ---
+--- Page 7 ---
+
+--- Document Chunk 94 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 95 ---
+(CBTC) 互联互通系统规范 第2部分:系统架构和功能分配
+
+--- Document Chunk 96 ---
+T/CAMET 04011.6 城市轨道交通“基于通信的列车运行控制系统
+
+--- Document Chunk 97 ---
+(CBTC )互联互通接口规范 第6部分:列车自动监控系统(ATS )间接口
+
+--- Document Chunk 98 ---
+规范
+
+--- Document Chunk 99 ---
+运基信号(2010]267 号文件“RSSP- 工铁路信号安全通信协议
+
+--- Document Chunk 100 ---
+运基信号[2010]267 号文件“RSSP-I铁路信号安全通信协议
+
+--- Document Chunk 101 ---
+EN 50159:2010 ”欧洲铁路通信信号领域信息传输系统中安全通信
+
+--- Document Chunk 102 ---
+标准(Secure Communication Standards for Information Transmission Systems
+
+--- Document Chunk 103 ---
+i
+
+--- Document Chunk 104 ---
+in the Field of Railway Communication Signals in Europe )
+
+--- Document Chunk 105 ---
+IEEE 802.3 局域网协议(Ethernet LAN protocols as defined in IEEE
+
+--- Document Chunk 106 ---
+802.3 suite)
+
+--- Document Chunk 107 ---
+3 术语和缩略语
+
+--- Document Chunk 108 ---
+GB/T 12758一2004 , GB 50157一2013 , CJ/T 407一2012 . T/CAMET
+
+--- Document Chunk 109 ---
+04010.1 和TVCAMET 04010.2 界定的及下列术语和缩略语适用于本部
+
+--- Document Chunk 110 ---
+分。为了便于使用,以下重复列出了其中的主要由关术话。
+
+--- Document Chunk 111 ---
+3. 1 术语
+
+--- Document Chunk 112 ---
+3.1.1
+
+--- Document Chunk 113 ---
+城市轨道交通信号 urban rail transit signal
+
+--- Document Chunk 114 ---
+应用于城市轨道交通系统中,人工或自动实现行车指挥和列车运行
+
+--- Document Chunk 115 ---
+控制 .安全间隔控制技术的总称。
+
+--- Document Chunk 116 ---
+[ CB/T 12758一2004 ,术语与定义3.1]
+
+--- Document Chunk 117 ---
+3. 1.2
+
+--- Document Chunk 118 ---
+基于通信的列车控制”communication based train control (CBTC)
+
+--- Document Chunk 119 ---
+通过不依赖轨旁列车占用检测设备的列车主动定位技术 .连续车 -
+
+--- Document Chunk 120 ---
+地双向数据通信技术以及能够执行安全功能的车载和地面处理器而构建
+
+--- Document Chunk 121 ---
+的连续式列车自动控制系统。
+
+--- Document Chunk 122 ---
+[CJ/T 407一2012 ,定义3.1.1]
+
+--- Document Chunk 123 ---
+--- Page 8 ---
+
+--- Document Chunk 124 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 125 ---
+3.1.3
+
+--- Document Chunk 126 ---
+列车自动控制 automatic train control
+
+--- Document Chunk 127 ---
+信号系统自动实现列车监控 .安全防护和和运行控制等技术的总称。
+
+--- Document Chunk 128 ---
+{ GB 50157一2013 ,定义 2.0. 37]
+
+--- Document Chunk 129 ---
+3.1.4
+
+--- Document Chunk 130 ---
+列车自动监控 automatic train supervision
+
+--- Document Chunk 131 ---
+He HE Bl AE A A) EB es FT a ae WE .指挥行车.实施列车运行
+
+--- Document Chunk 132 ---
+管理等技术的总称。
+
+--- Document Chunk 133 ---
+GB 50157一2013 ,定义2.0.38]
+
+--- Document Chunk 134 ---
+3.1.5
+
+--- Document Chunk 135 ---
+列车自动防护”automatic train protection
+
+--- Document Chunk 136 ---
+自动实现列车运行间隔 ,超速防护 .进路安全和车门等监控技术的
+
+--- Document Chunk 137 ---
+GB 50157一2013 ,定义2.0.39]
+
+--- Document Chunk 138 ---
+3.1.6
+
+--- Document Chunk 139 ---
+列车自动运行 automatic train operation
+
+--- Document Chunk 140 ---
+自动实现列车加速 ,调速 ,停车和车门开闭 te
+
+--- Document Chunk 141 ---
+GB 50157一2013 ,定义2.0.40]
+
+--- Document Chunk 142 ---
+车控制技术的总称。
+
+--- Document Chunk 143 ---
+3.1.7
+
+--- Document Chunk 144 ---
+计算机联锁。 computer interlocking
+
+--- Document Chunk 145 ---
+站计算机技术为核心,自动实现进路.道岔.信号机等防护技术的
+
+--- Document Chunk 146 ---
+总称。
+
+--- Document Chunk 147 ---
+CJMT 407一2012 ,定义3.1.6]
+
+--- Document Chunk 148 ---
+3.1.8
+
+--- Document Chunk 149 ---
+维护支持系统maintenance support system
+
+--- Document Chunk 150 ---
+监测 1记录 系统内其他各子系统维护信息 ,辅助系统故障分析,用于系
+
+--- Document Chunk 151 ---
+'1/CAMET 04010, 1 ,术语3.1.8]
+
+--- Document Chunk 152 ---
+--- Page 9 ---
+
+--- Document Chunk 153 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 154 ---
+3.1.9
+
+--- Document Chunk 155 ---
+保护区段 overlap section
+
+--- Document Chunk 156 ---
+为实现超速防护,保证安全停车而延伸的闭窒区段。
+
+--- Document Chunk 157 ---
+[ GB/T 12758一2004 ,术语与定义3.12]
+
+--- Document Chunk 158 ---
+3. 1. 10
+
+--- Document Chunk 159 ---
+目标速度 target speed
+
+--- Document Chunk 160 ---
+列车运行至前方目标地点应达到的允许速度。
+
+--- Document Chunk 161 ---
+[CBZT 12758一2004 ,术语与定义3. 13]
+
+--- Document Chunk 162 ---
+target distance
+
+--- Document Chunk 163 ---
+:运行至前方日标地点的走行距离，
+
+--- Document Chunk 164 ---
+[GBZT 12758一2004 ,术语与定义3.141]
+
+--- Document Chunk 165 ---
+3. 1. 12
+
+--- Document Chunk 166 ---
+安全保护距离”safe protection distance
+
+--- Document Chunk 167 ---
+列车自动防护系统中,列车超速防护实施安全停车控制时,为防止停
+
+--- Document Chunk 168 ---
+车位置离散性可能造成的危险,而设置的白预定停车位置至日标地点的
+
+--- Document Chunk 169 ---
+安全距岗
+
+--- Document Chunk 170 ---
+[GBZT 12758一2004 ,术语与定义3.15]
+
+--- Document Chunk 171 ---
+3. 1. 13
+
+--- Document Chunk 172 ---
+互联互通 Interoperability
+
+--- Document Chunk 173 ---
+装备不同信和号厂家车载设备的列车可以在装备不同信号厂家轨劳设
+
+--- Document Chunk 174 ---
+[T/CAMET 04010. 1 ,术语3.1.16]
+
+--- Document Chunk 175 ---
+.14
+
+--- Document Chunk 176 ---
+共线运行”mix operation
+
+--- Document Chunk 177 ---
+装备不同厂家车载信号设备的列车可以在装备同一厂家轨旁信号设
+
+--- Document Chunk 178 ---
+线路上支持以点式列车控制级别和连续式列车控制级别无色安全可靠
+
+--- Document Chunk 179 ---
+营。
+
+--- Document Chunk 180 ---
+»
+
+--- Document Chunk 181 ---
+一
+
+--- Document Chunk 182 ---
+a OR
+
+--- Document Chunk 183 ---
+--- Page 10 ---
+
+--- Document Chunk 184 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 185 ---
+[T/CAMET 04010. 2, Rif 3. 1.18]
+
+--- Document Chunk 186 ---
+3.2 缩略语
+
+--- Document Chunk 187 ---
+AM :列车自动驾驶模式(Automatic Train Operating Mode )
+
+--- Document Chunk 188 ---
+ATC :列车自动控制(Automatic Train Control)
+
+--- Document Chunk 189 ---
+ATO :列车自动运行(Automatic Train Operation)
+
+--- Document Chunk 190 ---
+ATP:列车自动防护(Automatic Train Protection )
+
+--- Document Chunk 191 ---
+ATS :列车自动监控(Automatic Train Supervision )
+
+--- Document Chunk 192 ---
+CBTC:基于通信的列车控制系统(Communication Based Train
+
+--- Document Chunk 193 ---
+Control )
+
+--- Document Chunk 194 ---
+CM:受控人工驾驶(Code
+
+--- Document Chunk 195 ---
+C1:计算机联锁
+
+--- Document Chunk 196 ---
+VOBC : 车载控朵
+
+--- Document Chunk 197 ---
+ZC 1X BREE thill
+
+--- Document Chunk 198 ---
+4 接口描述
+
+--- Document Chunk 199 ---
+本规范对通用性的互联卫 亲生H
+
+--- Document Chunk 200 ---
+体情况 ,对接口数据交互内容进行扩展。
+
+--- Document Chunk 201 ---
+5 VOBC -ZC 报文规范
+
+--- Document Chunk 202 ---
+5.1 接口连接方式
+
+--- Document Chunk 203 ---
+5.1.1 物理接口
+
+--- Document Chunk 204 ---
+VOBC 与 ZC 之间采用宛余网络进行通信(下文以A 网.B 网进行找
+
+--- Document Chunk 205 ---
+述)ZC 与 VOBC 之间的网络拓扑结构采用A网-A网B网-B网两个
+
+--- Document Chunk 206 ---
+链路。
+
+--- Document Chunk 207 ---
+5.1.2 安全通信协议
+
+--- Document Chunk 208 ---
+ZC 与 VOBC 之间通信可采用 RSSP-I 或 RSSP-工安全通信协议。
+
+--- Document Chunk 209 ---
+5
+
+--- Document Chunk 210 ---
+--- Page 11 ---
+
+--- Document Chunk 211 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 212 ---
+RSSP-工安全通信协议的具体要求参见运基信号[2010] 267 号文件
+
+--- Document Chunk 213 ---
+《RSSP-I铁路信号安全通信协议》;RSSP- I 安全通信协议的具体要求参
+
+--- Document Chunk 214 ---
+见运基信号[2010]267 号文件(RSSP- 工铁路信号安全通信协议》。采用
+
+--- Document Chunk 215 ---
+RSSP- 工安全通信协议的前提条件为使用 LTE-M 通信和且 LTE-M 具备空
+
+--- Document Chunk 216 ---
+口加密措施可防止伪装、CBTC 信号系统符合三级等保要求。在此前提
+
+--- Document Chunk 217 ---
+条件下 ,宜采用 RSSP- | 安全通信协议。
+
+--- Document Chunk 218 ---
+如图 1 Bras 3 SAI/MASL/ALE 三层,遵循 RSSP-I标准规定。
+
+--- Document Chunk 219 ---
+VOBC                                                                 ZC
+
+--- Document Chunk 220 ---
+一一 aors一一 Agyeg——
+
+--- Document Chunk 221 ---
+Bridge
+
+--- Document Chunk 222 ---
+802.11-8023
+
+--- Document Chunk 223 ---
+Bridge
+
+--- Document Chunk 224 ---
+802.11-802.3
+
+--- Document Chunk 225 ---
+ 1 无线安全通信协议 RSSP- 0 HR
+
+--- Document Chunk 226 ---
+TCP 及 IP 层使用标准 TCP/IP 协议栈。
+
+--- Document Chunk 227 ---
+MAC 及 PHY 层取决于不同的网络种类 ,无线网使用无线标准协议，
+
+--- Document Chunk 228 ---
+地面网使用以太网协议(IEEE 802.3),
+
+--- Document Chunk 229 ---
+如图 2 所示 ,其 RSSP- 工协议遵循 RSSP- 工标准规定。
+
+--- Document Chunk 230 ---
+UDP 层使用标准 UDP 协议栈。
+
+--- Document Chunk 231 ---
+6
+
+--- Document Chunk 232 ---
+--- Page 12 ---
+
+--- Document Chunk 233 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 234 ---
+802.11-802.3
+
+--- Document Chunk 235 ---
+ 2 无线安全通信协议 RSSP-I 构架
+
+--- Document Chunk 236 ---
+MAC 及PHY 层取决于不同的网络种类 ,无线网使用无线标准协议，
+
+--- Document Chunk 237 ---
+地面网使用以太网协议(IEEE 802.3) 。
+
+--- Document Chunk 238 ---
+5.1.3 动态交互描述
+
+--- Document Chunk 239 ---
+5.1.3.1 通信应用层消息包定义
+
+--- Document Chunk 240 ---
+将 ZC-VOBC 间每个周期需要交互的应用信息通过组成通用消息包
+
+--- Document Chunk 241 ---
+进行传输,如图 3 所示。
+
+--- Document Chunk 242 ---
+应用层信息包 || 应用层信息包       应用层信息包
+
+--- Document Chunk 243 ---
+图3 通用消息包和应用层信息包关系结构图
+
+--- Document Chunk 244 ---
+5. 1. 3.2 信息包格式定义
+
+--- Document Chunk 245 ---
+ZC/VOBC 每周期最多允许发送 1 个通用消息包 ,通用消息包中包含
+
+--- Document Chunk 246 ---
+ZC 与 VOBC 之间传输的各条应用信息。
+
+--- Document Chunk 247 ---
+--- Page 13 ---
+
+--- Document Chunk 248 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 249 ---
+每个通用
+
+--- Document Chunk 250 ---
+\包总长不得超过 1 OOO 字节,通用信息包格式定义见
+
+--- Document Chunk 251 ---
+表 1 ,应用层信息格式定义见表2。
+
+--- Document Chunk 252 ---
+表1 通用信息包格式定义
+
+--- Document Chunk 253 ---
+信息域定义
+
+--- Document Chunk 254 ---
+字 段
+
+--- Document Chunk 255 ---
+长度
+
+--- Document Chunk 256 ---
+信息位定义及说明
+
+--- Document Chunk 257 ---
+1     类再高位
+
+--- Document Chunk 258 ---
+-      ary     0x0102;ZC-VOBC 接口
+
+--- Document Chunk 259 ---
+2   AIA
+
+--- Document Chunk 260 ---
+|.          1
+
+--- Document Chunk 261 ---
+发送方祭识   4
+
+--- Document Chunk 262 ---
+ete Pe       WADA) 发送方设备四
+
+--- Document Chunk 263 ---
+6
+
+--- Document Chunk 264 ---
+了
+
+--- Document Chunk 265 ---
+mes           日的ID | ae | 接收方设备1D
+
+--- Document Chunk 266 ---
+ri      9
+
+--- Document Chunk 267 ---
+10
+
+--- Document Chunk 268 ---
+11
+
+--- Document Chunk 269 ---
+数据版本“| 12    a niin   aye | Ze AHALIILAZ6 5 voRC
+
+--- Document Chunk 270 ---
+校验信息”| 3      stent ”|问的数据版本校验信息
+
+--- Document Chunk 271 ---
+一已  Eri ey
+
+--- Document Chunk 272 ---
+14
+
+--- Document Chunk 273 ---
+15
+
+--- Document Chunk 274 ---
+ATi     16     .             记录发送本条消息时,本方
+
+--- Document Chunk 275 ---
+上-一      序列号        4M                        “
+
+--- Document Chunk 276 ---
+mae’ [9     yas      PPT ay rR
+
+--- Document Chunk 277 ---
+18
+
+--- Document Chunk 278 ---
+19             i 4S!  Bi hy BE
+
+--- Document Chunk 279 ---
+wom          wim | 2sew | RAI a eS
+
+--- Document Chunk 280 ---
+20                    (ms)
+
+--- Document Chunk 281 ---
+J
+
+--- Document Chunk 282 ---
+--- Page 14 ---
+
+--- Document Chunk 283 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 284 ---
+表1 通用信息包格式定义(续)
+
+--- Document Chunk 285 ---
+信息域定义 |e) FB ee              信息位定义及说明
+
+--- Document Chunk 286 ---
+21
+
+--- Document Chunk 287 ---
+abr                2                                                   记录收到对方上一条消息中
+
+--- Document Chunk 288 ---
+，                              was | 4字节 |的对方消息序列呈
+
+--- Document Chunk 289 ---
+ew
+
+--- Document Chunk 290 ---
+fas   23             默认值:0xFFFFFFFT
+
+--- Document Chunk 291 ---
+收到上一条
+
+--- Document Chunk 292 ---
+消息时本方
+
+--- Document Chunk 293 ---
+res 13"
+
+--- Document Chunk 294 ---
+fc ak WC HY RY Ie be Ae a
+
+--- Document Chunk 295 ---
+OBC 的协议版本,本
+
+--- Document Chunk 296 ---
+协议版本，                                 PERNT A 4
+
+--- Document Chunk 297 ---
+Wit Aa
+
+--- Document Chunk 298 ---
+数据长上度
+
+--- Document Chunk 299 ---
+32 ~             |                                 本
+
+--- Document Chunk 300 ---
+应用层数据    1 000     Wales       变长       BWR 2 属式定义
+
+--- Document Chunk 301 ---
+注: 1. 数据版本校验计算范围为 ZC PH Lx SRT;
+
+--- Document Chunk 302 ---
+2. ZC/VOBC 判断"数据版本校验信息"或"协议版本号"字段佼验不授过
+
+--- Document Chunk 303 ---
+时 ,应进行丢包或断并通信处理。
+
+--- Document Chunk 304 ---
+"序列号有效值为1~ (2”- 1) 。 发送方应保证
+
+--- Document Chunk 305 ---
+息报中的“本方漳
+
+--- Document Chunk 306 ---
+消息的时间间隔
+
+--- Document Chunk 307 ---
+“当未收到对方消息时 ,项写默认值。
+
+--- Document Chunk 308 ---
+成两包信息包时 ,两包信
+
+--- Document Chunk 309 ---
+太列号"字段的差值与"通信周期"相乘等于生成两包
+
+--- Document Chunk 310 ---
+--- Page 15 ---
+
+--- Document Chunk 311 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 312 ---
+R2 应用层信息格式定义
+
+--- Document Chunk 313 ---
+文兵体内容
+
+--- Document Chunk 314 ---
+信息域定义 | 字节编号    报文内容       OW
+
+--- Document Chunk 315 ---
+报文长度   1   报文长度(报文类型 ~ | 自定义,详细内容参见
+
+--- Document Chunk 316 ---
+~   2  | 报文结束)      5.3节
+
+--- Document Chunk 317 ---
+3 | 定义某一条应用信息的| 自定义,详细内容参见
+
+--- Document Chunk 318 ---
+g e A        定义某一条应用信息    定义，   容参
+
+--- Document Chunk 319 ---
+Horan   4   标识        5.3 节
+
+--- Document Chunk 320 ---
+5                 0
+
+--- Document Chunk 321 ---
+预贸       Wii       +-一        |
+
+--- Document Chunk 322 ---
+6                 0
+
+--- Document Chunk 323 ---
+r    SCARY
+
+--- Document Chunk 324 ---
+5.3 节
+
+--- Document Chunk 325 ---
+5.1.3.3 通信状态管理
+
+--- Document Chunk 326 ---
+a)
+
+--- Document Chunk 327 ---
+ZC 应对与接收到的 VOBC 的应用消息进行合法性检
+
+--- Document Chunk 328 ---
+,车愉查
+
+--- Document Chunk 329 ---
+林通过,认为本周期玉收到对方的应用信息或主动断开安全连
+
+--- Document Chunk 330 ---
+具体检查方式如下 :
+
+--- Document Chunk 331 ---
+接,放记录报警信息
+
+--- Document Chunk 332 ---
+1st
+
+--- Document Chunk 333 ---
+组合合法性检查以及信息
+
+--- Document Chunk 334 ---
+通用消息包消息所应包舍的信息
+
+--- Document Chunk 335 ---
+ZC 和 VOBC 应能分别对通信
+
+--- Document Chunk 336 ---
+1) ai]
+
+--- Document Chunk 337 ---
+LA 4
+
+--- Document Chunk 338 ---
+2)
+
+--- Document Chunk 339 ---
+fi
+
+--- Document Chunk 340 ---
+息的字段合法性检查 .字段
+
+--- Document Chunk 341 ---
+4完整性，
+
+--- Document Chunk 342 ---
+UU (AE ie FN Fes BR
+
+--- Document Chunk 343 ---
+Hh GAL 包头中字段进行判断,而非安全通信协议层进行的判
+
+--- Document Chunk 344 ---
+Wi)
+
+--- Document Chunk 345 ---
+1) ZC 认为与
+
+--- Document Chunk 346 ---
+(3s~9s,可配置,推荐值:6 s) ;
+
+--- Document Chunk 347 ---
+2
+
+--- Document Chunk 348 ---
+(3 s~9 s,可配置,推荐值:6 s) ;
+
+--- Document Chunk 349 ---
+3
+
+--- Document Chunk 350 ---
+VOBC 通信中断的超时时间定义为 TZeTimeout
+
+--- Document Chunk 351 ---
+VOBC 认为与 ZC 通信中断的超时时间定义为 TVyobcTimeout
+
+--- Document Chunk 352 ---
+若ZC 在TZeTimeout 超时时间内,没有接收到来和 VOBC 的
+
+--- Document Chunk 353 ---
+任何消息,则 ZC 应认为与 VOBC 的通信中断;
+
+--- Document Chunk 354 ---
+4
+
+--- Document Chunk 355 ---
+若ZC 判断收到 VOBC 的 GAL 包延迟已经达到 TZcTimeout,
+
+--- Document Chunk 356 ---
+--- Page 16 ---
+
+--- Document Chunk 357 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 358 ---
+则 ZC 应委弃此 CAL 包或认为与 VOBC 通信中断;
+
+--- Document Chunk 359 ---
+若 VOBC 在 TVobcTimeout 超时时间内,没有接收到来自 ZC
+
+--- Document Chunk 360 ---
+的任何消息,则 YOBC 应认为与 ZC 的通信中断;
+
+--- Document Chunk 361 ---
+若VOBC判断收到 ZC 的CAL 包延迟已经达到
+
+--- Document Chunk 362 ---
+TVobcTimeout,则 VOBC 应丢弃此 CAL 包或认为与 ZC 通信
+
+--- Document Chunk 363 ---
+中断;
+
+--- Document Chunk 364 ---
+互联互通线网中,各厂商 VOBC 与各条线路上的 ZC 的通信
+
+--- Document Chunk 365 ---
+超时时间应一致 ,消息有效期时间应一致;
+
+--- Document Chunk 366 ---
+处于连续式列车控制级别的 VOBC 判断与 ZC 的通信中断
+
+--- Document Chunk 367 ---
+后 ,若列车未处于谷     态,则应输出紧急制动,若列车处
+
+--- Document Chunk 368 ---
+Ft      态,则可输出紧急人
+
+--- Document Chunk 369 ---
+©) 当使用安全通信协议 RSSP - [时,VOBC 判断与 ZC 断开通信，
+
+--- Document Chunk 370 ---
+且不再与该 ZC 重新建立通信后,应断开与该 ZC 的 TCP/IP
+
+--- Document Chunk 371 ---
+当使用安全通信协议 RSSP- 工时,VOBC 判断与 ZC 断开通信，
+
+--- Document Chunk 372 ---
+AAR TK ZC 重新建立通信后,应断开与该 ZC 的 UDP 连接。
+
+--- Document Chunk 373 ---
+5.1.4 通信故障处理
+
+--- Document Chunk 374 ---
+EN 50159:2010 中提及的 7 种开放式网络存在的安全通信风险均由安全
+
+--- Document Chunk 375 ---
+通信协议进行防护,风险包括:重复 .删除 .插入 ,重排序 .损坏,伪装 .延迟。
+
+--- Document Chunk 376 ---
+车地无线通信双方(ZC - YOBC )应用层的通信故障处理分为以下两
+
+--- Document Chunk 377 ---
+种情况 :
+
+--- Document Chunk 378 ---
+a) ZC fil VOBC 对于接收到的重复 .逆序的应用信息,采用直接丢
+
+--- Document Chunk 379 ---
+弃的方式进行处理,并且认为本周期未收到对方的应用信息;
+
+--- Document Chunk 380 ---
+b) 通信中断的情况下处理:若 ZC/VOBC 认为与对等方应用层通
+
+--- Document Chunk 381 ---
+信超时中断 ,采取主动释放安全连接的方式进行处理。
+
+--- Document Chunk 382 ---
+5.2 通信体系结构
+
+--- Document Chunk 383 ---
+5.2.1 通信模型
+
+--- Document Chunk 384 ---
+ZC 与 VOBC 通信协议模型如图4 AS.
+
+--- Document Chunk 385 ---
+5
+
+--- Document Chunk 386 ---
+6
+
+--- Document Chunk 387 ---
+1
+
+--- Document Chunk 388 ---
+8
+
+--- Document Chunk 389 ---
+--- Page 17 ---
+
+--- Document Chunk 390 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 391 ---
+应用层数据
+
+--- Document Chunk 392 ---
+安全相关
+
+--- Document Chunk 393 ---
+协议数据单元
+
+--- Document Chunk 394 ---
+说明，
+
+--- Document Chunk 395 ---
+图中安全功能模块和通信功能模块属于各子系统内部功能实现,分别用于实现
+
+--- Document Chunk 396 ---
+安全功能和对外通信功能。
+
+--- Document Chunk 397 ---
+ 4 ZC 与VOBC 通信协议模型
+
+--- Document Chunk 398 ---
+5.2.2 通信机制
+
+--- Document Chunk 399 ---
+a) (fey VOBC 发起安全连接的建立过程;
+
+--- Document Chunk 400 ---
+b) ZC 与 VOBC 采用周期发送和消息触发的方式进行通信;
+
+--- Document Chunk 401 ---
+c) 通信双方均采用大端字节序进行数据传输;
+
+--- Document Chunk 402 ---
+d) ZC 与 VOBC 均应对接收的应用信息进行判断和逻辑运算。
+
+--- Document Chunk 403 ---
+5.3 接口数据描述
+
+--- Document Chunk 404 ---
+5.3.1 数据类型定义
+
+--- Document Chunk 405 ---
+本节对 ZC 与 VOBC 之间通信的所有应用信息类型及其含义、发送
+
+--- Document Chunk 406 ---
+方向,长度范围,发送方式(周期/非周期) 进行定义,见表3。
+
+--- Document Chunk 407 ---
+表3 ZC 与VOBC 通信的应用层信息定义
+
+--- Document Chunk 408 ---
+    信息包名     发送方向 | eee | 发送方式
+
+--- Document Chunk 409 ---
+[oom | Was [xl + | mm |
+
+--- Document Chunk 410 ---
+12
+
+--- Document Chunk 411 ---
+--- Page 18 ---
+
+--- Document Chunk 412 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 413 ---
+表3 2ZC 与VOBC 通信的应用层信息定义(续)
+
+--- Document Chunk 414 ---
+信息包名              发送方向 | FICE        发送 |
+
+--- Document Chunk 415 ---
+0x0205          应用层注册/注销响应 | ZC—VOBC             4                   非周期
+
+--- Document Chunk 416 ---
+0x0207        ZC 主动注销请求      ZC一YOBC        4           非周期
+
+--- Document Chunk 417 ---
+0x0209       特殊控制报文      ZC一YOBC      4         非周期
+
+--- Document Chunk 418 ---
+0x020B        ZC 城市让定义帧      7C—V OBC        4            周期
+
+--- Document Chunk 419 ---
+0x020D        ZC 厂商自定义帧      ZC—>VOBC        4             周期
+
+--- Document Chunk 420 ---
+0x0202        列车位置信息      VOBC+ZC       4          周期
+
+--- Document Chunk 421 ---
+0x0206    应用层注册/注销骨                   4         非周其
+
+--- Document Chunk 422 ---
+0x0208    VOBC Sik Thigh 82              4 | mM
+
+--- Document Chunk 423 ---
+|  0x020A     VOBC        义帧 | VOBC+ZCNSA Ya         周期
+
+--- Document Chunk 424 ---
+=                     °
+
+--- Document Chunk 425 ---
+5.4 应用信息定义 OC                      a
+
+--- Document Chunk 426 ---
+5.4.1 概述       B:  SS dh
+
+--- Document Chunk 427 ---
+本节中的“正法 NAO 6 SH fe IT 222 Tr AY     CIE IY ABE IC. HR
+
+--- Document Chunk 428 ---
+收方收到 GAL 包中的         帧中存在”  Be   时,应判断本 GAL 包
+
+--- Document Chunk 429 ---
+BARAT IR , BFE AR GAL fd       、           据。
+
+--- Document Chunk 430 ---
+本章节中的“默认”值:
+
+--- Document Chunk 431 ---
+(a)针对具体工程中不实现的功能,通信双方可在具体工程中约定，
+
+--- Document Chunk 432 ---
+相关字段到值发送“默认"值，
+
+--- Document Chunk 433 ---
+(b)设备在初始化完成前,无法确定状态时,相关字段取值发送“跌
+
+--- Document Chunk 434 ---
+认值” 。接收方收到”默认"值后,应认为信息有效,不进行处理。
+
+--- Document Chunk 435 ---
+本节中涉及"上行" “下行"的方向定义,均采用运营方向规定的上
+
+--- Document Chunk 436 ---
+下行。跨线时,两条线路上下行运营方向定义不一致时,发送上下行方向
+
+--- Document Chunk 437 ---
+信息的规则确定为:除特殊说明外,发送方按照自身所属线路(ZC 指所
+
+--- Document Chunk 438 ---
+属线路,VOBC 指最大安全前端所在线路) 上下行定义进行发送,由接收
+
+--- Document Chunk 439 ---
+本节中的"预留"字段 ,发送方统一卦0 ,接收方可不对预留字段进行
+
+--- Document Chunk 440 ---
+13
+
+--- Document Chunk 441 ---
+--- Page 19 ---
+
+--- Document Chunk 442 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 443 ---
+林 节中的轨道区段内的偏移一 ,基准点均为车载电子地图中 ,该轨道
+
+--- Document Chunk 444 ---
+区段沿车载电子地网上行方向的起点。
+
+--- Document Chunk 445 ---
+5.4.2 ZC向VOBC 发送信息
+
+--- Document Chunk 446 ---
+5. 4.2.1 列车控制信息
+
+--- Document Chunk 447 ---
+ZC 对满足 MA 发送条件的列车周期发送列车控制信息见表 4。
+
+--- Document Chunk 448 ---
+表4 列车控制信息
+
+--- Document Chunk 449 ---
+接口内容 | ICME              说     Wy                足否安全信息
+
+--- Document Chunk 450 ---
+ZC ID
+
+--- Document Chunk 451 ---
+终点到 ZC 边内或者越过 ZC
+
+--- Document Chunk 452 ---
+下一ZC ID     4     Peirce:                        非安全信息
+
+--- Document Chunk 453 ---
+YRIA {HH :0x00000000
+
+--- Document Chunk 454 ---
+如到        路         AS ER UIE
+
+--- Document Chunk 455 ---
+MA 信息长度
+
+--- Document Chunk 456 ---
+从”AAA 方向"位到“信人允机状态”      a A fee
+
+--- Document Chunk 457 ---
+2 ete whe                          aii
+
+--- Document Chunk 458 ---
+45 BEGG NH 49 ~ 429
+
+--- Document Chunk 459 ---
+MA 方向
+
+--- Document Chunk 460 ---
+在 MA 起点朝向 MA 终点的方向，
+
+--- Document Chunk 461 ---
+1      以 MA 起点处的上下行方向定义信定       安全信息
+
+--- Document Chunk 462 ---
+-    x55 ,下行:0xAA
+
+--- Document Chunk 463 ---
+MA 信息
+
+--- Document Chunk 464 ---
+x55 ,无:0xAA
+
+--- Document Chunk 465 ---
+其他非法                                加
+
+--- Document Chunk 466 ---
+1                                安全信息
+
+--- Document Chunk 467 ---
+停车保证功能可选,根据工程项| 。 安全人
+
+--- Document Chunk 468 ---
+确定，  如 下此 Dy fi UY BR Ae
+
+--- Document Chunk 469 ---
+证请求序列号
+
+--- Document Chunk 470 ---
+4            范围:      (2” -1)               安全信息
+
+--- Document Chunk 471 ---
+默认值 OnEERI
+
+--- Document Chunk 472 ---
+14
+
+--- Document Chunk 473 ---
+--- Page 20 ---
+
+--- Document Chunk 474 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 475 ---
+表4 列车控制信息(续)
+
+--- Document Chunk 476 ---
+一     MA (BARE HE"                 安全信息
+
+--- Document Chunk 477 ---
+4        轨道区段 ID
+
+--- Document Chunk 478 ---
+4      区段内偏移量 ,单位:cm
+
+--- Document Chunk 479 ---
+有效范围:0x0 ~ OxFFFFFFFE
+
+--- Document Chunk 480 ---
+一             安全防护点位置”                                      安全信息
+
+--- Document Chunk 481 ---
+4        轨道区段 ID
+
+--- Document Chunk 482 ---
+4      区段内偏移下 ,单位:em
+
+--- Document Chunk 483 ---
+有效范围:0x0 ~ OxFFFFFFFE
+
+--- Document Chunk 484 ---
+一        i Hip                                 安全信息
+
+--- Document Chunk 485 ---
+MA 信息              BRA A,                         安全人
+
+--- Document Chunk 486 ---
+4         轨道区段 ID
+
+--- Document Chunk 487 ---
+“UAE :0x00000000
+
+--- Document Chunk 488 ---
+PBS PY Ohl AE ,单位:em
+
+--- Document Chunk 489 ---
+4         有效范|同:0x0 ~ OxFFFFFFFE
+
+--- Document Chunk 490 ---
+路认值:OxFFFFFFFF
+
+--- Document Chunk 491 ---
+护区段有效性(保护区段建立
+
+--- Document Chunk 492 ---
+fi      )
+
+--- Document Chunk 493 ---
+有效:0x55                                          安全信息
+
+--- Document Chunk 494 ---
+无效:0xAA
+
+--- Document Chunk 495 ---
+默认值:0xFF
+
+--- Document Chunk 496 ---
+道岔信息个数(MA 内包含的道
+
+--- Document Chunk 497 ---
+贫,个数为变显,有效范围:0 ~ 20)"
+
+--- Document Chunk 498 ---
+一      道岔(1)信息                     安全信息
+
+--- Document Chunk 499 ---
+4         ID
+
+--- Document Chunk 500 ---
+定位:0x55,反位:0xAA ,其他非法
+
+--- Document Chunk 501 ---
+15
+
+--- Document Chunk 502 ---
+--- Page 21 ---
+
+--- Document Chunk 503 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 504 ---
+表4， 列车控制信息(续)
+
+--- Document Chunk 505 ---
+接口内容 | 字节长度            说 。 明
+
+--- Document Chunk 506 ---
+路径信息      四      道岔(X)信息,X 是道岔信息个数     雪人人
+
+--- Document Chunk 507 ---
+字段取值
+
+--- Document Chunk 508 ---
+PSD 信息数(MA 内人包含的 PSD，
+
+--- Document Chunk 509 ---
+2                                        安全信息
+
+--- Document Chunk 510 ---
+AVON ME ME AT GEHL 0 ~ 10)          “
+
+--- Document Chunk 511 ---
+一         PSD(1) 信息                               安全信息
+
+--- Document Chunk 512 ---
+4       ID
+
+--- Document Chunk 513 ---
+PSD 4k AS"
+
+--- Document Chunk 514 ---
+1
+
+--- Document Chunk 515 ---
+LC KL LMR BR ML EN AE, OAS
+
+--- Document Chunk 516 ---
+PSD(Y){A.0L,Y 是 PSD 信息个数
+
+--- Document Chunk 517 ---
+一         ;                             安全信息
+
+--- Document Chunk 518 ---
+字段取代                           “
+
+--- Document Chunk 519 ---
+5    sb 信息 个数 (MA 内包会的    雪人全
+
+--- Document Chunk 520 ---
+ESB,个数为变长,有效范围:0 ~ 10)
+
+--- Document Chunk 521 ---
+一       ESB(1) 信息                       安全信息
+
+--- Document Chunk 522 ---
+ESB 状态      4       ID
+
+--- Document Chunk 523 ---
+ESB 状态
+
+--- Document Chunk 524 ---
+1     按下:0x55 ,术按下:0xAA
+
+--- Document Chunk 525 ---
+--- Page 22 ---
+
+--- Document Chunk 526 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 527 ---
+表4， 列车控制信息(续)
+
+--- Document Chunk 528 ---
+接口内容 | 字节长度            说
+
+--- Document Chunk 529 ---
+FESB(Z)信息,Z 足 ESB 信息个数
+
+--- Document Chunk 530 ---
+AR AS     一
+
+--- Document Chunk 531 ---
+ESB ARG            字段取值
+
+--- Document Chunk 532 ---
+无人折返按钮状态(列车停靠无
+
+--- Document Chunk 533 ---
+:人折返                        关
+
+--- Document Chunk 534 ---
+无人折返      1     人折返站台  ?时发送)         可      正安全信息
+
+--- Document Chunk 535 ---
+按钮状态              按下:0x55,林按下:0xAA(默认
+
+--- Document Chunk 536 ---
+值)
+
+--- Document Chunk 537 ---
+Hi bf PR      让数(个数为变长，
+
+--- Document Chunk 538 ---
+2                                     安全信息
+
+--- Document Chunk 539 ---
+有效范围                        eet
+
+--- Document Chunk 540 ---
+一                                       安全信息
+
+--- Document Chunk 541 ---
+4
+
+--- Document Chunk 542 ---
+4
+
+--- Document Chunk 543 ---
+临时限速
+
+--- Document Chunk 544 ---
+，         与
+
+--- Document Chunk 545 ---
+(ASA, :0x0 ~ OxFFFFFFFE
+
+--- Document Chunk 546 ---
+1       预贸
+
+--- Document Chunk 547 ---
+临时限速值:
+
+--- Document Chunk 548 ---
+1       单位:kmyh(COknmyh ~ 254km/h)       安全信息
+
+--- Document Chunk 549 ---
+0xFF:默认值
+
+--- Document Chunk 550 ---
+18       临时限速(10) 信息                 安全信息
+
+--- Document Chunk 551 ---
+1-20               计算跨边界点 MA 时,ZC 与相邻
+
+--- Document Chunk 552 ---
+通信延迟      2     ZC 的通信延时 ,单位:ms              安全信息
+
+--- Document Chunk 553 ---
+                 有效范围:0 ~ 10 000
+
+--- Document Chunk 554 ---
+17
+
+--- Document Chunk 555 ---
+--- Page 23 ---
+
+--- Document Chunk 556 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 557 ---
+R4 列车控制信息(续)
+
+--- Document Chunk 558 ---
+接口内容 | 字节长度       ew         是否安全信息
+
+--- Document Chunk 559 ---
+ess       是否有紧急制动命令
+
+--- Document Chunk 560 ---
+           ，             4 10x55                                             安全信息
+
+--- Document Chunk 561 ---
+人
+
+--- Document Chunk 562 ---
+无:0xAA
+
+--- Document Chunk 563 ---
+运行日的                        辐段:0xCC                                        coe A
+
+--- Document Chunk 564 ---
+地属性信息|   跌认值:OxFF           下安全作息
+
+--- Document Chunk 565 ---
+相关功能,则发送默认|
+
+--- Document Chunk 566 ---
+TP 无相关切能.则接收此
+
+--- Document Chunk 567 ---
+进行处理
+
+--- Document Chunk 568 ---
+ffi a OLY ID
+
+--- Document Chunk 569 ---
+4            ZC 接收到的VOBC Bis YLT SAL
+
+--- Document Chunk 570 ---
+ID
+
+--- Document Chunk 571 ---
+信和号机状态       oy saw ewe    |
+
+--- Document Chunk 572 ---
+| CBTC PvE {fi :Oxs     2          Ay
+
+--- Document Chunk 573 ---
+1                            安全信息
+
+--- Document Chunk 574 ---
+EOWA. RIA AL ONPF CBE Jr 1H    ane
+
+--- Document Chunk 575 ---
+过号机了时填写)
+
+--- Document Chunk 576 ---
+“LAT HE AE                          全防护点位置;
+
+--- Document Chunk 577 ---
+:保证请求对应位置即为安
+
+--- Document Chunk 578 ---
+被人外                    it
+
+--- Document Chunk 579 ---
+,无停车保证请
+
+--- Document Chunk 580 ---
+pe TE fr > Bei
+
+--- Document Chunk 581 ---
+4B UWF A 2 a Ky
+
+--- Document Chunk 582 ---
+. 列车移交时，     PLC 发给列车的 MA 起点为最小安全后端向后 延伸一
+
+--- Document Chunk 583 ---
+定距离 ,若无移交 ZC 的 MA,则此延伸距离应不越过 ZC 移交边界。
+
+--- Document Chunk 584 ---
+. VOBC 允许列车退行时,应能允许退行过程中列车安全包络车尾部分区域
+
+--- Document Chunk 585 ---
+ARTE MA 范围内
+
+--- Document Chunk 586 ---
+已
+
+--- Document Chunk 587 ---
+w
+
+--- Document Chunk 588 ---
+18
+
+--- Document Chunk 589 ---
+--- Page 24 ---
+
+--- Document Chunk 590 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 591 ---
+RA 列车控制信息(续)
+
+--- Document Chunk 592 ---
+“1. ZC 向 VOBC Wi
+
+--- Document Chunk 593 ---
+安全防护    中车
+
+--- Document Chunk 594 ---
+障碍点   +区段有效叶， 主进路内县后一  个计轴区段的终点
+
+--- Document Chunk 595 ---
+TRAP BEAR AS FLTC UR TA
+
+--- Document Chunk 596 ---
+2.  BABB 位置和        :置的发送规则为:如果 ZC 发送的“保护区段有
+
+--- Document Chunk 597 ---
+效性"字               C 发送的安全防护点位中应确保列车可正常进
+
+--- Document Chunk 598 ---
+机点为保护区段起点位置，
+
+--- Document Chunk 599 ---
+8            或默认值,则 ZC 发
+
+--- Document Chunk 600 ---
+送的障碍
+
+--- Document Chunk 601 ---
+“MA
+
+--- Document Chunk 602 ---
+对应的防护点为红灯信号机， el
+
+--- Document Chunk 603 ---
+护区段时,安全防护:
+
+--- Document Chunk 604 ---
+ZC 计算安全防护点     对,应包含 设备安 tiie
+
+--- Document Chunk 605 ---
+3. VOBC 接收移动授权的处理方法为:
+
+--- Document Chunk 606 ---
+(1) VOBE 接收到来自 ZC 的
+
+--- Document Chunk 607 ---
+含道岔贫尖位置,则应发送该道
+
+--- Document Chunk 608 ---
+道岔信息                                                              方向排列
+
+--- Document Chunk 609 ---
+“MA 范围内的 PSD/ESB 防护区域激    ZC fh] VOBC 发送的 MA AS iz PPL AR
+
+--- Document Chunk 610 ---
+由 VOBC 恨据 MA 范围内的 PSD/ESB 状态对列车进行控制
+
+--- Document Chunk 611 ---
+"无临时限速的区域,不发送临时限速命令;
+
+--- Document Chunk 612 ---
+ZC 向 VOBC 发    临时限    令中,两个临时限速命令不应     4
+
+--- Document Chunk 613 ---
+ZC 向 VOB 发送的临时限速命令范围不应超出 MA 范围(起点到安全防护点
+
+--- Document Chunk 614 ---
+范围) ;
+
+--- Document Chunk 615 ---
+临时限速命令顺序应沿从 MA 起点向安全防护点方向排列，
+
+--- Document Chunk 616 ---
+临时限速命令始端位置指向终端位置的方向应与 MA 起点指向终点的方向
+
+--- Document Chunk 617 ---
+相同
+
+--- Document Chunk 618 ---
+*若 MA 跨过边界点 WMS TSE MA 时所使用的相邻 ZC 的信息包的延时;
+
+--- Document Chunk 619 ---
+若 MA 未跨过边界         150, VOBC 判断 MA 的有效性时,应扣除该延时。
+
+--- Document Chunk 620 ---
+"1，ZC 判断可为车载 VOBC 计算有效 MA, {Eile BE VOBC 输出紧急制动时 ,发
+
+--- Document Chunk 621 ---
+送“有紧急制动命令
+
+--- Document Chunk 622 ---
+2. 若 ZC 无相关功能“紧急制动命令"字段发送"无命令”
+
+--- Document Chunk 623 ---
+19
+
+--- Document Chunk 624 ---
+--- Page 25 ---
+
+--- Document Chunk 625 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 626 ---
+R4 列车控制信息(续)
+
+--- Document Chunk 627 ---
+3. VOBC 收到受控ZC 发送的“有紧急制动命令"信息
+
+--- Document Chunk 628 ---
+不内为此信息导致列车驾驶模式降级;
+
+--- Document Chunk 629 ---
+4. VOBC 收到受控 ZC 发送的“有紧急制动命令"信息时,应不可缓解紧急
+
+--- Document Chunk 630 ---
+制动。
+
+--- Document Chunk 631 ---
+"当允许列车 MA 越过以该信号机为始端的进路时 ,发送 CBTC 允许状态 ;当不
+
+--- Document Chunk 632 ---
+允许列车 MA 越过以该信号机为始端的进路时,发送 CBTC 禁止状态
+
+--- Document Chunk 633 ---
+制动 ,但
+
+--- Document Chunk 634 ---
+,应输出
+
+--- Document Chunk 635 ---
+5. 4.2.2 应用层安全连接 注册/注销响应
+
+--- Document Chunk 636 ---
+对于车载发送的注册/注销请求,ZC 返回该报文见表 5。
+
+--- Document Chunk 637 ---
+表5 注册/注销响应信息
+
+--- Document Chunk 638 ---
+接口内容 |     zw)     | 使用方式
+
+--- Document Chunk 639 ---
+长度             |
+
+--- Document Chunk 640 ---
+注册成功:0x55 ,注册失败:0xAA
+
+--- Document Chunk 641 ---
+注册/注销响应 | 1 注销成功:0xCC     | 惠安全信息
+
+--- Document Chunk 642 ---
+其他非法
+
+--- Document Chunk 643 ---
+错误代码
+
+--- Document Chunk 644 ---
+|   Ox ss :注册失败原因(根据业主要
+
+--- Document Chunk 645 ---
+注册失败原央 | 1 | RAE)            IE EAE
+
+--- Document Chunk 646 ---
+0xFF:默认值,注册成功或注销成功
+
+--- Document Chunk 647 ---
+ECS
+
+--- Document Chunk 648 ---
+预留   2 | 0
+
+--- Document Chunk 649 ---
+5.4.2.3 ZC 主动注销请求
+
+--- Document Chunk 650 ---
+ZC 的注销条件成立时 ,该信息定义见表6。
+
+--- Document Chunk 651 ---
+表6 ”注销命令
+
+--- Document Chunk 652 ---
+接口内容 | 字节长度    mW   | 使用方式
+
+--- Document Chunk 653 ---
+注销命令   1   其但提法         非安全信息
+
+--- Document Chunk 654 ---
+20
+
+--- Document Chunk 655 ---
+--- Page 26 ---
+
+--- Document Chunk 656 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 657 ---
+表6 注销命令(续)
+
+--- Document Chunk 658 ---
+mows | FURIE      eI       合用方式
+
+--- Document Chunk 659 ---
+漠误代码: (根据业主要求定
+
+--- Document Chunk 660 ---
+注销原因   1   yes RE) pe atee
+
+--- Document Chunk 661 ---
+ita    2    0
+
+--- Document Chunk 662 ---
+GAL 包中不应同时
+
+--- Document Chunk 663 ---
+注2:ZC Wik“ ZC 主动
+
+--- Document Chunk 664 ---
+接受 VOBC 发送的除”
+
+--- Document Chunk 665 ---
+ME Hifi” 3
+
+--- Document Chunk 666 ---
+注3:VOBC Ia“ ZC Ag
+
+--- Document Chunk 667 ---
+"ALIS             ZC 主动注销请求人包 ,不
+
+--- Document Chunk 668 ---
+息 ,下至收到 VOBC 发送
+
+--- Document Chunk 669 ---
+Tahir a
+
+--- Document Chunk 670 ---
+7]      7
+
+--- Document Chunk 671 ---
+re  on i Rs LA
+
+--- Document Chunk 672 ---
+接口内容                                                                                使用方式
+
+--- Document Chunk 673 ---
+报文
+
+--- Document Chunk 674 ---
+4  | 特殊控制原因,工程约定    非安全信息
+
+--- Document Chunk 675 ---
+注1;"特殊控制报文"包与“列车控制信息"包在同一 GAL 包内不应同时存在。
+
+--- Document Chunk 676 ---
+注 2:非注销过程中,不满足发送*列     的条件 ,应发送特殊控制报
+
+--- Document Chunk 677 ---
+文包。
+
+--- Document Chunk 678 ---
+TE 9220 判断不震列车紧急制动,但震保持链路时,发送特殊控制报文包,且
+
+--- Document Chunk 679 ---
+“紧   “字段取值为"无命令"。
+
+--- Document Chunk 680 ---
+注4:当VOBC 收到的特殊控制报文中紧急制动命令"字段为"无命令"时,应
+
+--- Document Chunk 681 ---
+不因此原因发生器急制动,并保持与 ZC 的安全过接，
+
+--- Document Chunk 682 ---
+21
+
+--- Document Chunk 683 ---
+--- Page 27 ---
+
+--- Document Chunk 684 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 685 ---
+5.4.2.5 ZC 城市自定义帧
+
+--- Document Chunk 686 ---
+自定义信息,用于实现各城市特有的互联互通相关功能。有具体内容
+
+--- Document Chunk 687 ---
+在工程中根据实际需求约定 ,各厂商均应实现相应功能。ZC 城市自定义
+
+--- Document Chunk 688 ---
+帧信息见表 8。
+
+--- Document Chunk 689 ---
+表8 ZC 城市自定义帧信息
+
+--- Document Chunk 690 ---
+接口内容        字节长度                   说 OW
+
+--- Document Chunk 691 ---
+N             上只体内容在工程中约定
+
+--- Document Chunk 692 ---
+5.4.2.6 ZC 厂商自定义帧
+
+--- Document Chunk 693 ---
+自定义信息,用于实现各厂商特有功能,各厂商分别定制。ZC 判断
+
+--- Document Chunk 694 ---
+通信的 VOBC 与白身属于同一厂商时,方可发送厂商自定义帧。ZC 厂商
+
+--- Document Chunk 695 ---
+自定义帧信息见表 9。
+
+--- Document Chunk 696 ---
+RO ZC 厂商自定义帧信息
+
+--- Document Chunk 697 ---
+接口内容              字节长度                                 说       Uy)
+
+--- Document Chunk 698 ---
+信息定义                  N                        有具体内容由各厂商分别定制
+
+--- Document Chunk 699 ---
+5.4.3 VOBC 向 ZC 发送信息
+
+--- Document Chunk 700 ---
+5. 4.3.1 列车位置信息
+
+--- Document Chunk 701 ---
+该信息周期发送 ,用来维持 ZC 设备和 VOBC 问安全通信的连
+
+--- Document Chunk 702 ---
+列车在 ZC 间移交过程中,VOBC 与移交,接管 ZC 同时通信时,同一
+
+--- Document Chunk 703 ---
+周期生成的向两个 ZC 发送的"列车位置信息包"内容应一致。
+
+--- Document Chunk 704 ---
+列车位置信息包内容见表 10。
+
+--- Document Chunk 705 ---
+表 10 列车位置信息内容
+
+--- Document Chunk 706 ---
+接口内容 | 字节长度            说 明               使用方式
+
+--- Document Chunk 707 ---
+节小安全后端指向最大安全前端
+
+--- Document Chunk 708 ---
+的方向,以最小安全后端处的上下
+
+--- Document Chunk 709 ---
+行方向确定
+
+--- Document Chunk 710 ---
+上行:0x55
+
+--- Document Chunk 711 ---
+--- Page 28 ---
+
+--- Document Chunk 712 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 713 ---
+表10 列车位置信息内容(续)
+
+--- Document Chunk 714 ---
+接口内容 | 字节长度                 说      明                      使用方式
+
+--- Document Chunk 715 ---
+下行:0xAA
+
+--- Document Chunk 716 ---
+运行方向”      1       默认:0xFF
+
+--- Document Chunk 717 ---
+其他非法
+
+--- Document Chunk 718 ---
+本 VOBC 是否为激活端(首尾宛
+
+--- Document Chunk 719 ---
+Arf) VOBC 统一发送是激活端)
+
+--- Document Chunk 720 ---
+inci        1       激活端:0x55
+
+--- Document Chunk 721 ---
+非激活端:0xAA
+
+--- Document Chunk 722 ---
+其他非法
+
+--- Document Chunk 723 ---
+一      列车最大安全前端位置
+
+--- Document Chunk 724 ---
+|                   轨道区段 ID
+
+--- Document Chunk 725 ---
+默认值:0x00000000
+
+--- Document Chunk 726 ---
+轨道区段内偏移显,单位:em
+
+--- Document Chunk 727 ---
+4        有效范围:0x0 ~OxFFFFFFFE
+
+--- Document Chunk 728 ---
+默认值:O0xFFFFFFFF
+
+--- Document Chunk 729 ---
+列车下小安全前端位壮
+
+--- Document Chunk 730 ---
+轨道区段 ID"
+
+--- Document Chunk 731 ---
+默认值:0x00000000
+
+--- Document Chunk 732 ---
+列车包络线         区段内偏移熏,单位:em,有效范
+
+--- Document Chunk 733 ---
+4      围:0x0 ~ OxFFFFFFFE*
+
+--- Document Chunk 734 ---
+| 默认值:OxFFFFFFFF
+
+--- Document Chunk 735 ---
+| HARKS RN
+
+--- Document Chunk 736 ---
+轨道区段 1D*
+
+--- Document Chunk 737 ---
+默认值 :0x00000000
+
+--- Document Chunk 738 ---
+区段内偏移量,单位:cm,有效范
+
+--- Document Chunk 739 ---
+4      围:0x0 ~ OxFFFFFFFE*
+
+--- Document Chunk 740 ---
+默认值 :0xFFFFFFFF
+
+--- Document Chunk 741 ---
+一      列车最小安全后端位置
+
+--- Document Chunk 742 ---
+--- Page 29 ---
+
+--- Document Chunk 743 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 744 ---
+表 10 ”列车位置信息内容(续)
+
+--- Document Chunk 745 ---
+接口内容 | 字节长度               说     1                    使用方式
+
+--- Document Chunk 746 ---
+4        Hitt x Be ID*
+
+--- Document Chunk 747 ---
+默认值 :0x00000000
+
+--- Document Chunk 748 ---
+区段内偏移量,单位:em,有效范
+
+--- Document Chunk 749 ---
+4      [8] 0x0 ~ OxFFFFFFFE*
+
+--- Document Chunk 750 ---
+列车包络线                跌认值:0xPFFFFFFT                   安全信息
+
+--- Document Chunk 751 ---
+5        BY ACRE, FAs om, Fi HATE
+
+--- Document Chunk 752 ---
+.       1 000 ~ 50 000
+
+--- Document Chunk 753 ---
+5      BA AE AES — Fe Xt BU AE WIG HE
+
+--- Document Chunk 754 ---
+7   (单位:em) ,有效范围:1 ~ 1-000
+
+--- Document Chunk 755 ---
+列车运行                 0x01: CBTC; Ox02; i st ; 0x03 : 联
+
+--- Document Chunk 756 ---
+Fe seal"        1       锁控制级别;                          |      安全信息
+
+--- Document Chunk 757 ---
+“mm                  其他非法
+
+--- Document Chunk 758 ---
+po              0x01; AM; 0x02; CM; 0x03; RM;
+
+--- Document Chunk 759 ---
+ane         1                                                        安全信息
+
+--- Document Chunk 760 ---
+1        安全信息
+
+--- Document Chunk 761 ---
+4                    :                                安全信息
+
+--- Document Chunk 762 ---
+默认值:0xFFFFFFFF
+
+--- Document Chunk 763 ---
+停车保证对应安全防护点轨道区
+
+--- Document Chunk 764 ---
+4 | Be ID"                                    安全信息
+
+--- Document Chunk 765 ---
+默认值:0x00000000
+
+--- Document Chunk 766 ---
+停车保证对应安全防护点区段内]
+
+--- Document Chunk 767 ---
+4     SiS GE, FL om, 有效范围:0x0 ~     安全信息
+
+--- Document Chunk 768 ---
+OxFFFFFFFE®
+
+--- Document Chunk 769 ---
+默认值:O0xFFFFFFFF
+
+--- Document Chunk 770 ---
+24
+
+--- Document Chunk 771 ---
+--- Page 30 ---
+
+--- Document Chunk 772 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 773 ---
+表 10 列车位置信息内容(续)
+
+--- Document Chunk 774 ---
+接口内容 | FW ICI                      说       WW)                            使用方式
+
+--- Document Chunk 775 ---
+停车保证对应障碍点轨道区
+
+--- Document Chunk 776 ---
+4      Bt 1D"                                 安全信息
+
+--- Document Chunk 777 ---
+默认值 :0x00000000
+
+--- Document Chunk 778 ---
+停车保证对应障碍点区段内偏移
+
+--- Document Chunk 779 ---
+ih, YA: om, 有效范围:0x0 ~
+
+--- Document Chunk 780 ---
+4                                                  安全信息
+
+--- Document Chunk 781 ---
+OxFFFFFFFE'                   安全信息
+
+--- Document Chunk 782 ---
+默认值:0OxFFFFFFFT
+
+--- Document Chunk 783 ---
+车辆状态       1                                        安全信息
+
+--- Document Chunk 784 ---
+i
+
+--- Document Chunk 785 ---
+无人折返指示灯
+
+--- Document Chunk 786 ---
+0x55 : PTB AR AAT Hh 5
+
+--- Document Chunk 787 ---
+OxAA : rid ANAT i RK
+
+--- Document Chunk 788 ---
+0xCC:折返指示灯闪烁
+
+--- Document Chunk 789 ---
+1      其他非;
+
+--- Document Chunk 790 ---
+若地面设备无折返指示灯闪烁功
+
+--- Document Chunk 791 ---
+能,可将折返指示灯闪烁作为常亮处
+
+--- Document Chunk 792 ---
+理;若车载设备无折返指示灯闪烁功
+
+--- Document Chunk 793 ---
+证
+
+--- Document Chunk 794 ---
+非安全信息
+
+--- Document Chunk 795 ---
+25
+
+--- Document Chunk 796 ---
+--- Page 31 ---
+
+--- Document Chunk 797 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 798 ---
+表 10 列车位置信息内容(续)
+
+--- Document Chunk 799 ---
+接口内容
+
+--- Document Chunk 800 ---
+字节长度                      说       Wy)
+
+--- Document Chunk 801 ---
+使用方式
+
+--- Document Chunk 802 ---
+0x55     Be ATP 采集到车辆反馈
+
+--- Document Chunk 803 ---
+非安全信和4
+
+--- Document Chunk 804 ---
+‘uF
+
+--- Document Chunk 805 ---
+found
+
+--- Document Chunk 806 ---
+列车速度/
+
+--- Document Chunk 807 ---
+距岗信息
+
+--- Document Chunk 808 ---
+FE ,单位:cmAs
+
+--- Document Chunk 809 ---
+有效范围:0 ~ 15 000
+
+--- Document Chunk 810 ---
+速度方向(车轮旋转的方向)
+
+--- Document Chunk 811 ---
+0855 :前(停企时是向前)
+
+--- Document Chunk 812 ---
+0xAA:后
+
+--- Document Chunk 813 ---
+退行路离 ,单位:em
+
+--- Document Chunk 814 ---
+服不利情况下" ,列车从开始退行
+
+--- Document Chunk 815 ---
+BSE EGE AT RRS. Ai CG TM:
+
+--- Document Chunk 816 ---
+1 ~5 000
+
+--- Document Chunk 817 ---
+默认值:OxFFFF
+
+--- Document Chunk 818 ---
+He HE ARE
+
+--- Document Chunk 819 ---
+OxS5 : fe HE HA ES
+
+--- Document Chunk 820 ---
+0xAA:林停稳
+
+--- Document Chunk 821 ---
+0xCC:停稳但未个准
+
+--- Document Chunk 822 ---
+其他 :非法
+
+--- Document Chunk 823 ---
+保护区段允许解锁”
+
+--- Document Chunk 824 ---
+0x55 :允许解锁
+
+--- Document Chunk 825 ---
+0xAA:不允许解锁
+
+--- Document Chunk 826 ---
+其他非法
+
+--- Document Chunk 827 ---
+受控 ZCID
+
+--- Document Chunk 828 ---
+26
+
+--- Document Chunk 829 ---
+受控 ZC(列车采用 MA/特殊控制
+
+--- Document Chunk 830 ---
+报文的 ZC) AY ID
+
+--- Document Chunk 831 ---
+默认值:0x00000000
+
+--- Document Chunk 832 ---
+车载 VOBC 未采用 MA 和特殊控
+
+--- Document Chunk 833 ---
+制报文时发送默认值
+
+--- Document Chunk 834 ---
+安全信息
+
+--- Document Chunk 835 ---
+--- Page 32 ---
+
+--- Document Chunk 836 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 837 ---
+表10 ”列车位置信息内容(续)
+
+--- Document Chunk 838 ---
+1 ~OxFFFFFFFF ,0 为默认值
+
+--- Document Chunk 839 ---
+VOBC 最大安全前端前方沿列车
+
+--- Document Chunk 840 ---
+运行方向可搜索到的最近的同向信
+
+--- Document Chunk 841 ---
+号机,VOBC 发送“保护区段允许解
+
+--- Document Chunk 842 ---
+锁"字爱为允许解锁时 ,该信号机 ID
+
+--- Document Chunk 843 ---
+应为有效值
+
+--- Document Chunk 844 ---
+“1. 若 VOBC 与 ZC 建立通信时无法确定准确位置,则“运行方向"“列车最大
+
+--- Document Chunk 845 ---
+安全前端位置所在轨道区段 ID"“列车最大安全前端位置在轨道区段内
+
+--- Document Chunk 846 ---
+偏移量" “列车最小安全前端位置所在轨道区段 ID"“列车最小安全前端
+
+--- Document Chunk 847 ---
+位置在轨道区段内偏移量" “列车最大安全后端位置所在轨道区有般 ID",
+
+--- Document Chunk 848 ---
+“列车最大安全后映位置在轨道区段内偏移重" “列车最小安全后端位置
+
+--- Document Chunk 849 ---
+所在轨道区段 ID" “列车最小安全后端位置在轨道区段内偏移量"均填写
+
+--- Document Chunk 850 ---
+默认值(列车安全位置示意如图 5 所示) 。
+
+--- Document Chunk 851 ---
+VOBC 应保证:若“运行方向" “列车最大安全前端位置所在轨道区段
+
+--- Document Chunk 852 ---
+ID"“列车最大安全前端位置在轨道区段内偏移重" “列车最小安全前端
+
+--- Document Chunk 853 ---
+位置所在轨道区段 ID" “列车最小安全前映位置在轨道区段内偏移量”、
+
+--- Document Chunk 854 ---
+“列车最大安全后端位置所在轨道区段 ID"“列车最大安全后端位置在轨
+
+--- Document Chunk 855 ---
+道区段内偏移量" “列车最小安全后端位置所在轨道区段 ID" “列车最小
+
+--- Document Chunk 856 ---
+安全后端位置在轨道区段内偏移量"字段中,任一字段取值为默认值,则
+
+--- Document Chunk 857 ---
+“运行方向" “列车最大安全前端位置所在轨道区段 ID"“列车最大安全
+
+--- Document Chunk 858 ---
+前端位置在轨道区段内偏移量"“列车最小安全前端位置所在轨道区段
+
+--- Document Chunk 859 ---
+ID"“列车最小安全前端位置在轨道区段内偏移重" “列车最大安全后端
+
+--- Document Chunk 860 ---
+位置所在轨道区段 ID"“列车最大安全后映位置在轨道区段内偏移量”、
+
+--- Document Chunk 861 ---
+“列车最小安全后端位置所在轨道区段 ID"“列车最小安全后端位置在轨
+
+--- Document Chunk 862 ---
+道区段内偏移量" “停车保证响应" “停车保证响应序列号"“停车保证
+
+--- Document Chunk 863 ---
+对应安全防护点轨道区段 ID"”“停车保证对应安全防护点轨道区段内偏
+
+--- Document Chunk 864 ---
+移重" “停车保证对应障碍点轨道区段ID"“停车保证对应障碍点轨道区
+
+--- Document Chunk 865 ---
+段偏移量" “停车保证对应保护区段有效性"字肌取值应都为默认值。
+
+--- Document Chunk 866 ---
+ZC 收到位置报告默认值后 ,若之前无列车有效位置,可选择以下处理之一:
+
+--- Document Chunk 867 ---
+(1)发送主动注销请求;
+
+--- Document Chunk 868 ---
+(2)不向 VOBC 发送任何信息;
+
+--- Document Chunk 869 ---
+(3)保持通信,发送“紧急制动" 的特殊控制报文包,但将列车作为非通信
+
+--- Document Chunk 870 ---
+车处理。
+
+--- Document Chunk 871 ---
+信号机 IDS
+
+--- Document Chunk 872 ---
+i
+
+--- Document Chunk 873 ---
+2
+
+--- Document Chunk 874 ---
+27
+
+--- Document Chunk 875 ---
+--- Page 33 ---
+
+--- Document Chunk 876 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 877 ---
+表10 列车位置信息内容(续)
+
+--- Document Chunk 878 ---
+车之前有列车有效位置,可选择以下处理之一:
+
+--- Document Chunk 879 ---
+《1)发送主动注销请求;
+
+--- Document Chunk 880 ---
+《2)不向 VOBC 发送任何信息;
+
+--- Document Chunk 881 ---
+(3)委弃此位置报告信息,采用之前的位置报告 ,继续与 VOBC 通信,直至
+
+--- Document Chunk 882 ---
+通信超时断开。
+
+--- Document Chunk 883 ---
+各家 VOBC 在发送位置报告默认值时,应能分别适配 ZC 上述处理。若 ZC
+
+--- Document Chunk 884 ---
+收到 VOBC 发送的位置报告,且判断列车位置报告不在本 ZC 线路数据(含
+
+--- Document Chunk 885 ---
+本 ZC 管辖范围及其他 ZC 管辖范围内与本 ZC AH) TAL AK) 范围内,可选择以
+
+--- Document Chunk 886 ---
+下处理之一:
+
+--- Document Chunk 887 ---
+(1)持续发送特殊控制报文;
+
+--- Document Chunk 888 ---
+(2) 发送 ZC 主动注销请求;
+
+--- Document Chunk 889 ---
+(3)不向 VOBC 发送任何信息;
+
+--- Document Chunk 890 ---
+(4)各家 VOBC 应能分别适配 ZC 上述处理。
+
+--- Document Chunk 891 ---
+-“列车运行控制级别"与“列车驾驶模式"字段取值应满足表 11 的要求。
+
+--- Document Chunk 892 ---
+列车折返过程中,若头端.尾端 VOBC 存在同时与 ZC 通信过程,则原尾端
+
+--- Document Chunk 893 ---
+VOBC 与 ZC 建立通信,且未收到 ZC 的有效列车控制信息时,向 ZC 发送的
+
+--- Document Chunk 894 ---
+“列车运行控制级别"“列车驾驶模式"字段 ,取值应为原头端的“列车运
+
+--- Document Chunk 895 ---
+行控制级别"“列车驾驶模式"字段取值。
+
+--- Document Chunk 896 ---
+. VOBC 仅根据*当前使用"的 MA 消息中是否有停车保证请求作出应答 ,不
+
+--- Document Chunk 897 ---
+负责记忆之前是否有停车保证;
+
+--- Document Chunk 898 ---
+“停车保证响应序列号"字段 ,取值为 VOBC 采信的停车保证对应的“停车
+
+--- Document Chunk 899 ---
+保证请求序列号"取值;
+
+--- Document Chunk 900 ---
+当无停车保证请求时“停车保证请求对应安全防护点轨道区段 ID"“停
+
+--- Document Chunk 901 ---
+车保证请求对应安全防护点轨道区段偏移量" “停车保证请求对应障碍点
+
+--- Document Chunk 902 ---
+轨道区段 ID"“停车保证请求对应障碍点轨道区段偏移量" “停车保证请
+
+--- Document Chunk 903 ---
+求对应保护区段有效性"“停车保证响应“停车保证响应序列号"字段
+
+--- Document Chunk 904 ---
+发送默认值;
+
+--- Document Chunk 905 ---
+4. ZC 收到 VOBC 发送的停车保证响应时,应判断停车保证响应序列号、停车
+
+--- Document Chunk 906 ---
+保证对应位置与自身发送的停车保证请求信息一致方可采信。
+
+--- Document Chunk 907 ---
+“此处的最不利情况 ,指列车退行至最大允许距离时，
+
+--- Document Chunk 908 ---
+1. 速度为最大退行允许速度;
+
+--- Document Chunk 909 ---
+2. 加速度为最大值;
+
+--- Document Chunk 910 ---
+3. 列车位于最大坡度(退行方向为下坡) ,且列车切牵引生效时间、紧急制动
+
+--- Document Chunk 911 ---
+生效时间等安全制动模型相关延时均为最大值。
+
+--- Document Chunk 912 ---
+>
+
+--- Document Chunk 913 ---
+R &
+
+--- Document Chunk 914 ---
+»
+
+--- Document Chunk 915 ---
+2
+
+--- Document Chunk 916 ---
+--- Page 34 ---
+
+--- Document Chunk 917 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 918 ---
+表10 列车位置信息内容(续)
+
+--- Document Chunk 919 ---
+“1.YOBC 发送"允许解锁"信息后,应保证列车不会进入前方保护区段;
+
+--- Document Chunk 920 ---
+2. 地面设备收到”允许解                前方保护区段
+
+--- Document Chunk 921 ---
+地面设备收到“人允许解锁" 信，       以下两种方式之一解锁列车前方
+
+--- Document Chunk 922 ---
+保护区段:
+
+--- Document Chunk 923 ---
+(1)解锁列车最大
+
+--- Document Chunk 924 ---
+(2)解锁 VOBC 发送
+
+--- Document Chunk 925 ---
+VOBC 判断满足 Fish
+
+--- Document Chunk 926 ---
+PER" Fe EAR BE" AF EA Can Sb Ee Sit 9
+
+--- Document Chunk 927 ---
+(1)列车在进
+
+--- Document Chunk 928 ---
+(2) WAKE
+
+--- Document Chunk 929 ---
+(3) DERE
+
+--- Document Chunk 930 ---
+后,可按照
+
+--- Document Chunk 931 ---
+所在进路对应的保护 PER;
+
+--- Document Chunk 932 ---
+WI) iA Jy 2% Sib APF BL AS
+
+--- Document Chunk 933 ---
+kh 机， Xe fF 开 fi TL A
+
+--- Document Chunk 934 ---
+车越过进路终
+
+--- Document Chunk 935 ---
+inet i 本进路内的
+
+--- Document Chunk 936 ---
+VoBC i it  va 车运行方向搜索最近的同向信号机时,搜索范围不能超过未知状
+
+--- Document Chunk 937 ---
+表 11 控制级别与驾驶模式对应关系
+
+--- Document Chunk 938 ---
+一             EUM       RM        cM        AM
+
+--- Document Chunk 939 ---
+连续式列车控制级别                         x                         x                        O                        O〇
+
+--- Document Chunk 940 ---
+点式列车控制级别                               x                           x                          O〇                         O〇
+
+--- Document Chunk 941 ---
+联锁控制级别                                    O                       O〇                        x                        x
+
+--- Document Chunk 942 ---
+注: x/O表示该控制级别下不具有/有具有该驾驶异式-
+
+--- Document Chunk 943 ---
+29
+
+--- Document Chunk 944 ---
+--- Page 35 ---
+
+--- Document Chunk 945 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 946 ---
+列车安全位置
+
+--- Document Chunk 947 ---
+列革长度
+
+--- Document Chunk 948 ---
+图5 列车安全位置示意图
+
+--- Document Chunk 949 ---
+|
+
+--- Document Chunk 950 ---
+1
+
+--- Document Chunk 951 ---
+5.4.3.2 应用层注册/注销请求
+
+--- Document Chunk 952 ---
+VOBC 满足注册/注销条件时 ,应重复发送该信息
+
+--- Document Chunk 953 ---
+VOBC 的带有“应用层注册/注销请求" 信息包的 GAL 包中,应不带
+
+--- Document Chunk 954 ---
+有“列车位置信息"包。
+
+--- Document Chunk 955 ---
+注册注销请求内容见表 12
+
+--- Document Chunk 956 ---
+表 12 ”注册注销请求
+
+--- Document Chunk 957 ---
+接口内容    字节长度             说 明          al 使用方式 |
+
+--- Document Chunk 958 ---
+0x55 ;注销诸求:0xCC
+
+--- Document Chunk 959 ---
+注册/注销请求           1                                                                  非安全1
+
+--- Document Chunk 960 ---
+转换注销:0x01”
+
+--- Document Chunk 961 ---
+和所有连接 ZC 注销:0x02
+
+--- Document Chunk 962 ---
+1             其他原内:0xFF
+
+--- Document Chunk 963 ---
+注册请求时 ,填写 0xFF
+
+--- Document Chunk 964 ---
+mm         2       0
+
+--- Document Chunk 965 ---
+fil] ZC RISEN Bw", hi Fey VOBC 未收到过 ZC 的信
+
+--- Document Chunk 966 ---
+息,故“注册信息包"中,GAL 包帧头中的“对方消息序列号" “收到上一条消
+
+--- Document Chunk 967 ---
+息时本方序列号"字段取值为默认值，ZC 收到此类*注册信息包"后,无法判
+
+--- Document Chunk 968 ---
+断该信息包是否超时,此时 ZC 应回复空 GAL 包(GAL 包帧头中"应用层数据
+
+--- Document Chunk 969 ---
+长度"为0,有旦无应用层数据) ,此空 CAL 包帧头中的“对方消息序列号"“收到
+
+--- Document Chunk 970 ---
+30
+
+--- Document Chunk 971 ---
+--- Page 36 ---
+
+--- Document Chunk 972 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 973 ---
+表 12 注册注销请求(续)
+
+--- Document Chunk 974 ---
+上一条消息时本方序列号"字段取值应根据收到的“注册信息包"项写有有
+
+--- Document Chunk 975 ---
+可用性,ZC 与 VOBC 建立安全连接后,ZC 未收到 VOBC 发送的
+
+--- Document Chunk 976 ---
+前,可周期发送空 GAL 包(此功能不强制要求) 。
+
+--- Document Chunk 977 ---
+VOBC 与 ZC 间的注册流程为:
+
+--- Document Chunk 978 ---
+a) VOBC 判断满足注册条
+
+--- Document Chunk 979 ---
+息包,其中注册/注销
+
+--- Document Chunk 980 ---
+该包为“注册         ;
+
+--- Document Chunk 981 ---
+b) VYOBC 开始发送“注册信息包"后,应持续发送,直至收到 ZC 发
+
+--- Document Chunk 982 ---
+向应
+
+--- Document Chunk 983 ---
+可
+
+--- Document Chunk 984 ---
+,向 ZC 发送“应用层注册/注销"信
+
+--- Document Chunk 985 ---
+字段取 机 为“注册请求”(下简称
+
+--- Document Chunk 986 ---
+送的“应用层注册/注销响应"信息包,且"注册/注销响应"字段
+
+--- Document Chunk 987 ---
+的取值为“注册成功”( 下4 简称该包为* 注册成功响应包”) 后，
+
+--- Document Chunk 988 ---
+停止发送*注册信息包” ,开始发送“列车位置信息"包;
+
+--- Document Chunk 989 ---
+c) 2C 收到 Y0BC 发送的 注册信息包”,且判断满足注册条件后，
+
+--- Document Chunk 990 ---
+nied   GFE aR mn ye” EL he BI} VOBC 发送的” oe
+
+--- Document Chunk 991 ---
+位置信息” “4, 方可发送“特殊控制报文"或“列车控制信息”
+
+--- Document Chunk 992 ---
+VOBC 与 ZC 间的注销流程为:
+
+--- Document Chunk 993 ---
+a) VOBC 判断满足注销条件后 ,应向 ZC 发送*应用层注册/注销”
+
+--- Document Chunk 994 ---
+信息包,其中注册/注销请求"字段取值为“注销请求"(下简
+
+--- Document Chunk 995 ---
+b) ZC 收到VOBC 发送的”   售息包”,且判断满足注销条件后，
+
+--- Document Chunk 996 ---
+应发送“应用层注册/注销响应"信息包,且”注册/注销响应"字
+
+--- Document Chunk 997 ---
+段的取值为“注销成功”(下简称该包为“注销成功响应包”) 。
+
+--- Document Chunk 998 ---
+c) ZC 开始发送*注销成功响应包"后,应持续发送,直至判断
+
+--- Document Chunk 999 ---
+VOBC 断开安全连接或判断通信超时。
+
+--- Document Chunk 1000 ---
+d) VOBC 开始发送*注销信息包"后,应不接受 ZC 发送的“注销成
+
+--- Document Chunk 1001 ---
+功响应包"之外的其他信息 ,并持续发送“注销信息包”,直至收
+
+--- Document Chunk 1002 ---
+到 ZC 发送的"注销成功响应包 "或判断通信超时。VOBC 收到
+
+--- Document Chunk 1003 ---
+ZC 发送的“注销成功响应包"后应主动断开安全连接。
+
+--- Document Chunk 1004 ---
+Fi
+
+--- Document Chunk 1005 ---
+31
+
+--- Document Chunk 1006 ---
+--- Page 37 ---
+
+--- Document Chunk 1007 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1008 ---
+fe ZC 间邹换过程中,完成切换后,YOBC 与接管 ZC 保持通信,与移灾
+
+--- Document Chunk 1009 ---
+ZC 断开通信时,向移交 ZC 发送的注销原内为”转换注销";YOBC 判断与连接的所有
+
+--- Document Chunk 1010 ---
+ZC 多震断开连接(含只与一个 ZC 连接的情况) ,则向所有 ZC 发送的注销原
+
+--- Document Chunk 1011 ---
+“和所有连接 ZC 注     其他情况下的注销,VOBC 向注销 ZC 发送的注销居
+
+--- Document Chunk 1012 ---
+他原因"”
+
+--- Document Chunk 1013 ---
+5. 4.3.3 VOBC 城市自定义帧
+
+--- Document Chunk 1014 ---
+白定义信         现各城市特有的互联互通相关功能。有具体内容
+
+--- Document Chunk 1015 ---
+在工程中根据     求约定,各厂商均应实现相应功能。VOBC Ski A
+
+--- Document Chunk 1016 ---
+表13 VOBC 城市自定义帧信息
+
+--- Document Chunk 1017 ---
+接呵内容         FE                       说     )
+
+--- Document Chunk 1018 ---
+信息定义           N       |          县体内容在丰程中约定
+
+--- Document Chunk 1019 ---
+5.4.3.4 VOBC 厂商自定义帧
+
+--- Document Chunk 1020 ---
+自定义信息,用于实现各厂商特有功能,各厂商分别定制，YOBC 判
+
+--- Document Chunk 1021 ---
+断通信的 ZC 与自身属于同一厂商时 ,方可发送厂商自定义帧。VOBC 厂
+
+--- Document Chunk 1022 ---
+商睛定义帧信息见表 14。
+
+--- Document Chunk 1023 ---
+#14 VOBC 厂商自定义帧信息
+
+--- Document Chunk 1024 ---
+接口内容     PW IRE            iW         |
+
+--- Document Chunk 1025 ---
+信息定义                 N                      其体内容由各三损分别定制
+
+--- Document Chunk 1026 ---
+5.5 折返流程说明
+
+--- Document Chunk 1027 ---
+折返流程分为首尾端 VOBC 共用安全连接与首尾端 VOBC 不共用安
+
+--- Document Chunk 1028 ---
+全连接两种情况。本节中 VOBCI 指换端前的车头 VOBC ,VOBC2 指换端
+
+--- Document Chunk 1029 ---
+前的车尾 VOBC,
+
+--- Document Chunk 1030 ---
+5.5.1 首尾VOBC 共用安全连接
+
+--- Document Chunk 1031 ---
+此种情况下,VOBC 在红蓝网上分别与 ZC 建立安全连接,元余消息
+
+--- Document Chunk 1032 ---
+在红蓝网上分别传输(红网 IP 对红网 中,蓝网IP 对蓝网IP)。首尾
+
+--- Document Chunk 1033 ---
+VOBC 共同使用这组安全连接,首尾 VOBC 共用一个 VID, ZC 不区分首
+
+--- Document Chunk 1034 ---
+32
+
+--- Document Chunk 1035 ---
+--- Page 38 ---
+
+--- Document Chunk 1036 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1037 ---
+折返过程如下:
+
+--- Document Chunk 1038 ---
+a) VOBC 与ZC 正常通信,向 ZC 发送 YOBC1 方向的“列车位置信
+
+--- Document Chunk 1039 ---
+d)
+
+--- Document Chunk 1040 ---
+5.5.2 BE VOB
+
+--- Document Chunk 1041 ---
+此种情况时车载
+
+--- Document Chunk 1042 ---
+息"包,ZC 向 VOBC 发送 VOBCI 方向的“列车控制信息"包，
+
+--- Document Chunk 1043 ---
+折返开始后,VOBC 应停止发送 VOBCL 方向的*列 车位置信息
+
+--- Document Chunk 1044 ---
+包,改为发送 VOBC2 方向的“列车位置信息"包,VOBC AZ RA
+
+--- Document Chunk 1045 ---
+列车换端过程中,列车安全包络不超出折返轨范围;
+
+--- Document Chunk 1046 ---
+ZC 根撕收到的 VOBC ”列车位置信息"包判断列车方向发生改
+
+--- Document Chunk 1047 ---
+杰且列车安全包络完全处于折返轨内,则认为列芋换端,开始
+
+--- Document Chunk 1048 ---
+向 VOBC 发送 VOB        本 A” fs
+
+--- Document Chunk 1049 ---
+F始据此控制
+
+--- Document Chunk 1050 ---
+列车， waif ,       IAAK安全前端一定距离
+
+--- Document Chunk 1051 ---
+Ce 0 0.5               工 va 的定) ,则 VOBC 应能
+
+--- Document Chunk 1052 ---
+iy ke VOBC 分别与 ZC
+
+--- Document Chunk 1053 ---
+连接  此时 VOBCI , VOBRg    ee Ze 这     Oy) fe fps de  on  “yor
+
+--- Document Chunk 1054 ---
+完成后，YOBC1 注销       如 VOBC2 的连接(与折返前相
+
+--- Document Chunk 1055 ---
+tt, 49 ZC i 0 2 P tb hk Ae’ FUR). BFE VOBC
+
+--- Document Chunk 1056 ---
+采用不同的 VID.
+
+--- Document Chunk 1057 ---
+折返流程如下:
+
+--- Document Chunk 1058 ---
+a)
+
+--- Document Chunk 1059 ---
+b)
+
+--- Document Chunk 1060 ---
+c)
+
+--- Document Chunk 1061 ---
+VOBCI 与 ZC 正常通信,向 ZC 发送本端"列车位置信息"包 ,ZC
+
+--- Document Chunk 1062 ---
+向 VOBC1 发送*列车控制信息"包。
+
+--- Document Chunk 1063 ---
+折返开始后，VOBC2 与 ZC    立安全连接,并发起注册 ,通
+
+--- Document Chunk 1064 ---
+建立后，VOBC2 判断列车停稳后向 ZC 发送本端*“列车位置信
+
+--- Document Chunk 1065 ---
+息"包 ,其中“折返状态"内容应为"AR 状态" ,VOBC 应保证列
+
+--- Document Chunk 1066 ---
+车的 端过程中 ,列车安全包络不超出折返轨范围。
+
+--- Document Chunk 1067 ---
+ZC 45 VOBC1, VOBC2 同时保持通信,向两 VOBC 发送的内
+
+--- Document Chunk 1068 ---
+33
+
+--- Document Chunk 1069 ---
+--- Page 39 ---
+
+--- Document Chunk 1070 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1071 ---
+34
+
+--- Document Chunk 1072 ---
+d)
+
+--- Document Chunk 1073 ---
+1) 各两 VOBC 分别发送该端的* 列车控制信息 "包;
+
+--- Document Chunk 1074 ---
+2) 向一端 VOBC 发送该端的“列车控制信息"包 ,向另一端发
+
+--- Document Chunk 1075 ---
+送"特殊控制报文"包,其中"紧急制动命令"字段取值应为
+
+--- Document Chunk 1076 ---
+“无命令"。
+
+--- Document Chunk 1077 ---
+ZC BAT VOBC 发送的“列车位置信息"包中的"激活端"与
+
+--- Document Chunk 1078 ---
+字段判断向两端发送的信息内   规则为:
+
+--- Document Chunk 1079 ---
+车位置信息"包中的"激活端   \均为"非激活
+
+--- Document Chunk 1080 ---
+‘it eee Z   POR TE Hh He 30”
+
+--- Document Chunk 1081 ---
+包中有且仅有
+
+--- Document Chunk 1082 ---
+发送"列车控制从
+
+--- Document Chunk 1083 ---
+7
+
+--- Document Chunk 1084 ---
+AY Ca Sa” 4
+
+--- Document Chunk 1085 ---
+了
+
+--- Document Chunk 1086 ---
+"包中的"激
+
+--- Document Chunk 1087 ---
+:若有且仅有
+
+--- Document Chunk 1088 ---
+列车
+
+--- Document Chunk 1089 ---
+态”,则向两端同时发送”“特 oe EMI" fa.
+
+--- Document Chunk 1090 ---
+1) 车载方应  确保 ZC 同时收到 VOBC1 端的“激活端"信息
+
+--- Document Chunk 1091 ---
+“激活跨",VOBC2 的“激活端"信息为“激活端”,且
+
+--- Document Chunk 1092 ---
+VOBC2 的"AR 状态"为"AR 状态" ;之后 YOBC1I 的”激活
+
+--- Document Chunk 1093 ---
+端" 信息方可变为"非激活端”,并可开始注销,YOBC1 应在
+
+--- Document Chunk 1094 ---
+VOBC2 的列车最大安全前端出清折返区成前向 ZC 发出注
+
+--- Document Chunk 1095 ---
+2) VOBC2 收到 ZC 发送的 VOBC2 方向的“列车控制信息"包
+
+--- Document Chunk 1096 ---
+之前,车载方应保证 VOBC1.VOBC2 发送的列车安全包络
+
+--- Document Chunk 1097 ---
+偏差不超过 20 cm。
+
+--- Document Chunk 1098 ---
+3) VOBC2 收到 VOBC2 方向的“列车控制信息"包后,开始据
+
+--- Document Chunk 1099 ---
+此控制列车 ,若移动授权终点超过换端后的最大安全前端
+
+--- Document Chunk 1100 ---
+--- Page 40 ---
+
+--- Document Chunk 1101 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1102 ---
+一定距离(和暂定 0.5 m,可配置,具体数值在工程中约定) ，
+
+--- Document Chunk 1103 ---
+则 VOBC2 应能够保持 CBTC 等级。
+
+--- Document Chunk 1104 ---
+换端完成后, VOBC1 向 ZC 发送注销请求,断开与 ZC 的
+
+--- Document Chunk 1105 ---
+车载方应确保, VOBC1 与 ZC 注销完成或断开通信后，
+
+--- Document Chunk 1106 ---
+VOBC2 向 ZC 发送的本端列车位置信息中“折返状态"内容
+
+--- Document Chunk 1107 ---
+方可改为"非 AR 状态” 。
+
+--- Document Chunk 1108 ---
+4
+
+--- Document Chunk 1109 ---
+5
+
+--- Document Chunk 1110 ---
+6 VOBC -ATS 报文规范
+
+--- Document Chunk 1111 ---
+6.1 接口连接方式
+
+--- Document Chunk 1112 ---
+6.1.1 物理接口
+
+--- Document Chunk 1113 ---
+VOBC 与 ATS 之问采用完余网络进行通信。ATS 与 VOBC 之间的网
+
+--- Document Chunk 1114 ---
+络拓扑结构采用A网-A网B网-B网两个链路。
+
+--- Document Chunk 1115 ---
+6. 1.2 安全通信协议
+
+--- Document Chunk 1116 ---
+ATS 与 VOBC 之间通信可采用 RSSP - Tak RSSP - 工安全通信协
+
+--- Document Chunk 1117 ---
+议。RSSP - 下安全通信协议的具体要求参见运基信号[2010]267 Fe
+
+--- Document Chunk 1118 ---
+fFCRSSP - 工铁路信号安全通信协议》;RSSP - 工安全通信协议的具体
+
+--- Document Chunk 1119 ---
+要求参见运基信号(2010]j267 号文件(RSSP - 工铁路信号安全通信协
+
+--- Document Chunk 1120 ---
+i). HH) RSSP - 工安全通信协议的前提条件为使用LTE - M 通信且
+
+--- Document Chunk 1121 ---
+LTE -M 具备空口加密措施可防止伪装 .CBTC 信号系统符合三级等保要
+
+--- Document Chunk 1122 ---
+求。在此前提条件下 ,宜采用 RSSP - 工安全通信协议。
+
+--- Document Chunk 1123 ---
+如图6 Spas , FL SAI/MASL/ALE 三层,遵循 RSSP - 开标准规定。
+
+--- Document Chunk 1124 ---
+TCP 及 IP 层使用标准 TCP/IP 协议栈。
+
+--- Document Chunk 1125 ---
+MAC 及PHY 层取决于不同的网络种类,无线网使用无线标准协议，
+
+--- Document Chunk 1126 ---
+地面网使用以太网协议(IEEE 802.3) 。
+
+--- Document Chunk 1127 ---
+如图7 所示,其 RSSP- 工协议遵循 RSSP - 工你准规定。
+
+--- Document Chunk 1128 ---
+UDP 层使用标准 UDP 协议栈。
+
+--- Document Chunk 1129 ---
+MAC 及PHY 层取决于不同的网络种类 ,无线网使用无线标准协议 ，
+
+--- Document Chunk 1130 ---
+地面网使用以太网协议(IEEE 802.3) 。
+
+--- Document Chunk 1131 ---
+35
+
+--- Document Chunk 1132 ---
+--- Page 41 ---
+
+--- Document Chunk 1133 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 1134 ---
+Bridge
+
+--- Document Chunk 1135 ---
+802.11-802.3
+
+--- Document Chunk 1136 ---
+Bridge
+
+--- Document Chunk 1137 ---
+802.11-802.3
+
+--- Document Chunk 1138 ---
+图6 无线安全通信协议 RSSP - THR
+
+--- Document Chunk 1139 ---
+VOBC                                                               ATS
+
+--- Document Chunk 1140 ---
+Bridge
+
+--- Document Chunk 1141 ---
+802.11-802.3
+
+--- Document Chunk 1142 ---
+Bridge
+
+--- Document Chunk 1143 ---
+802.11-802.3
+
+--- Document Chunk 1144 ---
+图7 无线安全通信协议 RSSP -工构架
+
+--- Document Chunk 1145 ---
+36
+
+--- Document Chunk 1146 ---
+--- Page 42 ---
+
+--- Document Chunk 1147 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1148 ---
+6.1.3 动态交互描述
+
+--- Document Chunk 1149 ---
+6.1.3.1 通信应用层消息包定义
+
+--- Document Chunk 1150 ---
+将ATS — VOBC 间每个周期震要交互的应用信息通过组成通用消息
+
+--- Document Chunk 1151 ---
+包进行传输,如图8 所示。
+
+--- Document Chunk 1152 ---
+应用层信息包 | | 应用层信息包 | .… | 点用层信息包
+
+--- Document Chunk 1153 ---
+kl                     -                          kn
+
+--- Document Chunk 1154 ---
+6.1.3.2 信息包格式定  OCWATIONo
+
+--- Document Chunk 1155 ---
+ATS/VOBC 4% YEP RIT BIS Th过
+
+--- Document Chunk 1156 ---
+bei) 4 A 0 FA fia!
+
+--- Document Chunk 1157 ---
+4不
+
+--- Document Chunk 1158 ---
+含 ATS 与 VOBC 2 ii
+
+--- Document Chunk 1159 ---
+每个通用消息鲁，
+
+--- Document Chunk 1160 ---
+超
+
+--- Document Chunk 1161 ---
+接口信息
+
+--- Document Chunk 1162 ---
+类天             2
+
+--- Document Chunk 1163 ---
+sue     :       wD      4字节 | 发送方设备 ID
+
+--- Document Chunk 1164 ---
+6
+
+--- Document Chunk 1165 ---
+7
+
+--- Document Chunk 1166 ---
+接收方        8                           二
+
+--- Document Chunk 1167 ---
+六     4) ID    4       设备ID
+
+--- Document Chunk 1168 ---
+标识信息 | 9    目的 ID    字节 | 接收方设备
+
+--- Document Chunk 1169 ---
+37
+
+--- Document Chunk 1170 ---
+--- Page 43 ---
+
+--- Document Chunk 1171 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1172 ---
+表15 通用信息包格式定义(续)
+
+--- Document Chunk 1173 ---
+a  字段 | tem   信息位定义及说明
+
+--- Document Chunk 1174 ---
+11 =
+
+--- Document Chunk 1175 ---
+TS 与 VOBC
+
+--- Document Chunk 1176 ---
+数据版本校验 | 12  acgey | ATS OP ANE Pa, ATS 与
+
+--- Document Chunk 1177 ---
+信息”  13 | 一  nl    VOBC 间的数据版本校验信息
+
+--- Document Chunk 1178 ---
+14
+
+--- Document Chunk 1179 ---
+15
+
+--- Document Chunk 1180 ---
+本方消息  16        gee | 记录发送本条消息时,本方
+
+--- Document Chunk 1181 ---
+Fea B  0       二|的周期计数
+
+--- Document Chunk 1182 ---
+18
+
+--- Document Chunk 1183 ---
+19
+
+--- Document Chunk 1184 ---
+3 eH Y)                      HS fl (LIM, Ye ems
+
+--- Document Chunk 1185 ---
+20
+
+--- Document Chunk 1186 ---
+21
+
+--- Document Chunk 1187 ---
+rime | 2            记灵收到对方上一条消息中
+
+--- Document Chunk 1188 ---
+           4字节 | 的对方消息库列号
+
+--- Document Chunk 1189 ---
+   23           默认值:OxFFFFFFFF'
+
+--- Document Chunk 1190 ---
+24
+
+--- Document Chunk 1191 ---
+ 25
+
+--- Document Chunk 1192 ---
+记录收到对方上一条消息
+
+--- Document Chunk 1193 ---
+长度        31
+
+--- Document Chunk 1194 ---
+木方“上|一-一               4字节 |时,本方的周期计数
+
+--- Document Chunk 1195 ---
+3     27                         默认值:0xFFFFFFFF:
+
+--- Document Chunk 1196 ---
+28
+
+--- Document Chunk 1197 ---
+sy     .          sy          a    VOBC - ATS 的协议版木,本
+
+--- Document Chunk 1198 ---
+协议版本号    29    协议版本号    1 字节  规范定义为20
+
+--- Document Chunk 1199 ---
+训用层数据   30                   “应用层   ”   oa oe AY
+
+--- Document Chunk 1200 ---
+应用层数据      应用层数据长度 | 2 字节   应用层数据"报文结束的字
+
+--- Document Chunk 1201 ---
+38
+
+--- Document Chunk 1202 ---
+--- Page 44 ---
+
+--- Document Chunk 1203 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1204 ---
+表15 通用信息包格式定义(续)
+
+--- Document Chunk 1205 ---
+信息位定义及说明
+
+--- Document Chunk 1206 ---
+参见表 16 格式定义
+
+--- Document Chunk 1207 ---
+"1. 数据版本校验信息取值规则在工程阶段约定;
+
+--- Document Chunk 1208 ---
+2. ZC/ATS 判断“数据版本校验信息"或“协议版本号"字段校验不通过时,应进
+
+--- Document Chunk 1209 ---
+行丢包或断开通信和处理。
+
+--- Document Chunk 1210 ---
+"序列号有效值为1 ~ (2? - 1) 。发送方应保证生成两包信息包时,两包信息报
+
+--- Document Chunk 1211 ---
+中的“本方消息序列号"字段的差值与“通信周期"相乘等于生成两包消息的时
+
+--- Document Chunk 1212 ---
+间间隔。
+
+--- Document Chunk 1213 ---
+“当未收到对方消息时 ,填写默认值。
+
+--- Document Chunk 1214 ---
+表16 应用层信息格式定义
+
+--- Document Chunk 1215 ---
+信息域定义      字节编号
+
+--- Document Chunk 1216 ---
+报文长度
+
+--- Document Chunk 1217 ---
+(报文类型 ~ 报文结束)
+
+--- Document Chunk 1218 ---
+定义某一条应用
+
+--- Document Chunk 1219 ---
+信息的标识
+
+--- Document Chunk 1220 ---
+we
+
+--- Document Chunk 1221 ---
+按照报文格式定义的
+
+--- Document Chunk 1222 ---
+报文具体内容
+
+--- Document Chunk 1223 ---
+6.1.3.3 通信状态管理
+
+--- Document Chunk 1224 ---
+通信状态管理应包括如下内容:
+
+--- Document Chunk 1225 ---
+a) ATS 应对接收到的 VOBC 的应用消息进行合法性检查 ,若检查
+
+--- Document Chunk 1226 ---
+未通过,认为本周期未收到对方的应用信息或主动断开安全连
+
+--- Document Chunk 1227 ---
+接,并记录报警信息。具体检查方式如下:
+
+--- Document Chunk 1228 ---
+39
+
+--- Document Chunk 1229 ---
+--- Page 45 ---
+
+--- Document Chunk 1230 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1231 ---
+40
+
+--- Document Chunk 1232 ---
+b)
+
+--- Document Chunk 1233 ---
+c)
+
+--- Document Chunk 1234 ---
+d)
+
+--- Document Chunk 1235 ---
+1) 消息内容的一致性检查:包括信息的字段合法性检查,字段
+
+--- Document Chunk 1236 ---
+组合合法性检查,以及信息完整性检查;
+
+--- Document Chunk 1237 ---
+2) 通用消息包消息所应包含的信息的完整性;
+
+--- Document Chunk 1238 ---
+3) 其他逻辑检查。
+
+--- Document Chunk 1239 ---
+ATS 和 VOBC 应能分别对通信连接状态进行判断(指应用层根
+
+--- Document Chunk 1240 ---
+据 CAL 包头中字段进行判断,而非安全通信协议层进行的判
+
+--- Document Chunk 1241 ---
+断) :
+
+--- Document Chunk 1242 ---
+1) ATS 认为与 VOBC 通信中断的超时时间定义为 TAtsTimeout ,
+
+--- Document Chunk 1243 ---
+可配置 ,推荐值:6 s;
+
+--- Document Chunk 1244 ---
+VOBC 认为与 ATS 通信中断的超时时间定义为 TVobcTimeout，
+
+--- Document Chunk 1245 ---
+可配置 ,推荐值:6 s;
+
+--- Document Chunk 1246 ---
+3) 若ATS 在 TAtsTimeout 超时时间内,没有接收到来自VOBC
+
+--- Document Chunk 1247 ---
+的任何消息,则 ATS 应认为与 VYOBC 的通信中断;
+
+--- Document Chunk 1248 ---
+若 ATS 判断收到 VOBC 的 GAL 包延迟已经达到 TAtsTimeout,
+
+--- Document Chunk 1249 ---
+则 ATS 应丢弃此 CAL 包或认为与 VOBC 通信中断;
+
+--- Document Chunk 1250 ---
+若 VOBC 在 TVobcTimeout 超时时间内,没有接收到来自
+
+--- Document Chunk 1251 ---
+ATS 的任何消息,则 VOBC 应认为与 ATS 的通信中断;
+
+--- Document Chunk 1252 ---
+若 VOBC 判断收到 ATS 的 CAL 包延迟已经达到 TVobcTimeout ,
+
+--- Document Chunk 1253 ---
+则 VOBC 应丢弃此 CAL 包或认为与 ATS 通信中断;
+
+--- Document Chunk 1254 ---
+7) 通信中断的情况下 ,应生成报警信息;
+
+--- Document Chunk 1255 ---
+8) 互联互通线网中,各厂商的 VOBC 与各条线路上的 ATS 的
+
+--- Document Chunk 1256 ---
+通信超时时间应一致 ,消息有效期时间应一致
+
+--- Document Chunk 1257 ---
+列车在两 ATS 间移交时, VOBC 判断列车最小安全后端越过
+
+--- Document Chunk 1258 ---
+ATS 边界点后 ,应与移交 ATS 断开通信。
+
+--- Document Chunk 1259 ---
+当使用安全通信协议 RSSP - 工时,VOBC 判断与 ATS 断开通
+
+--- Document Chunk 1260 ---
+信,且不再与该 ATS 重新建立通信后 ,应断开与该 ATS 的 TCP/
+
+--- Document Chunk 1261 ---
+IP 连接;当使用安全通信协议 RSSP - 工时,VOBC 判断与 ATS
+
+--- Document Chunk 1262 ---
+断开通信,且不再与该 ATS 重新建立通信后 ,应断开与该 ATS
+
+--- Document Chunk 1263 ---
+的 UDP 连接。
+
+--- Document Chunk 1264 ---
+LY
+
+--- Document Chunk 1265 ---
+4
+
+--- Document Chunk 1266 ---
+wr
+
+--- Document Chunk 1267 ---
+5
+
+--- Document Chunk 1268 ---
+LY
+
+--- Document Chunk 1269 ---
+6
+
+--- Document Chunk 1270 ---
+LY
+
+--- Document Chunk 1271 ---
+--- Page 46 ---
+
+--- Document Chunk 1272 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 1273 ---
+6.1.4 通信故障处理
+
+--- Document Chunk 1274 ---
+EN50159:2010 中提及的 7 种开放式网络存在的安全通信风险均由安全
+
+--- Document Chunk 1275 ---
+通信协议进行防护,风险包括:重复删除插入\重排序损坏、伪装延迟。车
+
+--- Document Chunk 1276 ---
+地无线通信双方(ATS - VOBC )应用层的通信故障处理分为如下几种情况:
+
+--- Document Chunk 1277 ---
+a) ATS 和VOBC 对于接收到的重复 .逆序的应用信息,采用直接丢
+
+--- Document Chunk 1278 ---
+弃的方式进行处理,并且认为本周期未收到对等方的应用
+
+--- Document Chunk 1279 ---
+信息;
+
+--- Document Chunk 1280 ---
+b) 通信中断的情况下处理:若 ATS/VOBC 认为与对等方应用层通
+
+--- Document Chunk 1281 ---
+信超时中断 ,采取主动释放安全连接的方式进行处理。
+
+--- Document Chunk 1282 ---
+6.2 通信体系结构
+
+--- Document Chunk 1283 ---
+6.2.1 通信模型
+
+--- Document Chunk 1284 ---
+ATS 与 VOBC 通
+
+--- Document Chunk 1285 ---
+图9 ATS 与VOBC 通信协议模型
+
+--- Document Chunk 1286 ---
+6.2.2 通信机制
+
+--- Document Chunk 1287 ---
+通信机制包括如下内容:
+
+--- Document Chunk 1288 ---
+a) (fb VOBC 发起安全连接的建立过程;
+
+--- Document Chunk 1289 ---
+41
+
+--- Document Chunk 1290 ---
+--- Page 47 ---
+
+--- Document Chunk 1291 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 1292 ---
+b) ATS 与 VOBC 采用周期发送和消息触发的方式进行通信，
+
+--- Document Chunk 1293 ---
+c) 通信双方均采用大端字节序进行数据传输;
+
+--- Document Chunk 1294 ---
+d) ATS 5 VOBC 均应对接收的应用信息进行判断和逻辑运算 。
+
+--- Document Chunk 1295 ---
+6.3 接口数据描述
+
+--- Document Chunk 1296 ---
+6.3.1 数据类型定义
+
+--- Document Chunk 1297 ---
+本节对 ATS 与 VOBC 之癌通信的所有应用信息类型及其含义 ,发送
+
+--- Document Chunk 1298 ---
+方向 .长度范围 ,发送方式(周期/非周期 )进行定义,见表 17。
+
+--- Document Chunk 1299 ---
+#17 ATS 5 VOBC 通信的应用层信息定义
+
+--- Document Chunk 1300 ---
+信息包名     发送方向 |总长度(字节) | 发送方式
+
+--- Document Chunk 1301 ---
+an          meee
+
+--- Document Chunk 1302 ---
+ATS 心跳信息帧        ATS-，VOBC        4+8             周期
+
+--- Document Chunk 1303 ---
+0x0201
+
+--- Document Chunk 1304 ---
+0x0203           ATO 命令信息帧      | ATS_VOBC|          4                周期
+
+--- Document Chunk 1305 ---
+0x0205          ATS 城市丘定义帧| ATS» VOBC           4               非周期
+
+--- Document Chunk 1306 ---
+0x0207        ATS JO BG TE Xo      ATS—VOBC         4             AE JA} S0
+
+--- Document Chunk 1307 ---
+0x0202                        VOBC—» ATS       4          周 by
+
+--- Document Chunk 1308 ---
+0x0204                         VOBC—> ATS       4           周期
+
+--- Document Chunk 1309 ---
+0x0206        车载设备报等信息帧 |YOBC一 ATS           4                周期
+
+--- Document Chunk 1310 ---
+0x0208 | 车载设备日检状态        iii | YOBC一 ATS           4          | ARIA
+
+--- Document Chunk 1311 ---
+0x020A        VOBC 城市自定义帧 | VOBC—>  As|         4         |     eA WY)
+
+--- Document Chunk 1312 ---
+0x020C     VOBC 厂商魏定义帧 [YoBc— ATS      4         非周期   |
+
+--- Document Chunk 1313 ---
+6.3.2 应用信息定义
+
+--- Document Chunk 1314 ---
+6. 3.2.1 概述
+
+--- Document Chunk 1315 ---
+本节中的”非法"值:正常通信时发送方不可能发送的非法到值。接
+
+--- Document Chunk 1316 ---
+收方收到 GAL 包中的应用信息帧中存在"非法"值时,应判断本 GAL 包
+
+--- Document Chunk 1317 ---
+数据有误 ,丢弃本 CAL 包 ,并认为本周期未收到数据。
+
+--- Document Chunk 1318 ---
+本节中的"默认"值:
+
+--- Document Chunk 1319 ---
+42
+
+--- Document Chunk 1320 ---
+--- Page 48 ---
+
+--- Document Chunk 1321 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1322 ---
+(a)针对具体工程中不实现的功能,通信双方可在具体工程中约定，
+
+--- Document Chunk 1323 ---
+ANF BLU EL ARIK BRU AL
+
+--- Document Chunk 1324 ---
+(b)设备在初始化完成前,无法确定状态时,相关字段取值发送“默
+
+--- Document Chunk 1325 ---
+认值” 。接收方收到“默认”值后 ,应认为信息有效 ,不进行处理。
+
+--- Document Chunk 1326 ---
+本节中涉及“上行" “下行"的方向定义,均采用运营方向规定的上
+
+--- Document Chunk 1327 ---
+下行。跨线时 ,两条线路上下行运营方向定义不一致时,发送上下行方向
+
+--- Document Chunk 1328 ---
+信息的规则确定为:发送方按照自身所属线路(ATS 指所属线路,VOBC
+
+--- Document Chunk 1329 ---
+指最大安全前端所在线路) 上下行定义进行发送,由接收方适配处理。
+
+--- Document Chunk 1330 ---
+本节中的*预留"字段,发送方统一起0 ,接收方可不对预留字段进行
+
+--- Document Chunk 1331 ---
+本节中的轨道区段内的偏移量 ,基准点均为车载电子地网中 ,该轨道
+
+--- Document Chunk 1332 ---
+区段沿车载电子地图上行方向的起点。
+
+--- Document Chunk 1333 ---
+6.3.2.2 ATS 向VOBC 发送数据
+
+--- Document Chunk 1334 ---
+6.3.2.2.1 ATS心跳信息帧
+
+--- Document Chunk 1335 ---
+信息周期发送 ,用来维持 ATS 设备和 VOBC 间通信链路的连续性。
+
+--- Document Chunk 1336 ---
+ATS 心跳信息帧见表 18。
+
+--- Document Chunk 1337 ---
+表18 ATS 心跳信息帧
+
+--- Document Chunk 1338 ---
+接口内容 | 字节长度 |                   说 明
+
+--- Document Chunk 1339 ---
+-~
+
+--- Document Chunk 1340 ---
+年         1     |有效范恩11 ~99(表示 2011 ~ 2099 年) ,超出范围无效
+
+--- Document Chunk 1341 ---
+加       1                有有效范辕1 12 ,是出范围无效
+
+--- Document Chunk 1342 ---
+日         1                  有效范围1 31 LAK HHT IEA
+
+--- Document Chunk 1343 ---
+7st     1          "APACE O = 23, LIAL
+
+--- Document Chunk 1344 ---
+分钟       1              有效荡围0- 59 ,超出范围无效
+
+--- Document Chunk 1345 ---
+Bt       1               有效范围0 ~ 59 ,超出范围无效
+
+--- Document Chunk 1346 ---
+注:时钟信息定义为当地时间
+
+--- Document Chunk 1347 ---
+6.3.2.2.2 ATO 命令信息帧
+
+--- Document Chunk 1348 ---
+当 ATS 设备所管辖范围内有被控列车，ATS 应周期向该 VOBC 发送
+
+--- Document Chunk 1349 ---
+43
+
+--- Document Chunk 1350 ---
+--- Page 49 ---
+
+--- Document Chunk 1351 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 1352 ---
+ATO 命令信息.ATO 命令信息帧内容见表 19。
+
+--- Document Chunk 1353 ---
+#19 ATO 命令信息帧
+
+--- Document Chunk 1354 ---
+接口内容   字节长度       说 明
+
+--- Document Chunk 1355 ---
+00 ~ 65 534 有效
+
+--- Document Chunk 1356 ---
+WRB S7 BS     |    2       默认值:0xFFFF
+
+--- Document Chunk 1357 ---
+列车为非计划车时 ,发送默认值
+
+--- Document Chunk 1358 ---
+VOBC 肥大安全前端所在 ZC 管连区域的下一
+
+--- Document Chunk 1359 ---
+个ZCID,“最大安全前端"的定义在只体工各
+
+--- Document Chunk 1360 ---
+项目中明确
+
+--- Document Chunk 1361 ---
+默认值为0x00000000
+
+--- Document Chunk 1362 ---
+下一ZC 1D"           4
+
+--- Document Chunk 1363 ---
+VOBC 爬大安全前端所在 CU 管辖区域的下一
+
+--- Document Chunk 1364 ---
+下一 CLID*         4     个 CHD
+
+--- Document Chunk 1365 ---
+默认值为 0x00000000
+
+--- Document Chunk 1366 ---
+VOBC 最大安全前端所在 ATS 管刍区域的下
+
+--- Document Chunk 1367 ---
+下一 ATSID”             4        一个 ATSID
+
+--- Document Chunk 1368 ---
+默认值为 0x00000000
+
+--- Document Chunk 1369 ---
+is)
+
+--- Document Chunk 1370 ---
+AEA IIT Jas ES
+
+--- Document Chunk 1371 ---
+001 ~ 999 有有效,超出范围无效
+
+--- Document Chunk 1372 ---
+车组号          2        “车组所属线路号”+“车组怠"在全线网内
+
+--- Document Chunk 1373 ---
+为唯一你识
+
+--- Document Chunk 1374 ---
+列车始发站线路编号， 全网统 -慰识
+
+--- Document Chunk 1375 ---
+WBS             >         默认值:0xFFFF
+
+--- Document Chunk 1376 ---
+hese               0001 ~ 9999 有效,超出范围无效,0000 为默
+
+--- Document Chunk 1377 ---
+车次号               2
+
+--- Document Chunk 1378 ---
+认值
+
+--- Document Chunk 1379 ---
+目的地线路编号 ,同线路编号
+
+--- Document Chunk 1380 ---
+目的地线路号          2        默认值:O0xFFFF
+
+--- Document Chunk 1381 ---
+列车无目的地号时 ,发送默认值
+
+--- Document Chunk 1382 ---
+44
+
+--- Document Chunk 1383 ---
+--- Page 50 ---
+
+--- Document Chunk 1384 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 1385 ---
+#19 ATO 命令信息帧(续)
+
+--- Document Chunk 1386 ---
+PENAL        字节长度                     说     明
+
+--- Document Chunk 1387 ---
+列车运行计划中列车运行的终点。用 ASCIL
+
+--- Document Chunk 1388 ---
+码表示,世多4个 ASCI 码,低于4个,高位使用
+
+--- Document Chunk 1389 ---
+o        空格补齐
+
+--- Document Chunk 1390 ---
+日的地号            4        默认值:OxFFFFFFFF
+
+--- Document Chunk 1391 ---
+列车为非计划车时,发送默认值
+
+--- Document Chunk 1392 ---
+具体定义方式在工程中明确
+
+--- Document Chunk 1393 ---
+列车运行计划中 ,列车的运行方向
+
+--- Document Chunk 1394 ---
+计划运行方向          1          上行:0x55; 下行:0xAA;默认:OxFF;甚他，
+
+--- Document Chunk 1395 ---
+跳停站台 ID"
+
+--- Document Chunk 1396 ---
+:    PAGE为站台 ID ,跳倍站台只针
+
+--- Document Chunk 1397 ---
+vy  SN 下一站不跳侣时取代
+
+--- Document Chunk 1398 ---
+到站站人台 ID"
+
+--- Document Chunk 1399 ---
+下 -你车站台 ID"
+
+--- Document Chunk 1400 ---
+站停时间         2     2 ~65 534
+
+--- Document Chunk 1401 ---
+默认仁:OxFFTFT
+
+--- Document Chunk 1402 ---
+其他非法
+
+--- Document Chunk 1403 ---
+下一站跳停:0x55           |
+
+--- Document Chunk 1404 ---
+ve Bik Le fm AN.           下一站无跳停命令/取消下一站跳停:0xAA
+
+--- Document Chunk 1405 ---
+下        )       默认值:OxFF
+
+--- Document Chunk 1406 ---
+其他非法
+
+--- Document Chunk 1407 ---
+运行等级或区间运行时间( 发车到下一站停
+
+--- Document Chunk 1408 ---
+区间运行调监命令     2     车) ,根据业主需求确定, 在互联互通线网中应
+
+--- Document Chunk 1409 ---
+统一,如果区问运行调整命令为默认值,则按
+
+--- Document Chunk 1410 ---
+VOBC 约定的默认运行曲线运行
+
+--- Document Chunk 1411 ---
+45
+
+--- Document Chunk 1412 ---
+--- Page 51 ---
+
+--- Document Chunk 1413 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1414 ---
+表 19 ATO 命令信息帧(续)
+
+--- Document Chunk 1415 ---
+字节长度 |        说
+
+--- Document Chunk 1416 ---
+扣车有效:0x55
+
+--- Document Chunk 1417 ---
+扣车取消,无扣车:0xAA
+
+--- Document Chunk 1418 ---
+默认值:0xFF
+
+--- Document Chunk 1419 ---
+其他非法
+
+--- Document Chunk 1420 ---
+扣车站台 ID
+
+--- Document Chunk 1421 ---
+默认值 :0x00000000
+
+--- Document Chunk 1422 ---
+若本站扣车,则发送本站 JD;若本站不扣车或
+
+--- Document Chunk 1423 ---
+取消本站扣车,则发送默认值
+
+--- Document Chunk 1424 ---
+JE A UE AT TTB
+
+--- Document Chunk 1425 ---
+站前折返 0x55
+
+--- Document Chunk 1426 ---
+有人站后折返 :0xCC
+
+--- Document Chunk 1427 ---
+无人自动折返:0xAA
+
+--- Document Chunk 1428 ---
+不折返:0x33
+
+--- Document Chunk 1429 ---
+OMI OxFF
+
+--- Document Chunk 1430 ---
+4m 424i IDS     |    4
+
+--- Document Chunk 1431 ---
+Je APE AT [ol BE. FLEE 0555 5 AIL BE NAA ; Ih
+
+--- Document Chunk 1432 ---
+认值:0xFF
+
+--- Document Chunk 1433 ---
+JP Kt |
+
+--- Document Chunk 1434 ---
+开左门,之后关左门:0x55
+
+--- Document Chunk 1435 ---
+开在门,之后关在门:0xCC
+
+--- Document Chunk 1436 ---
+同时开双侧门 ,之后同时关双侧门:0xAA
+
+--- Document Chunk 1437 ---
+| 先开左门再开厂门之后同时关双侧门:0x11
+
+--- Document Chunk 1438 ---
+(开门问隔在具体工程项目中确认5)
+
+--- Document Chunk 1439 ---
+先开右门再开左门之后同时关双侧门:0x22
+
+--- Document Chunk 1440 ---
+门控策略          1       关双侧门:0x88;
+
+--- Document Chunk 1441 ---
+先开左门再关左门直开右门再关右门:0x33;
+
+--- Document Chunk 1442 ---
+先开有有门圭关布门再开左门再关左门:0x44;
+
+--- Document Chunk 1443 ---
+默认值:0xFF
+
+--- Document Chunk 1444 ---
+站台为双侧门时,发送门控策略 ,单侧门时发
+
+--- Document Chunk 1445 ---
+回段指泵”                        i
+
+--- Document Chunk 1446 ---
+送默认值
+
+--- Document Chunk 1447 ---
+左右门定义为按照沿列车进站方向的左、
+
+--- Document Chunk 1448 ---
+Fit
+
+--- Document Chunk 1449 ---
+46
+
+--- Document Chunk 1450 ---
+--- Page 52 ---
+
+--- Document Chunk 1451 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 1452 ---
+表19 ATO 命令信息帧(续)
+
+--- Document Chunk 1453 ---
+| Bat  | 4          _|
+
+--- Document Chunk 1454 ---
+“B= ZC/CI/ATSID 信息,对于计划列车,ATS 按照列车运行计划查找列车最
+
+--- Document Chunk 1455 ---
+大安全前端所在 ZC/CI/ATS ft} F — 4 ZC/CI/ATS, Jf [a] VOBC 发送;对于非
+
+--- Document Chunk 1456 ---
+计划列车,ATS 发送默认值
+
+--- Document Chunk 1457 ---
+“ATS 向 VOBC 更新"到站站台 ID"、”
+
+--- Document Chunk 1458 ---
+一站跳倍命令        时间”区间                   、
+
+--- Document Chunk 1459 ---
+fife ID” BREEN FE ID" “下    B        下一站跳停命令”、
+
+--- Document Chunk 1460 ---
+“区间运行调整命令"字段,ATS 收到 VOBC 在站台  由
+
+--- Document Chunk 1461 ---
+中的“列车从             Bede ft         FEE” CF fal
+
+--- Document Chunk 1462 ---
+BS” )叶,更新为下一站/下一区间信    & ATS 林收到 VOBC 机 该站发出
+
+--- Document Chunk 1463 ---
+    ,则 fi A ATS Aiwa  eal a ATS 应保证:ATS 判断列车
+
+--- Document Chunk 1464 ---
+全前端离开站人台轨道区段的
+
+--- Document Chunk 1465 ---
+i eats 收到 YOBC
+
+--- Document Chunk 1466 ---
+Sty" HRS
+
+--- Document Chunk 1467 ---
+SA ITT Jy 30s, CET AE Ae Sh   ‘   1  送 30 s;ATS 收到
+
+--- Document Chunk 1468 ---
+时间
+
+--- Document Chunk 1469 ---
+3. ATO 判断满足跳停条件时，  应响应区| ia) A ATO 跳停全 令 > ait 命令.
+
+--- Document Chunk 1470 ---
+4. 下 站站台是列车运行路径上的下一个站台,如果有有跳倍站台,则和跳停站
+
+--- Document Chunk 1471 ---
+一致、 再则和下一 停站站台一致
+
+--- Document Chunk 1472 ---
+ATS 边界,前方站台属于接管线路管辖范围时，
+
+--- Document Chunk 1473 ---
+ATO 8H dr OIE 更新时机见附录 A 示例
+
+--- Document Chunk 1474 ---
+“1. ATS 应提供设置/取消扣车命令的操作-
+
+--- Document Chunk 1475 ---
+(1) 对单个站台的设置/取消扣车;
+
+--- Document Chunk 1476 ---
+(2) 对全线站台的取消扣车;
+
+--- Document Chunk 1477 ---
+(3)一次性对同方向多个站台的设置/取消扣车。
+
+--- Document Chunk 1478 ---
+. 中心和车站均具备设置/路消扣车功能。 ATS 应区分显示中心 .车站的设
+
+--- Document Chunk 1479 ---
+置的扣车命令。中心取消扣车操作只能取消由中心设置的扣车;车站取消
+
+--- Document Chunk 1480 ---
+te
+
+--- Document Chunk 1481 ---
+扣车操作只能取消由车站设置的扣车;中心与车站通信故障时,车站可强
+
+--- Document Chunk 1482 ---
+|       制取消中心设置的扣车。                                      _|
+
+--- Document Chunk 1483 ---
+47
+
+--- Document Chunk 1484 ---
+nv
+
+--- Document Chunk 1485 ---
+--- Page 53 ---
+
+--- Document Chunk 1486 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1487 ---
+表19 ATO 命令信息蚌(续)
+
+--- Document Chunk 1488 ---
+8.
+
+--- Document Chunk 1489 ---
+配置此功能，若
+
+--- Document Chunk 1490 ---
+行折返提丰
+
+--- Document Chunk 1491 ---
+列车计 划， 在计划要进行折返的们
+
+--- Document Chunk 1492 ---
+1.
+
+--- Document Chunk 1493 ---
+PWN
+
+--- Document Chunk 1494 ---
+SL, 当列车最大安全
+
+--- Document Chunk 1495 ---
+:调度人员可随时设置/取消扣车。
+
+--- Document Chunk 1496 ---
+. 设置/取消扣车命令后,ATS 立即向 CI 发送扣车命令
+
+--- Document Chunk 1497 ---
+- VOBC 收到 ATS 发送
+
+--- Document Chunk 1498 ---
+. 对于非计划列车 ,列车最大安全前端在
+
+--- Document Chunk 1499 ---
+.列车最大安全前端不在站台内,且不在折返轨内时,ATS 发送默认值
+
+--- Document Chunk 1500 ---
+.对于与 ATS 无通信的列车,VOBC 恨据车载电子地图存储区段属性显示折
+
+--- Document Chunk 1501 ---
+当站台处于跳停状态时,对该站台设置扣车命令,则扣车命令有效 ,跳停命
+
+--- Document Chunk 1502 ---
+令自动停止
+
+--- Document Chunk 1503 ---
+车进路时 ,若站台设置扣和车,则进路可锁闭 ,但不可开放,取消扣车后 ,信号
+
+--- Document Chunk 1504 ---
+自动开放，
+
+--- Document Chunk 1505 ---
+车最大安全前端所在站台有扣和车命令时,ATS 向 VOBC 发送“扣车有
+
+--- Document Chunk 1506 ---
+列车最大安全前端在站台 ,该站台无扣车命令,或列车肥大安全前
+
+--- Document Chunk 1507 ---
+Sng AS EG FF TY ATS 向 YOBC
+
+--- Document Chunk 1508 ---
+的“扣车有效
+
+--- Document Chunk 1509 ---
+ltr
+
+--- Document Chunk 1510 ---
+VOBC (sh ArH 42, FLUC AS SK Fa YAN 42
+
+--- Document Chunk 1511 ---
+用于 VOBC 进行折返提
+
+--- Document Chunk 1512 ---
+项日要求:恨据线路情况， 在可进行折返的位置，  VOBC
+
+--- Document Chunk 1513 ---
+1中,此    MeL A PRUE PSU TT HER: VOBC 应按照
+
+--- Document Chunk 1514 ---
+CME Ie OT Be DEI ME Er A a:
+
+--- Document Chunk 1515 ---
+1台内时,ATS 按照列车
+
+--- Document Chunk 1516 ---
+行站前折返,则 ATS
+
+--- Document Chunk 1517 ---
+7. ih as die    m3 (2)
+
+--- Document Chunk 1518 ---
+4后折返命令,当列车最大
+
+--- Document Chunk 1519 ---
+俞令,VOBC 收到后,在运行至此站台
+
+--- Document Chunk 1520 ---
+提示;(3) 六列车要进行无人自动折返.则 ATS 发
+
+--- Document Chunk 1521 ---
+送无人自动折返偷令.VOBC 收到后 .列车在                  AREAL HT
+
+--- Document Chunk 1522 ---
+返提示 4) AE Sie Ke de eH Sd EAS a             命令，
+
+--- Document Chunk 1523 ---
+VOBC 收到后 ,在站后折返轨停车后,显示换端提下5;(4)若列车不进行折
+
+--- Document Chunk 1524 ---
+返,则 ATS 发送不折返命令,VOBC 收到后,不显示折返提示
+
+--- Document Chunk 1525 ---
+台内时,ATS %
+
+--- Document Chunk 1526 ---
+该
+
+--- Document Chunk 1527 ---
+” E BN Ne KE
+
+--- Document Chunk 1528 ---
+断列车是        了折返:(1)
+
+--- Document Chunk 1529 ---
+返命令， von We 3A MS A
+
+--- Document Chunk 1530 ---
+行有人站后折返 则， ATS
+
+--- Document Chunk 1531 ---
+入折返轨后
+
+--- Document Chunk 1532 ---
+返提示。
+
+--- Document Chunk 1533 ---
+VOBC 进入无人自动折返流程后,不应内与 ATS 的通信中断或 ATS 的信
+
+--- Document Chunk 1534 ---
+息内容而退出无人自动折返流程。
+
+--- Document Chunk 1535 ---
+端不在转换轨内或列车不为回段方向时,ATS 向 VOBC
+
+--- Document Chunk 1536 ---
+发送的“回段指示"字段为默认值。
+
+--- Document Chunk 1537 ---
+J
+
+--- Document Chunk 1538 ---
+48
+
+--- Document Chunk 1539 ---
+--- Page 54 ---
+
+--- Document Chunk 1540 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1541 ---
+表 19 ATO 命令信息帧(续)
+
+--- Document Chunk 1542 ---
+2，当列车最大安     Sint TE arene eee 向时,对于计划列车，
+
+--- Document Chunk 1543 ---
+ATS 根据列车运行计划,向 VOBC 发送“回段"或不同段"指示,对于非计
+
+--- Document Chunk 1544 ---
+划列车,ATS 向 VOBC 发送默认值。
+
+--- Document Chunk 1545 ---
+3. VOBC 与 ATS 通信正常且收到的回段提示字段非默认值时,根据 ATS 回
+
+--- Document Chunk 1546 ---
+段提示信息 ,判断在转换轨内是否显示回段提示;VOBC 与 ATS 通信断开
+
+--- Document Chunk 1547 ---
+或收到的回段提示字段为默认值时,根据电子地图配置的区段届性,在转
+
+--- Document Chunk 1548 ---
+换轨内显示回段提示
+
+--- Document Chunk 1549 ---
+8   Wek ih fh LD” 的字段,基命令对应位置两全多为站台,则 AS
+
+--- Document Chunk 1550 ---
+fill Ki fe ID
+
+--- Document Chunk 1551 ---
+AN WUE TT BC HE OL TEP DT Bi ASU 2 PA I —
+
+--- Document Chunk 1552 ---
+fig. ATS bet A aE
+
+--- Document Chunk 1553 ---
+在工程中根据实际需
+
+--- Document Chunk 1554 ---
+义帧内容见表 20。
+
+--- Document Chunk 1555 ---
+接口内容
+
+--- Document Chunk 1556 ---
+旺中约定
+
+--- Document Chunk 1557 ---
+6. 3.2.2.4 ATS HAE Cw
+
+--- Document Chunk 1558 ---
+白定义信息,用于实现各厂商特有功能。各厂商分别定制。ATS 判
+
+--- Document Chunk 1559 ---
+断通信的 YOBC 与月身属于同一厂商时,方可发送厂商崩定义帧。ATS
+
+--- Document Chunk 1560 ---
+厂商自定义帧内容见表 21。
+
+--- Document Chunk 1561 ---
+表21 ATS 厂商自定义帧
+
+--- Document Chunk 1562 ---
+接口内容          字节长度 |                    BH
+
+--- Document Chunk 1563 ---
+信息定义       N         具体内容由各厂商分别定制
+
+--- Document Chunk 1564 ---
+6.3.2.3 VOBC 向 ATS 发送数据
+
+--- Document Chunk 1565 ---
+6.3.2.3.1 ATO 状态信息帧
+
+--- Document Chunk 1566 ---
+若已建立 ATO 模式,VOBC 应周期向 ATS AIK ATO 状态信息,ATO
+
+--- Document Chunk 1567 ---
+49
+
+--- Document Chunk 1568 ---
+--- Page 55 ---
+
+--- Document Chunk 1569 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1570 ---
+ATS 应针对每列车的 ATO 状态信息进行超时判断,配置时间内未收
+
+--- Document Chunk 1571 ---
+到相应列车的 ATO 状态信息,则清除该车的 ATO 状态信息。
+
+--- Document Chunk 1572 ---
+未收到 ATS 发送的信息前,对应字段寺写默认值。
+
+--- Document Chunk 1573 ---
+表22 ATO 状态信息帧
+
+--- Document Chunk 1574 ---
+接口内容 | 字节长度         em
+
+--- Document Chunk 1575 ---
+00 ~ 65 534 有效
+
+--- Document Chunk 1576 ---
+bey dew        默认值:0xFFFF
+
+--- Document Chunk 1577 ---
+服务号/表号      2      下他，
+
+--- Document Chunk 1578 ---
+列车为非计划和车时,发送默认值
+
+--- Document Chunk 1579 ---
+线路编吕          2        线路编只 ,全网统 -标识,跌认值:OxFFFF
+
+--- Document Chunk 1580 ---
+车组号所居线路号 2   芷组号所居线路兮,状认值:OAFFFF
+
+--- Document Chunk 1581 ---
+二进制码 001 ~ 999 有效,000 表示对所有列车的
+
+--- Document Chunk 1582 ---
+车组号          2      广播,其他正法
+
+--- Document Chunk 1583 ---
+趴认值:O0xFFFF
+
+--- Document Chunk 1584 ---
+WER BA            2           BN Ae Uy ai 28 Be RUAN ON F FFE
+
+--- Document Chunk 1585 ---
+0000 ~ 9999 有有效,超出范围无效,0000 表示车次叶
+
+--- Document Chunk 1586 ---
+AIRS           2      未设定
+
+--- Document Chunk 1587 ---
+默认值:OxFFFT
+
+--- Document Chunk 1588 ---
+目的地线路人史        2         日的地线路编号 ,默认值:OxFFFE
+
+--- Document Chunk 1589 ---
+日的地号        4       JY ASCI 码表示,具体定义内容在工程项日中明确
+
+--- Document Chunk 1590 ---
+ve                跌认值:OxFFFFFFFF
+
+--- Document Chunk 1591 ---
+二进制码
+
+--- Document Chunk 1592 ---
+a HLS          2        1 ~ 65 534 有效 ,超出范围无效
+
+--- Document Chunk 1593 ---
+默认值:OxFTFTFF
+
+--- Document Chunk 1594 ---
+AM 自动驾驶:0x03
+
+--- Document Chunk 1595 ---
+ATO 未建立:0x00
+
+--- Document Chunk 1596 ---
+ATO 工作模导        1
+
+--- Document Chunk 1597 ---
+THEBES       其他非法
+
+--- Document Chunk 1598 ---
+默认值:0xFF
+
+--- Document Chunk 1599 ---
+50
+
+--- Document Chunk 1600 ---
+--- Page 56 ---
+
+--- Document Chunk 1601 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 1602 ---
+#22 ATO 状态信息帧(续)
+
+--- Document Chunk 1603 ---
+接口内容
+
+--- Document Chunk 1604 ---
+VOBC 收到的 ATS 发送的运行等级或区间运行时
+
+--- Document Chunk 1605 ---
+2   间(列车从前一站发车到下一站停车时间 ,单位:s) ，
+
+--- Document Chunk 1606 ---
+区间运行调整
+
+--- Document Chunk 1607 ---
+今
+
+--- Document Chunk 1608 ---
+we                   根据业主需求确定 ,默认值:OxFFFF
+
+--- Document Chunk 1609 ---
+VOBC 收到的 ATS 发送的跳停命令
+
+--- Document Chunk 1610 ---
+跳停:0x55
+
+--- Document Chunk 1611 ---
+1       无跳停命令/取消跳停:0xAA
+
+--- Document Chunk 1612 ---
+默认值:0OxFF
+
+--- Document Chunk 1613 ---
+其他非法
+
+--- Document Chunk 1614 ---
+VOBC 收到的 ATS 发送的扣车命令
+
+--- Document Chunk 1615 ---
+扣车有效:0x55
+
+--- Document Chunk 1616 ---
+MAMA        1       扣车取消 ,无扣车:0xAA
+
+--- Document Chunk 1617 ---
+默认值:O0xFF
+
+--- Document Chunk 1618 ---
+本                   VOBC 收到的 ATS 发送的下一停车站台 ID ,默认
+
+--- Document Chunk 1619 ---
+-位在让全
+
+--- Document Chunk 1620 ---
+开  全 和证全四| 4 47 ,0x00000000
+
+--- Document Chunk 1621 ---
+VOBC 收到的 ATS 发送的跳停站台 ID
+
+--- Document Chunk 1622 ---
+|、
+
+--- Document Chunk 1623 ---
+mere               ‘           默认值:0x00000000
+
+--- Document Chunk 1624 ---
+可                      VOBC 收到的 ATS 发送的扣车站台 ID
+
+--- Document Chunk 1625 ---
+I) AE Ye
+
+--- Document Chunk 1626 ---
+EID      ‘      默认值 :0x00000000
+
+--- Document Chunk 1627 ---
+站全癌               VOBC 收到的 ATS 发送  的站停时间
+
+--- Document Chunk 1628 ---
+站停时间      2      HUM Mit Ox F FFF
+
+--- Document Chunk 1629 ---
+oy jose Ane              VOBC 收到的 ATS 发送的门控策略
+
+--- Document Chunk 1630 ---
+eel        '       DRA OXF
+
+--- Document Chunk 1631 ---
+预留          4       根据业主要求定义
+
+--- Document Chunk 1632 ---
+六 注注车组号" “车组号所居线路号"由 VOBC 通过”ATO 状态    \帧"向 ATS
+
+--- Document Chunk 1633 ---
+E54                 ATO 命令信息帧"中填写收到的“车组
+
+--- Document Chunk 1634 ---
+车组号所属线路号”  ,收到之 aU HTS SKU; “ATO 命令信息帧"中的
+
+--- Document Chunk 1635 ---
+ATS ii it" ATO 命令信息帧"向 VOBC 发送;VOBC 收到后 ,向
+
+--- Document Chunk 1636 ---
+ATS 发送的"ATO 状态信息帧"中填写已执行的对应信息值 ,收到之前填写
+
+--- Document Chunk 1637 ---
+当前 ATO 命令执行完成后,在新的命令到达之前,VOBC 应持续
+
+--- Document Chunk 1638 ---
+向 ATS 反馈当前 ATO 命令的执行状态。
+
+--- Document Chunk 1639 ---
+51
+
+--- Document Chunk 1640 ---
+--- Page 57 ---
+
+--- Document Chunk 1641 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1642 ---
+6. 3. 2. 3.2 列车信息帧
+
+--- Document Chunk 1643 ---
+本消息为周期信息,当 VOBC 与 ATS 之间的安全连接建立后,周期
+
+--- Document Chunk 1644 ---
+发送,列车信息帧内容见表 23 。
+
+--- Document Chunk 1645 ---
+表23 列车信息帧
+
+--- Document Chunk 1646 ---
+接口内容        字节长度             说 MY
+
+--- Document Chunk 1647 ---
+线路编号          2      线路编号,全网统一慰识
+
+--- Document Chunk 1648 ---
+Aik   0x55
+
+--- Document Chunk 1649 ---
+列车定位状态         1      无定位:0xAA
+
+--- Document Chunk 1650 ---
+其他3
+
+--- Document Chunk 1651 ---
+地小安全后端指向到大安全前端的方
+
+--- Document Chunk 1652 ---
+向,以最小安全后端处的上下行方向确定，
+
+--- Document Chunk 1653 ---
+vp payee              20x55
+
+--- Document Chunk 1654 ---
+运行方向        '     下行:OxAA
+
+--- Document Chunk 1655 ---
+GA OxFF
+
+--- Document Chunk 1656 ---
+其他    :
+
+--- Document Chunk 1657 ---
+本 VOBC ft Ay Wa Sith CTT FRU AR
+
+--- Document Chunk 1658 ---
+VOBC 统一发送是激活端)
+
+--- Document Chunk 1659 ---
+激活端
+
+--- Document Chunk 1660 ---
+车轮正转( 前进) :0x55
+
+--- Document Chunk 1661 ---
+obs by                    车轮反转(后退) :0xAA
+
+--- Document Chunk 1662 ---
+车轮转向        1
+
+--- Document Chunk 1663 ---
+en)                 其他值无效
+
+--- Document Chunk 1664 ---
+车轮不转动时按正转发送
+
+--- Document Chunk 1665 ---
+列车最大安全前端位置      4       列车最大安全前端位置所在轨道区段 ID
+
+--- Document Chunk 1666 ---
+所在轨道区段 1D”                       默认值:0x00000000
+
+--- Document Chunk 1667 ---
+列车最大安全前端位置     4
+
+--- Document Chunk 1668 ---
+ELIE UX BEY tra AS ak
+
+--- Document Chunk 1669 ---
+单位:em,有效范围:0x0 ~ OxFFFFFFFE
+
+--- Document Chunk 1670 ---
+默认值:0xFFFFFFFF
+
+--- Document Chunk 1671 ---
+52
+
+--- Document Chunk 1672 ---
+--- Page 58 ---
+
+--- Document Chunk 1673 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1674 ---
+表23 ”列车信息帧(续)
+
+--- Document Chunk 1675 ---
+接口内容
+
+--- Document Chunk 1676 ---
+列车最小安全前端位置
+
+--- Document Chunk 1677 ---
+说        明
+
+--- Document Chunk 1678 ---
+列车圾小安全前端位置所在轨道区段 ID
+
+--- Document Chunk 1679 ---
+所在轨道区段 ID"          ‘        "JAH 0300000000
+
+--- Document Chunk 1680 ---
+Bi) HE Sie | Be THT SAN PE HE       4         单位:em ,有效范围:0x0 ~ OxF FFFFFFE
+
+--- Document Chunk 1681 ---
+轨道区段内偏移监*                   默认值:0xFFFFFFFF
+
+--- Document Chunk 1682 ---
+__|
+
+--- Document Chunk 1683 ---
+列车最大安全后端位置      4      列车最大安全后端位置所在轨道区段 ID
+
+--- Document Chunk 1684 ---
+所在轨道区段 ID”
+
+--- Document Chunk 1685 ---
+列车最大安全后端位置
+
+--- Document Chunk 1686 ---
+在轨道区段内偏移量*
+
+--- Document Chunk 1687 ---
+默认值:0x00000000
+
+--- Document Chunk 1688 ---
+列车最小安全后端位
+
+--- Document Chunk 1689 ---
+所在轨道区段 ID 1
+
+--- Document Chunk 1690 ---
+BN A Se Ny BE Net St
+
+--- Document Chunk 1691 ---
+(EAI ADK Be hb SH
+
+--- Document Chunk 1692 ---
+A 5 BEBE
+
+--- Document Chunk 1693 ---
+EUM 模       x
+
+--- Document Chunk 1694 ---
+默认值:O0xFF
+
+--- Document Chunk 1695 ---
+SUI AERE
+
+--- Document Chunk 1696 ---
+BAY A I AT HE td BH
+
+--- Document Chunk 1697 ---
+CBTC;0x01
+
+--- Document Chunk 1698 ---
+点式:0x02
+
+--- Document Chunk 1699 ---
+联锁:0x03
+
+--- Document Chunk 1700 ---
+默认值:0xFF
+
+--- Document Chunk 1701 ---
+列车完整性
+
+--- Document Chunk 1702 ---
+LU
+
+--- Document Chunk 1703 ---
+完整:0x55
+
+--- Document Chunk 1704 ---
+不完整:0xAA
+
+--- Document Chunk 1705 ---
+其他非法
+
+--- Document Chunk 1706 ---
+53
+
+--- Document Chunk 1707 ---
+--- Page 59 ---
+
+--- Document Chunk 1708 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 1709 ---
+表23 列车信息帧(续)
+
+--- Document Chunk 1710 ---
+接口内容        字节长度              说    UH
+
+--- Document Chunk 1711 ---
+无紧急制动:0x55
+
+--- Document Chunk 1712 ---
+列车紧急制动状态”   1    紧急制动:0xAA
+
+--- Document Chunk 1713 ---
+其他非法
+
+--- Document Chunk 1714 ---
+列车换端过程中 ,原尾端ATP 与 ZC 建立
+
+--- Document Chunk 1715 ---
+通信后到升级之前的状态
+
+--- Document Chunk 1716 ---
+列车 AR 状态           1        处于 AR 状态:0x55
+
+--- Document Chunk 1717 ---
+Ab F AR 状态:0OxAA
+
+--- Document Chunk 1718 ---
+其他非法
+
+--- Document Chunk 1719 ---
+列车速度信息     2   单位:em/s ,有效范围;0 ~ 15 000
+
+--- Document Chunk 1720 ---
+开门:0x55
+
+--- Document Chunk 1721 ---
+车门状态               1
+
+--- Document Chunk 1722 ---
+IN AE EARS                    1
+
+--- Document Chunk 1723 ---
+|                     可以停车:0x55
+
+--- Document Chunk 1724 ---
+停车保证状态   | oot
+
+--- Document Chunk 1725 ---
+无人折返折入中(从车载 ATP 接收到无
+
+--- Document Chunk 1726 ---
+人折返命令开始到换端前) :0x55
+
+--- Document Chunk 1727 ---
+无人折返折出中:0xAA
+
+--- Document Chunk 1728 ---
+未在无人折返中:0x00
+
+--- Document Chunk 1729 ---
+默认值 :0xFF
+
+--- Document Chunk 1730 ---
+其他非法
+
+--- Document Chunk 1731 ---
+若车载 ATP 无相关功能,则发送默认值;
+
+--- Document Chunk 1732 ---
+若 ATS 无相关功能,则可不处理此信息
+
+--- Document Chunk 1733 ---
+54
+
+--- Document Chunk 1734 ---
+--- Page 60 ---
+
+--- Document Chunk 1735 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1736 ---
+表23 列车信息帧(续)
+
+--- Document Chunk 1737 ---
+[eee           ek                      说 明
+
+--- Document Chunk 1738 ---
+车载 ATP 允许到达的最高模式
+
+--- Document Chunk 1739 ---
+CBTC - AM :0x01
+
+--- Document Chunk 1740 ---
+CBTC - CM 0x02
+
+--- Document Chunk 1741 ---
+预选模式               1         ITC - AM:0x03
+
+--- Document Chunk 1742 ---
+ITC - CM :0x04
+
+--- Document Chunk 1743 ---
+紧急制动原内            1                      定义
+
+--- Document Chunk 1744 ---
+单位 cm/s, ATP 曲线对应的 EBI 速度 , 47
+
+--- Document Chunk 1745 ---
+出动他发速度          效范恩:0x0 ~ OxFFFE
+
+--- Document Chunk 1746 ---
+1短发名      “      BRU OxXFFFF.. “| VOBC 无法发送此
+
+--- Document Chunk 1747 ---
+,发送默认值
+
+--- Document Chunk 1748 ---
+单位 cm/s, ATO 肝线对应的常用制动速
+
+--- Document Chunk 1749 ---
+2       BE, 有效范围:0x0 ~OxFFFE
+
+--- Document Chunk 1750 ---
+默兴值:0x   -。当 VOBC 无法发送此
+
+--- Document Chunk 1751 ---
+VOBC 采用的 ZC 的移动授权中的安全防
+
+--- Document Chunk 1752 ---
+安全防护点轨道区段 IDS       4      护点轨道区段 1D
+
+--- Document Chunk 1753 ---
+默认值 :0x00000000
+
+--- Document Chunk 1754 ---
+VOBC 采用的 ZC 的移动授权中的安全防
+
+--- Document Chunk 1755 ---
+安全防护点轨道            4        ek OL it KBR A AY Nt, 有效范围: 0x0
+
+--- Document Chunk 1756 ---
+DX BE thi FY at                     ~ OxFFFFFFFE
+
+--- Document Chunk 1757 ---
+默认值:O0xFFFFFFFF
+
+--- Document Chunk 1758 ---
+VOBC 采用的 ZC 的移动授权中的障碍点
+
+--- Document Chunk 1759 ---
+障碍点轨道区段 IDS         4      轨道
+
+--- Document Chunk 1760 ---
+|                                                          默认值:0x00000000
+
+--- Document Chunk 1761 ---
+VOBC 采用的 ZC 的移动授权中的障碍点
+
+--- Document Chunk 1762 ---
+障碍点轨道区段内       4    轨道区段偏移量。有效范围: 0x0
+
+--- Document Chunk 1763 ---
+Gh FY ak                       ~ OxFFFFFFFE
+
+--- Document Chunk 1764 ---
+默认值:OxFFFFFFFF
+
+--- Document Chunk 1765 ---
+55
+
+--- Document Chunk 1766 ---
+--- Page 61 ---
+
+--- Document Chunk 1767 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1768 ---
+表23 列车信息帧(续)
+
+--- Document Chunk 1769 ---
+接口内容        字节长度              说
+
+--- Document Chunk 1770 ---
+道岔信息      5                的 ZC 的移动授权内包含的道
+
+--- Document Chunk 1771 ---
+个数        |贫个数。有效范围:0 ~ 20
+
+--- Document Chunk 1772 ---
+道岔(1)1D     4      itt @ ID
+
+--- Document Chunk 1773 ---
+道岔(1)
+
+--- Document Chunk 1774 ---
+MA Brie
+
+--- Document Chunk 1775 ---
+信息
+
+--- Document Chunk 1776 ---
+itt & (X) ID
+
+--- Document Chunk 1777 ---
+Xo   4   ith ID
+
+--- Document Chunk 1778 ---
+1
+
+--- Document Chunk 1779 ---
+车编组信息          1                   ,取值范围:1 ~ 20
+
+--- Document Chunk 1780 ---
+“运行方向"
+
+--- Document Chunk 1781 ---
+当位置在轨
+
+--- Document Chunk 1782 ---
+、 列车最小安  安全前端位置所在 轨道区段 ID” "列车最小安全前
+
+--- Document Chunk 1783 ---
+iit EK BPS th BG Sak” “列车最大安全后 喘位置所在轨道  段ID”
+
+--- Document Chunk 1784 ---
+FSA Ee LB BN 必列车最小安全后
+
+--- Document Chunk 1785 ---
+直车最小安全后端位置在轨道区段内偏移一"均
+
+--- Document Chunk 1786 ---
+|列车运行控制级别 汪 列车驾驶模式"字段取值应满足下
+
+--- Document Chunk 1787 ---
+级别与驾驶模式对照见表 24
+
+--- Document Chunk 1788 ---
+“9G ATP 采用 ZC 发送的 MA ,则安全防护点轨道区段 ID ,安全防护点轨道区段
+
+--- Document Chunk 1789 ---
+UE ,障碍点轨道区段 ID ,障碍点轨道区段内偏移便取值均为采用的 MA
+
+--- Document Chunk 1790 ---
+“列车坡大安
+
+--- Document Chunk 1791 ---
+PS hd AS
+
+--- Document Chunk 1792 ---
+位置在
+
+--- Document Chunk 1793 ---
+BAEK
+
+--- Document Chunk 1794 ---
+立置所在轨道区段
+
+--- Document Chunk 1795 ---
+iA fi
+
+--- Document Chunk 1796 ---
+长对应关系 ,控制
+
+--- Document Chunk 1797 ---
+仿
+
+--- Document Chunk 1798 ---
+--- Page 62 ---
+
+--- Document Chunk 1799 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 1800 ---
+表23 ”列车信息帧(续)
+
+--- Document Chunk 1801 ---
+若 ATP 不采用 ZC 发送的 MA,则安全防护点轨道区段 ID .安全防护点轨道区
+
+--- Document Chunk 1802 ---
+段偏移量 障碍点轨道区段 ID .障碍点轨道区段内偏移量均发送默认值。
+
+--- Document Chunk 1803 ---
+*停车保证的具体含义参见本规范 5.4.2 节 VOBC - ZC 列车信息帧中“停车保
+
+--- Document Chunk 1804 ---
+证响应"字段。
+
+--- Document Chunk 1805 ---
+表24 控制级别与驾驶模式对照表
+
+--- Document Chunk 1806 ---
+连续式列车控制级别
+
+--- Document Chunk 1807 ---
+点式列车控制级别
+
+--- Document Chunk 1808 ---
+联锁控制级别
+
+--- Document Chunk 1809 ---
+报警信息数量
+
+--- Document Chunk 1810 ---
+ATO 故障
+
+--- Document Chunk 1811 ---
+有故障:0x55
+
+--- Document Chunk 1812 ---
+无故障:0xAA
+
+--- Document Chunk 1813 ---
+默认值:0xFF
+
+--- Document Chunk 1814 ---
+其他值无效
+
+--- Document Chunk 1815 ---
+BTM 故障
+
+--- Document Chunk 1816 ---
+有故障:0x55
+
+--- Document Chunk 1817 ---
+无故障:0xAA
+
+--- Document Chunk 1818 ---
+默认值 :0xFF
+
+--- Document Chunk 1819 ---
+其他值无效
+
+--- Document Chunk 1820 ---
+57
+
+--- Document Chunk 1821 ---
+--- Page 63 ---
+
+--- Document Chunk 1822 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1823 ---
+R25 车载设备报警信息帧(续)
+
+--- Document Chunk 1824 ---
+接口内容        字节长度              说 明
+
+--- Document Chunk 1825 ---
+车载人机界面故障
+
+--- Document Chunk 1826 ---
+有故障:0x55
+
+--- Document Chunk 1827 ---
+信息3       1       无故障:0xAA
+
+--- Document Chunk 1828 ---
+默认值:O0xFF
+
+--- Document Chunk 1829 ---
+其他值无效                               |
+
+--- Document Chunk 1830 ---
+Aas Abc Bie CT 8 )
+
+--- Document Chunk 1831 ---
+有故障:0x55
+
+--- Document Chunk 1832 ---
+ZEAE BRE: OxAA
+
+--- Document Chunk 1833 ---
+|                     默认值:O0xFF
+
+--- Document Chunk 1834 ---
+其他值无效
+
+--- Document Chunk 1835 ---
+St
+
+--- Document Chunk 1836 ---
+a
+
+--- Document Chunk 1837 ---
+>
+
+--- Document Chunk 1838 ---
+与列车信息管理系统通信故障
+
+--- Document Chunk 1839 ---
+47 HC Bie 0x55
+
+--- Document Chunk 1840 ---
+信息5       1       无玫障:0xAA
+
+--- Document Chunk 1841 ---
+默认值:OxFF
+
+--- Document Chunk 1842 ---
+Bi) 4AM                        其他值无效
+
+--- Document Chunk 1843 ---
+信息              测速传感器故障
+
+--- Document Chunk 1844 ---
+有故
+
+--- Document Chunk 1845 ---
+信息6         1         FEAL
+
+--- Document Chunk 1846 ---
+MGA
+
+--- Document Chunk 1847 ---
+其他值无效
+
+--- Document Chunk 1848 ---
+加速度计故障(可选)
+
+--- Document Chunk 1849 ---
+有故障:0x55
+
+--- Document Chunk 1850 ---
+无故障:0xAA
+
+--- Document Chunk 1851 ---
+默认值:0xFF
+
+--- Document Chunk 1852 ---
+其他值无效
+
+--- Document Chunk 1853 ---
+ATP 故障(与 ATS 通信正常时)
+
+--- Document Chunk 1854 ---
+有故障:0x55
+
+--- Document Chunk 1855 ---
+信息8          1          无故障:OxAA
+
+--- Document Chunk 1856 ---
+默认值 :0xFF
+
+--- Document Chunk 1857 ---
+其他:非法
+
+--- Document Chunk 1858 ---
+58
+
+--- Document Chunk 1859 ---
+二
+
+--- Document Chunk 1860 ---
+=
+
+--- Document Chunk 1861 ---
+_
+
+--- Document Chunk 1862 ---
+--- Page 64 ---
+
+--- Document Chunk 1863 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1864 ---
+表 25 ”车载设备报警信息帧(续)
+
+--- Document Chunk 1865 ---
+接口内容        字节长度              说    明           ]
+
+--- Document Chunk 1866 ---
+|
+
+--- Document Chunk 1867 ---
+列车报等 |
+
+--- Document Chunk 1868 ---
+板卡信息        6     自定义,在工程项目中具体明确
+
+--- Document Chunk 1869 ---
+“报等信息 1 ~8 为固定信息,其他报管信息可在具体工程中约定，
+
+--- Document Chunk 1870 ---
+6. 3. 2. 3. 4 车载设备日检状态信息帧
+
+--- Document Chunk 1871 ---
+车载设备日检状态信息帧见表 26，，
+
+--- Document Chunk 1872 ---
+表 26 车载设备日检状态信息帧
+
+--- Document Chunk 1873 ---
+|          接口内容          |          字节长度                    说       vy)
+
+--- Document Chunk 1874 ---
+|          日检状态          |               6               |                     自定义
+
+--- Document Chunk 1875 ---
+6.3.2.3.5 VOBC 城市自定义帧
+
+--- Document Chunk 1876 ---
+自定义信息,用于实现各城市特有的互联互通相关功能。具体内容
+
+--- Document Chunk 1877 ---
+在工程中根据实际需求约定,各厂商均应实现相应功能。VOBC 城市自
+
+--- Document Chunk 1878 ---
+定义帧信息见表 27。
+
+--- Document Chunk 1879 ---
+#27 VOBC 城市自定义帧
+
+--- Document Chunk 1880 ---
+mone | WE                       说 明
+
+--- Document Chunk 1881 ---
+6.3.2.3.6 VOBC 厂商自定义帧
+
+--- Document Chunk 1882 ---
+自定义信息,用于实现各厂商特有功能。各厂商分别定制。VOBC
+
+--- Document Chunk 1883 ---
+判断通信的 ATS 与自身属于同一厂商时,方可发送厂商自定义帧。
+
+--- Document Chunk 1884 ---
+VOBC 城市自定义帧信息见表 28 。
+
+--- Document Chunk 1885 ---
+59
+
+--- Document Chunk 1886 ---
+--- Page 65 ---
+
+--- Document Chunk 1887 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 1888 ---
+表28 VOBC 城市自定义帧
+
+--- Document Chunk 1889 ---
+接口内容
+
+--- Document Chunk 1890 ---
+6. 3.3 列车折返过程通信说明
+
+--- Document Chunk 1891 ---
+6.3.3.1 概述
+
+--- Document Chunk 1892 ---
+折返流程分为首尾端 VOBC 共用安全连接与首尾端 VOBC AN JE JH ee
+
+--- Document Chunk 1893 ---
+全连接两种情况。本节中 YOBC1 指换端前的车头 VOBC .VOBC2 指换端
+
+--- Document Chunk 1894 ---
+前的车尾 VOBC,
+
+--- Document Chunk 1895 ---
+6.3.3.2 首尾VOBC 共用安全连接
+
+--- Document Chunk 1896 ---
+比种情况下 ,YOBC 在红蓝网上分别与 ATS 建立安全连接,宛余消息
+
+--- Document Chunk 1897 ---
+在红蓝网芋分别传得(红网 IP 对红网 中,蓝网 IP MP EA IP) 首尾
+
+--- Document Chunk 1898 ---
+VOBC 共同使用这组安全连接,首尾 YOBC 共用一个 VID，ATS 不区分
+
+--- Document Chunk 1899 ---
+折返过程如下:
+
+--- Document Chunk 1900 ---
+a) VOBC 与 ATS 正常通信.向 ATS 发送 YOBC1 方向的“列车信息
+
+--- Document Chunk 1901 ---
+Wi” AI ATO 状态信息帧”,ATS 向 VOBC 发送 VOBCI 方向的
+
+--- Document Chunk 1902 ---
+“ATO 命令信息帧”;
+
+--- Document Chunk 1903 ---
+)) 折返开始后,YOBC 应停止发送 YOBC1 方向的"列车信息帧”和
+
+--- Document Chunk 1904 ---
+“ATO 状态    帧”,改为发送 VOBC2 方向的“列车信息帧
+
+--- Document Chunk 1905 ---
+“ATO 命令信息帧”;
+
+--- Document Chunk 1906 ---
+c) ATS 根据收到的 YOBC "列车信息帧"” 和”ATO 状态信息帧
+
+--- Document Chunk 1907 ---
+断列车方向发生改变且列车安全包络完全位于折返轨内,则认
+
+--- Document Chunk 1908 ---
+为列车换端,开始向 VOBC 发送 VOBC2 方向的"ATO 命令信息
+
+--- Document Chunk 1909 ---
+帧”;
+
+--- Document Chunk 1910 ---
+d) VOBC 收到 VOBC2 方向的"ATO 命令信息帧"” ,开始据此控制
+
+--- Document Chunk 1911 ---
+列车 ,折返流程结束.。
+
+--- Document Chunk 1912 ---
+6.3.3.3 首尾VOBC 不共用安全连接
+
+--- Document Chunk 1913 ---
+此种情况时车载首尾 VOBC 使用不同的 ID ,首尾 VOBC 分别与 ATS
+
+--- Document Chunk 1914 ---
+60
+
+--- Document Chunk 1915 ---
+--- Page 66 ---
+
+--- Document Chunk 1916 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1917 ---
+建立安全连接- 在折返过程中.车尾 VOBC2 与 ATS 新建立安全连接
+
+--- Document Chunk 1918 ---
+此时 VOBCL VOBC2 同时与 ATS 通信,分别维护安全连接，换端完成
+
+--- Document Chunk 1919 ---
+Jai, VOBCI 断开与 ATS 的连接,仅保留 VOBC2 的连接。
+
+--- Document Chunk 1920 ---
+折返流程如下:
+
+--- Document Chunk 1921 ---
+a) VOBCI 与 ATS 正常通信,向 ATS 发送本端 列车信 Lt”
+
+--- Document Chunk 1922 ---
+“ATO 状态信息帧” ,ATS 向 VOBCI IE“ ATO 命令
+
+--- Document Chunk 1923 ---
+b) 折返开始后，VOBC2 与 ATS 新建立安全连接,通信
+
+--- Document Chunk 1924 ---
+VOBC2 向 ATS 发送本端“列车信息帧”和”ATO 状态
+
+--- Document Chunk 1925 ---
+其中 列车 AR 状态"内容应为"处于 AR 状态”;
+
+--- Document Chunk 1926 ---
+钟同步,也可采川 6. 3. 2.1. LAT Ber iO ownne 5 ATS 7
+
+--- Document Chunk 1927 ---
+TSE a fei] 2
+
+--- Document Chunk 1928 ---
+6.3.6 ATO 控制命令帧发送更新时机说明
+
+--- Document Chunk 1929 ---
+ATS 应具备 NTP 服务功能，VOBC 可使用 NTP 服务与 ATS 进行时
+
+--- Document Chunk 1930 ---
+钟同步,也可采用 6. 3. 2.1. DATS 心跳信息帧中的时间信息与 ATS 进行
+
+--- Document Chunk 1931 ---
+时钟回步.兄附录入
+
+--- Document Chunk 1932 ---
+7 VOBC -CI报文规范
+
+--- Document Chunk 1933 ---
+7.1 接口连接方式
+
+--- Document Chunk 1934 ---
+7.1.1 物理接口
+
+--- Document Chunk 1935 ---
+VOBC 与 C1 之间采用元余网络进行通信: CLS VOBC 之间的网络
+
+--- Document Chunk 1936 ---
+61
+
+--- Document Chunk 1937 ---
+--- Page 67 ---
+
+--- Document Chunk 1938 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1939 ---
+拓扑结构采用A网-A网B网-B网两个链路进行连接。
+
+--- Document Chunk 1940 ---
+7.1.2 安全通信协议
+
+--- Document Chunk 1941 ---
+CI 与 VOBC 之间通信可采用 RSSP - 开或 RSSP - 工安全通信协议。
+
+--- Document Chunk 1942 ---
+RSSP - 开安全通信协议的具体要求参见运基信号(2010]267 号文件
+
+--- Document Chunk 1943 ---
+《RSSP - 工铁路信号安全通信协议》; RSSP - 工安全通信协议的具体要
+
+--- Document Chunk 1944 ---
+求参见运基信和号[2010]267 号文件(RSSP - 工铁路信号安全通信协议》。
+
+--- Document Chunk 1945 ---
+采用 RSSP - 工安全通信协议的前提条件为使用LTE - M 通信和且 LTE -
+
+--- Document Chunk 1946 ---
+M 具备空口加密措施可防止伪装、CBTC 信和号系统符合三级等保要求。
+
+--- Document Chunk 1947 ---
+在此前提条件下 ,宜采用 RSSP - | RB APY.
+
+--- Document Chunk 1948 ---
+如图 10 所示,其 SAI/MASL/ALE 三层,遵循 RSSP - 开标准规定。
+
+--- Document Chunk 1949 ---
+TCP 及 IP 层使用标准 TCP/IP 协议栈。
+
+--- Document Chunk 1950 ---
+MAC 及PHY 层取决于不同的网络种类 ,无线网使用无线标准协议 ，
+
+--- Document Chunk 1951 ---
+地面网使用以太网协议(IEEE 802.3) 。
+
+--- Document Chunk 1952 ---
+一
+
+--- Document Chunk 1953 ---
+Bridge
+
+--- Document Chunk 1954 ---
+802.11-802.3
+
+--- Document Chunk 1955 ---
+Bridge
+
+--- Document Chunk 1956 ---
+802.11-802.3
+
+--- Document Chunk 1957 ---
+H10 ”无线安全通信协议 RSSP - THR
+
+--- Document Chunk 1958 ---
+62
+
+--- Document Chunk 1959 ---
+--- Page 68 ---
+
+--- Document Chunk 1960 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1961 ---
+如图 11 所示 ,其 RSSP - 工协议遵循 RSSP - 工标准规定。
+
+--- Document Chunk 1962 ---
+UDP 层使用标准 UDP 协议栈。
+
+--- Document Chunk 1963 ---
+MAC & PHY 层取决于不同的网络种类 ,无线网使用无线标准协议，
+
+--- Document Chunk 1964 ---
+地面网使用以太网协议(IEEE 802.3) 。
+
+--- Document Chunk 1965 ---
+VOBC                                                                      CI
+
+--- Document Chunk 1966 ---
+802.11-802.3
+
+--- Document Chunk 1967 ---
+802.11-802.3
+
+--- Document Chunk 1968 ---
+ 11 无线安全通信协议 RSSP -工构架
+
+--- Document Chunk 1969 ---
+7.1.3 动态交互描述
+
+--- Document Chunk 1970 ---
+7.1.3.1 通信应用层消息包定义
+
+--- Document Chunk 1971 ---
+将 CI-VOBC 间每个周期需要交互的应用信息通过组成通用消息包
+
+--- Document Chunk 1972 ---
+进行传输,如图 12 所示。
+
+--- Document Chunk 1973 ---
+ 12 通用消息包和应用层信息包关系结构图
+
+--- Document Chunk 1974 ---
+63
+
+--- Document Chunk 1975 ---
+--- Page 69 ---
+
+--- Document Chunk 1976 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 1977 ---
+7.1.3.2 信息包格式定义
+
+--- Document Chunk 1978 ---
+VOBC/CI 每周期最多允许发送 1个GAL 消
+
+--- Document Chunk 1979 ---
+VOBC 与 CI 之间传输的各条应用信息。每个 GAL
+
+--- Document Chunk 1980 ---
+1 000 字节 ,格式定义见表 29 和表 30。
+
+--- Document Chunk 1981 ---
+R29 通用信息包格式定义
+
+--- Document Chunk 1982 ---
+息包, GAL 包中包合
+
+--- Document Chunk 1983 ---
+息包总长不得超过
+
+--- Document Chunk 1984 ---
+0x0206:VOBC - CI 接口
+
+--- Document Chunk 1985 ---
+2      类型低位
+
+--- Document Chunk 1986 ---
+i AD   SW | 通信及方的定义
+
+--- Document Chunk 1987 ---
+JW Dy     8                  .      _      ..
+
+--- Document Chunk 1988 ---
+ces  5   Hay ID  ARH | 通信双方的定义
+
+--- Document Chunk 1989 ---
+C1, VOBC
+
+--- Document Chunk 1990 ---
+也子地网版本 | 12
+
+--- Document Chunk 1991 ---
+bi ih PAL Wz        之间的版本
+
+--- Document Chunk 1992 ---
+FOE’) 43 |一致性信息
+
+--- Document Chunk 1993 ---
+并与 VOBC
+
+--- Document Chunk 1994 ---
+14
+
+--- Document Chunk 1995 ---
+15
+
+--- Document Chunk 1996 ---
+记录发送本条消息时,本方
+
+--- Document Chunk 1997 ---
+序列号   4字节 | ，  a
+
+--- Document Chunk 1998 ---
+7   yee    |的周期计数
+
+--- Document Chunk 1999 ---
+18
+
+--- Document Chunk 2000 ---
+64
+
+--- Document Chunk 2001 ---
+--- Page 70 ---
+
+--- Document Chunk 2002 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2003 ---
+#29 通用信息包格式定义(续)
+
+--- Document Chunk 2004 ---
+L
+
+--- Document Chunk 2005 ---
+通信有周期 “| 2字节 | 设备通信周期,单位:ms
+
+--- Document Chunk 2006 ---
+21
+
+--- Document Chunk 2007 ---
+对方消息“| 22   .     cee | 记录收到对方上--条消息中
+
+--- Document Chunk 2008 ---
+on.     FRB  ae |   a
+
+--- Document Chunk 2009 ---
+eres         3                                   | AY ET aE BS
+
+--- Document Chunk 2010 ---
+24 |
+
+--- Document Chunk 2011 ---
+25
+
+--- Document Chunk 2012 ---
+收到上一条 | 26
+
+--- Document Chunk 2013 ---
+消息时本方
+
+--- Document Chunk 2014 ---
+序列号”
+
+--- Document Chunk 2015 ---
+池数到对方上一条消息
+
+--- Document Chunk 2016 ---
+9周期计数”
+
+--- Document Chunk 2017 ---
+Bp AX HE AS         29
+
+--- Document Chunk 2018 ---
+应用层报文     30
+
+--- Document Chunk 2019 ---
+REY VOBC 的协议版本,本规
+
+--- Document Chunk 2020 ---
+中义为20
+
+--- Document Chunk 2021 ---
+后续报文长度的字节数,不
+
+--- Document Chunk 2022 ---
+whine | 31 | 应用报文昌长度 | 208 To cea orice
+
+--- Document Chunk 2023 ---
+32 ~
+
+--- Document Chunk 2024 ---
+应用层数据 | 二| 应用层数据“| AK) 参见表30 Haat x
+
+--- Document Chunk 2025 ---
+“电子地立版本校验信息针对范围为 C1管钳区域范围
+
+--- Document Chunk 2026 ---
+“序列号有效值为1~ (2” -1)
+
+--- Document Chunk 2027 ---
+“当未收到对方当
+
+--- Document Chunk 2028 ---
+“电子地网版本校验
+
+--- Document Chunk 2029 ---
+时,序列号约定为 OxFFFFFFFF-
+
+--- Document Chunk 2030 ---
+SRLS "iF BE UE TT BESS ,若校验不一致,则接
+
+--- Document Chunk 2031 ---
+收方进行到包或断开安全连接处理-
+
+--- Document Chunk 2032 ---
+65
+
+--- Document Chunk 2033 ---
+--- Page 71 ---
+
+--- Document Chunk 2034 ---
+T/CAMET 04011. 2—2018
+
+--- Document Chunk 2035 ---
+#30 应用层信息格式定义
+
+--- Document Chunk 2036 ---
+]        广   ip   文类型 ~
+
+--- Document Chunk 2037 ---
+报文长度         报文长度(报文类型 ~ 报
+
+--- Document Chunk 2038 ---
+2     文结束)
+
+--- Document Chunk 2039 ---
+报文类型        本  条应用信息的  a 具体接口文档
+
+--- Document Chunk 2040 ---
+4   | 标识             4.2节
+
+--- Document Chunk 2041 ---
+5                           0
+
+--- Document Chunk 2042 ---
+预留          ira
+
+--- Document Chunk 2043 ---
+6                           0
+
+--- Document Chunk 2044 ---
+:   7 ~ HRM   按照报文属式定义的报文| ，     ，
+
+--- Document Chunk 2045 ---
+z SCV FE                         ee Leranl  f
+
+--- Document Chunk 2046 ---
+报文内容   ceae “| 只体内容             详见只体接口文档
+
+--- Document Chunk 2047 ---
+7.1.3.3 通信状态管理
+
+--- Document Chunk 2048 ---
+通信状态管理包括如下内
+
+--- Document Chunk 2049 ---
+应对接收到的 VOBC
+
+--- Document Chunk 2050 ---
+过,认为本周期未收
+
+--- Document Chunk 2051 ---
+具体检查方式如下 :
+
+--- Document Chunk 2052 ---
+1) 消息内容的一致
+
+--- Document Chunk 2053 ---
+组合合法性从查
+
+--- Document Chunk 2054 ---
+a)
+
+--- Document Chunk 2055 ---
+Bi RT He YY ine Ht
+
+--- Document Chunk 2056 ---
+的应用消息进
+
+--- Document Chunk 2057 ---
+Fy
+
+--- Document Chunk 2058 ---
+a
+
+--- Document Chunk 2059 ---
+息
+
+--- Document Chunk 2060 ---
+所
+
+--- Document Chunk 2061 ---
+Hf
+
+--- Document Chunk 2062 ---
+也
+
+--- Document Chunk 2063 ---
+性检查 :包括
+
+--- Document Chunk 2064 ---
+I Bel BEM
+
+--- Document Chunk 2065 ---
+2
+
+--- Document Chunk 2066 ---
+) 消息所应包含的信
+
+--- Document Chunk 2067 ---
+CI Ail VOBC 应能分另
+
+--- Document Chunk 2068 ---
+1) CI认为与 VOBC
+
+--- Document Chunk 2069 ---
+(可配置 ,推荐值
+
+--- Document Chunk 2070 ---
+b)
+
+--- Document Chunk 2071 ---
+言息的完整性。
+
+--- Document Chunk 2072 ---
+1对通信连接状态
+
+--- Document Chunk 2073 ---
+通信中断的j
+
+--- Document Chunk 2074 ---
+为6s);
+
+--- Document Chunk 2075 ---
+或主动断开安全连
+
+--- Document Chunk 2076 ---
+法性检查 ,若检查未通
+
+--- Document Chunk 2077 ---
+ERE.
+
+--- Document Chunk 2078 ---
+SLA SE BL ae HE RE EF BR
+
+--- Document Chunk 2079 ---
+性检查;
+
+--- Document Chunk 2080 ---
+和进行判断:
+
+--- Document Chunk 2081 ---
+MH At AY fa] ZE MC Fy TCiTimeout
+
+--- Document Chunk 2082 ---
+2) VOBC 认为与 CI 通信中断的超时时间定义为 TVobcTimeonutl
+
+--- Document Chunk 2083 ---
+(可配置 ,推荐值
+
+--- Document Chunk 2084 ---
+为6s);
+
+--- Document Chunk 2085 ---
+3) 若CI在TCiTimeout 超时时间内,没有接收到来自 VOBC 的
+
+--- Document Chunk 2086 ---
+任何消息,则 CI 应认为与 VOBC 的通信中断;
+
+--- Document Chunk 2087 ---
+4) 若VOBC 在 TVobcTimeout 超时时间内,没有接收到来自 CI
+
+--- Document Chunk 2088 ---
+的任何消息,则 VOBC fi
+
+--- Document Chunk 2089 ---
+66
+
+--- Document Chunk 2090 ---
+应认为与 CI 的
+
+--- Document Chunk 2091 ---
+通信中断。
+
+--- Document Chunk 2092 ---
+--- Page 72 ---
+
+--- Document Chunk 2093 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 2094 ---
+5) 若 CI 判断接收到 VOBC 的应用信息延迟已经达到 TCiTimeout
+
+--- Document Chunk 2095 ---
+时,CI应丢弃此信息包或认为与 YOBC 通信中断;
+
+--- Document Chunk 2096 ---
+6) 若 VOBC 判断接收到 CI 的应用信息延迟已经达到 TVobeTimeout
+
+--- Document Chunk 2097 ---
+时,VOBC 应丢弃此信息包或认为与 CI 通信中断。
+
+--- Document Chunk 2098 ---
+c) 互联互通线网中 ,车载设备与各条线路上的联锁设备的通信超
+
+--- Document Chunk 2099 ---
+时时间应一致 ,消息有效期时间应一致 :
+
+--- Document Chunk 2100 ---
+1) 当使用安全通信协议 RSSP - I], VOBC 在与 CI 设备通信
+
+--- Document Chunk 2101 ---
+寺,当判断与 CI 设备通信上断开并且不再与对方建立连接
+
+--- Document Chunk 2102 ---
+后 ,应断开与该 Cl 设备的 TCP/IP 连接;
+
+--- Document Chunk 2103 ---
+“4 fii JH 22 > iL A Wei RSSP - 1, VOBC 在与 CI 设备通信
+
+--- Document Chunk 2104 ---
+时,当判断与 C1 设备通信上断开并且不再与对方建立连接
+
+--- Document Chunk 2105 ---
+后,应断开与该 C1 设备的 UDP 链接。
+
+--- Document Chunk 2106 ---
+d) EN 50159:2010 中提及的7 种开放式网络存在的安全通信风险
+
+--- Document Chunk 2107 ---
+均由安全通信协议进行防护,风险包括:重复.删除.插入、.重排
+
+--- Document Chunk 2108 ---
+序 .损坏 .伪装 .延迟。
+
+--- Document Chunk 2109 ---
+车地无线通信双方(CI- YOBC )应用层的通信歼障处理分为如下几
+
+--- Document Chunk 2110 ---
+种情况:
+
+--- Document Chunk 2111 ---
+1) Cl 和 VOBC 对于接收到的重复 .逆序的应用信息,采用直接
+
+--- Document Chunk 2112 ---
+丢弃的方式进行处理.并且认为本周期林收到对等方的应
+
+--- Document Chunk 2113 ---
+2) 通信中断的情况下 ,大 CI/VOBC 认为与对等方应用层通信
+
+--- Document Chunk 2114 ---
+超时中断 ,采取主动释放安全连接的方式进行处理;
+
+--- Document Chunk 2115 ---
+3) 其他风险由安全通信协议完成防护处理。
+
+--- Document Chunk 2116 ---
+7.2 通信体系结构
+
+--- Document Chunk 2117 ---
+7.2.1 通信模型
+
+--- Document Chunk 2118 ---
+CL 与 VOBC 通信协议模型如图 13 所示。
+
+--- Document Chunk 2119 ---
+7.2.2 通信机制
+
+--- Document Chunk 2120 ---
+通信机制包括如下内容:
+
+--- Document Chunk 2121 ---
+a) 仅能由 VOBC 发起安全连接的建立过程;
+
+--- Document Chunk 2122 ---
+2
+
+--- Document Chunk 2123 ---
+67
+
+--- Document Chunk 2124 ---
+--- Page 73 ---
+
+--- Document Chunk 2125 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2126 ---
+应用层数据
+
+--- Document Chunk 2127 ---
+安全相关
+
+--- Document Chunk 2128 ---
+协议数据单元
+
+--- Document Chunk 2129 ---
+协议数据单元
+
+--- Document Chunk 2130 ---
+图13 CI与VOBC 通信协议模型
+
+--- Document Chunk 2131 ---
+b) CI与 VOBC 采用周期发送和消息触发的方式进行通信;
+
+--- Document Chunk 2132 ---
+c) 通信双方均采用大端字节序进行数据传输;
+
+--- Document Chunk 2133 ---
+d) CI与 VOBC 均应对接收的应用信息进行判断和逻辑运算。
+
+--- Document Chunk 2134 ---
+7.3 接口数据描述
+
+--- Document Chunk 2135 ---
+7.3.1 数据类型定义
+
+--- Document Chunk 2136 ---
+本节对 VOBC 与 CI之间通信的所有应用信息类型及其含义发送方
+
+--- Document Chunk 2137 ---
+向\长度范围,发送方式(周期/非周期) 进行定义,见表 31。
+
+--- Document Chunk 2138 ---
+表31 CI与VOBC 通信的应用层信息定义
+
+--- Document Chunk 2139 ---
+信息类再              信息包名     发送方式
+
+--- Document Chunk 2140 ---
+0x0201              VOBC一CI 控制信息                      VOBC一CI
+
+--- Document Chunk 2141 ---
+0x0202         CI一VOBC 状态信息         |     CI-+VOBC
+
+--- Document Chunk 2142 ---
+0x0203          VOBC一CI心跳帧             |      VOBC一CI
+
+--- Document Chunk 2143 ---
+0x0204          CI一VOBC 心跳帧                   CI一VOBC
+
+--- Document Chunk 2144 ---
+68
+
+--- Document Chunk 2145 ---
+--- Page 74 ---
+
+--- Document Chunk 2146 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2147 ---
+表31 CI与VOBC 通信的应用层信息定义(续)
+
+--- Document Chunk 2148 ---
+|
+
+--- Document Chunk 2149 ---
+|                           一
+
+--- Document Chunk 2150 ---
+0x0205         V0OBC一CI 城市白定义帧         VOBC一CI              AEM
+
+--- Document Chunk 2151 ---
+0x0206     CI VOBC Sik iti (1 ae Xi    CI一VOBC       自定义
+
+--- Document Chunk 2152 ---
+0x0207     VOBC一CI厂商自定义帧    VOBC->CI       月定义
+
+--- Document Chunk 2153 ---
+0x0208        CI一VOBRC 厂商肩定义帧       CI一VOBC           白定义
+
+--- Document Chunk 2154 ---
+0x0209         VOBCC1 注销诸求帧           VOBC->CI              周期
+
+--- Document Chunk 2155 ---
+0x020a                                                                                                 周期
+
+--- Document Chunk 2156 ---
+7.3.2.1 概述
+
+--- Document Chunk 2157 ---
+VOBC 在列奈;
+
+--- Document Chunk 2158 ---
+备分别控制,为两侧的 PSD 分别      局唯一的标识(即整列的 PSD 当
+
+--- Document Chunk 2159 ---
+作一个设备,系统为其分配全局唯一的 1D) 。
+
+--- Document Chunk 2160 ---
+文中术做说明的上下行定义,均为线路规定的运营上下行方向。
+
+--- Document Chunk 2161 ---
+7.3.2.2 VOBC 向 CI发送信息
+
+--- Document Chunk 2162 ---
+7.3.2.2.1 VOBC 向CI发送心跳帧
+
+--- Document Chunk 2163 ---
+在列车车头最大安全前端进入 CI 通信区段前发送该信息包(有具
+
+--- Document Chunk 2164 ---
+体时机各厂商自定义) ,用米维持 VOBC 设备和 C1间通信和链路的连
+
+--- Document Chunk 2165 ---
+列车车头最大安全前端进入 CI通信区段后,开始发送控制信息时不
+
+--- Document Chunk 2166 ---
+再发送心跳帧。VOBC 向 Cl 发送心跳帧信息见表 32 。
+
+--- Document Chunk 2167 ---
+69
+
+--- Document Chunk 2168 ---
+--- Page 75 ---
+
+--- Document Chunk 2169 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2170 ---
+表32 VOBC 向 CI发送心跳帧
+
+--- Document Chunk 2171 ---
+接HI内容 | 字节长度 |      说 明
+
+--- Document Chunk 2172 ---
+无    0    仅有报文帧头,详见应用层信息格式定义
+
+--- Document Chunk 2173 ---
+7.3.2.2.2 VOBC 向 CI 发送控制信息
+
+--- Document Chunk 2174 ---
+从列车车头最大安全前端进入 CI 通信区段开始,直至列车最大安全
+
+--- Document Chunk 2175 ---
+VOBC 至 CI 输出信息接口多表 33 ,应用层报文长度周定,全线站从
+
+--- Document Chunk 2176 ---
+门的编号方式应有共同的规则和相应的说明文件，
+
+--- Document Chunk 2177 ---
+列车适行方向(激活端企头最大安全前
+
+--- Document Chunk 2178 ---
+表33 VOBC 向 CI 发送控制信息
+
+--- Document Chunk 2179 ---
+接口内容
+
+--- Document Chunk 2180 ---
+端对应方向)
+
+--- Document Chunk 2181 ---
+SPICE                      说      切
+
+--- Document Chunk 2182 ---
+DIR_TRAIN          1       1.47 0x55
+
+--- Document Chunk 2183 ---
+下行:0xAA
+
+--- Document Chunk 2184 ---
+跌兴:0OxFF
+
+--- Document Chunk 2185 ---
+允许保护区段解锁命令
+
+--- Document Chunk 2186 ---
+站:0x55S
+
+--- Document Chunk 2187 ---
+解锁:0OxAA
+
+--- Document Chunk 2188 ---
+CMD_UNLOCKOVERLAP       1         其他
+
+--- Document Chunk 2189 ---
+AE HF
+
+--- Document Chunk 2190 ---
+轨道区段 ID
+
+--- Document Chunk 2191 ---
+              1 ~OxFFFFFFFF ,0 为默认值
+
+--- Document Chunk 2192 ---
+NID_TRACK          4
+
+--- Document Chunk 2193 ---
+一                         VOBC 服大安全前端所在 CH 通信区段的
+
+--- Document Chunk 2194 ---
+轨道区段 ID
+
+--- Document Chunk 2195 ---
+站台开门码,VOBC 和衫据停准停稳时对应
+
+--- Document Chunk 2196 ---
+Ky fe   Bil Fe 3 Y           ai
+
+--- Document Chunk 2197 ---
+N_PSD_CMD_CODE       1     id    及列车编组             _
+
+--- Document Chunk 2198 ---
+码 ,每个开门码对应 C1
+
+--- Document Chunk 2199 ---
+|门,站台开门但定义详见注4: 默认人
+
+--- Document Chunk 2200 ---
+70
+
+--- Document Chunk 2201 ---
+--- Page 76 ---
+
+--- Document Chunk 2202 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2203 ---
+表33 VOBC 向 CI发送控制信息(续)
+
+--- Document Chunk 2204 ---
+接口内容               字节长度                           说       阴
+
+--- Document Chunk 2205 ---
+i FETE MANY PSD AY RAE (ENE) O01 或
+
+--- Document Chunk 2206 ---
+N_PSD             1     者2;为0时,PSDI 和 PS             i
+
+--- Document Chunk 2207 ---
+值;为1时.PSD_2 $F
+
+--- Document Chunk 2208 ---
+PSD_I 的 ID
+
+--- Document Chunk 2209 ---
+| ~OxFFFFFFFF
+
+--- Document Chunk 2210 ---
+0 Ay BRIA MEL 2a 8 “TEL Aa 7 EAB FF TE
+
+--- Document Chunk 2211 ---
+Ad
+
+--- Document Chunk 2212 ---
+NID_PSD_I       4
+
+--- Document Chunk 2213 ---
+PSD_I
+
+--- Document Chunk 2214 ---
+控制信息                                         对 PSD_L 的控制命令(对点命令为开门
+
+--- Document Chunk 2215 ---
+NC_PSD_1           1             并门:0x55
+
+--- Document Chunk 2216 ---
+关门:0xAA
+
+--- Document Chunk 2217 ---
+FTA TE CIT OFF
+
+--- Document Chunk 2218 ---
+PSD_2 的 ID CHI TS: JL As Ue fl tty i dc PT
+
+--- Document Chunk 2219 ---
+控制)
+
+--- Document Chunk 2220 ---
+NID_PSD_2       4         1 ~OxFFFFFFFF
+
+--- Document Chunk 2221 ---
+0 为味认值,表示当前通信位置不在在站
+
+--- Document Chunk 2222 ---
+an
+
+--- Document Chunk 2223 ---
+PSD_2
+
+--- Document Chunk 2224 ---
+mies                                        对 PSD_2 的控制命令( 对应
+
+--- Document Chunk 2225 ---
+照N_PSD_TYPE)
+
+--- Document Chunk 2226 ---
+NC_PSD_2        1          开门:0*55
+
+--- Document Chunk 2227 ---
+关门:OAAA
+
+--- Document Chunk 2228 ---
+PRIA FERAL OxFF
+
+--- Document Chunk 2229 ---
+信号机的 ID
+
+--- Document Chunk 2230 ---
+1~OxXFFFFFFFF,0 WRIA GL
+
+--- Document Chunk 2231 ---
+VOBC 最大安全    御方沿列车运行方
+
+--- Document Chunk 2232 ---
+向可搜索到的航近的同向信号机
+
+--- Document Chunk 2233 ---
+—___|_
+
+--- Document Chunk 2234 ---
+注1:在本接口中,CT根据 VOBC 发     言号机 ID 回复对应的    机状态
+
+--- Document Chunk 2235 ---
+FE 2: VOBC 发出允许保护区段解锁信息后,在自动或人工确认前方信号开间
+
+--- Document Chunk 2236 ---
+L       前,车载 ATP 应禁止列车前向牵引
+
+--- Document Chunk 2237 ---
+NID_SICNAL NID_SICNAL      4
+
+--- Document Chunk 2238 ---
+--- Page 77 ---
+
+--- Document Chunk 2239 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2240 ---
+表33 VOBC 向 CI 发送控制信息(续)
+
+--- Document Chunk 2241 ---
+注3:站台门控制命令发送时机:
+
+--- Document Chunk 2242 ---
+(1)从列车进入站台轨至列车停准停稳之前控制命令发送默认值;
+
+--- Document Chunk 2243 ---
+(2)列车停准停稳之后,未进行开关站台门操作之前,控制命令发送默
+
+--- Document Chunk 2244 ---
+认值;
+
+--- Document Chunk 2245 ---
+(3)开关站人台门操作后,应持续发送有效控制命令(开门或关门) ,直至采
+
+--- Document Chunk 2246 ---
+集到 CI 发送的站台门状态与期望状态一致时,开始发送默认值;
+
+--- Document Chunk 2247 ---
+(4)列车折返过程中,换端之后,VOBC 对 CI 发送的站台门开关命令发送
+
+--- Document Chunk 2248 ---
+默认值 ,进行开关门操作之后持续发送有效的控制命令,直至采集到
+
+--- Document Chunk 2249 ---
+CI 发送的站台门状态与期望状态一致时,开始发送默认值;
+
+--- Document Chunk 2250 ---
+(5)列车非停准停稳状态下 ,控制命令发送默认值;
+
+--- Document Chunk 2251 ---
+(6)通信故障恢复后,未进行开关站台门操作之前,控制命令发送默
+
+--- Document Chunk 2252 ---
+认值。
+
+--- Document Chunk 2253 ---
+注4:站台门开门码定义见表 34(其中上行.下行为电子地图定义的上下行方
+
+--- Document Chunk 2254 ---
+向,停车点 1停车点 2 的定义参见 T/CAMET 04010. 3—2018) :
+
+--- Document Chunk 2255 ---
+(1)VOBC 发送的站台门命令中含有开门命令时,开门码应发送有效信
+
+--- Document Chunk 2256 ---
+息;若两侧均为关门命令或默认值,则开门码信息应发送默认值。
+
+--- Document Chunk 2257 ---
+(2) 开门码信息只对开门命令有效。若两侧 PSD 同时发送开门命令,则开门
+
+--- Document Chunk 2258 ---
+码信息对两侧 PSD 均有效;若一侧 PSD 发送开门命令,一侧发送关门命
+
+--- Document Chunk 2259 ---
+令或默认值,则开门码信息对开门命令侧有效 ,对另一侧无效。
+
+--- Document Chunk 2260 ---
+(3)关门命令对对应侧全部 PSD 有效。
+
+--- Document Chunk 2261 ---
+£5: VOBC 在发送 CI控制信息包时,PSDID 在具备站台门的情况下始终填写
+
+--- Document Chunk 2262 ---
+有效值 ,在不具备站台门的情况下填写默认值。
+
+--- Document Chunk 2263 ---
+注6:若 VOBC 处于 CBTC 等级,则可不向 CI发送“允许解锁”(其他 PSD、信号
+
+--- Document Chunk 2264 ---
+机等相关信息照常发送) 。
+
+--- Document Chunk 2265 ---
+注7:VOBC 判断下列条件同时满足时,应发送保护区段允许解锁:
+
+--- Document Chunk 2266 ---
+(1)列车停稳;
+
+--- Document Chunk 2267 ---
+(2)列车最大安全前端未越过估计位置所在进路末端位置(进路末端位
+
+--- Document Chunk 2268 ---
+置指列车估计位置前方第一个同向信号机所在轨道区段终点) ;
+
+--- Document Chunk 2269 ---
+(3)估计位置所在进路的终端信号机未开放,具体判断规则为:点式级别
+
+--- Document Chunk 2270 ---
+下,根据 CI 发送的信号机状态 ,判断信号机是否开放;
+
+--- Document Chunk 2271 ---
+(4)不再需要此进路的保护区段 :列车停准且停稳时应认为不再需要 ,列
+
+--- Document Chunk 2272 ---
+车越过停车窗停稳时可认为不再需要。
+
+--- Document Chunk 2273 ---
+注8:CI WB) VOBC 发送的保护区段允许解锁命令为允许解锁时, CI 可根据
+
+--- Document Chunk 2274 ---
+VOBC 发送的轨道区段 ID 或信号机 ID 解锁对应保护区段。
+
+--- Document Chunk 2275 ---
+--- Page 78 ---
+
+--- Document Chunk 2276 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2277 ---
+R34 开门码定义
+
+--- Document Chunk 2278 ---
+bit7    bit6  bits  bit4 | bit3 | bit2 | bitl | bit0 |
+
+--- Document Chunk 2279 ---
+|
+
+--- Document Chunk 2280 ---
+列车实际编组数。有效值:0000lb ~
+
+--- Document Chunk 2281 ---
+IDb。
+
+--- Document Chunk 2282 ---
+例如,6 编组列车取值为 00110b
+
+--- Document Chunk 2283 ---
+白定义信
+
+--- Document Chunk 2284 ---
+在工程中根据
+
+--- Document Chunk 2285 ---
+息 ,用于实现各城市特有的互联互通相关功能。上有具体内容
+
+--- Document Chunk 2286 ---
+约定 ,各厂商均应实现相应功能。VOBC 向 CI 发
+
+--- Document Chunk 2287 ---
+TELA
+
+--- Document Chunk 2288 ---
+7.3.2.2.4 VOBQC\Ig
+
+--- Document Chunk 2289 ---
+白定义信息，
+
+--- Document Chunk 2290 ---
+# 36
+
+--- Document Chunk 2291 ---
+表36 VOBC 向 CI 发送厂商自定义帧
+
+--- Document Chunk 2292 ---
+WICH                  ie)
+
+--- Document Chunk 2293 ---
+有具体内容由各厂商分别定制
+
+--- Document Chunk 2294 ---
+7.3.2.2.5 VOBC 向CI发送注销请求帧
+
+--- Document Chunk 2295 ---
+在列车判断需要与 CI 断开通信时,VOBC 向 CI 发送注销信息 ,直至
+
+--- Document Chunk 2296 ---
+VOBC 收到 Cl 回复的注销信息 ,或者 VOBC 判断通信超时。
+
+--- Document Chunk 2297 ---
+VOBC 发送的“注销请求"包“控制信息"包“心跳"包在同一 GAL
+
+--- Document Chunk 2298 ---
+包中不应同时存在。
+
+--- Document Chunk 2299 ---
+注销请求帧见表 37。
+
+--- Document Chunk 2300 ---
+73
+
+--- Document Chunk 2301 ---
+--- Page 79 ---
+
+--- Document Chunk 2302 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 2303 ---
+表 37 ”注销请求帧信息
+
+--- Document Chunk 2304 ---
+接口内容       字节长度
+
+--- Document Chunk 2305 ---
+说明
+
+--- Document Chunk 2306 ---
+无             0       | “公有报文帧头,详见应用层信息格式定义
+
+--- Document Chunk 2307 ---
+注1:VOBC 带有"注销请求帧"的 GAL 包中 ,应不带有其他信息包。
+
+--- Document Chunk 2308 ---
+注2:注销请求帧均    程如下:
+
+--- Document Chunk 2309 ---
+(1)VOBC 判断
+
+--- Document Chunk 2310 ---
+蚌 “的条件后 ,应持续周期发送“注销
+
+--- Document Chunk 2311 ---
+HY Fd SE we”
+
+--- Document Chunk 2312 ---
+帧"后 ,应
+
+--- Document Chunk 2313 ---
+VOBC 的和通信断开;
+
+--- Document Chunk 2314 ---
+CI 发     注销回复帧"后 ,应停止发
+
+--- Document Chunk 2315 ---
+并断开与 CI 的通信
+
+--- Document Chunk 2316 ---
+(4)4IPVOBC 列车折返时，
+
+--- Document Chunk 2317 ---
+HTT -R wi"
+
+--- Document Chunk 2318 ---
+Sig VOBC 157 FEU ih PUTT Sth VOBC 已与 CI 注销
+
+--- Document Chunk 2319 ---
+或经过一定延时(应不小于 VOBC - CL iif PT NT) 后,方叮向 CH 发送
+
+--- Document Chunk 2320 ---
+控      \包
+
+--- Document Chunk 2321 ---
+7.3.3 CI向VOBC 发送信息
+
+--- Document Chunk 2322 ---
+7.3.3.1 CI向VOBC 发送心跳帧
+
+--- Document Chunk 2323 ---
+4 CL 与 YOBC 建立链接后.且尚未收到 VOBC 向 Cl 发送的控制信
+
+--- Document Chunk 2324 ---
+息之前,发送该信息包,用来维持 VOBC 设备和 CI问通信链路的连续性，
+
+--- Document Chunk 2325 ---
+CI向 VOBC 发送心跳帧信息见去38。
+
+--- Document Chunk 2326 ---
+表38 CI向VOBC 发送心跳帧信息
+
+--- Document Chunk 2327 ---
+HELP      eke |                说 明
+
+--- Document Chunk 2328 ---
+无        0    | ALAR WL LL    式定义
+
+--- Document Chunk 2329 ---
+注1:C1与VOBC 建立安全连接后,CI 未收到 VOBC 发送
+
+--- Document Chunk 2330 ---
+送心跳帧(此功能不强制要求) ，VOBC ny nf ate             心跳帧“对方
+
+--- Document Chunk 2331 ---
+消息序列号"”“收到上一     叶本方序列号   Be RL Hy BRUM tL
+
+--- Document Chunk 2332 ---
+注2:CI收到 VOBC 发送的首包信息 ,无法判断有效性时,发送"CI 向 VOBC 发
+
+--- Document Chunk 2333 ---
+送心跳帧”
+
+--- Document Chunk 2334 ---
+i. JIU) Be
+
+--- Document Chunk 2335 ---
+7.3.3.2 CI向VOBC 发送状态信息
+
+--- Document Chunk 2336 ---
+当 CI 收到 VOBC 的控制信息之后 ,发送该信息包-。
+
+--- Document Chunk 2337 ---
+74
+
+--- Document Chunk 2338 ---
+--- Page 80 ---
+
+--- Document Chunk 2339 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2340 ---
+CL fe} VOBC 输出信息接口匈表 39
+
+--- Document Chunk 2341 ---
+表39 CI向VOBC 发送状态信息
+
+--- Document Chunk 2342 ---
+接口内容           长度             说    明
+
+--- Document Chunk 2343 ---
+NID_TRACK           4     Cl 接收到的 VOBC 发送的轨道区
+
+--- Document Chunk 2344 ---
+段 ID
+
+--- Document Chunk 2345 ---
+N_PSD_CMD_CODE         1    ; cl 接收到的 VOBC 发送的站人台开
+
+--- Document Chunk 2346 ---
+门码
+
+--- Document Chunk 2347 ---
+N_PSD                 1       网复状态的 PSD 的数量
+
+--- Document Chunk 2348 ---
+PSD_I fy ID,1 ~0     FFFF
+
+--- Document Chunk 2349 ---
+NID_PSD_I     4   OA BR UAE, Ae a8 4 TT A EAS HE HE
+
+--- Document Chunk 2350 ---
+站人台门
+
+--- Document Chunk 2351 ---
+PSD_1 的状态
+
+--- Document Chunk 2352 ---
+PSD_I                           开门:0x55
+
+--- Document Chunk 2353 ---
+| PSD_I
+
+--- Document Chunk 2354 ---
+信息      状态    Q_PSD_I | 1      关门:0xAA(互镇解除时按照关门发
+
+--- Document Chunk 2355 ---
+                 ik)
+
+--- Document Chunk 2356 ---
+SRUCEL OxFF
+
+--- Document Chunk 2357 ---
+PSD_I    R_NC_    )     Cl 接收到的 VOBC 对 PSD_1 的控制
+
+--- Document Chunk 2358 ---
+控制命令 | PSD_1        命令
+
+--- Document Chunk 2359 ---
+PSD_2 的 ID
+
+--- Document Chunk 2360 ---
+NID. psD 2       4     1 ~OxFFFFFFFF
+
+--- Document Chunk 2361 ---
+—            OBR UAL , Ae as MG ATL FF Ae BE AS FE HE
+
+--- Document Chunk 2362 ---
+站台门
+
+--- Document Chunk 2363 ---
+psD 2                               PSD_2 的状态
+
+--- Document Chunk 2364 ---
+信息                       开门:0x55
+
+--- Document Chunk 2365 ---
+                      1     关门:0xAA 〈互锁解除时按照关门发
+
+--- Document Chunk 2366 ---
+送)
+
+--- Document Chunk 2367 ---
+默认值:0xFF
+
+--- Document Chunk 2368 ---
+PSD_2    R_NC_    1     CI 接收到的 VOBC 对 PSD_2 的控制
+
+--- Document Chunk 2369 ---
+控制命令 | PSD_2        命令
+
+--- Document Chunk 2370 ---
+75
+
+--- Document Chunk 2371 ---
+--- Page 81 ---
+
+--- Document Chunk 2372 ---
+T/CAMET 04011, 2—2018
+
+--- Document Chunk 2373 ---
+#39 CI向 VOBC 发送状态信息(续)
+
+--- Document Chunk 2374 ---
+字节
+
+--- Document Chunk 2375 ---
+接口内容                 长度                    说 明
+
+--- Document Chunk 2376 ---
+4     fa S BLA ID
+
+--- Document Chunk 2377 ---
+Cl 接收到的 VOBC 发送的信号机 ID
+
+--- Document Chunk 2378 ---
+Q_SIGNAL_ASPECT                       机的 1D"的信叶机状态
+
+--- Document Chunk 2379 ---
+1        点式允许1
+
+--- Document Chunk 2380 ---
+气式然止信
+
+--- Document Chunk 2381 ---
+默认值:0xFF( 该方向无信号机时款写)
+
+--- Document Chunk 2382 ---
+7.3.3.3 CI向 VOBC 发送城市自定义帧
+
+--- Document Chunk 2383 ---
+自定义信息,用于实现各城市特有的互联互通相关功能。具体内容
+
+--- Document Chunk 2384 ---
+在工程中根据实际震求约定,各厂商均应实现相应功能。CI 向 VOBC 发
+
+--- Document Chunk 2385 ---
+送城市自定义帧信息见表 40。
+
+--- Document Chunk 2386 ---
+#40 CI向 VOBC 发送城市自定义帧信息
+
+--- Document Chunk 2387 ---
+字节长度
+
+--- Document Chunk 2388 ---
+接口内容
+
+--- Document Chunk 2389 ---
+说        明
+
+--- Document Chunk 2390 ---
+具体内容在工程中约定
+
+--- Document Chunk 2391 ---
+7.3.3.4 CI向 VOBC 发送
+
+--- Document Chunk 2392 ---
+自定义信息,用于实现各
+
+--- Document Chunk 2393 ---
+厂商自定义帧
+
+--- Document Chunk 2394 ---
+厂商特有功能。各厂商分别定制,VOBC 收
+
+--- Document Chunk 2395 ---
+到非本广识的三商自定义帧后,可不进行处再。发送方判断接收方与自
+
+--- Document Chunk 2396 ---
+己属于同一三商时方可发送。CI 向 VOBC 发送厂商自定义帧信息见
+
+--- Document Chunk 2397 ---
+表41。
+
+--- Document Chunk 2398 ---
+表41 CI向VOBC 发送厂商自定义帧信息
+
+--- Document Chunk 2399 ---
+接口内容   字节长度           说 明
+
+--- Document Chunk 2400 ---
+信息定义    N        具体内容由各厂商分别定制
+
+--- Document Chunk 2401 ---
+7.3.3.5 CI向VOBC 发送注销回复帧
+
+--- Document Chunk 2402 ---
+在 CI 接收到 VOBC 的注销请求帧后,向 VOBC
+
+--- Document Chunk 2403 ---
+76
+
+--- Document Chunk 2404 ---
+Ei
+
+--- Document Chunk 2405 ---
+复注销回复帧。
+
+--- Document Chunk 2406 ---
+--- Page 82 ---
+
+--- Document Chunk 2407 ---
+T/CAMET 04011, 2一2018
+
+--- Document Chunk 2408 ---
+CI 发送的"注销回复"包“状    引"包“心跳"包在同一 GAL 包
+
+--- Document Chunk 2409 ---
+中不应同时存在。CI 向 VOBC 发送注销回复由信息见表 42 。
+
+--- Document Chunk 2410 ---
+表42 CI向 VOBC 发送注销回复帧信息
+
+--- Document Chunk 2411 ---
+mone | FAKE       BOW
+
+--- Document Chunk 2412 ---
+无 | 0 [ATR a Me
+
+--- Document Chunk 2413 ---
+7.3.4 列车折返过程通信说明
+
+--- Document Chunk 2414 ---
+折返流程分为首尾端VOBC 共用安全连接与首尾端 VOBC 不共用安
+
+--- Document Chunk 2415 ---
+全连接两种情况。本节中 YOBC1 指换端前的车头 VOBC .VOBC2 指换端
+
+--- Document Chunk 2416 ---
+前的车尾 VOBC。
+
+--- Document Chunk 2417 ---
+7.3.4.1 首尾VOBC 2%
+
+--- Document Chunk 2418 ---
+CAMA F , VOBE €e                 和       连接,宛余消息
+
+--- Document Chunk 2419 ---
+在红蓝网上分别传              ia     HRM IP). ee
+
+--- Document Chunk 2420 ---
+VOBC SE [ii] fli JH i SR a           HR VID, CLARK AH
+
+--- Document Chunk 2421 ---
+尼端 VOBC, riz wi                        息帧”,但“控制信
+
+--- Document Chunk 2422 ---
+7. 3.4.2 4 VOB
+
+--- Document Chunk 2423 ---
+此种情况时车载首尾SeQ             D ,首尾 YOBC 分别与 CI
+
+--- Document Chunk 2424 ---
+建立安全连接。在折返过程中，      BC2 与 CI 新建立安全连接 ,新建
+
+--- Document Chunk 2425 ---
+安全连接的时机可选择以下处理之一:
+
+--- Document Chunk 2426 ---
+a) VOBC1 与 CI 注销完成后,VOBC2 才开始与 CI 建立连接。
+
+--- Document Chunk 2427 ---
+b) VY0BC1 与 CI未完成注销确认前,VOBC2 开始与 CI 建立连接发
+
+--- Document Chunk 2428 ---
+送心跳包;VOBC1 与 Cl 完成注销确认后,尾端开始向 CL 发送
+
+--- Document Chunk 2429 ---
+控制信息。
+
+--- Document Chunk 2430 ---
+77
+
+--- Document Chunk 2431 ---
+--- Page 83 ---
+
+--- Document Chunk 2432 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2433 ---
+附 录 A
+
+--- Document Chunk 2434 ---
+(AREER)
+
+--- Document Chunk 2435 ---
+ATO 控制命令帧发送更新时机示例
+
+--- Document Chunk 2436 ---
+A.1 场景
+
+--- Document Chunk 2437 ---
+车从 A 站向 D 站运行,A 站正常停车,B 站 C 站跳停,D 站 工站
+
+--- Document Chunk 2438 ---
+A.2 ATO 控制命令帧发送更新时机
+
+--- Document Chunk 2439 ---
+ATO 控制命令帧发送更新时机见表 A. 1 ,各阶段定义见表 A.2
+
+--- Document Chunk 2440 ---
+表A.1 ATS 向VOBC 发送ATO 控制命令帧更新时机
+
+--- Document Chunk 2441 ---
+机 人台   “eee   开  He   shiva  SEINE   本 : a
+
+--- Document Chunk 2442 ---
+A     |    一         A        Oxaa       一         A
+
+--- Document Chunk 2443 ---
+1一2         A         一         A        Oxaa       一         A
+
+--- Document Chunk 2444 ---
+204 FEEL        B          B          D         0x55         A        A—B
+
+--- Document Chunk 2445 ---
+2一3         B         B         D        0x55        A        A—B
+
+--- Document Chunk 2446 ---
+3.A 开车        B          B          D         0x55        一        A—B
+
+--- Document Chunk 2447 ---
+3一4         B         B         D        oss | 一       A—B
+
+--- Document Chunk 2448 ---
+4.A 出站     B       B       D      0x55      一     A一B
+
+--- Document Chunk 2449 ---
+4一5         B         B         D        0x55        一       A一B
+
+--- Document Chunk 2450 ---
+5.B 进站      B        B        D       0x55 | 一      A一B
+
+--- Document Chunk 2451 ---
+5一6         B         B         D        0x55 | 一       A一B
+
+--- Document Chunk 2452 ---
+ee       B         B         D        0x55        一       A一如
+
+--- Document Chunk 2453 ---
+--- Page 84 ---
+
+--- Document Chunk 2454 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2455 ---
+表A.1 ATS向VOBC 发送 ATO 控制命令帧更新时机(续)
+
+--- Document Chunk 2456 ---
+列车位置及
+
+--- Document Chunk 2457 ---
+ATO 控制命 | 到站站台 | 跳停站台 | 下一停     下一站    站停时间   区间运行
+
+--- Document Chunk 2458 ---
+令帧发送更 | 。 ID     ID | 车站台 ID | 跳停命令| “    调整命令
+
+--- Document Chunk 2459 ---
+新时机
+
+--- Document Chunk 2460 ---
+6一7                     B          D         0x55
+
+--- Document Chunk 2461 ---
+7.B 出站        C          C          D        0x55        一        B—C
+
+--- Document Chunk 2462 ---
+7一8          C          C          D         0x55        一        B一C
+
+--- Document Chunk 2463 ---
+8.C 进站        C          C          D         0x55        一        B一C
+
+--- Document Chunk 2464 ---
+8一9          Cc          Cc          dD         0x55        一        B—C
+
+--- Document Chunk 2465 ---
+% © weil        c           C          D         0x55                  B—C
+
+--- Document Chunk 2466 ---
+9一10         Cc          Cc          D         0x55        一        B—C
+
+--- Document Chunk 2467 ---
+10. C 出站        D          一           D         Oxaa         一        C一D
+
+--- Document Chunk 2468 ---
+10-11         D                     D         Oxaa        一        C一D
+
+--- Document Chunk 2469 ---
+11. D Desh       Dd                     D         Oxaa        一        C一D
+
+--- Document Chunk 2470 ---
+11一12         D          一          D         Oxaa        一        C一D
+
+--- Document Chunk 2471 ---
+12. D 停稳        E          一           E         Oxaa         D         D-E
+
+--- Document Chunk 2472 ---
+注:表中,1 .2……表示阶段定义中的各时刻.1一2 .2一3表示各时刻之间
+
+--- Document Chunk 2473 ---
+的时间段(不含西端的时刻) “一"表示该字段发送默认值。
+
+--- Document Chunk 2474 ---
+表A.2 ATS 向VOBC 发送 ATO 控制命令帧
+
+--- Document Chunk 2475 ---
+更新时机的各阶段定义
+
+--- Document Chunk 2476 ---
+列车位置及 ATO
+
+--- Document Chunk 2477 ---
+控制命令帧发送                            Aen ener y
+
+--- Document Chunk 2478 ---
+更新时机各                              eine
+
+--- Document Chunk 2479 ---
+阶段定义
+
+--- Document Chunk 2480 ---
+| ATS 收到列车信息帧中的安全防护点轨道区段 ID FA fh A ak,
+
+--- Document Chunk 2481 ---
+| 即列车最大安全前端到达 A 站站台的时刻
+
+--- Document Chunk 2482 ---
+79
+
+--- Document Chunk 2483 ---
+--- Page 85 ---
+
+--- Document Chunk 2484 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2485 ---
+表A.2 ATS向VOBC 发送ATO 控制命令帧
+
+--- Document Chunk 2486 ---
+更新时机的各阶段定义(续)
+
+--- Document Chunk 2487 ---
+列车位置及 ATO
+
+--- Document Chunk 2488 ---
+控制命令帧发送
+
+--- Document Chunk 2489 ---
+更新时机各
+
+--- Document Chunk 2490 ---
+阶段定义
+
+--- Document Chunk 2491 ---
+时刻
+
+--- Document Chunk 2492 ---
+各阶段定义
+
+--- Document Chunk 2493 ---
+息帧中的停
+
+--- Document Chunk 2494 ---
+pe
+
+--- Document Chunk 2495 ---
+ATS 开始收到列车人
+
+--- Document Chunk 2496 ---
+态字段内容为 0x55 的
+
+--- Document Chunk 2497 ---
+3. A 开和车
+
+--- Document Chunk 2498 ---
+pa
+
+--- Document Chunk 2499 ---
+ATS FF Wee MS 38 i) 42 45 OO 1 FR
+
+--- Document Chunk 2500 ---
+态字段内容不为0855 的
+
+--- Document Chunk 2501 ---
+页
+
+--- Document Chunk 2502 ---
+g
+
+--- Document Chunk 2503 ---
+6. B 越过从
+
+--- Document Chunk 2504 ---
+y
+
+--- Document Chunk 2505 ---
+7. B 出站       列             iPS JP B 站站人台的时刻
+
+--- Document Chunk 2506 ---
+8. C 进站       列车股大安全前端到达[C 站站人台的叶刻
+
+--- Document Chunk 2507 ---
+9.C战过停车     列车及大安全前端越过 C 站停车点的时记
+
+--- Document Chunk 2508 ---
+10.C 出站
+
+--- Document Chunk 2509 ---
+bd
+
+--- Document Chunk 2510 ---
+车服大安全前端离开 C 站站台的由
+
+--- Document Chunk 2511 ---
+x
+
+--- Document Chunk 2512 ---
+11. D 进站
+
+--- Document Chunk 2513 ---
+>
+
+--- Document Chunk 2514 ---
+Lp 9
+
+--- Document Chunk 2515 ---
+TS 收到列车
+
+--- Document Chunk 2516 ---
+中的安全防护上
+
+--- Document Chunk 2517 ---
+车最大安全前端到达 D 站站人台的由
+
+--- Document Chunk 2518 ---
+Lit DX BE ID Al thi EE,
+
+--- Document Chunk 2519 ---
+Zl
+
+--- Document Chunk 2520 ---
+If 2
+
+--- Document Chunk 2521 ---
+ATS FP bey Sc 38 3 42407 LT A Be BO
+
+--- Document Chunk 2522 ---
+态字段内容为 0x55 的
+
+--- Document Chunk 2523 ---
+LL   注:表中,1.2……表示阶段定义中的各时刻。
+
+--- Document Chunk 2524 ---
+80
+
+--- Document Chunk 2525 ---
+--- Page 86 ---
+
+--- Document Chunk 2526 ---
+中国城市轨道交通协会出体祭准
+
+--- Document Chunk 2527 ---
+城市轨道交通“基于通信的列车运行
+
+--- Document Chunk 2528 ---
+控制系统( CBTC ) 互联互通接口规范
+
+--- Document Chunk 2529 ---
+第 2 部分:CBTC 系统车地连续通信协议
+
+--- Document Chunk 2530 ---
+T/CAMET 04011. 2一2018
+
+--- Document Chunk 2531 ---
+中国铁道出版社有限公司出版发行
+
+--- Document Chunk 2532 ---
+(100054 ,   西城区有安门西街8 喉)
+
+--- Document Chunk 2533 ---
+公司网址: http://www. tdpress. com,
+
+--- Document Chunk 2534 ---
+北京铭成印刷有限公司印刷
+
+--- Document Chunk 2535 ---
+FEA; 880 mm x1230 mm 1/32 印张: 2.875 FR: 78 F
+
+--- Document Chunk 2536 ---
+2019 年5月第1版 2019年5硼第1次印刷
+
+--- Document Chunk 2537 ---
+书号: 15113-5729 SE ff: 25.00 元
+
+--- Document Chunk 2538 ---
+版权所有 侵权必究
+
+--- Document Chunk 2539 ---
+凡购买铁道版图书,如有印制质世问题 ,请与本公司发行部联系调换
+
+--- Document Chunk 2540 ---
+发行部电话:路(021)73174 ,市(010)51873174
+

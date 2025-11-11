@@ -1,0 +1,1476 @@
+--- Document Chunk 0 ---
+24
+
+--- Document Chunk 1 ---
+Back to basics: Points maintenance 
+
+--- Document Chunk 2 ---
+and remote condition monitoring
+
+--- Document Chunk 3 ---
+Trevor Bradbeer
+
+--- Document Chunk 4 ---
+In this article, which continues the Back-to-basics 
+
+--- Document Chunk 5 ---
+series on points (see February and March 2022 editions 
+
+--- Document Chunk 6 ---
+of IRSE News), we will be considering three general and 
+
+--- Document Chunk 7 ---
+related subject areas: scheduled maintenance; fault-
+
+--- Document Chunk 8 ---
+finding; and how Remote Condition Monitoring (RCM) 
+
+--- Document Chunk 9 ---
+can assist with both of these. Initially we will consider 
+
+--- Document Chunk 10 ---
+faulting and maintenance in the more traditional sense 
+
+--- Document Chunk 11 ---
+BC (Before Condition monitoring!), and then move on 
+
+--- Document Chunk 12 ---
+to AD (Assisted Digitally!).
+
+--- Document Chunk 13 ---
+Timely and effective maintenance of the point 
+
+--- Document Chunk 14 ---
+actuating mechanism and the Switch and Crossing 
+
+--- Document Chunk 15 ---
+(S&C) is essential for the safe operation of the railway. 
+
+--- Document Chunk 16 ---
+As far as possible, signalling technology developments 
+
+--- Document Chunk 17 ---
+have tended to reduce or eliminate moving and 
+
+--- Document Chunk 18 ---
+mechanically vulnerable parts such as relays, filament 
+
+--- Document Chunk 19 ---
+lamps, searchlight signals and physical panel controls. 
+
+--- Document Chunk 20 ---
+However, so long as wheels run on rails there will 
+
+--- Document Chunk 21 ---
+always be the need to switch trains between tracks, and 
+
+--- Document Chunk 22 ---
+therefore points will be required.
+
+--- Document Chunk 23 ---
+Why maintenance matters
+
+--- Document Chunk 24 ---
+It is not hard to envisage that a mechanism pushing with 
+
+--- Document Chunk 25 ---
+a force measured in thousands of Newtons, to millimetre 
+
+--- Document Chunk 26 ---
+accuracy, that is run over by hundreds of tons of train moving 
+
+--- Document Chunk 27 ---
+at speed will need to be maintained on a regular basis to 
+
+--- Document Chunk 28 ---
+keep it in reliable working order! Maintenance of points, as 
+
+--- Document Chunk 29 ---
+with other signalling assets, must be performed at intervals 
+
+--- Document Chunk 30 ---
+that are frequent enough to ensure any signs of deterioration 
+
+--- Document Chunk 31 ---
+are captured and rectified on a timely basis, especially where 
+
+--- Document Chunk 32 ---
+safety is concerned.
+
+--- Document Chunk 33 ---
+The maintenance can be considered in two parts: the track, 
+
+--- Document Chunk 34 ---
+covering the rails, chairs, crossing etc.; and the signalling, 
+
+--- Document Chunk 35 ---
+covering the point actuating, lock and detection mechanism. 
+
+--- Document Chunk 36 ---
+Inevitably these two functions overlap, and representatives 
+
+--- Document Chunk 37 ---
+from both departments may attend the same maintenance 
+
+--- Document Chunk 38 ---
+event to perform their specific tasks, whilst also advising and 
+
+--- Document Chunk 39 ---
+assisting the other department in theirs. Other personnel might 
+
+--- Document Chunk 40 ---
+also be involved, for example to maintain point heating where 
+
+--- Document Chunk 41 ---
+required; in the UK this is usually undertaken by Electrification 
+
+--- Document Chunk 42 ---
+& Plant (E&P) personnel, and is outside the scope of this article.
+
+--- Document Chunk 43 ---
+Ultimately the purpose of all maintenance is to ensure the 
+
+--- Document Chunk 44 ---
+asset is presentable, operating safely, within acceptable 
+
+--- Document Chunk 45 ---
+(preferably optimal) parameters, and is able to do so for as long 
+
+--- Document Chunk 46 ---
+as possible. Maintenance activities can therefore be divided 
+
+--- Document Chunk 47 ---
+along these lines: safety; performance; and life (prolonging) 
+
+--- Document Chunk 48 ---
+- with a number of them falling into more than one category. 
+
+--- Document Chunk 49 ---
+Maintenance can also be divided into preventive maintenance 
+
+--- Document Chunk 50 ---
+and corrective maintenance. 
+
+--- Document Chunk 51 ---
+Scheduled (preventive) maintenance
+
+--- Document Chunk 52 ---
+For reasons stated previously, scheduled maintenance is 
+
+--- Document Chunk 53 ---
+by its very nature preventive maintenance; it is aimed at 
+
+--- Document Chunk 54 ---
+ensuring that the equipment remains in good working order. 
+
+--- Document Chunk 55 ---
+The nature of the maintenance can range from a simple 
+
+--- Document Chunk 56 ---
+visual examination to cleaning, re-greasing, measuring and 
+
+--- Document Chunk 57 ---
+gauging. Gauging (testing for mechanical correctness using a 
+
+--- Document Chunk 58 ---
+tool of known dimensions) and measurement (using a scaled 
+
+--- Document Chunk 59 ---
+instrument to determine a quantitative value) might reveal that 
+
+--- Document Chunk 60 ---
+the equipment is out of tolerance and requires adjustment 
+
+--- Document Chunk 61 ---
+or renewal. Visual examination might also reveal defects that 
+
+--- Document Chunk 62 ---
+need to be corrected.
+
+--- Document Chunk 63 ---
+Corrective maintenance
+
+--- Document Chunk 64 ---
+If during scheduled maintenance some property of the points 
+
+--- Document Chunk 65 ---
+is found to be outside the acceptable parameters it will be 
+
+--- Document Chunk 66 ---
+necessary to carry out corrective maintenance. This could be 
+
+--- Document Chunk 67 ---
+as simple as a small adjustment to the drive or detection, or as 
+
+--- Document Chunk 68 ---
+complex as switch or machine renewal. Clearly the nature and 
+
+--- Document Chunk 69 ---
+severity of the problem identified will determine its priority in 
+
+--- Document Chunk 70 ---
+planned works. If the problem is safety related and cannot be 
+
+--- Document Chunk 71 ---
+rectified immediately it might be necessary to restrict the use 
+
+--- Document Chunk 72 ---
+or position of the points, and/or the speed of trains over them.
+
+--- Document Chunk 73 ---
+Scheduled maintenance intervals
+
+--- Document Chunk 74 ---
+Scheduled maintenance is generally divided into two types. 
+
+--- Document Chunk 75 ---
+Firstly, a frequent service activity covering light maintenance 
+
+--- Document Chunk 76 ---
+and essential safety checks might be carried out once every 
+
+--- Document Chunk 77 ---
+three months, or as recommended by the manufacturer. Such 
+
+--- Document Chunk 78 ---
+ IRSE News |  Issue 288  |  May 2022
+
+--- Document Chunk 79 ---
+25
+
+--- Document Chunk 80 ---
+servicing might be performed more frequently for ‘key points’ 
+
+--- Document Chunk 81 ---
+whose operation is in high demand and therefore essential 
+
+--- Document Chunk 82 ---
+for many train movements, such as at a junction where two 
+
+--- Document Chunk 83 ---
+busy routes converge. Failure of these key points would incur 
+
+--- Document Chunk 84 ---
+high train delay penalties and/or damage the reputation of the 
+
+--- Document Chunk 85 ---
+train operator. 
+
+--- Document Chunk 86 ---
+In addition to this, a more detailed maintenance activity is 
+
+--- Document Chunk 87 ---
+undertaken less frequently, typically annually. This includes 
+
+--- Document Chunk 88 ---
+further tests and checks on components that are not expected 
+
+--- Document Chunk 89 ---
+to deteriorate quickly, for which an annual check is sufficient. 
+
+--- Document Chunk 90 ---
+Maintenance standards
+
+--- Document Chunk 91 ---
+The maintenance standards adopted by a particular 
+
+--- Document Chunk 92 ---
+infrastructure owner/maintainer might be the manufacturer’s 
+
+--- Document Chunk 93 ---
+recommendations and instructions themselves, as is the 
+
+--- Document Chunk 94 ---
+case in some countries. Alternatively, the manufacturer’s 
+
+--- Document Chunk 95 ---
+recommendations may be used as the basis of standards 
+
+--- Document Chunk 96 ---
+produced and issued by the relevant authority (e.g., Network 
+
+--- Document Chunk 97 ---
+Rail, in the case of the main line in Great Britain). 
+
+--- Document Chunk 98 ---
+Each approach has its merits. Following the manufacturer’s 
+
+--- Document Chunk 99 ---
+instructions directly, once approved by the relevant authority, 
+
+--- Document Chunk 100 ---
+is a potentially easier and more direct approach, whereas 
+
+--- Document Chunk 101 ---
+standards produced by the infrastructure owner will have the 
+
+--- Document Chunk 102 ---
+advantage of being consistent across all types of assets, and 
+
+--- Document Chunk 103 ---
+take into account the individual needs of the infrastructure 
+
+--- Document Chunk 104 ---
+owner that the manufacturer might not include.
+
+--- Document Chunk 105 ---
+It is beyond the scope of this article to consider all the myriad 
+
+--- Document Chunk 106 ---
+forms of point operating mechanism and associated specific 
+
+--- Document Chunk 107 ---
+maintenance activities. But most points share common 
+
+--- Document Chunk 108 ---
+categories of maintenance activity, as shown in the following 
+
+--- Document Chunk 109 ---
+example. This brings together the considerations and factors 
+
+--- Document Chunk 110 ---
+discussed so far and puts them into context. Although some 
+
+--- Document Chunk 111 ---
+standard British mainline railway documentation has been 
+
+--- Document Chunk 112 ---
+referenced, the principles are likely to apply to the majority of 
+
+--- Document Chunk 113 ---
+cases on other railways.
+
+--- Document Chunk 114 ---
+Permanent Way maintenance
+
+--- Document Chunk 115 ---
+Before attempting to check the correct operation of the 
+
+--- Document Chunk 116 ---
+points operating mechanism it is necessary to ensure that the 
+
+--- Document Chunk 117 ---
+trackwork S&C is in good working order; there is no sense 
+
+--- Document Chunk 118 ---
+and indeed some danger in adjusting the point operating 
+
+--- Document Chunk 119 ---
+mechanism to compensate for an S&C problem.
+
+--- Document Chunk 120 ---
+First and foremost, it is essential that the track gauge at the 
+
+--- Document Chunk 121 ---
+points is correctly maintained throughout the whole length of 
+
+--- Document Chunk 122 ---
+the points at all times. If the rails are out of gauge anywhere 
+
+--- Document Chunk 123 ---
+in the S&C, temporary measures might be implemented, such 
+
+--- Document Chunk 124 ---
+as using packing pieces, to restore the correct dimension. 
+
+--- Document Chunk 125 ---
+However, a permanent fix, such as overhaul and renewal of 
+
+--- Document Chunk 126 ---
+components, should be arranged as soon as possible. 
+
+--- Document Chunk 127 ---
+Secondly, it is important that the integrity of the rail furniture 
+
+--- Document Chunk 128 ---
+such as chairs and stretcher bars (where provided) is 
+
+--- Document Chunk 129 ---
+maintained. The traditional design of stretcher bars has come 
+
+--- Document Chunk 130 ---
+under considerable scrutiny in recent years and new products 
+
+--- Document Chunk 131 ---
+have been introduced in many cases. Mechanical stress in 
+
+--- Document Chunk 132 ---
+the traditional stretcher bar can be high and result in metal 
+
+--- Document Chunk 133 ---
+fatigue, most commonly seen as broken bars or brackets 
+
+--- Document Chunk 134 ---
+(‘shoes’). Chair bolts, rail fastenings and stretcher bars must all 
+
+--- Document Chunk 135 ---
+be examined and tightened, adjusted or replaced as necessary. 
+
+--- Document Chunk 136 ---
+Wooden sleepers in particular should be checked for signs of 
+
+--- Document Chunk 137 ---
+deterioration. Switch rails should move smoothly in the slide 
+
+--- Document Chunk 138 ---
+chairs without excess friction (more about this later). 
+
+--- Document Chunk 139 ---
+Thirdly, the profile of the rails should be checked. Switch and 
+
+--- Document Chunk 140 ---
+stock rails are shaped (profiled) to fit together tightly when 
+
+--- Document Chunk 141 ---
+closed so, as to present a relatively smooth transition for 
+
+--- Document Chunk 142 ---
+passing trains. Over time both the stock rails and switch rails 
+
+--- Document Chunk 143 ---
+can wear. Stock rails may show ‘lipping’ where the rail head 
+
+--- Document Chunk 144 ---
+has been rolled out and this may even risk fouling the switch 
+
+--- Document Chunk 145 ---
+rail. Switch rails, being very narrow at the tips, are prone to 
+
+--- Document Chunk 146 ---
+chips and cracks if not aligned correctly and could be struck 
+
+--- Document Chunk 147 ---
+by passing wheels. Repair work such as grinding or welding is 
+
+--- Document Chunk 148 ---
+likely to be needed, and ultimately renewal might be required.
+
+--- Document Chunk 149 ---
+Points and crossings are an essential part of the railway infrastructure, and their effective 
+
+--- Document Chunk 150 ---
+maintenance is critically important. Their location often poses challenges in carrying out this 
+
+--- Document Chunk 151 ---
+work safely and without disrupting service.
+
+--- Document Chunk 152 ---
+ IRSE News |  Issue 288  |  May 2022
+
+--- Document Chunk 153 ---
+26
+
+--- Document Chunk 154 ---
+Fourthly, the lateral movement of the switch rails on the slide 
+
+--- Document Chunk 155 ---
+chairs needs to be checked. One of the most common and 
+
+--- Document Chunk 156 ---
+frustrating issues with switch rails is combating the friction that 
+
+--- Document Chunk 157 ---
+is inevitably associated with sliding components. Initially the 
+
+--- Document Chunk 158 ---
+chairs will be greased but as the points are moved the grease 
+
+--- Document Chunk 159 ---
+will be progressively worn away, and can build up in places 
+
+--- Document Chunk 160 ---
+where it might interfere with the operation of the points. 
+
+--- Document Chunk 161 ---
+Removal of old, tarry grease deposits and the application of 
+
+--- Document Chunk 162 ---
+new lubricant is necessarily a frequent maintenance activity, 
+
+--- Document Chunk 163 ---
+otherwise the slide chairs will become ‘dry’ and the excess 
+
+--- Document Chunk 164 ---
+friction will cause increasing stress on the point mechanism, 
+
+--- Document Chunk 165 ---
+until eventually it is unable to complete the movement. 
+
+--- Document Chunk 166 ---
+Innovations to address this have included using materials with 
+
+--- Document Chunk 167 ---
+naturally lower friction, such as nylon, or providing rollers in 
+
+--- Document Chunk 168 ---
+the slide chair that support the switch as it moves into position. 
+
+--- Document Chunk 169 ---
+In both of these cases grease must not be applied as it can 
+
+--- Document Chunk 170 ---
+interfere with the correct operation of the components.
+
+--- Document Chunk 171 ---
+Finally, and perhaps harder to ascertain, is the stability of the 
+
+--- Document Chunk 172 ---
+ballast. As anyone who has watched train wheels pass over 
+
+--- Document Chunk 173 ---
+points or indeed plain line will confirm, seemingly solid and 
+
+--- Document Chunk 174 ---
+immovable rails will bend visibly under a passing train to some 
+
+--- Document Chunk 175 ---
+extent, depending on its speed and weight. Over time this 
+
+--- Document Chunk 176 ---
+can lead to ‘voids’ in the ballast leaving the points partially 
+
+--- Document Chunk 177 ---
+unsupported and possibly twisted or warped. Visual inspection 
+
+--- Document Chunk 178 ---
+might indicate that voids are present, or train-borne or 
+
+--- Document Chunk 179 ---
+trackside instrumentation may provide evidence. 
+
+--- Document Chunk 180 ---
+Some point mechanisms, notably ones that clamp the switch 
+
+--- Document Chunk 181 ---
+and stock rail together, are notoriously sensitive to this kind 
+
+--- Document Chunk 182 ---
+of rail deformation and can fail at short notice. Adjustments 
+
+--- Document Chunk 183 ---
+made to compensate for the rail deformation might overcome 
+
+--- Document Chunk 184 ---
+problems such as loss of detection, but then be defeated when 
+
+--- Document Chunk 185 ---
+the track moves again. 
+
+--- Document Chunk 186 ---
+There are various ways of preventing or reducing the risks 
+
+--- Document Chunk 187 ---
+associated with voids and rail deformation. Solid track (slab 
+
+--- Document Chunk 188 ---
+track), which has a concrete base, does not suffer from this 
+
+--- Document Chunk 189 ---
+problem of course, but is more expensive to produce. Some 
+
+--- Document Chunk 190 ---
+companies offer chemical or mechanical products to help 
+
+--- Document Chunk 191 ---
+stabilise the ballast formation. The problem of point failure as 
+
+--- Document Chunk 192 ---
+a result of rail deformation can also mitigated by the use of 
+
+--- Document Chunk 193 ---
+‘in bearer’ operating mechanisms, which are contained within 
+
+--- Document Chunk 194 ---
+a steel sleeper.
+
+--- Document Chunk 195 ---
+Signalling maintenance
+
+--- Document Chunk 196 ---
+The activities listed here are typical, but might not all be 
+
+--- Document Chunk 197 ---
+relevant for a given installation or environment, and some 
+
+--- Document Chunk 198 ---
+operating mechanisms might require additional signalling 
+
+--- Document Chunk 199 ---
+maintenance activities.
+
+--- Document Chunk 200 ---
+Signalling maintenance personnel need to pay attention to 
+
+--- Document Chunk 201 ---
+the S&C, not just the points operating mechanism. Some 
+
+--- Document Chunk 202 ---
+maintenance measurements are made by both track and 
+
+--- Document Chunk 203 ---
+signalling personnel. These include free wheel clearance 
+
+--- Document Chunk 204 ---
+(FWC), free wheel passage (FWP) and residual switch opening 
+
+--- Document Chunk 205 ---
+(RSO). All of these measurements are aimed at ensuring that 
+
+--- Document Chunk 206 ---
+on the open switch rail the train wheels have sufficient space 
+
+--- Document Chunk 207 ---
+to run without causing ‘flange back contact’, whereby the back 
+
+--- Document Chunk 208 ---
+edge of a passing wheel flange is rubbing against the back 
+
+--- Document Chunk 209 ---
+edge of the open switch rail. Such an event risks the wheel 
+
+--- Document Chunk 210 ---
+riding up on the switch and causing a derailment, as happened 
+
+--- Document Chunk 211 ---
+at Grayrigg, Cumbria, UK, in 2007. 
+
+--- Document Chunk 212 ---
+FWC and FWP are checked by running a gauge towards the 
+
+--- Document Chunk 213 ---
+heel end of the open switch rail. Additionally, it is necessary to 
+
+--- Document Chunk 214 ---
+measure the distance between the open switch and the stock 
+
+--- Document Chunk 215 ---
+rail at the toe; a typical value for this is 108mm but it can vary 
+
+--- Document Chunk 216 ---
+by switch type.
+
+--- Document Chunk 217 ---
+Checking the RSO involves measuring the gap between 
+
+--- Document Chunk 218 ---
+the closed switch rail and the stock rail where the rail head 
+
+--- Document Chunk 219 ---
+profile is shaped to ensure the two fit together well. This 
+
+--- Document Chunk 220 ---
+measurement is made at intervals from the toe towards 
+
+--- Document Chunk 221 ---
+the heel end of the switch rail. Figure 1 shows the typical 
+
+--- Document Chunk 222 ---
+measurements made.
+
+--- Document Chunk 223 ---
+Signalling maintainers will check for the tightness, correctness 
+
+--- Document Chunk 224 ---
+and security of points fittings and stretcher bars (where 
+
+--- Document Chunk 225 ---
+provided), drive mechanisms, cranks, rods, detectors etc. to 
+
+--- Document Chunk 226 ---
+ensure that nothing is loose, cracked or out of adjustment. 
+
+--- Document Chunk 227 ---
+Seasonal maintenance may include additional measures, 
+
+--- Document Chunk 228 ---
+e.g. to minimise frozen points in winter by applying frost-
+
+--- Document Chunk 229 ---
+resistant grease.
+
+--- Document Chunk 230 ---
+The environment in which the points are operating must 
+
+--- Document Chunk 231 ---
+be checked for cleanliness and freedom from potential 
+
+--- Document Chunk 232 ---
+obstructions. This means removing debris such as litter and 
+
+--- Document Chunk 233 ---
+vegetation that could find its way into the gap between an 
+
+--- Document Chunk 234 ---
+Free wheel passage
+
+--- Document Chunk 235 ---
+Flange back spacing
+
+--- Document Chunk 236 ---
+Residual switch
+
+--- Document Chunk 237 ---
+opening
+
+--- Document Chunk 238 ---
+Flange back
+
+--- Document Chunk 239 ---
+clearance
+
+--- Document Chunk 240 ---
+Measured track gauge (static)
+
+--- Document Chunk 241 ---
+Free wheel clearance
+
+--- Document Chunk 242 ---
+(switch opening/flangeway)
+
+--- Document Chunk 243 ---
+Figure 1 – Simplified diagram of typical measurements made during maintenance.
+
+--- Document Chunk 244 ---
+Based on diagram in Network Rail standard NR/SMS/Part C/PF01.
+
+--- Document Chunk 245 ---
+ IRSE News |  Issue 288  |  May 2022
+
+--- Document Chunk 246 ---
+27
+
+--- Document Chunk 247 ---
+open switch and the adjacent stock rail, which would interfere 
+
+--- Document Chunk 248 ---
+with the movement of the points. An excessively high ballast 
+
+--- Document Chunk 249 ---
+shoulder must be brought down to an acceptable height, to 
+
+--- Document Chunk 250 ---
+reduce the risk of pieces of ballast obstructing the movement.
+
+--- Document Chunk 251 ---
+The identity of the points and more specifically the operating 
+
+--- Document Chunk 252 ---
+mechanism is indicated at some suitable position on or 
+
+--- Document Chunk 253 ---
+adjacent to the points. In the UK, by convention the identity 
+
+--- Document Chunk 254 ---
+plate is fixed on a sleeper close to the toe of the points on the 
+
+--- Document Chunk 255 ---
+side nearest the normally closed switch. Though a seemingly 
+
+--- Document Chunk 256 ---
+minor matter, the presence, legibility and correctness of the 
+
+--- Document Chunk 257 ---
+points’ identity is crucial for accurate communications and safe 
+
+--- Document Chunk 258 ---
+actions during engineering works and when operational issues 
+
+--- Document Chunk 259 ---
+make it necessary to move the points manually.
+
+--- Document Chunk 260 ---
+In track circuited areas the stretcher bars and other lateral 
+
+--- Document Chunk 261 ---
+fittings are fitted with insulating layers to prevent a short 
+
+--- Document Chunk 262 ---
+circuit across the rails. These insulations must be checked for 
+
+--- Document Chunk 263 ---
+presence and good condition to minimise the risk of a track 
+
+--- Document Chunk 264 ---
+circuit failure.
+
+--- Document Chunk 265 ---
+Finally, and most importantly, we consider the maintenance of 
+
+--- Document Chunk 266 ---
+the point operating mechanism itself. If there is one test that is 
+
+--- Document Chunk 267 ---
+common among various types of point operating mechanism 
+
+--- Document Chunk 268 ---
+it is the Facing Point Lock (FPL) test. This test is designed to 
+
+--- Document Chunk 269 ---
+prove that the points can only be locked on the ground if the 
+
+--- Document Chunk 270 ---
+closed switch is within an acceptable distance (3.5mm being 
+
+--- Document Chunk 271 ---
+typical) of its fully closed position at the toe of the points 
+
+--- Document Chunk 272 ---
+(for safety) and are guaranteed to lock if the measurement is 
+
+--- Document Chunk 273 ---
+typically not more than 1.5mm (for reliability). The test is made 
+
+--- Document Chunk 274 ---
+typically by inserting a 3.5mm gauge between the switch and 
+
+--- Document Chunk 275 ---
+stock rail in line with the first slide chair bolt and moving the 
+
+--- Document Chunk 276 ---
+points manually towards it until the lock jams. The test is then 
+
+--- Document Chunk 277 ---
+repeated with a 1.5mm gauge in the same position to prove 
+
+--- Document Chunk 278 ---
+that the lock engages. If either test fails, and provided that the 
+
+--- Document Chunk 279 ---
+S&C has been verified as in good order, an adjustment to the 
+
+--- Document Chunk 280 ---
+lock mechanism will be required.
+
+--- Document Chunk 281 ---
+In a similar vein to the FPL test is the detection test, which in 
+
+--- Document Chunk 282 ---
+theory is carried out in the same way but using 3.5mm/5mm 
+
+--- Document Chunk 283 ---
+gauges. This test would be naturally hindered by the action 
+
+--- Document Chunk 284 ---
+of the lock, and so is carried out either by ‘floating’ the lock 
+
+--- Document Chunk 285 ---
+(compensating for the detection gauge by moving the lock 
+
+--- Document Chunk 286 ---
+out of the way) or by using slotted gauges that can fit around 
+
+--- Document Chunk 287 ---
+the detector rods and displace them by the required distance 
+
+--- Document Chunk 288 ---
+(3.5mm to achieve detection, 5mm to break detection).
+
+--- Document Chunk 289 ---
+The specific maintenance tasks on a point operating 
+
+--- Document Chunk 290 ---
+mechanism itself vary considerably from machine to machine 
+
+--- Document Chunk 291 ---
+depending on the type of drive used and the locking/detection 
+
+--- Document Chunk 292 ---
+method. In general they will entail checks on the physical 
+
+--- Document Chunk 293 ---
+condition of the machine and drive, its fastenings, lubrication, 
+
+--- Document Chunk 294 ---
+fluid level for hydraulics, and mechanical wear on facing 
+
+--- Document Chunk 295 ---
+surfaces. Different lubricants might be required, or none at all, 
+
+--- Document Chunk 296 ---
+according to the type of mechanism involved. A drive-train of 
+
+--- Document Chunk 297 ---
+gears could require a different grease from that required for 
+
+--- Document Chunk 298 ---
+the drive rods - and will certainly be different to that applied to 
+
+--- Document Chunk 299 ---
+the slide chairs!
+
+--- Document Chunk 300 ---
+Detection mechanisms usually rely on some form of electrical 
+
+--- Document Chunk 301 ---
+contact being made, either microswitches or open contacts. 
+
+--- Document Chunk 302 ---
+These are frequently the cause when a detection failure 
+
+--- Document Chunk 303 ---
+occurs and therefore must be checked with gauges as part 
+
+--- Document Chunk 304 ---
+of routine maintenance. Either a distance gauge is used (in 
+
+--- Document Chunk 305 ---
+the case of microswitches) to determine the points at which 
+
+--- Document Chunk 306 ---
+they ‘flip’ between their two states or, in the case of open 
+
+--- Document Chunk 307 ---
+contacts by using a spring tension gauge to check the force 
+
+--- Document Chunk 308 ---
+holding the contacts closed. Other contacts for controlling the 
+
+--- Document Chunk 309 ---
+motor or clutch mechanisms might also require checking in a 
+
+--- Document Chunk 310 ---
+similar manner.
+
+--- Document Chunk 311 ---
+Using remote condition monitoring to optimise 
+
+--- Document Chunk 312 ---
+maintenance
+
+--- Document Chunk 313 ---
+The traditional preventive maintenance we have described 
+
+--- Document Chunk 314 ---
+uses time intervals between maintenance events that is based 
+
+--- Document Chunk 315 ---
+on the likelihood of failure and maintaining a high level of 
+
+--- Document Chunk 316 ---
+confidence in the safe functioning of the assets. There are 
+
+--- Document Chunk 317 ---
+several reasons why this approach is not optimal, including 
+
+--- Document Chunk 318 ---
+the labour-intensive nature of the work, the cost of possibly 
+
+--- Document Chunk 319 ---
+unnecessary maintenance activities, the risk to staff working 
+
+--- Document Chunk 320 ---
+trackside, and the reduced availability of the assets for service. 
+
+--- Document Chunk 321 ---
+A modern, efficient railway needs a more intelligent approach 
+
+--- Document Chunk 322 ---
+and a different philosophy. From an economic point of view, 
+
+--- Document Chunk 323 ---
+there is an optimum point where the level of maintenance has 
+
+--- Document Chunk 324 ---
+minimal adverse business impact (see Figure 2). Maintaining 
+
+--- Document Chunk 325 ---
+an asset too often is expensive, disruptive to the operation of 
+
+--- Document Chunk 326 ---
+the railway and may cause more failures because personnel 
+
+--- Document Chunk 327 ---
+are examining equipment and possibly interfering with what 
+
+--- Document Chunk 328 ---
+was a perfectly operating point machine. On the other hand, 
+
+--- Document Chunk 329 ---
+maintaining too infrequently will indeed lead to an increase in 
+
+--- Document Chunk 330 ---
+failures and consequential cost penalties. 
+
+--- Document Chunk 331 ---
+Increasing cost
+
+--- Document Chunk 332 ---
+of failure or 
+
+--- Document Chunk 333 ---
+downtime
+
+--- Document Chunk 334 ---
+Cost of
+
+--- Document Chunk 335 ---
+maintaining 
+
+--- Document Chunk 336 ---
+asset
+
+--- Document Chunk 337 ---
+Economic
+
+--- Document Chunk 338 ---
+optimum
+
+--- Document Chunk 339 ---
+Premium paid to
+
+--- Document Chunk 340 ---
+reduce failures to a
+
+--- Document Chunk 341 ---
+small but still 
+
+--- Document Chunk 342 ---
+non-zero value
+
+--- Document Chunk 343 ---
+Likelihood of failure
+
+--- Document Chunk 344 ---
+Cost
+
+--- Document Chunk 345 ---
+Premium paid for less
+
+--- Document Chunk 346 ---
+frequent maintenance
+
+--- Document Chunk 347 ---
+but with higher cost to
+
+--- Document Chunk 348 ---
+repair and compensate
+
+--- Document Chunk 349 ---
+Figure 2 – the economics of remote condition monitoring can be quite complex.
+
+--- Document Chunk 350 ---
+ IRSE News |  Issue 288  |  May 2022
+
+--- Document Chunk 351 ---
+28
+
+--- Document Chunk 352 ---
+What is needed is a system that will allow maintenance 
+
+--- Document Chunk 353 ---
+intervals to be optimised. Ideally these intervals would be 
+
+--- Document Chunk 354 ---
+longer than those traditionally used, but more importantly they 
+
+--- Document Chunk 355 ---
+would be both adjusted and adjustable to achieve cost, safety 
+
+--- Document Chunk 356 ---
+and availability requirements. This could in theory be done 
+
+--- Document Chunk 357 ---
+manually by making repeated measurements of the operation 
+
+--- Document Chunk 358 ---
+of the points and plotting them on graph paper in order to 
+
+--- Document Chunk 359 ---
+determine acceptable maintenance intervals, but that would 
+
+--- Document Chunk 360 ---
+clearly be a somewhat “trial and error” process, involving even 
+
+--- Document Chunk 361 ---
+more work at the trackside to collect the data.
+
+--- Document Chunk 362 ---
+Fortunately, developments in sensor, digital processing, 
+
+--- Document Chunk 363 ---
+storage and communication technology have brought about 
+
+--- Document Chunk 364 ---
+a range of different remote condition monitoring products 
+
+--- Document Chunk 365 ---
+that can measure key parameters of points operation without 
+
+--- Document Chunk 366 ---
+the need for personnel to repeatedly go onto the track. Note, 
+
+--- Document Chunk 367 ---
+by the way that we use the abbreviation RCM for Remote 
+
+--- Document Chunk 368 ---
+Condition Monitoring here, not to be confused with Reliability 
+
+--- Document Chunk 369 ---
+Centred Maintenance.
+
+--- Document Chunk 370 ---
+It is now possible to measure a point machine system very 
+
+--- Document Chunk 371 ---
+comprehensively, using such parameters as:
+
+--- Document Chunk 372 ---
+• Load or force on the drive rod (trackside load cell).
+
+--- Document Chunk 373 ---
+• Displacement (distance travelled, trackside sensor).
+
+--- Document Chunk 374 ---
+• Motor current and voltage (sensors in the location feeding 
+
+--- Document Chunk 375 ---
+electric power to the motor).
+
+--- Document Chunk 376 ---
+• Hydraulic pressure and oil level (already provided on 
+
+--- Document Chunk 377 ---
+some power packs).
+
+--- Document Chunk 378 ---
+• Detection lost and gained (contact event monitoring or 
+
+--- Document Chunk 379 ---
+current sensors).
+
+--- Document Chunk 380 ---
+• Rail temperature (sensors on rails).
+
+--- Document Chunk 381 ---
+Measuring many of these parameters requires direct 
+
+--- Document Chunk 382 ---
+intervention in the point operating mechanism, which could 
+
+--- Document Chunk 383 ---
+make it more difficult to maintain or renew, thus defeating the 
+
+--- Document Chunk 384 ---
+objectives of RCM. In the early part of this century Network Rail 
+
+--- Document Chunk 385 ---
+ran a trial at Peterborough Training Centre, Cambridgeshire, 
+
+--- Document Chunk 386 ---
+UK, to determine how accurately just one factor, namely motor 
+
+--- Document Chunk 387 ---
+current, could be used to determine the overall condition of 
+
+--- Document Chunk 388 ---
+the points from a reliability perspective. The apparent success 
+
+--- Document Chunk 389 ---
+of this trial meant that most other factors would not need to 
+
+--- Document Chunk 390 ---
+be fitted in future systems, although voltage readings are still 
+
+--- Document Chunk 391 ---
+useful for calculating power consumption and detecting a 
+
+--- Document Chunk 392 ---
+failing battery or supply. 
+
+--- Document Chunk 393 ---
+Detecting motor current requires no direct connection to the 
+
+--- Document Chunk 394 ---
+points circuits and can be done with sensors clipped around 
+
+--- Document Chunk 395 ---
+the power supply wiring. Where discrete circuits are used to 
+
+--- Document Chunk 396 ---
+drive the points in each direction a separate sensor is required 
+
+--- Document Chunk 397 ---
+for each circuit, which can also be used to determine the 
+
+--- Document Chunk 398 ---
+driven direction. Where three phase supplies are used one 
+
+--- Document Chunk 399 ---
+sensor is required for each phase and must be connected 
+
+--- Document Chunk 400 ---
+before the power switching relay, otherwise the phase reversal 
+
+--- Document Chunk 401 ---
+used to change the driven direction can also upset the 
+
+--- Document Chunk 402 ---
+calculations made by the data logger, especially if a voltage 
+
+--- Document Chunk 403 ---
+sensor is being used to calculate power consumption as well. 
+
+--- Document Chunk 404 ---
+Voltage, current and detection event monitoring can all be 
+
+--- Document Chunk 405 ---
+performed away from the trackside and are therefore ideal 
+
+--- Document Chunk 406 ---
+parameters to be used.
+
+--- Document Chunk 407 ---
+A data logger is used to monitor and buffer a set of samples 
+
+--- Document Chunk 408 ---
+from its sensors, usually at about 100 samples per second, on 
+
+--- Document Chunk 409 ---
+a rolling memory basis until a trigger value is reached (usually 
+
+--- Document Chunk 410 ---
+the current at the start of the point movement). From then on 
+
+--- Document Chunk 411 ---
+it will keep some of the samples already taken and record the 
+
+--- Document Chunk 412 ---
+current for the duration of the movement before sending all 
+
+--- Document Chunk 413 ---
+this data to a server for storage and analysis.
+
+--- Document Chunk 414 ---
+Timing detection events, from the loss of detection (e.g., when 
+
+--- Document Chunk 415 ---
+the points are commanded to move from normal to reverse) 
+
+--- Document Chunk 416 ---
+to gaining it again (when reverse detection is obtained), is a 
+
+--- Document Chunk 417 ---
+simple indicator of health when plotted as a trend over time. 
+
+--- Document Chunk 418 ---
+Statistically significant variations from the usual time can be 
+
+--- Document Chunk 419 ---
+raised as alarms (e.g., 1.5s longer than usual), particularly if 
+
+--- Document Chunk 420 ---
+there is a consistent and progressive change seen over time. 
+
+--- Document Chunk 421 ---
+However, this is also quite a ‘blunt instrument’ means of 
+
+--- Document Chunk 422 ---
+monitoring health, and gives little indication of the stress the 
+
+--- Document Chunk 423 ---
+points might be experiencing as they move.
+
+--- Document Chunk 424 ---
+Motor current is another good indicator of the health of 
+
+--- Document Chunk 425 ---
+the points. The more stress the machine is under to move 
+
+--- Document Chunk 426 ---
+the switch rails, the greater the current drawn will be. When 
+
+--- Document Chunk 427 ---
+plotted graphically it is possible to identify the key stages in the 
+
+--- Document Chunk 428 ---
+Above, a current clamp of the type used for remote condition 
+
+--- Document Chunk 429 ---
+monitoring of AC-driven points.
+
+--- Document Chunk 430 ---
+Right RCM data logger display.
+
+--- Document Chunk 431 ---
+ IRSE News |  Issue 288  |  May 2022
+
+--- Document Chunk 432 ---
+29
+
+--- Document Chunk 433 ---
+About the author
+
+--- Document Chunk 434 ---
+Trevor Bradbeer BSc (Hons) CEng Cert Ed MIRSE, 
+
+--- Document Chunk 435 ---
+started his career as a trainee technician with British 
+
+--- Document Chunk 436 ---
+Rail in September 1985. In 1988 he started teaching 
+
+--- Document Chunk 437 ---
+basic signalling, telecoms and electrical principles at 
+
+--- Document Chunk 438 ---
+the Ilford Training Centre. He went on to various roles 
+
+--- Document Chunk 439 ---
+in the London area before returning to training and 
+
+--- Document Chunk 440 ---
+competence management. 
+
+--- Document Chunk 441 ---
+In 2004 when maintenance transferred to Network Rail, 
+
+--- Document Chunk 442 ---
+Trevor stayed with Balfour Beatty working in projects 
+
+--- Document Chunk 443 ---
+involving computer-based signal works testing and 
+
+--- Document Chunk 444 ---
+remote condition monitoring, evolving from relay data 
+
+--- Document Chunk 445 ---
+loggers to leading-edge condition monitoring systems. 
+
+--- Document Chunk 446 ---
+He completed a software engineering degree in 2003, 
+
+--- Document Chunk 447 ---
+became a MIRSE in 2006 and gained his CEng in 2013. 
+
+--- Document Chunk 448 ---
+He also spent several years on points RCM projects for 
+
+--- Document Chunk 449 ---
+SMRT/SBS in Singapore and MTR in Hong Kong. In 2019 
+
+--- Document Chunk 450 ---
+Trevor retired but still works for Signet Solutions in Derby, 
+
+--- Document Chunk 451 ---
+providing training and consultancy services.
+
+--- Document Chunk 452 ---
+operation such as initial motor inrush, unlocking, travel, locking 
+
+--- Document Chunk 453 ---
+and braking/stopping. Excessive current levels compared with 
+
+--- Document Chunk 454 ---
+that considered ‘usual’ for each point machine can be used 
+
+--- Document Chunk 455 ---
+to trigger alarms and bring the equipment to the technician’s 
+
+--- Document Chunk 456 ---
+attention. The analysis and raising of an alarm has evolved and 
+
+--- Document Chunk 457 ---
+improved over time because the difference between a slightly 
+
+--- Document Chunk 458 ---
+outlying but correct operation versus a developing fault can 
+
+--- Document Chunk 459 ---
+be subtle, and barely detectable by simple threshold detection. 
+
+--- Document Chunk 460 ---
+It can also result in a lot of false positives that can undermine 
+
+--- Document Chunk 461 ---
+confidence in the RCM system. Some companies have 
+
+--- Document Chunk 462 ---
+developed machine learning algorithms to help distinguish 
+
+--- Document Chunk 463 ---
+between these, so as not to bombard the technician with 
+
+--- Document Chunk 464 ---
+information that requires a great deal of experience to interpret 
+
+--- Document Chunk 465 ---
+and understand.
+
+--- Document Chunk 466 ---
+Calculating power consumption can be a slightly more 
+
+--- Document Chunk 467 ---
+accurate and informative parameter, but it requires a voltage 
+
+--- Document Chunk 468 ---
+sensor that measures the variations which occur under load. 
+
+--- Document Chunk 469 ---
+A plot of instantaneous power (the power consumed at any 
+
+--- Document Chunk 470 ---
+given instant) can be converted into a measure of total power 
+
+--- Document Chunk 471 ---
+consumption by calculating the area under the graph. The 
+
+--- Document Chunk 472 ---
+resulting value can then be added to a scatter graph or similar 
+
+--- Document Chunk 473 ---
+to observe progressive changes over time.
+
+--- Document Chunk 474 ---
+One further benefit of RCM is that it demonstrates when 
+
+--- Document Chunk 475 ---
+maintenance has been effective. If the points are observed 
+
+--- Document Chunk 476 ---
+by RCM to be going out of specification, an additional 
+
+--- Document Chunk 477 ---
+maintenance activity can be scheduled, which should bring 
+
+--- Document Chunk 478 ---
+the points back to within normal operating parameters. Using 
+
+--- Document Chunk 479 ---
+RCM it is obvious when this has happened as the graphs and 
+
+--- Document Chunk 480 ---
+plots will show an immediate improvement in operation time, 
+
+--- Document Chunk 481 ---
+power consumption etc. If this does not happen it could point 
+
+--- Document Chunk 482 ---
+to other causes that need to be investigated. 
+
+--- Document Chunk 483 ---
+In the past RCM has been seen as associated specifically with 
+
+--- Document Chunk 484 ---
+signalling personnel, so it has been difficult to get some track 
+
+--- Document Chunk 485 ---
+personnel to agree a diagnosis when the data suggests a 
+
+--- Document Chunk 486 ---
+P-Way/S&C problem. Hopefully this is changing and a spirit of 
+
+--- Document Chunk 487 ---
+co-operation, together with the open sharing of this data, will 
+
+--- Document Chunk 488 ---
+bring about a united approach to improve points performance 
+
+--- Document Chunk 489 ---
+for the benefit of everyone.
+
+--- Document Chunk 490 ---
+The example RCM plots above show a normal (top) profile for points movement, and the profile where there is an issue 
+
+--- Document Chunk 491 ---
+to be rectified, with far more power required to complete the movement.
+

@@ -1,0 +1,5205 @@
+--- Document Chunk 0 ---
+16
+
+--- Document Chunk 1 ---
+Francis How
+
+--- Document Chunk 2 ---
+Back to basics: Interlocking 
+
+--- Document Chunk 3 ---
+Part 1
+
+--- Document Chunk 4 ---
+This, the third in a series of articles on ‘back 
+
+--- Document Chunk 5 ---
+to basics’ themes, looks at the essentials 
+
+--- Document Chunk 6 ---
+of ‘interlocking’. Interlocking is central 
+
+--- Document Chunk 7 ---
+to railway signalling, as it ensures that 
+
+--- Document Chunk 8 ---
+the components of a signalling system 
+
+--- Document Chunk 9 ---
+act together in a manner which is safe 
+
+--- Document Chunk 10 ---
+for the routing and movement of trains. 
+
+--- Document Chunk 11 ---
+Whole books could be written about the 
+
+--- Document Chunk 12 ---
+subject, and this article is no more than an 
+
+--- Document Chunk 13 ---
+introduction, intended for IRSE members 
+
+--- Document Chunk 14 ---
+new to the industry rather than those who 
+
+--- Document Chunk 15 ---
+are experienced in specifying, designing and 
+
+--- Document Chunk 16 ---
+testing signalling systems.
+
+--- Document Chunk 17 ---
+This article focuses primarily on the technology 
+
+--- Document Chunk 18 ---
+used for interlocking. Next month there will be 
+
+--- Document Chunk 19 ---
+a further article, in which we will look at the 
+
+--- Document Chunk 20 ---
+functionality of an interlocking – what it actually 
+
+--- Document Chunk 21 ---
+does in practice. 
+
+--- Document Chunk 22 ---
+What is interlocking?
+
+--- Document Chunk 23 ---
+If you ask a signal engineer about interlocking, 
+
+--- Document Chunk 24 ---
+they may well point to an equipment room full 
+
+--- Document Chunk 25 ---
+of relays, or a cabinet of computer equipment 
+
+--- Document Chunk 26 ---
+in a control centre, or perhaps even some 
+
+--- Document Chunk 27 ---
+complicated-looking arrangement of metalwork 
+
+--- Document Chunk 28 ---
+underneath a lever frame in a signal box. It is 
+
+--- Document Chunk 29 ---
+true that all these things are ‘interlockings’, but 
+
+--- Document Chunk 30 ---
+‘interlocking’ is defined as a feature of a control 
+
+--- Document Chunk 31 ---
+system that makes the state of two functions 
+
+--- Document Chunk 32 ---
+mutually dependent. In the context of railway 
+
+--- Document Chunk 33 ---
+signalling, interlocking is used to keep trains 
+
+--- Document Chunk 34 ---
+safe from collision and derailment. The primary 
+
+--- Document Chunk 35 ---
+purposes of these interlocking features are 
+
+--- Document Chunk 36 ---
+to ensure that:
+
+--- Document Chunk 37 ---
+1. Bef ore a train is given authority to move along 
+
+--- Document Chunk 38 ---
+a section of track from one signal to the next:
+
+--- Document Chunk 39 ---
+• points are in the correct position (to 
+
+--- Document Chunk 40 ---
+avoid derailment),
+
+--- Document Chunk 41 ---
+• there are no trains already on the track (to 
+
+--- Document Chunk 42 ---
+avoid collision), and
+
+--- Document Chunk 43 ---
+• no conflicting train movements are already 
+
+--- Document Chunk 44 ---
+authorised (also to avoid collision).
+
+--- Document Chunk 45 ---
+2. When a train has been given authority to move:
+
+--- Document Chunk 46 ---
+• points in the section of track are prevented 
+
+--- Document Chunk 47 ---
+from being moved, and
+
+--- Document Chunk 48 ---
+• other trains are prevented from entering the 
+
+--- Document Chunk 49 ---
+same section of track.
+
+--- Document Chunk 50 ---
+ until the train has passed thr ough the 
+
+--- Document Chunk 51 ---
+section of route.
+
+--- Document Chunk 52 ---
+There is more to interlocking than this, as we shall 
+
+--- Document Chunk 53 ---
+see, but this is the essence of what it is all about.
+
+--- Document Chunk 54 ---
+What does interlocking not do?
+
+--- Document Chunk 55 ---
+Interlocking does not check that everything is safe 
+
+--- Document Chunk 56 ---
+for the passage of a train. A section of railway track 
+
+--- Document Chunk 57 ---
+must be safe for the passage of trains in many 
+
+--- Document Chunk 58 ---
+other ways as well. For instance, the distance 
+
+--- Document Chunk 59 ---
+between the rails must be correct, the track-bed 
+
+--- Document Chunk 60 ---
+must be capable of supporting the weight of a 
+
+--- Document Chunk 61 ---
+train, and the train’s cross-sectional dimensions 
+
+--- Document Chunk 62 ---
+(the dynamic envelope) must be compatible with 
+
+--- Document Chunk 63 ---
+the positioning of items such as platforms and 
+
+--- Document Chunk 64 ---
+bridges, so that the train will not hit them. These 
+
+--- Document Chunk 65 ---
+can also cause collision or derailment – but 
+
+--- Document Chunk 66 ---
+they are not generally the concern of the signal 
+
+--- Document Chunk 67 ---
+engineer. Railway engineers have other methods 
+
+--- Document Chunk 68 ---
+for ensuring the integrity of these other features 
+
+--- Document Chunk 69 ---
+upon which train safety depends.
+
+--- Document Chunk 70 ---
+Interlocking safety
+
+--- Document Chunk 71 ---
+Interlocking functions (such as moving a set of 
+
+--- Document Chunk 72 ---
+points or clearing a signal) must be executed only 
+
+--- Document Chunk 73 ---
+when it is safe to do so. Industrial control systems 
+
+--- Document Chunk 74 ---
+(of which railway signalling is an example) are 
+
+--- Document Chunk 75 ---
+designed to meet a specified ‘safety integrity level’ 
+
+--- Document Chunk 76 ---
+(SIL). There are five such levels, from 0 to 4, and 
+
+--- Document Chunk 77 ---
+the interlocking functions in a modern main line or 
+
+--- Document Chunk 78 ---
+metro railway signalling system must usually meet 
+
+--- Document Chunk 79 ---
+SIL 4 requirements – the highest level possible. 
+
+--- Document Chunk 80 ---
+This means the likelihood of an unsafe failure is 
+
+--- Document Chunk 81 ---
+incredibly small. 
+
+--- Document Chunk 82 ---
+The underlying safety principle traditionally 
+
+--- Document Chunk 83 ---
+associated with railway signalling, and particularly 
+
+--- Document Chunk 84 ---
+with the interlocking, is known as the ‘fail-safe’ 
+
+--- Document Chunk 85 ---
+“Interlocking 
+
+--- Document Chunk 86 ---
+does not check 
+
+--- Document Chunk 87 ---
+that everything 
+
+--- Document Chunk 88 ---
+is safe for the 
+
+--- Document Chunk 89 ---
+passage of a 
+
+--- Document Chunk 90 ---
+train”
+
+--- Document Chunk 91 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 92 ---
+17
+
+--- Document Chunk 93 ---
+principle. This means that if an interlocking system 
+
+--- Document Chunk 94 ---
+develops a fault, it is designed so that it will fail in 
+
+--- Document Chunk 95 ---
+a manner which stops trains, by putting signals 
+
+--- Document Chunk 96 ---
+to danger. This fail-safe property is achieved in 
+
+--- Document Chunk 97 ---
+various ways, including the use of inherently fail-
+
+--- Document Chunk 98 ---
+safe components, the design of the interlocking 
+
+--- Document Chunk 99 ---
+logic, and the system architecture. 
+
+--- Document Chunk 100 ---
+It is important to note that ‘fail-safe’ does not 
+
+--- Document Chunk 101 ---
+mean that the signalling of trains is 100% safe. This 
+
+--- Document Chunk 102 ---
+is partly because in practice the occurrence of 
+
+--- Document Chunk 103 ---
+unsafe failures cannot be completely eliminated, 
+
+--- Document Chunk 104 ---
+and partly because if trains have been stopped 
+
+--- Document Chunk 105 ---
+by a (safe) failure of the signalling system, the 
+
+--- Document Chunk 106 ---
+movement of trains then depends largely upon 
+
+--- Document Chunk 107 ---
+the application of operational procedures, with the 
+
+--- Document Chunk 108 ---
+associated risk of human error.
+
+--- Document Chunk 109 ---
+Not all parts of a signalling system need to be 
+
+--- Document Chunk 110 ---
+ultra-safe. In modern systems the use of high 
+
+--- Document Chunk 111 ---
+integrity (SIL 4) design techniques is usually 
+
+--- Document Chunk 112 ---
+restricted to those parts of the system which are 
+
+--- Document Chunk 113 ---
+essential for safety – including the interlocking 
+
+--- Document Chunk 114 ---
+functionality. Other parts, such as the control 
+
+--- Document Chunk 115 ---
+panel or desk, are usually of a lower integrity 
+
+--- Document Chunk 116 ---
+(typically SIL 0 to SIL 2). You might wonder why 
+
+--- Document Chunk 117 ---
+we do not design all parts of the signalling system 
+
+--- Document Chunk 118 ---
+to achieve SIL 4 levels of safety. The answer is 
+
+--- Document Chunk 119 ---
+that designing systems to meet high levels of 
+
+--- Document Chunk 120 ---
+safety integrity is complex, time-consuming 
+
+--- Document Chunk 121 ---
+and expensive, and can lead to lower levels 
+
+--- Document Chunk 122 ---
+of reliability. 
+
+--- Document Chunk 123 ---
+A little history…
+
+--- Document Chunk 124 ---
+When railways first appeared, they had no 
+
+--- Document Chunk 125 ---
+signalling in the form that we would recognise 
+
+--- Document Chunk 126 ---
+today. The concept of a signal box did not exist, 
+
+--- Document Chunk 127 ---
+signals were very rudimentary (originally just a 
+
+--- Document Chunk 128 ---
+man with a flag), and giving permission for a train 
+
+--- Document Chunk 129 ---
+to enter a section of track relied simply upon 
+
+--- Document Chunk 130 ---
+allowing sufficient time for the preceding train to 
+
+--- Document Chunk 131 ---
+have left the section – without any knowledge of 
+
+--- Document Chunk 132 ---
+whether in practice it had done so!
+
+--- Document Chunk 133 ---
+Not surprisingly, it didn’t take long for accidents 
+
+--- Document Chunk 134 ---
+to demonstrate the need for safer ways of 
+
+--- Document Chunk 135 ---
+controlling the movement of trains. This article 
+
+--- Document Chunk 136 ---
+does not explore the evolution of railway 
+
+--- Document Chunk 137 ---
+signalling, but there were some key milestones 
+
+--- Document Chunk 138 ---
+in its development which are worth noting. One 
+
+--- Document Chunk 139 ---
+was the introduction of the electric telegraph, so 
+
+--- Document Chunk 140 ---
+that someone at one end of section of railway line 
+
+--- Document Chunk 141 ---
+could communicate with someone at the other 
+
+--- Document Chunk 142 ---
+end. This eliminated the need for ‘time interval 
+
+--- Document Chunk 143 ---
+working’ by enabling the person controlling entry 
+
+--- Document Chunk 144 ---
+to a section of line to receive positive confirmation 
+
+--- Document Chunk 145 ---
+when the whole of the preceding train had left the 
+
+--- Document Chunk 146 ---
+section and therefore the line was again ‘clear’. 
+
+--- Document Chunk 147 ---
+A second crucial development was the 
+
+--- Document Chunk 148 ---
+introduction of the signal box, to enable signals 
+
+--- Document Chunk 149 ---
+and points to be controlled from one place. 
+
+--- Document Chunk 150 ---
+Previously the setting up of a route for a train had 
+
+--- Document Chunk 151 ---
+relied upon people walking about on the track to 
+
+--- Document Chunk 152 ---
+move points and operate signals. Centralisation 
+
+--- Document Chunk 153 ---
+of these activities was not only more efficient and 
+
+--- Document Chunk 154 ---
+reduced the possibility of misunderstanding, it 
+
+--- Document Chunk 155 ---
+also facilitated the introduction of ‘interlocking’ 
+
+--- Document Chunk 156 ---
+– mechanical equipment in the signal box that 
+
+--- Document Chunk 157 ---
+helped to prevent mistakes being made by 
+
+--- Document Chunk 158 ---
+the signaller when moving points or operating 
+
+--- Document Chunk 159 ---
+signals. Even in the age of computerisation, it is 
+
+--- Document Chunk 160 ---
+remarkable to look back at how railway engineers 
+
+--- Document Chunk 161 ---
+of the 19th century invented mechanical logic 
+
+--- Document Chunk 162 ---
+systems that largely overcame the risk of human 
+
+--- Document Chunk 163 ---
+error when signalling trains.
+
+--- Document Chunk 164 ---
+So, the way was paved for the introduction 
+
+--- Document Chunk 165 ---
+of ‘interlocking’ according to a defined set of 
+
+--- Document Chunk 166 ---
+principles or rules – which for the most part still 
+
+--- Document Chunk 167 ---
+apply today, albeit they vary in some respects from 
+
+--- Document Chunk 168 ---
+railway to railway. 
+
+--- Document Chunk 169 ---
+Figure 1 – The 
+
+--- Document Chunk 170 ---
+Chippenham, UK, factory 
+
+--- Document Chunk 171 ---
+of Westinghouse Brake 
+
+--- Document Chunk 172 ---
+& Saxby Signal Company 
+
+--- Document Chunk 173 ---
+in 1927. Some 60 years 
+
+--- Document Chunk 174 ---
+after the invention of the 
+
+--- Document Chunk 175 ---
+interlocking skilled teams 
+
+--- Document Chunk 176 ---
+were still assembling 
+
+--- Document Chunk 177 ---
+complex lever frames – 
+
+--- Document Chunk 178 ---
+some of which are still in 
+
+--- Document Chunk 179 ---
+use today.
+
+--- Document Chunk 180 ---
+Photo WB&S Archive/
+
+--- Document Chunk 181 ---
+Chippenham Museum & 
+
+--- Document Chunk 182 ---
+Heritage Centre.
+
+--- Document Chunk 183 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 184 ---
+18
+
+--- Document Chunk 185 ---
+Interlocking technologies
+
+--- Document Chunk 186 ---
+Mechanical interlocking
+
+--- Document Chunk 187 ---
+The earliest form of interlocking was purely 
+
+--- Document Chunk 188 ---
+mechanical. Signal boxes were usually two storey 
+
+--- Document Chunk 189 ---
+buildings, with the signaller working upstairs 
+
+--- Document Chunk 190 ---
+and the interlocking downstairs. To allow a 
+
+--- Document Chunk 191 ---
+train to move, the signaller would operate large 
+
+--- Document Chunk 192 ---
+levers, separate ones being provided for each 
+
+--- Document Chunk 193 ---
+set of points and for each signal. These levers 
+
+--- Document Chunk 194 ---
+were directly connected via mechanical rods 
+
+--- Document Chunk 195 ---
+and/or wires to the points and signals outside, 
+
+--- Document Chunk 196 ---
+and therefore could require considerable 
+
+--- Document Chunk 197 ---
+effort to move. 
+
+--- Document Chunk 198 ---
+On the ground floor of the signal box, underneath 
+
+--- Document Chunk 199 ---
+the levers, was an arrangement of metal bars that 
+
+--- Document Chunk 200 ---
+were connected to the levers, with other bars at 
+
+--- Document Chunk 201 ---
+right-angles to the first. The physical interlocking 
+
+--- Document Chunk 202 ---
+of the two sets of bars prevented the signaller 
+
+--- Document Chunk 203 ---
+from moving a lever unless other levers were in 
+
+--- Document Chunk 204 ---
+the correct position. So, for instance, he could 
+
+--- Document Chunk 205 ---
+not move a signal lever to allow a train to move 
+
+--- Document Chunk 206 ---
+unless the relevant points levers were in the 
+
+--- Document Chunk 207 ---
+correct position. 
+
+--- Document Chunk 208 ---
+Gradually engineers began to introduce simple 
+
+--- Document Chunk 209 ---
+electro-mechanical locking in combination 
+
+--- Document Chunk 210 ---
+with the mechanical locking, to prevent a lever 
+
+--- Document Chunk 211 ---
+from being moved unless its electric lock was 
+
+--- Document Chunk 212 ---
+energised. Energisation of the lock (via an 
+
+--- Document Chunk 213 ---
+electrical circuit) required other levers to be 
+
+--- Document Chunk 214 ---
+electrically proved to be in the correct position. 
+
+--- Document Chunk 215 ---
+Further conditions were progressively added to 
+
+--- Document Chunk 216 ---
+the lock circuits to improve safety, such as the 
+
+--- Document Chunk 217 ---
+requirement for relevant track circuits to be clear 
+
+--- Document Chunk 218 ---
+before a signal or set of points could be moved. 
+
+--- Document Chunk 219 ---
+Safety features were also added to the block 
+
+--- Document Chunk 220 ---
+systems that controlled the movement of trains 
+
+--- Document Chunk 221 ---
+between neighbouring signal boxes, to prevent a 
+
+--- Document Chunk 222 ---
+signaller from sending a train from the area that he 
+
+--- Document Chunk 223 ---
+controlled to that of the next signal box unless it 
+
+--- Document Chunk 224 ---
+was safe to do so. 
+
+--- Document Chunk 225 ---
+Mechanically interlocked signal boxes are still in 
+
+--- Document Chunk 226 ---
+use on railways in many parts of the world, well 
+
+--- Document Chunk 227 ---
+over 125 years since they were introduced.
+
+--- Document Chunk 228 ---
+1
+
+--- Document Chunk 229 ---
+Locking nibs
+
+--- Document Chunk 230 ---
+Connecting
+
+--- Document Chunk 231 ---
+bar
+
+--- Document Chunk 232 ---
+Tappet connected
+
+--- Document Chunk 233 ---
+to Lever 1
+
+--- Document Chunk 234 ---
+Tappet connected
+
+--- Document Chunk 235 ---
+to Lever 4
+
+--- Document Chunk 236 ---
+1 4 4
+
+--- Document Chunk 237 ---
+41
+
+--- Document Chunk 238 ---
+1
+
+--- Document Chunk 239 ---
+Figure 2a Figure 2b Figure 2c
+
+--- Document Chunk 240 ---
+A flat metal bar (called a tappet) is 
+
+--- Document Chunk 241 ---
+attached to the end (tail) of each lever. 
+
+--- Document Chunk 242 ---
+All the tappets are held within a locking 
+
+--- Document Chunk 243 ---
+box, so that each one moves in one 
+
+--- Document Chunk 244 ---
+direction when the corresponding lever 
+
+--- Document Chunk 245 ---
+is pulled to its reverse position, and in 
+
+--- Document Chunk 246 ---
+the opposite direction when the lever is 
+
+--- Document Chunk 247 ---
+pushed back to its normal position.
+
+--- Document Chunk 248 ---
+To create a lock, a bevelled notch is cut 
+
+--- Document Chunk 249 ---
+in the side of a tappet, and a locking 
+
+--- Document Chunk 250 ---
+piece (sometimes called a nib) is cut 
+
+--- Document Chunk 251 ---
+to fit the notch. If a horizontal bar is 
+
+--- Document Chunk 252 ---
+placed in the locking box with one 
+
+--- Document Chunk 253 ---
+end connected to the locking piece, 
+
+--- Document Chunk 254 ---
+and the other end is connected to 
+
+--- Document Chunk 255 ---
+another locking piece, the movement 
+
+--- Document Chunk 256 ---
+of one lever is prevented or permitted 
+
+--- Document Chunk 257 ---
+according to whether a locking piece is 
+
+--- Document Chunk 258 ---
+held in a notch in the tappet, or is clear 
+
+--- Document Chunk 259 ---
+of (or free to move out of) the notch. 
+
+--- Document Chunk 260 ---
+The use of bevelled edges enables a 
+
+--- Document Chunk 261 ---
+tappet, when free to move, to force the 
+
+--- Document Chunk 262 ---
+locking piece out of the notch.
+
+--- Document Chunk 263 ---
+In Figure 2a below, when Lever 1 is 
+
+--- Document Chunk 264 ---
+pulled from normal to reverse, the 
+
+--- Document Chunk 265 ---
+tappet will move in the direction of the 
+
+--- Document Chunk 266 ---
+arrow. The positions of the tappets and 
+
+--- Document Chunk 267 ---
+locking pieces will then be as shown in 
+
+--- Document Chunk 268 ---
+Figure 2b, and Lever 4 is locked in the 
+
+--- Document Chunk 269 ---
+normal position. It cannot be moved 
+
+--- Document Chunk 270 ---
+because the second locking piece 
+
+--- Document Chunk 271 ---
+(connected to the first) has engaged in 
+
+--- Document Chunk 272 ---
+the notch in the tappet of Lever 4 and 
+
+--- Document Chunk 273 ---
+is not free to move out of it. Thus Lever 
+
+--- Document Chunk 274 ---
+1 locks Lever 4. The converse is also 
+
+--- Document Chunk 275 ---
+true. If Lever 1 is normal and Lever 4 is 
+
+--- Document Chunk 276 ---
+reverse, Lever 4 locks Lever 1 normal, 
+
+--- Document Chunk 277 ---
+as shown in Figure 2c (this is called 
+
+--- Document Chunk 278 ---
+reciprocal locking and is an inherent 
+
+--- Document Chunk 279 ---
+feature of mechanical locking). Much 
+
+--- Document Chunk 280 ---
+more complicated locking arrangements 
+
+--- Document Chunk 281 ---
+can be created than the simple one 
+
+--- Document Chunk 282 ---
+shown, with levers being locked in both 
+
+--- Document Chunk 283 ---
+normal and reverse positions by multiple 
+
+--- Document Chunk 284 ---
+other levers, and with locking of one 
+
+--- Document Chunk 285 ---
+lever by another being conditional on 
+
+--- Document Chunk 286 ---
+the position of a third lever.
+
+--- Document Chunk 287 ---
+How does mechanical interlocking work?
+
+--- Document Chunk 288 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 289 ---
+19
+
+--- Document Chunk 290 ---
+Electrical interlocking 
+
+--- Document Chunk 291 ---
+The advantages of using electrical locking 
+
+--- Document Chunk 292 ---
+became even more evident when colour light 
+
+--- Document Chunk 293 ---
+signals and electric point machines began to be 
+
+--- Document Chunk 294 ---
+introduced. Mechanical locking could be entirely 
+
+--- Document Chunk 295 ---
+replaced by electric locking, and large levers were 
+
+--- Document Chunk 296 ---
+no longer necessary for operating points and 
+
+--- Document Chunk 297 ---
+signals, since no great physical effort was required 
+
+--- Document Chunk 298 ---
+by the signaller to switch an electric signal 
+
+--- Document Chunk 299 ---
+or point machine.
+
+--- Document Chunk 300 ---
+Early all-electric signal boxes used miniature 
+
+--- Document Chunk 301 ---
+mechanical levers on a desk, replicating in 
+
+--- Document Chunk 302 ---
+a more modern form the row of levers in 
+
+--- Document Chunk 303 ---
+mechanical boxes. This evolution led in time to 
+
+--- Document Chunk 304 ---
+the introduction of control panels, with switches 
+
+--- Document Chunk 305 ---
+and buttons on the panel being used to set 
+
+--- Document Chunk 306 ---
+whole routes from one signal to the next, without 
+
+--- Document Chunk 307 ---
+the signaller needing to set the points in the 
+
+--- Document Chunk 308 ---
+route individually.
+
+--- Document Chunk 309 ---
+The ‘route setting’ approach eventually became 
+
+--- Document Chunk 310 ---
+the preferred form of control. The role of the 
+
+--- Document Chunk 311 ---
+interlocking was crucial in this. Instead of being 
+
+--- Document Chunk 312 ---
+a passive system for determining whether it was 
+
+--- Document Chunk 313 ---
+safe to operate a set of points or a signal (as 
+
+--- Document Chunk 314 ---
+mechanical locking had been), it became an active 
+
+--- Document Chunk 315 ---
+system that interpreted and acted on requests 
+
+--- Document Chunk 316 ---
+received from the control panel. In simple form, 
+
+--- Document Chunk 317 ---
+the request to set a route from one signal to the 
+
+--- Document Chunk 318 ---
+next is set up by the signaller using switches and 
+
+--- Document Chunk 319 ---
+buttons on the control panel (which has a diagram 
+
+--- Document Chunk 320 ---
+of the track layout on it). The interlocking then 
+
+--- Document Chunk 321 ---
+moves the relevant points provided it is safe to do 
+
+--- Document Chunk 322 ---
+so, checks that the track is clear of other trains, 
+
+--- Document Chunk 323 ---
+and clears the entrance signal for the route.
+
+--- Document Chunk 324 ---
+Relays
+
+--- Document Chunk 325 ---
+The fundamental building block of the traditional 
+
+--- Document Chunk 326 ---
+route-setting interlocking is the relay. Before the 
+
+--- Document Chunk 327 ---
+relay interlocking gained prominence, relays had 
+
+--- Document Chunk 328 ---
+already been used for track circuits and for other 
+
+--- Document Chunk 329 ---
+simple circuits in mechanical and early electric 
+
+--- Document Chunk 330 ---
+signal boxes. These relays had generally been 
+
+--- Document Chunk 331 ---
+relatively large devices, often designed to sit on 
+
+--- Document Chunk 332 ---
+shelves. But as relay interlockings became more 
+
+--- Document Chunk 333 ---
+popular, relays were progressively made physically 
+
+--- Document Chunk 334 ---
+smaller, and were often designed to plug into 
+
+--- Document Chunk 335 ---
+bases to which all the wiring was connected, so 
+
+--- Document Chunk 336 ---
+making it easy to replace a faulty one as well as 
+
+--- Document Chunk 337 ---
+enabling hundreds or even thousands of them to 
+
+--- Document Chunk 338 ---
+be housed in a much smaller space. All the wiring 
+
+--- Document Chunk 339 ---
+and the relays and their bases were mounted on 
+
+--- Document Chunk 340 ---
+vertical racks, and a large interlocking might have 
+
+--- Document Chunk 341 ---
+dozens of such racks, all housed in a ‘relay room’.
+
+--- Document Chunk 342 ---
+Not sure what a relay is?
+
+--- Document Chunk 343 ---
+A relay is an electromechanical switch, with an 
+
+--- Document Chunk 344 ---
+electromagnetic coil, an armature and various 
+
+--- Document Chunk 345 ---
+contacts. When the coil is energised, the armature 
+
+--- Document Chunk 346 ---
+moves and closes a number of contacts (‘front’ or 
+
+--- Document Chunk 347 ---
+‘normally open’ contacts) and opens others (‘back’ 
+
+--- Document Chunk 348 ---
+or ‘normally closed’ contacts). These contacts 
+
+--- Document Chunk 349 ---
+are used in other circuits to create the logic 
+
+--- Document Chunk 350 ---
+conditions for operating other relays, powering 
+
+--- Document Chunk 351 ---
+point machines, illuminating the aspects of signals 
+
+--- Document Chunk 352 ---
+etc. When the coil is de-energised the armature 
+
+--- Document Chunk 353 ---
+returns to its original position, opening the front 
+
+--- Document Chunk 354 ---
+contacts and closing the back contacts.
+
+--- Document Chunk 355 ---
+Relay interlocking architecture and design
+
+--- Document Chunk 356 ---
+The architecture of relay interlockings varies from 
+
+--- Document Chunk 357 ---
+railway to railway (even within a single country), 
+
+--- Document Chunk 358 ---
+and from country to country. We are not going 
+
+--- Document Chunk 359 ---
+to explore all the variations here, but it is worth 
+
+--- Document Chunk 360 ---
+understanding a little about the basic design 
+
+--- Document Chunk 361 ---
+philosophies that characterise almost all relay 
+
+--- Document Chunk 362 ---
+interlockings. 
+
+--- Document Chunk 363 ---
+In the early days all relay interlockings were ‘free 
+
+--- Document Chunk 364 ---
+wired’. With this approach, each circuit, whatever 
+
+--- Document Chunk 365 ---
+its purpose or function, was individually designed 
+
+--- Document Chunk 366 ---
+and wired, usually in accordance with a set of 
+
+--- Document Chunk 367 ---
+templated (standard) circuits. In time an alternative 
+
+--- Document Chunk 368 ---
+approach emerged, whereby manufacturers 
+
+--- Document Chunk 369 ---
+provided a range of factory-wired, pre-tested 
+
+--- Document Chunk 370 ---
+sets of relays known as ‘geographical’ units. Each 
+
+--- Document Chunk 371 ---
+type of unit was designed to provide the standard 
+
+--- Document Chunk 372 ---
+interlocking functions required for a specific 
+
+--- Document Chunk 373 ---
+combination of signals, points and train detection 
+
+--- Document Chunk 374 ---
+sections. By connecting the appropriate units 
+
+--- Document Chunk 375 ---
+together (usually with plug-coupled cables) to 
+
+--- Document Chunk 376 ---
+mimic the actual layout of the track and signalling, 
+
+--- Document Chunk 377 ---
+the required route-setting functionality could be 
+
+--- Document Chunk 378 ---
+Figure 3 – The 
+
+--- Document Chunk 379 ---
+introduction of relay-
+
+--- Document Chunk 380 ---
+based signalling allowed 
+
+--- Document Chunk 381 ---
+control centres to move 
+
+--- Document Chunk 382 ---
+to the use of complex 
+
+--- Document Chunk 383 ---
+panels. These UK 
+
+--- Document Chunk 384 ---
+examples are from Carlisle 
+
+--- Document Chunk 385 ---
+(left) and London Bridge 
+
+--- Document Chunk 386 ---
+(right) power signal boxes, 
+
+--- Document Chunk 387 ---
+commissioned in the 
+
+--- Document Chunk 388 ---
+1970s.
+
+--- Document Chunk 389 ---
+Photos WB&S Archive/
+
+--- Document Chunk 390 ---
+Chippenham Museum & 
+
+--- Document Chunk 391 ---
+Heritage Centre.
+
+--- Document Chunk 392 ---
+Figure 4 – Different 
+
+--- Document Chunk 393 ---
+approaches to relay 
+
+--- Document Chunk 394 ---
+design. Below, the type N 
+
+--- Document Chunk 395 ---
+relay, bottom the type C.
+
+--- Document Chunk 396 ---
+Photos Siemens Mobility 
+
+--- Document Chunk 397 ---
+and E Dold & Söhne KG.
+
+--- Document Chunk 398 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 399 ---
+20
+
+--- Document Chunk 400 ---
+built up relatively easily. There are advantages and 
+
+--- Document Chunk 401 ---
+disadvantages with both approaches, including 
+
+--- Document Chunk 402 ---
+cost, flexibility, speed of design and testing.
+
+--- Document Chunk 403 ---
+Secondly, the relay interlocking circuits (both 
+
+--- Document Chunk 404 ---
+free-wired and geographical types) vary in form 
+
+--- Document Chunk 405 ---
+according to the type of relay used. There are, 
+
+--- Document Chunk 406 ---
+broadly speaking, two generic types of relay used 
+
+--- Document Chunk 407 ---
+for all interlockings. One type is inherently ‘fail-
+
+--- Document Chunk 408 ---
+safe’, meaning that if the coil is de-energised, the 
+
+--- Document Chunk 409 ---
+front contacts will always open, and it is virtually 
+
+--- Document Chunk 410 ---
+impossible for a failure to occur whereby front 
+
+--- Document Chunk 411 ---
+and back contacts are in the ‘closed’ position at 
+
+--- Document Chunk 412 ---
+the same time. The use of non-welding materials 
+
+--- Document Chunk 413 ---
+for the contacts makes it impossible for a contact 
+
+--- Document Chunk 414 ---
+to weld in the closed position. This type of relay 
+
+--- Document Chunk 415 ---
+is known generically as type N in UIC standard 
+
+--- Document Chunk 416 ---
+736i. The best-known family of signalling relays 
+
+--- Document Chunk 417 ---
+in this category is probably the BR930 series, the 
+
+--- Document Chunk 418 ---
+development of which, incidentally, involved the 
+
+--- Document Chunk 419 ---
+IRSE. There are at least 200 variations of this same 
+
+--- Document Chunk 420 ---
+basic relay, with different operating characteristics 
+
+--- Document Chunk 421 ---
+(slow to energise, slow to de-energise etc), 
+
+--- Document Chunk 422 ---
+different numbers and types of contacts, and 
+
+--- Document Chunk 423 ---
+different operating voltages. 
+
+--- Document Chunk 424 ---
+The other generic type of relay used in some 
+
+--- Document Chunk 425 ---
+interlocking systems is known as type C in UIC 
+
+--- Document Chunk 426 ---
+standard 736i. It is not guaranteed to behave in 
+
+--- Document Chunk 427 ---
+the inherently fail-safe manner described above. 
+
+--- Document Chunk 428 ---
+Specifically, it is possible for a contact to weld 
+
+--- Document Chunk 429 ---
+so that it remains closed when it should be open 
+
+--- Document Chunk 430 ---
+although, as with a type N relay, the mechanical 
+
+--- Document Chunk 431 ---
+design prevents any front and back contacts being 
+
+--- Document Chunk 432 ---
+closed at the same time, even if welding occurs (a 
+
+--- Document Chunk 433 ---
+feature known as ‘forcibly guided’ contacts). Such 
+
+--- Document Chunk 434 ---
+relays have the advantage of being considerably 
+
+--- Document Chunk 435 ---
+less expensive and smaller. But in order for the 
+
+--- Document Chunk 436 ---
+interlocking as a whole to behave in a fail-safe 
+
+--- Document Chunk 437 ---
+manner, the circuits are more complicated as 
+
+--- Document Chunk 438 ---
+a consequence of using additional contacts to 
+
+--- Document Chunk 439 ---
+prove that relays have de-energised correctly, 
+
+--- Document Chunk 440 ---
+and because of the need to check that the 
+
+--- Document Chunk 441 ---
+circuits are operating in the correct sequence 
+
+--- Document Chunk 442 ---
+with the passage of the trains. By contrast, the 
+
+--- Document Chunk 443 ---
+dependable fail-safe nature of the type N relay 
+
+--- Document Chunk 444 ---
+makes it generally unnecessary to include this 
+
+--- Document Chunk 445 ---
+additional complexity.
+
+--- Document Chunk 446 ---
+In all interlockings the circuits are designed to 
+
+--- Document Chunk 447 ---
+exploit the safety characteristics of the relays. 
+
+--- Document Chunk 448 ---
+Usually this is done by requiring a relay to be 
+
+--- Document Chunk 449 ---
+energised to allow a less restrictive state (e.g. to 
+
+--- Document Chunk 450 ---
+allow a signal to show a proceed aspect, or to 
+
+--- Document Chunk 451 ---
+allow a set of points to move). If the relay or the 
+
+--- Document Chunk 452 ---
+power supply fails, or there is a disconnection in 
+
+--- Document Chunk 453 ---
+the circuit, the relay de-energises, so causing the 
+
+--- Document Chunk 454 ---
+signalling equipment to revert to a safer state.
+
+--- Document Chunk 455 ---
+Computer-based interlockings (CBI)
+
+--- Document Chunk 456 ---
+With the development of electronic logic gates in 
+
+--- Document Chunk 457 ---
+the form of integrated circuits, and subsequently 
+
+--- Document Chunk 458 ---
+with the emergence of the microprocessor and 
+
+--- Document Chunk 459 ---
+programmable logic controllers (PLCs), it was a 
+
+--- Document Chunk 460 ---
+natural step to see how this technology could 
+
+--- Document Chunk 461 ---
+be applied to interlockings. Early experimental 
+
+--- Document Chunk 462 ---
+installations were implemented in the 1960s 
+
+--- Document Chunk 463 ---
+and 1970s, but it was in the mid-1980s that 
+
+--- Document Chunk 464 ---
+the electronic software-based interlocking first 
+
+--- Document Chunk 465 ---
+became a reality. One of the best known of 
+
+--- Document Chunk 466 ---
+these was SSI – the ‘Solid State Interlocking’, 
+
+--- Document Chunk 467 ---
+developed in the UK.
+
+--- Document Chunk 468 ---
+The use of software-driven electronic logic 
+
+--- Document Chunk 469 ---
+presented a whole new set of challenges for 
+
+--- Document Chunk 470 ---
+system designers. A route relay interlocking is, 
+
+--- Document Chunk 471 ---
+in effect, a hard-wired parallel processing logic 
+
+--- Document Chunk 472 ---
+machine. If it goes wrong it could initiate unsafe 
+
+--- Document Chunk 473 ---
+actions, but the potential failure modes and 
+
+--- Document Chunk 474 ---
+their causes are well-understood and, by good 
+
+--- Document Chunk 475 ---
+design practice and by testing it to make sure 
+
+--- Document Chunk 476 ---
+the locking conforms to the application rules, 
+
+--- Document Chunk 477 ---
+the probability of an unsafe failure is very low. A 
+
+--- Document Chunk 478 ---
+computer-based interlocking (CBI), which makes 
+
+--- Document Chunk 479 ---
+use of microprocessors, is another matter entirely, 
+
+--- Document Chunk 480 ---
+however. Microprocessors comprise hardware and 
+
+--- Document Chunk 481 ---
+embedded software, and these are not designed 
+
+--- Document Chunk 482 ---
+to meet the high integrity safety requirements 
+
+--- Document Chunk 483 ---
+Figure 5 – Route relay 
+
+--- Document Chunk 484 ---
+interlockings have 
+
+--- Document Chunk 485 ---
+been very successful 
+
+--- Document Chunk 486 ---
+in a huge range of 
+
+--- Document Chunk 487 ---
+applications world-wide. 
+
+--- Document Chunk 488 ---
+In this example from the 
+
+--- Document Chunk 489 ---
+original Singapore MRT 
+
+--- Document Chunk 490 ---
+scheme the interlocking 
+
+--- Document Chunk 491 ---
+is interfaced to coded 
+
+--- Document Chunk 492 ---
+track circuits allowing 
+
+--- Document Chunk 493 ---
+a high performance 
+
+--- Document Chunk 494 ---
+automatic train protection 
+
+--- Document Chunk 495 ---
+and automatic train 
+
+--- Document Chunk 496 ---
+operation system to be 
+
+--- Document Chunk 497 ---
+implemented.
+
+--- Document Chunk 498 ---
+Photo WB&S Archive/
+
+--- Document Chunk 499 ---
+Chippenham Museum & 
+
+--- Document Chunk 500 ---
+Heritage Centre.
+
+--- Document Chunk 501 ---
+“A route relay 
+
+--- Document Chunk 502 ---
+interlocking is, in 
+
+--- Document Chunk 503 ---
+effect, a  
+
+--- Document Chunk 504 ---
+hard-wired 
+
+--- Document Chunk 505 ---
+parallel 
+
+--- Document Chunk 506 ---
+processing logic 
+
+--- Document Chunk 507 ---
+machine.”
+
+--- Document Chunk 508 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 509 ---
+21
+
+--- Document Chunk 510 ---
+necessary for an interlocking. Failure modes of 
+
+--- Document Chunk 511 ---
+microprocessor-based systems are much more 
+
+--- Document Chunk 512 ---
+complex and unpredictable than in relay logic, 
+
+--- Document Chunk 513 ---
+and their causes can be difficult to trace. These 
+
+--- Document Chunk 514 ---
+causes include electrical interference, unstable 
+
+--- Document Chunk 515 ---
+supply voltages, poor programming (leading 
+
+--- Document Chunk 516 ---
+to memory stack overflows, race conditions, 
+
+--- Document Chunk 517 ---
+deadlock, etc), derived requirement errors and 
+
+--- Document Chunk 518 ---
+manufacturing defects.
+
+--- Document Chunk 519 ---
+The architecture of the software-based 
+
+--- Document Chunk 520 ---
+interlocking must be designed so that the overall 
+
+--- Document Chunk 521 ---
+level of safety is at least as safe as the best relay 
+
+--- Document Chunk 522 ---
+interlocking, despite the relatively low integrity of 
+
+--- Document Chunk 523 ---
+the component parts and the complexity of their 
+
+--- Document Chunk 524 ---
+failure modes. The basic approach is to have two 
+
+--- Document Chunk 525 ---
+separate processing channels in the interlocking, 
+
+--- Document Chunk 526 ---
+each one executing the route requests from the 
+
+--- Document Chunk 527 ---
+control panel (or desk/VDU) in accordance with 
+
+--- Document Chunk 528 ---
+the signalling principles and application rules for 
+
+--- Document Chunk 529 ---
+the particular track and signalling layout. This is 
+
+--- Document Chunk 530 ---
+known as a ‘two out of two’ (2oo2) configuration. 
+
+--- Document Chunk 531 ---
+In the event of a difference in the outputs from 
+
+--- Document Chunk 532 ---
+the channels (indicating an error has occurred), 
+
+--- Document Chunk 533 ---
+the system shuts itself down and a safe state is 
+
+--- Document Chunk 534 ---
+enforced. In most systems lineside signals return 
+
+--- Document Chunk 535 ---
+to danger (stop) and points cannot be moved. 
+
+--- Document Chunk 536 ---
+In practice, achieving a safe shutdown is not 
+
+--- Document Chunk 537 ---
+quite as simple as it might at first appear. Firstly, 
+
+--- Document Chunk 538 ---
+the part of the system that compares the outputs 
+
+--- Document Chunk 539 ---
+of the two channels and shuts the interlocking 
+
+--- Document Chunk 540 ---
+down in the event of a difference must be highly 
+
+--- Document Chunk 541 ---
+dependable. A simple electronic comparator that 
+
+--- Document Chunk 542 ---
+is monitoring the two outputs is not sufficient. 
+
+--- Document Chunk 543 ---
+Secondly, there is the problem of common mode 
+
+--- Document Chunk 544 ---
+failure. Since both channels are executing the 
+
+--- Document Chunk 545 ---
+same task, there could be processor problems 
+
+--- Document Chunk 546 ---
+or programming errors which would affect both 
+
+--- Document Chunk 547 ---
+channels in the same way. In such circumstances 
+
+--- Document Chunk 548 ---
+there would be no disagreement between the 
+
+--- Document Chunk 549 ---
+outputs presented to the comparator, and the 
+
+--- Document Chunk 550 ---
+system would consequently not shut down.
+
+--- Document Chunk 551 ---
+There are various solutions to these problems, of 
+
+--- Document Chunk 552 ---
+course, and different system manufacturers adopt 
+
+--- Document Chunk 553 ---
+different approaches. These may involve:
+
+--- Document Chunk 554 ---
+• using different hardware and/or software for 
+
+--- Document Chunk 555 ---
+the two channels to reduce the likelihood of 
+
+--- Document Chunk 556 ---
+common mode failure (often called ‘diversity’).
+
+--- Document Chunk 557 ---
+• more complex cross-checking of internal 
+
+--- Document Chunk 558 ---
+states, inputs and outputs between the two 
+
+--- Document Chunk 559 ---
+channels in order to detect faults.
+
+--- Document Chunk 560 ---
+• more than one mechanism by which a 
+
+--- Document Chunk 561 ---
+shutdown can be enforced (and employing 
+
+--- Document Chunk 562 ---
+special hardware for the purpose). 
+
+--- Document Chunk 563 ---
+These mechanisms are not without their 
+
+--- Document Chunk 564 ---
+difficulties. For instance, a lack of synchronisation 
+
+--- Document Chunk 565 ---
+(differences in timing) of processing in the two 
+
+--- Document Chunk 566 ---
+channels can cause the two channel outputs 
+
+--- Document Chunk 567 ---
+to be different for short periods of time, even 
+
+--- Document Chunk 568 ---
+though each channel is behaving correctly. These 
+
+--- Document Chunk 569 ---
+short-term differences may be interpreted by any 
+
+--- Document Chunk 570 ---
+cross-checking as an error and cause a shutdown, 
+
+--- Document Chunk 571 ---
+creating a serious threat to reliability.
+
+--- Document Chunk 572 ---
+Processing
+
+--- Document Chunk 573 ---
+channel A
+
+--- Document Chunk 574 ---
+Vote
+
+--- Document Chunk 575 ---
+Processing
+
+--- Document Chunk 576 ---
+channel B
+
+--- Document Chunk 577 ---
+Action
+
+--- Document Chunk 578 ---
+Processing
+
+--- Document Chunk 579 ---
+channel A
+
+--- Document Chunk 580 ---
+Vote
+
+--- Document Chunk 581 ---
+Processing
+
+--- Document Chunk 582 ---
+channel B
+
+--- Document Chunk 583 ---
+Processing
+
+--- Document Chunk 584 ---
+channel C
+
+--- Document Chunk 585 ---
+Vote
+
+--- Document Chunk 586 ---
+Processing
+
+--- Document Chunk 587 ---
+channel D
+
+--- Document Chunk 588 ---
+Action
+
+--- Document Chunk 589 ---
+Processing
+
+--- Document Chunk 590 ---
+channel A
+
+--- Document Chunk 591 ---
+Vote
+
+--- Document Chunk 592 ---
+Processing
+
+--- Document Chunk 593 ---
+channel B
+
+--- Document Chunk 594 ---
+Action
+
+--- Document Chunk 595 ---
+Processing
+
+--- Document Chunk 596 ---
+channel C
+
+--- Document Chunk 597 ---
+Figure 6 – Achieving safety and availability in 
+
+--- Document Chunk 598 ---
+interlocking systems typically involves the adoption of 
+
+--- Document Chunk 599 ---
+one of the architectures shown here.
+
+--- Document Chunk 600 ---
+Above left, ‘two out of two’ requires both processing 
+
+--- Document Chunk 601 ---
+channels to determine a course of action which will 
+
+--- Document Chunk 602 ---
+only be carried out if both agree. If either fails then the 
+
+--- Document Chunk 603 ---
+system shuts down to a safe state.
+
+--- Document Chunk 604 ---
+Above right, duplicating two sets of ‘two out of two’ 
+
+--- Document Chunk 605 ---
+and switching between the two pairs increases system 
+
+--- Document Chunk 606 ---
+availability.
+
+--- Document Chunk 607 ---
+Right, ‘two out of three’ uses three processing channels. 
+
+--- Document Chunk 608 ---
+At least two channels must agree on an action before it 
+
+--- Document Chunk 609 ---
+is taken, but failure of a single channel will not lead to a 
+
+--- Document Chunk 610 ---
+shut down.
+
+--- Document Chunk 611 ---
+“Failure modes of 
+
+--- Document Chunk 612 ---
+microprocessor-
+
+--- Document Chunk 613 ---
+based systems 
+
+--- Document Chunk 614 ---
+are much more 
+
+--- Document Chunk 615 ---
+complex and 
+
+--- Document Chunk 616 ---
+unpredictable 
+
+--- Document Chunk 617 ---
+than in relay 
+
+--- Document Chunk 618 ---
+logic.”
+
+--- Document Chunk 619 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 620 ---
+22
+
+--- Document Chunk 621 ---
+Reliability of CBIs
+
+--- Document Chunk 622 ---
+The reliability of computer-based interlockings 
+
+--- Document Chunk 623 ---
+is almost as important as their intrinsic safety. A 
+
+--- Document Chunk 624 ---
+fault in a relay interlocking (such as a failure of 
+
+--- Document Chunk 625 ---
+a relay) may cause a small number of routes to 
+
+--- Document Chunk 626 ---
+be inoperable, but it is very unlikely to render the 
+
+--- Document Chunk 627 ---
+whole interlocking unusable and thus stop all 
+
+--- Document Chunk 628 ---
+trains. But a computer-based interlocking that 
+
+--- Document Chunk 629 ---
+detects a processing fault may shut itself down 
+
+--- Document Chunk 630 ---
+completely, stopping all trains in the area of 
+
+--- Document Chunk 631 ---
+control. Most modern CBIs therefore have built-in 
+
+--- Document Chunk 632 ---
+redundancy to improve reliability. 
+
+--- Document Chunk 633 ---
+One approach is to have three processing 
+
+--- Document Chunk 634 ---
+channels in the interlocking, instead of two. If 
+
+--- Document Chunk 635 ---
+one channel disagrees with the other two, a 
+
+--- Document Chunk 636 ---
+majority voting system shuts it down and the 
+
+--- Document Chunk 637 ---
+interlocking continues operating with the two 
+
+--- Document Chunk 638 ---
+remaining channels. This configuration is known 
+
+--- Document Chunk 639 ---
+as ‘Two out of Three’ (‘2oo3’) and was popular 
+
+--- Document Chunk 640 ---
+in early CBIs when computers were expensive, 
+
+--- Document Chunk 641 ---
+because it used less hardware than the alternative 
+
+--- Document Chunk 642 ---
+arrangement described below. There is a marginal 
+
+--- Document Chunk 643 ---
+safety disbenefit in this arrangement, because 
+
+--- Document Chunk 644 ---
+very rarely it could be that one channel is correct 
+
+--- Document Chunk 645 ---
+and the other two are in error. In addition, if 
+
+--- Document Chunk 646 ---
+the same software is used in all three channels 
+
+--- Document Chunk 647 ---
+then common mode failure remains a risk and 
+
+--- Document Chunk 648 ---
+producing three diverse sets of code and/or 
+
+--- Document Chunk 649 ---
+hardware to avoid such failures would be very 
+
+--- Document Chunk 650 ---
+expensive and create an even greater risk of 
+
+--- Document Chunk 651 ---
+timing issues. However, the other safeguards built 
+
+--- Document Chunk 652 ---
+into the systems makes these issues extremely 
+
+--- Document Chunk 653 ---
+unlikely in practice. 
+
+--- Document Chunk 654 ---
+Alternatively, some interlockings have a complete 
+
+--- Document Chunk 655 ---
+duplication of the two channels (i.e., two sets, 
+
+--- Document Chunk 656 ---
+each comprising two channels) – a configuration 
+
+--- Document Chunk 657 ---
+known as ‘Duplicated Two out of Two’ (2X2oo2). 
+
+--- Document Chunk 658 ---
+If one set identifies a disagreement between its 
+
+--- Document Chunk 659 ---
+channels, it is shut down and the other set (which 
+
+--- Document Chunk 660 ---
+is in effect a ‘hot standby’) continues to operate 
+
+--- Document Chunk 661 ---
+the railway. This tends to be a more popular 
+
+--- Document Chunk 662 ---
+arrangement in modern interlockings, as it is 
+
+--- Document Chunk 663 ---
+easier to implement than 2oo3 and the cost of the 
+
+--- Document Chunk 664 ---
+additional hardware is not such a big issue as it 
+
+--- Document Chunk 665 ---
+used to be. The set of hardware and software that 
+
+--- Document Chunk 666 ---
+is acting as the hot standby must have all the same 
+
+--- Document Chunk 667 ---
+inputs and be kept in complete synchronism with 
+
+--- Document Chunk 668 ---
+the controlling set otherwise the changeover will 
+
+--- Document Chunk 669 ---
+not be seamless and some form of initialisation 
+
+--- Document Chunk 670 ---
+process will be required.
+
+--- Document Chunk 671 ---
+Configuring CBIs
+
+--- Document Chunk 672 ---
+All interlockings must be configured for the 
+
+--- Document Chunk 673 ---
+particular track and signalling layout required 
+
+--- Document Chunk 674 ---
+– a task generally performed by a signal 
+
+--- Document Chunk 675 ---
+design engineer. In the case of computer-
+
+--- Document Chunk 676 ---
+based interlockings, he or she has to produce 
+
+--- Document Chunk 677 ---
+configuration logic (program code and/or data) – 
+
+--- Document Chunk 678 ---
+a process commonly known as ‘data preparation’.
+
+--- Document Chunk 679 ---
+The concepts of ‘free-wired’ and ‘geographical’ 
+
+--- Document Chunk 680 ---
+relay interlockings have their equivalents in 
+
+--- Document Chunk 681 ---
+computer-based interlockings, each with their 
+
+--- Document Chunk 682 ---
+advantages and disadvantages. Both make use 
+
+--- Document Chunk 683 ---
+of the duplication and redundancy techniques 
+
+--- Document Chunk 684 ---
+described above to achieve required levels of 
+
+--- Document Chunk 685 ---
+safety and reliability.
+
+--- Document Chunk 686 ---
+The free-wired equivalent typically uses general 
+
+--- Document Chunk 687 ---
+purpose safety PLCs which are configured for 
+
+--- Document Chunk 688 ---
+each specific railway layout. A notation known 
+
+--- Document Chunk 689 ---
+as ‘Ladder Logic’ is frequently used to configure 
+
+--- Document Chunk 690 ---
+the system, although it is also possible to use 
+
+--- Document Chunk 691 ---
+fundamental Boolean logic or more sophisticated 
+
+--- Document Chunk 692 ---
+PLC programming languages. Ladder logic 
+
+--- Document Chunk 693 ---
+resembles a conventional circuit diagram that 
+
+--- Document Chunk 694 ---
+has switches, relay coils and contacts, and other 
+
+--- Document Chunk 695 ---
+electrical elements such as counters, latches and 
+
+--- Document Chunk 696 ---
+timers. It is therefore intuitively easy to produce by 
+
+--- Document Chunk 697 ---
+someone familiar with relay circuits.
+
+--- Document Chunk 698 ---
+The equivalent of a geographical relay 
+
+--- Document Chunk 699 ---
+interlocking uses a more conventional form 
+
+--- Document Chunk 700 ---
+of microprocessor-based computer. The core 
+
+--- Document Chunk 701 ---
+system (the ‘generic product’) is customised by 
+
+--- Document Chunk 702 ---
+incorporating standard software modules which 
+
+--- Document Chunk 703 ---
+define how basic track and signalling elements 
+
+--- Document Chunk 704 ---
+operate in accordance with the signalling 
+
+--- Document Chunk 705 ---
+principles for the railway on which it is to be 
+
+--- Document Chunk 706 ---
+used. This hardware and software package is the 
+
+--- Document Chunk 707 ---
+signalling manufacturer’s interlocking country/
+
+--- Document Chunk 708 ---
+client-specific product (known as the ‘generic 
+
+--- Document Chunk 709 ---
+application’). The signal design engineer then 
+
+--- Document Chunk 710 ---
+produces application data which defines how 
+
+--- Document Chunk 711 ---
+the country/client-specific software modules 
+
+--- Document Chunk 712 ---
+are configured to represent the particular track 
+
+--- Document Chunk 713 ---
+and signalling layout (known as the ‘specific 
+
+--- Document Chunk 714 ---
+application’). The data format is usually proprietary 
+
+--- Document Chunk 715 ---
+to each manufacturer’s system.
+
+--- Document Chunk 716 ---
+In both types of interlocking, the safety of the 
+
+--- Document Chunk 717 ---
+railway is critically dependent not only upon 
+
+--- Document Chunk 718 ---
+the core interlocking product but also upon the 
+
+--- Document Chunk 719 ---
+correctness of the specific application data/logic, 
+
+--- Document Chunk 720 ---
+which is why so much effort goes into checking 
+
+--- Document Chunk 721 ---
+and testing it.
+
+--- Document Chunk 722 ---
+Generic product software
+
+--- Document Chunk 723 ---
+Generic application software
+
+--- Document Chunk 724 ---
+Specific application logic
+
+--- Document Chunk 725 ---
+Operating system, created as part
+
+--- Document Chunk 726 ---
+of product development, common
+
+--- Document Chunk 727 ---
+across all railways where product used
+
+--- Document Chunk 728 ---
+Signalling logic and rules, typically
+
+--- Document Chunk 729 ---
+entered once per railway, common
+
+--- Document Chunk 730 ---
+across all applications on that railway
+
+--- Document Chunk 731 ---
+Project specific signalling logic
+
+--- Document Chunk 732 ---
+configuring system to a specific 
+
+--- Document Chunk 733 ---
+scheme plan and layout
+
+--- Document Chunk 734 ---
+Figure 7 – Most 
+
+--- Document Chunk 735 ---
+computer-based 
+
+--- Document Chunk 736 ---
+interlockings split 
+
+--- Document Chunk 737 ---
+their software and 
+
+--- Document Chunk 738 ---
+configuration into a 
+
+--- Document Chunk 739 ---
+number of layers, enabling 
+
+--- Document Chunk 740 ---
+the same basic hardware 
+
+--- Document Chunk 741 ---
+to be used in many 
+
+--- Document Chunk 742 ---
+different applications.
+
+--- Document Chunk 743 ---
+“The safety 
+
+--- Document Chunk 744 ---
+of the railway 
+
+--- Document Chunk 745 ---
+is critically 
+
+--- Document Chunk 746 ---
+dependent not 
+
+--- Document Chunk 747 ---
+only upon the 
+
+--- Document Chunk 748 ---
+core interlocking 
+
+--- Document Chunk 749 ---
+product but 
+
+--- Document Chunk 750 ---
+also upon the 
+
+--- Document Chunk 751 ---
+correctness 
+
+--- Document Chunk 752 ---
+of the specific 
+
+--- Document Chunk 753 ---
+application data/
+
+--- Document Chunk 754 ---
+logic”
+
+--- Document Chunk 755 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 756 ---
+23
+
+--- Document Chunk 757 ---
+Nowadays a large proportion of the data and 
+
+--- Document Chunk 758 ---
+logic for computer-based interlockings can be 
+
+--- Document Chunk 759 ---
+generated automatically from the signalling 
+
+--- Document Chunk 760 ---
+scheme specifications. Signal design engineers 
+
+--- Document Chunk 761 ---
+can therefore concentrate their skills on the 
+
+--- Document Chunk 762 ---
+special or unusual interlocking elements of a 
+
+--- Document Chunk 763 ---
+signalling scheme which cannot be designed 
+
+--- Document Chunk 764 ---
+automatically. Simulation and automated testing 
+
+--- Document Chunk 765 ---
+can also reduce the amount of manual verification 
+
+--- Document Chunk 766 ---
+and validation required. Because interlockings 
+
+--- Document Chunk 767 ---
+primarily implement a set of logical rules they are 
+
+--- Document Chunk 768 ---
+particularly well suited to testing and validation 
+
+--- Document Chunk 769 ---
+using formal methods and automation. Most 
+
+--- Document Chunk 770 ---
+of the major interlocking suppliers have now 
+
+--- Document Chunk 771 ---
+adopted these methods in some form and as 
+
+--- Document Chunk 772 ---
+a result the number of errors found by more 
+
+--- Document Chunk 773 ---
+conventional testing, particularly in the field, has 
+
+--- Document Chunk 774 ---
+reduced very significantly.
+
+--- Document Chunk 775 ---
+The interfaces between an 
+
+--- Document Chunk 776 ---
+interlocking and other sub-systems
+
+--- Document Chunk 777 ---
+In a modern signalling system, an interlocking 
+
+--- Document Chunk 778 ---
+interfaces with a number of other sub-systems. 
+
+--- Document Chunk 779 ---
+The three most important interfaces are with 
+
+--- Document Chunk 780 ---
+the trackside equipment, with the control panel 
+
+--- Document Chunk 781 ---
+(or computer workstation), and with other 
+
+--- Document Chunk 782 ---
+neighbouring interlockings. There are of course 
+
+--- Document Chunk 783 ---
+other interfaces, but we are not attempting 
+
+--- Document Chunk 784 ---
+here to describe the architecture of a complete 
+
+--- Document Chunk 785 ---
+signalling system, so they are not explored 
+
+--- Document Chunk 786 ---
+in this article.
+
+--- Document Chunk 787 ---
+Interlocking to control panel/desk 
+
+--- Document Chunk 788 ---
+interface
+
+--- Document Chunk 789 ---
+The signaller controls the movement of trains 
+
+--- Document Chunk 790 ---
+either by use of a control panel or by using a 
+
+--- Document Chunk 791 ---
+control desk and workstation. A panel is equipped 
+
+--- Document Chunk 792 ---
+with a representation of the track layout, on which 
+
+--- Document Chunk 793 ---
+are buttons and switches for setting routes etc, 
+
+--- Document Chunk 794 ---
+and indications to show him or her information 
+
+--- Document Chunk 795 ---
+including what routes are set, the positions of 
+
+--- Document Chunk 796 ---
+trains and the aspects of signals. In the case of 
+
+--- Document Chunk 797 ---
+a control desk and workstation, the signaller 
+
+--- Document Chunk 798 ---
+has the same information presented to him/
+
+--- Document Chunk 799 ---
+her on screen and sets routes etc by use of a 
+
+--- Document Chunk 800 ---
+keyboard and mouse.
+
+--- Document Chunk 801 ---
+The interface with the interlocking is therefore 
+
+--- Document Chunk 802 ---
+two-way, with route requests being sent from 
+
+--- Document Chunk 803 ---
+the control panel/desk to the interlocking and 
+
+--- Document Chunk 804 ---
+information from the interlocking being sent to 
+
+--- Document Chunk 805 ---
+the control panel/workstation. There is usually 
+
+--- Document Chunk 806 ---
+some sort of interface sub-system (either relays or 
+
+--- Document Chunk 807 ---
+software-based) between the two. 
+
+--- Document Chunk 808 ---
+A typical control panel/desk will communicate 
+
+--- Document Chunk 809 ---
+with several interlockings, as the geographical 
+
+--- Document Chunk 810 ---
+area covered by the control panel/desk is often 
+
+--- Document Chunk 811 ---
+larger than that covered by a single interlocking. 
+
+--- Document Chunk 812 ---
+Where all the interlockings are housed in 
+
+--- Document Chunk 813 ---
+the same building as the control panel/desk, 
+
+--- Document Chunk 814 ---
+the communication with the interlockings is 
+
+--- Document Chunk 815 ---
+achieved either by multi-core cables or by a data 
+
+--- Document Chunk 816 ---
+Control Centre
+
+--- Document Chunk 817 ---
+(Control Panel or
+
+--- Document Chunk 818 ---
+Computer Workstation)
+
+--- Document Chunk 819 ---
+Interlocking
+
+--- Document Chunk 820 ---
+Requests
+
+--- Document Chunk 821 ---
+Indications
+
+--- Document Chunk 822 ---
+Requests
+
+--- Document Chunk 823 ---
+Neighbouring
+
+--- Document Chunk 824 ---
+interlockings
+
+--- Document Chunk 825 ---
+Multicore cable, 
+
+--- Document Chunk 826 ---
+datalink or 
+
+--- Document Chunk 827 ---
+transmission 
+
+--- Document Chunk 828 ---
+system
+
+--- Document Chunk 829 ---
+High integrity 
+
+--- Document Chunk 830 ---
+multicore cable, 
+
+--- Document Chunk 831 ---
+datalink or 
+
+--- Document Chunk 832 ---
+transmission 
+
+--- Document Chunk 833 ---
+system
+
+--- Document Chunk 834 ---
+Trackside cabinet
+
+--- Document Chunk 835 ---
+containing interface 
+
+--- Document Chunk 836 ---
+equipment/object 
+
+--- Document Chunk 837 ---
+controllers
+
+--- Document Chunk 838 ---
+Status
+
+--- Document Chunk 839 ---
+High integrity 
+
+--- Document Chunk 840 ---
+multicore cable, 
+
+--- Document Chunk 841 ---
+datalink or 
+
+--- Document Chunk 842 ---
+transmission 
+
+--- Document Chunk 843 ---
+system
+
+--- Document Chunk 844 ---
+Commands
+
+--- Document Chunk 845 ---
+High integrity 
+
+--- Document Chunk 846 ---
+        cables
+
+--- Document Chunk 847 ---
+Points SignalsTrain detection
+
+--- Document Chunk 848 ---
+Trackside cabinet 
+
+--- Document Chunk 849 ---
+containing interface 
+
+--- Document Chunk 850 ---
+equipment/object 
+
+--- Document Chunk 851 ---
+controllers
+
+--- Document Chunk 852 ---
+High integrity 
+
+--- Document Chunk 853 ---
+        cables
+
+--- Document Chunk 854 ---
+Points SignalsTrain detection
+
+--- Document Chunk 855 ---
+Trackside cabinet 
+
+--- Document Chunk 856 ---
+containing interface 
+
+--- Document Chunk 857 ---
+equipment/object 
+
+--- Document Chunk 858 ---
+controllersCommands
+
+--- Document Chunk 859 ---
+High integrity 
+
+--- Document Chunk 860 ---
+        cables
+
+--- Document Chunk 861 ---
+Points SignalsTrain detection
+
+--- Document Chunk 862 ---
+Commands
+
+--- Document Chunk 863 ---
+Figure 8 – The 
+
+--- Document Chunk 864 ---
+interlocking forms the 
+
+--- Document Chunk 865 ---
+‘safety layer’ of a railway 
+
+--- Document Chunk 866 ---
+signalling system, 
+
+--- Document Chunk 867 ---
+receiving information 
+
+--- Document Chunk 868 ---
+from and relaying status 
+
+--- Document Chunk 869 ---
+to a control centre, 
+
+--- Document Chunk 870 ---
+communicating with 
+
+--- Document Chunk 871 ---
+adjacent interlockings, 
+
+--- Document Chunk 872 ---
+and controlling trackside 
+
+--- Document Chunk 873 ---
+objects.
+
+--- Document Chunk 874 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 875 ---
+24
+
+--- Document Chunk 876 ---
+communications bus. If some of the interlockings 
+
+--- Document Chunk 877 ---
+are in buildings some distance from the control 
+
+--- Document Chunk 878 ---
+centre, then some form of remote control and 
+
+--- Document Chunk 879 ---
+indication system (using, for instance, time-
+
+--- Document Chunk 880 ---
+division multiplexing) is often used to connect 
+
+--- Document Chunk 881 ---
+interlockings to the control centre to reduce the 
+
+--- Document Chunk 882 ---
+amount of cabling required. 
+
+--- Document Chunk 883 ---
+It is important to note that all these 
+
+--- Document Chunk 884 ---
+communication links are not safety-critical (i.e. 
+
+--- Document Chunk 885 ---
+they do not have to be SIL 4). The interlocking 
+
+--- Document Chunk 886 ---
+ensures the safety of train movements even if 
+
+--- Document Chunk 887 ---
+there is a fault or failure in the communications 
+
+--- Document Chunk 888 ---
+links or interface sub-systems. That said, the 
+
+--- Document Chunk 889 ---
+interfaces and communications links must be as 
+
+--- Document Chunk 890 ---
+reliable as possible, both for normal working and 
+
+--- Document Chunk 891 ---
+in degraded mode situations. In both cases, the 
+
+--- Document Chunk 892 ---
+control panel or workstation is presenting the 
+
+--- Document Chunk 893 ---
+signaller with information about the railway, upon 
+
+--- Document Chunk 894 ---
+which he or she makes decisions regarding the 
+
+--- Document Chunk 895 ---
+movement of trains. 
+
+--- Document Chunk 896 ---
+Many modern signalling systems include 
+
+--- Document Chunk 897 ---
+Automatic Route Setting (ARS), a sub-system 
+
+--- Document Chunk 898 ---
+which automatically sets routes ahead of each 
+
+--- Document Chunk 899 ---
+train based on the timetable and, where conflicts 
+
+--- Document Chunk 900 ---
+arise (eg because of late running), on a set of rules 
+
+--- Document Chunk 901 ---
+for prioritisation of train movements. This relieves 
+
+--- Document Chunk 902 ---
+the signallers of much of their routine work. So 
+
+--- Document Chunk 903 ---
+far as the interlocking is concerned, however, it 
+
+--- Document Chunk 904 ---
+receives and acts on ARS route-setting requests 
+
+--- Document Chunk 905 ---
+in the same way as if the requests had come from 
+
+--- Document Chunk 906 ---
+the signaller and the control panel/workstation.
+
+--- Document Chunk 907 ---
+Interlocking to trackside equipment 
+
+--- Document Chunk 908 ---
+interface
+
+--- Document Chunk 909 ---
+In the case of a relay interlocking, in most 
+
+--- Document Chunk 910 ---
+systems the items of trackside equipment (signals, 
+
+--- Document Chunk 911 ---
+points, track circuits etc) are connected to the 
+
+--- Document Chunk 912 ---
+interlocking by multi-core cables, with a dedicated 
+
+--- Document Chunk 913 ---
+pair of cores for each circuit. The cables are 
+
+--- Document Chunk 914 ---
+generally specified and constructed to meet 
+
+--- Document Chunk 915 ---
+railway requirements, both in terms of resilience 
+
+--- Document Chunk 916 ---
+to the trackside environment, and in terms of 
+
+--- Document Chunk 917 ---
+the integrity and separation of each core. This is 
+
+--- Document Chunk 918 ---
+necessary because they are carrying safety critical 
+
+--- Document Chunk 919 ---
+circuits for operating the signals, moving points, 
+
+--- Document Chunk 920 ---
+indicating the occupancy or otherwise of a track 
+
+--- Document Chunk 921 ---
+circuit to the interlocking etc. The interlocking 
+
+--- Document Chunk 922 ---
+depends upon the integrity of these circuits in 
+
+--- Document Chunk 923 ---
+order to function safely.
+
+--- Document Chunk 924 ---
+In the case of computer-based interlockings, the 
+
+--- Document Chunk 925 ---
+items of trackside equipment are normally (but not 
+
+--- Document Chunk 926 ---
+always) connected to nearby object controllers 
+
+--- Document Chunk 927 ---
+which provide the power for the equipment, pass 
+
+--- Document Chunk 928 ---
+the interlocking commands to the equipment and 
+
+--- Document Chunk 929 ---
+receive equipment status information for sending 
+
+--- Document Chunk 930 ---
+back to the interlocking. The object controllers 
+
+--- Document Chunk 931 ---
+are connected to the trackside equipment by high 
+
+--- Document Chunk 932 ---
+integrity cables as described above, and to the 
+
+--- Document Chunk 933 ---
+interlocking via a communications datalink. Just 
+
+--- Document Chunk 934 ---
+as with relay interlockings, the integrity of the 
+
+--- Document Chunk 935 ---
+communication link is vital for the safe operation 
+
+--- Document Chunk 936 ---
+of the interlocking. The object controllers 
+
+--- Document Chunk 937 ---
+therefore generally have a 2oo2 configuration 
+
+--- Document Chunk 938 ---
+to ensure safety, and the datalink uses highly 
+
+--- Document Chunk 939 ---
+secure coding techniques to prevent (or detect) 
+
+--- Document Chunk 940 ---
+corruption of the transmitted data. In some 
+
+--- Document Chunk 941 ---
+manufacturers’ systems the communications 
+
+--- Document Chunk 942 ---
+protocol is proprietary to their product, but 
+
+--- Document Chunk 943 ---
+increasing use is now being made of IP addressing 
+
+--- Document Chunk 944 ---
+techniques. Manufacturers still use their own 
+
+--- Document Chunk 945 ---
+safety and applications protocols, although the 
+
+--- Document Chunk 946 ---
+European EULYNX project is promoting open 
+
+--- Document Chunk 947 ---
+standards for interfaces, to reduce signalling 
+
+--- Document Chunk 948 ---
+life cycle costs.
+
+--- Document Chunk 949 ---
+Interlocking to interlocking interface
+
+--- Document Chunk 950 ---
+Interlockings must be able to interface with 
+
+--- Document Chunk 951 ---
+neighbouring interlockings, because almost 
+
+--- Document Chunk 952 ---
+inevitably at the geographical boundaries there 
+
+--- Document Chunk 953 ---
+will be routes that have their entrance signal in 
+
+--- Document Chunk 954 ---
+the area controlled by one interlocking and their 
+
+--- Document Chunk 955 ---
+exit signal in the area controlled by another. 
+
+--- Document Chunk 956 ---
+The route setting process is initiated by the 
+
+--- Document Chunk 957 ---
+interlocking responsible for the entrance signal, 
+
+--- Document Chunk 958 ---
+but requires action by, and information from, the 
+
+--- Document Chunk 959 ---
+other interlocking in order for the complete route 
+
+--- Document Chunk 960 ---
+to be declared ‘set’, before the entrance signal is 
+
+--- Document Chunk 961 ---
+allowed to clear. 
+
+--- Document Chunk 962 ---
+Figure 9 – The use 
+
+--- Document Chunk 963 ---
+of computer-based 
+
+--- Document Chunk 964 ---
+interlocking, and 
+
+--- Document Chunk 965 ---
+increasingly the 
+
+--- Document Chunk 966 ---
+use of network 
+
+--- Document Chunk 967 ---
+communications, 
+
+--- Document Chunk 968 ---
+allows modern 
+
+--- Document Chunk 969 ---
+control systems to 
+
+--- Document Chunk 970 ---
+be implemented, as 
+
+--- Document Chunk 971 ---
+in this example from 
+
+--- Document Chunk 972 ---
+Hong Kong MTR. 
+
+--- Document Chunk 973 ---
+The interlocking 
+
+--- Document Chunk 974 ---
+continues to ensure 
+
+--- Document Chunk 975 ---
+that the signalling 
+
+--- Document Chunk 976 ---
+rules are enforced 
+
+--- Document Chunk 977 ---
+to assure safety, but 
+
+--- Document Chunk 978 ---
+the non-vital control 
+
+--- Document Chunk 979 ---
+system above allows 
+
+--- Document Chunk 980 ---
+the railway to be 
+
+--- Document Chunk 981 ---
+operated optimally.
+
+--- Document Chunk 982 ---
+Photo Francis How.
+
+--- Document Chunk 983 ---
+“Just as 
+
+--- Document Chunk 984 ---
+with relay 
+
+--- Document Chunk 985 ---
+interlockings, 
+
+--- Document Chunk 986 ---
+the integrity 
+
+--- Document Chunk 987 ---
+of the 
+
+--- Document Chunk 988 ---
+communication 
+
+--- Document Chunk 989 ---
+link is vital for 
+
+--- Document Chunk 990 ---
+safe operation”
+
+--- Document Chunk 991 ---
+ IRSE News |  Issue 265  |  April 2020
+
+--- Document Chunk 992 ---
+25
+
+--- Document Chunk 993 ---
+It is common practice, so far as possible, 
+
+--- Document Chunk 994 ---
+to arrange the geographical boundaries of 
+
+--- Document Chunk 995 ---
+interlockings to occur on sections of plain line, 
+
+--- Document Chunk 996 ---
+where the interlocking arrangements for each 
+
+--- Document Chunk 997 ---
+cross-boundary route are very straightforward. 
+
+--- Document Chunk 998 ---
+However, this is not always possible, particularly 
+
+--- Document Chunk 999 ---
+in places such as complex station areas where 
+
+--- Document Chunk 1000 ---
+more than one interlocking is required. In 
+
+--- Document Chunk 1001 ---
+the case of relay interlockings, the interface 
+
+--- Document Chunk 1002 ---
+generally takes the form of high integrity multi-
+
+--- Document Chunk 1003 ---
+core cables to link circuits in the two equipment 
+
+--- Document Chunk 1004 ---
+buildings – the same sort of cables as are used to 
+
+--- Document Chunk 1005 ---
+connect the relay interlockings with their items of 
+
+--- Document Chunk 1006 ---
+trackside equipment.
+
+--- Document Chunk 1007 ---
+In the case of computer-based interlockings, a 
+
+--- Document Chunk 1008 ---
+high integrity datalink is used for the interface 
+
+--- Document Chunk 1009 ---
+(bearing in mind that the two interlockings may 
+
+--- Document Chunk 1010 ---
+well be in physically adjacent cabinets in an 
+
+--- Document Chunk 1011 ---
+equipment room rather than in separate buildings). 
+
+--- Document Chunk 1012 ---
+However, the interfacing arrangements tend 
+
+--- Document Chunk 1013 ---
+to be more complex than in the case of relay 
+
+--- Document Chunk 1014 ---
+interlockings. The two sets of software have to 
+
+--- Document Chunk 1015 ---
+act together and perform ‘handshakes’ with each 
+
+--- Document Chunk 1016 ---
+other in order to set, lock and release routes. 
+
+--- Document Chunk 1017 ---
+The future of interlocking
+
+--- Document Chunk 1018 ---
+At the beginning of this article we said that 
+
+--- Document Chunk 1019 ---
+‘interlocking’ is the mutual dependency between 
+
+--- Document Chunk 1020 ---
+signalling functions (moving points, clearing 
+
+--- Document Chunk 1021 ---
+signals etc). We have seen how these interlocked 
+
+--- Document Chunk 1022 ---
+functions are made real by use of some sort of 
+
+--- Document Chunk 1023 ---
+‘logic machine’, whether mechanical, electrical 
+
+--- Document Chunk 1024 ---
+or computerised, which signal engineers call 
+
+--- Document Chunk 1025 ---
+an interlocking. In a modern signalling system 
+
+--- Document Chunk 1026 ---
+we might expect to see a relay interlocking or 
+
+--- Document Chunk 1027 ---
+a suite of computer interlockings housed in a 
+
+--- Document Chunk 1028 ---
+building or in a cabinet trackside, connected 
+
+--- Document Chunk 1029 ---
+to trackside equipment, the control panel/
+
+--- Document Chunk 1030 ---
+desk and screen, and to other interlockings by 
+
+--- Document Chunk 1031 ---
+cables and data transmission systems. But the 
+
+--- Document Chunk 1032 ---
+concept of a physically discrete interlocking is 
+
+--- Document Chunk 1033 ---
+starting to change. 
+
+--- Document Chunk 1034 ---
+Various examples come to mind. Firstly, in the 
+
+--- Document Chunk 1035 ---
+case of ERTMS Levels 2 and 3, there is a second 
+
+--- Document Chunk 1036 ---
+vital element in the system, namely the Radio 
+
+--- Document Chunk 1037 ---
+Block Centre (RBC), which links trains with 
+
+--- Document Chunk 1038 ---
+the interlocking, sending information about 
+
+--- Document Chunk 1039 ---
+movement authorities, permissible speeds etc and 
+
+--- Document Chunk 1040 ---
+receiving information about the train speed and 
+
+--- Document Chunk 1041 ---
+location. Like the interlocking, the RBC must be 
+
+--- Document Chunk 1042 ---
+of the highest safety integrity. System suppliers 
+
+--- Document Chunk 1043 ---
+are starting to combine these two functions on 
+
+--- Document Chunk 1044 ---
+the same computer platform, and in the world of 
+
+--- Document Chunk 1045 ---
+metros, a number of systems already combine 
+
+--- Document Chunk 1046 ---
+the functions of interlocking and track-train 
+
+--- Document Chunk 1047 ---
+messaging within the same system.
+
+--- Document Chunk 1048 ---
+A second possibility, and one that is already 
+
+--- Document Chunk 1049 ---
+being explored, is to use cloud technology 
+
+--- Document Chunk 1050 ---
+for interlocking. This has various advantages, 
+
+--- Document Chunk 1051 ---
+including cost, flexibility and, potentially, 
+
+--- Document Chunk 1052 ---
+resilience. It also comes with challenges, not the 
+
+--- Document Chunk 1053 ---
+least of which is maintaining cyber-security (and 
+
+--- Document Chunk 1054 ---
+therefore safety as well as reliability).
+
+--- Document Chunk 1055 ---
+Thirdly, we may see a move towards distributed 
+
+--- Document Chunk 1056 ---
+interlocking functionality. In recent years the trend 
+
+--- Document Chunk 1057 ---
+has been to place computer-based interlockings 
+
+--- Document Chunk 1058 ---
+together in a single location (often co-located 
+
+--- Document Chunk 1059 ---
+with the control centre). In time this may change, 
+
+--- Document Chunk 1060 ---
+with some interlocking functions shared between 
+
+--- Document Chunk 1061 ---
+the train-borne and trackside systems. Indeed, it 
+
+--- Document Chunk 1062 ---
+could be argued that this is already happening to a 
+
+--- Document Chunk 1063 ---
+limited extent with CBTC and ERTMS. 
+
+--- Document Chunk 1064 ---
+Even more radically, the train may play a key role 
+
+--- Document Chunk 1065 ---
+in initiating the setting of the route ahead and in 
+
+--- Document Chunk 1066 ---
+determining its own safe movement authority, 
+
+--- Document Chunk 1067 ---
+making use of train-to-train communications 
+
+--- Document Chunk 1068 ---
+to do so. A more train-centric architecture will 
+
+--- Document Chunk 1069 ---
+be adopted, with the trains being ‘smart’ rather 
+
+--- Document Chunk 1070 ---
+than simply responding to movement authorities 
+
+--- Document Chunk 1071 ---
+issued by trackside infrastructure systems. Again, 
+
+--- Document Chunk 1072 ---
+suppliers are already starting to make some of 
+
+--- Document Chunk 1073 ---
+this a reality. This may well lead in time to some 
+
+--- Document Chunk 1074 ---
+of the traditional principles of signalling being 
+
+--- Document Chunk 1075 ---
+challenged, such as making the distance between 
+
+--- Document Chunk 1076 ---
+following trains dependent upon their relative 
+
+--- Document Chunk 1077 ---
+speeds rather than always assuming the train 
+
+--- Document Chunk 1078 ---
+ahead is stationary.
+
+--- Document Chunk 1079 ---
+Closing remarks
+
+--- Document Chunk 1080 ---
+This article has provided an introduction to 
+
+--- Document Chunk 1081 ---
+the technologies used for railway interlocking. 
+
+--- Document Chunk 1082 ---
+Next month we will look at the functionality of 
+
+--- Document Chunk 1083 ---
+an interlocking. 
+
+--- Document Chunk 1084 ---
+If you want to know more, some of the IRSE 
+
+--- Document Chunk 1085 ---
+textbooks cover the subject in greater detail. For 
+
+--- Document Chunk 1086 ---
+many signal engineers the specification and design 
+
+--- Document Chunk 1087 ---
+of interlockings is at the heart of their careers. It 
+
+--- Document Chunk 1088 ---
+requires knowledge, experience and expertise – 
+
+--- Document Chunk 1089 ---
+and it is vital to the safety of the railway. But if you 
+
+--- Document Chunk 1090 ---
+are new to the industry, don’t let that deter you. 
+
+--- Document Chunk 1091 ---
+Instead, take every opportunity to learn from those 
+
+--- Document Chunk 1092 ---
+who have the experience and knowledge.
+
+--- Document Chunk 1093 ---
+About the author ...
+
+--- Document Chunk 1094 ---
+Francis has been a long-time member of the 
+
+--- Document Chunk 1095 ---
+IRSE. First with British Rail/Railtrack, Atkins, as 
+
+--- Document Chunk 1096 ---
+the technical director of the Railway Industry 
+
+--- Document Chunk 1097 ---
+Association and chief executive of the IRSE. 
+
+--- Document Chunk 1098 ---
+He was an IRSE exam Thorrowgood scholar 
+
+--- Document Chunk 1099 ---
+and served on Council for many years and was 
+
+--- Document Chunk 1100 ---
+president of the Institution 2012-2013. He is 
+
+--- Document Chunk 1101 ---
+widely respected for his professionalism and 
+
+--- Document Chunk 1102 ---
+technical knowledge and played a vital role in 
+
+--- Document Chunk 1103 ---
+drawing younger members into the running 
+
+--- Document Chunk 1104 ---
+of the Institution and has encouraged and 
+
+--- Document Chunk 1105 ---
+helped them develop their capabilities in both 
+
+--- Document Chunk 1106 ---
+their professional and IRSE roles. He has given 
+
+--- Document Chunk 1107 ---
+quiet encouragement and encouraged self-
+
+--- Document Chunk 1108 ---
+confidence in many of the rising engineers in 
+
+--- Document Chunk 1109 ---
+the control and communications industry.
+
+--- Document Chunk 1110 ---
+“The concept 
+
+--- Document Chunk 1111 ---
+of a physically 
+
+--- Document Chunk 1112 ---
+discrete 
+
+--- Document Chunk 1113 ---
+interlocking 
+
+--- Document Chunk 1114 ---
+is starting to 
+
+--- Document Chunk 1115 ---
+change”
+
+--- Document Chunk 1116 ---
+20
+
+--- Document Chunk 1117 ---
+Francis How
+
+--- Document Chunk 1118 ---
+Back to basics: Interlocking 
+
+--- Document Chunk 1119 ---
+Part 2
+
+--- Document Chunk 1120 ---
+Last month in IRSE News there was the 
+
+--- Document Chunk 1121 ---
+third in a series of articles on ‘back to 
+
+--- Document Chunk 1122 ---
+basics’ themes, looking at the essentials of 
+
+--- Document Chunk 1123 ---
+‘interlocking’, focused on the technology 
+
+--- Document Chunk 1124 ---
+used. This month we are going to look 
+
+--- Document Chunk 1125 ---
+at the functions that an interlocking 
+
+--- Document Chunk 1126 ---
+performs, and how these ensure the safe 
+
+--- Document Chunk 1127 ---
+movement of trains.
+
+--- Document Chunk 1128 ---
+This article is no more than an introduction 
+
+--- Document Chunk 1129 ---
+to the subject, intended for IRSE members 
+
+--- Document Chunk 1130 ---
+new to the industry rather than those who are 
+
+--- Document Chunk 1131 ---
+experienced in specifying, designing and testing 
+
+--- Document Chunk 1132 ---
+signalling systems. 
+
+--- Document Chunk 1133 ---
+The functions of a modern 
+
+--- Document Chunk 1134 ---
+interlocking
+
+--- Document Chunk 1135 ---
+We saw in last month’s article that interlockings 
+
+--- Document Chunk 1136 ---
+have used a variety of mechanical, electrical, 
+
+--- Document Chunk 1137 ---
+electronic and software-based technologies over 
+
+--- Document Chunk 1138 ---
+the years. But regardless of what technology is 
+
+--- Document Chunk 1139 ---
+used, a route-setting interlocking must perform 
+
+--- Document Chunk 1140 ---
+essentially the same functions in order to ensure 
+
+--- Document Chunk 1141 ---
+the safe movement of trains. These functions, 
+
+--- Document Chunk 1142 ---
+which are defined in the railways’ signalling 
+
+--- Document Chunk 1143 ---
+principles and application rules, must be 
+
+--- Document Chunk 1144 ---
+compatible with the operational rules/regulations 
+
+--- Document Chunk 1145 ---
+for the movement of trains, under both normal 
+
+--- Document Chunk 1146 ---
+and failure conditions. 
+
+--- Document Chunk 1147 ---
+The signalling principles and application rules for 
+
+--- Document Chunk 1148 ---
+the interlocking functions vary somewhat from 
+
+--- Document Chunk 1149 ---
+country to country but are similar in their basic 
+
+--- Document Chunk 1150 ---
+requirements. The descriptions of the principal 
+
+--- Document Chunk 1151 ---
+functions in this article are based on the current 
+
+--- Document Chunk 1152 ---
+signalling principles used for colour light lineside 
+
+--- Document Chunk 1153 ---
+signalling of passenger railways on the mainline 
+
+--- Document Chunk 1154 ---
+railway in Great Britain and in some other 
+
+--- Document Chunk 1155 ---
+countries (they are relaxed somewhat for shunting, 
+
+--- Document Chunk 1156 ---
+permissive and freight movements, but these are 
+
+--- Document Chunk 1157 ---
+not covered in this article). Where some railways 
+
+--- Document Chunk 1158 ---
+adopt significantly different practices, these are 
+
+--- Document Chunk 1159 ---
+noted but are not described in any detail. 
+
+--- Document Chunk 1160 ---
+Checking route availability
+
+--- Document Chunk 1161 ---
+When a request to set a route is sent from the 
+
+--- Document Chunk 1162 ---
+control panel/desk/VDU (or from the Automatic 
+
+--- Document Chunk 1163 ---
+Route Setting system, where one is provided), 
+
+--- Document Chunk 1164 ---
+the interlocking first checks that the route can be 
+
+--- Document Chunk 1165 ---
+set in its entirety, and that the request does not 
+
+--- Document Chunk 1166 ---
+conflict with any other routes that have already 
+
+--- Document Chunk 1167 ---
+been set or are in the process of being set. 
+
+--- Document Chunk 1168 ---
+Without this check, the interlocking might start 
+
+--- Document Chunk 1169 ---
+moving points to set the route but fail to complete 
+
+--- Document Chunk 1170 ---
+the process because one or more points are 
+
+--- Document Chunk 1171 ---
+locked in the wrong position by routes that are set 
+
+--- Document Chunk 1172 ---
+for other train movements. The check is also vitally 
+
+--- Document Chunk 1173 ---
+important for ‘directly opposing’ routes, for trains 
+
+--- Document Chunk 1174 ---
+travelling in the opposite direction to the route 
+
+--- Document Chunk 1175 ---
+whose availability is being checked, and for which 
+
+--- Document Chunk 1176 ---
+the point settings are identical. 
+
+--- Document Chunk 1177 ---
+If the whole of the route is not available for 
+
+--- Document Chunk 1178 ---
+setting at the time the request is received by the 
+
+--- Document Chunk 1179 ---
+interlocking, it is rejected or ignored, rather than 
+
+--- Document Chunk 1180 ---
+being stored until the route can be set. This is 
+
+--- Document Chunk 1181 ---
+a feature known as ‘anti-preselection’. Not all 
+
+--- Document Chunk 1182 ---
+railways include it, but it is often regarded as 
+
+--- Document Chunk 1183 ---
+good practice to prevent a route request from 
+
+--- Document Chunk 1184 ---
+continuously trying to make the interlocking set a 
+
+--- Document Chunk 1185 ---
+route that cannot (yet) be set.
+
+--- Document Chunk 1186 ---
+Route setting and locking
+
+--- Document Chunk 1187 ---
+When the route availability check is successfully 
+
+--- Document Chunk 1188 ---
+completed, the interlocking starts moving the 
+
+--- Document Chunk 1189 ---
+points in the route to their required positions. It 
+
+--- Document Chunk 1190 ---
+may also be necessary to move other points that 
+
+--- Document Chunk 1191 ---
+are not in the route itself, to protect the route 
+
+--- Document Chunk 1192 ---
+from other trains in the event that they pass a 
+
+--- Document Chunk 1193 ---
+signal that is displaying a stop aspect.
+
+--- Document Chunk 1194 ---
+When the points are correctly positioned, route 
+
+--- Document Chunk 1195 ---
+locking is applied to all the track detection 
+
+--- Document Chunk 1196 ---
+sections that form the route, thereby reserving 
+
+--- Document Chunk 1197 ---
+each section for the route being set, preventing 
+
+--- Document Chunk 1198 ---
+the points from being moved and ensuring that no 
+
+--- Document Chunk 1199 ---
+conflicting routes can be set. 
+
+--- Document Chunk 1200 ---
+“Signalling 
+
+--- Document Chunk 1201 ---
+principles vary 
+
+--- Document Chunk 1202 ---
+from country 
+
+--- Document Chunk 1203 ---
+to country 
+
+--- Document Chunk 1204 ---
+but are similar 
+
+--- Document Chunk 1205 ---
+in their basic 
+
+--- Document Chunk 1206 ---
+requirements”
+
+--- Document Chunk 1207 ---
+ IRSE News |  Issue 266  |  May 2020
+
+--- Document Chunk 1208 ---
+21
+
+--- Document Chunk 1209 ---
+Overlaps
+
+--- Document Chunk 1210 ---
+Many countries and railway administrations also 
+
+--- Document Chunk 1211 ---
+lock and protect a short section of track beyond 
+
+--- Document Chunk 1212 ---
+the exit signal as part of the route-setting process. 
+
+--- Document Chunk 1213 ---
+This is called the ‘overlap’, and it is typically 
+
+--- Document Chunk 1214 ---
+between 50m and 200m in length. The provision 
+
+--- Document Chunk 1215 ---
+of overlaps is not a universal practice, however. 
+
+--- Document Chunk 1216 ---
+Some railways do not use overlaps at all and, at 
+
+--- Document Chunk 1217 ---
+the other extreme, some have overlaps which 
+
+--- Document Chunk 1218 ---
+comprise, in effect, all the track from the exit 
+
+--- Document Chunk 1219 ---
+signal to the next signal beyond that. Even on 
+
+--- Document Chunk 1220 ---
+railways that use overlaps, they are not necessarily 
+
+--- Document Chunk 1221 ---
+required for all types of routes. Where railways do 
+
+--- Document Chunk 1222 ---
+use overlaps the rules for setting and locking them 
+
+--- Document Chunk 1223 ---
+vary from one railway administration to another, 
+
+--- Document Chunk 1224 ---
+so it is worth emphasising that this description 
+
+--- Document Chunk 1225 ---
+applies to main line railways in Great Britain and is 
+
+--- Document Chunk 1226 ---
+not necessarily true of other railways.
+
+--- Document Chunk 1227 ---
+The purpose of an overlap is that if the exit signal 
+
+--- Document Chunk 1228 ---
+is at danger (stop) and the train fails to come 
+
+--- Document Chunk 1229 ---
+to a stand at the signal because of inadequate 
+
+--- Document Chunk 1230 ---
+deceleration, it is likely to stop within the overlap 
+
+--- Document Chunk 1231 ---
+distance and so avoid risk of collision with other 
+
+--- Document Chunk 1232 ---
+legitimate train movements. Of course, it is 
+
+--- Document Chunk 1233 ---
+not guaranteed that the train will stop within 
+
+--- Document Chunk 1234 ---
+the overlap, and an overlap is of no help at all 
+
+--- Document Chunk 1235 ---
+if the train brakes have not been applied or the 
+
+--- Document Chunk 1236 ---
+adhesion conditions are very poor. It should also 
+
+--- Document Chunk 1237 ---
+be noted that with cab signalling, overlaps have an 
+
+--- Document Chunk 1238 ---
+additional purpose, to do with the accuracy with 
+
+--- Document Chunk 1239 ---
+which the train location is known.
+
+--- Document Chunk 1240 ---
+Trailing points in an overlap are set to the correct 
+
+--- Document Chunk 1241 ---
+position and locked when a route is set. Where 
+
+--- Document Chunk 1242 ---
+there are facing points ahead of the exit signal 
+
+--- Document Chunk 1243 ---
+there may be more than one overlap that can 
+
+--- Document Chunk 1244 ---
+be used. These facing points must be set to the 
+
+--- Document Chunk 1245 ---
+position required for the selected overlap, and 
+
+--- Document Chunk 1246 ---
+they may also be locked. The reason for not 
+
+--- Document Chunk 1247 ---
+locking the facing points in all circumstances 
+
+--- Document Chunk 1248 ---
+is that in complex areas such as stations, the 
+
+--- Document Chunk 1249 ---
+interlocking may permit the overlap to be changed 
+
+--- Document Chunk 1250 ---
+after the entrance signal has been cleared (a 
+
+--- Document Chunk 1251 ---
+feature known as ‘swinging overlaps’) by moving 
+
+--- Document Chunk 1252 ---
+the position of the facing points to create a new 
+
+--- Document Chunk 1253 ---
+overlap. This provides signallers with greater 
+
+--- Document Chunk 1254 ---
+operational flexibility. The facility to swing an 
+
+--- Document Chunk 1255 ---
+overlap is inhibited by the interlocking as the 
+
+--- Document Chunk 1256 ---
+train approaches the exit signal so that a safe 
+
+--- Document Chunk 1257 ---
+(locked) overlap exists in case the train passes the 
+
+--- Document Chunk 1258 ---
+signal at danger. Designing the circuits or data 
+
+--- Document Chunk 1259 ---
+for swinging overlaps can become very complex 
+
+--- Document Chunk 1260 ---
+indeed, however, and their provision should be 
+
+--- Document Chunk 1261 ---
+limited to that which is considered necessary for 
+
+--- Document Chunk 1262 ---
+operational purposes. 
+
+--- Document Chunk 1263 ---
+The setting of an overlap happens only if the exit 
+
+--- Document Chunk 1264 ---
+signal is at danger (stop), of course. If a further 
+
+--- Document Chunk 1265 ---
+onward route is set for the train, from the exit 
+
+--- Document Chunk 1266 ---
+signal to the next signal beyond, then that route 
+
+--- Document Chunk 1267 ---
+is itself set and locked in the same manner as 
+
+--- Document Chunk 1268 ---
+described above.
+
+--- Document Chunk 1269 ---
+Clearing the entrance signal
+
+--- Document Chunk 1270 ---
+When the route has been set (as described 
+
+--- Document Chunk 1271 ---
+above), all relevant train detection sections 
+
+--- Document Chunk 1272 ---
+must be proved ‘clear’ (i.e. no train or vehicles 
+
+--- Document Chunk 1273 ---
+present) before the entrance signal is permitted 
+
+--- Document Chunk 1274 ---
+by the interlocking to show a proceed 
+
+--- Document Chunk 1275 ---
+aspect. This includes:
+
+--- Document Chunk 1276 ---
+• All the track that forms the route between the 
+
+--- Document Chunk 1277 ---
+entrance and exit signals.
+
+--- Document Chunk 1278 ---
+• All the track that forms the overlap ahead of 
+
+--- Document Chunk 1279 ---
+the exit signal (if an overlap is provided).
+
+--- Document Chunk 1280 ---
+• Any other sections of track on which a train or 
+
+--- Document Chunk 1281 ---
+individual rail vehicle could stand and be ‘foul’ 
+
+--- Document Chunk 1282 ---
+of the route (i.e. with which the authorised 
+
+--- Document Chunk 1283 ---
+train could collide).
+
+--- Document Chunk 1284 ---
+• Any ‘flank’ sections of track, which are 
+
+--- Document Chunk 1285 ---
+included to provide early detection of another 
+
+--- Document Chunk 1286 ---
+train passing its own exit signal at danger 
+
+--- Document Chunk 1287 ---
+(SPAD) and thereby intruding onto the route of 
+
+--- Document Chunk 1288 ---
+the authorised train.
+
+--- Document Chunk 1289 ---
+In the case of lineside signalling, other checks may 
+
+--- Document Chunk 1290 ---
+also be required before the signal is permitted 
+
+--- Document Chunk 1291 ---
+Interlocking has been an 
+
+--- Document Chunk 1292 ---
+underpinning concept 
+
+--- Document Chunk 1293 ---
+for railway safety since 
+
+--- Document Chunk 1294 ---
+the 1850s, although 
+
+--- Document Chunk 1295 ---
+the technology upon it 
+
+--- Document Chunk 1296 ---
+depends has changed 
+
+--- Document Chunk 1297 ---
+phenomenally during  
+
+--- Document Chunk 1298 ---
+that period. Areas of 
+
+--- Document Chunk 1299 ---
+points and crossings are 
+
+--- Document Chunk 1300 ---
+the most complex part of 
+
+--- Document Chunk 1301 ---
+any interlocking design.
+
+--- Document Chunk 1302 ---
+Photo Paul Darlington.
+
+--- Document Chunk 1303 ---
+“Some railways 
+
+--- Document Chunk 1304 ---
+don’t use 
+
+--- Document Chunk 1305 ---
+overlaps at all”
+
+--- Document Chunk 1306 ---
+ IRSE News |  Issue 266  |  May 2020
+
+--- Document Chunk 1307 ---
+22
+
+--- Document Chunk 1308 ---
+to clear, including the following. Not all railways 
+
+--- Document Chunk 1309 ---
+apply these checks, and the specific rules for 
+
+--- Document Chunk 1310 ---
+applying them vary from one railway to another:
+
+--- Document Chunk 1311 ---
+• The exit signal must be alight (i.e. displaying 
+
+--- Document Chunk 1312 ---
+a visible aspect), to avoid the risk of the driver 
+
+--- Document Chunk 1313 ---
+failing to see it.
+
+--- Document Chunk 1314 ---
+• If the entrance signal is required to display 
+
+--- Document Chunk 1315 ---
+a route indication for the route set, that 
+
+--- Document Chunk 1316 ---
+indication must be proved alight before the 
+
+--- Document Chunk 1317 ---
+entrance signal is permitted to display a 
+
+--- Document Chunk 1318 ---
+proceed aspect.
+
+--- Document Chunk 1319 ---
+• If the train is being routed over a diverging 
+
+--- Document Chunk 1320 ---
+junction ahead of the entrance signal, that 
+
+--- Document Chunk 1321 ---
+signal may be held at a restrictive aspect (stop 
+
+--- Document Chunk 1322 ---
+or caution) by the interlocking until the train 
+
+--- Document Chunk 1323 ---
+has slowed down sufficiently for the diverging 
+
+--- Document Chunk 1324 ---
+points and the route beyond. 
+
+--- Document Chunk 1325 ---
+There may be other requirements that have to 
+
+--- Document Chunk 1326 ---
+be satisfied before the interlocking will permit 
+
+--- Document Chunk 1327 ---
+the entrance signal to clear, for instance for level 
+
+--- Document Chunk 1328 ---
+crossings or train protection systems (the latter to 
+
+--- Document Chunk 1329 ---
+stop, or mitigate the risk of, the train passing its 
+
+--- Document Chunk 1330 ---
+exit signal at danger). 
+
+--- Document Chunk 1331 ---
+The actual aspect displayed by the entrance 
+
+--- Document Chunk 1332 ---
+signal when it clears, including any speed or route 
+
+--- Document Chunk 1333 ---
+indications, depends not only upon the route 
+
+--- Document Chunk 1334 ---
+immediately ahead, but also on whether a further 
+
+--- Document Chunk 1335 ---
+route has been set for the train beyond the exit 
+
+--- Document Chunk 1336 ---
+signal. The sequence of aspects seen by a driver 
+
+--- Document Chunk 1337 ---
+at successive signals as he or she approaches a 
+
+--- Document Chunk 1338 ---
+signal at danger (stop) varies from one railway to 
+
+--- Document Chunk 1339 ---
+another and is not dealt with in this article.
+
+--- Document Chunk 1340 ---
+On most railways that use colour light signalling, 
+
+--- Document Chunk 1341 ---
+the entrance signal will revert to danger (stop) 
+
+--- Document Chunk 1342 ---
+if the conditions that permitted it to clear are 
+
+--- Document Chunk 1343 ---
+no longer fulfilled. So, for instance, if a track 
+
+--- Document Chunk 1344 ---
+circuit in the route fails, or there is a loss of 
+
+--- Document Chunk 1345 ---
+detection on a set of points, the entrance signal 
+
+--- Document Chunk 1346 ---
+will automatically revert to danger. This is a safe 
+
+--- Document Chunk 1347 ---
+arrangement but can be worrying for a driver who 
+
+--- Document Chunk 1348 ---
+unexpectedly encounters a signal at danger (stop). 
+
+--- Document Chunk 1349 ---
+Some railways do not include reversion – and 
+
+--- Document Chunk 1350 ---
+of course, with mechanical signals there was no 
+
+--- Document Chunk 1351 ---
+possibility of doing so! 
+
+--- Document Chunk 1352 ---
+Route holding and release
+
+--- Document Chunk 1353 ---
+When the train passes the entrance signal 
+
+--- Document Chunk 1354 ---
+(showing a proceed aspect), the interlocking 
+
+--- Document Chunk 1355 ---
+returns the entrance signal to danger (stop) but 
+
+--- Document Chunk 1356 ---
+maintains the locking ahead of the train to prevent 
+
+--- Document Chunk 1357 ---
+points from being moved and conflicting routes 
+
+--- Document Chunk 1358 ---
+from being set. In order to maximise capacity and 
+
+--- Document Chunk 1359 ---
+flexibility it is, however, desirable for the locking 
+
+--- Document Chunk 1360 ---
+to be removed as soon as it is safe to do so after 
+
+--- Document Chunk 1361 ---
+the passage of the train, in order that other routes 
+
+--- Document Chunk 1362 ---
+may be set which make use of the same track 
+
+--- Document Chunk 1363 ---
+(or some of it). 
+
+--- Document Chunk 1364 ---
+Before the locking can be released after the 
+
+--- Document Chunk 1365 ---
+passage of the train, the route request must first 
+
+--- Document Chunk 1366 ---
+be cancelled. Traditionally this would be done 
+
+--- Document Chunk 1367 ---
+by the signaller using the control panel/desk. 
+
+--- Document Chunk 1368 ---
+However, to ease the signaller’s workload and 
+
+--- Document Chunk 1369 ---
+to enable the locking to be released as soon as 
+
+--- Document Chunk 1370 ---
+possible, many modern interlockings include 
+
+--- Document Chunk 1371 ---
+a function called ‘train operated route release’ 
+
+--- Document Chunk 1372 ---
+(TORR), which cancels the route request from 
+
+--- Document Chunk 1373 ---
+the control panel/desk when the train has passed 
+
+--- Document Chunk 1374 ---
+the entrance signal, without any action by the 
+
+--- Document Chunk 1375 ---
+signaller. The interlocking normally does this by 
+
+--- Document Chunk 1376 ---
+checking that the first two or three train detection 
+
+--- Document Chunk 1377 ---
+sections beyond the signal show ‘occupied’ and 
+
+--- Document Chunk 1378 ---
+then ‘clear’ in the correct sequence with the 
+
+--- Document Chunk 1379 ---
+passage of the train (this minimises the risk of a 
+
+--- Document Chunk 1380 ---
+train detection failure leading to the premature 
+
+--- Document Chunk 1381 ---
+release of the route). Although the route request 
+
+--- Document Chunk 1382 ---
+is cancelled by this process, the route locking is 
+
+--- Document Chunk 1383 ---
+maintained to ensure the safe passage of the train.
+
+--- Document Chunk 1384 ---
+The interlocking may also have a function which 
+
+--- Document Chunk 1385 ---
+permits individual portions of the route to be 
+
+--- Document Chunk 1386 ---
+unlocked as soon as possible after the train has 
+
+--- Document Chunk 1387 ---
+passed, rather than having to wait until the train 
+
+--- Document Chunk 1388 ---
+has passed through the whole route. This is 
+
+--- Document Chunk 1389 ---
+known as ‘sectional route release’. As the train 
+
+--- Document Chunk 1390 ---
+passes clear of each train detection section 
+
+--- Document Chunk 1391 ---
+in the route, the locking on that section is 
+
+--- Document Chunk 1392 ---
+released, provided that:
+
+--- Document Chunk 1393 ---
+• The entrance signal has returned to 
+
+--- Document Chunk 1394 ---
+‘stop’ (danger).
+
+--- Document Chunk 1395 ---
+Interlocking design is 
+
+--- Document Chunk 1396 ---
+based on the avoidance 
+
+--- Document Chunk 1397 ---
+of conflicting routes, 
+
+--- Document Chunk 1398 ---
+allowing for a wide 
+
+--- Document Chunk 1399 ---
+range of combinations of 
+
+--- Document Chunk 1400 ---
+possible events.
+
+--- Document Chunk 1401 ---
+Photo Paul Darlington.
+
+--- Document Chunk 1402 ---
+“There may 
+
+--- Document Chunk 1403 ---
+be other 
+
+--- Document Chunk 1404 ---
+requirements 
+
+--- Document Chunk 1405 ---
+that have to be 
+
+--- Document Chunk 1406 ---
+satisfied before 
+
+--- Document Chunk 1407 ---
+the interlocking 
+
+--- Document Chunk 1408 ---
+will permit the 
+
+--- Document Chunk 1409 ---
+entrance signal 
+
+--- Document Chunk 1410 ---
+to clear”
+
+--- Document Chunk 1411 ---
+ IRSE News |  Issue 266  |  May 2020
+
+--- Document Chunk 1412 ---
+23
+
+--- Document Chunk 1413 ---
+• The route request has been cancelled (either 
+
+--- Document Chunk 1414 ---
+by the signaller or by TORR).
+
+--- Document Chunk 1415 ---
+• All the route locking from the entrance 
+
+--- Document Chunk 1416 ---
+signal up to the start of the section has 
+
+--- Document Chunk 1417 ---
+already been released.
+
+--- Document Chunk 1418 ---
+Route locking ahead of the train continues to 
+
+--- Document Chunk 1419 ---
+be maintained. 
+
+--- Document Chunk 1420 ---
+Approach Locking
+
+--- Document Chunk 1421 ---
+There is a further category of route release, 
+
+--- Document Chunk 1422 ---
+applicable only where the route has to be 
+
+--- Document Chunk 1423 ---
+cancelled before the train passes the entrance 
+
+--- Document Chunk 1424 ---
+signal. Clearly this is an unusual set of 
+
+--- Document Chunk 1425 ---
+circumstances – for instance if the signaller needs 
+
+--- Document Chunk 1426 ---
+to change the order of two trains at a junction 
+
+--- Document Chunk 1427 ---
+after the route has been set for one of them, or if 
+
+--- Document Chunk 1428 ---
+there is an emergency and it is necessary to try to 
+
+--- Document Chunk 1429 ---
+stop the train. In such circumstances the signaller 
+
+--- Document Chunk 1430 ---
+cancels the route on the control panel/desk, 
+
+--- Document Chunk 1431 ---
+which has the effect of setting the entrance signal 
+
+--- Document Chunk 1432 ---
+to stop (danger). This action does not necessarily 
+
+--- Document Chunk 1433 ---
+immediately release the route locking ahead of 
+
+--- Document Chunk 1434 ---
+the entrance signal, however, in case the train 
+
+--- Document Chunk 1435 ---
+cannot brake sufficiently to stop at the signal and 
+
+--- Document Chunk 1436 ---
+consequently enters the route beyond it.
+
+--- Document Chunk 1437 ---
+The interlocking function that determines when 
+
+--- Document Chunk 1438 ---
+the route locking ahead of the entrance signal is 
+
+--- Document Chunk 1439 ---
+released in the circumstances described above 
+
+--- Document Chunk 1440 ---
+is known as ‘approach locking’. In its more 
+
+--- Document Chunk 1441 ---
+comprehensive form, it maintains the locking of 
+
+--- Document Chunk 1442 ---
+the route ahead of the entrance signal (which is 
+
+--- Document Chunk 1443 ---
+displaying stop/danger) until one of the following 
+
+--- Document Chunk 1444 ---
+conditions is satisfied:
+
+--- Document Chunk 1445 ---
+• The train has come to a stand at or 
+
+--- Document Chunk 1446 ---
+before the signal, or
+
+--- Document Chunk 1447 ---
+• The train has sufficient braking distance to 
+
+--- Document Chunk 1448 ---
+come to a stand at or before the signal.
+
+--- Document Chunk 1449 ---
+With lineside signalling the first of these conditions 
+
+--- Document Chunk 1450 ---
+is usually achieved by using a timer in the 
+
+--- Document Chunk 1451 ---
+interlocking, rather than directly confirming the 
+
+--- Document Chunk 1452 ---
+train is at a standstill. When it has finished timing, 
+
+--- Document Chunk 1453 ---
+the train is assumed to either have come to a 
+
+--- Document Chunk 1454 ---
+stand at the signal or to have passed it, being 
+
+--- Document Chunk 1455 ---
+unable to stop in time (in the latter case the 
+
+--- Document Chunk 1456 ---
+route locking holds the route safe for the train). 
+
+--- Document Chunk 1457 ---
+The second condition consists of a check by the 
+
+--- Document Chunk 1458 ---
+interlocking that the train has not yet occupied 
+
+--- Document Chunk 1459 ---
+any of the train detection sections between 
+
+--- Document Chunk 1460 ---
+the sighting point of the first signal displaying a 
+
+--- Document Chunk 1461 ---
+caution aspect and the entrance signal displaying 
+
+--- Document Chunk 1462 ---
+stop. With cab signalling, the speed and location 
+
+--- Document Chunk 1463 ---
+of the train are usually known and can be used 
+
+--- Document Chunk 1464 ---
+to check the two conditions, which is a more 
+
+--- Document Chunk 1465 ---
+accurate method of checking whether the 
+
+--- Document Chunk 1466 ---
+conditions are fulfilled.
+
+--- Document Chunk 1467 ---
+Releasing the overlap
+
+--- Document Chunk 1468 ---
+If the exit signal is at danger (stop), and the train 
+
+--- Document Chunk 1469 ---
+has safely stopped at it, then it is necessary to 
+
+--- Document Chunk 1470 ---
+release the locking of any points in the overlap 
+
+--- Document Chunk 1471 ---
+beyond the signal. The reason for this is that 
+
+--- Document Chunk 1472 ---
+the points may either not be set correctly for 
+
+--- Document Chunk 1473 ---
+the train’s onward route, or because another 
+
+--- Document Chunk 1474 ---
+train needs to use some of the track and points 
+
+--- Document Chunk 1475 ---
+in the overlap.
+
+--- Document Chunk 1476 ---
+With lineside signalling, the interlocking times 
+
+--- Document Chunk 1477 ---
+the train’s occupancy of the last train detection 
+
+--- Document Chunk 1478 ---
+section on the approach to the signal. When 
+
+--- Document Chunk 1479 ---
+the timer finishes, and provided that the train 
+
+--- Document Chunk 1480 ---
+detection section immediately beyond the 
+
+--- Document Chunk 1481 ---
+signal has not been occupied, the interlocking 
+
+--- Document Chunk 1482 ---
+will release the points in the overlap. With cab 
+
+--- Document Chunk 1483 ---
+signalling, the speed and location of the train are 
+
+--- Document Chunk 1484 ---
+usually known and can be used directly to check 
+
+--- Document Chunk 1485 ---
+the train is at a standstill at the signal. 
+
+--- Document Chunk 1486 ---
+When the interlocking determines that the train 
+
+--- Document Chunk 1487 ---
+is stationary at the exit signal, the locking of the 
+
+--- Document Chunk 1488 ---
+overlap is released and the track and points in it 
+
+--- Document Chunk 1489 ---
+can be used for setting the onward route, or for 
+
+--- Document Chunk 1490 ---
+routing other trains. 
+
+--- Document Chunk 1491 ---
+Other interlocking functions
+
+--- Document Chunk 1492 ---
+This article describes only the basic interlocking 
+
+--- Document Chunk 1493 ---
+functionality of a signalling system. There are, 
+
+--- Document Chunk 1494 ---
+of course, many other functions that may 
+
+--- Document Chunk 1495 ---
+feature, including:
+
+--- Document Chunk 1496 ---
+• The role of the interlocking in displaying 
+
+--- Document Chunk 1497 ---
+speed information via lineside signals. 
+
+--- Document Chunk 1498 ---
+This is of particular importance on ‘speed 
+
+--- Document Chunk 1499 ---
+signalled’ railways, as distinct from ‘route 
+
+--- Document Chunk 1500 ---
+signalled’ railways.
+
+--- Document Chunk 1501 ---
+• Interlocking the signalling system 
+
+--- Document Chunk 1502 ---
+with protection systems for personnel 
+
+--- Document Chunk 1503 ---
+working on the track.
+
+--- Document Chunk 1504 ---
+Interlocking design has 
+
+--- Document Chunk 1505 ---
+to consider many factors 
+
+--- Document Chunk 1506 ---
+including the speed of the 
+
+--- Document Chunk 1507 ---
+trains using the railway 
+
+--- Document Chunk 1508 ---
+and interfaces to other 
+
+--- Document Chunk 1509 ---
+equipment such as level 
+
+--- Document Chunk 1510 ---
+crossings.
+
+--- Document Chunk 1511 ---
+Photo Shutterstock/
+
+--- Document Chunk 1512 ---
+VanderWolf images.
+
+--- Document Chunk 1513 ---
+“There are 
+
+--- Document Chunk 1514 ---
+many other 
+
+--- Document Chunk 1515 ---
+functions that 
+
+--- Document Chunk 1516 ---
+may feature in an 
+
+--- Document Chunk 1517 ---
+interlocking”
+
+--- Document Chunk 1518 ---
+ IRSE News |  Issue 266  |  May 2020
+
+--- Document Chunk 1519 ---
+24
+
+--- Document Chunk 1520 ---
+ 
+
+--- Document Chunk 1521 ---
+Route Information Points Free to Go or 
+
+--- Document Chunk 1522 ---
+Release 
+
+--- Document Chunk 1523 ---
+Route 
+
+--- Document Chunk 1524 ---
+Normal 
+
+--- Document Chunk 1525 ---
+Opposing Route Locking 
+
+--- Document Chunk 1526 ---
+Locked after route set until 
+
+--- Document Chunk 1527 ---
+Points Called, Locked and 
+
+--- Document Chunk 1528 ---
+Detected 
+
+--- Document Chunk 1529 ---
+Tracks Aspect Sequence Approach 
+
+--- Document Chunk 1530 ---
+Locked when 
+
+--- Document Chunk 1531 ---
+Approach Locking 
+
+--- Document Chunk 1532 ---
+Released 
+
+--- Document Chunk 1533 ---
+Special 
+
+--- Document Chunk 1534 ---
+Controls 
+
+--- Document Chunk 1535 ---
+Entrance 
+
+--- Document Chunk 1536 ---
+signal / 
+
+--- Document Chunk 1537 ---
+Route 
+
+--- Document Chunk 1538 ---
+Exit 
+
+--- Document Chunk 1539 ---
+signal 
+
+--- Document Chunk 1540 ---
+Class Normal Reverse Tracks Clear Tracks Occupied 
+
+--- Document Chunk 1541 ---
+for time (sec) 
+
+--- Document Chunk 1542 ---
+Normal Normal 
+
+--- Document Chunk 1543 ---
+or 
+
+--- Document Chunk 1544 ---
+Reverse 
+
+--- Document Chunk 1545 ---
+Reverse Proved Clear Proved 
+
+--- Document Chunk 1546 ---
+occupied for 
+
+--- Document Chunk 1547 ---
+time 
+
+--- Document Chunk 1548 ---
+Aspect Indication Signal 
+
+--- Document Chunk 1549 ---
+Ahead 
+
+--- Document Chunk 1550 ---
+Aspect 
+
+--- Document Chunk 1551 ---
+Signal 
+
+--- Document Chunk 1552 ---
+Cleared/ 
+
+--- Document Chunk 1553 ---
+Route set 
+
+--- Document Chunk 1554 ---
+Unless 
+
+--- Document Chunk 1555 ---
+tracks 
+
+--- Document Chunk 1556 ---
+clear 
+
+--- Document Chunk 1557 ---
+First 
+
+--- Document Chunk 1558 ---
+Condition
+
+--- Document Chunk 1559 ---
+ 
+
+--- Document Chunk 1560 ---
+Second 
+
+--- Document Chunk 1561 ---
+Condition
+
+--- Document Chunk 1562 ---
+ 
+
+--- Document Chunk 1563 ---
+or Time 
+
+--- Document Chunk 1564 ---
+(secs) 
+
+--- Document Chunk 1565 ---
+B12A B11 M ain B7, B6 - B3 EE - B7,  
+
+--- Document Chunk 1566 ---
+B6 #10 
+
+--- Document Chunk 1567 ---
+- - EE#11, ED, 
+
+--- Document Chunk 1568 ---
+EC 
+
+--- Document Chunk 1569 ---
+ EG #12  
+
+--- Document Chunk 1570 ---
+Y 
+
+--- Document Chunk 1571 ---
+- B11 
+
+--- Document Chunk 1572 ---
+Red#13 
+
+--- Document Chunk 1573 ---
+B12 - EF occ, 
+
+--- Document Chunk 1574 ---
+EE occ 
+
+--- Document Chunk 1575 ---
+EF clr, 
+
+--- Document Chunk 1576 ---
+EE occ 
+
+--- Document Chunk 1577 ---
+180  #15, #16, #17 
+
+--- Document Chunk 1578 ---
+B2 EE  
+
+--- Document Chunk 1579 ---
+[EB, EC, ED 
+
+--- Document Chunk 1580 ---
+ …...or
+
+--- Document Chunk 1581 ---
+….. 
+
+--- Document Chunk 1582 ---
+ 
+
+--- Document Chunk 1583 ---
+ 
+
+--- Document Chunk 1584 ---
+ED for 40] 
+
+--- Document Chunk 1585 ---
+G 
+
+--- Document Chunk 1586 ---
+#14 
+
+--- Document Chunk 1587 ---
+- Green 
+
+--- Document Chunk 1588 ---
+ 
+
+--- Document Chunk 1589 ---
+Assumes  
+
+--- Document Chunk 1590 ---
+• M odern Network Rail practice, including: 
+
+--- Document Chunk 1591 ---
+ TPWS train protection designed to stop train within overlap length 
+
+--- Document Chunk 1592 ---
+ Route locking incorporates track bob protection  
+
+--- Document Chunk 1593 ---
+• Sufficient standage in the loops that the longest trains may pass; 
+
+--- Document Chunk 1594 ---
+therefore special controls are not necessary. 
+
+--- Document Chunk 1595 ---
+• No special controls relating to the method of single line working are 
+
+--- Document Chunk 1596 ---
+necessary (method is unspecified on the plan but would appear not to be 
+
+--- Document Chunk 1597 ---
+Track Circuit Block, Token Block nor One Train Working- No Staff). 
+
+--- Document Chunk 1598 ---
+ 
+
+--- Document Chunk 1599 ---
+Special Notes 
+
+--- Document Chunk 1600 ---
+ 
+
+--- Document Chunk 1601 ---
+#10 Point set and locked, but not detected 
+
+--- Document Chunk 1602 ---
+#11 Stick track - returns signal to red (danger) when occupied when signal off and berth track also occupied 
+
+--- Document Chunk 1603 ---
+#12 Only applies when Temporary Approach Control Facility selected by technician 
+
+--- Document Chunk 1604 ---
+#13 Includes proving that associated TPWS loops energised 
+
+--- Document Chunk 1605 ---
+#14 AWS electro live when signal at green and alight, AWS suppressor energised after route set from B3 or B4 provided that no 
+
+--- Document Chunk 1606 ---
+Up direction movement from Ramsey is possible. 
+
+--- Document Chunk 1607 ---
+#15 TPWS energised whilst signal controlled to Red 
+
+--- Document Chunk 1608 ---
+#16 Route cancelled by triggering of Pre-Defined Overrun Protection Group by a SPAD detected at B2  
+
+--- Document Chunk 1609 ---
+#17 Route cancelled by activation of Signal Group Replacement Control 
+
+--- Document Chunk 1610 ---
+ 
+
+--- Document Chunk 1611 ---
+ 
+
+--- Document Chunk 1612 ---
+F,56(
+
+--- Document Chunk 1613 ---
+7RIURP
+
+--- Document Chunk 1614 ---
+5DPVH\
+
+--- Document Chunk 1615 ---
+%XQJDORZ
+
+--- Document Chunk 1616 ---
+
+
+--- Document Chunk 1617 ---
+/RRS
+
+--- Document Chunk 1618 ---
+1RWWR6FDOH
+
+--- Document Chunk 1619 ---
+F,56(
+
+--- Document Chunk 1620 ---
+7RIURP
+
+--- Document Chunk 1621 ---
+5DPVH\
+
+--- Document Chunk 1622 ---
+%XQJDORZ
+
+--- Document Chunk 1623 ---
+
+
+--- Document Chunk 1624 ---
+/RRS
+
+--- Document Chunk 1625 ---
+1RWWR6FDOH
+
+--- Document Chunk 1626 ---
+Figure 1 – Simple Scheme Plan, showing the signals, 
+
+--- Document Chunk 1627 ---
+train detection sections, points, overlap etc. This 
+
+--- Document Chunk 1628 ---
+example was used in a recent IRSE examination.
+
+--- Document Chunk 1629 ---
+Figure 2 – Example of a signal/route control table for the route from signal B12 to B11 
+
+--- Document Chunk 1630 ---
+(as shown in Figure 1). Our thanks to Peter Woodbridge for creating this example.
+
+--- Document Chunk 1631 ---
+ IRSE News |  Issue 266  |  May 2020
+
+--- Document Chunk 1632 ---
+25
+
+--- Document Chunk 1633 ---
+• The provision of train protection systems (which will be 
+
+--- Document Chunk 1634 ---
+covered in another ‘Back to Basics’ article, soon to be 
+
+--- Document Chunk 1635 ---
+published in IRSE News).
+
+--- Document Chunk 1636 ---
+• Interlocking with level crossings or other moveable 
+
+--- Document Chunk 1637 ---
+infrastructure (e.g. swing bridges).
+
+--- Document Chunk 1638 ---
+Specifying interlocking requirements
+
+--- Document Chunk 1639 ---
+The process for specifying the interlocking requirements 
+
+--- Document Chunk 1640 ---
+for a particular track layout is strictly governed by railway 
+
+--- Document Chunk 1641 ---
+administrations (or in some cases their regulatory bodies), 
+
+--- Document Chunk 1642 ---
+because of the safety implications of an error.
+
+--- Document Chunk 1643 ---
+Ideally, the starting point for the signal engineer is to be 
+
+--- Document Chunk 1644 ---
+provided with details of the proposed track layout and the 
+
+--- Document Chunk 1645 ---
+operational requirements. The first of these includes knowledge 
+
+--- Document Chunk 1646 ---
+of the location of points and associated critical dimensions. 
+
+--- Document Chunk 1647 ---
+The operational requirements include the frequency of trains, 
+
+--- Document Chunk 1648 ---
+their maximum speeds and braking capabilities, the required 
+
+--- Document Chunk 1649 ---
+headways and the specific train movements (main line, 
+
+--- Document Chunk 1650 ---
+shunting, permissive etc). 
+
+--- Document Chunk 1651 ---
+In practice, this ideal starting point is not always the reality! 
+
+--- Document Chunk 1652 ---
+Signal engineers may, for instance be told to replicate the 
+
+--- Document Chunk 1653 ---
+existing signalling arrangements in modern form (which is itself 
+
+--- Document Chunk 1654 ---
+an ambiguous statement), without being given any explicit 
+
+--- Document Chunk 1655 ---
+statement of operational requirements.
+
+--- Document Chunk 1656 ---
+The signal engineer also needs to know the signalling principles 
+
+--- Document Chunk 1657 ---
+applicable to the railway for which the design is being prepared. 
+
+--- Document Chunk 1658 ---
+These are the high-level generic rules for ensuring the safe 
+
+--- Document Chunk 1659 ---
+movement of trains, and they cover all the requirements relating 
+
+--- Document Chunk 1660 ---
+to route setting, locking and release – and more. 
+
+--- Document Chunk 1661 ---
+The knowledge of the track layout, the operational 
+
+--- Document Chunk 1662 ---
+requirements and the signalling principles enables the signal 
+
+--- Document Chunk 1663 ---
+engineer to produce two key sets of documents. The first is the 
+
+--- Document Chunk 1664 ---
+Scheme Plan, and the second are the Control Tables.
+
+--- Document Chunk 1665 ---
+Scheme Plan
+
+--- Document Chunk 1666 ---
+The Scheme Plan depicts the layout of the track, showing 
+
+--- Document Chunk 1667 ---
+points, signals, train detection sections, level crossings, stations, 
+
+--- Document Chunk 1668 ---
+permissible speeds etc. Each track is usually shown as a single 
+
+--- Document Chunk 1669 ---
+line, not a pair of lines. Each signalling object is allocated a 
+
+--- Document Chunk 1670 ---
+unique identity (numbers and/or letters). The plan also shows 
+
+--- Document Chunk 1671 ---
+the routes that each train can take from each signal. Each route 
+
+--- Document Chunk 1672 ---
+is given a unique identity. Other relevant information may also 
+
+--- Document Chunk 1673 ---
+be shown on, or be associated with, the Scheme Plan. A simple 
+
+--- Document Chunk 1674 ---
+Scheme Plan is shown in Figure 1, for a single line with a passing 
+
+--- Document Chunk 1675 ---
+loop at a station. The symbols shown are used by many railways 
+
+--- Document Chunk 1676 ---
+around the world, but are not universal. 
+
+--- Document Chunk 1677 ---
+Control Tables
+
+--- Document Chunk 1678 ---
+The Control Tables state all the conditions that must be 
+
+--- Document Chunk 1679 ---
+fulfilled for each route before a train can be given a movement 
+
+--- Document Chunk 1680 ---
+authority to use it. The route information is derived from 
+
+--- Document Chunk 1681 ---
+the Scheme Plan– the position of points, the train detection 
+
+--- Document Chunk 1682 ---
+sections that must be clear, other routes that must not be set 
+
+--- Document Chunk 1683 ---
+etc. Approach locking release conditions are also specified, as 
+
+--- Document Chunk 1684 ---
+are requirements for functions such as the delayed clearance 
+
+--- Document Chunk 1685 ---
+of signals at diverging junctions, and the aspect sequence 
+
+--- Document Chunk 1686 ---
+for successive signals. A simple example of a signal/route 
+
+--- Document Chunk 1687 ---
+control table is shown in Figure 2, for a route from signal B12 
+
+--- Document Chunk 1688 ---
+to B11 on the Plan in Figure 1. The requirements are based on 
+
+--- Document Chunk 1689 ---
+current British (Network Rail) signalling practice and include 
+
+--- Document Chunk 1690 ---
+some features (such as train protection proving and technician 
+
+--- Document Chunk 1691 ---
+controls) that we have not dealt with in this article.
+
+--- Document Chunk 1692 ---
+Control Tables are also prepared for each set of points, stating 
+
+--- Document Chunk 1693 ---
+the conditions that must be fulfilled before a set of points is free 
+
+--- Document Chunk 1694 ---
+to move. This includes the routes that require the points to be 
+
+--- Document Chunk 1695 ---
+normal or reverse, dead-locking train detection sections and 
+
+--- Document Chunk 1696 ---
+point-to-point locking.
+
+--- Document Chunk 1697 ---
+It is in the preparation of the Control Tables that the signal 
+
+--- Document Chunk 1698 ---
+engineer’s knowledge of the signalling principles and 
+
+--- Document Chunk 1699 ---
+application rules is of vital importance. From the Control 
+
+--- Document Chunk 1700 ---
+Tables, the circuit diagrams for relay interlockings (based on 
+
+--- Document Chunk 1701 ---
+standard circuits) can be produced, or the data in the case of a 
+
+--- Document Chunk 1702 ---
+computer-based interlocking. 
+
+--- Document Chunk 1703 ---
+The production of the Control Tables is, therefore, a critical 
+
+--- Document Chunk 1704 ---
+step in the design and configuration of the interlocking. 
+
+--- Document Chunk 1705 ---
+Nevertheless, the gradual automation of the design process 
+
+--- Document Chunk 1706 ---
+means that it is possible to go directly from Scheme Plan to 
+
+--- Document Chunk 1707 ---
+detailed design, with the Control Tables being a by-product 
+
+--- Document Chunk 1708 ---
+of the process for later use (e.g. for recording tests performed 
+
+--- Document Chunk 1709 ---
+on the interlocking), rather than being a key stage in the 
+
+--- Document Chunk 1710 ---
+design process. 
+
+--- Document Chunk 1711 ---
+Closing remarks
+
+--- Document Chunk 1712 ---
+This article and last month’s have provided an introduction to 
+
+--- Document Chunk 1713 ---
+railway interlocking – and if you want to know more, some of 
+
+--- Document Chunk 1714 ---
+the IRSE textbooks cover the subject in greater detail. For many 
+
+--- Document Chunk 1715 ---
+signal engineers the specification and design of interlockings is 
+
+--- Document Chunk 1716 ---
+at the heart of their careers. It requires knowledge, experience 
+
+--- Document Chunk 1717 ---
+and expertise – and it is vital to the safety of the railway. But if 
+
+--- Document Chunk 1718 ---
+you are new to the industry, don’t let that deter you. Instead, 
+
+--- Document Chunk 1719 ---
+take every opportunity to learn from those who have the 
+
+--- Document Chunk 1720 ---
+experience and knowledge.
+
+--- Document Chunk 1721 ---
+However functional 
+
+--- Document Chunk 1722 ---
+and complex the 
+
+--- Document Chunk 1723 ---
+interlocking is, it’s 
+
+--- Document Chunk 1724 ---
+important to ensure 
+
+--- Document Chunk 1725 ---
+that the information 
+
+--- Document Chunk 1726 ---
+relayed to the driver 
+
+--- Document Chunk 1727 ---
+is clear and easily 
+
+--- Document Chunk 1728 ---
+understood, as an 
+
+--- Document Chunk 1729 ---
+aspect indicating safe 
+
+--- Document Chunk 1730 ---
+speed (left) or route 
+
+--- Document Chunk 1731 ---
+based signalling.
+
+--- Document Chunk 1732 ---
+Photos Shutterstock/
+
+--- Document Chunk 1733 ---
+Miles Schofield and 
+
+--- Document Chunk 1734 ---
+Paul Darlington.
+

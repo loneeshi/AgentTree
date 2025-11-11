@@ -1,0 +1,3303 @@
+--- Document Chunk 0 ---
+ 
+
+--- Document Chunk 1 ---
+ 
+
+--- Document Chunk 2 ---
+ 
+
+--- Document Chunk 3 ---
+ 
+
+--- Document Chunk 4 ---
+ 
+
+--- Document Chunk 5 ---
+中国城市轨道交通协会 
+
+--- Document Chunk 6 ---
+信 息 
+
+--- Document Chunk 7 ---
+第 5 期（总第 68 期）                  2025 年4 月16 日 
+
+--- Document Chunk 8 ---
+ 
+
+--- Document Chunk 9 ---
+ 
+
+--- Document Chunk 10 ---
+城 市 轨 道 交 通 
+
+--- Document Chunk 11 ---
+2024 年度主要装备统计报告 
+
+--- Document Chunk 12 ---
+ 
+
+--- Document Chunk 13 ---
+中国城市轨道交通协会
+
+--- Document Chunk 14 ---
+ 
+
+--- Document Chunk 15 ---
+ 
+
+--- Document Chunk 16 ---
+  
+
+--- Document Chunk 17 ---
+中国城市轨道交通协会
+
+--- Document Chunk 18 ---
+ 
+
+--- Document Chunk 19 ---
+ 
+
+--- Document Chunk 20 ---
+声      明 
+
+--- Document Chunk 21 ---
+ 
+
+--- Document Chunk 22 ---
+《城市轨道交通年度主要装备统计报告》由中国城市轨道
+
+--- Document Chunk 23 ---
+交通协会发布，是政府相关部门制定政策和规划、行业相关单
+
+--- Document Chunk 24 ---
+位和专业技术人员进行分析研究的重要参考资料，未经同意，
+
+--- Document Chunk 25 ---
+任何单位、机构和个人不得出售、翻印、过分解读、再发布
+
+--- Document Chunk 26 ---
+《城市轨道交通年度主要装备统计报告》中的信息、数据、分
+
+--- Document Chunk 27 ---
+析图表、资料等，引用或转载时请注明信息来源。 
+
+--- Document Chunk 28 ---
+中国城市轨道交通协会拥有本报告的所有权和最终解释权。  
+
+--- Document Chunk 29 ---
+特此声明。 
+
+--- Document Chunk 30 ---
+ 
+
+--- Document Chunk 31 ---
+                                       中国城市轨道交通协会 
+
+--- Document Chunk 32 ---
+                                       2025 年4 月16 日 
+
+--- Document Chunk 33 ---
+  
+
+--- Document Chunk 34 ---
+中国城市轨道交通协会
+
+--- Document Chunk 35 ---
+ 
+
+--- Document Chunk 36 ---
+ 
+
+--- Document Chunk 37 ---
+ 
+
+--- Document Chunk 38 ---
+中国城市轨道交通协会
+
+--- Document Chunk 39 ---
+ 
+
+--- Document Chunk 40 ---
+ 
+
+--- Document Chunk 41 ---
+目     录 
+
+--- Document Chunk 42 ---
+一、 概  述 .................................................................................................. 1 
+
+--- Document Chunk 43 ---
+二、 车辆篇 ................................................................................................ 2 
+
+--- Document Chunk 44 ---
+1 按城市统计2024 年城轨交通车辆市场情况 .................................. 2 
+
+--- Document Chunk 45 ---
+2 按中标企业统计2024 年城轨交通车辆市场情况 .......................... 4 
+
+--- Document Chunk 46 ---
+3 按系统制式统计2024 年城轨交通车辆市场情况 .......................... 7 
+
+--- Document Chunk 47 ---
+4 2023 年-2024 年城轨交通车辆市场情况对比 ................................. 8 
+
+--- Document Chunk 48 ---
+5 2024 年城轨交通全自动运行系统车辆市场情况 ........................... 9 
+
+--- Document Chunk 49 ---
+三、 牵引系统篇 ......................................................................................10 
+
+--- Document Chunk 50 ---
+四、 制动系统篇 ......................................................................................12 
+
+--- Document Chunk 51 ---
+五、 信号系统篇 ......................................................................................14 
+
+--- Document Chunk 52 ---
+1 按城市统计2024 年城轨交通信号系统市场情况 ........................14 
+
+--- Document Chunk 53 ---
+2 按中标企业统计2024 年城轨交通信号系统市场情况 ................16 
+
+--- Document Chunk 54 ---
+3 按系统制式统计2024 年城轨交通信号系统市场情况 ................23 
+
+--- Document Chunk 55 ---
+4 按信号制式统计2024 年城轨交通信号系统市场情况 ................24 
+
+--- Document Chunk 56 ---
+5 按最高运行速度统计2024 年城轨交通信号系统市场情况 ........24 
+
+--- Document Chunk 57 ---
+6 2022 年-2024 年城轨交通信号系统市场情况对比 .......................25 
+
+--- Document Chunk 58 ---
+6.1 按中标项目对比 ...........................................................................25 
+
+--- Document Chunk 59 ---
+6.2 按中标企业对比 ...........................................................................26 
+
+--- Document Chunk 60 ---
+6.3 按中标项目类型对比 ...................................................................29 
+
+--- Document Chunk 61 ---
+ 
+
+--- Document Chunk 62 ---
+  
+
+--- Document Chunk 63 ---
+中国城市轨道交通协会
+
+--- Document Chunk 64 ---
+ 
+
+--- Document Chunk 65 ---
+ 
+
+--- Document Chunk 66 ---
+ 
+
+--- Document Chunk 67 ---
+中国城市轨道交通协会
+
+--- Document Chunk 68 ---
+ 
+
+--- Document Chunk 69 ---
+1 
+
+--- Document Chunk 70 ---
+一、 概    述  
+
+--- Document Chunk 71 ---
+城市轨道交通（以下简称城轨交通）2024 年度主要装备统计内
+
+--- Document Chunk 72 ---
+容包括车辆、牵引系统、制动系统和信号系统。本期统计以项
+
+--- Document Chunk 73 ---
+目签订合同时间为准，时间范围为 2024 年 1 月 1 日至 2024 年
+
+--- Document Chunk 74 ---
+12 月31 日。 
+
+--- Document Chunk 75 ---
+截至 2024 年底，全国（以下文中涉及全国数据均指中国大陆地区，
+
+--- Document Chunk 76 ---
+不含港澳台）共有 58 个城市开通城轨交通运营线路 361 条，运营
+
+--- Document Chunk 77 ---
+里程 12160.77 公里。据不完全统计，截至 2024 年底，全国城轨
+
+--- Document Chunk 78 ---
+交通累计配属车辆 12314 列，比上年增加 892 列，增长 7.81%。
+
+--- Document Chunk 79 ---
+城轨交通车辆保有量超过7 万辆。 
+
+--- Document Chunk 80 ---
+2024 年，全国共有 16 个城市发布 36 个车辆采购项目，涉
+
+--- Document Chunk 81 ---
+及 34 条运营线路，采购城轨交通车辆共计 3784 辆，采购金额
+
+--- Document Chunk 82 ---
+共计 419.01 亿元，各车辆制造企业交付车辆共计 5473 辆。相比
+
+--- Document Chunk 83 ---
+2023 年，采购车辆和交付车辆数均有减少。 
+
+--- Document Chunk 84 ---
+据不完全统计，2024 年，全国共有 7 家企业承揽 31 个牵引
+
+--- Document Chunk 85 ---
+系统的采购项目，5 家企业承揽 31 个制动系统的采购项目，涉
+
+--- Document Chunk 86 ---
+及车辆数共计3424 辆。 
+
+--- Document Chunk 87 ---
+2024 年，全国共有 20 个城市发布 50 个城轨交通信号系统
+
+--- Document Chunk 88 ---
+采购项目，涉及 25 条新建线路，7 条大修改造线路，18 条延长
+
+--- Document Chunk 89 ---
+线以及 2 个增购项目，共 52 条城轨交通线路，总金额 131.45 亿
+
+--- Document Chunk 90 ---
+元,相比2023 年，项目数量和总金额都有明显增加。 
+
+--- Document Chunk 91 ---
+中国城市轨道交通协会
+
+--- Document Chunk 92 ---
+ 
+
+--- Document Chunk 93 ---
+2 
+
+--- Document Chunk 94 ---
+二、车辆篇 
+
+--- Document Chunk 95 ---
+2024 年，全国共有 16 个城市发布 36 个车辆采购项目，涉
+
+--- Document Chunk 96 ---
+及 34 条城轨交通线路，采购城轨交通车辆共计 3784 辆，采购
+
+--- Document Chunk 97 ---
+金额共计 419.01 亿元，各车辆制造企业交付车辆共计 5473 辆。
+
+--- Document Chunk 98 ---
+相比2023 年，采购车辆和交付车辆数均有减少。 
+
+--- Document Chunk 99 ---
+1 按城市统计 2024 年城轨交通车辆市场情况 
+
+--- Document Chunk 100 ---
+2024 年，杭州、北京、深圳等 16 个城市发布了 36 个车辆
+
+--- Document Chunk 101 ---
+采购项目，采购车辆数共计 3784 辆。其中杭州共计 8 条线路招
+
+--- Document Chunk 102 ---
+投标，包括 3 条新建线路、4 条延长线路和 1 条增购线路的车辆
+
+--- Document Chunk 103 ---
+采购；采购车辆数为 1016 辆，采购总金额为 134.05 亿元。2024
+
+--- Document Chunk 104 ---
+年各城市城轨交通车辆市场情况详见表 1。 
+
+--- Document Chunk 105 ---
+表 1  2024 年各城市城轨交通车辆市场情况 
+
+--- Document Chunk 106 ---
+序号 城市 线路条数 
+
+--- Document Chunk 107 ---
+（条） 
+
+--- Document Chunk 108 ---
+采购辆数 
+
+--- Document Chunk 109 ---
+（辆） 
+
+--- Document Chunk 110 ---
+采购金额 
+
+--- Document Chunk 111 ---
+（亿元） 
+
+--- Document Chunk 112 ---
+1 杭州 8 1016 134.05 
+
+--- Document Chunk 113 ---
+2 北京 3 654 92.44 
+
+--- Document Chunk 114 ---
+3 深圳 6 624 61.22 
+
+--- Document Chunk 115 ---
+4 济南 3 430 38.20  
+
+--- Document Chunk 116 ---
+5 青岛 2 288 22.01 
+
+--- Document Chunk 117 ---
+6 无锡 2 218 16.56 
+
+--- Document Chunk 118 ---
+7 长春 1 120 10.70  
+
+--- Document Chunk 119 ---
+8 台州 1 100 9.85 
+
+--- Document Chunk 120 ---
+9 合肥 1 84 14.52 
+
+--- Document Chunk 121 ---
+10 乌鲁木齐 1 72 5.44 
+
+--- Document Chunk 122 ---
+中国城市轨道交通协会
+
+--- Document Chunk 123 ---
+ 
+
+--- Document Chunk 124 ---
+3 
+
+--- Document Chunk 125 ---
+序号 城市 线路条数 
+
+--- Document Chunk 126 ---
+（条） 
+
+--- Document Chunk 127 ---
+采购辆数 
+
+--- Document Chunk 128 ---
+（辆） 
+
+--- Document Chunk 129 ---
+采购金额 
+
+--- Document Chunk 130 ---
+（亿元） 
+
+--- Document Chunk 131 ---
+11 温州 1 44 3.78 
+
+--- Document Chunk 132 ---
+12 石家庄 1 54 3.50  
+
+--- Document Chunk 133 ---
+13 绍兴 1 40 3.42 
+
+--- Document Chunk 134 ---
+14 上海 1 36 2.89 
+
+--- Document Chunk 135 ---
+15 重庆 1 3 0.34 
+
+--- Document Chunk 136 ---
+16 成都 1 1 0.09 
+
+--- Document Chunk 137 ---
+总计 34 3784 419.01 
+
+--- Document Chunk 138 ---
+注：因车辆中标金额所包括的内容不同，有些含若干年的维修，有些含其它设备等，为便于
+
+--- Document Chunk 139 ---
+统计分析，车辆市场情况均以车数为基数进行统计分析。 
+
+--- Document Chunk 140 ---
+从 2024 年各城市城轨交通车辆市场情况统计来看，杭州、
+
+--- Document Chunk 141 ---
+北京、深圳、济南 4 市车辆采购数量超过 400 辆，车辆采购数
+
+--- Document Chunk 142 ---
+占比达 71.99%。青岛、无锡、长春、台州 4 市车辆采购数量达
+
+--- Document Chunk 143 ---
+到 100 辆不足 400 辆，车辆采购数占比达 19.19%。2024 年各城
+
+--- Document Chunk 144 ---
+市采购城轨交通车辆情况详见图1。 
+
+--- Document Chunk 145 ---
+ 
+
+--- Document Chunk 146 ---
+ 图 1  2024 年各城市采购城轨交通车辆情况（辆） 
+
+--- Document Chunk 147 ---
+0
+
+--- Document Chunk 148 ---
+200
+
+--- Document Chunk 149 ---
+400
+
+--- Document Chunk 150 ---
+600
+
+--- Document Chunk 151 ---
+800
+
+--- Document Chunk 152 ---
+1000
+
+--- Document Chunk 153 ---
+1200
+
+--- Document Chunk 154 ---
+中国城市轨道交通协会
+
+--- Document Chunk 155 ---
+ 
+
+--- Document Chunk 156 ---
+4 
+
+--- Document Chunk 157 ---
+2 按中标企业统计 2024 年城轨交通车辆市场情况 
+
+--- Document Chunk 158 ---
+2024 年，共有 7 家车辆制造企业（以下文中所涉及的联合体中标
+
+--- Document Chunk 159 ---
+项目均计入联合体第一单位） 承揽 36 个城轨交通车辆采购项目 。
+
+--- Document Chunk 160 ---
+2024 年城轨交通各车辆制造企业车辆中标总体情况详见表 2。 
+
+--- Document Chunk 161 ---
+表 2  2024 年城轨交通各车辆制造企业车辆中标总体情况 
+
+--- Document Chunk 162 ---
+序号 制造企业名称 中标项目数量
+
+--- Document Chunk 163 ---
+（个） 
+
+--- Document Chunk 164 ---
+中标辆数 
+
+--- Document Chunk 165 ---
+（辆） 
+
+--- Document Chunk 166 ---
+中标金额 
+
+--- Document Chunk 167 ---
+（亿元） 
+
+--- Document Chunk 168 ---
+中标辆数 
+
+--- Document Chunk 169 ---
+全年占比 
+
+--- Document Chunk 170 ---
+1 中车南京浦镇车辆
+
+--- Document Chunk 171 ---
+有限公司 15 1467 179.42 38.77% 
+
+--- Document Chunk 172 ---
+2 中车长春轨道客车
+
+--- Document Chunk 173 ---
+股份有限公司 6 729 73.59 19.27% 
+
+--- Document Chunk 174 ---
+3 中车青岛四方机车
+
+--- Document Chunk 175 ---
+车辆股份有限公司 5 704 58.19 18.60% 
+
+--- Document Chunk 176 ---
+4 北京地铁车辆装备
+
+--- Document Chunk 177 ---
+有限公司 4 598 84.25 15.80% 
+
+--- Document Chunk 178 ---
+5 中车唐山机车车辆
+
+--- Document Chunk 179 ---
+有限公司 3 154 13.35 4.07% 
+
+--- Document Chunk 180 ---
+6 中车株洲电力机车
+
+--- Document Chunk 181 ---
+有限公司 2 74 4.41 1.96% 
+
+--- Document Chunk 182 ---
+7 比亚迪机电设备 
+
+--- Document Chunk 183 ---
+有限公司 1 58 5.80 1.53% 
+
+--- Document Chunk 184 ---
+总计 36 3784 419.01 100% 
+
+--- Document Chunk 185 ---
+中车南京浦镇车辆有限公司、中车长春轨道客车股份有限
+
+--- Document Chunk 186 ---
+公司、中车青岛四方机车车辆股份有限公司和北京地铁车辆装
+
+--- Document Chunk 187 ---
+备有限公司 4 家企业中标辆数占比均超过 15%，占全年市场总
+
+--- Document Chunk 188 ---
+额的 92.44%。2024 年城轨交通各车辆制造企业中标辆数市场占
+
+--- Document Chunk 189 ---
+比详见图2。 
+
+--- Document Chunk 190 ---
+中国城市轨道交通协会
+
+--- Document Chunk 191 ---
+ 
+
+--- Document Chunk 192 ---
+5 
+
+--- Document Chunk 193 ---
+ 
+
+--- Document Chunk 194 ---
+图 2  2024 年城轨交通各车辆制造企业中标辆数市场占比 
+
+--- Document Chunk 195 ---
+2024 年城轨交通各车辆制造企业车辆中标项目情况详见表3。 
+
+--- Document Chunk 196 ---
+表 3  2024 年城轨交通各车辆制造企业车辆中标项目情况 
+
+--- Document Chunk 197 ---
+序号 制造企业
+
+--- Document Chunk 198 ---
+名称 中标项目名称 中标辆数
+
+--- Document Chunk 199 ---
+（辆） 
+
+--- Document Chunk 200 ---
+中标金额
+
+--- Document Chunk 201 ---
+（亿元） 系统制式 车型 
+
+--- Document Chunk 202 ---
+1 
+
+--- Document Chunk 203 ---
+中车南京
+
+--- Document Chunk 204 ---
+浦镇车辆
+
+--- Document Chunk 205 ---
+有限公司 
+
+--- Document Chunk 206 ---
+杭州 10 号线三期 84 7.84  地铁 地铁 A 型 
+
+--- Document Chunk 207 ---
+杭州 5 号线增购 54 3.77  地铁 地铁 B 型 
+
+--- Document Chunk 208 ---
+深圳 12 号线二期 120 10.31  地铁 地铁 A 型 
+
+--- Document Chunk 209 ---
+成都天府国际机场旅客 
+
+--- Document Chunk 210 ---
+自动捷运系统 1 0.09  自导向 
+
+--- Document Chunk 211 ---
+轨道 
+
+--- Document Chunk 212 ---
+自导向 
+
+--- Document Chunk 213 ---
+轨道车辆 
+
+--- Document Chunk 214 ---
+上海 13 号线东延伸 36 2.89  地铁 地铁 A 型 
+
+--- Document Chunk 215 ---
+绍兴 2 号线二期 40 3.42  地铁 地铁 B 型 
+
+--- Document Chunk 216 ---
+无锡 5 号线 164 13.07  地铁 地铁 B 型 
+
+--- Document Chunk 217 ---
+合肥新桥机场 S1 线 84 14.52  市域快轨 市域 B 型 
+
+--- Document Chunk 218 ---
+杭州 3 号线二期 84 5.84  地铁 地铁 B 型 
+
+--- Document Chunk 219 ---
+38.77%
+
+--- Document Chunk 220 ---
+19.27%
+
+--- Document Chunk 221 ---
+18.60%
+
+--- Document Chunk 222 ---
+15.80%
+
+--- Document Chunk 223 ---
+4.07%
+
+--- Document Chunk 224 ---
+1.96% 1.53% 中车南京浦镇车辆有限公司
+
+--- Document Chunk 225 ---
+中车长春轨道客车股份有限公司
+
+--- Document Chunk 226 ---
+中车青岛四方机车车辆股份有限公司
+
+--- Document Chunk 227 ---
+北京地铁车辆装备有限公司
+
+--- Document Chunk 228 ---
+中车唐山机车车辆有限公司
+
+--- Document Chunk 229 ---
+中车株洲电力机车有限公司
+
+--- Document Chunk 230 ---
+比亚迪机电设备有限公司
+
+--- Document Chunk 231 ---
+中国城市轨道交通协会
+
+--- Document Chunk 232 ---
+ 
+
+--- Document Chunk 233 ---
+6 
+
+--- Document Chunk 234 ---
+序号 制造企业
+
+--- Document Chunk 235 ---
+名称 中标项目名称 中标辆数
+
+--- Document Chunk 236 ---
+（辆） 
+
+--- Document Chunk 237 ---
+中标金额
+
+--- Document Chunk 238 ---
+（亿元） 系统制式 车型 
+
+--- Document Chunk 239 ---
+杭州 4 号线三期 84 5.30  地铁 地铁 B 型 
+
+--- Document Chunk 240 ---
+杭州 9 号线二期 60 3.72  地铁 地铁 B 型 
+
+--- Document Chunk 241 ---
+杭州 12 号线一期 140 22.72  地铁 地铁 B 型 
+
+--- Document Chunk 242 ---
+杭州 15 号线一期 318 49.11  地铁 地铁 B 型 
+
+--- Document Chunk 243 ---
+杭州 18 号线一期 192 35.75  地铁 地铁 A 型 
+
+--- Document Chunk 244 ---
+深圳机场旅客捷运系统 6 1.07  自导向 
+
+--- Document Chunk 245 ---
+轨道 
+
+--- Document Chunk 246 ---
+自导向 
+
+--- Document Chunk 247 ---
+轨道车辆 
+
+--- Document Chunk 248 ---
+15 个项目 1467 179.42 / / 
+
+--- Document Chunk 249 ---
+2 
+
+--- Document Chunk 250 ---
+北京地铁
+
+--- Document Chunk 251 ---
+车辆装备
+
+--- Document Chunk 252 ---
+有限公司 
+
+--- Document Chunk 253 ---
+北京 28 号线（CBD 线） 102 16.42 地铁 地铁 Lb 型 
+
+--- Document Chunk 254 ---
+北京 22 号线（平谷线） 256 51.00 市域快轨 市域 D 型 
+
+--- Document Chunk 255 ---
+北京 1 号线车辆更新 168 11.39 地铁 地铁 B 型 
+
+--- Document Chunk 256 ---
+乌鲁木齐 2 号线一期北段 72 5.44 地铁 地铁 A 型 
+
+--- Document Chunk 257 ---
+4 个项目 598 84.25 / / 
+
+--- Document Chunk 258 ---
+3 
+
+--- Document Chunk 259 ---
+中车长春
+
+--- Document Chunk 260 ---
+轨道客车
+
+--- Document Chunk 261 ---
+股份有限
+
+--- Document Chunk 262 ---
+公司 
+
+--- Document Chunk 263 ---
+深圳 5 号线增购及东延 234 17.2 地铁 地铁 A 型 
+
+--- Document Chunk 264 ---
+长春 7 号线一期 120 10.7 地铁 地铁 B 型 
+
+--- Document Chunk 265 ---
+重庆 15 号线综合检测车 3 0.34 市域快轨 市域 As 型 
+
+--- Document Chunk 266 ---
+北京 22 号线（平谷线）分包 128 13.63 市域快轨 市域 D 型 
+
+--- Document Chunk 267 ---
+深大城际深圳机场至坪山段 192 24.96 市域快轨 市域 C 型 
+
+--- Document Chunk 268 ---
+深惠城际大鹏支线 52 6.76 市域快轨 市域 C 型 
+
+--- Document Chunk 269 ---
+6 个项目 729 73.59 / / 
+
+--- Document Chunk 270 ---
+4 
+
+--- Document Chunk 271 ---
+中车青岛
+
+--- Document Chunk 272 ---
+四方机车
+
+--- Document Chunk 273 ---
+车辆股份
+
+--- Document Chunk 274 ---
+有限公司 
+
+--- Document Chunk 275 ---
+青岛 8 号线支线 108 8.05 地铁 地铁 B 型 
+
+--- Document Chunk 276 ---
+济南 6 号线 300 26.09 地铁 地铁 A 型 
+
+--- Document Chunk 277 ---
+温州 S3 线 44 3.78 市域快轨 市域 B 型 
+
+--- Document Chunk 278 ---
+青岛 7 号线 180 13.96 地铁 地铁 B 型 
+
+--- Document Chunk 279 ---
+中国城市轨道交通协会
+
+--- Document Chunk 280 ---
+ 
+
+--- Document Chunk 281 ---
+7 
+
+--- Document Chunk 282 ---
+序号 制造企业
+
+--- Document Chunk 283 ---
+名称 中标项目名称 中标辆数
+
+--- Document Chunk 284 ---
+（辆） 
+
+--- Document Chunk 285 ---
+中标金额
+
+--- Document Chunk 286 ---
+（亿元） 系统制式 车型 
+
+--- Document Chunk 287 ---
+济南 8 号线一期 72 6.31 地铁 地铁 A 型 
+
+--- Document Chunk 288 ---
+5 个项目 704 58.19 / / 
+
+--- Document Chunk 289 ---
+5 
+
+--- Document Chunk 290 ---
+中车唐山
+
+--- Document Chunk 291 ---
+机车车辆
+
+--- Document Chunk 292 ---
+有限公司 
+
+--- Document Chunk 293 ---
+石家庄 1 号线二期第二阶段 12 0.78 地铁 地铁 A 型 
+
+--- Document Chunk 294 ---
+石家庄 1 号线三期 42 2.72 地铁 地铁 A 型 
+
+--- Document Chunk 295 ---
+台州市域铁路 S2 线 100 9.85 市域快轨 市域 D 型 
+
+--- Document Chunk 296 ---
+3 个项目 154 13.35 / / 
+
+--- Document Chunk 297 ---
+6 
+
+--- Document Chunk 298 ---
+比亚迪机
+
+--- Document Chunk 299 ---
+电设备有
+
+--- Document Chunk 300 ---
+限公司 
+
+--- Document Chunk 301 ---
+济南低运量轨道交通高新东区
+
+--- Document Chunk 302 ---
+环线 58 5.80  导轨式 
+
+--- Document Chunk 303 ---
+胶轮 
+
+--- Document Chunk 304 ---
+导轨式 
+
+--- Document Chunk 305 ---
+胶轮车辆 
+
+--- Document Chunk 306 ---
+1 个项目 58 5.80  / / 
+
+--- Document Chunk 307 ---
+7 
+
+--- Document Chunk 308 ---
+中车株洲
+
+--- Document Chunk 309 ---
+电力机车
+
+--- Document Chunk 310 ---
+有限公司 
+
+--- Document Chunk 311 ---
+无锡 4 号线二期 54 3.49 地铁 地铁 B 型 
+
+--- Document Chunk 312 ---
+深圳龙华有轨电车增购 20 0.92 有轨电车 低地板车 
+
+--- Document Chunk 313 ---
+2 个项目 74 4.41 / / 
+
+--- Document Chunk 314 ---
+总计 36 个项目 3784 419.01 / / 
+
+--- Document Chunk 315 ---
+注：表中系统制式依据团体标准 T/CAMET 00001-2020《城轨交通分类》进行分类。 
+
+--- Document Chunk 316 ---
+3 按系统制式统计 2024 年城轨交通车辆市场情况 
+
+--- Document Chunk 317 ---
+2024 年，各城市采购车辆包括地铁、市域快轨、导轨式胶
+
+--- Document Chunk 318 ---
+轮、有轨电车、自导向轨道 5 种系统制式，其中地铁车辆数共
+
+--- Document Chunk 319 ---
+计2840 辆，占比 75.05%。 
+
+--- Document Chunk 320 ---
+随着城市群、都市圈交通体系的不断融合发展，市域快轨
+
+--- Document Chunk 321 ---
+作为连接中心城市与周边区域的重要纽带，正逐步成为区域交
+
+--- Document Chunk 322 ---
+通网络的重要组成部分。截至 2024 年底，中国内地已有 21 个
+
+--- Document Chunk 323 ---
+城市开通运营市域快轨线路 33 条，运营里程达 1597.25 公里，
+
+--- Document Chunk 324 ---
+中国城市轨道交通协会
+
+--- Document Chunk 325 ---
+ 
+
+--- Document Chunk 326 ---
+8 
+
+--- Document Chunk 327 ---
+占内地运营里程的 13.13%。同时，16 个城市在建市域快轨线路
+
+--- Document Chunk 328 ---
+34 条，在建线路长度 1536.39 公里，占 2024 年在建线路总长度
+
+--- Document Chunk 329 ---
+的 26.34%。2024 年，市域快轨制式车辆需求显著增加，全国共
+
+--- Document Chunk 330 ---
+有 6 个城市发布 7 个市域快轨车辆采购招标项目，采购车辆数
+
+--- Document Chunk 331 ---
+共计859 辆，占比22.70%。 
+
+--- Document Chunk 332 ---
+导轨式胶轮、有轨电车、自导向轨道 3 种系统制式车辆分
+
+--- Document Chunk 333 ---
+别占比 1.53%、0.53%、0.19%。2024 年城轨交通车辆各系统制
+
+--- Document Chunk 334 ---
+式市场份额详见图3。 
+
+--- Document Chunk 335 ---
+ 
+
+--- Document Chunk 336 ---
+图 3  2024 年城轨交通车辆各系统制式市场份额 
+
+--- Document Chunk 337 ---
+4 2023 年-2024 年城轨交通车辆市场情况对比 
+
+--- Document Chunk 338 ---
+从中标车辆数量来看，2024 年较 2023 年同比略有减少，由
+
+--- Document Chunk 339 ---
+2023 年的 4921 辆减少为 2024 年的 3784 辆；从制造企业交付车
+
+--- Document Chunk 340 ---
+辆数量来看，2024 年较 2023 年同比减少 10.04%，交付车辆数
+
+--- Document Chunk 341 ---
+由 2023 年的 6084 辆减少为 2024 年的 5473 辆。2023 年-2024 年
+
+--- Document Chunk 342 ---
+75.05%
+
+--- Document Chunk 343 ---
+22.70%
+
+--- Document Chunk 344 ---
+1.53% 0.53%
+
+--- Document Chunk 345 ---
+0.19%
+
+--- Document Chunk 346 ---
+地铁
+
+--- Document Chunk 347 ---
+市域快轨
+
+--- Document Chunk 348 ---
+导轨式胶轮
+
+--- Document Chunk 349 ---
+有轨电车
+
+--- Document Chunk 350 ---
+自导向轨道
+
+--- Document Chunk 351 ---
+中国城市轨道交通协会
+
+--- Document Chunk 352 ---
+ 
+
+--- Document Chunk 353 ---
+9 
+
+--- Document Chunk 354 ---
+度城轨交通车辆市场情况对比详见表 4。 
+
+--- Document Chunk 355 ---
+表 4  2023 年-2024年度城轨交通车辆市场情况对比 
+
+--- Document Chunk 356 ---
+年份 项目数量 
+
+--- Document Chunk 357 ---
+（个） 
+
+--- Document Chunk 358 ---
+中标辆数 
+
+--- Document Chunk 359 ---
+（辆） 
+
+--- Document Chunk 360 ---
+当期交付数 
+
+--- Document Chunk 361 ---
+（辆） 
+
+--- Document Chunk 362 ---
+2023 34 4921 6084 
+
+--- Document Chunk 363 ---
+2024 36 3784 5473 
+
+--- Document Chunk 364 ---
+同比 5.88% -30.05% -10.04% 
+
+--- Document Chunk 365 ---
+5 2024 年城轨交通全自动运行系统车辆市场情况 
+
+--- Document Chunk 366 ---
+从全自动运行情况来看，截至 2024 年底，中国内地共有北
+
+--- Document Chunk 367 ---
+京、上海、深圳、广州、武汉、苏州、济南、南宁、天津、宁
+
+--- Document Chunk 368 ---
+波、芜湖、重庆、南京、太原、成都、长沙、西安、绍兴、福
+
+--- Document Chunk 369 ---
+州、郑州、许昌、青岛、合肥 23 个城市开通全自动运行城轨交
+
+--- Document Chunk 370 ---
+通线路 54 条，已形成了 1484.43 公里的全自动运行线路规模，
+
+--- Document Chunk 371 ---
+同比增长41.13%。2024 年开通全自动运行线路421.94 公里。 
+
+--- Document Chunk 372 ---
+2024 年城轨交通中标车辆中列车运行自动化等级（ GoA）
+
+--- Document Chunk 373 ---
+达到有人值守列车自动运行（ GoA3）和无人值守列车自动运
+
+--- Document Chunk 374 ---
+（GoA4）的共计 2405 辆，占总中标车辆数的63.56%。 
+
+--- Document Chunk 375 ---
+  
+
+--- Document Chunk 376 ---
+中国城市轨道交通协会
+
+--- Document Chunk 377 ---
+ 
+
+--- Document Chunk 378 ---
+10 
+
+--- Document Chunk 379 ---
+三、 牵引系统篇 
+
+--- Document Chunk 380 ---
+据不完全统计，2024 年，全国共有 7 家企业承揽 31 个牵引
+
+--- Document Chunk 381 ---
+系统的采购项目，涉及车辆数共计 3424 辆。 
+
+--- Document Chunk 382 ---
+株洲中车时代电气股份有限公司、新誉轨道交通科技有限
+
+--- Document Chunk 383 ---
+公司、江苏经纬轨道交通设备有限公司 3 家企业中标车辆数占
+
+--- Document Chunk 384 ---
+比均超过 10%，占比分别为 53.07%、14.40%、12.85%。这 3 家
+
+--- Document Chunk 385 ---
+企业共计占全年市场总额的 80.32%。2024 年城轨交通各牵引系
+
+--- Document Chunk 386 ---
+统制造企业中标项目情况详见表5。 
+
+--- Document Chunk 387 ---
+表 5  2024 年城轨交通各牵引系统制造企业中标项目情况 
+
+--- Document Chunk 388 ---
+序号 中标企业
+
+--- Document Chunk 389 ---
+名称 中标项目名称 中标辆数
+
+--- Document Chunk 390 ---
+（辆） 系统制式 车型 
+
+--- Document Chunk 391 ---
+1 
+
+--- Document Chunk 392 ---
+株洲中车
+
+--- Document Chunk 393 ---
+时代电气
+
+--- Document Chunk 394 ---
+股份有限
+
+--- Document Chunk 395 ---
+公司 
+
+--- Document Chunk 396 ---
+深圳 5 号线增购及东延 234 地铁 地铁 A 型 
+
+--- Document Chunk 397 ---
+深圳 12 号线二期 120 地铁 地铁 A 型 
+
+--- Document Chunk 398 ---
+杭州 10 号线三期 84 地铁 地铁 A 型 
+
+--- Document Chunk 399 ---
+杭州 3 号线二期 84 地铁 地铁 B 型 
+
+--- Document Chunk 400 ---
+杭州 4 号线三期 84 地铁 地铁 B 型 
+
+--- Document Chunk 401 ---
+杭州 9 号线二期 60 地铁 地铁 B 型 
+
+--- Document Chunk 402 ---
+杭州 15 号线一期 318 地铁 地铁 B 型 
+
+--- Document Chunk 403 ---
+杭州 18 号线一期 192 地铁 地铁 A 型 
+
+--- Document Chunk 404 ---
+杭州 5 号线增购 54 地铁 地铁 B 型 
+
+--- Document Chunk 405 ---
+上海 13 号线东延伸 36 地铁 地铁 A 型 
+
+--- Document Chunk 406 ---
+长春 7 号线一期 120 地铁 地铁 B 型 
+
+--- Document Chunk 407 ---
+济南 8 号线一期 72 地铁 地铁 A 型 
+
+--- Document Chunk 408 ---
+温州 S3 线 44 市域快轨 市域 B 型 
+
+--- Document Chunk 409 ---
+无锡 4 号线二期 54 地铁 地铁 B 型 
+
+--- Document Chunk 410 ---
+中国城市轨道交通协会
+
+--- Document Chunk 411 ---
+ 
+
+--- Document Chunk 412 ---
+11 
+
+--- Document Chunk 413 ---
+序号 中标企业
+
+--- Document Chunk 414 ---
+名称 中标项目名称 中标辆数
+
+--- Document Chunk 415 ---
+（辆） 系统制式 车型 
+
+--- Document Chunk 416 ---
+无锡 5 号线 164 地铁 地铁 B 型 
+
+--- Document Chunk 417 ---
+石家庄 1 号线二期第二阶段 12 地铁 地铁 A 型 
+
+--- Document Chunk 418 ---
+石家庄 1 号线三期 42 地铁 地铁 A 型 
+
+--- Document Chunk 419 ---
+绍兴 2 号线二期 40 地铁 地铁 B 型 
+
+--- Document Chunk 420 ---
+重庆 15 号线综合检测车 3 市域快轨 市域 As 型 
+
+--- Document Chunk 421 ---
+19 个项目 1817 中标车辆数占比 53.07% 
+
+--- Document Chunk 422 ---
+2 
+
+--- Document Chunk 423 ---
+新誉轨道
+
+--- Document Chunk 424 ---
+交通科技
+
+--- Document Chunk 425 ---
+有限公司 
+
+--- Document Chunk 426 ---
+成都天府国际机场旅客自动捷运系统 1 自导向轨道 自导向轨道
+
+--- Document Chunk 427 ---
+车辆 
+
+--- Document Chunk 428 ---
+深圳机场旅客捷运系统 6 自导向轨道 自导向轨道
+
+--- Document Chunk 429 ---
+车辆 
+
+--- Document Chunk 430 ---
+北京 28 号线（CBD 线） 102 地铁 地铁 Lb 型 
+
+--- Document Chunk 431 ---
+北京 22 号线（平谷线） 384 市域快轨 市域 D 型 
+
+--- Document Chunk 432 ---
+4 个项目 493 中标车辆数占比 14.40% 
+
+--- Document Chunk 433 ---
+3 
+
+--- Document Chunk 434 ---
+江苏经纬
+
+--- Document Chunk 435 ---
+轨道交通
+
+--- Document Chunk 436 ---
+设备有限
+
+--- Document Chunk 437 ---
+公司 
+
+--- Document Chunk 438 ---
+济南 6 号线 300 地铁 地铁 A 型 
+
+--- Document Chunk 439 ---
+杭州 12 号线一期 140 地铁 地铁 B 型 
+
+--- Document Chunk 440 ---
+2 个项目 440 中标车辆数占比 12.85% 
+
+--- Document Chunk 441 ---
+4 
+
+--- Document Chunk 442 ---
+中车青岛
+
+--- Document Chunk 443 ---
+四方研究
+
+--- Document Chunk 444 ---
+所有限公
+
+--- Document Chunk 445 ---
+司 
+
+--- Document Chunk 446 ---
+青岛 8 号线支线 108 地铁 地铁 B 型 
+
+--- Document Chunk 447 ---
+青岛 7 号线 180 地铁 地铁 B 型 
+
+--- Document Chunk 448 ---
+2 个项目 288 中标车辆数占比 8.41% 
+
+--- Document Chunk 449 ---
+5 
+
+--- Document Chunk 450 ---
+中车永济
+
+--- Document Chunk 451 ---
+电机有限
+
+--- Document Chunk 452 ---
+公司 
+
+--- Document Chunk 453 ---
+深大城际深圳机场至坪山段 192 市域快轨 市域 C 型 
+
+--- Document Chunk 454 ---
+深惠城际大鹏支线 52 市域快轨 市域 C 型 
+
+--- Document Chunk 455 ---
+2 个项目 244 中标车辆数占比 7.13% 
+
+--- Document Chunk 456 ---
+6 
+
+--- Document Chunk 457 ---
+上海阿尔
+
+--- Document Chunk 458 ---
+斯通交通
+
+--- Document Chunk 459 ---
+电气有限
+
+--- Document Chunk 460 ---
+公司 
+
+--- Document Chunk 461 ---
+合肥新桥机场 S1 线 84 市域快轨 市域 B 型 
+
+--- Document Chunk 462 ---
+1 个项目 84 中标车辆数占比 2.45% 
+
+--- Document Chunk 463 ---
+7 
+
+--- Document Chunk 464 ---
+比亚迪机
+
+--- Document Chunk 465 ---
+电设备有
+
+--- Document Chunk 466 ---
+限公司 
+
+--- Document Chunk 467 ---
+济南低运量轨道交通高新东区环线 58 导轨式胶轮 导轨式 
+
+--- Document Chunk 468 ---
+胶轮车辆 
+
+--- Document Chunk 469 ---
+1 个项目 58 中标车辆数占比 1.69% 
+
+--- Document Chunk 470 ---
+总计 31 个项目 3424 100% 
+
+--- Document Chunk 471 ---
+ 
+
+--- Document Chunk 472 ---
+中国城市轨道交通协会
+
+--- Document Chunk 473 ---
+ 
+
+--- Document Chunk 474 ---
+12 
+
+--- Document Chunk 475 ---
+四、 制动系统篇 
+
+--- Document Chunk 476 ---
+据不完全统计，2024 年，共有 5 家企业承揽 31 个制动系统
+
+--- Document Chunk 477 ---
+的采购项目，涉及车辆数共计3424 辆。 
+
+--- Document Chunk 478 ---
+中车制动系统有限公司（含南京中车浦镇海泰制动设备有限公司、
+
+--- Document Chunk 479 ---
+重庆中车四方所科技有限公司等子公司）、克诺尔公司、北京纵横机电
+
+--- Document Chunk 480 ---
+科技有限公司 3 家企业中标车辆数占比均超过 10%，占比分别
+
+--- Document Chunk 481 ---
+为 46.09%、30.96%、17.76%。这 3 家企业共计占全年市场总额
+
+--- Document Chunk 482 ---
+的 94.80%。2024 年城轨交通各制动系统制造企业中标项目情况
+
+--- Document Chunk 483 ---
+详见表6。 
+
+--- Document Chunk 484 ---
+表 6  2024 年城轨交通各制动系统制造企业中标项目情况 
+
+--- Document Chunk 485 ---
+序号 中标企业
+
+--- Document Chunk 486 ---
+名称 中标项目名称 中标辆数
+
+--- Document Chunk 487 ---
+（辆） 系统制式 车型 
+
+--- Document Chunk 488 ---
+1 
+
+--- Document Chunk 489 ---
+中车制动
+
+--- Document Chunk 490 ---
+系统有限
+
+--- Document Chunk 491 ---
+公司 
+
+--- Document Chunk 492 ---
+温州 S3 线 44 市域快轨 市域 B 型 
+
+--- Document Chunk 493 ---
+济南 8 号线一期 72 地铁 地铁 A 型 
+
+--- Document Chunk 494 ---
+成都天府国际机场旅客自动捷运系统 1 自导向轨道 自导向轨道
+
+--- Document Chunk 495 ---
+车辆 
+
+--- Document Chunk 496 ---
+上海 13 号线东延伸 36 地铁 地铁 A 型 
+
+--- Document Chunk 497 ---
+绍兴 2 号线二期 40 地铁 地铁 B 型 
+
+--- Document Chunk 498 ---
+无锡 5 号线 164 地铁 地铁 B 型 
+
+--- Document Chunk 499 ---
+杭州 9 号线二期 60 地铁 地铁 B 型 
+
+--- Document Chunk 500 ---
+杭州 15 号线一期 318 地铁 地铁 B 型 
+
+--- Document Chunk 501 ---
+杭州 18 号线一期 192 地铁 地铁 A 型 
+
+--- Document Chunk 502 ---
+深圳机场旅客捷运系统 6 自导向轨道 自导向轨道
+
+--- Document Chunk 503 ---
+车辆 
+
+--- Document Chunk 504 ---
+重庆 15 号线综合检测车 3 市域快轨 市域 As 型 
+
+--- Document Chunk 505 ---
+青岛 8 号线支线 108 地铁 地铁 B 型 
+
+--- Document Chunk 506 ---
+中国城市轨道交通协会
+
+--- Document Chunk 507 ---
+ 
+
+--- Document Chunk 508 ---
+13 
+
+--- Document Chunk 509 ---
+序号 中标企业
+
+--- Document Chunk 510 ---
+名称 中标项目名称 中标辆数
+
+--- Document Chunk 511 ---
+（辆） 系统制式 车型 
+
+--- Document Chunk 512 ---
+深圳 5 号线增购及东延 234 地铁 地铁 A 型 
+
+--- Document Chunk 513 ---
+青岛 7 号线 180 地铁 地铁 B 型 
+
+--- Document Chunk 514 ---
+长春 7 号线一期 120 地铁 地铁 B 型 
+
+--- Document Chunk 515 ---
+15 个项目 1578 中标车辆数占比 46.09% 
+
+--- Document Chunk 516 ---
+2 克诺尔公
+
+--- Document Chunk 517 ---
+司 
+
+--- Document Chunk 518 ---
+杭州 10 号线三期 84 地铁 地铁 A 型 
+
+--- Document Chunk 519 ---
+济南 6 号线 300 地铁 地铁 A 型 
+
+--- Document Chunk 520 ---
+杭州 5 号线增购 54 地铁 地铁 B 型 
+
+--- Document Chunk 521 ---
+石家庄 1 号线二期第二阶段 12 地铁 地铁 A 型 
+
+--- Document Chunk 522 ---
+石家庄 1 号线三期 42 地铁 地铁 A 型 
+
+--- Document Chunk 523 ---
+无锡 4 号线二期 54 地铁 地铁 B 型 
+
+--- Document Chunk 524 ---
+深大城际深圳机场至坪山段 192 市域快轨 市域 C 型 
+
+--- Document Chunk 525 ---
+深惠城际大鹏支线 52 市域快轨 市域 C 型 
+
+--- Document Chunk 526 ---
+杭州 3 号线二期 84 地铁 地铁 B 型 
+
+--- Document Chunk 527 ---
+杭州地 4 号线三期 84 地铁 地铁 B 型 
+
+--- Document Chunk 528 ---
+北京 28 号线（CBD 线） 102 地铁 地铁 Lb 型 
+
+--- Document Chunk 529 ---
+11 个项目 1060 中标车辆数占比 30.96% 
+
+--- Document Chunk 530 ---
+3 
+
+--- Document Chunk 531 ---
+北京纵横
+
+--- Document Chunk 532 ---
+机电科技
+
+--- Document Chunk 533 ---
+有限公司 
+
+--- Document Chunk 534 ---
+北京 22 号线（平谷线） 384 市域快轨 市域 D 型 
+
+--- Document Chunk 535 ---
+合肥新桥机场 S1 线 84 市域快轨 市域 B 型 
+
+--- Document Chunk 536 ---
+杭州 12 号线一期 140 地铁 地铁 B 型 
+
+--- Document Chunk 537 ---
+3 个项目 608 中标车辆数占比 17.76% 
+
+--- Document Chunk 538 ---
+4 
+
+--- Document Chunk 539 ---
+深圳中数
+
+--- Document Chunk 540 ---
+浦泰科技
+
+--- Document Chunk 541 ---
+有限公司 
+
+--- Document Chunk 542 ---
+深圳 12 号线二期 120 地铁 地铁 A 型 
+
+--- Document Chunk 543 ---
+1 个项目 120 中标车辆数占比 3.50% 
+
+--- Document Chunk 544 ---
+5 
+
+--- Document Chunk 545 ---
+比亚迪机
+
+--- Document Chunk 546 ---
+电设备有
+
+--- Document Chunk 547 ---
+限公司 
+
+--- Document Chunk 548 ---
+济南低运量轨道交通高新东区环线 58 导轨式胶轮 导轨式胶轮
+
+--- Document Chunk 549 ---
+车辆 
+
+--- Document Chunk 550 ---
+1 个项目 58 中标车辆数占比 1.69% 
+
+--- Document Chunk 551 ---
+总计 31 个项目 3424 100% 
+
+--- Document Chunk 552 ---
+中国城市轨道交通协会
+
+--- Document Chunk 553 ---
+ 
+
+--- Document Chunk 554 ---
+14 
+
+--- Document Chunk 555 ---
+五、 信号系统篇 
+
+--- Document Chunk 556 ---
+2024 年，全国共有 20 个城市发布 50 个城轨交通信号系统
+
+--- Document Chunk 557 ---
+采购项目，涉及 25 条新建线路，7 条大修改造线路，18 条延伸
+
+--- Document Chunk 558 ---
+线以及 2 个增购项目，共 52 条城轨交通线路，采购总金额
+
+--- Document Chunk 559 ---
+131.45 亿元，相比2023 年，项目数量和总金额都有明显增加。 
+
+--- Document Chunk 560 ---
+1 按城市统计 2024 年城轨交通信号系统市场情况 
+
+--- Document Chunk 561 ---
+2024 年，杭州、北京、上海、合肥等 20 个城市发布了 50
+
+--- Document Chunk 562 ---
+个信号系统采购项目。 
+
+--- Document Chunk 563 ---
+其中，从采购项目数量看，杭州、北京发布的项目数量最
+
+--- Document Chunk 564 ---
+多，分别为 9 个项目、5 个项目；从采购金额来看，杭州、北京、
+
+--- Document Chunk 565 ---
+上海 3 市的采购金额均超过 15 亿元；另外，从线路类型来看，
+
+--- Document Chunk 566 ---
+上海、杭州、合肥 3 市涉及新建线路项目数量最多，均为 4 条；
+
+--- Document Chunk 567 ---
+北京涉及信号系统改造项目数量最多，为 2 个。2024 年各城市
+
+--- Document Chunk 568 ---
+城轨交通信号系统市场情况详见表 7。2024 年各城市城轨交通
+
+--- Document Chunk 569 ---
+信号系统里程情况详见图4。 
+
+--- Document Chunk 570 ---
+表 7  2024 年各城市城轨交通信号系统市场情况 
+
+--- Document Chunk 571 ---
+序
+
+--- Document Chunk 572 ---
+号 城市 项目数量 
+
+--- Document Chunk 573 ---
+（个） 
+
+--- Document Chunk 574 ---
+线路条数 
+
+--- Document Chunk 575 ---
+（条） 线路类型 里程 
+
+--- Document Chunk 576 ---
+（公里） 
+
+--- Document Chunk 577 ---
+采购金额 
+
+--- Document Chunk 578 ---
+（亿元） 
+
+--- Document Chunk 579 ---
+1 杭州 9 9 4 新线+5 延伸线 177.71 21.02 
+
+--- Document Chunk 580 ---
+2 北京 5 5 2 新线+2 改造线+1 增购 176.88 20.12 
+
+--- Document Chunk 581 ---
+3 上海 3 5 4 新线+1 改造线 204.10  17.42 
+
+--- Document Chunk 582 ---
+中国城市轨道交通协会
+
+--- Document Chunk 583 ---
+ 
+
+--- Document Chunk 584 ---
+15 
+
+--- Document Chunk 585 ---
+序
+
+--- Document Chunk 586 ---
+号 城市 项目数量 
+
+--- Document Chunk 587 ---
+（个） 
+
+--- Document Chunk 588 ---
+线路条数 
+
+--- Document Chunk 589 ---
+（条） 线路类型 里程 
+
+--- Document Chunk 590 ---
+（公里） 
+
+--- Document Chunk 591 ---
+采购金额 
+
+--- Document Chunk 592 ---
+（亿元） 
+
+--- Document Chunk 593 ---
+4 合肥 4 4 4 新线 126.20  12.56 
+
+--- Document Chunk 594 ---
+5 武汉 3 3 1 新线+1 改造+1 延伸 110.48 11.24  
+
+--- Document Chunk 595 ---
+6 深圳 4 4 1 新线+2 延伸线+1 增购 75.01 5.65 
+
+--- Document Chunk 596 ---
+7 济南 3 3 3 新线 96.30  7.26 
+
+--- Document Chunk 597 ---
+8 天津 2 2 1 新线+1 改造线 49.95 6.97 
+
+--- Document Chunk 598 ---
+9 沈阳 2 2 1 新线+1 改造线 61.80  5.82 
+
+--- Document Chunk 599 ---
+10 青岛 2 2 2 延伸线 37.28 5.03  
+
+--- Document Chunk 600 ---
+11 无锡 2 2 1 新线+1 延伸线 37.80  4.15 
+
+--- Document Chunk 601 ---
+12 长春 2 2 1 新线+1 延伸线 37.27 3.42 
+
+--- Document Chunk 602 ---
+13 福州 2 2 2 延伸线 18.95 2.51 
+
+--- Document Chunk 603 ---
+14 温州 1 1 1 新线 33.20  2.19 
+
+--- Document Chunk 604 ---
+15 绍兴 1 1 1 延伸线 26.10  1.76 
+
+--- Document Chunk 605 ---
+16 重庆 1 1 1 延伸线 6.72 1.62 
+
+--- Document Chunk 606 ---
+17 乌鲁木齐 1 1 1 新线 13.94 1.35 
+
+--- Document Chunk 607 ---
+18 郑州 1 1 1 改造线 41.20  0.83 
+
+--- Document Chunk 608 ---
+19 石家庄 1 1 1 延伸线 3.77 0.36 
+
+--- Document Chunk 609 ---
+20 昆明 1 1 1 延伸线 1.62 0.17 
+
+--- Document Chunk 610 ---
+总计 50 52 25 新线+7 改造+18 延伸+2 增购 1336.28 131.45 
+
+--- Document Chunk 611 ---
+ 
+
+--- Document Chunk 612 ---
+中国城市轨道交通协会
+
+--- Document Chunk 613 ---
+ 
+
+--- Document Chunk 614 ---
+16 
+
+--- Document Chunk 615 ---
+ 
+
+--- Document Chunk 616 ---
+ 图 4  2024 年各城市城轨交通信号系统里程情况（公里） 
+
+--- Document Chunk 617 ---
+2 按中标企业统计 2024 年城轨交通信号系统市场情况 
+
+--- Document Chunk 618 ---
+2024 年，共有 9 家信号系统制造企业承揽 50 个城市轨道交
+
+--- Document Chunk 619 ---
+通信号系统采购项目，2024 年城轨交通各信号系统制造企业中
+
+--- Document Chunk 620 ---
+标总体情况详见表8。 
+
+--- Document Chunk 621 ---
+表 8  2024 年城轨交通各信号系统制造企业中标总体情况 
+
+--- Document Chunk 622 ---
+序号 中标企业名称 中标项目数量
+
+--- Document Chunk 623 ---
+（个） 
+
+--- Document Chunk 624 ---
+中标金额 
+
+--- Document Chunk 625 ---
+（亿元） 中标金额全年占比 
+
+--- Document Chunk 626 ---
+1 卡斯柯信号有限公司 14 36.69 27.91% 
+
+--- Document Chunk 627 ---
+2 浙江众合科技股份有限公司 11 29.00  22.06% 
+
+--- Document Chunk 628 ---
+3 交控科技股份有限公司 10 26.43 20.11% 
+
+--- Document Chunk 629 ---
+4 上海电气泰雷兹交通自动化系统有限公司 5 14.76 11.23% 
+
+--- Document Chunk 630 ---
+5 通号城市轨道交通技术有限公司 3 8.47 6.44% 
+
+--- Document Chunk 631 ---
+6 株洲中车时代电气股份有限公司 3 6.36 4.84% 
+
+--- Document Chunk 632 ---
+7 青岛海信微联信号有限公司 1 5.03 3.83% 
+
+--- Document Chunk 633 ---
+0.00
+
+--- Document Chunk 634 ---
+50.00
+
+--- Document Chunk 635 ---
+100.00
+
+--- Document Chunk 636 ---
+150.00
+
+--- Document Chunk 637 ---
+200.00
+
+--- Document Chunk 638 ---
+250.00
+
+--- Document Chunk 639 ---
+中国城市轨道交通协会
+
+--- Document Chunk 640 ---
+ 
+
+--- Document Chunk 641 ---
+17 
+
+--- Document Chunk 642 ---
+序号 中标企业名称 中标项目数量
+
+--- Document Chunk 643 ---
+（个） 
+
+--- Document Chunk 644 ---
+中标金额 
+
+--- Document Chunk 645 ---
+（亿元） 中标金额全年占比 
+
+--- Document Chunk 646 ---
+8 西门子交通技术（北京）有限公司 2 2.51 1.91% 
+
+--- Document Chunk 647 ---
+9 比亚迪通信信号有限公司 1 2.20  1.67% 
+
+--- Document Chunk 648 ---
+共计 50 131.45 100% 
+
+--- Document Chunk 649 ---
+卡斯柯信号有限公司、浙江众合科技股份有限公司、交控
+
+--- Document Chunk 650 ---
+科技股份有限公司、上海电气泰雷兹交通自动化系统有限公司
+
+--- Document Chunk 651 ---
+4 家企业中标金额市场占比均超过 10%，占全年市场总额的
+
+--- Document Chunk 652 ---
+81.31%。2024 年城轨交通各信号系统制造企业市场占比详见图
+
+--- Document Chunk 653 ---
+5。2024 年城轨交通各信号系统制造企业中标项目情况详见表 9。 
+
+--- Document Chunk 654 ---
+ 
+
+--- Document Chunk 655 ---
+图 5  2024 年城轨交通各信号系统制造企业市场占比 
+
+--- Document Chunk 656 ---
+  
+
+--- Document Chunk 657 ---
+27.91%
+
+--- Document Chunk 658 ---
+22.06%
+
+--- Document Chunk 659 ---
+20.11%
+
+--- Document Chunk 660 ---
+11.23%
+
+--- Document Chunk 661 ---
+6.44%
+
+--- Document Chunk 662 ---
+4.84%
+
+--- Document Chunk 663 ---
+3.83%
+
+--- Document Chunk 664 ---
+1.91%
+
+--- Document Chunk 665 ---
+1.67%
+
+--- Document Chunk 666 ---
+卡斯柯信号有限公司
+
+--- Document Chunk 667 ---
+浙江众合科技股份有限公司
+
+--- Document Chunk 668 ---
+交控科技股份有限公司
+
+--- Document Chunk 669 ---
+上海电气泰雷兹交通自动化系统有限公司
+
+--- Document Chunk 670 ---
+通号城市轨道交通技术有限公司
+
+--- Document Chunk 671 ---
+株洲中车时代电气股份有限公司
+
+--- Document Chunk 672 ---
+青岛海信微联信号有限公司
+
+--- Document Chunk 673 ---
+西门子交通技术（北京）有限公司
+
+--- Document Chunk 674 ---
+比亚迪通信信号有限公司
+
+--- Document Chunk 675 ---
+中国城市轨道交通协会
+
+--- Document Chunk 676 ---
+ 
+
+--- Document Chunk 677 ---
+18 
+
+--- Document Chunk 678 ---
+表 9  2024 年城轨交通各信号系统制造企业中标项目情况 
+
+--- Document Chunk 679 ---
+序
+
+--- Document Chunk 680 ---
+号 
+
+--- Document Chunk 681 ---
+中标企
+
+--- Document Chunk 682 ---
+业名称 项目名称 中标金额 
+
+--- Document Chunk 683 ---
+（亿元） 系统制式 车型 信号制式 最高运行速度
+
+--- Document Chunk 684 ---
+（公里/小时） 
+
+--- Document Chunk 685 ---
+列数 
+
+--- Document Chunk 686 ---
+（列） 
+
+--- Document Chunk 687 ---
+车站数量 
+
+--- Document Chunk 688 ---
+（座） 
+
+--- Document Chunk 689 ---
+里程 
+
+--- Document Chunk 690 ---
+（公里） 
+
+--- Document Chunk 691 ---
+1 
+
+--- Document Chunk 692 ---
+卡斯柯
+
+--- Document Chunk 693 ---
+信号有
+
+--- Document Chunk 694 ---
+限公司 
+
+--- Document Chunk 695 ---
+昆明 2 号线二期（海东公园） 0.17 地铁 地铁 B 型 CBTC 80 2 1 1.62 
+
+--- Document Chunk 696 ---
+深圳 5 号线西延 0.37 地铁 地铁 A 型 CBTC 85 1 3 2.88 
+
+--- Document Chunk 697 ---
+深圳 16 号线二期 1.16 地铁 地铁 A 型 CBTC 80 2 8 9.54 
+
+--- Document Chunk 698 ---
+济南 6 号线 3.40 地铁 地铁 A 型 CBTC 80 50 32 40.10  
+
+--- Document Chunk 699 ---
+上海崇明线 4.09 市域快轨 市域 A 型 CBTC 120 40 8 42.32 
+
+--- Document Chunk 700 ---
+青岛 7 号线二期 2.95 地铁 地铁 B 型 CBTC 100 30 14 16.88 
+
+--- Document Chunk 701 ---
+长春 1 号线南延 0.93 地铁 地铁 B 型 CBTC 80 13 6 6.91 
+
+--- Document Chunk 702 ---
+深惠城际前海保税区至坪地段 3.49 市域快轨 市域动车组 其他 160 16 11 58.90  
+
+--- Document Chunk 703 ---
+武汉 1 号线改造 5.10 地铁 地铁 B 型 TACS 80 72 32 38.54 
+
+--- Document Chunk 704 ---
+上海市域嘉闵线、南汇支线、上海示范区线 7.29 市域快轨 市域动车组 其他 160 48 30 128.69 
+
+--- Document Chunk 705 ---
+北京 5 号线改造 3.26 地铁 地铁 B 型 CBTC 80 61 23 27.79 
+
+--- Document Chunk 706 ---
+中国城市轨道交通协会
+
+--- Document Chunk 707 ---
+ 
+
+--- Document Chunk 708 ---
+19 
+
+--- Document Chunk 709 ---
+序
+
+--- Document Chunk 710 ---
+号 
+
+--- Document Chunk 711 ---
+中标企
+
+--- Document Chunk 712 ---
+业名称 项目名称 中标金额 
+
+--- Document Chunk 713 ---
+（亿元） 系统制式 车型 信号制式 最高运行速度
+
+--- Document Chunk 714 ---
+（公里/小时） 
+
+--- Document Chunk 715 ---
+列数 
+
+--- Document Chunk 716 ---
+（列） 
+
+--- Document Chunk 717 ---
+车站数量 
+
+--- Document Chunk 718 ---
+（座） 
+
+--- Document Chunk 719 ---
+里程 
+
+--- Document Chunk 720 ---
+（公里） 
+
+--- Document Chunk 721 ---
+北京 6 号线二期增购 0.35 地铁 地铁 B 型 CBTC 100 0 1 2.07 
+
+--- Document Chunk 722 ---
+无锡 5 号线 3.50 地铁 地铁 B 型 CBTC 80 41 24 29.50  
+
+--- Document Chunk 723 ---
+深圳 8 号线三期增购 0.63 地铁 地铁 A 型 CBTC 85 0 1 3.69 
+
+--- Document Chunk 724 ---
+14 个项目（7 新线+5 延伸线+2 改造+2 增
+
+--- Document Chunk 725 ---
+购） 36.69 / / / / 376 194 409.43 
+
+--- Document Chunk 726 ---
+2 
+
+--- Document Chunk 727 ---
+浙江众
+
+--- Document Chunk 728 ---
+合科技
+
+--- Document Chunk 729 ---
+股份有
+
+--- Document Chunk 730 ---
+限公司 
+
+--- Document Chunk 731 ---
+沈阳 6 号线 3.44  地铁 地铁 B 型 CBTC 80 43 28 34.00  
+
+--- Document Chunk 732 ---
+郑州 1 号线 2023-2026 年部分信号系统更新
+
+--- Document Chunk 733 ---
+改造 0.83  地铁 地铁 B 型 CBTC 80 25 30 41.20  
+
+--- Document Chunk 734 ---
+绍兴 2 号线二期 1.76  地铁 地铁 B 型 FAO 120 10 7 26.10  
+
+--- Document Chunk 735 ---
+温州 S3 一期 2.19  市域快轨 市域 B 型 CBTC 120 11 11 33.20  
+
+--- Document Chunk 736 ---
+杭州 15 号线一期 5.71  地铁 地铁 A 型 FAO 80 53 30 41.02 
+
+--- Document Chunk 737 ---
+杭州 18 号线一期 5.37  地铁 地铁 A 型 FAO 120 46 19 48.30  
+
+--- Document Chunk 738 ---
+杭州 3 号线二期 0.98  地铁 地铁 A 型 CBTC 80 14 5 7.50  
+
+--- Document Chunk 739 ---
+杭州 9 号线二期 1.11  地铁 地铁 B 型 CBTC 80 10 7 10.00  
+
+--- Document Chunk 740 ---
+中国城市轨道交通协会
+
+--- Document Chunk 741 ---
+ 
+
+--- Document Chunk 742 ---
+20 
+
+--- Document Chunk 743 ---
+序
+
+--- Document Chunk 744 ---
+号 
+
+--- Document Chunk 745 ---
+中标企
+
+--- Document Chunk 746 ---
+业名称 项目名称 中标金额 
+
+--- Document Chunk 747 ---
+（亿元） 系统制式 车型 信号制式 最高运行速度
+
+--- Document Chunk 748 ---
+（公里/小时） 
+
+--- Document Chunk 749 ---
+列数 
+
+--- Document Chunk 750 ---
+（列） 
+
+--- Document Chunk 751 ---
+车站数量 
+
+--- Document Chunk 752 ---
+（座） 
+
+--- Document Chunk 753 ---
+里程 
+
+--- Document Chunk 754 ---
+（公里） 
+
+--- Document Chunk 755 ---
+杭州 4 号线三期 1.22  地铁 地铁 B 型 CBTC 80 14 8 9.80  
+
+--- Document Chunk 756 ---
+沈阳 2024-2027 年 1 号线 CBTC 信号系统国
+
+--- Document Chunk 757 ---
+产化改造 2.38  地铁 地铁 B 型 CBTC 80 33 22 27.80  
+
+--- Document Chunk 758 ---
+杭州 12 号线一期 4.01  地铁 地铁 A 型 FAO 100 33 19 26.20  
+
+--- Document Chunk 759 ---
+11 个项目（5 新线+4 延伸线+2 改造） 29.00  / / / / 292 186 305.12 
+
+--- Document Chunk 760 ---
+3 
+
+--- Document Chunk 761 ---
+交控科
+
+--- Document Chunk 762 ---
+技股份
+
+--- Document Chunk 763 ---
+有限公
+
+--- Document Chunk 764 ---
+司 
+
+--- Document Chunk 765 ---
+北京 28 号线 1.56  地铁 地铁 Lb 型 FAO 80 17 3 8.10  
+
+--- Document Chunk 766 ---
+济南 8 号线 1.66  地铁 地铁 A 型 FAO 100 16 14 25.50  
+
+--- Document Chunk 767 ---
+北京 22 号线（平谷线） 4.59  市域快轨 市域 D 型 FAO 160 48 22 81.82 
+
+--- Document Chunk 768 ---
+天津 8 号线 1.94  地铁 地铁 A 型 FAO 80 19 21 22.95 
+
+--- Document Chunk 769 ---
+杭州至德清市域铁路 
+
+--- Document Chunk 770 ---
+2.62  
+
+--- Document Chunk 771 ---
+市域快轨 市域 D 型 CBTC 120 21 9 25.60  
+
+--- Document Chunk 772 ---
+杭州 10 号线三期 地铁 地铁 A 型 CBTC 120 0 2 4.20  
+
+--- Document Chunk 773 ---
+杭州 10 号线二期 地铁 地铁 A 型 CBTC 120 0 2 5.09  
+
+--- Document Chunk 774 ---
+武汉新港线一期和新港线西延线 2.35  地铁 地铁 A 型 CBTC 120 18 13 29.94  
+
+--- Document Chunk 775 ---
+中国城市轨道交通协会
+
+--- Document Chunk 776 ---
+ 
+
+--- Document Chunk 777 ---
+21 
+
+--- Document Chunk 778 ---
+序
+
+--- Document Chunk 779 ---
+号 
+
+--- Document Chunk 780 ---
+中标企
+
+--- Document Chunk 781 ---
+业名称 项目名称 中标金额 
+
+--- Document Chunk 782 ---
+（亿元） 系统制式 车型 信号制式 最高运行速度
+
+--- Document Chunk 783 ---
+（公里/小时） 
+
+--- Document Chunk 784 ---
+列数 
+
+--- Document Chunk 785 ---
+（列） 
+
+--- Document Chunk 786 ---
+车站数量 
+
+--- Document Chunk 787 ---
+（座） 
+
+--- Document Chunk 788 ---
+里程 
+
+--- Document Chunk 789 ---
+（公里） 
+
+--- Document Chunk 790 ---
+乌鲁木齐 2 号线 1.35  地铁 地铁 A 型 CBTC 80 12 10 13.94 
+
+--- Document Chunk 791 ---
+北京 10 号线改造 10.36  地铁 地铁 B 型 CBTC 80 116 45 57.10  
+
+--- Document Chunk 792 ---
+10 个项目（7 新线+2 延伸线+1 改造） 26.43 / / / / 267 141 274.24 
+
+--- Document Chunk 793 ---
+4 
+
+--- Document Chunk 794 ---
+上海电
+
+--- Document Chunk 795 ---
+气泰雷
+
+--- Document Chunk 796 ---
+兹交通
+
+--- Document Chunk 797 ---
+自动化
+
+--- Document Chunk 798 ---
+系统有
+
+--- Document Chunk 799 ---
+限公司 
+
+--- Document Chunk 800 ---
+长春 9 号线（空港线）一期 2.49  地铁 地铁 B 型 CBTC 120 15 8 30.36  
+
+--- Document Chunk 801 ---
+青岛 8 号线支线 2.08  地铁 地铁 B 型 CBTC 120 18 18 20.40  
+
+--- Document Chunk 802 ---
+上海 6 号线改造 6.04  地铁 地铁 A 型 CBTC 80 76 28 33.09  
+
+--- Document Chunk 803 ---
+石家庄 1 号线三期 0.36  地铁 地铁 A 型 CBTC 80 7 2 3.77 
+
+--- Document Chunk 804 ---
+武汉 3 号线一期改造及二期延伸 3.79  地铁 地铁 A 型 CBTC 80 56 29 42.00  
+
+--- Document Chunk 805 ---
+5 个项目（1 新线+3 延伸线+1 改造） 14.76 / / / / 172 85 129.62 
+
+--- Document Chunk 806 ---
+5 
+
+--- Document Chunk 807 ---
+通号城
+
+--- Document Chunk 808 ---
+市轨道
+
+--- Document Chunk 809 ---
+交通技
+
+--- Document Chunk 810 ---
+术有限
+
+--- Document Chunk 811 ---
+公司 
+
+--- Document Chunk 812 ---
+合肥 8 号线一期 2.74  地铁 地铁 B 型 FAO 100 19 12 22.50  
+
+--- Document Chunk 813 ---
+重庆 6 号线东延 1.62  地铁 地铁 B 型 其他 100 7 4 6.72 
+
+--- Document Chunk 814 ---
+合肥新桥机场 S1 线 4.11  市域快轨 市域 B 型 TACS 120 21 14 47.50  
+
+--- Document Chunk 815 ---
+3 个项目(2 新线+1 延伸线） 8.47 / / / / 47 30 76.72 
+
+--- Document Chunk 816 ---
+中国城市轨道交通协会
+
+--- Document Chunk 817 ---
+ 
+
+--- Document Chunk 818 ---
+22 
+
+--- Document Chunk 819 ---
+序
+
+--- Document Chunk 820 ---
+号 
+
+--- Document Chunk 821 ---
+中标企
+
+--- Document Chunk 822 ---
+业名称 项目名称 中标金额 
+
+--- Document Chunk 823 ---
+（亿元） 系统制式 车型 信号制式 最高运行速度
+
+--- Document Chunk 824 ---
+（公里/小时） 
+
+--- Document Chunk 825 ---
+列数 
+
+--- Document Chunk 826 ---
+（列） 
+
+--- Document Chunk 827 ---
+车站数量 
+
+--- Document Chunk 828 ---
+（座） 
+
+--- Document Chunk 829 ---
+里程 
+
+--- Document Chunk 830 ---
+（公里） 
+
+--- Document Chunk 831 ---
+6 
+
+--- Document Chunk 832 ---
+株洲中
+
+--- Document Chunk 833 ---
+车时代
+
+--- Document Chunk 834 ---
+电气股
+
+--- Document Chunk 835 ---
+份有限
+
+--- Document Chunk 836 ---
+公司 
+
+--- Document Chunk 837 ---
+合肥 6 号线一期 3.43 地铁 地铁 B 型 FAO 100 42 22 35.20  
+
+--- Document Chunk 838 ---
+合肥 7 号线一期 2.28 地铁 地铁 B 型 FAO 80 19 17 21.00  
+
+--- Document Chunk 839 ---
+无锡 4 号线二期 0.65 地铁 地铁 B 型 CBTC 80 9 6 8.30  
+
+--- Document Chunk 840 ---
+3 个项目（2 新线+1 延伸线） 6.36 / / / / 70 45 64.50  
+
+--- Document Chunk 841 ---
+7 
+
+--- Document Chunk 842 ---
+青岛海
+
+--- Document Chunk 843 ---
+信微联
+
+--- Document Chunk 844 ---
+信号有
+
+--- Document Chunk 845 ---
+限公司 
+
+--- Document Chunk 846 ---
+神铁二号线（天津）2024 年 
+
+--- Document Chunk 847 ---
+信号系统更新改造 5.03  地铁 地铁 B 型 CBTC 80 36 20 27.00  
+
+--- Document Chunk 848 ---
+1 个项目（1 改造） 5.03 / / / / 36 20 27 
+
+--- Document Chunk 849 ---
+8 
+
+--- Document Chunk 850 ---
+西门子
+
+--- Document Chunk 851 ---
+交通技
+
+--- Document Chunk 852 ---
+术（北
+
+--- Document Chunk 853 ---
+京）有
+
+--- Document Chunk 854 ---
+限公司 
+
+--- Document Chunk 855 ---
+福州 2 号线东延线一期 1.62  地铁 地铁 B 型 CBTC 80 24 8 13.40  
+
+--- Document Chunk 856 ---
+福州 6 号线东调段 0.89  地铁 地铁 B 型 CBTC 100 12 5 5.55 
+
+--- Document Chunk 857 ---
+2 个项目（2 延伸线） 2.51 / / / / 36 13 18.95 
+
+--- Document Chunk 858 ---
+9 
+
+--- Document Chunk 859 ---
+比亚迪
+
+--- Document Chunk 860 ---
+通信信
+
+--- Document Chunk 861 ---
+号有限
+
+--- Document Chunk 862 ---
+公司 
+
+--- Document Chunk 863 ---
+济南低运量轨道交通高新东区环线 2.20  导轨式胶
+
+--- Document Chunk 864 ---
+轮 
+
+--- Document Chunk 865 ---
+导轨式胶轮车
+
+--- Document Chunk 866 ---
+辆 TACS 80 29 32 30.70  
+
+--- Document Chunk 867 ---
+1 个项目（1 新线） 2.20  / / / / 29 32 30.7 
+
+--- Document Chunk 868 ---
+总计 50 131.45 / / / / 1325 746 1336.28 
+
+--- Document Chunk 869 ---
+中国城市轨道交通协会
+
+--- Document Chunk 870 ---
+ 
+
+--- Document Chunk 871 ---
+23 
+
+--- Document Chunk 872 ---
+3 按系统制式统计 2024 年城轨交通信号系统市场情况 
+
+--- Document Chunk 873 ---
+2024 年，各城市发布的 50 个城轨交通信号系统采购项目涉
+
+--- Document Chunk 874 ---
+及地铁、市域快轨、导轨式胶轮 3 种系统制式，2024 年城轨交
+
+--- Document Chunk 875 ---
+通信号系统各系统制式里程占比详见图 6。其中地铁占比
+
+--- Document Chunk 876 ---
+66.42%，市域快轨占比31.28%，导轨式胶轮占比2.30%。 
+
+--- Document Chunk 877 ---
+ 
+
+--- Document Chunk 878 ---
+图 6  2024 年城轨交通信号系统各系统制式里程占比 
+
+--- Document Chunk 879 ---
+2024 年城轨交通信号系统各系统制式市场情况详见表 10。
+
+--- Document Chunk 880 ---
+其中地铁项目共计 42 个，总金额达 100.87 亿元，涉及车站数量
+
+--- Document Chunk 881 ---
+共计609 座，列车数共计1091 列。 
+
+--- Document Chunk 882 ---
+表 10  2024 年城轨交通信号系统各系统制式市场情况 
+
+--- Document Chunk 883 ---
+序号 系统制式 项目数量
+
+--- Document Chunk 884 ---
+（个） 
+
+--- Document Chunk 885 ---
+采购金额 
+
+--- Document Chunk 886 ---
+（亿元） 
+
+--- Document Chunk 887 ---
+车站数量 
+
+--- Document Chunk 888 ---
+（座） 
+
+--- Document Chunk 889 ---
+列数 
+
+--- Document Chunk 890 ---
+（列） 
+
+--- Document Chunk 891 ---
+里程 
+
+--- Document Chunk 892 ---
+（公里） 
+
+--- Document Chunk 893 ---
+1 地铁 42 100.87 609 1091 887.55 
+
+--- Document Chunk 894 ---
+2 市域快轨 7 28.38 105 205 418.03 
+
+--- Document Chunk 895 ---
+3 导轨式胶轮 1 2.20 32 29 30.70 
+
+--- Document Chunk 896 ---
+66.42%
+
+--- Document Chunk 897 ---
+31.28%
+
+--- Document Chunk 898 ---
+2.30%
+
+--- Document Chunk 899 ---
+地铁
+
+--- Document Chunk 900 ---
+市域快轨
+
+--- Document Chunk 901 ---
+导轨式胶轮
+
+--- Document Chunk 902 ---
+中国城市轨道交通协会
+
+--- Document Chunk 903 ---
+ 
+
+--- Document Chunk 904 ---
+24 
+
+--- Document Chunk 905 ---
+4 按信号制式统计 2024 年城轨交通信号系统市场情况 
+
+--- Document Chunk 906 ---
+2024 年，各城市发布的 50 个城轨交通信号系统采购项目按
+
+--- Document Chunk 907 ---
+信号制式分为 CBTC、FAO、TACS 和其他，其中 CBTC 信号制
+
+--- Document Chunk 908 ---
+式项目 33 个，里程共计 666.54 公里，车站数量共计 437 座，列
+
+--- Document Chunk 909 ---
+车数共计 810 列；FAO 信号制式项目 11 个，里程共计 358.69
+
+--- Document Chunk 910 ---
+公里，车站数量共计 186 座，列车数共计 322 列。GoA 等级要
+
+--- Document Chunk 911 ---
+求达到 GoA3/GoA4 的项目共计 25 个，占项目总数比 50%。
+
+--- Document Chunk 912 ---
+2024 年城轨交通信号系统各信号制式市场情况详见表11。 
+
+--- Document Chunk 913 ---
+表 11  2024 年城轨交通信号系统各信号制式市场情况 
+
+--- Document Chunk 914 ---
+序号 信号制式 项目数量
+
+--- Document Chunk 915 ---
+（个） 
+
+--- Document Chunk 916 ---
+里程 
+
+--- Document Chunk 917 ---
+（公里） 
+
+--- Document Chunk 918 ---
+车站数量 
+
+--- Document Chunk 919 ---
+（座） 
+
+--- Document Chunk 920 ---
+列数 
+
+--- Document Chunk 921 ---
+（列） 
+
+--- Document Chunk 922 ---
+1 CBTC 33 666.54 437 810 
+
+--- Document Chunk 923 ---
+2 FAO 11 358.69 186 322 
+
+--- Document Chunk 924 ---
+3 TACS 3 116.74 78 122 
+
+--- Document Chunk 925 ---
+4 其他 3 194.31 45 71 
+
+--- Document Chunk 926 ---
+5 按最高运行速度统计 2024 年城轨交通信号系统市场情况 
+
+--- Document Chunk 927 ---
+2024 年，各城市发布的 50 个城轨交通信号系统采购项目按
+
+--- Document Chunk 928 ---
+最高运行速度分为 80 公里/小时、85 公里/小时、100 公里/小时、
+
+--- Document Chunk 929 ---
+120 公里/小时和 160 公里/小时五种，其中地铁最高运行速度为
+
+--- Document Chunk 930 ---
+80 公里/小时的项目最多，市域快轨最高运行速度分 120 公里/
+
+--- Document Chunk 931 ---
+小时和 160 公里/小时两种。2024 年城轨交通信号系统采购项目
+
+--- Document Chunk 932 ---
+按最高运行速度和系统制式统计情况详见表 12。 
+
+--- Document Chunk 933 ---
+中国城市轨道交通协会
+
+--- Document Chunk 934 ---
+ 
+
+--- Document Chunk 935 ---
+25 
+
+--- Document Chunk 936 ---
+表12  2024 年城轨交通信号系统采购项目按最高运行速度和系统制式统计情况 
+
+--- Document Chunk 937 ---
+序号 系统制式 
+
+--- Document Chunk 938 ---
+最高运行速度（公里/小时） 
+
+--- Document Chunk 939 ---
+80 85 100 120 160 
+
+--- Document Chunk 940 ---
+1 地铁 25 2 8 7 / 
+
+--- Document Chunk 941 ---
+2 市域快轨 / / / 4 3 
+
+--- Document Chunk 942 ---
+3 导轨式胶轮 1 / / / / 
+
+--- Document Chunk 943 ---
+总计 26 个项目 2 个项目 8 个项目 11 个项目 3 个项目 
+
+--- Document Chunk 944 ---
+6 2022 年-2024 年城轨交通信号系统市场情况对比 
+
+--- Document Chunk 945 ---
+6.1 按中标项目对比 
+
+--- Document Chunk 946 ---
+对比过去 3 年城市轨道交通信号系统市场变化情况，2024
+
+--- Document Chunk 947 ---
+年的中标项目数量及中标金额呈现一定幅度的增长。相比 2023
+
+--- Document Chunk 948 ---
+年，中标项目数量从 31 个增长到 50 个，中标金额实现了
+
+--- Document Chunk 949 ---
+31.02%的增长。2022 年-2024 年度城轨交通信号系统市场情况
+
+--- Document Chunk 950 ---
+对比详见表13。 
+
+--- Document Chunk 951 ---
+表 13  2022 年-2024 年度城市轨道交通信号系统市场情况对比 
+
+--- Document Chunk 952 ---
+年份 项目数量 
+
+--- Document Chunk 953 ---
+（个） 
+
+--- Document Chunk 954 ---
+中标金额 
+
+--- Document Chunk 955 ---
+（万元） 
+
+--- Document Chunk 956 ---
+中标金额对比上期的
+
+--- Document Chunk 957 ---
+增跌比 
+
+--- Document Chunk 958 ---
+2022 30 77.77 / 
+
+--- Document Chunk 959 ---
+2023 31 100.33 29.01% 
+
+--- Document Chunk 960 ---
+2024 50 131.45  31.02% 
+
+--- Document Chunk 961 ---
+中国城市轨道交通协会
+
+--- Document Chunk 962 ---
+ 
+
+--- Document Chunk 963 ---
+26 
+
+--- Document Chunk 964 ---
+6.2 按中标企业对比 
+
+--- Document Chunk 965 ---
+2022 年城轨交通信号系统中标企业共 7 家，卡斯柯信号有
+
+--- Document Chunk 966 ---
+限公司和交控科技股份有限公司两家企业中标金额市场占比达
+
+--- Document Chunk 967 ---
+83.23%；2023 年城轨交通信号系统中标企业共 10 家，卡斯柯
+
+--- Document Chunk 968 ---
+信号有限公司、浙江众合科技股份有限公司和交控科技股份有
+
+--- Document Chunk 969 ---
+限公司三家企业中标金额市场占比 67.10%；2024 年城轨交通信
+
+--- Document Chunk 970 ---
+号系统中标企业共 9 家，卡斯柯信号有限公司、浙江众合科技
+
+--- Document Chunk 971 ---
+股份有限公司和交控科技 股份有限公司三家企业中标金额市场
+
+--- Document Chunk 972 ---
+占比 70.08%。上海电气泰雷兹交通自动化系统有限公司和通号
+
+--- Document Chunk 973 ---
+城市轨道交通技术有限公司两家企业中标金额市场占比连续三
+
+--- Document Chunk 974 ---
+年保持增长趋势。 
+
+--- Document Chunk 975 ---
+2022 年-2024 年度城轨交通信号系统中标企业情况对比详
+
+--- Document Chunk 976 ---
+见表14。 
+
+--- Document Chunk 977 ---
+ 
+
+--- Document Chunk 978 ---
+中国城市轨道交通协会
+
+--- Document Chunk 979 ---
+ 
+
+--- Document Chunk 980 ---
+27 
+
+--- Document Chunk 981 ---
+表 14  2022 年-2024 年度城轨交通信号系统中标企业情况对比 
+
+--- Document Chunk 982 ---
+序号 中标企业名称 
+
+--- Document Chunk 983 ---
+2024 年 2023 年 2022 年 
+
+--- Document Chunk 984 ---
+中标项目
+
+--- Document Chunk 985 ---
+数量
+
+--- Document Chunk 986 ---
+（个） 
+
+--- Document Chunk 987 ---
+中标金额 
+
+--- Document Chunk 988 ---
+（亿元） 
+
+--- Document Chunk 989 ---
+中标金额
+
+--- Document Chunk 990 ---
+全年占比 
+
+--- Document Chunk 991 ---
+中标项目
+
+--- Document Chunk 992 ---
+数量
+
+--- Document Chunk 993 ---
+（个） 
+
+--- Document Chunk 994 ---
+中标金额 
+
+--- Document Chunk 995 ---
+（亿元） 
+
+--- Document Chunk 996 ---
+中标金额
+
+--- Document Chunk 997 ---
+全年占比 
+
+--- Document Chunk 998 ---
+中标项目
+
+--- Document Chunk 999 ---
+数量
+
+--- Document Chunk 1000 ---
+（个） 
+
+--- Document Chunk 1001 ---
+中标金额 
+
+--- Document Chunk 1002 ---
+（亿元） 
+
+--- Document Chunk 1003 ---
+中标金额
+
+--- Document Chunk 1004 ---
+全年占比 
+
+--- Document Chunk 1005 ---
+1 卡斯柯信号有限公司 14 36.69 27.91% 9 28.79 28.70% 15 37.01 47.59% 
+
+--- Document Chunk 1006 ---
+2 浙江众合科技股份有限公司 11 29.00  22.06% 4 25.51 25.43% 4 6.8 8.74% 
+
+--- Document Chunk 1007 ---
+3 交控科技股份有限公司 10 26.43 20.11% 5 13.02 12.98% 7 27.72 35.64% 
+
+--- Document Chunk 1008 ---
+4 上海电气泰雷兹交通自动化系统有限
+
+--- Document Chunk 1009 ---
+公司 5 14.76 11.23% 2 3.60  3.59% 1 1.44 1.85% 
+
+--- Document Chunk 1010 ---
+5 通号城市轨道交通技术有限公司 3 8.47 6.44% 3 5.91 5.89% 1 2.08 2.67% 
+
+--- Document Chunk 1011 ---
+6 株洲中车时代电气股份有限公司 3 6.36 4.84% 2 7.41 7.39% / / / 
+
+--- Document Chunk 1012 ---
+7 青岛海信微联信号有限公司 1 5.03 3.83% / / / / / / 
+
+--- Document Chunk 1013 ---
+8 西门子交通技术（北京）有限公司 2 2.51 1.91% / / / / / / 
+
+--- Document Chunk 1014 ---
+9 比亚迪通信信号有限公司 1 2.20  1.67% / / / / / / 
+
+--- Document Chunk 1015 ---
+中国城市轨道交通协会
+
+--- Document Chunk 1016 ---
+ 
+
+--- Document Chunk 1017 ---
+28 
+
+--- Document Chunk 1018 ---
+序号 中标企业名称 
+
+--- Document Chunk 1019 ---
+2024 年 2023 年 2022 年 
+
+--- Document Chunk 1020 ---
+中标项目
+
+--- Document Chunk 1021 ---
+数量
+
+--- Document Chunk 1022 ---
+（个） 
+
+--- Document Chunk 1023 ---
+中标金额 
+
+--- Document Chunk 1024 ---
+（亿元） 
+
+--- Document Chunk 1025 ---
+中标金额
+
+--- Document Chunk 1026 ---
+全年占比 
+
+--- Document Chunk 1027 ---
+中标项目
+
+--- Document Chunk 1028 ---
+数量
+
+--- Document Chunk 1029 ---
+（个） 
+
+--- Document Chunk 1030 ---
+中标金额 
+
+--- Document Chunk 1031 ---
+（亿元） 
+
+--- Document Chunk 1032 ---
+中标金额
+
+--- Document Chunk 1033 ---
+全年占比 
+
+--- Document Chunk 1034 ---
+中标项目
+
+--- Document Chunk 1035 ---
+数量
+
+--- Document Chunk 1036 ---
+（个） 
+
+--- Document Chunk 1037 ---
+中标金额 
+
+--- Document Chunk 1038 ---
+（亿元） 
+
+--- Document Chunk 1039 ---
+中标金额
+
+--- Document Chunk 1040 ---
+全年占比 
+
+--- Document Chunk 1041 ---
+10 北京城建智控科技股份有限公司 / / / 2 2.05 2.04% / / / 
+
+--- Document Chunk 1042 ---
+11 南京恩瑞特实业有限公司 / / / 1 3.80  3.79% 1 0.53 0.68% 
+
+--- Document Chunk 1043 ---
+12 上海富欣智能交通控制有限公司 / / / 1 0.90  0.90% / / / 
+
+--- Document Chunk 1044 ---
+13 天津津航计算技术研究所 / / / 2 9.34 9.31% / / / 
+
+--- Document Chunk 1045 ---
+14 北京和利时系统工程有限公司 / / / / / / 1 2.19 2.82% 
+
+--- Document Chunk 1046 ---
+总计 50 131.45 100% 31 100.33 100% 30 77.77 100% 
+
+--- Document Chunk 1047 ---
+中国城市轨道交通协会
+
+--- Document Chunk 1048 ---
+ 
+
+--- Document Chunk 1049 ---
+29 
+
+--- Document Chunk 1050 ---
+6.3 按中标项目类型对比 
+
+--- Document Chunk 1051 ---
+从 2024 年中标的项目类型来看，与前两年相比，城轨交
+
+--- Document Chunk 1052 ---
+通信号系统新建线和延伸线的中标项目数量略有增加，较为显
+
+--- Document Chunk 1053 ---
+著的是 2024 年的城轨交通信号系统改造项目呈现较大幅度的
+
+--- Document Chunk 1054 ---
+增长。 
+
+--- Document Chunk 1055 ---
+截至 2024 年底，中国内地已开通运营 15 年以上城市有 10
+
+--- Document Chunk 1056 ---
+个，共 38 条线，其中已开通运营 20 年（含）以上的线路共有
+
+--- Document Chunk 1057 ---
+19 条，约 646.02 公里；开通 15 年至 20 年的线路共有 19 条，
+
+--- Document Chunk 1058 ---
+约 897.35 公里；开通运营 10 年以上的城市 21 个，开通运营
+
+--- Document Chunk 1059 ---
+10 年至 15 年的线路共有 60 条，约 2226.02 公里。这些已开通 
+
+--- Document Chunk 1060 ---
+15 年以上的线路相关设备设施系统服役年限已接近设计使用寿
+
+--- Document Chunk 1061 ---
+命期限，10 年以上的线路也将陆续进入设备更新周期。随着城
+
+--- Document Chunk 1062 ---
+市轨道交通线路投入运营的年限逐年增长，更新改造需求已较
+
+--- Document Chunk 1063 ---
+为迫切，信号系统改造的市场空间正在逐步显现。 
+
+--- Document Chunk 1064 ---
+2022 年-2024 年度城轨交通信号系统中标项目类型统计对
+
+--- Document Chunk 1065 ---
+比详见表15。 
+
+--- Document Chunk 1066 ---
+表 15  2022 年-2024 年度城轨交通信号系统中标项目类型统计对比 
+
+--- Document Chunk 1067 ---
+序号 项目类型 
+
+--- Document Chunk 1068 ---
+中标线路数量（个） 
+
+--- Document Chunk 1069 ---
+2024 年 2023 年 2022 年 
+
+--- Document Chunk 1070 ---
+1 新建线 25 26 14 
+
+--- Document Chunk 1071 ---
+2 延伸线 18 7 14 
+
+--- Document Chunk 1072 ---
+3 改造线 7 1 1 
+
+--- Document Chunk 1073 ---
+4 增购线 2 0 1 
+
+--- Document Chunk 1074 ---
+中国城市轨道交通协会
+
+--- Document Chunk 1075 ---
+ 
+
+--- Document Chunk 1076 ---
+30 
+
+--- Document Chunk 1077 ---
+（此页无正文） 
+
+--- Document Chunk 1078 ---
+ 
+
+--- Document Chunk 1079 ---
+ 
+
+--- Document Chunk 1080 ---
+ 
+
+--- Document Chunk 1081 ---
+ 
+
+--- Document Chunk 1082 ---
+ 
+
+--- Document Chunk 1083 ---
+ 
+
+--- Document Chunk 1084 ---
+报：国家发展改革委郑栅洁主任、李春临副主任并政策研究室、
+
+--- Document Chunk 1085 ---
+发展战略和规划司、基础设施发展司、产业发展司、创新
+
+--- Document Chunk 1086 ---
+和高技术发展司、法规司、人事司 
+
+--- Document Chunk 1087 ---
+交通运输部刘伟部长并法制司、综合规划司、人事教育司、
+
+--- Document Chunk 1088 ---
+运输服务司 
+
+--- Document Chunk 1089 ---
+工业和信息化部金壮龙部长、辛国斌副部长并运行监测协
+
+--- Document Chunk 1090 ---
+调局、装备工业一司、装备工业二司、无线电管理局 
+
+--- Document Chunk 1091 ---
+国家统计局康义局长并统计设计管理司 
+
+--- Document Chunk 1092 ---
+国家市场监督管理总局罗文局长并标准创新管理司、认证
+
+--- Document Chunk 1093 ---
+监督管理司 
+
+--- Document Chunk 1094 ---
+送：协会领导 
+
+--- Document Chunk 1095 ---
+发：会员单位、协会所属机构、秘书处各部室 
+
+--- Document Chunk 1096 ---
+中国城市轨道交通协会 
+
+--- Document Chunk 1097 ---
+地址：北京市西城区莲花池东路甲五号院1号楼白云时代大厦A座19、20层 
+
+--- Document Chunk 1098 ---
+网址：www.camet.org.cn 
+
+--- Document Chunk 1099 ---
+电话：（010）51874934 
+
+--- Document Chunk 1100 ---
+中国城市轨道交通协会
+

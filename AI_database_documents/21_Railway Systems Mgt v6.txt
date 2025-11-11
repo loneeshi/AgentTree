@@ -1,0 +1,1914 @@
+--- Document Chunk 0 ---
+ 
+
+--- Document Chunk 1 ---
+ 
+
+--- Document Chunk 2 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 3 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 4 ---
+v6.docx 
+
+--- Document Chunk 5 ---
+ 
+
+--- Document Chunk 6 ---
+Railway Control & Communications Systems Management 
+
+--- Document Chunk 7 ---
+Version 6  
+
+--- Document Chunk 8 ---
+ 
+
+--- Document Chunk 9 ---
+A selection of fundamental concepts and methodologies 
+
+--- Document Chunk 10 ---
+(This document is intended for candidates taking Module A of the IRSE Professional Examination.  It 
+
+--- Document Chunk 11 ---
+is based on an extract from the 2018 Study Guide v1.3 for Module 7 of the IRSE Professional 
+
+--- Document Chunk 12 ---
+Examination) 
+
+--- Document Chunk 13 ---
+ 
+
+--- Document Chunk 14 ---
+ 
+
+--- Document Chunk 15 ---
+ 
+
+--- Document Chunk 16 ---
+ 
+
+--- Document Chunk 17 ---
+ 
+
+--- Document Chunk 18 ---
+1 Introduction 
+
+--- Document Chunk 19 ---
+A railway is a complex system.  All parts of the system must work well together to deliver safe and 
+
+--- Document Chunk 20 ---
+efficient outputs.  This means that all sub-systems and their interfaces with each other (and with 
+
+--- Document Chunk 21 ---
+human operators) need to be carefully designed.  Thinking about this should start at the beginning of 
+
+--- Document Chunk 22 ---
+any project because once equipment is being installed, or is in use, it is usually impractical or 
+
+--- Document Chunk 23 ---
+expensive to make changes.   
+
+--- Document Chunk 24 ---
+This document outlines some of the principles and tools of systems management and their application 
+
+--- Document Chunk 25 ---
+to the entire life cycle of assets. 
+
+--- Document Chunk 26 ---
+ 
+
+--- Document Chunk 27 ---
+ 
+
+--- Document Chunk 28 ---
+  
+
+--- Document Chunk 29 ---
+ 
+
+--- Document Chunk 30 ---
+ 
+
+--- Document Chunk 31 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 32 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 33 ---
+v6.docx 
+
+--- Document Chunk 34 ---
+ 
+
+--- Document Chunk 35 ---
+2 Project Life Cycle & Stage Gates 
+
+--- Document Chunk 36 ---
+2.1 Life Cycle for the Project 
+
+--- Document Chunk 37 ---
+Good systems do not just happen, they are designed and planned; and they achieve this when 
+
+--- Document Chunk 38 ---
+their projects follow a disciplined procedure. This is often called a life-cycle and the ‘V’ life-cycle 
+
+--- Document Chunk 39 ---
+in particular will be discussed in the next section. This will look at the generic steps that a 
+
+--- Document Chunk 40 ---
+project should go through in order to deliver a well-engineered solution. 
+
+--- Document Chunk 41 ---
+A typical project breakdown is shown in the figure below.  It divides the whole project process 
+
+--- Document Chunk 42 ---
+from start to finish into a number of discrete steps or phases 
+
+--- Document Chunk 43 ---
+ 
+
+--- Document Chunk 44 ---
+Each phase: 
+
+--- Document Chunk 45 ---
+ Has a defined start point 
+
+--- Document Chunk 46 ---
+ Can be described in terms of its characteristics 
+
+--- Document Chunk 47 ---
+ Provides clear boundaries between its neighbouring phases 
+
+--- Document Chunk 48 ---
+ Defines the transition to the next phase 
+
+--- Document Chunk 49 ---
+ Has a clearly defined end point 
+
+--- Document Chunk 50 ---
+ 
+
+--- Document Chunk 51 ---
+2.2 Problem Solution and Definition 
+
+--- Document Chunk 52 ---
+The problem to be solved should be clearly defined and articulated. The feasibility of the 
+
+--- Document Chunk 53 ---
+potential solutions should be confirmed. The potential solution(s) to be pursued should 
+
+--- Document Chunk 54 ---
+be selected on the basis of a systematic assessment and comparison of the proposals. 
+
+--- Document Chunk 55 ---
+2.3 Requirements Definition 
+
+--- Document Chunk 56 ---
+2.3.1 There are 2 parts to this: 
+
+--- Document Chunk 57 ---
+ The business requirements describing the change that is needed.  It is often 
+
+--- Document Chunk 58 ---
+expressed in performance or monetary terms.  The business sponsor would define 
+
+--- Document Chunk 59 ---
+these with major input from operators and maintainers. 
+
+--- Document Chunk 60 ---
+ The system requirements which are a technical response to the business 
+
+--- Document Chunk 61 ---
+requirements. These describe in clear engineering terms what the system will do. 
+
+--- Document Chunk 62 ---
+ 
+
+--- Document Chunk 63 ---
+2.3.2 As requirements are captured, there are certain items which the project knows to be true 
+
+--- Document Chunk 64 ---
+and upon which it relies in order to deliver its solution. There are other items about which 
+
+--- Document Chunk 65 ---
+it is not certain or is dependent on others to deliver, either as part of the project, or once 
+
+--- Document Chunk 66 ---
+the solution has been put into service. These are called Domain Knowledge, 
+
+--- Document Chunk 67 ---
+Assumptions, Dependencies and Caveats which are defined as: 
+
+--- Document Chunk 68 ---
+ Domain Knowledge: Things known to be true: e.g. characteristics of signalling 
+
+--- Document Chunk 69 ---
+relays, typical adhesion values for steel wheels on steel rail; 
+
+--- Document Chunk 70 ---
+ Assumptions are statements made about items outside the scope of the 
+
+--- Document Chunk 71 ---
+system under consideration, but are relied upon to be true in order for the 
+
+--- Document Chunk 72 ---
+system to operate as expected. Once the facts are known an assumption will 
+
+--- Document Chunk 73 ---
+either be deleted, or changed to become domain knowledge, a dependency 
+
+--- Document Chunk 74 ---
+or a caveat; 
+
+--- Document Chunk 75 ---
+ A dependency is a requirement for someone or something else to act before 
+
+--- Document Chunk 76 ---
+a task can be completed, e.g. if a project is delivering new rolling stock, it 
+
+--- Document Chunk 77 ---
+would be reasonable to depend upon any necessary depot alterations to be 
+
+--- Document Chunk 78 ---
+made; 
+
+--- Document Chunk 79 ---
+ Caveats are conditions that must be delivered after a system is put into 
+
+--- Document Chunk 80 ---
+operation, e.g. for the same rolling stock project a caveat is that the vehicle is 
+
+--- Document Chunk 81 ---
+maintained to design standards. 
+
+--- Document Chunk 82 ---
+ 
+
+--- Document Chunk 83 ---
+ 
+
+--- Document Chunk 84 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 85 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 86 ---
+v6.docx 
+
+--- Document Chunk 87 ---
+ 
+
+--- Document Chunk 88 ---
+2.4 Design Development 
+
+--- Document Chunk 89 ---
+This phase includes all the design activities that need to be carried out before the system can 
+
+--- Document Chunk 90 ---
+be realised. The phase results in a design baseline – a design set of documents and 
+
+--- Document Chunk 91 ---
+drawings. The level of detail in the design is very dependent upon the disciplines 
+
+--- Document Chunk 92 ---
+involved and the contractual strategy adopted. 
+
+--- Document Chunk 93 ---
+2.5 Implementation/Migration 
+
+--- Document Chunk 94 ---
+The Implementation phase includes all activities that are involved in realising the design, 
+
+--- Document Chunk 95 ---
+including all construction works as well as the integration of electronic and mechanical 
+
+--- Document Chunk 96 ---
+subsystems and delivering software and data. The output will be a physical system 
+
+--- Document Chunk 97 ---
+baseline and as-built documentation. Technical requirements need to be communicated 
+
+--- Document Chunk 98 ---
+to detailed designers and manufacturers in the form of engineering specifications and 
+
+--- Document Chunk 99 ---
+technical standards. 
+
+--- Document Chunk 100 ---
+2.6 Verification, Validation and Testing 
+
+--- Document Chunk 101 ---
+2.6.1 Verification and validation should be done at the appropriate level. See section 3 for an 
+
+--- Document Chunk 102 ---
+explanation of these terms.  For example, validation of a signalling system should be 
+
+--- Document Chunk 103 ---
+undertaken at the system level, whereas individual components would be validated at the 
+
+--- Document Chunk 104 ---
+subsystem level.  
+
+--- Document Chunk 105 ---
+ 
+
+--- Document Chunk 106 ---
+2.6.2 The products will normally undergo a comprehensive regime of testing, comprising tests 
+
+--- Document Chunk 107 ---
+in the laboratory and factory environment and latterly in their target environment. The 
+
+--- Document Chunk 108 ---
+tests will seek to provide evidence to verify and validate that the products meet their 
+
+--- Document Chunk 109 ---
+requirements and are fit for purpose and that the safety functionality has been correctly 
+
+--- Document Chunk 110 ---
+implemented. This may include a set of routine tests for ‘proven’ products and more 
+
+--- Document Chunk 111 ---
+comprehensive tests for newly developed items of equipment. Testing may comprise the 
+
+--- Document Chunk 112 ---
+following: 
+
+--- Document Chunk 113 ---
+ Unit testing – test carried out by the software developer to verify compliance 
+
+--- Document Chunk 114 ---
+of units of software with their requirements. The depth and extent of test 
+
+--- Document Chunk 115 ---
+coverage will depend on the safety integrity level (SIL) of the item under test.; 
+
+--- Document Chunk 116 ---
+ Qualification testing – carried out by the hardware developer to prove correct 
+
+--- Document Chunk 117 ---
+functionality of the hardware, and non-functional requirements, such as shock 
+
+--- Document Chunk 118 ---
+and vibration, temperature and humidity, reliability.  
+
+--- Document Chunk 119 ---
+ Software functional testing – carried out by the software developer to prove 
+
+--- Document Chunk 120 ---
+correct functionality of the software and that it does not exhibit any 
+
+--- Document Chunk 121 ---
+unexpected behaviour or hidden faults; 
+
+--- Document Chunk 122 ---
+ Safety functional testing – carried out at all levels of the system assembly to 
+
+--- Document Chunk 123 ---
+prove the correct functionality of the safety functions under normal and failure 
+
+--- Document Chunk 124 ---
+conditions; 
+
+--- Document Chunk 125 ---
+ Installation testing – a set of tests conducted on equipment installed in its 
+
+--- Document Chunk 126 ---
+intended location and environment to confirm correct installation; 
+
+--- Document Chunk 127 ---
+ Integration test – carried out at a number of test stages to confirm that sub-
+
+--- Document Chunk 128 ---
+assemblies, products, subsystems and systems are correctly integrated to 
+
+--- Document Chunk 129 ---
+ensure that they operate correctly together; 
+
+--- Document Chunk 130 ---
+ Interface testing – used to prove correct functioning of the interface between 
+
+--- Document Chunk 131 ---
+two or more interfacing pieces of equipment; 
+
+--- Document Chunk 132 ---
+ Test and commissioning – testing on the installed system to ensure that it 
+
+--- Document Chunk 133 ---
+performs the correct functions and does not have any hidden faults. This 
+
+--- Document Chunk 134 ---
+phase of testing may also include testing to ensure that the principles of safe 
+
+--- Document Chunk 135 ---
+railway operation have been adhered to (‘principles testing’). The final stage 
+
+--- Document Chunk 136 ---
+confirms that the system will operate as expected with the surrounding 
+
+--- Document Chunk 137 ---
+railway equipment with which it will interface. 
+
+--- Document Chunk 138 ---
+ 
+
+--- Document Chunk 139 ---
+ 
+
+--- Document Chunk 140 ---
+ 
+
+--- Document Chunk 141 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 142 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 143 ---
+v6.docx 
+
+--- Document Chunk 144 ---
+ 
+
+--- Document Chunk 145 ---
+2.7 Commissioning & Handover 
+
+--- Document Chunk 146 ---
+ 
+
+--- Document Chunk 147 ---
+2.7.1 This phase includes all activities required to bring the system into full service, including 
+
+--- Document Chunk 148 ---
+testing and commissioning for signalling and trial running of trains. 
+
+--- Document Chunk 149 ---
+2.7.2 There are two linked but separate objectives: 
+
+--- Document Chunk 150 ---
+ To demonstrate that the system is ready to be put into service; 
+
+--- Document Chunk 151 ---
+ To demonstrate that the railway organisation is ready to accept the system 
+
+--- Document Chunk 152 ---
+into service.  This includes: 
+
+--- Document Chunk 153 ---
+o Training 
+
+--- Document Chunk 154 ---
+o Maintenance manuals 
+
+--- Document Chunk 155 ---
+o Operation manuals 
+
+--- Document Chunk 156 ---
+o Correct organisation 
+
+--- Document Chunk 157 ---
+o Spares 
+
+--- Document Chunk 158 ---
+o Planning 
+
+--- Document Chunk 159 ---
+ 
+
+--- Document Chunk 160 ---
+2.7.3 Acceptance and handover of the tested and commissioned system to the operator/user 
+
+--- Document Chunk 161 ---
+will normally require the satisfactory completion of a number of activities: 
+
+--- Document Chunk 162 ---
+ Safety approvals of the system including its operation and maintenance 
+
+--- Document Chunk 163 ---
+systems by the necessary approval bodies; 
+
+--- Document Chunk 164 ---
+ Audit of test records; 
+
+--- Document Chunk 165 ---
+ User acceptance tests – acceptance through testing or trials that the system 
+
+--- Document Chunk 166 ---
+meets its stated requirements and can be operated by the user; 
+
+--- Document Chunk 167 ---
+ Processes for checking the competence of staff who have worked on the 
+
+--- Document Chunk 168 ---
+project; 
+
+--- Document Chunk 169 ---
+ Handover operations and maintenance (O&M) systems to the operator and 
+
+--- Document Chunk 170 ---
+maintainer, including training, O&M manuals, relevant safety case information 
+
+--- Document Chunk 171 ---
+and accurate “as built” records of the design (including version details for 
+
+--- Document Chunk 172 ---
+traceability purposes). 
+
+--- Document Chunk 173 ---
+2.8 Operations & Maintenance 
+
+--- Document Chunk 174 ---
+This phase includes all activities involved with the normal operation of the system.  The 
+
+--- Document Chunk 175 ---
+maintainer is responsible for the safe, whole life performance of the system.  This 
+
+--- Document Chunk 176 ---
+includes replacement of components and subsystems within the system. This phase only 
+
+--- Document Chunk 177 ---
+ends when the system is removed from service. 
+
+--- Document Chunk 178 ---
+Maintenance testing is needed to ensure that the equipment remains in a safe and reliable 
+
+--- Document Chunk 179 ---
+state.  This includes testing after items of equipment are replaced by similar units.  Test 
+
+--- Document Chunk 180 ---
+plans are needed to define the tests required.  Technicians doing these tests should be 
+
+--- Document Chunk 181 ---
+monitored periodically to prevent bad practice or short cuts that omit vital parts of the 
+
+--- Document Chunk 182 ---
+test.  A record should be kept of all maintenance tests. 
+
+--- Document Chunk 183 ---
+2.9 Decommissioning & Disposal 
+
+--- Document Chunk 184 ---
+2.9.1 The Decommissioning and Disposal phase includes all activities involved in removing the 
+
+--- Document Chunk 185 ---
+system from the railway.  For most signalling systems, decommissioning coincides with 
+
+--- Document Chunk 186 ---
+or overlaps the commissioning of a new system. 
+
+--- Document Chunk 187 ---
+ 
+
+--- Document Chunk 188 ---
+2.9.3 The decommissioning or disposal of a system is as much a change to the railway as the 
+
+--- Document Chunk 189 ---
+introduction or commissioning of a new system and should be planned and executed 
+
+--- Document Chunk 190 ---
+with care. These activities must be planned and implemented so as to ensure the safety 
+
+--- Document Chunk 191 ---
+of any train operations that continue through the period of transition. 
+
+--- Document Chunk 192 ---
+2.10 Stage Gates or Decision Gates 
+
+--- Document Chunk 193 ---
+ The division of a project into discrete steps or stages, permits those working on the 
+
+--- Document Chunk 194 ---
+project to stop and check that as a whole the project will deliver what is expected of it. It 
+
+--- Document Chunk 195 ---
+is all too easy for individual disciplines to become separated from the rest of the project 
+
+--- Document Chunk 196 ---
+(particularly where a project is delivered from multiple locations) and develop their 
+
+--- Document Chunk 197 ---
+ 
+
+--- Document Chunk 198 ---
+ 
+
+--- Document Chunk 199 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 200 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 201 ---
+v6.docx 
+
+--- Document Chunk 202 ---
+ 
+
+--- Document Chunk 203 ---
+designs without consideration of how it must integrate with others.  It is also possible for 
+
+--- Document Chunk 204 ---
+projects to forget the original problem being solved and begin to move towards offering 
+
+--- Document Chunk 205 ---
+something that does not meet the client’s requirements. 
+
+--- Document Chunk 206 ---
+2.11 Uses of Stage Gates 
+
+--- Document Chunk 207 ---
+Consider the following when using stage gates: 
+
+--- Document Chunk 208 ---
+ Review the requirements that must be satisfied; 
+
+--- Document Chunk 209 ---
+ Provide objective evidence that these requirements are being met; 
+
+--- Document Chunk 210 ---
+ Confirm that designs comply (or will comply) with relevant legislation, 
+
+--- Document Chunk 211 ---
+consents, agreements etc. 
+
+--- Document Chunk 212 ---
+ Look for opportunities to approve products or systems that are approved for 
+
+--- Document Chunk 213 ---
+use on other administrations (with similar functions, environment and 
+
+--- Document Chunk 214 ---
+interfaces) without the need to examine evidence from first principles. 
+
+--- Document Chunk 215 ---
+ Determine that all applicable standards have been identified and any 
+
+--- Document Chunk 216 ---
+necessary derogations applied for and if possible, granted; 
+
+--- Document Chunk 217 ---
+ Ensure that technical risks have been adequately captured, assigned to an 
+
+--- Document Chunk 218 ---
+owner, appropriate mitigations identified and implemented; 
+
+--- Document Chunk 219 ---
+ Review the proposed design against the project costs of the project; 
+
+--- Document Chunk 220 ---
+ Be assured that interfaces have been identified and properly designed so that 
+
+--- Document Chunk 221 ---
+individual design elements will integrate and work together as intended; 
+
+--- Document Chunk 222 ---
+ Confirm that the proposed design can be constructed given limitations of 
+
+--- Document Chunk 223 ---
+technology, available equipment and site conditions; 
+
+--- Document Chunk 224 ---
+ Review assurance evidence for each individual item of design; 
+
+--- Document Chunk 225 ---
+ Review the programme timescales and apply any remedial action should 
+
+--- Document Chunk 226 ---
+delays be identified. 
+
+--- Document Chunk 227 ---
+ 
+
+--- Document Chunk 228 ---
+2.12 Engineering Approvals 
+
+--- Document Chunk 229 ---
+Engineering approvals of designs, documents and products take place throughout a project’s 
+
+--- Document Chunk 230 ---
+life cycle, but stage gates are an opportunity to check that all engineering controls are in 
+
+--- Document Chunk 231 ---
+place.  Project engineering controls are an essential tool to ensure the delivery of safe and 
+
+--- Document Chunk 232 ---
+efficient outcomes. 
+
+--- Document Chunk 233 ---
+ 
+
+--- Document Chunk 234 ---
+2.13 Cross-acceptance 
+
+--- Document Chunk 235 ---
+The process of approving a new product or system can be more efficient if it is already in use 
+
+--- Document Chunk 236 ---
+elsewhere (typically on another railway system).  This cross-acceptance approach for a 
+
+--- Document Chunk 237 ---
+product will need to examine whether it is being used for the same function in a similar 
+
+--- Document Chunk 238 ---
+environment and with similar interfaces to the remainder of the system.  The quality and 
+
+--- Document Chunk 239 ---
+scope of the acceptance process of the other administration is also relevant. 
+
+--- Document Chunk 240 ---
+   
+
+--- Document Chunk 241 ---
+ 
+
+--- Document Chunk 242 ---
+ 
+
+--- Document Chunk 243 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 244 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 245 ---
+v6.docx 
+
+--- Document Chunk 246 ---
+ 
+
+--- Document Chunk 247 ---
+3. Verification, Validation and the V Model 
+
+--- Document Chunk 248 ---
+3.1 Verification and Validation 
+
+--- Document Chunk 249 ---
+These are key concepts in the process of ensuring that a project is delivering a system that meets the 
+
+--- Document Chunk 250 ---
+client’s requirements and is also fit for purpose. 
+
+--- Document Chunk 251 ---
+ Validation. The objective of validation is to provide confirmation, through the provision of 
+
+--- Document Chunk 252 ---
+objective evidence, that the requirements for a specific intended use or application have 
+
+--- Document Chunk 253 ---
+been fulfilled. 
+
+--- Document Chunk 254 ---
+ Verification. The objective of verification is to demonstrate that the requirements of each 
+
+--- Document Chunk 255 ---
+life cycle phase have been fulfilled. 
+
+--- Document Chunk 256 ---
+ 
+
+--- Document Chunk 257 ---
+3.2 The V-Model 
+
+--- Document Chunk 258 ---
+3.2.1. A V-model is a common graphical representation (as shown in Fig. 1 below) of the 
+
+--- Document Chunk 259 ---
+system engineering life cycle. The left side of the V represents concept development and the 
+
+--- Document Chunk 260 ---
+decomposition of requirements into function and physical entities that can be designed, and 
+
+--- Document Chunk 261 ---
+developed. The right side of the V represents integration of these entities (including 
+
+--- Document Chunk 262 ---
+appropriate testing to verify that they satisfy the requirements) and their ultimate transition 
+
+--- Document Chunk 263 ---
+into the field, where they are operated and maintained.  The V-model can be viewed as a 
+
+--- Document Chunk 264 ---
+time-line in the form of a "V". The product moves sequentially from the first phase, "Concept", 
+
+--- Document Chunk 265 ---
+to the next phase, "System definition and application conditions", etc. 
+
+--- Document Chunk 266 ---
+3.2.2.  Throughout the process, evidence will be gathered from a variety of sources including 
+
+--- Document Chunk 267 ---
+the review of specifications and the results of actual tests. 
+
+--- Document Chunk 268 ---
+Fig. 1 
+
+--- Document Chunk 269 ---
+ 
+
+--- Document Chunk 270 ---
+ 
+
+--- Document Chunk 271 ---
+3.2.3. The principal advantage of the V-model is that it shows the relation of verification and 
+
+--- Document Chunk 272 ---
+validation to the activities in the lifecycle and makes clear their role in finding defects at an 
+
+--- Document Chunk 273 ---
+early stage and preventing the propagation of defects through the lifecycle. 
+
+--- Document Chunk 274 ---
+ 
+
+--- Document Chunk 275 ---
+ 
+
+--- Document Chunk 276 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 277 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 278 ---
+v6.docx 
+
+--- Document Chunk 279 ---
+ 
+
+--- Document Chunk 280 ---
+ 
+
+--- Document Chunk 281 ---
+For projects incorporating a high degree of novelty or innovation the life-cycle may have to be 
+
+--- Document Chunk 282 ---
+modified to include prototype testing or proof of concept. 
+
+--- Document Chunk 283 ---
+4.  Reliability, Availability, Maintainability and Safety (RAMS). 
+
+--- Document Chunk 284 ---
+4.1 Definitions 
+
+--- Document Chunk 285 ---
+ Reliability is the probability that an item can perform a required function under given 
+
+--- Document Chunk 286 ---
+conditions for a given time period 
+
+--- Document Chunk 287 ---
+ Availability is the ability of a product to be in a state to perform a required function 
+
+--- Document Chunk 288 ---
+under given conditions at a given instant of time or over a given interval  
+
+--- Document Chunk 289 ---
+ Maintainability is the ability of a system to be retained in, or restored to a state to 
+
+--- Document Chunk 290 ---
+perform as required, under given conditions of use and maintenance. Given 
+
+--- Document Chunk 291 ---
+conditions would include aspects such as: location for maintenance, accessibility, 
+
+--- Document Chunk 292 ---
+maintenance procedures and maintenance resources” 
+
+--- Document Chunk 293 ---
+ Safety is freedom from unacceptable risk of harm. 
+
+--- Document Chunk 294 ---
+ 
+
+--- Document Chunk 295 ---
+The goal of a railway system is to achieve a defined level of rail traffic in a given time, safely.  
+
+--- Document Chunk 296 ---
+For the demonstration of RAMS, a RAM Programme and Safety plan needs to be developed for 
+
+--- Document Chunk 297 ---
+the project, so that during the system requirements phase, the following analysis needs to be 
+
+--- Document Chunk 298 ---
+considered within the RAMS programme: 
+
+--- Document Chunk 299 ---
+ Failure Modes Effects Analysis (FMEA), fault tree analysis, for reliability; 
+
+--- Document Chunk 300 ---
+ Data analysis for availability improvement and prediction for availability; 
+
+--- Document Chunk 301 ---
+ Maintenance task analysis, personal safety procedures for maintainability; 
+
+--- Document Chunk 302 ---
+ Defining safety related functional requirements, establish safety management 
+
+--- Document Chunk 303 ---
+processes. 
+
+--- Document Chunk 304 ---
+ 
+
+--- Document Chunk 305 ---
+4.2 Systematic and Random Failures 
+
+--- Document Chunk 306 ---
+4.2.1 The RAMS of a railway system is influenced in three ways: 
+
+--- Document Chunk 307 ---
+ by sources of failure introduced internally within the system at any phase of the system 
+
+--- Document Chunk 308 ---
+lifecycle (system conditions), 
+
+--- Document Chunk 309 ---
+ by sources of failure imposed on the system during operation (operating conditions) 
+
+--- Document Chunk 310 ---
+and  
+
+--- Document Chunk 311 ---
+ by sources of failure imposed on the system during maintenance activities 
+
+--- Document Chunk 312 ---
+(maintenance conditions). 
+
+--- Document Chunk 313 ---
+4.2.2 Failures occurring due to internal disturbances in the system at any phase of system 
+
+--- Document Chunk 314 ---
+lifecycle are systematic failures or random failures.  Systematic failures occur due to 
+
+--- Document Chunk 315 ---
+errors in requirements, design inadequacies, manufacturing deficiencies, software errors, 
+
+--- Document Chunk 316 ---
+human errors in installation or maintenance, etc.  Random failures occur due to wear out, 
+
+--- Document Chunk 317 ---
+over stress, stress degradation, environment, etc, beyond that which could have 
+
+--- Document Chunk 318 ---
+reasonably been foreseen during the specification and design phases or due to failure of 
+
+--- Document Chunk 319 ---
+components which do not match their intended specification because of deficiencies in 
+
+--- Document Chunk 320 ---
+manufacture or quality control. 
+
+--- Document Chunk 321 ---
+ 
+
+--- Document Chunk 322 ---
+ 
+
+--- Document Chunk 323 ---
+ 
+
+--- Document Chunk 324 ---
+  
+
+--- Document Chunk 325 ---
+ 
+
+--- Document Chunk 326 ---
+ 
+
+--- Document Chunk 327 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 328 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 329 ---
+v6.docx 
+
+--- Document Chunk 330 ---
+ 
+
+--- Document Chunk 331 ---
+5. Security 
+
+--- Document Chunk 332 ---
+5.1 Protection against Cyber Attacks 
+
+--- Document Chunk 333 ---
+5.1.1  From the point of view of cybersecurity, railway signalling and communication systems 
+
+--- Document Chunk 334 ---
+have much in common with Industrial Control Systems (ICS, also known as Industrial 
+
+--- Document Chunk 335 ---
+Automation and Control Systems, IACS). They comprise a combination of both cyber 
+
+--- Document Chunk 336 ---
+and physical components, such as sensors and actuators and they incorporate 
+
+--- Document Chunk 337 ---
+networking devices and communication protocols; they commonly have long service 
+
+--- Document Chunk 338 ---
+lives, and comprise multiple generations of equipment from a wide range of suppliers; 
+
+--- Document Chunk 339 ---
+their software is often custom-written, using bespoke or older, unsupported operating 
+
+--- Document Chunk 340 ---
+systems. They are both potential targets of cyber-attacks from sources such as viruses, 
+
+--- Document Chunk 341 ---
+hackers, organised criminals, terrorists and state-sponsored groups. Consequently, 
+
+--- Document Chunk 342 ---
+cybersecurity for railway signalling and control applications can benefit from study of 
+
+--- Document Chunk 343 ---
+good practice and standards in ICS. 
+
+--- Document Chunk 344 ---
+ 
+
+--- Document Chunk 345 ---
+5.1.2 For ICT (Information Communication Technology) system, increasing use of IP (Internet 
+
+--- Document Chunk 346 ---
+Protocol) technology and commercial off-the-shelf operating systems in railway systems 
+
+--- Document Chunk 347 ---
+makes it important to understand the architecture and specific functions of those 
+
+--- Document Chunk 348 ---
+systems. Consider whether part of the system is networked, or whether there are 
+
+--- Document Chunk 349 ---
+interfaces with other systems that are. Understand how these systems share data, and 
+
+--- Document Chunk 350 ---
+what level of security is in place (passwords, encryption, firewalls, etc.). A system is only 
+
+--- Document Chunk 351 ---
+as secure as its weakest line of defence. Where systems that have been designed 
+
+--- Document Chunk 352 ---
+separately are connected together (such as railway ICS) a cyber analysis of the whole 
+
+--- Document Chunk 353 ---
+system should be carried out. Examples of cyber threats include web application attacks, 
+
+--- Document Chunk 354 ---
+phishing through email, denial of service, malware. Consider whether important 
+
+--- Document Chunk 355 ---
+passwords are secure, review the use of USB flash drives, and establish an incident 
+
+--- Document Chunk 356 ---
+response plan in case of an attack. The objectives of a cyber-attack may not be obvious, 
+
+--- Document Chunk 357 ---
+and can range from causing injury or disruption, to undetected data theft and reputational 
+
+--- Document Chunk 358 ---
+damage. 
+
+--- Document Chunk 359 ---
+5.2 Cybersecurity Design Principles 
+
+--- Document Chunk 360 ---
+5.2.1 The cybersecurity design principles listed below have been derived from the review of 
+
+--- Document Chunk 361 ---
+best practice and existing sources and standards undertaken in the course of developing 
+
+--- Document Chunk 362 ---
+a European Technical specification addressing cybersecurity within the railway sector. 
+
+--- Document Chunk 363 ---
+ Secure the weakest link. This design principle aims to push the designer to 
+
+--- Document Chunk 364 ---
+consider the security of all the components of the system and not only the most 
+
+--- Document Chunk 365 ---
+obvious, such as the protocols or the interfaces. 
+
+--- Document Chunk 366 ---
+ Defence-in-depth (several diverse protections in sequence) 
+
+--- Document Chunk 367 ---
+ Fail secure (comparable to fail safe, but sometimes these two principles can be in 
+
+--- Document Chunk 368 ---
+conflict). 
+
+--- Document Chunk 369 ---
+ Grant least privilege (each component should have only those privileges to 
+
+--- Document Chunk 370 ---
+accomplish its specified functions, but no more). 
+
+--- Document Chunk 371 ---
+ Economise mechanism (avoid redundancies and overlapping of functionalities) 
+
+--- Document Chunk 372 ---
+ Authenticate requests (check identity of users, human or devices) 
+
+--- Document Chunk 373 ---
+ Control access (grant access only to authorised entities (users, programs, 
+
+--- Document Chunk 374 ---
+processes or other systems). 
+
+--- Document Chunk 375 ---
+ Assume secrets not safe (assume an attacker knows the details of the system) 
+
+--- Document Chunk 376 ---
+ Make security usable (avoid annoying and painful mechanisms) 
+
+--- Document Chunk 377 ---
+ Audit and monitor 
+
+--- Document Chunk 378 ---
+5.3 Safety and Security 
+
+--- Document Chunk 379 ---
+5.3.1 Safety and security have complementary goals but are sometimes in conflict over the 
+
+--- Document Chunk 380 ---
+means to achieve their respective goals.  
+
+--- Document Chunk 381 ---
+ 
+
+--- Document Chunk 382 ---
+ 
+
+--- Document Chunk 383 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 384 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 385 ---
+v6.docx 
+
+--- Document Chunk 386 ---
+ 
+
+--- Document Chunk 387 ---
+ In safety, frequent changes should be avoided because of the cost of safety 
+
+--- Document Chunk 388 ---
+demonstration. In security, update should be easy in order to be able to patch the 
+
+--- Document Chunk 389 ---
+system in a timely manner. 
+
+--- Document Chunk 390 ---
+ From the safety perspective an emergency message (e. g. to immediately shut 
+
+--- Document Chunk 391 ---
+down or stop a system) should be transmitted as fast as possible and the 
+
+--- Document Chunk 392 ---
+reaction should be executed immediately. From a security perspective the 
+
+--- Document Chunk 393 ---
+message should be authenticated to prevent masquerade which might lead at 
+
+--- Document Chunk 394 ---
+least to denial of service, but the calculation and checking of cryptographic codes 
+
+--- Document Chunk 395 ---
+consumes time and leads to a delay of the emergency message and the reaction. 
+
+--- Document Chunk 396 ---
+ 
+
+--- Document Chunk 397 ---
+5.3.2 Trade-off between safe and secure design is not easy and it can be hard to find an 
+
+--- Document Chunk 398 ---
+optimal solution. Safety and security are different and cannot easily be merged: security 
+
+--- Document Chunk 399 ---
+cannot simply be regarded as an add-on to safety or vice versa. The following principles 
+
+--- Document Chunk 400 ---
+are aimed at achieving a harmonious relationship between security and safety. 
+
+--- Document Chunk 401 ---
+ 
+
+--- Document Chunk 402 ---
+ Safety and security are different and should be treated as such 
+
+--- Document Chunk 403 ---
+ The security environment should protect essential functions, including safety 
+
+--- Document Chunk 404 ---
+ Cybersecurity Threat & Risk Analysis is the main interface with Safety Analysis. 
+
+--- Document Chunk 405 ---
+ Separate security and safety as far as possible but coordinate them effectively 
+
+--- Document Chunk 406 ---
+ Security should be evaluated on the basis of international standards, e.g. IEC 
+
+--- Document Chunk 407 ---
+62443 
+
+--- Document Chunk 408 ---
+ It is infeasible to evaluate the Security Risk probabilistically. 
+
+--- Document Chunk 409 ---
+ Safety and Security Target measures should not be coupled. 
+
+--- Document Chunk 410 ---
+ Security is a collaborative continuous effort. 
+
+--- Document Chunk 411 ---
+5.4 Protection against Physical Attacks, Theft & Vandalism 
+
+--- Document Chunk 412 ---
+Physical attacks, theft and vandalism are all potential threats to the safety and availability 
+
+--- Document Chunk 413 ---
+of railway signalling and communications systems. For defence in depth to ensure 
+
+--- Document Chunk 414 ---
+cybersecurity the first barrier should be physical protection; with no trust on who can 
+
+--- Document Chunk 415 ---
+access the hardware, there is no trust on the data. Vandalism incidents include malicious 
+
+--- Document Chunk 416 ---
+damage and arson. Theft normally targets high value lineside equipment such as copper 
+
+--- Document Chunk 417 ---
+cables. Both vandalism and theft can adversely affect safety by damaging equipment in 
+
+--- Document Chunk 418 ---
+ways not seen as credible in the normal design process, e.g. by causing multiple 
+
+--- Document Chunk 419 ---
+simultaneous failures. 
+
+--- Document Chunk 420 ---
+Measures to reduce risk include: 
+
+--- Document Chunk 421 ---
+ Fencing 
+
+--- Document Chunk 422 ---
+ CCTV 
+
+--- Document Chunk 423 ---
+ Cable alarms 
+
+--- Document Chunk 424 ---
+ Buried or secure cable routes 
+
+--- Document Chunk 425 ---
+ Fibre cable instead of metal 
+
+--- Document Chunk 426 ---
+ Security of equipment housings and rooms 
+
+--- Document Chunk 427 ---
+ Lighting 
+
+--- Document Chunk 428 ---
+ Movement detection 
+
+--- Document Chunk 429 ---
+ 
+
+--- Document Chunk 430 ---
+ 
+
+--- Document Chunk 431 ---
+  
+
+--- Document Chunk 432 ---
+ 
+
+--- Document Chunk 433 ---
+ 
+
+--- Document Chunk 434 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 435 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 436 ---
+v6.docx 
+
+--- Document Chunk 437 ---
+ 
+
+--- Document Chunk 438 ---
+6. Obsolescence Management 
+
+--- Document Chunk 439 ---
+6.1 Introduction 
+
+--- Document Chunk 440 ---
+Items become obsolete when they can no longer adequately perform the function for which they were 
+
+--- Document Chunk 441 ---
+created, or when there is a clear advantage in changing to a new product or technology.  Three types 
+
+--- Document Chunk 442 ---
+of obsolescence are described below. 
+
+--- Document Chunk 443 ---
+6.1.1  Obsolescence affects all products and it impacts upon all stages of their life. The term 
+
+--- Document Chunk 444 ---
+includes: 
+
+--- Document Chunk 445 ---
+ Capital equipment; 
+
+--- Document Chunk 446 ---
+ Infrastructure; 
+
+--- Document Chunk 447 ---
+ Consumer durables; 
+
+--- Document Chunk 448 ---
+ Consumables; 
+
+--- Document Chunk 449 ---
+ Software products. 
+
+--- Document Chunk 450 ---
+ 
+
+--- Document Chunk 451 ---
+6.1.2  Obsolescence is inevitable and it cannot be avoided, but forethought and careful 
+
+--- Document Chunk 452 ---
+planning can minimise its impact and its potential high costs. The objective of 
+
+--- Document Chunk 453 ---
+obsolescence management is to ensure that obsolescence is managed as an integral 
+
+--- Document Chunk 454 ---
+part of design, development, production and in-service support in order to minimise cost 
+
+--- Document Chunk 455 ---
+and detrimental impact throughout the product life cycle. 
+
+--- Document Chunk 456 ---
+ 
+
+--- Document Chunk 457 ---
+6.1.3  Obsolescence presents itself in three ways: 
+
+--- Document Chunk 458 ---
+ The item is no longer suitable for current demands; or 
+
+--- Document Chunk 459 ---
+ The item is no longer available from the original manufacturer; or 
+
+--- Document Chunk 460 ---
+ The item can no longer be maintained because people with the necessary 
+
+--- Document Chunk 461 ---
+skills are no longer available. 
+
+--- Document Chunk 462 ---
+ 
+
+--- Document Chunk 463 ---
+6.2 Product Suitability 
+
+--- Document Chunk 464 ---
+6.2.1  A system or product is designed to meet the requirements of the project at a specific 
+
+--- Document Chunk 465 ---
+moment in time.  Additional functionality can be added to meet a future need.  This is 
+
+--- Document Chunk 466 ---
+only a good idea if that future need is clear and/or the extra functionality does not add too 
+
+--- Document Chunk 467 ---
+much cost or complexity.  Otherwise it can add design complexity, add cost (including 
+
+--- Document Chunk 468 ---
+design effort, manufacture and ongoing maintenance), reduce reliability and in the end, 
+
+--- Document Chunk 469 ---
+may not be what is actually required. 
+
+--- Document Chunk 470 ---
+ 
+
+--- Document Chunk 471 ---
+6.2.2  There is a need for products and systems to be ‘future-proof’ by which is meant minimal 
+
+--- Document Chunk 472 ---
+changes are required to enable the product or system to continue in operation for as long 
+
+--- Document Chunk 473 ---
+as possible. 
+
+--- Document Chunk 474 ---
+ 
+
+--- Document Chunk 475 ---
+6.2.3  A good approach for ‘future-proofing’ is to take time at the start of the project 
+
+--- Document Chunk 476 ---
+understanding what the user’s needs are and how these might realistically change over 
+
+--- Document Chunk 477 ---
+time. This is not a perfect science, but careful consideration will ensure that all 
+
+--- Document Chunk 478 ---
+reasonable options can be considered and costed, enabling the design to progress. 
+
+--- Document Chunk 479 ---
+Issues that will need to be considered include: 
+
+--- Document Chunk 480 ---
+ Increases or decreases in demand; 
+
+--- Document Chunk 481 ---
+ Changes in supporting technology; 
+
+--- Document Chunk 482 ---
+ Changes in customer behaviour and expectations; 
+
+--- Document Chunk 483 ---
+ Legislation changes; 
+
+--- Document Chunk 484 ---
+6.3 Item Availability 
+
+--- Document Chunk 485 ---
+6.3.1 The availability of product parts reduces over time as manufacturers cease to make 
+
+--- Document Chunk 486 ---
+them. Mechanical items can be remade if the drawings are available (or can be re-
+
+--- Document Chunk 487 ---
+drawn). And depending on the application, the advent of 3D printing may ease the supply 
+
+--- Document Chunk 488 ---
+of old parts. 
+
+--- Document Chunk 489 ---
+ 
+
+--- Document Chunk 490 ---
+ 
+
+--- Document Chunk 491 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 492 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 493 ---
+v6.docx 
+
+--- Document Chunk 494 ---
+ 
+
+--- Document Chunk 495 ---
+ 
+
+--- Document Chunk 496 ---
+6.3.2 Electronic components, particularly semi-conductor circuits, are very likely to be hard to 
+
+--- Document Chunk 497 ---
+source as time moves on. Manufacturers move on to the next iteration of the item and 
+
+--- Document Chunk 498 ---
+may cease its manufacturing altogether and make something new. It is also possible that 
+
+--- Document Chunk 499 ---
+the manufacturer can cease trading. 
+
+--- Document Chunk 500 ---
+ 
+
+--- Document Chunk 501 ---
+6.3.3 In these cases, an alternative part must be found if the project or system is to remain in 
+
+--- Document Chunk 502 ---
+operation. This requires as full an understanding as possible of the functions and 
+
+--- Document Chunk 503 ---
+interfaces of the obsolescent item concerned so that a replacement can be properly 
+
+--- Document Chunk 504 ---
+specified. For legacy items, this is often hard to capture due to lack of appropriate 
+
+--- Document Chunk 505 ---
+documentation and loss of staff knowledge (see below). Designers today, should ensure 
+
+--- Document Chunk 506 ---
+that each item is properly documented to enable its replacement by something suitable in 
+
+--- Document Chunk 507 ---
+the future should the need arise. 
+
+--- Document Chunk 508 ---
+ 
+
+--- Document Chunk 509 ---
+6.3.4  The key functions include: 
+
+--- Document Chunk 510 ---
+ Operating environmental conditions (e.g. temperature, humidity, pressure, 
+
+--- Document Chunk 511 ---
+power supply resilience); 
+
+--- Document Chunk 512 ---
+ Input timing considerations, particularly for microprocessor and memory 
+
+--- Document Chunk 513 ---
+chips; 
+
+--- Document Chunk 514 ---
+ Storage requirements (e.g. temperature, shelf time - especially for batteries, 
+
+--- Document Chunk 515 ---
+humidity) 
+
+--- Document Chunk 516 ---
+ Earthing arrangements; 
+
+--- Document Chunk 517 ---
+ Operating sequence, where the receipt of some information before other 
+
+--- Document Chunk 518 ---
+information may be critical but undocumented; 
+
+--- Document Chunk 519 ---
+6.4 Staff Knowledge 
+
+--- Document Chunk 520 ---
+6.4.1 The failure to maintain sufficient corporate knowledge of a product (e.g. its history of 
+
+--- Document Chunk 521 ---
+development, experience of in-service operation and failures, frequent faults and their 
+
+--- Document Chunk 522 ---
+remedies) can lead to a loss of knowledge about that product. The result can be a 
+
+--- Document Chunk 523 ---
+reduction in reliability, poorly installed products, poor maintenance and badly applied 
+
+--- Document Chunk 524 ---
+modifications. 
+
+--- Document Chunk 525 ---
+ 
+
+--- Document Chunk 526 ---
+6.4.2  This can be particularly relevant to software modifications, especially if it has been 
+
+--- Document Chunk 527 ---
+poorly documented. 
+
+--- Document Chunk 528 ---
+ 
+
+--- Document Chunk 529 ---
+6.4.3 The skills of staff need to be maintained because some will retire or move to another 
+
+--- Document Chunk 530 ---
+job.  Training, comprehensive documentation and succession planning are tools to 
+
+--- Document Chunk 531 ---
+address this. 
+
+--- Document Chunk 532 ---
+ 
+
+--- Document Chunk 533 ---
+ 
+
+--- Document Chunk 534 ---
+  
+
+--- Document Chunk 535 ---
+ 
+
+--- Document Chunk 536 ---
+ 
+
+--- Document Chunk 537 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 538 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 539 ---
+v6.docx 
+
+--- Document Chunk 540 ---
+ 
+
+--- Document Chunk 541 ---
+7. Configuration Management 
+
+--- Document Chunk 542 ---
+ 
+
+--- Document Chunk 543 ---
+7.1 Configuration management follows four main principles: 
+
+--- Document Chunk 544 ---
+ Each piece of information or product is uniquely identified, not just by type, 
+
+--- Document Chunk 545 ---
+but as a unique item in its own right. 
+
+--- Document Chunk 546 ---
+ Each piece of information or product can have a status associated with it, and 
+
+--- Document Chunk 547 ---
+a record of its history. 
+
+--- Document Chunk 548 ---
+ The component parts that make up a product or system can be listed, and 
+
+--- Document Chunk 549 ---
+associated together. Documents can also be similarly related. Examples are a 
+
+--- Document Chunk 550 ---
+set of requirements documents for a system, or plans for related sub-projects. 
+
+--- Document Chunk 551 ---
+ Associations between elements of a wider system can be captured, so that if 
+
+--- Document Chunk 552 ---
+one item changes, then it is known that another must also change. 
+
+--- Document Chunk 553 ---
+ 
+
+--- Document Chunk 554 ---
+ 
+
+--- Document Chunk 555 ---
+7.2 Configuration management consists of four basic elements 
+
+--- Document Chunk 556 ---
+ Identification. 
+
+--- Document Chunk 557 ---
+ Change Management 
+
+--- Document Chunk 558 ---
+ Status Accounting 
+
+--- Document Chunk 559 ---
+ Audit and review 
+
+--- Document Chunk 560 ---
+ 
+
+--- Document Chunk 561 ---
+7.3 Identification. Set the identification system for each configured item. This will not 
+
+--- Document Chunk 562 ---
+necessarily be the same for each item. Documents will almost certainly need a different method 
+
+--- Document Chunk 563 ---
+from products for example. Thought should be given to the creation of a document tree, and 
+
+--- Document Chunk 564 ---
+product list. 
+
+--- Document Chunk 565 ---
+ 
+
+--- Document Chunk 566 ---
+7.4 Change Management. Changes have to be managed, otherwise people will be 
+
+--- Document Chunk 567 ---
+working from different sets of uncontrolled information, resulting in costly delays later on in the 
+
+--- Document Chunk 568 ---
+project. There needs to be a change control process that ALL changes go through. A system of 
+
+--- Document Chunk 569 ---
+version control is needed for both hardware and software.  But the change process should also 
+
+--- Document Chunk 570 ---
+take into account the different needs of major and minor changes, so that changes are given 
+
+--- Document Chunk 571 ---
+the appropriate scrutiny and then authorisation. Baselines provide a useful means of controlling 
+
+--- Document Chunk 572 ---
+the issue of information, particularly where there are several pieces of information that are 
+
+--- Document Chunk 573 ---
+related (e.g. various different product specifications for one system). This enables others to 
+
+--- Document Chunk 574 ---
+work from a common set of information, and all changes and their impacts to be compared 
+
+--- Document Chunk 575 ---
+against a known position. Finally, any information that is out of date, must be withdrawn, and 
+
+--- Document Chunk 576 ---
+the change management process should enable this to take place and to demonstrate that is 
+
+--- Document Chunk 577 ---
+has occurred. 
+
+--- Document Chunk 578 ---
+ 
+
+--- Document Chunk 579 ---
+7.5 Status Accounting. This provides a view of the current status of configuration items 
+
+--- Document Chunk 580 ---
+(number of changes, those pending, actioned etc.).  People can see what changes have 
+
+--- Document Chunk 581 ---
+occurred, and when they occurred. They can also see which proposed changes have been 
+
+--- Document Chunk 582 ---
+rejected. 
+
+--- Document Chunk 583 ---
+ 
+
+--- Document Chunk 584 ---
+7.6 Audit and review There is often pressure to deliver the job now and update the 
+
+--- Document Chunk 585 ---
+documents later. In the long term, this attitude can be costly to a project. Performing audits and 
+
+--- Document Chunk 586 ---
+reviews challenges people to adhere to the process. It also provides a record that the process 
+
+--- Document Chunk 587 ---
+has been followed. 
+
+--- Document Chunk 588 ---
+ 
+
+--- Document Chunk 589 ---
+ 
+
+--- Document Chunk 590 ---
+  
+
+--- Document Chunk 591 ---
+ 
+
+--- Document Chunk 592 ---
+ 
+
+--- Document Chunk 593 ---
+3-Apr-23  Systems Management article 
+
+--- Document Chunk 594 ---
+v6.docxSystems Management article 
+
+--- Document Chunk 595 ---
+v6.docx 
+
+--- Document Chunk 596 ---
+ 
+
+--- Document Chunk 597 ---
+8. Use of DRACAS and FRACAS 
+
+--- Document Chunk 598 ---
+8.1 Introduction 
+
+--- Document Chunk 599 ---
+ The terms DRACAS (Defect Recording, Analysis and Corrective Action System) and 
+
+--- Document Chunk 600 ---
+FRACAS (Fault Reporting, Analysis and Corrective Action System) are often used 
+
+--- Document Chunk 601 ---
+interchangeably. While they overlap, they are different. 
+
+--- Document Chunk 602 ---
+ 
+
+--- Document Chunk 603 ---
+ FRACAS specifically addresses faults and failures, i.e. when something is no longer 
+
+--- Document Chunk 604 ---
+performing its intended function. Such a system would typically be used by a maintenance 
+
+--- Document Chunk 605 ---
+organisation to manage and record in-service failures. Analysis of these failures can lead to 
+
+--- Document Chunk 606 ---
+quicker repair times as common faults can be highlighted and appropriate repair mechanisms 
+
+--- Document Chunk 607 ---
+or preventative measures put in place. 
+
+--- Document Chunk 608 ---
+ 
+
+--- Document Chunk 609 ---
+ DRACAS has a wider remit, embracing not only faults, but other incidents and observations 
+
+--- Document Chunk 610 ---
+which, combined with faults, provides a richer picture of equipment performance and can lead 
+
+--- Document Chunk 611 ---
+to a significant improvement in reliability. Such a system would typically be used by a design 
+
+--- Document Chunk 612 ---
+organisation as the item under consideration is developed for in-service operation. It may also 
+
+--- Document Chunk 613 ---
+be used by a maintenance organisation. It is good to start using a DRACAS as early in the 
+
+--- Document Chunk 614 ---
+lifecycle as possible to capture defects as they occur throughout design. 
+
+--- Document Chunk 615 ---
+ 
+
+--- Document Chunk 616 ---
+8.2 Defect Recording / Fault Reporting 
+
+--- Document Chunk 617 ---
+8.2.1 The first step in the process is to record the defect (or record the fault). The initial details 
+
+--- Document Chunk 618 ---
+necessary are: 
+
+--- Document Chunk 619 ---
+ Observed defect / fault 
+
+--- Document Chunk 620 ---
+ The effect of the default/fault on the operation of the equipment and, if 
+
+--- Document Chunk 621 ---
+relevant, the safe operation of the railway; 
+
+--- Document Chunk 622 ---
+ Date, time and location of where and when the defect was first observed; 
+
+--- Document Chunk 623 ---
+ Details of what was happening at the time; 
+
+--- Document Chunk 624 ---
+ Details of the equipment involved (type, model, manufacturer, serial number, 
+
+--- Document Chunk 625 ---
+software version) 
+
+--- Document Chunk 626 ---
+ Details of personnel involved; 
+
+--- Document Chunk 627 ---
+ Details of the person making the report; 
+
+--- Document Chunk 628 ---
+8.2.2  The report record then needs to be stored. Supporting this should be a process that 
+
+--- Document Chunk 629 ---
+takes the recorded information and makes it available for relevant personnel. Such 
+
+--- Document Chunk 630 ---
+personnel could include: 
+
+--- Document Chunk 631 ---
+ Designers; 
+
+--- Document Chunk 632 ---
+ Maintainers; 
+
+--- Document Chunk 633 ---
+ Operators; 
+
+--- Document Chunk 634 ---
+ Safety engineer. 
+
+--- Document Chunk 635 ---
+8.2.3.  The information should then be used (alongside data from previous faults) for analysis 
+
+--- Document Chunk 636 ---
+and corrective actions to improve future performance.  
+
+--- Document Chunk 637 ---
+ 
+

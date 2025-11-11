@@ -1,0 +1,3804 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+ee 45.020                                                Ca
+
+--- Document Chunk 2 ---
+中国城市辆道交通协会团体标淮
+
+--- Document Chunk 3 ---
+T/CAMET 04011.3— 2018
+
+--- Document Chunk 4 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通接口规范
+
+--- Document Chunk 6 ---
+第3部分: 车载列车自动保护 ( ATP ) /列车
+
+--- Document Chunk 7 ---
+自动运行 ( ATO ) 系统与车辆的接口
+
+--- Document Chunk 8 ---
+Urban rail transit 一 Interface specification for interoperability of
+
+--- Document Chunk 9 ---
+communication based train control system
+
+--- Document Chunk 10 ---
+Part 3: Interface between onboard Automatic Train Protection
+
+--- Document Chunk 11 ---
+(ATP) & Automatic Train Operation (ATO) and vehicle
+
+--- Document Chunk 12 ---
+2018-09-10 发布                        2018-12-31 实施
+
+--- Document Chunk 13 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 14 ---
+--- Page 2 ---
+
+--- Document Chunk 15 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 16 ---
+月
+
+--- Document Chunk 17 ---
+5
+
+--- Document Chunk 18 ---
+2
+
+--- Document Chunk 19 ---
+3
+
+--- Document Chunk 20 ---
+5 功能接口 …
+
+--- Document Chunk 21 ---
+6 袖械接口
+
+--- Document Chunk 22 ---
+6.1 通用要求.pp
+
+--- Document Chunk 23 ---
+6.2 车肉设备.pp
+
+--- Document Chunk 24 ---
+6.3 车底设备和
+
+--- Document Chunk 25 ---
+6.4 ERR ER
+
+--- Document Chunk 26 ---
+附录 A( 规范性附录) “与车辆功能接口特性参数 ，
+
+--- Document Chunk 27 ---
+Arvwvowwwnne ne BS
+
+--- Document Chunk 28 ---
+Noy
+
+--- Document Chunk 29 ---
+bs
+
+--- Document Chunk 30 ---
+iN)
+
+--- Document Chunk 31 ---
+as
+
+--- Document Chunk 32 ---
+--- Page 3 ---
+
+--- Document Chunk 33 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 34 ---
+亚
+
+--- Document Chunk 35 ---
+Ill
+
+--- Document Chunk 36 ---
+T/CAMET 04011《城市轨道交通 基于通信的列车运行控制系统
+
+--- Document Chunk 37 ---
+(CBTC )互联互通接口规范》分为以下八个部分:
+
+--- Document Chunk 38 ---
+一一第 1 部分:应答器报文;
+
+--- Document Chunk 39 ---
+一一第 2 部分:CBTC 系统车地连续通信协议;
+
+--- Document Chunk 40 ---
+一一第 3 部分:车载列车自动保护(ATP)/列车自动运行(ATO)系统
+
+--- Document Chunk 41 ---
+与车辆的接口;
+
+--- Document Chunk 42 ---
+一一第 4 部分:区域控制器(ZC)间接口;
+
+--- Document Chunk 43 ---
+一一第 5 部分:计算机联锁(CI)间接口;
+
+--- Document Chunk 44 ---
+一一第6 部分:列车自动监控系统(ATS )间接口;
+
+--- Document Chunk 45 ---
+一一第7 部分:信号各子系统与维护支持系统(MSS )间接口;
+
+--- Document Chunk 46 ---
+一一第 8 部分:车载人机界面。
+
+--- Document Chunk 47 ---
+本部分是 T/CAMET 04011 的第 3 部分。
+
+--- Document Chunk 48 ---
+本部分按照 GB/T 1. 1一2009 给出的规则起草。
+
+--- Document Chunk 49 ---
+请注意本部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 50 ---
+识别这些专利的责任。
+
+--- Document Chunk 51 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 52 ---
+本部分由中国城市轨道交通协会归口 。
+
+--- Document Chunk 53 ---
+本部分起草单位:北京全路通信信和号研究设计院集团有限公司 CHEB
+
+--- Document Chunk 54 ---
+技股份有限公司 .中国铁道科学研究院集团有限公司通信信号研究所、株洲
+
+--- Document Chunk 55 ---
+中车时代电气股份有限公司 .浙江众合科技股份有限公司 .北京交通大学。
+
+--- Document Chunk 56 ---
+本部分主要起草人:编写组:吕浩炯、任颖、杨晓荣.周元宝.王佳、
+
+--- Document Chunk 57 ---
+EG TUS UE AS ROE HE BEAR A UES AED EE
+
+--- Document Chunk 58 ---
+FID .赵炜 SE Se THER TKR EA IK BURT ZEB FER
+
+--- Document Chunk 59 ---
+Sate EM RAGA REE NE.
+
+--- Document Chunk 60 ---
+三
+
+--- Document Chunk 61 ---
+--- Page 4 ---
+
+--- Document Chunk 62 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 63 ---
+引
+
+--- Document Chunk 64 ---
+Ii
+
+--- Document Chunk 65 ---
+为促进中同城市轨道交通建设,实现并满足城市轨道交通互联互通
+
+--- Document Chunk 66 ---
+的需要,达到经济适用 ,资源共享 .技术先进及可持续发展的目标,制定城
+
+--- Document Chunk 67 ---
+市轨道交通基于通信的列车运行控制系统(CBTC )互联互通系列团体
+
+--- Document Chunk 68 ---
+标准。
+
+--- Document Chunk 69 ---
+该系列规范包括《城市轨道交通 基于通信的列车运行控制系统
+
+--- Document Chunk 70 ---
+(CBTC )互联互通系统规范兴城市轨道交通”基于通信的列车运行控制
+
+--- Document Chunk 71 ---
+系统(CBTC ) 互联互通接口规范闪城市轨道交通“基于通信的列车运行
+
+--- Document Chunk 72 ---
+控制系统(CBTC ) 互联互通测试规范兴城市轨道交通”基于通信的列车
+
+--- Document Chunk 73 ---
+运行控制系统(CBTC ) 互联互通工程规范》4 个规范(17 个部分) 。
+
+--- Document Chunk 74 ---
+--- Page 5 ---
+
+--- Document Chunk 75 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 76 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 77 ---
+控制系统( CBTC) 互联互通接口规范
+
+--- Document Chunk 78 ---
+第 3 部分:车载列车自动保护(ATP)/列车自动
+
+--- Document Chunk 79 ---
+运行(ATO ) 系统与车辆的接口
+
+--- Document Chunk 80 ---
+1 范围
+
+--- Document Chunk 81 ---
+T/CAMET 04011
+
+--- Document Chunk 82 ---
+ATO 设备与车辆之站              机械接口的定义
+
+--- Document Chunk 83 ---
+传输信号的要求和想三
+
+--- Document Chunk 84 ---
+AMS} AF fel LR      y  igi (CBTC) 系统的新
+
+--- Document Chunk 85 ---
+建,更新改造及扩建  i   路  用3用导信号系统的系统
+
+--- Document Chunk 86 ---
+2 规范性引用文件
+
+--- Document Chunk 87 ---
+下列文件对于本部分的应用是必不可少的。凡是注日期的引用文
+
+--- Document Chunk 88 ---
+件,仅所注日期的版本适用于本部分。凡是不注日期的引用文件,其最新
+
+--- Document Chunk 89 ---
+版本(包括所有的修改单)适用于本部分。
+
+--- Document Chunk 90 ---
+GB/T 19666-2005 ”阻燃和耐火电线电缆通则
+
+--- Document Chunk 91 ---
+GB/T 25119—2010 ”轨道交通机车车辆电子装置(IEC 60571 : 2006,
+
+--- Document Chunk 92 ---
+MOD)
+
+--- Document Chunk 93 ---
+TB/T 1484 ”机车车辆电缆
+
+--- Document Chunk 94 ---
+TB/T 3153—2007 ”铁路应用机车车辆布线规则
+
+--- Document Chunk 95 ---
+CI/T 407一2012 ”城市轨道交通基于通信的列车自动控制系统技术
+
+--- Document Chunk 96 ---
+要求
+
+--- Document Chunk 97 ---
+--- Page 6 ---
+
+--- Document Chunk 98 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 99 ---
+3 术语和缩略语
+
+--- Document Chunk 100 ---
+CJ/T 407一2012 界定的及下列术语和缩略语适用于本部分。为了
+
+--- Document Chunk 101 ---
+便于使用,以下重复列出了其中的主要相关术语。
+
+--- Document Chunk 102 ---
+3.1 术语
+
+--- Document Chunk 103 ---
+3.1.1
+
+--- Document Chunk 104 ---
+车辆接口 vehicle interface
+
+--- Document Chunk 105 ---
+车载 ATP/ATO 设备与安装有该设备的车辆之间的接口。
+
+--- Document Chunk 106 ---
+CJ/T 407一2012 ,定义7.2]
+
+--- Document Chunk 107 ---
+3.1.2
+
+--- Document Chunk 108 ---
+SASS input signal
+
+--- Document Chunk 109 ---
+表示由车辆传输至车载 ATP/ATO 设备的信号。
+
+--- Document Chunk 110 ---
+CJ/T 407一2012 ,定义7.2.1]
+
+--- Document Chunk 111 ---
+3.1.3
+
+--- Document Chunk 112 ---
+输出信号”output signal
+
+--- Document Chunk 113 ---
+表示由车载 ATP/ATO 设备传输至车辆的信号。
+
+--- Document Chunk 114 ---
+CJ/T 407一2012 ,定义7.2.2]
+
+--- Document Chunk 115 ---
+3. 1.4
+
+--- Document Chunk 116 ---
+左侧 left side of the vehicle
+
+--- Document Chunk 117 ---
+列车运行方向的左侧为车辆左侧。
+
+--- Document Chunk 118 ---
+3.1.5
+
+--- Document Chunk 119 ---
+右侧 right side of the vehicle
+
+--- Document Chunk 120 ---
+列车运行方向的右侧为车辆右侧。
+
+--- Document Chunk 121 ---
+3.1.6
+
+--- Document Chunk 122 ---
+互联互通 interoperability
+
+--- Document Chunk 123 ---
+装备不同信号厂家车载设备的列车可以在装备不同信号厂家轨旁设
+
+--- Document Chunk 124 ---
+备的一条轨道交通线路内或多条轨道交通线路上无颖互通安全可靠
+
+--- Document Chunk 125 ---
+[T/CAMET 04010. 1 ,术语3.1.16]
+
+--- Document Chunk 126 ---
+--- Page 7 ---
+
+--- Document Chunk 127 ---
+T/CAMET 04011. 3—2018
+
+--- Document Chunk 128 ---
+3.2 缩略语
+
+--- Document Chunk 129 ---
+BTM :应符器传输模块( Balise Transfer Module)
+
+--- Document Chunk 130 ---
+4 总则
+
+--- Document Chunk 131 ---
+4.1 为促进轨道交通信号系统车载 ATP/ATO 设备与车辆之间的兼容
+
+--- Document Chunk 132 ---
+性和互换性 ,达到互联互通目的,本规范对车载 ATP/ATO 设备与安装有
+
+--- Document Chunk 133 ---
+该设备的车辆间接口进行定义,包括接口方式与接口参数,并对车载
+
+--- Document Chunk 134 ---
+ATP/AVO 设备安装位置 .安装方式等进行了约东。
+
+--- Document Chunk 135 ---
+4.2 本规范中,功能接口特指车载 ATP/ATO 设备与列车牵引系统 til
+
+--- Document Chunk 136 ---
+动系统及车辆控制系统之间的电气接口。
+
+--- Document Chunk 137 ---
+4.3 本规范中机械接口特指车载 ATP/ATO 主机、车载显示器、转速传
+
+--- Document Chunk 138 ---
+感器、多普堵雷达传感器、加速度传感器.BTM 天线、车载无线天线的安
+
+--- Document Chunk 139 ---
+装位置及空间等相关要求。
+
+--- Document Chunk 140 ---
+4. 4 对于互联互通的线路 ,车载信号设备中车载显示器的显示形式及
+
+--- Document Chunk 141 ---
+按键定义.司机操作按钮安装位置及功能定义 .指示灯位置及显示定义、
+
+--- Document Chunk 142 ---
+车载信号设备与 PIS 等通信接口及协议等宜保持一致,具体在工程阶段
+
+--- Document Chunk 143 ---
+进行约定。
+
+--- Document Chunk 144 ---
+5 功能接口
+
+--- Document Chunk 145 ---
+5.1 功能接口类型定义
+
+--- Document Chunk 146 ---
+对于功能接口 ,本规范定义A YB 型及人C 型三种类型。
+
+--- Document Chunk 147 ---
+注:若采用其他类型接口或对下述三种类型接口有不同要求 ,在:C程实施阶段进
+
+--- Document Chunk 148 ---
+行约定。
+
+--- Document Chunk 149 ---
+5.1.1 A型接口
+
+--- Document Chunk 150 ---
+A 型接口为数字形式,并具有以下特征:
+
+--- Document Chunk 151 ---
+a) 输出信号
+
+--- Document Chunk 152 ---
+车载 ATP/ATO 设备输出方式包括继电器触点和电平输出两种
+
+--- Document Chunk 153 ---
+方式,并具有以下定义:
+
+--- Document Chunk 154 ---
+1) 继电器触点方式
+
+--- Document Chunk 155 ---
+--- Page 8 ---
+
+--- Document Chunk 156 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 157 ---
+一一控制信号为逻辑“1”,即继电器常开触点闭合或常闭
+
+--- Document Chunk 158 ---
+fit 8 BT FFs
+
+--- Document Chunk 159 ---
+一一控制信号为逻辑“0”,即继电器常开和触点断开或常闭
+
+--- Document Chunk 160 ---
+触点闭合。
+
+--- Document Chunk 161 ---
+2) 电平方式
+
+--- Document Chunk 162 ---
+一一控制信号为浊辑“1 "表示输出高电平(关DC 77 V);
+
+--- Document Chunk 163 ---
+一一控制信号为逻辑“0"表示输出低电平( <DC 25 V) 。
+
+--- Document Chunk 164 ---
+3) 安全性要求
+
+--- Document Chunk 165 ---
+对于安全关键输出信号 ,应采用继电器常开触点,逻辑“0”
+
+--- Document Chunk 166 ---
+定义为安全侧。
+
+--- Document Chunk 167 ---
+安全关键输出继电器触点宜与车辆执行机构直接连接。
+
+--- Document Chunk 168 ---
+输入信号
+
+--- Document Chunk 169 ---
+车载 ATP/ATO 设备采集车辆状态 ,宜采用继电器触点或机械
+
+--- Document Chunk 170 ---
+触点信号 ,也可采用电平信号。
+
+--- Document Chunk 171 ---
+1)
+
+--- Document Chunk 172 ---
+继电器触点方式
+
+--- Document Chunk 173 ---
+一一控制信号为逻辑1"表示车辆继电器常开触点闭合或
+
+--- Document Chunk 174 ---
+常闭触点断开;
+
+--- Document Chunk 175 ---
+一一控制信号为巡辑“0"表示车辆继电器常开佣点断开或
+
+--- Document Chunk 176 ---
+A AA
+
+--- Document Chunk 177 ---
+电平方式
+
+--- Document Chunk 178 ---
+一一控制信号为逻辑“1 "表示输入高电平(DC 77 V) ;
+
+--- Document Chunk 179 ---
+一一控制信号为逻辑“0"表示输入低电平( <DC 25 V) 。
+
+--- Document Chunk 180 ---
+注:关于电压与膛辑状态转换关系参见网 1 。
+
+--- Document Chunk 181 ---
+3)
+
+--- Document Chunk 182 ---
+安全性要求
+
+--- Document Chunk 183 ---
+对于安全关键输入继电器触点信号,车辆宜提供 2 组触
+
+--- Document Chunk 184 ---
+点,且触点宜来源于两组独立继电器;若车辆仅提供 1 组
+
+--- Document Chunk 185 ---
+触点,则应采用线缆全程屏项的接线方式。
+
+--- Document Chunk 186 ---
+对于非安全关键输入继电器触点信号,车辆应提供 1 组
+
+--- Document Chunk 187 ---
+触点。
+
+--- Document Chunk 188 ---
+--- Page 9 ---
+
+--- Document Chunk 189 ---
+a
+
+--- Document Chunk 190 ---
+=
+
+--- Document Chunk 191 ---
+T/CAMET 04011. 3—2018
+
+--- Document Chunk 192 ---
+ov      25 V              nV        电压(DC)
+
+--- Document Chunk 193 ---
+Al 电压与逻辑状态转换关系
+
+--- Document Chunk 194 ---
+b) 接口采用 Spo)
+
+--- Document Chunk 195 ---
+.3 CC 型接口         >
+
+--- Document Chunk 196 ---
+C 型接口具有 <s
+
+--- Document Chunk 197 ---
+a) ORME
+
+--- Document Chunk 198 ---
+b) 串行通信                         采用 RS422 或 RS485
+
+--- Document Chunk 199 ---
+方式;
+
+--- Document Chunk 200 ---
+c) C 型接口通信协议可参震%焉包车辆车载控制网络数据传送规
+
+--- Document Chunk 201 ---
+范(第 2 版)》执行
+
+--- Document Chunk 202 ---
+关于功能接口特性参数要求见附录 A。
+
+--- Document Chunk 203 ---
+.4 功能接口汇总表
+
+--- Document Chunk 204 ---
+表 1 规定了输入类功能接口的名称及要求。
+
+--- Document Chunk 205 ---
+表1 输入类功能接口
+
+--- Document Chunk 206 ---
+序号         接口名称         安全性要求 |是否为选用接口
+
+--- Document Chunk 207 ---
+1         紧急制动状态        安全关键       否
+
+--- Document Chunk 208 ---
+列车完整性状态    上 安全关键       a
+
+--- Document Chunk 209 ---
+--- Page 10 ---
+
+--- Document Chunk 210 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 211 ---
+表1 输入类功能接口(续)
+
+--- Document Chunk 212 ---
+序号      接口名称       安全性要求 |是稍为选用接D| &
+
+--- Document Chunk 213 ---
+3 | RET MEDIRS    安全关键 | 理    eus2a |
+
+--- Document Chunk 214 ---
+4    wee MARA    RK   a | Bus26
+
+--- Document Chunk 215 ---
+5   车辆牵引已切除状态   安全关键 |  否    参见5.2.8
+
+--- Document Chunk 216 ---
+6  eg ESET  安全关键     a     $M 5.2.10
+
+--- Document Chunk 217 ---
+7     司机方向手柄位置     安全关键     是     参见5.2.11
+
+--- Document Chunk 218 ---
+8     PART TARS SH     安全关键     是     参见5.2.5
+
+--- Document Chunk 219 ---
+9     列车制动状态     安全关键 | 是    参见5.2.7
+
+--- Document Chunk 220 ---
+10     列车中速度信号     安全关键     是      参见5.2 9
+
+--- Document Chunk 221 ---
+己     车载 ATP/ATO 旁路 | 安全关键      是     参见5 2 加
+
+--- Document Chunk 222 ---
+2     列车车门开关状态 | Ake A     足     参见5.2.3
+
+--- Document Chunk 223 ---
+13     车门控制模式选择 | 非安全关键     es | 参见52 va
+
+--- Document Chunk 224 ---
+14     ALA TIF aS    非安全关键     否     参见5.2.15
+
+--- Document Chunk 225 ---
+15     梧机人工关门信号     非安全关键     否      人参见 5. 2. 16
+
+--- Document Chunk 226 ---
+16     司机主控手柄位置  4 EA KA     是      $0521 |
+
+--- Document Chunk 227 ---
+注:接口选用"是"表示接口可根据了程实际进行选用,选用"再"接口的均为
+
+--- Document Chunk 228 ---
+必须采用的接口。
+
+--- Document Chunk 229 ---
+表 2 规定了输出类功能接口的名称及要求。
+
+--- Document Chunk 230 ---
+表2 输出类功能接口
+
+--- Document Chunk 231 ---
+序号|      接口名称       ee ee
+
+--- Document Chunk 232 ---
+1      紧急制动指令      安全关键     B     $M 5.3.1
+
+--- Document Chunk 233 ---
+2        开门使能信号        安全关键       否         参见 5.3.4
+
+--- Document Chunk 234 ---
+3 |      牵引切除指令      | 安全关键       竺     tous 3.5
+
+--- Document Chunk 235 ---
+--- Page 11 ---
+
+--- Document Chunk 236 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 237 ---
+表2 输出类功能接口(续)
+
+--- Document Chunk 238 ---
+(ee |      接口名称       安全性要求 [是否为选用接口| 备注
+
+--- Document Chunk 239 ---
+4 [ER ATP/ATO 列车零速度信号 安全关键           是           BM 5.3.13
+
+--- Document Chunk 240 ---
+5     ATO 牵引/制动指令“| 非安全关键     Ea      参见5.3.6
+
+--- Document Chunk 241 ---
+6     ATO 牵引/制动级位 | 非安全关键     否      参见5.3.7
+
+--- Document Chunk 242 ---
+7       AM 驾驶模式状态      非安全关键      否        参见5.3.8
+
+--- Document Chunk 243 ---
+8         开门指令        非安全关键     否      参见5.3. 11 |
+
+--- Document Chunk 244 ---
+9        关门指令       非安全关键     Ea     参见5.3.12
+
+--- Document Chunk 245 ---
+10     最大常用制动指令    非安全关键     是      参见5.3.2
+
+--- Document Chunk 246 ---
+1      快速制动指令      非安全关键     是      参见5.3.3
+
+--- Document Chunk 247 ---
+12     CM 驾驶模式状态 | 非安全关键     是      参见5.3.9
+
+--- Document Chunk 248 ---
+13             自动折返            非安全关键        是         参见5.3. 10
+
+--- Document Chunk 249 ---
+5.2 输入信和号
+
+--- Document Chunk 250 ---
+5.2.1 紧急制动状态
+
+--- Document Chunk 251 ---
+5.2.1.1 接口描述
+
+--- Document Chunk 252 ---
+紧急制动状态是安全关键输入信号 ,该接口采用 A 型接口,并具有
+
+--- Document Chunk 253 ---
+如下2 种状态 :
+
+--- Document Chunk 254 ---
+一一车辆施加紧急制动;
+
+--- Document Chunk 255 ---
+一一车辆未施加紧急制动 。
+
+--- Document Chunk 256 ---
+5.2.1.2 信号特征
+
+--- Document Chunk 257 ---
+紧急制动状态接口具有两种输入状态 ,具体定义如下 :
+
+--- Document Chunk 258 ---
+一一控制信号为逻辑“1 "表示和车辆施加紧急制动
+
+--- Document Chunk 259 ---
+一一控制信号为逻辑"0"表示车辆未施加紧急制动。
+
+--- Document Chunk 260 ---
+注:本规范中所定义功能接口 ,除已声明为安全关键接口,其他未声明的为非安
+
+--- Document Chunk 261 ---
+全关键接口。
+
+--- Document Chunk 262 ---
+5.2.2 列车完整性状态
+
+--- Document Chunk 263 ---
+5.2.2.1 接口描述
+
+--- Document Chunk 264 ---
+列车完整性状态是安全关键输入信和号,车载 ATP/ATO 设备检测到
+
+--- Document Chunk 265 ---
+7
+
+--- Document Chunk 266 ---
+--- Page 12 ---
+
+--- Document Chunk 267 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 268 ---
+列车完整性丢失后 ,将会输出紧急制动指令。该接口采用 A 型接口 ,并
+
+--- Document Chunk 269 ---
+有具有如下 2 种状态:
+
+--- Document Chunk 270 ---
+一一列车完整性有效;
+
+--- Document Chunk 271 ---
+一一列车完整性无效。
+
+--- Document Chunk 272 ---
+5.2.2.2 ”信和号特征
+
+--- Document Chunk 273 ---
+列车完整性检查接口具有两种输入状态 ,具体定义如下 :
+
+--- Document Chunk 274 ---
+一一控制信号为逻辑“1"表示列车完整性有效;
+
+--- Document Chunk 275 ---
+一一控制信号为逻辑“0"表示列车完整性无效。
+
+--- Document Chunk 276 ---
+5.2.3 列车车门开关状态
+
+--- Document Chunk 277 ---
+5.2.3.1 接口描述
+
+--- Document Chunk 278 ---
+列车车门开关状态是输入信号 ,用于列车车门开、关状态。该接口采
+
+--- Document Chunk 279 ---
+用A 型接口方式,并具有如下 2 种状态:
+
+--- Document Chunk 280 ---
+一一全部列车车门都处于关闭状态;
+
+--- Document Chunk 281 ---
+一一有列车车门未处于关闭状态。
+
+--- Document Chunk 282 ---
+注:本处所定义的列车车门开关状态不包含司机室门状态。如需包含 ,可在工程
+
+--- Document Chunk 283 ---
+阶段进行约定。
+
+--- Document Chunk 284 ---
+5.2.3.2 ”信号特征
+
+--- Document Chunk 285 ---
+列车车门开关状态具有两种输入状态,具体定义如下:
+
+--- Document Chunk 286 ---
+一一控制信号为逻辑“1 "表示全部列车车门都处于关闭状态;
+
+--- Document Chunk 287 ---
+一一控制信号为逻辑“0"表示有列车车门未处于关闭状态。
+
+--- Document Chunk 288 ---
+5.2.4 列车车门锁闭状态
+
+--- Document Chunk 289 ---
+5.2.4.1 接口描述
+
+--- Document Chunk 290 ---
+列车车门锁闭状态是指列车车门关闭后的锁半状态。列车车门锁闭
+
+--- Document Chunk 291 ---
+状态是安全关键输入信号,若车载 ATP/ATO 设备检测到列车车门不处
+
+--- Document Chunk 292 ---
+于预期的锁闭状态,将实施相应的安全处理。该接口采用 A 型接口方
+
+--- Document Chunk 293 ---
+式,并具有如下 2 种状态 :
+
+--- Document Chunk 294 ---
+一一全部列车车门都处于锁闭状态;
+
+--- Document Chunk 295 ---
+一一有列车车门未处于锁闭状态 。
+
+--- Document Chunk 296 ---
+当任一列车门紧急打开开关处于允许状态时,车辆应输出所在侧
+
+--- Document Chunk 297 ---
+--- Page 13 ---
+
+--- Document Chunk 298 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 299 ---
+“列车车门未处于锁闭状态" 。
+
+--- Document Chunk 300 ---
+本处所定义的列车车门锁闭状态不包含司机室门状态。如需包含，
+
+--- Document Chunk 301 ---
+可在工程阶段进行约定。
+
+--- Document Chunk 302 ---
+5.2.4.2 信号特征
+
+--- Document Chunk 303 ---
+列车车门锁闭状态具有两种输入状态 ,具体定义如下:
+
+--- Document Chunk 304 ---
+-一控制信号为逻辑“1"表示全部列车车门都处于锁闭状态
+
+--- Document Chunk 305 ---
+一-控制信号为逻辑*“0"表示有列车车门未处于锁闭状态。
+
+--- Document Chunk 306 ---
+5.2.5 “列车车门状态旁路
+
+--- Document Chunk 307 ---
+5. 2.5.1 接口描述
+
+--- Document Chunk 308 ---
+列车车门状态旁路是安全关链输必
+
+--- Document Chunk 309 ---
+5.2.6 驾驶室激活状态
+
+--- Document Chunk 310 ---
+5.2.6.1 接口描述
+
+--- Document Chunk 311 ---
+驾驶室激活状态是安全关键输入信号,该接口采用 A 型接口,并具
+
+--- Document Chunk 312 ---
+有如下 2 种状态:
+
+--- Document Chunk 313 ---
+一一驾驶室处于激活状态或车载 ATP/ATO 设备的虚拟车辆钥匙信
+
+--- Document Chunk 314 ---
+号处于激活状态;
+
+--- Document Chunk 315 ---
+一一驾驶室处于激活撤销状态且车载 ATP/ATO 设备的虚拟车辆钥
+
+--- Document Chunk 316 ---
+匙信号处于激活撤销状态。
+
+--- Document Chunk 317 ---
+5.2.6.2 信号特征
+
+--- Document Chunk 318 ---
+驾驶室激活状态具有两种输入状态 ,具体定义如下 :
+
+--- Document Chunk 319 ---
+--- Page 14 ---
+
+--- Document Chunk 320 ---
+T/CAMET 04011. 3—2018
+
+--- Document Chunk 321 ---
+—— Fi fill (ii 5 aE 1” Pe as 5 BE bP TH AR AS BEY ATP/ ATO
+
+--- Document Chunk 322 ---
+设备的虚拟车辆钥匙信号处于激活状态，
+
+--- Document Chunk 323 ---
+一一控制信号为逻辑“0"表示轰驶室处于激活撤销状态且车载
+
+--- Document Chunk 324 ---
+ATP/ATO 设备的虚拟车辆钥匙信号处于激活撤销状态 。
+
+--- Document Chunk 325 ---
+车辆应保证两端驾驶室不会同时激活。
+
+--- Document Chunk 326 ---
+5.2.7 列车制动状态
+
+--- Document Chunk 327 ---
+5.2.7.1 接口描述
+
+--- Document Chunk 328 ---
+列车制动状态是安全关键输入信号 ,该接口采用 A 型接口,并具有
+
+--- Document Chunk 329 ---
+如下 2 种状态:
+
+--- Document Chunk 330 ---
+一一车辆未施加保持制动 .停放制动 .常用制动 .最大常用制动 ,快速
+
+--- Document Chunk 331 ---
+制动和紧急制动中的任意一种;
+
+--- Document Chunk 332 ---
+一一车辆保持制动 .停放制动 .常用制动 .最大常用制动 ,快速制动和
+
+--- Document Chunk 333 ---
+紧急制动,至少有一种已施加。
+
+--- Document Chunk 334 ---
+5.2.7.2 信号特征
+
+--- Document Chunk 335 ---
+列车制动状态接口具有两种输入状态,具体定义如下:
+
+--- Document Chunk 336 ---
+一一状态信号为多辑“1 "表示车辆保持制动.停放制动.常用制动、
+
+--- Document Chunk 337 ---
+最大常用制动 .快速制动或紧急制动施加;
+
+--- Document Chunk 338 ---
+一一状态信号为逻辑“0"表示和车辆保持制动 .停放制动 .常用制动、
+
+--- Document Chunk 339 ---
+最大常用制动 ,快速制动和紧急制动未施加。
+
+--- Document Chunk 340 ---
+5.2.8 车辆牵引已切除状态
+
+--- Document Chunk 341 ---
+5. 2. 8.1 接口描述
+
+--- Document Chunk 342 ---
+车辆牵引已切除状态是安全关键输入信号 ,该接口采用 A 型接口，
+
+--- Document Chunk 343 ---
+并具有如下 2 种状态:
+
+--- Document Chunk 344 ---
+一一车辆牵引已切除;
+
+--- Document Chunk 345 ---
+一一车辆牵引未切除。
+
+--- Document Chunk 346 ---
+5.2.8.2 信号特征
+
+--- Document Chunk 347 ---
+车辆牵引已切除状态接口具有两种输入状态 ,具体定义如下 :
+
+--- Document Chunk 348 ---
+一一控制信号为逻辑“1 "表示和车辆牵引切除;
+
+--- Document Chunk 349 ---
+一一控制信号为还辑*“0"表示车辆牵引未切除。
+
+--- Document Chunk 350 ---
+--- Page 15 ---
+
+--- Document Chunk 351 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 352 ---
+5.2.9 列车零速度信号
+
+--- Document Chunk 353 ---
+5.2.9.1 接口描述
+
+--- Document Chunk 354 ---
+列车零速度信号是安全关键输入信号 ,该接口采用 A 型接口 ,并有具
+
+--- Document Chunk 355 ---
+有如下 2 种状态:
+
+--- Document Chunk 356 ---
+一一列车处于非零速度状态。
+
+--- Document Chunk 357 ---
+5.2.9.2 信号特征
+
+--- Document Chunk 358 ---
+列车零速度信号接口具有两种输入状态 ,具体定义如下:
+
+--- Document Chunk 359 ---
+一一控制信号为逻辑“1表示列车处于零速度状态;
+
+--- Document Chunk 360 ---
+一一控制信号为逻辑“0"表示列车处于非零速度状态。
+
+--- Document Chunk 361 ---
+5.2.10 方向手柄向前及主控手柄零位状态
+
+--- Document Chunk 362 ---
+5. 2. 10.1 接口描述
+
+--- Document Chunk 363 ---
+方向手柄向前及主控手柄零位状态是安全关键输入信号 ,该接口采
+
+--- Document Chunk 364 ---
+FLA 型接口 ,并具有如下 2 种状态:
+
+--- Document Chunk 365 ---
+一一方向手柄向前且主控手柄零位条件成立;
+
+--- Document Chunk 366 ---
+一一方向手柄向前且主控手柄零位条件不成立。
+
+--- Document Chunk 367 ---
+5. 2. 10. 2 ”信号特征
+
+--- Document Chunk 368 ---
+方向手柄向前及主控手柄零位状态具有两种输入状态,具体定义
+
+--- Document Chunk 369 ---
+uF:
+
+--- Document Chunk 370 ---
+一一控制信号为逻辑“1”表示方向手柄向前且主控手柄零位条件
+
+--- Document Chunk 371 ---
+成立;
+
+--- Document Chunk 372 ---
+一一控制信号为还辑“0"表示方向手柄向前且主控手柄零位条件不
+
+--- Document Chunk 373 ---
+成立。
+
+--- Document Chunk 374 ---
+5.2.11 司机方向手柄位置
+
+--- Document Chunk 375 ---
+5. 2. 11. 1 接口描述
+
+--- Document Chunk 376 ---
+司机方向手柄位置是安全关键输入信号 ,该接口采用3 组A 型接
+
+--- Document Chunk 377 ---
+a) 向前指示接口;
+
+--- Document Chunk 378 ---
+b) 向后指示接口;
+
+--- Document Chunk 379 ---
+--- Page 16 ---
+
+--- Document Chunk 380 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 381 ---
+c) 方向零位指示接口。
+
+--- Document Chunk 382 ---
+5.2.11.2 信号特征
+
+--- Document Chunk 383 ---
+方向向前位 向后位指示接口和方向零位指示接口组合,具体定义见
+
+--- Document Chunk 384 ---
+表3。
+
+--- Document Chunk 385 ---
+表3 司机方向手柄位置指示接口信号特征
+
+--- Document Chunk 386 ---
+方向向前指示接口 | 方向向后指示接口 | 方向零位指示接口 | 司机方向手柄位置
+
+--- Document Chunk 387 ---
+-|
+
+--- Document Chunk 388 ---
+1               0               0             向前位
+
+--- Document Chunk 389 ---
+0               1               0              向后位
+
+--- Document Chunk 390 ---
+0                           0                            1                          零位
+
+--- Document Chunk 391 ---
+注1:1 表示控制信号为逻辑1"”;0 表示控制信号为逻辑"0”。
+
+--- Document Chunk 392 ---
+注2:除以上组合以外,其余组合关系均为故障值。
+
+--- Document Chunk 393 ---
+5.2.12 ”司机主控手柄位置
+
+--- Document Chunk 394 ---
+5.2.12.1 接口描述
+
+--- Document Chunk 395 ---
+司宙主控手柄位置是输入信号 ,该接口宜采用 A 型接口方式,也可
+
+--- Document Chunk 396 ---
+采用 C 型接口方式。
+
+--- Document Chunk 397 ---
+a) 对于 C 型接口方式,通过总线通信接收司机主控手柄位置信
+
+--- Document Chunk 398 ---
+息。具体可参见《城轨车辆车载控制网络数据传送规范(第 2
+
+--- Document Chunk 399 ---
+版)》。
+
+--- Document Chunk 400 ---
+b) 采用A 型接口方式,通过2 组 A 型接口进行输入,分别为:
+
+--- Document Chunk 401 ---
+一一牵引位置指示接口;
+
+--- Document Chunk 402 ---
+一一制动位置指示接口;
+
+--- Document Chunk 403 ---
+一一主控零位位置指示接口。
+
+--- Document Chunk 404 ---
+5.2.12.2 信和号特征
+
+--- Document Chunk 405 ---
+牵引位置指示接口 、制动位置指示接口和主控零位位置指示接口组
+
+--- Document Chunk 406 ---
+合,具体定义见表 4。
+
+--- Document Chunk 407 ---
+12
+
+--- Document Chunk 408 ---
+--- Page 17 ---
+
+--- Document Chunk 409 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 410 ---
+表4 司机主控手柄位置指示接口信号特征
+
+--- Document Chunk 411 ---
+一一
+
+--- Document Chunk 412 ---
+| as 制动位置指示接口  omenmn  司机主控手枉位置
+
+--- Document Chunk 413 ---
+1       0       0   |  奉引位
+
+--- Document Chunk 414 ---
+0                     1                     0           | lat
+
+--- Document Chunk 415 ---
+1                    Bhi
+
+--- Document Chunk 416 ---
+注 1:1 表示控制信号为逻辑*1" 0 REM EMO”
+
+--- Document Chunk 417 ---
+注2:除以上组合以外其余组合关系均为故障值。
+
+--- Document Chunk 418 ---
+5.2.13.1 接口描述
+
+--- Document Chunk 419 ---
+车载 ATP/ATO BART      HANG HECK A A 型接
+
+--- Document Chunk 420 ---
+全            冲输入状态,具体定义如下:
+
+--- Document Chunk 421 ---
+一一控制信号为逻蒜    rag    M0 处于非旁路状态;
+
+--- Document Chunk 422 ---
+一一控制信号为;     BORTP/ ATO 处于旁路状态。
+
+--- Document Chunk 423 ---
+注:车辆设置车载 ATP/ATO 设备旁路开关。该开关在处于*旁路激活"位置时，
+
+--- Document Chunk 424 ---
+断开车载 ATP/ATO 设备与车辆间所有 A 型接口。车辆应对旁路开关采取 -定安全
+
+--- Document Chunk 425 ---
+防护措施。
+
+--- Document Chunk 426 ---
+5. 2. 14 车门控制模式选择
+
+--- Document Chunk 427 ---
+5. 2. 14. 1 ”接口描述
+
+--- Document Chunk 428 ---
+车门控制模式选择是输入信号,该接口采用3组A型接口,分
+
+--- Document Chunk 429 ---
+HW:
+
+--- Document Chunk 430 ---
+一一自动开门/自动关门选通接口;
+
+--- Document Chunk 431 ---
+一一自动开门/人工关门选通接口;
+
+--- Document Chunk 432 ---
+一一人工开门/人工关门选通接口。
+
+--- Document Chunk 433 ---
+--- Page 18 ---
+
+--- Document Chunk 434 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 435 ---
+5. 2. 14. 2 ”信号特征
+
+--- Document Chunk 436 ---
+自动开门/电动关门选通接口 .自动天门/人工关门选通接口及人工
+
+--- Document Chunk 437 ---
+开门/人工关门选通接口组合,具体定义见表 5。
+
+--- Document Chunk 438 ---
+表5 车门控制模式选择接口信号特征
+
+--- Document Chunk 439 ---
+白动开门/入动      白动开门人工     人工开门/人工        车门控制
+
+--- Document Chunk 440 ---
+关门选通接口     关门选通接口     关门选通接口        异式选择
+
+--- Document Chunk 441 ---
+1            0            0       自动开门/自动关门
+
+--- Document Chunk 442 ---
+0            1            0       自动开门/人工关门
+
+--- Document Chunk 443 ---
+0            0            1       ATHIVATEN
+
+--- Document Chunk 444 ---
+其他                      故障模式
+
+--- Document Chunk 445 ---
+注1:1 表示控制信号为逻辑“1” ;0 表示控制信号为逻辑"0”。
+
+--- Document Chunk 446 ---
+注2:败障模式下 ,车载 ATP/ATO 设备将默认车门采用人工开门/人工关门
+
+--- Document Chunk 447 ---
+模式。
+
+--- Document Chunk 448 ---
+5.2.15 司机人工开门信号
+
+--- Document Chunk 449 ---
+5.2.15.1
+
+--- Document Chunk 450 ---
+接口描述
+
+--- Document Chunk 451 ---
+司机人工开门信号是输入信号 ,该接口宜采用 A 型接口方式,也叮
+
+--- Document Chunk 452 ---
+采用 C 型接口方式。
+
+--- Document Chunk 453 ---
+a) WF C 型接口方式 ,通过总线通信接收司机人工开门信息。具
+
+--- Document Chunk 454 ---
+体可参见《城轨车辆车载控制网络数据传送规范(第2 版)》。
+
+--- Document Chunk 455 ---
+b) 采用 A 型接口方式,通过2 组 A 型接口进行输入,分别为:
+
+--- Document Chunk 456 ---
+司机人工开左侧门信号;
+
+--- Document Chunk 457 ---
+司机人工开右侧门信号。
+
+--- Document Chunk 458 ---
+开门指令具有两种状态 ,分别为:
+
+--- Document Chunk 459 ---
+[开门有效,表示人工开门信号激活;
+
+--- Document Chunk 460 ---
+一一人了
+
+--- Document Chunk 461 ---
+[开门无效,表示人工天
+
+--- Document Chunk 462 ---
+5. 2. 15. 2 ”信号特征
+
+--- Document Chunk 463 ---
+司机人工开左侧门信号具有两种输入状态,具体定义如下:
+
+--- Document Chunk 464 ---
+F门信号未激活。
+
+--- Document Chunk 465 ---
+--- Page 19 ---
+
+--- Document Chunk 466 ---
+一一控制信号为逻辑“1 ”并持续一段时间 ,表示司机人工开
+
+--- Document Chunk 467 ---
+AR;
+
+--- Document Chunk 468 ---
+一一控制信号为逻辑“0”表示司
+
+--- Document Chunk 469 ---
+司机人工开右侧门信号具有两种输入状态 ,具体定义如下 :
+
+--- Document Chunk 470 ---
+一一控制信号为逻辑1”并持续一段时间 ,表示司机人工开
+
+--- Document Chunk 471 ---
+一一控制信号为逻辑“0表示司
+
+--- Document Chunk 472 ---
+5.2.16 司机人工关门信号
+
+--- Document Chunk 473 ---
+5.2.16.1 接口描述
+
+--- Document Chunk 474 ---
+司机人工关门信号是输入信号,该接口宜采用
+
+--- Document Chunk 475 ---
+AAC 型接口方式。
+
+--- Document Chunk 476 ---
+T/CAMET 04011.
+
+--- Document Chunk 477 ---
+机人工开左侧门无效。
+
+--- Document Chunk 478 ---
+机人工开右侧门无效。
+
+--- Document Chunk 479 ---
+信号有效持续时间在工程实施阶段约定。
+
+--- Document Chunk 480 ---
+3一2018
+
+--- Document Chunk 481 ---
+左侧门
+
+--- Document Chunk 482 ---
+右侧门
+
+--- Document Chunk 483 ---
+A 型接口方式,也可
+
+--- Document Chunk 484 ---
+a) 对于 [(C 型接口方式,通过总线通信接收司机人工开门信息。有具
+
+--- Document Chunk 485 ---
+体可参见《城轨车辆车载控制网络数据传
+
+--- Document Chunk 486 ---
+送规范(第2版)》。
+
+--- Document Chunk 487 ---
+b) 采用A 型接口方式,通过2 组 A 型接口进行输入 ,分别为
+
+--- Document Chunk 488 ---
+司机人工关左侧门信和号;
+
+--- Document Chunk 489 ---
+司机人工关右侧门信号。
+
+--- Document Chunk 490 ---
+关门指令具有两种状态 ,分别为:
+
+--- Document Chunk 491 ---
+一一人工关门有效;
+
+--- Document Chunk 492 ---
+一一人工关门无效。
+
+--- Document Chunk 493 ---
+5.2.16.2 信号特征
+
+--- Document Chunk 494 ---
+司机人工关左侧门信号具有两种输入状态 ,具体定义如下 :
+
+--- Document Chunk 495 ---
+计间 ,表示司机人工关左侧门
+
+--- Document Chunk 496 ---
+一一控制信号为逻辑“1 ”并持续一段
+
+--- Document Chunk 497 ---
+有效;
+
+--- Document Chunk 498 ---
+一一控制信号为逻辑0"表示司
+
+--- Document Chunk 499 ---
+司机人工关右侧门信号具有两种输入状态,具体定义如下:
+
+--- Document Chunk 500 ---
+机人工关左侧门无效。
+
+--- Document Chunk 501 ---
+一一控制信号为逻辑“1"并持续一段时间,表示司机人工关右侧门
+
+--- Document Chunk 502 ---
+有效;
+
+--- Document Chunk 503 ---
+一一控制信号为逻辑“0" 表示司
+
+--- Document Chunk 504 ---
+机人了
+
+--- Document Chunk 505 ---
+[关右侧门无效。
+
+--- Document Chunk 506 ---
+--- Page 20 ---
+
+--- Document Chunk 507 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 508 ---
+5.3 输出信号
+
+--- Document Chunk 509 ---
+5.3.1 Fem HS
+
+--- Document Chunk 510 ---
+5.3.1.1 功能定义
+
+--- Document Chunk 511 ---
+紧急制动指令是安全关键输出信号,该接口采用 A 型接口,并具有
+
+--- Document Chunk 512 ---
+如下 2 种状态:
+
+--- Document Chunk 513 ---
+一一紧急制动施加;
+
+--- Document Chunk 514 ---
+一一紧急制动未施加。
+
+--- Document Chunk 515 ---
+该接口对应以下功能要求:
+
+--- Document Chunk 516 ---
+a) “和车辆在接收到紧急制动指令后 ,应立即热行紧急制动;
+
+--- Document Chunk 517 ---
+b) 车辆在进行紧急制动的同时应切除牵引动力;
+
+--- Document Chunk 518 ---
+c) 车载 ATP/ATO 设备一旦发出紧急制动指令,须在判断列车已
+
+--- Document Chunk 519 ---
+停车并在钢发紧急制动原因消除后,才能进行紧急制动指令的
+
+--- Document Chunk 520 ---
+撤销;
+
+--- Document Chunk 521 ---
+d) 紧急制动命令撤销表示人允许车辆进行紧急制动的缓解,车辆在
+
+--- Document Chunk 522 ---
+进行紧急制动缓解后才能执行牵引;
+
+--- Document Chunk 523 ---
+e) “车载 ATP/ATO 设备在旁路状态下,紧急制动指令接口处于紧
+
+--- Document Chunk 524 ---
+注工:紧急制动原理:紧急制动由列车安全回路失电触发。安全回路失电后,制
+
+--- Document Chunk 525 ---
+动系统内部紧急制动电磁冰失电 ,来自载荷头的车辆载荷压力直接连通到中继闽 ,中
+
+--- Document Chunk 526 ---
+继岗按照当前车辆载苟压力输出相应的紧急制动压力到基础制动装置。
+
+--- Document Chunk 527 ---
+注2:紧急制动缓解条件:紧急制动的触发条件复位后(如紧急制动按钮复位
+
+--- Document Chunk 528 ---
+等) ,安全回路得电即紧急电磁闪得电且车辆停稳后即可缓解紧急制动。
+
+--- Document Chunk 529 ---
+5.3.1.2 信号特征
+
+--- Document Chunk 530 ---
+紧急制动指令具有两种输出状态 ,具体定义如下:
+
+--- Document Chunk 531 ---
+一一控制信号为逻辑“1"表示紧急制动指令撤销;
+
+--- Document Chunk 532 ---
+一一控制信号为迎辑“0"表示紧急制动指令。
+
+--- Document Chunk 533 ---
+5. 3.2 最大常用制动指令
+
+--- Document Chunk 534 ---
+5.3.2.1 接口描述
+
+--- Document Chunk 535 ---
+最大常用制动指令是输出信和号 ,该接口采用 A 型接口,并具有如下
+
+--- Document Chunk 536 ---
+16
+
+--- Document Chunk 537 ---
+--- Page 21 ---
+
+--- Document Chunk 538 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 539 ---
+5. 3.
+
+--- Document Chunk 540 ---
+5. 3.
+
+--- Document Chunk 541 ---
+5.3.
+
+--- Document Chunk 542 ---
+5.3.
+
+--- Document Chunk 543 ---
+5.3.
+
+--- Document Chunk 544 ---
+WA:
+
+--- Document Chunk 545 ---
+3.2 信号特
+
+--- Document Chunk 546 ---
+一一最大常用制动施加;
+
+--- Document Chunk 547 ---
+最大常用制动未施加。
+
+--- Document Chunk 548 ---
+2.2 信号特征
+
+--- Document Chunk 549 ---
+最大常用制动指令接口具有两种输出状态 ,具体定义如下 :
+
+--- Document Chunk 550 ---
+一一控制信号为逻辑“1”表示最大常用制动未施加;
+
+--- Document Chunk 551 ---
+一一控制信号为逻辑“0"表示最大常用制动施加。
+
+--- Document Chunk 552 ---
+3 快速制动指令
+
+--- Document Chunk 553 ---
+3.1 接口描述
+
+--- Document Chunk 554 ---
+快速制动指令是输出信
+
+--- Document Chunk 555 ---
+Hef A 型接口,并具有如下两种
+
+--- Document Chunk 556 ---
+一一块速制动施
+
+--- Document Chunk 557 ---
+一一快速制动下
+
+--- Document Chunk 558 ---
+快速制动指令车
+
+--- Document Chunk 559 ---
+一一控制信号
+
+--- Document Chunk 560 ---
+控制信号为
+
+--- Document Chunk 561 ---
+4 开门使能信和号
+
+--- Document Chunk 562 ---
+4.1 接口描述
+
+--- Document Chunk 563 ---
+开门使能信号为安全关键输出信号 ,该接口采用2组 A 型接口,分
+
+--- Document Chunk 564 ---
+a) 左侧开门使能;
+
+--- Document Chunk 565 ---
+b) 右侧开门使能。
+
+--- Document Chunk 566 ---
+开门使能信号具有两种状态 ,分别为:
+
+--- Document Chunk 567 ---
+一一允许开门;
+
+--- Document Chunk 568 ---
+一一禁止开门。
+
+--- Document Chunk 569 ---
+-4.2 信号特征
+
+--- Document Chunk 570 ---
+左侧开门使能具有两种输出状态,具体定义如下:
+
+--- Document Chunk 571 ---
+一一控制信号为逻辑"1"表示左侧开门许可;
+
+--- Document Chunk 572 ---
+--- Page 22 ---
+
+--- Document Chunk 573 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 574 ---
+示左侧开门许可本激活。
+
+--- Document Chunk 575 ---
+入侧开门使能具有两种输出 状态,具体定义如下 :
+
+--- Document Chunk 576 ---
+一一控制信号为逻辑1"表示右侧开门许可;
+
+--- Document Chunk 577 ---
+一-一控制信号为逻辑“0"表示右侧开门许可本激活。
+
+--- Document Chunk 578 ---
+5.3.5 牵引切除指令
+
+--- Document Chunk 579 ---
+5. 3. 5.1 接口描述
+
+--- Document Chunk 580 ---
+牵引切除指令是安全关键输出信号 ,车载 ATP/ATO 设备在输出列
+
+--- Document Chunk 581 ---
+车门开门使能过程中 ,将输出该信号 ,防止列车在开门期间动车。该接口
+
+--- Document Chunk 582 ---
+采用 A 型接口 ,并具有如下两种状态:
+
+--- Document Chunk 583 ---
+一一牵引切除;
+
+--- Document Chunk 584 ---
+一一牵引切除撤销。
+
+--- Document Chunk 585 ---
+注:在车载 ATP/ATO ih fe HEME FO RS ES] A) BRAS BE ah FES] BR
+
+--- Document Chunk 586 ---
+5.3.5.2 信号特征
+
+--- Document Chunk 587 ---
+牵引使能指令接口具有两种输出状态 ,具体定义如下:
+
+--- Document Chunk 588 ---
+一一控制信号为逻辑“1 "表示牵引切除撤销;
+
+--- Document Chunk 589 ---
+— Balas Awe “ORAZ WR.
+
+--- Document Chunk 590 ---
+5.3.6 ATO #5|/#lmi>
+
+--- Document Chunk 591 ---
+5.3.6.1 接口描述
+
+--- Document Chunk 592 ---
+ATO 牵引/制动指令是输出信号 ,该接口宜采用 C 型接口方式.也可
+
+--- Document Chunk 593 ---
+采用 A 型接口方式。
+
+--- Document Chunk 594 ---
+a) 对于(C 型接口方式,通过总线通信指示当前车载 ATP/ATO 设
+
+--- Document Chunk 595 ---
+备状态。具体可参见《城轨车辆车载控制网络数据传送规范
+
+--- Document Chunk 596 ---
+(第2版)》。
+
+--- Document Chunk 597 ---
+b) 采用 A 型接口方式,通过2组 A 型接口进行输出,分别为:
+
+--- Document Chunk 598 ---
+一一牵引指令接口;
+
+--- Document Chunk 599 ---
+一一制动指令接口。
+
+--- Document Chunk 600 ---
+iH 2 SA A 卉接口通过组合 ,分别对应四种模式:
+
+--- Document Chunk 601 ---
+一一制动模式 ,ATO 命令车辆进入制动丁况，
+
+--- Document Chunk 602 ---
+--- Page 23 ---
+
+--- Document Chunk 603 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 604 ---
+一一牵引模式,ATO 命令车辆进和人牵引工况;
+
+--- Document Chunk 605 ---
+一一怖行异式,ATO 命令车辆进入惰行工况;
+
+--- Document Chunk 606 ---
+一一无效状态,ATO 故障或接口故障。
+
+--- Document Chunk 607 ---
+5. 3.6.2 信号特征
+
+--- Document Chunk 608 ---
+ATO 牵引/制动请求接口具有四种输出状态,具体定义见表 6。
+
+--- Document Chunk 609 ---
+表6 ATO 牵引/制动请求接口信号特征
+
+--- Document Chunk 610 ---
+牵引指令接口      制动指令接口    ATO 牵引/制动指令模式
+
+--- Document Chunk 611 ---
+1              1            无效模式
+
+--- Document Chunk 612 ---
+0              1            制动模式
+
+--- Document Chunk 613 ---
+0              0            HT Bist
+
+--- Document Chunk 614 ---
+1              0            牵引状态
+
+--- Document Chunk 615 ---
+注1:1 表示控制信号为邮辑"1”;0 表示控制信叶为逻辑“0”。
+
+--- Document Chunk 616 ---
+BE 2. FE AC RUIRAS PB ,和车辆宜按制动模式处理。
+
+--- Document Chunk 617 ---
+5.3.7 ATO 牵引/制动级位
+
+--- Document Chunk 618 ---
+5.3.7.1 接口描述
+
+--- Document Chunk 619 ---
+ATO 牵引/制动级位是输出信
+
+--- Document Chunk 620 ---
+采用 B 型接口方式。接口与 ATO 牵引/制动指令组合，
+
+--- Document Chunk 621 ---
+的驾驶控制。
+
+--- Document Chunk 622 ---
+号 ,该接口宜采用 C 型接口方式,也可
+
+--- Document Chunk 623 ---
+于 ATO 对列车
+
+--- Document Chunk 624 ---
+对于 C 型接口方式 ,指示车辆按照规定制动率或牵
+
+--- Document Chunk 625 ---
+具体可参见《城轨车辆车载控制网络数据传送规范(第2
+
+--- Document Chunk 626 ---
+引率进行控制。
+
+--- Document Chunk 627 ---
+返)》中的规定。
+
+--- Document Chunk 628 ---
+采用 B 型接口方式,通过电流环中电流大小表示当前牵引率/制动率。
+
+--- Document Chunk 629 ---
+5.3.7.2 3型接口信号
+
+--- Document Chunk 630 ---
+特征
+
+--- Document Chunk 631 ---
+B 型接口信号特征具体如下 :
+
+--- Document Chunk 632 ---
+a) ATO 牵引/制动指令为制动模式
+
+--- Document Chunk 633 ---
+电流环中电流大小(hs)表示制动率,具体对应关系如下 :
+
+--- Document Chunk 634 ---
+1) Tiny <4 mA,无输出状态,车辆按照制动率为0 输出。
+
+--- Document Chunk 635 ---
+S18 mA ,车辆按照线性比例输出制动率,车辆
+
+--- Document Chunk 636 ---
+给出制动率 疡按公式(1)换算:
+
+--- Document Chunk 637 ---
+2) 4mASI,,,
+
+--- Document Chunk 638 ---
+19
+
+--- Document Chunk 639 ---
+--- Page 24 ---
+
+--- Document Chunk 640 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 641 ---
+b)
+
+--- Document Chunk 642 ---
+5.3.8
+
+--- Document Chunk 643 ---
+五 一入         -
+
+--- Document Chunk 644 ---
+Uy = x RK HE
+
+--- Document Chunk 645 ---
+式中:
+
+--- Document Chunk 646 ---
+疡一一车辆输出制动率;
+
+--- Document Chunk 647 ---
+Pu一 电流大小的数值 ,单位为毫安(mA) ;
+
+--- Document Chunk 648 ---
+数字 4 为最小有效电流(4 mA) ,数字 14 为有效电流范围(18 mA -
+
+--- Document Chunk 649 ---
+4mA)
+
+--- Document Chunk 650 ---
+3) 18 mA </,,,, S20 mA,车辆按照最大常用制动率输出。
+
+--- Document Chunk 651 ---
+4) 研 >20 mA,车辆按照最大常用制动率输出。
+
+--- Document Chunk 652 ---
+ATO 牵引/制动指令为牵引模式
+
+--- Document Chunk 653 ---
+电流环中电流大小(。)表示牵引率,具体对应关系如下:
+
+--- Document Chunk 654 ---
+1) Te<4 mA,无输出状态,车辆按照牵引率为 0 输出。
+
+--- Document Chunk 655 ---
+2) 4mAS/,,,, <18 mA,车辆按照线性比例输出牵引率 ,车辆
+
+--- Document Chunk 656 ---
+输出牵引率 5按公式(2)换算:
+
+--- Document Chunk 657 ---
+Tie  -4     上               站
+
+--- Document Chunk 658 ---
+Lo x 最大牵引率
+
+--- Document Chunk 659 ---
+Za =
+
+--- Document Chunk 660 ---
+x
+
+--- Document Chunk 661 ---
+(2)
+
+--- Document Chunk 662 ---
+式中，
+
+--- Document Chunk 663 ---
+Zoo一一车辆输出牵引率;
+
+--- Document Chunk 664 ---
+Fun一一电流大小的数值 ,单位为毫安(mA) 。
+
+--- Document Chunk 665 ---
+数字 4 为最小有效电流(4 mA) ,数字 14 为有效电流范围(18 mA -
+
+--- Document Chunk 666 ---
+4 mA)
+
+--- Document Chunk 667 ---
+3) 18 mA </J,,,,<20 mA,车辆按照最大牵引率输出。
+
+--- Document Chunk 668 ---
+4) Typ >20 mA,车辆按照切除牵引方式控制。
+
+--- Document Chunk 669 ---
+AM 驾驶模式状态
+
+--- Document Chunk 670 ---
+5.3.8.1 接口描述
+
+--- Document Chunk 671 ---
+AM 驾驶模式状态是输出信号 ,该接口宜采用 C 型接口方式,也可采
+
+--- Document Chunk 672 ---
+用 A 型接口方式。
+
+--- Document Chunk 673 ---
+a)
+
+--- Document Chunk 674 ---
+20
+
+--- Document Chunk 675 ---
+对于 C 型接口方式,通过总线通信指示当前车载 ATP/ATO 设
+
+--- Document Chunk 676 ---
+备处于 AM 驾驶模式,具体可参见《城轨车辆车载控制网络数
+
+--- Document Chunk 677 ---
+--- Page 25 ---
+
+--- Document Chunk 678 ---
+据传送规范(第2 版)》。
+
+--- Document Chunk 679 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 680 ---
+b) SAA 再接口方式,通过1 组 A 型接口进行输出,表示如下:
+
+--- Document Chunk 681 ---
+一一车载 ATP/ATO 设备处于 AM 驾驶模式激活状态
+
+--- Document Chunk 682 ---
+一一车载 ATP/ATO 设备处于 AM 多驶本式未激活状态。
+
+--- Document Chunk 683 ---
+5.3.8.2 ”信和号特征
+
+--- Document Chunk 684 ---
+AROSA具有两种输出状态 ,具体定义如下:
+
+--- Document Chunk 685 ---
+5.3.9 CM Sees KA
+
+--- Document Chunk 686 ---
+5.3.9.1 接口描述
+
+--- Document Chunk 687 ---
+CM 驾驶模式迪
+
+--- Document Chunk 688 ---
+A 型接口方式。
+
+--- Document Chunk 689 ---
+a) 对于 C Aer
+
+--- Document Chunk 690 ---
+b)
+
+--- Document Chunk 691 ---
+信号为逻辑“1 "表示车载 ATP/ATO 设备处于 AM 驾驶模
+
+--- Document Chunk 692 ---
+控制信号为丈辑“0 "表示和车载 ATP/ATO 设备处于 AM 驾驶模
+
+--- Document Chunk 693 ---
+型接口方式,也可采
+
+--- Document Chunk 694 ---
+Ade 条车载 ATP/ATO 设
+
+--- Document Chunk 695 ---
+Nieves caer
+
+--- Document Chunk 696 ---
+一一车载 ATP/ATO 设备处于   CM 驾驶模式未激活状态。
+
+--- Document Chunk 697 ---
+5.3.9.2 ”信号特征
+
+--- Document Chunk 698 ---
+驾驶模式状态具有两种输出状态,具体定义如下 :
+
+--- Document Chunk 699 ---
+一一控制信号为多辑“1"表示车载 ATP/ATO 设备处于 CM 驾驶模
+
+--- Document Chunk 700 ---
+式激活状态;
+
+--- Document Chunk 701 ---
+一一控制信号为忆辑“0"表示车载 ATP/ATO 设备处于 CM 驾驶模
+
+--- Document Chunk 702 ---
+5.3.10 自动折返
+
+--- Document Chunk 703 ---
+5. 3. 10. 1 接口描述
+
+--- Document Chunk 704 ---
+自动折返为输出信号 ,该接口主要目的是实现车载 ATP/ATO 设备
+
+--- Document Chunk 705 ---
+21
+
+--- Document Chunk 706 ---
+--- Page 26 ---
+
+--- Document Chunk 707 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 708 ---
+控制列车在特定地点进行折返作业。该接口采用 A 型接口方式。
+
+--- Document Chunk 709 ---
+自动折返接口采用2组 A 型接口,具体如下:
+
+--- Document Chunk 710 ---
+a) 自动折返运行方向信号接口 ,该信号具有如下 2 种状态:
+
+--- Document Chunk 711 ---
+一一车载 ATP/ATO 设备命令车辆运行方向为“向前”;
+
+--- Document Chunk 712 ---
+—— ERR ATP/ATO 设备撤销运行方向“向前”命令。
+
+--- Document Chunk 713 ---
+b) “车辆钥匙虚拟信号接口 ,该信号具有如下 2 种状态:
+
+--- Document Chunk 714 ---
+一一车载 ATP/ATO 设备的虚拟车辆钥匙信号处于激活状态;
+
+--- Document Chunk 715 ---
+一一车载 ATP/ATO 设备的虚拟车辆钥匙信号处于激活撤销
+
+--- Document Chunk 716 ---
+5. 3. 10. 2 ”信号特征
+
+--- Document Chunk 717 ---
+自动折返运行方向信号中:
+
+--- Document Chunk 718 ---
+一一控制信号为逻辑“1"表示车载 ATP/ATO 设备命令车辆运行方
+
+--- Document Chunk 719 ---
+一一控制信号为逻辑“0"表示撤销运行方向“向前”命令。
+
+--- Document Chunk 720 ---
+车辆钥匙虚拟信号中 :
+
+--- Document Chunk 721 ---
+一一控制信号为逻辑“1”表示车载 ATP/ATO 设备的虚拟车辆钥匙
+
+--- Document Chunk 722 ---
+言号处于激活状态;
+
+--- Document Chunk 723 ---
+一一控制信号为逻辑“0表示车载 ATP/ATO 设备的虚拟车辆钥匙
+
+--- Document Chunk 724 ---
+信号处于激活撤销状态。
+
+--- Document Chunk 725 ---
+注:自动折返也可采用工组 A 型接口表示,将车辆钥匙虚拟信号和运行方向信
+
+--- Document Chunk 726 ---
+号合并输出 ,对应信号特征如下，
+
+--- Document Chunk 727 ---
+一一控制信号为逻辑“1"表示车载 ATP/ATO 设备的虚拟车辆钥匙信号处于激
+
+--- Document Chunk 728 ---
+活状态且车载 ATP/ATO 设备命令车辆运行方向为“向前”;
+
+--- Document Chunk 729 ---
+一一控制信号为远辑“0"表示车载 ATP/ATO 设备的虚拟车辆钥匙信号处于激
+
+--- Document Chunk 730 ---
+活撤销状态及车载 ATP/ATO 设备撤销运行方向"向前"命令。
+
+--- Document Chunk 731 ---
+5. 3.11 开门指令
+
+--- Document Chunk 732 ---
+5. 3. 11.1 接口描述
+
+--- Document Chunk 733 ---
+开门指令是输出信号 ,该接口宜采用 A 型接口方式,也可采用 C 型
+
+--- Document Chunk 734 ---
+22
+
+--- Document Chunk 735 ---
+=
+
+--- Document Chunk 736 ---
+--- Page 27 ---
+
+--- Document Chunk 737 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 738 ---
+接口方式。
+
+--- Document Chunk 739 ---
+对于 C 型接口方式 ,通过总线通信发送开门指令。具体可参见
+
+--- Document Chunk 740 ---
+a)
+
+--- Document Chunk 741 ---
+b)
+
+--- Document Chunk 742 ---
+(SDL AE IE AE til PAL hh IHR A a ILI ( GD HR) )
+
+--- Document Chunk 743 ---
+采用 A 型接口方式,通过2 组 A 型接口进行输出,分别为，
+
+--- Document Chunk 744 ---
+一一左侧开门指令;
+
+--- Document Chunk 745 ---
+一一右侧开门指令。
+
+--- Document Chunk 746 ---
+开门指令具有两种状态 ,分别为:
+
+--- Document Chunk 747 ---
+一一开门指令;
+
+--- Document Chunk 748 ---
+一一开门指令撤销。
+
+--- Document Chunk 749 ---
+-2 信号特征
+
+--- Document Chunk 750 ---
+左侧开门指令具有两种输出状态 ,员体定义如下 :
+
+--- Document Chunk 751 ---
+一一控揭
+
+--- Document Chunk 752 ---
+开门指令;
+
+--- Document Chunk 753 ---
+一一控制信号为远辑“0"表示左侧开门指令撤销。
+
+--- Document Chunk 754 ---
+右侧开门指令具有两种输出状态 ,具体定义如下 :
+
+--- Document Chunk 755 ---
+信和号为好辑“1"并持续一段时间(电平或脉冲) ,表示左侧
+
+--- Document Chunk 756 ---
+一一控制信号为池辑“1"并持续一段时间(电平或脉冲) ,表示右侧
+
+--- Document Chunk 757 ---
+开门指令;
+
+--- Document Chunk 758 ---
+控制信号为逻辑“0"表示右侧开门指令撤销。
+
+--- Document Chunk 759 ---
+5. 3. 12 ”关门指令
+
+--- Document Chunk 760 ---
+5. 3. 12. 1 接口描述
+
+--- Document Chunk 761 ---
+关门指令是输出信号 ,该
+
+--- Document Chunk 762 ---
+接口方式。
+
+--- Document Chunk 763 ---
+a)
+
+--- Document Chunk 764 ---
+b)
+
+--- Document Chunk 765 ---
+FF
+
+--- Document Chunk 766 ---
+对于 C 型接口方式 ,通过总线通信发送关门指令。具体可
+
+--- Document Chunk 767 ---
+《城轨车辆车载控制网络数据传送规范(第2 版)》。
+
+--- Document Chunk 768 ---
+采用 A 型接口方式,通过2组 A 型接口进行输出,分别为:
+
+--- Document Chunk 769 ---
+一一左侧关门指令;
+
+--- Document Chunk 770 ---
+一一右侧关门指令。
+
+--- Document Chunk 771 ---
+门指令具有两种状态 ,分别为:
+
+--- Document Chunk 772 ---
+一关门指令
+
+--- Document Chunk 773 ---
+接口宜采用 A 型接口方式,也可采用 C 型
+
+--- Document Chunk 774 ---
+23
+
+--- Document Chunk 775 ---
+--- Page 28 ---
+
+--- Document Chunk 776 ---
+T/CAMET 04011, 3一2018
+
+--- Document Chunk 777 ---
+一一关门指令撤销。
+
+--- Document Chunk 778 ---
+5. 3. 12.2 ”信和号特征
+
+--- Document Chunk 779 ---
+左侧关门指令具有两种输出状态 ,具体定义如下 :
+
+--- Document Chunk 780 ---
+一一控制信号为逻辑“1”并持续一段时间 ,表示左侧关门指令;
+
+--- Document Chunk 781 ---
+一一控制信号为逻辑“0"表示左侧关门指令撤销。
+
+--- Document Chunk 782 ---
+右侧关门指令具有两种输出状态,具体定义如下 :
+
+--- Document Chunk 783 ---
+一一控制信号为逻辑“1并持续一段时间 ,表示右侧关门指令;
+
+--- Document Chunk 784 ---
+一一控制信号为逻辑“0 "表示右侧关门指令撤销。
+
+--- Document Chunk 785 ---
+5. 3. 13 车载 ATP/ATO 零速度信号
+
+--- Document Chunk 786 ---
+5. 3. 13. 1 接口描述
+
+--- Document Chunk 787 ---
+车载 ATP/ATO 列车零速度信号是安全关键输出信号 ,该接口采用人A
+
+--- Document Chunk 788 ---
+型接口 ,并具有如下 2 种状态:
+
+--- Document Chunk 789 ---
+一一列车处于零速度状态;
+
+--- Document Chunk 790 ---
+一一列车处于非零速度状态。
+
+--- Document Chunk 791 ---
+车载 ATP/ATO 设备通过自身计算 ,判定列车的停车 BARA,
+
+--- Document Chunk 792 ---
+5. 3. 13. 2 ”信和号特征
+
+--- Document Chunk 793 ---
+车载 ATP/ATO 列车零速度信号具有两种输出状态 ,具体定义如下 :
+
+--- Document Chunk 794 ---
+一一控制信号为好辑“1"表示列车处于零速度状态;
+
+--- Document Chunk 795 ---
+一一控制信号为逻辑“0"表示列车处于非零速度状态。
+
+--- Document Chunk 796 ---
+5.4 电源及其他接口
+
+--- Document Chunk 797 ---
+车载 ATP/ATO 设备一般采用车辆著电池进行供电。供电特性按
+
+--- Document Chunk 798 ---
+GB/T 25119—2010 中 5.1.1 的规定。
+
+--- Document Chunk 799 ---
+车载 ATP/ATO 将时钟信息周期性通过 TMS 发给车辆。
+
+--- Document Chunk 800 ---
+6 机械接口
+
+--- Document Chunk 801 ---
+6.1 通用要求
+
+--- Document Chunk 802 ---
+通用要求具体如下 :
+
+--- Document Chunk 803 ---
+a) 3% ATP/ATO 设备应安装在规定的设备限界范围内;
+
+--- Document Chunk 804 ---
+b) 车载 ATP/ATO 设备电缆应采用固定架进行固定,并遵循车辆
+
+--- Document Chunk 805 ---
+24
+
+--- Document Chunk 806 ---
+--- Page 29 ---
+
+--- Document Chunk 807 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 808 ---
+6.2 车内设备
+
+--- Document Chunk 809 ---
+6.2.1 车载 ATP/ATO 主机
+
+--- Document Chunk 810 ---
+6.2.1.1 安装位置
+
+--- Document Chunk 811 ---
+车载 ATP/ATO 主机应安装在车辆电气屏柜内,在电气屏柜柜门开
+
+--- Document Chunk 812 ---
+启后应保证主机柜前留有 600 mm 的维护操作空间 ,主机柜上下各留有
+
+--- Document Chunk 813 ---
+150 mm 的走线及通风散热空间。
+
+--- Document Chunk 814 ---
+6.2.1.2 安装空间
+
+--- Document Chunk 815 ---
+车辆应为车载 ATP/ATO 主机预留最小为 650 mm(宽)》x 580 mm
+
+--- Document Chunk 816 ---
+(深) x1 200 mm iy ) AY ee Bei
+
+--- Document Chunk 817 ---
+6.2.1.3 通风
+
+--- Document Chunk 818 ---
+EARLE ELA RATS                应具备良好的通风条
+
+--- Document Chunk 819 ---
+件,车载 ATP/ATO eee 2 fay            19 相关环境条件。
+
+--- Document Chunk 820 ---
+6.2.1.4 接地   8
+
+--- Document Chunk 821 ---
+车载 ATP/ATOM ed                 \     缆的导体截面
+
+--- Document Chunk 822 ---
+积应不小于 10 mm? 人                          于 500 mm,
+
+--- Document Chunk 823 ---
+6.2.2 ”车载显示器
+
+--- Document Chunk 824 ---
+6.2.2.1 安装位置
+
+--- Document Chunk 825 ---
+ATP 车载显示器安装在月             列车司机与车载显示器之间
+
+--- Document Chunk 826 ---
+不应有摩碍物阻挡司机的视线,车载显示器不宜暴露于直射日光下。
+
+--- Document Chunk 827 ---
+6.2.2.2 安装空间
+
+--- Document Chunk 828 ---
+车辆应为 ATP 车载亚示器预留最小为 345 mm(宽) x250 mm(深) x
+
+--- Document Chunk 829 ---
+250 mm(高)的安装空间,无麻碍物阻挡空间为 415 mm(宽) x250 mm
+
+--- Document Chunk 830 ---
+(深) x320 mm(高) 。
+
+--- Document Chunk 831 ---
+6. 2.2.3 通风
+
+--- Document Chunk 832 ---
+车辆提供给 ATP 车载显示器安装空间内应具备良好的通风条件 ,车
+
+--- Document Chunk 833 ---
+埠显示器安装空间与司机室内温度差不宜超过 SU 。
+
+--- Document Chunk 834 ---
+6.2.2.4 接地
+
+--- Document Chunk 835 ---
+车载显示器采用最短的路径引入最近的接地点,接地电缆的导体截
+
+--- Document Chunk 836 ---
+25
+
+--- Document Chunk 837 ---
+--- Page 30 ---
+
+--- Document Chunk 838 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 839 ---
+积应不小于 6 mm’, MAR EAA, ARR ,接地线长度应不大于
+
+--- Document Chunk 840 ---
+500 mm,
+
+--- Document Chunk 841 ---
+6.3 车底设备
+
+--- Document Chunk 842 ---
+6.3.1 BTM 天线
+
+--- Document Chunk 843 ---
+6.3.1.1 安装位置
+
+--- Document Chunk 844 ---
+BTM 天线应安装在列车中心线上并且人靠近前端车钧的位置,如图 2
+
+--- Document Chunk 845 ---
+所示。
+
+--- Document Chunk 846 ---
+=
+
+--- Document Chunk 847 ---
+转向架中心线
+
+--- Document Chunk 848 ---
+图2 BTM 天线安装位置
+
+--- Document Chunk 849 ---
+BTM 天线中心线离车辆前端车钩连接面距离见表7。
+
+--- Document Chunk 850 ---
+表7 ”中心线距离
+
+--- Document Chunk 851 ---
+车钩连接面到车载 BTM 天线中心线距离(单位:mm,人允许误差: +10)
+
+--- Document Chunk 852 ---
+L,                  L,
+
+--- Document Chunk 853 ---
+A 型车                     3 320                 4 410
+
+--- Document Chunk 854 ---
+1%          2 690              3 750
+
+--- Document Chunk 855 ---
+DB 型车
+
+--- Document Chunk 856 ---
+1          3 130              4 190
+
+--- Document Chunk 857 ---
+注 1:忆表示水平梁安装方式下 ,车钩连接面到车载 BTM KAP ORES,
+
+--- Document Chunk 858 ---
+注2:疙表示支架安装方式下 ,车钩连接面到车载 BTM 天线中心线距离。
+
+--- Document Chunk 859 ---
+注3:工类表示头车长度为 20 460 mm 的车辆。
+
+--- Document Chunk 860 ---
+注4:开类表示头车长度为 20 900 mm 的车辆。
+
+--- Document Chunk 861 ---
+26
+
+--- Document Chunk 862 ---
+--- Page 31 ---
+
+--- Document Chunk 863 ---
+T/CAMET 04011. 3—2018
+
+--- Document Chunk 864 ---
+6.3.1.2 干扰防护
+
+--- Document Chunk 865 ---
+BTM 天线安装应避开强电磁干扰区域(如电机、风机或其他设备的
+
+--- Document Chunk 866 ---
+天线附近) ,周围不应有频率为 3 MHz ~5.5 MHz 的信号产生源。
+
+--- Document Chunk 867 ---
+6. 3. 1.3 安装空间
+
+--- Document Chunk 868 ---
+车载天线附近要求无金属物体,以避免对信号传输的干扰,具体要求
+
+--- Document Chunk 869 ---
+如图 3 和图 4 所示。天线电缆及固定装置不被当作人金属物。
+
+--- Document Chunk 870 ---
+i$ :a2410 mm;6>50 mm,
+
+--- Document Chunk 871 ---
+图3 天线安装无金属区域( 没运行方向视图)
+
+--- Document Chunk 872 ---
++
+
+--- Document Chunk 873 ---
+于se:填------===y。。列亩运行方向
+
+--- Document Chunk 874 ---
+Tim        5      y
+
+--- Document Chunk 875 ---
+, Ea: -
+
+--- Document Chunk 876 ---
+é                       \ Jase
+
+--- Document Chunk 877 ---
+ra              Fae          tein
+
+--- Document Chunk 878 ---
+#£:b250 mm;c2>450 mm,
+
+--- Document Chunk 879 ---
+ 4 天线安装无金属区域(侧视图)
+
+--- Document Chunk 880 ---
+6. 3.1.4 安装范围
+
+--- Document Chunk 881 ---
+当安装车载天线时,可根据车辆的具体情况将车载天线安装于车体上或
+
+--- Document Chunk 882 ---
+安装于转向架上。当列车处于静态 空载,新轮时,其安装容许误差见表 8。
+
+--- Document Chunk 883 ---
+27
+
+--- Document Chunk 884 ---
+--- Page 32 ---
+
+--- Document Chunk 885 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 886 ---
+至钢轨项面的最小距离 H.,
+
+--- Document Chunk 887 ---
+RS 安装容差
+
+--- Document Chunk 888 ---
+至钢轨项面的最大距离 豆。.
+
+--- Document Chunk 889 ---
+点 之间的最大偏离 7。
+
+--- Document Chunk 890 ---
+轨道中心线和车上天线的基准
+
+--- Document Chunk 891 ---
+沿行车方向的最大侧倾角
+
+--- Document Chunk 892 ---
+E向最大倾角
+
+--- Document Chunk 893 ---
+沿垂直行车方向最大倾角
+
+--- Document Chunk 894 ---
+28
+
+--- Document Chunk 895 ---
+二和
+
+--- Document Chunk 896 ---
++0l-0
+
+--- Document Chunk 897 ---
+车载天线
+
+--- Document Chunk 898 ---
+行车方向
+
+--- Document Chunk 899 ---
+--- Page 33 ---
+
+--- Document Chunk 900 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 901 ---
+6.3.2 转速传感器
+
+--- Document Chunk 902 ---
+6.3.2.1 安装位置
+
+--- Document Chunk 903 ---
+轮轴转速传感器可采用接触式或非接触式,宜安装在非动力轴的轮
+
+--- Document Chunk 904 ---
+轴端部并固定在轴端盖上 。接触式轮轴转速传感器其转动部分与车辆的
+
+--- Document Chunk 905 ---
+轮轴相连,具体安装位置由工程方案确定。
+
+--- Document Chunk 906 ---
+6.3.2.2 安装空间
+
+--- Document Chunk 907 ---
+为便于电缆连接器插拔,电缆连接器应向下倾斜 15"~ 60"并且避免
+
+--- Document Chunk 908 ---
+对连接器产生挤压。输出电缆的囊设应尽量避开减振弹簧。
+
+--- Document Chunk 909 ---
+ect. aes re
+
+--- Document Chunk 910 ---
+6.3.3 多普勒雷达传感器
+
+--- Document Chunk 911 ---
+6.3.3.1 安装位置
+
+--- Document Chunk 912 ---
+雷达传感器安装在车体下方 ,钢轨内侧固定螺栓的正上方。两个多
+
+--- Document Chunk 913 ---
+普勒雷达需要对称于车体中心线进行安装,同时车辆应保证两个多普勤
+
+--- Document Chunk 914 ---
+雷达安装在不同车体侧;多普勤雷达不能安装在转向架上,多普勒雷达中
+
+--- Document Chunk 915 ---
+心线与钢轨中心线距离为(80 +10)mm。其安装位置选择如图6 所示。
+
+--- Document Chunk 916 ---
+6.3.3.2 安装空间
+
+--- Document Chunk 917 ---
+多普勒雷达具体安装空间要求如下:
+
+--- Document Chunk 918 ---
+a) 多普勒雷达安装在车辆提供的安装支架上。安装支架的多普
+
+--- Document Chunk 919 ---
+勒雷达接触表面平整度小于0. 5 mm ,与钢轨项面平行且距离在
+
+--- Document Chunk 920 ---
+29
+
+--- Document Chunk 921 ---
+--- Page 34 ---
+
+--- Document Chunk 922 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 923 ---
+车辆运行方向
+
+--- Document Chunk 924 ---
+车辆运行方向
+
+--- Document Chunk 925 ---
+图6 多普勒雷达安装位置
+
+--- Document Chunk 926 ---
+500 mm ~ 800 mm 之间。
+
+--- Document Chunk 927 ---
+b) 多普勤雷达对安装空间的需求如图 7 所示。为保证雷达波被
+
+--- Document Chunk 928 ---
+正常地发送和接收,图中的阴影区域是一个专用区域,在该区
+
+--- Document Chunk 929 ---
+域内不能放置任何其他设备或活动物体。
+
+--- Document Chunk 930 ---
+单位为毫米
+
+--- Document Chunk 931 ---
+1 126~1 690
+
+--- Document Chunk 932 ---
+俯视图
+
+--- Document Chunk 933 ---
+钢轨项面
+
+--- Document Chunk 934 ---
+图7 多普勒雷达扫描范围
+
+--- Document Chunk 935 ---
+30
+
+--- Document Chunk 936 ---
+--- Page 35 ---
+
+--- Document Chunk 937 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 938 ---
+6.3.3.3 接地
+
+--- Document Chunk 939 ---
+接地电费的导体截面积应不小于 10 mm'* ,家采用扁平软铜绞线。
+
+--- Document Chunk 940 ---
+6.3.4 加速度传感器
+
+--- Document Chunk 941 ---
+6.3.4.1 安装位置
+
+--- Document Chunk 942 ---
+加速度传感器安装在车内的水平支架上 ,安装时应确保将加速度传
+
+--- Document Chunk 943 ---
+感器的检测方向(单方向传感器或多方向传感器的其中一轴的检测方
+
+--- Document Chunk 944 ---
+向)指向轨道中心线列车前进方向,即加速计顶端的箭头必须沿车辆纵
+
+--- Document Chunk 945 ---
+向并指向车辆的前进方向。安装后应将列车停放在水平轨道进行支架找
+
+--- Document Chunk 946 ---
+平调整 ,避免静止时的俯仰倾角。
+
+--- Document Chunk 947 ---
+安装位置宜选择车头和车尾的 ATP/ATO 主机由柜下方,隔端加速
+
+--- Document Chunk 948 ---
+度传感器宜安装在不同车体侧,宜靠近车辆的中心线。其安装位置如
+
+--- Document Chunk 949 ---
+图8 所示。
+
+--- Document Chunk 950 ---
+图8 加速度传感器安装位置
+
+--- Document Chunk 951 ---
+6. 3.4.2 安装空间
+
+--- Document Chunk 952 ---
+加速度传感澡应安装在支名上,上蝎离车体地板上面高度不宜超过
+
+--- Document Chunk 953 ---
+100 mm。安装应满足如速度传感器尺寸 .走线 .测试和维护需划,加速度
+
+--- Document Chunk 954 ---
+传感器的顶端到 ATP/ATO 主机机柜的底部应有足够空间,具体尺寸在
+
+--- Document Chunk 955 ---
+工程实施阶段约定。
+
+--- Document Chunk 956 ---
+6. 3.4.3 接地
+
+--- Document Chunk 957 ---
+加速度传感器的接地宜采用扁平软铜绞线。
+
+--- Document Chunk 958 ---
+6.4 车载无线天线
+
+--- Document Chunk 959 ---
+车载无线天线具体要求如下 :
+
+--- Document Chunk 960 ---
+a) 根据车地无线通信使用传播介质的不同 ,车载安装不同的天线
+
+--- Document Chunk 961 ---
+31
+
+--- Document Chunk 962 ---
+--- Page 36 ---
+
+--- Document Chunk 963 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 964 ---
+或不同的天线组合,包括:自由波天线、波导天线\漏缆定向平
+
+--- Document Chunk 965 ---
+板天线,或三种天线中不同的组合;
+
+--- Document Chunk 966 ---
+b) 所有天线的安装均不得超出车辆限界或侵入设备限界;
+
+--- Document Chunk 967 ---
+ec) 天线安装在列车外部时,应采取防水措施,防止雨水渗人车
+
+--- Document Chunk 968 ---
+体内。
+
+--- Document Chunk 969 ---
+6.4.1 自由波天线
+
+--- Document Chunk 970 ---
+自由波天线具体要求如下 :
+
+--- Document Chunk 971 ---
+a) ”自由波天线(八木天线、平板天线或鲨鱼鳍天线)用于接收无线
+
+--- Document Chunk 972 ---
+自由波信号。
+
+--- Document Chunk 973 ---
+b) 列车的车头和车尾各安装两套自由波天线,天线的中心线或鳞
+
+--- Document Chunk 974 ---
+线应与列车运行方向平行,最大允许水平角度误差 +1" ,最大
+
+--- Document Chunk 975 ---
+允许垂直角度误差+l"。
+
+--- Document Chunk 976 ---
+c) “八木天线或平板天线安装在列车驾驶室顶部,需在驾驶室顶部
+
+--- Document Chunk 977 ---
+安装平面开孔,天线前必须有一个无金属区 ,无金属区要求在
+
+--- Document Chunk 978 ---
+以天线为中心的70"角范围内。安装时的无金属障碍物区示意
+
+--- Document Chunk 979 ---
+图见图9。
+
+--- Document Chunk 980 ---
+天线
+
+--- Document Chunk 981 ---
+了                   无金属区
+
+--- Document Chunk 982 ---
+车端           -                  AAPA
+
+--- Document Chunk 983 ---
+ 9 车载天线无金属区
+
+--- Document Chunk 984 ---
+d) 获鱼鳍天线应安装在列车车顶,以天线为中心 .半径为1 m 的
+
+--- Document Chunk 985 ---
+范围内不应有超出天线 2/3 高度的金属障碍物(不含天线) ,且
+
+--- Document Chunk 986 ---
+天线顶部宜与车辆静态限界包络最高值齐平。篮鱼鳍天线安
+
+--- Document Chunk 987 ---
+装时的无金属障碍物区示意见图 10。
+
+--- Document Chunk 988 ---
+32
+
+--- Document Chunk 989 ---
+--- Page 37 ---
+
+--- Document Chunk 990 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 991 ---
+天线一分之二
+
+--- Document Chunk 992 ---
+运行方向
+
+--- Document Chunk 993 ---
+一一车头方向
+
+--- Document Chunk 994 ---
+e)
+
+--- Document Chunk 995 ---
+fy
+
+--- Document Chunk 996 ---
+6)
+
+--- Document Chunk 997 ---
+h)
+
+--- Document Chunk 998 ---
+6.4.2
+
+--- Document Chunk 999 ---
+车顶
+
+--- Document Chunk 1000 ---
+图10 车载瘤鱼鳍天线无金属区
+
+--- Document Chunk 1001 ---
+同一区域安装有多套天线情况下,车载无线天线(含其他系统
+
+--- Document Chunk 1002 ---
+天线)之间的隔离距离应大于0.6 m。
+
+--- Document Chunk 1003 ---
+为确保无线信号质量,选取天线安装位置时应尽可能保证到车
+
+--- Document Chunk 1004 ---
+的便利。
+
+--- Document Chunk 1005 ---
+SE Mb I RIB      小理。交如       车体开过线孔,直径不
+
+--- Document Chunk 1006 ---
+ANF 40 mm,支架                 点应对齐,误差不超过
+
+--- Document Chunk 1007 ---
+3 mmoe开孔应去毛刺 ,宜采用过孔保护套进行保护。
+
+--- Document Chunk 1008 ---
+波导天线
+
+--- Document Chunk 1009 ---
+波导天线具体要求如下，
+
+--- Document Chunk 1010 ---
+a)
+
+--- Document Chunk 1011 ---
+b)
+
+--- Document Chunk 1012 ---
+波导天线(平板定向天线)安装于车体底部或转向架(如果车辆
+
+--- Document Chunk 1013 ---
+采用第三轨方式供电,波导天线可固定安装在车体上,且波导
+
+--- Document Chunk 1014 ---
+天线应远离第三轨接触杆,二者间距不应小于 300 mm) ,用于
+
+--- Document Chunk 1015 ---
+接收地面波导管信号。考虑车辆实际的运行,在列车的两端各
+
+--- Document Chunk 1016 ---
+安装两个波导天线,且每端的波导天线应采用车辆运行方向中
+
+--- Document Chunk 1017 ---
+心线对称安装方式。
+
+--- Document Chunk 1018 ---
+波导天线支加可焊接于车体底部,支架不应超过车体界限 ,支
+
+--- Document Chunk 1019 ---
+33
+
+--- Document Chunk 1020 ---
+--- Page 38 ---
+
+--- Document Chunk 1021 ---
+T/CAMET 04011, 3一2018
+
+--- Document Chunk 1022 ---
+架与天线接触面的平整度要求小于 0.5 mm。波导天线中心与
+
+--- Document Chunk 1023 ---
+列车运行方向中心线距离为 1 162 mm ,天线下表面与钢轨上表
+
+--- Document Chunk 1024 ---
+面距离宜为 320 mm (在新轮 .空载.静态情况下 ) ,安装误差不
+
+--- Document Chunk 1025 ---
+超过+5 mm。波导天线安装示意如图 11 Ha.
+
+--- Document Chunk 1026 ---
+运行方向中心线
+
+--- Document Chunk 1027 ---
+(116245) mm
+
+--- Document Chunk 1028 ---
+图11 波导天线安装示意图
+
+--- Document Chunk 1029 ---
+c) 在波导天线下方 100 mm, 以波导天线为中心 150"角形成的区
+
+--- Document Chunk 1030 ---
+域范围内,以及波导天线下方 100 mm 到轨面,距波导天线边沿
+
+--- Document Chunk 1031 ---
+250 mm 范围内为非金属区 ,在该区域内应保证无金属出现。波
+
+--- Document Chunk 1032 ---
+导天线安装时的无金属区示意如图 12 所示。
+
+--- Document Chunk 1033 ---
+6.4.3 BAKE
+
+--- Document Chunk 1034 ---
+漏缆天线具体要求如下 :
+
+--- Document Chunk 1035 ---
+a) 如果现场使用漏缆作为媒介传输车地无线信息 ,宜采用平板定
+
+--- Document Chunk 1036 ---
+34
+
+--- Document Chunk 1037 ---
+--- Page 39 ---
+
+--- Document Chunk 1038 ---
+车轮
+
+--- Document Chunk 1039 ---
+忠和运行方向中心线
+
+--- Document Chunk 1040 ---
+T/CAMET 04011. 3—2018
+
+--- Document Chunk 1041 ---
+车轮
+
+--- Document Chunk 1042 ---
+(116235) mm
+
+--- Document Chunk 1043 ---
+b)
+
+--- Document Chunk 1044 ---
+c)
+
+--- Document Chunk 1045 ---
+d)
+
+--- Document Chunk 1046 ---
+非金属区域
+
+--- Document Chunk 1047 ---
+图12 波导天线安装环境示意图
+
+--- Document Chunk 1048 ---
+向天线(安装在车底侧面)或获鱼鳍天线 ,接收轨旁漏缆辐射出
+
+--- Document Chunk 1049 ---
+的近场无线信号,定向平板天线或沙鱼鳍天线正对漏缆开槽。
+
+--- Document Chunk 1050 ---
+平板天线安装于较低位置 ,宜距离轨面 600 mm ~800 mm,
+
+--- Document Chunk 1051 ---
+天线前必须有一个无金属区 ,无金属区要求在以天线为中心的
+
+--- Document Chunk 1052 ---
+70?角范围内。漏缆天线安装位置及安装时的无金属区示意如
+
+--- Document Chunk 1053 ---
+图 13 所示。
+
+--- Document Chunk 1054 ---
+图13 漏缆天线安装示意图
+
+--- Document Chunk 1055 ---
+考虑车辆实际的运行,在列车的车头和车尾各安装两套漏缆天
+
+--- Document Chunk 1056 ---
+线,每端安装两个漏缆天线,列车运行方向中心线对称安装。
+
+--- Document Chunk 1057 ---
+漏缆天线距轨旁漏缆的水了
+
+--- Document Chunk 1058 ---
+距离不宜超过 2 m(具体水平距离
+
+--- Document Chunk 1059 ---
+35
+
+--- Document Chunk 1060 ---
+--- Page 40 ---
+
+--- Document Chunk 1061 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 1062 ---
+6. 5.
+
+--- Document Chunk 1063 ---
+36
+
+--- Document Chunk 1064 ---
+根据实际工程设计确定) 。
+
+--- Document Chunk 1065 ---
+6.5 连接电缆
+
+--- Document Chunk 1066 ---
+1 电缆性能要求
+
+--- Document Chunk 1067 ---
+车载信号用电缆应符合以下要求:
+
+--- Document Chunk 1068 ---
+—F
+
+--- Document Chunk 1069 ---
+电缆一般性能应满足标准 T/T 1484 的要求;
+
+--- Document Chunk 1070 ---
+一一电缆燃烧性能应满足 GBXT 19666一2005 + pk oe ey AE BR ps ik a
+
+--- Document Chunk 1071 ---
+—=F
+
+--- Document Chunk 1072 ---
+C 类规定;
+
+--- Document Chunk 1073 ---
+电缆燃烧时的低烟性能应满足 GB/T 19666一2005 的规定(最
+
+--- Document Chunk 1074 ---
+7
+
+--- Document Chunk 1075 ---
+\ EAE S 80%) ;
+
+--- Document Chunk 1076 ---
+—— 18 S856 ea 48 be HE BE EL GB/T 19666—2005 的规定(pH 加权
+
+--- Document Chunk 1077 ---
+值>4.3 ,电导率和10) 。
+
+--- Document Chunk 1078 ---
+-2 电缆布线与安装要求
+
+--- Document Chunk 1079 ---
+线缆的走线及国定遵照 TBXT 3153 的要求执行:
+
+--- Document Chunk 1080 ---
+a) 电缆布放过程中注意对线缆进行保护,宜加装保护外层;裸露
+
+--- Document Chunk 1081 ---
+在机车外部线缆的转弯半径不小于200 mm ,其他线缆转弯半径
+
+--- Document Chunk 1082 ---
+不小于 150 mm。
+
+--- Document Chunk 1083 ---
+b) 电缆布线时,应与大功率电器布线分开布放,避免与强电布线
+
+--- Document Chunk 1084 ---
+平行走线,如:空调电源.电机、头灯电源。与强电布线间距不
+
+--- Document Chunk 1085 ---
+应小于 200 mm,
+
+--- Document Chunk 1086 ---
+c) 电缆走线应避开高温发热源,保证电缆所处环境温度不超过其
+
+--- Document Chunk 1087 ---
+允许的工作温度。
+
+--- Document Chunk 1088 ---
+d) 电缆与设备连接完成后,两端均应预留适当长度后再进行固
+
+--- Document Chunk 1089 ---
+定,便于连接器拔插 ,防止布线拉扯过紧, 保证设备拆装方便，
+
+--- Document Chunk 1090 ---
+避免布线脱落及受力过大而造成连接器接触不良。
+
+--- Document Chunk 1091 ---
+e) 机车外部裸露电缆连接处应采取防水措施。
+
+--- Document Chunk 1092 ---
+--- Page 41 ---
+
+--- Document Chunk 1093 ---
+T/CAMET 04011, 3一2018
+
+--- Document Chunk 1094 ---
+HY 录 A
+
+--- Document Chunk 1095 ---
+(SSE TET )
+
+--- Document Chunk 1096 ---
+与车辆功能接口特性参数
+
+--- Document Chunk 1097 ---
+A.1 A型接口
+
+--- Document Chunk 1098 ---
+A 型接口为输出信号 ,应满足下述要求:
+
+--- Document Chunk 1099 ---
+a) 在驱动电压 DC 110 V 条件下 ,最大输出电流 200 mA;
+
+--- Document Chunk 1100 ---
+b) 开门使能信号 .开/关门指令 ,紧急制动指令在满足相关安全约
+
+--- Document Chunk 1101 ---
+RARE ,:         6
+
+--- Document Chunk 1102 ---
+A WHC hn fag
+
+--- Document Chunk 1103 ---
+a) 输入电流应
+
+--- Document Chunk 1104 ---
+b) 对于安全
+
+--- Document Chunk 1105 ---
+HB aR OTE
+
+--- Document Chunk 1106 ---
+A.2 B型接口
+
+--- Document Chunk 1107 ---
+B 型接口输入
+
+--- Document Chunk 1108 ---
+a) 检流电阻阻人
+
+--- Document Chunk 1109 ---
+A. 3 ”紧急制动指令及紧急制订
+
+--- Document Chunk 1110 ---
+紧急制动指令及紧急制动状态应满足表 A.1 各项要求。紧急制动
+
+--- Document Chunk 1111 ---
+响应延时见网 A.1。
+
+--- Document Chunk 1112 ---
+表A. 1 紧急制动指令及紧急制动状态特性参数表
+
+--- Document Chunk 1113 ---
+参数名称   参数描述  Ett  备注
+
+--- Document Chunk 1114 ---
+一| 列车能保证的最水的紧   TRE RAH
+
+--- Document Chunk 1115 ---
+“ones Atl aOR eS      动减速率在工程中
+
+--- Document Chunk 1116 ---
+   安全相关      进行约定
+
+--- Document Chunk 1117 ---
+在紧急制动触发时刻若
+
+--- Document Chunk 1118 ---
+牵引切除延时 | 存在牵引工况,牵引切除|和0.30 s
+
+--- Document Chunk 1119 ---
+延时所需时间
+
+--- Document Chunk 1120 ---
+一一上
+
+--- Document Chunk 1121 ---
+37
+
+--- Document Chunk 1122 ---
+--- Page 42 ---
+
+--- Document Chunk 1123 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 1124 ---
+表A.1 紧急制动指令及紧急制动状态特性参数表(续)
+
+--- Document Chunk 1125 ---
+参数名称           参数描述         数值       备 注
+
+--- Document Chunk 1126 ---
+从信号系统发出紧急制
+
+--- Document Chunk 1127 ---
+动指令到车辆施加空气制          如图A.1中也
+
+--- Document Chunk 1128 ---
+动力 10% 所需时间
+
+--- Document Chunk 1129 ---
+从信和号系统发出紧急制
+
+--- Document Chunk 1130 ---
+动指令到车辆施加空气制 | <1.      如图 A.1 中罗
+
+--- Document Chunk 1131 ---
+动力90% 所需时间
+
+--- Document Chunk 1132 ---
+从信号系统发出紧急制          从图 A 1 中 LEE
+
+--- Document Chunk 1133 ---
+动指令到车辆反馈紧急制 | 和55 ms | 辆紧急制动状态继电
+
+--- Document Chunk 1134 ---
+动已实施的延时                 器常开触点闭合时间
+
+--- Document Chunk 1135 ---
+注:表A.1表A.2,.表A.3 中相关参数均基于下述条件:在 AW, AW, & AW,
+
+--- Document Chunk 1136 ---
+载重情况下 ,在平直干燥轨道上 ,车轮为半磨耗状态 ,列车从最高运行速度
+
+--- Document Chunk 1137 ---
+《运营速度在 120 km/h 及以下 )到停车。
+
+--- Document Chunk 1138 ---
+紧急制动延迟
+
+--- Document Chunk 1139 ---
+时间
+
+--- Document Chunk 1140 ---
+紧急制动响应
+
+--- Document Chunk 1141 ---
+时间
+
+--- Document Chunk 1142 ---
+紧急制动状态
+
+--- Document Chunk 1143 ---
+反馈延时
+
+--- Document Chunk 1144 ---
+BR
+
+--- Document Chunk 1145 ---
+1S HHO”
+
+--- Document Chunk 1146 ---
+BR_full
+
+--- Document Chunk 1147 ---
+BR_fullx0.9
+
+--- Document Chunk 1148 ---
+. 纵轴 BR 表示车辆实际制动率,其中 BR_full Zea HK A PBA BT ;
+
+--- Document Chunk 1149 ---
+. 横罗:为时间 ,其中 bo为继电器触点闭合时间点;
+
+--- Document Chunk 1150 ---
+. 图中绿色点划线为示意图 ,非真实紧急制动制动率输出曲线;
+
+--- Document Chunk 1151 ---
+. 图中蓝色线条为车载 ATP/ATO 设备紧急制动输出指令。
+
+--- Document Chunk 1152 ---
+图A.1 紧急制动响应延时
+
+--- Document Chunk 1153 ---
+上 mm PP二
+
+--- Document Chunk 1154 ---
+38
+
+--- Document Chunk 1155 ---
+--- Page 43 ---
+
+--- Document Chunk 1156 ---
+A.4 常用制动相关特性参数
+
+--- Document Chunk 1157 ---
+常用制动相关特性参数应满足表 A. 2 各项要求。整车最大牵引力
+
+--- Document Chunk 1158 ---
+到最大常用制动的转换见图 A.2,整车从惰行到最大常
+
+--- Document Chunk 1159 ---
+见图 A.3。
+
+--- Document Chunk 1160 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 1161 ---
+制动响应时间
+
+--- Document Chunk 1162 ---
+表A.2 常用制动相关特性参数表
+
+--- Document Chunk 1163 ---
+BRAK
+
+--- Document Chunk 1164 ---
+数值
+
+--- Document Chunk 1165 ---
+ATO 下最大常用制动减速率
+
+--- Document Chunk 1166 ---
+21.0 m/s*
+
+--- Document Chunk 1167 ---
+& 注
+
+--- Document Chunk 1168 ---
+ATO 控制下,整车常用
+
+--- Document Chunk 1169 ---
+砂常用制动与付引调节精 <0.1 m/s?
+
+--- Document Chunk 1170 ---
+2   SE Hil SES HIKE | <0.1 m/s ish SABER
+
+--- Document Chunk 1171 ---
+整车最大牵引力到最大常用制
+
+--- Document Chunk 1172 ---
+3 |-             <3.55
+
+--- Document Chunk 1173 ---
+动的转换时间
+
+--- Document Chunk 1174 ---
+3.1   指令处理周期             <200 ms
+
+--- Document Chunk 1175 ---
+。            整个过程由 4 个子过程
+
+--- Document Chunk 1176 ---
+3.2   从最大加速度降低到 0 的时间    <1.5s   (3.1-3.4)4R. RRS
+
+--- Document Chunk 1177 ---
+3 .3 | 制动系统从接收命令到动作施| -0 3 。 |见网A.2
+
+--- Document Chunk 1178 ---
+加时间
+
+--- Document Chunk 1179 ---
+制动减速度从 0 到最大值的
+
+--- Document Chunk 1180 ---
+3.4                         <1.55
+
+--- Document Chunk 1181 ---
+时间
+
+--- Document Chunk 1182 ---
+整车从惰行到最大常用制动力| < 1 7 。    具体参见图A.3
+
+--- Document Chunk 1183 ---
+响应时间
+
+--- Document Chunk 1184 ---
+最大牵引力
+
+--- Document Chunk 1185 ---
+加速
+
+--- Document Chunk 1186 ---
+达引和制动的Jerk冲击值要冰
+
+--- Document Chunk 1187 ---
+时间
+
+--- Document Chunk 1188 ---
+BE
+
+--- Document Chunk 1189 ---
+最大常用制动力
+
+--- Document Chunk 1190 ---
+图A. 2 BERARS AMMAR He IR
+
+--- Document Chunk 1191 ---
+39
+
+--- Document Chunk 1192 ---
+--- Page 44 ---
+
+--- Document Chunk 1193 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 1194 ---
+A.5
+
+--- Document Chunk 1195 ---
+加速
+
+--- Document Chunk 1196 ---
+在转换过程中的Jerk冲击值要求
+
+--- Document Chunk 1197 ---
+时间
+
+--- Document Chunk 1198 ---
+| seat
+
+--- Document Chunk 1199 ---
+—
+
+--- Document Chunk 1200 ---
+出的制动命令
+
+--- Document Chunk 1201 ---
+ATO发出的制动命令切换                       新的期望制动力
+
+--- Document Chunk 1202 ---
+BR
+
+--- Document Chunk 1203 ---
+ A.3 整车从情行到最大常用制动响应时间
+
+--- Document Chunk 1204 ---
+牵引相关特性参数
+
+--- Document Chunk 1205 ---
+牵引相关特性参数应满足表 A.3 各项要求。整车从惰行到最大牵
+
+--- Document Chunk 1206 ---
+引力的转换时间见图 A.4,整车从最大常用制动到最大牵引力转换时间
+
+--- Document Chunk 1207 ---
+见图A.5。
+
+--- Document Chunk 1208 ---
+表A.3 率引相关特性参数表
+
+--- Document Chunk 1209 ---
+序号        参数名称           Att             备注
+
+--- Document Chunk 1210 ---
+ete ee
+
+--- Document Chunk 1211 ---
+行的转换时间             <0.2s     紧急制动下的牵引切除
+
+--- Document Chunk 1212 ---
+#3136 at
+
+--- Document Chunk 1213 ---
+<0.2 。 | 从信号系统发出牵引指令到车
+
+--- Document Chunk 1214 ---
+二实生|            辆施加这引力 10% HEA
+
+--- Document Chunk 1215 ---
+2
+
+--- Document Chunk 1216 ---
+力的转换时则                         Pere
+
+--- Document Chunk 1217 ---
+<17。 | 从信号系统发出牵引指令到车
+
+--- Document Chunk 1218 ---
+辆施加牵引力 100% 所需时间
+
+--- Document Chunk 1219 ---
+整车从最大常用制动到
+
+--- Document Chunk 1220 ---
+<3.55      Lf ES WA ALS
+
+--- Document Chunk 1221 ---
+”|最大牵引力转换时间        <
+
+--- Document Chunk 1222 ---
+eee        4 kmhsws | 9 45H ah
+
+--- Document Chunk 1223 ---
+4 | “混合制动切换速度        Petra Palla
+
+--- Document Chunk 1224 ---
+40
+
+--- Document Chunk 1225 ---
+--- Page 45 ---
+
+--- Document Chunk 1226 ---
+T/CAMET 04011. 3—2018
+
+--- Document Chunk 1227 ---
+me         NUNRESL I)
+
+--- Document Chunk 1228 ---
+以前要求的力大小
+
+--- Document Chunk 1229 ---
+看转换过程中的Jerk冲击仁要求
+
+--- Document Chunk 1230 ---
+                      ET
+
+--- Document Chunk 1231 ---
+一
+
+--- Document Chunk 1232 ---
+ATOR AYA Sr ume eH
+
+--- Document Chunk 1233 ---
+walk
+
+--- Document Chunk 1234 ---
+图A. 4 AMT AEA RS] DMA
+
+--- Document Chunk 1235 ---
+A.6 车门控制相关参数
+
+--- Document Chunk 1236 ---
+车门控制相关参数应满足表 A. 4 各项要求。
+
+--- Document Chunk 1237 ---
+表A.4 车门控制相关特性参数表
+
+--- Document Chunk 1238 ---
+序号        参数名称         数值         备   注
+
+--- Document Chunk 1239 ---
+7       下                       从开门动作开始到车门完全
+
+--- Document Chunk 1240 ---
+     车门打开/关闭时间        (3 40.5)s   开/关闭的时间
+
+--- Document Chunk 1241 ---
+从开/关门指令发出到开/关
+
+--- Document Chunk 1242 ---
+门动作开始的延时
+
+--- Document Chunk 1243 ---
+0~3.0s    该时间串调
+
+--- Document Chunk 1244 ---
+41
+
+--- Document Chunk 1245 ---
+--- Page 46 ---
+
+--- Document Chunk 1246 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 1247 ---
+参考文 献
+
+--- Document Chunk 1248 ---
+CL) 城轨车辆车载控制网络数据传送规范(第2 版)
+
+--- Document Chunk 1249 ---
+42
+
+--- Document Chunk 1250 ---
+--- Page 47 ---
+
+--- Document Chunk 1251 ---
+中国城市轨道交通协会团体标准
+
+--- Document Chunk 1252 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 1253 ---
+控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 1254 ---
+第 3 部分:车载列车自动保护(ATP)/列车自动
+
+--- Document Chunk 1255 ---
+运行(ATO ) 系统与车辆的接口
+
+--- Document Chunk 1256 ---
+T/CAMET 04011. 3一2018
+
+--- Document Chunk 1257 ---
+*
+
+--- Document Chunk 1258 ---
+中国铁道出版福有限公司出版发行
+
+--- Document Chunk 1259 ---
+(100054 ,北京市西城区右安门西街8 号)
+
+--- Document Chunk 1260 ---
+公司网址: http://www. tdpress. com
+
+--- Document Chunk 1261 ---
+北京铭成印刷有限公司印刷
+
+--- Document Chunk 1262 ---
+FFA; 880 mm x1 230 mm 1/32 印张: 1.625 FR: 43 干
+
+--- Document Chunk 1263 ---
+2019年5月第1版 2019年5月第1次印刷
+
+--- Document Chunk 1264 ---
+书号: 15113-5728 HE: 15.00 元
+
+--- Document Chunk 1265 ---
+版权所有 ”侵权必究
+
+--- Document Chunk 1266 ---
+凡购买铁道版图书,如有印制质量问题 ,请与本公司发行部联系调换。
+
+--- Document Chunk 1267 ---
+发行部电话:路(021)73174 ,市(010)51873174
+

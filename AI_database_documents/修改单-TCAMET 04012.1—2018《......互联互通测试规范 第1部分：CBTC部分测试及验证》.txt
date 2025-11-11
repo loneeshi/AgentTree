@@ -1,0 +1,123 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通 基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统(CBTC ) 互联互通测试规范一第 1 部分:
+
+--- Document Chunk 4 ---
+CBTC 部分测试及验证》
+
+--- Document Chunk 5 ---
+(TZCAMET'04012. 1—2018)
+
+--- Document Chunk 6 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 7 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月 03 日批准发布，
+
+--- Document Chunk 8 ---
+自2024 年09 月10 日起实施。
+
+--- Document Chunk 9 ---
+一、编辑性修改
+
+--- Document Chunk 10 ---
+1. 将3.1.14 中“路线运行 overline operation ”修改为“跨线运行 over-
+
+--- Document Chunk 11 ---
+ine operation” ,
+
+--- Document Chunk 12 ---
+2. 删除3.1. 15 "平均故障间隔时间(平均无故障时间)aneaistime
+
+--- Document Chunk 13 ---
+between failures:指设备连续发生两次故障之间的平均间隔时间。”
+
+--- Document Chunk 14 ---
+3. 将3.1.16 中“列车自动驾驶模式 automatic manual train operation”
+
+--- Document Chunk 15 ---
+禾改为“列车自动驾驶模式 automatic train operating mode”。
+
+--- Document Chunk 16 ---
+4. 将3.1.20 rh“ #% 28a BX handover overlap region ”修改为“移交
+
+--- Document Chunk 17 ---
+f#[X handover overlap area”,
+
+--- Document Chunk 18 ---
+5. 将表 17 147 .15期6537 表 176 177 “A Py PK BE” a
+
+--- Document Chunk 19 ---
+区段” 。
+
+--- Document Chunk 20 ---
+6. 4648 195.236 中”《RSSP- 工铁路信号安全通信协议》(运基信号
+
+--- Document Chunk 21 ---
+2010]267 号J”格改为"TBMT 3528. 1”,
+
+--- Document Chunk 22 ---
+7. 将表195 .215 .236 中”“《RSSP- 开铁路信号安全通信协议》(运基
+
+--- Document Chunk 23 ---
+1
+
+--- Document Chunk 24 ---
+hn
+
+--- Document Chunk 25 ---
+--- Page 2 ---
+
+--- Document Chunk 26 ---
+信和号[2010]267 号) ”修改为"TBXT 3528.2”
+
+--- Document Chunk 27 ---
+8. 将"参考文献" 的内容修改为:
+
+--- Document Chunk 28 ---
+“[1] TB/T 3528. 1一2018 ”铁路信号安全通信协议) 第出部分: I
+
+--- Document Chunk 29 ---
+2] TB/T 3528.2 ”铁路信号安全通信协议”第2 部分: 工型协议
+
+--- Document Chunk 30 ---
+3] IEEE 802.3 系列标准”。
+
+--- Document Chunk 31 ---
+二、技术性修改
+
+--- Document Chunk 32 ---
+. 将表224(第14页六测试需求23. 中*1)设置跳停命令 ,列车位
+
+--- Document Chunk 33 ---
+置在跳停命令接收范围内。列车将依据命令在跳停车站停车”修改为
+
+--- Document Chunk 34 ---
+“1)设置跳停命令 ,列车位置在跳停命令接收范围内。列车将依据命令
+
+--- Document Chunk 35 ---
+在跳停车站不停车,以规定的速度越过该车站”。
+
+--- Document Chunk 36 ---
+2二将表228(第 145 页) 测试需求"中“2 ) 测试接口内容:列车完整
+
+--- Document Chunk 37 ---
+性。测试需求:连续级列车 ,运行过程中完整性丢失,则向 ATS 报告“列
+
+--- Document Chunk 38 ---
+:完整性"为完整 ,否则报告列车不完整“修改为2)测试接口内容:列
+
+--- Document Chunk 39 ---
+车完整性。测试需求:连续级列车 ,运行过程中完整性丢失 ,则向 ATS 报
+
+--- Document Chunk 40 ---
+告“列车完整性”为不完整 ,否则报告列车完整”。
+

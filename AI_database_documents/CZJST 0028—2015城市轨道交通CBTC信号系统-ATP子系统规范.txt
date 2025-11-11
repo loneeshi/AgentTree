@@ -1,0 +1,2757 @@
+--- Document Chunk 0 ---
+ 
+
+--- Document Chunk 1 ---
+ 
+
+--- Document Chunk 2 ---
+城 市 轨 道 交 通 装 备 技 术 规 范 
+
+--- Document Chunk 3 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 4 ---
+城市轨道交通CBTC信号系统－ 
+
+--- Document Chunk 5 ---
+ATP子系统规范 
+
+--- Document Chunk 6 ---
+Technical specification of communication based train control system 
+
+--- Document Chunk 7 ---
+for urban rail transit-ATP subsystem specification 
+
+--- Document Chunk 8 ---
+ 
+
+--- Document Chunk 9 ---
+ 
+
+--- Document Chunk 10 ---
+2015-06-01 发布 2015-09-01 实施 
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会技术装备专业委员会  发布  
+
+--- Document Chunk 12 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 13 ---
+I 
+
+--- Document Chunk 14 ---
+ 
+
+--- Document Chunk 15 ---
+目  次 
+
+--- Document Chunk 16 ---
+前言 ................................................................................ Ⅲ 
+
+--- Document Chunk 17 ---
+1 总则 .............................................................................. 1 
+
+--- Document Chunk 18 ---
+2 规范性引用文件 .................................................................... 1 
+
+--- Document Chunk 19 ---
+3 术语、定义和缩略语 ................................................................ 2 
+
+--- Document Chunk 20 ---
+3.1 术语和定义 .................................................................... 2 
+
+--- Document Chunk 21 ---
+3.2 缩略语 ........................................................................ 3 
+
+--- Document Chunk 22 ---
+4 一般要求 .......................................................................... 4 
+
+--- Document Chunk 23 ---
+5 环境条件 .......................................................................... 5 
+
+--- Document Chunk 24 ---
+6 性能要求 .......................................................................... 5 
+
+--- Document Chunk 25 ---
+6.1 安全性要求 .................................................................... 5 
+
+--- Document Chunk 26 ---
+6.2 可靠性、可用性要求 ............................................................ 6 
+
+--- Document Chunk 27 ---
+6.3 可维护性要求 .................................................................. 6 
+
+--- Document Chunk 28 ---
+6.4 追踪间隔时间和旅行速度 ........................................................ 6 
+
+--- Document Chunk 29 ---
+6.5 性能指标 ...................................................................... 7 
+
+--- Document Chunk 30 ---
+7 功能要求 .......................................................................... 7 
+
+--- Document Chunk 31 ---
+7.1 列车速度和位置测定 ............................................................ 7 
+
+--- Document Chunk 32 ---
+7.2 列车安全制动曲线计算 .......................................................... 7 
+
+--- Document Chunk 33 ---
+7.3 管理临时限速 .................................................................. 8 
+
+--- Document Chunk 34 ---
+7.4 处理移动授权（MA） ............................................................ 8 
+
+--- Document Chunk 35 ---
+7.5 超速防护 ...................................................................... 9 
+
+--- Document Chunk 36 ---
+7.6 红灯误出发防护 ................................................................ 9 
+
+--- Document Chunk 37 ---
+7.7 安全间隔防护 ................................................................. 10 
+
+--- Document Chunk 38 ---
+7.8 退行防护 ..................................................................... 10 
+
+--- Document Chunk 39 ---
+7.9 列车完整性监督 ............................................................... 10 
+
+--- Document Chunk 40 ---
+7.10 CBTC控制级别建立 ............................................................ 11 
+
+--- Document Chunk 41 ---
+7.11 列车退出CBTC区域 ........................................................... 11 
+
+--- Document Chunk 42 ---
+7.12 开门防护 .................................................................... 12 
+
+--- Document Chunk 43 ---
+7.13 车门状态监控 ................................................................ 12 
+
+--- Document Chunk 44 ---
+7.14 站台门监控 .................................................................. 12 
+
+--- Document Chunk 45 ---
+7.15 站台紧急停车按钮防护 ........................................................ 12 
+
+--- Document Chunk 46 ---
+7.16 列车准备 .................................................................... 13 
+
+--- Document Chunk 47 ---
+7.17 驾驶模式管理 ................................................................ 13 
+
+--- Document Chunk 48 ---
+7.18 通信状态监督和故障处理 ...................................................... 13 
+
+--- Document Chunk 49 ---
+7.19 列车折返 .................................................................... 14 
+
+--- Document Chunk 50 ---
+7.20 界面显示 .................................................................... 14 
+
+--- Document Chunk 51 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 52 ---
+II 
+
+--- Document Chunk 53 ---
+ 
+
+--- Document Chunk 54 ---
+8 接口与通道 ....................................................................... 15 
+
+--- Document Chunk 55 ---
+8.1 车载ATP/ATO与车辆接口要求 ................................................... 15 
+
+--- Document Chunk 56 ---
+8.2 ATS与地面ATP接口要求 ........................................................ 17 
+
+--- Document Chunk 57 ---
+8.3 ATS与车载ATP/ATO接口要求 .................................................... 18 
+
+--- Document Chunk 58 ---
+8.4 车载ATP/ATO与地面ATP接口要求 ............................................... 19 
+
+--- Document Chunk 59 ---
+8.5 CI与地面ATP接口要求 ......................................................... 20 
+
+--- Document Chunk 60 ---
+8.6 CI与车载ATP/ATO接口要求 ..................................................... 21 
+
+--- Document Chunk 61 ---
+9 电磁兼容防护 ..................................................................... 21 
+
+--- Document Chunk 62 ---
+9.1 电磁发射和抗扰 ............................................................... 21 
+
+--- Document Chunk 63 ---
+9.2 ATP设备室内设备的防雷 ........................................................ 21 
+
+--- Document Chunk 64 ---
+9.3 接地 ......................................................................... 21 
+
+--- Document Chunk 65 ---
+10 供电及电源设备 .................................................................. 21 
+
+--- Document Chunk 66 ---
+10.1 ATP地面设备供电 ............................................................. 21 
+
+--- Document Chunk 67 ---
+10.2 ATP车载设备供电 ............................................................. 22 
+
+--- Document Chunk 68 ---
+附录A（规范性附录）系统参数值 ....................................................... 23 
+
+--- Document Chunk 69 ---
+参考文献 ............................................................................ 24 
+
+--- Document Chunk 70 ---
+ 
+
+--- Document Chunk 71 ---
+ 
+
+--- Document Chunk 72 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 73 ---
+III 
+
+--- Document Chunk 74 ---
+ 
+
+--- Document Chunk 75 ---
+前  言 
+
+--- Document Chunk 76 ---
+本技术规范规定了城市轨道交通CBTC信号系统ATP子系统的技术标准。 
+
+--- Document Chunk 77 ---
+本技术规范由中国城市轨道交通协会技术装备专业委员会提出，是城市轨道交通CBTC信号系统系
+
+--- Document Chunk 78 ---
+列行业技术规范的一个重要的组成部分。 
+
+--- Document Chunk 79 ---
+本技术规范由中国城市轨道交通协会技术装备专业委员会负责具体技术内容的解释。在执行过程
+
+--- Document Chunk 80 ---
+中，请各单位结合工程实践，认真总结经验，如发现需要修改和补充之处，请将意见和建议寄到 CBTC
+
+--- Document Chunk 81 ---
+信号系统系列行业技术规范主编单位北京交通大学《城市轨道交通CBTC信号系统行业技术规范》编写
+
+--- Document Chunk 82 ---
+组（地址：北京市海淀区上园村 3号北京交通大学轨道交通运行控制系统国家工程研究中心，邮编
+
+--- Document Chunk 83 ---
+100044）。 
+
+--- Document Chunk 84 ---
+城市轨道交通CBTC信号系统系列行业技术规范的主编单位、主要起草人： 
+
+--- Document Chunk 85 ---
+主编单位：北京交通大学 
+
+--- Document Chunk 86 ---
+主要起草人：唐涛、黄友能 
+
+--- Document Chunk 87 ---
+本技术规范的主编单位、主要起草人和主要审查人： 
+
+--- Document Chunk 88 ---
+主编单位：北京交控科技有限公司 
+
+--- Document Chunk 89 ---
+          北京交通大学 
+
+--- Document Chunk 90 ---
+参编单位：卡斯柯信号有限公司 
+
+--- Document Chunk 91 ---
+          北京全路通信信号研究设计院有限公司 
+
+--- Document Chunk 92 ---
+          中国铁道科学研究院 
+
+--- Document Chunk 93 ---
+在规范的编制过程中，得到北京轨道交通建设管理有限公司、北京地铁运营有限公司、上海申通地
+
+--- Document Chunk 94 ---
+铁集团有限公司、广州市地下铁道总公司、深圳市地铁有限公司、重庆市轨道交通（集团）有限公司、
+
+--- Document Chunk 95 ---
+南京地铁集团有限公司、天津市地下铁道集团有限公司、武汉地铁集团有限公司、沈阳地铁集团有限公
+
+--- Document Chunk 96 ---
+司、西安市地下铁道有限责任公司、成都地铁有限责任公司、中铁检验认证中心的积极配合与支持。 
+
+--- Document Chunk 97 ---
+主要起草人：唐涛、郜春海、黄友能、刘波、刘宏杰、杨旭文、王伟、崔科、汪小勇、耿鹏、刘帅、
+
+--- Document Chunk 98 ---
+尹逊政、刘剑 
+
+--- Document Chunk 99 ---
+主要审查人：张艳兵、张良、王道敏、朱翔、朱宏、张琼燕、段晨宁、李新文、任敬、 朱东飞、
+
+--- Document Chunk 100 ---
+喻智宏、肖培龙、王维奇、郑生全、黄银霞、孙超
+
+--- Document Chunk 101 ---
+ 
+
+--- Document Chunk 102 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 103 ---
+1 
+
+--- Document Chunk 104 ---
+ 
+
+--- Document Chunk 105 ---
+城市轨道交通 CBTC 信号系统－ATP 子系统规范 
+
+--- Document Chunk 106 ---
+1 总则 
+
+--- Document Chunk 107 ---
+1.1 为统一城市轨道交通CBTC系统的ATP子系统的技术标准， 以指导ATP子系统的产品设计，供设备
+
+--- Document Chunk 108 ---
+招标、工程设计、工程验收等参考，制定本规范。 
+
+--- Document Chunk 109 ---
+1.2 本规范规定了城市轨道交通CBTC系统中ATP子系统的一般要求、 环境条件、 性能要求、 功能要求、
+
+--- Document Chunk 110 ---
+接口与通道、电磁兼容防护、供电及电源设备等内容。 
+
+--- Document Chunk 111 ---
+1.3 本规范适用于120km/h及以下的地铁、轻轨、单轨等城市轨道交通系统。 
+
+--- Document Chunk 112 ---
+1.4 城市轨道交通CBTC系统中ATP子系统设计， 除应符合本规范要求外， 还应符合国家现行有关强制
+
+--- Document Chunk 113 ---
+性标准的规定。 
+
+--- Document Chunk 114 ---
+2 规范性引用文件 
+
+--- Document Chunk 115 ---
+下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅所注日期的版本适用于本文
+
+--- Document Chunk 116 ---
+件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。 
+
+--- Document Chunk 117 ---
+GB/T 20438.6 电气/电子/可编程电子安全相关系统的功能安全 第6部分：GB/T 20438.2 和GB/T 
+
+--- Document Chunk 118 ---
+20438.3的应用指南（GB/T 20438.6-2006，IEC 61506-6：2000，IDT） 
+
+--- Document Chunk 119 ---
+GB/T 21563 轨道交通 机车车辆设备冲击和振动试验（GB/T 21563-2008，IEC 61737：1999，IDT） 
+
+--- Document Chunk 120 ---
+GB/T 24338.4 轨道交通 电磁兼容 第3-2 部分：机车车辆 设备（GB/T 24338.4-2009， 
+
+--- Document Chunk 121 ---
+IE C62236-3-2：2003，MOD） 
+
+--- Document Chunk 122 ---
+GB/T 24338.5 轨道交通 电磁兼容 第4部分：信号和通信设备的发射与抗扰度（GB/T 24338.5-2009，
+
+--- Document Chunk 123 ---
+IEC 62236-4：2003，IDT） 
+
+--- Document Chunk 124 ---
+GB/T 24339.1 轨道交通 通信、 信号和处理系统 第1部分： 封闭式传输系统中的安全相关通信（GB/T 
+
+--- Document Chunk 125 ---
+24339.1-2009，IEC 62280-1：2002，IDT） 
+
+--- Document Chunk 126 ---
+GB/T 24339.2 轨道交通 通信、 信号和处理系统 第2部分： 开放式传输系统中的安全相关通信（GB/T 
+
+--- Document Chunk 127 ---
+24339.2-2009，IEC 62280-2：2002，IDT） 
+
+--- Document Chunk 128 ---
+GB/T 25119 轨道交通 机车车辆电子装置（GB/T 25119-2010，IEC 60571：2006，MOD） 
+
+--- Document Chunk 129 ---
+GB/T 50343 建筑物电子信息系统防雷技术规范 
+
+--- Document Chunk 130 ---
+CJ/T 407   城市轨道交通基于通信的列车自动控制系统技术要求 
+
+--- Document Chunk 131 ---
+TB/T 2846 铁路地面信号产品振动试验方法 
+
+--- Document Chunk 132 ---
+TB/T 2953 铁路地面信号产品高温及低温试验方法 
+
+--- Document Chunk 133 ---
+铁运【2006】26号 铁路信号设备雷电及电磁兼容综合防护实施指导意见 
+
+--- Document Chunk 134 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 135 ---
+2 
+
+--- Document Chunk 136 ---
+ 
+
+--- Document Chunk 137 ---
+铁建设【2007】39号 铁路防雷、电磁兼容及接地工程技术暂行规定 
+
+--- Document Chunk 138 ---
+《城市轨道交通CBTC信号系统行业技术规范－需求规范》 
+
+--- Document Chunk 139 ---
+3 术语、定义和缩略语 
+
+--- Document Chunk 140 ---
+下列术语和定义、缩略语适用于本文件。 
+
+--- Document Chunk 141 ---
+3.1 术语和定义 
+
+--- Document Chunk 142 ---
+3.1.1 基于通信的列车控制 communication based train control 
+
+--- Document Chunk 143 ---
+采用不依赖轨旁列车占用检测设备的列车主动定位技术和连续车-地双向数据通信技术，通过能够
+
+--- Document Chunk 144 ---
+执行安全功能的车载和地面处理器而构建的连续式列车自动控制系统。 
+
+--- Document Chunk 145 ---
+3.1.2 列车自动控制 automatic train control 
+
+--- Document Chunk 146 ---
+城市轨道交通信号系统实现列车自动监控ATS、列车自动防护ATP、列车自动运行ATO及计算机联
+
+--- Document Chunk 147 ---
+锁 CI技术的总称。 
+
+--- Document Chunk 148 ---
+3.1.3 列车自动监控 automatic train supervision 
+
+--- Document Chunk 149 ---
+自动实现行车指挥控制、列车运行监视和管理技术的总称。 
+
+--- Document Chunk 150 ---
+3.1.4 列车自动防护 automatic train protection 
+
+--- Document Chunk 151 ---
+自动实现列车运行间隔、超速防护、进路安全和车门等监控技术的总称。 
+
+--- Document Chunk 152 ---
+3.1.5 列车自动运行 automatic train operation 
+
+--- Document Chunk 153 ---
+自动实现列车运行速度、停车和车门等监控技术的总称。 
+
+--- Document Chunk 154 ---
+3.1.6 计算机联锁 computer interlocking 
+
+--- Document Chunk 155 ---
+以计算机技术为核心，自动实现进路、道岔、信号机等防护技术的总称。 
+
+--- Document Chunk 156 ---
+3.1.7 移动授权 movement authority 
+
+--- Document Chunk 157 ---
+列车沿给定的行驶方向进入并在某一特定轨道区段内行车的许可。 
+
+--- Document Chunk 158 ---
+3.1.8 追踪间隔时间 headway 
+
+--- Document Chunk 159 ---
+在同一线路、同向运行的两列列车的前端经过线路同一地点的间隔时间。 
+
+--- Document Chunk 160 ---
+3.1.9 旅行速度 operation speed 
+
+--- Document Chunk 161 ---
+正常运营情况下，列车从起点站发车至终点站停车的平均运行速度。 
+
+--- Document Chunk 162 ---
+3.1.10 列车安全制动模型 safe train braking model 
+
+--- Document Chunk 163 ---
+根据列车安全间隔，依据列车特性、线路参数及运营条件生成的列车制动曲线。 
+
+--- Document Chunk 164 ---
+3.1.11 限制速度 restricted speed 
+
+--- Document Chunk 165 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 166 ---
+3 
+
+--- Document Chunk 167 ---
+ 
+
+--- Document Chunk 168 ---
+线路、车辆结构等限制及列车移动授权所获取的最严格的速度限制。 
+
+--- Document Chunk 169 ---
+3.1.12 保护区段 overlap section 
+
+--- Document Chunk 170 ---
+为实现超速防护，保证安全停车而延伸的闭塞区段。 
+
+--- Document Chunk 171 ---
+3.1.13 目标速度 target speed 
+
+--- Document Chunk 172 ---
+列车运行至前方目标地点应达到的允许速度。 
+
+--- Document Chunk 173 ---
+3.1.14 目标距离 target distance 
+
+--- Document Chunk 174 ---
+列车运行至前方目标地点的走行距离。 
+
+--- Document Chunk 175 ---
+3.1.15 可靠性 reliability 
+
+--- Document Chunk 176 ---
+产品在规定的条件下和规定的时间区间内完成规定功能的能力。 
+
+--- Document Chunk 177 ---
+3.1.16 可用性 availability 
+
+--- Document Chunk 178 ---
+可修复产品在某一特定瞬间维持其功能的概率或在某一期间内维持其功能的时间比率。 可用性是产
+
+--- Document Chunk 179 ---
+品可靠性、维修性和维修保证性的综合指标。 
+
+--- Document Chunk 180 ---
+3.1.17 可维护性 maintainability 
+
+--- Document Chunk 181 ---
+产品在规定的使用条件下并按规定的程序和手段实施维修时， 为保持产品处于正常使用状态或为修
+
+--- Document Chunk 182 ---
+复产品的故障、缺陷，使之恢复执行功能状态的能力。 
+
+--- Document Chunk 183 ---
+3.1.18 安全性 safety 
+
+--- Document Chunk 184 ---
+保证行车和人身以及设备安全的能力，以在给定时刻系统维持安全功能完善的概率指称。 
+
+--- Document Chunk 185 ---
+3.2 缩略语 
+
+--- Document Chunk 186 ---
+AM：列车自动驾驶模式（Automatic Train Operating Mode） 
+
+--- Document Chunk 187 ---
+ATC：列车自动控制（Automatic Train Control） 
+
+--- Document Chunk 188 ---
+ATO：列车自动运行（Automatic Train Operation） 
+
+--- Document Chunk 189 ---
+ATP：列车自动防护（Automatic Train Protection） 
+
+--- Document Chunk 190 ---
+ATS：列车自动监控（Automatic Train Supervision） 
+
+--- Document Chunk 191 ---
+CBTC：基于通信的列车控制（Communication Based Train Control） 
+
+--- Document Chunk 192 ---
+CI：计算机联锁（Computer Interlocking） 
+
+--- Document Chunk 193 ---
+CM：受控人工驾驶（Code Train Operating Mode） 
+
+--- Document Chunk 194 ---
+DCS：数据通信系统（Data Communication System） 
+
+--- Document Chunk 195 ---
+MA：移动授权（Movement Authority） 
+
+--- Document Chunk 196 ---
+MMI：人机交互界面（Man Machine Interface） 
+
+--- Document Chunk 197 ---
+MTBF：平均故障间隔时间（Mean Time Between Failures） 
+
+--- Document Chunk 198 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 199 ---
+4 
+
+--- Document Chunk 200 ---
+ 
+
+--- Document Chunk 201 ---
+MTTR：平均修复时间（Mean Time To Repair） 
+
+--- Document Chunk 202 ---
+RM：限制人工驾驶（Restricted Train Operating Mode） 
+
+--- Document Chunk 203 ---
+SIL：安全完整性等级（Safety Integrity Level） 
+
+--- Document Chunk 204 ---
+TMS：列车管理系统（Train Management System） 
+
+--- Document Chunk 205 ---
+4 一般要求 
+
+--- Document Chunk 206 ---
+4.1 ATP 设备应确保列车的安全运行，实现列车运行间隔控制、超速防护和车门监控等功能。 
+
+--- Document Chunk 207 ---
+4.2 ATP车载设备应满足24h运营的要求，ATP地面设备应满足每周7天每天24h不间断运营的要求。 
+
+--- Document Chunk 208 ---
+4.3 ATP车载设备配置要求：每列车宜头尾两端各设一套ATP车载设备。当列车两端各设置一套三取
+
+--- Document Chunk 209 ---
+二或二乘二取二安全计算机平台构成的ATP车载设备时，则车头、车尾可不考虑冗余，否则头尾两端车
+
+--- Document Chunk 210 ---
+载设备应满足冗余的要求。 
+
+--- Document Chunk 211 ---
+4.4 在司机控制台上应设置车载信号设备的人机界面的显示器和司机操作的按钮和指示灯，人机界面
+
+--- Document Chunk 212 ---
+的显示器应采用LCD彩色显示屏，最低分辨率要求为640*480。 
+
+--- Document Chunk 213 ---
+4.5 ATP车载设备的开关、按钮及表示灯包括： 
+
+--- Document Chunk 214 ---
+a) 驾驶模式转换开关或按钮； 
+
+--- Document Chunk 215 ---
+b) 自动折返按钮及表示灯； 
+
+--- Document Chunk 216 ---
+c) 确认按钮； 
+
+--- Document Chunk 217 ---
+d) 车载设备切除开关。 
+
+--- Document Chunk 218 ---
+4.6 ATP设备应适应不同方向运行编组长度固定的列车，包括： 
+
+--- Document Chunk 219 ---
+a) 单方向运行编组长度固定的列车； 
+
+--- Document Chunk 220 ---
+b) 双方向运行编组长度固定的列车。 
+
+--- Document Chunk 221 ---
+4.7 ATP设备可适应不同方向运行编组长度可变的列车，包括： 
+
+--- Document Chunk 222 ---
+a) 单方向运行编组长度可变的列车； 
+
+--- Document Chunk 223 ---
+b) 双方向运行编组长度可变的列车； 
+
+--- Document Chunk 224 ---
+c) 不同编组长度的列车混合运行。 
+
+--- Document Chunk 225 ---
+4.8 ATP设备应适应不同车辆性能的列车共线运行。 
+
+--- Document Chunk 226 ---
+4.9 ATP地面设备宜采用列车位置报告和列车占用检测设备的冗余方式获得列车位置，以满足系统正
+
+--- Document Chunk 227 ---
+常及降级运用的要求。 
+
+--- Document Chunk 228 ---
+4.10 ATP 车载设备在不同的ATP地面设备控制区域间切换应不影响列车正常运行。 
+
+--- Document Chunk 229 ---
+4.11 ATP 设备应满足连续通信的列车控制、点式列车控制、联锁控制三种级别的要求： 
+
+--- Document Chunk 230 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 231 ---
+5 
+
+--- Document Chunk 232 ---
+ 
+
+--- Document Chunk 233 ---
+a) 连续通信的列车控制级别（CBTC级别）为信号系统的正常控制方式，应基于移动闭塞原理，采
+
+--- Document Chunk 234 ---
+用连续速度曲线控制方式，实时监督列车运行； 
+
+--- Document Chunk 235 ---
+b) 点式列车控制级别（点式级别）为信号系统的降级控制方式，应基于固定闭塞原理，采用连续
+
+--- Document Chunk 236 ---
+速度曲线控制方式，实时监督列车运行； 
+
+--- Document Chunk 237 ---
+c) 联锁控制级别（联锁级别）为信号系统的降级控制方式，ATP 车载设备应提供限制人工驾驶下
+
+--- Document Chunk 238 ---
+的速度防护功能。 
+
+--- Document Chunk 239 ---
+4.12 ATP 车载设备应至少支持限制人工驾驶模式（RM模式）、ATP防护下的人工驾驶模式（CM模式），
+
+--- Document Chunk 240 ---
+如果装备ATO设备的，还应支持列车自动驾驶模式（AM模式）。 
+
+--- Document Chunk 241 ---
+4.13 ATP 车载设备应与车辆电路一起提供设备切除功能（非限制人工驾驶模式），此时ATP自动防护
+
+--- Document Chunk 242 ---
+设备被切除，ATP车载设备不对列车运行进行监控，司机按操作规程驾驶列车运行。 
+
+--- Document Chunk 243 ---
+4.14 ATP 设备宜具备无人自动折返功能。 
+
+--- Document Chunk 244 ---
+4.15 在具有列车作业方式的车辆段/停车场，ATP设备应提供超速防护功能。 
+
+--- Document Chunk 245 ---
+4.16 车载 ATP/ATO和ATP地面设备应具备与ATS校核时钟的能力。 
+
+--- Document Chunk 246 ---
+4.17 ATP 车载设备严禁超出车辆限界，ATP地面设备严禁侵入设备限界。 
+
+--- Document Chunk 247 ---
+5 环境条件 
+
+--- Document Chunk 248 ---
+5.1 车载ATP/ATO应满足GB/T 25119中第4章“环境条件”的要求。 
+
+--- Document Chunk 249 ---
+5.2 车载ATP/ATO应满足GB/T 21563的要求。 
+
+--- Document Chunk 250 ---
+5.3 车载ATP/ATO的IP防护等级要求分以下三类： 
+
+--- Document Chunk 251 ---
+a) 安装在车体内部设计了车载机柜的车载ATP/ATO设备IP防护等级应不低于IP52； 
+
+--- Document Chunk 252 ---
+b) 安装在司机室驾驶台上的MMI 设备IP防护等级应不低于IP32； 
+
+--- Document Chunk 253 ---
+c) 安装在车体外部的车载ATP/ATO相关设备IP防护等级应不低于IP65。 
+
+--- Document Chunk 254 ---
+5.4 ATP地面设备应不低于TB/T 2953中第3类产品的要求。 
+
+--- Document Chunk 255 ---
+5.5 ATP地面设备应满足TB/T 2846中的相关要求。 
+
+--- Document Chunk 256 ---
+5.6 ATP设备运用于特殊环境条件时，应保证ATP设备在相应地区的环境条件下安全可靠地运行，或
+
+--- Document Chunk 257 ---
+采取必要的附加措施保证ATP 设备安全可靠地运行。 
+
+--- Document Chunk 258 ---
+6 性能要求 
+
+--- Document Chunk 259 ---
+6.1 安全性要求 
+
+--- Document Chunk 260 ---
+6.1.1 ATP 设备中完成与行车安全功能相关的设备应满足SIL4级要求。 
+
+--- Document Chunk 261 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 262 ---
+6 
+
+--- Document Chunk 263 ---
+ 
+
+--- Document Chunk 264 ---
+6.1.2 ATP 设备应符合故障-安全原则。 
+
+--- Document Chunk 265 ---
+6.1.3 ATP 设备应采用二乘二取二或三取二安全冗余结构，二乘二取二或三取二冗余结构的定义应符
+
+--- Document Chunk 266 ---
+合 GB/T 20438.6的要求。 
+
+--- Document Chunk 267 ---
+6.1.4 与 ATP子系统进行的安全信息传输应满足GB/T 24339的要求。 
+
+--- Document Chunk 268 ---
+6.2 可靠性、可用性要求 
+
+--- Document Chunk 269 ---
+6.2.1 ATP 车载设备平均故障间隔时间应满足：MTBF≥10
+
+--- Document Chunk 270 ---
+5
+
+--- Document Chunk 271 ---
+h。 
+
+--- Document Chunk 272 ---
+6.2.2 ATP 地面设备平均故障间隔时间应满足：MTBF≥10
+
+--- Document Chunk 273 ---
+5
+
+--- Document Chunk 274 ---
+h。 
+
+--- Document Chunk 275 ---
+6.2.3 ATP 设备可用性应不小于99.99%。 
+
+--- Document Chunk 276 ---
+6.2.4 ATP 设备的设计寿命为15年。 
+
+--- Document Chunk 277 ---
+6.3 可维护性要求 
+
+--- Document Chunk 278 ---
+6.3.1 ATP 设备应具有自诊断或远程诊断能力，以减少系统平均故障修复时间（MTTR）。 
+
+--- Document Chunk 279 ---
+6.3.2 按照设备所在地点划分，平均故障修复时间要求为： 
+
+--- Document Chunk 280 ---
+a) 车载设备的平均故障修复时间：MTTR≤30min； 
+
+--- Document Chunk 281 ---
+b) 车站设备的平均故障修复时间：MTTR≤45min； 
+
+--- Document Chunk 282 ---
+c) 轨旁设备的平均故障修复时间：MTTR≤4h。 
+
+--- Document Chunk 283 ---
+6.3.3 ATP 设备应能提供数据记录功能，记录的数据应能反映系统运行状况。记录的内容包括事件的
+
+--- Document Chunk 284 ---
+时间和日期，数据记录时间要求见附录A。 
+
+--- Document Chunk 285 ---
+6.3.4 ATP 设备的记录数据应可直接或通过外接PC实现图形或其它可读格式输出和打印，并可按要求
+
+--- Document Chunk 286 ---
+传送至车站及控制中心ATS或其他子系统。 
+
+--- Document Chunk 287 ---
+6.4 追踪间隔时间和旅行速度 
+
+--- Document Chunk 288 ---
+6.4.1 对应特定线路与特定列车的设计追踪间隔时间和设计旅行速度应考虑下列因素： 
+
+--- Document Chunk 289 ---
+a) 线路参数，包括线路限速、线路坡度等； 
+
+--- Document Chunk 290 ---
+b) 线路配线； 
+
+--- Document Chunk 291 ---
+c) 列车参数，包括列车长度、列车最大加速度、最大常用制动、列车平均减速度、可保证的紧急
+
+--- Document Chunk 292 ---
+制动率等； 
+
+--- Document Chunk 293 ---
+d) 站停时间； 
+
+--- Document Chunk 294 ---
+e) 司机反应时间； 
+
+--- Document Chunk 295 ---
+f) 列车测速及定位精度； 
+
+--- Document Chunk 296 ---
+g) 移动授权分辨率； 
+
+--- Document Chunk 297 ---
+h) 定位报告及移动授权更新频率； 
+
+--- Document Chunk 298 ---
+i) 通信延迟时间，包括正常与最不利条件下车载及地面设备间命令或状态信息的传输时间； 
+
+--- Document Chunk 299 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 300 ---
+7 
+
+--- Document Chunk 301 ---
+ 
+
+--- Document Chunk 302 ---
+j) ATP 设备响应时间，包括位置报告更新后生成新的移动授权所需时间、对应联锁条件生成新的
+
+--- Document Chunk 303 ---
+移动授权所需时间、移动授权更新后对应生成新的速度-距离曲线所需时间等。 
+
+--- Document Chunk 304 ---
+6.5 性能指标 
+
+--- Document Chunk 305 ---
+6.5.1 装备ATP车载设备的列车自动控制系统的主要响应时间要求： 
+
+--- Document Chunk 306 ---
+a) 控制命令的反应时间，即命令发出至被控系统开始执行的时间应小于或等于1s； 
+
+--- Document Chunk 307 ---
+b) 车载信号设备自接收到地面信息至完成处理的时间应小于或等于0.75s； 
+
+--- Document Chunk 308 ---
+c) 当车载信号设备识别到涉及行车安全的系统故障时，应立即发出紧急制动命令，且延时应小于
+
+--- Document Chunk 309 ---
+或等于0.75s。 
+
+--- Document Chunk 310 ---
+6.5.2 ATP 车载设备上电启动时间应小于60s。 
+
+--- Document Chunk 311 ---
+7 功能要求 
+
+--- Document Chunk 312 ---
+7.1 列车速度和位置测定 
+
+--- Document Chunk 313 ---
+7.1.1 ATP 设备在CBTC区域内应能够确定列车的速度、位置（包括列车两端的位置）和运行方向。 
+
+--- Document Chunk 314 ---
+7.1.2 ATP 车载设备应采用冗余方式的测速系统，速度信息的输出应相互校验，并实行断路检查。 
+
+--- Document Chunk 315 ---
+7.1.3 ATP设备的测速分辨率和精度应满足本标准规定的性能和安全要求，分辨率和精度指标见附
+
+--- Document Chunk 316 ---
+录 A。 
+
+--- Document Chunk 317 ---
+7.1.4 列车进入CBTC区域或从故障状态恢复时，ATP设备应能通过读取应答器信息来自动初始化定位。 
+
+--- Document Chunk 318 ---
+7.1.5 ATP 车载设备应具有空转、打滑检测功能，及列车速度和位置测量误差修正功能。 
+
+--- Document Chunk 319 ---
+7.1.6 应答器的配置应满足系统无故障时的以下要求： 
+
+--- Document Chunk 320 ---
+a) 在由转换轨进入正线前，ATP车载设备应完成列车速度/列车位置的测定； 
+
+--- Document Chunk 321 ---
+b) 在由联络线进入本线路运营前，ATP车载设备应完成列车速度/列车位置的测定； 
+
+--- Document Chunk 322 ---
+c) 在车站站台、正线停车线进入正线前，ATP车载设备应完成列车速度/列车位置的测定； 
+
+--- Document Chunk 323 ---
+d) 在点式列车控制级别下，保证列车读取可变应答器的信号显示与地面信号显示的一致； 
+
+--- Document Chunk 324 ---
+e) 在分歧线路处实现列车重定位。 
+
+--- Document Chunk 325 ---
+7.1.7 采用车轮转动来测量列车速度/位置时，ATP车载设备宜具备自动轮径补偿功能。 
+
+--- Document Chunk 326 ---
+7.1.8 ATP 车载设备应具有零速度检测功能，零速度检测的标准值参见附录A。 
+
+--- Document Chunk 327 ---
+7.2 列车安全制动曲线计算 
+
+--- Document Chunk 328 ---
+7.2.1 ATP 设备应采用连续的速度－距离曲线安全制动模型，实现列车速度控制，防止列车超速，确
+
+--- Document Chunk 329 ---
+保追踪列车之间的安全行车间隔。 
+
+--- Document Chunk 330 ---
+7.2.2 列车安全制动模型应包括下列因素： 
+
+--- Document Chunk 331 ---
+a) 前行列车位置及不确定性； 
+
+--- Document Chunk 332 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 333 ---
+8 
+
+--- Document Chunk 334 ---
+ 
+
+--- Document Chunk 335 ---
+b) 本车位置及不确定性； 
+
+--- Document Chunk 336 ---
+c) 列车长度； 
+
+--- Document Chunk 337 ---
+d) 列车编组； 
+
+--- Document Chunk 338 ---
+e) ATP 车载设备测速误差； 
+
+--- Document Chunk 339 ---
+f) ATP 车载设备响应时间； 
+
+--- Document Chunk 340 ---
+g) 设备间通信延迟； 
+
+--- Document Chunk 341 ---
+h) 列车的最大加速度； 
+
+--- Document Chunk 342 ---
+i) ATP 车载设备检测到超速时，车辆从切除牵引到紧急制动施加并生效前的最大响应时间； 
+
+--- Document Chunk 343 ---
+j) 列车可保证的紧急制动率； 
+
+--- Document Chunk 344 ---
+k) 线路坡度。 
+
+--- Document Chunk 345 ---
+7.2.3 列车安全制动模型的参数和接口形式应结合具体ATP设备应用工程确定，应为不同列车结构、
+
+--- Document Chunk 346 ---
+性能指标及运营管理模式配备不同的参数或接口形式。 
+
+--- Document Chunk 347 ---
+7.2.4 采用ATP车载设备防护的列车应不超过限制速度和移动授权终点。 
+
+--- Document Chunk 348 ---
+7.2.5 ATP 车载设备实施紧急制动时,列车停车前中途不得缓解。 
+
+--- Document Chunk 349 ---
+7.2.6 ATP 车载设备实施紧急制动停车后，如果导致列车紧急制动的原因已解除，则紧急制动宜能自
+
+--- Document Chunk 350 ---
+动缓解。 
+
+--- Document Chunk 351 ---
+7.3 管理临时限速 
+
+--- Document Chunk 352 ---
+7.3.1 ATP 设备应支持ATS设置和取消临时限速，并能够自动存储临时限速信息。 
+
+--- Document Chunk 353 ---
+7.3.2 ATP 车载设备工作在CBTC级别时，应保证列车在通过临时限速区域范围时的速度不超过临时限
+
+--- Document Chunk 354 ---
+速值的要求。 
+
+--- Document Chunk 355 ---
+7.3.3 负责临时限速管理的ATP地面设备应保持与ATS连续通信。 
+
+--- Document Chunk 356 ---
+7.3.4 负责临时限速管理的ATP地面设备重启后，应与ATS通信，要求人工在ATS上对设备存储的限
+
+--- Document Chunk 357 ---
+速值或上电后默认设置的初始限速值进行确认后，地面ATP设备的临时限速功能方可投入正常工作。 
+
+--- Document Chunk 358 ---
+7.4 处理移动授权（MA） 
+
+--- Document Chunk 359 ---
+7.4.1 MA 应根据下列因素确定： 
+
+--- Document Chunk 360 ---
+a) 列车位置和运行方向； 
+
+--- Document Chunk 361 ---
+b) 进路状态、区段锁闭状态和锁闭方向、道岔状态、保护区段状态、信号机状态； 
+
+--- Document Chunk 362 ---
+c) 前方装备ATP车载设备列车的尾部最不利位置； 
+
+--- Document Chunk 363 ---
+d) 前方未装备 ATP 车载设备的列车或 ATP 车载设备失效的列车所占用区域的边界及最不利条件下
+
+--- Document Chunk 364 ---
+的列车尾部位置； 
+
+--- Document Chunk 365 ---
+e) 固定闭塞和准移动闭塞下，闭塞分区的边界； 
+
+--- Document Chunk 366 ---
+f) 站台紧急关闭状态和站台门状态； 
+
+--- Document Chunk 367 ---
+g) 车挡前端； 
+
+--- Document Chunk 368 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 369 ---
+9 
+
+--- Document Chunk 370 ---
+ 
+
+--- Document Chunk 371 ---
+h) 封锁的轨道区段边界。 
+
+--- Document Chunk 372 ---
+7.4.2 ATP 地面设备应周期性计算并向ATP车载设备发送MA。 
+
+--- Document Chunk 373 ---
+7.4.3 列车升级为CBTC级别前，ATP地面设备应能确定列车前方移动授权范围内没有其他列车。 
+
+--- Document Chunk 374 ---
+7.4.4 如果ATP车载设备接收到的MA突然回撤时，列车速度超越了新的速度-距离曲线速度，则ATP
+
+--- Document Chunk 375 ---
+车载设备应立即采取制动措施。 
+
+--- Document Chunk 376 ---
+7.4.5 点式列车控制级别下，在列车运行过程中： 
+
+--- Document Chunk 377 ---
+a) 当 ATP 车载设备接收到的移动授权信息没有时效性时，ATP 车载设备收到的移动授权应持续有
+
+--- Document Chunk 378 ---
+效，直到收到下一个移动授权为止； 
+
+--- Document Chunk 379 ---
+b) 当 ATP 车载设备接收到的移动授权信息具有时效性时,移动授权有效时间的设置不应影响列车
+
+--- Document Chunk 380 ---
+的正常运行。 
+
+--- Document Chunk 381 ---
+7.4.6 CBTC列车控制级别下，在列车运行过程中： 
+
+--- Document Chunk 382 ---
+a) ATP 车载设备应对接收到的来自 ATP 地面设备的包括移动授权的信息进行时效性判断，如超过
+
+--- Document Chunk 383 ---
+了所规定的时间，ATP车载设备应采取导向安全的措施； 
+
+--- Document Chunk 384 ---
+b) ATP 地面设备应对接收到的来自 ATP 车载设备的包括位置汇报的信息进行时效性判断，如超过
+
+--- Document Chunk 385 ---
+了所规定的时间，ATP地面设备应采取导向安全的措施。 
+
+--- Document Chunk 386 ---
+7.5 超速防护 
+
+--- Document Chunk 387 ---
+7.5.1 ATP 车载设备应根据安全制动模型和限制速度计算速度-距离曲线，并实时监督列车运行。当测
+
+--- Document Chunk 388 ---
+定的列车速度超过速度-距离曲线速度时，ATP车载设备应立即实施制动，以保证列车安全间隔。 
+
+--- Document Chunk 389 ---
+7.5.2 ATP 限制速度应按下列因素中最严格的限制条件确定： 
+
+--- Document Chunk 390 ---
+a) 线路限速； 
+
+--- Document Chunk 391 ---
+b) 临时限速； 
+
+--- Document Chunk 392 ---
+c) 列车限制速度； 
+
+--- Document Chunk 393 ---
+d) 与 ATP车载设备驾驶模式相关的限制速度； 
+
+--- Document Chunk 394 ---
+e) 保证列车前端进入限速区段时，列车速度低于该区段的限制速度； 
+
+--- Document Chunk 395 ---
+f) 保证列车末端出清限速区段前，列车速度低于该区段的限制速度； 
+
+--- Document Chunk 396 ---
+g) 保证列车在移动授权终点前安全停车。 
+
+--- Document Chunk 397 ---
+7.5.3 当列车进站停车时，ATP子系统应保证列车头部进入有效站台时的速度不超过站台的限制速度；
+
+--- Document Chunk 398 ---
+列车出站过程中，ATP子系统应保证列车尾部离开有效站台前的速度不超过站台的限制速度。 
+
+--- Document Chunk 399 ---
+7.6 红灯误出发防护 
+
+--- Document Chunk 400 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 401 ---
+10 
+
+--- Document Chunk 402 ---
+ 
+
+--- Document Chunk 403 ---
+7.6.1 当列车在信号机前停车点停车时，在确认前方信号开放前，ATP车载设备应禁止列车移动。其
+
+--- Document Chunk 404 ---
+中，CBTC控制级别下，ATP设备应自动确认前方信号状态；点式控制级别下，ATP 设备可自动或人工方
+
+--- Document Chunk 405 ---
+式确认前方信号状态。 
+
+--- Document Chunk 406 ---
+7.6.2 点式控制级别下，当列车在站台运营停车点停车时，ATP车载设备宜能连续接收前方地面信号
+
+--- Document Chunk 407 ---
+状态信息以保证列车安全。 
+
+--- Document Chunk 408 ---
+7.6.3 点式控制级别下，对于无法通过连续通信获得前方地面信号状态信息的信号机前，列车可在人
+
+--- Document Chunk 409 ---
+工确认前方信号开放后转到点式开口防护状态下运行。 
+
+--- Document Chunk 410 ---
+7.7 安全间隔防护 
+
+--- Document Chunk 411 ---
+7.7.1 对 CBTC区域内的所有列车都应进行列车安全分隔。 
+
+--- Document Chunk 412 ---
+7.7.2 ATP 设备应根据线路数据和CI子系统提供的列车进路等信息确定相应列车的运行权限，并保证
+
+--- Document Chunk 413 ---
+前行列车和追踪列车间的安全间隔。 
+
+--- Document Chunk 414 ---
+7.7.3 ATP 设备应连续、自动地对轨道占用/空闲状态及列车位置进行检测，保证系统对列车进路的安
+
+--- Document Chunk 415 ---
+全控制和对列车运行速度及间隔的安全控制。 
+
+--- Document Chunk 416 ---
+7.7.4 在 CBTC级别下，应基于前行列车瞬时停车（撞硬墙）的原则实现装备ATP车载设备列车的安全
+
+--- Document Chunk 417 ---
+分隔。 
+
+--- Document Chunk 418 ---
+7.7.5 当正线上运行列车故障时，ATP设备应允许后续列车以限制人工驾驶模式接近故障列车实施救
+
+--- Document Chunk 419 ---
+援，ATP地面设备应对后续追踪CBTC列车实施安全运营保护。 
+
+--- Document Chunk 420 ---
+7.7.6 混合模式运行时安全间隔防护： 
+
+--- Document Chunk 421 ---
+a) 对于未装备 ATP 车载设备或 ATP 车载设备故障的列车，其安全间隔防护可通过地面列车占用检
+
+--- Document Chunk 422 ---
+测设备或遵照由运营部门规定的操作程序来实现； 
+
+--- Document Chunk 423 ---
+b) 前方列车未安装ATP车载设备或ATP车载设备故障时，ATP地面设备给后续CBTC级别列车的MA
+
+--- Document Chunk 424 ---
+应至少限制到前方列车所在区域的边界及最不利条件下的列车尾部位置，宜限制到与前方列车
+
+--- Document Chunk 425 ---
+间隔一个占用检测设备空闲区段所在区域的边界处。 
+
+--- Document Chunk 426 ---
+7.7.7 ATP 设备应防护列车在最大坡道及任何负载情况下的退行或后溜对列车造成的影响。 
+
+--- Document Chunk 427 ---
+7.7.8 当设置站台扣车命令时，CI子系统可关闭出站进路，此时ATP地面设备应保证不向列车发送允
+
+--- Document Chunk 428 ---
+许列车出站运行的移动授权；列车在进站过程中设置扣车命令时，应不影响列车正常进站。 
+
+--- Document Chunk 429 ---
+7.7.9 ATP 设备应按相关条件要求，仅在车站站台门关闭且锁闭、紧急停车按钮未按下时允许列车进
+
+--- Document Chunk 430 ---
+入站台停车。 
+
+--- Document Chunk 431 ---
+7.7.10 ATP设备宜在MA满足列车完全出站的条件下才允许列车驶离站台。 
+
+--- Document Chunk 432 ---
+7.8 退行防护 
+
+--- Document Chunk 433 ---
+ATP车载设备应监督实际列车行驶方向，当退行距离或退行速度超过容许量时，系统应产生报警并
+
+--- Document Chunk 434 ---
+立即采取紧急制动。退行防护标准见附录A。 
+
+--- Document Chunk 435 ---
+7.9 列车完整性监督 
+
+--- Document Chunk 436 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 437 ---
+11 
+
+--- Document Chunk 438 ---
+ 
+
+--- Document Chunk 439 ---
+7.9.1 ATP 设备应连续监督从车辆接口获得的列车完整性信息， 当列车完整性丢失时，ATP车载设备应
+
+--- Document Chunk 440 ---
+实施紧急制动，并在车载人机界面上提示。 
+
+--- Document Chunk 441 ---
+7.9.2 ATP 车载设备检测到列车完整性丢失后，在故障修复前应不允许列车继续运行。 
+
+--- Document Chunk 442 ---
+7.10 CBTC控制级别建立 
+
+--- Document Chunk 443 ---
+7.10.1 在进入CBTC区域前，ATP设备应获得CBTC区域边界信息。 
+
+--- Document Chunk 444 ---
+7.10.2 列车进入CBTC区域应包含以下运行情形: 
+
+--- Document Chunk 445 ---
+a) 列车出段/场，从非设备区进入正线设备区转换轨； 
+
+--- Document Chunk 446 ---
+b) 列车从正线故障区域进入非故障区域； 
+
+--- Document Chunk 447 ---
+c) 列车从正线非设备区域进入设备区域； 
+
+--- Document Chunk 448 ---
+d) 列车进入试车线试车。 
+
+--- Document Chunk 449 ---
+7.10.3 在进入CBTC区域前，应对ATP设备及相应的轨旁设备进行检查，以验证是否满足进入CBTC
+
+--- Document Chunk 450 ---
+区域的条件，并为操作维护人员提供检查结果信息。检查的条件包括： 
+
+--- Document Chunk 451 ---
+a) ATP车载设备工作正常； 
+
+--- Document Chunk 452 ---
+b) 车载设备与车辆接口正常； 
+
+--- Document Chunk 453 ---
+c) ATP控制制动、牵引、车门逻辑正常； 
+
+--- Document Chunk 454 ---
+d) 列车完整； 
+
+--- Document Chunk 455 ---
+e) 车地通信正常。 
+
+--- Document Chunk 456 ---
+7.10.4 以调车作业方式出车辆段/停车场时， 列车应在出车辆段/停车场的转换轨处进行驾驶模式的转
+
+--- Document Chunk 457 ---
+换，车载设备应自动或人工转换为CM驾驶模式或AM驾驶模式。 
+
+--- Document Chunk 458 ---
+7.10.5 以列车作业方式出车辆段/停车场时， 若为开通ATP防护功能的车辆段/停车场，列车可在由车
+
+--- Document Chunk 459 ---
+辆段/停车场停车库线运行至车辆段/停车场前进行驾驶模式的转换，车载设备应自动或人工转换为CM
+
+--- Document Chunk 460 ---
+驾驶模式或AM驾驶模式。 
+
+--- Document Chunk 461 ---
+7.10.6 列车自转换轨区段进入正线作业时，ATP车载设备应能立即建立和完成列车进入ATC监控区的
+
+--- Document Chunk 462 ---
+工作，ATP车载设备升级CBTC控制级别的条件应包括但不限于： 
+
+--- Document Chunk 463 ---
+a) ATP车载设备识别并确认列车位置； 
+
+--- Document Chunk 464 ---
+b) 已预设或人工选择CBTC控制级别； 
+
+--- Document Chunk 465 ---
+c) ATP车载设备从ATP地面设备接收到MA。 
+
+--- Document Chunk 466 ---
+7.10.7 装备ATP车载设备的列车在进入CBTC区域时可不停车升级CBTC控制级别。 
+
+--- Document Chunk 467 ---
+7.11 列车退出CBTC区域 
+
+--- Document Chunk 468 ---
+7.11.1 退出CBTC区域之前（如进入车辆段/停车场前），ATP设备应获得CBTC区域边界信息，并提
+
+--- Document Chunk 469 ---
+前给出相应的指示。 
+
+--- Document Chunk 470 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 471 ---
+12 
+
+--- Document Chunk 472 ---
+ 
+
+--- Document Chunk 473 ---
+7.11.2 满足退出CBTC区域条件时，经司机确认后，ATP车载设备可转入RM模式运行。 
+
+--- Document Chunk 474 ---
+7.11.3 装备ATP车载设备的列车在退出CBTC区域时可不停车在人工确认后退出CBTC控制级别。 
+
+--- Document Chunk 475 ---
+7.12 开门防护 
+
+--- Document Chunk 476 ---
+7.12.1 CM 模式和AM模式下，ATP车载设备应检查下面的条件全部满足后才能允许打开规定侧的车门： 
+
+--- Document Chunk 477 ---
+a) 列车以规定停车精度在车站内指定的停车点停车； 
+
+--- Document Chunk 478 ---
+b) 检测到零速度信息。 
+
+--- Document Chunk 479 ---
+7.12.2 CM 模式和AM模式下，ATP车载设备宜检查列车处于制动状态（含保持制动或紧急制动）后才
+
+--- Document Chunk 480 ---
+允许打开规定侧车门。 
+
+--- Document Chunk 481 ---
+7.13 车门状态监控 
+
+--- Document Chunk 482 ---
+7.13.1 ATP车载设备应监控车门的开启和关闭状态。 
+
+--- Document Chunk 483 ---
+7.13.2 CM 模式和AM模式下，列车运行过程中，若检测到车门不为关闭且锁闭状态，ATP可采取下列
+
+--- Document Chunk 484 ---
+措施之一： 
+
+--- Document Chunk 485 ---
+a) 实施紧急制动； 
+
+--- Document Chunk 486 ---
+b) 切除牵引，但不实施制动； 
+
+--- Document Chunk 487 ---
+c) 不切除牵引，也不实施制动，列车运行至下一站。 
+
+--- Document Chunk 488 ---
+7.13.3 CM 模式和AM模式下，车门关闭且锁闭后才允许列车自车站启动发车（车门旁路时除外）。 
+
+--- Document Chunk 489 ---
+7.13.4 RM 模式列车运行过程中，应对车门状态进行监督防护。若检测到车门不为关闭且锁闭状态，
+
+--- Document Chunk 490 ---
+ATP 车载设备应切除列车牵引或实施紧急制动。 
+
+--- Document Chunk 491 ---
+7.14 站台门监控 
+
+--- Document Chunk 492 ---
+7.14.1 如果在安装有站台门的车站停车时，ATP设备应持续检查站台门是否处于关闭且锁闭状态（站
+
+--- Document Chunk 493 ---
+台门互锁解除时除外）： 
+
+--- Document Chunk 494 ---
+a) 当站台门未正常关闭且锁闭时，ATP设备应禁止列车进入、在站台内移动和驶出站台，必要时
+
+--- Document Chunk 495 ---
+应实施紧急制动； 
+
+--- Document Chunk 496 ---
+b) 站台门正常的开关动作，不得导致已正常停车的列车实施紧急制动。 
+
+--- Document Chunk 497 ---
+7.14.2 CBTC级别下，ATP车载设备应提供站台门与列车车门的联动功能；点式级别下，ATP车载设备
+
+--- Document Chunk 498 ---
+宜提供站台门与列车车门的联动功能。 
+
+--- Document Chunk 499 ---
+7.14.3 ATP车载设备应仅打开与站台规定侧的车门相对应的站台门。 
+
+--- Document Chunk 500 ---
+7.15 站台紧急停车按钮防护 
+
+--- Document Chunk 501 ---
+7.15.1 ATP设备应监督站台紧急停车按钮的状态。 
+
+--- Document Chunk 502 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 503 ---
+13 
+
+--- Document Chunk 504 ---
+ 
+
+--- Document Chunk 505 ---
+7.15.2 当 ATP地面设备接收到站台紧急停车按钮被按下的信息时， 应通过车地通信设备向列车发送相
+
+--- Document Chunk 506 ---
+应的列车控制命令信息，ATP车载设备应禁止列车进入、在站台内移动和驶出站台，必要时应实施紧急
+
+--- Document Chunk 507 ---
+制动。 
+
+--- Document Chunk 508 ---
+7.16 列车准备 
+
+--- Document Chunk 509 ---
+7.16.1 ATP设备应具有必要的自动检测能力及报警和表示装置。列车的非预期移动、ATP地面设备故
+
+--- Document Chunk 510 ---
+障、车载设备故障、超过系统允许范围的车地通信中断等均应给出报警提示，与行车安全相关的故障均
+
+--- Document Chunk 511 ---
+应产生紧急制动。 
+
+--- Document Chunk 512 ---
+7.16.2 车载ATP/ATO应具有日检功能，日检应包含紧急制动测试，宜包含无线状态检测，并宜提供车
+
+--- Document Chunk 513 ---
+载广播测试信号。 
+
+--- Document Chunk 514 ---
+7.17 驾驶模式管理 
+
+--- Document Chunk 515 ---
+7.17.1 ATP车载设备应至少支持限制人工驾驶模式 （RM模式） 、ATP防护下的人工驾驶模式 （CM模式） ，
+
+--- Document Chunk 516 ---
+如果装备ATO设备的，还应支持列车自动驾驶模式（AM模式）： 
+
+--- Document Chunk 517 ---
+a) AM：司机监控下的列车自动运行模式； 
+
+--- Document Chunk 518 ---
+b) CM：司机在列车自动防护设备监控下驾驶列车运行； 
+
+--- Document Chunk 519 ---
+c) RM：在地面设备故障或未设地面信息设备的线路，列车按规定限速运行，超速时实施制动，直
+
+--- Document Chunk 520 ---
+至停车。 
+
+--- Document Chunk 521 ---
+7.17.2 在 RM驾驶模式下，ATP车载设备限制列车在固定的低速之下运行，司机根据调度命令和地面
+
+--- Document Chunk 522 ---
+信号显示驾驶列车， 列车运行超过该固定的速度时，ATP 车载设备对列车实施紧急制动， 强迫列车停车。 
+
+--- Document Chunk 523 ---
+7.17.3 驾驶模式转换应符合下列规定： 
+
+--- Document Chunk 524 ---
+a) 车辆段（场）未全部纳入ATP设备监控时，应在ATP设备监控区域与非监控区域的分界处，设
+
+--- Document Chunk 525 ---
+驾驶模式转换区。根据信号系统的性能特点和运营需要，驾驶模式转换可自动或手动完成。
+
+--- Document Chunk 526 ---
+转换区的信号设备应与监控区域的信号设备一致； 
+
+--- Document Chunk 527 ---
+b) 在驾驶模式转换区域，ATP设备人机界面上宜提供驾驶模式转换的提示； 
+
+--- Document Chunk 528 ---
+c) 驾驶模式由低向高转换时，列车可不停车转换驾驶模式； 
+
+--- Document Chunk 529 ---
+d) AM 模式下，ATP 车载设备应监督 ATO 设备的运行状态，当不满足自动驾驶条件时应自动退出
+
+--- Document Chunk 530 ---
+AM模式并进行提示，必要时实施紧急制动； 
+
+--- Document Chunk 531 ---
+e) 由 AM/CM模式向RM模式转换时，应在列车停车，由司机确认后转换驾驶模式；但在退出CBTC
+
+--- Document Chunk 532 ---
+区域时，除非运营需要，可不停车由司机确认后转换为RM模式。 
+
+--- Document Chunk 533 ---
+7.17.4 驾驶模式转换应予记录或表示。 
+
+--- Document Chunk 534 ---
+7.18 通信状态监督和故障处理 
+
+--- Document Chunk 535 ---
+7.18.1 ATP设备应具有通信状态监督功能，在通信故障后，应产生报警并保证导向安全侧： 
+
+--- Document Chunk 536 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 537 ---
+14 
+
+--- Document Chunk 538 ---
+ 
+
+--- Document Chunk 539 ---
+a) ATP车载设备与ATP地面设备互相监督之间的通信状态； 
+
+--- Document Chunk 540 ---
+b) ATP地面设备应监督其与CI的通信状态； 
+
+--- Document Chunk 541 ---
+c) ATP地面设备应监督其与相邻ATP地面设备的通信状态。 
+
+--- Document Chunk 542 ---
+7.18.2 当采用计轴设备作为列车占用检测设备时，计轴设备故障或计轴数据传输发生错误时，ATP设
+
+--- Document Chunk 543 ---
+备能确定的计轴设备故障应不影响CBTC级别列车的正常运营。 
+
+--- Document Chunk 544 ---
+7.18.3 当某一区域的ATP地面设备故障时，ATP车载设备应产生报警、并紧急制动列车，司机应将驾
+
+--- Document Chunk 545 ---
+驶模式转换为RM驾驶模式，并按地面信号显示人工驾驶列车运行。 
+
+--- Document Chunk 546 ---
+7.18.4 当列车越过车地通信故障区段后，通过车地通信设备收到可靠的MA信息,且列车测速/定位功
+
+--- Document Chunk 547 ---
+能正常，ATP车载设备应提示司机，司机可在停车/不停车的情况下将列车升级到CBTC级别以CM模式
+
+--- Document Chunk 548 ---
+或 AM模式运行。 
+
+--- Document Chunk 549 ---
+7.18.5 ATP车载设备故障时，应产生报警并紧急制动停车。司机应根据地面信号显示驾驶列车，以限
+
+--- Document Chunk 550 ---
+制人工或非限制人工驾驶等驾驶模式执行故障运行，联锁设备保证列车运行进路的安全。ATP地面设备
+
+--- Document Chunk 551 ---
+应识别非通信列车和通信列车，实现二者的共线混跑。 
+
+--- Document Chunk 552 ---
+7.19 列车折返 
+
+--- Document Chunk 553 ---
+7.19.1 ATP设备在CM和AM模式下应支持在定义的折返区域完成列车的自动换端， 不得导致列车降级。 
+
+--- Document Chunk 554 ---
+7.19.2 站后折返时，由站台运行至折返区域的过程，可由司机驾驶或ATO自动驾驶完成。 
+
+--- Document Chunk 555 ---
+7.19.3 站前折返时，列车运行到折返站的过程，可由司机驾驶或ATO自动驾驶完成。 
+
+--- Document Chunk 556 ---
+7.19.4 ATP车载设备宜跟车辆配合提供开门换端功能，在ATP车载设备换端过程中不会使打开状态的
+
+--- Document Chunk 557 ---
+车门误关闭。 
+
+--- Document Chunk 558 ---
+7.19.5 ATP设备宜具备无人自动折返功能。列车在规定的无人自动折返进入地点停车，司机完成相应
+
+--- Document Chunk 559 ---
+的确认操作后，列车可在无人驾驶的情况下，自动从到达站台进入和折出折返线，最后进入发车股道定
+
+--- Document Chunk 560 ---
+点停车后，自动打开车门和站台门。 
+
+--- Document Chunk 561 ---
+7.20 界面显示 
+
+--- Document Chunk 562 ---
+7.20.1 作为车载设备人机界面的显示屏，应在每个司机室中各配置一个。 
+
+--- Document Chunk 563 ---
+7.20.2 车载人机交互界面（MMI）上应至少提供下列信息的显示： 
+
+--- Document Chunk 564 ---
+a) 列车速度 
+
+--- Document Chunk 565 ---
+b) 速度-距离曲线速度 
+
+--- Document Chunk 566 ---
+c) 控制级别和驾驶模式 
+
+--- Document Chunk 567 ---
+d) ATP车载设备工作状态 
+
+--- Document Chunk 568 ---
+e) ATO设备工作状态（如果装备ATO） 
+
+--- Document Chunk 569 ---
+f) 超速报警 
+
+--- Document Chunk 570 ---
+7.20.3 车载人机交互界面上宜提供下列信息的显示： 
+
+--- Document Chunk 571 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 572 ---
+15 
+
+--- Document Chunk 573 ---
+ 
+
+--- Document Chunk 574 ---
+a) 目标速度 
+
+--- Document Chunk 575 ---
+b) 目标距离 
+
+--- Document Chunk 576 ---
+c) 推荐速度 
+
+--- Document Chunk 577 ---
+d) 车次号 
+
+--- Document Chunk 578 ---
+e) 目的地名 
+
+--- Document Chunk 579 ---
+f) 乘务人员的身份识别号 
+
+--- Document Chunk 580 ---
+g) 停准指示 
+
+--- Document Chunk 581 ---
+h) 发车提示 
+
+--- Document Chunk 582 ---
+i) 关车门提示 
+
+--- Document Chunk 583 ---
+j) 车门和站台门状态 
+
+--- Document Chunk 584 ---
+k) ATO牵引、制动、惰行状态信息 
+
+--- Document Chunk 585 ---
+l) 空转/打滑状态表示 
+
+--- Document Chunk 586 ---
+m) 列车制动力状态 
+
+--- Document Chunk 587 ---
+n) ATP车载设备头尾设备状态 
+
+--- Document Chunk 588 ---
+o) 跳停、扣车状态 
+
+--- Document Chunk 589 ---
+p) 日期和时间信息 
+
+--- Document Chunk 590 ---
+q) 列车完整性 
+
+--- Document Chunk 591 ---
+r) 折返提示 
+
+--- Document Chunk 592 ---
+s) 转换区提示 
+
+--- Document Chunk 593 ---
+7.20.4 车载人机交互界面上宜允许司机输入下列信息： 
+
+--- Document Chunk 594 ---
+a) 乘务人员的身份识别号； 
+
+--- Document Chunk 595 ---
+b) ATP设备检测指令。 
+
+--- Document Chunk 596 ---
+8 接口与通道 
+
+--- Document Chunk 597 ---
+8.1 车载ATP/ATO与车辆接口要求 
+
+--- Document Chunk 598 ---
+8.1.1 车载ATP/ATO应实现与车辆制动装置的可靠接口，保证安全和对列车实施连续有效的控制。 
+
+--- Document Chunk 599 ---
+8.1.2 车载ATP/ATO与车辆的接口分为开关量、模拟量、通信接口三种。 
+
+--- Document Chunk 600 ---
+8.1.3 涉及行车安全的电气接口应采用安全输入/输出接口方式。 
+
+--- Document Chunk 601 ---
+8.1.4 车载ATP/ATO应能够通过安全或非安全接口采集表1中的开关量信息。 
+
+--- Document Chunk 602 ---
+表1  
+
+--- Document Chunk 603 ---
+车载ATP/ATO输入信号 安全接口 
+
+--- Document Chunk 604 ---
+驾驶室激活 是 
+
+--- Document Chunk 605 ---
+列车完整性 是 
+
+--- Document Chunk 606 ---
+列车车门关闭且锁闭 是 
+
+--- Document Chunk 607 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 608 ---
+16 
+
+--- Document Chunk 609 ---
+ 
+
+--- Document Chunk 610 ---
+ 
+
+--- Document Chunk 611 ---
+8.1.5 车载ATP/ATO宜能够通过安全或非安全接口采集表2中开关量信息。 
+
+--- Document Chunk 612 ---
+表2  
+
+--- Document Chunk 613 ---
+车载 ATP/ATO输入信号 安全接口 
+
+--- Document Chunk 614 ---
+ATP 已切除 / 
+
+--- Document Chunk 615 ---
+车辆保持制动已施加 是 
+
+--- Document Chunk 616 ---
+注：“/”表示“对是否安全接口不做要求” 
+
+--- Document Chunk 617 ---
+ 
+
+--- Document Chunk 618 ---
+8.1.6 车载ATP/ATO应能够通过安全或非安全接口输出表3中的开关量信息。 
+
+--- Document Chunk 619 ---
+ 
+
+--- Document Chunk 620 ---
+表3  
+
+--- Document Chunk 621 ---
+车载 ATP/ATO输出信号 安全接口 
+
+--- Document Chunk 622 ---
+紧急制动 是 
+
+--- Document Chunk 623 ---
+牵引切除 是 
+
+--- Document Chunk 624 ---
+左门开门允许 是 
+
+--- Document Chunk 625 ---
+右门开门允许 是 
+
+--- Document Chunk 626 ---
+自动折返（AR）灯 / 
+
+--- Document Chunk 627 ---
+ATO 已激活 / 
+
+--- Document Chunk 628 ---
+ATO 牵引输出 / 
+
+--- Document Chunk 629 ---
+ATO 制动输出 / 
+
+--- Document Chunk 630 ---
+保持制动输出命令 / 
+
+--- Document Chunk 631 ---
+开左门命令 / 
+
+--- Document Chunk 632 ---
+开右门命令 / 
+
+--- Document Chunk 633 ---
+关左门命令 / 
+
+--- Document Chunk 634 ---
+右关门命令 / 
+
+--- Document Chunk 635 ---
+ATO 启动灯 / 
+
+--- Document Chunk 636 ---
+注：“/”表示“对是否安全接口不做要求” 
+
+--- Document Chunk 637 ---
+车辆牵引已切除 是 
+
+--- Document Chunk 638 ---
+车辆已实施紧急制动 是 
+
+--- Document Chunk 639 ---
+牵引制动手柄在零位且方向手柄向前 是 
+
+--- Document Chunk 640 ---
+ATO启动按钮 / 
+
+--- Document Chunk 641 ---
+运行模式状态确认和/或预设模式选择 / 
+
+--- Document Chunk 642 ---
+自动折返（AR）按钮 / 
+
+--- Document Chunk 643 ---
+左门开 / 
+
+--- Document Chunk 644 ---
+左门关 / 
+
+--- Document Chunk 645 ---
+右门开 / 
+
+--- Document Chunk 646 ---
+右门关 / 
+
+--- Document Chunk 647 ---
+门控方式 / 
+
+--- Document Chunk 648 ---
+注：“/”表示“对是否安全接口不做要求” 
+
+--- Document Chunk 649 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 650 ---
+17 
+
+--- Document Chunk 651 ---
+ 
+
+--- Document Chunk 652 ---
+ 
+
+--- Document Chunk 653 ---
+8.1.7 车载ATP/ATO可通过安全或非安全接口输出表 4中的开关量信息。 
+
+--- Document Chunk 654 ---
+表4  
+
+--- Document Chunk 655 ---
+车载 ATP/ATO输出信号 安全接口 
+
+--- Document Chunk 656 ---
+最大常用制动 / 
+
+--- Document Chunk 657 ---
+注：“/”表示“对是否安全接口不做要求” 
+
+--- Document Chunk 658 ---
+ 
+
+--- Document Chunk 659 ---
+8.1.8 车载ATP/ATO可通过电压或电流或通信输出或者继电器级位编码方式输出期望的牵引/制动加
+
+--- Document Chunk 660 ---
+速度值。 
+
+--- Document Chunk 661 ---
+8.1.9 车载ATP/ATO应能与列车管理系统（TMS）实现信息交换。 
+
+--- Document Chunk 662 ---
+8.1.10 车载ATP/ATO宜能向TMS提供时钟信号，以满足TMS时钟与CBTC系统时钟同步的需要。 
+
+--- Document Chunk 663 ---
+8.2 ATS与地面ATP接口要求 
+
+--- Document Chunk 664 ---
+8.2.1 本规范定义了ATS与地面ATP间应用层交互信息。 
+
+--- Document Chunk 665 ---
+8.2.2 ATS 与地面ATP间的数据传输宜基于IP协议。 
+
+--- Document Chunk 666 ---
+8.2.3 ATS 与地面ATP间信息交换采用周期通信和/或事件触发通信的方式。 
+
+--- Document Chunk 667 ---
+8.2.4 从 ATS到地面ATP的信息 
+
+--- Document Chunk 668 ---
+a) ATS传送给地面ATP的信息包括以下内容： 
+
+--- Document Chunk 669 ---
+1) 首次上电临时限速确认信息 
+
+--- Document Chunk 670 ---
+2) 临时限速一次设置/取消信息 
+
+--- Document Chunk 671 ---
+3) 临时限速二次设置/取消信息 
+
+--- Document Chunk 672 ---
+4) 校时信息 
+
+--- Document Chunk 673 ---
+b) 首次上电临时限速确认信息指ATS在地面ATP首次上电申请时， 确认地面ATP的临时限速信息； 
+
+--- Document Chunk 674 ---
+c) 临时限速一次设置/取消信息指 ATS 采用“二次确认”方式设置/取消临时限速信息时的第一次
+
+--- Document Chunk 675 ---
+命令下达； 
+
+--- Document Chunk 676 ---
+d) 临时限速二次设置/取消信息指 ATS 采用“二次确认”方式设置/取消临时限速信息时的第二次
+
+--- Document Chunk 677 ---
+命令下达； 
+
+--- Document Chunk 678 ---
+e) 校时信息指ATS与地面ATP之间的时钟同步信息。 
+
+--- Document Chunk 679 ---
+8.2.5 从地面ATP到ATS的信息 
+
+--- Document Chunk 680 ---
+a) 地面 ATP传送给ATS的信息包括以下内容： 
+
+--- Document Chunk 681 ---
+1) 首次上电临时限速确认申请信息 
+
+--- Document Chunk 682 ---
+2) 临时限速一次确认信息 
+
+--- Document Chunk 683 ---
+3) 临时限速二次确认信息 
+
+--- Document Chunk 684 ---
+4) 全线临时限速状态信息 
+
+--- Document Chunk 685 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 686 ---
+18 
+
+--- Document Chunk 687 ---
+ 
+
+--- Document Chunk 688 ---
+5) 校时信息 
+
+--- Document Chunk 689 ---
+b) 首次上电临时限速确认申请信息指地面ATP 首次上电时向 ATS 汇报上电，并上传存储或初始设
+
+--- Document Chunk 690 ---
+置的临时限速，请ATS确认的申请信息； 
+
+--- Document Chunk 691 ---
+c) 临时限速一次确认信息指ATS采用“二次确认”方式设置/取消临时限速信息时，地面ATP对第
+
+--- Document Chunk 692 ---
+一次命令的确认； 
+
+--- Document Chunk 693 ---
+d) 临时限速二次确认信息指ATS采用“二次确认”方式设置/取消临时限速信息时，地面ATP对第
+
+--- Document Chunk 694 ---
+二次命令的确认； 
+
+--- Document Chunk 695 ---
+e) 全线临时限速状态信息指全部线路上已经设置的临时限速信息，含限速区段和限速值； 
+
+--- Document Chunk 696 ---
+f) 校时信息指ATS与地面ATP之间的时钟同步信息。 
+
+--- Document Chunk 697 ---
+8.3 ATS与车载ATP/ATO接口要求 
+
+--- Document Chunk 698 ---
+8.3.1 本规范定义了ATS与车载ATP/ATO间应用层交互信息。 
+
+--- Document Chunk 699 ---
+8.3.2 ATS 与车载ATP/ATO间的数据传输宜基于IP协议。 
+
+--- Document Chunk 700 ---
+8.3.3 ATS 与车载ATP/ATO间信息交换采用周期通信和/或事件触发通信的方式。 
+
+--- Document Chunk 701 ---
+8.3.4 从 ATS到车载ATP/ATO的信息： 
+
+--- Document Chunk 702 ---
+a) ATS传送给车载ATP/ATO的信息包括以下内容： 
+
+--- Document Chunk 703 ---
+1) 列车运营识别信息 
+
+--- Document Chunk 704 ---
+2) 目的地 
+
+--- Document Chunk 705 ---
+3) 下一站 
+
+--- Document Chunk 706 ---
+4) 运营调整命令 
+
+--- Document Chunk 707 ---
+5) 校时信息 
+
+--- Document Chunk 708 ---
+b) 列车运营识别信息指对不同行驶方向、不同车种、不同运行时刻的列车编订的标示码，含车次
+
+--- Document Chunk 709 ---
+号和表号等信息； 
+
+--- Document Chunk 710 ---
+c) 目的地指本次列车运行所要到达的终点站； 
+
+--- Document Chunk 711 ---
+d) 下一站指本次列车运行所要到达的前方站台； 
+
+--- Document Chunk 712 ---
+e) 运营调整命令指 ATS 或人工根据列车实际运营与计划的偏差情况，对在线运营的列车所做的调
+
+--- Document Chunk 713 ---
+整策略，包括扣车、跳停、调整站停时间、调整列车在区间运行时间（或区间运行等级）等方式； 
+
+--- Document Chunk 714 ---
+f) 校时信息指ATS与车载ATP/ATO之间的时钟同步信息。 
+
+--- Document Chunk 715 ---
+8.3.5 从车载ATP/ATO到 ATS的信息 
+
+--- Document Chunk 716 ---
+a) 车载 ATP/ATO传送给ATS的信息包括以下内容： 
+
+--- Document Chunk 717 ---
+1) 列车运行速度和方向 
+
+--- Document Chunk 718 ---
+2) 列车控制级别和驾驶模式 
+
+--- Document Chunk 719 ---
+3) 车门状态 
+
+--- Document Chunk 720 ---
+4) 停稳信息 
+
+--- Document Chunk 721 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 722 ---
+19 
+
+--- Document Chunk 723 ---
+ 
+
+--- Document Chunk 724 ---
+5) 列车报警信息 
+
+--- Document Chunk 725 ---
+6) 校时信息 
+
+--- Document Chunk 726 ---
+b) 列车运行速度和方向指车载ATP/ATO测量的实际列车速度信息，含速度值和运行方向； 
+
+--- Document Chunk 727 ---
+c) 列车控制级别和驾驶模式指车载ATP/ATO当前的控制级别和驾驶模式信息； 
+
+--- Document Chunk 728 ---
+d) 车门状态指车载ATP/ATO采集到的列车车门的实际状态， 反应列车车门是否处于关闭且锁闭状态； 
+
+--- Document Chunk 729 ---
+e) 停稳信息指列车在规定区域停车，满足零速条件的信息； 
+
+--- Document Chunk 730 ---
+f) 列车报警信息指列车在运行过程中所产生的各种异常报警信息，包括设备运行状态告警、列车
+
+--- Document Chunk 731 ---
+紧急制动告警等内容； 
+
+--- Document Chunk 732 ---
+g) 校时信息指ATS与车载ATP/ATO之间的时钟同步信息。 
+
+--- Document Chunk 733 ---
+8.4 车载ATP/ATO与地面ATP接口要求 
+
+--- Document Chunk 734 ---
+8.4.1 本规范定义了车载ATP/ATO与地面ATP间应用层交互信息。 
+
+--- Document Chunk 735 ---
+8.4.2 车载ATP/ATO与地面ATP间的数据传输宜基于IP协议，应保证数据传输的安全性。 
+
+--- Document Chunk 736 ---
+8.4.3 车载ATP/ATO与地面ATP间信息交换采用周期通信和/或事件触发通信的方式。 
+
+--- Document Chunk 737 ---
+8.4.4 从车载ATP/ATO到地面ATP的信息： 
+
+--- Document Chunk 738 ---
+a) 车载 ATP/ATO传送给地面ATP的信息包括以下内容： 
+
+--- Document Chunk 739 ---
+1) 列车位置信息 
+
+--- Document Chunk 740 ---
+2) 列车运行速度和方向 
+
+--- Document Chunk 741 ---
+3) 停稳信息 
+
+--- Document Chunk 742 ---
+4) 列车控制级别和驾驶模式 
+
+--- Document Chunk 743 ---
+5) 列车完整性 
+
+--- Document Chunk 744 ---
+6) 无人折返状态指示信息 
+
+--- Document Chunk 745 ---
+b) 列车位置信息指车载ATP/ATO自主测量的列车实际位置信息，以及可能存在的误差信息； 
+
+--- Document Chunk 746 ---
+c) 列车运行速度和方向指列车测量的实际速度信息，含速度值和方向信息； 
+
+--- Document Chunk 747 ---
+d) 停稳信息指列车在规定区域停车，满足零速条件的信息； 
+
+--- Document Chunk 748 ---
+e) 列车控制级别和驾驶模式指车载ATP/ATO当前的控制级别和驾驶模式信息； 
+
+--- Document Chunk 749 ---
+f) 列车完整性指车载ATP/ATO采集到的列车编组完整的信息； 
+
+--- Document Chunk 750 ---
+g) 无人折返状态指示信息指车载ATP/ATO对无人自动折返状态的指示信息。 
+
+--- Document Chunk 751 ---
+8.4.5 从地面ATP到车载ATP/ATO的信息： 
+
+--- Document Chunk 752 ---
+a) 地面 ATP传送给车载ATP/ATO的信息包括以下内容： 
+
+--- Document Chunk 753 ---
+1) CBTC级别移动授权信息 
+
+--- Document Chunk 754 ---
+2) 临时限速信息 
+
+--- Document Chunk 755 ---
+3) 无人折返按钮信息 
+
+--- Document Chunk 756 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 757 ---
+20 
+
+--- Document Chunk 758 ---
+ 
+
+--- Document Chunk 759 ---
+b) CBTC级别移动授权信息指为保证列车安全运行，地面ATP计算并向列车发送的对列车运行位置
+
+--- Document Chunk 760 ---
+和速度的许可信息； 
+
+--- Document Chunk 761 ---
+c) 临时限速信息指ATS根据运营需要，设置并下发的临时速度限制信息； 
+
+--- Document Chunk 762 ---
+d) 无人折返按钮信息是指办理无人自动折返的按钮状态信息。 
+
+--- Document Chunk 763 ---
+8.5 CI与地面ATP接口要求 
+
+--- Document Chunk 764 ---
+8.5.1 本规范定义了CI与地面ATP间应用层交互信息。 
+
+--- Document Chunk 765 ---
+8.5.2 CI 与地面ATP间的数据传输宜基于IP协议，应保证数据传输的安全性。 
+
+--- Document Chunk 766 ---
+8.5.3 CI 与地面ATP间信息交换采用周期通信和/或事件触发通信的方式。 
+
+--- Document Chunk 767 ---
+8.5.4 从 CI到地面ATP的信息： 
+
+--- Document Chunk 768 ---
+a) CI 传送给地面ATP的信息包括以下内容： 
+
+--- Document Chunk 769 ---
+1) 区段状态 
+
+--- Document Chunk 770 ---
+2) 无人折返按钮信息 
+
+--- Document Chunk 771 ---
+3) 站台门状态 
+
+--- Document Chunk 772 ---
+4) 站台紧急关闭状态 
+
+--- Document Chunk 773 ---
+5) 进路信息 
+
+--- Document Chunk 774 ---
+b) 区段状态是指物理区段检测设备检测到的区段状态信息； 
+
+--- Document Chunk 775 ---
+c) 无人折返按钮信息指办理无人自动折返的按钮状态信息； 
+
+--- Document Chunk 776 ---
+d) 站台门状态指站台门的状态信息，反应站台门是否处于关闭且锁闭状态； 
+
+--- Document Chunk 777 ---
+e) 站台紧急关闭状态是指站台的紧急停车按钮是否按下的状态； 
+
+--- Document Chunk 778 ---
+f) 进路信息指联锁的进路信息，包括进路状态、信号机状态、区段锁闭状态，道岔信息和保护区
+
+--- Document Chunk 779 ---
+段状态。 
+
+--- Document Chunk 780 ---
+8.5.5 从地面ATP到CI的信息 
+
+--- Document Chunk 781 ---
+a) 地面 ATP传送给CI的信息包括以下内容： 
+
+--- Document Chunk 782 ---
+1) 信号机的列车接近信息 
+
+--- Document Chunk 783 ---
+2) 逻辑区段信息 
+
+--- Document Chunk 784 ---
+3) 停稳信息 
+
+--- Document Chunk 785 ---
+4) 跨压信息 
+
+--- Document Chunk 786 ---
+5) 无人折返状态指示信息 
+
+--- Document Chunk 787 ---
+b) 信号机的列车接近信息是指地面 ATP 根据列车的属性信息控制对应的信号机接近信息，联锁可
+
+--- Document Chunk 788 ---
+利用该信息作为信号机的强制命令，控制信号机开关灯显示； 
+
+--- Document Chunk 789 ---
+c) 逻辑区段信息是指地面ATP传递给CI系统的逻辑区段状态信息， 联锁可利用该信息追踪列车的
+
+--- Document Chunk 790 ---
+位置； 
+
+--- Document Chunk 791 ---
+d) 停稳信息是地面ATP送给联锁的列车停稳信息，联锁可用来解锁保护区段； 
+
+--- Document Chunk 792 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 793 ---
+21 
+
+--- Document Chunk 794 ---
+ 
+
+--- Document Chunk 795 ---
+e) 跨压信息是地面 ATP 送给联锁的列车跨压进路始端信号机信息，作为联锁开始解锁进路的条件
+
+--- Document Chunk 796 ---
+之一； 
+
+--- Document Chunk 797 ---
+f) 无人折返状态指示信息是地面ATP传递给联锁的无人自动折返状态的指示信息。 
+
+--- Document Chunk 798 ---
+8.6 CI与车载ATP/ATO接口要求 
+
+--- Document Chunk 799 ---
+8.6.1 本规范定义了CI与车载ATP/ATO间应用层交互信息。 
+
+--- Document Chunk 800 ---
+8.6.2 CI 与车载ATP/ATO间的数据传输宜基于IP协议，应保证数据传输的安全性。 
+
+--- Document Chunk 801 ---
+8.6.3 CI 与车载ATP/ATO间信息交换采用周期通信和/或事件触发通信的方式。 
+
+--- Document Chunk 802 ---
+8.6.4 从 CI到车载ATP/ATO的信息： 
+
+--- Document Chunk 803 ---
+a) CI 传送给车载ATP/ATO的信息包括以下内容：站台门状态； 
+
+--- Document Chunk 804 ---
+b) 站台门状态指站台门是否处于关闭且锁闭的状态信息。 
+
+--- Document Chunk 805 ---
+8.6.5 从车载ATP/ATO到 CI的信息： 
+
+--- Document Chunk 806 ---
+a) 车载 ATP/ATO传送给CI的信息包括以下内容：站台门命令； 
+
+--- Document Chunk 807 ---
+b) 站台门命令指车载ATP/ATO发出的站台门控制命令，CI可利用该信息控制站台门开/关。 
+
+--- Document Chunk 808 ---
+9 电磁兼容防护 
+
+--- Document Chunk 809 ---
+9.1 电磁发射和抗扰 
+
+--- Document Chunk 810 ---
+9.1.1 ATP 设备的设计、研发、制造和安装及运用过程中，应通过技术措施抑制自身产生的电磁骚扰
+
+--- Document Chunk 811 ---
+和来自外界的电磁骚扰。 
+
+--- Document Chunk 812 ---
+9.1.2 ATP 车载设备的电磁兼容性的发射与抗扰度应满足GB/T 24338.4的要求。 
+
+--- Document Chunk 813 ---
+9.1.3 ATP 地面设备的电磁兼容性的发射与抗扰度应满足GB/T 24338.5的要求。 
+
+--- Document Chunk 814 ---
+9.2 ATP设备室内设备的防雷 
+
+--- Document Chunk 815 ---
+ATP设备室内设备的防雷应满足GB 50343的要求。 
+
+--- Document Chunk 816 ---
+9.3 接地 
+
+--- Document Chunk 817 ---
+9.3.1 ATP 设备室外设备的金属箱、盒壳体应通过接地系统接地。严禁用钢轨代替地线。 
+
+--- Document Chunk 818 ---
+9.3.2 ATP 车载设备的保护接地应与车体可靠连接，并考虑连接面的电化学相容性，连接导体的横截
+
+--- Document Chunk 819 ---
+面积不小于4mm
+
+--- Document Chunk 820 ---
+2
+
+--- Document Chunk 821 ---
+。 
+
+--- Document Chunk 822 ---
+9.3.3 ATP 车载设备的地线应经车辆的接地装置接地。 
+
+--- Document Chunk 823 ---
+10 供电及电源设备 
+
+--- Document Chunk 824 ---
+10.1 ATP 地面设备供电 
+
+--- Document Chunk 825 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 826 ---
+22 
+
+--- Document Chunk 827 ---
+ 
+
+--- Document Chunk 828 ---
+10.1.1 ATP地面设备供电应属于一级负荷，应设两路独立电源供电。 
+
+--- Document Chunk 829 ---
+10.1.2 ATP地面设备应采用专用的电源屏及配电屏供电，应选用不间断电源（UPS）。 
+
+--- Document Chunk 830 ---
+10.2 ATP 车载设备供电 
+
+--- Document Chunk 831 ---
+ATP车载设备电源可直接采用车辆110V蓄电池电源或经稳压变流设备变换后供电，并应设过压和
+
+--- Document Chunk 832 ---
+过流保护。 
+
+--- Document Chunk 833 ---
+  
+
+--- Document Chunk 834 ---
+ 
+
+--- Document Chunk 835 ---
+ 
+
+--- Document Chunk 836 ---
+ 
+
+--- Document Chunk 837 ---
+ 
+
+--- Document Chunk 838 ---
+ 
+
+--- Document Chunk 839 ---
+ 
+
+--- Document Chunk 840 ---
+ 
+
+--- Document Chunk 841 ---
+ 
+
+--- Document Chunk 842 ---
+ 
+
+--- Document Chunk 843 ---
+ 
+
+--- Document Chunk 844 ---
+ 
+
+--- Document Chunk 845 ---
+ 
+
+--- Document Chunk 846 ---
+ 
+
+--- Document Chunk 847 ---
+ 
+
+--- Document Chunk 848 ---
+ 
+
+--- Document Chunk 849 ---
+ 
+
+--- Document Chunk 850 ---
+ 
+
+--- Document Chunk 851 ---
+ 
+
+--- Document Chunk 852 ---
+ 
+
+--- Document Chunk 853 ---
+ 
+
+--- Document Chunk 854 ---
+ 
+
+--- Document Chunk 855 ---
+ 
+
+--- Document Chunk 856 ---
+ 
+
+--- Document Chunk 857 ---
+ 
+
+--- Document Chunk 858 ---
+ 
+
+--- Document Chunk 859 ---
+ 
+
+--- Document Chunk 860 ---
+ 
+
+--- Document Chunk 861 ---
+ 
+
+--- Document Chunk 862 ---
+ 
+
+--- Document Chunk 863 ---
+CZJS/T 0028—2015 
+
+--- Document Chunk 864 ---
+23 
+
+--- Document Chunk 865 ---
+ 
+
+--- Document Chunk 866 ---
+ 
+
+--- Document Chunk 867 ---
+附录 A 
+
+--- Document Chunk 868 ---
+（规范性附录） 
+
+--- Document Chunk 869 ---
+附录 A 系统参数值 
+
+--- Document Chunk 870 ---
+ 
+
+--- Document Chunk 871 ---
+系统参数值见表A.1。 
+
+--- Document Chunk 872 ---
+表A.1 系统参数值 
+
+--- Document Chunk 873 ---
+参数 取值范围 
+
+--- Document Chunk 874 ---
+车载、地面设备数据记录时间 ≥168h 
+
+--- Document Chunk 875 ---
+单个CBTC地面设备可以处理的列车数量 ≥30列 
+
+--- Document Chunk 876 ---
+列车位置最大测量误差 ≤2% 
+
+--- Document Chunk 877 ---
+用于ATP功能的列车测速分辨率 ≤2km/h 
+
+--- Document Chunk 878 ---
+用于ATP功能的列车测速误差 ≤2km/h 
+
+--- Document Chunk 879 ---
+列车速度命令的分辨率 0.5km/h～5km/h 
+
+--- Document Chunk 880 ---
+车载设备至地面设备的信息传输延时 ≤2s 
+
+--- Document Chunk 881 ---
+地面设备至车载设备的信息传输延时 ≤2s 
+
+--- Document Chunk 882 ---
+零速度检测标准 
+
+--- Document Chunk 883 ---
+速度值处于≤1km/h的范围且持续时间不小于
+
+--- Document Chunk 884 ---
+2s 
+
+--- Document Chunk 885 ---
+退行防护标准 0.5m～5m或≥5km/h 
+
+--- Document Chunk 886 ---
+ 
+
+--- Document Chunk 887 ---
+ 
+
+--- Document Chunk 888 ---
+ 
+
+--- Document Chunk 889 ---
+ 
+
+--- Document Chunk 890 ---
+CZJS/T 0028—2015  
+
+--- Document Chunk 891 ---
+24 
+
+--- Document Chunk 892 ---
+ 
+
+--- Document Chunk 893 ---
+参 考 文 献 
+
+--- Document Chunk 894 ---
+[1] IEEE Std1474.1TM-2004 基于通信的列车自动控制系统性能和功能需求 (IEEE Standard for 
+
+--- Document Chunk 895 ---
+Communications-Based Train Control Performance and Functional Requirements) 
+
+--- Document Chunk 896 ---
+[2] IEEE Std1474.2TM-2003 基于通信的列车自动控制系统用户接口需求 (IEEE Standard for User 
+
+--- Document Chunk 897 ---
+Interface Requirements in Communications- Based Train Control (CBTC) Systems) 
+
+--- Document Chunk 898 ---
+[3] IEE Std1474.3TM-2008 基于通信的列车自动控制系统设计和功能分配（ IEEE Recommended 
+
+--- Document Chunk 899 ---
+Practice for Communications-Based Train Control (CBTC) System Design and Functional 
+
+--- Document Chunk 900 ---
+Allocations） 
+
+--- Document Chunk 901 ---
+[4] IEEE 1483-2000 有轨车辆运输控制用处理机系统主要功能的验证标准 (IEEE Standard for the 
+
+--- Document Chunk 902 ---
+Verification of Vital Functions in Processor-Based Systems Used in Rail Transit Control) 
+
+--- Document Chunk 903 ---
+[5] IEEE 1478-2001 铁路运行车辆电子设备的环境条件标准 (IEEE standard for environmental 
+
+--- Document Chunk 904 ---
+conditions for transit rail car electronic equipment) 
+
+--- Document Chunk 905 ---
+[6] IEC62278 铁路应用可靠性、可用性、可维护性和安全性技术条件和验证 (IEC62278 Railway 
+
+--- Document Chunk 906 ---
+applications-The specification and demonstration of Reliability, Availability, 
+
+--- Document Chunk 907 ---
+Maintainability and Safety (RAMS)) 
+
+--- Document Chunk 908 ---
+[7] IEC62279 铁路应用 —通信、信号和处理系统 —铁路控制和防护系统软件 (IEC62279 Railway 
+
+--- Document Chunk 909 ---
+applications-Communication, signalling and processing systems -software for Railway 
+
+--- Document Chunk 910 ---
+Control and Protection systems) 
+
+--- Document Chunk 911 ---
+[8] IEC62425 铁路应用 —通信、信号和处理系统 —安全相关电子信号系统 (IEC62425 Railway 
+
+--- Document Chunk 912 ---
+applications-Communication, signalling and processing systems-Safety related electronic 
+
+--- Document Chunk 913 ---
+systems for signalling) 
+
+--- Document Chunk 914 ---
+[9] GB 9254-2008 信息技术设备的无线电骚扰限值和测量方法 
+
+--- Document Chunk 915 ---
+ 
+
+--- Document Chunk 916 ---
+ 
+
+--- Document Chunk 917 ---
+ 
+
+--- Document Chunk 918 ---
+________________________________ 
+

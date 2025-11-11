@@ -1,0 +1,2757 @@
+--- Document Chunk 0 ---
+18
+
+--- Document Chunk 1 ---
+Paul Darlington and David Fenner
+
+--- Document Chunk 2 ---
+Train detection – the basics
+
+--- Document Chunk 3 ---
+This, second of a series of articles on ‘back 
+
+--- Document Chunk 4 ---
+to basics’ themes, looks at the essentials 
+
+--- Document Chunk 5 ---
+of train detection (or more accurately, as 
+
+--- Document Chunk 6 ---
+we shall see, train absence detection). One 
+
+--- Document Chunk 7 ---
+of the main safety requirements of a train 
+
+--- Document Chunk 8 ---
+control systems is the need to know it is safe 
+
+--- Document Chunk 9 ---
+to establish a route and provide movement 
+
+--- Document Chunk 10 ---
+authority for a train. In particular, before 
+
+--- Document Chunk 11 ---
+points or other moveable infrastructure 
+
+--- Document Chunk 12 ---
+has its position changed or a train is given 
+
+--- Document Chunk 13 ---
+permission to proceed, the relevant part 
+
+--- Document Chunk 14 ---
+of the line has to be proved to be clear of 
+
+--- Document Chunk 15 ---
+other trains. Thus, the ability to detect the 
+
+--- Document Chunk 16 ---
+presence of a train on a particular stretch of 
+
+--- Document Chunk 17 ---
+track is a key requirement for modern train 
+
+--- Document Chunk 18 ---
+control. The principles of train detection will 
+
+--- Document Chunk 19 ---
+be very familiar to experienced signalling 
+
+--- Document Chunk 20 ---
+engineers, and so this article is intended for 
+
+--- Document Chunk 21 ---
+members new to the industry.
+
+--- Document Chunk 22 ---
+There are currently two main types of train 
+
+--- Document Chunk 23 ---
+detection system, namely the track circuit and 
+
+--- Document Chunk 24 ---
+the axle counter. Both of them use track-based 
+
+--- Document Chunk 25 ---
+technology, and although other track-based 
+
+--- Document Chunk 26 ---
+solutions have been trialled over the years 
+
+--- Document Chunk 27 ---
+(including mass detectors, infrared and optical 
+
+--- Document Chunk 28 ---
+detectors), none of these have been widely 
+
+--- Document Chunk 29 ---
+adopted. We will look at both track circuits and 
+
+--- Document Chunk 30 ---
+axle counters in some detail in this article.
+
+--- Document Chunk 31 ---
+An alternative approach is to use train-based 
+
+--- Document Chunk 32 ---
+technology, whereby the train determines its 
+
+--- Document Chunk 33 ---
+location and communicates this information to 
+
+--- Document Chunk 34 ---
+the interlocking and control centre on a regular 
+
+--- Document Chunk 35 ---
+basis using a reliable secure communication link. 
+
+--- Document Chunk 36 ---
+Various technical options exist, including:
+
+--- Document Chunk 37 ---
+• Satellite positioning (Global Navigation Satellite 
+
+--- Document Chunk 38 ---
+Systems – GNSS).
+
+--- Document Chunk 39 ---
+• Odometry (counting wheel revolutions).
+
+--- Document Chunk 40 ---
+• Video (by recognition of 
+
+--- Document Chunk 41 ---
+infrastructure features).
+
+--- Document Chunk 42 ---
+• Proprietary systems offered, in particular, 
+
+--- Document Chunk 43 ---
+by Communication-Based Train Control 
+
+--- Document Chunk 44 ---
+(CBTC) suppliers. 
+
+--- Document Chunk 45 ---
+These solutions are sometimes used in 
+
+--- Document Chunk 46 ---
+combination to achieve the required degree 
+
+--- Document Chunk 47 ---
+of positional accuracy, and they may also be 
+
+--- Document Chunk 48 ---
+supplemented by equipment such as track-based 
+
+--- Document Chunk 49 ---
+balises or RFID (radio frequency identification) tags 
+
+--- Document Chunk 50 ---
+to periodically correct incremental positioning 
+
+--- Document Chunk 51 ---
+errors. Train-borne positioning systems are a 
+
+--- Document Chunk 52 ---
+standard feature of modern CBTC systems (which 
+
+--- Document Chunk 53 ---
+often use moving block technology) and will be 
+
+--- Document Chunk 54 ---
+for ERTMS Level 3 as well. We will explore this 
+
+--- Document Chunk 55 ---
+subject further later in this article. 
+
+--- Document Chunk 56 ---
+All train-borne positioning systems rely upon 
+
+--- Document Chunk 57 ---
+some form of train to track communication 
+
+--- Document Chunk 58 ---
+system so that the interlocking is regularly 
+
+--- Document Chunk 59 ---
+provided with up-to-date information about 
+
+--- Document Chunk 60 ---
+the train location. This may be a radio system, 
+
+--- Document Chunk 61 ---
+or a short-range communication system such 
+
+--- Document Chunk 62 ---
+as inductive loops in the track, Wi-Fi, or leaky 
+
+--- Document Chunk 63 ---
+feeder technology. 
+
+--- Document Chunk 64 ---
+Despite the growth of train-based technologies, 
+
+--- Document Chunk 65 ---
+for the majority of railways around the world that 
+
+--- Document Chunk 66 ---
+use train detection systems, the track circuit and 
+
+--- Document Chunk 67 ---
+the axle counter continue to be the favoured 
+
+--- Document Chunk 68 ---
+solutions. There are, of course, also many railways 
+
+--- Document Chunk 69 ---
+which use little or no train detection technology 
+
+--- Document Chunk 70 ---
+and rely instead on ‘absolute block’ methods of 
+
+--- Document Chunk 71 ---
+working or ‘train orders’ (verbal communication 
+
+--- Document Chunk 72 ---
+between the control centre and the train drivers).
+
+--- Document Chunk 73 ---
+Track circuits
+
+--- Document Chunk 74 ---
+The track circuit was originally used simply to 
+
+--- Document Chunk 75 ---
+remind signallers that a train was present on a 
+
+--- Document Chunk 76 ---
+particular section of track, not as an integral part 
+
+--- Document Chunk 77 ---
+of the locking of points and signals. It was the 
+
+--- Document Chunk 78 ---
+development of the track circuit that enabled the 
+
+--- Document Chunk 79 ---
+full potential of ‘space interval’ signalling based 
+
+--- Document Chunk 80 ---
+on track circuit block principles (continuous train 
+
+--- Document Chunk 81 ---
+detection between signal boxes). It also enabled 
+
+--- Document Chunk 82 ---
+signals to be provided that worked automatically 
+
+--- Document Chunk 83 ---
+with the passage of trains. 
+
+--- Document Chunk 84 ---
+The track circuit continuously proves the absence 
+
+--- Document Chunk 85 ---
+of a train from a given section of track in a fail- 
+
+--- Document Chunk 86 ---
+safe manner. It cannot prove the presence of a 
+
+--- Document Chunk 87 ---
+“There are two 
+
+--- Document Chunk 88 ---
+main types of 
+
+--- Document Chunk 89 ---
+technology 
+
+--- Document Chunk 90 ---
+generally 
+
+--- Document Chunk 91 ---
+used for train 
+
+--- Document Chunk 92 ---
+detection”
+
+--- Document Chunk 93 ---
+ IRSE News |  Issue 261  |  December 2019
+
+--- Document Chunk 94 ---
+19
+
+--- Document Chunk 95 ---
+train, since almost any failure mode will give the 
+
+--- Document Chunk 96 ---
+same indication as if a train is present. By positively 
+
+--- Document Chunk 97 ---
+proving the absence of a train, a track circuit can 
+
+--- Document Chunk 98 ---
+be used to confirm that it is safe to set a route and 
+
+--- Document Chunk 99 ---
+permit a train to proceed. The track circuit should 
+
+--- Document Chunk 100 ---
+not be confused with a ‘rail circuit’, which is used 
+
+--- Document Chunk 101 ---
+for non-fail-safe applications to positively prove 
+
+--- Document Chunk 102 ---
+the presence of a train. 
+
+--- Document Chunk 103 ---
+Fundamental design principles of 
+
+--- Document Chunk 104 ---
+track circuits
+
+--- Document Chunk 105 ---
+The most basic track circuit consists of a source 
+
+--- Document Chunk 106 ---
+of electrical energy (a direct current – DC), fed 
+
+--- Document Chunk 107 ---
+through an impedance and along the rails to a 
+
+--- Document Chunk 108 ---
+boundary which is defined by a pair of Insulated 
+
+--- Document Chunk 109 ---
+Rail Joints (IRJs are provided at both ends of the 
+
+--- Document Chunk 110 ---
+track circuit to define the detection limits of the 
+
+--- Document Chunk 111 ---
+track circuit). At the boundary a detection device, 
+
+--- Document Chunk 112 ---
+typically a relay, is connected across the rails and 
+
+--- Document Chunk 113 ---
+is energised by the direct current provided there is 
+
+--- Document Chunk 114 ---
+no train present (see Figure 1). 
+
+--- Document Chunk 115 ---
+Thus, the track circuit confirms the absence of a 
+
+--- Document Chunk 116 ---
+train to the signalling system (track circuit clear). 
+
+--- Document Chunk 117 ---
+The presence of metal wheels and axles of a train 
+
+--- Document Chunk 118 ---
+within the track circuit boundaries will cause the 
+
+--- Document Chunk 119 ---
+rails to be ‘short circuited.’ The increased current 
+
+--- Document Chunk 120 ---
+flow results in a greater volt drop through the feed 
+
+--- Document Chunk 121 ---
+impedance which, together with the shunting 
+
+--- Document Chunk 122 ---
+effect of the short circuit, means the detector no 
+
+--- Document Chunk 123 ---
+longer sees sufficient electrical energy to remain 
+
+--- Document Chunk 124 ---
+energised, and so it changes to the ‘de-energised’ 
+
+--- Document Chunk 125 ---
+state. This state change informs the signalling 
+
+--- Document Chunk 126 ---
+system that the track is ‘occupied’. 
+
+--- Document Chunk 127 ---
+Any electrical short-circuit between the rails, 
+
+--- Document Chunk 128 ---
+whether caused by a train or not, or any 
+
+--- Document Chunk 129 ---
+disconnection within the circuit (for example a 
+
+--- Document Chunk 130 ---
+cable being cut or falling off the rail), or a loss 
+
+--- Document Chunk 131 ---
+of supply current, will cause the track circuit to 
+
+--- Document Chunk 132 ---
+inform the signalling system it is occupied. This 
+
+--- Document Chunk 133 ---
+means that virtually any equipment fault will cause 
+
+--- Document Chunk 134 ---
+the system to ‘fail safe’ and thereby maintain 
+
+--- Document Chunk 135 ---
+signals at red. Although safe, this behaviour can 
+
+--- Document Chunk 136 ---
+result in unreliability, especially if the track circuit is 
+
+--- Document Chunk 137 ---
+not set up or maintained correctly. A track circuit 
+
+--- Document Chunk 138 ---
+operating device (e.g. ‘clips’) can also be used to 
+
+--- Document Chunk 139 ---
+protect a train in an emergency. Correct operation 
+
+--- Document Chunk 140 ---
+of a track circuit also depends upon good 
+
+--- Document Chunk 141 ---
+electrical contact between a train’s wheels and the 
+
+--- Document Chunk 142 ---
+rails, together with a continuous low-impedance 
+
+--- Document Chunk 143 ---
+path between each wheel via the connecting axle 
+
+--- Document Chunk 144 ---
+on the train. This will be discussed later.
+
+--- Document Chunk 145 ---
+DC, AC and coded track circuits
+
+--- Document Chunk 146 ---
+Simple as the track circuit may seem, there 
+
+--- Document Chunk 147 ---
+are various ways of powering the system and 
+
+--- Document Chunk 148 ---
+detecting the state of the track circuit (occupied or 
+
+--- Document Chunk 149 ---
+clear), and all have their benefits and weaknesses. 
+
+--- Document Chunk 150 ---
+The source of electrical energy may be any of 
+
+--- Document Chunk 151 ---
+DC, AC at power frequencies (typically 50Hz), 
+
+--- Document Chunk 152 ---
+AC at audio frequencies (a few thousand Hz), 
+
+--- Document Chunk 153 ---
+Electrical 
+
+--- Document Chunk 154 ---
+source
+
+--- Document Chunk 155 ---
+(feed)
+
+--- Document Chunk 156 ---
+Detector
+
+--- Document Chunk 157 ---
+(relay and 
+
+--- Document Chunk 158 ---
+repeater 
+
+--- Document Chunk 159 ---
+circuit)
+
+--- Document Chunk 160 ---
+T
+
+--- Document Chunk 161 ---
+T
+
+--- Document Chunk 162 ---
+T
+
+--- Document Chunk 163 ---
+T
+
+--- Document Chunk 164 ---
+Train wheel 
+
+--- Document Chunk 165 ---
+set Insulated 
+
+--- Document Chunk 166 ---
+Rail Joints 
+
+--- Document Chunk 167 ---
+(IRJs)
+
+--- Document Chunk 168 ---
+Figure 1 – The 
+
+--- Document Chunk 169 ---
+fundamental principles 
+
+--- Document Chunk 170 ---
+of the track circuit are 
+
+--- Document Chunk 171 ---
+simple. A train travelling 
+
+--- Document Chunk 172 ---
+between an electrical 
+
+--- Document Chunk 173 ---
+source and detector 
+
+--- Document Chunk 174 ---
+shorts out the current 
+
+--- Document Chunk 175 ---
+flowing between them, 
+
+--- Document Chunk 176 ---
+and the loss of current 
+
+--- Document Chunk 177 ---
+at the detector indicates 
+
+--- Document Chunk 178 ---
+that the absence of trains 
+
+--- Document Chunk 179 ---
+can no longer be assured. 
+
+--- Document Chunk 180 ---
+More modern devices use 
+
+--- Document Chunk 181 ---
+coded, typical shift-keyed, 
+
+--- Document Chunk 182 ---
+signals to offer more 
+
+--- Document Chunk 183 ---
+immunity to complex 
+
+--- Document Chunk 184 ---
+traction systems.
+
+--- Document Chunk 185 ---
+Bombardier’s EBI Track 
+
+--- Document Chunk 186 ---
+400 is typical of modern, 
+
+--- Document Chunk 187 ---
+microprocessor-based 
+
+--- Document Chunk 188 ---
+track circuits that use 
+
+--- Document Chunk 189 ---
+coded waveforms to 
+
+--- Document Chunk 190 ---
+provide traction immunity 
+
+--- Document Chunk 191 ---
+and can operate without 
+
+--- Document Chunk 192 ---
+insulated rail joints.
+
+--- Document Chunk 193 ---
+Photo Bombardier.
+
+--- Document Chunk 194 ---
+ IRSE News |  Issue 261  |  December 2019
+
+--- Document Chunk 195 ---
+20
+
+--- Document Chunk 196 ---
+a series of impulses or complex waveforms 
+
+--- Document Chunk 197 ---
+including digital codes. Similarly, the detector may 
+
+--- Document Chunk 198 ---
+be a simple relay, an AC ‘vane’ relay or a more 
+
+--- Document Chunk 199 ---
+complex receiver tuned to a particular frequency 
+
+--- Document Chunk 200 ---
+or pattern of signals. It should be noted that the 
+
+--- Document Chunk 201 ---
+high volume of conductive metal in a rail results 
+
+--- Document Chunk 202 ---
+in a high inductance and thus track circuits with 
+
+--- Document Chunk 203 ---
+a high frequency component tend to be short in 
+
+--- Document Chunk 204 ---
+length. Some track circuits can also act as a carrier 
+
+--- Document Chunk 205 ---
+for coded signals that are passed to the train. 
+
+--- Document Chunk 206 ---
+These are usually associated with ATP and early 
+
+--- Document Chunk 207 ---
+ATO systems, and examples include TVM430, the 
+
+--- Document Chunk 208 ---
+original ATP system used on French High-Speed 
+
+--- Document Chunk 209 ---
+lines, and the original implementation of ATP with 
+
+--- Document Chunk 210 ---
+ATO on the London Underground Victoria line. 
+
+--- Document Chunk 211 ---
+The two rails on a railway are in practice not 
+
+--- Document Chunk 212 ---
+perfectly insulated from each other. There is 
+
+--- Document Chunk 213 ---
+always a leakage path between the two through 
+
+--- Document Chunk 214 ---
+the rail fixings, the sleepers, the ballast and 
+
+--- Document Chunk 215 ---
+the ground itself. This is known as the ballast 
+
+--- Document Chunk 216 ---
+resistance. Its value is dependent upon the 
+
+--- Document Chunk 217 ---
+condition of any rail insulation, the cleanliness of 
+
+--- Document Chunk 218 ---
+the ballast, and the prevailing weather conditions. 
+
+--- Document Chunk 219 ---
+It is inversely proportional to track circuit length. 
+
+--- Document Chunk 220 ---
+High ballast resistance values are ideal for a 
+
+--- Document Chunk 221 ---
+track circuit and may be obtained in dry/clean 
+
+--- Document Chunk 222 ---
+conditions or during frosty weather, but wet 
+
+--- Document Chunk 223 ---
+conditions may reduce the value significantly, 
+
+--- Document Chunk 224 ---
+especially where there is bad drainage and/or 
+
+--- Document Chunk 225 ---
+contamination from conductive materials in the 
+
+--- Document Chunk 226 ---
+track-bed. So, if for instance the track is flooded, 
+
+--- Document Chunk 227 ---
+the track circuit will show occupied and the signal 
+
+--- Document Chunk 228 ---
+controlling the track section will remain at red. 
+
+--- Document Chunk 229 ---
+Wet tunnels, sea walls and similar locations can be 
+
+--- Document Chunk 230 ---
+a particular problem, as the conditions can vary 
+
+--- Document Chunk 231 ---
+significantly on a frequent basis, which means that 
+
+--- Document Chunk 232 ---
+the track circuits need to be repeatedly adjusted 
+
+--- Document Chunk 233 ---
+to keep them working reliably and safely. 
+
+--- Document Chunk 234 ---
+One difficulty with adjusting track circuits is 
+
+--- Document Chunk 235 ---
+knowing the prevailing value of ballast resistance. 
+
+--- Document Chunk 236 ---
+If a track circuit fails due to wet weather, it may 
+
+--- Document Chunk 237 ---
+be possible to remedy the situation by reducing 
+
+--- Document Chunk 238 ---
+the feed impedance. However, a too low feed 
+
+--- Document Chunk 239 ---
+impedance can lead to trains not being detected 
+
+--- Document Chunk 240 ---
+(a ‘wrong side failure’). This will occur when a low 
+
+--- Document Chunk 241 ---
+feed impedance allows enough energy to reach 
+
+--- Document Chunk 242 ---
+the detector despite a train standing on the track. 
+
+--- Document Chunk 243 ---
+Some track circuits with highly variable ballast 
+
+--- Document Chunk 244 ---
+conditions may need frequent, often seasonal, 
+
+--- Document Chunk 245 ---
+adjustment to avoid this risk. This adjustment and 
+
+--- Document Chunk 246 ---
+testing currently has to be carried out manually, 
+
+--- Document Chunk 247 ---
+putting staff out on the railway and therefore 
+
+--- Document Chunk 248 ---
+placing them at risk, as well as being an expensive 
+
+--- Document Chunk 249 ---
+and time-consuming use of resources.
+
+--- Document Chunk 250 ---
+Rust films and contaminants
+
+--- Document Chunk 251 ---
+The resistance through the train’s wheels and axles 
+
+--- Document Chunk 252 ---
+is also an important factor, as it is the train which 
+
+--- Document Chunk 253 ---
+shorts out the track circuit. There are several ways 
+
+--- Document Chunk 254 ---
+in which the resistance of this short circuit may 
+
+--- Document Chunk 255 ---
+increase, with detrimental effect on operation. 
+
+--- Document Chunk 256 ---
+One way is the presence of a rust film on the 
+
+--- Document Chunk 257 ---
+rail head or wheel. The mechanical strength of 
+
+--- Document Chunk 258 ---
+light rust films is much reduced by the presence 
+
+--- Document Chunk 259 ---
+of moisture, when the contaminant tends to 
+
+--- Document Chunk 260 ---
+be squeezed out from the wheel/rail contact 
+
+--- Document Chunk 261 ---
+patch. Therefore, lightly rusted rails will only 
+
+--- Document Chunk 262 ---
+be a problem when dry. Very heavy rust, from 
+
+--- Document Chunk 263 ---
+prolonged disuse of the track, or after re-
+
+--- Document Chunk 264 ---
+railing with new rail, can result in track circuits 
+
+--- Document Chunk 265 ---
+being incapable of detecting trains, especially 
+
+--- Document Chunk 266 ---
+lightweight trains as they are not heavy enough to 
+
+--- Document Chunk 267 ---
+penetrate the layer of rust. Therefore, care needs 
+
+--- Document Chunk 268 ---
+to be taken after track relaying, when track circuits 
+
+--- Document Chunk 269 ---
+should not be restored to full operation until a 
+
+--- Document Chunk 270 ---
+good electrically conductive surface has been 
+
+--- Document Chunk 271 ---
+created. One positive result from today’s crowded 
+
+--- Document Chunk 272 ---
+railway on some routes is that busy lines have little 
+
+--- Document Chunk 273 ---
+chance to rust, reducing the problem. However, 
+
+--- Document Chunk 274 ---
+seldom-used branch lines, particularly in coastal 
+
+--- Document Chunk 275 ---
+regions where rust formation is exacerbated by 
+
+--- Document Chunk 276 ---
+salt, are at risk.
+
+--- Document Chunk 277 ---
+Other contaminants that increase the electrical 
+
+--- Document Chunk 278 ---
+resistance between the rails and the train’s wheels 
+
+--- Document Chunk 279 ---
+can cause the same problems. Those associated 
+
+--- Document Chunk 280 ---
+with falling leaves are generally limited to the 
+
+--- Document Chunk 281 ---
+autumn, and are usually confined to known 
+
+--- Document Chunk 282 ---
+locations, which may include built-up areas. 
+
+--- Document Chunk 283 ---
+Leaves are drawn into the wheel–rail interface by 
+
+--- Document Chunk 284 ---
+the passage of a train where they are squashed 
+
+--- Document Chunk 285 ---
+into a pulp. This contaminates both the rail 
+
+--- Document Chunk 286 ---
+and wheel, causing wheel-slip problems when 
+
+--- Document Chunk 287 ---
+wet, and significantly increasing the electrical 
+
+--- Document Chunk 288 ---
+resistance when dry. 
+
+--- Document Chunk 289 ---
+Reasonably dry weather with little wind will cause 
+
+--- Document Chunk 290 ---
+the leaves to fall gradually over a longer period, 
+
+--- Document Chunk 291 ---
+and they will be reasonably sap-free when they 
+
+--- Document Chunk 292 ---
+do fall. But high wind conditions will lead to a 
+
+--- Document Chunk 293 ---
+sudden fall of sap-laden leaves, giving rise to the 
+
+--- Document Chunk 294 ---
+worst conditions. 
+
+--- Document Chunk 295 ---
+In many temperate 
+
+--- Document Chunk 296 ---
+climates autumn leaf fall 
+
+--- Document Chunk 297 ---
+can cause contamination 
+
+--- Document Chunk 298 ---
+on the rail head, and 
+
+--- Document Chunk 299 ---
+unreliable shunting of 
+
+--- Document Chunk 300 ---
+track circuits.
+
+--- Document Chunk 301 ---
+“Tread-braked 
+
+--- Document Chunk 302 ---
+trains can 
+
+--- Document Chunk 303 ---
+sometimes give 
+
+--- Document Chunk 304 ---
+a better track 
+
+--- Document Chunk 305 ---
+circuit shunt than 
+
+--- Document Chunk 306 ---
+modern disc-
+
+--- Document Chunk 307 ---
+braked trains”
+
+--- Document Chunk 308 ---
+ IRSE News |  Issue 261  |  December 2019
+
+--- Document Chunk 309 ---
+21
+
+--- Document Chunk 310 ---
+Problems with coal dust and other similar 
+
+--- Document Chunk 311 ---
+contaminants on the rail head tend to be confined 
+
+--- Document Chunk 312 ---
+to collieries and other loading/unloading areas. 
+
+--- Document Chunk 313 ---
+Sand contamination can also be a problem, 
+
+--- Document Chunk 314 ---
+although not so much due to seaside locations, 
+
+--- Document Chunk 315 ---
+but with slow-moving locomotives using 
+
+--- Document Chunk 316 ---
+excessive amounts of sand for adhesion purposes. 
+
+--- Document Chunk 317 ---
+In each of these cases, the effect is similar to 
+
+--- Document Chunk 318 ---
+heavy rust. Problems can also occur with ballast 
+
+--- Document Chunk 319 ---
+condition issues associated with carbon-based 
+
+--- Document Chunk 320 ---
+contaminants, and of course heavy rain causing 
+
+--- Document Chunk 321 ---
+puddles and floods can short out the track circuits.
+
+--- Document Chunk 322 ---
+Train issues
+
+--- Document Chunk 323 ---
+Where a thin film of contaminant insulates the 
+
+--- Document Chunk 324 ---
+wheel from the rail, this can often be pierced if 
+
+--- Document Chunk 325 ---
+there is a rough surface on the running face of the 
+
+--- Document Chunk 326 ---
+wheel. The older style of tread brakes caused the 
+
+--- Document Chunk 327 ---
+wheel tyres to be cleaned and roughened at each 
+
+--- Document Chunk 328 ---
+brake application, whereas more modern disc-
+
+--- Document Chunk 329 ---
+braked trains do not, and the tyres may be rolled 
+
+--- Document Chunk 330 ---
+into a very smooth surface condition. Therefore 
+
+--- Document Chunk 331 ---
+older tread-braked trains generally provided 
+
+--- Document Chunk 332 ---
+better track circuit operation than modern 
+
+--- Document Chunk 333 ---
+disc-braked trains. 
+
+--- Document Chunk 334 ---
+Similarly, the axle weight has an effect, as a heavy 
+
+--- Document Chunk 335 ---
+load will pierce a film more easily. Again, modern 
+
+--- Document Chunk 336 ---
+lightweight trains, which are designed to minimise 
+
+--- Document Chunk 337 ---
+track wear, cause more track circuit problems than 
+
+--- Document Chunk 338 ---
+old-style heavy locomotive hauled trains. 
+
+--- Document Chunk 339 ---
+To assist vehicles to shunt track circuits, a device 
+
+--- Document Chunk 340 ---
+known as the ‘Track Circuit Assister’ (TCA) is 
+
+--- Document Chunk 341 ---
+sometimes fitted to modern trains in Britain 
+
+--- Document Chunk 342 ---
+to induce an electrical potential between the 
+
+--- Document Chunk 343 ---
+wheelset and the rail head and thereby break 
+
+--- Document Chunk 344 ---
+down any insulating film. Typically, a TCA consists 
+
+--- Document Chunk 345 ---
+of a control unit and aerial with associated tuning 
+
+--- Document Chunk 346 ---
+unit, mounted between a pair of wheelsets close 
+
+--- Document Chunk 347 ---
+to the rails. These devices tend to be fitted to the 
+
+--- Document Chunk 348 ---
+end bogies of the train because it is important, 
+
+--- Document Chunk 349 ---
+especially around point work, that the extremities 
+
+--- Document Chunk 350 ---
+of the train are detected so that the points cannot 
+
+--- Document Chunk 351 ---
+be inadvertently moved at the wrong time.
+
+--- Document Chunk 352 ---
+Insulation
+
+--- Document Chunk 353 ---
+As has been described, any direct metallic 
+
+--- Document Chunk 354 ---
+connection between the two rails will be 
+
+--- Document Chunk 355 ---
+interpreted by the track circuit as a train and 
+
+--- Document Chunk 356 ---
+will cause the track circuit to show occupied. 
+
+--- Document Chunk 357 ---
+Therefore, apart from the insulated rail joints or 
+
+--- Document Chunk 358 ---
+block joints used to electrically separate sections 
+
+--- Document Chunk 359 ---
+of line, the reliable operation of track circuits also 
+
+--- Document Chunk 360 ---
+requires the provision of insulators to stop other 
+
+--- Document Chunk 361 ---
+track components shorting out the track circuit. 
+
+--- Document Chunk 362 ---
+At a set of points, for example, there are many 
+
+--- Document Chunk 363 ---
+cross-rail connections – stretcher bars, point 
+
+--- Document Chunk 364 ---
+motors and heating elements – all of which 
+
+--- Document Chunk 365 ---
+need to be insulated, giving rise to quite 
+
+--- Document Chunk 366 ---
+complex insulating and bonding arrangements. 
+
+--- Document Chunk 367 ---
+In addition, the actual running rails cross at the 
+
+--- Document Chunk 368 ---
+‘frog’ or ‘heel’ of the points, requiring insulated 
+
+--- Document Chunk 369 ---
+rail joints and bonding in the switch rails to 
+
+--- Document Chunk 370 ---
+transfer the polarity of the circuit to the other rail. 
+
+--- Document Chunk 371 ---
+Designing track circuits to work reliably and safely 
+
+--- Document Chunk 372 ---
+through complex switches and crossings can be 
+
+--- Document Chunk 373 ---
+quite a challenge!
+
+--- Document Chunk 374 ---
+Concrete sleepers incorporate a rubber pad under 
+
+--- Document Chunk 375 ---
+the rail foot and moulded insulations where the 
+
+--- Document Chunk 376 ---
+fixings bear on the top of the foot. These increase 
+
+--- Document Chunk 377 ---
+ballast resistance to levels significantly higher than 
+
+--- Document Chunk 378 ---
+can be obtained with timber sleepers. However, 
+
+--- Document Chunk 379 ---
+the insulations can erode due to the vibration 
+
+--- Document Chunk 380 ---
+of passing traffic and, consequently, require 
+
+--- Document Chunk 381 ---
+inspection and periodical replacement – another 
+
+--- Document Chunk 382 ---
+maintenance overhead. Steel sleepers are even 
+
+--- Document Chunk 383 ---
+more of a problem. They are also insulated, of 
+
+--- Document Chunk 384 ---
+course, but any degradation of that insulation will 
+
+--- Document Chunk 385 ---
+result in severe problems. 
+
+--- Document Chunk 386 ---
+Ultimately the maximum length of a track circuit 
+
+--- Document Chunk 387 ---
+will be limited by the achievable ballast resistance, 
+
+--- Document Chunk 388 ---
+its variability with prevailing environmental 
+
+--- Document Chunk 389 ---
+conditions, and the level of reliability required. 
+
+--- Document Chunk 390 ---
+It will also be influenced by interference from 
+
+--- Document Chunk 391 ---
+electric traction, which is discussed below. In the 
+
+--- Document Chunk 392 ---
+UK it would be reasonable to assume that these 
+
+--- Document Chunk 393 ---
+factors limit a track circuit to a maximum of about 
+
+--- Document Chunk 394 ---
+1500m, although isolated examples of longer 
+
+--- Document Chunk 395 ---
+ones can be found.
+
+--- Document Chunk 396 ---
+Bonding
+
+--- Document Chunk 397 ---
+Bonding is the means by which the individual 
+
+--- Document Chunk 398 ---
+components of the railway track are connected 
+
+--- Document Chunk 399 ---
+together electrically for track circuit purposes. 
+
+--- Document Chunk 400 ---
+The term also includes the additional electrical 
+
+--- Document Chunk 401 ---
+connections necessary for the proper operation 
+
+--- Document Chunk 402 ---
+“Direct metallic 
+
+--- Document Chunk 403 ---
+connection 
+
+--- Document Chunk 404 ---
+between the 
+
+--- Document Chunk 405 ---
+rails will cause 
+
+--- Document Chunk 406 ---
+the track circuit 
+
+--- Document Chunk 407 ---
+to show as 
+
+--- Document Chunk 408 ---
+occupied”
+
+--- Document Chunk 409 ---
+“Insulated 
+
+--- Document Chunk 410 ---
+rail joints are 
+
+--- Document Chunk 411 ---
+expensive, both 
+
+--- Document Chunk 412 ---
+to install and to 
+
+--- Document Chunk 413 ---
+maintain”
+
+--- Document Chunk 414 ---
+The black art of bonding 
+
+--- Document Chunk 415 ---
+in areas with track circuits 
+
+--- Document Chunk 416 ---
+and third-rail traction is 
+
+--- Document Chunk 417 ---
+very visible in this view 
+
+--- Document Chunk 418 ---
+of Clapham Junction in 
+
+--- Document Chunk 419 ---
+South London, UK. Look 
+
+--- Document Chunk 420 ---
+out for impedance bonds, 
+
+--- Document Chunk 421 ---
+traction cross-bonds, and 
+
+--- Document Chunk 422 ---
+track circuit bonding in 
+
+--- Document Chunk 423 ---
+this photo.  
+
+--- Document Chunk 424 ---
+Photo Shutterstock/ 
+
+--- Document Chunk 425 ---
+Ian Stewart. 
+
+--- Document Chunk 426 ---
+ IRSE News |  Issue 261  |  December 2019
+
+--- Document Chunk 427 ---
+22
+
+--- Document Chunk 428 ---
+of electric traction. For a track circuit to fail 
+
+--- Document Chunk 429 ---
+safe (show occupied) in the event of a bonding 
+
+--- Document Chunk 430 ---
+disconnection, it is necessary to bond all elements 
+
+--- Document Chunk 431 ---
+of the track circuit in series, so that any one 
+
+--- Document Chunk 432 ---
+failure breaks the circuit. In practice, in switches 
+
+--- Document Chunk 433 ---
+and crossings it may not be physically possible to 
+
+--- Document Chunk 434 ---
+arrange series bonding of every part of every rail.
+
+--- Document Chunk 435 ---
+Later in the article we will deal with single rail 
+
+--- Document Chunk 436 ---
+traction bonding (which only provides series 
+
+--- Document Chunk 437 ---
+bonding for the track circuit signal rail as the 
+
+--- Document Chunk 438 ---
+traction return is usually bonded in parallel 
+
+--- Document Chunk 439 ---
+with other traction return paths); and ‘double 
+
+--- Document Chunk 440 ---
+rail traction bonding’ (providing total series 
+
+--- Document Chunk 441 ---
+bonding for a track circuit as well as both rails 
+
+--- Document Chunk 442 ---
+for the traction return path). In the majority of 
+
+--- Document Chunk 443 ---
+cases traction bonding through switches and 
+
+--- Document Chunk 444 ---
+crossings is single rail traction where track 
+
+--- Document Chunk 445 ---
+circuits are provided.
+
+--- Document Chunk 446 ---
+Insulated rail joints
+
+--- Document Chunk 447 ---
+IRJs are expensive, both to install and to maintain, 
+
+--- Document Chunk 448 ---
+especially on tracks subjected to high speed, high 
+
+--- Document Chunk 449 ---
+axle-weight traffic or where there is an intensive 
+
+--- Document Chunk 450 ---
+service. A rail joint also presents an increased risk 
+
+--- Document Chunk 451 ---
+of rail fracture, although now with factory made 
+
+--- Document Chunk 452 ---
+six-hole glued joints this is less of a risk than with 
+
+--- Document Chunk 453 ---
+older styles of IRJ. As mentioned above, they are 
+
+--- Document Chunk 454 ---
+also required in areas of points and crossings, 
+
+--- Document Chunk 455 ---
+which makes the railway less physically robust 
+
+--- Document Chunk 456 ---
+than track engineers would wish. 
+
+--- Document Chunk 457 ---
+It is also possible for the insulation in the IRJ to be 
+
+--- Document Chunk 458 ---
+compromised, either by failure or by burring of the 
+
+--- Document Chunk 459 ---
+top of the rail such that it bridges the insulating 
+
+--- Document Chunk 460 ---
+element. This could cause a wrong side failure 
+
+--- Document Chunk 461 ---
+because one track circuit supplies power to the 
+
+--- Document Chunk 462 ---
+detection element of the next track circuit, across 
+
+--- Document Chunk 463 ---
+the failed IRJ. For this reason, most simple DC and 
+
+--- Document Chunk 464 ---
+low frequency AC track circuits connect to the 
+
+--- Document Chunk 465 ---
+rails with opposite polarities either side of the IRJ 
+
+--- Document Chunk 466 ---
+to ensure that, should the insulation fail, both track 
+
+--- Document Chunk 467 ---
+circuits will show occupied. 
+
+--- Document Chunk 468 ---
+One solution for avoiding IRJs is the use of 
+
+--- Document Chunk 469 ---
+audio frequency AC track circuits which permit 
+
+--- Document Chunk 470 ---
+the physical limits of an individual track circuit 
+
+--- Document Chunk 471 ---
+to be defined by ‘tuned’ zone, rather than by 
+
+--- Document Chunk 472 ---
+insulators in the rails. Adjacent and parallel track 
+
+--- Document Chunk 473 ---
+circuits operate at different audio frequencies 
+
+--- Document Chunk 474 ---
+and each one is designed to detect its own track 
+
+--- Document Chunk 475 ---
+frequency but no other. It is possible, with careful 
+
+--- Document Chunk 476 ---
+design, to arrange a short overlap in the centre 
+
+--- Document Chunk 477 ---
+of the tuned zone where both track circuits are 
+
+--- Document Chunk 478 ---
+effectively shunted. 
+
+--- Document Chunk 479 ---
+The use of audio frequency track circuits is not 
+
+--- Document Chunk 480 ---
+always a practicable solution for complex switch 
+
+--- Document Chunk 481 ---
+and crossing layouts, not least because of the 
+
+--- Document Chunk 482 ---
+complication of significant rail impedances 
+
+--- Document Chunk 483 ---
+associated with parallel bonding. 
+
+--- Document Chunk 484 ---
+Broken rails
+
+--- Document Chunk 485 ---
+By their very nature of operation track circuits 
+
+--- Document Chunk 486 ---
+are sometimes regarded as a means of detecting 
+
+--- Document Chunk 487 ---
+broken rails. However, track circuits will only 
+
+--- Document Chunk 488 ---
+detect a broken rail that is fractured all the way 
+
+--- Document Chunk 489 ---
+through and is not bridged by any form of bonding 
+
+--- Document Chunk 490 ---
+or other electrical connection. So, a damaged 
+
+--- Document Chunk 491 ---
+rail head or foot will not be detected but could 
+
+--- Document Chunk 492 ---
+be equally problematic. On an electrified railway 
+
+--- Document Chunk 493 ---
+the need to maintain a traction current return 
+
+--- Document Chunk 494 ---
+path through one of the rails and other paralleled 
+
+--- Document Chunk 495 ---
+conductive infrastructure means that in many 
+
+--- Document Chunk 496 ---
+cases breaks can only be detected in the other rail. 
+
+--- Document Chunk 497 ---
+Hence broken rail detection is, at least in the UK, 
+
+--- Document Chunk 498 ---
+now managed by the routine monitoring of the 
+
+--- Document Chunk 499 ---
+rail condition including ultrasound scanning, not 
+
+--- Document Chunk 500 ---
+by dependence upon track circuits. And of course, 
+
+--- Document Chunk 501 ---
+as we shall see, axle counters are of no help at all 
+
+--- Document Chunk 502 ---
+with broken rail detection.
+
+--- Document Chunk 503 ---
+Electric traction
+
+--- Document Chunk 504 ---
+On electrified railways, track circuits must operate 
+
+--- Document Chunk 505 ---
+despite large traction return currents passing 
+
+--- Document Chunk 506 ---
+along the same rails. The disparity is substantial, 
+
+--- Document Chunk 507 ---
+with AC traction currents of 300A or more and 
+
+--- Document Chunk 508 ---
+DC traction operating at up to 7000A. These 
+
+--- Document Chunk 509 ---
+values exclude traction fault conditions and are far 
+
+--- Document Chunk 510 ---
+larger than the track circuit currents which are a 
+
+--- Document Chunk 511 ---
+few amps at most. This gives rise to the concept 
+
+--- Document Chunk 512 ---
+of AC immune and DC immune track circuits. 
+
+--- Document Chunk 513 ---
+There are also some areas that have both forms 
+
+--- Document Chunk 514 ---
+of traction current supply which therefore require 
+
+--- Document Chunk 515 ---
+dual immunity. 
+
+--- Document Chunk 516 ---
+The initial way of providing immunity was to use 
+
+--- Document Chunk 517 ---
+DC track circuits in AC territory and AC phase 
+
+--- Document Chunk 518 ---
+sensitive vane relay track circuits in DC traction 
+
+--- Document Chunk 519 ---
+territory. Where both types of traction were in 
+
+--- Document Chunk 520 ---
+use it was not unusual to use a locally generated 
+
+--- Document Chunk 521 ---
+special frequency to power AC track circuits, such 
+
+--- Document Chunk 522 ---
+Below left: Rail breaks are 
+
+--- Document Chunk 523 ---
+rarely as clear-cut as this 
+
+--- Document Chunk 524 ---
+example, and not all rail 
+
+--- Document Chunk 525 ---
+breaks will be detected by 
+
+--- Document Chunk 526 ---
+track circuits – but no rail 
+
+--- Document Chunk 527 ---
+breaks will be detected by 
+
+--- Document Chunk 528 ---
+axle counters.
+
+--- Document Chunk 529 ---
+Photo Shutterstock/
+
+--- Document Chunk 530 ---
+Michael715.
+
+--- Document Chunk 531 ---
+Below right: The 
+
+--- Document Chunk 532 ---
+introduction of any 
+
+--- Document Chunk 533 ---
+new or different rolling 
+
+--- Document Chunk 534 ---
+stock on areas where 
+
+--- Document Chunk 535 ---
+train detection is a 
+
+--- Document Chunk 536 ---
+significant part of the 
+
+--- Document Chunk 537 ---
+signalling system requires 
+
+--- Document Chunk 538 ---
+detailed analysis of the 
+
+--- Document Chunk 539 ---
+susceptibility of the 
+
+--- Document Chunk 540 ---
+trackside equipment to 
+
+--- Document Chunk 541 ---
+large traction currents.
+
+--- Document Chunk 542 ---
+Photo Hitachi.
+
+--- Document Chunk 543 ---
+“Audio-frequency 
+
+--- Document Chunk 544 ---
+track circuits can 
+
+--- Document Chunk 545 ---
+be unsuitable 
+
+--- Document Chunk 546 ---
+unless the point 
+
+--- Document Chunk 547 ---
+work is very 
+
+--- Document Chunk 548 ---
+simple”
+
+--- Document Chunk 549 ---
+ IRSE News |  Issue 261  |  December 2019
+
+--- Document Chunk 550 ---
+23
+
+--- Document Chunk 551 ---
+as 83.33Hz using rotary converters. This enabled 
+
+--- Document Chunk 552 ---
+the track circuits to detect and respond to the 
+
+--- Document Chunk 553 ---
+83.33Hz frequency but not DC or 50Hz AC.
+
+--- Document Chunk 554 ---
+Today, whilst these arrangements are still 
+
+--- Document Chunk 555 ---
+common, there is a steady increase in the use of 
+
+--- Document Chunk 556 ---
+modulated audio frequency track circuits selected 
+
+--- Document Chunk 557 ---
+for immunity. This move is partly the result of the 
+
+--- Document Chunk 558 ---
+application of three phase traction drives, which 
+
+--- Document Chunk 559 ---
+produce many harmonics some of which are 
+
+--- Document Chunk 560 ---
+present in the traction return currents. In practice 
+
+--- Document Chunk 561 ---
+the range of frequencies produced by modern 
+
+--- Document Chunk 562 ---
+three phase traction units makes it a challenge to 
+
+--- Document Chunk 563 ---
+find immune frequencies suitable for track circuits. 
+
+--- Document Chunk 564 ---
+This is also one of the reasons why there is a 
+
+--- Document Chunk 565 ---
+trend to use axle counters as the modern form of 
+
+--- Document Chunk 566 ---
+train detection. 
+
+--- Document Chunk 567 ---
+Track circuit arrangements in electrified areas 
+
+--- Document Chunk 568 ---
+are constrained by the need to ensure safe and 
+
+--- Document Chunk 569 ---
+reliable operation of both signalling and traction 
+
+--- Document Chunk 570 ---
+systems. This means that the track circuit must be 
+
+--- Document Chunk 571 ---
+immune to both false operation and to damage 
+
+--- Document Chunk 572 ---
+by the flow of traction currents through the rails. 
+
+--- Document Chunk 573 ---
+This also causes complications because, while 
+
+--- Document Chunk 574 ---
+the signalling track circuits are separated from 
+
+--- Document Chunk 575 ---
+each other by IRJs, the traction current needs 
+
+--- Document Chunk 576 ---
+a continuous electrical connection back to 
+
+--- Document Chunk 577 ---
+the substation. 
+
+--- Document Chunk 578 ---
+This problem has led to the use of impedance 
+
+--- Document Chunk 579 ---
+bonds on double rail traction track circuits. These 
+
+--- Document Chunk 580 ---
+are devices that present a low impedance to 
+
+--- Document Chunk 581 ---
+traction current and a higher impedance to track 
+
+--- Document Chunk 582 ---
+circuit current. In simple terms, they allow traction 
+
+--- Document Chunk 583 ---
+current to pass along the rails and around the 
+
+--- Document Chunk 584 ---
+IRJs, but stop the track circuit currents in order to 
+
+--- Document Chunk 585 ---
+separate one track circuit from the next.
+
+--- Document Chunk 586 ---
+Although track circuits are designed to be immune 
+
+--- Document Chunk 587 ---
+to false operation (wrong side failure) from the 
+
+--- Document Chunk 588 ---
+presence of traction currents flowing in the rails, 
+
+--- Document Chunk 589 ---
+any significant imbalance in the amount of current 
+
+--- Document Chunk 590 ---
+flowing in the two rails may be misinterpreted by 
+
+--- Document Chunk 591 ---
+the track circuit detector as indicating that the 
+
+--- Document Chunk 592 ---
+track is unoccupied when it is not. In particular any 
+
+--- Document Chunk 593 ---
+fast change in the traction current may cause a 
+
+--- Document Chunk 594 ---
+Axle counters are 
+
+--- Document Chunk 595 ---
+increasingly preferred as 
+
+--- Document Chunk 596 ---
+a less intrusive means of 
+
+--- Document Chunk 597 ---
+train detection.
+
+--- Document Chunk 598 ---
+Photo Thales.
+
+--- Document Chunk 599 ---
+short-term imbalance, which is why track circuits 
+
+--- Document Chunk 600 ---
+on electrified lines are normally designed to be 
+
+--- Document Chunk 601 ---
+slow to energise (i.e. slow to show track clear). 
+
+--- Document Chunk 602 ---
+In DC electrified areas, the relatively low supply 
+
+--- Document Chunk 603 ---
+voltage results in high currents returning to the 
+
+--- Document Chunk 604 ---
+sub-stations via the running rails. In order to 
+
+--- Document Chunk 605 ---
+minimise voltage drop and consequential power 
+
+--- Document Chunk 606 ---
+losses in the DC-traction supply, all running 
+
+--- Document Chunk 607 ---
+rails are used for the return of traction currents 
+
+--- Document Chunk 608 ---
+wherever possible, and therefore double- rail track 
+
+--- Document Chunk 609 ---
+circuits are used. There is usually cross bonding 
+
+--- Document Chunk 610 ---
+between different tracks as well so that the current 
+
+--- Document Chunk 611 ---
+has as many feed and return paths as possible, 
+
+--- Document Chunk 612 ---
+again to minimise traction energy losses. As in AC 
+
+--- Document Chunk 613 ---
+areas, impedance bonds are used to ensure the 
+
+--- Document Chunk 614 ---
+traction current has a return path to the sub-
+
+--- Document Chunk 615 ---
+station, whilst the adjacent train detection sections 
+
+--- Document Chunk 616 ---
+are kept separate from each other. In switches and 
+
+--- Document Chunk 617 ---
+crossings, however, it is not usually possible to 
+
+--- Document Chunk 618 ---
+bond the track in double-rail form, and therefore 
+
+--- Document Chunk 619 ---
+single-rail track circuits must be installed. It should 
+
+--- Document Chunk 620 ---
+be noted that ‘single rail’ track circuit really means 
+
+--- Document Chunk 621 ---
+single rail traction current return, as both rails are 
+
+--- Document Chunk 622 ---
+still used by the track circuit. 
+
+--- Document Chunk 623 ---
+In AC overhead electrified areas, traction currents 
+
+--- Document Chunk 624 ---
+are generally lower than in DC systems and, in 
+
+--- Document Chunk 625 ---
+many cases, single rail traction return is sufficient 
+
+--- Document Chunk 626 ---
+for electrification purposes. However, increased 
+
+--- Document Chunk 627 ---
+traffic levels and alternative feeding arrangements 
+
+--- Document Chunk 628 ---
+may sometimes require that both running rails are 
+
+--- Document Chunk 629 ---
+used for traction return.
+
+--- Document Chunk 630 ---
+Coded track circuits
+
+--- Document Chunk 631 ---
+Coded track circuits can be used to transmit 
+
+--- Document Chunk 632 ---
+information to a moving train. The amount of 
+
+--- Document Chunk 633 ---
+information that can be communicated is limited 
+
+--- Document Chunk 634 ---
+to simple messages, for example transmitting 
+
+--- Document Chunk 635 ---
+one of a small number of modulations (14-20) 
+
+--- Document Chunk 636 ---
+to send maximum safe speed and target speed 
+
+--- Document Chunk 637 ---
+combination. Such systems can require extensive 
+
+--- Document Chunk 638 ---
+lineside equipment for each track circuit, 
+
+--- Document Chunk 639 ---
+especially on bi-directionally signalling lines. For 
+
+--- Document Chunk 640 ---
+the train to successfully detect the transmitted 
+
+--- Document Chunk 641 ---
+information before it is shorted out by the train 
+
+--- Document Chunk 642 ---
+“Coded track 
+
+--- Document Chunk 643 ---
+circuits can be 
+
+--- Document Chunk 644 ---
+used to transmit 
+
+--- Document Chunk 645 ---
+information to a 
+
+--- Document Chunk 646 ---
+moving train”
+
+--- Document Chunk 647 ---
+ IRSE News |  Issue 261  |  December 2019
+
+--- Document Chunk 648 ---
+24
+
+--- Document Chunk 649 ---
+wheels it must always run towards the transmitter 
+
+--- Document Chunk 650 ---
+end of the track circuit. Thus, on bidirectional lines 
+
+--- Document Chunk 651 ---
+it is necessary to switch the feed and detector 
+
+--- Document Chunk 652 ---
+(relay) ends of the track circuit depending on 
+
+--- Document Chunk 653 ---
+the direction of travel of the signalled train. This 
+
+--- Document Chunk 654 ---
+added complexity and the consequentially greater 
+
+--- Document Chunk 655 ---
+failure risk is one of the reasons that modern 
+
+--- Document Chunk 656 ---
+train supervision systems are generally moving 
+
+--- Document Chunk 657 ---
+away from coded track circuits to radio-based 
+
+--- Document Chunk 658 ---
+communication systems.
+
+--- Document Chunk 659 ---
+Axle counters
+
+--- Document Chunk 660 ---
+As its name suggests, an axle counter system used 
+
+--- Document Chunk 661 ---
+track-mounted equipment to count axles entering 
+
+--- Document Chunk 662 ---
+and leaving a track section. This information is 
+
+--- Document Chunk 663 ---
+evaluated to determine whether the track section 
+
+--- Document Chunk 664 ---
+is occupied or clear. They perhaps they should 
+
+--- Document Chunk 665 ---
+be more accurately called wheel counters, since 
+
+--- Document Chunk 666 ---
+the device attached to the rail uses a magnetic 
+
+--- Document Chunk 667 ---
+field to detect the passage of the rim and flange 
+
+--- Document Chunk 668 ---
+of a wheel. But because on most rail vehicles 
+
+--- Document Chunk 669 ---
+the wheel is connected to an axle with another 
+
+--- Document Chunk 670 ---
+wheel on the opposite side, they are called axle 
+
+--- Document Chunk 671 ---
+counters. Each axle counter head usually has two 
+
+--- Document Chunk 672 ---
+detectors on the rail, so the direction of travel 
+
+--- Document Chunk 673 ---
+can be identified. The head is connected to an 
+
+--- Document Chunk 674 ---
+evaluator which counts the number of wheels that 
+
+--- Document Chunk 675 ---
+pass. To make a train detection section two heads 
+
+--- Document Chunk 676 ---
+are connected to one evaluator, denoting the 
+
+--- Document Chunk 677 ---
+ends of the train detection section. One counts 
+
+--- Document Chunk 678 ---
+the wheels that enter the section and the other 
+
+--- Document Chunk 679 ---
+subtracts the wheels that have left the section. If 
+
+--- Document Chunk 680 ---
+the answer is zero the track section is deemed to 
+
+--- Document Chunk 681 ---
+be clear of trains. Note that because both heads 
+
+--- Document Chunk 682 ---
+can tell the direction of travel, both can either add 
+
+--- Document Chunk 683 ---
+or subtract from the total. Typically, one head can 
+
+--- Document Chunk 684 ---
+communicate with two evaluators, meaning one 
+
+--- Document Chunk 685 ---
+head is used both to count axles exiting from one 
+
+--- Document Chunk 686 ---
+section and entering the next.
+
+--- Document Chunk 687 ---
+As can be seen from the above description axle 
+
+--- Document Chunk 688 ---
+counters depend on the equipment being able 
+
+--- Document Chunk 689 ---
+to count and store in memory the number of 
+
+--- Document Chunk 690 ---
+wheels that have passed. Such technology, as 
+
+--- Document Chunk 691 ---
+well as the communication between the three 
+
+--- Document Chunk 692 ---
+elements of the system, is much easier with 
+
+--- Document Chunk 693 ---
+modern computing systems and this explains 
+
+--- Document Chunk 694 ---
+the relatively recent increase in their use in some 
+
+--- Document Chunk 695 ---
+parts of the world. Other reasons for adoption are 
+
+--- Document Chunk 696 ---
+they are very largely (although not completely) 
+
+--- Document Chunk 697 ---
+immune to traction current interference; there is 
+
+--- Document Chunk 698 ---
+no limitation on section length, so especially on 
+
+--- Document Chunk 699 ---
+rural routes the volume of trackside equipment 
+
+--- Document Chunk 700 ---
+and associated power supplies becomes much 
+
+--- Document Chunk 701 ---
+smaller; and they are not influenced by rail head 
+
+--- Document Chunk 702 ---
+or ballast resistance conditions. In addition, 
+
+--- Document Chunk 703 ---
+the traction supply engineer is able to design 
+
+--- Document Chunk 704 ---
+the traction return system including all the 
+
+--- Document Chunk 705 ---
+cross bonding required, as well as the track 
+
+--- Document Chunk 706 ---
+earthing connections for AC traction, without 
+
+--- Document Chunk 707 ---
+the constraints of track circuit application rules. 
+
+--- Document Chunk 708 ---
+Finally, there is no requirement for an IRJ or block 
+
+--- Document Chunk 709 ---
+joint, which increases the integrity of the track 
+
+--- Document Chunk 710 ---
+system and reduces costs. Axle counters are now 
+
+--- Document Chunk 711 ---
+the preferred method of train detection for all 
+
+--- Document Chunk 712 ---
+new schemes in Great Britain and in many other 
+
+--- Document Chunk 713 ---
+countries throughout the world.
+
+--- Document Chunk 714 ---
+One particular advantage of axle counters over 
+
+--- Document Chunk 715 ---
+track circuits is that they can be overlaid on 
+
+--- Document Chunk 716 ---
+another detection system (whether track circuits 
+
+--- Document Chunk 717 ---
+or another axle counter system) during a re-
+
+--- Document Chunk 718 ---
+signalling, thus enabling the new detection system 
+
+--- Document Chunk 719 ---
+to be tested and proved to be operational before 
+
+--- Document Chunk 720 ---
+it is required to control the railway. Compare this 
+
+--- Document Chunk 721 ---
+with track circuits where only one track circuit can 
+
+--- Document Chunk 722 ---
+be installed on a section of track at a time.
+
+--- Document Chunk 723 ---
+Axle counters are not without their problems, 
+
+--- Document Chunk 724 ---
+however. An axle-counter section cannot be 
+
+--- Document Chunk 725 ---
+made ‘occupied’ by the use of a track-circuit 
+
+--- Document Chunk 726 ---
+operating device to protect a train, nor will 
+
+--- Document Chunk 727 ---
+an axle-counter system detect a broken rail. 
+
+--- Document Chunk 728 ---
+However, the introduction of train radio for 
+
+--- Document Chunk 729 ---
+emergency communications has provided an 
+
+--- Document Chunk 730 ---
+acceptable alternative to the use of track circuit 
+
+--- Document Chunk 731 ---
+operating clips, and as referred to earlier, a track 
+
+--- Document Chunk 732 ---
+circuit is not regarded as a reliable means of 
+
+--- Document Chunk 733 ---
+detecting a broken rail.
+
+--- Document Chunk 734 ---
+More significantly, when an axle-counter system 
+
+--- Document Chunk 735 ---
+fails it loses track of how many axles have passed 
+
+--- Document Chunk 736 ---
+through it since the failure occurred. Therefore, 
+
+--- Document Chunk 737 ---
+for safety, it is designed so that when the failure 
+
+--- Document Chunk 738 ---
+is fixed, it shows the section of line as being 
+
+--- Document Chunk 739 ---
+occupied, unlike a track circuit. The section then 
+
+--- Document Chunk 740 ---
+needs to be proved clear of a train before the axle 
+
+--- Document Chunk 741 ---
+counters can be reset and restored to operational 
+
+--- Document Chunk 742 ---
+use, which can take some time.
+
+--- Document Chunk 743 ---
+Another problem with axle counters is that a 
+
+--- Document Chunk 744 ---
+right-side failure can occur when a wheel stops 
+
+--- Document Chunk 745 ---
+directly above the inductive sensor, known as 
+
+--- Document Chunk 746 ---
+‘wheel rock’. When the train leaves there is a high 
+
+--- Document Chunk 747 ---
+risk the section will remain occupied with no 
+
+--- Document Chunk 748 ---
+train present and the time-consuming process 
+
+--- Document Chunk 749 ---
+of reset and restore has to be carried out. That 
+
+--- Document Chunk 750 ---
+can cause difficulties at a busy station, especially 
+
+--- Document Chunk 751 ---
+if the platform is configured for multiple short 
+
+--- Document Chunk 752 ---
+trains stopped at various locations along the same 
+
+--- Document Chunk 753 ---
+platform. For these reasons, some sections of 
+
+--- Document Chunk 754 ---
+railway (e.g. Thameslink in the UK) have decided to 
+
+--- Document Chunk 755 ---
+retain track circuits where there are multiple split 
+
+--- Document Chunk 756 ---
+sections along the platforms.
+
+--- Document Chunk 757 ---
+Cab signalling systems
+
+--- Document Chunk 758 ---
+Modern signalling has a greater dependence on 
+
+--- Document Chunk 759 ---
+train-borne systems and communications, with 
+
+--- Document Chunk 760 ---
+CBTC becoming the dominant form for metro 
+
+--- Document Chunk 761 ---
+lines. These systems rely on the train regularly 
+
+--- Document Chunk 762 ---
+reporting its location and other information to the 
+
+--- Document Chunk 763 ---
+control centre, for which of course it requires a 
+
+--- Document Chunk 764 ---
+reliable communication link. Wi-Fi or data enabled 
+
+--- Document Chunk 765 ---
+radio (e.g. 4G/LTE) are used for the ground to train 
+
+--- Document Chunk 766 ---
+communications, with 4G/LTE now becoming 
+
+--- Document Chunk 767 ---
+favoured due to availability concerns with Wi-Fi. 
+
+--- Document Chunk 768 ---
+Together with the use of ATP and ATO, these are 
+
+--- Document Chunk 769 ---
+the key reasons why capacity can be increased 
+
+--- Document Chunk 770 ---
+on metro routes. 
+
+--- Document Chunk 771 ---
+ETCS is the equivalent of CBTC for main line 
+
+--- Document Chunk 772 ---
+railways. However, enabling a main line train to 
+
+--- Document Chunk 773 ---
+define its position accurately is a greater challenge 
+
+--- Document Chunk 774 ---
+than is the case with metros (the latter invariably 
+
+--- Document Chunk 775 ---
+having fixed formation trains). Whilst the leading 
+
+--- Document Chunk 776 ---
+vehicle of a train may be able to inform the 
+
+--- Document Chunk 777 ---
+control centre of its location and movement, it 
+
+--- Document Chunk 778 ---
+is much more difficult to confirm the location 
+
+--- Document Chunk 779 ---
+“One particular 
+
+--- Document Chunk 780 ---
+advantage of axle 
+
+--- Document Chunk 781 ---
+counters over 
+
+--- Document Chunk 782 ---
+track circuits is 
+
+--- Document Chunk 783 ---
+that they can 
+
+--- Document Chunk 784 ---
+be overlaid 
+
+--- Document Chunk 785 ---
+on another 
+
+--- Document Chunk 786 ---
+detection 
+
+--- Document Chunk 787 ---
+system” 
+
+--- Document Chunk 788 ---
+ IRSE News |  Issue 261  |  December 2019
+
+--- Document Chunk 789 ---
+25
+
+--- Document Chunk 790 ---
+of the rear of the train (unless the train is a fixed 
+
+--- Document Chunk 791 ---
+formation). In particular it is difficult to confirm 
+
+--- Document Chunk 792 ---
+that the train is still complete i.e. no vehicles have 
+
+--- Document Chunk 793 ---
+been left behind due to detachment (known as 
+
+--- Document Chunk 794 ---
+‘train integrity’). The lost wagon or coach on a 
+
+--- Document Chunk 795 ---
+locomotive hauled train remains a significant 
+
+--- Document Chunk 796 ---
+challenge for main line railways. Thus, although 
+
+--- Document Chunk 797 ---
+ETCS level 2 can be operated without lineside 
+
+--- Document Chunk 798 ---
+signals, it still uses trackside train detection based 
+
+--- Document Chunk 799 ---
+on track circuits or axle counters. 
+
+--- Document Chunk 800 ---
+ETCS level 3 is the conceptual system that 
+
+--- Document Chunk 801 ---
+will enable trackside train detection to finally 
+
+--- Document Chunk 802 ---
+be removed on main line railways, but when 
+
+--- Document Chunk 803 ---
+we will see it deployed extensively is an open 
+
+--- Document Chunk 804 ---
+question. The option of ETCS hybrid level 3 is one 
+
+--- Document Chunk 805 ---
+way of gaining some of the benefits of Level 3 
+
+--- Document Chunk 806 ---
+whilst avoiding the train integrity problem. In 
+
+--- Document Chunk 807 ---
+hybrid level 3, fixed formation trains such as 
+
+--- Document Chunk 808 ---
+multiple units, which can easily be confirmed 
+
+--- Document Chunk 809 ---
+to be complete, are allowed to operate at 
+
+--- Document Chunk 810 ---
+level 3 whereas others (loco hauled freight and 
+
+--- Document Chunk 811 ---
+passenger trains) are operated in level 2. Thus, the 
+
+--- Document Chunk 812 ---
+infrastructure is equipped with train detection, but 
+
+--- Document Chunk 813 ---
+more than one level 3 train may occupy a given 
+
+--- Document Chunk 814 ---
+train detection section at a time. Furthermore, if 
+
+--- Document Chunk 815 ---
+the trains that are operating in level 2 in a hybrid 
+
+--- Document Chunk 816 ---
+level 3 area are sufficiently infrequent, it may be 
+
+--- Document Chunk 817 ---
+possible to have longer train detection sections 
+
+--- Document Chunk 818 ---
+and thus less trackside equipment on such lines. 
+
+--- Document Chunk 819 ---
+ETCS standards currently specify that trains 
+
+--- Document Chunk 820 ---
+identify their location using a combination 
+
+--- Document Chunk 821 ---
+of balise reference points and tachometry, 
+
+--- Document Chunk 822 ---
+supplemented by Doppler radar. However, there is 
+
+--- Document Chunk 823 ---
+no fundamental reason why this information could 
+
+--- Document Chunk 824 ---
+not be generated from Global Navigation Satellite 
+
+--- Document Chunk 825 ---
+Systems (GNSS) such as GPS, or video tracking and 
+
+--- Document Chunk 826 ---
+position identification, provided it can be proven 
+
+--- Document Chunk 827 ---
+to meet the appropriate Safety Integrity Level (SIL). 
+
+--- Document Chunk 828 ---
+Even in full level 3 areas, some track-based train 
+
+--- Document Chunk 829 ---
+detection is still usually considered essential 
+
+--- Document Chunk 830 ---
+in locations where moveable infrastructure, 
+
+--- Document Chunk 831 ---
+especially points, require locking. The provision 
+
+--- Document Chunk 832 ---
+of some track-based train detection may 
+
+--- Document Chunk 833 ---
+also help recovery to normal operations after 
+
+--- Document Chunk 834 ---
+an ETCS failure.
+
+--- Document Chunk 835 ---
+GNSS and Positive Train Control (PTC) 
+
+--- Document Chunk 836 ---
+In the US, systems using GNSS are being 
+
+--- Document Chunk 837 ---
+introduced as part of the requirement to introduce 
+
+--- Document Chunk 838 ---
+Positive Train Control (PTC) over some 60 000 
+
+--- Document Chunk 839 ---
+miles of railways. The challenge of installing PTC 
+
+--- Document Chunk 840 ---
+is further complicated by the fact that there are 
+
+--- Document Chunk 841 ---
+ten different systems in use across the US. Some 
+
+--- Document Chunk 842 ---
+systems use satellite links for train separation 
+
+--- Document Chunk 843 ---
+and were designed for areas of ‘dark territory’ 
+
+--- Document Chunk 844 ---
+where line-side signals and train detection are not 
+
+--- Document Chunk 845 ---
+provided and instead trains are controlled by train 
+
+--- Document Chunk 846 ---
+orders and track warrants.
+
+--- Document Chunk 847 ---
+As well as train location, GNSS based systems can 
+
+--- Document Chunk 848 ---
+also be used for passenger information both on 
+
+--- Document Chunk 849 ---
+trains and at stations. A further possible use of 
+
+--- Document Chunk 850 ---
+GNSS is to trigger the warning on the approach 
+
+--- Document Chunk 851 ---
+to a level crossing with a constant-time lapse 
+
+--- Document Chunk 852 ---
+regardless of the speed of the train. In a similar 
+
+--- Document Chunk 853 ---
+“Track circuits 
+
+--- Document Chunk 854 ---
+will still be used 
+
+--- Document Chunk 855 ---
+for many years to 
+
+--- Document Chunk 856 ---
+come”
+
+--- Document Chunk 857 ---
+way, track workers could be alerted to the 
+
+--- Document Chunk 858 ---
+approach of a train within a known fixed time.
+
+--- Document Chunk 859 ---
+However, for GNSS to work reliably there needs 
+
+--- Document Chunk 860 ---
+to be clear ‘line of sight’ from trains to satellites, 
+
+--- Document Chunk 861 ---
+which may be prevented by bridges, tunnels, 
+
+--- Document Chunk 862 ---
+cuttings and on sub surface lines. GNSS also 
+
+--- Document Chunk 863 ---
+presents a potential problem in that neither the 
+
+--- Document Chunk 864 ---
+infrastructure manager nor the train operator 
+
+--- Document Chunk 865 ---
+will have any control over the availability of 
+
+--- Document Chunk 866 ---
+the GNSS signal.
+
+--- Document Chunk 867 ---
+Remote condition monitoring 
+
+--- Document Chunk 868 ---
+Track circuits will still be used for many years to 
+
+--- Document Chunk 869 ---
+come, not least because of the massive task of 
+
+--- Document Chunk 870 ---
+replacing life-expired signalling some networks, 
+
+--- Document Chunk 871 ---
+so clever asset management and maintenance 
+
+--- Document Chunk 872 ---
+techniques will be required. One initiative that has 
+
+--- Document Chunk 873 ---
+helped reliability is remote condition monitoring 
+
+--- Document Chunk 874 ---
+(RCM). By monitoring the track circuit current, 
+
+--- Document Chunk 875 ---
+potential failure modes can be predicted and 
+
+--- Document Chunk 876 ---
+interventions planned before failure occurs. It is 
+
+--- Document Chunk 877 ---
+not something that is easy to automate, but there 
+
+--- Document Chunk 878 ---
+have been consequential improvements in track 
+
+--- Document Chunk 879 ---
+circuit reliability, with potentially more to come.
+
+--- Document Chunk 880 ---
+One recent innovation involving the use of RCM 
+
+--- Document Chunk 881 ---
+allows new jointless track circuits to be inspected 
+
+--- Document Chunk 882 ---
+in real time from remote locations, thus improving 
+
+--- Document Chunk 883 ---
+reliability. Prior to its implementation, track 
+
+--- Document Chunk 884 ---
+circuits had to be checked on site using digital 
+
+--- Document Chunk 885 ---
+multi-meters, which was a time-consuming 
+
+--- Document Chunk 886 ---
+task and not conducive to finding faults before 
+
+--- Document Chunk 887 ---
+they occurred. Axle-counter systems also have 
+
+--- Document Chunk 888 ---
+sophisticated built-in remote diagnostics, and this 
+
+--- Document Chunk 889 ---
+is one example of the digital railway delivering 
+
+--- Document Chunk 890 ---
+results today. 
+
+--- Document Chunk 891 ---
+Conclusion
+
+--- Document Chunk 892 ---
+The development of train detection systems 
+
+--- Document Chunk 893 ---
+has been driven by need, accident and available 
+
+--- Document Chunk 894 ---
+technology. Increasingly we are seeing the use 
+
+--- Document Chunk 895 ---
+of train-based location systems, but track-based 
+
+--- Document Chunk 896 ---
+systems will continue to be important for many 
+
+--- Document Chunk 897 ---
+railways around the world. 
+
+--- Document Chunk 898 ---
+Both of the major methods of track-based train 
+
+--- Document Chunk 899 ---
+detection, namely track circuits and axle counters, 
+
+--- Document Chunk 900 ---
+have their supporters and detractors. However, 
+
+--- Document Chunk 901 ---
+for now at least, axle counters are used more than 
+
+--- Document Chunk 902 ---
+track circuits for new signalling systems.
+
+--- Document Chunk 903 ---
+Have you got an idea for a future ‘back 
+
+--- Document Chunk 904 ---
+to basics’ article? Perhaps an area of 
+
+--- Document Chunk 905 ---
+command, control, signalling and 
+
+--- Document Chunk 906 ---
+telecoms engineering that you’d like to 
+
+--- Document Chunk 907 ---
+understand better. 
+
+--- Document Chunk 908 ---
+Could you share your experience of these 
+
+--- Document Chunk 909 ---
+topics with the next generation? If you could 
+
+--- Document Chunk 910 ---
+contribute to a future article do let us know, 
+
+--- Document Chunk 911 ---
+email editor@irsenews.co.uk and we will be 
+
+--- Document Chunk 912 ---
+happy to consider your ideas.
+
+--- Document Chunk 913 ---
+“For GNSS to 
+
+--- Document Chunk 914 ---
+work reliably 
+
+--- Document Chunk 915 ---
+there needs to 
+
+--- Document Chunk 916 ---
+be clear ‘line of 
+
+--- Document Chunk 917 ---
+sight’ from trains 
+
+--- Document Chunk 918 ---
+to satellites”
+
