@@ -1,0 +1,6340 @@
+
+--- Page 1 ---
+ae 45.020                                                                                                SFI
+
+中 Be] Sak vis i EL 3S a Bs Sz Al 44 x HE
+
+T/CAMET 04010.4— 2018
+
+城市轨道交通”基于通信的列车运行
+控制系统 ( CBTC ) 互联互通系统规范
+第4部分: 互联互通危害分析
+
+Urban rail transit 一 System specification for interoperability of
+communication based train control system
+Part 4: Hazard analysis of interoperability
+
+2018-09-10 2&4                        2018-12-31 实施
+
+中国城市轨道交通协会 发 布
+
+--- Page 2 ---
+T/CAMET 04010. 4—2018
+
+1                                      1
+2  PUGTES VN                            1
+3.2 缩略请 pe A
+5
+5
+
+Si  Et.
+5.3 物资
+6 危害识别及1
+6.1 危害识别方法说明…
+6.2 事故分析……
+6.3 危害分析…
+6.4 危害结果                           四
+7  安全要求 、 本 135
+7.3 £574 2) | | EOS 145
+参考文献…      49
+
+
+--- Page 3 ---
+T/CAMET 04010. 4一2018
+
+a
+Il}
+
+T/CAMET 04010《城市轨道交通“基于通信的列车运行控制系统
+(CBTC ) 互联互通系统规范》分为以下四个部分:
+
+一一第 1 部分:系统总体昌求;
+
+一一第 2 部分:系统架构和功能分配;
+第3 部分:和车载电子地网;
+一一第4 部分:互联互通危害分析。
+ASHP SE T/CAMET 04010 的第 4 部分。
+本部分按照 CBAT 1.1一2009 给出的规则起草，
+本部分的基些内容可能涉及专利,本部分的发布机构不承担
+识别这些 总利的责任。
+
+本部分由中同城市轨道交通协会技术装备专业委员会提出。
+
+本部分由中国城市委道交通协会归口。
+
+木部分起草单位:交控科技股份有限公司 .浙江众合科技股份有限公
+司 .北京全路通信信号研究设计院集团有限公司 ,中国铁道科学研究院焦
+团有限公司通信信号研究所 .中铁检验认证中心。
+RGR GRATE OTH RR BR DAE A EAL EP RA,
+赵炜 ABA RHO GRR SRB Baie TE OC EBS
+张守芝 .朱东飞 ,刘新平.王道敏
+
+I
+
+a
+
+--- Page 4 ---
+T/CAMET 04010. 4一2018
+
+引
+
+为促进中国城市轨道交通建设,实现并满足城市轨道交通互联互通
+的震要 ,达到经济适用 ,资源共享 .技术先进及可持续发展的日标,制定城
+市轨道交通基于通信的列车运行控制系统(CBTC ) 互联互通系列团体
+标准。
+
+该系列规范包括《城市轨道交通“基于通信的列车运行控制系统
+(CBTC)互联互通系统规范兴城市轨道交通“基于通信的列车运行
+
+系统(CBTC ) 互联互通接口规范兴城市轨道交通“基于通信的列车运行
+控制系统(CBTC ) 互联互通测试规范兴城市轨i   基于通信的列车
+
+运行控制系统(CBTC ) 互联互通工程规范》4 个规范(17 个部分) ，
+
+Ml
+
+--- Page 5 ---
+T/CAMET 04010. 4一2018
+
+城市轨道交通 基于通信的列车
+
+运行控制系统(CBTC) 互联互通系统规范
+第4 部分:互联互通危害分析
+1 范围
+ASB at A GE  ET aS      B cage 系统危害分析 ,包含安
+AWE ,系统范围、        六 全
+术部分适用于国哪状用基于通信的列   控制(CBTC ) 系统的新
+建 .更新改造及扩建       道交ii       设     指导信号系统的互联
+
+2 规范性引用文
+
+下列文件对  < Yi i       Ay Ae aL eS
+件 FB i       Hb RE ASIA INN S| FSC CIR
+
+GB/T 21562—2008 轨道交通”可靠性 .可用性.可维修性和安全
+
+性规范及示例(
+
+EC 62278 :2002 ,1DT)
+
+GB/T 21562.2—2015 ”轨道交通”可靠性.可用性.可维护性和安
+全性规范及示例 第2部分:安全性应用指南
+
+GB/T 32588. 1一2016 ”轨道交通“自动化的城市轨道交通(AUGCT)
+安全要求 “第1部分:总则(JIEC 6227:2009,MOD)
+
+GB 50157一2013 ”地铁设计规范
+一2012 城市轨道交通基于通信的列车自动控制系统技术
+
+CJ/T 407
+
+要求
+
+
+--- Page 6 ---
+T/CAMET 04010. 4一2018
+
+3 术语和缩略语
+
+GB 50157—2013 .CJ/T 407—2012 #1 T/CAMET 04010. 1 界定的及下
+ACL Fn Sa HP ASB OO TD WP
+3.1 Riz
+3.1.1
+
+ee  communication based train control( CBTC )
+
+过不依赖轨旁列车占用检测设备的列车主动定位技术,连续车-地
+sui einaa PRD. eeu gare -bondeey 4p wan om be tae
+连续式列车月动控制系统，
+
+[ CJ/T 407一2012 ,定义3.1.1]
+
+3.1.2
+
+iE# main line
+
+RE BN) Ai PF ANY OE OE SE AY BG
+
+{GB 50157—2013 , 78 % 2.0.11]
+
+3.1.3
+
+列车自动控制 automatic train control
+
+fe BEA TIMI AE HE LEB WT A AGS TH Hh
+
+[ GB 50157—2013, # % 2.0. 38)
+
+3.1.4
+
+计算机联锁。 computer interlocking
+
+以计算机技术为核心,自动实现进路 .道岔.信号机等防护技术的
+
+[ CJ/T 407一2012 ,定义3.1.6]j
+3.1.5
+
+移动授权 movement authority
+
+列车沿给定的行驶方向进入并在某一特定轨道区段内行车的许可。
+
+[ CJ/T 407一2012 ,定义3.1.7]
+
+等技术的总称
+
+wv
+
+--- Page 7 ---
+T/CAMET 04010. 4一2018
+
+3.1.6
+
+跨线运行 ”overline operation
+
+运营列车在两条或两条以上制式相同或兼容的线路中,巾一条线路
+进入另外一条线路进行共线运行的方式。
+
+[T/CAMET 04010.1 ,定义3.1.14]
+3.1.7
+
+互联互通 interoperability
+
+装备不同信和号厂家车载设备的列车可以在装备不同信号厂家轨劳设备
+的一条轨道交通线路内或多条轨道交通线路上无颖互通安全可靠运营。
+
+{T/CAMET 04010. 1 ,定义3.1.16]
+3.1.8
+
+共线运行“mix operation
+
+装备不同厂家车载信号设备的列车可以在装备同一厂家轨劳信号设
+备线路上支持以点式列车控制级别和连续式列车控制级别无缝安全可靠
+
+[TZCAMET 04010.2 ,定义3.1.18]
+3. 1.9
+
+上线测试 running test
+
+装备不同厂家车载设备的列车在本线进行动车测试。
+3. 1. 10
+
+互联互通试运营 ”interoperabetrial operation
+
+装备不同厂家和车载设备的列车可以在装备不同厂家轨汶设备的多条
+线路上满足互联互通功能要求,且系统性能满足工程要求 ,开始
+
+本线 local line
+
+者由单个集成商所负责的轨旁信号设备所对应的线路 -
+3. 1. 12
+
+他线 neighbouring line
+
+--- Page 8 ---
+T/CAMET 04010. 4一2018
+
+与本线互联互通的其他线路。
+3. 1. 13
+单线 single line
+指装备本线信号设备供应商的车载信号列车在本线线路上运行
+3. 1. 14
+最大退行停车距离 maximum exit parking distance
+最大退行停车距离 = 最大退行 EB 触发距离 + EB 制动距离
+3. 1. 15
+最大后   oon  Maximum rear slip parking distance
+BORA AS PBS =I Ka EB 触发距离 + EB 制动距离。
+3.2 缩略语
+AM:列车自动驾驶模式(Automatic Train Operating Mode)
+ATC :列车自动控制(Automatic Train Control )
+ATO :列车自动运行(Automatic Train Operation )
+ATP:列车自动防护(Automatic Train Protection )
+ATS :列车自动监控(Automatic Train Supervision )
+BTM :应答回传输模块(Balise Transfer Module )
+CBTC :基于通信的列车控制(Communication Based Train Control)
+CI:计算机联锁( Computer Interlocking )
+CM :列车自动防护模式(Coded Train Operating Mode)
+DCS :数据通信系统(Data Communication System)
+EUM :非限制人工驾驶模式(Emergency Unrestricted Train Operating
+Mode)
+ITC :点式运行级别(Intermittent Train Control )
+LEU:轨旁电子单元(Lineside Electronic Unit)
+PSD :站台门(Platform Screen Door)
+RM :限制人工驾驶模式(Restricted Train Operating Mode)
+VOBC :车载控制器( Vehicle On-Board Controller)
+ZC:区域控制器(Zone Controller)
+
+
+--- Page 9 ---
+T/CAMET 04010. 4一2018
+
+4 总则
+4.1 概述
+
+按照 CEBMT 21562一2008 规定的生命周期模型 ,确定本部分危害分析
+和安全要求识别过程,如图1所示。
+
+系统定义及其
+应用条件           一 -一
+
+实线框过程为本规范描述范围。
+图1 本规范覆盖的全生命周期阶段
+本规范所应用的方法(如图1 中的实线框部分所示)包括:
+a) 定义互联互通信号系统及其应用条件;
+b) 在系统级级别执行初步危害分析;
+c) Wh RAK.
+4.2 系统定义和应用条件
+4.2.1 系统描述
+城市轨道交通互联互通 CBTC 系统应具备下列功能:
+
+--- Page 10 ---
+T/CAMET 04010. 4一2018
+
+a) “提供城市轨道交通互联互通系统的信号控制系统;
+b) 按不同和运营级判控制列车运营;
+
+c) 控制列车在专用轨道上运行,含本线
+d) 信号系统控制运
+
+i
+
+道 .他线轨道和跨线轨道;
+
+one 提供列车安全运行的条件;
+
+e) 装备不同厂家车   备的列车可以在装备同一厂家轨旁设备
+QL RAR STH. SF, WIA 2 所示;
+
+£) AR RANT RE BR oh BY BH) 4 UW 2 2 He RE RAS
+Vad iy a Fe We he AS Wid 2 TFC eT] HS EF, OA 3 所示。
+
+Lis  CERIECOYERES A01                 EBYPPVe Be?
+8 —$———SS
+CaaGe 101         CE
+线路B
+图2 共线运行示意图
++4,                 CEEEENAn
+
+ B03
+线路B                                                                   一一一
+
+图3 跨线运行示意图
+
+4.2.2 CBTC 信号系统架构
+本规范提述的危害分析适用的单线 CBTC 信号系统如网 4 Seas ,
+联互通 CBTC 信和号系统如网 $ 所示
+
+6
+
+--- Page 11 ---
+T/CAMET 04010. 4—2018
+
+注:本规范不对单线 CBTC ARI RSH IS AE SE ET TT
+个或两个以上厂家提供的 CBTC 系统中的子系统构成的互联互通 CBTC 系统进行危
+害分析。
+
+信号系统外部系统
+
+图4 单线 CBTC 系统架构示意图
+
+图 5 为互联互通 CBTC 信号系统各子系统间、信号系统与外部接口
+示意图。信和号系统的功能由接口实现,即信号系统通过接口与外界系统
+进行交互,实现信号系统在整个轨道交通系统中的功能。信和号系统与外
+界系统的交互可以通过物理的接口 ,也可以通过人员的操作、使用和维护
+实现。
+
+--- Page 12 ---
+T/CAMET 04010. 4一2018
+
+BSL BeolOR awe Se
+
+一 EMO LEO
+==      OCR
+
+WEUNAGE GEA
+
+GE NAGG SE GE}
+
+ie fae
+/SSW/SOG)|| /i§-44/SO
+/ALW/SIVAD| VALV/SLVD)
+
+
+--- Page 13 ---
+T/CAMET 04010. 4一2018
+
+4.2.3 CBTC 信号系统边界
+表 1 规定了本部分危害分析的系统边界。
+表1 CBIC 信号系统边界
+信号系统接口 ”功能边界     交互方式及内容      物理边界
+
+ai
+
+、切除牵
+il 动
+
+So)
+
+。| 装车载信叶设备;，
+| a  专电流发
+LEBEL
+| 通过网络与
+-| 系统接口;
+
+输入输
+
+=
+
+&
+
+信和号
+
+与车辆
+
+通信
+
+现人
+出控制功能
+
+Sahar                                       继电器
+a      Fal EL BLTAL AUER Bi] 站人台门开启或关闭状态
+除信息, 证保
+门关门且锁闭,互锁
+防沪门“|程及关闭后,保| 态度门关闭请求;       继电器
+证列丰行车安全|，允许关闭防流门
+       ”| 防洲门完全开启且锁定
+
+
+--- Page 14 ---
+T/CAMET 04010. 4一2018
+
+表1
+
+功能边界
+安全的进路(全
+线,包括千辆段)
+
+CBTC 信号系统边界(续)
+
+交开方式及内容
+通过司机对信和叶机显示响
+现列车在正确联锁关系
+的进路中行驶
+
+物理边界
+
+售号机(点灯状
+态时)
+
+全防护和超速
+护功能(
+
+内 行驶
+
+无
+功能
+运行安全防护和                 a   =o
+oo ae      sil ecea etm) 无
+|可
+和的列车运行                      无
+
+Bh BE A’ |
+
+和按钮
+
+Be iM ik 45 aR Sh aS a
+ea ri) OL RE HE AAT
+
+ALBEIT ( 4e ak
+显示器.和车载按钮
+灯)
+
+生系统允许
+
+行进行十预和人
+工操作,包括控
+制列 车的记 动、
+舍止.开关门 和
+
+司机对列车的运|
+
+按钮的操作,实现对列企运
+行的控制
+
+ABLE
+fil IF X)
+
+10
+
+AEF a] WL FRR BEE fe
+号系统的反应应该导癌安
+
+全侧
+
+按钮/开关
+
+
+--- Page 15 ---
+表1
+
+T/CAMET 04010. 4一2018
+
+功能边界
+
+BE BAH BES
+
+Bl
+
+提供|
+
+统通过中心和车站
+控设备,提供线
+,供调度及值班员
+
+人机接口(中心
+和车站 ATS 显示
+器)
+
+UE AF the Fs
+信号系统允许
+，              人机接TT (中心
+调度及值班员通过在中心| ATS 显示器.中心
+的监控设备的电脑终 | ATS       、现地
+-进行操作,对全线的运|寺作站显示器、现
+了干预              地工作站拘作人台)、
+
+1BP &
+
+ffi       对 iN]
+度及值班员的拘
+作进行安全防护
+
+KALE LL Cts
+ATS 显示器.中心
+eft. Sa Sb
+
+工作的安全性
+
+4.2.4 列车运行安全职责
+
+面板指示灯、开
+KALE TG
+
+#2 规定了4.2.1.4.2.2,.4.2.3所描述的 CBTC 信和号系统实现列车
+
+运行基本功能的安全职责。
+
+11
+
+
+--- Page 16 ---
+T/CAMET 04010. 4—2018
+
+R2 WHETRA
+
+列车自动防
+
+非限制人工 | 限制人工                           列车自动
+oe | oma geese [ET RASA ei gae
+列车运行基本功能     驾驶模式 | 驾驶模式  名驶模式  驾驶模式
+
+EUM
+再并S
+
+RM
+
+从保安全进路     (道岔控制由| HIS |    S        S
+列车六
+aT tema |       HFS       S        S
+安全运行一
+价保安全速度(包
+含:EBI\临时限速 AE      H         S       HES     HFS
+引切除及恢复)
+把驶列 4) $8 iil 48S] AL Hl       1         HORS      Hits |     s
+运行 |(含ATP、ATO)                                       |
+i ke A Bie Ai a       i          H          H         H
+Bai Ak ALA DA fab Sit         H          H          H         H
+Teeihal Ae ee aa A 420       H           H        HFS      HFS
+防止车体之间或站
+ome
+oe AAA ZIM AB) 日         H         昌        H
+ee | Bit:
+WI LR LE BR AE FA        H         HOES      日并S      H并S
+投入或退出运?         H并S       HFS      HFS      H并S
+含列车完整性.紧急     H       S       S      S
+
+制动实施 ,车门状
+确保紧急”列车性能诊断,烟/|
+
+KG) 火检测, 紧急情况处    H
+SLC OF M/s BC, ee FE)
+
+SRE:
+并一一运营人员和系统共同实现安全功能。
+12
+
+
+--- Page 17 ---
+T/CAMET 04010. 4一2018
+
+5 保护对象
+
+5.1 概述
+在具体项目风险管理中进行危险分析时 ,应考虑可能影响人员和物
+资的危害。
+5.2 AR
+5.2.1 概述
+人员划分为乘客 .公众和员工,包括外部应急服务。CBTC 互联互通
+号系统防护对象是乘客及员工,外部应急服务及公众不在本规范描述
+‘cm.
+
+5.2.2 乘客
+i id Mitt 22 ih BBW BI — NA i Oe RH
+(例如,与交通部门相    i     BPaE AAD AG, TT LE SA RE
+
+He FS NL SAD SSE人 力是有区别的,乘客
+可能会:
+
+。揽带大小 .形状
+
+。扒带儿童或怀抱婴儿k包
+
+。是儿童;
+
+。行动不便(老人、身有残疾的人);
+
+理解能力受限(语言不通的 .受酒精或药物影响的) ;
+
+。患有智力障碍;
+
+。患有听力或视力障碍等。
+
+轨道交通主管部门应与安全主管部门协商,在风险评估中分析乘客
+应对能力水平的不同以及带儿童 .行李和物品的情况。
+5.2.3 员工
+
+受雇于轨道交通部门或其他相关机构的人员。
+
+员工有不同类型的人员 ,包括:
+
+
+--- Page 18 ---
+T/CAMET 04010. 4一2018
+
+。运营人员;
+© AEP AK;
+HMA;
+。外部工作人员(例如,维护和清洁人员) 。
+5.3 物资
+物资包括整个系统的基础设施.列车`.CBTC 互联互通系统设备 .邻
+近系统边界的物品和系统周边设施,还有乘客携带的物品。
+
+6 危害识别及保障机制
+
+6.1 危害识别方法说明
+本规范将互联互通信和续
+
+为一个完整系统来看待,根据信
+统的应几原则和以往的        对信和另系统的边界条件和所处环境
+分析,以识别信号系统危害。信和号系统的边界将基于信和号系统的设备接
+口,以及信号系统的主要功能来进行定义,具体参见4.2.2 4. 2.3,
+
+图3 (4 GK Thal CBTC 信号系统当作     系统石得,通过对信号
+系统与外部系统的相瑟影响和作几识别出信 系统的危害。 初步
+识别采用至上而下的方式,系统地对信 aon    设让以及操作 Mei y
+进行确定。根据多年来铁路行业的事故总 ose, eA
+信号系统的合用条件 ,把可能产生的出故进行整理,并逐层向下分解,识
+别出导致事件发牛的信号系统的因素
+
+信号系统的使用条件包括:
+
+se列车是在轨道上运行的;
+
+。轨道上有道岔;
+
+。线路上布置有信吨机;
+
+es列车是由多节且节数已知的车厢组成起来的;
+
+WA ELAEN ,以防司机与乘务人员从车上哈入路轨;
+
+。车站上装置有站台门 ,以防乘客险和路轨;
+
+。信号系统使用环境是封闭的;
+
+。线路上运行车辆应被信号系统识别。
+
+
+--- Page 19 ---
+T/CAMET 04010. 4一2018
+
+6. 2 ”事故分析
+
+参照 CBMT 21562. 2一2015 附录 B 中危害清单及轨道交通行业事故
+统计及经验总结,互联互通 CBTC 信号系统可能产生的事故分为以下几
+种类型:撞击.脱轨.人员跌落 触电,火灾.有毒物质或气体,爆炸、辆射、
+
+于扰、环境 .恶意破坏,意外和灾难。表3 对各个事故进行了详细描述。
+表3 事故分解表
+出故 | Be a      TAS Sit WD OP ie     2 级编导      VE SI EAA OF BR
+Ref-1. 1    Sl a EAT
+Ref-1.2 | 列车侧面相撞
+Ref-1      BN AEN AY A ALA
+Ref-l.3 | 列车迎面相挤
+Ref1.4 | 列车解体导致撞车
+fick                                  Ref-2. 1 | “列车与侵限物体相撞
+列车冲出轨道尽头,撞
+Ref2 | ，列竺与结构物或障碍物| "> | 到轨道终潮的缓冲车持
+Wea                      Ref-2.3 | SAE FB MED LAL
+Ref-2.4 | 列车与人防门相撞
+Ref3 | 列不撞人              Ref3.1 | FASTA LEAR
+Rota | 列车火去运行方向引导
+脱轨 | Ref-4     列车脱轨              Ref4.2 | 列车运行过程中火稳
+Ref-4.3 | 列全脱轨侵入共他轨道
+| Refs.1 | 人员内站台跌入轨道区域
+recs | Atv asiattnesg | Refs.2 [ASAI At cit
+员被夹在列车与站人台
+pea                               rs 人 列车与站人
+Ref-6. 1 | “乘客在列车客室跌倒
+Ref-6      人员在列车内跌倒        Re  vn 机等员工在司机室
+
+15
+
+--- Page 20 ---
+T/CAMET 04010. 4—2018
+
+表3 事故分解表(续)
+
+事改 |1 级编号     SPF HBC Sy ik) AG Sb     2 级编号     “Ye ASH Sst HI AE aD
+触电 | Ref-7     触电                    一             一
+火灾 | Ref-8     火灾                    一              一
+Ref-9    有毒物质或气          一           一
+或气体    e      有毒物质或气体                                  |
+爆炸 | Ref-10                           一              一
+辆射 | Ref-11                           一              一
+Ref-12                           一              _
+功能失效             国
+Foe | Ref-13 | 信号系统电厂上扰超祭 | 一             一
+Ref-14          + Fe HED HEE     一               一
+Ref-15                                 到外部入侵          一                                一
+ef-1                                  一                一
+soon Rer16 | yap
+PRHGDN A          puny en       -     一            一        |
+导致天效FeC17   ee =    a
+RelIB | 赤效                          一                一
+显意破坏| Ref-19    人为恶意破坏            一             一
+灾难 | Ref-20 | 洪水/地起/强风          一             一
+恬当同时存在列车数旺
+Ref-21    基础措施过度承戟     Ref-21. 1| 过多 ,导致改洪损坏,从而
+基础奸   导致行车事故
+设损坏 | Ref22 | 基础设施沉降      Ref22 1| RU RE Re SF
+|                                     脱轨
+Ref-23        基础设施拥声                        一                           一
+Ye Hp iy     造    员 |Ref-24. 1
+运营与 | Ref24  wee x      伤亡
+维护过               a                           Ref-24. 2| ”列车挤到现场维护人员
+程伤害        救援与丽散过程中,造
+Ref-25                                一                一
+“|成人员伤亡
+
+
+--- Page 21 ---
+LI
+
+6.3 危害分析
+恨据轨道交通运营场景.互联互通 CBTC 系统架构.系统功能及互联互通接口规范,进行互联乞
+通危害分析及安全要求识别。同时参照 CJMT 407一2012《城市轨道交通基于通信的列车白动控制系
+统技术要求》进行系统功能安全要求分配,见表4。
+注:本规范适用互联互通运 eee CBTC CARNES :
+规范分析过          id 及部 Bor 单
+
+中全
+
+时,本线列
+车移动授权
+
+区  SEA
+SEBI jk MENT, ATP 4
+
+列车         ACHE CBTC
+it Fe tn PH | mc gy a ag, SUM
+fit          .
+驶至联
+rend                sna)
+CBTC ITC
+车辆
+
+810z一7 "0100 LAWVO/L
+
+--- Page 22 ---
+8T
+
+表4
+
+互联互通危害分析(续)
+
+开联互通
+
+编号 计族场划 4 | 互联互适                                                    系统功能
+编呈上下履声庆 D | R      BENG Sif     编导          rama | 21"
+由级别下 ,ZC 确
+srsal®         方向和列车的运| TE AE
+行权限，      证前行列车和追
+踪列车间的安全问隔
+训能识别车载 ATP
+SR-1-39| 系统通信中断改障,并提供防
+eres       _ UTE PETS SRS ob eric ATLA      eeu
+列车        错误,导致
+本线 CBTC .| |                                         <锁设备震保证建立
+Ref-1.1|追尼    PH-l         一| SHA-I           。                BL far ty as WEE | oe
+nt en     ITC 列车行     CBTC 4 HF | spss | ny ue g        、不能迎面 oan
+                       了不安全的      名镇列车运行前方的部分进路 |
+ies        MA
+care, ITC                  spose) 信号开放/进路办理检查条| 进路/区
+车辆                       ”|件应符合联镇去要求        段锁闭
+列或多列车在同- -区段内
+运行时,轨道十用检测设备应
+进路办
+SN-S7 iE WPL MGT A BEA |
+
+原则
+
+8107一?0L0Y0 LAINVI/L
+
+--- Page 23 ---
+61
+
+表 4 互联互通危害分析(续)
+
+编号 | SH RE                                 ne    EA WGR/ EMR AT    系统功能
+RS   计轴复位命令震经过二次确   ib ai 故
+认                       BRP SE
+应采用安全继电器或其他安
+SR-S-9 | 全接口技术传输轨道的占用状   一
+方制定计条下接复位
+跨线运                                          人员必须确定
+时,本线 i                 SR-O-1 | 该计轴区段确        一
+车移动授权                                               障碍物占二
+列4        错误.导致                           接复位操作                      _
+Rerl 中追尾相| pH    线    are                       互联互通公用电子地网应包    电子地
+rs            ITC ¥) 4.477 ”               Isp-s-10 & 424k ATP 计算 EBT 的所
+撞击联络线       MA
+CBTC, ITC                                     级别下 ,临时限速
+和车辆                                 hoc  t.Z2C 于
+
+SR-I-40
+
+SR-I-1
+
+正确处理并正确传输给车载
+ATP
+
+CBTC 级别下 .车载 ATP 系统
+计算 EB1时正确使用临时限速
+
+VOBC-ZC
+接口规范
+临 时 限
+
+810Z一yp ‘01000 LAINNVO/L
+
+--- Page 24 ---
+表4 互联互通危害分析(续)
+
+aS | E  Hy it  向号   L   通               aw                           Za  a
+编号 AAR 编号 | 互联互通 | ee yey      | 有可            Smee] 系统功能
+|                  系统线路数据准备过程应被
+ss. 定义流程规范,确保数据全面.|
+JE Wh, Ki FB Wa WE AT EE
+和安全评估
+非 CBTC 级别下 ,临时限速信
+息不能通过信号系统传递到车
+跨线运营                          载 ATP    进行防护,运营贞
+时,本线列                      任方应制定临时限速操作规
+Sweatt                          程,确保临时限速信息及时伟
+列车       a a       了不安全的       aan                      -一
+Ref-1.1|追尾相| PH-1  ITC 列车行      MA                      _    VOBC-ZC
+dit             ab MEEK                      sro) YOBC 和 a 间 ww 信采用  接口 规 it
+cBTc, ITC                       .                    fon
+车辆                                 元联互通联络线 ZC 交接时，
+SR-S-12] 本线 ZC 应保证为他线 CBTC    一
+列车计算 MA 的正确
+列车       3  车辆提供方应保证互联互适
+ms | 5在           列车编组信息配置正确
+VOBC      接口1                        VOBC-ZC
+
+Bc
+
+联互授列车车
+
+接口规范
+
+8102—b 01000 LAINNVO/L
+
+--- Page 25 ---
+R4 互联互通危害分析(续)
+
+危害 |所联王通信号系
+ bicaesm sel a    +    eH PI LM FES A                      eH)
+FOB 3 MOS | ITM | eae aa tear shal oS         june | 系统功能
+
+互联互通线路应规范各信号系
+统问通信延时时间,VOBC-ZC 通
+信延时超时应判断为通信中断，
+若此时列车处于 CBTC 级草下，
+aes are > cei 紧急   3
+
+AM Bie AF
+再
+
+%                                                          一
+时,本
+车移动授权                                                  rn re
+Wah, 导致                  CF ROW AOE OLEAN AEE |
+
+列车       本起 CRTC、                                并根据列车安全位置  nn %
+i           驶至联络线|                                                   _
+
+撞击联络线                           EARLE 20 SRM! 人由
+cBTC, ITC                          应保证列车不丢失
+
+ZC. 应对管刍范围内的所有
+共线 .跨线运营列车 ID 进行管
+理,对各 CBTC 列车 ID 进行唯
+一检查 ,发现本 ZC 管辖范围重
+复ID时,重复ID列车降级运
+行;发现向接管 ZC 审请授权列
+Me if SL ID 时,ZC 则拒绝该车的
+报文,不让成功建链
+
+车辆
+
+8107一? 0100 TIANVD《XL
+
+--- Page 26 ---
+要  互联互通危害分析(续)
+
+Ref-1.1
+
+SR-I-6
+
+Wea 5] 编号 | TTT  os My                ENR RTE
+|    |                    sR-S-18  联络线车辆交接时,ZC 应能
+       正确识别他线进入的列车
+上
+联络线车辆交接时,车载
+SR-S-19 vn  应能正确处理他线 ZC 发    一
+交接         送的 MA
+跨线运营| THA 时,通信延时                       Bit &
+vas       导致列车在他                               BE RLY
+iif, A ER     RE
+车移动授权      “              联络线车辆交接失败时,车| 点防护,移
+错误,导臻               SR-S-20| 4& ATP 应保证列车在当月    ay He
+ 列车     ALL CBTC、                分界点前停车或紧急停车   新超叶防
+Whe al  PHL | rc 列车行                                       护、ZC Wil
+ii                     Meso                                                                                          BE
+ice                              20-26
+a "re                 “UK ih ZC-ZC 接口协议应 a mv Mab
+联络线 ZC. SR-LI-5 | 采用 RSSP- 1 铁路信号安全通
+IHA-4 | ZC 接口           信协议                 安全通信
+传输错误                                                                                              协议”
+统一互联互通 ZC-ZC 接口,| 2ZC-ZC
+
+保证接口效据全面、正确
+
+RET
+
+v 01000 LANVO/L
+
+8102
+
+--- Page 27 ---
+表4 4 互联互通危害分析(续)
+
+PCa re         Fe AL      人人       系统功能
+|            + 统场景       导   安全变求/运用限制条件
+广 -一                                                     CrCl 接
+日 A i
+.     互联 CU Tn
+a        -| SEAT |采用 RSSP-工安全协议
+-5
+和给错误                :
+srg | 267 Em   CLCI HE, fe] CI-CI 接
+| GE BE A Bi = TE    口规范
+ape     — HURT WA Fi LK   _
+SR-S-21 arreen 正确
+Ref-1. 1 rs  PH-L |                   SR-S-11|定  cA a a He mf
+ow  Hi °    ~ HITC 列               ”|正确.   程应进行安全分析
+加       驶至联                   和安全评估
+        互联互通用数据版本应进行
+cBTC, ITC     互联开通车|、
+        卫   SR-S-22| 配置管理.确保现场使用数据  一
+车辆    1HA-6 | 载电子地图错    正确性
+WR                          | 一
+车载 ATP 系统应保证所有互
+联互通公有电子地图版本正确
+HE All af          五行    子
+SR-S-23| 时,如果发现      ZC, ann ae
+Cl Al ATS 版本    aa yes | AEH
+时.对应车地通信无效,对应接
+口俞令不执行
+
+810z一00VY0 LANNVO/L
+
+--- Page 28 ---
+表4  aeeneeon
+
+列车
+Ref-1. !| 追尾 相
+Silt
+
+T
+
+互联互
+
+系统功能
+besnstsene ial BE | EewR nm | 系统功能
+CBTC 4 HF, ZC 计算 MA
+|时,应包含运行前方列车最大| 确定移
+SR-S-26| 退行停车距离;ITC 级别下,车 | 动授权 、确
+a         BL ATP 计算 MA 时,应包含运| 定目慰点
+后车 MA 计        行前方列车最大退行停车距离
+4 算未计算              :
+SHA? | 最大退行停车       互联互通列车在 CBTC ITC
+Weis          级别下移动授权防护中最大退
+_                   行停车距离应>各厂商本线的
+线运营           SR-S-2                一
+one                     |最大退行停车距离;列车退行
+CRTC vi                    超过互联互通最大退行停车距
+PH-         本                        离时 ,车载 ATP Hi    ‘Hl &
+2 esta atene                  站时 .车载 ATP 输出紧急制动
+络线 CBTC                   SR_Ss.13| PAS PEE Ae i ORE De    _
+列车         列车编组信| “| 列车编组信息配置正确
+THA-1 |息与车长不匹     本    | VOBC-
+配       SR_S_14  VOBC-ZC 接口信息应包含互 ZC 六  "
+SRS 4 or ae RANKL    ene
+i    一|
+JEBEL                        aT
+_ hr i       车载 ATP 将实际速度与当前| FE
+eee      EBI 进行比较,如果实际速度> | PT? 7
+SHA-3 |授权时,车载|SR-S-27    了
+
+ATP 没有有效
+
+输出紧急制动
+
+度,应输出紧急制动命| 二这
+
+8L0¢—b “0L0V0 LANVO/L
+
+--- Page 29 ---
+ST
+
+表4 互联互通危害分析(续)
+危害 [Le GT BR              :
+编号 院场景危害分解 编号|。 安全要求/运用限制条件
+
+FEAL ATP 系统监督列车的退| FB
+行迷度和退行距离,列车退行| 护、列车过
+
+总
+a
+=
+&
+#
+“a
+{a
+R
+ef
+&
+
+系统功能
+
+SR-S-28| 超过允许退行速度或盟大退行|度测定 .测
+EB 触发距离后,将实施紧急制| BER PE HB
+te
+
+列车运
+行方向确
+FE .列车运
+行方向 网
+
+ATP 系统监督列车的后
+和后淀距离,列车后淀
+许后汶速度或及大后溜
+距离后,列车将实施紧
+
+He ERI TY
+it, AS 线
+CBTC 列车
+退行撞击联
+络线 CBTC
+
+列车
+Ref-1.1| 追尾相| PH-2
+tit
+
+“ENE
+动授权终
+点防护 ,移
+HET
+新超时总
+速防护
+
+列车                              在车辆保证紧急制动力正常
+的前提下 .车载 ATP 向车辆输
+SR-S-30| 出的紧急制动命令须能保证列
+车在安全制动距离范围完全停
+车载 ATP 一旦开始向车辆输
+出紧急制动命令,在紧急制动| 紧急制
+触发条件解除前,ATP 不能自 |动缓解
+|                   行缓解紧急制动
+
+ISR-S-3
+
+> 01000 LANNVO/L
+
+8102.
+
+--- Page 30 ---
+9%
+
+表 4  SRS EB ES)
+
+编号 esas 编号 | oe                    一           系统功能
+不载 AIP 采用安全继电器或
+| ween
+SHAS | 2. 8 BSR ei ee imemlane
+动状态
+Bie
+ear     -     十
+时，本 和 OSHA-1         SR-0-3       .并满足信号系统| ”一
+PH2 one              Saul 8) Be HER
+ran m                                               工联互通列企在 CBTC ITC
+ae                   FRG SEER DIP I GR
+&       cere np ae   a      me
+suas] CRTC AIF op gas] ft       BL = TTR         一
+列车                      无限制的退行        如  上    1 ee   ee
+«a                         id EEL I UL A
+Reel eee                        | .在载 ATP 输出紧急制动
+                                         CBTC HH F, ZC 计算 MA
+时,应包含运行前方列车最大| EB
+
+PH-3
+
+时，本 线
+CBTC Fi) 42
+Wea Ta ST
+络线 CBTC
+列车
+
+后车 MA 计|SR-S-32| 后汶停车距离;ITC 级别下,车
+和猎未包含前车           载 ATP if 3% MA 时,应包含运
+最大后演停车                行前方列车最大后注倍车距离
+
+动授权、确
+eam a
+
+SHA-6      ee        互联互通列车在 CBTC ITC
+oe eee    级别下移动授权防护中地大后
+滑停车距离未    滑停车距离应兰各厂商本线的
+
+AE
+
+统--                SR-S-33
+
+had CM 2D Je  HR A 2
+离时.车载 ATP 输出紧急制动
+
+> 01070 LAINNVO/L
+
+8102
+
+--- Page 31 ---
+表4   互联互通危害分析(   SE )
+
+编号 (YE Je Gt) 编导  互联五通           系                -一 系统功能
+编号 PRG SH] 编号  TK Ei          | Re  ER TR/G MIMI RO  系统功能
+
+LZ
+
+CBTC 级别下,ZC 计算 MA
+时,应包含运行前方列车最大
+ |SR-S-32] 后泣停车距离;1TC 级别下,车
+TP 计算 MA 时,应包含运
+行前方列车肥大后汐停车距离
+
+确定移
+PAL
+
+SHA-7
+
+KA ES
+
+时，林
+
+care 9) fe) maa | Zi Pama      Fs     应保证互联互通
+
+SR-S-13
+配置正确
+
+PH-3
+
+iat ditt di                            -
+vont                               互联互通列车在 CBTC ITC
+列车            CBTc 列车      级别下移动授权防护中最大后
+和      。      ve     二       汶停车距离应>各厂商本线的|
+列车          SHS RSIS SI S29) eA
+ain
+
+Ref-1. 1] 追尾 相                                     HR Goh I eh Lae Ka
+Hit                                              离时,车载 ATP 输出紧急制动
+
+CBTC 级别下.ZC if SE MA
+削方列车最大| 确定移
+
+SR-S-26| i   区车距离;ITC 级别下,车|动授权 i
+
+后车 MA 计     载 ATP 计算 MA 时,应包念运|定昌款上
+Ie        Se EE ST AWE        行前方列车最大退行个车距离
+PH-4       2 SHA2 nee       互联互通列车在 CBTC ITC
+最大退行停车      级别下移动授权防护中最大退
+
+距离
+
+:    te ae A ob Hi
+sr-s.25|   ae 商本线的
+
+离时,竺载 ATP 输出紧急制动
+
+810Z一? 01000 LANVO/L
+
+--- Page 32 ---
+87
+
+RA
+
+A
+
+互联互通危害分析(续)
+
+安全要求
+
+SPIRO 纺                  其危害分解| 编号 | 安全要求/运用限制条件
+
+ITC 列 车        CBTC 级别下,.ZC 计算 MA
+
+VOBC 计算 MA        时.应包含运行前方列车航大
+
+SHA-9           退行停车距离;ITC 级别下 ,车
+
+载 ATP 计算 MA 时,应包含运
+
+行前方列车航大退行倍车距离
+
+路线运                            互联互通计轴区段设计时应
+
+了 = 和过     、  Er    Hey {Lee Hk  车  中让
+疹时,本线|sHA-i0| ，计条区段设 |sR_s .34| SPSUREER HA J 42 IESE a
+CBTC 列车      计过短          i    SF) 42 Ne RAR AT / Ja iit
+PH4 |
+iBT fi              一
+列车      联络线 ITC| yyy         Moe s13)
+Ref-1. 1] 追尾 相       列车
+
+tit                                               互联互通列车在 CBTC ITC
+级别下移动授权防护中最大退
+
+CBTC 列车|     TH ERR SS eT AR EK
+
+SHAS) 无限制地退行 PRS?) ge ae 65 BF 4 I A A
+
+起过互联互通最大退行个车距
+离时.车载 ATP 输出紧急制动 |
+
+ 路线运          后全 MA 计        CBTC 级别下.ZC 计算 MA
+
+it,              a        -        时,应包含运行前方列车最大
+
+PH-5 | 列车退行撞| SHA-2 mG     SR-S-26| 退行停车距离;ITC 级别下,车
+
+击联络线         me!             载 ATP 计算 MA 时,应包含运
+
+系统功能
+
+Wh He AL
+动授权 、确
+
+CBTC 列车
+
+FT TW Dy FE dee KA AT HA
+
+确定移
+动授权、确
+
+810z一00b0 LANNVO/L
+
+--- Page 33 ---
+67
+
+R4 互联互通危害分析(续)
+
+列车
+Ref-1. 1| 追尾相
+Sit
+
+PH-5
+
+互联开通
+
+跨线
+时,本线 ITC
+列车退行撞
+击联络线
+CBTC 列车
+
+A
+
+危害 Ve a
+
+S
+rei]
+
+用限制条件
+
+系统功能
+
+SHA-2
+
+SR-S-25
+
+互联互通列车在 CBTC ITC
+级别下移动授权防护中航大退
+行停车距离应>各厂商木线的
+最大退行停车显离;列车退行
+超过互联瑟通最大退行停车距
+时,车载 ATP 输出紧急制动
+
+互通计轴区段设计时应
+BE Tf A FA) A ek Te ES
+BS 3) 4 Hee KB AT / J it
+
+ALL YE Se OE PR TIE EID Eid
+列车编组信息配置正确
+
+ITC 列车无
+限制地退行
+
+SHA-11
+
+SR-S-25
+
+互联互通列车在 CBTC ITC
+级别下移动授权防护中航大退
+行停车距离应>各厂商木线的
+最大退行停车距离;列车退行
+超过五联瑟通节大退行停车距
+离时,车载 ATP 输出紧急制动
+
+v 01000 LANVO/L
+
+8102:
+
+--- Page 34 ---
+085
+
+Ref-1. 1
+
+PEAS 多
+
+列车
+追尾相
+fi
+
+PH-6
+
+四
+3
+iS
+&
+
+路线运
+营时,本线
+CBTC 列车
+fai Hit a
+联络线 ITC
+列车
+
+表4 互联互通危害分析(续)
+
+EAR 条件
+
+系统功能
+
+CBTC 级别下,ZC 计算 MA
+站生生本
+
+确定移
+
+SR-S-32| 后渭停车距离;ITC 级别下,车|动授权 、确
+neu          a 风，应他全 定日标点
+SLA LF     E                        sy bos    .
+-                        A 2 BS
+SHA-6  re ve                           CBTC ITC
+半生    iyi rieaneesun ponies
+a       sR-S-33)         >各厂商本线的
+节大后汐你车距离;列车后溜
+离时 ,车载 ATP 输出紧总制动
+ITC 列 车         CBTC 级别下,ZC 计算 MA
+VOBC 计算 MA          INS mE 4 AT HT Ie Ee     确定移
+SHA-9 | (防护点)未包 |SR-S-26| UAT HE 4 BRAN ITC 级别下,车| 动授权 、确
+含前车莽大退       载 ATP 计算 MA 时,应包含运|定日标点
+行距离               FTA TT YEW KA AT
+、       计轴区段设   _   iby
+SHA-10 ane      SR-S-34 —                     一
+
+JIHA-1
+
+”SR-S-13
+
+提供方应保证互联互通
+
+8102—b ‘0100 LAINNWO/L
+
+--- Page 35 ---
+Te
+
+#4
+
+互联互通危害分析(续)
+
+a
+
+列车
+tii
+
+seme y | 危害 RM SR       安全要求_
+一  编号 BAN tM 编号 | 安全要求/运用限制条件
+跨线运|                                互联互通列车在 CBTC ITC
+eat 本线                          4         s     Vr      后
+uu ‘ 线        cere #y 4:      anemia 受公防护中肥大后
+PH-6   | SHA-8 |无限制地向后|SR-S-33| ，，
+Jai Wt tit di        a4                 了
+联络线 ITC                  ANENT AREA i 4
+列车                                离时,车载 ATP 输出紧急制动
+CBTC 级别下,ZC 计算 MA
+时， eee
+Jee A BS ITC 级别下，
+载 ATP 计算 MA 时,应包 有到
+行前方列车到大后涌停车距离
+和| SHA-6                  互联互通列车在 CBTC ITC
+时,机                               级别下移动授权防护中和最大后
+PH-7 | 列车后汶挤      统一       Rs 33| 注停车距离应各厂商本线的
+击联络线 |最大后汶停车距离;列车后注
+CBTC 列车                       超过互联互通最大后汶停车距
+            离时,和车载 ATP 输出紧急制动
+互联互通计轴区段设计时应
+计轴区段设            计算侵线计轴 .列车悬垂距离 、
+SHA-10           SR-S-34
+ee) iat               延迟 TRL G/M
+|                   :
+
+系统功能
+
+确定移
+动授权 ,确
+定目慰点
+
+8L02—p ‘01000 LAN VO/L
+
+--- Page 36 ---
+表4  互联互通危害分析(续)
+
+BEER
+编号 iy  SWS | 互联互通
+编3 PRAGA 编号 | ERT                        记全要求/运用限制条件
+互联互通列车在 CBTC ITC
+2 Fi   动授  i  fa   后
+时,本线 ITC         ITC 列车无       ae ae aA
+PHT | 列车后注撞|sHA-1z| pa a is at [SR-s-93, HERE Be      nen
+击联络线       4               Sec KJ RT ARE 2
+cere Fite                   超过互联互通最大后汶停车距
+*                          离时,车载 ATP SALE Sada
+互联互通计轴区段设计时应
+计轴区段设      计算侵线计轴、列车悬垂距离、
+SHA-            SR-S-34|
+列车                HAO) ts       RSS 通信延迟 i 4H AI I/F
+Ref-1. 1] i8 FE 相                                   停车距离
+Pet, AER                            EK TL ii WI 4 fe CBTC .ITC
+pus  CBTC 列车                       BNE AS BBE AL PP hk AG
+TS ttt | yey g | CBTC HIE | saa|行停车距离应=各厂商本线的
+联络线 RM|   无限制地退行   一| 最大退行停车距离;列车退行
+模式列车                      超过开联五通最大     A HB
+PMY 4K ATP 输出紧急制动
+RM 模式列
+SHA-13| 车  BLAH SR-0-4   RM/EUM
+
+按照联镇信
+
+8L02—b ‘01000 LANVO/L
+
+--- Page 37 ---
+€€
+
+Ref-1. 1
+
+Sasa 编号
+
+列车
+tik
+
+路线运
+和营时,本线
+RM HES FI)
+
+fe
+编号 上
+
+表4 互联互通危害分析(续)
+
+求
+
+编号 | eee
+
+求/运用限制条件
+
+系统功能
+
+SR-S-26|
+
+CBTC 级别下,ZC 计算 MA!
+
+时,应包含运行前方列车航大
+退行停企距离;ITC 级别下 ,车
+载 ATP 计算 MA 时,应包含运
+行前方列车巩大退行停车距离
+
+确定移
+动授权 、确
+
+下移动授权防护中服大退
+昨距离应>=各厂商本线的
+行停车距离;列车退行
+
+P03 |车退行提                联互通最大退行停车距
+击联络线                                    车载 ATP 输出紧急制动
+CBTC 列车                              丑互通计轴区段设计时应
+侵线计轴.列车悬草距离|
+信延迟 ,列车最大退行/后汕
+停车距离
+             统一 RM/EUM 异式最大退
+OSHA-?|下.本机无限|SR-0-5| hee won        一
+_         制地退行             行距离及退行作业细则
+Pees              TEE A RAR
+， ig {CBTC 列车     计轴区段设|。 、，| 计算侵线计轴 JURE
+PHO Ts at ait ae OMAN) apa   SRS 34) Gy FEAR F/T
+联络线 RM              停车距离
+模式列车
+
+yb 01000 LANWVO/L
+
+8102
+
+--- Page 38 ---
+ve
+
+R4 互联互通危害分析(续)
+
+本有和|时各       .| fee ESA          安全要求              _
+编号 RAR) 编号 |互联开通 | 编号 ee oel we | 安全要求/运用限币条件 | 2
+Ty        互联 开胃 车在 CBTC ITC
+疹时,本线| sHA-8 |无限制地向后|SR-S.33| PP 应>和   raves |
+CBTC 车        RA:               BK Fas itt ae 距 离;列4 车 后 ii
+PH-10                               EL ELIE JP CR
+ABE EAR ATP Ath ec
+BSH           RM BES 5                 im      -
+SHA-13| 车司机未按联|sR-O-4|  RMZEUM 局式下,列车司机| 一
+peehee pe         $e NUK SUL ST ME
+锁信号行车
+列车                       -
+Ref-1. 1| 追尾相                                           CBTC 级别下,ZC 计算 MA
+iit                                       时,应包含运行前方列车最大| 确定移
+路线运            本       SR-S-32| 后汶停车距离;ITC 级别下,车|动授权、确
+只线各      后车 MA it     载 ATP 计算 MA 只,应包含运|定日标点
+tween        机 的  °        FF MT I FA ASAI A A
+a   a    =     ita    in  ed =
+PTT | oe ge amr ame | OS |距离,有大后        1 a HN 4 Xe CBTC ITC
+击联络线        沉停车距离未        级别下移动授权防护中最大后
+CBTC 列车        统--         | MPP ERE ar -商本        加
+及大后滑停车距离;列
+mrtorM arm
+|__| ais eae ATP ah
+
+8107—v 01000 LAWVO/L
+
+--- Page 39 ---
+SE
+
+表4 互联互通危害分析(续)
+
+”一一一
+
+编号 Nees 编号 | Tem   和   :                                          系统功能
+路级运|                                          通计轴区段设计时应
+an          | ip fi be Be Be        HEALER SA 4 A A BS
+营时,本线|SHA-10| |         SR-S-34|                            _
+RM katal | ree         SS Aer DS Ae A AC A
+PH-H                                    oe hooks ae
+1 I          —       停车距离
+击联络线               ane           统-- RM/EUM Bist fit KiB
+、     : |0SHA-2|下,司机无限|SR-0-5        cp.             一
+CBTC 列车                       和中太全作业
+i      quinn        行距离及退行作业细则
+互联互通计轴区段设计时应
+计条区段设         计算侵线计铀.列车悬垂距离、
+SHA-10             SR-S-34                            一
+列车                             计过短                 通信延迟 ,列车最大退行/后注
+Ref-1. 1] 追尾相          wpenia ty                           停车距离
+Sik             ft, A 线           切除 ATP 列           切除 ATP 列车或未装备 ATP
+CBTC 列车       车或未装备|、     列车,司机按照联锁信号或人
+OSHA-3              R-0-6                             一
+pura | 退行过击联         ATP 列车司机| ”|工测度行车,行车安全由司机
+“|络线苇除      未按需定行车      保障
+ATP 列车或                                    艺联互通列车在 CBTC ITC
+未装备 ATP                                    _-               5
+an               级别下移动授权防护中最大退
+ae      suas} cCBTC 列车| ss ai 行停车距离应>各厂商本线的|
+
+|
+
+无限制地退行
+
+航大退行停车距离;列车退行
+超过互联互通最大退行停车距
+离时 ,车载 ATP 输出紧急制动
+
+8107—b ‘0L000 LIAVD《XI
+
+--- Page 40 ---
+9€
+
+R4 互联互通危害分析(续)
+
+8107一?0L0Y0 LAINNVO/L
+
+”| 危害 区联互通信号系       BEER
+ERE | 编号 beware BS | 安全要求/运用限制条件 | 系统人
+CBTC 级别下,ZC 计算 MA
+时,应包含运行前方列车最大| ME
+_    |SR-S-32| 后滑停车距离;ITC 级别下,车|动授权、确
+后车 MA it       载 ATP 计算 MA 时,应包含运| 定月标点
+算未包含前车       行前方列车明大后汐停车距离
+sag | RAR IEE    |
+跨线运| RR KR       互联互通列车在 CBTC ITC
+eat AR        TE eA        级别下移动授权防护中最大后
+| 列车       列车或来                        圾大后注停车距离;列车后汶
+Ref-1.1| 追尾相| PH-13 | 装 备 ATP                四过互联互通最大后汶停车距
+it            列车退行                          离时 ,车载 ATP 输出紧急制动
+本 击联 5                               IDE Taal HA OB a FE
+线CBTC 列       ib A OK BE      HSU LER Tl FU 4 Se Ey
+eo     SHA-10     °   SR-S-34       .  的   一
+车           计过短          通信延迟.列车肥大退行/后泣
+|              停车距离
+切除 ATP 列
+车或本装备         统一 RM/EUM fist fk Rik
+OSHA-4                            SR-0-5                                                              一
+SENS ATp 列车司机上     行距离及退行作业细则
+无限制地壕行
+
+
+--- Page 41 ---
+Le
+
+R4 互联互通危害分析(续)
+
+cm | 危害 [LM TTS zl        安全要求           。
+MOSS) 编号 | RI | 编号 beware me | 安全要求/运用限制条件 | 系统人
+互联互通计轴区段设计时应
+计轴区段设|、    计算侵线计轴、列车悬垂距离|
+SHAT) i ty     SR-S34 通信延迟 ,列侍最大退行/后兴
+"       停车距离
+7   切除 ATP 列车或未装备 ATP
+on cl    或    ae   ,司机按照联锁信号或人|
+we oan     Are si Abe      UAE 64, FE HE Sh A BL
+和营时.本线
+CBTC 列车  & 未按
+列车     va iat ait ats | Gk               @& wi Wi % # cBTC, ITC
+Ref-1.1|追尾相| PH-14 |联络线切  €           EB #5 By HE AL WAP oP ee A
+fit      除 ATP 列| NECN cp    a    车距离应>各厂商本线的|
+车或未装               伏天大退行停车距离;列车退行
+备 ATP 列         S sOO Aarti nrcwiw ee
+车                                                  离时,车载 ATP 输出紧急制动
+互联互通列车在 CBTC ITC         |
+|   级别下移动授权防护中最大后
+CBTC 列 车      wy (ct he obs        oe
+一     汶停车距离应=各厂商本线的
+SHA-8 | 无限制地向后 |SR-S-33|              :    一
+‘  cues     ACIP HS Ea
+a            AEE EID A A A
+离时,车载 ATP 输出紧急制动
+
+8107一? ‘0L000 LANVO/L
+
+--- Page 42 ---
+85
+
+Ref-1.1
+
+列车
+追尾相
+ii
+
+PH-15
+
+wy) Be ATP
+列车或未
+装 ATP
+
+|列车后清
+
+撞击联络
+线 CBTC 列
+
+R4 互联互通危害分析(续)
+
+a5 | 安全要求/运用限制条件 | ** 1
+后车             CBTC 级别下,ZC 计算 MA
+未包合             时.应包含运行前方列 mee   确定移
+SHA-6 |大后汐停车距 SR-S-32| 后注停车距离;ITC 级别下,车|动授权、确
+离,肥大后澳停      载 ATP 计算 MA mae 8 定日怀点
+车距离未统一         行前方列车最大后池停车距离
+通计轴区段设计时应
+sH Ai0| 计轴区段设|sR_s 34| 计算侵线计铀、列车悬垂距离
+计过短         通信延迟 ,列车至大退行/后溜
+
+倍车距离
+
+切除 ATP 列
+车或未装备
+
+统一 EUM 模式列车后注防
+
+0OSHA-5 ATP 列车无限 SR-O-7 护细则                      一
+
+HUAI                                         7
+后车 MA 计算         CBTC 级别下,ZC 计算 MA
+
+At Olt AR     时,应包售运行前方列车坡大| a
+
+| SHAG | A iit      SR-S-32, IRAE FBS ITC 级别下,车| 动授权 、确
+
+党时,本线      BSAA IR A      载 ATP 计算 MA 时,应包含运| 定日标点
+pH-16 | TC 级别列       ERT RSE        FF NIG FE Sk
+46 Ja aR HL          ITC Fy A         CBTC # Hi) F, ZC 计 MA
+
+击联络线       VOBC 计算       时.应包含运行前方列车最大| 确定移
+
+ITC 列车“|SHA-9|MA(防护点) |SR-S-26) 退行停车距离;ITC 级别下,车| 动授权、 a
+
+ROG           载 ATP 计算 MA 时,应包含运| 定日
+
+大退行距离
+
+| 行前方列车最大退行停车距离
+
+8L07—p “01000 LAINVO/L
+
+--- Page 43 ---
+685
+
+表4  SREB REAR)
+
+危害
+
+BS aa AE | 于联通 | 编号 bea    ao] eeeremmmemn | **2™
+ee
+EG BS i A OR Be It
+计轴区段设|。 | 计算侵线计轴、列车悬垂距离
+SA-10| 计过短 SUE. BAL G/M
+PH-16 ITC 级别列                     互联互通列车在 CBTC ITC
+所 de
+aa a "         ire nae       级别下移动授权防护中最大后
+击  络线        i     S07 hes ae        2p AY
+.       A A EP PS MS TH AS 线的
+:= |SHA-12| 限制地向后泣 |SR-S-33| ，                    一
+|本二四Cs 9k iE
+本                       四过互联互通最大后
+列车                                         离时,车载 ATP 输出     il
+Ref-1.1|追尾相                           六    a      四
+本                                          CBTC 级别下       MA
+tit                             车 MA 计
+eon “ir      时,应包含运行前方列车最大| EB
+最天退行停车|SR-S-26 退行停车距离iTC 级别下,车 | 动授权 ,而
+Hen, AS     “a     载 ATP 计算 MA 时,应包含运|定日标点
+near | rc 级别可            行前方列车最大退行停车距离
+车退行挤         ITC 列 车         CBTC 级别下,ZC 计算 MA
+击联络线      VOBC if 3%      时.应包含运行前方列车最大| “确定移
+ITC 列车“| SHA-9 | MA(防护点) |SR-S-26| 退行停车距离;ITC 级别下,车| 动授权 、确
+ALF iil HE Me      | # ATP 计算 MA 时,应包含运|定日
+大退行距离        行前方列车及大退行停车距离
+
+810z一?0L0V0 LANVO/L
+
+--- Page 44 ---
+Or
+
+Ref-1. 1
+
+A SH S|
+
+列车
+追尾相
+Fit
+
+R4 互联互通危害分析(续)
+
+超过互联互通最大退行停车距
+离时.车载 ATP 输出紧急制
+
+动
+
+一| fee EE Se                          -
+ws | amen                                统功能
+编号 | MIR | 编号 beware wo | 安全要求/运用限制条件 | 系统蕊1
+
+TEA Ta VT At BE HPT
+计轴区段设|、     计算侵线计轴、列车悬委距离 |
+wp op ig SHAN) 计过短      SRS 34 通信延迟 TE AL AG S/R
+HIN, BEL                    停车距离
+pHat  ITC 2 yi Fi)                           互联互通列车在 CBTC ITC
+|         车退行本                                级别下移动授权防护中最大退
+击联络线|siA_ ii| TC 列车无|sn.s ad|行停企距离应>各厂商本线的|
+ITC 列车      限制地退行       最大退行停车距离;列车退行
+超过互联互通最大退行停车距
+离时,车吉 ATP 输出紧急制动
+fA HL HEA RB BR SF
+、      计轴区段设|、 、，| 计算侵线计轴、列车悬垂距离|
+SA-10|计过短      SR 34| of sR ,列车最大退行/后注
+uy aE                          停车距离
+HEME, AER      RM Hi st 3           eee Hl de ah
+ITC 2 HF |SHAM13| 4] HL AS He MR | SR-O4 wien FAA ALB)
+pH-I8 | 4 a8 45 Ait      锁信号行车         eee es
+击联络线       |                     末联互通列车在 CBTC ITC
+RM 模式列                    级别下移动授权防护中最大退
+车      cogs | mc 列车无|、 a, 行停车距离应> 各厂商本线的|
+SA限制地退行js 最大退行停车距离;列车退行
+
+810z一? ‘01000 LANNVO/L
+
+--- Page 45 ---
+Ip
+
+#4
+
+互联互通危害分析(续)
+
+ao. far             . | 危害 |互联互通信号系        安全要求           加
+BO [ee AS | ERE | 编号 kwneeom wo | eerie | 2%
+互联工通计轴区段设计时应
+it A BE i    TSE ESE HAS AE
+SHATOL         SR S24 sa pes EA Ge
+ae Re                   停车距离
+48 mE, ITC                    RMZBUM 局式下,列车司机|
+PH-19 |级别列 和                           照联锁信号行午
+Ja aR Ait a                           __
+联络线 RM                       互通列车在 CBTC ITC
+gestae                    Sal 1S a HEA BP ob IC
+ee                       距离应>各厂商本线的|
+列车                                  沛停车距离;列车后沈
+Ref-1.1| 追尾相                       BE 联互通肥大后溜停车距
+‘it                                                     VAS S fez We ee ee)
+Vereen een
+跨线运营|sHA_10                 计算侵线计轴列车悬垂距离|
+时，ITC 级               通信延迟 .列车豚大退行/后泻
+别列车退行               停车距离
+PH-20 | 撞击联络线                      互联互通列车在 CBTC ITC
+切除 ATP 列                   级别下移动授权防护中最大退
+车或未装备|sHA_i| ITC 列车无|sR_s 55| 行人车距离应>各厂商本线的|
+让避生生|限制地退行 5最大退行停侍距离;列车退行
+Aah CH A PE
+离时 ,车载 ATP Sh Si il
+
+8107一? “01070 LANNVO/L
+
+--- Page 46 ---
+cy
+
+表4 互联互通危害分析(续)
+
+ck 三联互通信号系                              copie
+eo fate   SE 编号       通   e                                         Bef
+编号 事故场暴| 编号 | 互联互通   编号 beam nereac sie BB                        系统功能
+时,ITC 级别
+切除 ATP 列
+i MS       coe me
+PH-20 击联络线切 OSHA-3 ATP 列车司机 SR-0-6         车,行车安全由司机    一
+Be ATP UE             未按规定行车
+或未装备
+ATP 列车
+互联互通计轴区段设计时应|
+计轴区段设       计算侵线计轴、列车悬垂距离
+[=                   A-               SR-S-3.                             _
+Tie               SHATO spo      SRS 4) i ye EAR G/F
+an aaa        跨线运痊                       Pe
+"        时，ITC 级                    亏联亏通列车在 CBTC ITC
+别列车后深                      级别下移动授权防护中地大后
+sy te IT oie Spe           ITC 列车无            .     cw
+挤击联络线                汶停车距离应>各厂商本线的
+PH-21          SHA-    Pr   41 = 381 |SR_S.33| 王政    we                 _
+yy) 除 ATP|SHA-12 BANG SR-S-33 员大后油停车距离;列车后消
+列车或未装               超过互联互通最大后渔停车距
+备 ATP 列                   离时 ,车载 ATP 输出紧急制动
+车                  切除 ATP 列           切除 ATP 列车或未装备 ATP
+、 .|车或未装备|。    列车,司亿按照联镇信号或人| 。
+CA3| sop gy me a gy | 04          HE eth FL BL
+未按规定行车
+
+"0100 LAWVO/L
+
+8102
+
+--- Page 47 ---
+人
+
+表4 互联互通危害分析(续)
+
+om memel ae      _      me eR                          cee
+编号 FAIS) 编号 | 互联互通 | 编号 i oe a he Be              aie) 系统功能
+区联乞通计轴区段设计时应
+计轴区段设     计算侵线计条.列车悬垂距离、
+on ee iat     SS |通信延迟 4 ALK L A /
+7 aan                                      26 A
+a iy, RA       一
+Bi tH          TR fl A         统一 RM/EUM 模式最大jl
+PH22 |退行要直|osHA-|下,司仙无限|IsR-0.5| 统一 RMVEUM 以陈最大退| 一
+ey sas         行距离及退行作业细则
+联络线 RM        制地退行
+模式列车                      _                   和
+RM 异式列                -        一
+.                 RM/EUM 模式下,列车司机
+A-13| 车司机未按联|SR-O4                   一
+列车            See era | RAUBER EAT
+Ref-1. 下追尾相                  aL To 05
+| dit                                    a a BE
+计向区段设     计算侵线计条 JE Be
+HA-              SR-S-34                            一
+ys ee kl 计过短      R-S34 通信下迟.列车及大退行/后注
+和时，RM                    停车距离
+wt HL       RM 模式列|      统一 EUM 模式列车后注防
+PH-23  7   _ | OSH:      ia    SR-O-            a     _
+param dat ts OSHA) se a ga POT | 护细则
+联络线 RM
+模式列车         RM 借式列           .    ，    bau
+|       SHA-13| 车司机来按联|SR-0-4| RWZBUM 模式下'列于司机| 一
+wenn          按照联镇信号行车
+
+8107一01070 LAINNVO/L
+
+--- Page 48 ---
+br
+
+表4 互联互通危害分析(续)
+                 | fie EREM NSA          BEER              ae
+We AKER 编号| ERT | 编号 hems eae BE | eek eRmMA | A
+EET FA Be
+跨线运         计条区段设        计算侵线计轴、列车悬垂距离、
+Al            SR-S-34                ees     一
+gem, RM | 计过复           TERR FUE RR
+模式列车                          停车距离
+退行挤击     me RH     -      本
+统一 RM/EUM 模   i
+PH-24 |联络线切|0SHA-2| 下,司忆无限|SR-0-5 和     一
+除 ATP 列      制地退行         ee     “_
+车或未装            切除 ATP 列            切除 ATP 列车或未装备 ATP
+备 ATP 列       车或未装备       列车,司机按照联锁信号或人
+si %      车       OSHS) Are 列车司机| |工调度行车,行车安全由司机
+Ref-1.1|追尾相                      未按规定行车        保障
+ie                                                                                        互联互通计轴区段设计时应
+路线运省| si0| 计生区段设|。。。,j| HPSERRER INA IE
+时，RM BE tat           通信延迟 ,列车最大退行/后沉
+SU Ze FR      _       停车距离
+撞击联络线         RM 模式列        统一 EUM 模式列车后汶防
+PH-25       SHA-        -0-7
+PHS Voy we are | OHMS) ae se omen maa OO | 护细则                    -
+列车或未装         切除 ATP 列          切除 ATP 列车或本装备 ATP
+备 ATP 列| 。 ,|车或未装备      列车,司机按照联锁信号或人
+车       SHAS) ATp 列车司机|S8-9-6|工调度行车,行车安全由司机| 一
+
+未按规定行车
+
+保障
+
+8107一? 000 LAINVO/L
+
+--- Page 49 ---
+2018
+
+T/CAMET 04010. 4
+
+wa
+
+1A fet ENS 2 oe Ly oe ee
+
+Y 8 Ge Sh 1G Yr bil 2h 1g sy fe
+ALY EHS Me dLY SANG
+
+9O-HS
+
+ae Ly AU EE
+A [et 2 fie dL
+
+: YY
+
+fig dv YG
+
+€-VHSO
+
+fig UNE elt
+4 wk Soh he EH Rna — 3G
+
+Bd sh Mf dv
+
+Bet
+|S-VHSO
+
+We Ly BY oh
+Set Sa ae BE Ay fe
+AY NA Ft Xd HE
+
+ile dLV
+Yee
+ig ay  4
+
+CHWS
+
+PREWE pe
+
+ah
+WE Wb UY                       ie dy ¥
+i                 aK We
+fie div 济
+本        fag A BE                   Ale 机 ae
+FEN MEM Wad/W — GY                  oh if dy
+Pros                    “
+WR / LY EU ae fe SE |       ARH] |
+一    Ca FESS corsa te [OU YNS) sag ‘fue
+FG
+aE OLDE OE BM
+ON 7c Ke ME                                | MWe | 各名
+anne                     veumnan 是 | Ee | 6
+
+is Bo af
+
+ap
+&
+
+45
+
+--- Page 50 ---
+oF
+
+#4   ERA   害分析(续)
+
+列车
+tie
+
+PH-29
+
+行时,他 a
+CBTC 列车
+Th OY i Be
+的 EBL, &
+RG Ae
+故
+
+TERR) 编号 | 互联开通                                                系统功能
+路应规范 ZC-ZC
+
+间通信延时时间,超时应判断            ，
+
+路 ZC-ZC         时，          Tilo 。       aon             a          故障管
+PH-28        SHA-14          SR-S-35| i  i | ,ZC     L
+通信延迟        延迟导致列车   S-35| 为通信中断，   PLA eye
+
+SHA-IS
+
+列车位置计上
+
+算错误, 导致
+当前位置 EBI
+计算过商
+
+境
+SR-S-2 |
+
+SR-I-10
+
+统一互联开通 ZC-VOBC HE
+AUER BIE i a  te
+
+VOBC-ZG
+口规范
+
+SR-I-I1
+
+SR-S-36| ，
+
+车载 ATP IP SES
+
+人确定前
+
+时.应包含列车    人 方 CBTC
+oes        ea | A
+i fi 延时时间(速度   ms Ey a,
+ATP 位置计算 确定移动
+
+授权
+                   VOBC-
+
+VOBC-11 f2 4 fj
+
+包含列车 ZC 接口规
+
+前后端安全包络信           范"列在包
+
+?0L0V0 LANVO/L
+
+8102
+
+--- Page 51 ---
+LY
+
+R4 互联互通危害分析(续)
+
+cay 困联互通信号系         安全要求        Too
+FRACS 编号 | RATA  wo 的 编号   She WET | eee
+VOBC-
+列车位置计
+算错误.导致       VOBC-12 接口信息包含列车|站
+SHS) cei ga. BBE] | 当前速度及速度方向
+计算过高
+共线运            SR-S-11 定义流程规范,确保数据全面、
+tent. heb                    正确,该过程应进行安全分析
+列车        CBTC 列车                          和安全评估                  7
+Ref-1. 1) i& FE Al | PH-29 计算错误                        地面设备提供商应保证线路       |
+撞          的 EBI, &                SR-S-37) BRAG Re Hh (OF At nh A ER dk    一
+a 4         线路数据错        io) BRE) 正确
+ik       SHA-16| 误导致 EBI it SRS   地面设备提供商应保证线路
+从错误       Ose BE
+ap -s.3o) mii SE ORR
+限速效据正确
+SR-S-4    车载设备提供方应保证列车
+
+构造速度数据正确
+地面设备提供商应保证线路
+道岔位置数据正确
+
+8102—? ‘0L070 LANWVO/L
+
+--- Page 52 ---
+8
+
+Ref-1. 1
+
+列车
+追尾相
+ait
+
+PH-29
+
+行时,他线
+CBTC 列车
+计算错误
+的 EBL, 导
+
+致行车
+
+故
+
+4
+
+R4 互联互通危害分析(续)
+
+公害        FA        EE WR          pce es
+| as | 安全要求/运用限制杀件 | 系统世人
+| oketen Con th (= 各站全开关站台门信息数所正确|
+A-16| IRS    BT
+从错误     ss 地面设备提供商应保证线路| 。
+“         紧急关闭按钮信息正确
+、    采用安全继电器或其他安全|
+SR AS 4| 接口技术采信道岔的状态信息
+、     CI采用安全继电器  Ra fae   _
+“er 全接口技术采集站台
+RINE HE
+SR-S-45| 接口技术采集紧急
+线路障碍物                        VOBC-
+状态信       .        ZC-1-14 接口信息包含道岔|ZC PE
+SHA-17 导致 EBI 计算 SR-I-14 状态信息              Wn BRE
+错误                                       信息
+VOBC-
+ZC 接口规
+
+SR-I-15 |
+
+ZC-115 接口信息包含站从
+
+ie“ Psd
+
+SR-1-16
+
+2C-1-16 接口信息包
+关闭按钮状态信息
+
+急|ZC 接口规
+
+VOBC-
+
+范 ”ESB
+
+8102—p 01000 LANVO/L
+
+--- Page 53 ---
+6
+
+表4 互联互通危害分析(续)
+
+LAF EAR IEA Ro      安全要水。 | 条统功能
+编号 统场景危宕分解 编号   安全要求/运用限制条件
+
+CBTC 级别下 .车载 ATP 计算 | “列车超速
+SR-S-46| EBI 曲线时 ,应包含互联互通临 |防护.确定
+时限速            制动曲线
+VOBC-
+
+ZC-I-17 接口信息包含临时
+
+NN 信息
+
+QBC Al ZC问授信采用|ZC He He
+SPB IL 安全通信协议      wie ae Gal
+
+行时,他线
+
+列车        CBTC 列车                                                      信协议”
+Ref-1. 1] 追尾相| PH-29 |计算错误                                                       | voBC-
+it            的 EBL, &                                                    ZC 4% 1 Bat
+KG El                                                范“ZC 和
+故                                                              VOBC 应能
+分别对通信
+
+判断不用
+
+THA-7                       |
+和”|导致应回撤的                                                           行判断"
+MA 未及时回
+i
+
+SR-0-8 | 发事件导致 MA 回撤.VOBC 未    一
+能及时接收从而导致的行车风险
+
+8L07—? ‘0L0V0 LHINNVO/L
+
+--- Page 54 ---
+os
+
+RA SRE MERA
+编号 FAS) 编号 | RAT 编号 耽       ly | 安全要求/运用限制条伯     Fae
+sR-s47 S98 — UME EL a mid EAB
+式,保证接口数据全面 EW | 报文规范
+系统线路数据准备过程应被
+、 s |定义流程现范.而保数据全面|
+加   IE i, i   END UE TF EE} OT
+和安全评估
+Wily AE
+TTC 44% ATP 计算 中 MA 终点
+IB              SR-S-48                    受权 ill
+时,应回撤安全防护距离    eye Bi
+a      行时,他线       ane tun tm                         定日标点
+列车                  ITC BF,
+,          ITC 列车计       四站   .                     证主应
+Ref-1. 1) if FE AN | PH-30    kom ge, (SHA-19| 4248 MA 计算|SR-S-49                         _
+vt             算错误的         fen
+Wf           BI, 导 Eva       日 ]大
+
+行车事故
+
+SR-S-50| 二
+
+|报文规范
+
+“公共信息
+
+包定义(203
+Ft)”
+SR-SS51    EWE AR SC LR BES | AR OC AL
+
+t 01000 LANVO/L
+
+8102:
+
+--- Page 55 ---
+TS
+
+表4 互联互通危害分析(续)
+下 fear ame a        安全要求
+编号 hina ae | 五联                         一        系统功人
+编号 Ca TR     TARE | 编号 bey seta shel BO | ewan are | ME
+BE
+Jan AS RS Are AR AS 1.         ”LEU wk
+ITC 级别下，                                                    认报文”
+SHA-19| 车载 MA 计算         -也  -
+错误             i       置与电子地| oa gy
+     | 同位置信着出安全距离,车| 4三全们
+”|辆ATP系统应能判断出,并导 aera :
+en                  1 Be 4 0        |
+列车      |行时,他线                                             应答器
+和     ITC 列车计                 他线列车应玉弃本线应答器|报文规范
+Ref-I.I| 追尾  PH-30                 SR-S-54                 本本
+°    a      30 HH EY                     报文自定义包             身定义
+加          EBI，导 至                                             包”
+行车事故                    AMA HEA RE)
+:地应 |SR-S-55 完成本轮通信,应判定应答器
+IHA-8        ibn        Be
+Az CBTC 级别下 .临时限速信
+spon) Me ATP 系统进行防护,运符皮|
+“| 任方应制定临时限速操作规
+程,确保临时限速信
+as AML
+
+8102—v ‘0L070 LANVO/L
+
+--- Page 56 ---
+cs
+
+4
+
+互联互通危害
+
+a8
+中
+
+事故场景 编号
+
+PH-31
+
+互联互通
+
+行时,本线
+ZC 系统为
+他线车载
+ATP it 4%
+了错误的
+MA，导 致
+
+行车事故
+
+eu CMS R
+ssa fee la
+
+编号
+
+分析(
+
+ a HE
+re
+»
+
+é    和 载 ATP 测
+速测距 Mem   系统应对列车
+
+系统功能
+
+运行方向错                 确定移
+误导致 ZC MA             |               wee    ae
+| 从 人 a  、  ZC 计算列车 MA 时,应检查 | 定前方安全
+
+SER SSS 列企运行方向和过路一 site| 进路限全、
+yee                     see 5h
+“                        向确定
+VOBC-
+2c Ber
+SR-LI2   VOBC-ZC 接口信息包含列车     i
+:  “| 当前速度及速度方向
+
+列车折返过
+程中.ATP 错
+ar fi    sx ut js     列车折返换端过程中,车载   列车折
+
+SHACLTRR EGE SESS) ATP 应保证列车不能移动 |运
+
+信息,导致 ZC
+错误控制列车
+
+8102—b “01000 LANWVO/L
+
+--- Page 57 ---
+€¢
+
+R4 互联互通危害分析(续)
+
+| 危害 PRR ATS        REER          .
+编号 PROGR 编号 | 五联下天 | 编号 ematical MO | Reema | eM
+“EAR ATP 系统测速测距精度|
+| 满足控车要求,且满足安装环
+境下的振动和气候要求,如十
+“|雪、温度的要求。车载 ATP BY
+速测距故障时,系统应对列车
+列企运行
+共线运                                 方向确定
+行时,本线                                                                                    也 hw
+ZC REI                                         * HER
+ae        meee                                                    nea
+Ref-l. 1) 38 Fe #1] PH-31 | ATP 计算                                   向" “列车
+于        了错误的                                 ae
+ne                  ERATPHHAERSOR oy
+us              wt A 3 ME ABE | Co
+|sR_s36| = IMME BO MEI Me A BE ae
+P    MEARE Ma (A HEY YG) ay op
+fe EER ATP 位置计算| 授权
+完成时间)
+VOBC-
+grea) YOBC-T 接口信息包含列车 2C 接口规
+| 前后湛安全包络信息            Boar’
+
+8107一? “01000 LAWVO/L
+
+--- Page 58 ---
+bs
+
+#4 互联互通危害分析(续)
+
+|              | 危害 轧联互通信号系        安全要求
+编号 [INCH 编号| RM ise                 cei | 系统功能
+监督列车地退行| 退行防
+sa 过杰和旭行下高.列车退行二过多| 98
+°   HaltTAIEREAEA EB 触发|度测定、测
+离后,将实施紧急制动      ORAM
+VOBC-
+Rig| 。YOBC-I9 接口信息包伟列车 |e EA
+                   alae             度/距离信
+行时,本线        列车安全位      |                     ET
+Le 系统为      置输出错误，       车载 ATP 系统监督列车的后|方向确定
+列车       fh 28 4 a       导致地面 ZC       溜速度和后兴距离,列车后注|列车运行方
+Ref. 追尾相| PHASE | Ap 计 算|SHA-22| 为该列车或追 SR-s-29| Aah fe aR ME RA
+Mt        了错误的        列车的其      EB 触发距离后,列车将实施紧|车未
+他列车 MA 计          il 动                   7
+we     ee
+行车事故          ue       |        VOBC-20 接口信息包含列车
+
+SR-I-20
+
+Fa RS
+
+车载 ATP 应能正确判断出列
+
+SR-S-59
+车停准停鼻状态_
+sri), YOBC2! 接口信息包含列车
+
+停准停稳
+
+8107一?0L0Y0 LI3JINVD/L
+
+--- Page 59 ---
+SS
+
+表4 互联互通危害分析(续)
+Pe TF               ~     -一                  一      -人     一|
+     we     | fe (RMR WUT SR       安全要求        二
+ih nn Cae Tees 区避       7a similar | PE
+spsool 2° 系统应对在线运行列车| 模式转
+控制级草或骂驶合式进行管理 | 换
+am oan       ws one         ZC 系统为 CBTC 列车计算| 模式转
+en       we age gee gap (SR-S-61) MA 时,应识别前车运行级别及|换、确定移
+ZC    为      模式传输错      “ip jes pinge tg 4h           3
+，      vo              HR we eta          动授权
+pH31 |他线车载|si og) BF BIE
+ATP 计算 | ZC Wy K&B HE                                   VOBC-
+了错误的        或追踪该列车                                ZC 接口规
+导 Bh       的其他列车|sRLaa| YOBC-22 接口信息包含列车 | 范*
+行车事故       MA 计狂错误 | “|列车控制级别、骂驶模
+列车                                                                                                                          别"“列车
+Ref-1.1| 追尾相                                                  驾驶模式”
+i                                                          越过移
+司   又级
+车载 ATP 系统停车保证功| NE
+停车保|             SR-S-62|能.应包含列车当前位置、束 动授权现
+证输出错         ‘ep te        度 .安全防护距离               7
+,              列车停车保                          新超时防
+PH-32 | 误 ,导致联|SHA-24 证计筑错误                         护
+锁错误解
+镇进路                                              VOBC-
+SR-L2    VOBC 和 ZC fil ii RK HI) ZC 接口规
+~~ | RSSP-T安全通信协议      范*安全通
+诗协议” |
+
+8102—b ‘0L000 LANVO/L
+
+--- Page 60 ---
+95
+
+表4 互联互通危害分析(续)
+
+| wal | Oe 全联互通信号系   “hsp we
+RS RORY AS | RT | 编号 estrus 8        jam re | NE
+Bue
+earn
+列车仅在保证列车不会过和 aa
+SR-S-63) Hy ORAM IX Be me, A ne we a og |
+护区段允许解锁                  动授权更
+人        新超时防
+
+护
+Bue
+接收 ATP 发送的| 动授权终
+nc eal   二,采用计时方式判| 点防护 ,和
+seen gg ON |定停稳,计时时间应根据列车|动授权责
+列车             保护区            列车输出保          停稳计算取地大值              新超时防
+
+Ref-t. 1| 追尾相| PH-33 |眉多许解|sHA-25|护区段允许解                     护
+
+38          |段              本
+ti        ‘i         Bus Ge a                       Vone-
+车不安全启动                                CI 接口规
+SR-L23| 0DC23 接口信 外应包含保| 范*多许保
+SP DS BR Ft fie            PR BE fi
+Hite”
+
+|                      VOBC-
+cr ter Mt
+SR_L24|  YOBC 和 Cl 问适信采用|范”RSSP-
+”| RSSP-I慰准安全通信协议   了标准安
+全通信协
+
+?0L0V0 LANVO/L
+
+8102
+
+--- Page 61 ---
+Ls
+
+#4 SREB REINS)
+危害 |互联互通信号
+
+a
+编号
+
+Bg
+Ri)
+
+IE A ait) 台
+
+#
+aa
+kt
+&
+ie)
+7
+
+功能
+
+用限制条件
+|                                             VOBC-
+VOBC 和 ZC 间通信采用|ZC 接口规
+RSSP-工安全通信协议              范*安全通
+仿协议”
+ag | 越过移
+点防护、移
+动授权更新
+超时防护
+VOBC-
+ZC Te He
+
+SR-1-2
+
+保护区              列车 的 出
+
+PH-33 | 段允许解
+锁
+
+列车
+Ref-1. 1| 追尼相
+
+0BC 接口信息包含紧急
+
+VOBC-
+VOBC 和 ZC fil ith fri RK IW | ZC 接口规
+.                       RSSP-卫安全通信协议       We" El
+PH-34   *.   IHA-9 发送紧                       信协议” |
+
+| 命令不成功          y    ;   ve ae gy | ZE-VOBC
+CBTC 级别下 ,互联互通车载 接口 wi ty
+
+ATP 收到 ZC 列车控制信息紧| 。
+SR-S-66| 急制动命令或有紧饼制动命令
+报文的特殊命令,应立即执行
+紧急制动
+
+DK FE tli] 报
+ae
+
+8102—p “OL0P0 LAINVO/.L
+
+--- Page 62 ---
+8S
+
+表 4  互联互通危  危害分析(续)
+编号 (ACA) 编号 | Mc                     安全要下/运用限制条件 | 系统功f
+suace it             EI Tall OS LL EB REE | UB
+ao         一原则.保证进路正确    ER ETAL
+统一侧防及小安全距离,线
+路条件区许时、              _
+WEP AM Ae BSE BY
+te 线 运                          则防要求
+BE Ig onl a           侧防要求
+FEN UHR
+列车        CBTC 列车                    _
+Ref-1.3|侧面相| PH-35 |进入联络              SR-S-69| 点
+ai        线时侧面
+CI-CI 接
+出    下
+CBTC 列车                             ome
+
+IHA-5
+
+联络线 CI-
+CI接口信息传
+
+SR-T-7
+
+TE ih CLCI 接口协议应|
+
+采用 RSSP- | 安全协议
+
+安全通信
+协议”
+
+SR-I-8
+
+HWW CI-C1 接口 ,保
+证接口数据全面 .正确
+
+CILCL 接
+口规范
+
+000 LANVWO/L
+
+8107
+
+--- Page 63 ---
+65S
+
+表4 互联互通危害分析(续)
+
+BS bre  whl 4                  VAS        安全 eR   一      系综 fi
+编号 PAs AS | 互联互适       lems iek ohm] 铺号|。安全要求7过用限箱条伯 | 系统功能
+rr                                                           ZC-ZC
+互联互通 ZC-ZC 接口协议应 1
+联络      SR-I-5 |采用 RSSP- | 铁路信号安全通 eB A
+IHA-4 | ZC 接 a             信协议                     安全通信
+SR-L6    统一互联互通 ZC-ZC 接口,| ZC-ZC
+    | CATER HG tt .正确      接口规范
+By 线运                   ,| 统一互联系通公有数据,保
+省时,他线               SRS21 证接口数据全面 .正确         国
+列车     CBTC 列车                   系 ene eee
+Ref-1. 2! 侧面相| PH-35 |进入联络                 srs) 定义流程规范,确保数据全        _
+ii        线时侧面                  正确,该过程应  过生生办
+fi a aR                           和安全评估
+CBTC 列车          互联互通车         互联互通用数据版本应进行
+IHA-6 | 载电子地图错|SR-S-22 配王管理,确保现场使用数据    一
+车载 ATP 系统应保证所有互
+联互通公有电子地图版本正确
+HEMAR A HE, JER PERT | 也子地
+SR-S-23|时.如果发现车载 ATP 与 ZC,     .
+CI Al ATS 版本不--致或不兼容| 图存储
+时,对应车地通信无效,对应接
+口命令不执行
+
+8107一? "010b0 LAINVO/.L
+
+--- Page 64 ---
+09
+
+/运用限制条件
+
+a
+HII St        mew | ea lee             7
+ae a oo           -二|                -一
+
+、     计时,不符合|。 。,| 互联互通跨线进路应亲循统| ”进路/区
+Stas           SRST) 一原则 ,保证进路正确       Bx
+24 — Bk se eB,         |
+、 og) SER CE A HF IE ES ER RHE A
+SR-S-68| 、 、       0      一
+联络线计坦          邻计轴点及其停车点设计满足
+他 线|SHA-27|点设置不满足     fs             -
+         care 列车      侧防安全距离         由于线路限制,联络线计轴
+列车         进入联络线                       SR-S-69| 点及其       不满足四限设计| ”一
+Ref-1.2 a 面相| PH-36 |时侧面撞击                   时.系统应按照侵限设计
+a           本线 CBTC                                       CLCI HE
+列车                                                   口 规 范
+SRLL7 | 2B Bl CLCI 接口协议应| ”RSSP-1
+联络线 Cl        采用 RSSP- 1 安全协议
+IHA-5 | Cl 接口信息伟
+答错误
+SR_L8 | 统一互联互通 CLCI 接口,保| CICI接
+证接口数据全面 .正确      口规范
+Lo                             一-一
+
+8L07—v 01000 JINVYD《ZL
+
+--- Page 65 ---
+他 线
+CBTC 列车
+时侧面撞击
+本线 CBTC
+列车
+
+列车
+Ref-1.2|侧面相| PH-36
+Sif
+
+19
+
+R4 互联互通危害分析(续)
+
+Ef.
+
+互联互通 ZC-ZC 接口协议应
+SR-L5 |采用 RSSP- ] 铁路信和叶安全通
+
+系统功能
+
+ZC-ZC 接
+om 范
+“RSSP-[ 铁
+路信号安全
+通信六
+
+统一互联互通 ZC-ZC 接口，
+接口数据全面 .正确
+
+ZC-ZC 接
+
+IHA-6
+
+互联互通公有数据,保
+ze Bl Scat UE wh
+
+pik Pe PLL, RB A
+交全评估
+
+互联互通用数据版本应进行
+SA-S-22) 配置管理.确保现场使用数据
+正确性
+
+和车载 ATP 系统应保证所有互 |
+
+联互通公有电子地图版本正确
+TE AM AR FEE, SEER PE eR GT
+SR-S-23] If , Wn HE A HL AE AR ATP 与 ZC,
+CI 和 ATS 版本不一致或不兼容
+时.对应车地通信无效,对应接
+
+口命令不执行
+
+电子地
+PA FEAR
+
+8L0Z—v “OL0V0 LAW VO/L
+
+--- Page 66 ---
+co
+
+表4 互联互通危害分析(续)
+| ek RS A       安全          a
+编号 AAS] 编导    i     ;   oan    ASS    系统功能
+编号 KR) BS | TR ee 统场虹危害分解 Be ] 安全要求/运用限制条休 | 系统
+跨线进路设
+计时,不符合| 、 | 所联王通路线进路应遵循统| 进路/区
+SA 36|路线进路信号586 | 一原则,保证进路正确    ee ira
+开放要求
+统二侧防最小安全距离,线
+peso 路条件多许时,联络线及其相|
+联络线计轴                    REP A AE
+他 线 SHA-27| 点设置不满足
+      CBTC 列车      便防安全距离              制,联络线计策
+列车    进入联络线          SR-S-69| 点    满足超限设计| 一
+Ref-1.2 和 面相| PH-37  INFO Ts                          Inf, BEIT AE ME GE BBL
+ite             "
+加               本线 ITC 列                                                                   CLCI接
+车                                   口 ae
+
+IHA-5
+
+SR-I-7
+
+互联互通 CI-CT 接口协议应 “
+
+采用 RSSP- 工安全协议
+
+RSSP- |
+Be Be {ci
+
+安全通信
+
+CI接口信息人                 全
+
+答错误                     协议
+srg | 统一互联互通 CLCI 接口,保| CI-CI Hk
+OOO | ERE SAR TT TE     PLA
+
+vy 01000 LANNVO/L
+
+8102
+
+--- Page 67 ---
+£9
+
+#4  互联互通危害分析(续)
+
+互联互通信号系
+BIE SH sit See Te a} ME
+
+|
+da
+
+条件_
+
+Ref-1.2
+
+列车
+侧面 相
+
+PH-37
+
+THA4
+
+ZC 接口 信
+传输错误
+
+SR-1-5
+
+互联开通 ZC-ZC 接口协议应
+
+系统功能
+
+采用 RSSP-工铁路信号安全通| ”RSS
+
+信协议
+
+统一互联互通 ZC-ZC 接口，
+保证接口效据全面 .正确
+
+ZC-ZC 接
+口规范
+
+他 线
+CBTC 列 车
+进入联络线
+叶侧面撞届
+本线 ITC 列
+车
+
+IHA-6
+
+载电子地网错
+
+误
+
+统一互联互通公有数据,保
+证接口数据全面.正确
+
+义流程规范.确保数据全面、
+该过程应进行安全分析
+和安全评估
+
+SR-S-22
+
+下联互通用数据版本应进行
+配置管理,确保现场使用数据
+正确性
+
+SR-S-23
+
+车载 ATP 系统应保证所有互
+联互通公有电子地赂版本正确
+性和兼容性,共线、跨线运行
+时,如果发现车载 ATP 与 ZC,
+CL AL ATS ARAB AS — BOR AS aR AE
+时,对应车地通信无效.对应接
+口命令不执行
+
+电子地
+图存储
+
+8107一"000 LANNVO/L
+
+--- Page 68 ---
+ty9
+
+表4 互联互通危害分析(续)
+
+编号 BASIE E SiR] 编号   ‘Be Ge eR iH BR hal AF
+
+编号 face] 编号 | come | OF OTM s ____ER     系统功能
+
+跨线进路设
+、     计时,不符合|。 、 | 互联互通跨线进路应遵循统| 思路/区
+SHA-26| 跨线进路信号|58S 67| 一原则.保证进路正确       Benita)
+开放要求
+ 统一侧防最小安全距离,线
+sg|路条件多许时,联络线及其相|
+HE TTC|SHA-27|点   让加不油是       SYD BAR
+列车        列车侧面挤       侧防安全距离          由于线路限制,联络线计轴
+Ref-L 3侧面相| PH-38 | aE AMA                 SR-S-69| 点及其停车点不满足起限设计| ”一
+iit            线的他线                          时,系统应按照侵限设计
+CBTC 列车       -|                                           |  CHCl ti
+|口 mt
+spay) EMR CLI 楼口胁议应| ”RSSP- 1
+
+1HA-5 | CI接口信息                             安全通信
+输错误                                     Bain”
+
+统一互联互通 CLCI 接口,保| CELCI接
+
+SR-1-8            -               a.
+证接口数据全面 .正确        口规范
+
+y ‘0L000 LANWO/L
+
+8102:
+
+--- Page 69 ---
+so
+
+表4 互联互通危害分析(
+
+_        | 危害 民联互通信号系       BE BE OK
+编号 14   S3t| 编号   tT i
+编 POA) 编号 | ART | 编号 by     | BS | REWRITE
+| |                       ZCZC接
+mm ZC-ZC 接口协议应| 于
+采用 RSSP-工铁路信号安全通| a ay 人
+信协议
+Th) Wi TRE CLC 接日| 2ZCZC接
+[殴误接口数据全面、正确   口规范
+3 互联互通公有数据.保|
+本线 ITC                                  数据全面、正确
+列车     列车侧面挤                  线路数据准备过程应被
+Ref-1. 2] 侧面 相| PH-38 | 击进入联络                     这程规范,确保数据全面、   _
+|撞         线的他线                       ,该过程应进行安全分析
+CBTC 列车                                    交全评估                          加
+互联互通用数据版本应进行     |
+配置管理,确保现场使用数据| ”一
+正确性                |
+|            车载 ATP 系统应保证所有互
+|    联互通公有电子地网版本正确
+性和荚容性, 共线、跨线运行| 也子地
+SR-S-23] tht, Wn eA HL 4 4k ATP 与 ZC、
+PATE
+
+CI 和 ATS 版本不一致或不兼容
+me (Ab 地通信无效,对应接
+1命令不执行
+
+8107一? 000 IIAVD《LI
+
+--- Page 70 ---
+99
+
+他 线
+_        CBTC 列 车
+列车
+:     进入联络线
+-1.2      相 PH-39
+nee 2    wa
+ue
+
+本线 RM 模
+式列车
+
+R4 互联互通危害分析(续)
+
+危害 |互联互通信号系       安全要求        系统功能
+编号 上院场景危害分解| 编号   安全要求/运用限制条件   “
+跨线进路设
+计时,不符合     瑟联互通路线进路应遵循统| 。进路/区
+SA24|路线进行信号 POO” 一原则,保证进路正确    Bel
+开放要求
+统一侧防明小安全距离,线
+SR-S-68           :      一
+联络线计轴
+SHA-27|点设置不满足
+侧防安全距离
+SR-S-69| 点
+时,系统应按照侵限设计
+CI-CI 接
+Ae
+gray) _ EEE CI-CI 接口协议应| ”RSSp-T
+me     |采用RSSP- 1安全协议    铁路信 分
+IHA-5 | CI 接口信息传                      安全通 作
+输错误                       协议
+SR-18  统一互联互通 CI-CI 接口 ,保| CI-CI 接
+”|证接口数据全面 .正确    口规范
+
+810Z一? ‘01000 LAINVO/L
+
+--- Page 71 ---
+L9
+
+编号
+
+TAA
+
+表4
+
+互联互通危害分析(续)
+
+互联互通信号系
+
+统场景        a            2 FR td et
+-| 一--
+ZC-ZC 接
+IT ZC-ZC 接口协议应  os
+联络线 ZC_| SRS ase 铁路信号安全通 铁路信号
+IHA4 |zC 接口信息        ney                   安全通信
+传输错误                                  协议”
+SRLL6    统一互联互通 ZC-ZC 接口,| ZC-ZC 接
+他               “| 保证接口数据全面、正确    口规范
+列车       CBTC 列
+，                            统一互联开通公有数据,保
+人| 于 ona a          SRS20 证接口数据全面 JE
+.            本线 RM Be
+式列车                             系统线路数据准备过程应被
+TEIN [ey s |定义流程规范,确保数据全面、
+1IHA-6 | 载电子地图错      正确,该过程应进行安全分析
+误                和安全评估
+互联互通用数据版本应进行
+SR-S-22|配置管理,确保现场使用数据    一
+正确性
+LL
+
+8107—v “01000 LAN VO/L
+
+--- Page 72 ---
+89
+
+表4 互联互通危害分析(续)
+
+-一一
+
+| gem       、 | fe [a ASR          安全要求           ene phat
+FAR) 编号 | EMC | 编号 es orcas S| keeRe mmm AT
+|                     车载 ATP RRMA
+联互通公有电子地图版本正确
+他 线        互联互通车      性和雅容性,共线、跨线运行| oy
+CBTC 列车| IHA-6 | 载电子地图错 SR-S-23| 时,如果发现车载 ATP 与 ZC、 图存储
+puso 进入联络线    误          CI 和 ATS 版本不一致或不兼容|
+ni                     时,对应车地通信无效,对应接
+本线 RM 模                          口命令不执行
+式列车             RM 模式列                  _      -
+SHA-13| 车司机来按联|sR-04  _RWEUM BRT AE AB   _
+pepe de        按照联锁信号行车
+列车                   锁信和号行车
+侧面相                    跨线进路设
+nt               计时,不符合|。 e   互联互通跨线进路应遵循统| ”进路/区
+SA24|路线过路信号 567 一原则,保证进路正确       ELH
+| 本线 RM    开放要求
+| 模式列车侧
+面撞击进入                      统一侧防最小安全距离,线
+PH-40 | 联络线的他|             |sn_s6g|路条件允许时,联络线及其相|
+线 CBTC 列          联络线计轴        邻i
+车       SHA-27| 3 it PEAS ia AL
+侧防安全距离             路限制,联络线计轴|
+SR-S-69| 点及睦停车点不满足超限设计| ”一
+时,系统应按照侵限设计          加
+
+8107一p 01070 LANWVO/L
+
+--- Page 73 ---
+69
+
+Ref-1.2
+
+列车
+侧面相
+tt
+
+PH-40
+
+互联互通
+
+本线 RM
+模式列车侧
+面擅击进入
+联络线的他
+线 CBTC 列
+车
+
+表4 互联互通危害分析(续)
+
+编号
+
+互联互通 CI-CI 接口协议应
+采用 RSSP- 工安全协议
+
+系统功能
+
+一互联互通 CILCI 接口,保
+口数据全面 ,正确
+
+CI-Cl 接
+77 AR
+
+| THA-6
+
+互联互通车
+载电子地图错
+
+误
+
+互通 ZC-ZC 接口协议应
+
+ZC-ZC
+
+接口规范
+“ RSSP-T 铁
+路信号安全
+通信协议”
+
+Y 统一互联豆通 ZC-ZC 接口，
+保证接口数据全面 .正确
+
+ZC-ZC
+接口规范
+
+统一互联互通公有数据,保
+证接口数据全面 正确
+
+SR-S-11
+
+定义流程规范,确保数据全面、
+
+和安全评估
+
+正确,该过程应进行安全分析 |
+
+8107一? "000 LAINVO/L
+
+--- Page 74 ---
+OL
+
+Ref-1. 2
+
+表4 互联互通危害分析(续)
+
+fim
+
+互联互通信号系
+
+安全要求
+
+系统功能
+
+编号 院场景危害分解 编号 |   /运用限制条件
+互联互通用数据版本应进行
+SR-S-22| 配置管理,确保现场使用数据| ”一
+的正确性
+本线 RM            互联互通车            EAR ATP 系统应保证所有互
+模式列车侧| THA_6 | an Fie    联互首公有电子地网版本正确
+而打上这人    wees   HAAR AE HE 共线、跨线运行| 中 oy
+PH-40  联络 线的他           a               SR-S-23|时,如果发现车载 ATP 与 ZC,  图存储
+的他               CI 和 ATS Wes Bea AR aE | |
+R CBTC 列              时,对应车地通信无效,对应接
+车                                          口命令不执行
+\sta-t3 cy ue SR_O4| RM/EUM 局式下,列车司仙|
+ laaeae |   按照联锁信号行车
+中
+计时,不符合|。 、 | 互联互通跨线进路应遵循统| UE B/D
+fuse mel | eRuER SPP) 一原则 保证进路正确    exis
+线      开放要求
+ne               Fe — MO Re EH, PR
+PH-AL | SSR         SR sg| 路条件允许时,联络线及其相|
+
+tit ir AR ER
+ITC 列车
+
+SHA-27
+
+We 4 BR ef Ail
+点设置不满足
+侧防安全距离
+
+邻计轴点及其倍车点
+{ill Bir BE AR
+
+SR-S-69
+
+由于线路限制,联络线计轴
+区车点不满足超限设计
+!侵限设计
+
+8102一?0L0y0 LAN VO/L
+
+--- Page 75 ---
+IL
+
+R4 互联互通危害分析(续)
+
+Ref-1. 2
+
+we kip test] ae. | 危害 (Ra                                        Zw ph pe
+Jaa Sa | 互联互通  编号 gle Behe     Re                       系统功能
+CECI TE
+口 规 范
+ce op    SR_L7 | Ea CILCI 接口协议应| ”RSSTF- 1
+人全 | |采用RSSP- 1 安全协议   铁路信号
+
+输错误                                         协议"
+srg | 统一互联互通 CICI 接口,保 CICI接
+
+”|证接口数据全面,正确     口规范
+
+ZC-ZC
+
+他线 ITC                                                       口规范
+列车    列车过入联                TRIE 20-20 BeBe Se
+侧面相| PH-41 | 络线时侧面              -| SRTS 采用 RSSP-I 铁路信号安全通 铁路信和导
+AY            ft de a eg | HAS                     信协议                    安全通信
+
+ITC 列车             传输错误                                               协议*
+spe) 统一互联互通 ZC-ZC 接口,| ZC-ZC
+保证接口数据全面 .正确       ye ML
+
+ergo) SER A
+
+二区直通于    证接口数据全面 .正确     加
+AL    a                           _
+.    "     系统线路数据准备过程应被
+IHA-6 | 载电子地图氏
+误           SR-s.H|定   友和程规范,确保数据全面、
+
+正确,沪过程应进行安全分析
+和安全评估
+
+?0L0p0 LANVO/L
+
+8102:
+
+--- Page 76 ---
+ZL
+
+表4 互联互通危害分析(续)
+
+ae) on | ee ERED          安全              conan
+BS HAOG BS | ARO | 编号 besten we | 安全要站/运用限制条人| ©
+ERA RO AR
+SR-S-22| 配置管理,确保现场使用数据    一
+                 的正确性
+ee ire                            车载 ATP RAM RETA
+列车进入联       互联互通车       sup N tea an      -
+pH_41 | 络线时侧面| IHA-6 | ee su lH    联至通公有电子地图版本正确
+ee           HAMAR HE JERR RET] 二
+ITC 列车                     SR-S-23|时,如果发现车载 ATP 与 ZC、  网存储
+CL 和 ATS 版森不一致或不茧容
+时,对应车地通信无效,对应接
+74 4s                                                 口命令不执行
+Ref-1.2| 侧面 相                       跨线进路设
+‘it                      计时,不符合        互联下通跨线进路应遵循统| UD
+SA 26|路线进路信号58-S67| 一原则,保证进路正确       Bea
+本线 ITC        开放要求
+侧面撞                      统二例防东小安全距离,线
+pH-42 | 击进入联络                ，。 |路条件允许时,联络线及其相|
+线的他线                     邻计生点及其停车点设计满足
+ITC 列车“|SHA-27|点          1 Big BER
+th 3 SB EW SH
+SR-S-69    IEG                 一
+时,系统应按照侵限设计
+
+8!07一?0L0VY0 LAINNVO/L
+
+--- Page 77 ---
+€L
+
+Ref-1. 2
+
+保证接口数据全面 正确
+
+表4 互联互通危害分析(续)
+ras | om | 信号 ete              EeeRenmane | 2%
+CTPCT接
+口 规 范
+互联下通 CLCI 接口协议应| ”RSSP-1
+采用 RSSP- 工安全协议        铁路信 分
+浆一互联互通 CI-CL 接口 ,保| CI-CI接
+数据全面 .正确        口规范
+ZC-ZC
+列于       在人而                           开通 2C-Zc RE BRL ESD
+侧面相| PH-42 | 击进入联络                         和ssr1 铁路信号安全通|铁路信和号
+fil            线的他线                                                     安全授信
+ITC 列车                                                    BN”
+统一互联互通 ZC-ZC 接口,| ZC-zc
+
+THA-6
+
+互联互通车
+Fb Fw
+
+误
+
+统一互联互通公有数据,保
+证接口数据全面 .正确
+
+SR-S-1I
+
+系统线路数据准备过程应被
+定义流程规范,确保数据全面、
+正确, 沪过程应进行安全分析
+和安全评估
+
+8107一? 010V0 LANWVO/L
+
+--- Page 78 ---
+vl
+
+PDEA Hi
+
+Ref-1. 2
+
+列车}
+
+侧面 相
+Hit
+
+R4 互联互通危害分析(续)
+
+统场      分
+
+互联互通用数据版本应进行
+
+二| 系统功能
+
+SR-S-22| 配置管理,确保现场使用数据    一
+正确性
+本线 ITC               本
+车载 ATP 系统应保证所有互
+列车侧面撞       互联互通车        penne
+eH AH      b A
+PH-42 | 击进入联络| THA-6 |载电子地图错    BOA. 4F PARTS ASE
+iiss      a             性和慕容性,共线.路线运行| oy
+ite Le °         ia           SR-S23| 时,如果发现车载 ATP 与 ZC. | 网存依
+                     CI 和 ATS 版本不一致或不兼容|
+时,对应车地通信无效,对应接
+口命令不执行                |
+跨线进路设
+计叶,不符合       互联互通路线进路应遵循统| ，进路/区
+SA 4路线进路信号 PSO") 一原则,保证进路正确       段镇闭
+他线 ITC       FE HC BER
+EIS                     Fe — (0 Wy i A He BSR
+pas | SANT            sag| MARU AIPM WSR RtAN|
+pera       联络线计轴| “| SPAMS IR eae
+fe       SHA-27|点设置不满足       便防要求
+侧防安全距离        由于线路限制,联络线计轴
+
+SR-S-69
+
+点及其停车点不满足超限设计
+时.系统应按照侵限设计
+
+|
+
+8107一?0L0Y0 LAINVO/L
+
+--- Page 79 ---
+SL
+
+R4 互联互通危害分析(续)
+
+| wal | ee EMSs                     ee
+TAS) AS | TORO | aes icant a ae |       rma | NE
+CI-CI 按
+口 规 范
+be op    <      互联互通 CICI 接口协议应| ”RSSP-1
+acs cen B Cl SRVT | ry RSSP- 1安全协议     铁路信
+AO CTR Ea                      安全通信
+HAR                        bs”
+srs  统一互联互通 CI-CI 接口,保| CI-CI 1%
+证接口数据全面 .正确     口规范
+他线 ITC                                  ZC
+列车     列车进入联                  emai ZC-ZC ter phim | ME
+侧面相| PH-43 SR      联络线 ZC-| SR-1-5 |采用 RSSP- 1 铁路信号安全通
+二        拉击本线| THA-4|zc 接口信息     信协议
+wy Beate     ema
+sRL6| 统一互联互通 ZC-ZC 接口，
+保证接口数据全面、正确     接口规范
+sai| 统一互联互通公有数据,保
+互联互通车     证接口数据全面、正确
+HA_6| sew E98 GR     系统线路数据准备过程应被
+i               by
+e       ones. 1] 2 MERE MER BH |
+SEW), Wah FB a ET ED OT
+和安全评估
+
+8L0Z—b 01000 LANVO/L
+
+--- Page 80 ---
+OL
+
+4 互联互通危害分析(续)
+
+编号 RY 编号 | 互联互适   ee                    gen) MRE   B80)
+互联互通用数据版本应进行
+SR-S-22| 配置管理,确保现场使用数据| ”一
+他线 ITC                          的正确性
+| 42 HE                    车载   统应保证所有互
+paras | 络线时便面| HA_6 | pet su et      联豆通公有电子地图版本正确
+擅击本线     认           a a 册子志
+RM 模式列                    SR-S-23| 时,如果发现车载 ATP 与 ZC,
+车                      CI 和 ATS 版本不一致或不菲容| AEM
+时,对应车地通信无效,对应接
+列车                                    口命令不执行
+Ref-1.2| 侧面 相                         跨线进路设
+fie                  、     计时,不符合| 、 | 互联互通跨线进路应遵循统| 进路/区
+SHA-36|跨线进路信号 PSO”) 一原则,保证进路正确       Be Bina
+ek RM       开放要求
+name                   Fe — (BIA AN 4 HE SBR
+PHAM | ae a4           CR sg| 路条件允许时,联络线及其相|
+过                       四   le  Ab fee fe  y
+th #8         联络线计轴        邻计轴点及其停车点设
+ITC 列车   SHA-27| 点设置不满足        侧防要求
+便防安全距离         由于线路限制,联络线计轴
+
+8L0¢—b ‘01000 LANVO/L
+
+--- Page 81 ---
+LL
+
+R4 互联互通危害分析(续)
+tT                         ~       ~
+
+编号 WAS 编号 | eT  on eae   a                     eT) 系统功能
+|                                         CI-C1 BE
+
+口 规 范
+
+互联五通 CI-CI 接口协议应| ”RSSP-I
+
+采用 RSSP- | 安全协议        铁路信和号
+
+安全通信
+
+协议”
+
+统一互联互通 CILCI 接口    CI-Cl 4%
+
+本线 RM                             口效据全面 .正确      口规范
+
+a 4        模式列车                                                    元元
+Ref-1.2|侧面相| PH-44 fa Bt                                                接口规范
+
+“lit          进入联络                          IK Nall ZC-ZC 接口协议应| |
+            线的他线                              RSSP- | 铁路信号安全通
+ITC 列车
+crag) EMT ZC-ZC 接口,| ZC-ZC
+”| 保证接口数据全面、正确     接口规范
+RM 模式列    本
+SHA-13| 车司机未按联|SR-0-4| Re BRR ALE ele)
+an        按照联锁信号行车
+锁信号行车
+-| |
+
+810z一? 00y0 LAWVO/L
+
+--- Page 82 ---
+8L
+
+互联互通危害分析(续)
+
+编号 |晶故场别 编号
+
+统场景危害分解 编号 | 安全要求/运用限制条件
+|                  路线进路设
+、  计时,不符合|        线进路应遵循统| 。进路/区
+SHA-26 路线进路信号|5R-S67| 一原则,保证进路正确    pi
+开放要求
+统一侧防最小安全距离,线
+|             及其相
+SR-S-68                                  一
+oneal          minis
+op                 络线计
+他线 RM |sHA-27| 点设置不漠足                                                    |
+feat a    couenie        nun wna
+列车        进入联络         RB 2 SEE ie          由 于线路限 制,联络线计轴
+Ref-1.2| 侧面相| PH-45 |线时侧面                   SR-S-69| 点及其停车点不满足超限设计    一
+tit              撞击本线                                时.系        侵限设计
+                                                                   口 规范
+spa | 互联互通 CLCI 接口协议应| ”RSSP-1
+|                     采用 RSSP- 1 HS PIN        Pe AE
+IHA-5                                                          安全通信
+输错误                      mie”
+SR-L8    统一互联互通 CI-C1 接口,保| CI-CI 接
+证接口数据全面 .正确     口规范
+
+未统功能|
+
+8107一? 01070 LANVO/L
+
+--- Page 83 ---
+6L
+
+Ref-1. 2
+
+#4  aReeeeon™
+
+SIE BSH Sat) a                              AS              TRA RPE    系统功能
+ZC-ZC
+5     wy
+aime iam zc-2c 980 Baber | TEE
+他线 RM            ve            2     co) unex qe pe ag | RSSP-1
+联络线 ZC-| SR-1-5 |采用 RSSP- 工铁路信和号安全通| 。    加四
+模式 列车                        二四充                  Bea tri
+THA-4|ZC 接口信息        信协议                    we ae fe
+进入联络                                 安全通信
+_       传输错误                                  协议"
+PHAS |线时侧面                                                     pi
+撞击本线                       SR-L6    统一互联互通 ZC-ZC 接口，    ZC-ZC
+RM #5 5]                                              保证接口灼据企面 TE           接口规范
+车       sa   RM fist sping, RMZEUM 模式下,列和司机|
+列车        按照联锁信号行车
+侧面 相                                                                  _
+计     fe        互联互通跨线进路应遵循统| 进路/区
+本线 RM SHA 2 跨线进     3 prs  一原则 ,保证进路正确         段锁闭
+模式 列车        开放要求
+侧面撞击                     统一侧防圾小安全距离,线
+PH-46 |进入联络                       SR-s.68    路条件 允许 时,联络线 及其 相
+RM 模式列 |SHA-27| 点设置不满足
+车              侧防安全距离                   关联络线计轴
+SR-S-69| 点            背足超限设计    一
+it AS THERM GSR
+
+701070 LANWVO/L
+
+8102
+
+--- Page 84 ---
+08
+
+表4 互联互通危害分析(
+
+续)
+
+                本    ote |互联互通信号系           安全要求               oye
+编号 上    ay   号 | 互联互j                                     KBE ii
+®               ka       Ba Se               求/运用限制条件     ene
+CL-CI 4%
+口 规 范
+sR   互联互通 CLCI PEO PRIX Z|“ RSSP- 1
+联络线 CL-       |采用 RSSP- 1 安全协议        铁路信号
+1HA-5 | CL 接口信息传    |                安全通信
+输错误                                   协议”
+SR_L8 | “统一互联囊通 CLCI 接口,保| CLCI接
+本线 RM               “|证接口数据全面 TE      口规范
+模式列车                                                     -二
+列车        侧面撞击                                                    20-2
+Ref-1. 2 we 相| PH-46  x ‘ ns                            EOI ZC-ZC 接口协议应  me 机
+RM 模式列       ae ee 2 SEES EMIS 1 铁路信号安全通 |铁路f
+车        IHA-4 |Z 接口            nen                    安全通信
+传输错误                                   | Bix”
+sR-L6    统一互联互通 ZC-ZC 接口,|  ZC-ZC
+     保证接口数据全面 .正确      接口规范
+RM 模式列               _     = 司
+sHa-13| 车司机来按联|SR-O4|  RMZEUM 局式下,列车司机 -
+ps CL jos pe         按照联锁信
+Bia ST
+
+8L02—b “0L0b0 LAINVO/L
+
+--- Page 85 ---
+2018
+
+T/CAMET 04010. 4
+
+Xt I-19
+
+‘yoy SIL TON SD RR 2
+4 Oe 1-1 WA — we
+
+8-TNS
+
++ | WA FF ID-ID 亚互渔互
+
+MAD % | -dssu fk
+
+Ay 2} RF ID
+
+S-VHI
+
+TH SHY ae od
+HY HE OW 4 Ye a” ld
+
+365 RM Ya TG Ga CE YB
+
+CE) WEEDREWE
+
+WA Mf |
+
+9T-VHS
+
+We x
+
+Ly Hd
+
+下
+tH WD fig | c1g°u
+Ay lie
+
+eH AN] 4
+
+up
+
+81
+
+--- Page 86 ---
+Z8
+
+R4 互联互通危害分析(续)
+四            四  危害 互联互通信和号系|        安全要求          a
+WS PROAKY 编 | AOE go goss Mel RO | eeeR cn | 7M
+ZC-ZC
+互联互通 ZC-ZC 接口协议应  本
+we          a   T 包路信号安全通 oy
+IHA-4 | ZC 接口信            外                    安全
+AB ek IE        传输错误                                    Brix”
+装备列车                                                         —
+侧面撞击                     sro | 统一互联互通 ZC-ZC 接口,|  ZC-ZC
+PH-47 |进入联络      保证接口数据全面 .正确       接口规范
+wx) [RM       sm A
+Ref 2) fil i FH      车  a  osHA3|生或本装备|sR-0.6
+Hit         *          | ATP 列车司机
+AHR ME ATE
+、    _
+SHA-13| 4        e |SR-0-4          APF 车司机| 一
+他线 RM
+pase                | ss 6 TETAS He ab | UE
+一原则 ,保证进路正确               段锁闭
+
+开放要求
+
+8107一010V0 LAN VO/L
+
+--- Page 87 ---
+58
+
+列车
+Ref-1.2| 侧面 相
+
+tit
+
+PH-48
+
+他线 RM
+异式列车j
+
+表4 互联互通危害分析(续)
+fee [LLU Sz       BEER        oun
+as bemnice in BS | 安全要求/运用限制系件| eh
+Be — WB Ri Se HE HBR
+Rs 6g| 路条件允许时,了     加
+联    i SR-S-68 97°
+SHA-27|点设置不满足
+便防安全距郊
+SR-S-69| 点                          一
+CI-C1 接
+om 范
+联络线 CL| SR-D7    互联互通 CI-Cl 接口协议应| ”RSSP- 1
+
+采用 RSSP- | 安全协议
+
+IHA-5 | CI 接口信息传
+和输错误
+SR_L8   统一互联互通 CLCI接口,保| CIC AE
+ |证接口数据全面 .正确        口规范
+ZC-ZC
+互联互通 ZC-ZC 接口协议应| BEY
+联络线 ZC-| SR-1-S |采用 RSSP- 工铁路信号安全通 铁路人  ，
+IHA4/ZC 接口信息       信协议                  安全通信
+传输错误                                                                                              Bain”
+spig| 统一互联互通 ZC-ZC te} ZC-ZC
+保证接口数据全面 .正确        接口规范
+
+8107一pp 0L0V0 LAINNVO/L
+
+--- Page 88 ---
+8
+
+表4 互联互通危害分析(续)
+5         -     fey PREMAS SE        安全要求         aesyee
+Arye SH oy ee     OT i                                              系统功能
+下改场员编写 | 互联互通 | 编号 bea pe we | 安全要求/运用限制条件 | ee
+他线 RM            切除 ATP 列            切除 ATP 列车或未装备 ATP
+，     车或未装名      和车,司机按照联锁信号或人
+Hi st Fi) HE   | 4 发未装备|sR 4 |
+进入联络| fate 列车司机上    工调度行车,行车安全由司机
+PH-48 |线时侧面        未按规定行车        保障
+非装备列jSHA-13| 车司届未按联|SR-0-4  RMVEUM BRE A Fl BL    一
+‘fe             eee         按照联锁信号行车
+aa            锁信号行车
+跨线进路设
+ts               ,|计时,不符合|。 。 | 互联互通跨线进路应遵循统| UE Bo
+ten               SHA6) poe eae ay PSS 一原则.保证进路正确       Batra
+装备列车                   统一侧防最小安全距离,线
+侧面兵击                         路条件允许时,联络线及其相
+PH-49 |进入联络                       SR-S-68                         满足     一
+er ek         联络线计轴
+非装 备 列|sSHA-27|点设置不满足
+车               加   -
+sa lariat         由于线路限制,联络线计轴|
+SR-S-69| 点及     不满足是限设计| 一
+时,系统应按照侵限设计
+
+8107一?0L0Y0 LIANVDXL
+
+--- Page 89 ---
+S8
+
+#4  SRS BREDA
+
+编号 A AS | 互联互通                                     BEEK                系统功能
+安全要求/运用限制条件
+_      SRLL7    互联开通 CI-CI 接口其议应|
+联           采用 RSSP- 工安全上苏议
+THA-5           息
+Pees  (Na
+;                 4,
+y                sRLLSN O编 -互联互天 CI-CI 接口,保
+本线非      数据全面 .正确
+
+装备列车                              4                 -         oe
+列车         ow at at ae | Nt                         5                          an
+Ref-1.2|侧面相| PH-49 进入联络    sex                             互通 ZC-ZC 接口协议应 | 。 Rssp
+
+it              线的他线        h              SR-         RSSP- 1 FEMMES RAW | oy poe
+非装备列| ys           过      OYA tix                    铁路信号
+车                                      S   ay                                             安全通信
+
+协议”
+sprig) 统一互联互通 ZC-ZC 接口,| Zc-2c
+       保证接口数据全面、正确        接口规范
+切除 ATP 列           切除 ATP 列车或未装
+cg a) RE ft].    列车.司机按照联锁信号
+OSHA-3              SR-0-6                               一
+SHAS" ATp 列车司机     工调度行车,行车安全由司机
+来按规定行车               保障
+
+8L02—v ‘0L000 LANVO/L
+
+
+--- Page 90 ---
+98
+
+国
+
+Ref-I, 2
+
+列车
+侧面 相
+fit
+
+PH-50
+
+互联互通
+
+他线非
+装备列车
+进入联络
+线时侧面
+fit dz AR AR
+
+|非装备列
+
+车
+
+表4 互联互通危害分析(续)
+
+So
+危害 [LEMS R           ;       | eas
+A BEY
+编号 Beams TOR) 编号         运用限制条件 | 系统功能
+跨线进路设
+计叶,不符合      互联互通跨线进路应遵循统| ”进路/区
+SA 6|跨线进路信号 PSO”) 一原则,保证进路正确       段锁闭
+开放要求
+统一侧防航小安全距离,线
+SRs-6|路条件多许时,联络线及其相  加
+联络线计轴       邻计轴点及其停车点设计满足
+SHA-27|点设置不满足      BB BEAR
+SN Be HE         由于线路限制,联络线计轴
+SR-S-69 点         不满足超限设计    一
+时.系统应按照侵限设计
+互联互通 CI-CI 接口协议应|
+采用 RSSP- [ 安全协议
+IHA-$ | Cl 接口信息传|
+SR-L8    统一互联互通 CI-CI 接口 ,保    CI-Cl fe
+证接口数据全面 .正确       口规范
+
+8107一000 LAINVO/L
+
+--- Page 91 ---
+L8
+
+#4  BRABEED Hh (4
+
+、    ;区联豆通信号系        安全要求          而本
+编号 Rao 编号 | ECU Toil  编号 Gedy HEME Dh) BB   安全要求/运用限制条件   %   Ny fi
+[                            ZC-ZC
+WR Ga 2-20 接口协议应| 读 1
+me    _| SR-L5 |采用 RSSP- 1 Bee ffi 3 2 2      ，
+IHA-4 | zc 接口           信和协议
+他线非        传输错误
+装备列车
+|                           统一       ny   =           ZC-ZC
+进人联络 人 四 wien ne “ apen
+PH-50 | 28 tf i) tf           ;         |                   _                :
+列车         fit de AS BE           切除 ATP 列            切除 ATP 列车或未装备 ATP
+Ref-1.2| 侧面 相       非装备列       车或              列车,司机按照联锁信号或人
+机                 OSHA-           SR-0-6    ”     ~    noe      -
+ik        车       HAS! sop ai 3        工调度行车,行车安全由司机
+未按规定行车        保障
+RM 模式列
+RM/EUM 模式下,列车司机
+SHA-13             R-O4                           一
+车司机来按联|SR-0- |按照联镇信号行车
+1
+共线列车运行侧面相撞防护由单线 CBTC 系统防护,不在本规范范围
+
+8107一?0L0V0 LIANVD《XL
+
+--- Page 92 ---
+88
+
+表4 互联互通危害分析(
+
+Ref-1. 3
+
+列车
+迎面相
+fit
+
+续)
+安全要求
+
+°                             as | 安全要下/运用限制条件 | 系统功能
+联络线列车      信和号系统具备 CBTC,
+反向运行时,ZC      | ITC .联镇级别下双方向运| ee
+SHA_28| 子系统为 CBTC |sR-s-70| 行的安全防护功能,联络
+车计算了不安     线方向运行进路建立后，
+全的 MA                敌对进路不能建立
+两 CBTC                                               固定速度限
+异式列车                                                     制防护 ,临时限
+|在联络线                                           速限制防护 .列
+或相邻计         列车的动作                            车超速防护 、列
+轴区段迎        违反了信和只系          CBTC ITC 列车的动作|车运行方向防
+面相撞 |SHA-29|统的授权时.|SR-S-71|违反了信号系统的授权|护.退行防护、
+未能够实施紧       inh ATP 实施紧急制动 |越过移动授权
+急制动                                                     YY AL
+AM
+防护、车门防
+_    本           护 ,站台门防护
+aes                           | 信和号系统具备 CBTC
+TC HSH                        ITC MAE ME] 、，，，
+puse | 4 cemeenet [SHa-28| +364 m corc|sn-s-70] 1549 2-2 By aon ee | _ EPEC
+或相邻计铀     车计算了不安     线方向运行进路建立后,|国
+sae          全的 MA                敌对进路不能建立
+
+8!107一?0!0Y0 LANVO/L
+
+--- Page 93 ---
+68
+
+表4 互联互通危害分析(续)
+
+ce ducal ae              IK Hilts 3         Be 4 BER           a
+MOR 编号 | TORT | 编号 Nes acar sa me | 安全要求/运用限制条件 | TE  |
+J                                        SE |
+(az le pte Ny
+制防护 ,临时限
+加                         速限制防护 4
+4 3h                                  ;              GMB
+i              CBTC ITC 列车的动作|车运行方向防
+care #t                      ae 9动作 车运行方向肋
+st ey SHA                ERTS RAW vane
+ITC Hist vy                                    TP 实施紧急制动      pane “beh
+PH-52 | 车在联络线                          授权更新趣时
+或相邻计轴                                        防护.车门防
+列车         区段迎面相                                                       护、站台门防护
+Ref-1.3|迎面相       Sit                                号系统具备 CBTC、
+境                                  替联锁级别下双方向运      .
+SHAS               的安全防护功能,联络 yee
+线方向运行进路建立后，
+|                      敌对进路不能建立
+CBTC fi       2 ob Gl) te       二号系统具有有    7
+式列车与       ae ae       uf 号 系 统 st tit CBTC、
+RM 模式列       反向运行时,ZC         7 \联锁级别下双方向运   进路/区段镶
+PH-53 | 车在联络|SHA-28|子系统为 CBTC |        安全防护功能,联络 tH     a
+2H     车计算了不安    线方向运行进路建立后，
+i fil OB          全的MA                敌对进路不能建立
+迎面相撤    |                     |
+
+810Zz一7000 TINVD《ZL
+
+--- Page 94 ---
+06
+
+Loi tL
+
+pgs
+
+锁信号行车
+
+司机按照联锁信只行车
+
+表4 互联互通危害分析(续)
+上 VIR MSS) 编导 | 互联互通  编号 Be           RHEE |  系统功能
+|                           Vi] az AEE
+制防护 ,临时限
+速限制防护 .列
+列车的动作                                                车超速防护 BI
+违反了信和号系          CBTC ITC 列车的动作|车运行方向防
+|SHA-29] 统的授权时,|SR-S-7I| 违反了信和号系统的授权|护.退行防护、
+本       AS AE WS Gz Ht       Tf ATP 实施紧急制动    越过移动授权
+列车       RM 模式列                                           授权更新起时
+Ref-1.3|迎面相| PH-53 |车在联络                                                     防护、车门防
+Sit             线或相邻                                                      护 .站台门防护
+ih Ail be Be            列车反向运            信号系统具备 CBTC、
+迎面必控        行时, 信和号系       ITC ,联锁级别下双方向运|
+        |。 | 2      bos ah aie       进路/区段锁
+SHA-31|统给出 RM 模jSR-S-70| 行的安全防护功能,联络 i
+式列车不安全       线方向运行进路建立后，
+的授权                             政对进路不能建立
+RM HE st 9         本
+SHA-13| 车可机来按联|SR-O-4 RON BAT AE     —
+
+8107一?0L0Y0 LAN VO/L
+
+--- Page 95 ---
+16
+
+表 4 互联互通危害分析(续)
+
+编号 PIAS 编号 | 互联互通                 * Be            many | Re
+列车                 县 备 CBTC、
+反向运行时,ZC                          see pe ee
+SHA_28|子系统为 CBTC |sR_-S-70| 行的安全防护功 能， nes  |g ta
+车计算了不安       7向运行进路侍立后，
+全的 MA                  政对过路不能建立
+国定速度限
+制防护、
+CBTC He                                           ic Ba
+式列车与          列车的动作
+) Be ATP      违反了信号系         CBTC ITC 列车的动作
+      列车或来|SHA-29|统的授权时,SR-S-7]| 违反了1f       9授权 | 护、退行防护、
+列车     4% ATP     未能够实施紧     时,ATP 实施紧急制动      移动授权
+Ref-1. 3 a 面相| PH-54  列车在联         急制动
+四            络线或相                                                        !
+邻计轴 区                                                   护、 站人台门防护
+段迎面机       列车反向运       信    统具备 CBTC、
+i           行时, 信号系      ITC 联锁级别下双方向运| ve
+"      SHA.31] $844 th RMB |SR-S-70] 行的安全防护功能,联络| ASE
+式列车不安全     线方向运行进路建立后，
+的授权          敢对进路不能建立
+切除 ATP 列           切除 ATP 列车或未装备
+车或未装备     ATP列车,司机按照联钙
+CS 3 ATP 列车司机| 5 0 |信号或人工调诺行车,行| 一
+未按规定行车               生安全由司忆保障
+
+701000 LANNVO/L
+
+8102.
+
+--- Page 96 ---
+Z6
+
+Ref-1. 3
+
+R4 互联互通危害分析(续)
+
+cpl gee      、 | ee LM A        安全要求            _
+
+HRCAR) 编 | 互联互 | 编号 desea spe BS | 安全要求7运用限制条件 | 。 系统功能
+|               固定速度限
+制防护 ,临时限
+速限制防护 、列
+FE    护 .列
+          CBTC ITC 列车的动作      和方向防
+SHA.29          SR-S-71| RTS AY HEAL | DY OR TD,
+时,ATP 实施紧急制动 |越过移动授权
+西 ITC                            终点防护 .移动
+列车        BRN                                               授权更新是时
+ia i | pass | © EE                           防护、生门防
+fit          或相邻 计                                        护 ,站台门防护
+
+轴区段迎
+面相六
+联络线列车       信号系统具备 CBTC |
+反向运行时，      ITC .联镇级别下双方向运| 、，， ee
+SHA-30| 信和号系统给出 SR-S-70] 行的安全防护功能,联络 eee
+|       ITC 级别列车       线方向运行进路建立后.
+不安全的授权      敌对过路不能建立
+
+8L02—b ‘01000 LHINVO/L
+
+--- Page 97 ---
+£6
+
+表4 互联互通危害分析(续)
+
+TI Ha (iio
+
+BS [iia st       TORT | 编号 be agsercarsean| ao         varie eee | PE
+固定速度限
+制防护 .临时限
+速限制防护 、.列
+车超速防护 、列
+CBTC ITC 列车的动作      行方向防
+i      只系统的授权|护`.退行防护、
+il    越过移动授权
+终点防护 .移动
+ITC 模式                                               授权更新轧叶
+列车与 RM                                          防护、车门防
+列车        模式 列车                                                护 .站人台门防护
+Ref-1.3|迎面相| PH-56 |在联络线                       总系统且备 CBTC、
+‘i          a HAS i                         RAPHE IE 38 | ge po
+4 ke Be a                                 安全防护功能,联络|闭
+机                      方向运行进路建立后，
+Fa                         敌对进路不能建立
+信       具备 CBTC、
+ITC ,联锁级别下双方向运|  、     四全
+SHA-3T 统给 ih RM Mi SR-S-70| 行的安全防护功能,联络 yee
+式列车不安全      线方向运行进路建立后，
+的授权                              政对进路不能建立
+RM 模式列                i     -
+SHA-13| 企司机林按联|SR-O-4| _ RMZECM  XP *    一
+
+司机按照联锁
+
+锁信号行车
+
+8107一00VY0 LANVO/L
+
+--- Page 98 ---
+6
+
+R4 互联互通危害分析(续)
+
+互联互通信
+
+编号 BOB) 编号 | a a ag ta     ao eeexenmman | 。 系统蕊能
+FD 临时限
+速限制防护、列
+列车的动作                         车超速防护、列
+违反了信             CBTC ITC 列车的动作|车    方向防
+SHA-29|统的授权时，     违反了信号系统的授权| AT
+未能够实施紧        时,ATP 实施紧急制动 |越过移动授权
+ITC Bt                                        授权更新超时
+列车与切                                       防护.车门防
+除 ATP 列                                    护 .站台门防护
+
+列车     fee ok ae      联络线列        {iS RAS CBIC,
+
+Ref-1.3 迎面相| PH-57 | # ATP 列      反向运行时，       ITC IK   别下双方向运| 、   pe a
+二           车在联络|SHA-30| 信号系统纵册|SR-S-70|行的安全防护功能,联络| 9 VK
+线或相乌     ITC 级别列车     线方向运行进路建立后，
+
+enn       不安全的授权       政对进路不能建立
+‘na HN       列车反向运      信号系统具备 CBTC、
+行时, 信号系     ITC ,联镇级虽下双方向运| eo poy
+SHA-31|统给出 RM HE     行的安全防护功能,联络|闭
+式列车不安全     | 线方向运行进路建立后，
+|     的授权            政对进路不能
+BR ATP 列
+osna-3, © 2k A tl cp og                          一
+
+ATP 列车
+AR He Lz 47 A
+
+8L0Z—b 01000 LAINNVO/L
+
+--- Page 99 ---
+S6
+
+表4 互联互通危害分析(续)
+
+“Yi Abe SH it
+
+编导
+
+SOD 2 3
+
+EER
+
+REI TIE
+
+tL                           se i St                                    求/运用限制条件
+列车反向运          aS RBM fe CBTC,
+和     信号系        ITC ,联锁级别下双方向运             oy
+统给出 RM_BE SR-S-70| 行的安全防护功能,联络
+式列车不安全     线方向运行进路建立后，
+PHSB | eo i        I FE A               敌对进路不能建立
+区段迎面     RN Hist i)        ce eee wae
+RM/EUM 模式下.列车
+hit        SHA-13| 车本    fe IE | SR-O-4                                一
+Hi     SHA-13| 车司机本按联|SR-0-4 oy se nce ig 4 4
+锁信和叶行车
+ris KBE ff CBTC、
+列 4                                                   ITC .联锁级别下 双方向运|
+emt                       SHA31                g |sn-s.70) 450% 2 wr 9 fe, wee | AVR
+iit         RM Hist     式列车不安全     线方向运行进路建立后，
+列车与切       的授权            政对进路不能建立
+
+PH-59
+
+bE ATP 列
+
+RM 模式列
+
+E 或 ee                            》       ah     车
+车或本里|SHA-13| 车司机未按联 /SR-O-4 本 As      _
+备 ATP 列       知人信号行和         本机按照联锁信号行车
+车迎面相                 -
+fit                     切除 ATP 列            切除 ATP 列车 RAE  装备
+OSHA-3  4 AS had 备 SR-0-6  ATP列车,司机按照 it       加
+ATP 列车司侦               AT. iL
+本按规定行熙                全由司机
+Te BU ae                        保障                     |
+
+8107一? 010p0 LAINVO/L
+
+--- Page 100 ---
+96
+
+VROAS 4
+
+R4 互联互通危害分析(续)
+
+互联互通
+
+RT Bast fi
+
+OD 除
+ATP 列 车
+或未装备
+ATP 列 车
+或相邻计
+轴有区段面
+FARE
+
+行时.信号系
+SHA-31) 统给出 RM BE
+式列车不安全
+的授权
+
+列车反向运|
+
+SR-S-70
+
+安全要炒/运用限制条件
+
+    En          安全要求
+fem mn RRR
+
+分解 编导
+
+信号系统具备 CBTC、
+| ITC ,联锁级别下双方向运
+行的安全防护功能,联络
+敌对进路不能建立
+
+进路/区段锁
+闭
+
+切除 ATP 列
+ATP 列车司机
+
+OSHA-3
+
+SR-0-6
+
+切除 ATP 列车或未装备
+ATP列车,司机按照联锁
+和人工调度行车,行
+车安全由司机保障
+
+共线列
+
+车运行迎面相撞防护由单线 CBTC 系统防护 ,不在本规范范围
+
+列车
+解体导
+SHE
+
+PH-61
+
+列车解
+体后不受
+
+控制
+
+车载 ATP 对
+SHA-32| 列车解体没有
+防护
+
+SR-S-72
+
+在 CBTC 级别 ITC 级别
+和RM ist F, 4 4k ATP
+的列                 3
+Sf: 3 FA) 42-56 ME HE BK ATP
+应向车辆持续输出紧急制
+动命令
+
+防护列车完
+
+| 整性丢失 ,列车
+
+运行方向确定
+
+4A ATP 对
+IHA-10| 列车解体
+
+ee
+
+和车载 ATP 采用安全继电
+中或其他安全接口技术采
+集列车完整性信息
+
+车载 ATO/
+|ATP 5 4: 48) He
+
+8102—v “01070 LANVO/.L
+
+--- Page 101 ---
+L6
+
+R4
+
+互联互通危害分析(续)
+
+离 ,无法收到 ATP 紧急制
+动的信息， 该危害信号系
+统无法减轻或消除
+
+| 人 ae    、 | 危害 民联互通信和号                   二
+编号 MH 编号 | 互联互通   编号 bye ty EES She                           see |
+|                                   4 A
+车载 ATP 紧  了 & we
+SHA-33| 急制动输出故               Hahn > BR         6
+ad         集紧急制动状态信息
+车辆采购及维护符合车
+OSH.                   A Wh HG Le, HE a A     一
+系统输出的安全要求
+ATP 采用安全继电    车载 ATO/
+他安全接口技术传输| ATP 45 4 4 Me
+:                              出动命令及采 Hi “列车完整
+4     列车解                        bey
+体后不受
+Ref-1.4|解体导| PH-61] 全
+致控车       ae OR BE                       | ASD a cel
+控制                                   与车载 ATP 物理隔
+
+viene
+
+OSHA-9
+续列 车与解体
+列 FAH
+
+a |SR-O-10
+
+信和叶系统无法检测到解
+体后列车具体位嗓, 车载
+ATP 系统无法提供安全防
+
+护: 运营真任方应制定该 |
+
+WEE IT A
+
+8L02—v ‘0L0V0 LAN VO/L
+
+--- Page 102 ---
+86
+
+表4 互联互通危害分析(续)
+
+Ref-2. 1
+
+PROG AE A | ROU | 编号               可 eeeR nme | 系统功能
+SR-O-11)
+列车挤到轨
+OSHA-10 vee        He OH he 7 EA        本
+列车与        fur Slob HS        则,作业责任方应完成施
+pag |工具或施       了     SR-O-I|工材料.工具废弃物小
+工材料 相                  除.严然遗湄在轨道上或
+ait                            UA JE 9 fa
+动车调试或列车运营
+与全上                台上施工或维      aan     vin ae
+与侵限              OSHA so 0    SR-O-13) 面应清晰明确,做好切实
+物体相                       Pa OT        可行的防护方案后方可进
+hit                        candi            行交叉作业
+列车与轨道上               信号设备安装满足设备
+OSHA-12             SR-O-
+SA 的信号设备相描 (OA 限界要求
+列车与                  SRO aig
+PH-63 |轨道 1       列车与跌落        RIF iE RE HF A
+体相撞|0SHA-13| 在轨道上的其          任方应组织当天所
+{hi HITE |SR-O-16| 4       线路的讨道作
+业,确认线路无障碍物,方
+可进入运营                   |
+
+8107一000 LAWVO/L
+
+--- Page 103 ---
+66
+
+#4  互联互通危害分析( 续
+编号 SNA sk     互联互通  ne        ia               系统切能
+osna-t4| ©       JSsR-0-17                   一
+BASE
+PH-64 | 交道口上物     的      <
+列车      体相撞                                  人
+                     道口区域的物      ea, net 人 5 车辆
+Ref2 1) 2 2             OSHS Gack st 38st POTS) ge ite fe 38a 1 Be
+物体机                                           工具掉沙的物              的物体相擅
+tif    _             | ED HE
+不能被信           ee yk fer
+Peper     不能被信号     GEE SEAT Ie OM AE
+aes     系统识      eH    LAR fie ye
+PIHL65 | 的列车上线|osHa_16 系统识 别的列 SR_o_19| He He » 保不能被
+有        LR RE      系统识别的列
+oe       故导致              安全及安全退出
+固定速度限
+列车                                                              制防 区 a 时 a
+wh alt §                       14                            速限制防护 、列
+i i                  列车的动作       |和是速防护 列
+道尽头，            、      违反了     系       CBTC JITC 列车的动作|车运行方向防
+Ref-2.2|撞到轨| PH-66       和| SHA-29| 统的授权时,未                      护. 退行防护、
+道终端                   能够实施紧急                       noe tet
+ft) ah               iba                         ae
+授权更新是时
+车挡                                                           六
+护、 vet 了防护
+
+?0L0V0 LANVO/L
+
+8102:
+
+--- Page 104 ---
+表4 互联互通危害分析(续)
+-一一一一一一
+
+| feu AS A      EAER        ;
+(Hi                            RY
+ERT | 编号 院场景危害分解 编号 | 安全要求/运用限制条作 | 。 系统功能
+sa | YOBC 和ZC fi iA |, te oa
+信号系统给   ~ | RSSP-IE安全授信协议  ane
+SHA-34| CBTC 级别列     系统线路数据准备过程
+
+pan sn sl应被定义流程规范,确保   四
+oda      数据全面 .正确,该过程应
+进行安全分析和安全评信
+
+车                   _    车地应答器逢信应满足
+i      信号系统给SR-S-73| em   mm
+道 尽     列车冲|shA-35| ITC 级别列车     系统线路效振江从辽程|
+He    出轨道 尽    的授权超出了|sR_s ii|应被定义流程规范,确保   加
+Ref2. 2) | PH-66 | 3 HEH   线路边界     数据全面、正确,该过程应
+ae    道终端的|   —    进行安全分析和安全评估
+缓冲车|   aes    whos  <   ;线路终端的信号机
+挡           SHA-36| 的授权超出了 SRS 74   红灯显示       -
+
+线路边界
+
+RM 模式列                      _
+
+a1] 二司山林近联| SR      RM/EUM 模式下,列车      四
+
+SHACTS) HL ASHIK |SR-O-8 | se wae afr FE
+
+锁信号行车
+
+切除 ATP 列车或未
+
+,司机按照联
+或人工调度   可
+
+4:
+OSHA-3) ，
+
+8102—b ‘01000 LANVO/.L
+
+--- Page 105 ---
+IOT
+
+表4 互联互通危害分析(续)
+an     :     | ek LSA       安全要求          _
+编号 WAAR 编号 | 互联互通 | 编号 be neael #S | 安全要求/运用限制条件 | Pe
+信号系统玉    HRS SO MITE
+Repl Bay He YT] |SR-1-27| RIA) Be eK a ate A fe Be     一
+关      y      接口技术
+THA-12 关闭，ZC 为     Sik 技术    -   一
+5      BEALE SBR RIE BIBI
+&| 门完全开户且人锁定状态,否则    一
+尖门所在进路不允许开放
+PH-67 CRI                             -
+oie       车运行挤
+Ae      La
+Ref-2. 3] 45 By HE
+门相撞                          SR   BM/EUM 模式下,列车    _
+BBL tie Ne Me BLA 4 4
+j      切除 ATP HIE RAR
+车              ATP 列车,司机按照联锁信
+OSHA) ATP 列车司机| SR-0-6|号或人工调度行车,行车安
+未按规定行车     全由司机保障
+wi M1      TE TE (ei      Bi W136 A EE
+eau at     oth wep      系统发送请求关闭命令,联
+PH-68 | ME aa tg See rT |sR-La9| 人系统确定对应区则无列    一
+aE eo     ie Xi     46 RUD FTF
+过的列车           SHEL EN          许关闭防流门
+
+8L02—v ‘01000 LAINNVO/L
+
+--- Page 106 ---
+ZOl
+
+R4 互联互通危害分析(续)
+feu [CRW IN SH      EWR         一
+AO MOR RS TS | 编号 steno wo | 安全要水/运用限制末件|。 2 oO
+fi 9 Se ME CBTC|
+SR-S-75) 3) 42 76 By Me 0) UE at AF ER,     一
+列车即将这        许关闭防流
+Weare       列车即将进     方可允许关闭防流门
+nih      入防海门所在
+PH-68 | py {HAS EBB HE       防流门关闭信息不能着
+fic,          VA, SHE Us      过信号系统传递到车载
+ae       和         Bier     SR-0-20| ATP RHE UE AF AY    一
+Ref2 3) 与防尖                      责任方应制定该情况下应
+a
+a        Weeks      (BHT TEA
+a 系                         Az   . re   应
+PH-69 |统与 防 HE |OSHA-I7         FSR-O-21 ee ete yee     一
+门无接口        阅   sted pn
+的天法人           IR i eS I
+十
+列车       列车与|     人防门无接口      人
+te aa le     中情况下.运营页任方应
+Ref-2.4| 与人防 | PH-70 | 人防 门 相|OSHA-4| 信   列车行|SR-0-22| 制定人防门关闭.开局应     一
+门相撞      si           车安全信号系       ve as vue bat,
+统无法防护      急预案 ,避免或调
+
+8L02—v ‘01070 LANWVO/L
+
+--- Page 107 ---
+T/CAMET 04010. 4一2018
+
+E
+一    3 ME KY ET      SELLTHS
+ER WMS
+BE
+加|6csnas|
+i
+z
+eiesus        1B OB         Ho Me          “vy
+fie WE az Ie        Tee
+OI-VHI| ‘4X | ICHd | ，  Leu
+ae     a [eH
+YE oh   Li
+ema we                      fig fu de LE     ~
+让      LL-S-US|                   ue
+PR SE Mt AY                              |
+i HF LAD
+fet |
+TUT UG BY
+WEG HR |
+MELISS ME | dy pap 四 % DL)
+Keown | |          | |
+1h GA S/S | EB MA 各旷
+ues         FREY      eeumensir| ay | ME | BM PERO Be
+
+CHWGEPREWE pe
+
+103
+
+--- Page 108 ---
+tOT
+
+Ref-3. 1
+
+表4 互联互通危害分析(续)
+| we        、 | 危害 MAS A          安全要求            ous
+[AOS 编号 | TRE | 编号 le gsemecar se @S | Rew eM | 。 系统功能
+站台门打开          非 CBTC 级别下,车载
+时,信号系统      ATP 系统不能对站台门非
+OSHA-I8] 给 出 ITC、CT|SR-0-23| 安全状态进行防护,运营     一
+级别列车不安      页任方应制定该情况下应
+全的授权           急预案 ,避免或减轻事故
+ween                 2h fT JEW) EWE
+站 台门|SHA-66 闭 进 让/出 站 SR-S-80| 统人根据站型关闭对应进      一
+_           打开时,列           、                          站/出站进路
+列车       hoe ee       进路
+$e 8) Fe         if 在 站 ti
+客或工 PH-71 区域移动，                                固定速度限
+作人员         ne                                                     制防护.临时限
+站 fi fi) Fe                                                 速限制防护 4)
+客               列车的动作                          车超速防护、列
+违反了信号系        CBTC ITC 列车的动作|车运行方向防
+SHA-29|统的授权时,|SR-S-71| 违反了信号系统的授权|护. 退行防护、
+|      本能够实施         时,ATP 实施紧冬制动    越过移动授权
+急制动                               | 终点防护 .移动
+授权更新超时
+防护、车门防
+护 ,站台门防护
+
+8L02—v ‘01000 LANWVO/L
+
+--- Page 109 ---
+Sol
+
+@ haggle    em | 危害             -    BBR          eee shi
+编号 MAS 编号 | 互联互通  编号 上         可] EL ER GMM RE   系统功能
+| |                                       |
+站台门打|。                      RM/EUM 模式下,列车
+rent, 3 42 [SAB          SR-O-F ie nese 8 8 45
+PH-71 oe               切除 ATP 列车或未装备
+ann            ATP列车,司机按照联锁
+HEE ISH #2 fy | OSHA,          sat AT MIE ETF   一
+RE                                           ge 4 rh el WL BE
+C HK HF, 4 aR ATP
+ticks We HE Se OG Pw He ILAR
+可不                                  5有即将进入站台禹时,| 响应紧急关
+oe                                2 DG DH He HL WG. |
+Ref3 1) fil Be      wen                    保证列车在站外停车
+作人员       Fal He HL                      | JIC SH FA ATP
+活时列车             设备监控紧急关闭按钮状| ge oy
+PH-72 | 46 38 #9 BK |THA-17             8 UAHA LEP RE) oe
+域移动,列                   关闭按钮激活,和车载 ATP
+人台的乘客                             CBTC 级别下 ,车载 ATP
+设备监控紧急关闭按钮状
+Rs.83| 态,列企出站过程中且最小| 响应紧急关
+.    Be A HM A NANO AOL | 闭按钮
+eS HE ALG, ER
+ATP 应实施紧急制动
+
+8107一?0L0Y0 LANVO/L
+
+--- Page 110 ---
+901
+
+R4 互联互通危害分析(续)
+
+win lararagstl oe | 和危害 [IR WAS RK        BEER             -
+编号 上下故场出 编号 | ART | 编号 heen] @o | 安全要求/运用限制条件 | 。 系统功能
+|
+CI 监控车站紧急关闭按| 进路/区段久
+钮的状态,一旦检测到按     ven oe
+SS coe gee, 1 OD 3 OH AL ven
+紧急关闭按      的列车进路信和号
+钮激活时,信        采用安全继电器或其他
+IMAL 号系统给出|SR-S-45| 安全接口技术采集紧急关      一
+|                           -     CBTC 2 i Fl        闭按钮状态信息               7
+紧急关       车不安全的授 s       紧急关闭按钮故障时联锁| ”响应紧急关
+ 急       权        R-S-85| 应能够从测到     |
+闭按钮激               _| 应能够检测到且导向安全侧| 闭按钮 |
+列车      ，      -                                        VOBC-2C
+hee)        活时列车                      sR_L2 | YOBC 和ZC alt RH | ee
+Ref3.i客或工| Pt-72 |在站人台区             “| RSSP-I安全通信协议   过全Da
+|         域移动,列                     |
+作人员         an                               HF CBIC AHF A
+四                                                 AT 不能
+             紧急关闭按 |sR_o 94) 过信号                加
+钮激活时, 信   “| 8
+号系统给出        应制定该情况下应
+OSHA) mrc .cl 级别列       避免或减轻事故
+车不安全的
+ems                        EBB
+SR-S-84                                闭 .响应紧急关
+的列车进路信号       laa
+
+8L02—P 01000 LAINVO/L
+
+--- Page 111 ---
+LOT
+
+表4  互联互通危害分析(续
+
+ | fed                                      Ze sh he
+编号 AOA 编号 | 互联互通 | 六号             ae 去全要类/运站取利东作|，系统功能
+采用安全继电器或其他
+SR-S-45| 安全接口技术采信紧急关     一
+<                    闭按钮状态信息
+OSHS mrc ct 级别列        紧息关闭按钮艳际再联| ge
+车不安全的授|SR-S-85| 锁应能够检测到且导向安 pate ea  i
+权               全便
+固定速度限
+制防护 .临时限
+紧急关           hans                              速限制防护 9)
+ke     闭按钮激      列车的动作              ees oe
+列车        活时列车        违反了信号系          CBTC ITC a 车 的动作| 车运行方向防
+Ref3 1|掉到乘| pH 7? |在站全区|SHA-29|统的授权时,|SR-S-71|违反              护、.退行防护、
+客或工       成移动 列       术能够实施紧                         越过移动授权
+作人员                a        :                                                                                          终点防护 ,移动
+车擅到站                                               授权更新超时
+台的乘客                                                防护.车门防
+护 ,站台门防护
+RM 模式列                EL     te
+SHA-13| 车司机未按联|SR-04 全     一
+锁信号行车                  ne
+切除 ATP 列             切除 ATP 列车或未装备
+osHa3|车或未装备|sR.o.6|ATP列车,可机按照联锁      加
+
+AR He LE ATA
+
+ATP 列车司机|
+
+信号或人工调度行车,行
+
+车安全由司机保障
+
+810z一?0L0y0 LAINNVO/L
+
+--- Page 112 ---
+801
+
+#4 互联互通危害分析(续)
+
+caw               (| 危害 NMR SR          REBR               oe
+编号 YR AM SH Sie] Ha  Hi  、            一     RBM TI
+编    JE Ale Si 3k] 编     互联互通   ae Bea Rnea el BS | 安全要求/运用限制条作     系统功能
+车关上
+列车在        oe te         eRe (Wy nC a
+乘客或工|0SHA20 doh AN Ate SR-0-25| 规则,确保乘客上下车完      一
+作人 员 被        门之间        毕后再关闭车门
+PH-73 | se 46 17          Sane
+与站台门      Mth toe       ie 1 HEE Ie WE HK
+2S sta ng SRO-26 规则,而保乘客上下车完     一
+动              neta     "        “ee A ATT
+i                                        动车调试或列车运营
+Hea ae                         列车撞到站        时,站台上的庆工作业界
+Rer3.1| 窜或工              OSHA-22] 台上的施工或|SR-0-13| 面应清晰明确,做好切实     一
+ae                      维护人员           可行的防护方案后方可进
+“ee                                       行交叉作业
+i Hie         il 449) 4h         制定现场施工管理细则，
+PH-74 |到工 作 A logis a3) 道上的施工或|sR_o_i| 列车在线路上运营         加
+员            en ek      运营交路涉及的站台范围的
+          施工或维护工作进行
+ai oma        运党去任方应制定车辆
+shaa $82 #9 7 fe A IsR-o-27 自作业细则,以避免型     加
+
+员
+
+车辆段运谷或    过程中
+撞到车辆段工作人员
+
+810z一?0L0V0 LHINVO/L
+
+--- Page 113 ---
+601
+
+表4 互联互通危害分析(续)
+
+a Tis              :             ae
+一                   FR BET fil
+Bela ST            安全要求/运用限制条件 | le
+道岔未密巾
+AL BED mf
+号系统给出         信号开放/进路办理检| UBB BE
+SHA-37|号系       SR-S-6
+A                 查条件应符合联锁表要求 | 闭
+NO各6控制道岔的命令必
+ADD We ck Be vate my | 进路办理,.进
+列东                                 痊量致,同时锁闭道岔, | 路/区段锁闭
+本 于二          列车失                                备才能建立进路
+Re aa ae a | PTO |S                 用安全继电器或其他
+引导       站                      接口技术采集道贫的    一
+本 。, | 首信子系统能给出正确| 进路办理,.进
+S87 ou a aR as ai       Hh BEB
+
+道岔本密贴
+BS 闭时, 信
+
+SHA-39
+
+不安全的授权
+
+SR-S-6
+
+彤号开放/进路办理检
+得条件应符合联锁表要求
+
+进路/区段锁
+闭
+
+by 0L000 LANVO/L
+
+8102:
+
+--- Page 114 ---
+0IT
+
+表4   互联互通危害分析(入
+
+危害                   安全要求
+编号 YR CsA SE) 编   互联五通               EMR ZINN RIE   AGM
+道贫转换完毕后,应保  .     本
+SR-S-88| 证道岔固定在规定位置不 yee
+再移动
+列车在                   道岔受进路锁闭.区段| 、   本
+stl oa              [|SR-S-89| ii AT. abt at | A
+列车| PH-77 |时,道贫动|SHA-40| 区      贫     亚信天不能控制 和贫移动
+neta, | BE        作导致到        动作       TE SRE
+”|行方向       车脱轨                                  £6 Ki te A By
+引导                     SR-S-90| 开闭器的两组接点排的相
+RTE MD A te by |
+TEASE Wh as
+轨道断                 -
+-   .      轨道断裂导      轨道采购及维护符合轨
+PUCTBY ERE BEAN OSIN2S 至列车脱轴 | SR0-38 a ew a Yet
+4 TRAIL
+.   ;                    CBTC 、   列车计算安| mE al lh
+列车在|SHA-41          SR-So  CBTC ITC 列车计算安| ，
+列车        线路运行                             全限速不应朴过线路限速 | ER
+peta, 2) 2 FL) pH-79 [MM
+fe Pp         全限制速
+车脱轨 NAP] ET                             定、 HEISE 补
+
+8107一?0L0V0 LANVO/L
+
+--- Page 115 ---
+Il
+
+表4 互联互通危害分析(续)
+|       feu RMN SH         安全要求            a
+p [RAC AS | RT | ee eee wD | eeeR ema | 系统区能
+          ZC-LI7 接口信息包含|  YOQBC-ZC HR
+SR-I-17 临时限速信息           口 规范“临时
+全       限速信息
+.       ce pues       VOBC-ZC 接
+AER EE Be Mi | SR-L2 tenet 口规范*安全
+Aig| OE REE AE a     mas       通信协议”
+到 他     ea          非 CBTC 级别下,临时限
+ATP #4           可信息不能通过信和号系统传
+本               、 ,|违到车载 ATP 系统进行防
+a)       oo                   SRO?) pga Sete ur mca amit] 一
+an      et                   FR YL i
+运行过| py gq [MY ME th
+             度,导致列         ATP 收到本线          CBTC 级别下,车载 ATP| 列车是速防
+车脱贫。 | 1HA-19| 临时限速后,紧|SR-S-46| 计算 EBI 昌线时,应包含 护\确定制动昌
+急制动曲线计             互联互通临时限速             线
+答未正确采用 |
+|       系统线路数据准备过程
+本线为他线|s。 | 应被定义流程规范,确保    _
+|       | acon | EARHE OE T     数据全而.正确,该过程应
+“|误的线路限速     进行安全分析和安全评估
+数据       So | 统一互联互通公有数据，      一    |
+(EEC CA SE
+
+8L07—v ‘0L0V0 LAINVO/L
+
+--- Page 116 ---
+ZITI
+
+表4 互联互通危害分析(续)
+
+-            一| fe RRM SR       =        ees ie
+编号 iene        TRAD | 编号 上院场景从害分解| BS        要求/运用限制条伯 | 系统攻
+he #
+casa         7 BAM
+THAI |用 ree SR-S-22| 进行配置管理,确保现场      一
+BL Ae HE         “       使用数据正确性
+数据
+|线路运                RN 模式列|                        ，
+-        时是过安 SHA-13             SR-O-4| RMLEUM Bes                一
+列车| PH-79 |全限制速|          :             vi) HLH HB i
+ROA? ah       on         切除 ATP 列         切除 ATP 列车或
+Pa           车脱轨    oshtsj至或本里备| so5| ATP列车,司机按照联针      _
+SHAS ATp 列车司机         信号或人工调度行车,行
+RH MLE GE        车安全由司机保障
+me         车轮或车铀       车辆采购及维护符合车
+PH-80 us OSHA-26| Wr 2 5 Bx Fil 42 | SR-O-3 | A Gale HK ARE, IE A AL     一
+列车脱轨          脱轨                 半号系统输出的安全要求
+列车脱轨       i AHL Ba       TAMA La
+侵入其他轨|      入其他轨道撞|、     法       Abid GB aE HE      加
+列车      sti neat ae te (OA) 击正在行驶列|人        列车腊轨应急预
+4        行驶列芋         车                RE ARS IA
+Ref-4. 3 脱 轨 fe  PH-81  二           +                        =    :
+入其他         aan                         列车脱轨后,信号系统无
+‘nit                      Beto                 Bi 42              法
+“        脱轨人入侵的| OSHA-28    | SR-0-29 | 全
+列车                           轨和侵的列车                   {
+
+8L02—b ‘0L0V0 LANVO/L
+
+--- Page 117 ---
+T/CAMET 04010. 4一2018
+
+ECO-NS
+
+MS ENG
+
+82-S- US|
+
+so, Shey Ht      mur
+el 4                               Me AE | -。  WY YA) .。，
+                                  wea) OM yey |) SPM
+Ld Ys        wy
+EAL
+rage
+
+fe * AU tp HEY FE GK lid oe Me
+Yk ERLE Uk EY Le ULI He aE
+WX dLY Web * A 1G OLA
+
+IW aR LJ
+
+Liye   OE-O-US| 2 rk * HL WG 6e-VHSO
+
+ME Lh A GE
+
+—|—
+
+IPE MMM mS | ete        Ee
+BIL         AREA       尝台日   可 部可  Oe      SHAD   |
+
+CHWEEPREWE pe
+
+113
+
+--- Page 118 ---
+TSE-T HS
+
+ECVHI
+
+Wy OF 1I9
+“OMOA
+
+© Lf |05 TS
+
+tc-VHI
+
+ZE-O-HS
+
+[OHS
+
+IH Ri  “Wil
+
+ILC UW EY te
+
+kz6-S- HS
+
+BUG eS
+
+bE (A TM EH BE /
+
+5 |O€-VHSO
+
+78-Hd
+
+oD
+
+a gy
+
+TS pu
+
+op
+性
+
+T/CAMET 04010. 4一2018
+
+CQ)WEEZYREME v¥
+
+114
+
+--- Page 119 ---
+SIT
+
+R4 互联互通危害分析(续)
+
+                    | fe                      安全要求                7
+solid lintels       ERR | 编号                    安全要求/运用限制条作 OO
+VOBC-CI
+接口 规范
+VOBC-33 接口信           “PSD- ] te
+SR-1-32
+SRTS2) 关站台门码信息       7
+制
+VOBC-CI
+CI 收到错误                                      接 口规范
+1HA23 | RIAN epee  VOBC-34 接口
+TSS) seca ee ret ta
+AR          Ae i .
+从站台
+Ref-5. |    PH-82                    由
+OT BA HL     a                 srg] FR CI RHE
+i KBR     落入站台                 VYOBC-CI 的自定义包
+VOBC-35 接口信息应包含开|  VOBC-CI
+SR-1L34| 关站台门数熏      eR TIE | Be RL
+站台门开关数     门一致 |"N_PSD”
+SR_LI3 C1采用安全继电器或其他安
+站台门状态       全接口技术采华站台门状态信息
+fal     导
+1HA-24 和 on        cove m cl 间通信采用|
+ON AN EE | op og       和   间通信采
+
+启动
+
+RSSP-开标准安全通信协议
+
+810z一00y0 LANVO/L
+
+--- Page 120 ---
+9II
+
+#4
+
+互联互通危害分析(续)
+
+vn duel osm         _ | em ena z             ABR              二
+BO PACH 条 OS | go eae onl ws | 安全要求/运用随箱条件| AU
+VOBC-CI
+规范互联互通 VOBC-Cl 接口|接口 规范
+SR-L30| 开关门命令有效时效,超时命| *RSSP-I[标
+令无效                         准安全通
+站台门          互联互通接                                    VOBC-ZC
+pH_82 |不安 全地  InA-25|品 i Te. 导致|sR_135  本线 2ZC 系 统应 EH be 列  ie u sede
+开启,乘客        开关门信息错        车 VOBC FF (2k fy AE Xt     ZC厂商自
+TRAM FT          ik                                            定义帧”
+人员                                                                         VOBC-
+站 台                                                           70 Be
+道区域                                              Wit Ee FEY A EM          ray th is
+<            地面设备提供商应保证列车在
+侍门与|              SRS) 各站双开关站台门信息数据正确| 一
+aT          VOBC 输出|                                  VOBC-CI
+at BPE A) eg yg) APE REMIT                          PEE BL
+时,错误地       码信息,开启         VOBC-33 接口信息应包含开关
+
+开局车门
+或站台门
+
+站台门错误侧
+
+SR-I-32
+
+站台门码信息
+
+“PSD_1 控
+制信息”
+“PSD_2
+制
+
+8107一? 01070 LANVO/L
+
+--- Page 121 ---
+T/CAMET 04010. 4一2018
+
+ZfrS-US
+
+Rie WA)
+% fetus) ATK A Ae! | 6c VL
+3 WEE Ly
+
+_   EEoMLREL|
+TRL Sse glamen gra [ONS
+
+WHT
+ae ee
+tS Hd | |, Pra [SPU
+Wy
+
+,| Lee YY 2) RF PE-DdOA
+
+117
+
+asx               Le bie
+ayicagse | IE RS          egy | RUM | Some termes) cme
+CHWEZAPREWE ve
+
+--- Page 122 ---
+8II
+
+R4 互联互通危害分析(续)
+
+ae lr ay ig, Bl      | 危害 Tm aS      BEER        是本
+BE [BACS RRS | IN | 编号 震场以估定分制 @o | 安全要求/运用限制共件 | 于条
+车载 ATP 设备监控列车车门
+Rs gd| 状态,列车运行过程中,车门打开|车门防
+后车载 ATP 规切断牵引、紧急制|护
+WAa6  列车在车门      动或正常运行至下站站台
+| 开启时移动       运营页任方应统一列车运行
+sno.34 过程中车门不安全打开应急处|
+理预案,避免或减轻该场景下
+的事故影响          |
+人员     列车车门     列车移动过                    车 载
+从列车     不安全地开     程中车门不安       车载 ATP 采用安全继电器或| ATO/ ATP
+Ref5. 3|跌入轨| PHBE |启,导致乘|IHA-27|全开启, 车载|SR-1L37| 其他安全接口技术采集列车车 | 与车辆接1
+道区域        客险和人路轨       ATP 未能采焦        门锁闭及解锁状态信息
+到
+车载 ATP 采用安全继电器或
+SR.43| 其他安全接口技术驱动列车车
+列车车门开        门开启及锁闭,车载 ATP HY fl
+1HA31| #4) HGR     车门的使能命令应相互独立
+游人轨道          地面设备提供商应保证列车
+SR-S-42| 在各站台开关站台门信息数据    一
+正确                   |
+
+810Z7一?0L0b0 LAN VO/L
+
+--- Page 123 ---
+6II
+
+表4 互联互通危害分析(续)
+
+_
+|         .| ww | Oe [CN EA        安全更求        [ee
+Be PRKOH KY BE | EE | 编号 ee ae | eeerscmmman | 2°
+By fe eam Me eH Ae an) TE
+Rs 95| ATP 系统应确保列企不会错误| 许 站台门
+列车停车过| |移动后.输出门使能命令,联动| 由 the
+SHA-43|程中不安全开      站人台门                ce
+户站台门             _            2
+BME WE MR ATP
+SR-0-35|或非装备列车开关站台门操作| ”一
+hn                列车在乘                                             细则                                          -
+员       LR tes                            .   oy   车门防
+MK HE     a ve      列车未对标       ee a AP oe He fe a] 不门罗
+1移动，     rs          ;      用   | 拉、芋
+Ref-5. 3| 列车与| PH-85    .      PR HE. ARB A] 。os| ATP AEM RIAA HR! 站全
+站台的      SPB ESHA oe oe yaa PS] 移动后,输出门使能命令,联动 了
+inp       困列车与站      atl            wen                桩制.站台
+     台的间隙中                            门防护
+|      运营点任方应制定相关规
+osnast| ， ”SR-025|则,确保乘客上下车完毕后再| ”一
+:            关闭车站
+闭
+乘客正在上         责任方应制定相关规|
+0SHA-32| 下车时, 站台|SR-0-26 则，     客 上下车完毕后再    一
+门不安全关闭          |
+
+8107一? 000 LANNVO/L
+
+--- Page 124 ---
+表4 互联互通危害分析(续)
+
+mre Vee WEE ah                ae
+a           | 危害 EMS A       安全要求
+事故场景 编号 | 互联互通 |   :                    4 系统功人
+革故场呈编号 | CATT err ie       ETM ee | 系统?能
+人员         WHET          i al A                                     |
+eet       客上下车过       动折返实现方
+a     _ |程中移动.| RR, All     运营贞任方应制定互联互通
+ef-5.3|列车与| PH-           SR-0-                     一
+eee ee ge [sestcaete ae ON outer car eg PPO 列车自动折返操作细则
+anal          HA 4 5H        rh BE BE a
+间隙中      台的间队中     导致司机摊倒
+列车紧急          i                        il BE TR
+制动过程     sens      We wl Ae Gp AE Se Ae, i PE aE
+PH-86 | 中,导致司|0SHA-34| 致司机等员工|SR-0-37| Se ak wk A FA I A Re ae] —
+机等            在司 机室跌全             TLE A AL
+all            mes      故,信号系统无法提供防护
+乘客     过程中,导     引/制动 过程       车载应有广播和信息提醒乘
+pes, 在列车| PH-87 | 致司机窜员|SHA-67| 中,导致司届|SR-0-38| 窜/司机在卢动\停芋和运行过| —
+“|客室跌      THEA HVE          工在司机      程中鞭好站稳
+i         跌倒             a
+we wy          RM. EUM #i     al
+ares     式下.司机控车      车载应有广播和信息提醒乘
+PH-88 | 5] / iil 3), S¢ | OSHA-46| AE 引/制动, 导|SR-0-38| 客/同忆在启动 .个车和运行过    一
+L                                                      跌倒                                     FF Fi) BLS BE AB
+
+? 0L070 LANVO/L
+
+8102
+
+--- Page 125 ---
+ral
+
+#4 互联互通危害分析(续)
+
+er   soe we  4  :           安全要求
+编号 | 互联互通                              系统功能
+
+Fa
+wa
+
+/运用限制条件
+
+列车紧扣
+制动过程虫，
+PH-89 | 导致乘客在|0SHA-35
+| 列车客室跌
+
+倒
+ATO 控车          edn
+牵引 ,制动过         i               Me A AT) HA A At A, BB SR
+PH-90 | 程中,导致乘   中  a/R     8      ra 3 .停车和运行过   一
+客在列车窜                  He fe Kt
+
+an ma
+
+2  SR-0-37} 4
+
+it, 信号系  He ik BLED
+
+ns a "          RM .EUM
+Ref-6.2| 全     BCE, al                  BML AT Po Ae LAE PER
+(91 BL) pH-91 | ELE                 司机在启动.售车和运行过| 一
+室跌倒    引/制
+致乘客在列                             1
+|     车客室跌倒                                               |
+互联互通
+fai         i.
+动折返司机操
+作流程不一         aa
+fi任方点制定互联互通
+PH-92 | =i gy |OSHA-T) 致, 可机在本|SR-0-36  ra 下   加            一
+eer fh      机要室列车非      列车自动折返操作细则
+预期启动，     预期启动. 导
+Fit FI BLE              致司饥跌倒
+|全
+
+8107一010V0 LAINNVO/L
+
+--- Page 126 ---
+CI
+
+R4 互联互通危害分析(续)
+
+一              7
+;        | ee EM SR      BREW       —
+HS |下收场    TT | 编号 wom Bo | 安全要求7运用限制条件 | 系统攻能
+人员可以直      车辆为车载信号设备提供封| ATO/ZATP
+IHA-30|接接触到车顺|SR-L38|闭的安装空间,只有专业人员|与车辆接
+内的车载设备     采用专业工具才能打开     口“机 械
+接口
+Ref-7 | ”触电 | PH-93 | 触电     RAL    haps    sys   :
+车载设备硬件结构设计应满
+SHAS : BAR AB SRS-97) oo ia a ae
+OSHA36|统维护时人员|sR-0.39| HE" HFEF me 8    统维|
+护作业细则
+触电
+、     ake te      OLGA MLE)
+SHAME) 大引起火灾 | 8) 二部件不能使用易燃材料
+Ref-8  火灾 | PH-94 | KR     本 .    人
+osnacyl =    Hee gq] BABI ACRE)
+A       -         eared        ，           ;     |
+i AD             (Bi eA EL BREA HS
+Ref-9   质或| PH-95        SHA   多      或 |SR-S-                      一
+ef |物质或     或气体 SAAT) 发布杰物质或 |SR-S-99| 部件不能使用有毒物质
+气体                气体
+.     (i Bik fr UF      信和号设备的硬件 ,机械结构天
+Ref-10   爆炸 | PH-96    炸    SHA-48           ISR-S-100!                        一
+°    men      Ben       火引起爆炸”| |部件不能使用易爆材料          |
+
+vy °0L070 LANVO/L
+
+8102:
+
+--- Page 127 ---
+ZI
+
+R4 互联互通危害分析(续)
+r一
+
+ae | eam enmmnn | 系统功能
+Ref-10 | 爆炸 | PH-96 | 爆炸   0SsHA38| 时、    员 spo a  BEC EE Tr ASA LS BL
+|     _    :         ft |    信号设备的硬件,机械结构夫
+Ref-11 | iif PHe7  辆射 |sHa-49       SR-S101| a ace Oe HN
+言号设备抗
+Pt Me Ja ea       pene moran eee
+SHA-5O| fz iy JH] FR BE HE |SR-S-102 ye ye si
+ee            求,导致系统功      oe
++ tt                 能失
+Ref-12 | 致信号| PH-98          峙号系统应     = th OM Ay   Mr yee ae
+|系统功                osHa39 用环境于扩源|sR-O-o| ME ATE RL TR Oe a
+能失效                 woe           环境电磁环境正党
+.5 eae sea m-s-os]_ 信号设备硬件设计应满足
+  导向安全便          障导向安全原则
+re                  信号系统对
+ah     WLI     TAX      pee ey mame
+Ref13 |系统岂| PH-99 |设 备 iy aR (SHAMS2| 使用环境电磁 [SR-S-102] ，信号系统设备应还对应运用
+磁干扰      客/工作人      FHA AR         环境 EMC 测试
+超标       员医疗设备
+RK
+
+8L02—v 0L000 LAN VO/L
+
+--- Page 128 ---
+vel
+
+#4  SRS BETH)
+
+加              | TE                           安全要求
+编号 lke 编号 | 互联开通   -                            系统功能
+Ea 编号 | 互联互通  搞!          | ge   安全要下/运用限制条件   系统功能
+wil            SHA-53|足应      SR-s-104| 。信      应运用| 一
+BHR                                   环境防宣测试
+Ref-14    “| PH-100| ASE   Ie
+4 |统功能      SRINEX
+SHA-54} =           < |SR-S-103         备硬件设计应满足改     一
+全原则
+SR-S-105 Ht                        一
+SHAS)             WE RG RA RA
+BAYER    关    fi
+sso 2 RAG Re REE fi      一
+a                                    网络通    用安全通信协议
+网络受| ，     ，                                           一
+ReETS |到外部| ?101 邮       sina-so          srs-t07      统无线授信网络采用|
+Att        *                           ane
+SHA-5             ; |SR-S-.                                _
+SHAST)          SRS 100 ye     用安全通信协议
+ARE.
+Ref-16       PH-102 | 导       SHA-58] Ji                        硬件 设备应满足应    一
+气候条件
+
+810Z一?0L0y0 LANVO/L
+
+--- Page 129 ---
+val
+
+ae    Te il                         一一| 系统功能
+|                       ware |”
+|stta-so|       FH Ba :         件设计应满足改| 一
+Ref-16      y |PH-102] 与
+Be fk
+wr  SHA            信号设备硬件设计应满足改|
+导向安全原则
+必备抗和性能|
+运用环境振动要
+Ref-17     .|PH-103 |与
+ie            SUL MEPEIR TENCE AC)
+fr Sey 4 LT
+wom                       (55) SR OLD i THR
+ae         _|st.a-63 i       5| SVE cai 2 AORTA Hg) ”一
+条件                         nie
+Ref-18 |致信导|PH-104                      BOER
+效            、         cp   信号设备硬件设计应满足故
+SHA-64             SR-S-103| 降导向安全原则                一
+| |           _ |
+
+8107一?0L0Y0 LANVO/L
+
+--- Page 130 ---
+R4 互联互通危害分析(续)
+
+_ | 危害 |互联互通信号系          安全要求
+WROR) 编写 | TORT | 编号 院场鞭危害分解锁号 | 安全要求/运用限制和件 | 系统功能
+一一                                    rl
+人为                                无法检测或防护人
+XE we | PH-         OSH          SR-0-8                   一
+意破|PH-105 破坏     0 HAO                      RIE ZB RE
+信: 机
+洪水/        、            、     加                       引发
+Ref-20 | 地 i2/ | PH-106  wan OSHA) 4, in RTE or oas| 4       —  HE MLM) ”一
+强风      四        加               省应急预案,避免或减
+色狼影响
+系统应保证同时存在于|
+I Rh                    桥梁同时存|SR-S-24   Ef Ae > EP BR Ft    一
+基 础       |
+在列车数此超         ?
+措施超|      芷础措施     iat) shay a oh            a
+Ref-21. 1 ft Ag LO” | a gage [SHAS HBT AR taf a        nA    效后,运党页 任
+|                           an    方应制定运党细则.保证同时
+载                                SR-0-45                7       一
+| 存在于恬梁的列车少于等于桥
+|                     SR ICU IE HR fof BER
+基础                                   信号系统无法检测或防护基
+设施沉       基础设施        基础设施沉      础措施沉降,运营责任方应及
+Ref-22. 1] Bae S# 5K | PH-108 | iL BE SE 4 Fi | OSHA42| Be Fe i) AE Mike | SR-O-46] 时检测基础措施沉降情况,并    一
+列车脱     车脱轨       HL           将沉降导致的临时限速变化值
+加                                            反馈至信号系统
+
+810z7一? 000 LAINNVO/L
+
+--- Page 131 ---
+L7I
+
+表4 互联互通危害分析(续)
+天           | fee PRE HE       ERE
+编号 Ye Abcam Ae     元   四       i                         2 He 0) fe
+aS [a it    NN | 编号 es nennm we | eeeRemmmar | 2
+信    法检测或防护基
+2 a        von       - aan a wa     a cE He HEI SPA AE WAG
+Ref-23 | 设施 Yi} | PH-109 wa OSHA43 eh RTE con ES SEAL Hy 00 3k EE DE ATE De I    一
+Mi                       "                      "                             J RL HE IAEA me BUR a Se
+BRAS TEC
+贫动作造成        运营此任方制定信号系统维
+sys                  OSHA48             SR-0-39                            一
+道岔|    道盆误动| > |维护人员伤亡”| "| 坊作业细则
+sve          a
+Ref-24. 1 an PH-110|作造成维护      人
+员伤亡       人员伤产 “|0SHA-49 作造成维护人 SR-0-48} 、
+_            [bi
+o                   ice
+it)   a                           机    ia      $b 4B ISRO.                                        四
+Ref-24.2) ，，  PH-111   维护          一一
+a    员    ost! 人这到焉扫线| st-04s| ，运消去任方针对联络线轨芝|
+LRP AR           设备维      细则
+| 本         救授与疲|0SHA-5?| 过程中,造成人|SR-049 faa) UR eS    一
+“Bit       re   H       员伤亡             二
+Ref25 | ABA [PH      - en 5                  sm ep
+造成人    ERAT:     fF BNE SS         Sy Hepes tee
+nie:        t        OSHA-S3) si IBC st BED HE |S      wilted    joe | 一
+
+|成人员伤记
+
+8107一?0L0y0 LAW VO/L
+
+--- Page 132 ---
+T/CAMET 04010. 4一2018
+
+6.4 危害结
+ric 分析结果 ,得出互 联互通信号系统初步危 分析的系统基
+本危害清单(见表 5) \接口危害清单(见表6) ,运营危害清单(见表7)。
+RS 系统危害清 单
+
+SHA-1         列车在前后追     了时 ,ZC 子系统为 CBTC 车计算了不安全的 MA
+
+SHA-2         后车 MA 计算未计委前车最大退行倍车距离
+
+SHAR         TA BN PE EIR VA BEES ALIS, EAR ATP 没有有效输出紧急
+制动
+
+SHA4         车载 ATP 紧急制动输出故障
+
+SHA-5       CBTC 列车无限制地退行
+
+SHA6       后车 MA 计算未包含前车最大后光倍车距离,下大后济倍车距离
+ABE -
+
+SHA-7          ZC 计算 MA 林包含前千最大后沉距离
+
+SHA-8       CBTC 列车无限制地向后汶车
+
+SHA-9         ITC 列车VYOBC 计算 MA防护点)林包含前车豚大退行曝离
+
+SHA-10        计轴区段设计过短
+
+SHA-II         ITC Fl 42 HC BAR hl Sh LE
+
+SHA-12       ITC 列车无限制地向后注车
+
+SHA-13          RM 模式列车可届末按联
+
+SHA-14       联络线交接时,由于通信延迟导致列车在本线玉类
+
+SHA-15          列车位置计算错误,导致当前位置 EBL 计算过商
+
+SHA-16         线路数据错误导致 EBI 计算错误
+
+SHA-17         线路障碍物状态信息错误导致 EBI 计算错误
+
+SHA-18      CBTC 级别下 ,临时限速未正确传输至车载 ATP 系统
+
+SHA-19          ITC 级别下 ,车载 MA 计算错误
+
+SHA-20        运行方向错误导致 ZC MA 计算错误 ,从而导弄
+
+128
+
+--- Page 133 ---
+T/CAMET 04010. 4一2018
+
+RS ”系统危害清单(续)
+
+SHA-21
+
+全位置输出错误,导致也面 ZC 为该列车或追踪该列车的其
+
+SHA22       他列车 MA 计算错误
+
+SHA-23        列车运行控制级别 .驾驶模式传输错误 ,导致地面 ZC 为该列车或
+该列车的其他列车 MA 计算错误
+
+SHA-24         :停车保证计算错误                              |
+
+SHA-25         列车输出保护区段多许解       后,列车不安全局动
+
+SHA-26 | 跟线进路设计时,不您会监线进路信号开放要求
+
+SHA-27
+
+SHA-28
+
+SHA-29                                               5 Ea till
+
+SHA-30                                  Bet Sl) AAS BE RAL
+
+SHA-31                                                                 不安全的授权
+
+| SHA-32
+
+SHA-33
+
+SHA-34
+SHA-35
+
+统给 RM 模式列车的授权超出了线路边界
+
+SHA-36
+
+SHA-37      道岔末密贴卫锁闭时,信号系统给出 CBTC 级别列车不安全的授权
+
+SHA-38        道贫未密贴几锁闭时 ,信号系统给出 ITC 级曾列车不安全的授权
+
+SHA-39         道岔未密贴且锁闭时 ,信号系统给出 RM 模式列车不安全的授权
+
+SHA-40        列车在道岔区战时,道岔动作
+
+SHA-41       信号系统为列车计算的安全限制速度超过了线路限速
+
+AL      列车运行速度超过信和号系统的安全限制速度时,未能够实施紧急
+制动
+
+SHA-43
+
+列车停车过程中不安全开启站台门
+
+129
+
+--- Page 134 ---
+T/CAMET 04010. 4一2018
+
+RS 系统危害清单(续)
+
+HU Bill fio RBA
+SHA-44           列车未对标停准.不安全开启车门或站台门
+SHA-45        车载设备漏电,导致乘客甬电
+SHA-47       信号设备散发有毒物质或气体
+SHA-48        信号设备着火引起爆炸
+SHA-49         信和号设备钉射过大
+SHA-50          信号设备抗下扰能力林满足应用环境要求 ,导致系统功能类效
+SHAS!        HED SR GE IPA SY 22
+SHA-52       fei FRE AT LE ee PR
+SHA-53           信号系统抗震贞能力杰满足应用环境要求 ,导致系统功能失效
+SHA-54       击击导致信 号系统失效本导向安全便
+SHA-55               信号系统有线网络被和信侵 # 访问
+SHA-56       信号系统无线通信被外界王扰
+SHA-57       信号系统无线网络被非法入侵                           |
+SHA-58       信号系统气候适应林满足应用环境归求 ,导致信号系统功能失效
+SHA-59       气候原因,加速信号系统老化从而导致系统功能失效
+SHA-60       气候导致信号系统失效末导向安全侧
+SHA-61        i ee i AH BOR, EBC SH EDI HE
+失效
+SHA-62       振动导致信号系统失效未导向安全便
+SHA-63        信号系统海拔运用性能未满足应用环境要求,导致信导系统功能
+SHA-64       信号系统硬件故障未导向安全侧
+SHA-65        桥梁同时存在列车数量超出设计载荷造成桥梁损坏 ,导致行车事故
+SHA-66       站台门打开时 ,连锁未关闭进站/出站进路
+SHA-67       ATO 控车牵引/制动过程中 ,导致司机等员工在司机室跌倒
+
+130
+
+
+--- Page 135 ---
+T/CAMET 04010. 4一2018
+
+表6 接口危害清单
+
+互联互通信和只系统场景危害分解
+IHA-I         列车编组信息与车长不匹配
+JIHA-2        联络线交接时 ,通信延时导致列车在本线丢失
+THA-3         联络线交接时,通信延时导致列车在他线丢失
+IHA-4      联络线 ZC-ZC 接口信息传输错误
+IAS      联络线 CLCT 接口信息传输错误
+THA-6         王联互通车载电子地图错误
+1IHA-7                         避判断不及时 ,导致应回撤的 MA 未及时问撤
+THAR         共线车地应答器通人故障
+ns         ZC 向 VOBC 发送紧急停车命令不成功
+IHA-10       ALAR ATP 对列车解体采集全息失效
+IHA-II          车辆没有正确采集和车载 ATP 的紧名制动信息
+ate          号系统未从测到防淮门关闭,ZC 为 CBTC ITC 列车计算 MA 越
+EL BH HET)
+IMA        信号系统未检测到防淮门关闭,联锁系统为 RM 列车开放不安全
+进路
+IHA-14         列车正在通过防流门时 ,防小关闭 ,列车挤上防流门
+IHA-15         Bi) 4 WAS iB A Baa ie) Pe I Bie He TAY HEL BE
+IHA-16         站人台门打开时 ,信和号系统给出 CBTC 级别列车不安全的授权
+IHA-17        紧急关闭按钮激活时 ,信号系统给出 CBTC 级别列车不安全的授权
+IHA-18           本线线路临时限速未传递到他线车载 ATP 系统
+THA-19          他线车载 ATP 收到本线临时限速后,紧急制动曲线计算林正确采用
+|inA20       本线为他线车载提供了错误的线路限速数据               |
+IHA-21       他线车载 ATP 错误地使用了本线线路数据
+IHA-22        通信中断或者阻塞,信号系统开关门命令延时发送,导致站台门错
+上 |误开户
+
+131
+
+--- Page 136 ---
+T/CAMET 04010. 4一2018
+
+表6 接口危害清单(续)
+
+危害编号
+
+CI 收到错误开关站台门信息
+
+IHA-23
+IHA-24       站台门状态信息错误,导致列车不安全启动
+IHA-25       互联五通接口错误,导致开关门信息错误
+IHA-26    列车  门开启时移动
+IHA-27    列车移动过程中件门不安全开局 EAR ATP 本
+IHA-28    VOBC 输出不匹配的开门码信息 ,开启站台门错误便
+IHA-29    车门与站台门开局数其或位置不对应
+IHA-30          人员可以直接接触到车厅内的车载设备
+IHA-31       列车车门开错侧导致乘客洗人轨道
+表7 运营危害清单
+
+危害编导                  TG Ti ri FR BEE TE HE HEE
+OSHA-1   4A Se hl BER
+OSHA-2       联镇级别下 ,可机无限制地退行
+OSHA-3   切除 ATP 列车或未装备 ATP 列车司机未按规定行车
+OSHA-4   切除 ATP 列车或林装备 ATP 列车司机无限制地进行
+OSHA-S   切除 ATP 列车或未装备 ATP 5) 42 FE PR dil a
+OSHA-6    RM 模式列车无限制后注
+OSHA-7       车辆紧急制动系统失效
+ostiae   解体列车的某部分已经完全与车载 ATP 物理隔离,无法收到 ATP
+
+紧急制动的信息
+OSHA-9          ZC 系统未处理解体列车信息 SP A Be BE Se RB) 4H HE
+OSHA-10        列车擅到轨道( 含联络线)上施工或维护的工具或材料
+OSHA-11      列车擅到站台上施工或维护遗沙的工具或材料
+
+132
+
+--- Page 137 ---
+T/CAMET 04010. 4一2018
+
+表7 运营危害清单(续)
+
+OSHA-12        列车与轨道上的信号设备相撞
+
+OSHA-13     列车与跌落在轨道上的其他物体相挤                   |
+OSHA-14        BN Ae 5 42 BRO 6 aR TT eR LE Lh Ae A Se
+
+OSHA-I5        BN) 4G AE A AR BR SEs AL KB i CAA SE I 38 STE
+|              的物体) AARC
+
+OSHA-16        不能被信号系统识别的列企上线安全事故导致
+
+OSHA-I7          fei + RBCS BiG EN AEH GEL AT EE REI
+OSHA-18
+
+OSHA-19      ek
+
+OSHA-20        列车
+
+OSHA-21             站台
+
+OSHA-22
+
+OSHA-23
+
+OSHA-24
+
+OSHA-25        轨道断裂导致列车脱轨                                             |
+OSHA-26        AEE ON 4 Ah WT BS eH) FE MBE                                      |
+OSHA-27        列车脱轨侵入其他轨道撞击正在行驶列车
+
+OSHA-28        列车撞击脱轨入侵的列车
+
+OSHA-29        站台屏项系统错误 ,不安全开启站台门
+
+OSHA-30       站台人员不安全开启站台门
+
+OSHA-31     乘客正在上下车时 ,列车车门不安全关闭
+
+OSHA-32     乘客正在上下车时,站台门不安全关闭
+
+133
+
+--- Page 138 ---
+T/CAMET 04010. 4一2018
+
+表7， 运营危害清单(续)
+
+[osna.s3    Pil) Ae FETT Becht & Fk AT] Richt 9 4 WE A a BP
+
+OSHA-34    列车紧急制动过程中,导致司机等员工在司机室跌个
+
+OSHA-35    列车紧急制动过程中,导致乘客在列车客室跌倒
+
+OSHA-36    进行信号系统维护时人员和触电
+
+OSHA-37      发生火灾时 ,运营人员未按照火灾应急预案执行
+
+OSHA-38     发生爆炸时 G2 TE AB AGERE IR AE i 2 UR DAT
+
+OSHA-39           信号系统应用环境下扰源起慰
+
+OSHA-40    KA ERE
+
+OSHA-41     洪水/地疏/强风
+
+OSHA-42           基础设施沉降导致列车脱轨
+
+OSHA-43     Ja ill 3 HEF
+
+OSHA44                 与人防门无接口信息 ,列车行车安全信号系统无法防护
+互联互通自动折返实现方式不一致 ,本  ER ERR WAS
+
+OSHA 4s    re  致,司届在下车过程中,列车启动
+
+osHAa6 模式下 ,可忆控车牵引/制动,导致司忆等员工在司届室
+
+OSHA-47   nec tahini  fF itt FEAR — 5, wi) OL Ze wa] HL SE BE FE AE
+
+OSHA48    SEL 2 By ae MM A TT
+
+OSHA49    联锁线道岔维护时 ,道岔动作造成维护人员伤六
+
+OSHA-50    互联互通列车擅到本线线路上维护人员
+
+OSHA-51     互联互通列车撞到联络线上维护人员
+
+OSHA-52    救援与疏散过程中,造成人员伤亡   _
+
+OSHA-53    跨线救援与朴散过程中,造成人员伤亡
+
+134
+
+
+--- Page 139 ---
+T/CAMET 04010. 4一2018
+
+7 安全要求
+
+7.1 系统需求
+
+通过对危害进行分析 ,互联互通信号初步系统危害安全要求如下。
+车载 ATP 系统
+车载 ATP 系统安全要求内容见表8。
+
+7.1.1
+
+表8 车载ATP 系统安全要求列表
+
+安全要求编号                       安全要求
+在CBTC ITC 级别下 ,车载 ATP 应根据当前列和    了速度限制条
+SR-S-1        | 件进行紧急制动触发速度(EBD 的计算.列车当      jE > EBL 速度
+时,ATP 实施紧急制动
+车载 ATP 系统测速测中精度满足控车要求,旦满足安装环境下的
+SR-S-2      振动和气候        ‘             车载 ATP 测述测距故障时，
+系统应对列
+SR-S-19
+SR-S-20
+SR-S-23      MEPEVE SEER .跨线运行时,如果发现车载 ATP 与 ZC .CI 和 ATS 版本
+不一致或不兼容时 ,对应车地通信无效,对应接口命令不执行
+互联互通列车在 CBTC ITC 级别下移动授权防护中最大退行停车
+SR-S-25   距离应各厂商本线的最大退行停车距离;列车退行超过互联互通
+|          有最大退行停车距离时,车载 ATP 输出紧急制动
+CBTC 级别下,ZC 计算 MA 时,应包含运行前方列车最大退行停车
+SR-S-26       距离;ITC 级别下 ,车载 ATP 计算 MA 时 ,应包含运行前方列车最大退
+行停车距离
+SR-S27        车载 ATP 将实际速度与当前 EBI 进行比较,如果实际速度> 监控
+oe      速度 ,应输出紧急制动命令
+SR-S-28       车载 ATP 系统监督列车地退行速度和退行距离,列车退行超过人允
+
+许退行速度或最大退行 EB 触发距离后 ,将实施紧急制动
+
+135
+
+--- Page 140 ---
+T/CAMET 04010. 4一2018
+
+HS 车载 ATP 系统安全要求列表(续)
+
+安全要求编号                      安全要求
+SR-S29         车载 ATP 系统监督列车的后溜速度和后泣距离 ,列车后溜超过允
+        Vp Fea SAR IME Nee A eT HE 触发距离后 ,列车将实施紧急制动
+SRLS30        在车辆保证紧急制动力正常的前提下,车载 ATP 向车辆输出的紧
+      和急制动命令须能保证列车在安全制动距离范围完全停稳
+
+SR-S31            车载 ATP 一旦开始向车辆输出紧急制动命令,在紧急制动触发条
+四        件解除前,ATP 不能和行缓解紧急制动
+
+CBTC AHR ZC 计算 MA 时,应包含运行前方列车最大后汶停车
+SR-S-32        HES ITC 级别下.车载 ATP 计算 MA 时 ,应包含运行前方列车最大后
+
+开联互通列车在 CBTC ITC 级别下移动授权防护中最大后淀停车
+SR-S-33        距离应各厂商本线的最大后尝个车距离;列车后沛超过互联互通
+
+服大后汐停车距离时 ,车载 ATP ip HL
+SR-S-36     |距误
+ATP 位置计算完成时间》
+SR-S-46        CBTC 级别下,车载 ATP 计算 EBI 曲线时 .应包含互联互通临时限速
+SR-S-53             WOU Ie ale Te Ban A TAL PPA Ae SE Dh EN Ze PAS, 44 ATP
+-        系统应能判断出,并导向安全侧处理
+
+SR-S-57          列车折返换端过程中 ,车载 ATP 应保证列车不能移动
+SR-S-58             列车测速测距系统应能准确判断出列车的速度和方向
+SR-S-59                                             稳状态
+
+车载 ATP 应能正确判断山列车停准
+
+SR-S-62
+
+车载 ATP 系统停车保证功能,应包含列车当前位置 .速度.安全防
+护距离
+
+列车仅在保证列车不会进入前方保护区段后,才能发出保护区段
+允许解锁
+
+136
+
+VOBC 发送"允许解锁"信息后,应保证列车不会进入前方保护区
+段,直至前方进路重新开放
+
+
+--- Page 141 ---
+T/CAMET 04010. 4一2018
+
+RS 车载 ATP 系统安全要求列表(续)
+
+安全要求
+CBTC ITC 列车的动作违反了信和号系统的授权时,ATP 实施紧急制动
+
+SR-S-72
+
+在 CBTC 级别 ITC 级别和 RM 模式下,车载 ATP 应能够持续监
+车辆发送的列车完整性状态 ,若采集到列车完整性琉失,ATP 应向车
+辆持续输出紧急制动命令
+
+CBTC 级别下 ,车载 ATP 设备监控站人台门的开房和关闭状态 ,列车
+
+SR-S-76     人生生全 站台门打开,车载 ATP 应保证列侍在站外售
+LSI       CBTC 级别下 ,车载 ATP 设备   站台门的开忆和关闭状态 ,进站
+       过程中,站台      有        iti
+
+CBTC HY
+SR-S-78
+SR-S-81                                    证列车在站外停车或
+
+闭按钮状态 ,列车进站过
+SR-S-82
+Rs                                      gs il ly
+
+CBTC 级别            恬急关闭按钮状态 ,列车出站过
+
+SR-S-83     程中卫最小安全后端疝           ,紧急关闭按钮激活 ,车载 ATP
+应实施紧急制动
+SR-S-91      CBTC ITC 列车计算安全限可不应是过线路限速
+§R-§.94      和车载 ATP 设备监控列车车门状态 ,列车运行过程中,车门打开后车
+          载 ATP 震切断牵引 ,紧急制动或正常运行至下站站台
+上
+SLS.95      列车进站停准停稳 ,车载 ATP 系统应确保列车不会错误移动后,输
+出门使能命令 ,联动站台门
+
+互联互通线路应规范各信号系统间通信延时时间,VOBC-ZC 通信
+
+SR-S-96    延时超时应判断为通信中断,若此时列车处于 CBTC 级别下,和车载
+
+ATP 应输出紧急制动
+
+车载设备硬件结构设计应满足防触电要求                  |
+
+SR-S-97
+
+137
+
+--- Page 142 ---
+T/CAMET 04010. 4一2018
+
+7.1.2 ZC 系统
+ZC 系统安全要求的内容见表 9。
+
+RI ZC 系统安全要求列表
+
+SR-S-3
+
+在 CBTC 控制级别下 ,ZC 确定列车的运行方向和列车的运行权限，
+并保证前行列舍和追踪列车间的安全问丙
+
+互联互通联络线 ZC 伙接时,本线 ZC 应保证为他线 CBTC 列车计
+
+SR-S-12
+SVE wh fy MA
+SR-S-16            ZC. Wie RE AE A SE AL PS O19 3) 4 UE 9 AR OR TE) 42 9) Eh
+.        |并恨据列车安全位置及进路信息,为 CBTC 级别列车计算 MA
+ZC 应对管辖范围内的所有闪线 .跨线运党列车 D 进行管理,对各
+SR-S.17      CBTC 列车 ID 进行唯一检查,发现本 ZC APH WI TE ID 时,重复
+ID 列车降级运行;发现向接管 ZC 审请授权列车重复 ID 时,ZC 则拒
+绝该车的报文 ,不让成功建链
+SR-S-18          联络线车笨交接时 ,ZC 应能正确识别他线进入的列车
+SR-S-24          信缚系统应保证同时存在于桥梁的列车短桥梁允许运营载谷要求
+CBTC 级别下,ZC 计算 MA 时,应包含运行前方列芷最大退行停车
+SR-S-26       距离;ITC 级别下 424k ATP 计算 MA 时 ,应包含       站方列车最大退
+行停车距离
+CBTC 级别下 ,ZC 计算 MA 时,应包含运行前方列车坡大后汶停车
+SR-S-32       距离NITC 级别下 ,车载 ATP 计算 MA 时 ,应包含运行前方列车最大后
+注倍车距离                                                  _
+互联互通线路应规范 ZC-ZC 间通信延时时间,超时应判断为通信
+SR-S-35         中断,ZC 回缩移动授权至 ZC 边界前一计轴入口点撤回一个地大人允
+许安装误差处                                         _
+| ATP 计算列车安全包络时,应包含列车当前速度.加速度.测速测
+SR-S-36      FRU AE .轨旁设备安装误差及通信延时时间(速度信号生成至车载
+ATP 位置计算完成时间)
+SR-S-56         ZC 计算列车 MA 时 ,应检查列车运行方向和进路的一致性
+SR-S-60
+
+ZC 系统应对在线运行列车控制级别或驾驶模式进行管理
+
+138
+
+--- Page 143 ---
+T/CAMET 04010. 4一2018
+
+RI LC 系统安全要求列表(续)
+
+SR-S-61
+
+系统为 CBTC 列车计算 MA 时,应识别前车运行级别及其后端
+seat
+
+SR-S-79
+
+CBTC 级别下,ZC 设备监控站台门的开启.关闭和未知状态,并实
+时传递给车载 ATP 系统
+
+7.1.3 联锁系统
+联锁系统安全要求的内容见表 10。
+
+R10 ”联锁系统安全要求列表
+安全要求
+
+联络线联镇设备建立进路时 ,敌对进路应相互照查
+
+线联锁设备需保证建立的进路为锁闭状态,不能迎面解锁列
+
+oss        $5 (8 BSR
+
+SR-S.6    信呈开放/直路办理检查条件应符合联镇才要求
+
+caso    单列或乡列列车在同一区段内运行时,轨道二用检测设备应能下
+确庆断计畏区段的十用/出请状态 ,符合故障导向安全原则
+
+SR-S-8          计轴复位命令需经过二次确认
+
+SR5-9    应采用安全继电器或其他安全接口技术传输轨道的占用状态信息
+
+SR-S-24    (i ASO 106 FBR ERA AR TER
+
+shesaa   SEAR AD AT OR PLA MY EEL BER A 4 A a
+5 ,列车最大退行/后省停车距离
+
+SR-S-44    HEIDE Fe ts WB RICA De GONE HE RMT WARS A
+
+SR-S-45    采用安全继电器或其他安全接口技术采集紧急关闭按锯状态信息
+
+本    在联镇无法接收 ATP 发送的停稳信息时,采用计时方式判定停稳
+计时时间应根据列车停稳计算到最大值
+
+本   CBTC 级别下,互联互通车载 ATP 收到 ZC 列车控制信息紧急制动
+
+命令或有紧急制动命令报文的特殊命令 ,应立即执行紧急制动
+
+139
+
+--- Page 144 ---
+T/CAMET 04010. 4一2018
+
+R10 联锁系统安全要求列表(续)
+
+安全要求
+
+SR-S-67    互联互通跨线进路应遵循统一原则 ,保证进路正确
+
+SR-S-68          统一侧防最小安全距离 ,线路条件允许时 ,联络线及其相邻计轴点
+及其停车点设计满足侧防要求
+
+SR-S-69            由于线路限制 DES RTPA AES 4 AS HAA BRR EP IN, FA BE
+
+四    应按照侵限设计
+
+sR-$-10    Fis BELL ff CBTC ITC ,联锁级别下双方向运行的安全防护功
+能,联络线方向运行进路建立后 ,敌对进路不能建立
+
+SR-S-74        运党线路终端的信号机应该常范红灯显示
+
+SR-S-80   站台门打开时 ,联锁系统根据站型关闭对应进站/出站进路
+
+SR-S-84         CI 监控       急关闭按钮的状态,一旦检测到按钮被按下 ,立即关
+
+              闭相应的列车进路信号
+
+SR-S-85          紧急关闭按钮故障时联锁应能够检测到且导向安全侧
+
+SR-5-86            联锁控制道岔的命令必须同排列的进路中道岔的位置一致,同时
+
+             锁闭道岔 ,联锁设备才能建立进路
+
+SR-S-87    道岔子系统能给出正确的道贫状态表示
+
+SR-S-88          道岔转换完毕后 ,应保证道岔固定在规定位置不再移动 ,直至下次
+
+道岔受进路锁闭 .区段锁闭或人工单独锁闭时 ,联锁须不能控制道
+
+SR-S-89    :
+岔移动
+
+SR-S-90          FAT 4 A TAG BRE BOR — BL, ES AS EO JPA 9 PAL Be
+
+.         点排的相应接点位置正确,才能构成道岔位置的正确表示
+SR-S-92          CI监控站人台门的开启和关闭状态 ,如果站台门打开,应关闭与该屏
+
+项门相关联的进路
+
+140
+
+
+--- Page 145 ---
+T/CAMET 04010, 4一2018
+
+7.1.4 数据准备
+
+安全要求的内容见表 11。
+Rll 数据准备安全要求列表
+
+放全要求编号         安全要求
+SR-S-10   互联互通公用电子地图应包含车载 ATP 计算 EBI 的所有线路数
+
+据,包含线路静态限速 .坡度信息 .道岔
+
+SR_S_1       路数据  过程应被定义流程规范,确保数据全面 .正确，
+SR-S-13         车辆提供方应保证工联互通列车编组信息配置正确
+SR-S-14                        通列车车长信息
+SR-S-21                                  Ime i ic
+SR-S-22                        现场合用数据正确性
+防护中及大退行停车
+SR-S-25                              LF TR
+TF TR                         权防护中地大后沈停车
+SR-S-33   距离应=   i         Pies a 5 AY 42 i et AU a
+Le KAR FEB             fi     il 3)
+sRS37     Sib ih 5 4 He HE          数据(弯道.站台 .线路最高限速)
+正确
+SR-S-38     地面设备提供商应保证线路坡度数据正确
+SR-S-39       地面设备提供商应保证道岔限速数据正确
+SR-S-40     车载设备提供方应保证列车构造速度数据正确
+SR-S-41     地面设备提供商应保证线路道岔位置数据正确
+SR-S-42    地面设备提供商应保证列车在各站台开关站台门信息数据正确
+SR-S-43     地面设备提供商应保证线路紧急关闭按钮信息正确
+SR-S-48       ITC 车载 ATP 计算 MA 终    ,应回撤安全防护距离
+SRLS 93     地面设备提供商应保证线路站台对应的站台门 ID .开门侧数据
+
+正确
+
+141
+
+--- Page 146 ---
+T/CAMET
+
+04010. 4—2018
+
+7.1.5 应答器系统
+
+应答器
+
+系统安全要求的内容见表 12。
+表12 应答器系统安全要求列表
+
+安全要求编号|                    安全要求
+
+SR-S-47      统一互联互通应答器报文格式,保证接口数据全面 TE
+
+SR-S-48      ITC 车载 ATP 计算 MA 终点时,应回撤安全防护距离
+
+SR-S-49      地面设备提供南应保证主应答器报文数据的正确性
+
+SR-S-50      主应答器报文应包含道岔状态信息
+
+SR-S-51       主应答器报文应包含联锁与 LEU 通信状
+
+SR-S-52       主应答器报文应包含 LEU 与应答回通信
+
+SR_S.53      如应答器实际位置与电子地网位半偏状超出安全距离,车辆 ATP
+系统应能判断出,并导   全侧处理
+
+SR-S-54      AER A Gee Fe Ht AR ER We PE AR aE
+
+SR-S-55            EINE FE a IE BT EDEL, AHH oe wk AS HE aM A, LIA ae a FE A ZS Ie
+
+SR-S-73       车地应答器通信应满足欧标竖求
+
+7.1.6 其他
+
+其他安全要求的内容见表 13。
+
+表13 其他安全要求列表
+
+安全要求编号
+
+信号系统硬件设备运用海拔商度应满足互联互通项目海拔高度
+
+SR-S-15   we
+
+SR-S-75                        PERT HT RE RAW
+SR-S.98     FB 9 LL RH OF AS FR
+
+SR-S-99     信号设备的硬件 AIL AR BB EAS FB I
+
+142
+
+
+--- Page 147 ---
+T/CAMET 04010. 4一2018
+
+表13 其他安全要求列表(续)
+
+安全要求编号|                              安全要求
+
+SR-S-100        信号设备的硬件.机械结构零部件不能使用易爆付料
+SR-S-101        信号设备的硬件.机械结构零部件不能含有辆射物质
+SR-S-102       信怠系统设备应通对应运用环境 EMC 测试
+
+SR-S-103      信号设备硬件设计应满足故障导向安全原则
+SR-S-104 。 | ”信号系统设备应通对应运用环境防赴测试
+
+SR-S-105          信和系统有线网络在物理上与其他网络完全隔离
+SR-S-106           信号系统各安全关键设备间网络授信震采用安全通信协议
+SR-S-107       过号系统无线通信网络采用去有频段
+
+SR-S-108           信号系统硬件设备应满足应用环境的气候条件
+SR-S-109        信号系统硬件设备抗振性能满足其运用环培振动要求
+
+7.2 ”互联互通接口需求
+
+EAT ASOT UR ELS Ar FREE ER BOR LE 14。
+表14 互联互通接口安全要求列表
+
+SR-L1           CBTC 级草下.车载 ATP 系统计算 EBL 时正确使用临时限速
+
+SR-1-2          VOBC Ail ZC 间通信采用 RSSP - 了安全通信协议
+
+SR-13              列车交接过程中,ZC-ZC 通信中断时 .车载 ATP 应保 证列车在当前
+ZC 分界点停车或紧急停车
+
+SR-1-4           IK         ZC 交接时 ,应保证列车不丢失
+
+SR-T5              互联互通 ZC-ZC 接口协议应采用 RSSP - [铁路信号安全通信协议
+
+SR-1-6       统一互联互通 ZC-ZC 接口 ,保证接口数据全面 .正确
+
+SR-I-7       |  互联互通 CLCI 接口协议应采用 RSSP - 工安全协议
+
+SR-L8          统一互联互通 CI-CI 接口 ,保证接口数据全面、正确
+
+=            车载 ATP 采用安全继电器或其他安全接口技术传输车辆实施紧急
+
+制动命令及采集紧急制动状态信息
+
+143
+
+--- Page 148 ---
+T/CAMET 04010. 4一2018
+
+表 14 互联互通接口安全要求列表(续)
+
+安全要求编号                         安全要求
+
+_—
+
+SR-I-10         统一互联互通 ZC-VOBC 接口 ,保证接口数据全面 .正确
+SR-I-11          VOBC ~ ZC 接口信息包含列车前后端安全包络信息
+
+SR-1-12        VOBC ~ ZC 接口信息包含列车当前速度及速度方向
+
+SR-I-13       CI采用安全继电器或其他安全接口技术采集站台门状态信息
+SR-I-14         ZC - YOBC 接口信息包含道岔状态信息
+
+SR-I-15  | ZC-VOBC 接呈信息包含站台门状;
+
+SR-I-16         ZC - VOBC 接口信息包含     关闭按
+
+SR-L-17           ZC -VOBC 接口信息包含临时限速信息
+
+SR-I-18    | voBe-2c SU fee 1 se Pf ia] SE — Hh AL AS AT A bar fle BE OR
+SRD   VOBC ~ ZC 接口信息包含列车退行距离
+
+SR-1-20     VOB — ZC HET LL, & 5) 4 ES
+
+SR-I-21            VOBC -ZC 接口信息包含列车
+
+SR-1-22          VOB - ZC ETAL ALE AF                i ott
+
+SR-1-23          VOBC -CI接口信息应包含保护区段允许解锁信息
+
+SR-1-24       VOBC 和CI间通信采用 RSSP - 开标准安全通信协议
+
+SR-1-25           7ZC- VOBC 接站信息包含      制动命令 信息
+
+SR-1.26              :载 ATP 采用安全继电器或其他安全接口技术采集列车完整性
+SR-1-27                  统与防流门接口采用安全继电 妖或其他安全接口技术
+SR-1-28                            集到防流门完全开启且锁定状态 ,否则防流门所
+
+防淹门关闭前,应向联锁系统发送请求关闭命令,联锁系统确定对
+应区间无列车占用或即将占用,方可允许关闭防流门
+SR-1-30         规范互联互通 VOBC-CI 接口开关门命令有效时效 ,超时命令无效
+车载 ATP 系统应保证发送的 PSD 的数旺.开关门侧、开门码正确，
+保证车门与站台门联动的一致性
+
+SR-1-29
+
+SR-I-31
+
+144
+
+--- Page 149 ---
+T/CAMET 04010. 4一2018
+
+R14 互联互通接口安全要求列表(续)
+
+SR-I-32      VOBC - CI接口信息应包含开关站台门码信息
+SR-I-33      VOBC - CI接口信息应包含开关站台门控制信息
+sad            VOBC - CI接口信息应包含列车编组信息 ,联锁保证站台门开关数
+
+全与车门一致
+
+ZC 系统应和人奔他线列车 VOBC - ZC 的自定义包
+
+SR-1-36          {WLR IWAN, BFE ALL ZC - VOBC 的白定义包
+
+nbs ATP 采用安 全继由s训或其他安全接口技术采倚列车车门锁闭
+
+SR-1-35
+
+SR-I-37
+
+SR-1.38                         间,只有专业人员采用专
+SRE?                                                 图故障 JANE
+SR-L40                                                                统应能正确处
+SR-1-41
+
+SR-I42                                       :          4
+
+shea          个载 ATP 采用安全有         攻他安全接口技术驱动列车车门开启
+
+及锁闭 AEA ATP 两侧车门的俩能命令应怕互独立
+
+7.3 建设运营维护
+通过对危害进行分析 ,互联互通信号建设运营维护危害安全要求见
+表15。
+表15 互联互通建设运营维护安全要求列表
+安全要求编号                安全要求
+次运责任方制定计轴直接复位的操作规范,运营人员必须确定该
+SR-O-1   计轴区段确实无列车或者其他障碍物占用或接近,方可进行直接复
+位操作
+
+145
+
+--- Page 150 ---
+T/CAMET 04010. 4一2018
+
+表15 互联互通建设运营维护安全要求列表(续)
+
+安全要求编号                    安全要求
+AR CBTC 级别下 ,临时限速     不能          统传递到车载 ATP
+SR-0-2     系统进行防护 ,运营责任方应制定临时限      规程,确保临时限速
+信息及时传递到司机
+sR-03       车辆采购及维护符合车辆专业相关规定,并满足信号系统输出的
+安全要求
+SR-04      RM/EUM 模式下.列车司机按照联锁信和号行车
+SR-0-5        BE— RM/EUM 模式豚大退行距离及退行作业细则
+SR-0-6       切除 ATP 列车或本装备 ATP Fil 4, ve] WL AE AUK ia SRA TIRE
+.       行竺,行车安全由司机保障
+SR-0-7       统一EUM BES a 4 er i Bi An)
+VOBC-ZC 30 (77 95) WTP WE SE BE tN Ae FB FE A BNE Re IG BE Be
+SR-0-8      {FFB OMA 同撤,VOBC 未能及时接收从而导致的行车风险雹法通过
+SR-0-9       SRE AIK HERB OD CL 28 96 Ge hj ALAR ATP Hy SLD BS, AC ee Bl) ATP
+:         Rl NA. BIE,     系统无法减轻或消除
+snLo_l0        i台系统无法检测到解体后列车共体位置,车载 ATP 系统无法提供安
+         全防护，    页任方应制    TLE INE BRS HE He NAS IF
+SR-0-11    ita) ak BL Sy Ht TA ELA OU, EER Lae AI, SB be PY ee
+的站台范围的施工或维护工作进行
+SR-0-12      制定现场施工管理细则 ,作业责任方应完成施工材料 .工具 废弃
+    物清除 ,严禁遗漏在轨道上或其他形式的侵限限界
+SR-0-13     动车调试或列车运营时,站台上的施工作业界面应清晰明确,做好
+确实可行的防护方案后方可进行交叉作业
+SR-0-14      信号设备安装满足设备限界要求
+SR-O-15      列车运营线路应实施全面防护
+SR-0-16      EAI te TES           fi任方应组织当天所有可能涉及线路
+
+146
+
+的压道作业 ,确认线路无障碍物 ,方可进入运营
+
+
+--- Page 151 ---
+T/CAMET 04010. 4一2018
+
+表15 互联互通建设运营维护安全要求列表(续)
+
+运营责任方应该制定相关规则,防止列车与车辆段里的汽车\行
+人、其他机动车相挤
+
+运营责任方应该制定相关规则,防止列车与车辆段里掉落在平交
+道口区域的物体相擅
+
+运营责任方应该制定相关规则,确保不能被信号系统识别的列车
+上线行驶安全及安全退出线路
+
+防济门关闭信息不能通过信号系统传递到车载 ATP 系统进行防
+护 ,运营责任方应制定该情况下应急预案 ,避免或减轻事故
+
+信号系统与防渡门无接口情况下 ,运营责任方应制定防渡门关闭、
+开启应急预案 ,避免或减轻事故
+
+信号系统与人防门无接口情况下 ,运营责任方应制定人防门关闭、
+开启应急预案 ,避免或减轻事故
+
+非 CBTC 级别下,车载 ATP 系统不能对站台门非安全状态进行防
+
+护,运营责任方应制定该情况下应急预案 ,避免或减轻事故
+
+非 CBTC 级别下 ,站台紧急关闭按钮激活信息不能通过信号系统传
+递到车载 ATP 系统进行防护,运营责任方应制定该情况下应急预案，
+避免或减轻事故
+
+运营责任方应制定相关规则,确保科客上下车完毕后再关闭车门
+
+运营责任方应制定相关规则 ,确保条客上下车完毕后再关闭站台门
+
+运营责任方应制定车辆段作业细则 ,以避免列车车辆段运营或调
+试过程中撞到车辆段工作人员
+
+轨道采购及维护符合轨道专业相关规定
+
+列车脱轨后 ,信号系统无法提供其安全防护,运营责任方应制定列
+车脱轨应急预案 ,避免或减轻事故影响
+
+站台门采购及维护符合站台门专业相关规定
+
+运营责任方制定规则,明确站台门紧急开启操作细则
+
+站台门人工开启开关应避免站台非工作人员误操作
+
+147
+
+--- Page 152 ---
+T/CAMET 04010. 4—2018
+
+R15 ”互联互通建设运营维护安全要求列表(续)
+
+互联互通所有站台门数量应=列车客室
+
+运营责任方应统一列车运行过程中车门不安全打开应急处理预
+FE ,避免或减轻该场景下的事故影响
+
+SR-0-35        运营责任方应制定切除 ATP 或非装备列车开关站台门操作细则
+SR-0-36        运营责任方应制定互联互通列车自动折返操作细则
+
+信号系统紧急制动是为了保障列车行车安全,最大程度避免或减
+SR-0-37       轻行车事故发生,由此引发客室\司机室人员跌倒事故信号系统无法
+
+SR-0-34
+
+提供防护
+
+een     车载应有广播和信息提醒乘客/司机在启动停车和运行过程中扶
+好站稳
+
+SR-0-39     维护责任方制定信号系统维护作业细则
+
+SR-0-40     运营责任方应制定火灾应急预案
+
+SR-0-41        运营责任方应制定爆炸应急预案
+
+SR-0-42        运营单位确保信号系统运营环境.电磁环境正常
+
+信号系统无法检测或防护人为恶意破坏,运营责任方应制定人为
+恶意破坏应急预案,避免或减轻事故影响
+
+信号系统无法检测或防护洪水/地震/强风等自然灾害引发的行车
+事故,运营责任方应制定自然灾害应急预案 ,避免或减轻事故影响
+
+信号系统失效后 ,运营责任方应制定运营细则 ,保证同时存在于桥
+梁的列车二桥梁人允许运营载荷要求
+
+信号系统无法检测或防护基础措施沉降,运营责任方应及时检测基
+础措施沉降情况,并将沉降导致的临时限速变化值反馈至信号系统
+
+信号系统无法检测或防护基础设施替塌导致的行车事故,运营责任方
+应运营责任方应制定基础设施南朝应急预案 ,避免或减轻事故影响
+
+SR-0-48        维护责任方针对联络线轨旁设备制定维护作业细则
+SR-0-49            运营责任方制定救援与疏散作业细则
+运营责任方针对跨线救援与朴散制定作业细则
+
+SR-0-43
+
+SR-0-44
+
+SR-0-45
+
+SR-0-46
+
+SR-0-47
+
+148
+
+--- Page 153 ---
+T/CAMET 04010. 4一2018
+
+参考文献
+
+1] GB 50578一2010 ”城市轨道交通信号工程施下质量验收规范
+
+2] DBII/T 311.2—2008 城市轨道交通工程质世验收规范
+
+3] GB 50157一2013 ”地铁设计规范
+
+4] GB/T 12758一2004 ”城市轨道交通信号系统通用技术条件
+
+[5] 铁运2010[149]号         ii
+
+6] GB/T 22239—2008 ”信息嗓 ROY, eh HEA REY ME AS BE
+求                      OA
+
+7] GB/T 28808—20                      系统控制和防护
+统软件
+
+8] GB/T 28809—                 系统信号用安全相
+关电子系统
+
+9] CJ/T 407一201    志轨道交通基于通信复邢秆白动控制系统技术
+BER
+
+[10] TB/T 2615—1994   ih      3
+
+11] TB/T 3027—2015 “计算    A Ae 4:
+
+12] GB/T 21562—2008  Sith i OT HEHE 可用性 .可维护性和安全性
+规范及示例(IEC 62278 :2002 IDT)
+
+13] EN 50126-2一2007 ”铁路行业可靠性 .可用性 .可维护性标准
+
+14] GBMT 1.1一2009 标准化工作导则 第1 部分:标准的结构和编写
+
+149
+
+--- Page 154 ---
+中国城市轨道交通协会出体慰准
+城市轨道交通基于通信的列车运行
+控制系统(CBTC ) 互联互通系统规范
+第 4 部分:互联互通危害分析
+T/CAMET 04010.4一2018
+中国铁道出版社有限公司出版发行
+(100054 ,北京市西城区右安门凸街 8 号)
+
+出版社网直: http://www. tdpress. com
+北京馈成印刷有限公司印刷
+开本: 880 mm x1 230 mm 1/32 印张:5 字数:139 TF
+2019 年5月第1版 2019年5月第1次印刷
+
+书号: 15113 . 5672 ff 40.00 元
+版权所有 ALU
+凡购买铁道版图书,如有印制质怪问题 ,请与本社发行部联系调换
+发行部电话:路(021)73174 ,市(010)51873174
