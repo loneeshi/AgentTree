@@ -6,7 +6,7 @@ echo "🚀 设置 CoreGPU DeepSeek-R1 API 环境变量"
 echo "================================"
 
 # 请将下面的 YOUR_API_KEY 替换为你的实际 API Key
-export DPSK_API_KEY="sk-Ty3U2Cr3hibXi8CEvnUVkgwudd1mEIf6syBXyQdxadoWfpbz"
+export DPSK_API_KEY="skxxx"
 
 # 设置 CoreGPU 相关配置
 export LLM_PROVIDER="coregpu"
