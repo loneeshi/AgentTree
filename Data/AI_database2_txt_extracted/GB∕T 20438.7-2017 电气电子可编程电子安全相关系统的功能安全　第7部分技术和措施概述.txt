@@ -1,0 +1,6543 @@
+
+--- Page 1 ---
+ICS 25.040
+N 10
+
+中华人民共和国国家标准
+
+GB/T 20438.7—  — 2017 TEC 61508-7:2010
+E# GB/T 20438,7—2006
+
+电气/电子/可编程电子安全相关系统的
+功能安全 第7部分:技术和措施概述
+
+Functional safety of electrical/electronic/programmable electronic safety-related
+systems—Part / :Overview of techniques and measures
+
+(IEC 61508-7;2010,IDT)
+
+中华人民共和国国家质量监督检验检疫总局
+中国国家标准化管理委员会
+
+--- Page 2 ---
+
+--- Page 3 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+=)
+
+2 规范性引用文件 concen ccc cee censencscsen cen seeses see cee see eee eee ene see ee sense see nesses see nes ans een sen sanaeseussennes 3
+3 TEE MPFR TR cee cee cencncececcensccecscceecnenesenseee ene eneses ene aen ses cen nesseanenseeneneoenen ses asnneseseesnencese 9
+附录 A CoD RTE BY oe) = E/E/PE 安全相关系统的技术和措施概述 «LF AG CPE ll] vee terre creer
+附录 B CoE ABE TE BAY ore) COE BE EEE IETS  施概述 s FR CTE TG CITY TRE tee eee eee 18
+附录 D Cot aS} PE BH ae)  isis BFF 2M PEO AK PI Be 2  性的一种概率法 vee eee eee cee cee eee eee eee eeeeeeene 80)
+附录 G Cor BPE Bit ae)  reo Ka) i PIE 00
+参考文献ee ee ee
+
+FEB] 软件安全要求规范 coe ccc ccc ene csncenuec essere ceecceues cesses ceases cesseesuscsesesenessecuecsseseesecsseneess 5
+4 F.8 sc 8
+SEE 10 功能安全评估 pe 98
+表G1 面向对象的软件起构 pp 00
+表G2 面问对得的详细设计 100
+
+--- Page 4 ---
+
+--- Page 5 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Dl}
+
+BY
+
+GB/T 204384 aU / FL 1) 2 EE Ee Se AR A SEY DY He Ae) PA EP BP
+一一第 2 部分:电气/电子/可编程电子安全相关系统的要求;
+一一第 3 部分:软件要求;
+第 4 部分:定义和缩略语;
+一一第5 部分:确定安全完整性等级的方法示例;
+一一第 6 部分:GB/T 20438.2 Ml GB/T 20438.3 的应用指南;
+本部分为 GB7/T 20438 的第7 部分。
+本部分按照 GB/T 1.1一2009 给出的规则起草 。
+AE ap AR GB/T 20438.7一2006电气/ 电子/可纲程电子安全相关系统的功能安全 第7部分:
+技术和措施概述》 ,与 GB/T 20438.7一2006 相比,主要技术变化如下:
+一一增加了了专用集成电路(ASIC)设计技术和措施概述(见附录 ED ;
+一一增加了软件安全生命周期各阶段属性的定义(已附录下):
+增加了安全相关的面回对象软件的开发指南(见附录 G)
+本部分使用翻译法等同采用 IEC 61508-7:2010以电气/电子/可编程电子安全相关系统的功能安
+本部分由中国机械工业联合会提出。
+本部分由全国工业过程汕量控制和目动化标准化撤术委员会(SACATC 124040.
+本部分起章单位:机械工业伐尼仪表绿合技术经济研究所.北京国电智次控制技术有限会司.北京
+和利时系统工程有限会司 ,西门子(中国)有限会司.上海中访电子有限会司。
+本部分主要起草人:史学玲.能文泽 .田雨聪.杨柳.周有锋.冯晓升,罗安.李佳.刘晓东、梅豪 .方来华、
+fra Ey) Acta 、.钱大洲。
+本部分所代替标准的历次版本发布情况为:
+GB/T 20438.7一2006 。
+
+>
+
+
+--- Page 6 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Dl}
+
+5
+
+由电气和电子器件构成的系统,多年来在许多应用领域中执行其安全功能，以计算机为基础的系
+统(一般指可编程电子系统)在其应用领域中用于执行非安全功能,并且也越来越多地用于执行安全功
+能。如末归安全并有效地使用计算机技术,有关雇划者在安全方面有到足的指导并据此做出雇定是十
+分必要的。
+
+GB/T 20438 针对由电气和/或电子和/或可编程电子(E/E/PE)组件构成的.用来执行安全功能的
+系统安全生命周期的所有活动,提出了一个通用的方法。采用统一的方法的上月的是为了针对所有以电
+为基础的安全相关系统提出一种一致的.合理的技术方针。 主要目标是促进基于 GB/T 20438 系列标
+准的产品和应用领域国家标准的制定。
+
+注 1; 在参考文献中给出了基于 GB/T 20438 系列标准的产品和应用领域标准的例子(见参考文献[1].[2],[3])。
+
+在许多情况下 ,可用多种基于不同技术(如机械的.液压的.气动的.电气的.电子的.可编程电子的
+等)的系统来保证安全.因而不得不考虑各类安全策略,不仅要考虑单个系统中的所有组件的问题(如
+feat .控制名 TAT AES) ,还要考虑不同安全相关系统组合后的问题。因此当 GB/T 20438 在关注电
+气/电子/可编程电子(E/E/7PE)安全相关系统的同时,也提供了一个框架,在这个框架内,基于其他技
+术的安全相关系统也可被考虑进去。
+
+在各种应用领域里.存在着许多潜在的危险和风险,包含的复杂性也各不相同,从而需应用不同的
+E/E/PE 安全相关系统。，对每个特定的应用,将根据特定应用的许多因素来确定所需的安全措施。
+GB/T 20438 作为基本厚则可在未来的产品和应用领域国家标准制定和已有标准的修订中规范这些措施。
+
+GB/'T 20438
+
+一一考虑了当使用了7/E/APE 系统执行安全功能时,所涉及的整体安全生命周期.E/E/APE 系统安全
+
+生命周期以及软件安全生合周期的各阶段(如初始概念.整体蔗计.实现.运行和维护到退复);
+
+一一针对飞速发展的技术 ,建立一个足够健全且广这满足未来发展需求的框浊;
+
+(REM E/E/PE 安全相关系统的产品和应用领域的国家标准得以制定;在 GB/T 20438 的框
+架下 ,产品和应用领域的国家标准的制定在应用领域和交叉应用领域宜具有高度一致性(如基
+本原理,术语等);这将既具有安全性又具有经济效益;
+
+为实现 E/E/PE 安全相关系统所需的功能安全,提供了编制安全要求规范的方法，
+
+一一采用了一种可确定安全完整性要求的基于风险的方法;
+引信安全完整性等级 ,用于规定 E/E/PE 安全相关系统所要执行的安全功能的目标安全完整
+注2: GB/T 20438 没有规定每个安全功能的安全完整性等级的要求,也设有规定如何确定安全完整性等级。而是
+提供了一种基于风险概念的框架和技术范例。
+建立了 E/E/PE 安全相关系统执行安全功能的目标失效量, 这些量都同安全完整性等级相
+建立了单一E/E/APE 安全相关系统执行安全功能时,目标失效量的一个下限值。这些 E/E/
+PE 安全相关系统运行在:
+
+一一低要求运行模式下,下限屋定成要求时危险失效平均概率为10 ;
+商要求或连续运行模式下,下限设定成危险失效平均频率为10 和。
+注3: FlL— E/E/PE 4 42 fH AR Bt As — ee A GL FE PY 。
+注 4: 对于非复杂系统,通过安全相关系统的设计实现更优目标安全完整性是可能的。但对于相对复杂的系统(例
+如可编程电子安全相关系统) ,这些限但代表了目前能够达到的水平.
+
+
+--- Page 7 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+基于工业实践中获取的经验和判断,设定了避免和控制系统性故障的要求。即使发生系统性
+
+故障的可能性一般不能量化,但GB/T 20438 允许为一个特定的安全功能做出声明,即如果标
+
+准中的所有要求都满足,认为与安全功能相关的目标失效量已达到
+
+引信了系统性能力 ,该能力表明一个组件为满足规定的安全完整性等级要求时,系统性安全完
+
+整性的置信和度 ;
+
+一一采用多种厚理 .技术和措施以实现 E/E/PE 安全相关系统的功能安全,但没有明确地使用失
+效-安全的概售。然而,如果能够满足标准中相关漂葡的要求,则”和失歼-安全"的概念和”本质
+安全"原则可能被应用,并且采用这些概念是可接受的。
+
+
+--- Page 8 ---
+
+--- Page 9 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+气/电子/可编程电子安全相关系统的
+功能安全 ”第7 部分:技术和措施概述
+
+1 范围
+
+1.1 GB/T 20438 的本部分包全了 GB/T 20438.2 和 GB/T 20438.3 有关的各种安全技术和措施的
+参考文献仅作为各种方法和工具或示例的基本参考 ,不一定代表当前技术水平。
+
+1.2 GB/T 20438.1,GB/T 20438.2.GB/T 20438.3 Al GB/T 20438.4 是基础的安全标准.虽然它不适
+FA FR S28 hy E/E/PE 安全相关系统(见GB/T 20438.4一2017 的 3.4.3) ,但作为基础安全标准,各技术
+委员会可以在 TEC 指南 104 和 ISO/IEC 指南 51 的指导下制定相关标准时使用。GB/'T 20438. 1、
+GB/T 20438.2,GB/T 20438.3 #1 GB/T 20438.4 也可作为独立标准来合用。GB/T 20438 的横回安全
+功能不适用于在 IEC 60601 系列指导下的医疗设备。
+
+1.3 各技术委员会的责任之一,是在其标准的起草工作中尽可能使用基础的安全标准。在本部分中，
+本基础安全标准中的要求 .测试方法或测试条件只有在这些技术委员会起草的标准中已明确引用或包
+1.4 图1表示了了GB'T20438 的整体杠间 ,同时明确了本部分在实现 E/E/PE 安全相关系统功能安全
+过程中的作用.
+
+--- Page 10 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+编制整体安全要求《概念、范围、定        petting
+义、危险和风险分析]              aaa alee
+7.1~T7.5
+
+第1 部分
+将安全要求分配给 E/E/PE BHR
+系统
+
+7.6
+
+第4 部分
+定义和缩略语
+
+第 1 部分
+E/E/PE 安全相关系统的系统安全要
+求规范
+7. 10
+第6部分              5    A
+第 2 部分和第 3 部          #8 BORER
+分的应用指南
+
+BE/E/PE 安全相 Led 安全相关软件                            第 1 部分
+ 关系统的实现阶 -= | 的实现阶段                        功能安全的管理
+   段   |                          第6章
+
+BT abot
+技术和措施概述
+
+第 1 部分                                 第 1 部分
+
+E/E/PE 安全相关系统的安装、调试                          功能安全评估
+和安全确认                                 第8章
+7.13 和7. 14
+
+第1 部分
+E/E/PE 安全相关系统的操作、维护、修理、
+履改和改型、退役或处置
+7.15一?.17
+
+图1 GB/T 20438 的整体框架
+
+rs
+
+--- Page 11 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+2 规范性引用文件
+
+下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件,仅注日期的版本适用于本文
+PE. 凡是不往日期的引用文件,其最新版本(包括所有的修改单)适用于本文件.
+
+GB/T 20438.4一2017 电气/电子/可编程电子安全相关系统的功能安全 Od DSP ee OC AS
+语(IEC 61508-4:2010.IDT)
+
+3 定义和缩略语
+
+GB/T 20438.4一2017 Fite ay me A Ae ak FA AS CF
+
+--- Page 12 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Mt ose A
+(资料性附录 )
+E/E/PE 安全相关系统的技术和措施概述 :随机硬件失效控制(参看 GB/T 20438.2)
+
+整体目标 :控制机电元件中的失效。
+A.1.1 利用在线监视检测失效
+
+注: #6 GB/T 20438.2一2017 的表 A.2 42 A.3.表 ALT AIG A.13一表 A.18 中引用了本技术措施。
+
+目的:通过监视 E/E/ PE 安全相关系统在啊应受控设备(CEUC)正浓(在线)运行时的行为来检测
+
+fH ds :在某些茶件下,可用(例如JEUC 的时间行为信息来检测失效,例如,作为下/EPE 安全相关
+系统组成部分的一只开关,由EUC 正常邓动,如果在预定的时间开关并未改变状态,则将检测到一次
+失效,通稍要定位失效部位是不可能的。
+
+A.1.2 eR aa fit i all
+
+i. 4E GB/T 20438.2—2017 的表 A.2 和表 A.14 中引用了本技术/措施.
+
+目的:检测继电诊触点的失效(例如被熔接)，
+
+描述 :强制接触(或者正导向接和触)继电赤使它们的触点刚性的接在一起.假定有两组反丫触点,分
+别为 as 和 b,如果常开甬点 a 被熔接,则当继电器线圈断电时,常闭甬点 b 就不能闭合,因此,当继电器
+线圈断电时 ,监视常闭甬点 b 的吸合可用来证明常开触点 a已打开。常闭触点 b 闭合的失效表明触点
+a 的一次失效,所以对任何受蚀点 a 控制的机器而言 ,监视电路应保证安全关机或保持关机状态。
+
+Zusammenstellung und Bewertung elektromechanischer Sicherheitsschaltungen fiir Werriegelung-
+seinri-chtungen, Ff, Kreutzkamp!. W. Hertel. Sicherheitstechnisches Informations-und Arbeitsblatt
+330212. BIA-Handbuch.17.Lig.X¥/91.Erich Schmidt Verlag. Bielefeld
+
+www.BGIA-HANDBUCH digital. de/330212
+
+A.1.3 上比较器
+
+注: ¢E GB/T 20438.2一2017 的表 A.2.表 A.3.表上.4中引用了本技术/措施。
+
+目的:为了尽早检测一个独立处理单元或者比较硕中的(非同时的)失殖。
+
+描述 :利用一个硬件比较严周期性地或者连续地比较独立处理单匹的信号。可以在外部测试比较
+解,或者它本喘可使用目监视技术。监测到的处理需行为的差异将产生一条失效报六。
+
+A.1.4 多数表决器
+
+iE: 72 GB/T 20438.2一2017 的表 A.2.表 ALS 和表 Ald 中引用了本技术措施.
+
+目的:为了检测和防护三个或三个以上硬件通道之一的失效。
+
+描述 :表诀单匹使用和多数厚理(3 个中有 2 个.3个中有3个.或者革个中有闫个)来检测和防护失
+效。表决句自身可由外部测试,也可使用自监视技术 。
+
+--- Page 13 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Guidelines for Safe Automation of Chemical Processes. CCPS. AIChE. New York.1995.ISBN-10:
+0-8169-0554-1.ISBN-13 :.978-0-8169-0554-6
+
+A.1.5 空闲电流的原则(断电跳闸)
+
+注: 在GB/'T 20438.2一2017 的表 A.16 中引用了本技术/措施。
+目的:为了在切断电源或掉电时执行安全功能 .
+描述 :当触点断开并且没有电流流过时就执行安全功能。例如,当使用制动硕来制止一台电机的估
+险运动时,恒动荷将随安全相关系统中甬点的财合而开放,随安全相关系统中盘点的打开而刷动。
+Guidelines for Safe Automation of Chemical Processes. CCPS ,AIChE New York.1993.ISBN-10.
+0-8169-0554-1,ISBN-13 :978-0-8169-0554-6
+
+A2 电子
+
+EAR A toys 4 el Fd AS Ti PP IY OR
+A.2.1 利用元余硬件进行测试
+
+HE. 46 GB/T 20438.2—2017 的表 AS. A.15.表A.16.表A.18 中引用了本技术措施.
+目的:为了检测失效而使用硬件元余(即使用不必执行过程功能的附加硬件) 。
+摘述 :元余硬件可用来以一个适当的频度检测指定的安全功能。要实现 A.1.1或A.2.2,通溃必须
+
+A.2.2 动态原理
+
+注: 在GB/'工20438.2一2017 的表 A.3 中引用了本技术/措施
+目的:通过动态信号处理来检测静态失效。
+描述 :强制改变其他的静态信号(内部或外部产生的)可帮助检测部件中的静态失效。通党这种技
+7S SPL HE Bb FAB HR FB
+Elektronik in der Sicherheitstechnik, H, Jiirs. D, Reinert. Sicherheitsechnisches Informations-und
+Arbeitsblatt 350220.BIA-Handbuch.Erich-Schmidt Verlag. Bielefeld.1993
+http://www. beia-handbuchdigital.de/ 330220
+
+A.2.3 标准测试访问端口和边界扫摘架构
+
+注: 72 GB/T 20438.2—2017 的表 A.3、表 ALLS 和表 ALS 中引用了本拉术/措施
+
+目的:为了控制和观测一片 IC集成电路)的每个引脚处发生的情况.
+
+摘述 :边界扫描测试是一种 IC 设计技术 ,此抠术通过解决怎样访问 IC 内的电路测试总的问题所避
+IC 的可测试性.在由内核逻辑.输入/输出缓冲夷组成的一个骨型边界扫撒 IC 中,内核逻辑和与每个
+IC 引脚相邻的输入/输出缓冲器之间插人了一个移位寄存万级。各个移位寄存器级都包合在一个边界
+打描组元中。 通过标准测试存取冰口 ,边界扫摘组元可控制和观测一个II 的每个输入/输出引脚处发
+生的情疙。把忆请上的内核包和辑同接收到的外围部件的油励隔离开然后执行一次内部目测试,可完成
+IC 内核逻辑的内部测试。这些测试可用来检测 IC 中的失效。
+
+参考文献，
+
+IEEE 1149-1; 2001 IEEE standard test access port and boundary-scan architecture. IEEE
+
+a
+
+--- Page 14 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Computer Socletyye001l ,TSBN :DO-7381-2944-5
+A.2.4 (不再使用)
+A.2.5 监视元余
+
+注: 76 GB/T 20438.2一2017 的表 A.3 中引用了本技术/措施。
+
+目的:通过配备几个功能单匹,监视每个单匹的行为以检测失区,在检测到这些半无的行为有慎何
+差异时就开局到一种安全工况的转换
+
+描述 :至少由两个硬件通道来执行安全功能.监视这些通道的输出,当检测到一个故障时(即当备
+通道的输出信号不相同时)就启动一个安全工况，。
+
+Elektronik in der Sicherheitsechnik, H. Jiirs, D. Reinert, Sicherheitechnisches Informations-und
+Arbeitsblatt 330220.BIlA-Handbuch. Erich-Schmidt Verlag. Bielefeld. 1993
+
+http://www. bgia-handbuchdigital.de/ 330220
+
+Dependability of Critical Computer Systems 1.F.J.Redmll. Elsevier Applied Science. 1988.ISBN
+1-85166-203-0.
+
+A.2.6 PA Mma A/T BB
+
+注: fe GBT 20438.2—2017 的表 A.3 中引用了本技术/措施。
+
+目的:为了通过定期检验安全功能来检测失效。
+
+FAS :在起动过程之前测试硬件,并且接适当的间隅时间反复测试该和硬件。只有在每次测试都无问
+题时.受控设备(EUC)才继续运行，
+
+参考文献，
+
+Elektronik in der Sicherheitstechnik. H.Jiirs, D. Reinert. Sicherheitstechnisches Informations-und
+Arbeitsblatt 330220. BIA-Handbuch.Erich-Schmidt Verlag. Bielefeld. 1993
+
+http://www. bgia-handbuchdigital.de/ 330220
+
+Dependability of Critical Computer Systems |.F.J.Redmill. Elsevier Applied Science. 1988, ISBN
+1-85166-203-0,
+
+A.2.7 模拟信号监视
+
+i$. 72 GB/T 20438.2一2017 的表 ALS AZ AL13 中引用了本技术措施。
+
+目的:提高所训依号的可信和度。
+
+描述:凡在选择时 ,应优先使用模拟信号而不使用数字开/关状态。例如,在使用常见的信号电平容
+差监视时 ,都是用模拟信号电平来表示跳闸或者安全状态。该技术提供了连续监视以及变送器可信度
+的较融级别 ,减少了变送融传感功能必要的验证试验的频度。外部接口,例如脉冲线路也需要测试。
+
+A.2.8 降额
+
+注: 在GB/'T 20438.2一2017 的 7.4.2.13 中引用了本技术/措施。
+
+目的:提高硬件部件的可分性。
+
+FAS :通过把系统设计成在低于最大规范额定值下运行来你证便件部件在某一应力级下运行. 降
+额是保证在所有町定工作环境下 ,部件可在低于它们的最大应力级下工作的实际作法 。
+
+A.3 处理单元
+
+整体目标 :辨别导致处理单元结条错误的失效。
+
+6
+
+--- Page 15 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+A.3.1 利用软件进行目测斌:有限数量的模板(单通通 )
+
+it; fF GB/T 20438.2一2017 的表 AA.4 中引用了本技术/措施。
+
+目的:尽早检测出处理单元中的失效。
+
+摘述 :使用不需考虑任何特殊安全要求的标准技术构建硬件，借助附加的软件功能完全可实现失
+效检测 ,这种软件功能使用至少两个互补的数据模板(例如十六进制的 55 和十六进制的 AA)来执行目
+
+A.3.2 利用软件进行自测试 :漫步位CWALKING BIT)(单通道)
+
+it; fF GB/T 20438.2一2017 的表 AA.4 中引用了本技术/措施。
+
+目的:尽早检测出处理单元的物理存储酮(例如奇存征)和指令主公着中的失效。
+
+摘述 :利用附加软件功能完全可实现失效检测 ,该软件功能使用可测试物理存储硕(数据和地址奇
+存嚣)和指令译码的一个数据模板(例如温步位模板)执行目测试。但诊断缆靖率只有 90%.
+
+A.3.3 由硬件支持的和目测试(单通道)
+
+注, 在GB/T 20438.2—2017 的表 A,4 中引用了本技术/措施，
+描述 :附加的特殊磺件装置畜持日测试功能以使检测失获，例如,该装置可能是一个硬件单元,它
+根据看门狗序理周期性地监视其个位模板的输出。
+
+A.3.4 编码处理(单通道)
+
+注: 4: GB/T 20438.2一2017 的表 A.4 PSL PARR AN Tae
+
+目的:尽早检测出处理单元中的失效。
+
+描述 :设计处理单元时使用了特殊的失效辨别或者失效校正电路技术。 迄今 ,这些技术还只适用于
+比较简单的电路而未普及;但不排除将来的发展。
+
+Le processeur code:un nouveau concept appliqué a la sécurité des systémes de transports,Gabriel,
+Martin. Wartski. Revue Générale des chemins de fer. No.6-.June 1990
+
+Vital Coded Microprocessor Principles and Application for Various Transit Systems. P. Forin.
+
+IFAC Control Computers Communications in Transportation.79-84.1989
+
+A.3.5 利用软件进行相互比较
+
+注: 在GB/'T20438.2一2017 的表 A.4 中引用了本技术措施。
+
+目的:尽早检训出处理单元中的失效,本方法使用了动态软件比较。
+
+描述 :两个处理单元互相区换数据(包括结果 .中间结果和测试数据)。在每个单元中使用软件对数
+据进行一次对比,检测到的差异将产生一条失效报文。
+
+A.4 不可变内存范转
+
+2S A tp :检测不可变内存中信息的修改，
+A.4.1 字保存多位元余(例如使用改进的汉明码进行 ROM 监视)
+
+£1: 在GB/T 20438.2—2017 的表 ALS 中引用了本技术/措施，
+注 2: 参见 A.5.6 使用改进的汉明码进行 RAM 监视,或者通过错误检测和刀正码(CEDC)?检测数据失将和0C.3.2 错
+ie Re Ul A ZY TE eS
+
+--- Page 16 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+日的:检测一个 16 位宇中所有的一位先将,所有的双位矢效,秆些 3 位矢效和有些全部位的失效。
+
+描述 :为了产生汉明距离至少为4 的一个改进的汉明码,可用几个元余位来扩充存储闫的每一个
+字。每当读一个宇时 ,检验元余位就能确定是否发生了错误。当发现有一个差异时,就会产生一条失效
+信息 。 BOE IF  WOT SE EEE AO SOSL HI EE   FR TL AS i HE Rie Tl) SF be TS .
+
+Priifbare und korrigierbare Codes, W,W, Peterson. Miinchen. Oldenburg. 1967
+
+Error detecting and error correcting codes.R.W. Hamming. The Bell System Technical Journal
+29(2).147-160.1950
+
+A.4.2 修改的校验和
+
+注, 在GB/'T 20438.2一2017 的表 ALS 中引用了本技术”措施。
+
+目的 : veh thst thee, 印全部可能位上天约 50% RRM
+
+FIA :信助一种合适的算法来创立一个校验和,此算法使用了一个内存块中的全部字。校验和可作
+
+> bet On eben ROM "!, ky 7 BY Se BT 2 AN FER DA TE Be Sie FA PE AE SP eB TL
+seria feat FER 4h FR fr] — 9 i — Se SE AS J] Fe ke ne SET OT HE.
+果发现有差异.则产生一条失效报文。
+
+A.4.3 单字(8 位)的签名
+
+it; 42 GB/T 20438.2一2017 的表 ALS 中引用了本技术/措施，
+
+目的:检测一个字的所有一位失效和所有多位失效,可检测所有可能位失效的约 99.62%
+
+摘述:(既可使用便件也可使用软件)通过一种循环元余校验CCRC)算法把一个内存块的内容扑纳
+成一个内存宇。一种骨型的CRC 算法是把块的整个内容当作字节串行或者位品行数据流来处理 ,根据
+这种算法 ,使用一个多项式发生器来执行一个连续的多项式除法.。除得的余项就代表压缩的存储内
+容一一即是存储愉的“签名"一一并被存储起来。在后面的测试中又计算一次签名:并把这个签名同早
+先存俏的签名进行比较。当它们有差异时,就产生一条失效报文。
+
+A4.4 双字(16 位)的签名
+
+注: 72 GB/T 20438.2一2017 的表 ALS 中引用了此技术措施.
+
+目的:检测一个字中所有的一位失歼和所有的多位失效,可检测所有可能位撩将的99.9985% 。
+
+fi AS :本程序使用一种循环了见余校验CCRC)算法来计算一个签名,而结果值至少有了两个字长 ,像单
+字情癌中那样 ,扩展的签名被存储 .重新计算和比较。当存储的和重算的签名之间有差异时就产生一答
+FF MC
+A.4.5 块复制(例如利用硬件或者软件进行比较的双重 ROM)
+
+注: 42 GB/T 20438.2—2017 的表 ALS AS) AW SP ASS ARS tah
+
+目的 se) Ae aS fi FE RIC
+
+摘述 TE PS AS FF fig ie 2 Hi Hk 23 a). SB a DIE OT SE. 第二个存储硕包人省同样的
+fA SIP AERP a, BE AT BY a Be TN fy eA RR, A a UY SE
+类位错误 « As Zi TE PN SEF Ai as — a Te) fie. SE EY. ER Bz IG]
+
+A5 可变的存储区
+
+整体目标 sal) Sk SF tA se ae EE PY eR,
+
+8
+
+--- Page 17 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+=. Aceh ie IE GB/T 20438.2一2017 的表 ALL 中:作为运行期间可以被检测出的故障,或者进行分析以导出安全
+
+A.5.1
+
+RT BL. SR SAY IA Ts CL) By ee tin hp BY Alpha #i-F. C2) 41. C30 9h ab EMI Bere, COA ab aa di. vb
+
+部 EMI] Mt rs fy 2 fil Fal Pa fips PE 22 Oe FE at .
+
+Alpha #i > Al > Ay 52 Obl Tr ea aes fy BY “ee “Se EE PE]. EF BEY) Se > Se EAE Te nt RY ER FE AS
+
+ne AG OC» PY AN). Ue a AE Cwalk-path) . J eg Gy Cgalpat) 4 RAM Wis abo, (Ae Se yt Be det FM ECC op
+
+Be ee ae 7 fini ie oc PY ee PE Be AS EA PY
+
+a AT Se PAE | oR A Wy EL fy TE Ee lc APR Be YP eS gi PE oc, aap Ee aie BE le Ae aie FY Be SR aS
+
+IM. Eta Be wl se ae ET RB Og AR Ga « ae PA Ay nbs Ep FP AS Se BY A ak A dit SAR ie OB fi Pe
+
+(SBU )或单事件翻转(CSEU)和多位翻转(MBU)，
+
+如未党干扰电路是存情 年二本他 Be er FF i oo AE ,状态被怀存二到下一次5需期的)与操作 .新数据怀会被正确
+
+和存储。在组全电路中,这个影响是一个小故际 ,因为从部件来的连疆的能量流会驱动此市点。对连接线和通信
+
+线的影啊也可能是一个小故耻不过,由于较大的电容,a 粒子和中子的影啊被认为是微不足道。
+
+软错误可能和各类可变内存相关,比如动态内存(DRAM) .静态内存(SRAM) ,微处理器中的寄存器组 .快速组
+
+冲贮存区(eache) 、.流水线(pipelines) .设备(如ADC,DMA 、MMU)7配置寄存器 .中断控制器 .复杂定时器等。对
+
+alpha 粒子和中子的灵苦度由核心电压和几何绪构共同作用的绪示,在2.5立核心电压,特别是低于1.8 的
+
+核心电压更小的 geometries 震要更多评估和更加有敬的保护措施，
+
+根据下面从a到i的报告记录,和内存(扔人起)的软骨误率在700 Fit Mbit到1 200 Fit Mbit 范围之问. 这是通
+
+过比较采用酝工艺实现的共件得到的一个参考全。有到最近 SBU 老生被认为是主要的得错,但是最近的报道
+
+(参见下列 ad Pe: FE 65nm 以下技术下:所有软销误率(SER)里面 MBU 占据的比例越来越高。
+
+下列文责和资料有软错误的详细摘述，
+
+a) Altitude SEE Test European Platform( AsSTEP and First Results in CMOS 130 nm SRAM.J-L. Autran. P.
+Roche.C.Sudre et al. Nuclear Science. IEEE Transactions on Volume 54. Issue 4. Aug. 2007 Page(s);
+Loo2-1009
+
+b) Radiation-Induced Soft Errors in Advanced Semiconductor Technologies. Robert C. Baumann. Fellow.ITEEE.
+IEEE TRANSACTIONS ON DEVICE AND MATERIALS RELIABILITY. VOL 5.NO.3.S5SEPTEMBER
+2005
+
+c) Soft errors®” impact on system reliability, Ritesh Mastipuram and Edwin C Wee. Cypress Semiconductor,
+2004
+
+d) Trends And Challenges In VLSI Circuit Reliability. C.Costantinescu. Intel.2003.TEEE Computer Society
+
+e) Basic mechanisms and modeling of single-event upset in digital microelectronics-P.E.Dodd and L.W.Massen-
+gill, IEEE Trans. Nucl. Sci. .vol.50.no0.3.pp.583-602.Jun.2003
+
+[) Destructive single-event effects in semiconductor devices and ICs. F.W.Sexton. IEEE Trans. Nuci. Sci.. vol
+50.no.3,pp.603-621.Jun.2003
+
+g) Coming Challenges in Microarchitecture and Architecture. Ronen. Mendelson. Proceedings of the IEEE. Vol-
+ume 89.Issue 3.Mar 200] Page(s) :325-540
+
+h) Sealing and Technology Issues for Soft Error Rates. A Johnston.4th Annual Research Conference on Relia-
+bility Stanford University, Ocotober 2000
+
+i) International Technology Roadmap for Semiconductors(ITRS) .several papers.
+
+* Rey Wl A (checkerboard ) ”j& Be" Hy (march) ”法 RAM 测试
+
+注: 72 GB/T 20438.2—2017 的表 ALG 中引用了本技术措施。
+
+目的:检测主要的静态位失效。
+
+描述 :把会有数个0 和数个 1 的一个检测板写入面癌位的存储硕的存储单元中。 成对地检查存储
+单元以你证它们的内容相同和正确无误。这个成对的种 1 羊匹的地址是可杰的,而些对的种 2 单元的
+地址则由第 1 单元的地址逐位取反形成。第 1 次运行时,存储融地址区从可变地址朝融地址方向扩展，
+而种 2 次运行时则绷低地址方问扩展,在预先指定一个反问值的情癌下 ,两次运行应是一样的，如出现
+
+9
+
+--- Page 18 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+FEU BS ABE RAM 测试中,一个面问位的存储融的单元将由一个均习的位流初始化。在第一
+次运行时,拔升序检查这些单元,检查每个单死的内符是否正确并将它的内容反回。在第二次运行时鬼
+降序和同伴的方式处理第一次运行中建立的后台。在第 3 次或第4次运行中反回预赋值的情况下 ,将
+
+A.5.2 “漫步路径(Cwalkpath) "3 RAM 测试
+
+it: #2 GB/T 20438.2一2017 的表 A.6 中引用了本技术”措施。
+日的:为了检测静态和动态位失效,以及存喧单元之加的串扰.
+描述 :用一个均习的位流初始化要测试的存储范围,第 1 个单元被反问并检查其余的存储区以确保
+ne ECR AY, a a 1 单元再次反回从而使它回复到它的初始值,对下一个单元也重复整个操
+作过程.  在反回的后台预研值情况下执行“漫游位模型"的第 2 次运行。当出现有差异时就会产生一条
+失效报文。
+
+A.5.3 “跳步模式(galpat) “法或者"透明跳步模式(transparent galpat)” j= RAM 测试
+
+注: 在GB/'T 20438.2一2017 的表 A.6 中引用本技术/措施
+
+目的:为了检训静态位失效和大比例动态耦合 .
+
+摘述 :在"galpat"RAM 测试法中 ,先一致地(即全为0或者为1)初始化选择的存储范围调试最初
+存储单元:然后倒置第 1 个存储单元.并检查所有剩余的单元以确保它们的内容正确无误。 每读取一个
+剩余单元之后.也检验反轴的单元。对选定的存储范围中的每个单元都重复此操作过程。在相反的初
+台化情况下执行第二次运行。任何差异就会产生一条失效报文。
+
+“透明的galpat "测试法是上面的操作过程的一种谈和种:更换初始化所选存情抑围内的所有单匹,现
+人存内容保持不变,使用签名来比较单元集合的内容.。 选择在所选范围肉要测试的第 1 个单元,计算范围
+中其余所有单元的签名 S$1 ,并把它存储起来。然后把要测试的单元反回,重新计算所有其余单元的签
+省 S2(在每恋取一个剩余单匹之后 ,也检验反问的单元.)比较 S2 和Sl,任何差寞陨产生一条和失效报文。
+重新反回被测单匹使之重建原先的内容,重新计算其余所有单元的签名 S3 ,把 S3 同 S1 进行比较,任何
+差异怠产生一条失效报文。按同样的方法测试所选存储范围中的所有存储单元。
+
+A.5.4 “Abraham”’RAM 测试法
+
+if. #2 GB/T 20438.2—2017 AY SE AA.6 中引用了本技术/7措施，
+目的:为了检汕存储单元之间所有的固定型失效和耦合失效。
+FATE :检测故障的比例超过"galpat”RAM 测试法。整个存储器测试需要执行的操作次数约为
+
+307 ,7 是存储器中的单元数。为了在操作循环过程中使用透明法进行测试,需要通过分割存储器并在
+不同时间段测试每个分区。
+参考文献，
+
+Efficient Algorithms for Testing Semiconductor Random-Access Memories. R. Nair.S.M.Thatte.].
+A. Abraham. IEEE Trans.Comput.C-27 (6) .572-576.1978
+
+A.5.5 一位元余(例如 ,使用一个奇偶校验位进行 RAM 监视)
+
+i£: GB/T 20438.2一2017 的表 A.6 中引用了本技术措施，
+
+目的:为了在被测试的存储范围内检测所有有可能的位失效的50晤 。
+
+描述 :把存储器的每个字都扩展 1 位(奇偶校验位) ,此位给每个字补齐偶数个或奇数个逻辑 1。每
+次放数据宁时将检豆它的奇人悄性，如发现 1 的个数有钳时,就产生一和失歼报文。应这样选择展或
+
+10
+
+--- Page 19 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+奇偶性,使得在一次失效事件中,无论是0 字(全 0)还是 1 字(全 1)都不是有效的,此时字也不是有效代
+码。当计算数据字和它的地址连接的奇偶性时,奇偶校验也可用来检测寻址失效。
+
+A.5.6 利用一个修改的汉明码进行 RAM 监视,或者利用差错检测和纠错码(EDC)检测数据失效
+
+注1: 在GB/T 20438.2一2017 的表 A.6 中引用了本技术措施，
+
+注 2: 可参看 A.4.上宇和存储多位元余(例如:利用修改的汉明码进行 ROM 监视) 和.3.2差销检测和纠错码”。
+
+目的:为了检测所有的奇位失效,所有的2位失效,某些3位和多位失效。
+
+描述 :把存僵融的每次操作扩展几个风余位从而产生有具有一个汉明距离至少为4的一个修改过的
+汉明码。 每次数据被读取时,通过检验元余位可以确定是否发生了一次庆错。当发现有差异时,就产生
+一条和失歼报文。当计算数据字和生的地址连接的元余位时,此程序也可用来榨测村址失效。
+
+Priifbare und korrigierbare Codes.W.W.PetersonyIvunchenyOldenburg 1967
+
+Error detecting and error correcting codes, R,W. Hamming, The Bell System Technical Journal
+
+29(2).147—160.1950
+A5.7 具有硬件或者软件比较和读/写测试的双重 RAM
+
+注: 在GB/'T 20438.2一2017 的表 ALG 中引用本技术措施。
+
+目的:为了检测全位失效。
+
+Fis :在两个存储大中复制地址空间。利一个仓储币以凋规方式工作。 种2个存储筑包合同梓的
+信息并且同第一个存储上茵并行存取。 比较两个输出 ,当检测到差异时就产生一条失殖报文。为了检测
+东些兴型的位错斌:两个仓民葵中的一个和仓情的数据必须反回 ,当旋出时再次凤回。
+
+A.6 [/O 单元和接口(外部通信 )
+
+整体日标 :为了检测输入和输出单元(数字.模拟.串行或者并行)中的失效以及防止不允许的输出
+
+A.6.1 测试模式
+
+if: 42 GB/T 20438.2一2017 Ay #é ALT. Ee ALLS 和表 A.14 中引用了本近术/措施，
+
+目的:为了检测静态失效(固定型失效)和串扰，
+
+描述 :它是一种与数据流无关的输入和输出单元的循环测试。它用一种定义的测试模式来比较观
+测值和对应的预计值. 测试模式信息 .测试模式接受及测试模式评价都必须相互独立。受控设备不应
+有到不允许的测试模式的影响。
+
+A.6.2 代码保护
+
+cE: 在GB/'T 20438.2一2017 表 A.7 .表A.15.表A.16 A ALLS 中引用了本技术/措施，
+
+目的:为了检测输入”输出数据流中随机硬件和系统性失效。
+
+描述 :本程序可保护输入和输出信息免受系统和随机便件引起的和失效。代码保护提供了以信息宛
+余和时间元余为基础的.与数据流有天的输入.输出单匹的失将检测。备型地是把元余依息王加在输入
+或输出数据上。它提供了监视输入或输出电路正确运行的一种方法。 许多技术都能用,例如,在一个传
+感占输出信叶上可以全加一个载频信和号，为了监视逻辑单元和最后的执行左之间流经的一个信和时的有
+
+--- Page 20 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+A.6.3 多通道并行输出
+
+it: fF GB/T 20438,.2—2017 Wye ALT PSA PARR AR TR
+
+FLAS Ay 7 Rae TU) aes A fF ei CYB re RY A BC) aS ae? We | a AY ZAG ic ee PT SG ei, SPE Fe CE Be ZG BL
+
+描述 TE re A ee PL 4 ic — > Bg BY SS ACS SS A , ee
+iB EL 386 fie at TT Se ec oe MN, 4 A AE RAY «ie BI Se fa Se Pe, A A A ES A ah Pa] og 0 Pi]
+A.6.4 受监视的输出
+
+注: 在GB/'T 20438.2一2017 的表 A.7 中引用了本技术/措施。
+
+目的:为了检测个恒失歼 .由外部影响引起的失殖.定时失效、寻址失效.识移失效(模拟信号)和月
+
+描述 :输出同无关的输入之间有关数据流的比较从而保证同一个定义的容善范靖(时间.值)相符.
+检训到的一次宏效并不总是同输出夏了荫有关。只有在诊断测试间隔期间攻据流改杰时,此措施才有将。
+A.6.5 输入比较/表决
+
+注: 4E GB/T 20438.2—2017 ANZ ALT 和表 AL13 中引用本技术/措施
+
+目的:为了测量个体失歼 .由外部影响引起的失殖.定时失效、寻址失歼.深移失获(对于模拟信号)
+
+描述 :独立输入的一种与数据流有关的比较,从而确保同一个定义的容差范围(时间、值)相符。有
+2庭1.3选2或着更多的元余方法。此措施只有在诊断测试回阳期间数据改变时才有效。
+
+A.7 数据通路(内部通信，
+
+整体目标:为了检测由信息传送中的一个故障引起的失效，
+A.7.1 一位硬件元祭
+
+iE: TE GB/T 20438.2一2017 的表 ALS 中引用了了一技术7措施。
+
+目的:为了检测所有的柯位失效,即数据流中所有可能失效位的505。
+
+HAR :用一行(5位)扩死总比并且倩助订人眉校验可把这个附加且5位)用于检测失效。
+A.7.2 多位硬件元余
+
+it: 2 GB/T 20438,.2—2017 AY ALS PSA OS ASR a
+
+ABY : 29 SRG se Gat HE Ze AEB fy fe i BE PY ER
+
+WIR s AL 2 7 Cf) Se CE ZR TP OB AS eH Fei A oe 2 PAN 7 CAD 。
+A.7.3 完全硬件元余
+
+注: 在GB/'T 20438.2一2017 的表 ALS 中引用了本技术/措施。
+
+目的:利用比较两条总线上的信和号检测通信过程中的失效 。
+
+描述:为了检汕失效,总线数量被加倍并使用了附加行(位)。
+A.7.4 使用测试模式进行检查
+
+注: #2 GB/T 20438.2一2017 的表 ALS PSA SARE A
+
+12
+
+--- Page 21 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:为了检测静态失效(固定型失效)和串扰.
+
+描述 :这是一种与数据流无关的数据通路循环测试。它使用一个定义的测试模式来比较观察值和
+相应的预期值，
+
+测试模式信息 .测试模式接受 .测试模式评价必须彼此完全无关。受控设备不应受到测试模式不允
+
+许的影啊。
+A7.5 传输元余
+
+注; 在GB'T 20438.2一2017 的表 ALS 中引用了本技术/措施。
+日的:为了检诈总比通信中的瞬态失效。
+描述 :依次把依息传送几次。这种重复法只对于朋态失效才有用，
+
+A.7.6 ERS
+
+if. 42 GB/T 20438.2一2017 的表 ALS 中引用了本技术措施。
+
+目的:为了测量总线通信中的失效 。
+
+描述 :成块地并连同每个块的一个计算出的检验和传输数据。接收机重新计算接收数据的检验和，
+并把绪果同接收到的检验和作比较。
+
+A.B FAR
+
+整体日标 :为了检测或者允许一个电源故障引起的失效。
+A.8.1 使用安全断电的过压保护
+
+注: 42 GB/T 20438.2一2017 的表 ALO 中引用了本技术/措施。
+
+目的:为了保护安全相关系统免受过不.
+
+描述 :及早检测过压使之能通过折电例行程序或者转换到第二电源把所有输出转换到一个安全
+
+Guidelines for Safe Automation of Chemical Processes.CCPS ,AIChE, New Yorgk,1993,ISBN-10:
+0-8169-0554-1,ISBN-13:978-0-8169-0554-6
+
+A.8.2 电压控制(次级)
+注, 42 GB/T 20438.2一2017 的表 ALO 中引用了本技术”措施。，
+目的:为了监视次级电压并当电压超过规定范围时就启动一个安全工况。
+A.8.3 具有安全断电的掉电
+if. 在GB/'T 20438.2一2017 的表 ALO 中引用了本技术措施。
+目的:在所有安全关键信息被保存的情况下切断电源，
+摘述 :玉早检测过压或灰压使之内部状态能保存在非易失性存民关中(如必要的话) ,并使所有的输
+出能通过折电例程设置或转换到一个安全工况,或者转换到第 2 电源。
+
+A.9 时序的和还辑的程序序列贤视
+
++. #2 GB/T 20438.2一2017 的表 A.15.表 A156 和表 A.18 中引用了本技术/措施，
+
+--- Page 22 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+整体目标 :为了检测一个有缺陷的程序序列。当在错误的序列或时段中处理一个程序的各个单元
+(例如软件模块 .子程序或者命令)时或者当处理机的时钟有毛病时,就会仓在一个有缺陷的程序序列。
+
+A.9.1 具有分离时基而无时间窗的看[狗
+
+注;, 在GB/T 20438.2一2017 的表 ALLO AF A.11 中引用了本技术措施，
+
+目的:为了监视程谋厅列的行为和合理性。
+
+摘述 :为了监视计算机的行为和程序厅列的合理性,定期甬发内有分离时基的外部定时单元(例如
+看门狗)。在程序中正确地斌置触此点是很重要的。不按一个固定的周期甬受看门独,但规定了最大时
+fra] [Fa] Py 。
+
+A.9.2 具有分离时基和时间窗的看门狗
+
+注: ZF GB/T 20438.2—2017 的表 A.10 和表 A.11 中引用了本技术措施.
+
+目的:为了监视程序厅列的行为和似具性。
+
+描述 :为了监视计算机的行为和程序序列的似真性,定期甬发具有分离时基的外部定时单元(例如
+看门狗)。在程序中正确设曾和甬发点是很重要的。给出了了看门狗的一个上上.下限。如有果程序序列占用的
+时间比预定的时间长或者得,凯会永取应是行动。
+
+4A.9.3 程序序列的贤辑监视
+
+注, 在GB/'T20438.2一2017 的表 ALLO MGR Al] 中引用了本技术措施，
+
+目的:为了监视洗个程序段的正确硕厅
+
+摘述 :使用软件(计数程订 .临界程订)或者使用外部监视设兰监视各个程序段的正确顺床。在程序
+中正确设置校验点是很重要的 ，
+A.9.4 FE PRIA ais Se MAS
+
+注: GB/T 20438.2—2017 的表 ALO 和表 ALLL 中引用了本技术措施。
+
+目的:为了监视各个程序段的行为和正确的顺序。
+
+描述 :只有在也正确执行程序段的顺序时才会齐发监视程序厅列的一台时序设备(例如看门狗计
+IN 4) .
+A395 具有在线检验的时序监视
+
+注: 在GB/T 20438.2一2017 的表 A.10 和表 A.11 中引用本技术/措施。
+
+目的:为了检测时施监视中的失效。
+
+描述 :在起动时检验时序监视,并且只有当时序监视正常工作时,才可能启动。例如,在起动时,可
+以用一个加热的电阻来检验一个热传感器 。
+
+A.10 通风和加热
+
+注: 4 GB/T 20438.2—2017 的表 A.16 ME ALS 中引用了本技术/措施 ，
+
+整体目标:为了控制通风和加热中的失效,和/或 监视它们是理与安全有关。
+A.10.1 ERR
+
+FLAY : 4 4% SOF We TE BM ee AY il BE te Ad 9b PE se il FE Vy a ad EAR.
+fin TAS :温度传感大监视 E/E/PES WA Bic llin Fe kb at ESE, CE HT SE A PA ee FB] AS EBC ay
+ld
+
+--- Page 23 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+Ata .
+A.10.2 风扇控制
+FAY s Ay SRE UN PRU ag aes Be AY AS TE AY
+FAVE We LL Ae ee IER. 4A RB LPP A IE RY ERASE ARAB RWS)
+行动。
+4A.10.3 通过热熔断器启动安全断电
+
+目的:在系统的工作温度超过技术条件的规定之前,怠断折安全相关系统的电源。
+描述 :一个热熔断亏被用来切断安全相关系统的供电,对一个可编程电子系统(PES)来说,可通过
+个仓人备有应急行动所需的全部信息的掉电例行程序来引起断电。
+
+A.10.4 3 Bim Efe ae OS FR SB 32 HRM
+A so SFR aN EK 8 SEE T. VE FE BAR BE A EY tlh EL EB] ZF
+摘述 :监视温度 yp YIN BE ET AL Ee Ed IE A — a
+
+A.10.5 强制通风制冷的连接和状态指示
+
+目的:利用强制风冷却防止过热。
+描述 :监视温度 ,妆温度高于规定的上限时就引起强制风冷却。并告之用户系统此时的状态。
+
+A.ll 通信和大容量存储器
+
+整体目标:为了控制在与外部源和海量存储器通信过程中的失效 。
+A,.11.1 分隔开电力线和信息线
+
+i: 在GB/'T 20438.2—2017 的表 A,16 中引用了本技术/措施。
+目的:为了最小化信息线中大电流感生的串扰
+摘述 ;分隔开电力供电线同传送信息的线路。可能在信息线上感生电压脉冲的电场随距离增大而
+iit |
+
+A.11.2 多线路的空间分隔
+
+HE: 42 GB/T 20438.2—2017 的表 A.16 中引用了本技术 Fa
+
+目的:为了最小化多线路中大电流感生的串扰。
+
+描述 :载有重复信和号的线路彼此分隔开。可能在多线路上感生电压脉冲的电场随距离增大而减小。
+这种措施也减少了共同原因失效。
+
+A.11.3 提高抗干扰性
+
+注: 4: GB/T 20438.2一2017 的表 A,16 和表 AL18 中引用了本技术/措施，
+
+目的:为了减小对安全相关系统的电磁干扰，
+
+描述:可以使用比如屏蔽和滤流这样的设计技术来提高安全相关系统对电力线或信号线或者静电
+放电产生的辐射或者传导电人磁干扰的抗扰性，
+
+i$. 参见表 16 M1 ECPM KARA Nt TH BO A Tok a A Se i ee OE CE EB PN ig ei a
+
+--- Page 24 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+小
+
+参考文献 :
+
+IEC/TR 61000-5-2; 1997, Electromagnetic compatibility ( EMC )—Part 5: Installation and
+mitigation guidelines—Section 2;Earthing and cabling
+
+Principles and Techniques of Electromagnetic Compatibility. Second Edition, C, Christopoulos.
+CRC Press.2007.ISBN-10;0849370353 .ISBN-13:978-0849370359
+
+Noise Reduction Techniques in Electronic Systems. H. W. Ott. John Wiley Interscience. 2nd
+Edition. 1988
+
+EMC for Product Designers. T. Williams. Newnes.2007.ISBN:0750681705
+
+(rounding and Shielding Techniques in Instrumentation. 3" edition. R, Morrison, Wileylnterscience. New
+
+York.1986.ISBN-10;0471838055 . ISBN-13 -978-0471838050
+A.11.4 反价的(Antivalent)信号传输
+
+注: 7E GB/T 20438.2— 2017 的表 A.7 AZ A.16 中引用了本技术/措施 。
+目的:为了检测在多信号传输线中相同的感应电压。
+描述 :使用反价的(Antivalent)信号(例如逻辑 1 和0)来传输所有的重复信息。可以通过一个反价
+比较赤来检测共同原因失效(例如由电磁发射引起的) 。
+Elektronk in der Sicherheitstechnik, H, Jiirs. D, Reinert. Sicherheitstechnisches Informations-und
+Arbeit-sblatt 380220.BIA-Handdbuch.20.Lf[g.V/93.Erich Schmidt Verlag. Bielefeld.
+http://www, bgeia-handbuchdigital, de/ 330220
+
+A.l2 传感器
+
+整体目标:为了控制安全相关系统的传感器中的失效。
+A.12.1 参考传感器
+
+注: 42 GB/T 20438.2—2017 的表 A.13 中引用了本技术/措施。
+
+目的:为了检测传感痊的工作不正稼。
+
+fii id :使用了一个独立的参考传感硕来监测过程传感硕的工作。 参考传感硕以适当的时间间隅检
+ior Ar Ay SD in A dis ce SA i aU a SI se FY FB
+
+Guidelines for Safe Automation of Chemical Processes.CCPS. AIChE. New York.1993.ISBN-10;
+0-8169-0554-1,.ISBN-13:978-0-8169-0554-6
+
+A.12.2 启动可靠的开关
+
+注: 42 GB/T 20438.2一2017 的表 A.13 中引用了本技术/措施。
+目的:通过开关凸轮和触点之加的下接机械连接断开一个触操。
+描述:通过开关凸轮和触点之间的直接机械连接 ,启动可靠的开关将断开它的常闭触点。这就保证
+了任何时候,只要开关凸轮处于吸合位置,开关甬点一定是断开的。
+参考文献 :
+Verriegelung beweglicher Schutzeinrichtungen, F. Kreutzkampf. K. Becker. Sicherheitstechniches
+
+Informations-und Arbeitsblatt 330210,BIA-Handbuch,.1.Lfg.1X/'85 Erich Schmidt Verlag. Bielefeld
+
+--- Page 25 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+A.13 Bee TCE GATT ea)
+
+整体目标:为了控制安全相关系统的最终元件中的失效，
+A.13.1 监
+
+注: 4: GB/T 20438.2一2017 的表 A.14 中引用了本技术/措施 。
+目的:为了检测一个执行利的工作不正各。
+
+描述 :监视执行器的工作(例如通过一个继电器的司动可菲的触点,参见 A.1.2 中继电亏触，
+
+Ee |二
+。               A oo
+fu). GS PUL AD yo ap) FD fa eve SP
+
+Guidelines for Safe Automation of Chemical Processes. CCPS. AIChE. New York.1995.ISBN-10:
+0-8169-0554-1,.ISBN-13.978-0-8169-0554-6
+
+Zusammenstellung und Bewertung elektromechanischer Sicherheitsschaltungen fiir Ver-riege-
+
+lungsein-richtungen, F. Kreutzkampf. W. Hertel. Sicherheitstechnisches Informations-und Arbeitsblatt
+330212.BLA-Han-dbuch.17.Lfig.4/91.Erich Schmidt Verlag. Bielefeld
+
+A.13.2 2S PIT way 32 Me al
+if. 7£ GBT 20438.2—2017 的表 A.l4 中引用了本技术/措施。
+目的:为了通过比较绩果来检测多个执行需中的故障。
+摘述 :使用一个不同的硬件通道来卜视多个执行背中的每一个执行戎。当出现状异时,束来取应利
+
+A.l4 抗物理环境的措施
+
+注: ¢E GB/T 20438.2—2017 的表 A.16 A A.18 中引用了本技术/措施。
+目的:为了防止物理环境(水.灰侍 .腐蚀物)的影响引起失获 。
+fm ass BET} A Te ee WY OL oe Ze Be Ae HT Ph Se
+
+参考文献
+
+GB 4208一1993 外壳防护等级(CIP 代码)
+
+l7
+
+--- Page 26 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+附 ose B
+(资料性附录)
+
+E/E/PE 安全相关系统的技术和措施概述:系统性失效的避免(参看 GB/T 20438.2 和 GB/T 20438.3)
+
+一
+
+B.
+
+B. 1
+
+Ee: 本附录中的许多技术适用于软件,但在附录 C 中不再重复。
+
+一般测量和技术
+
+.1 WA
+
+注; 在GB/'T 20438.2一2017 的表 B.1一表 B.6 中引用了本技术/措施。
+目的:为了避免失效,在开发和测试安全相关系统时采用了一种组织模型.一些规则和棋施。
+描述 :最重要和最好的措施是:
+建立一个组织模型 ,特别是用于在质量保证手册中刺定的质量保证:以及
+一一在区叉项目和项目专用指南中制定建立和确认安全相关系统的规则和措施.
+下面硝立了许多重要的基本原则
+设计组织的定义:
+e 各组织单位的任务和责任;
+es 质保部门的职权
+© ee PRUE CA ib fr Se) HA TIP
+Pe TP GR oh Re AY RE MZ
+e WATE TETATT OLA IE Brg AY TG Sd AN iB ar SAE Ps ee
+e 项目更新。
+一一内部检验的标准化程序的定义:
+© 榨验(检验理论)的计划 .执行和检查 :;
+se 次品的放行机制 ;
+了配置管理 ;
+se 版本的管理和检查 :
+© 怪改效未的检测
+e 人收改后的一仇性检验。
+一一有用质保措施定量评个:
+es 和失效统计。
+采用计算机辅盈通用方法,工具和人员培训。
+参考文献 :
+GB/T 19001— 2008, Jit tf FAR HR 要求
+
+ISO/TEC15504 Call parts). Information technology—Process assessment
+
+CMMI;Guidelines for Process Integration and Product Improvement. 2nd Edition. M.B.Chrissis.
+
+M.Konrad.S.Shrum. Addison-Wesley Professional. 2006.ISBN-10;0-3213-7967-0.ISBN-15;978-3212-
+i90%-5
+
+Guidelines for Safe Automation of Chemical Processes,CCPS. AIChE. New York.1993.ISBN-10.
+
+0-8169-0554-1.ISBN-13:978-0-8169-0544-6
+
+ls
+
+--- Page 27 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Dependability of Critical Computer Systems 1.F.J.Redmill. Elsevier Applied Science. 1988.ISBN
+1-859166-203-0
+
+B.1.2 编制文档
+
+注1: fe GB/T 20438.2一2017 的表 B.1一表 B.6 中引用了本技术/措施.
+注2: UL GB/T 20438.1一2017 的第5 章和附录 A,
+目的:通过把开发过程中的每一步编写成文件从而避鲍失效和便于评佑系统安全性.
+摘述 :在评怕过程中必须论证操作能力和安全性.以及在开发中替涉的各参与方的关注，为了能显
+示对开发的关注,以及为了保证任何时候都能验证安全证据,建立文档是特别重要的
+重要的通用措施是引入指丙和计算机辅助,即
+指南,其
+e 规定分组计划 ;
+@ 要求内容的检查表
+信助计算机辅助的和组织化的项目库来管理建立文档。
+各种措施有:
+分开建立文档:
+se 更求方面的文档:
+© 系统方面的文档(用户文档):
+© 开友文档(包括内部检验) 。
+一一根据安全牛人匣周期对开发文梢分组:
+定义标准化的文档模块,根据这种文档模块可以汇编文宵;
+清楚的标记文档的各组成部分;
+正式的版本更新;
+一一选择清楚的和可理解的描述方式:
+es 确定用的形式符号;
+e 介绍.验证和表达意图用的目然场言:
+es 举例用的疼形表示 ;
+e 专用宁的目录。
+GB/T 19898—2005 工业过程测量和控制”应用软件文档集
+Guidelines for Safe Automation of Chemical Processes. CCPS. AICHE. New York.1993.ISBN-10;:
+0-§8169-0554-1,ISBN-13;978-0-8169-0544-6
+
+B.1.3 分离开 E/E/PE 系统的安全功能与非安全功能
+
+注: 76 GB/T 20438.2一2017 的表 B.1 和表 B.6 中引用了本技术”措施 .
+
+目的:为了防正系统的非安全阐分以不期望的方式影响安全部分。
+
+摘述 :在规范中,应判定是否能够把安全相关系统和非安全相关系统分离开。应清楚的说明两个部
+分衔接的规范。一份清楚的规范可减少训试安全相关系统的工作量。
+
+(guidelines for Safe Automation of Chemical Processes.CCPS. AIChE New York ,1993 ,TISBIN-10 :
+0-8169-0554-1.ISBN-13:978-0-8169-0544-6
+
+--- Page 28 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+B.1.4 多样化硬件
+
+注; 在GB/T 20438.2一2017 的表 A.15.表 A.16 AE ALS 中引用了本技术/措施。
+
+目的:使用具有不同失效率和和失效类型的多样化元件 ,检测受控设备运行过程中的系统性失效。
+
+描述 :对一个安全相关系统的各个通道,使用不同类型的元件. 这将减少共因失效(例如过压 .电磁
+干扰)的概率并提高检测这种失效的概率。
+
+由于存在执行一个所需功能的不同方法,例如不同的物理原理,从而提供了解决同一问题的其他深
+道。存在几种多样化形式。功能多样化使用了各种办法来达到同样的结果。
+
+参考文献，
+
+Guidelines for Safe Automation of Chemical Processes.CCPS. AIChE. New York.1993.ISBN-10;
+0-8169-0554-1,ISBN-13;978-0-8169-0544-6
+
+B.2 E/E/PE 系统设计要求规范
+
+整体目标:为了要编制一份扩可能完备 I MC. 2g SEY ALY
+B.2.1 ARI aso
+
+it; 72 GB/T 20438.2—2017 的表 B.1 和表 B.6 PS) ART AREER
+
+Hl AY : a aah 2 A op BE Oe A — PR A 2 PA OR Dak “> SARE. AY Sah 5 4% BE OR TY AY Fe A FE
+
+FAR GAR :本技术把功能规范构建成许多部分要求,从而使这些部分要求之问存在的关系变得最可能简
+PRAY AL. 这种分析一步一步更加精确直到能够区别那些小而清晰的部分要求为止，最后的精确结果
+是一种部分要求的层次化结构,它提供了总体要求规范的一个框意。这种方法背重于和部分要求之加
+的接口 ,它对避倪接口失效特别有效。
+
+ESA PSS 05-02.Guide to the user requirements definition phase.Issue 1.Revision 1.ESA Board
+for Software Standardisation and Control(BSSC).ESA.Paris.March 1995.
+
+[tp: //{tp.estec.esa.nl/ pub/ wrn/ wme/ bssc/ PSS0502, pdf
+
+Structured Analysis and System Specification. T. De Marco. Youdon Press. Englewood Cliffs.
+1979. ISBN-10;0138543801.ISBN-13:978-0138-543808
+
+B.2.2 形式化方法
+
+注 1: 关于专用形式化方法的细节可和参看 CC.2.4。
+注2: 在GB'T20438.2一2017 的表 B.1.表 B.2 和表 B.6 中引用了本技术措施。
+目的:形式化方法把数学推理方法的怕则转换到技术人系的规范和实施,因而增加规范和实施的完
+整性 ,一致性或正确性。
+描述 :形式化方法提供了一种在系统开发规范和/或实施阶段描述该系统的一种方法。 这些形式化
+因此明确的系统描述可以达到对潜在系统理解力的提高.例如,任何一个目动机的状态被描述为
+初始状态 ,输入和目动机的转摘方程)
+选择一个合适的形式化方法是一项艰巨的任务,需要对系统充分了解,包括其发展过程和可能用到
+的一系列数学模型(见以下和殴注)。
+注 3: 模型的关注点理论5属性?与仿员模拟相比为系统提供了更多的信心和担怀.例如研究选定系统的行为活动。
+注 4: 形式化方法的昔靖可能为，
+20
+
+--- Page 29 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+特定阶段捕获相关功能的局限性
+在实施时工程师理解模型有难度 ;
+系统生辣周期内开发 .分析和维护模型的局投入:
+一一能创建 .分析模型的有效工具的可用性;
+开发 .分析模型的人员能力的可用性。
+注5: 形式化方法共有的重点显然是系统的目标函数建模,往往不强调系统对于故障的短棒忻. 因此必须采用相应
+的包括系统鲁标性的形陈化方法。
+参考文献，
+Formal Specification: Techniques and Applications. N. Nissanke. Springer-Verlag Telos. 1999.
+ISBN-10:1852330025
+
+B.2.3 半形式化方法
+
+注1: fF GB/T 20438.3一2017 的表 B.7 中采用其他半形式化的软件相关技术扩展了这个附录了的列表， 列表
+如下 :
+—— 72 he / NRE BF ZE GB/T 15969.3 中描述，
+Wil FFE FL 4E GBYT 15969.3 中描述;
+—— #c ite jit FAs WL C.2.2;
+时间佩特里(Petri)了网:网 B.2.3.3;
+实体-关系-属性数据模型 :见 惠.2.4.4;
+消息序列图:见C.2.14;
+Fill se / BLA Ze: WL C.6.1,
+FLAY sy 0 fen AB Ste A — i Hs ea TA — fp LY 4B op. LB ee EH EEE GP ae et he AAS TE TT
+注2: fF GB/T 20438.2—2017 的表 BHR B.2 和表 B.6 以及在 GB/'了T 20438.3—2017 的表 ALL HR A.2.表 AL,
+表 BT fe C1 # C2. Cid MIE CLT 中引用了本技术措施，
+
+B.2.3.1 概述
+
+目的:为了证明设计满足它的规范。
+
+fii :半形式化方法为在开友一个系统的东个阶段编制该系统的换述(即规范.设计或彰编枉)提供
+TROT. TERE TOP ,可用机带分析该描述,或者为了显示系统各方面的行为,可把该描述制作
+成动画。 此副国可对系统满足实际要求以及规定的要求提供了额外的置信和度。
+
+在下面的条区中将摘述两种半形式化方法。
+
+B.2.3.2 有限状态机/状态转换图
+
+it; 在GB/'T 20438.3一2017 表 B.S .表 B.7.表(0.15 Al CLT 中引用了本技术措施。
+
+目的:建模、验证、规定或实施一个系统的控制结构，
+
+摘述:能够用它们的状态.它们的输入和它们的行动来描述许多系统。当处于状态 S1 时 ,在接受到
+输入工时.一个系统将会执行动作 A 并转换到状态 S2. 通过描述一个系统处于每个状态中时,每个输
+人导致该系统的动作 ,就能完整地摘述一个系统。 产生的系统模型叫做一个有限状态机(或有限状态目
+副机)。笛第是把它画成一个所谓的状态转换图,此疼显示系统怎样从一个状态转移到另一个状态:或
+者把它画成一个窍阵 ,在和矩阵中 ,维数是状态和输入,和矩阵元包含当系统处于给定状态中时 ,由接受输入
+
+一个复杂系统或者具有一个自然结构的系统的情况可以在一个分层的有限状态机中反映出来。状
+态图是一种可以藤套的状态转换图(目标的状态分为可以并行演化的两个或更多子状态 ,并且可以在某
+
+2]
+
+--- Page 30 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+点重新组全为一个状态) ,这增加了状态转换标记法的表达能力,但在安全相关系统中也增加了不受欢
+迎的额外的复杂性。状态图有一个形式化的(数学上)规范,状态转换图可以适用于整个系统或革些对
+可以检查表示成一个有限状态机的规范或设计的 :
+完备性(在每个状态 .对每个输入,系统必定有一个动作和新状态) ;
+一致性(每个状态/输入对只描述一次状态改变)，
+一一可达性(是否能通过任何输入厅列从一个状态到达另一状态) :以及
+它们是关键系统的一些重要属性.很容易开发支持这些检查的工具,并且可以使用基于有限状态
+机的不同模型(形式化语言.佩特里(Petr)网.马尔可去图形等等)。而且也存在能够目动生成测试用
+例的算法,这些用例用于验证一个有限状态机实现或者制作一个有限状态机模型的动画。状态转换图
+和状态图被各种工具广泛支持,包括图表的绘制和检查.生成描述状态机执行的代码。
+他们也可以用于失效概率的计算,参见 B.6 和C.6 部分。
+Introduction to Automata Theory. Languages.and Computation(3rd Edition).J. Hopcrott. R, Mot-
+wani.J.Ullman. Addison-Wesley Longman Publishing Co.2006.ISBN:0321462254
+Sécurisation des architectures informatiques. Jean-Louis Boulanger. Hermés-Lavoisier. 2009.
+
+ISBN : 978-2-7462-1991-5
+B.2.3.3 时间佩特里(Petri) 网
+
+注: 在 GB/T 20438.3一2017 的表 B.5,.表 B.7.表上C.15 MIR CAT 中引用了本技术措施。
+
+目的:通过分析和再设计模型化系统行为的有关方面.评估及尽可能地提高安全性和抬作娄求。
+
+描述 :佩特里(Petrib 网是一个有限状态目动机的特殊情况,属于图形理论模型一类,适用于在呈现
+并发性和有异步行为的系统中表示信息和控制流 。
+
+ii Petr 网是一个位置和杰迁网 位置可能"标记”或"不标记7"。当输入该网的所有输人位
+置被标记时 ,就“使能"一次变迁。当使能时,就允许(而不是强迫记触发”。 如果它触发,引起变迁的输
+人位置就亚成未标记的了,并且代之以变迁产生的每个输出位置币标记 。
+
+在模型中可把潜在的危险表示成特定的状态(标记)。可把佩特里(Petri)网模型扩展成撒述系统
+的时间特性。 里然"传统的"佩特里(Petr 网集中在控制流方面,已经提出了把数据流包括到模型中去
+HJ JLB RTT SR
+
+Timed Petri Nets; Theory and Application. Jiacun Wang.Springer.1998.ISBN 0792382706
+
+Securisation des architectures informatiques, Jean-Louis Boulanger. Hermés-Lavoisier. 2009.
+
+ISBN :978-2-7462-1991-5
+
+B.2.4 计算机辅助的规范工具
+
+注: 在GB'了了20438.2一2017 的表 B.1 和表 B.6 PLLA GB/T 20438.3—2017 PY ALL ALE CLL A C2 中
+引用了本技术措施，
+B.2.4.1 概述
+目的:使用形式化规范技术以便于目动检测到义性和完竺忻。
+摘述 :村技术可产生一个数据库形式的规苑,这种形坏可被上月动检查,从而评舍一致性和完备性.
+
+oe
+
+--- Page 31 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+规范工具能把用户指定的系统的各种特征制作成动画。通党,技术文持不仅建立规范,也能建立设计和
+项目生命周期的其他阶段。可根据以下到葡对规范工具进行分类。
+
+B.2.4.2 面向无特定方法的工具为了不用特殊方法所面向的工具
+
+目的:通过提供提示和各相关部分间的连接,带助用户编与一份好的规范。
+描述 :规范工具可接蔡用户的一些日党工作并文持项目管理.。 它不强求任何特殊的规范方法. 在
+方法方面的相对独立性允许用户在建立规范时有很大的目由度 ,但为用户提供所必需的专门文持很少，
+
+B.2.4.3 面问模型的层次分析程序
+
+目的:在规范中导例不完整.长久和询慎 ,例如通过保证动作和将据的措述在不同的抽迪层次下的
+-致性,帮助用户编写一份好的规范。
+
+FMR :本方法给出了各抽象层次(精确等级)下 ,要求的系统的一个功能表达式(结构化分析)。这些
+模型组成了一个巨大的方法库 ,有限自动机吉是一类广泛用于描述离散/数字系统演变的模型。徽分方
+程在摘述连续/模拟系统上具有类似的思路和目的，各个层识下的分析对动作和数据两者虱有作用，
+在层识之间和同一层次的两个功能里匹(梗氛)之间评售蚊义性和完备性是可能的。(例如,系统醒型的
+任何一个状态都可以用它的初始状态 .输入和目动状态机的转换方程来描述。
+
+注, 基于模型撒述的问题.可能吓抽象级草的,在捕获特定阶段所有相关功能上的良制,从籽痢应该理解本型的难
+
+度(从阅读句法到理解) ,要在系统的整个生命周期中尽力开发.分析并保持一个模型 ,立持构建和分析模型的
+有效工具的可行性(开发这样的工具是一项需付出巨大努力的工作)和工作人员能够开发和分析模型的可
+行性.。
+
+参考文献
+
+System requirements analysis, Jeffrey ©. Grady. Academic Press, 2006. ISBN 012088514X.
+9780120865145
+
+B.2.4.4 实体-关系-属性的数据模型
+
+目的:关注系统中的各实体以及它们之间的关系,带助用户编写一份好的规范。
+
+描述 :把要求的系统描述成一些对象和它们之间的关系的一个集合。工有具合我们能确定系统能解
+释哪些关系。通和,这些关系允许朱述对混 .数据流的层次入构. 数据之间的关系,以及哪些理据是取诀
+于特定生产过程的。为了用于过程控制,已对传统的程序进行了扩充。榨查能力和对用户的文持与所
+涪明的各种关系有关。另一方面,大量可能的表达式使本技术的应用变得很复杂 。
+
+Soltware Requirements; Practical Techniques for Gathering and Managing Requirements Throughout the
+
+Product Development Cycle. Karl Eugene Wiegers. Microsoft Press.2005 .ISBN 0735618798 .9780735618794
+B.2.4.5 诱因和回答
+
+目的:通过识别激励一啊应关系,帮助用户编写一份好的规攻 。
+
+描述 :系统的各对象之间的关系用"诱因”和”回答”的一种表示法来说明。使用了一种简单和容易
+的护充语言,这种霹言包洛有代表对象 .关系 RE MSR PTB
+B.2.5 检查表
+
+注: 在GB/T 20438.2一2017 的表 Bl. # B.2.#% B.6 Al GB/T 20438.3一2017 的表 A.10、表 B.S. #C.1o MF C.AS
+中引用本撤术”撞施，
+
+--- Page 32 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:对安全生命周期阶段系统的所有重要方面,引起足够的注意和管理关键性评佑,以保证没有
+
+撒述 :由执行检查表的人来回答一系列问题.。 许多问题具有普届性 ,评佑员对这些问题应视为最适
+合于正在评估的特定系统那样来解释它们。检查表可用于整体安全生全周期.E/E/'PE 系统和软件安
+全生命周期的各阶段并特别适合作为帮助功能安全评估的一种工具。
+
+为了适应正在硝认的类型到多的系统,大多数榨查表包全的问题迁用于许多类型的系统。纺采 ,在
+使用的检查表中的问题可能和正在讨论的系统无天,这时了驶应不管这些问题。 相应的,对于一个特定的
+系统再要对一个标准的检查表进行补死,其中包全的问题是专门针对正在讨论的系统。
+
+在任何一种情况下 ,使用检查表的关键取决于工程师选择和应用检查表的专门知识和判断能力。
+工程师选择检查表采取的决定和任何附加的或者多余的问题都应全部编人文档并证明是合理的.目的
+是要保证能评审检查表的应用并且保证使用相同的判据都应能达到同样的结
+
+在完成一份检查表时.对象要尽可能简洁。当需要扩充证明时,应通过引用附加文档来进行这种扩
+充。编写每个问题的结果,应使用合格 .不合格和不确定或者一些类似的受限的应答集人台。 这种简洁大
+大向化了获得有关检查表评估结果的全部结论的程序。
+
+IEC 60880;2006, Nuclear power plants—Instrumentation and control systems important to sale-
+ty——Soltware aspects for computer-based systems perlorming category A [functions
+
+The Art of Software Testing, Second Edition.G.Myers et al., Wiley & Sons, New York, 2004,
+ISBN 0471469122 .978047 1469124
+
+Software Quality Assurance; From Theory to Implementation, Daniel Galin, Pearson Education,
+ZO004.ISBN 0201709457 9780201709452
+
+GB/'了5094(所有部分) 工业系统 eT Se ee A Tb i PY EU Sj 2 BR QS
+
+(suidelines for Safe Automation of Chemical Processes.CCPS. AICHE.New York.1993.ISBN-10:
+0-8169-0554-1,ISBN-13 :978-0-8169-0554-6
+
+Risk Assessment and Risk Management for the Chemical Process Industry. H.R.Greenberg,. J.J.
+Cramer-John Wiley and Sons.1991.ISBN 0471288829 .9780471288824
+
+B.2.6 规范的检查
+
+注: 在GB/'T20438.2一2017 的表 B.1 和表 B.6 中引用了本技术 措施.
+
+目的:为了避免规范中的不完备性和也盾.
+
+描述 :榨杏是一种普通的技术,在这种拉术中,由一个独立的小组来评鸽一份规范文档的各种质量
+检查小组癌拟制者提问题,拟制者必须圆满地回答提问人人人。检查小组的成员不包括规范的拟制人员。
+要求的独立程度由系统要求的安全完整性等级确定。独立的检查人员应能在不用涉及任何其他规范的
+情况下 ,以一种无可非议的形式,重建系统的运行功能。 他们还必须检验在操作和组织措施中包括的所
+有相关的安全和技术问题.这个程序已税证明在实际应用中十很有效的。
+
+IEC 611603:2005 Design review
+
+The Art of Software Testing. Second Edition.G. Myers et al., Wiley & Sons. New York, 2004,
+ISBN 0471469122 .9780471469124
+
+Software Quality Assurance: From Theory to Implementation. D,Galin, Pearson Education, 2004,
+ISBN 0201709457 .9780201709452
+
+--- Page 33 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+B.3 E/E/PE 系统的设计和开发
+
+整体目标:为了产生一个符合规邯的安全相关系统的稳定的设计，
+B.3.1 遵循指南和标准
+
+注: 在GB/T 20438.2一2017 的表 B.2 中引用了本技术 措施，
+目的:为了齐循应用领域标准(GB/T 20438 中未规定) 。
+fii ds :在设计安全相关系统的过程中应脖衢一些指南。这些指两首先可指导实现无失效的安全相
+天系统,其次可简化其后的安全确认. 它们可以是通用的、革个项目专用的或者只专用于基单个阶段。
+Guidelines for Safe Automation of Chemical Processes.CCPS ,AIChE, New York, 1993,ISBN-10
+0-8169-0554-1.1TSBN-13 :978-0-8169-0554-6
+
+B.3.2 结构化设计
+
+注: 7E GB/T 20438.2一2017 的表 B.2 和表 B.6 中引用了本技术”措施。
+目的:通过建立部分要求的层次结构来减少复杂性,避免各要求之间的接口失效。向化验证。
+描述 :当设计硬件时,应使用专门的判据或者方法。例如需要 :
+一种分层的结构化电路设计:
+使用已生产的和经测试的电路部件，
+半似地 ,当设计软件时,使用和荣构图未使之能够建立软件模块的一种无上义的扩构。这种拧构可显
+示横块的相互关系 .模块之间传递的精确数据,和横块之间存在的精确控制。
+
+GB/T 5094 工业系统.装置与设备以及工业产品“娠构原则与参照代号
+
+Soltware Engineering for Real-time Systems, J. E, Cooling, Pearson Education. 2003. ISBN
+0201596202 .9780201596205
+
+Software Design.D.Budgen. Pearson Education.2003.ISBN 0201722194.9780201722192
+
+An Overview of JSD.J.R.Cameron, IEEE Trans SE-12 No.2,February 1986
+
+Structured Development for Real-Time Systems (5 Volumes). P. T. Yourdon. P. T. Yourdon
+Press. 1985
+
+Structured Development for Real-Time Systems(3 Volumes). P. T, Ward. S.J. Mellor. Yourdon
+Press. 1985
+
+Applications and Extensions of SADT.D.T.Ross,Computer.25-34, April 1985
+
+Essential Systems Analysis.St.M.McMenamin.F.Palmer. Yourdon Inc.1984
+
+Structured Analysis(SA):A language for communicating ideas.D.T. Ross. IEEE Trans. Software
+Eng. Vol,SE-3(1),16-34
+
+B.3.3 使用经试用并证明效果恨好的元件
+
+注: 在GB/T 20438.2一2017 的表 B.2 和表 B.6 中引用了本技术/措施。
+
+目的:通过使用具有专门特性的元件减小大量首次和未检测到的故基的风险
+
+HWS :在安全性方面根据组件的可靠性,制造商选择经试用并证明效果良好的元件(例如使用经运
+行测试过的物理单元来满足高安企要求,或者仅在安全存储胡中存储安全的程厅)。存储尼的安全性与
+来授权的访问和环境影响(电磁兼容性、辆射等)以及在发生一次失效的事件中组件的啊应有关。
+
+[5
+|
+
+--- Page 34 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+小
+
+IEC 61163-1; 2006. Reliability stress screening—Part 1; Repairable assemblies manufactured
+
+in lots
+
+B.3.4 模块化
+
+it; 在GB/'T20438.2一2017 的表 B.2 和表 B.6 中引用了本技术措施，
+
+摘述 :在设计的各层次上的每个子系统部被清楚地定义,并且限制它们的大小(仅几个功能)。子系
+统之加的接口尽可能保持傈单,并把交叉部分(即共至数据 .信息交换)减到最小。也限制了和失个于系统
+的复杂性。
+
+The Art of Software Testing. Second Edition.G. Myers et al.. Wiley CSons, New York, 2004.
+ISBN 0471469122 .9780471469124
+
+Software Engineering for Real-time Systems, J. E. Cooling. Pearson Education, 2005. ISBN
+0201596202 .9780201596205
+
+Software Reliability—Principles and Practices, G. J, Myers. Wiley-Interscience, New York. 1976,
+ISBN-10;0471627658 .ISBN-15:978-0471627654
+
+B.3.5 计算机辅助设计工具
+
+注; 在GB'T了20438.2一2017 的表 B.2 AGE B.6 & GB/T 20438.3一2017 的表 Awd FI Cid S| AD ARSE Ae
+
+目的:为了更系统化地执行设计规程。包括已经可用的和经测试过的合适的目动结构组件。
+
+摘述 :在硬件和软件设计过程中,应当使用可行的.并经复杂系统证明合理的计算机辅助设计工具
+(CAD) 。这些工具的正确性应如此展示 :通过专门测试.有大量成功应用历史,或者通过其输出的独立
+验证,这些输出来自正设计的特殊安全相关系统.
+
+工具的选择应考虑它们的集成度。，即,如果工具能协同工作,其中一个工具的输出以恰当的内容和
+格式日动地输入到随后的工具,则他们是集成的,这样台降低了中间统果二次寻人时人为销误的可
+
+Overview of Technology Computer-Aided Design Tools and Applications in Technology Develop-
+ment.Manulacturing and Design. W.Fichtner. Journal of Computational and Theoretical Nanoscience,
+Volume 5, Number 6.June 2008.pp.1089-1105(17)
+
+The Electromagnetic Data Exchange: Much more than a Common Data Format.P.E.Frandsen et
+al.In Proceeding of the 2nd European Conference on Antennas and Propagation. The Institution of En-
+gineering and Technology(IET) ,2007.ISBN 978-0-86341-842-6
+
+Software engineering: Update.Ian Sommerville. Addison-Wesley Longman. Amsterdam; 8th ed..
+Z006.1ISBN 0521313798,.97803213135799
+
+Software Engineering, lan Sommerville. Pearson Studium,. 8, Auflage, 2007, ISBN 3827372577,
+9783827372574
+
+B.3.6 模拟
+
+注, 42 GB/T 20438,2—2017 B94 B.2 .表 B.S 和表 B.6 中引用了本技术”措施，
+目的:为了对电气/电子电路元件的功能性能和正硝上度量两方面进行一次系统.全面的检查 .
+描述 :借助一个软件行为模型 ,在一人台计算机上仿真安全相关系统电路的功能。，电路的各个邢件每
+
+A)
+
+--- Page 35 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+个都有它们上自己的模拟行为,并且通过观察每个元件的边缘数据来检验这些元件连成的电路的啊应。
+B.3.7 ”检查(复审和分析)
+
+注: 在GB/T 20438.2一2017 的表 B.2 MZ B.6 中引用了本技术措施.
+
+目的:为了揭示规范和实现之间的不一致。
+
+描述 :检验和评价安全相关系统的规定功能以保证安全相关系统符合规范中给出的要求。有关实
+现的和产品合用的任何疑点都编人文档,因此这些疑点可得到解雇.在检查过程中,同走查相比,作者
+是被动的,而检查员是主动的.。
+
+IEC 61160;2005.Design Review
+
+Software engineering: Update. lan Sommerville. Addison-Wesley Longman, Amsterdam; 8th ed.,
+2006-.ISBN 0321313796 .9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium. 8 Auflage. 2007. ISBN 3827372577.
+9783827372574
+
+The Art of Software Testing, Second Edition.G. Myers et al.. Wiley & Sons. New York. 2004.
+ISBN 0471469122.9780471469124
+
+ANSI/TEE 1028:1997,ITEEE Standard for software reviews
+
+Dependability of Critical Computer Systems 3.P.G.Bishop et al..Elsevier Applied Science. 1990.
+ISBN 1-85166-544-7
+
+B.3.8 £2
+
+注: 7E GB/T 20438.2—2017 的表 B.2 和表 B.6 中引用了本技术/措施.
+
+日的:为了揭示规范和实现之加的不一但 .
+
+FAS :检验和评价安全相关系统该计的规定功能以怀证安全相关系统人符合规苑中给出的要求。有
+关产品实现和使用的疑点和次在的弱点都编人文档以便能得以解决。和检查相反 ,在走查过程中,作者
+
+Soltware engineering; Update, lan Sommerville. Addison-Wesley Longman. Amsterdam; Sth ed.，
+2006.ISBN 0321313798 .9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium,. 8 Auflage. 2007.ISBN 3827372577.
+9783827372574
+
+ANSL IEEE 1028;1997,]TEEE Standard for software reviews
+
+Dependability of Critical Computer Systems 3.P.G. Bishop et al..Elsevier Apphed Science, 1990,
+ISBN 1-85166-544-7
+
+Methodisches Testen von Programmen.G.].Myers.Oldenbourg Verlag. Miinchen. Wien. 1987
+B.4 E/E/PE 系统操作和维护规程
+
+整体目标 :拟制有助于避锡安全相关系统在操作和维护过程中兴殖的规程。
+B.4.1 操作和维护说明书
+
+注: 72 GB/T 20438.2一2017 WW Bd 中引用了本技术”措庆
+目的:为了避免安全相关系统在操作和维护过程中出儿。
+
+[sc
+=]
+
+--- Page 36 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+AVE :用户说明书包人洛了使用和维护安全相关系统的最基本的信息。在特殊情旋下,这些说明通间
+还包括安半安全相关系统的例子。所有说明必须要容易广情。复杂的操作步骤和相互关系可用图表
+
+Guidelines for Safe Automation of Chemical Processes.CCPS. AIChE. New York.1993.ISBN-10;
+0-8169-0554-1.ISBN-13 :978-0-8169-0554-6
+
+B.4.2 ARAB
+
+注: 72 GB/T 20438.2— 2017 Ay # B.4 中引用了本技术措施.
+目的:为了减小在操作安全相关系统过程中的复节性。
+fii AS :安全相关系统的正硝操作寺人的操作水平有关。通过考感有天的系统设计和工作场地的设
+必要的干预应义可能向单;
+一一把因操作员智误产生的洪在伤害降到最小:
+一一根据人机工程学的要求来设计干预设备和指示装置 ;
+一一操作员的设施应侧单 .标注清晰.使用理观;
+一一干预操作规程和讼备的培训应适合受训用户的知识水平和技能.
+
+B.4.3 维护友善性
+
+注: GB/T 20438.2一2017 的表 B.4 中引用了本技术/措施.
+
+目的:为了商化安全相关系统的维护规程并荆计有效诊断和修理的必要方法。
+
+摘述 :预防性维护和修理通常都是在最后限期内在困难的环境条件和压力下进行. 因此.安全相关
+系统的开发人员应保证，
+对于不可避免的修理应具有足够的.切合实际并易于和营握的诊断工具     这些工有具应包括所
+有必要的接口;
+一一如果必须开发或彰购买单独的诊断工具,则应及时得到这些工具。
+
+B.4.4 限制操作可能性
+
+注; 在GB/'T 20438.2一2017 的表 B.4 MI B.6 中引用了本技术措施，
+
+目的:为了减少笛规用户的操作可能性。
+
+描述 :本方法通过以下几点减少了操作可能性:
+
+一一限制特殊运行模式中的操作 ,例如通过按键开关;
+
+限制操作组件的数量;
+
+一一限制通篆可能的运行模式数量。
+
+(guidelines for Safe Automation of Chemical Processes. CCPS AIChE New York ,1993 ,TISBIN-10 :
+0-8169-0554-1,ISBN-13;978-0-8169-0554-6
+
+B.4.5 只能由熟练的操作员操作
+
++. 在GEB/'T20438.2一2017 的表 Bd 和表 了6 中引用了本技术/措施
+28
+
+--- Page 37 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:为了避免因使用稍旋引起的操作失歼
+
+摘述:要把安全相关系统的操作员培训到能适应安全相关系统的复杂性和安全完整性等级的程度。
+培训包括党习生产过程的基础知识和了解安全相关系统和受控设备之间的关系。
+
+Guidelines for Safe Automation of Chemical Processes.CCPS. AIChE ,New York.1993.ISBN-10;
+0-8169-0554-1.ISBN-13 :978-0-8169-0554-6
+
+B.4.6 防止操作员出错
+
+注: 在GB/'T 20438.2一2017 的表 B.4 和表 B.6 中引用了本技术/措施。
+摘述 :通过真实性检杏或者监视受探设备,可检测输入箱误(全.时间等)。为了把这些设备汇集到
+设计中,在相当早的一个阶段就有必要说明哪些输入是可能的和哪些输入是允许的。
+
+B.4.7 (FF)
+
+B.4.8 修改保护
+
+注: 7E GB/T 20438.2一2017 的表 ALT 和表 A.18 中引用了本技术/措施。
+
+目的:利用一些技术手段来防止修改安全相关系统的使件。
+
+描述 :例如利用传感器信和号的真实性检查 .技术过程检测以及自动起动测试,自动地检测修改或变
+换。当检测到一个修改时 ,就采取应急动作。
+
+B.4.9 输入确认
+
+注: 46 GB/T 20438.2一2017 的表 ALT MR A.18 中引用了本技术/措施。
+
+目的:在受控设备动作之前 ,操作员可月己检查操作过程中的错误。
+
+描述 :在一个输入被传送给受探设备之前,经安全相关系统传送给受控设备的一个输入将反馈回给
+操作员 ,使得操作员有可能检测和校正一个错误。同时系统设计应考虑到异稼的.无缘无故的人员动作
+的速度上下限以及大的反应倾问。这样可以避免例如操作员按键比预计的快而引起系统把一次双击庶
+成一次单击,或者因为系统(显示)对快击反应太慢而把两次按键误读成一次。在输入关键数据时 ,连续
+地多次同样的击键并不有效，无限多次按"“Enter(回车)”键或者“yes(肯和定)"键也绝不会导致系统不安
+全的动作 。
+的暂俘程序。
+
+除非在设计软件及硬件时考虑到了这种需要 ,否则重新启动一个安全可编程电子系统的能力将使
+
+B.5 E/E/PE 系统集成
+
+整体目标:为了避免在集成阶段产生失效以及损示在本阶段和前面阶段产生的失效。
+B.5.1 功能测试
+注: 在GB/'T 20438.2一2017 的表 B.S 和表 B.S 中以及 GB/T 20438.3一2017 的表 A.5.表A.6.表A.7.表0C.5.表CC.6
+Ae C7 中引用了本技术”措施 .
+目的:揭示在规范和设计阶段产生的和失效。避免在软件和便件的实现和集成期间产千失将 。
+描述 :在功能测试过程中,应审查和观察是否已达到规定的系统特性。 提供给系统的输入数据足以
+
+29
+
+--- Page 38 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+说明一般预期的工作特性.观察输出并把它们的啊应同和规范给出的啊应作对比. 与规范的不符合性和
+表现出的规范的不完整性午被写进文档，
+
+为多通道涵构设计的电子元件的功能测试通篆把制造的元件与已确认的伙伴元件一起进行检测 ，
+除此之外,建议结人台同一批的其他伙伴元件一起测试成品元件,以便揭示共同模式故障,而用其他办法
+则该类故障会被掩着而不能揭示出来 。
+
+另外,系统的工作能力必须是够,参看 C.5.20 中的指导。
+
+参考文献，
+
+Software Testing and Quality Assurance. K. Naik. P. Tripathy. Wiley Interscience, 2008. Print
+ISBN :9780471789116 Online ISBN -9780470382844
+
+The Art of Software Testing. Second Edition.G. Myers et al.. Wiley & Sons. New York. 2004.
+ISBN 0471469122,.9780471469124
+
+Practical Software Testing; A Process-oriented Approach. I. Burnstein. Springer. 2003. ISBN
+O038795131&5,9780387951317
+
+Dependability of Critical Computer Systems 3.P.G.Bishop et al.. Elsevier Applied Science. 1990.
+ISBN 1-85166-544-7
+
+B.5.2 黑盒测试
+
+注: 在GB/T 20438.2一2017 的表 B.S B.S 和表 B.6 中和 GB/T 20438.3一2017 的表 AS AG. de AAA.7、表CC.5、
+de C.6 MZ C.7 中祁引用了本技术 Ge A
+目的:为了检验实际功能条件下的动态行为。 为了揭示失效从而满足功能规范和评估实用性和得
+描述 :在一个规定的环境中,利用规定的测试数据(这些数据是根据制定的判据从规范中系统导出
+的)执行一个系统或者程序的功能. 这将揭露出系统的行为并允许同规范进行比较。 不需使用系统内
+部第构的知识来指寻测试.测试的目的是要确定功能单元是否能正确执行规范要求的所有功能。形成
+等价类的技术是黑盒测试数据判定的一个例子。舍助规范可把输入数据空间细分成专用的输入值范转
+(等价医)。于是由下列导总构成各种测试用例:
+一一来目多许范围的数据:
+HE A AS SVE Fl AY 20 i
+—— SE FY fe Fal 8 SB BH
+极值;
+以上各类的组合。
+为了选择各种测试活动(模块测试.集成测试和系统测试?中的测试用例,其他判据也可能是有效
+的。例如,在一个确认的框避内系统测试的判据*极值工作条件?是可信的。
+Software Testing and Quality Assurance. K. Naik. P. Tripathy. Wiley Interscience. 2008. Print
+ISBN : 9780471789116 Online ISBN: 9780470382844
+Essentials of Software Engineering. Frank F.Tsui. Orlando Karam.Jones & Bartlett. 2006, ISBN
+O76373537X.9780763735371
+The Art of Software Testing. Second Edition.G. Myers et al.. Wiley & Sons. New York. 2004.
+ISBN 0471469122,9780471469124
+Systematic Software Testing. Rick D. Craig. Stefan P. Jaskiel. Artech House. 2002. ISBN
+1580535089 .9781580535085
+
+30
+
+--- Page 39 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+B.5.3 统计测试
+it: 42 GB/T 20438.2—2017 NN B.3 48 B.S Flee B.6 中引和上了了本扩术” 指施，
+目的:为了检查安全相关系统的动态行为和评佑它的实用性和和鲁棒性。
+描述 :本方法使用根据实际操作输入预期的统计分布一操作分布图选择的输入数据来测试一个系
+
+统或程序.
+参考文献，
+
+A discussion of statistical testing on a safety-related application.S Kuball. JJ H R May. Proc.
+IMechE Vol.221 Part O:J.Risk and Rehability.Institution of Mechanical Engineers.2007
+
+Practical Reliability Engineering.P.O’Connor.D.Newton.R.Bromley.John Wiley and Sons.2002.
+ISBN 0470844639 .9780470844632
+
+Dependability of Critical Computer Systems 3.P.G.Bishop et al..Elsevier Applied Science. 1990.
+ISBN 1-85166-544-7
+
+Dependability of Critical Computer Systems 1.F.J.Redmill. Elsevier Applied Science. 1988.ISBN
+1-85166-203-0
+
+B.5.4 现场经验
+
+注1: fe GB/T 20438.2一2017 的表 B.3.表 BS 和表 B.6 中引用了本技术/措施.
+注 2: 一种甘似的办法五见 .2.10,一种统计方法五见附录了,二音各在软件的范围中 。
+目的:无论在E/'E/APE 系统集成过程中和/或E/E/7PE 系统安全性确认过程中,各种应用得到的现
+场经验可用作如免帮隐的一种办法
+描述 :经验表明不会出现或仅可能出现不重要故障的元件或子系统,在许多不同应用中和足够长时
+期内使用时都不会有实质性改变.特别是对具有许多可能功能的复杂元件(例如操作系统.集成电路)
+而言,开发者应注意哪些功能已经历过现场测试。例如考虑故际检测的目测试例程:如在操作周期内，
+没有发生过硬件故障,就不能说例程已被测试过,因为它们还从未经受过故隐检测 .
+为了使用现场经验 ,必须满足以下要求 :
+—— BLE AS 2S
+一一在各种应用中要有 10 RS
+一一运行时间要有 10° h 和至少1 年的服役期。
+注3: AS {Hl fy lk by HE AY EAB ae As In IY BC
+通过卖方和(或)操作公司的文件证明现场经验,该文件必须至少要包括:
+系统和和它的元件的准硝名称:包括人硬件的版本控制;
+用户和应用时间;
+iz Ty AY By ;
+DE FE A 56 WCE BA BY 28 Se A hye A A
+一一故障检测 .故障登记以及放障排除规程。
+IEC 60300-3-2;2004, Dependability management—Part 3-2; Application guide—Collection of de-
+pendability data from the field
+Guidelines for Safe Automation of Chemical Processes,CCPS. AICHE. New York,1993,ISBN-10.
+0-8169-0554-1.ISBN-15 ;978-0-8169-0554-6
+
+3]
+
+--- Page 40 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+B.6 E/E/PE 系统安全性确认
+
+整体目标:为了证明 E/E/PE 安全相关系统符合E/E7PE 系统安全要求规范和下/EPE 系统设计
+要求规范 .
+
+B.6.1 在环境条件下汕试功能
+
+HE: 在GB/T 20438.2一2017 的表 B.5 中引用了本技术措施，
+
+目的:为了评伯安全相关系统是否能出党熏型的环境影啊。
+
+描述 :把系统置于各种环境条件下(例如根据 IEC 60068 系列或 IEC 61000 系列标准) ,评价安全功
+能的可靠性(以及和上述标准的相容性) 。
+
+GB/T 2421.1一2008 电工电子产品环境试验 概述和指南。第 1 次修改(1992)
+
+IEC 61000-4-1:2006,Electromagnetic compatibility( EMC)—Part 4-1: Testing and measurement
+techniques— Overview of IEC 61000-4 series
+
+Dependability of Critical Computer Systems 3,P,.G, Bishop et al,. Elsevier Apphed Science. 1990,
+ISBN 1-85166-544-7
+
+B.6.2 Rime Min
+
+注: 46 GB/T 20438.2一2017 的表 B.S 和表 B.6 中引用了本技术措施.
+
+目的:为了检验安全相关系统应付峰值当请的能力。
+
+摘述 :系统闭人一个由型的应用程序,使所有外部线路(所有数字 .模拟和串行接口以及总线连接和
+电源等)都必须得到标准的噪声信和号。为了获得一个定量的说明,明智的作法是仔细地通近浪浦极限.
+如条功能失效,则不符合所选择噪声级别的要求。
+
+GB/T 17626.5—2008 FR ae 试验和测量技术 良清(冲击)抗抗度试验
+
+C37.90. 1—2002, IEEE Standard for Surge Withstand Capability(SWC) Tests for Relays and
+
+Relay Systems Associated with Electric Power Apparatus
+B.6.3 (AFD
+B.6.4 静态分析
+
+注, 在GB/T20438.2一2017 的表 B.5 和表 B.6 中及 GB/T 20438.3一2017 的表 A.9.表 B.8.表C.9 和表C.18 中引用
+目的:为了避免系统性故障,此故队可导致受试系统在工作多年后,迟早者会发生事故.
+描述 :这种系统性的和可能用计算机辅助的方法可检查厚型系统的特有静态特性从而可保证所讨
+论的和要求的完备性 一致性和无监尽性(例如构咎指丙.系统规范和羽和未数据表)。表态分析是可上册现
+的。它适用于已达到宛成一个很好是义阶段的原型机。对于硬件和软件的葬态分析的一些例于有
+一一数据流的一致性分析(比如测试一个数据对象是否在任何地方都被解释成同一值);
+一一探制流分析(比如路径确认 ,不可和存取代但确认);
+一一接口分析(比如调查各种软件模块之间变量传递);
+数据流分析以检测可疑的变量建立 .引用.删除顺序 ;
+一一脖守专用指南的测试(例如疏电号离和国际、妆配中离. 物理单死的布置.机械敏感物理单元、
+曾经引入的专用物理单元)。
+
+--- Page 41 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+We
+
+参考文献 ;
+
+Static Analysis and Software Assurance. D, Wagner. Lecture Notes in Computer Science. Volume
+2126/2001.Springer.2001,ISBN 978-3-540-42314-0
+
+An Industrial Perspective on Static Analysis.B A Wichmann.A A Canning.D L Clutterbuck.L A
+Winsborrow.N J Ward and D W R Marsh.Soltware Engineering Journal..69—75,.March 1995
+
+Dependability of Critical Computer Systems 3,P.G,Bishop et al..Elsevier Applied Science, 1990,
+ISBN 1-65166-544-7
+
+B.6.5 masa ara Min
+
+it; 在GB/T 20438.2—2017 表 B.5 和表 B.6 中以及 GB/T 20438.3一2017 IN ALS LR AOR B28 C5 C9 和
+表 C.12 中引用了本技术 措施，
+
+目的:通过检查样机在即将完成阶段的动态特性来检测规范失效。
+
+描述 :通过把计划的工作环境下的一些骨型的输入数据加给安全相关系统的一个接近运行的样机
+进行安全相关系统的动态分析。当观察到的安全相关系统的行为同要求的行为一致时,分析是满意的。
+必须校正安全相关系统的任何失效,然后必须重新分析新的运行版本。
+
+The Concept of Dynamic Analysis. T. Ball. ESEC/FSE °99.Lecture Notes in Computer Science.
+Springer. 1999,ISBN 978-3-540-66538-0
+
+Dependability of Critical Computer Systems 3,P.G,Bishop et al..Elsevier Applied Science, 1990,
+ISBN 1-85166-544-7
+
+B.6.6 和失效分析
++. 在GB/'T 20438.2一2017 的表 B.S A B.6 中引用了本技术/措施。
+B.6.6.1 失效模式和影响分析(FMEA)
+
+目的:通过系统性的检查一个系统的元件的所有可能失效源以及确定这些失效对系统的行为和安
+全性的影响来分析一个系统的设计，
+
+FH GAS :通向是通过一次工程师会议来进行分析。依次分析一个系统的每个部件从而给出部件的一
+组失效模式 ,失效的起因和影响(局部和整体系统级) .检测程序和建议。如果建议被接受,它们将作为
+采取的补救行动编和文档。
+
+GB/T 7826—2012 ABCA SREP TEAR FC A 2 On] Op if CP MEA ) Fe Fe
+
+Risk Assessment and Risk Management for the Chemical Process Industry. H.R.Greenberg. J.J.
+Cramer.John Wiley and Sons.1991.ISBN 0471288829 .9780471288824
+
+Reliability Technology. A.E.Green. A.J. Bourne. Wiley-Interscience-1972.ISBN 0471324809
+
+B.6.6.2 因果图
+
+it, #2 GB/T 20438.3一2017 的表 B.3 .表 B.4 .表C.13 和表 C14 中引用了本技术措施。
+目的:为了以一种紧凌的图表形式分析和建立一个系统中可能形成的事件序列的模型 ,此事件序列
+是基本事件组合的顷果。
+BALE :太技术可有成是故际何和事件钢的一种组全分久。 从一个致傅吉件开始,一幅因末图通过摘
+述运行成功或失败的是"和否门被癌前跟踪。这样就创建了事件或受控情形的事件结果。绪果图(如事件
+树)也融为每一次失获所创建。把致命事件作为顶端事件,从致命时间开始和回后跟踪能画出整蛋的事
+
+3a
+
+--- Page 42 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+件树.在正回跟足中,确定了 |   图形包人洛项点符号,这些符号挤述了从顶操
+开始治各分立传播的条件 ,也能包括时间政     earn ethabi oe 8  Ay (8 FV BE tal i 1%
+播路线可与远辑符号组合。  wr bhi’ 8 fet VA GEAR Fe AD. A eT AD AE Ba.
+Fy A aoe EE | Ae AE EE Bi SRR TE LT a DR A EY
+
+IEC 62502. Analysis techniques for dependability—Event tree analysis( ETA)’
+
+The Cause Consequence Diagram Method as a Basis for Quantitative Accident Analysis.B.S. Niels-
+
+en-Danish Atomic Energy Commission: Riso-M-1374.1971
+
+B.6.6.3 事件树分析(ETA)
+
+注, 在GB/'T 20438.3一2017 的表 Bad 和表C.14 中引用了此技术,措施
+
+目的:为了用几表形式建立事件厅列的模型 ,这种事件厅 列是在   个起始事件之后,在一个系统中
+可能产生的;并因此也为了指示可能产生的严重后昌。事件树是难以从头建立且使用后果图是很有帮
+助的。
+
+描述 :在图项部记录了紧随起始事件之后的相继事件有关的订列菜件，在厅列中从起始事件下面
+开始(它们是分析的目标?到审 1 RAP. i oR. FERS HA Pl op it Yes Cab)” Al“ No CFP)” 两个分
+支,它们描述了以后的事件对条件的恢从情况，对这两个分文来说,每个者以湛似的方式继续到下一条
+件。 但不是所有的条件必和分文有关。一个分文继续到厅列的末靖,并且按这种方式构造的树的每个
+分文代表一个可能的后果，在序列中提供的双件是独立的,根据序列中的答件的概认和数目,可用事件
+树来计算各种后果的概率。作为对件很少是完全独立的,这种计算应由讨练的分机人员来进行并恒重
+考虑。
+
+IEC 62502,Analysis techniques for dependability—Event tree analysis(工和六
+
+Risk Assessment and Risk Management for the Chemical Process Industry. H.R.Creenberg J.J.
+Cramer.John Wiley and Sons.1991.ISBN 0471288829 .9780471288824
+
+B.6.6.4 失效模式,影响和和危害性分析CFMECA)
+
+注: 在GB/'T 20438.3一2017 的表 A.10.表 B.4.表(CC.10 和表C.14 中引用了本技术 措施,
+
+目的:为了确定在设计或者操作过程中需要特别关注哪些部件和和采取哪些必要的控制措施 ,需要评
+定部件的危害性等级 ,这种等级通过单点失效将毁坏 .损害系统或者使系统功能下隆。
+
+描述 CRP ATA FMEA 相当.但它有一个或多个列来说明其危害性,并有许多方法进行评定。最
+耗费人力的方法是美国汽车工程师协会(SAE)在 ARP926 中描述的方法。 在该规程中,由发生在一
+危害性模式中每百万次运行过程中预定的某种特殊类型的失效数来表示任一部件的危害性数值。估害
+性数值是9 个参数的一个盟数,它们中的大多数都是必须测量的。确定危害性的一种很简单的方法是
+部件失歼的概率乘以可能发生的损坏 ;这种方法类似于乔单的风险因数评估法。
+
+GB/T7826一2012 系统可某性分析反术”失效模式和影响分析(FMEA)程厅
+
+Software criticality analysis of COTS/SOUP.P. Bishop. T.Clement.S.Guerra.In Reliability Engi-
+neering & System Safety. Volume 81.Issue 3.September 2003,Elsevier Ltd. .2003
+
+Software FMEA techniques. P. L. Goddard. In Proc Annual 2000 Reliability and Maintainability
+symposium. IEEE.2000.,ISBN:0-7803-5848-]
+
+B.6.6.5 故障树分析(FTA)
+
+注: 在GB/'T 20438.3一2017 的表 Bal 和表C.14 中引用了本技术/措施
+34
+
+--- Page 43 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:帮助分析将会导致人危险的严重结果的事件或事件组合,并计算顶端事件的发生概率。
+
+摘述 :从一个可能直接引起估险或者严重后条的事件心顶峭事件”> 开始分析下去 ,找到导致该事件
+的原因,这需要通过使用逻辑运算(与,或等)的几个步骤来完成。并按同样的方法分析中间原因,直到
+基本事件 ,分析停止。
+
+本方法是图形法并使用了一组标准化的符号来制事件树。 在分析的最后,故隐树表示出了从基
+本事件(一般部件失获)到项痛事件(整个系统的失效)的功能连接关系。本拉术原来主要用来分析便件
+系统,但也可适用于软件失敬分机。这种扩术可以用于定性故区分析(识别失败的情朱:基本项或最小
+割集) ,半定量(根据其概率进行场景的排序)和定量计算项端事件的概率(见 C.6)。
+
+IEC 61025;2006,Fault tree analysis( PTA)
+
+From safety analysis to software requirements. K.M. Hansen. A.P. Ravn. A.P. V Stavridou. IEEE
+Trans Software Engineering, Volume 24.Issue 7,Jul 1998
+
+B.6.6.6 Oe ATX (Markov)
+
+注; Ze op Br he (Eee ee EE AY OY «Ye PE He A] 2  HeOGB/T 20438.6—2017 的 B.1 使用这项技术，
+
+目标:通过状态转换图对系统行为进行建模并且对概率方面的系统参数(如不可和菲度.不可用上度、
+MTTF.MUT.MDT 等)进行评佑.
+
+描述:在有回图中它是一个有限态目动机(参见 B.2.3.2)。节点(圆圈)代表状态 ,在节点间的边(箭
+头)表示发后在不同状态之间的转换(如失效 .维修等)。这些边午锌附上不同的权值来表示对应的失效
+诸和维修挛。齐次马尔可夫过程的基本属性是表明系统的接下来的状态只和现在的状态有关:即由状
+aS N 到状态NTl的亚化和前一个状态 N 一1 无关。这表明所有模型的概率规则都是指数类型的。
+
+所有的失效事件 ,失殖状态 .失效率都可以用这种方法来撒述,从而能够获得对系统的精确摘述 ,例
+如检测或没检测到的失效事件或首是一种虽严重的失获等。检验测试癌隅也可以用多相马尔可去过程
+来建模,即某相末端状态(例如在检测测试之前)的概率可以用来作为计算下一相的初始条件(例如在检
+验测试执行之后各种状态的概府) 。
+
+马尔可夫技术对于那些由于组件失将或维护而使元余等级随时间变化的多系统来说是一种很好的
+建模工具。其他如故障树分析(FTA) .失效模式与影响分析(FMEA)等经则方法由于没有计算对应可
+能性的组合会式,所以不能用于对在系统整个运行周期产生的失败影啊进行合适的建模.。
+
+在最简单的情况下 ,摘述系统概率的公式可以在手册中查到或者手工推导而得到,并且一些向化方
+法(如减少状态的数量)也可以被应用到更加复杂的情况中 。
+
+然而,从数学角度上说,齐次马尔可去图仅仅是对和毅系数线性微分方程的简化和笛规设定。这种方
+法已经被研究了相当长的时间并且有强大的理论基础来操作它们。因此,当模型的规模增长时使用上
+述方法是十分有效的,并且它们可以在各种各样的软件包中方便地使用。
+
+我们知道图表的大小会随痢尼件数量以指数增长 :这就是所谓的组合焊炸。如果要实现精确的应
+用 ,这种方法仅仅适用于小系统。
+
+当不得不使用非指数规则时(羊马尔可去模型) ,就可以使用可特卡洛模拟(和参见 B.6.6.8) 。
+
+IEC 61165;2006. Application of Markov techniques
+
+The Theory of Stochastic Processes. R. E.Cox and H.D. Miller. Methuen and Co. Ltd.. London.
+UKR.1963
+
+Finite MARKOV Chains.J.G. Kemeny and J,L.Snell.D, Van Nostrand Company Inc, Princeton.
+1959
+
+The Theory and Practice of Reliable System Design, D, P. Siewiorek and R.S, Swarz. Digital
+
+ao
+
+--- Page 44 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Press ,198z2
+Securisation des architectures informatiques. Jean-Louis Boulanger. Hermés-Lavoisier, 2009,
+
+ISBN :978-2-7462-1991-5
+B.6.6.7 FA) ae Tete A (RBD)
+
+it 1: fF GB/T 20438.6—2017 Wb se BP S| AAS Ae AR Ta
+
+注 2: S63 C.6.4 PA" SEE”.
+
+BAY sy LA PAI Fes ROT — A 9 ee AE SE A FR BE Be TE WM Des TY AR PET ER,
+ke — Bop BE. AS UE te — BP te os HEE
+
+Fa : oP OT EY A ty — Mee HEE A ER PR Re EP AT S.A FA 22) — Sig FP
+FF a aS ERAS BGA Ze 5 bs, FR eas — BR RE A a ae AE OB
+导通。 WSR 8 eB) A RG A A ee ee | AE A tn.
+Wit 1h Be FE Se SPA, NR Ze Pe TE Ga BD — RM 8 ,那么分析的目标正在正确地执行。
+
+可靠性框图是对已建模的系统的结构化表达。它是这样一种电路:当电流找到了一条从输出到输
+人的通路,束意味着已建模的系统工作正常;当电路被切断的时候就表示已建模的系统失败，这就产生
+了最小割保的理论 ,它表示了各种错误(例如可菲性框图和被“制断 ”的地方)导致了已建模系统的失败。
+
+数学上讲,可知性框图和故障树类似。它表示了把各个独立的无件(工作或失效)和整个系统状态
+(工作或和失效)连接在一起的迎辑功能，因此,它的计算就如同故阶树中的一样。
+
+参考文献 :
+
+IEC 61078; 2006. Analysis techniques for dependability—Reliability block diagram and boolean
+methods
+
+Sécurisation des architectures informatiques. Jean-Louis Boulanger. Hermés-Lavoisier. 2009.
+ISEN :978-2-7462-1991-5
+
+B.6.6.8 32348 (Monte-Carlo) 模拟
+
+注: fe GB/T 20438.3一2017 的附录 B.4 和 GB/T 20438.6— 2017 MBA BA SIAR YS ASE AR FH
+
+目的:当一般的分析方法不委效时通过产生随机数字来对真实世界现象进行模拟。
+
+描述 :蒙特卡党仿真通常用来解决下列两种问题，
+
+一一概率问题,即用随机数字来产生随机现象 ;
+
+一一确定性问题,它被数学性的转化为一个等价的概率问题(比如积分计算) 。
+移模型(蕊尔可夫图 .佩特里网 ,形式化语言等)提供的。枝特卡洛仿员法就是通过从已被观测的统计结
+AS PAE A Be AY 0 TORE AS OR SEL AD
+
+TF (hE FA 2 eR I BY NY fe 22 Ee EE RS AE SY SI, ae 1 J] SESE
+SUL. TSA 1 DX Tia] AY A 4A Fy A OSB, AY oT A . BERR i 7 BIS AY LA a A FR
+IE, 7) ABE RS SB 4 EAS AN oe Ac AE DA I a a TTT fa HY .
+
+ee AR is BRAD 7 1 AY — A ee BPA i es TP) ell. PE A EE 8 ee 0) a 1 Te] eel TE a
+加精确的结论。
+
+在上文中所未:标准的桶特卡洛仿真法不仅可以用来计算安全完整性等级(SIL) ,还能够处理可靠
+性数据的不确定度，就如今的计算机来说,SIL 4级的计算很容易达到 .
+
+Monte Carlo Methods.J.M.Hammersley.D.C.Handscomb,Chapman & Hall,1979
+
+Sécurisation des architectures informatiques. Jean-Louis Boulanger. Hermés-Lavoisier, 2009,
+
+36
+
+--- Page 45 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+ISBN :978-2-7462-1991-5
+
+B.6.6.9 故障树模型
+
+注 1: 参照 GB/T 20438.6 在便件完束性分析中使用这种撤术，
+注 2: 故障树的方法在上面已经被撒述为安全性确认的方法(参见 B.6.6.5)。同时他们也在失效分析和概率计算中
+得到广记地应用，
+
+目的:为了通过系统性的、目上而下的图形化5(因-有果)方法建立连接基本事件(失效模式)和顶端事
+件(意外事件)的逻辑功能。
+
+描述 :它不仅仅是一种为了一步一步地帮助分析提高模型的方法,也是为了概率计算而使用的一种
+数学模型。表述如下:
+
+一一通过识别和分类失效情况(基本项或最小割集)来定性分析;
+
+根据事件发生的可能性来排序,完成半定量分析;
+
+一一通过计算项端事件的可能性来定量分析。
+
+像可徘性框图CRBD)一样,故谨树是连接各个匹件状态5(失将或工作)和整个系统状态(失效或工
+作)的逻辑(布尔型)功能. 因此,当元件为独立情况的时候,可以通过把基本概率性质应用于旭辑功能
+来完成概率计算。由于静态模型只能在趴实(即篆量)概率情况下工作,所以这种方法并不是非常容易.。
+依时间变化的概率应该小心处理， 例如 ,那些包含周期性检验测试元件的安全系统的 PFD... A HE KL
+接计算出,即使是对于那些工作在连续模型的安全系统的 PFH来说也是很困难的。因此,只有那些具
+笛民好数学基础的可徘性工程师才能用这种方法进行不可用度/PFD AAS Fy Se BE / PPA 的计算，
+
+对于简单的故隐树来说计算可以用手工完成,但是在近 50 年来又出现了许多求解复杂逻辑公式的
+方法。 现今我们一般使用二元决策图CEBDD)的方法来解决,它是一种被写人电脑内存的逻辑公式的精
+向代码,也是现阶段在工业系统中进行精确的概举计算的唯一方法，同时,这种方法也足够快速使我们
+HE 1S 2K APE Se FEB YR i EL AY AD All aE BE,
+
+IEC 61025;2006,Fault tree analysis( FTA)
+
+B.6.6.10 广义随机催特里网模型(CGSPN )
+
+注 1: 参照 GB/T 20438.6 在重件完整性分析中使用这种技术
+
+注 2: 佩特里网已经被作为半形式化方法提出5有史 B2.3.3)。它们也可以在硬件安全完整性中较好地使用。
+
+目的:为了图形化的建立接近真实模型系统的正稼功能和非正稼功能的模型 ,以便回桶等卡说仿真
+提供有效的支持。
+
+描述:如 B.2.3.3 中所示,这是一个异步有限状态目动机,除了当建梗一个安全系统的非正向安全功
+能时 ,执行半形式化确认没有好的属性追足,这是由于安全系统的非.半正规便型导致的。这些所谓的
+地点(图中画团表示)表示了淤在状态,所背的过渡(图中国正方形表示)表示了有可能发生的事件.此
+外 ,被标记的地点(见 B.2.3.3) .信息或判断可以用来使能这些过渡的,从过渡完成到过渡开始的时间可
+以是确定的或者随机的，这就是为什么这些侧特里网络被叫做“广义随机"的佩特里网络。
+
+企特里网妾组成了肌活的行为模型 ,因而被证明能很好地葡持家特卡少仿中4(见 B.6.6.8)。队了冢
+特卡洛仿真自身的精度总是已知的,所有其他方法(从属关系 .组合爆炸 .非指数法则等等)的限制就可
+以被殉服了。按蚂现今电脑发展水平来说解决 SIL 4 的方程问题也不是什么难事儿了，
+
+IEC 62551, Analysis techniques for dependability—Petri net modelling(CD1)5
+
+Securisation des architectures informatiques. Jean-Louis Boulanger, Hermeés-Lavoisier. 2009,
+ISBN :978-2-7462-1991-5
+
+ai
+
+--- Page 46 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+B.6.7 ”最坏情况分析
+
+注: 42 GB/T 20438.2一2017 的表 B.S MZ B.6 中引用了本技术措施.
+
+目的:为了避免由环境茶件和阐件会旗不相宜的组合引起的系统失效。
+
+描述 :根据一种理论检验和计算系统的工作能力和确定的部件尺寸。把环境条件改变到它们允许
+的最吉边绿值。检查系统最实质性的反啊并把这些啊应同规范进行比较。
+
+B.6.8 扩展的功能测试
+
+注: 在GB/T 20438.2一2017 的表 B.S 和表 B.6 中引用了本技术/措施
+
+目的:为了揭示规范、芒计和开故阶段的失获。检验安全相关系统在称有的,或兰非规是的输入事
+件中的行为。
+
+摘述 :扩展的功能测试将评审安全相关系统啊应输入条件的功能行为,这些输入条件预计是很少见
+的(例如主要失效)或者它们是超出安全相关系统规范之外的(例如操作错误)。对稀有条件的情况,观
+守到的安全相关系统的行为将同规范进行比较在未规定安全相关系统的啊应的情况下,应检查由观
+察到的啊应维持的设备安全性，
+
+Software Testing and Quality Assurance. K. Naik. P. Tripathy. Wiley Interscience. 2008. Print
+ISBN: 9780471789116 Online ISBN: 9780470382844
+
+The Art of Software Testing, Second Edition.G. Myers et al., Wiley & Sons, New York, 2004,
+ISBN 0471469122 .9780471469124
+
+Dependability of Critical Computer Systems 3.P.G.Bishop et al..Elsevier Applied Science. 1990.
+ISBN 1-85166-544-7
+
+B.6.9 最坏情况测试
+
+注: 在GB/T 20438.2一2017 的表 B.S MIR B.6 中引用了本技术/措施.
+
+目的:为了测试在最坏情况分析过程中规定的情况
+
+描述 :在最坏情况下测试系统工作能力和确定的部件尺寸。环境条件改变到它们的最融容限值,检
+得系统最重要的啊应并把它们同规范进行比园。
+
+B.6.10 故障插入测试
+
+注; 在GB/'T 20438.2一2017 的表 B.S 和表 B.6 中引用了本技术/措施.
+
+目的:为了在系统硬件中引信或者模拟故隐并把啊应编人文档。
+
+HAVE :这是评估可徘性的一种定性方法。 为了描述艳障位置和类型以及怎样引入它,最好使用详细
+的功能氛 .电路和接线图;例如:可切断各模块的电源;可开路或是路电源线. 总线.地址线;可开路或得
+路从部件或者它们的端口;可使继电大闭合或断开失效.或者在氏误的时间开合等。例如可按
+IEC 60812 的表工和表开中所示对产生的系统失效进行分类。原则上讲,只引信单入态故隐。然而,在
+内部诊断测试并未揭示出一个履区或着一个履区并未亚得一目了伏的情演下.世可能留在系统中并月
+要考夺到种二个故卫的影响。歼了草数轻急就可增加到几上个。
+
+应参考系统的多学科工作组和均方目前所作的工作。应计算或估算对有严重后果的故障两次失效
+之间的平均工作时间。如果算出的时间很得,则应进行修改。
+
+参考文献 :
+
+GB/T 7826—2012 系统可菲性分析技术 ”失效柄式和影响分析(FMEA)程厅
+
+GB/T 18272.5一2000 工业过程测量和控制”系统评佑中系统特性的评定 第5部分:系统可信
+性评估 .
+
+38
+
+--- Page 47 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+附 录 C
+(资料性附录)
+实现软件安全完整性的技术和措施的综述(参看 GB/T 20438.3)
+
+C.1 概述
+
+本附录中包售的技术的综述既不能被认为是完整的也不能认为是详尽的。
+
+C.2 要求和详细的设计
+
+注: 在B.2中可找到有关的技术和措施.
+C.2.1 结构化图解方法
+
+HE, #6 GB/T 20438.3一2017 的表 A.2 和表 A.4 中引用了本技术措施.
+C.2.1.1 概述
+
+目的:结构化方法的主要目的是通过把注意力集中到生命周期的初期阶段来提高软件开发的质量.
+本方法引在通过精硝的和下观的规程和符号(计算机辅助的)来达到该目的,从而可用一条逻辑顺订和
+一种结构化形式确定和记录要求并实现特征。
+描述 :存在许多结构化方法。 一些方法打算用于传统的数据处理和事务处理功能,而另一些方法更
+适于过程控制和实时应用(倾向于更严格的安全性)。UML(见 C.3.12)包含许多结构化符号的例子
+结构化方法实质上是"思维工具”,旨在系统地发党和划分一个问题或系统.它们的主要特征如下 :
+一一具有逻辑脐序的思维方式,即把一个大问题分解为可管理的一些阶段:
+一一总系统的分析和建立文档,包括环境及要求的系统。
+要求系统中的数据和功能的分解;
+一一检查表,即再要分析的项目的分类表
+{IY BE A SF PRE     简单 .直观 .实用:
+通季重点踢调开发一个预定系统的图解构型 ,并且计算机辅助软件工程46CASE)工具文持全
+Hb AY Js FF
+分析和记录问题和系统实体(例如过程和数据流)的文持符号往往是准确的,但是表达这些实体执
+行的处理功能的符号往往是非形式的。但某些方法确实部分地使用了(数尝上的)形式化符号(例如 ,规
+范的表达或有限状态机)。精确性的提高不仅缩小了铬误理解的范围,还提供了目动处理的范围，
+纺构化符扎的另一个好处是它们的百观性,它能使用户百观地检查一个规范或设计,而不需要用户
+吗大但未声明的知识。
+本附录较详细地朱述了一些扩构化方法.。
+参考文献 :
+Software Engineering for Real-time Systems. J. E. Cooling. Pearson Education. 2008. ISBN
+0201596202 .97802Z01596205
+Software Design.D.Budgen. Pearson Education.2003.ISBN 0201722194.9780201722192
+
+C.2.1.2 CORE一一受控的要求表达(Controlled Requirements Expression)
+
+目的:为了保证能确定和表示所有的要求。
+
+--- Page 48 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+THB :本方法起用来在买方/ 最终用户和分析员之间连接一座桥某. 人它在数学上并不严密但有助于
+交流一一CORE 是为要求表达而不是为规范而设计的。本方法是结构化的,其表达经过各个精细化阶
+Fe. CORE 法葡励对问题的各种看法.引人系统使用的环境知识以及各种类型用户的不同观点。
+CORE 包括识别背离"总设计”的导则和手段。可以校正或者明显地标识这些青离并把它们编入文档
+因而规范可能不完整 ,但可检测未辨别出的问题和高风险区域,它们是在其后的设计中必须要考虑
+
+Software Engineering for Real-time Systems. J. E. Cooling. Pearson Education. 2003, ISBN
+0201596202 .9780201596205
+
+Requirements Engineering, 上， Hull. K. Jackson. J. Dick. Springer, 2005, ISBN 1852338792,
+9781852338794
+
+C.2.1.3 JSD—7A Hw KF A (Jackson System Development)
+
+El PAS: $5 HABE oe — Fp BAS BY BRE AR 5 CRE a BP SST FR BE) A — BPP ATT HE
+
+fH : JSD 是一种分阶段的开发规程.在这个过程中开发者依据中实世界行为进行建模,系统功能
+则以这些行为为基础,确定所需的功能并把它们插人模型,同时把产生的规范变换成目标环境中可实现
+的规范。因此它包括规范和设计及开发的传统阶段,但也采用了与传统的目顶四下方法有些不同的
+
+此外,它特别肴重于发现员实世界中实体的初始阶段,该只实世界与正在建立的系统有关并关系到
+建造它们的模型以及它们可能发生什么情况.一且已完成"直实世界"的这种分析和建立起一个模型 .
+就能分析系统所需功能,从而确定怎样把它们归纳人这个真实性界模型中。 产生的系统模型随模型中
+所有过程的结构化摘述而扩充,并且整个模型被变换成将在目标软件和硬件环境中运行的一些程序.
+
+Systems Analysis and Design，D. Yeates. A. Waketield. Pearson Education. 2003. ISBN
+0273655361 .9780273655367
+
+An Overview ol JSD.J,.R.Cameron. IEEE Transactions on Soltware Engineering.SE-12,.No.2.Feb-
+ruary 1986
+
+C.2.1.4 St Yourdon( Real-time Yourdon)
+
+日的:实时系统的规范和设计。
+描述 :作为本技术基础的开发方案假定正在开发的一个系统有三阶段进化.第一阶段包含建立一
+个“基本模型”,此模型撒述了系统所需的行为。第二阶段包含建立一个描述结构和机制(即当实现时，
+有具体化要求的行为)的实现模型。第三阶段涉及实际实现系统的便件和软件.这三个阶段大体相当于
+传统的规范和设计及开发阶段,不过更为着重于每一阶段开发者从事于建立一个模型的活动。
+基本模型有两部分:
+环境模型 ,方案包人澡摘述系统和它的环境之间的边轩以及岳述系统必须作出啊应的外部事件;
+行为模型 ,方案包会撒述系统啊应事件进行的亚换以及措述系统为了啊应必须保持的娄据。
+实现模型还分成一些子模型 ,它们包含分配给处理机的各个过程以及这些过程分解成的软件模块 。
+为了获得这些杭型 .本拉术疆合了许多其他欢所周知的技术:狐据流图.变换图形 .纺构化只瑚、状
+态转换网和佩特里(Petri) 网，另外,本方法包含根据已画出的模型,在纸上或者用机和需模拟一个建议
+的系统设计的技术。
+Real-time Systems Development. R. Williams. Butterworth-Heinemann. 2006.ISBN 0750664711.
+97807506647 14
+40
+
+--- Page 49 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Structured Development for Real-Time Systems(3 Volumes).P.T.Ward and S.J.Mellor. Yourdon
+Press,1985
+
+C.2.2 数据流图
+
+注: 4 GB/T 20438.3一2017 的表 B.5 和表 B.7 中引用了本技术/措施
+
+目的:为了用一个图表形式摘述流过一个程序的数据流。
+
+摘述 :数据流图记录了数据答和人是怎样变换成输出的,几中的每一步表示一个不同的转换。
+
+数据流图由三种组元构成，
+
+一一带注释的箭头一一代表进出转换中心的数据流 ,注释记录了是什么数据:
+
+一一惠注释的圈一一代表转换中心 ,注释记录了转换;
+
+is FFF | and( 45). xor( Bk) |    Jot He EF A HE ae ae iy EY aT SK
+
+数据流图中的每个圈可看作是一个可独立应用的黑盒,只要它的输入可用,它就可把这些输入变换
+成它的输出。主要的优点之一就是他们显示转换,但不用对怎样实现这些转换作任何假定.一幅纯数
+据流几并不包括控制信息或者排厅信息,但它便于实时的扩充,比如实时 Yourdon( 44 C.2.1.4) 。
+
+顷制效据流图的最佳方法是考虑系统的输入及其转化为输出的过程。每个圈必须代表一个不同的
+亚换一一它的输出应与它的输入在某些方面有所不同， 构建一幅数据流图是一个系统设计创造性半
+分,并不存在确定图的总体续构的规则。同所有设计一样,它是通过逐步精细化初始设计从而产生最后
+图形的一个迭代过程。
+
+Software engineering: Update.Ian Sommerville. Addison-Wesley Longman. Amsterdam; 8th ed..
+2006 ,1SBN 0321313798.9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium. 8. Auflage. 2007. ISBN 3827372577，
+97 E3827 37 2574
+
+GB/T 1526-1989 信息处理 数据流程图,程序流程图.系统流程图.程序网络图和系统质源图
+的文件编制符号及约定
+
+ISO/TEC 8631:1989 ,Information technology Program constructs and conventions for their rep-
+
+resentation
+C.2.3 ”结构图
+
+it: 46 GB/T 20438.3一2017 的表 B.S 中引用了本技术措施，
+目的:为了用疼霸显示一个程序的绪构 .
+FW :纺构图是一种符号表示法,此法是数据流图的补充。纺构图像树一梓,朱述了编程系统和各
+部分的一个分层结构,用图形展示了这种结构。它们记录了怎样按程序单元的一种层次结构来实现数
+一幅结构图显示了程序模块之间的关系而不包含这些单元启动顺序的任何信息,男这些图时使用
+了以下4种符号 ，
+一一连接这些定形从而创建结构的线:
+一一市环的往头(宝心的) ,注释有传给和来日结构图中各元对的数据名(通笛平行于连接图中各算
+形的线画带环的盘头)。
+一一市环的前头(实心环), 注释有从纺构图中的一个模块到瑟一模块的控制信和与凶 ,也是平行于连
+接图中两个模块的线画箭头 。
+从任一非平凡数据流图有可能派生出评多不同的纺构峡。
+
+--- Page 50 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+效据流图朱绘了了系统中的信息和功能之间的关系.纺构图措给了实现系统匹系的途径。网种扩术
+虽然分别表示了系统的不同侧面,但都是有效的。
+
+参考文献
+
+Software Design 心 Development.G.Lancaster,Pascal Press,2001,ISBN 1741251753 ,9781741251753
+
+Software engineering; Update.lan Sommerville. Addison-Wesley Longman. Amsterdam; 8th ed..
+2006.ITSBN 0321313798,9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium. &. Auflage. 2007. ISBN 83827572577.
+9783827372574
+
+C.2.4 形式化方法
+注; 在GB/'工20438.3一2017 的表 A.1 .表 A.2.表 Ad WR B.5 中引用了本技术/措施.
+C.2.4.1 ”一般要求
+
+目的:采用基于数学的一种方法来开发软件. 它包括形陈设计和形式编码技术 。
+
+描述 :形陈化方法提供了一种在系统规泄,届计或实现的某个阶段撒述一个系统的方法.产生的摘
+述的形式是一种严密的符号表示法,它可通过数学分析检测各种类型的不一致性或者不正确性,此外，
+在东些情总下可用机可分析该撞述,其精确性类似于使用编详估对源程序进行请法检杏的精度 ,或者可
+把该描述制作成动画从而显示所措述的系统各方面的行为,动画可给出对系统满足真实要求及形式上
+规定的要求的额外置信和度 ,这是因为它提局了了人们对规定行为的识别能力。
+
+形式化方法通澡将提供一种表示法(通常使用离散数学的某种形式)和一种用来产生该表示法的描
+述拉术,以及用来检查各种正确性属性摘述的各种分析形式，
+
+在本条的以下小节中描述了几种形式化方法一-CCS.CSP.HOL.LOTOS.OBHBJ , IN 28 4. VDM
+Al ZZ, 注意,其他的技术,比如有限状态机和佩特里(Petri)网(见附录 B) ,也可根据使用该技术时,这些
+技术符合某个精确的数学基础的严密程度 ,把它们看成是形式化方法.
+
+Formal Specification; Techniques and Applications. N. Nissanke. Springer-Verlag Telos. 1999.
+ISBN 1852330023
+
+The Practice of Formal Methods in Safety-Critical Systems.S. Liu, V.Stavridou. B. Dutertre.J.Sys-
+tems Software 28,77 —87.Elsevier.1995
+
+Formal Methods; Use and Relevance for the Development of Salety-Critical Systems. L. M.
+Barroca.J.A.McDermid, The Computer Journal 35(6) ,579—599,1992
+
+How to Produce Correct Software—An Introduction to Formal Specification and Program Devel-
+
+opment by Transformations,E,A,Boiten et al. The Computer Journal 35(6) ,547—554,1992
+C.2.4.2 通信系统的演算(CCS)
+
+目的:CCS 是摘述和推新并行通信过程系统行为的一种方法.。
+
+描述:CCS 是有关系统行为一种数学演算。系统说计建模为按上顺序运行或者并行运行的独立过程
+的一个网络.。 这些过程可通过端口(类似于 CSP 的通道)进行通信,只有在两个过程准符就绪时才能进
+行通信。不确定性也能建立樟型，从整个系统的一个局技抽和象摘述(称为一条轨迹)开始,可能进行系
+统的逐步细化,使之成为通信过程的一个组合体,它的总行为就是整个系统所需的行为。同样,也可以
+按目下而上的方式组合和过程,并使用与合成规则有关的推理规则来演绎最后得到的系统的属性。
+
+Communication and Concurrencvy,人.Milner,Pearson Education ,1989 .IJSBN 9780131150072
+
+4?
+
+hel
+
+--- Page 51 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+C.2.4.3 通信顺序进程(CCSP)
+
+目的:CSP 是用于并行软件系统(即 :并行运行的通信过程的系统)的规范的一种技术。
+
+摘述:CSP 为过程系统规范提供了一种语言,并为验证过程的实现满足它们的规范(摘述成一条轴
+迹.即一个允许的事件序列?提供了证明 .
+
+按独立过程的一个网络建造一个系统的模型,这些过程既可顺序组全也可并行。用每个过程可能
+的所有行为来描述该过程,这些过程可通过通道进行通信(同步或变换数据),只有在两个过程准香加绪
+时才能进行通信。能建立事件相关时订的模型 。
+
+CSP 的理论基础早已直接纳入 INMOS 传送机的体系续构中,并且 OCCAM 诸言允许在一个传送
+机网络上直接实现一个 CSP 规定的系统 。
+
+Communicating Sequential Processes: The First 25 Years.A.Abdallah,C.Jones,j.Sanders(Eds.).
+
+Springer, 2004.ISBN 3540258132,.9783540258131
+C.2.4.4 Wie 38(HOL)
+
+目的:它是一种形式化语言,这种语言打算作为硬件规范和验证的一种依据。
+
+描述:HOL 指的是一种特殊的逻辑符号表示法和它的机器支持系统,这两者是由英国剑桥大学计
+算机实验室开发的,逻辑符号表示法基本上取自丘奇CChurch)的简单类型理论 ,机顺支持系统则以可
+计算的功能逻辑(LCF)系统为基础。
+
+Higher-Order Computational Logic.].Lloyd.In Computational Logic; Logic Programming and Be-
+yond. Lecture Notes in Computer Science.Springer Berlin/ Heidelberg.2002,.ISBN 978-3-540-43959-2
+
+C.2.4.5 时间排序规范语言(LOTOS)
+
+目的:LOTOS 是用于描述和推理并行通信过程系统行为的一种方法.
+
+描述:时间排序现范请言(LOTOS) ,十以市有来月相关代数学 CSP 和电路计算(CIRCAL7附加特
+征的 CCS 为基础的。它通过结合基于抽象数据型语言 ACT ONE JAM SCAR S CCS 在处理数据结构和
+值表示式方面的胖点。然而在描述抽巡数据类型时可使用LOTOS 的过程撒述成分并结合其他形式化
+方法。
+
+Model Checking for Software Architectures. R. Mateescu.In Software Architecture. Lecture Notes
+in Computer Science. Springer Berlin/ Heidelberg,2004,ISBN 978-5-540-22000-8
+
+ISO 8807:1989. Information processing systems—QOpen Systems Interconnection—LOTOS—A
+
+formal description technique based on the temporal ordering olf observational behaviour
+C.2.4.6 OBJ
+
+目的:为了在实现之前利用用户反馈信息和系统确认信息提供一个精确的系统规范.
+描述:OBJ 是一种代数规范语言。用户将要求规定为代数方程的形式。通过影响抽象数据类型
+(ADT)的运算 ,规定系统行为或结构特征 .一个ADT 就像一个ADA 和包一样,只不过运算符的工作情况
+可见而实现细节是“隐藏"的。
+-种 OBJ 规范和其后的逐步实现适人台于同其他形式化方法一样的形式证明技术。此外,因为 OBJ
+规范的结构特征可用机器执行,因此从规范本身可直接实现系统确认。执行过程实质上是通过持续的
+方程置换(重写)直到获得规定的输出值为止来评价一个功能。 这种可执行性允许设想系统的最终用户
+
+43
+
+--- Page 52 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+在系统规范阶段加能够和直观认识最终系统,而不需精通基础的形式规范技术。
+
+正如其他所有的 ADT 技术的情况一样,OBJ 只适用于顺序系统或者并行系统的顺序部分。ODBJ
+已被用于各种规模的工业应用的规范.
+
+Software Engineering with OBJ: Algebraic Specification in Action. J. Goguen. G. Malcolm.
+Springer. 2000.ISBN 0792377575 9780792377573
+
+C.2.4.7 Wt Preiss
+
+目的:安全性和运行要求的且接表达陈 Be ak HEE Jag PE Fe ig I A A RE a A SE AA
+
+描述 s by HE AY) — or es te) ae ee AN PT] A a DS AS C15) a” Chenceforth) 和”最
+2%” Ceventally) ) , Abt Fy 2 He BY Re — Bre, EO FF AT HDR RE AB SE HE PTH, fa, eae
+性可能需要包舍“此后”,而要求的系统的其他状态可能需要借助示些石外的起始状态达到"最终”。使
+用状态(行为)厚列来解释时厅公了式.“状态?"巾和何组成取次于选择的描述等级。它可以指整个系统，
+个系统部件或者计算机程厅。
+
+在时序多辑中并不直接处理量化的时间间隔和约束。必须通过建立附加的时间状态把绝对定时处
+
+Mathematical Logic for Computer Science. M. Ben-Ari. Springer. 2001. ISBN 1852333197，
+9781852333195
+
+C.2.4.8 VDM.VDM+ +一一维也纳(Vienna)开发方法
+
+目的:顺序(VDM) 和并行实时(CVDM二十)程序的系统化规范和实现。
+描述:VDM 是基于数学的一种规范技术,通过人允许依据规范证明其正确性来细化实现.
+规范技术是以模型为基础的.该技术将系统状态建模为集合理论结构(基于结构描述的不变量(谓
+词)) ,以及通过将其先决和后置条件规定为系统状态来进行建模的状态的运算。为了保留系统不变量，
+通过将系统状态具体化为目标语言的数据结构,并通过将运算细化为目标语言的程序,可完成规范
+的实现。具体化和细化步骤将引出证明它们的正确性的责任。设计者应决定是否要履行这些职责。
+原则上了上讲,VDM 用在规范阶段,但也可在产生源码的设计和实现阶段中使用。它仅适用于并行系
+统中顺序结构程序或者顺序过程。
+面向对象的和并行实时扩充的VDM,即 VDM十十,是基于ISO 语言 VDM-SL 和面向对象的诸言
+Smalltalk 的一种形式规范诸言。
+VDM十十提供了一个很宽的结构范围,因而用户可在形式上用一种面问对象的格式来规定实时系
+统.。 在 VDM十十中,一个完整的形式规范由分类规范的一个汇集和任选的一个工作区组成。
+VDM十十的实时规定是:
+为了表示一个方法主体中的当前时刻和方法引用时刻,应提供时序表达式;
+给方法增加一个定时的后续表达式以便为正确实现规定执行时间的上(或下)限;
+一一已经引信时间连续变量。利用假设子句和效果子句,可以规定这些时间国数之间的关系(例如
+微分方程)。这个特征已证明对工作在一个时间连续环境中的系统要求的规范是很有用的。
+细化步骤可产生这些类型的系统的离散软件解。
+
+--- Page 53 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+ISO/IEC 13817-1: 1996，Information technology—Programming languages. their environments
+and system software interfaces— Vienna Development Method—Specification Language—Part |; Base
+language
+
+Systematic Software Development using VDM.C.B.Jones.Prentice-Hall.2nd Edition. 1990
+
+Conformity Clause for VDM-SL.G,.1.Parkin and B,A.Wichmann, Lecture Notes in Computer Sci-
+ence 670. FME?’ 93 Industrial-Strength Formal Methods. First International Symposium of Formal
+
+Methods in Europe. Editors:J.C.P.Woodcock and P.G.Larsen.Springer Verlag.501—520
+C.2.4.9 2
+
+目的:Z 是用于顺序系统的一种规范语言表示方法,也是一种允许开发者从一个Z规范开始进行可
+执行的算法的设计技术 ,该算法允许对照规范验证它们的正确性，
+
+Z 主要用于规范阶段,但也已延伸至设计和实现. 它最适合于开发面向数据的顺序系统。
+
+描述 :像 VDM 一样 ,规范技术是以模型为基础的,该技术将系统状态建模为集合理论结构[基于结
+构描述的不变量(谓词)] ,以及通过将其先决和后置条件规定为系统状态来进行建模的状态的运算 。为
+了保留系统不变量从而证实其一致性可证明这些运算 .将把一个规范的形式部份分成一些模式 ,这些模
+
+明型地,一个Z规范是形式 Z 和用自然语言的非形式化说明文本的混合物(形式化文本本身过于
+简要因而不易读,并且常常需要解释它的目的,而非形式化自然语言容易变得模糊和不准确) 。
+
+与VDM 不同,Z 是一种表达式而不是一个完整的方法,然而已开发出一种辅助方法(称为B) ,它可
+同民一起使用。了方法依据的是逐步细化的原理。
+
+Formal Specification using Z. 2nd Edition. D. Lightfoot. Palgrave Macmillan. 2000. ISBN
+9780333763278
+The B-Method.S.Schneider. Palgrave Macmillan.2001.ISBN 9780333792841
+
+C.2.5 防御性编程
+
+it: #2 GB/T 20438.3一2017 的表 Ad 中引用了本技术”措施。
+
+目的:为了产生一些程序,在执行它们的过程中,这些程序可检测异笛控制流 .数据或数据值,并且
+以一种预定的和可接受的方式对这些异稼作出反应。
+
+描述 :为了对探制或数据异第进行检查 ,在程序设计过程中可以使用许多种技术。为了减少错误的
+数据处理的可能性 ,在一个系统的整个程序设计过程中,可系统地使用这些技术。
+
+有了两类有重王的防御性技术。本质错话一安全软件被设计为可适应其本刁设计上的缺陷,这些献
+陷可能是设计或编码中的错误或者不正确的要求造成的,下面列出了一些防御近术 :
+
+检查变量的范围;
+
+一一在可能的情况下 ,检查值的可信性:
+
+一一在子程序人口处检查输入子程序的参数的类型.大小和范围。
+
+从程序功能和变量的物理意义这两方面来看,上述三条建议有助于保证由程序处理的数值是合
+理的。
+
+只谈和读写参数应分开并应检查它们的存取. 这些功能应把所有参数处理成只该人参数，字面和:
+不可写。 这有助于检测意外的重写或者旋用变量。
+方式工作。包舍以下拉术:
+
+-
+
+3
+yell
+
+--- Page 54 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+检查具有物理意义的输入变量和中间变量的可信和性:
+一一检查答出变量的影啊 ,最好直接观察相关系统状态的改变;
+检查软件的配置,包括预期硬件的存在和可存取性 ,还要检查软件本号是否完整     这一点对
+于在维护过程之后保持宛整性是特别重要的
+有些防御程序设计技术,比如控制流序列检查也能应对外部失效。
+Software Engineering for Real-time Systems. J. E. Cooling. Pearson Education. 2003, ISBN
+0201596202 .9780201596205
+Dependability of Critical Computer Systems: Guidelines Produced by the European Workshop on
+Industrial Computer Systems. Technical Committee 7(EWICS TC7.Systems Reliability. Safety. and
+Security),Elsevier Applied Science, 1989,ISBN 1851663819,9781851663811
+
+C.2.6 设计和编码标准
+it: 42 GB/T 20438.3—2017 BY # A.4 PSA SF ARR Te
+C.2.6.1 一般要求
+
+目的:为了提高可束证性,为了乌进团队化的客观方法以及为了实施一种标准的误计方法。
+
+描述 :项目一开始,参加者就协商将遵守的规则。 这些规则包含要遵守的设计和开发方法(例如:
+JSP.MASCOT 、佩特里(Petri)网等)以及有关的编码标准(参看 C.2.6.2) 。
+
+制定这些规则是为了使开发.豆证.评怕和维护更容易。因此,他们应把适用的工具,特别是分析程
+
+IEC 60880;2006.Nuclear power plants—Instrumentation and control systems important to safe-
+ty—Soltware aspects for computer-based systems performing category A functions
+
+Verein Deutscher Ingenieure. Software-Zuverlassigkeit-Grundlagen, Konstruktive Massnahmen.
+
+Nachweisverlahren. VDI-Verlag.1998.ISBN 3-18-401185-2
+
+C.2.6.2 编码标准
+
+注: 在GB/'T 20438.3一2017 的表 B.1 中引用了本技术措施，
+目的:为了减少在安全相关代人三中出钳的可能性,并用马于验证。
+摘述:以下原则表明了安全相关的纺合规则(对于任何编程培言)和组桩协助符合 GB/T 20438.3 的
+规范要求 ,并且实现*期望的属性“(见附录下) 。应该考虑可使用的支持工具。
+GB/T 20438.3一2017 要求与推荐                                        编码标准建议
+
+模块化方法(表 AA.2-7,表 和.44)               软件模块大小限制(表 B.9-1)和软件复杂度控制(表 B.9-2) ,例如，
+
+e “局部"规模 .复浊性度量和限制(用于模块?的规范
+
+@ “全局"规模 .复录性度量和限制(用于总体模块组织)的规范
+
+e 参数数目限制/固定的子程序参数数日(表 B.9-4)
+
+fa SR / Bp RE Ce B.9-3) :例如 ,鼓励使用专门的语言特性 ,
+
+充分定义的接口(表 B.9-6) ,例如，
+
+es 上胃确规范的图数序型
+
+es 和失歼断言编程(表 A.2-3a)和数据验证(7.9.2.7) ,人恒用困数的前置
+条件和后置条件的.断言的.数据类型不变量的明确规范
+
+--- Page 55 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+表 (组)
+
+GB/T 20438.3一2017 要求与推荐                       编码标准建议
+代码的可理解性                        促进有意义的.明确的名称的合名规范 例如:避免可能被混请的名称
+e 提升代码的可理解性(7.4.4.13)          (例如 IO 和 10),
+e 易读的.可理解的和可测试的(7.4.6)   数值型值的符导名称。
+源代三文件的程序和准则(7.4.4.13)7。例如;
+© 解释为什么和合义(不仅解释什么)
+@ 其他影啊
+在可行的情况下 ,源代人码中应该包会以下人情息07.4.4.137) :
+重合法实悼(例如:会司,作者等)
+© 描述
+© 输入和输出
+es 配置管理的历史
+(参见模氛化方法)
+
+可验证性和可测试性                                             “关键"的库图数的封要,检查前置和后置条件
+便于验证和测试(47.4.4.13)                 王励使用能表达特定数据元素或图煞的便用限制的语言5(例如，
+恒于设计和顷程莽知的检测(7.4.4.10)              const)
+形式化验证(表 AAA.5-9)               对于文持验证的工具:符人台所选工具限制的规则(假如这和不妨但
+形式化证明(雪 AAA.9-1)                           重要的目标)
+s 限制使用递归(5表 B.1-6)和其他形式的循环依束
+(参见模块化方法)
+
+符合指定设计的静态验证(7.9.2.12)         特定设计概念或约束实施的编码指南。例如
+
+循环行为的编码指南,保证最大周期时间(表 和.2-13a)
+
+时间和触发可构的编码指南!表 AL2-1 Sb)
+
+事件驱动架构的编码指南(表 A. 2-130)
+
+静态确定最大迁代次数的循环(除了循环设计的无限循环)
+静态资源分配(表 A.2-14)和避免动态对象的编码指南(表 也.1-2)
+访问共享资源的静态同步的编码指南(表 A.2-15)
+符合有限制的使用中断的编码指南(表 B.1-4)
+
+避免动态变量的编码指南(表 B.1-3a)
+
+动态变量安装的在线检查(表 B.1-3b)
+
+确保使用其他编程语言的不容性的编码指两467.4.4.10)
+促进设计可追溯性的导则
+
+-语言子集(表 上.3-3)                      排除非结构化设计的语言特性。例如:
+
+取钞不安全的十言特性57.4.4.13)               有限制的使用指针(表 B.1-5)
+
+只使用已定艾的二言特性5657.4.4.10)            有限制的使用递归5(表 B.1-6)
+
+结构化程序设计(表 上.4-6)                     有限制的使用类似C 中的联合体(union)
+
+蝇类型编程语言!(表 入.3-2)                   有限制的使用类似 Ada 或C十十中的异常
+
+不允许日动类型转换(5表 B.1-8)                不人允许在高级语言程序中有非结构化的控制流(表 了.1-7)
+在子程序和图数中只有一个人口/一个出口点(表 也.9-5)
+As FRE A al) FE ay Fe ih
+AY bbe rill EA ee ic Ud AS A 4) al) EA Cf), eS AE
+fe RAT EA A ec Pca EA.
+She PE fir A RE PE YA BRR aie] (8A). le A EH
+TEE INR SA i P-GP ated 19 fA
+使用了以上语言特性后,仍需应用的规则
+
+47
+
+--- Page 56 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+良好的编程实践467.4.4.13)        在适用时 :
+
+@ 必要的时候,编码指南用来确保以正确的顺序计算浮点表达式(例
+旭 ,8a一b十ec不总是等于“a十ec一7
+在浮上点数比较中:使用不等式(小于,小于等于,大于,大于等于)代
+竺严格的等式
+
+@ RPP EA” Hy Ab BEY da PS
+
+e  RSCTEM fe erik [Bl RE One / eM)
+
+ibe 4, PR) CR AA IEA. SREP RIE AY ide ET
+
+PA ，
+
+i FEF AY EG AS ae YA] YS
+
+捕获假定不可能的情形(例如,在 Cswitch "中的一个点认情况)，
+
+关键模块“"包于"的使用,特别是,检查前置荣件和后置秆件以及返回
+
+RF
+
+符合已知的编译器差错和编译器评估设定的限制的编码指南
+
+C.2.6.3 无动态变量或者动态对象
+
+注: 46 GB/T 20438.3一2017 的表 A.2 和表 Bl 中引用了本技术/措施，
+
+日的:为了排除:
+
+一一在(安全相关的)运行时间内资源的分配钼倾。
+
+fii AS :本措施中提到的动态亚量和动态对象是指:在运行时才分配给它们的存储希和确定的绝对地
+址 ,分配的存储硕的值和它的地址与分配瞬时系统的状态有关 ,这意味着不能用编译需或者任何别的离
+
+因为动态变量和对象的数目以及分配给新动态变量或对象的现存空采内存空间与分配瞬时的系统
+状态有关,当分配或使用变量或对象时有可能发生故隐。例如,当系统分配存储单元时,闲置内存量不
+足 ,另一变量的存储内容就可能无意中被重写。当不使用动态变量或对象时就可和避钢这些故障.
+加以限制,因此可以保证可预汕的程序执行
+
+C.2.6.4 在建立动态变量或动态对象过程中的在线检查
+
+注1: 在GB/'T 20438.3一2017 的表 B.1 中引用了本技术/措施。
+
+目的:为了检查在发生分配前要分配给动态变量和对象的存储器是空闲的,从而保证在运行时动态
+变量和对象的内存分配不会影响现存的变量 .数据或代码。
+
+摘述 :本指基中提到的动态变量和动态对象是指:在运行时才分配给它们的存储大和确定的绝对地
+址(从这个意义上讲变量也是对象实例的属性) 。
+
+在给动态下量或对香耸配丫仔之前 ,人情助重件或软件来检查存展车以便剑证它是裤亲的5例如用以
+导免堆栈浇出)。如不允许分配(例如当存储器不足以应付所确定的地址时)必须采取适当的行动。在
+已经使用一个动态变量或者目标之后(例如退出一个子例程之后) ,曾经分配给它的整个存储希必须要
+
+48
+
+--- Page 57 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+注 2: 一种替代办法是统计证明对一切情况来说.存储器都是够用的，
+C.2.6.5 有限制的使用中断
+
+注; f GB/T 20438.3—2017 的表 B.1 中引用了本技术措施，
+
+目的:为了保持软件可验证和可测试。
+
+描述 :应限制使用中断。当它们能商化系统时才便用中断。在和被执行的功能的关键立份(例如时间
+上的转折蕊.数据改变的转折点)革用中断处理软件。当使用中断时,不可中断的部份应有一个规定的
+最大计算时间 ,使之能计算禁止一次中断的最大时间。 中断使用和屏蔽应全部编成文档.
+
+C.2.6.6 ”有限制的使用指针
+
+i; 在GB/'T20438.3一2017 的表 B.1 中引用了本技术措施，
+
+目的:为了避免在没有首先检查指针的范围和类型的情况下由存取数据引起的问题。为了支持模
+块化测试和软件验证。为了限制失效的后果。
+
+描述 :在应用软件中,只有在存取之前检验指针数据类型和值的范围(为了保证参考指针是在正确
+的地址空间内?时 ,方可在源公级使用指针计算。 不能采用任务之加的直接引用来实现应用软件的任务
+间通信 ,应通过操作系统来进行数据交换。
+
+C.2.6.7 ABR il AY 1 BB
+
+i=: 7 GB/T 20438.3—2017 的表 B.1 中引用了本技术/措施，
+目的:为了避免不可验证的和不可测试的子例程调用。
+描述 :当使用递归时,必须要有一个明显的判据 ,此判据可预测递归深度 。
+
+C.2.7 ”结构化编程
+
+注: GB/T 20438.3一2017 We Ad 中引用了本技术/措施 。
+
+目的 :结构化编程是一种设计和实现程序的方法.这种方法使得程序不需要执行就能进行分析 ,并
+使其不可测行为的可能性尽可能降到最低。
+
+描述:下面的原则可用来降低纺构的复杂性:
+
+一一把程序分成适当小的软件模块,从而保证尽可能地使它们去耦并且所有的相互作用和邵赴显
+式的。
+使用结构化构造来组全软件模块控制流:包括序列 A A Se FE
+
+一一保持到一个软件模块的可能通路要少,输入和输出参数之间的关系要斥量简单;
+
+一一避倪复尿的分文 ,特别要避鲍高级霹言中的无条件转移(goto);
+
+一一上只要可能,使回路约划和分去同输入参数联系起来
+
+VED De rE oP Sc AT BF ee AP fy A
+
+BS C258 THE SC Bee fey EY Teg C15) Te EE Et eS HE FR BE) Zh sD BET 4 > EB HS BE
+言的特征而不用(声称)是更有效的其他特征。
+
+Concepts in Programming Languages. J. C. Mitchell. Cambridge University Press, 2003, ISBN
+0521780985 ,9780521780988
+
+A Discipline of Programming. E.W.Dijkstra.Englewood Cliffs N].Prentice-Hall.1976
+
+C.2.8 信息隐藏/封装
+
+注: 在GB'T 20438.3一2017 PN B.9 中引用了本技术措施，
+
+--- Page 58 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:为了防止意外的访问数据或子程序并因此为了支持一个好的程序结构 .
+
+摘述:所有软件重块全局可访问的的数据可能被这些恒块的任何一个意外地和不正确地修改。这
+些数据疆构的任何改变可能都震要仔细的代码检查和扩充性修改.
+
+信息隐藏是减少这些困难的一种和用方法.关键数据结构被“隐藏”只有通过一个定多的存取子
+程序集才能操纵它。 这种办法允计修改内部纺构或背增加瑟外的于程序而不会影哺其余软件的功能行
+为. 例如,一个名字目录可以有存取子程序“搬入”、“删除"和”查找"。可以重写存取子程序和内部数据
+结构(例如使用不同的查找方法或者把名字存放在一张硬盘上)而不会影响使用这些子程序的其余软件
+HY Ie FAT A
+
+FETC BY TDR FAP dive 8 A Se BHT IY ABE WO RAS HE BE EE Pe Se EF WU ge BE A HH RAS I Ep
+
+Concepts in Programming Languages, J, C. Mitchell. Cambridge University Press. 2003. ISBN
+0521780985 ,9780521780988
+
+Qn the Design and Development of Program Families.D.L.Parnas. [EEE Trans SE-2.March 1976
+
+C.2.9 模块化方法
+
+注: 7E GB/T 20438.3一2017 的表 A.4 和表 B.9 中引用了本技术/措施.。
+目的:为了限制系统的复杂程度 ,把一个软件系统分解成一些小的吻理解的部分，
+FADE :模块化方法包含软件项目的设计.编码和维护阶段的奋干规则.根据设计过程中使用的设计
+方法不同规则有所不同，大多数方法都包会以下规则 :
+一个软件模块(或等价的,子程序)应有能完成定义月好的单项任务或功能，
+应限制和严格定义软件模块之间的衔接 ,软件模块的内聚性应是很强的;
+如果有多级软件模块,应建立子程序集合;
+应把子程序的大小限定为某个规定值,由型地为 2一上个屏攻乓二:
+子程序只有一个人口和一个出口;
+一一软件模块应通过接口与其他软件模块通信一一在使用全局或者共用变量的情况下,它们应构
+成展好,存取可探并且它们的使用在每个实例中应是合理的:
+应把所有的软件醒其接口全部编人文档;
+一一任何软件模块的接口应只包含它的功能所必震的那些参数。然而,此建议被这种可能性复录
+化,即编程语言可能允许缺省参数或使用了面向对象的方法.。
+The Art of Software Testing,second edition,G.J.Myers, T. Badgett, T. M. Codd, C, Sandler, John
+Wiley and Sons.2004.ISBN 0471469122.9780471469124
+
+Software Engineering for Real-time Systems, J. E. Cooling. Pearson Education, 2005, ISBN
+0201596202 .9780201596205
+
+Concepts in Programming Languages. J. C. Mitchell. Cambridge University Press, 2003, ISBN
+0521780985 ,9780521780988
+
+C.2.10 使用可信和的/经验证的软件组件
+
+注: 76 GB/T 20438.3一2017 的表 A.2 .表C.2.表 Ad 和表C.4中引用了本技术/措施，
+目的:为了避免对每一新应用都震对软件设计和组件重新确认或者重新设计。为了利用未经正式
+或严格验证 .但已长期使用的设计的优点。为了利用已在其他应用中难证且和存在大量验证证括的已有
+软件组件的优点。
+fi AS :这项指施证明软件组件足以捍有系统设计故障和/或运行失效。
+
+aU)
+
+--- Page 59 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+从最基本的部分建立一个复杂系统通和是不切实际的. 利用主要组件通常是必要的必组件”,见
+GB/T 20438.4—2017 的 3.4.5 和 3.2.8)这些组件之前被开发用来提供一些有用的功能,并且这些功能
+能被重复使用于实现新系统的一部分，
+
+良好设计的及结构化的PE 系统由许多软件组件构成,这些软件组件明显不同并且以一种明确规
+定的方式进行交互。建立一个能被重复用在多种用途的通用软件组件库来容纳大部分质源,这些瑞源
+对确认多个应用可共训的设计是必需的。
+
+然而,对于安全相关的应用,足人够的置信和度是必要的,即包售这些已有组件的新系统具有所需的安
+全完整性,且安全不被已有组件的某些不正确行为影啊。
+
+为了获得一个已有组件能被准硝知道的行为的置信和度 ,有两种观癌:
+
+分析组件的全面运行的历史,证明这个组件已经"经使用证明”:
+评估已经收集在组件行为中的验证证据的主体,以确定组件是否符合 GB/T 20438 的要求。
+
+C.2.10.1 经使用证明的
+
+只有在极少数情况下性经使用证明的”“(见GB/T 20438.4一2017 AY 3.8.18)才是一个充分的论据，
+证明一个受信任的软件组件达到必要的安全完整性。对于具有许多可能功能的复杂的组件(例如,操作
+系统) ,确定组件的哪些功能实际上充分经使用证明是很重要的。例如,目检例程用于检测故障,如果在
+运行期间没有发生失将,我们就不能把用于故障检测的日检例程作为经使用证明的。
+
+如果软件模块符人台以下标准,那么它被视为经使用证明的:
+
+未改变的规范;
+在不同应用中的系统;
+服务历史至少一年;
+按照安全完整性等级或适当的要求次数的运行时间;证明非安全相关的失效率低于
+es 在置信诬 95儿时,每次需求(或每年)为10 ,发生 300 次要求(或运行 300 年)，
+e 467 Ale 99.9中时,每次需求(或每年)为10一 ,发生 690 000 次要求(或运行 690 000 4F),
+注 1: 见附录了对上面数值估算的数学文持。见 B.5.4 相似的措施和统计学的方法。
+一一所有的运行经验必须与一个已知软件组件的功能要求概要相关,以确保增强的运行经验呐正
+增强与要求概要相关的软件组件行为的知识;
+Yt A PAR AY AOL
+if 2: 一个失效在一种情形下可能不是安全关键的,而在另一种情形下是安全关键的,反之亦然。
+为了能验证软件组件符合这些标准,必须记录以下几项:
+准确标识每一系统和它的组件,包括版本号(对软件和硬件而言)
+一一用户的标识和应用的时间;
+运行时间;
+用户应用系统的选择规程和应用实例;
+榨测和记录失效及消险故革的规程。
+
+C.2.10.2 评估验证证据
+
+已有软件组件(见GB/T 20438.4一2017 的 3.2.8)是已经存在但并非专门为目前的项目或 SRS FF
+发的软件。已有软件可以是商业上可使用的产品,或者它已被一些组织开发用于一个先前的产品或系
+统。已有软件可能依据或未依据 GB/T 20438 要求开发。
+
+为了评人情包会已有软件的系统的安全完整性,应有验证证据来确定已有组件的行为。瑟可能来月
+(1)组件供应商自己的组件开发过程的文档和记录,或(2)它可能通过额外的资质认证创建或补充,此活
+动由新的安全相关系统的开发者或第三方承担。这就是定义了洪在可重复使用的软件组件的功能和限
+
+a]
+
+--- Page 60 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+天的"符合项安全于册”。
+在任何情况下 ,符合项安全手册必须存在(或必须被创建),足以用于对一个具体的安全功能进行完
+整性评倍 ,该安全功能全  识或部分地取汉于重复使用的组作。  否则,必然得出怪守的结论:组件不适于
+安全相关的重复使用。(这不是说,组件在任何情况下都不能证明适用,而仅仅是在这个特定的情形下
+没有找到足够的证据。)
+GB/T 20438 对街合项安全于册的内容有有具悼的归求,见 GB/工 20438. 2一2017 附录 D 和
+GB/T 20438.3—2017 附录卫,以及GB/T 20438.3一2017 的7.4.2.12 Ml 7.4.2.13.
+作为一个和内容非彰冯短的说明 ,符合项安全于册将包售以下内容:
+一一组件的设计是已知的和有记录的:
+组件经过系统化的方法戏证和确认,这种系统化方法有所有组件设计及代码的审查和有记录
+的测试;
+组件未使用的和不必要的功能将不会妨碍新系统满足其安全要求;
+在新系统中的组件的所有可信的失将机制已经确定,并已实施适当的缓解。
+新系统的功能安全评估必须确定重复使用的组件严格地应用在能力的限制范围内,这种能力已经
+由符合项安全于册中给出的证据和假设所证明
+Component-Based Soltware Development: Case Studies. Kung-Kiu Lau. World Scientific. 2004.
+ISBN 9812388281 .9789812388285
+Software Reuse and Reverse Engineering in Practice. P. A. V. Hall(ed.).Chapman & Hall. 1992.
+ISBN 0-412-39980-6
+Software criticality analysis of COTS/SOUP.P. Bishop. T.Clement.S.Guerra.In Reliability Engi-
+neering & System Safety. Volume 81.Issue 3.September 2003.Elsevier Ltd. .2003
+
+C.2.11 ABM
+
+目的:为了保持生命周期各阶段的连贯性。
+描述 :为了确保由生合周期活动获得的软件符合安全相关系统正确运行的要求,确保生命周期阶段
+间的连贯性是必要的。这里的一个关键概念是,在活动之加的可仍潮性。这本质上是一个影响分析 ,用
+于检查(1)在早期阶段做出的诀策在稍后阶段得到充分实施(回前追溯),(2)在稍后阶段的决定确实由
+时期决定要求和决定的。
+问前妃溯关注于检查在稍后的生命周期阶段需求被充分实现。回前志训在安全生合周期的一些点
+eA OPEL AY
+NAR AE BE Sm Ee HU Fe Bd eK 4 ES
+一一从软件安全要求规范到软件设计:
+从软件设计规范到模兵和集成测试规范
+从硬件/软件集成系统和软件设计要求到硬件/软件集成测试规范;
+从软件安全要求规范到软件安全确认计划:
+一一从软件安全要求规范到软件变更计划(包括和车验证和重确认);
+一一从软件设计规范到软件验证计划(包括数据验证)
+从 GB/T 20438.3一2017 的第8 章的要求到软件功能安全评估计划
+加后追漳关注于检查每一实现的决定都被某些要求清晰论证(广义的实现,不限于代码)。如果无
+法论证:则在实现中包含一些不必要的.增加复杂性上且不一定解决任何安全相关系统的真正要求。回后
+追测在安全生命周期的一些点是有价值的。
+
+og
+
+--- Page 61 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+从安全和要求到获知的安全需求;
+一一从软件夸构到软件安全要求规范;
+从软件详细设计到软件架构 ;
+一一从软件编码到软件详细设计:
+一一从软件安全确认计划到软件安全要求规范
+一一从软件变更计划到软件安全要求规范 ;
+—— 从软件验证(包括数据验证?计划到软件设计规范。
+Requirements Engineering, FE, Hull. K. Jackson. J, Dick, Springer. 2005. ISBN 1852338792 ，
+9761852338794
+
+C.2.12 无状态软件设计(或有限状态设计)
+
+注: GB/T 20438.3一2017 的表 A.2 中引用该技术/措施 .
+
+目的:限制软件行为的复杂性.。
+
+描述 :考庶一个软件程序处理一系列的事件:它接受一系列的输入并啊应每一个输入产生一个办
+出。程序也可能在一个"状态”记忆它的一些或全部的历史,并在计算怎样啊应将来的输入时考虑这种
+
+啊应一个特定输入的程序的输出是完全取决于输入,那么程夯是无记忆的或无状态的。渤有事件
+被任何早期的事件影啊 ,在这个意义上,每一输和人/输出的处理是完整的,并且一个特定的输入总是产生
+相同的输出，
+
+相比之下 ,程序在计算它的输出中既考虑到它的特定输入也考虑到它的记忆状态 ,那么程序能够实
+现更复杂的行为,因为它能在不同的时间啊应相同的输入并传送不同的输出。对特定输入的啊应可能
+取决于输入接受的环境(即前面的输入和输出) 。和一些应用(通常是通信)相关的进一步考虑是,程序
+的行为可能对存情状态改变特别敏感,无论是不经意还是恶意的引人，
+
+无状态设计是一种通用方法,旨在通过避免或减少软件设计中状态信息的使用以最小化软件行为
+HY TELE SZ ARE
+
+Introduction to Automata Theory. Languages.and Computation(3rd Edition).J. Hopcroft.R.Mot-
+wani,J.Ullman, Addison-Wesley Longman Publishing Co,2006,ISBN:0521462254
+
+Stateless connections. T., Aura. P Nikander.In Proc International Conference on Information and
+Communications Security (ICICS’ 97). ed Yongfei Han. Springer, 1997. ISBN 3540635696X,
+9783540636960
+
+C.2.13 离线数值分析
+
+i; GB/T 20438.3一2017 的表 ALO 引用该技术 Fe i.
+目的:为了确保数值计算的准硝性。
+fA :在一个数值函数由于使用有限的理想函数或数字表示的计算中,数值不准确度可能提高。当
+-个转数被一个无穷级数(如傅里叶级数)的有限数目项远近时,将引进截断误差。 物理计算机里实数
+的有限精度表示引入了人省和人人误差。对于除了最简单计算外的任何以浮点数表示的计算,必须检查计算
+的有效性以确保真正实现了应用要求的精度 。
+Guide to Scientific Computing, P.R.Turner.CRC Press.2001.ISBN 0849312426 .9780849312427
+
+--- Page 62 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+C.2.14 报文序列图
+
+注, GB/T 20438.3一2017 的表 B.7 和表C.17 引用了了该技术/措施.
+
+目的:为了在软件开皮(包括再求和软件扣构设计)的早期阶段协助获取系统和要求。 在 UML 中,此
+表示法被全名为"报文序列网”。
+
+描述 :报文序列图是一种依据系统参与者(参与者可能是一个人 ,一个计算机系统 ,或软件组件或对
+Fe ,取决于设计阶段)之间通信来撒述系统行为的图解机制。对每一个参与者,在图上画一条和对直的”“生
+命线” ,生命线之间的箭头用来表示报文 。接受报文的动作可有选择的以方框的形式在图表中显示。建
+立收集的情形(描述想要的和不想要的行为)作为要求的系统行为规范。这些情形有多种用途。它们可
+以给终痪用户动男汗示系统行为。它们也可以转化为一个系统可执行文件执行。它们可以形成测试数
+据的基础:
+
+UML 包含对报文序列图的原始概念的扩展,它提供了一个更紧凑的形式,报文序列图是选择和选
+(CARTE sh ,这种结构允许情形分支及循环。子图也可以被定义,它可以被许多更高级别的序列图引
+用，定时圳和外部事件也可被表示，
+
+“Message Sequence charts ,D.Harel.P.Thiagaralan.In UML for Real: Design of Embedded Real-
+Time Systems.ed,L. Lavagno.Springer,2003.ISBN 1402075014,.9781402075018
+
+ISO/TEC 19501; 2005.Information technology Open Distributed Processing Unified Modeling
+Language(UML) Version 1.4.2
+
+C.3 RRM IIT
+
+C.3.1 故障检测和诊断
+
+注: 42 GB/T 20438.3一2017 的表 A.2 中引用了本技术7措施。
+
+目的:为了检训一个系统中的故障(这些故障可能导致一次失效),从而为减少失效影响的对应措施
+提供恢扼 :
+
+描述 :故障检测是榨查一个系统的错误状态的活动(这些错误状态是被检查的子系统内的一个故际
+引起的)。故障检测的主要目的是阻止钳误结果的影响。当一个系统同并行组件共同起作用时 .检训到
+其目肝的篆误纺朱就放午控制,称为目检。
+
+故障检测基于宛余(主要检测硬件故障     见 GB/TB20438.2—2017 的附录 A)和多样性(软件故
+障)厚理， 需要用某种表诀来确定结果的正确性.专门方法包括:失效断言编程,N 版本编程和多样化
+监视融技术,对硬件而言包括:引人附加传感疮,控制回路,差错检验码等。
+
+可以通过检查各级的值域或时间式.特别是物理的(温度 ,电压等) ,逻辑的(差错检测但) .功能的
+(上断言)或者外部的(可信性检验)来实现故障检测 ，为了能进行故障跟踪,可把这些检验的绪果储存起
+来并把它们同数据联系起来。
+
+复杂系统是由了于系统构成的,故隐检测 .诊断和改障补偿的效率与各子系统中相互作用的复慕程度
+有关,这种相互作用的复杂性可影响故障的传播。
+
+应在最小的子系统级使用故障诊断,因为较小的子系统可以更详细地诊断故障(差错状态检测 ) 。
+
+全企业综合信息系统通并能把安全相关系统的状态包括诊断测试信息传递给另一监控系统。当检
+测到一个异常时,怠会突出显示它并在它发展成一种危险情况之前和触发纠正功能。最后,如果确实发生
+事故,这种卉凋的记录有助于随后的调查 .
+
+Dependability of Critical Computer Systems |.F.J.Redmuill, Elsevier Applied Science. 1988. ISBN
+
+od
+
+
+--- Page 63 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+1-69 166-205-0
+
+C.3.2 ”差错检测和纠正码
+
+注: 在GB'T 20438.3一2017 的表 AL2 PS] A Aa AN ta
+
+目的:为了检训和纠正敏感信息中的差错.
+
+摘述 :对一答寻位信息而言,生成一个天 A Sh Be Ee a I AZ Er 个差销。丙类纺但的
+例子是汉明(Hamming)码和多项式代码 。
+
+应注意,在安全相关系统中 ,通篆需要启弃故阶数据而不是纠正它,因为只有一部分预定的差错才
+能得以正确纠正 .
+
+Fundamentals of Error-correcting Codes. W. Huffman. V.Pless.Cambridge University Press,2003 ，
+
+ISBN 0521782805.9780521782807
+
+C.3.3 ARTS Fa tz
+
+注: 7E GB/T 20438.2—2017 的表 A.17 PA GB/T 20438.3—2017 的表 A.2 AR C.2 中引用了本技术/措施。
+
+目的:为了在执行一个程序的过程中检测软件设计的残余故障,从而防止系统安全关键失效并继续
+
+Fics :失效断言程序设计方法遵循的理念是检查一个先决条件(在执行一个语句序列之前,对初始
+条件进行有效性检查)和一个后续妈件(在执行一个语句列之后检查结果)。如不满足先诀条件或者
+
+例如 ;
+
+断言4《先雇条件，，
+
+动作 1;
+
+AE X;
+
+WERE RARE
+
+参考文献，
+
+Exploiting Traces in Program Analysis, A.Groce.R.Joshi,Lecture Notes in Computer Science vol
+3920.Springer Berlin’ Heidelberg.2006.ISBN 978-3-540-33056-1
+
+Software Development—A Rigorous Approach.C.B.Jones.Prentice-Hall.1980
+
+C.3.4 多样化监视器
+
+it: 42 GB/T 20438.3一2017 的表 A.2 中引用了本技术/7措施。
+
+目的:为了防止软件规范和实现中的残余故障,这些故隐对安全有不利的影啊。
+
+朱述 :有了两种不同的监控方法:61)监和钢和共和家监视的功能在相同的计算机,它们之国的独立性有一
+定保证:(2)监视需和被监视功能在不同的计算机
+
+多样化监视天是按照一个不同规范实现的外部监视上各,在一侣独立的计算机上实现。这种多样化
+贤视复只涉及确保计算机执行安全动作,但不一定纠正销误动作。 多样化监视第连续监视主计算机。
+多样化监视上喜防止系统进入一个不安企状态。此外,如果它检测到主计算机正进入一个潜在的危险状
+
+Pol
+
+|
+二
+1 |
+
+--- Page 64 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+多样化览视策的便件和软件应该按适当的 SIL(安全完整性等级)分类和游核。
+Requirements based Monitors for Real-Time Systems. D.Peters.D.Parnas. [EEE Transactions on
+
+Software Engineering. vol.28.no0.2.2002
+
+C.3.5 软件多样化(多种程序设计)
+
+注: 在GB/T20438.3一2017 的表 A.2 中引用了本拉本/7措施。
+目的:为了防目系统的安全天妇失效并继续局可菲地运有 ,在执行一个程序过程中检测和拼牙残余
+的软件设计和实现的故隐，
+
+描述 :在多样化程序设计中,以不同的方式 N 次设计和实现一个给定的程序规范。 给 N 个版本都
+
+提供同样的输入值.并比较 N 个版本产生的结果,如认为结果有效,将把结果传送到计算机输出
+
+一个本质要求是 N 个版本在未种程度上相互独立， 从而他们不会因为相同的原因同时失效。 实际
+
+上 ,要实现和证明和版本间的独立性是非常困难的,这个独立性是 N 个版本方法的基础
+N 个版本可在多个独立的计算机上并行运行,或者所有版本部能在同一台计算机上运行并且绪此
+须经一次内部表决。对 ON 个版本可使用不同的表决策略,这上根据下列应用要求 i,
+
+一一如果系统有一个安全状态,则要求完全一致(所有的 N BD) AE A 77 BY. APU fH
+统达到安全状态的输出什。对商单的跳闸系统来说,表决俩问安全。在这种情况下,如采任一
+版本要求一次跳闸,安全动作就将是跳闸:典型地,这种方法只使用两种版本(CN = 2)
+
+对没有安全状态的系统而言,可使用多数表决策略。对于不存在集体一致的情况 ,为了使选择
+正确值的机会最大化(例如取中间值,在恢复一致性之前,暂时冻结输出等)可使用概率方法 。
+本技术不能消除残余的软件设计故障,也不能避免规范转化中的差错,但它提供了在这些故障或差
+全影喇安全性之前检测和屏藤的一种方法。
+
+Modelling software design diversity—a review. B, Littlewood. P. Popov. L.Strigini, ACM Computing Sur
+veys. vol 33.no 2.200]
+
+The N-Version Approach to Fault-Tolerant Software, A, Avizienis. IEEE Transactions on
+Software Engineering. vol.SE-11.no0.12 pp.1491-1501.1985
+
+An experimental evaluation of the assumption of independence in multi-version programming. ].
+C. Knight. N.G.Leveson. IEEE Transactions on Soltware Engineering. vol.SE-12.no 1.1986
+
+In Search of Effective Diversity:a Six Language Study of Fault-Tolerant Flight Control Software.
+A. Avizienis, M.R.Lyu and W. Schutz. 18th Symposium on Fault-Tolerant Computing. Tokyo. Japan.
+27-30 June 1986.IEEE Computer Society Press. 1988.ISBN 0-8186-0667-6
+
+C.3.6 Rakes
+
+注: fe GB/T 20438.3一2017 的表 A.2 中引用了本技术/措施。
+
+目的:为了在存在一个或多个故障时保卫正确的功能运行
+
+描述 :当检测到一个故障时,系统就复位到一个较早的内部状态 ,该状态的一致性已在过去被证明
+过。这种方法意味着内部状态通稍保存在所谓明确定义的检验点上。可以全局性地(对整个数据库)或
+着增量地(只在检难点之间的改变)进行。然后系统必须同时通过使用日志(动作的审核跟踪)和补仅
+(消除这些改变的所有影响)或者外部(手动)相互作用等方式补倒这些改变.
+
+Looking into Compensable Transactions.Jing Li. Huibiao Zhu.Geguang Pu.Jifeng He.In Soltware
+Engineering Workshop.2007,SEW 2007. IEEE,.2007 .ISBN 978-0-7695-2862-5
+
+a6
+
+--- Page 65 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Software Fault Tolerance( Trends in Software, No.3).M.R.Lyu(ed.).John Wiley & Sons. April
+1995.ISBN 0471950688
+C.3.7 ”故障恢复重试机制
+
+注: 在GB/'T 20438.3—2017 的表 A.2 中引用了本技术/措施
+
+目的:利用重试机制从一个已发现的故隐状况答试恢复功能。
+
+描述 :在发现一个改了区或老篆状况的事件中,通过重新执行同样的代码答试恢复。恢复重试可以二
+一次软件超时或者一次任务监视动作之后完整的重新引导和重新起动过程.或者是一次小的重新调度
+等)或者一个通信确认啊应时间超时来标记重试状况。
+
+Reliable Computer Systems: Design and Evaluation. D, P. Siewiorek. R.S. Schwartz. A. K. Peters
+Ltd..1998.ISBN 156881092X%,.9781568810928
+
+C.3.8 适度降级
+
+注: 7: GB/T 20438.3—2017 的表 A.2 中引用了本技术/指施.，
+
+目的:在失效时放乔比较不关键的一些系统功能以保持更天键的功能可用。
+
+描述 :本技术给出将被系统执行的各种功能的优先级,设计保证了了当执行上所有系统功能的资源不足
+时 ,将优先执行高优先级的功能.例如,差错和事件记录功能的优先级比系统控制功能的优先级低 ,在
+PETE OUR . 4928 Fic ae A AY HB fA Ae A BREED ,系统控制将继续进行。夯外,当系统欣制便件人妥生让
+障,而差错记录硬件并未出故障时,差错记录硬件将接管控制功能
+
+沪技术主要适用于使件但也适用于包人党软件的整个系统.从最上层设计阶段开始就必须考虑本
+TLR
+
+参考文献
+
+Towards the Integration of Fault. Resource. and Power Management. T. Siridakis. In Computer
+Safety. Reliability.and Security: 23rd International Conference, SAFECOMP 2004, Eds, Maritta Heisel
+et.al. Springer.2004.ISBN 3540231765 .9783540231769
+
+Achieving Critical System Survivability Through Software Architectures. J.C. Knight. FE. A.Strunk.
+Springer Berlin/ Heidelberg.2004.978-ISBN 3-540-23168-4
+
+The Evolution of Fault-Tolerant Computing. Vol.1 of Dependable Computing and Fault-Tolerant
+Systems-Edited by A. Avizienis. H.Kopetz and J.C.Laprie-Springer Verlag.1987.ISBN 3-211-81941-X
+
+Fault Tolerance, Principle and Practices. T, Anderson and P, A, Lee. Vol. 3 of Dependable
+Computing and Fault-Tolerant Systems.Springer Verlag.1987.ISBN 3-211-82077-9
+
+C.3.9 人工智能故障纠正
+
+注 1: 46 GB/T 20438.3一2017 的表 A.2 中引用了本技术/措施.
+
+目的:借助引信方法和过程模型的组合以及某种在线安全性和可和菲性分析,以便能用一种很灵活的
+方式应对可能的危险.
+
+摘述 :基于人工杀能(AD的系统将以一种很有效的方式,在一个系统的不同通道中文持故隐预测
+CUTE Ac RE ES) «tc ZY TE .维护和监控动作,因为规则可以从规范直接导出并可对照这些规范来榨验
+规则. 本方法,特别是当使用功能或者摘述形式的模型和方法的一种组全时,可有效地避免某些共同原
+因故隐,这些共因故阶是即使在考虑了某些设计和实现规则的前提下也会隐性引入的。
+
+为了满足要求的安全完整性 ,应这样选撞这些方法:即故耳可得到纠正:和失殖的影响将减到最小。
+
+注 2: 有天纠销竹据的晋香可参看0.3.2,关于本技术的值面音见可参看 GB/T 20438.3一2017 的表 A.2 YS 5项。
+
+al
+
+--- Page 66 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+小
+
+Fault Diagnosis: Models. Artificial Intelligence. Applications.]. Korbicz.]. Koscielny. 4. Kowalczuk.
+W.Cholewa.Springer.2004.ISBN 3540407677 .9783540407676
+
+C.3.10 动态再配置
+
+iE. 72 GB/T 20438.3一2017 的表 A.2 中引用了本技术/措施，
+
+目的:在有一个内部故障时保持系统功能，
+
+描述 :系统的逻辑摧构必须要能把它映射成系统可用资源的一个于集 ,结构要求能检测一个物理次
+源中的一次失效,然后重新把逻辑结构上映射回剩余的起作用的有限质源。虽然本概念传统上更多地局
+限于用来恢复有收障的配件单元,但如果有足够的"运行时邢余人允许一个软件重斌或者如有足够的元
+余数据使得单独的和隅离开的失效不重要的话,它也适用于有故了区的软件单元。
+
+在系统刀计的溃一阶段就必须考虑本拉术。
+
+Dynamic Reconfiguration of Software Architectures Through Aspects,C,Costa et al, Lecture Notes
+
+in Computer Science. Volume 4758/2007.Springer Berlin/ Heidelberg.2007.ISBN 978-3-540-75131-1
+C.3.11 实时安全和性能:时间和触发架构
+
+注 1: 在GB/'T 20438.3一2017 的表 AL2 中引用了本技术措施，
+
+目的:市可预训行为的关键实时系统的可组合性与容错的透明实现。
+
+摘述 :在一个时间租发厅构(CTTA)系统中,所有系统活动被发起并基于一个全局同步的时基进程。
+每修应用在时间甬发的总线被分配一个固定时间段,它包侣了每个应用工作之间的区换人信息,因此其只
+能根据确定的时间表来交换。在事件驱动的系统中,系统活动在不可预测的时间点被任意事件触发。
+TTA 的主要优点有(和参见参考 Scheidler,Heiner 等。) ，
+
+一一容错性的透明实现,使该浊构被吉度推存用于安全关键应用;
+
+一一提供一个全局同步的时基,有利于分布式实时系统的设计。
+
+订点之间的通信通过一个依据静态时间表的时间和触发协议 TTP / COOL 22) Kopetz. Hexel)实现，
+决定何时发送报文和接收到的报文是否与特定的电子醒块相关。对总线的访问通过一个来日全局时间
+概念的循环时分多址(TDMA)模式控制。
+
+TTP/C 协议保证(见参考 Rushby) TTA 的网络节点(参见参考 Kopetz,Bauer)的四个基本服务
+(核心服务) :
+
+确定性和及时报文传输:信息的传送在一个提前已知的时限内,从发送组件的输出端口至接收
+组件的输入痛口。通过时域防火增接口的时间和触发的通信服务提供了了容钳传输服务,它通过
+设计和最小化组件之回的确合消除了控制误差传播。在实时应用中,报文以最小延民和撑动
+
+一一容错时钟同步:通信控制器生成一个容错全局同步的时基(精度在几个时钟抖动内)提供给主
+失败节点的一致性诊断(会员服务) ;在不到一个TDMA 循环延久的时间内,通信控制希告知
+每个 SRU(C"最小的可替换的单元汶一个组中的其他每一个 SRU 的状态。
+
+一强大的故障隔离:一个恶意的故障主机子系统(包括它的软件)可以产生错误数据输出 ,但不可
+以以任何其他方式干涉一个TTPAC组的其余部分的正确运行。时域中的失败沉默通过通信
+控制锅的时间和触发行为人怀证，
+
+注 2: 其他时间和甬发协议包括 FlexRay 和 TT-Ethernet(时间和触发 Ethernet) 。
+
+58
+
+--- Page 67 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+小
+
+参考文献 :
+
+Time-Triggered Architecture (TTA). C, Scheidler. G. Heiner. R. Sasse, E. Fuchs, H. Kopetz, C,
+Temple.In Advances in Information Technologies; The Business Challenge. ed. JY. Roger. IOS Press.
+1998. ISBN 9051993854,.978905199385]
+
+A Synchronisation Strategy for a TTP/C Controller. H. Kopetz.R.Hexel. A.Krueger.D.Muillinger.
+A.Schedl,SAE paper 960120, Application of Multiplexing Technology SP 1157, Detroit, SAE Press,
+Warrendale. 1996
+
+The Time-Triggered Architecture, H, Kopetz.G, Bauer, Proceedings of the IEEE Special Issue on
+Modeling and Design of Embedded Software. October 2002
+
+An Overview of Formal Verification for the Time-Triggered Architecture. J. Rushby: Invited
+paper. Oldenburg.Germany.September 9-12.2002.Proceedings FTRTFT 2002.Springer LNCS 2469.
+2002 ISBN 978-3-540-44165-6
+
+C.3.12 统一建模语言CUML)
+
+it: TE GB/T 20438.3一2017 的表 B.7 中引用了本撤术”措施，
+
+目的:提供一组全面的符号用于建模复杂系统的所需行为。
+
+描述:UML ,顾名思义,是一个需求和说计符导的集合,为软件开发提供多面文持。，UML 的一部分
+是基于其他的方法中首先引入的符号(比如系统序列图和状态转换图) ,其他部分是独一无二的 UML
+符号。昌然一些可以使用的符号没有必要进行面癌对象编程,然而 UML 是十分人情问于面癌对象的概
+aso UML 由大量的商用CASE 工具支持:其中很多部是能够目动从 UML 模型生成代码.。
+
+最次遇适用于安全相关系统的规沁和设计的 UML 符号法如下 :
+
+用例;
+
+—— ii oI IAI
+
+—— AR AS $6 FRA) CIRAS FED ;
+
+一一系统厅列图.
+
+其他 UML 符扎法与软件碟构谤计(软件纺构)表达相关,这里没有有具体列出。
+
+B.2.3.2 中描述了了状态转换网,C.2.14 中撒述了了系统的厅列网.下面三个部分描述了了其他的符
+
+C.3.12.1 类图
+
+类图定义软件必须处理的对锭的类。 他们是基于早期的实体关系属性图,但适合于面癌对象设计.。
+每个类(其中将会有一个或多个实例在运行时作为已知对象)被表示为一个矩形,并且各种不同的类之
+间的关系用线或箭头表示。每一个类提供的操作或方法 ,每个类的数据属性,都可以添加到图表中。可
+避示的关系由它们的基数引用关系(A 类的一个实例可以引用一个或评多也类的实例)和于有可能的
+额外方法和属性的专业化的关系(类和 是一个类YY 的细化)组成。 可以描述多重继承。
+
+C.3.12.2 用例
+
+用例提供了啊应特殊情形的系统的期望行为的文本描述,其通笛来目外部参与者的观点,包括系统
+的人类用户和外部系统。给定用例的朗替子场景可以是用于表示可选的行为.尤其是在差错啊应用例
+中。 用例的集合被编制用来提供一个足侣完整的系统需求规范。使用条款可以是开发更严格模型的起
+点,例如系统的序列图和活动图.
+
+用例图提供了包舍在用例中系统和和参与着的形象化的表示:但是并不严桥,只有用例的文本部分对
+
+og
+
+--- Page 68 ---
+GB/T 20438.7—2017/IEC 61508-7:2010
+规范是重要的。
+C.3.12.3 活动图
+
+活动图显示了预期的由软件组件执行的动作厅列(通稼是在面回对旭设计中的一个对象) ,包括顺
+序和和迭代行为(某些方面看起来非常像一个流程图)。但是活动图允许并行描述对一系列组件的操作，
+SUMED S NMED 2  一个活动在开始之前必须等待来目其他活动的一个或多个辅入的同步品
+i       类人羽于佩特里(Petri) 网络节点的符号表示 。
+om,
+ISO/IEC 19501; 2005, Information technology—Open Distributed Processing—Unilied Modeling
+Language( UML) Version 1.4.2
+
+C4 FARTAMRBBS
+
+C.4.1 强类型编程语言
+
+注: 在GB/T 20438.3一2017 的表 A.3 中引用本技术/措施
+hock i at (8 HI OE Be TE WB RE SS CBP A SCE tt Hd Sg ee ae DE AT fey 。
+VR :当编谋一个强类型程序设计诸言时,对变量类型的使用进行许多检查 ,例如 ,在过程调用和外
+
+se teach atten nee 7 PO ae AU UU) AS) Jive FD. Sb A a RG Se SUB AB — SR FT
+
+iA AY OREN PETA SOP NS ag BE AS BP a CT SC eR SAY) ESD 8) BT SY 。
+Ws Je IFY Ac HEI 4A Ip TH 为了保证使用的类型正确应加强严格检查,即使程
+厅是由分离的编译单元建造的,整个程太都要实施这些检查 ,甚至当引用来目独立山幸的软件模块时，
+这些检查也能保证本数参数的数目和类型相匹配 。
+
+强糯型请言一般文持展好的软件工程实践的其他特征 ee a ee eee 如 if..then..
+
+else( 加:Ill] «++ +++ AR MM ess =") .do, while 4 +++++* Ai, files ++)       这些结构可产生良好的结构程序。
+强革型语言的由型例子是 Pascal. Ada 和 Modula2 。
+
+Concepts in Programming Languages. J. C. Mitchell. Cambridge University Press. 2008. ISBN
+0521780985 ,9780521780988
+
+C.4.2 语言子集
+
+注: 42 GB/T 20438.3一2017 的表 A.3 PSL FAR AN tah
+
+目的:为了减少引信程序设计故障的概计和增大检测任何残余故际的概率。
+
+摘述 :使用例如静态分析法检查诸言以鸽区分出易出错或难于分析的结构.然后定义一种排除这
+Lee RY ADT A SE
+
+参考文献，
+
+Practical Experiences of Safety-and Security-Critical Technologies,.P.Amev A.J. Hilton. Ada User
+Journal. June,2004
+
+Safer C;Developing Software for High-integrity and Safety-critical Systems. L. Hatton. McGraw-
+Hill. 1994,.ISBN 0077076400.9780077076405
+
+Requirements for programming languages in safety and security software standard. B. A.
+
+Wichmann.Computer Standards and Interfaces, Vol.14.pp 433-441.1992
+
+60)
+
+--- Page 69 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+C.4.3 经认证的工具和经认证的翻译亩
+
+iE: GB/T 20438.3一2017 的表 A.3 中引用了本技术措施。
+
+目的:在开发软件的各个阶段,工具对带助开发硼是有必要的。只要可能,三应认证这些工具使之
+能具有有关输出正确性的某种置信上度等级.。
+
+描述 :一般是由一个独立团体(通贡是国家级) ,对照单独设立的判据(生型地是国家或首国际标准)
+来认证一个工具,理想地,应认证使用于所有开发阶段(规范. 设计、编码.测试和确认)以及使用于配置
+管理的工具.。
+
+目前 ,通常只有编译(翻去)逢正式经过认证,它们由国家认证机构实施。并且它们根据国际标准
+Fe “das Bascal  的那些标准) OO ae ER CBE ae ET i
+
+22 VE PY LA 28 DHE A FP eee a iE 14> Te BPE on EE 7 ae VCE. — A FP
+jowie Ahh tend  SE fA] ATE
+
+参考文献 :
+
+The certification of software tools with respect to software standards. P.Bunyakiati et al.In IEEE
+International Conference on Information Reuse and Integration. IRI 2007, TEEE.2007.ISBN 1-4244-
+1500-4
+
+Certified Testing of C Compilers for Embedded Systems, O, Morgan, In; 3rd Institution of Engi-
+neering and Technology Conference on Automotive Electronics. IEEE.2007.ISBN 978-0-86341-815-0
+
+The Ada Conformity Assessment Test Suite(C ACATS).version 2.5, Ada Conformity Assessment
+
+Authority. http: ///www.ic.org/compilerstesting. html. Apr. 2002
+C.4.4 工具和翻译器:通过使用提高置信和度
+注; 在GEB/'T 20438.3—2017 的表 ALS 中引用了本技术/措施，
+ie OS he 8 FE FF Ae. rE A AE $2 — > ee EY a SB) PE BS cS | oY) EE oy DI aE
+Wok : FEFC ANTE ot A PHA AE ER Ee Fae ee as, BRAE A TE IE
+woes  -些其他保证(例如:参看C.4.4.1) ing ae oe, (A Pe A zs ie ee AT (BY
+
+在一个与安全相关的项目过程中,当翻译器存在微小缺陷时,记录下有关的语言结构并应小心避免
+使用这些结构.
+
+使用本措施的五一种方案是把培言的使用只限在帝用的特征。
+
+这些建议是根据许多项目的经验提出来的。不成见的翻诺融已显示出它对于任何软件开发痢是一
+个严重的隐人妹。它们使得开上故一个安全软件成为不可能 。
+
+事实上 ,目前不存在证明所有工具或者翻译大都正确的方法。
+
+C.4.4.1 源程序和执行代码的比较
+目的:为了检验用来产生一由 PROM(可 编程只读存储闫)上映像的工具未同产生的映像中引人和人任何
+
+H UR 。
+
+摘述 :为了得到成分 oe eee PROM PRR. FEC HE OT Be BE ee in EP IL SF SC
+CF. 使用适当的技术,把这些赣回生成的汇编语言文件同最初用来产生 PROM 的实际源文件进行
+比较。
+
+本技术的主要优点是,用于产生 PROM 映像的工具(编译髓.连接天等)不必针对所有程序进行确
+认。本拉术可验证用于特定安全相关系统的源文件的转换的正硝性。
+
+6]
+
+--- Page 70 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+小
+
+参考文献 :
+
+Demonstrating Equivalence of Source Code and PROM Contents.D.J.Pavey and L.A. Winsborrow.
+The Computer Journal Vol.36.No.7.1995
+
+Formal demonstration of equivalence of source code and PROM contents:an industrial example.D,
+J.Pavey and L. A. Winsborrow. Mathematics of Dependable Systems. Ed.C. Mitchell and V.Stavridou.
+Clarendon Press,.1995,.ISBN 0-198534-91-4
+
+Assuring Correctness in a Safety Critical Software Application. L.A.Winsborrow and D.J. Pavey.
+
+High Integrity Systems, Vol,1.No.5.pp 453-459.1996
+C.4.5 合适的编程语言
+
+注, 7E GB/T 20438.3—2017 的表 ALS 中引用了本技术措施。
+目的:为了斥可能多地文持 GB/T 20438 的要求,特别是在防咎性编程.组类型编程.结构化编程
+或许还有上断言编程中,所选编程博言急于产生一个便于验证的代码并有助于程序的开发.验证和维护。
+FIA :应充分地 .清楚地定义该请言。该语言应是面问用户或问题的而不是面癌处理机/平台的机
+衣二言。广沁使用的语言或它们的子集比专用博言更好。
+除了已经提到的特征之外,该语言应提供 :
+一一程序块纺构;
+一一翻译时检查 ;和
+一一运行时甘型和数组越界检验 ，
+7AStH A MA
+—— {it A 7) 9 AND) ee SY RP BERR
+一一专用软件模块中数据访问的限制:
+恶量子范围的定义;和
+一一任何其他类型的防错构造。
+如宁系统的安全运行与实时约束有关,那么,二言还应提供异凋/中断处理。
+
+需要用一个适当的翻译器、合适的预存软件模块库 .一个调试程序和一些工具(用于版本控制和开
+发两方面)来文持博言。
+
+当前 ,在开发 GB/T 20438 时 .还不清楚面向对象的语言是否比其他传统的语言更好。
+使验证困难并因此应避免的特征包括:
+
+一一除子程序调用外的无条件转移;
+
+1 A
+
+Seb ,堆或任何类型的动态变量或对象;
+
+在源但级的中断处理;
+
+一一循环 .程序块和子程序的多人口和多出口 ;
+
+息式变量初始化或声明 ;
+
+变体记录及其等效性;以及
+
+一一过程参数，
+
+低级语言 ,特别是汇编语言 ,存在因它们面向处理机/平台机的固有特性产生的问题 。
+
+一种要求的语言属性是它的设计和使用应产生执行绩果可预知的程序.笃定一种适当定义的编程
+语言时,就存在一个能保证可预测程序执行结果的子集。(一般)不能统计地确定这个子集,然而许多静
+态约束有助于保证执行的可预测性。典型地,这需要证明数组索引是在限界之内以及不会发后数字洪
+出等。
+
+表C.1 给出了建议的具体的编程语言。
+
+62
+
+
+--- Page 71 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+参考文献，
+
+Concepts in Programming Languages. J. C. Mitchell. Cambridge University Press. 2003. ISBN
+03521780985 9780521780988
+
+IEC 60880;2006.Nuclear power plants—Instrumentation and control systems important to safe-
+ty—Soltware aspects for computer-based systems performing category A [functions
+
+GB/T 15969.3一2005 AL SHRERR Pil ae 第3部分:编程声言
+
+ISO/TEC 1539-1:2004. Information technology—Programming languages—Fortran—Part |: Base
+language
+
+ISO/TEC 7185:1990.Information technology—Programming languages—FPascal
+
+ISO/TEC 8652:1995. Information technology—Programming languages—Ada
+
+GB/T 15272—1994 程序设计语言C
+
+ISO/TEC 10206:1991.Information technology—Programming languages—Extended Pascal
+
+ISO/TEC 10514-1; 1996, Information technology Programming languages Part 1: Modula-2,
+Base Language
+
+ISO/TEC 10514-3;1998.Information technology—Programming languages—Part 3; Object Orien-
+ted Modula-2
+
+ISO/TEC 14882;2003,Programming languages——C+ ~
+
+ISO/TEC/ TR 15942; 2000, Information technology—Programming languages—Guide for the use
+
+of the Ada programming language in high integrity systems
+
+&C.1 具体的编程语言的建议
+
+Te
+
+4 FAL FREY Java(不包含无用单元收集;或包含不引发应用代码明显停止的|
+无用单元收集)。兄附录 G 面向对象的安全相关软件开发指南
+
+5 PASCALGBIER D                     we {we | ef a
+7 FORTRAN7                       mee pe pe
+
+具有子集的FEORTRAMNT77                                             Hk     Hk     HR     Hk
+
+.                        R     NR  NR
+且有子集和编码标准并使用静态分析工具的CC          HR | HR HR
+
+11 CT上(兄附录 G 面向对象的安全相关软件开发指南)        PR | NR NR
+12 Ly 4S ASE HE SE ES TL C+ BSG 面向对象设
+施使用指南)
+
+Hk           Ak           Hk           Hix
+
+14 具有子集和编码标准的汇编程序
+
+16 具有定义的语言子集的梯形图                   Se ee Pe
+
+17 功能框图
+
+63
+
+--- Page 72 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+% C.1 (22)
+
+18 BAe ZA A DHEA                             HR    HR    HR    HR
+
+20) Boa se Ma a Pf as
+21 顺序功能图
+
+HR.R,— Al NR #E GB/T 20438.3一2017 的附录 和中作了说明，
+系统软件包括作为系统组成部分而本 置的操作系统.驱动程序.亿人功能和软件模块,典型地,软件由安全
+相关系统卖方提供，家小心选择语言子集以避免可能引起实现总障的复水结构。宜检查语言子集使用是
+否得当。
+: 应用软件是为专门的安全应用而开发的软件.在许多情癌下.由最终用户或者一个面回应用的孙包商开
+发软件。当同一建议有许多编程语言时,开发者宜选择在工业或工厂中人们和常用的那一种。宜仔细选择
+孟言子集以避饮可能会引起实现改际的复录结构。家检查语言子集使用是否得当，
+: 如果在表中未列出一种具体的语言,绝不能认为它被排除在外了。它宜符合 GB/工20438 ，
+: Hits Pascal BAW HE. dG Free Pascal.和参考包插这些扩展的 Pascal.
+: Java 设计有一个运行时无用单元收集着。 Java 的于集可以被定区不南要无用曲雹收集。 一些 Java SE BLE
+供了先进的无用单元收集 ,它们在程序执行时释放空亲内存,从而阻止当设有可用内存时执行停止一段时
+加。伍实时的应用不宜伍用任何形式的无用单元收集。
+注7: 如果 Java 实施要求实时 Java 中间代码的翻译,那么翻译各必须视为安全相关软件的一部分,并且被视为与
+GB/T 20438.3一2017 的要求一致
+注8: 表项 15-24.见IEC 61131-3 。
+
+C.4.6 自动软件生成
+
+it: GB/T 20438.3一2017 We 入.2引用了该技术 措施.
+
+目的:使更易于出错的软件实现的任务目动化。
+
+描述 :系统用一种比传统执行但更再层次的抽旭人恒型(一个可执行规范)朱述。槐型被一个代但生
+成角目动转换成可执行形式。 目的是通过消除多出钞的 了本癌生生玉昌二软作的质证  更进一步的
+潜在好处是,更复杂的设计可以在更高抽象层次进行。
+
+Embedded Soltware Generation from System Level Design Languages,H Yu,R.Domer.D.Gajski.
+In “ASP-DAC 2004; Proceedings of the ASP-Dac 2004 Asia and South Pacific Design Automation Con-
+ference. 2004”, IEEE Circuits and Systems Society. IEEE.2004,.ISBN 0780381750 .9780780381759
+
+Transforming Process Algebra Models into UML State Machines; Bridging a Semantic Gap?.M.F.
+van Amstel et.al.In Theory and Practice of Model Transformations: First International Conference. IC-
+MT”. ed. A. Vallecillo.Springer.2008 .ISBN 3540699260.9783540699262
+
+C.4.7 ”测试管理和自动化工具
+
++. GB/T 20438.3一2017 的表 A.5引用了该技术/措施
+64
+
+--- Page 73 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:七励系统的和全面的方法进行软件和系统测弃.
+
+描述 :使用合适的冯持工具在系统开发中机械化施动密集且易出错的任务,并且市来测试管理的系
+统化方法的能力。文持的可用性有有吉于更彻展的正规测试和回归测试的方法。
+
+Managing the Testing Process:Practical Tools and Techniques for Managing Hardware and Soft-
+
+ware Testing. R.Black.John Wiley and Sons.2002.ISBN 0471225980.9780471223986
+
+C.5 验证和修改
+
+C.5.1 概率测试
+
+注: 在GB/'T 20438.3一2017 的表 A.5.表上C.15.表 ALT MR C7 中引用了本技术/措施。
+目的:为了得到被研究软件的可徘性属性的定量数值。
+Fats :该方法产生软件可秆性的统计合计:该定量数值考虑到了有关的置信和度等级和显者性并能
+每一要求的一个和失效概率;
+在革一时段的一个夫歼丢率:和
+从这些数值可导出其他一些参数 ,比如:
+
+无失效执行的概率;
+ny APE
+一MTBF(平均失效间隔时间)或者失效率;以及
+
+概率考虑是以概率测试或操作经验为基础的。通向,测试用例或者观察的操作用例数目都很大。
+血型地,要求运行模式的测试占用的时间比连续运行模式测试占用的时间少得多 。
+
+-般使用目动测试工具来提供测试数据和监控测试葵出。大量的测试要在具有适合过程梗拟外围
+投备的大型主计算机上运行。根据系统和随机使件两种观点来选择试验数据。例如,整体测试控制保
+证了一个测试数据分布,而随机选择能管理各个测试用例的细闻 。
+
+如上所述.各个测试的工具 .测试执行和测试监控由详细的测试目的确定。其他重要条件由数学前
+提给出.此数学前提是在测试评价满足预定测试目的时必须满足的。
+
+有关任何测试对象行为的概率数值还可从操作经历导出,倘知满足同样的条件 ,评价测试结果就可
+使用同样的理论.
+
+实际上.很癌的可乱性很难通过这些技术证明.
+
+参考文献，
+
+A discussion of statistical testing on a safety-related application. S Kuball.] H R May. Proc
+IMechE Vol.221 Part O:J.Risk and Reliability.Institution of Mechanical Engineers. 2007
+
+Estimating the Probability of Failure when Testing Reveals No Failures. W.K.Miller.L.J.Morell.
+et al. IEEE Transactions on Software Engineering. VOI18.NQO.1.pp33-45.January 1992
+
+Reliability estimation from appropriate testing of plant protection software.J.May.G. Hughes. A.
+D. Lunn. IEE Software Engineering Journal.vl0 n6 pp 206-218.Nov 1995CISSN :0268-6961)
+
+Validation of ultra high dependability for software based systems. B, Littlewood and L., Strigini.
+Comm,ACM 36(11).69-80,1993
+
+--- Page 74 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+C.5.2 数据记录和分析
+
+iE; 在GB/T 20438.3一2017 的表 ALS 和表 ALS 中引用了本技术/措施。
+
+目的:为鸽验证.确认.评估和维护较容易 ,软件项目中的所有数据,判定和基本原理午编成文档.
+
+描述 :在一个项目期间 ,保持详细的记录文档,该文档包括 :
+
+一一对每个软件模块执行的测试;
+
+一一判定和它们的基本原理
+
+一一问题和解决办法 ，
+
+在项目进行过程中和结束时,可分析这个文档以便建立各种各样的信息.特别是当开发项目期间
+作出某些判定的基本原理还不为维护工程师所知时,数据记录对计算机系统的维护是很重要的。
+
+Dependability of Critical Computer Systems 2.F.J.Redmill. Elsevier Applied Science. 1989.ISBN
+ISBN 1851663819.9781851663811
+
+C.5.3 接口测试
+
+注: 在GB/'T 20438.3一2017 的表 ALS 中引用了本技术措施.
+目的:为了检测子程序接口中的错误。
+描述 :测试的详细程度或者完整性分成几级是可行的。最重要的一些级别是对下列量的测试:
+一一处于它们的极限值的所有接口变量:
+一一分别处于它们的极限值的所有接口变量,以及处于额定值的另一些接口变量;
+遍历其范围内所有值的单个接口变量,以及处于额定值的其他接口变量;
+一一组合(只有简单接口这种组合才是可行的)中的所有变量的所有值;
+一一与每个子程序的每次调用有关的规定的测试条件。
+当接口不包括检测错误参数值的断言时,这些测试是特别重要的。在对已有子程序生成新配置后，
+
+C.5.4 边界值分析
+
+注: 在GB/'T 20438.3一2017 的表 B.2.表 B.S 和表 B.8 中引用了本技术措施，
+
+目的:为了检测发生在参数极限值或边界值处的软件错误 。
+
+描述 :根据等价关系(和参看 C.5.7)把程序的输入范围分成符干输入类别。 测试应包括这些类的边界
+值和极限值.。 测试将检查和程序中规范一致的规范的输入域的边界。在直接和间接翻译中使用值零通
+Fi Oa tH Fan TP or AP NE
+23 A ASC II 字符;
+
+—— Fi FB HE
+
+i AY. aA A Fe Bee i a FE A FE a Se a hl AE A PR ee
+应考虑是否有可能规定一个能使输出超过规范边界值的测试用例.
+
+如果输出是一个数据序列,例如一个打印的表,应特别注意第一个和最后一个元紊以及不包合元
+系 .只包全一个和两个元素的表 。
+
+The Art of Software Testing,second edition,G.J.Myers. T. Badgett. T. M. Codd, C, Sandler. John
+
+G6
+
+
+--- Page 75 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Wiley and Sons.2004.ISBN 0471469122 .9780471469124
+
+C.5.5 ”和销误推测
+
+注: 在GB/'T 20438.3一2017 的表 B.2 和表 B.8 中引用了本技术措施.
+
+A AY: YS 7A a Ae UL AS Sh BE a DR
+
+描述 :测试经验和直觉,结合对被测系统的认知和兴趣,可把一些未分类的测试用例附加到计划的
+测试用例集上。
+
+特殊的值或痢伍的组合吻出错。可以从审查检查表得出未些感兴趣的测试用例，也要考虑系统是
+AP EMS HEAL, Bi ON. CE tin ie be Fe Fe EHR a AR FE? 同时按两个控钮会发生什么情况?
+
+The Art of Software Testing.second edition,G.J.,Mvyers. T, Badgett. T, M.Codd.C, Sandler. John
+Wiley and Sons.2004,ISBN 0471469122.9780471469124
+
+C.5.6 ”错误播种
+
+注: 在GB/'T20438.3一2017 的表 B.2 中引用了本技术,措施，
+
+目的:为了和弄清一组测试用例是否充分。
+
+描述 :在程夯中插人(播种)一些已若类型的错误并在测试条件下执行测试用例程序。如只发现播
+BPA ab op fee se ,测试用例集十不合迁的。发现的播种稍放与播种的钳旗总数之比可用来佑自和真实的发
+现的错误与错误总数之比。它给出估算剩余错误数的可能性并因此也给出了剩余的测试工作.
+
+发现的播种错误”真实的发现错误
+
+榨测到所有播种的钳误始可能反映测试用例集是合适的,也可能反映播种的氏误太容易发现了。
+本方法的局良性在于要想得到可用的纺未,销旋的尖型和播种的位置必须反映真实销三的统计分布
+Tait 。
+
+Software Fault Injection: Inoculating Programs Against Errors. J. Voas. G. McGraw. Wiley
+Computer Pub. .1995.ISBN 04711863614.9780471183815
+
+Faults. Injection Methods-.and Fault Attacks.Chong Hee Kim.Jean-Jacques Quisquater. IEEE De-
+sign and Test of Computers. vol,24.no0,6.pp.544-545. Nov. .2007
+
+Fault seeding for software reliability model validation. A. Pasquini. E.De Agostino. Control Engi-
+
+neering Practice. Volume 3.Issue 7.July 1995.Elsevier Science Ltd
+
+C.5.7 ”等价类和输入划分测试
+
+注; 在GB/'T 20438.3一2017 的表 B.2 WIZE B.S 中引用了本技术措施，
+目的:为了使用最少的测试数据充分地测试软件。通过选择考验软件所需的输入苑围的分区来得
+到测试数据 .
+
+摘述 :本调试各略是以输入的等价关系为基础的:该关系确定了输入邯围的一个划分。
+
+为了团盖早先规定的所有划分,应对测试用例进行选择。从每个等价类至少要选一个测试用例，
+
+对于输入划分存在两种基本的可能性,它们是:
+从规范得出的等伏茯    规范的解释既可是面回输入的,例如选择伍按相同的方法进行,也可
+以是面问输出的,例如值的集合产生相同的功能结果。
+
+一一从程序的内部结构得出的等价类    从程序的静态分析确定等价类续果,例如值的集合产生
+间样的执行路径 ，
+
+67
+
+--- Page 76 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+小
+
+参考文献 :
+
+The Art of Software Testing. second edition.G.J.Myers. T. Badgett. T. M. Codd. C. Sandler. John
+Wiley and Sons.2004,ISBN 0471469122.9780471469124
+
+Software engineering: Update. Ian Sommerville. Addison-Wesley Longman. Amsterdam; 8th ed..
+2006,ISBN 0321313798.9780321313799
+
+Software Engineering, lan Sommerville, Pearson Studium, 8, Auflage. 2007. ISBN 3827372577,
+9783827372574
+
+Static Analysis and Software Assurance. D, Wagner, Lecture Notes in Computer Science, Volume
+
+2126/2001.Springer,2001,ISBN 978-3-540-42314-0
+C.5.8 基于结构的测试
+
+注: 在GB/'T 20438.3一2017 的表 B.2 中引用了本技术措施，
+
+日的:为了使用考验某些程序结构子集的测试。
+
+摘述 :在程序分析的基础上,选择一组输入数据,从而可考验大部分(并且稍第是预定的目标)程邱
+代码。代但履兰挛的措施取雇于要求的严格度,如下所示。在所有情况下,应以 100% BY He ae AY A Be
+如条不可能实现 100中的缆兰率,不能实现 100攻攻盖率的原因应记录在测试报告中(例如,如果便件问
+题出现 ,才能进人防御性代码)。下列列表中的前四种技术在 GB/T 20438.3一2017 的表 B.3 中被特别
+提到并且被测试工具广这文持:剩余的技术也应该考虑。
+
+一一入口点(调用图表)覆盖率:确保每个子程序或函数至少被调用一次(这是最不严格的结构覆盖
+
+度量)。
+
+注: 在面回对过的语言中:可以有多个同名的子程序:子程序适用于一个多六类型的不同变种(重新是攻的子程
+
+Pp) ,这种灶型可以通过动态调度来调用.在这些情况下每一个这样的重新定交的于程序都家进行测试，
+
+一一语句 :确保所有代码中的语句都至少被执行一次。
+
+一一分文:应检验每个分文的两边。对某些类型的防御性代码这可能是不实际的。
+
+一一复台条件:考验一个复台条件分支(即用 AND (与)/OR (或?链接的)的每个和条件。参看
+
+MCDC(修改的条件判定缆新 ,参考 DO-178B) 。
+
+一一LCSAJ :一个线性代码序列和转移(LCSAJ)是包括条件语名和用一个转移缮东的任何代码请
+名序列。 由于执行早期代码强加给输入数据的约东,评多淤在的子路径是不可行的。
+
+一一数据流:根据数据的使用情况选择执行路径， 例如,一条路径中同一变量既被读又被写 。
+基本路径:从开始到结东的一个有限路径的最小集合中的一条路径,因此包括所有引线. (在
+这个基本集合中路线的重登式组人台可形成通过程序那一部分的任何路径),已经显示出,所有
+基本路径的测试对查找错误是有效的。
+
+The Art of Software Testing. second edition.G.J.Myers. T. Badgett. T.M.Codd.C. Sandler. John
+Wiley and Sons.2004.ISBN 0471469122 .9780471469124
+
+Software engineering: Update. lan Sommerville. Addison-Wesley Longman. Amsterdam; Sth ed..
+2006-.ISBN 0321313798 .9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium. 8. Auflage. 2007. ISBN 3827572577.
+9783827372574
+
+RTCA. Inc. document DO-178B and EUROCAE document ED-12B. Software Considerations in
+
+Airborne Systems and Equipment Certification.,dated December 1.1992
+C.5.9 控制流分析
+
+注: 4 GB/T 20438.3一2017 的表 B.S 中引用了本技术措施，
+68
+
+--- Page 77 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:为了检测关的和有谐在条旋的程序搞构。
+
+描述 :控制流分析是查找代码可疑区的一种静态测试技术,该代码的可疑区并不遵循好的编程作
+法。对程序进行分析可产生一个有辐图,此图能进一步分析，
+不可访问的代码,例如无条件转移,它留下执行不到的代码块.
+打擅的代但:民搞构代但有一个可和商化的控制图,该代码能商化成一个单和点。相反 2
+代码只能简化成几个节点构成的一个结
+
+Software englineering:Update.Ian Sommerville. Addison-Wesley Longman. Amsterdam; 8th ed..
+2006 ,1SBN 0321313798 ,9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium. &. Auflage. 2007. ISBN 8827572577.
+
+9783827372574
+
+C.5.10 ”数据流分析
+
+注: 4 GB/T 20438.3一2017 的表 B.S 中引用了本技术/措施，
+
+目的:为了检训差的和有兹在知误的程序绩构。
+
+摘述 :数据流分析是一种静态测试技术 ,此技术把从控制流分析得到的信息同在各代码分区中读或
+写的变 ee tate astkttgeiein.
+
+在给   量赋值之前读出的那些变量  可以通过声明一个新变量时总是分配给它一个值来避
+在读之前多次写的那些变量   这可指示省略的代码 。
+
+一一只写而决不会读的那些变量一一这能 人人人
+
+一个数据流的异稼结构不一定直接相应于一个程序错误,但如果避免了这种异常:代码就很少包合
+
+Software engineering; Update. lan Sommerville. Addison-Wesley Longman. Amsterdam; 8th ed.，
+2006.ISBN 0321313798 .9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium. 8. Auflage. 2007. ISBN 3827572577.
+9783827372574
+
+C.5.11 符号执行
+
+注: 在GB/'T 20438.3一2017 的表 B.S 中引用了本技术措施，
+
+目的:为显示源码和规范之间的一致性
+
+FAS :在所有赋值中,在用右值符换左值之后再评价程序变量。双件分文和循环翻译成布尔(Bool-
+ean)和表达式。最后纺末是每个程序变量的一个符与表达式。如林给定员实的数据,该才达式是程序将
+要计算的值组成的公式，可对照预期的表达式来检验它
+
+竺所执行的相关使用是作为一种系统化的方法:  通过程序   逻辑路径来生成测试数据。竺扎执行设
+备可能被合并和一个集成的工具中 ,来为软件组件测试和代码分析提供一种工具-。
+
+Using symbolic execution for verifying safety-critical systems. A.Coen-Porisini.G. Denaro.C.Ghez-
+zi. M,Pezzé.Proceedings ol the 8th European soltware engineering conference.and 9th ACM SIGSOFT
+international symposium on Foundations of software engineering. ACM.2001.ISBN:;1-58113-590-1
+
+Using symbolic execution to guide test generation.G. Lee. ]. Morris. K. Parker. G. Bundell. P. Lam.
+
+In Software Testing. Verification and Reliability. vol 15.no 1.2005.John Wiley & Sons,Ltd
+649
+
+--- Page 78 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+C.5.12 ”形式化证明(验证)
+
+i$, #6 GB/T 20438.3一2017 的表 ALS Se ALO 中引用了本技术”措施。
+
+目的:使用了理论和数学模型及规则 ,证明程序针对其革种抽象檬型 a
+
+Fi AS = WN) Goh oe — Be ETE AE Le PATTI. SE Ba (Eo A BE Ae AY ey AE ad A CG SE ES AY
+WM ist. lite Rey — pb op 8) HE BY Be A ae OE Re, PAR tice wnt  算于一个程
+序的数学表示.为所有可能的输入来建立确定的程序的运行状况
+
+系统的形式化验证要求使用精确数学会多的语言描述的一个程序及其所需行为(即 LV) te
+俩型。这个规范可能是完整的,或者它可能家限定到特定的程序属性:
+
+一一功能正确性属性,即程序应当显示一个特定的功能;
+
+安全(即一些不好的运行状况永远不会发生)和活性(即一些好的运行状况最终会发生)属性:
+
+一一时间必性,即一些运行状况将在特定时间发生。
+
+形式化验证的结果是一项严密的论证:针对所有可能的输入,与该规范有关的程序的抽象模型是正
+确的。即模型满足特定的属性，
+
+但是,该模型的正确性并不直接证明实际程序的正确性,需进一步说明 :针对关， 的属性,该模型是
+一个实际程序的精确抽象。一些实际关心的程序属性不能以数学方法形式化(例如大多数计时和调度
+或主观的属性.例如"清晰而商单的"用户接口 ,或彰确实不饭用形式化语言表达的任何属性或访计目
+标)。因此形式化验证不会完全皮代模拟和测试,而是针对所有的输入,通过提供进一步的证据来文持
+程序的正确运行来补充这些技术。当形式化验证可以确保程序的抽象模型的正确性时,通过测试来保
+
+在设计阶段 ,形式化豆证的恒用可能通过在说计阶段隐早期发现重大错误和巩忽来大大减少开发
+时间,从而减少了设计与测试间达代的时间.
+
+一些实际应用中的形坏化方法在 C.2.4 中有擂述:例如,CCS,CSP,HOL,LOTOS,OBJ .时序逻辑，
+VDM 和 Z.
+
+C.5.12.1 模型检查
+
+本型检查是一种方法,这种方法是针对反应的和并发的系统的形陈化验证.给定一个有限状态疆
+构 ,该结构描述了了系统的运行状疯。 如果一个写成时序逻辑公起形式的属性保持或不违反该结构 ,则该
+属性得到了检查。高效算法(如,SPIN、SMV 和 UPPAAL) 被用于上自动地和全面彻底地遍历结构的整
+个状态。当属性不能维持时 ,束生成一个反例。它显示在结构中属性是如何被违反的,以及用于调查系
+统的非常有用的信息。模型检查可以检测传统检查和测试无法发现的"这层配陷”。
+
+要注意,在分析精细复漆性方面,模型检查是有效的。其在一些低 SIL 应用方面可能有效,但是如
+果精细复杂性存在于高 SIL 应用程序中,则需要小心。
+
+参考文献
+
+Is Proot More Cost-Effective Than Testing’, 5, King. k, Chapman, J, Hammond. A, Pryor, IEEE
+Transactions on Software Engineering. vol.26 no.8. August 2000
+
+Model Checking. E. M. Clarke. ©. Grumberg. and D. A. Peled. MIT Press. 1999. ISBN
+0262032706 9780262032704
+
+Systems and Software Verification; Model-Checking Techniques and Tools.B,Berard,M.Bidoit. A,
+Finkel. F. Laroussinie. A, Petit. L. Petrucci. Ph. Schnoebelen. and P. Mckenzie. Springer. 2001.ISBN 3-
+940-41323-8
+
+Logic in Computer Science: Modelling and Reasoning about Systems.M. Huth and M. Ryan.Cam-
+bridge University Press.2000.ISBN 0521652006 .0521656028
+
+0)
+
+--- Page 79 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+The Spin Model Checker: Primer and Reference Manual.G.J Holzmann. Addison-Wesley. 2003.
+ISBN 035212286626 .9780321228628
+
+C.5.12.2 (7B
+
+C5.13 复杂性度量
+
+注: fe GB/T 20438.3—2017 的表 B.9 与表C.19 中引用了本技术/措施。
+
+目的:为了从软件本号的属性或着从它的开发史或首测试史预测程序属性。
+
+撒述 :这些神型评价软件的菏些纺构属性,并把它同一个硕望的属性(比如可菲性或者复习性)联系
+
+起来。 这些措施中的天部分需要使用软件工具评价。 下面给出了可以使用的一些度量:
+图形理论复录性一一本度量方法可用于生命周期的初期进行比较评估 ,它以程序控制图的复
+录性为基础:复杂性用它的圈复潍度(cyclomatic number)来表示 。
+
+一一局动某个软件模块的方式数(可访问性)一一一个软件模块越多被访问 ,就越可能得到调试。
+Halstead (ap “15 0p 15 fis) HY BE tee    这种措施通过统计操作符和操作数来计算程序长度. 它
+提供了复杂性和长度的一种量度 ,它为佑算今后开发资源时作比较提供了一个基准。
+
+BET ARP RE BEN A F/T a      He’) 4G A fi Fe Bile 2 PY TT A Sh EM AR PE
+特征 。
+
+Metrics and Models in Software Quality Engineering. S. H. Kan. Addison-Wesley. 2003. ISBN
+
+0201729156 .97802Z01729153
+
+C.5.14 形式化审查
+
+注: 在GB/T 20438.3一2017 的表 B.S 中引用了本技术/措施，
+
+目的:为了揭示软件组件的巷隐。
+
+描述 :形式化审查是一种审查软件材料的结构化过程:它由制造材料之外的人执行,来找出缺陷和
+确保制造者改进材料。 除了在熟悉阶段为审查者提供简要说明 ,被审查者不应参加审查过程。 形式审
+查可能被执行在软件开发生命周期的任何阶段的特定软件组件上
+日程应该准备好。基于所需软件组件的属性,进入和退出的准则应该明确。进人的准则是在审查发生
+前必须满足的准则或要求. 退出的准则是完成特定的审查过程所必须满足的准则或要求 .
+
+在审查中,审查的调查结朱应该被仲裁人正式记录,仲裁人的任务是为了促进审查。 所有的审查人
+员应该达成调查结果的一致，缺陷应该被归类于 a)在验收前震要改正:或b)通过给定的时间/里程碑
+实现需要的改正。在完成审查之后,被识别的埠陷应该明确指派改正缺陷的被审查者。 依赖于被识别
+的缺陷的数目和范围,仲裁人可以确定是否有必要对软件材料作进一步审查 .
+
+Sottware engineering; Update, lan Sommerville. Addison-Wesley Longman, Amsterdam; &th ed.，
+2006, ISBN 0321313798 ,9780321313799
+
+Software Engineering, lan Sommerville. Pearson Studium,. 8, Auflage. 2007, ISBN 3827372577,
+9783827372574
+
+The Art of Software Testing. second edition,G.J.Myers, T. Badgett. T. M. Codd, C, Sandler. John
+Wiley and Sons.2004.ISBN 0471469122.9780471469124
+
+Fagan.M.Design and Code Inspections to Reduce Errors in Program Development.IBM Systems
+Journal 15 ,3(1976):182-211
+
+--- Page 80 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+C.5.15 走查(软件，
+
+it: 42 GB/T 20438.3一2017 的表 B.8 中引用了了本技术措施，
+
+日的:揭示规范和实现之间的善异
+
+fii AS :走查是一种非形式化的技术,是由软件组件的制造者在有他人在场的情况下实行,目标是发
+现软件组件中的身陷。走查可在软件开发生荫周期任何阶段产生的特定软件组件上执行。
+
+安全相关系统规定的功能被检查和评估 ,来确保安全相关系统遵守在规范中的给定的要求。 任何
+
+与产品的实现和使用相关的疑点要记录下来,这样这些疑点就可能得到解决。与形亏化审查相比,在走
+查程序中作者是积极的。
+
+Software engineering: Update. Ian Sommerville. Addison-Wesley Longman. Amsterdam; 8th ed..
+Z006.1ISBN 0521313796.97803213135799
+
+Software Engineering, lan Sommerville. Pearson Studium, 8 Auflage. 2007. ISBN 3827372577,
+9783827372574
+
+The Art of Software Testing. second edition.G.J.Myers. T. Badgett. T. M. Codd. C. Sandler. John
+Wiley and Sons.2004.ISBN 0471469122,9780471469124
+
+C.5.16 设计复审
+
+注: 在GB/T 20438.3一2017 的表 B.8 中引用了本技术/措施
+
+目的:揭示软件设计中的碳陷。
+
+描述 :设计复审是一个形式化的,文档化的,综合的和系统性的软件设计检查 ,来评佑设计要求和设
+计能力以满足这些要求并确定问题及建议解决方案 。
+
+设计复审提供了一种方法来评价针对输入要求的设计状态,也提供了一种鉴定进一步改进的机会
+的方法。 随肴生命岂期活动的进展.以及主要许细设计到达一个里程碑时 ,应实施设计复审来复审所有
+的接口方面,确保设计能被验证以确保设计满足要求. 这样一个回题主要是为了验证设计者的工作并
+且应该被视为是一种证实和精细化的活动。
+
+参考文献
+
+Soltware engineering; Update, lan Sommerville. Addison-Wesley Longman. Amsterdam; Sth ed.，
+2006.ISBN 0321313798 .9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium,. 8 Auflage. 2007.ISBN 3827372577.
+9783827372574
+
+The Art of Software Testing. second edition.G.J.Myers. T. Badgett. T. M. Codd. C. Sandler. John
+Wiley and Sons.2004,.ISBN 0471469122 .9780471469124
+
+IEC 61160:2005.Design review
+
+Space Product Assurance.Sneak analysis—Part 2:Clue list. ECSS-Q-40-04A Part 2.ESA Publica-
+tions Division. Noordwijk.1997,ISSN 1028-396X. http: //www.everyspec.com/ ESA/ECSS-Q-40-04A4 _
+Part-2_14981/
+
+C.5.17 ”原型设计/动画
+
+注: 在GB/'T20438.3一2017 的表 B.3 MZ B.S 中引用了本技术措施.
+目的:为了根据给定的约束榨得实现系统的可行性。为了把系统的规冰人制定彰的理解传送给用户
+描述 :选择系统功能.约束和性能要求的一个了于集。便用高级工具建立一个原型，在这一阶段,不
+
+iz
+
+--- Page 81 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+需要考虑比如目标计算机.实现语言 .程序规模.可维护性 .可笔性和可用性这些约训。对照用户判据来
+评价原型并且通过这种评价来修改系统要求。
+
+Software Engineering for Real-time Systems. J. E. Cooling. Pearson Education. 2003. ISBN
+0201596202 .9780201596205
+
+C.5.18 Witte
+
+注: 76 GB/T 20438.3—2017 的表 ALT. C.7.# B.3 和表C.13 中引用了本技术/措施。
+
+目的:为了在无实际使用环境的情况下 :测试一个软件系统的功能及系统与外界的接口。
+
+描述 :建立一个系统,该系统只用于测试目的,它模拟受控设备(EUC)的行为。
+
+仿真可以只是软件或者是软件和硬件的组合。它必须:
+
+一一提供输入,这些输入等同于实际安痛受探设备时存在的输入。
+
+忠实代表受控说备,对被测软件的输出做出啊应
+
+一一提供操作员输入的条件,以提供被测系统所必须应对的干扰。
+
+当正在测试软件时 ,仿真可以是囊有它输入和输出的目标便件的仿真 。
+
+EmStar: An Environment for Developing Wireless Embedded Systems Soltware.] Elson et al. ht
+tp: //cens.ucla.edu/ TechReports/9_emstar.pdf
+
+A hardware-software co-simulator for embedded system design and debugging, A.Ghosh et al. In
+Proceedings of the IFIP International Conference on Computer Hardware Description Languages and
+Their Applications. IFIP International Conference on Very Large Scale Integration. 1995, [EEE.1995.
+ISBN 4930813670.9784930813671
+
+C.5.19 性能要求
+
+注: 4E GB/T 20438.3一2017 AY B.6 中引用了本技术措施，
+目的:为了制定一个软件系统的可证明的性能要求。
+Fh IAS :对系统和软件再求规范两者执行一次分析以便确定所有通用和专用.明显的和隐合的性能
+到求。
+榨验每个性能要求以便逐个:
+一一确定获得成功的判扼:
+一一对照成功判据确定一次测量是否能获得成功;
+确定这种测量的可能精度;
+一一确定项目分段 ,在这些阶段佑算这些测量
+一一硼定项目分段,在这些阶段进行测量。
+为了得到性能要求 ,成功判据和可能的测量的一张表,则要分析每个性能要求的可行性.主要的目
+标定:
+一一每个性能要求至少与一次测量相关
+一在可能的情况下选拌可能用于开发初期的精确 .有效的测量:
+规定必选的和可选的性能要求和成功判据;
+一一在可能的情次下,对于多个性能要求利用使用单次测量的可能性。
+Software Engineering for Real-time Systems. J. E. Cooling. Pearson Education. 2003. ISBN
+0201596202 ,9780201596205
+
+--- Page 82 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+C.5.20 性能建模
+
+注: 76 GB/T 20438.3一2017 的表 B.2.表 B.S 中引用了本技术/措施。
+
+目的:为了保证系统工作能力足以满足规定的要求。
+
+摘述 :要求规范包括具体功能的允许量和啊应要求,也许还要和使用系统恕黄源的约东相结合。提
+出的系统设计将借助以下办法同说明的要求进行对比:
+
+一一生成一个系统过程及过程间相互作用的模型 ;
+
+一一通过每个过程确定人源的使用,例如,处理机时间 ,通信审守.存储硕件等;
+
+确定平均的和最差情况条件下对系统提出的要求的分布;
+
+一一计算在平均的和最差情况下各个系统功能的允许量和啊应时间。
+
+对简单的系统而言 .使用分析方法可能就足够了,而对较复巢的系统而言,基种形式的模拟可能更
+下于获得将硝的统抄。
+
+在许细的建模之前,可以使用一种较简单的“资源预算”检验,它可把所有过程的资源需求总和起
+来。当需求超过设计的系统能力时,设计是不可行的。即使设计通过了这种检验,性能建模将显示由于
+
+资源不足产生的延迟和啊应时间过长。为了避免这种情襄,工程师常常使用总资源的一部分(例如
+50听)来设计系统以便减小资源不足的可能性。
+参考文献
+
+Software Engineering for Real-time Systems. J. E. Cooling. Pearson Education. 2003. ISBN
+0201596202 ,9780201596205
+
+C.5.21 Saa/wamMin
+
+注: 在GB/'T 20438.3—2017 的表 B.6 中引用了本技术措施，
+
+目的:为了给测试对旭加上一个超融工作负和谷以僵显示测试目标可以坚不费力地承受额定的工作
+Th for
+
+Fa :存在各种可使用于雪前/过载测试的汕试条件. 这些测试荣件中的一些包拓:
+
+一一如末是以轮询方式工作,则当处在正稍答件下时,每个时间单位测试对象的输入的变化要增大
+
+很多 .
+
+一一当工作在要求模式时,则每个时间单位向测试对象的要求数目增加超过正常条件。
+如果一个数据库的规模起某种重要作用,则把它增大超过正篆条件.
+影吊装置分别调到它们的最高或者最低速度
+在极庙情况时,所有影啊因丸有尽可能同时提供给边界条件，
+
+在这些测试茶件下,可评价测试对稍的时间行为:还可观察负衙亚化的影啊,并能检查内部缓冲市
+或者动态变量 .堆栈等的正确规模 。
+
+Software Engineering for Real-time Systems. J. E. Cooling. Pearson Education. 2003. ISBN
+0201596202 .9780201596205
+
+C.5.22 Dio) hy BS te) 45 E40 FF fie 29 oR
+
+if. 42 GB/T 20438.3—2017 的表 B.6 中引用了本技术措施。
+
+目的:为了保证系统满足它的时序和存储要求 。
+
+描述 :系统和软件的要求规范包含具体功能的存储和啊应要求 ,也许还要竺合对使用系统总资源的
+为了确定在平均的和最差情癌条件下的要求的分布而进行了一种分析。该分析需要合算每个系
+
+i
+
+--- Page 83 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+功能合用的儒源和喇用的时间 ,有几种办法可得到这些仿算 ,例如 ,杜一个现有系统或原型设计进行比
+较,以及对时间关键系统进行时间基准测试。
+
+C.5.23 ”影响分析
+
+注: 在GB/'T 20438.3一2017 的表 A.8 中引用了本技术 措施，
+
+目的:为了确定一个软件系统的一个改变或者增强将对该软件系统中的其他软件模块以及其他系
+25, HA) i Wa
+
+摘述 s CET A EE Fo — AE HS a AT ATA eA aN TS GT TK AE NY ie ) . ABSO E
+Hh SEG ER AE BS 250 ATT A A BS RG ee Mn] Je ET — RSP AT
+
+在完成分析之后 ates EY AT Se WE RR AP AR 26 YTB) BE RE, Se MY RR PE ER Bi Se MEY
+AE BER I) Se Fe ARP PE OE A, A EI ERE
+
+FA eb ip Siar aE. he BL OE AY BR PE
+
+Requirements Engineering, E, Hull, K. Jackson. J, Dick. Springer, 2005, ISBN 1852338792,
+
+9781852338794
+
+C.5.24 Sf Bc ii ez
+
+注: 76 GB/T 20438.3—2017 的表 A.8 中引用了本技术/措施。
+目的:软件配置管理的目的是为了保证当那些可交付项有改变时,几种开发的可交付项的一致性.
+-般配置管理可用于便件和软件开发两方面。
+
+描述 :软件配置管理是在整个开发过程中使用的一种技术(见 GB/T 20438.3一2017 的 6.2.3)。实
+质上 .它要求记录每个重要的可交付项的每个版本的产生及各个可交付项的不同版本之间的每种关系
+的产生.产生的文档允许开发者确定一个可交付项(特别是它的一个组件)的改变对其他可交付项的影
+啊。特别是可以从一致的组件版本集可敌地重建各系统或子系统.。
+
+Software engineering: Update. lan Sommerville. Addison-Wesley Longman, Amsterdam; 8" ed,，
+Z006.ISBN 0321313798 ,9780321313799
+
+Software Engineering. lan Sommerville. Pearson Studium. 8. Auflage. 2007. ISBN 3827572577.
+97 AS82737 2074
+
+Software Configuration Management: Coordination for Team Productivity. W. A. Babich. Addison
+Wesley-1986.ISBN 0201101610.9780201101614
+
+CMMI: guidelines for process integration and product improvement, Mary Beth Chrissis. Mike
+
+Konrad.Sandy Shrum. Addison-Wesley.2003.ISBN 0321154967.9780321154965
+
+C.5.25 回归确认
+
+ie: 42 GB/T 20438,3—2017 Me ALS 中引用了有关的技术和指施，
+
+目的:为了确保从回归测试中得到有效的结论。
+
+摘述 :大型或复录系统的完整的回归测试通笛会震要很多精力和赞源。在可能的情况下,限制回归
+测试到只罗兰在系统开发的那个阶段天心的系统方面,这种做法是可取的。 在这部分回归测试中,有一
+个对部分测试的范围的请晰理解是必要的,并且只得到与系统经过测试的状态相关的有将绪论也是必
+要的 。
+
+~]
+ae |
+
+--- Page 84 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+小
+
+Managing the Testing Process:Practical Tools and Techniques for Managing Hardware and Soft-
+ware Testing.R.Black.John Wiley and Sons.2002.ISBN 0471225980.9780471225986
+
+C.5.26 ”规范和设计的动画演示
+
+注: 42 GB/T 20438.3一2017 的表 A.9 中引用了有关的技术和措施，
+
+目的:通过对规范的系统性检查指导软件验证.
+
+摘述 :软件的表现被检查来确定最终可执行软件的运行状况 ,这种表现比可执行代码(例如规苑或
+者吉层次设计)更抽象。这种检查在一些方面是日动的(取决于由更高层表达的抽象的性质和层次所提
+供的可能性)以使醒拟该运行状况和可执行软件的输出。这种方法的一种应用是生成测试5或者“指示
+物” :能随后被应用于可执行软件,这样在某种程度上是测试过程目动化。 这种方法的另一种应用是使
+用户接口活泌起来,以便非技术的终端用户能够得到对软件开发者工作所依据规范的详细意义的一些
+了解. 这样就提供了一种在二者之间交流的有价值的方法.
+
+Supporting the Software Testing Process through Specification Animation. T. Miller. P.Strooper.In
+Proceedings of the First International Conference on Software Engineering and Formal Methods
+(SEFM’ 03), ed. P. Lindsay, IEEE Computer Society. IEEE Computer Society. 2003, ISBN
+0769519490 .9780769519494
+
+B model animation for external verification, H,. Waeselynck. 5S, Behnia. In Proceedings, Of the
+Second International Conference on Formal Engineering Methods.1998.IEEE Computer Society.1998.
+ISBN 6-8186-9198-0
+
+C.5.27 FAR a BY Mit Mik FA Bl ay = bk)
+
+i$; #2 GB/T 20438.3—2017 的表 AS PSA TS A UE AS AE.
+
+ALAY 22a ST AA FR Bee A fre HE py CY A TM A) AY A TAA pay BE a ee YIM GS EE HL,
+
+描述 :基于模型的测试(MBT)是一个黑盒方法,在该方法中常见的测试,比如测试用例生成CTCG )
+和调试续采评售是基于被测系统CSUT) 的模型(应用程序)。通稍,但不是只有,系统数据和用户行为
+用有限状态机.马尔科天过程.,定值表或类似的(EL-Far,2001,generalized)来建模。此外,基于模型的
+
+基于模型的测试是有效汕试用例/ 程序的目动化生成,它合用系统要求和规定功能的模型(软件技
+本,20091) 。
+
+由于测试是非稼时贯的,对于目动化测试用鲍生成工具有巨大的需求。 因此,基于模型的测试是当
+前的一个非常活茎的研究领域,导致大量的测试用例生成4TCG)工具可选择.这些工具通篆从桩型的
+运行部分中提取测试程序组 ,保证清足一定的困兽率归求。
+
+该模型是被测系统(CSUT)期望的运行状况的抽象的.部分的表示。从这个模型中,衍生出测试模
+型 ,并建立一个抽索汕试程序组。 测试用例来源于这种抽有去测试程序组,并且针对系统来执行,且测试
+也能针对系统模型运行。用TCG 的MBT 基于形式化方法并与形式化方法的使用中烈相关:,所以与安
+全完整性等级(SIL)相关的推荐是相似的:对较高 SIL 高度推荐,对较低 SIL 不要求。
+
+具体活动通常包括，
+建立模型(从系统需求中):
+
+产生预期的输出:
+一一运行测试;
+76
+
+
+--- Page 85 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+比较实际输出与预期的输出
+一一次定进一步行动(修改模型 ,产后更多的测试、.鸽计软件的可菲性/质量) 。
+计对用户7 系统运行状泡的表达和模型,删坛可以来目于不同的方法和拉术,例如:
+一一通过使用判定表 ;
+一一通过使用有限状态机
+一 通过定理证明;
+
+通过符号执行;
+
+通过使用一个事件流容型 ;
+一一反应系统测试:并行分层有限目动化;
+
+基于模型的测试最近专门把安全关键领域作为目标。它使规范和设计中的区义在早期骏露,提供
+了自动生成许多不重复的有将测试的能力 ,来评估回归测试程序组和评价软件可和做性及质量,以及减少
+了测试程厅组的更新。
+
+由 El-Far(2001)和软件技术 2009(见参考文献)提供了全面的概述.其他细记和特定问题在其他参
+考文献中讨论
+
+T. Bauer. F. Bohr. D, Landmann. T. Beletski. R. Eschbach. Robert and J, H. Poore. From
+Requirements to Statistical Testing of Embedded Systems Software Engineering for Automotive Sys-
+tems-SEAS 2007.ICSE Workshops. Minneapolis. USA
+
+Eckard Bringmann, Andreas Kramer; Model-based Testing of Automotive Systems In: ICST. pp.
+
+A85—493.2008 International Conference on Software Testing. Verificationsand Validation. 2008
+
+Broy M,.Challenges in automotive software engineering. International conference on Software en-
+gineering(ICSE ’06).Shanghai.China. 2006
+
+I.K.El-Far and J.A.Whittaker. Model-Based Software Testing.Encyclopedia of Software Engineer-
+ing(edited by J.J.Marciniak). Wiley.200]
+
+Heimdahl.M.P.E.: Model-based testing: challenges ahead. Computer Software and Applications
+Conference(COMPSAC 2005) .25—28 July 2005.Edinburgh. Scotland. UK.2005
+
+Jonathan Jacky. Margus Veanes. Colin Campbell. and Wolfram Schulte. Model-Based Soltware
+Testing and Analysis with C# ,ISBN 978-0-521-68761-4,Cambridge University Press 2008
+
+A.Paradkar.Case Studies on Fault Detection Effectiveness of Model-based Test Generation Tech-
+niques in ACM SIGSOFT SW Engineering Notes. Proc.of the first int.workshop on Advances in mod-
+el-based testing A-MOST 705. Vol.30 Issue 4.ACM Press 2005
+
+S.].Prowell., Using Markov Chain Usage Models to Test Complex Systems. HICSS °05;38" An
+nual Hawau.-.International Conference on System Sciences.2005
+
+Mark Utting and Bruno Legeard. Practical Model-Based Testing: A Tools Approach. ISBN 978-0-
+12-372501-1.Morgan-Kaufmann 2007
+
+Hong Zhu et al.€2008). AST *08;Proceedings of the 3rd International Workshop on Automation
+of Software Test. ACM Press. ISBN 978-1-60558-030-2
+
+~]
+=]
+
+--- Page 86 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+Model-Based Testing of Reactive Systems Advanced Lecture Series. LNCS 3472.Springer-Verlag.
+2005.ISBN 978-3-540-26278-7
+Model-based Testing.SoftwareTech July 2009. Vol.12,.No.2,.Software Testing: A Life Cycle Per
+
+spective. http: // www.goldpractices.com/ practices/ mbt/
+
+C.6 功能安全评估
+
+注: 在B.6中也可找到有关的技术和措施。
+C.6.1 判定表(真值表 )
+
+it, 42 GB/T 20438.3一2017 的表 A.10 和表 B.7 中引用了本近术/措施
+目的:为了提供复杂逻辑组合和关系的一个清楚的和有条理的规范和分析.
+描述 :本方法使用了二维表来向洁地摘述布尔程序变量之间的多辑关系。
+本方法的而明性和和格特性使它适于作为一种分析用代码表示的复尿逻辑组合的方法。
+当把于方法用作一个规范时,它有可能是可执行的。
+
+C.6.2 软件危险和可操作性分析(CHAZOP ,FMEA)
+
+目的:为了确定在一个建议的或者现存的系统中的危险,它们可能的起内和后果以及为减少它们发
+生的概率而建议的行动。
+
+fin ds :一个由所研究的整个系统方面的专家.组成的工程师小组通过有计划的系列会议对设计进行
+结构化检查. 他们考虑设计的功能方面和实际中如何操作系统(包括人的活动和维护)两个问题。 组长
+或励小组成员创造性地揭示淤在危险,通过将系统各部分关联到藻干引导词 “none(没有)”、“more of
+(和更区的)” “Less of (BPAY “part of的一部份) "more than大于……和和)”(或者”as well as( LI
+及)”)和“other than(而不是…… ) 推动会议进程。考虑各种使用的繁件和和失效模陈的可行性.为何产
+生,.可能的后率(有无危险?)、 octet nie Nh thik
+
+在项目开发的许多分阶段都要进行危险分析 ,但最有效的执行时间是早到足以影响主要设计和可
+操作性判定的阶段。
+
+HAZOP 技术在流程工业中逐计成熟 ,但应用于软件时需做修改。对于 PES HAZOP(或者 Com-
+puter HAZOP一"CHAZOP7”)已提出了各种派生的方法。通遂这些方法引进了一些新引导词,并提出
+了 BH VE HL er Fs Be AAR ERY ET
+
+OF-FMEA;:an approach to safety analysis of object-oriented software intensive systems, T, Ci-
+chocki.J.Gorski.In Artificial Intelligence and Security in Computing Systems:9" International Confer-
+ence. ACS °2002.Ed.J.Soldek.Springer.2008.ISBN 1402073968 .9781402073960
+
+Software FMEA techniques. P. L. Goddard. In Proc Annual 2000 Reliability and Maintainability
+Symposium, IEFKE,.2000,ISBN :0-7803-5848-1
+
+Software criticality analysis of COTS/SOUP.P. Bishop. T.Clement.S.Guerra.In Reliability Engi-
+neering & System Safety. Volume 81.Issue 3,September 2003.Elsevier Ltd. ,2003
+
+C.6.3 共因失效分析
+
+$1: 76 GB/T 20438.3一2017 的表 AA.10 中引用了本技术/措施
+$2. 401 GB/T 20438.6一2017 (yb at BD.
+HAY: A Sie Se ASMA SAS PIS TER, DO ete = aD op B [al AY Hy BL SB ST ae
+
+78
+
+--- Page 87 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+的好处.
+摘述 :安全系统的便件中稼稼使用元余和多数表奖。这可避免部件和了于系统中妨碍数据正确处理
+的随机和便件失效。
+
+但有些失效对多个部件或子系统是共同的。例如 ,当在单间房内安装一个系统时,空调的缺点可能
+会前弱元余的好处。系统的其他外部影响,比如火灾 .水灾 .电磁干扰.险机和地震也同样如此。系统也
+可能党与运行和维护有关的意外事故的影响。因此 ,为运行和维护编制充分和详尽的规程\,以及对运行
+和维护人员进行企面培训是十分重要的。
+
+内阐影啊也是共央和失效的一个主要原因.它们能起源于共同的或同样的部件和它们的接口的设计
+缺陷以及部件的老化。共央失效分析必须搜查系统的这些潜在的共同失效。共因失效分析的方法是:
+通稼的质量控制;设计复审:由一个独立小组进行驶证和测试:根据类似系统反馈的经验分析实际的和意
+外事放。然而分析犯围超出了硬件范围，即使在一个元余系统的各个通近中使用软件多样化,还是有
+可能在软件方法中存在一些共性,它们将引起共因失效,例如共用的规范中的错误。
+
+当不是严格地在同一时间发生共因和失效时,可以借助多通站之间的比较方法采取预防措施,这种比
+较方法可以在这种失效成为所有通道共有之前检测该失效。共因失效分析应把这种技术包括在内。
+
+Reliability analysis of hierarchical computer-based systems subject to common-cause Iailures. L.
+
+Xing. L.Meshkat.S,Donohue, Reliability Engineering & System Safety Volume 92.Issue 3,March 2007
+
+C.6.4 可靠性框图
+
+注1: 在GB/T 20438.3一2017 的表 10 中引用了本技术/措施,在 GBT 20438.6一2017 的附录也中使用了本技术/
+
+注2: 也可见 .6.6.7 可靠性方框图”。
+
+目的:用图解形式建立系统或任务成功运行所必需的事件集和必备的条件。
+
+描述:分析的目标被表示为一个由方框`线和沙辑接扣组成的成功的路径。 成功的路径从图的一边
+开始,经过方框和接点,到达图的号一边。 一个方框表示了一个条件或者一个事件.并且如果芭件正确
+或这个事件已经发生,则路径能通过该方民。如采访路径到达接点,多和煤接点是满足的,则路径继续。
+如条它到达分叉点,可以治着所有分开的路径继续。如果存在至少一条成功的路径穿过几.,则分析的目
+Pr WIS T7 IE
+
+IEC 61025,;2006.Fault tree analysis( FTA)
+
+From safety analysis to software requirements, K.M, Hansen, A,P, Ravn, A.P,V Stavridou, IEEE
+Trans Software Engineering. Volume 24.Issue 7.Jul 1998
+
+IEC 61078; 2006. Analysis techniques for dependability Reliability block diagram and boolean
+
+methods
+
+--- Page 88 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+附 录 OD
+(资料性附录)
+确定预开发软件的软件安全完整性的一种概率法
+
+D.1 一般要求
+
+本附录根据操作经验提供了关于使用一种概率法来确定预开发软件的软件安全完整性的原始指
+南 。本方法币认为是特别适合作为操作系统 .程序库模块 .编译机和其他系统软件的认证的组成部分。
+本附录提供了一个指示:哪些技术是可能的,而只有能胜任统计分析的那些人才能使用这些技术。
+注: 本附录使用了术话 Confidence level(置信级) ,在 IEEE352 中对其作了撒述. 在IEC 61164 中使用了一个等殖
+的术语:Significance level(显著级)。
+本技术还用来示范软件安全完整性等级的超时增加。例如,按 GB/T 20438.3 的 SIL] 要求建立的
+软件在大量应用中成功地和运行一段适当的时间之后,会显示出达到 STL.
+表 D.1 显示了经验的无失效要求数和为一个特定安全完整性等级进行认证所需的无失效运行小
+时数。
+按 D.2 中概述的那样 ,运行经验可以进行数学处理以便补充或者代亚统计测试;可以把几个现场得
+到的运行经验结合起来(即把处理的请求次数或者运行的小时数加起来) ,但只是在下列情况下才有
+可能:
+一一在电气/电了于/可编程电于(CE/E/ PE)安全相关系统中使用的软件版本是和正在申请的运行经
+验的那个版本一梓的:;
+一一输入衬间的操作傈表是相似的
+一一有一个报告和文档化失效的有效的系统;以及
+一一满足有关的先决荣件(人参看 D.2) 。
+
+表 D.1 安全和整性等级的置信和度的必要历史
+
+低要求运行模式           处理的要求数
+
+(按要求执行其设计                             (每小时一次苑险
+功能的失效顿率)                                    失效频率)
+
+4.6% 10°
+
+4.6% 10°            3™ 10°           =10 '~=<lo'          4.6% 10'
+
+4.6% 10°   310°   = f'—<]Q°  4.6 10°
+
+1.6 10   3x10!     0 apxao! | sx10h
+
+: l—a fom HARK.
+注 2: 基于先决条件和得出本表的详情可参看 D.2.1 和 D.2.3.,
+
+80)
+
+--- Page 89 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+D,2 统计测试公式和它们的应用举例
+
+D.2.1 低要求运行模式的简单统计测试
+D.2.1.1 先决条件
+
+a) 测试数据分布等于在线运行过程中要求的分布。
+
+b) 相对于一次失效的原因而言,各测试运行在统计学上是互不相关的。
+c) 存在一个检测可能发生的任何失效的适当的机制。
+
+d) 测试实例数 mn > 100,
+
+D.2.1.2 结果
+在置信级 1一 时,失效概率 己 由下式给出，
+
+过1一六或者-下
+D.2.1.3 例子
+
+表 D.2 低要求运行模式的失效概率
+
+按 SIL3 在置信和度为95名时的要求的失效概率,在先决条件下,使用公式得出的测试实例为 30 000 个。
+# D.1 汇总了每个安全完整水平的结果。
+
+D.2.2 测试一个低要求运行模式的输入空间(域)
+D.2.2.1 先决条件
+
+唯一的必要条件是选择测试数据从而在输入空间(域)内给出一个随机的均匀分布。
+D.2.2.2 结果
+
+目的是找到一个测试次数 ”这个数是根据正在测试的低要求功能(比如一次安全停机)的输入精
+度阔值 $ 计算出的必需值。
+
+表 D.3 两个测试点的平均距离
+
+注:有为任何正整数:伍1.2和3仅仅征个鲍子，
+
+台]
+
+--- Page 90 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+D.2.2.3 例子
+
+考虑一次仅有两个变量 A和也有关的安全停机,如果已对划分输和人变量对A和了分区的交值被
+正确地处理成A和忆测量范围的1名这样的一个精度作过验证 ,在空间A 和也中所需的均匀分布的训
+
+n=1/d°=10°
+
+D.2.3 ”高要求或者连续运行模式的简单统计测试
+
+D.2.3.1 先决条件
+a) 测试数据分布等于在线运行过程中的分布。
+b) 不失效的概率的相对减少正比于考虑的时间间隅的长度,不然天是一个常数。
+c) 存在检测可能发生的任何括歼的一个适当的机制。
+d) 测试延疆一段测试时间
+©) 在:内不发生失效，
+D.2.3.2 结果
+wy HE A (ARR 1一a 和测试时间L上之间的关系是，
+二 lna
+失歼概率反比于两深失效之间的平均工作时间:
+A= MTBF
+
+if: GB/T 20438 对每小时的失效概率和1小时内的先效率不加区别。严格地说,失效概率 下 和失效率了之间的关
+#NF=1—e ", {A GB/T 20438 的范于内,灾区率小于10 ,在这样小的全时 下= fr,
+
+D.2.3.3 例子
+
+为了检定在一个置信级为 95贤的情况下 ,两次失效之间的平均时间至少为 105 h.至少需要3X10 h
+
+表 D.4 高要求或者连续运行模式时的失效概率
+
+的测试时间 ,并且还必须满足先雇条件,表 D.1 汇总了每个安全完整性等级所需的测试数.
+
+D.2.4 完全测试
+
+把程序当作是闭有已知的球数 N 的一个缸。每个球代表程序的一个重要特性随机地抽取这些
+
+球 ,并在检查后更换态一个。当抽取完所有的球时,也就达到了完全测试。
+
+D.2.4.1
+
+a)
+
+b)
+
+BZ
+
+TORE
+
+1 oN Hk PE oP: FES SA TOL PAE ON 个属性的每一个;
+I A AY 5 RNA ABI IC
+
+--- Page 91 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+c) 发生的每个失效都能发现;
+d) 测试事例数 nN ;
+e) FE nm il Se fo HH a] NA ER
+f) Fae BA — Ye TN A WM ks —- > EE in PE — 78 mn PE a CE Ay a 7 FED
+D.2.4.2 结果
+测试所有程序属性的概率 PoP Pen:
+一    N              一         N
+
+HEH, C, _N(N— DN —j +1)
+
+Ia
+
+在评价本公式时,通常只有第一项才重要,因为实际中的实例数 nN. OETA 7 OC AY AB LES Dp
+小。在表了.5 中也可看到这个结果。
+
+D.2.4.3 例子
+考虑一个已在儿台设备中使用多年的程序。总计至少已执行了7.5关10 次运行。佑计有 1/100
+的运行满足上述先决条件。所以已完成的7.5X10: 次运行能进行统计评价。估计一次全数测试将执
+行4000次测试运行。这种佑计是保守的。根据表 D.5,所有程序属性不被测试的概率等于2.87X10一。
+当N=4000时,与如有关的第一项的值是:
+
+表 D.5 测试所有程序属性的慨率
+
+1一1.49澡10 +1.10™%107* 一，
+1—2.87 \10 ° +4810 一
+
+1—5.54€@10°°4+1,52¢€ 10° ee
+
+1-77.67 % 10° +2,9% 10% oe
+
+实际上 ,所作的这种售计是保守的，
+
+D.3 参考文献
+
+在下列文献中可以看到有关上述技术的更多信息 :
+
+IEC 61164;2004.Reliability growth—Statistical test and estimation methods
+
+Verification and Validation of Real-Time Software. Chapter 5.W.J.Quirk(Ced.).Springer Verlag.
+1985-.ISBN 3-540-15102-8
+
+Combining Probabilistic and Deterministic Verification Efforts. W. D. Ehrenberger, SAFECOMP
+92.Pergamon Press. ISBN 0-06-041893-7
+
+Ingenicurstatistik, Heinhold/ Gaede, Oldenburg.1972,ISBN 3-486-31743-1
+
+IEEE 352;1987.IEEE Guide for general principles of reliability analysis of nuclear power genera-
+
+ting station safety systems
+
+63
+
+--- Page 92 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+附 录 &E
+(资料性附录 )
+专用集成电路(ASIC)设计技术和措施概述
+
+if: GB/T 20438.2一2017 引用了这个附录所包合的技术和措施概述。本附录既不能逢认为是完整的也不能认为
+
+E.1 用(CVJIHDL 对设计描述
+
+目的:硬件描述语言的概要性的功能描述,例如:VHDL Verilog.
+
+描述 :硬件描述语言的高度抽象级别的功能描述,如VHDL 或 Verilog。所用的硬件描述语言应该
+允许面向功能和/或面和回应用的摘述,并且应该是从后期实施细节中抽象出来的。应通过便件描述语言
+的运算竺和赋值来实现数据流,分文,算术和/或逻辑运算,而不需要手动将其转换为所使用库的有
+
+辑门。
+注: 为便于简化,硬件搞述语言的高度抽象级别的功能描述"在文档的其余部分用(V)HDL 来表示。
+
+IEEE VHDL. Verilog + Standard VHDL Design guide
+
+E.2 原理图输入
+
+目的:使用供应商库提供的门和/或安来绽图的电路图的功能摘述。
+
+搞述:通过原理图输入的电路功能的摘述.要实现的功能应该通过实例化(导人)基本的多辑电路
+元系,如与 或.非,结合由复习算术和好辑功能组合成的庆,然后互连。 复杂的电路应依据功月  wad
+XH) Pop tp CE AS Tal A PR Po ee Bi, A A 1 MT ae ME — SAY. EE TP A
+名称。只要适用,应尽量避免使用全局信号(标签 Lables) .
+
+E.3 结构化拉述
+
+注: 另见CC.2.六结构化编程”和 下.12模块化”。
+
+目的:电路功能的撒述应缮构化使之易读,即电路功能的描述不需仿真即可直观理解。
+
+摘述 :使用(V7HDL 或原理图输入实现的电路功能的朱述。推存使用容劝辨认和模块化纺构。每
+个模块应该以同样的方式来实施,并应以通过明确定义子功能使之易读的方式来描述。推大严格区分
+实现的功能和他们之则相互的连接,即模块。模鞭是通过实例化其他于杭抉来实现的,包售明确的实例
+个块的互连而不应该包含任何逻辑电路。
+
+E.4 经使用证明的工具
+
+目的:应用经使用证明工具来避免系统性失效,这些工具已通过在不同的项目中经过充分长期实践
+的验证。
+
+摘述:大部分用于 ASIC 和FPGA 设计的工具包括复杂的软件,这些软件不能被视为完全遵循其正
+确功能而没有任何故障.而且很有可能由于错误的操作而导致故障发生. 因此,在ASIC 和FPGA 的设
+计中应首选具有”经使用证明”特征的工具。 这意味着 ，
+
+54
+
+--- Page 93 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+应用经长期或经大量用户在具有相同复杂度的不同项目中使用(在一个类似的软件版本)的
+TA.
+一一每个ASICAFPGA Wit 4 JAF (FALE Bt AE BY 28
+—— fe 7 fe FA CE i A AP) a pA) Se ec aC a OG RO” YI
+本控制)。这些信息应该很容易地整合到设计流程和帮助文件中,以避免系统性失效 。
+数据库的一致性,例如综人台工具和布置与走线工具之间的数据库一致性,以运行唯一的数据。
+注: 一致性检查是所用工具的固有属性.并且设计者对其影响有限。因此.如果提供了手动一致性检查的可能性，
+设计者宜充分地使用它。
+
+E.5 (V)HDL{F
+
+rE. WL 眉.所模块级功能测试”。
+
+目的:通过仿直的方式对(VJIHDL 描述的电路进行的功能验证。
+
+FRIAS :通过仿真整个电路或每个子模块从而验证功能，(V)HDL 仿真磺检测由内部电路状态的变
+化所造成的,作为输人激励的结果的,一个输出序列。通过可加前追溯的输出信号序列心波形图”或一
+个在设计中设置的称为试验台(test bench)的特殊环境,实施检测到的输出厅列的验证。所选的仿只郁
+应该有”经使用证明 "的特性,以提供正确的绩琳,并屏顶可能由仿真厦本身或建醒钳误引起的信号故谢
+IM Ae CORE. = ASI ERD 的行为。
+
+E.6 模块级功能测试
+
+注: WL E.5(VIHDL 仿真"和下13”验证场景的覆盖率”。
+
+目的有上月下而上”的功能验证。
+
+fA: :在醒块级带证已实现的功能,例如,通过仿真。被出入块将在一个称为"试验全”的旦型的虚
+拟测试环境中实例化.并由在代码中包含的测试模板来激励， 对规定的功能,至少有一个足够高的覆荔
+率,上且测试用例应包舍可能存在的所有特妹情形。相对于对输出信和号进行手动检查,应优先考虑使用
+“试验台 ”的代但来月动验证输出序列，
+
+E.7 顶层功能测试
+
+HE. 见 E.8“*嵌人在系统环境的功能测试”
+目的:ASIC 的验证(整个电路) 。
+描述 :调试的目的是验证整个电路(ASIC) 。
+
+E.8 RATE KS te Be Mik
+
+HAY atk ATE A SOP BED fi we 0 AE AY Sar UE.
+
+描述 = UEC TRS Sr HE Ha CASIC) fe FL AR Se PB Ba A BY AS BE to) a eA et te ft bn
+的所有其他组件的系统环境中测试。建议通过对电路板上所有相关组件建模并与所创建的模型一起对
+ASIC 进行仿呐,以验证正确的功能,包括时厅行为。一个完整的功能测试还包括那些只有在失效仔在
+WY Ave AY BER AY TM i
+
+ies)
+
+--- Page 94 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+E.9 异步结构的使用限制
+
+日的:避例综合过程中的奋型的时问题;:避侈在仿真和综合过程中由不足的建梗导致的旷信;可
+
+Hak :源于组全逻辑的诸如 SET AM RESET 信号的异步结构在合成和生成电路的过程中容易受尖
+峰或时序反转的影响,因此应尽量避免。而且不足的建模可能无法被综合工具适当地解释,这会导致仿
+真过程中不确定的结果。此外,异步绩构是低可测的,或者是完全不可测的.所以大大地降低生产测试
+和在线测试的测试覆盖率。 因此建议数量有限的时钟信号的完全同步设计的实施.在多相时钟的系统
+中,所有的时钟应该来源于同一个主时钟。 时序逻辑的时钟输入应始终使用不包会任何组合逻辑的时
+钟信号。时订单元的异步SET 和RESET 输入应始终使用不包舍任何组合逻辑的同步信号，主 SET
+和 RESET 都应使用两个触发上厚做同步。
+
+E.10 主输入的同步和亚稳态的控制
+
+目的:避免建立和保持时序违例导致的不明确的电路行为。
+
+描述 :从外围设备输入的信号通常是异步的,并可以随意改变其状态。使用 ASICAFPGA 的同步
+时序电路的单元对这些信号的直接处理,例如触发器.会产生建立和保持时间违例.从而导致 ASIC/
+FPGA 不可预测的时序和功能行为。最终可能会发生记忆元件的亚稳态性。因此每个异步输入信和号应
+与同步 ASIC 电路进行同步,以避免功能歧义。建议采取以下措施:
+应该用两个连续的记忆元件(和触发避)或一些等效的电路来同步输和人信号,以实现一个可预见
+的功能行为。
+一一每个异步输入信号都应经过上述定义的方式进行基础的同步,即每个异步信号都通过这样一
+
+个同步电路接和人。如果有必要,同步电路的输出可用于多路访问。
+
+E.11 可测性设计
+
+注 1: 见 E.31训试结构的实现”。
+目的:避免不可汕或低可测的结构,以实现生产测试或在线测试的高复盖率。
+一一异步结构 ;
+锁存前和片上的三态依号 ;
+
+一一线与/线或好辑和了允余迎辑。
+
+子电路组合的座度 ,在测试过程中起看重要的作用.一个完整的汕试所要求的测试覃板会随者电
+路组合诛度的增加而指数增加，。因此,即使用足够的于段,局组合诛度的电路也只能是低可测的
+
+一个面回可测性说计有的方法可确保达到所需的测试禾兽率。由于实际的测试复壮率在议计过程的
+非贡上晚的阶段才确定下来,因此对于”可训性设计”汰上夸不足的问题可能大幅降低可实现的测试覆兰这，
+从而导致更多的工作量
+
+PE 2: 汕试获盖率通常是由检测的固定型(stuck-at)故障的百分比决定的。
+
+E.12 模块化
+
+注: 见C.2.8"信息的隐藏/封装”,C,2.和模块化方法"和下.3结构化描述”，
+8
+
+--- Page 95 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+目的:电路功能的模鞭化摘述.
+
+摘述 :把整恒功能清晰的划分到有具有有限功能的不同的模块中。从而建立了带有精确定义接口的
+模据的透明性.在所有议计层次的每个于系统,被明确定义并角限制天小5只有少数的功能)。了于系统
+之间的接口要尽可能的值单,使得界面(即共音的数据 ,信息的交换)最少。各个子系统的复妙性也受到
+限制。
+
+E.13 WikKHRHN BSS Mita)
+
+FY AY: XP Dy Ae PAE YM a 9 Te) Br ive FD AY Sie HE Sy oe cE 0 me ee TE PEA
+摘述 : CE DY FE PAE GU ta 3) a] ae SC AY rE ay oe Joie ee. BD DY an a a Ge I) Cstimiuli) ) EA Sar ie Re EY
+He » LSE ra EEK Ta OL. UN RE BY a A aE PEA / BE EO. FE PAK AY TN
+AAUL Fhr FEL CS Oy Fae AE Td ta TR FE Sy ES, AR Ea FF SE Of A at HAT A A] PY rE VE 3K
+档。在定性方法方面,应评估被验证电路代码的被验证代码行、指令 RE COS 2 he”) Bi
+注: 由于硬件描述的融度并行性,专用的“代码覆盖"分析的实际意浆不大,并且需要通过彻底的检查证明.“代仙
+禾盖"一般用于证明未覆盖的功能代码。
+
+E.14 遵循编码指南
+
+目的:严格这息编码尖型可导致语法和语义正确的电路代三。
+摘述 :语法编码规则有助于建立易谈代码并多许更好的文档,包括版本控制，由型地,组织和注释
+fin SB Be BeBe AY A DU ye eh ee A
+LE SC Sid FE IL 4g Bat aE AI SCY FE Pe OD HE SP Se BC Ie Bg. ae SLA TY “Se Sits PY ell
+例如 , SPL AY FAS) SDN) se alk: Si a abe 2) ke ANY TAT Pe A 2 PA) EE 5 AE Fai BS i I IS
+设计寻则被推荐以避免在 ASIC FP AGE PY AR SCTE IT I ATR A, FR REE ZY Sa i FS AY Ze BR
+ieee, LADY AN Sh 1S Hh BC AR
+US oil) (5D) A Ts) Ae EY A). a eB] PE AN a 2S
+一一可测试设计;
+透明化马用代但
+1. 代柯应包人涌尽可能多必委的注释以便理解功能和实现细和而。在设计之前必须定义司用的约定。
+在设计阶段应该检查所定义的需遵循的约定。
+1.1. 标准首部,包括历史.对规格书的区叉引用、职责和随设计产生的煞据(如乒本所 、.蝎改要求
+
+1.2, 易语的模板:等价的过程应使用同样的程序描述,即使用对反复出现的过程(itthen-else，
+for 等)的预定义模板 。
+
+1.3. 明确可访的合名约定,即大写/小写宁苹.前缀和后组、冰口名称之间的明确区别.内部信
+号常量.杰量.低电平有效(关关关_n)等。
+
+1.4. 模块大小约束和每个模块的闪口数量限制,以加强代码可读性。
+
+1.5. 结构化的和防御性代码开发,即状态信息应封装在 FSM 中(信息隐疆)以提供容易的代但
+
+1.6. 应实施真实性检查 ,如范围检查等 ，
+
+af
+
+--- Page 96 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+1.7. he oe PR Za TY / Tae:
+AP ERR 455 ET] Fb Ae te FA Cox 到 y)
+Verilog FAY“ Disable’ fa & AB 4 F goto fa);
+一一和多维数组(二2) ,记录 ;
+有符号和无竺所数据尖型的组侣。
+. 人同步设计(时钟多评取目主时钟)
+2.1. 模块输出应同步,还应广持可测试和静态时序分析。
+2.2. 门探时钟的处理应囊有特别预防指施。
+AT a PE
+4. TORS TE FE AS BY TW AY. ae
+
+D
+[> CLE
+
+数据与时钟信号的耦合                                  TOs 2 Hy
+
+i)
+
+a
+
+5. 2A ere ARP AY Be te [Pd ee Dive ak Oe. FY ae eee AS fab cE AY eT ALAS By ii 。
+6. 推荐全扫描CFull-scan)设计.。
+7. 避免锁存大以增加可调性,并降低合成时的时厅约束。
+
+[ri] AP
+
+LO. fete vig A _E A 1 S FEL AE i ee: SS As HE A fiz Cstd_logic) ”或“标准逻辑天量(std_logic_vector)”。
+
+E.15 代码检查希的应用
+
+目的:由代码检查工具进行编码规则心编码类型”)的自动验证。
+
+描述 :代码检查工具的使用有助于大范围地进行编码类型的上自动遭循并生成在线文档。然而,目动
+代码检查硕一般只验证代码的语法和语义,因此这类工具的使用应结合通用编码规则作工具特定的”
+以及由设计者分别进行实现和评估的项目特定的编码规则 .
+
+E.16 防御性编程
+
+WL C.2.5,
+
+E.17 仿真结果文档
+
+目的:为成功仿直所需全部数据建立文档,以验证指定电路的功能.
+
+摘述 :在模块 .芯片或系统层次的功能仿直所需的全部数据应妥状建立文档,以便:
+在“区钥匙"方式中,在以后任何时期重复进行仿共，
+证明全部功能规范的正确性和完整性。
+
+为此目的,下列数据库应存档:
+
+58
+
+--- Page 97 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+仿员环境,包括所用工具的全评软件,如仿只谷、合成向及县相应版本以及所需的仿有只库
+一一仿真日志文件 ,包括完整详细的与仿上有关的时间 .所使用的工具及其版本和完整的仿真期间
+
+必要的工作报告。
+一一全部有关的仿直结果 ,包括信和号流、尤其是手动检查和已获得结果的文档。
+
+E.18 代码审查
+
+1. 亦见【CC.5.14”形式化审查”。
+
+目的:复审电路摘述。
+质述 :复审电路朱述应通过以下方法完成;
+
+一一比对规范书验证所摘述的功能性。
+
+一一检查防御性编码 .错误和异常处理，
+注 2: 如果未实施(V)HDL 仿真,则代码审查的完整性及达成的结果宜达到采用(V)HDL 仿真所达成的质量。
+
+E.19 走查
+
+注 1: 亦见5C.5.15"走查”。
+目的:通过走查方法复审电路摘述。
+HAR :代码走香包舍一个走碍团队选撞的一组小型测试用例 ,该程序的一组是型的输入及有其相应的
+注 2: 作为独立的措施:该方法家仅应用于非稼低复沫度的电路。如有未实施(CVJIHDL 仿员,.走查的完整性及达成
+Wn Ae A A CV HDL 仿真所达成的纺未具有同样的质量。
+IEC 61160:2005.Design review
+
+E.20 应用经确认的软内核
+
+日的:通过应用经确认的软内核避人免软内核在运行期间的失效。
+FAR :如果厂家确认软内核 ,则应满足以下要求 :
+应完成用于安全相关系统操作的软内核确认.要求具有至少等同于或高于系统所计划的安全
+应遵循对软内核确认所必要的所有假定和约东。
+一一用于软内核确认的所有必要的文档应方便可用,亦见 了.1当仿直结果文档”。
+每个三家规范均应得到严格遵守并有具有文档化的证据。
+
+E.21 软内核的确认
+
+注: 外克下.入横所级功能测试”。
+
+目的:通过在设计生命周期中的软内核的确认避免软内核运行失效。
+
+描述 :如未软内核不是明确地为运行于安全相关系统而开发的,则生成代码应在用于任何源代码确
+认的同等前担下得到确认。这意味着所有可能的测试用例均应定义并实施。此后应通过仿其进行功能
+
+89
+
+--- Page 98 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+E.22 门级网表仿真以检查时序约束
+
+目的:在合成期间对时序约束的独立验证
+
+描述 :由合成产生的门级网表的仿真,包括线路延迟和门延迟的回编(backannotation)。应产生激
+励以按这样的方式仿直该电路.从而可覆盖大部分时序约东并包括所有最不利时间路径情况。 一般地，
+如条在功能测试期间可得到元分的测试覆关,用于实施 E.6 或了.7 的激励可作为选择激励的合适的恢
+据。电路应在最高的规定时钟频率和件下 ,按最好情况和最差情况测试。
+
+时序验证可通过自动检查目标库记忆元件(和触发需)的建立及保持时间,以及通过电路的功能验证
+完成。功能验证应主要通过观察芯片输出执行,这可通过比较电路的输出信号和一个适当的参考檬型
+ay FB PIA CV) ADL 源代码实现目动操作。此测试被认为是"回归测试”与手工测试相比,应作为输出
+信和叶测试的首选.
+
+注, 通过使用此措施.仅那些在仿真期间得到实际激励的路径的时间行为得到了验证,因此一般来说,该措施不能
+
+够提供完整的电路时序分析，
+
+E.23 传播延迟的静态分析(STA)
+
+目的:在合成期间实现的时序约东独立验证。
+five :表态时间分析(CSTA) 分析网表(电路)的,由合成工具考虑回编(back-annotation)(即由合成
+工具预估的尚未执行的实际仿真的线路延返,以及门延返)产生的全部路径，。因此一般来说,这可以得
+到全部电路的时序约束的完整分析。被测电路应在最高的规定时钟频率条件下 ,按最好情阅和最差情
+况 ,并将所用时钟的抖动和占空比俩移考虑在内进行分析。非相关时间路径的数量可通过和采用适当的
+设计技术限制在某一最低限度。推荐在开始设计之前调查 .分析和规定可产生易读绪果的民用技术.
+注: 可假定 STA 厦盖了全部已有的时间路径,如果;
+al 时序约束已正确定义。
+b) BCT FL el ee By ake STA 工具分本的时间路生,印全同步电路的情让，
+
+E.24 门级网表(gate netlist)对比仿真参考模型的验证
+
+目的:合成门级网表的功能对尘榨查。
+
+HATE :对由合成工具产生的门级网表进行仿员。该仿趴所使用的电黑验证激励与在 眉.6使氛级功
+能测试?和 王.六项层功能测试?期间分别对模块级和最高级进行功能验证所使用的激励完全相同。功
+能验证应主要通过观察蔚片输出实现。 这可通过比较电路输出信和号与一个合适的参考模型或电路的
+CVO ADL 源代和码目动守成。此测试被认为是“回归测试”与手工测试相比,应作为输出信号测试的
+
+注, 通过使用此措施,仅在仿真期间被实际激励过的那些路径得到了功能行为的验证,因此:其测试覆盖仅等同于
+
+在原来的功能测试期间分别对模块级或最高级进行功能测试的覆盖范围。该措施有可能通过形式化等价测试
+补充。 在所有情况下,(V)HDL 源代码的功能测试宜用合成工具生成的最终网表执行。
+
+E.25 “”门级网表与参考模型的比较(形式化等价测试)
+
+目的:独立于仿上的功能等价榨查。
+fi AE VO ADL 源代码撞述的电路功能与合成的门级网表电路功能进行比较。基于形式等价原
+理的工具能够验证不同表示形式(如(CV)IHDL 或网表描述)的电路之间的功能一致性.如朱使用这种
+
+90
+
+--- Page 99 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+RA ,加不需要进行功能仿真而只需进行独立功能检查要成功应用这种指厄:必需满足下述条件:仅
+当所使用的工具能被证明是完全等价的,且不论是手工或目动审查的描述是相同的,才能保证成功的应
+FAY sx PE TAT
+注: 可以将该措施与 下.24”使用仿真对比验证门级网表与参考模型"组合使用.在所有情况下 ,宜使用由人台成工具
+生成的最终网表来进行(VJHDL 源代码的功能验证。
+
+E.26 检查供货商的要求和约束
+
+描述 :仔细检查供和华商的要求和约束能够提升产品可等忻。例如,检查最小及最大而人、剧出,最大
+Bets (2G WEG) ,信号的最大转换速诗等。如果违反规定,除了对生产过程的需求有影响外,还会对用于
+仿真的模型的合理性阁成很大影响。违反供质商的要求与限制会导致铺误的仿贞纺和末从而生成不想到
+的功能 。
+
+E.27 ”约束.结果与工具的合成文档
+
+目的:所有规定约束的文档,这些约束对于用以生成最终门级网表的最优合成来说是必需的。
+描述 :合成约束与结果的文档是必需的,原因如下 :
+在任何后续阶段身现合成;
+生成独立的合成结果用于验证。
+必需的文档包括 :
+一一合成环境,包括所用的工具和带有实际版本的合成软件,合成库和已定义的约束与脚本，
+囊有时间戳的合成日志文件.市有版本的所用的工具以及完整的合成文档-。
+一一吾有估计时间延迟的生成的网表(标准延迟格式(CSDF)文件) 。
+
+E.28 应用经使用证明的合成工具
+
+目的:基于工具将电路的(VJHDL 描述转化为门级网表 。
+描述 :依乱连接适当的门和目标 ASIC 库电路厚请,实现基于工具的电路功能(CV)HDL 源代码映
+射。依靠全成限制(如时间(时钟频率)和芯片面积)中推导出的最优结果来从不同的可能实现中选取一
+
+E.29 应用经使用证明的目标库
+
+He, 参见 Ede (hh AERA TA”,
+
+FY AY : sie Se, BS a Piet A as Fe BI | GR AY 8 IC
+
+描述 :用于开发 ASIC 的合成与仿呐目标库是由公共数据库导出的,因此不具有独立性。 系统性失
+SOC HY ML AY hi) PB,
+
+一一电路元件的真实行为与建模行为之间的混请;
+
+不充分的建便,如建立与保持时间
+
+因此,只有经使用证明技术以及目标库才能被用来议计执行安全功能的ASIC。 这意味看:
+
+一一在项目中已被使用了很长时间且具有类人复杂度和时钟频率的目标话;
+
+一一在足够长时间周期内扩术与相应目标库具有可用性,以便可对库进行足够准确的建模
+
+--- Page 100 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+E.30 基于脚本的方法
+
+日的:结果可重复性与合成周期的日动化。
+描述 :合成周期的日动化与基于脚本的控制,包括应用约东的定义。除了完整的合成约东的准确文
+档之外,还能够有助于在相同条件下变更(VJIHDL 源代三之后再现网表 .。
+
+E.31 测试结构的实施
+
+目的:设计可测试的 ASIC ,以保证最终产品测试。
+
+摘述:可测试性设计能够设计出易于测试的电路,这可通过实现不同的测试结构来实现。例如
+扫描路径 :在扫描技术中 ,或是全部(全扫描设计)或是触发需(部分扫描设计)被连接在一个单
+链或是多链以构建一个移位寄存硕链，扫描路径多许上月动生成电路的整个逻辑的测试模板，
+生成测试模板的工具被称为 ATPG(目动测试模板生成部)。实现扫描路径能够极大提升电
+路的可测试能力,在适当努力下能够实现大于 98皮的测试缆盖率。因而建议在可能的情况下
+实现全扫描路径。
+
+NAND树:在NAND树中,电路的所有主要输入以级联方式连接以构建链. 应用适当的测试
+fl the ("1 26 fiz Cwalking bit)”) 就可以测试葵入的切换行为(时厅与触发电平)。NAND de
+供直接方式以描述主要输入特性， 如果不能以其他方式测试电路的切换行为,建议实现它.
+内普陈目测试LBIST) :实现片上测试模式生成大就可有效执行电路目测试(特别是肯人了式存
+储器的目测试)。依笔应用伪随机测试模板并评估实现电路结构的签名,BIST 能够是动验证
+电路结构。BIST 被建议用作存储天测试的附加方法.扫描路径测试能够被 BIST 代替 .
+
+一一静电流测试(IDDQ WD AS AY CMOS 电路主要在切换事件期间消耗电流。因此,只要测
+试模板人持不变 ,一个无缺陷电路消耗小到可以忽略不计量的电流(二1 ApA,汕电流)。IDDQ
+测试非常有将,在使用少量测试模板之后,它即可提供大于 50镶测试覆兰率。IDDQ 测试可应
+用于蕊能测试醒板以及由 ATPG 生成的合成测试模板。 这种测试方法在实践中已被证明非
+贡有效,它能够检测到其他测试很难甚至不能检测到的失获。因此该方法被应用于险笛规产
+品训试之外的附加测试
+边界扫描:该测试用于验证下述内容:根据 JTAG 标准进行印刷电路板上组件互连。相同的
+理念可用于验证芯片级模块的互连。边界扫描主要推荐用于提升印刷电路板的可测试能力。
+
+E.32 ”基于仿真的测试覆盖率估计
+
+目的:在产品测试期间确定执行测试架构已实现的测试覆盖率。
+
+描述 :依靠故障仿直可以确定扫撒路径测试.BIST .功能测试模板或其他方法所能实现的汕试覆关
+率。在故障仿直期间.训试模式可被应用于一个被搬人故障的电路中。电路对于所应用激励的故障响
+应对应于所插人的故障:因此与测试覆盖率关联。故隐仿真允许检测“固定型(stuckrat)故障" 人心固定 1和
+“固定 0”) ,所实现的测试覆盖率代表所应用的测试模板的质量故障仿真可有效检测与逻辑有关的故
+障,例如对于部分扫描路径来说,对于不属于扫描路径部分的故障这种方法很有效。
+
+E.33 使用ATPG 工具估计测试覆盖率
+
+目的:在产品汕试期间确定合成测试模板(扫撞路径,BIST)所能实现的测试町兽卒。
+
+日2
+
+--- Page 101 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+FAS :当前有不同的方法用以实现市有扫朱路径的电路的伪随机或算法测试可板。 在合成期间合
+成工具(如 ATPG)创建一个未检测到的长区目录。因此可以合计测试复毒率并定义所应用测试模板
+的测试缆兰诗下限. HE kM A A ot 298 1ST 8 8 Ee. FF Ti ae PR ER BIST Bt ok
+AR AR IMF SA RB BES 428) Le DB > AS HY HA A ah 8 TT NY TH
+
+E.34 应用硬核经使用证明的评价
+
+目的:在应用便核期间避免系统失效.
+
+摘述 :硬核一般和被视为代表想实现功能的墨盒,由提供想实现的电路希件的目标技术的版图数据基
+础组成。 处理可能的功能失效的方法与分立器件(如标准微处理器,存储器等)相似。如果对于目标技
+本来说所使用的核能被视为经使用证明的组件,不验证其功能的正确性也可以使用该硬核。电路的其
+余部分应被彻底验证。
+
+E.35 应用已确认的硬核
+
+me; 参见 E.G" PER BE mM at”
+FLAY = 8 Jone FD fet 3 Via] ok ie, 28 iC THE
+摘述 :由于核以及假设约束的复杂特性,核的确认应该由供质商在设计阶段基于(VJIHDL 源代码
+执行。该确认仅对已应用的肯件的配置和目标技术有将。
+
+E.36 @RAR MINX
+
+Fi AS. {0 AY FE ee aah He a EP A PE a DE A SE, eA A a EY TN a BE ae. FP.
+E.37 设计规则检查(DRC)
+
+日的:供货商设计规则验证。
+
+MAS :基于供货商设计规则验证生成的版图,例如最小线长 .最大线长以及若干有关版图结构布置
+的规则。 完整日正确的 DRC 运行需要详细建立文档。
+
+E.38 布局与原理图对比的验证(LVS)
+
+目的:布局的独立验证。
+描述:LVS 从布局数据基础提取电路功能,并将所提取的包含互连的电路组件与输入的网表进行
+比较。这可确保电路布局与规定电路功能的网表之间的等价性.完整且正确的 LVS 运行需要详细建
+
+E.39 为使用时间小于3年的工艺技术附加裕量(二20%)
+目的:在后产工艺和参数显著波动的情况下 ,确保所实现电路功能的凋棒性，
+
+描述 :对于小纺构(例如小于0.5 pm)来说,实际的电路行为是由许多区于的物理作用定义的。实
+
+OS
+
+--- Page 102 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+际上,由于揣少详细知识太必要的向化,并不能推出电路组件的准硼和杭型。 随寿几何纺构的减小,线延
+玉越来越起到主导作用。线路上的信号延迟以及线路间交叉耘合能力超过比例关系增长。与门延迟相
+比信号延到不再可以忽瞳。舍计的线延返随春几何结构的减小风隘增加。
+
+因此.如果用于设计电路的工艺使用时间小于 3 年.建议为其最小和最大时间约束留出足够的裕量
+(一20为) ,以确保在生产过程中参数显著波动或缺少精确模型情况下电路功能仍能保证正确。
+
+E.40 2 Min
+
+FY FD = Tift ee ill de ots AS PAE. TAR REO DG i, BRA ats AP AS oe ft Be AT ak HE BA ES ee AE TT
+fe: 3 ot FE ft yk Can oi TB FR PE EAA
+
+描述 :老化测试应该在最高可容忍温度(125 OC) Pay. Wy fa) 2 ea hp “Et Se Se EE
+AY CSE A ASIC 制造商的)老化建议决定的。老化可用于:
+清除早期失效(浴盆曲线的开始段 ,失效率和逐渐降低的部分);
+证明在制造和测试期间早期失效已被清除(即.经生产线生产出的右件已经处于浴盆曲线的党
+效失效率区域) 。
+
+E.41 应用经使用证明的设备系列
+
+目的:确保所制造必斤的可筷性。
+HGR :安全设计的制造商应该有充分的所用可编程器件技术和开发工具的应用经验.
+
+E.42 经使用证明的生产工艺
+
+目的:确保所制造必斤的可菲性，
+摘述 :经使用证明生产工艺应具有充分的生产经验。
+
+E.43 生产工艺的质量控制
+
+在秀件生产工艺中的质量措施与控制机制确保连疆的工艺控制。例如测试竺构的光竺或电学控
+制 .温湿度偏扑测试或温度周期测试(见 TEC. 60068-2-1,IEC 60068-2-2 等) ,
+
+E.44 gaff tlie hei al
+
+应通过所选择的应力测试,如温湿度测试或温度变化测试(见 GB/T 2423,1,GB/T 2423.2 等)来证
+明冲件质量。 大件制造商应给出证明 .
+
+E.45 帝件的功能质量许可
+所有器件将进行功能测试。咒件制造商应给出证明。
+E.46 质量标准
+ASIC 制造商应提供充分的质量管理措施.例如下列文档中规定的内容:质量 总 可加性手册:
+
+GB/T 19000认证或标准供应商质量评估(SSQA ,
+G4
+
+--- Page 103 ---
+针对由软件来确保的安全
+
+针对由软件来确保的安全
+2 AY IE Wi PE
+
+i OL wa AS Ey BY Ga ie.
+
+fi]
+
+安全要求的可理解性
+
+针对由软件来确保的安全
+要求,没有非安全功能的不
+利干扰
+
+为验证和确认提供基础的
+
+能力
+
+eu
+
+针对软件安全要求规范的
+
+针对软件安全要求规范的
+正确性
+
+1A AS Ee AT fa be
+
+GB/T 20438.7—2017/IEC 61508-7 : 2010
+
+Mt 录 F
+(资料性附录 )
+软件安全生凶周期各阶段属性的定义
+
+表了.1 软件安全要求规范
+见 GB/T 20438.3—2017 AY 7.2 和表C.1)
+
+软件安全要求规范规定了来自于安全生命周期早期阶段并分配给软件的所有
+安全要求和约东往往作为软件安全要求规范活动的输入进行陈述,包括规定软
+件必须做什么和必须避免什么
+
+软件安全要求规苍对于分息给软件的安全要求和约束提供了合]
+目的是确保规定的内容在所有可能的条件下真正保证安全
+
+的解决方案，
+
+软件安全要求规范内在的完整性和一致性. 即,对于从其声明的内容中能够导出
+的功能和情况提供所有必要的信息;没有相互矛盾的表达,没有不相容的陈述。
+与安全要求的完整性和一致性不同的是,内在的完整性和一致性仅可基于软件
+安全要求规范自身进行评估
+
+在假设阅读者具有要求知识的前提下,所有需要阅读软件安全要求规范的人，
+即使在早期没有介人项目的情况下 ,能够不太费力的就能理解。一个重要的目
+的是便于验证和可能的修改
+
+软件安全要求规范中没有对于 EUC 安全无关的要求,目的是避免软件的设计
+和实施中不必要的复杂性,进而减少故障的风险和安全无关的功能干扰或损害
+安全功能的风险
+
+软件安全要求规范能够导出测试和检查。该测试能产生直接证据,以证明软件
+满足软件安全要求规范
+
+表F.2 软件设计和开发:软件架构设计
+GB/T 20438.3一2017 的 7.4.3 和表C.2)
+
+软件架构设计涉及到了由软件安全要求规范提出的所有安全要求和约划
+
+软件架构设计为特定的软件安全要求提供了适合的解决方法
+
+软件浊构设计和设计文档无丰隐.这里所蒋的发际和是指
+件安全要求无关的故隐，
+
+例如:死饥 .访问非授权的资产,容源泄露,内部的不完整性(即.无法处理由娠
+构设计本有身导出的所有情况)
+
+那些与任何特定的软
+
+--- Page 104 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+简单性和易懂性
+fT OA BY Ay POU He
+
+AIR AH) 9b a Se A see A, YY SE PA
+
+表 2 (22)
+
+软件架构设计允许在所有特定情况下正确和准确的预测软件的运行状态 ，
+尤其是在包合错误和失效的情况下 。
+
+可预测性尤其意味者软件运行不依顿于不能被设计者和使用者控制的项目
+软件架构设计和设计文档应公许和促进产生可和著的证据 ,证明谍计已正确考虑
+到所有特定的软件安全要求并且设计是设有内部故障的。
+
+可验证性可能隐售的引入一些特性,比如简单性 .横块化.清晰度 .可测试性 .可
+证明性等,取诀于使用的验证技术
+
+SAE SR RD ETE aR RR PE FFE fe De CIN iB Fa De BEE Ge Ue A A Eb aD Ga DD
+时 ,行为是安全的。
+
+防御性设计可以是主动的或痢般动的。 主动的防御式设计包括相同特征检测、
+报告和包容错误 .适度降级,以及恢复正常操作前清除一切不尽影响， 被动式
+防御包括的特总是:对于那些软件不应执行任何特定操作的等定类型错误或特
+定茶件(委毅输入 .特殊的数据和时间) ,保证软件不受其影响
+
+软件架构设计应易于识别共因失获模陈,并有兹防拖失获
+
+表 下.3 RRMA A: RHLAMREBE
+
+eu
+
+GB/T 20438.3—2017 & 7.4.4 和表C.3)
+
+fe OR a Ge FE Ga be Bae «Ber TR 2 ERY TY
+
+> (ith PEE ate FAY 2 ek AB he TE Pr TAT YD ett
+WY AE fey 27 ae Yin A. «0 fg BY) STE A LE i TA
+
+we F.4 软件设计和开发:诗细设计
+
+(见 GB/T 20438.3—2017 的7.4.5.7.4.6 和表C.4)
+
+针对软件安全要求规范的
+完整性
+针对软件安全要求规范的
+正确性
+
+ane fe, PAP ae VP Pe
+
+| 4  简单 .易懂
+行为可预测
+
+ 可验证和可测试的设计
+
+ 故障裕度和故障检测
+
+4,6
+ 避免共因失效
+
+96
+
+采用详细的软件设计和开发方法,以确保产生的软件达到分配给软件的所有安
+全要求和约束
+
+有特定证据可声明,所开发的软件达到了分配给软件的安全归求
+
+所开发的软件没有内部故际
+
+如:死锁 .访问非期望的资源.资源泄露
+
+通过客观的,有说服力的测试和分析 ,说明所和开发软件的行为是可预测的
+开发的软件是可验证和可测试的
+
+保障开发的软件在人存在错误情况下行为安全的技术和设计
+
+识别共因失效板式:并有效防范失获的技术和设计
+
+
+--- Page 105 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+表 .5 软件设计和开发:软件模块测试和集成
+(见 GB/T 20438.3一2017 中 7.4.7.7.4.8 和表 C.5)
+
+对照设计规范,测试和集成
+的完整性
+
+对照设计规范,测试和集成
+
+的正确性(成功完成)
+重复每一次评估得到一致的结果。 执行评估是模块测试和集成的一部分
+
+已经使用正确版本的组件和软件完成了模块测试和集成,具有已声明的结果，
+并允许该结果与已完成软件的具体配置连接
+
+KF.6 可编程电子集成(硬件和软件)
+见 GB/T 20438.3—2017 的7.5 #03 C.6)
+
+集成提供了系统组件适当的深度和覆盖面 ,确保系统在可预抑的操作条件和系
+对照 设计规范,集成的完 | 统失敬妈件下,执行预定功能,而不执行非预定功能。
+整性                      这包括用于验证的厚理.设计以及集成方面的目标等级(鲍如模块间相互作用
+集成基于正确的假设,例如,预期结果的正确性.所考虚的使用条件的正确性以
+及测试环境的代表性等。
+集成任务完成后,有具体的证据可声明安全要求得到满足
+
+对照这计规范,集成的正确
+性(成功完成)
+
+重复每一次评估得到一歼的结未:执行评舍十软件集成的一部分
+
+ 证使用正确版本的组件和软件,按照文档规定有效实施了集成。具有已声明
+
+清晰定义的集成配置
+            结果,并允许该结果与已完成软件的具体配置连接
+
+表T.7 系统安全确认的软件方面
+KL GB/T 20438.3—2017 AY 7.7 和表C.7)
+
+人 ae 软件确认涉及软件设计规范的所有要求
+
+对照软件设计规范.确认的
+正确性5成功完成)
+
+二 可重复性           重复每一次评估得到一致的结果 ,执行评估是软件确认的一部分
+ 清晰定义的确认配置      清晰而简明的定义系统、要求和环境
+
+软件确认人尾和劳完成后,有上有具恒的证据可声明安全要求得到满足
+
+OT
+
+--- Page 106 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+表下.8 软件修改
+(见 GB/T 20438.3—2017 的7.8 FF C.8)
+
+_ 修改要求,修改的完 | 对于修改的功能.安全 .技术和操作后果有正确理解,修改按照规定的程序得到
+授权人员的评可
+
+j照修改要求,修改的正
+AEB OCR AB OT TE | 修改达到其规定的日标
+
+修改不会引入新的系统性失效,如被 0 除,索引或指针越界,使用未初始化变
+
+避免引入固有的设计错误    —
+it 等
+
+WE fh, AS A Et Fy AY     依据在软件安全要求规范中声明的约束,修改不能引信规范中必须避免的行为
+可验证和可测试的设计          软件设计能够做到 ,使修改的作用能够得到全面检查
+软件屋计能够做到可以进行有将的和全面的回归调试以证明经过翌改后的软
+
+回归测试和验证履盖
+      件仍然满足软件安全要求规范的要求
+
+P.O 软件验证
+见 GB/T 20438.3一2017 的 7.9 MF C.9)
+
+相对前一阶段.验证的完
+  | 验证有能力证明软件满足软件安全要求规范的所有相关要求
+
+相对前二阶段,验证的正确
+"    ae     验证任务完成后,有具体的证据可声明安全要求得到满足
+性(成功完成)
+
+ee 重复每一次评估得到一致的结果 ,执行评估是验证的一部分
+
+已对正确版本的组件和软件实施验证,具有已声明的结果,并多许该结果与已
+9.4 | 清晰定义的验证配置
+
+表下.10 功能安全评估
+见 GB/T 20438.3一2017 的第 8 BAH C.10)
+
+软件功能安全评佑对以下方面作出明确声明:符合规范的程度,作出的判断,补
+救措施和时间进度的建议,得到的结论和接受.有茶件的接受.不接受的建议以
+及对于这些建议的任何时间限制
+
+对照标准,功能安全评估的
+完整性
+
+对照设计规范,功能安全评
+估的正确性(成功完成)
+
+可追踪地结东所有确定的
+AG AK HE A Br ie fh AY oe
+后修改软件功能安全评估
+的能力
+
+冠成软件功能安全评估任务,有县体的证据可声明安全要求得到满足
+
+明确声明在软件功能安全评佑过程中发现的问题已被解决
+
+软件功能安全评估具有软件修改并获得修订绊论后,无需重新进行完整鸣功能
+芝企评售.而只需对偿改的那部分进行重新评情的能力
+
+
+--- Page 107 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+表 F.10 (经 )
+
+对于确定的项目和文档:根据一致的.计划好的和开放的程序执行功能安全评
+咎,其可以让包括系统供应商.用户 .维护大员和监管人员在内的所有受这个判
+打影响的各方能详细审查评估和所得判断的基础。
+
+切能安全评估人双许独立的有能力的人员重复的执行整个评司的一部分
+
+功能安全评帆在适当的频率下执行,频率与软件安全生辣周期阶段相关,评估
+至少早于已确定的危险出现之前,并能够及时报告不足。
+
+当要求作为评佑庶策的输人时,测试.安全监测和分析等的结果是可用的
+
+软件功能安全评估允许其结果与已得到功能安全评估证实的县体系统配置
+
+清晰定义的配置
+
+99
+
+--- Page 108 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+附 录 G
+(资料性附录)
+安全相关的面向对象软件的开发指南
+
+GB/T 20438 的所有建议适用于面回对象软件的软件设计。 由于面回对象的方法提供了不同于过
+程和功能方法的信息,下面所列包会了那些再机具悼考夸的建议 :
+
+一一理解类的层次结构,并识别以给定方法调用执行的软件功能(包括何时使用现有的类库);
+
+一一基于结构的测试(GB/T 20438.3一2017 的表 B.2 Al GB/T 20438.7一2017 的C.5.8) 。
+
+表 G.1 和表 G.2 针对面问对象软件的使用提供了资料性的指导,以补充 GB/T 20438.3一2017
+表 A.2 和表 A.4 提供的更通用的规范性指导
+
+表 G.1 面向对象的软件架构
+
+TRECs Ce
+
+SAT FD oon a $BE cs Bl) 8 FY SS AY YG RE
+
+(68 A) op ak AY) HE AS AB) eS A
+re : nn
+求适用于这些框洪和模上
+
+注 1: 从应用领霹到类的洪构的可人退调性是次要的 。
+
+注2: 例一:对于一个想要作为安全相关项目的部分,可能已经存在一个非安全相关项目的框浊 ,该框浊已成功
+JR TRAE AAT A TA, ED EAT HE
+{Si] — sR eA RG TA BR AG PE IY es ES SO PA ES. a PR,
+(5) = 5 Ee Se FAS BY iB oP AS Be. A PROT AL i Pb a PED A oe a SL i PE Re
+模式来组织这些警告。 这个要求不适用于库。
+
+注3: 它通笛是一个抽象的基本类 TUR AE BY) A AR HE EH
+
+表 G.2 面向对象的详细设计
+
+4
+
+|saaare ae oe
+rr ee ee
+ 要验证面向对象的库的再使用是否满足表中的建议      HR | HR | HR HR
+
+注 1: 也就是说，  个从由其所学担的页 填任而具有特征,即 ,注意数据和数据的操作有黎切关系.
+
+在表 G.3 PAR IESE MS EAI ACL
+
+100
+
+--- Page 109 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+表 G.3 ”一些相关术语
+
+                                                           非正式定义
+
+具有派生类的类。一个基本类有时也被称为上层类或父类
+ 从另一个类(基本类)继承属性和/或操作的类(属性和操作的集合) 。派生类有时称为亚类或子类
+程序的结构,在许多情况下预先制定,以便于填人特定的应用
+
+在运行时,在同一署名和继承结构上 ,用另外一个操作(方法.子程序)更换一个算法(方法.子程序)3面
+问对象的语言和程序的属性;实现多态性
+
+操作(了程序,方法)的名称:连同其参数(荫令)和类型,有时也包括返回类型，如末有具有相同的名称，
+数量和参数的类型 ,两个签名是相同的;在某些语言中,返回业型也必须是相同的
+
+LO]
+
+--- Page 110 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+参考 文 献
+
+[1] GB/T 2421.1—2008 电工电子产品环境试验 概述和指南
+
+[2] GB 4208一1993 外壳防护等级(IP 代码)
+
+(3) GB/T 7826—2012 系统可徘性分析技术”失歼模式和影响分析(FMEA)程序
+
+[4 IEC 60880:2006 Nuclear power plants—Instrumentation and control systems important to
+safety—Soltware aspects for computer-based systems performing category A [functions
+
+15] IEC 61000-4-1;2006 Electromagnetic compatibility( EMC)—Part 4-1: Testing and meas-
+urement techniques-Overview of IEC 61000-4 series
+
+(6) GB/T 17626.5 2008 Himes 试验和测量技术 JR Ca ache ee igs
+
+[17 IEC/TR 61000-5-2;1997 Electromagnetic compatibility( EMC)— Part 5; Installation and
+mitigation guidelines Section 2;Earthing and cabling
+
+(8) IEC 61025:2006 Fault tree analysis( FTA)
+
+(9) GB/T 18272.5—2000 工业过程测量和控制”系统评估中系统特性的评定 ORS ADP sR
+
+[10| IEC 61078:2006 Analysis techniques for dependability—Reliability block diagram and
+boolean methods
+
+(11) GB/T 15969.3一2005 Fy aa REPRE Hilae 第3部分:编程语言
+
+112] IEC61160:2005 Design review
+
+(15) IEC 61163-1:2006 Reliability stress screening—Part 1; Repairable assemblies manufac-
+tured in lots
+
+14] IEC 61164:2004 Reliability growth—Statistical test and estimation methods
+
+(15] IEC 61165:2006 Application of Markov techniques
+
+'16] IEC 61326-3-1:2008 Electrical equipment for measurement.control and laboratory use—
+EMC requirements—FPart 3-1:Immunity requirements for safety-related systems and for equipment in-
+tended to perform safety-related functions(functional safety)—General industrial applications
+
+117] IEC 61326-3-2;2008 Electrical equipment for measurement.control and laboratory use
+EMC requirements Part 3-2:Immunity requirements for safety-related systems and for equipment in-
+tended to perform safety-related functions(functional safety)—Industrial applications with specified
+electromagnetic environment
+
+118] IEC 81346-1:2009 Industrial systems. installations and equipment and industrial prod-
+ucts—-Structuring principles and reference designations—Part 1; Basic rules
+
+119] GB/T 19898—2005 工业过程测量和控制 应用软件文档集
+
+L20」 GB/Z 29638一2013 ”电气/电子/可编程电子安全相关系统的功能安全 ”功能安全概念及
+GB/T 20438 系列概况
+
+(21) GB/T 21109(所有部分) 过程工业领域安全仪表系统的功能安全
+
+[22] GB 28526一2012 机械电气安全 安全相关电气.电了于和可编程电子控制系统的功能安全
+
+123) IEC 62308:2006 Equipment reliability—Reliability assessment methods
+
+'24] ISO/TEC 1539-1:2004 Information technology—Programming languages—Fortran— Part
+|: Base language
+
+[25] GB/T 1526—1989 信息处理 Rett EE PEAY dit Be A. A Be tht FEA) BE) 29 Vl A HK Be
+ot ik PSE CAF Shit ill 4 2 Be 24 HE
+
+102
+
+--- Page 111 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+126] ISO/TEC 7185:1990 Information technology—Programming languages—Pascal
+
+127] ISO/TEC 8631:1989 Information technology—Program constructs and conventions for
+their representation
+
+128] ISO/TEC 8652:1995 Information technology—Programming languages— Ada
+
+129| ISO 8807:1989 Information processing systems—QOpen Systems Interconnection—LQ-
+TOS—A formal description technique based on the temporal ordering of observational behaviour
+
+[30] ISO/TEC 9899:1999 Programming languages—C
+
+131] ISO/TEC 10206-1991 Information technology—Programming languages—Extended Pascal
+
+132) ISO/TEC 10514-1;1996 Information technology—Programming languages—Part 1:Mod-
+ula-2.Base Language
+
+133) ISO/TEC 10514-3;1998 Information technology Programming languages Part 3; Object
+Oriented Modula-2
+
+34] ISO/TEC 13817-1:1996 Information technology Programming languages, their environ
+ments and system soltware interlaces— Vienna Development Method—Specilication Language—Part
+1: Base language
+
+135] ISO/TEC 14882:2003 Programming languages—C+ +
+
+136] ISO/TEC/TR 15942:2000 Information technology—Programming languages—-Guide for
+the use of the Ada programming language in high integrity systems
+
+[37] GB/T 12668.502 调速电气传动系统 第5-2 Mor: AB OR TBE
+
+138] IEC 60601Call parts) Medical electrical equipment
+
+139] GB/T 2423.1 电工电子产品环境试验 党2部分:试验方法 试验上A:低温
+
+[40] GB/T 2423.2 电工电子产品环境试验 第2部分:试验方法”试难B:高温
+
+[41] GB/T 19000 质量管理体系”基础和术语
+
+[42] GB/T 20438.1一2017 电气/电子/可编程电了于安全相关系统的功能安全 种1部分:一般
+
+[43] GB/T 20438.2—2017 电气/电子/可编程电了于安全相关系统的功能安全 种2部分:电
+气/ 电子/可编程电了于安全相关系统的要求
+[44] GB/T 20438.3一2017 电气/电子/可编程电子安全相关系统的功能安全 第3部分:软件
+要求
+
+[45] GB/T 20438.6一2017 电气/电子/可编程电子安企相关系统的功能安全 第6部分:
+GB/T 20438.2 和 GB/T 20438.3 的应用指南
+
+LOS
+
+--- Page 112 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+i a tt BR S|
+
+A
+
+B
+
+* C.2.14
+BARE nn
+
+报文序列图
+
+编码处理(单通道
+编制文档 …
+
+标准测试访问端口和边界扫描架构 ………:
+布局与原理图对比的验证 pe
+FR AS BY AY ZS EB nee nee eee eee cee cee cee cee eee eee eee ees
+
+参考传感器 sc ccn cs ccenen see ceeneeceecneneeces
+操作和维护说明书 cee eee cae cee new eee cee cnewew ees
+测试管理和自动化工具 cove cee ceecceceeeeeces
+测试结构的执行 pp
+测试模式 pe
+差错检测和纠正码 pp
+程序序列的逻辑监视 ,pv 9
+程序序列的时序和逻辑监视的组合 ………
+
+传播延迟的静态分析(STA)
+传感器
+
+传输元余 …
+CORE一一受控的要求表达
+CSP
+错误播种 …
+
+代码保护 .pe
+
+代码检查器的应用
+
+lod
+
+A.5.4
+
+B.2.3
+
+A.1.3
+C.5.4
+C.2.6.2
+
+… A.3.4
+
+* B.1.2
+A.2.3
+E.38
+A.4
+
+A.12.1
+B.4.1
+C.2.4.2
+C.4.7
+E.31
+A.6.1
+C.3.2
+A.9.3
+A.9.4
+- E.23
+* A.l2
+
+* ALIS
+rere C2.1.2
+通信顺序过程 ………………………………:
+.9.6
+错误推测 pp
+
+C.2.4.3
+
+C.5.5
+
+A.6.2
+
+* E.18
+- E.15
+
+5
+
+带有自动检验的电气/电子部件 ……………:
+电气.4
+电压控制(次级) ee
+电源.0
+电子.ee
+og AS BM Oe IAG cnn ene ccc ne eeecee em
+对物理环境的防范措施 pp
+多通道并行输出 ppp
+多位硬件元从 ee
+多线路的空间分隔 “pp
+
+反向的信和号传输 ee
+反向恢复 .pe
+防御性编程 pp
+仿真结果文档 ee
+防止操作员出错 pp
+分隔开电力线和信息线 cee cee eee ee eee eee ees
+
+A.2.6
+A.4.3
+C.5./
+A.
+A.8.2
+A.B
+A.2
+E./
+C.2.6.4.C.2.6.3
+* B.6.5
+A.2.2
+C.3.10
+A.13.2
+A.1.4
+A.14
+A.0.3
+A.7/.2
+A.11.2
+C.3.4
+- B.1.4
+
+A.11.4
+C,3.6
+… E16
+C.2.5
++ E.17
+* B.4.6
+A.11.1
+
+分离开 E/E/PE 系统的安全功能与非安全
+
+功能 .…….…:
+风局控制 -
+
+符号执行 cee cee une eeeueeceeseeeneteeens eee ens
+
+概率测试…
+工具和翻译器
+
+.1.3
+A.10.2
+C.5.11
+C.3.13
+
+… C5.1
+
+--- Page 113 ---
+通过使用提高置信和度
+源程序和执行代码的比较 -
+TARE ADE
+
+ri [ies AY Ae AY
+
+广义随机佩特里网(GSPN )模型 …………
+
+Re Ate Ee
+
+合适的编程语言 .pp
+
+I
+
+1/O 单元通信和接口(外部通信) …………………:
+
+J
+ak FA aa fi a Un 4
+
+WR UL Pa Eee 3 Fl eT tH (HAZOP)
+
+基于脚本的方法 -
+基于结构的汕试…
+
+检查表 -
+检查(复审和分析) -，
+
+检查供应商的要求和约束 -
+监视完余
+
+基于模型的测试(测试用例的产生) ee
+
+ese BIS
+… B37
+rere E26
+A130
+
++ C.4.4
+
+… C.4.4,1
+
+… B.5.1
+A.3
+C.6.3
+B.6.10
+C.3.7
+C.3.1
+
++ B.6.6.5
+… B.6.6.9
+
+B.6.6.10
+
+C.5.26
+C.5.18
+
+E.5
+C.4.5
+B.5.2
+C.2.4.4
+
+C.5.25
+
+A.6
+
++ AL1.2
+* €C.6.2
+
+FF th Bo 4 i inh 7 Ei cee cee cee cee cee ees
+
+* B.3.5
+E.32
+… E.30
+* €C.5.6
+C.5.27/
+
+“© AL2.5
+A.2.8
+C.2.7
+> B.2.1
+E.3
+
+GB/T 20438./—201/7/1EC 61508-7:2010
+
+结构化设计 pp BOD
+ oo (7D |
+经认证的工具和经认证的多译器       0C.4.3
+具有分离时基和时间窗的看门狗 ………… 全.9.2
+BA oy ms AY Em CY Ne) BY YF ee AT
+具有硬件或软件比较和读/写测试的双重
+
+RAM TreeTer Tee Te            as A.5./
+具有在线检验的时序监视…    .9.5
+“检测板 "法或者"跨步"法 RAM 测试 …… A.5.1
+
+K
+
+抗物理环境的措施 eevee eevee eee ee eee 人14
+
+可变的在储区 .pp
+ST HEA ener
+B.6.6.7
+* €.2.10
+… €.2.11
+… ALT.5
+… €,5.9
+
+Tan eREHR AE
+
+Sma mINRM hem.
+
+控制流分析 …
+
+块复制(例如利用硬件或者软件进行比较
+的双重 ROMI) -
+
+扩展的功能测试
+
+L
+
+利用软件进行自测试
+利用软件进行自测试:有限模式数
+(iA) …
+
+利用一个修改的汉明码进行 RAM 监视，
+
+ALS
+F.11
+C.6.4
+
+… AL45
+“* B.6.8
+
+        … A.10.4
+:漫步位(单通道) …
+
+B.6.z
+
+”下.40
+
+C.2.3
+A.2.1
+A.3.9
+A.3.2
+
+* ALS.
+
+LOS
+
+--- Page 114 ---
+GB/T 20438.7一20177IEC 61508-7:2010
+
+或者利用差稍检测和纠铺码(EDC)
+检测数据失效 .pp
+
+M
+
+马尔可夫模型 -
+
+A.5.6
+A.1.1
+
+… B.6.6.6
+门级网表对比仿真参考模型的验证 ………
+门级网表仿直以检查时序约束 .……………………
+
+E.24
+E.22
+
+门级网表与参考模型的比较《〈形式化等价
+
+测试 se
+… B.6.6.8
+
+蒙特-卡洛模拟…
+面回模型的层次分析程序
+
+模块级的功能测试ppp
+二 C.5.1?.1
+“SB BR ARSE RAM 测试 coe cee reece eee eeeees
+
+模块化
+
+模型检查
+
+O
+
+P
+
+司动可徘的开关
+
+器件的功能质量许可 .pp
+器件的制造质量 .pp
+BRA TE A Be Hh Hee AY) Th Be Wy ik
+
+强类型编程语言 .….………….…….…..
+强制通风制冷的连接和状态指示
+
+及
+
+软错误:ee
+
+be et FMEA
+
+软件配置管理 .4
+软件危险与可操作性分析 pp
+软件自动生成 .pp
+
+106
+
+E.25
+
+C.2.9
+
+B.3.6
+A.2./
+
+A.5.2
+
+C.2.4.6
+
+C.6.1
+
+A.12.2
+FE.45
+F.44
+
+- EB
+
+… C.4,]
+
+… A.10.5
+
+C.3.12
+A.5
+E.21
+C.3.5
+… C62
+C.5.24
+C.6.2
+C.4.6
+
+设计复审 cee cee ce eee cee cee ene eee eer ene cee cen ens
+设计和编码标准 .ppp
+生产工艺的质量控制 .ee
+适度降级 pe
+时间和触发架构 .pp
+时间排序规范语言(LOTOS) oversee eee
+Bet fe) il $e BC Peri) Bi) cee eee cee cee cee ene ee
+事件树分析 cee cee cee cee eee cee cee eee eee seers:
+实体关系模型 pp
+
+KLIS a FE
+失效分析…
+
+失效模式 .影响和危害性分析
+(FMECA)…
+
+时序的和到辑的程序序列监视…
+
+Ay Fe ae -
+
+使用ATPG 工具估计测试履兰率 -
+使用安全断电的过压保护 .pp
+使用测试模式进行检查 .pp
+3.3
+使用可信的/经验证的软件模块和成份 …
+
+sees A6.4
++ 0C.5.2
+
+使用经试用并证明获果恨好的元件…
+
+受监视的输出…
+数据记录和分析…
+
+4
+
+双字(16 位)的签名
+
+r=)           Pht ttt tet tae ee ee a ee ee ee
+
+aman
+
+«hop 8st eatpat) ”  法或者“透明跳步模式
+
+paren galpat)  JE RAM 测试…
+
+中和   eee      ree B55
+通信和大容量存储器 cee cee cee cee cee eee 9
+
+统计测试 .
+
+C.5.16
+
++ E.37
+
+C.2.6
+
++ E43
+
+C.3.8
+C.3.11
+C.2.4.5
+B.2.3.3
+B.6.6.3
+C.2.1.4
+B.2.4.4
+
+« C€.3.3
+失效模式和影响分析(FMEA) .………………:
+
+B.6.6.1
+
+… B.6.6.4
+
+* ALY
+
+* €.2.4,7
+
++ E.33
+A.8.1
+A./.4
+
+C.2.10
+
+C.5.10
+C.2.2
+A./
+A.6.5
+C.5./
+* B.4.9
+
+A.11.3
+A.10
+
+* A.S.S
+A.10.3
+
+A.1]
+
+--- Page 115 ---
+V
+
+VDM .VDM+ +—Viennal 维也纳7)开发
+方法 be bee eee ee ee ee ee C.7.4.8
+
+完全硬件元余…           + A.7.3
+维护友善性 …           .4.3
+为使用时间小于 3 年的工艺拉术附加裕量
+【720001     本     39
+fim Fae Tz AR BR treet ects cee cee eee eee cees    * AL10.1
+无状态的软件设计(或有限状态设计) … C.2.12
+
+xX
+
+限制操作可能性 pp BAG
+响应时间和存储约束 0C.5.22
+信息元全 pp Ware |
+言息隐藏/封装                 * C28
+性能要求 pp (C5 19
+形式化审查 PC514
+修改的校验和 -           人4.<
+修改保护 evereewvwviroorororororoeroevt BAB
+
+Y
+
+4 Fe SE FA — Bt
+
+RAM ae)                                  * ALSL5
+已有软件 ,存在验证证据 cece C.2.10.2
+已有软件 ,经使用证明的 PC.2.10.2
+因果图 -              ，B.6.6.2
+
+GB/T 20438./—201/7/1EC 61508-7 :2010
+
+硬核在线测试 pp E36
+应用经确认的软内核 pp .20
+应用经使用证明的合成工具 ……………………… 上.28
+应用经使用证明的设备系列 ………………… BAT
+应用已确认的硬核 pp。 E35
+应用硬核经使用证明的评价 reer E84
+He A SH AY WTR (GRE) eee eee 人.3.3
+有限的使用指针 pp (C2 6.6
+原型设计/动画      7
+约束、结果与工具的合成文档…，      27
+
+/
+
+BEARER TE PIRI BE ~    tettersereeres BG
+
+PLA HR EDL           - B.4.5
+主要输入的同步和控制的亚稳态的控制 … E.10
+状态转换图 -            … B.2.3.2
+字保存多位元余(例如使用一个改进的
+
+汉明码进行 ROM 监视)          … 及.4.1
+走查(软件)                   » €.5,15
+最坏情况测试 ORO 了B.6.9
+最坏情况分析 ppp .6.7
+遵循编码指南 pp .14
+道循指南和标准 pp 8.3.1

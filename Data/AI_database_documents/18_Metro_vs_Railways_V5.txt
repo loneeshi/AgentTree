@@ -1,0 +1,1170 @@
+--- Document Chunk 0 ---
+ 
+
+--- Document Chunk 1 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 2 ---
+Metro Railways – Automation and a summary of differences from typical main line railways 
+
+--- Document Chunk 3 ---
+Version 5 
+
+--- Document Chunk 4 ---
+(This document is intended for candidates taking Module A of the IRSE Professional Examination.  Some content comes from the IRSE Metro Train Control 
+
+--- Document Chunk 5 ---
+Systems textbook) 
+
+--- Document Chunk 6 ---
+Rail based public transport covers a wide spectrum ranging from tramways with little or no signalling to high speed lines with cab signalling and full 
+
+--- Document Chunk 7 ---
+automatic train protection.  Within that range, this comparison seeks to summarise the main differences between a typical metro and a typical main line 
+
+--- Document Chunk 8 ---
+railway.  The main line railway is assumed to be a mixed traffic network of lines (express passenger, suburban or local passenger & freight).  The metro is 
+
+--- Document Chunk 9 ---
+taken to be a “mass transit” railway with high passenger flows and some underground sections such as exist in many large cities globally.  It can also be 
+
+--- Document Chunk 10 ---
+known as the underground, subway, or tube. 
+
+--- Document Chunk 11 ---
+The document also outlines the various degrees of automation applied to metros worldwide. 
+
+--- Document Chunk 12 ---
+ 
+
+--- Document Chunk 13 ---
+  
+
+--- Document Chunk 14 ---
+ 
+
+--- Document Chunk 15 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 16 ---
+Summary of differences 
+
+--- Document Chunk 17 ---
+Metro railway Main line railway 
+
+--- Document Chunk 18 ---
+Traffic patterns  
+
+--- Document Chunk 19 ---
+High frequency service, particularly in city centres.  Frequency of more 
+
+--- Document Chunk 20 ---
+than 30 trains per hour can be achieved. 
+
+--- Document Chunk 21 ---
+Very wide range of frequencies though not as high as the most frequent 
+
+--- Document Chunk 22 ---
+metros. 
+
+--- Document Chunk 23 ---
+High capacity capable of transporting up to 50,000 passengers per hour. High capacity can be delivered, usually with longer, less frequent trains. 
+
+--- Document Chunk 24 ---
+Trains nearly always stop at all stations Variable stopping patterns to accommodate express and stopping trains.  
+
+--- Document Chunk 25 ---
+This has an adverse effect on capacity. 
+
+--- Document Chunk 26 ---
+Does not share tracks with freight or inter-city type services, but some 
+
+--- Document Chunk 27 ---
+systems share some sections of route with suburban trains. 
+
+--- Document Chunk 28 ---
+The same tracks are used by express passenger, suburban passenger & 
+
+--- Document Chunk 29 ---
+freight trains. 
+
+--- Document Chunk 30 ---
+Station stops are often close together Station stops can be very widely separated. 
+
+--- Document Chunk 31 ---
+Passenger management  
+
+--- Document Chunk 32 ---
+Carry large numbers of people over relatively short distances in city 
+
+--- Document Chunk 33 ---
+centres and the surrounding areas.  Managing passenger flows within 
+
+--- Document Chunk 34 ---
+stations is an important consideration. 
+
+--- Document Chunk 35 ---
+Typically longer journeys with lower passenger densities at stations.  
+
+--- Document Chunk 36 ---
+Passenger management is only critical in locations with high passenger 
+
+--- Document Chunk 37 ---
+densities. 
+
+--- Document Chunk 38 ---
+Headway & Capacity  
+
+--- Document Chunk 39 ---
+Station dwell times are minimised because at high frequencies on an 
+
+--- Document Chunk 40 ---
+existing system, this is the most significant limiting factor on capacity.  
+
+--- Document Chunk 41 ---
+More and wider train doors tend to reduce dwell time. 
+
+--- Document Chunk 42 ---
+Station dwell times are less critical on most routes. 
+
+--- Document Chunk 43 ---
+When designing a new metro line, higher capacity trains (e.g. more cars, 
+
+--- Document Chunk 44 ---
+fewer seats) will increase passenger capacity.  High acceleration and 
+
+--- Document Chunk 45 ---
+braking rates are more important ways of increasing capacity than high 
+
+--- Document Chunk 46 ---
+maximum speeds. 
+
+--- Document Chunk 47 ---
+The same principles apply, but are only significant where there are high 
+
+--- Document Chunk 48 ---
+passenger densities.   
+
+--- Document Chunk 49 ---
+Terminal station layouts and procedures are designed to deliver rapid train 
+
+--- Document Chunk 50 ---
+turnrounds to maximise the train frequency for the number of platforms.  
+
+--- Document Chunk 51 ---
+The number of platforms can be a major constraint on line capacity. 
+
+--- Document Chunk 52 ---
+Relatively long layovers at terminal stations are usual. 
+
+--- Document Chunk 53 ---
+Fixed block is widespread, but with short track circuit sections carefully 
+
+--- Document Chunk 54 ---
+designed to optimise capacity.  Moving block is used by modern CBTC 
+
+--- Document Chunk 55 ---
+systems to increase capacity and shorten signalling headway by reducing 
+
+--- Document Chunk 56 ---
+the allowed train separation as the following train slows down. 
+
+--- Document Chunk 57 ---
+Fixed block is the norm.  Moving block is enabled by the highest level of 
+
+--- Document Chunk 58 ---
+ETCS (not yet widely implemented), but this is less valuable in increasing 
+
+--- Document Chunk 59 ---
+capacity where different types of train share the same tracks.  
+
+--- Document Chunk 60 ---
+ 
+
+--- Document Chunk 61 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 62 ---
+ 
+
+--- Document Chunk 63 ---
+Metro railway Main line railway 
+
+--- Document Chunk 64 ---
+Safety  
+
+--- Document Chunk 65 ---
+More frequent service increases collision risk.  Collisions in tunnels have 
+
+--- Document Chunk 66 ---
+the potential for very serious consequences.  Automatic Train Protection 
+
+--- Document Chunk 67 ---
+(ATP) to prevent collisions is considered essential on most lines. 
+
+--- Document Chunk 68 ---
+ATP is typically integrated within modern systems such as CBTC 
+
+--- Document Chunk 69 ---
+Higher speeds increase the potential consequences of a collision or 
+
+--- Document Chunk 70 ---
+derailment (though there are far fewer tunnels).  A wide variety of ATP 
+
+--- Document Chunk 71 ---
+systems exist and are commonly used.  ATP is typically integrated within 
+
+--- Document Chunk 72 ---
+modern systems such as ETCS. 
+
+--- Document Chunk 73 ---
+Fire or smoke are more dangerous in a tunnel, resulting in many metros 
+
+--- Document Chunk 74 ---
+implementing their own specific approvals regimes to manage the risk 
+
+--- Document Chunk 75 ---
+posed by equipment deployed in these locations. 
+
+--- Document Chunk 76 ---
+The same applies, but there are far fewer tunnels.  
+
+--- Document Chunk 77 ---
+High passenger numbers mean that controls need to be applied in the 
+
+--- Document Chunk 78 ---
+event of service disruption (e.g. by temporary station closure).  Platform 
+
+--- Document Chunk 79 ---
+screen doors are often provided on new metros. 
+
+--- Document Chunk 80 ---
+This only applies where there are high passenger densities. 
+
+--- Document Chunk 81 ---
+Reliable and audible public address (both on trains and in stations) is vital 
+
+--- Document Chunk 82 ---
+to maintain passenger safety during emergencies and service disruption.  
+
+--- Document Chunk 83 ---
+Robust voice communications between the control centre and the train 
+
+--- Document Chunk 84 ---
+driver (or attendant) is vital too. 
+
+--- Document Chunk 85 ---
+Important, but less critical except where there are high passenger 
+
+--- Document Chunk 86 ---
+densities. 
+
+--- Document Chunk 87 ---
+Evacuation of passengers in tunnels is difficult, particularly if there is no 
+
+--- Document Chunk 88 ---
+side walkway. As a result, many metros include specific evacuation shafts 
+
+--- Document Chunk 89 ---
+at certain locations.  These are typically equipped with systems to support 
+
+--- Document Chunk 90 ---
+the evacuation of passengers under the supervision of operational staff 
+
+--- Document Chunk 91 ---
+and the emergency services. 
+
+--- Document Chunk 92 ---
+The same applies, but very little of the network is in tunnel. 
+
+--- Document Chunk 93 ---
+Control system  
+
+--- Document Chunk 94 ---
+Modern systems use Communication Based Train Control (CBTC).  
+
+--- Document Chunk 95 ---
+Currently systems from different equipment suppliers are not 
+
+--- Document Chunk 96 ---
+interoperable.  This is not a big compatibility issue because most metro 
+
+--- Document Chunk 97 ---
+lines are self-contained.  Lineside signals are not necessary for normal 
+
+--- Document Chunk 98 ---
+operations, but are sometimes installed (e.g. backup, running of trains that 
+
+--- Document Chunk 99 ---
+are not CBTC fitted) 
+
+--- Document Chunk 100 ---
+Most modern systems without lineside signalling use the European Train 
+
+--- Document Chunk 101 ---
+Control System (ETCS) or a near equivalent.  There is a common 
+
+--- Document Chunk 102 ---
+specification such that systems from different equipment suppliers are 
+
+--- Document Chunk 103 ---
+interoperable (i.e. each train only needs one set of equipment to 
+
+--- Document Chunk 104 ---
+communicate with any ETCS fitted infrastructure).  Positive Train Control 
+
+--- Document Chunk 105 ---
+(PTC) in North America has similar functions. 
+
+--- Document Chunk 106 ---
+  
+
+--- Document Chunk 107 ---
+ 
+
+--- Document Chunk 108 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 109 ---
+Metro railway Main line railway 
+
+--- Document Chunk 110 ---
+Automation  
+
+--- Document Chunk 111 ---
+Increasing use of high levels of automation, up to and including driverless 
+
+--- Document Chunk 112 ---
+and unattended operation.  Elimination of lineside signals.  Attended 
+
+--- Document Chunk 113 ---
+operation enables automated driving, but provides an on-board human 
+
+--- Document Chunk 114 ---
+presence to manage passenger safety and/or manually drive the train in 
+
+--- Document Chunk 115 ---
+the event of failure. 
+
+--- Document Chunk 116 ---
+See Automation section below for more details. 
+
+--- Document Chunk 117 ---
+Increasing use of automation to support the driver. 
+
+--- Document Chunk 118 ---
+Automatic Train Operation (ATO) can improve capacity by consistently 
+
+--- Document Chunk 119 ---
+driving every train in a way which minimises transit times between 
+
+--- Document Chunk 120 ---
+stations.  This means that recovery margins do not need to allow for the 
+
+--- Document Chunk 121 ---
+differing driving styles of a large number of drivers. 
+
+--- Document Chunk 122 ---
+The same principles apply, but are only significant where there are high 
+
+--- Document Chunk 123 ---
+passenger densities.   
+
+--- Document Chunk 124 ---
+Data communications  
+
+--- Document Chunk 125 ---
+Combination of highly directional aerials and radiating cables (leaky 
+
+--- Document Chunk 126 ---
+feeders) to communicate between control centre and trains in tunnels.  
+
+--- Document Chunk 127 ---
+TETRA radio and Wi-Fi with robust coding are the commonly used systems.  
+
+--- Document Chunk 128 ---
+These systems are sometimes used to provide train fault reporting data 
+
+--- Document Chunk 129 ---
+(often routed directly to the rolling stock maintenance location) and 
+
+--- Document Chunk 130 ---
+customer information system updates.   
+
+--- Document Chunk 131 ---
+Similar technology used in tunnels.  GSM-R is the current standard in 
+
+--- Document Chunk 132 ---
+Europe for secure communications with trains. 
+
+--- Document Chunk 133 ---
+  
+
+--- Document Chunk 134 ---
+ 
+
+--- Document Chunk 135 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 136 ---
+Metro railway Main line railway 
+
+--- Document Chunk 137 ---
+Voice communications  
+
+--- Document Chunk 138 ---
+TETRA radio is the most commonly used system providing voice 
+
+--- Document Chunk 139 ---
+communication: 
+
+--- Document Chunk 140 ---
+- Between control centres and trains 
+
+--- Document Chunk 141 ---
+- For station staff 
+
+--- Document Chunk 142 ---
+- For maintenance staff 
+
+--- Document Chunk 143 ---
+- For incident response teams 
+
+--- Document Chunk 144 ---
+ 
+
+--- Document Chunk 145 ---
+Note that TETRA radio base stations are capable of continuing to provide 
+
+--- Document Chunk 146 ---
+local service to radio users in the event of disconnection from or failure of 
+
+--- Document Chunk 147 ---
+the wider network.  This resilience is a key feature of their role within 
+
+--- Document Chunk 148 ---
+operational management of the station (particularly at large underground 
+
+--- Document Chunk 149 ---
+locations). 
+
+--- Document Chunk 150 ---
+GSM-R is the current standard in Europe for secure communications with 
+
+--- Document Chunk 151 ---
+trains, usually supplemented with track side telephones deployed at 
+
+--- Document Chunk 152 ---
+appropriate locations. 
+
+--- Document Chunk 153 ---
+ 
+
+--- Document Chunk 154 ---
+Station radio is often provided by separate local spot systems rather than 
+
+--- Document Chunk 155 ---
+using the GSM-R network. 
+
+--- Document Chunk 156 ---
+Emergency Services radio system coverage is often provided throughout all 
+
+--- Document Chunk 157 ---
+underground locations (stations, tunnels and evacuation shafts).  This is 
+
+--- Document Chunk 158 ---
+typically achieved by connecting dedicated emergency services radio 
+
+--- Document Chunk 159 ---
+equipment to the metro’s coverage infrastructure. 
+
+--- Document Chunk 160 ---
+Emergency Service radio coverage is provided at key locations where a 
+
+--- Document Chunk 161 ---
+risk assessment has identified it as necessary, for example long tunnel 
+
+--- Document Chunk 162 ---
+sections.  This may be provided on its own dedicated infrastructure or 
+
+--- Document Chunk 163 ---
+using existing railway coverage infrastructure if appropriate. 
+
+--- Document Chunk 164 ---
+Stopping distances  
+
+--- Document Chunk 165 ---
+Relatively slow speeds, high braking performance and uniform rolling stock 
+
+--- Document Chunk 166 ---
+mean that stopping distances can be quite short.  This enables a high 
+
+--- Document Chunk 167 ---
+frequency of service. 
+
+--- Document Chunk 168 ---
+Higher speeds and the variety of train types (including freight) mean that 
+
+--- Document Chunk 169 ---
+the signalling system needs to allow for long stopping distances on mixed 
+
+--- Document Chunk 170 ---
+traffic lines. 
+
+--- Document Chunk 171 ---
+Signals & Overlaps  
+
+--- Document Chunk 172 ---
+Short stopping distances mean that lineside stop signals do not always 
+
+--- Document Chunk 173 ---
+have to be preceded by a caution signal providing the sighting distance is 
+
+--- Document Chunk 174 ---
+sufficient 
+
+--- Document Chunk 175 ---
+Lineside stop signals are almost always preceded by at least one caution 
+
+--- Document Chunk 176 ---
+signal. 
+
+--- Document Chunk 177 ---
+  
+
+--- Document Chunk 178 ---
+ 
+
+--- Document Chunk 179 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 180 ---
+Metro railway Main line railway 
+
+--- Document Chunk 181 ---
+Dependability  
+
+--- Document Chunk 182 ---
+Given the effect on trains and on passenger management of even short 
+
+--- Document Chunk 183 ---
+duration failures, very high levels of system reliability and availability are 
+
+--- Document Chunk 184 ---
+required.  Robust hardware, equipment redundancy (duplication), remote 
+
+--- Document Chunk 185 ---
+condition monitoring and fast system recovery can all be used to achieve 
+
+--- Document Chunk 186 ---
+this.  Fallback capabilities to maintain operations also need to be able to be 
+
+--- Document Chunk 187 ---
+implemented quickly. 
+
+--- Document Chunk 188 ---
+These factors are important, but less critical apart from the most densely 
+
+--- Document Chunk 189 ---
+used sections of the network. 
+
+--- Document Chunk 190 ---
+Infrastructure  
+
+--- Document Chunk 191 ---
+Often in tunnels or overhead viaducts, particularly in city centres.  Tunnel 
+
+--- Document Chunk 192 ---
+lengths can be very long. 
+
+--- Document Chunk 193 ---
+A very small proportion of route is in tunnels.  Most are quite short, 
+
+--- Document Chunk 194 ---
+except where the routes pass through major mountain ranges or under 
+
+--- Document Chunk 195 ---
+the sea. 
+
+--- Document Chunk 196 ---
+Grade separated junctions (e.g. flyovers) are the norm in the areas of the 
+
+--- Document Chunk 197 ---
+highest frequency traffic to increase capacity by avoiding conflicting 
+
+--- Document Chunk 198 ---
+routes. 
+
+--- Document Chunk 199 ---
+Similar considerations apply in the areas of highest frequency traffic, but 
+
+--- Document Chunk 200 ---
+the majority of junctions are “flat” to avoid expensive civil engineering 
+
+--- Document Chunk 201 ---
+works and greater land take. 
+
+--- Document Chunk 202 ---
+Usually completely independent of road or pedestrian traffic.  Trains are 
+
+--- Document Chunk 203 ---
+typically too frequent to allow realistic opportunities for crossing the 
+
+--- Document Chunk 204 ---
+railway. 
+
+--- Document Chunk 205 ---
+Level (grade) crossings for road or pedestrian movements across the 
+
+--- Document Chunk 206 ---
+railway are common on many lines. 
+
+--- Document Chunk 207 ---
+Traction  
+
+--- Document Chunk 208 ---
+Electric for avoidance of air pollution and for high acceleration with high 
+
+--- Document Chunk 209 ---
+performance motors.  Regenerative braking for lower heat gain in tunnels 
+
+--- Document Chunk 210 ---
+and energy economy. 
+
+--- Document Chunk 211 ---
+Mostly electric or diesel.  Benefits of regenerative braking are greatest on 
+
+--- Document Chunk 212 ---
+electrified lines with frequent services so that other trains can use the 
+
+--- Document Chunk 213 ---
+electricity generated.  
+
+--- Document Chunk 214 ---
+ 
+
+--- Document Chunk 215 ---
+  
+
+--- Document Chunk 216 ---
+ 
+
+--- Document Chunk 217 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 218 ---
+ 
+
+--- Document Chunk 219 ---
+Automation 
+
+--- Document Chunk 220 ---
+Grades of Automation 
+
+--- Document Chunk 221 ---
+Metros can be designed to operate under several degrees of automation, ranging from nil (now unusual except for systems operating like 
+
+--- Document Chunk 222 ---
+tramways) to full automation (with no staff member on the train).  These are described by a number of Grades of Automation (GoA). 
+
+--- Document Chunk 223 ---
+ 
+
+--- Document Chunk 224 ---
+ 
+
+--- Document Chunk 225 ---
+The automation functions (ATP, ATO, ATS) are described below. 
+
+--- Document Chunk 226 ---
+ 
+
+--- Document Chunk 227 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 228 ---
+Automatic Train Protection (ATP) 
+
+--- Document Chunk 229 ---
+The ATP sub-system delivers the limit of movement authority to each train.  This determines where the train is permitted to travel based on the routes set 
+
+--- Document Chunk 230 ---
+by the interlocking and the position of other trains. The ATP supervises train movements and ensures that they only occur on authorised routes, in the 
+
+--- Document Chunk 231 ---
+correct direction and within the limits of the movement authority. The ATP ensures the safety of all train movements, irrespective of whether train control 
+
+--- Document Chunk 232 ---
+is from the Automatic Train Operation sub-system or the train operator (driver). The primary ATP functions are as follows: 
+
+--- Document Chunk 233 ---
+ Trackside ATP equipment, most commonly found in signalling equipment rooms at stations and/or at control centres 
+
+--- Document Chunk 234 ---
+o Train location tracking 
+
+--- Document Chunk 235 ---
+o Movement authority determination to ensure safe train separation 
+
+--- Document Chunk 236 ---
+o Temporary speed restriction application 
+
+--- Document Chunk 237 ---
+o Emergency train evacuation supervision 
+
+--- Document Chunk 238 ---
+o Interlock train movement with platform screen doors, staff protection key switches (work zone protection) and platform emergency stop 
+
+--- Document Chunk 239 ---
+plungers 
+
+--- Document Chunk 240 ---
+ Train borne ATP equipment 
+
+--- Document Chunk 241 ---
+o Determine the position of the train and report to the trackside ATP 
+
+--- Document Chunk 242 ---
+o Determine the status of the ATP sub-system health and which driving modes are available (manual, automatic etc.) 
+
+--- Document Chunk 243 ---
+o Ensure the train does not exceed the movement authority limit 
+
+--- Document Chunk 244 ---
+o Ensure that train does not exceed the permanent or temporary speed restrictions 
+
+--- Document Chunk 245 ---
+o Train direction supervision 
+
+--- Document Chunk 246 ---
+o Correct side door enabling at platforms (door open control protection interlocks) 
+
+--- Document Chunk 247 ---
+o Supervise emergency train evacuation 
+
+--- Document Chunk 248 ---
+o Ensure all doors closed and locked prior to station departure. 
+
+--- Document Chunk 249 ---
+ Track-mounted ATP sub-system 
+
+--- Document Chunk 250 ---
+o Equipment mounted on the track (such as beacons/transponders) to provide a positioning reference; also used by the ATO equipment. 
+
+--- Document Chunk 251 ---
+  
+
+--- Document Chunk 252 ---
+ 
+
+--- Document Chunk 253 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 254 ---
+Automatic Train Operation (ATO) 
+
+--- Document Chunk 255 ---
+This is the sub-system that drives the train between stations within the constraints established by the ATP sub-system. The functionality of the ATO will vary 
+
+--- Document Chunk 256 ---
+depending upon the grade of automation. For GoA4 metros where no train operator is present, all functions performed by the train operator on a GoA1 
+
+--- Document Chunk 257 ---
+metro are performed by the ATO sub-system.  The ATO functions include: 
+
+--- Document Chunk 258 ---
+ Driving the train from station to station obeying permanent and temporary speed restrictions within the movement authority provided by the ATP 
+
+--- Document Chunk 259 ---
+ Train door and platform screen door open and closing 
+
+--- Document Chunk 260 ---
+ Platform dwell time management 
+
+--- Document Chunk 261 ---
+ Apply applicable energy saving driving strategies  
+
+--- Document Chunk 262 ---
+ Jog, realigning an incorrectly stopped train to within the specified ATP door opening tolerance. 
+
+--- Document Chunk 263 ---
+ Selecting the appropriate driving profile for the line type, such as surface tunnel, wet etc. 
+
+--- Document Chunk 264 ---
+ Applying platform hold, train hold and station skip commands 
+
+--- Document Chunk 265 ---
+Signalling and train control facilities in metro depots often are not provided, or they are very simple.   However, it is becoming common on modern metro 
+
+--- Document Chunk 266 ---
+systems (and in particular on driverless/unattended metro systems) to deploy the same signalling solution in depots as on the rest of the line to provide 
+
+--- Document Chunk 267 ---
+ATP and ATO functions.  This could include, for example: 
+
+--- Document Chunk 268 ---
+ Automatic routing of trains to and from storage tracks, to permit efficient scheduled and “on-demand” service build ups and reductions 
+
+--- Document Chunk 269 ---
+ Automatic close-up of trains on storage tracks 
+
+--- Document Chunk 270 ---
+ Automatic coupling and uncoupling of trains 
+
+--- Document Chunk 271 ---
+ Automatic cycling of trains through train inspection facilities or exterior car wash facilities. 
+
+--- Document Chunk 272 ---
+ 
+
+--- Document Chunk 273 ---
+Automatic Train Supervision (ATS) 
+
+--- Document Chunk 274 ---
+The ATS sub-system is responsible for the overall line control function.  It is located at the control centre and it presents the state of the railway to the 
+
+--- Document Chunk 275 ---
+operators.  It controls the trains, but the operators can intervene when the service deviates beyond the recovery capability of the ATS sub-system.  
+
+--- Document Chunk 276 ---
+The primary functions of the ATS sub-system are as follows: 
+
+--- Document Chunk 277 ---
+ Issue commands to the interlocking and other sub-systems to route trains to their destinations.  
+
+--- Document Chunk 278 ---
+ Display the state of the railway to the operator, tracking trains and displaying the signalling equipment status. 
+
+--- Document Chunk 279 ---
+ 
+
+--- Document Chunk 280 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 281 ---
+ Service regulation, adjusting the service to keep to the timetable or to equalise the interval between trains. 
+
+--- Document Chunk 282 ---
+ Provide the user interface for operators to adjust the service when needed 
+
+--- Document Chunk 283 ---
+ Alarm management 
+
+--- Document Chunk 284 ---
+ Provision of service information to customer information systems 
+
+--- Document Chunk 285 ---
+ Logging and playback for incident investigation. 
+
+--- Document Chunk 286 ---
+Failure of the ATS sub-system should not directly affect the safety of passengers. 
+
+--- Document Chunk 287 ---
+ 
+
+--- Document Chunk 288 ---
+Automation benefits 
+
+--- Document Chunk 289 ---
+The benefits of the various degrees of automation include the following: 
+
+--- Document Chunk 290 ---
+ Automation of the train driving functions can provide for more regular and predictable run times between stations, eliminating the variations 
+
+--- Document Chunk 291 ---
+inherent with manual driving.  This can enable higher line capacity by reducing recovery margins which partly allow for different driving styles. 
+
+--- Document Chunk 292 ---
+ Driverless and unattended train operation, with automatic passenger door opening and closing and with automatic train departure from station 
+
+--- Document Chunk 293 ---
+platforms, can further reduce the variations in line operation. 
+
+--- Document Chunk 294 ---
+ Unattended train operation frees the metro operator of the constraints imposed by the need to roster train crews.  It also provides the flexibility to 
+
+--- Document Chunk 295 ---
+operate shorter trains more frequently.  This makes it easier to respond to variations in demand throughout the day, while still delivering a frequent 
+
+--- Document Chunk 296 ---
+service. 
+
+--- Document Chunk 297 ---
+ Unattended train operation, when combined with fully automated maintenance yards and stabling tracks, provides the flexibility to respond to 
+
+--- Document Chunk 298 ---
+unexpected increases in passenger demands by adding additional trains to the service, all without requiring additional train drivers or manual 
+
+--- Document Chunk 299 ---
+intervention. 
+
+--- Document Chunk 300 ---
+ Lower operating costs for driverless trains. 
+
+--- Document Chunk 301 ---
+ Automation of turnback at terminal stations can reduce turnover times, reducing the number of train sets needed for operation. 
+
+--- Document Chunk 302 ---
+ Automation of train regulation, train dispatching and train routing functions can more effectively regulate the performance of trains in relation to 
+
+--- Document Chunk 303 ---
+timetable (schedule) and headway adherence.  Regulation (e.g. to equalise the time interval between successive trains) can be achieved by 
+
+--- Document Chunk 304 ---
+automatically adjusting dwell times and/or by automatically controlling run times between stations (e.g., through adjustments to train acceleration 
+
+--- Document Chunk 305 ---
+and service brake rates, and speeds). 
+
+--- Document Chunk 306 ---
+ Automation of train regulation functions can minimise overall system delays by optimising the scheduling of each train. 
+
+--- Document Chunk 307 ---
+ 
+
+--- Document Chunk 308 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 309 ---
+ The automatic, real-time control and coordination of train acceleration, train coasting, and train braking can also be utilised to implement energy 
+
+--- Document Chunk 310 ---
+optimisation algorithms, for example though coasting controls or by synchronising the acceleration of one train with the braking of another train to 
+
+--- Document Chunk 311 ---
+maximise use of brake energy recovery. 
+
+--- Document Chunk 312 ---
+ Automated failure detection and response can be more effective in responding to system disturbances and emergencies through the elimination of 
+
+--- Document Chunk 313 ---
+human error. 
+
+--- Document Chunk 314 ---
+There are some drawbacks to set against the benefits above. 
+
+--- Document Chunk 315 ---
+ Increased staff costs for any additional passenger service and security personnel 
+
+--- Document Chunk 316 ---
+ Additional capital and maintenance costs associated with the automation system itself 
+
+--- Document Chunk 317 ---
+ Additional costs arising from contingency arrangements to deal with failures and emergencies on unattended systems.   
+
+--- Document Chunk 318 ---
+ 
+
+--- Document Chunk 319 ---
+Control Systems 
+
+--- Document Chunk 320 ---
+These range from systems with lineside signals observed by a driver to ones with full automation and no drivers.  Three common systems are described 
+
+--- Document Chunk 321 ---
+below.  The more advanced systems will typically be able to deliver higher line capacity (i.e. more trains per hour) 
+
+--- Document Chunk 322 ---
+ 
+
+--- Document Chunk 323 ---
+Lineside Signals with fixed block working 
+
+--- Document Chunk 324 ---
+The diagram below illustrates the headway that can be achieved with 2 aspect signalling. 
+
+--- Document Chunk 325 ---
+ 
+
+--- Document Chunk 326 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 327 ---
+ 
+
+--- Document Chunk 328 ---
+Cab Signalling with Coded Track Circuits 
+
+--- Document Chunk 329 ---
+With cab signalling, headway is no longer constrained by the distance between lineside signals.  Shorter headways can be achieved by the subdivision of a 
+
+--- Document Chunk 330 ---
+signal block into shorter sections.  Train speed is detected and controlled separately in each of these short sections, thus enabling shorter headways and 
+
+--- Document Chunk 331 ---
+greater line capacity. 
+
+--- Document Chunk 332 ---
+The track is divided into predetermined short track circuit lengths and each track can be fed with any one of a number of codes, each code signifying a 
+
+--- Document Chunk 333 ---
+maximum safe speed, target speed, or for some metro systems, both the maximum safe speed and target speed.   
+
+--- Document Chunk 334 ---
+The appropriate code for each track circuit is determined by the nearby interlocking depending upon the position of track occupancy ahead of any train, or 
+
+--- Document Chunk 335 ---
+the requirement for junction or other speed restriction.  Modern systems typically use audio frequency signals to convey a specific command. 
+
+--- Document Chunk 336 ---
+A train traversing a track circuit picks up the coded signal from the transmitter via an antenna.  The signal is decoded, and the actual train speed is 
+
+--- Document Chunk 337 ---
+compared with the decoded track signal to determine if the train is above or below the authorised speed.  
+
+--- Document Chunk 338 ---
+ 
+
+--- Document Chunk 339 ---
+ 
+
+--- Document Chunk 340 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 341 ---
+ 
+
+--- Document Chunk 342 ---
+Example of ATP code sequence in a track circuit based speed code system 
+
+--- Document Chunk 343 ---
+If the train speed is excessive the driver must reduce the speed to below the authorised speed or be subjected to an emergency brake action, generally to a 
+
+--- Document Chunk 344 ---
+standstill.  A typical arrangement is shown in the diagram above in which it can be seen that if the train is driven in accordance with the Target Speed 
+
+--- Document Chunk 345 ---
+indications, it will be brought to a stop with one track circuit between it and the preceding train. Should the train fail to operate below the Maximum Safe 
+
+--- Document Chunk 346 ---
+Speed profile at any time (and no corrective action is taken) the train will be automatically brought to a stop within or before the 0/0 code track circuit. As a 
+
+--- Document Chunk 347 ---
+train moves from block to block, the codes step up in the blocks behind.  
+
+--- Document Chunk 348 ---
+ 
+
+--- Document Chunk 349 ---
+Moving Block Signalling (loop & radio-based systems) 
+
+--- Document Chunk 350 ---
+Moving block systems provided by Communication Based Train Control (CBTC) systems are now the preferred metro train control technology. The principle 
+
+--- Document Chunk 351 ---
+of a moving block system is that each train moves within its own allocated block.  A limit of movement authority is issued to the train which defines the 
+
+--- Document Chunk 352 ---
+point beyond which the train must not go.  This is usually the end of the route or the rear of the train ahead, whichever is encountered first. There is a 
+
+--- Document Chunk 353 ---
+safety margin to account for rollback and errors in train location reporting. As the preceding train moves, so does the block, hence the name. The length of 
+
+--- Document Chunk 354 ---
+ 
+
+--- Document Chunk 355 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 356 ---
+the block depends on the braking distance of the following train, so (unlike a fixed block system with lineside signals) a train can safely come to a stop very 
+
+--- Document Chunk 357 ---
+close to the rear of a stationary train.  
+
+--- Document Chunk 358 ---
+ 
+
+--- Document Chunk 359 ---
+ Moving block signalling train separation 
+
+--- Document Chunk 360 ---
+Moving block systems do not need traditional train detection sub-systems such as track circuits or axle counters, but some do have them to support mixed-
+
+--- Document Chunk 361 ---
+mode operations or to facilitate system recovery following a train location determination failure. Moving block systems require continuous communications 
+
+--- Document Chunk 362 ---
+between the train and trackside to receive train position reports and provide updated movement authorities.  Two solutions are currently in use, inductive 
+
+--- Document Chunk 363 ---
+loops and radio. 
+
+--- Document Chunk 364 ---
+Fully automatic trains 
+
+--- Document Chunk 365 ---
+There are no technical reasons why trains cannot be driven fully automatically without the need for any manual intervention on board trains.  The economic 
+
+--- Document Chunk 366 ---
+and operational benefits of fully automatic operation are significant, largely due to the greater degree of flexibility in scheduling trains without the need for 
+
+--- Document Chunk 367 ---
+arranging for drivers to be present at the correct time and place.   
+
+--- Document Chunk 368 ---
+Trains equipped with a continuous form of ATP and ATO are capable of operating safely and efficiently with minimal action by drivers or attendants.  Generally 
+
+--- Document Chunk 369 ---
+the role of the staff is to ensure that alighting passengers are clear of closing doors prior to train departure from stations and/or opening train doors on arrival 
+
+--- Document Chunk 370 ---
+at stations.  Such functions can be automated, provided that equipment is installed to fulfil these roles safely and provide passengers with information which 
+
+--- Document Chunk 371 ---
+may have been provided had a driver been present.  Such equipment may include: 
+
+--- Document Chunk 372 ---
+ additional CCTV equipment on station platforms to ensure passenger safety; 
+
+--- Document Chunk 373 ---
+ on track obstruction detection equipment in-station areas (infra-red or radar systems); 
+
+--- Document Chunk 374 ---
+ 
+
+--- Document Chunk 375 ---
+Mod.A Metro differences v5.docx 
+
+--- Document Chunk 376 ---
+ platform screen doors; 
+
+--- Document Chunk 377 ---
+ bi-directional voice communication between train passengers and control centre; 
+
+--- Document Chunk 378 ---
+ additional train systems monitoring and reporting equipment for diagnostic purposes. 
+
+--- Document Chunk 379 ---
+ 
+
+--- Document Chunk 380 ---
+However a trained human presence on the train can deal with failures and emergencies (e.g. by manual driving or passenger evacuation) and it is necessary 
+
+--- Document Chunk 381 ---
+for a fully automated line to have processes for both passengers and trains to deal with these events. 
+
+--- Document Chunk 382 ---
+ 
+
+--- Document Chunk 383 ---
+Metros operating fully automatic systems include: 
+
+--- Document Chunk 384 ---
+ Vancouver Skytrain 
+
+--- Document Chunk 385 ---
+ VAL systems (France and elsewhere); 
+
+--- Document Chunk 386 ---
+ Lyon Metro Line D 
+
+--- Document Chunk 387 ---
+ 
+
+--- Document Chunk 388 ---
+ 
+
+--- Document Chunk 389 ---
+ 
+

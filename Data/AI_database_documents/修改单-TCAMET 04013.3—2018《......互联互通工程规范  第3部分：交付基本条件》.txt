@@ -1,0 +1,126 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通
+
+--- Document Chunk 3 ---
+系统(CBTC ) 互联互通工程规范
+
+--- Document Chunk 4 ---
+交付基本条件》(TZCAMET 04013. 3一2018 )
+
+--- Document Chunk 5 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 6 ---
+基于通信的列车运行控制
+
+--- Document Chunk 7 ---
+第 3 部分:
+
+--- Document Chunk 8 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月 03 日批准发布，
+
+--- Document Chunk 9 ---
+自2024 年 09 月 10 日起实施。
+
+--- Document Chunk 10 ---
+一、编辑性修改
+
+--- Document Chunk 11 ---
+1. 将第3.1.9 条术语中“路线运行 overline operation ”修改为跨线
+
+--- Document Chunk 12 ---
+运行 cross-line operation” ”。
+
+--- Document Chunk 13 ---
+2. 全文将"安全认证"修改为:安全评估”。修改如下 :
+
+--- Document Chunk 14 ---
+将第4.1.1条中“本线 CBTC 信号系统应已获得互联互通独立
+
+--- Document Chunk 15 ---
+1)
+
+--- Document Chunk 16 ---
+2)
+
+--- Document Chunk 17 ---
+3)
+
+--- Document Chunk 18 ---
+第三方的安全认证证书。修改为: 本线.CBTC'信号系统应已
+
+--- Document Chunk 19 ---
+获得互联互通独立第三方的安全评估证书立
+
+--- Document Chunk 20 ---
+将第 4.1.2 条中”*共线及跨线的他线.CBTC 信号系统的车载系
+
+--- Document Chunk 21 ---
+统应已获得所属线独立第把访的互联互通安全认证证
+
+--- Document Chunk 22 ---
+改为:共线及跨线的他线.CBTC 信号系统的车载系统应已获得
+
+--- Document Chunk 23 ---
+所属线独立第请方所
+
+--- Document Chunk 24 ---
+将第和.1.3 条中"在
+
+--- Document Chunk 25 ---
+互联互通安全评估证书。
+
+--- Document Chunk 26 ---
+线运营的信和号系统(包含本线地面、本线车
+
+--- Document Chunk 27 ---
+载\他线车载) 获得该线独立第三方的互联互通安全认证证书。
+
+--- Document Chunk 28 ---
+4信号系统(包含本线地
+
+--- Document Chunk 29 ---
+车载) 获得该线独立第三方的互联互通安全评
+
+--- Document Chunk 30 ---
+iB”
+
+--- Document Chunk 31 ---
+--- Page 2 ---
+
+--- Document Chunk 32 ---
+3. 将第4.2.2条中”CBTC 区域应覆盖正线、转换轨及各互联互通线
+
+--- Document Chunk 33 ---
+路之间的联络线(以具体工程项目情况为准) 修改为"CBTC了系统控制
+
+--- Document Chunk 34 ---
+区域应覆盖正线 .转换轨及各互联互通线路之间的联络线( 以具体工程
+
+--- Document Chunk 35 ---
+项目情况为准) ”。
+
+--- Document Chunk 36 ---
+4. 将第4.2.3 条中“CBTC 系统应支持双向不同定编组和不同性
+
+--- Document Chunk 37 ---
+能参数的列车运行(以具体工程项目情况为准矿 修改为:”CBTC 系统应
+
+--- Document Chunk 38 ---
+支持不同固定编组和不同性能参数的列车双向运行(以具体工程项目情
+
+--- Document Chunk 39 ---
+5.4 第二 2. 85b ) ARIE ES 、接管线路的轨旁 ATP 设备间应按照联
+
+--- Document Chunk 40 ---
+互通接口规范交换信息”修改为: 移交 、接管线路的轨旁 ATP 设备间应
+
+--- Document Chunk 41 ---
+按照互联互通接口规范交换信息”。
+

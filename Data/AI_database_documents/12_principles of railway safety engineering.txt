@@ -1,0 +1,1974 @@
+--- Document Chunk 0 ---
+10
+
+--- Document Chunk 1 ---
+David Nicholson
+
+--- Document Chunk 2 ---
+Back to basics: Principles of  
+
+--- Document Chunk 3 ---
+railway safety engineering
+
+--- Document Chunk 4 ---
+This article continues the ‘back to basics’ 
+
+--- Document Chunk 5 ---
+series, looking at the principles of safety 
+
+--- Document Chunk 6 ---
+engineering as applicable to a railway, 
+
+--- Document Chunk 7 ---
+particularly hazard and risk assessment, 
+
+--- Document Chunk 8 ---
+identification and analysis techniques. 
+
+--- Document Chunk 9 ---
+Previous ‘back to basic’ articles have 
+
+--- Document Chunk 10 ---
+touched on the safety inherent in each of 
+
+--- Document Chunk 11 ---
+the systems discussed; this article considers 
+
+--- Document Chunk 12 ---
+how safety is achieved.
+
+--- Document Chunk 13 ---
+Definitions
+
+--- Document Chunk 14 ---
+Before we begin, it is necessary to be clear 
+
+--- Document Chunk 15 ---
+on definitions and what is meant by the 
+
+--- Document Chunk 16 ---
+different terms used.
+
+--- Document Chunk 17 ---
+• Safety: Freedom from unacceptable risk.
+
+--- Document Chunk 18 ---
+• Risk: The combination of the likelihood of 
+
+--- Document Chunk 19 ---
+occurrence resulting in harm and the degree 
+
+--- Document Chunk 20 ---
+of severity of that harm.
+
+--- Document Chunk 21 ---
+• Harm: Physical injury, material damage.
+
+--- Document Chunk 22 ---
+• Severity: A measure of the amount of harm.
+
+--- Document Chunk 23 ---
+• Accident: An unintended event or series of 
+
+--- Document Chunk 24 ---
+events that results in harm.
+
+--- Document Chunk 25 ---
+• Hazard: A condition that could lead to an 
+
+--- Document Chunk 26 ---
+accident; a potential source of harm; an 
+
+--- Document Chunk 27 ---
+accident waiting to happen.
+
+--- Document Chunk 28 ---
+• Cause: Any event, state or other 
+
+--- Document Chunk 29 ---
+factor which might contribute to the 
+
+--- Document Chunk 30 ---
+occurrence of a hazard.
+
+--- Document Chunk 31 ---
+• Safety measure: An action reducing the 
+
+--- Document Chunk 32 ---
+risk of a hazard.
+
+--- Document Chunk 33 ---
+The definition of ‘safety’ introduces the concept 
+
+--- Document Chunk 34 ---
+that some risk is acceptable. This might seem 
+
+--- Document Chunk 35 ---
+surprising at first reading, but there are plenty 
+
+--- Document Chunk 36 ---
+of people who indulge in activities that others 
+
+--- Document Chunk 37 ---
+consider too dangerous (e.g. bungee jumping or 
+
+--- Document Chunk 38 ---
+flying). Others can see the benefits that it brings to 
+
+--- Document Chunk 39 ---
+them (e.g. thrills or speed of travel).
+
+--- Document Chunk 40 ---
+This raises the question of who determines 
+
+--- Document Chunk 41 ---
+whether a risk is acceptable or not. Sometimes 
+
+--- Document Chunk 42 ---
+this is purely personal (whether to bungee jump or 
+
+--- Document Chunk 43 ---
+fly), but when a service (such as rail travel) impacts 
+
+--- Document Chunk 44 ---
+on the general public, it is usual for governments 
+
+--- Document Chunk 45 ---
+to establish legislation with which those providing 
+
+--- Document Chunk 46 ---
+the service must comply. The legislation is usually 
+
+--- Document Chunk 47 ---
+aimed at reducing the amount of potential harm 
+
+--- Document Chunk 48 ---
+to the general public and workers, whether that 
+
+--- Document Chunk 49 ---
+harm is shock, injury, permanent damage (e.g. loss 
+
+--- Document Chunk 50 ---
+of a limb or hearing loss) or fatality.
+
+--- Document Chunk 51 ---
+This is not a simple action for governments to 
+
+--- Document Chunk 52 ---
+achieve as the public they are seeking to protect is 
+
+--- Document Chunk 53 ---
+not consistent in their perceptions of acceptable 
+
+--- Document Chunk 54 ---
+levels of risk. There is often a large outcry from 
+
+--- Document Chunk 55 ---
+the public when a single train accident results in 
+
+--- Document Chunk 56 ---
+several deaths, but the very many single deaths 
+
+--- Document Chunk 57 ---
+that occur each day on the roads is felt tolerable. 
+
+--- Document Chunk 58 ---
+This inconsistency is something that railway, and 
+
+--- Document Chunk 59 ---
+other, engineers have learnt to live with.
+
+--- Document Chunk 60 ---
+From the definition of ‘risk’ we can see that if we 
+
+--- Document Chunk 61 ---
+wish to avoid harm, we should seek to reduce risk. 
+
+--- Document Chunk 62 ---
+This is achieved either by reducing the likelihood 
+
+--- Document Chunk 63 ---
+of occurrence of harm, reducing the severity of 
+
+--- Document Chunk 64 ---
+the harm, or both. Putting it another way, we can 
+
+--- Document Chunk 65 ---
+reduce risk through two different approaches: 
+
+--- Document Chunk 66 ---
+the first is to reduce the likelihood of an event 
+
+--- Document Chunk 67 ---
+happening where the outcome may be harm; the 
+
+--- Document Chunk 68 ---
+second is to reduce the amount of harm should 
+
+--- Document Chunk 69 ---
+that event take place.
+
+--- Document Chunk 70 ---
+The definition for a hazard can also be expressed 
+
+--- Document Chunk 71 ---
+as ‘an accident waiting to happen’. No accident 
+
+--- Document Chunk 72 ---
+has taken place, but there is a dangerous situation 
+
+--- Document Chunk 73 ---
+where if something else happens, it can lead to 
+
+--- Document Chunk 74 ---
+an accident. Thus, for any given hazard, all that 
+
+--- Document Chunk 75 ---
+is needed is a trigger event to start the process 
+
+--- Document Chunk 76 ---
+which ultimately leads to the accident. An 
+
+--- Document Chunk 77 ---
+example hazard is a level (or at grade) crossing 
+
+--- Document Chunk 78 ---
+with no form of protection. The hazard (the 
+
+--- Document Chunk 79 ---
+accident waiting to happen) occurs when a train is 
+
+--- Document Chunk 80 ---
+approaching. There has not been any accident, but 
+
+--- Document Chunk 81 ---
+one could happen if there was a car approaching 
+
+--- Document Chunk 82 ---
+(the trigger event). An approaching car may now 
+
+--- Document Chunk 83 ---
+collide with the train resulting in an accident with 
+
+--- Document Chunk 84 ---
+consequences beyond the railway boundary.
+
+--- Document Chunk 85 ---
+“If we wish to 
+
+--- Document Chunk 86 ---
+avoid harm, we 
+
+--- Document Chunk 87 ---
+should seek to 
+
+--- Document Chunk 88 ---
+reduce risk”
+
+--- Document Chunk 89 ---
+ IRSE News |  Issue 267  |  June 2020
+
+--- Document Chunk 90 ---
+11
+
+--- Document Chunk 91 ---
+This sequence of events is illustrated in Figure 1 
+
+--- Document Chunk 92 ---
+where: the level crossing is the wall; the hazard 
+
+--- Document Chunk 93 ---
+is shown as the bucket of stones on top of the 
+
+--- Document Chunk 94 ---
+wall; the trigger event is the hand knocking the 
+
+--- Document Chunk 95 ---
+bucket over; and the accident is the stones falling 
+
+--- Document Chunk 96 ---
+onto the flowers.
+
+--- Document Chunk 97 ---
+Risk reduction
+
+--- Document Chunk 98 ---
+From the diagram, we can see the accident can be 
+
+--- Document Chunk 99 ---
+prevented, or limited, quite simply by: 
+
+--- Document Chunk 100 ---
+• Removing the hazard: Design the railway 
+
+--- Document Chunk 101 ---
+without a level crossing. 
+
+--- Document Chunk 102 ---
+• Reducing the frequency with which the hazard 
+
+--- Document Chunk 103 ---
+occurs: Reduce the number of trains that 
+
+--- Document Chunk 104 ---
+use the crossing. 
+
+--- Document Chunk 105 ---
+• Reducing the frequency of the trigger 
+
+--- Document Chunk 106 ---
+event: Reduce the number of cars that use 
+
+--- Document Chunk 107 ---
+the crossing, for instance by providing an 
+
+--- Document Chunk 108 ---
+alternative and more attractive route for car 
+
+--- Document Chunk 109 ---
+drivers to use). 
+
+--- Document Chunk 110 ---
+• Reducing the likelihood of a collision: Design 
+
+--- Document Chunk 111 ---
+a level crossing system that warns of an 
+
+--- Document Chunk 112 ---
+approaching train; install barriers and road 
+
+--- Document Chunk 113 ---
+traffic lights to stop road traffic; provide railway 
+
+--- Document Chunk 114 ---
+staff to stop traffic; have the train sound its 
+
+--- Document Chunk 115 ---
+horn on approach; ensure good sight lines.
+
+--- Document Chunk 116 ---
+• Reducing the severity of a collision: Reduce 
+
+--- Document Chunk 117 ---
+the speed of approaching trains; provide 
+
+--- Document Chunk 118 ---
+space for a car to divert into at the last minute; 
+
+--- Document Chunk 119 ---
+design cars to survive the impact of a train. 
+
+--- Document Chunk 120 ---
+This last point about car design is outside the 
+
+--- Document Chunk 121 ---
+scope of railway projects but indicates how 
+
+--- Document Chunk 122 ---
+solutions can lie outside of the expected areas 
+
+--- Document Chunk 123 ---
+of interest as shown in Figure 2.
+
+--- Document Chunk 124 ---
+Trying to limit the number of falling stones in 
+
+--- Document Chunk 125 ---
+our illustration in Figures 1 and 2 is not a perfect 
+
+--- Document Chunk 126 ---
+solution. Any of the examples given above can fail. 
+
+--- Document Chunk 127 ---
+If the means to limit the falling stones is shown as 
+
+--- Document Chunk 128 ---
+barriers with holes, it is obvious that some stones 
+
+--- Document Chunk 129 ---
+still make it through the holes in both layers and 
+
+--- Document Chunk 130 ---
+crush the flowers underneath. But the impact, or 
+
+--- Document Chunk 131 ---
+severity, of that accident is (hopefully!) smaller 
+
+--- Document Chunk 132 ---
+than it might have been if no protection was put in 
+
+--- Document Chunk 133 ---
+place – fewer flowers are crushed!
+
+--- Document Chunk 134 ---
+Risk reduction measures are sometimes expressed 
+
+--- Document Chunk 135 ---
+in a hierarchy of control. This is shown in Figure 3.
+
+--- Document Chunk 136 ---
+Elimination
+
+--- Document Chunk 137 ---
+Substitution
+
+--- Document Chunk 138 ---
+Engineering Controls
+
+--- Document Chunk 139 ---
+Administrative 
+
+--- Document Chunk 140 ---
+Controls
+
+--- Document Chunk 141 ---
+PPE
+
+--- Document Chunk 142 ---
+Increasing effectiveness & sustainability
+
+--- Document Chunk 143 ---
+Increasing participation and supervision needed
+
+--- Document Chunk 144 ---
+Figure 1 – Hazard to accident. Figure 2 – Hazard to accident – reduced risk.
+
+--- Document Chunk 145 ---
+Figure 3 – Hierarchy of control.
+
+--- Document Chunk 146 ---
+“Risk reduction 
+
+--- Document Chunk 147 ---
+measures are 
+
+--- Document Chunk 148 ---
+sometimes 
+
+--- Document Chunk 149 ---
+expressed in 
+
+--- Document Chunk 150 ---
+a hierarchy of 
+
+--- Document Chunk 151 ---
+control”
+
+--- Document Chunk 152 ---
+ IRSE News |  Issue 267  |  June 2020
+
+--- Document Chunk 153 ---
+12
+
+--- Document Chunk 154 ---
+The explanation of the different levels is as follows:
+
+--- Document Chunk 155 ---
+• Elimination: design out the hazard (e.g. remove 
+
+--- Document Chunk 156 ---
+the need for the road to cross the railway).
+
+--- Document Chunk 157 ---
+• Substitution: replace the hazard with 
+
+--- Document Chunk 158 ---
+something less hazardous. For instance, we 
+
+--- Document Chunk 159 ---
+could replace the level crossing with a bridge. 
+
+--- Document Chunk 160 ---
+While in this example this might seem very 
+
+--- Document Chunk 161 ---
+close to elimination, bridges bring their own 
+
+--- Document Chunk 162 ---
+set of hazards due to bridge strikes, or vehicles 
+
+--- Document Chunk 163 ---
+or objects falling onto the railway from the 
+
+--- Document Chunk 164 ---
+bridge thereby blocking the line).
+
+--- Document Chunk 165 ---
+• Engineering: use work equipment or other 
+
+--- Document Chunk 166 ---
+measures to help separate people from 
+
+--- Document Chunk 167 ---
+the hazard. Examples are warnings, alarms, 
+
+--- Document Chunk 168 ---
+guarding dangerous machinery from human 
+
+--- Document Chunk 169 ---
+incursion (e.g. for level crossings, provide lights 
+
+--- Document Chunk 170 ---
+and audible alarms as the train approaches).
+
+--- Document Chunk 171 ---
+• Administrative Controls: Identify and 
+
+--- Document Chunk 172 ---
+implement procedures necessary to work 
+
+--- Document Chunk 173 ---
+safely with the hazard. For example, we could 
+
+--- Document Chunk 174 ---
+provide instructions and training both for 
+
+--- Document Chunk 175 ---
+train driver and road users on how to use the 
+
+--- Document Chunk 176 ---
+different types of level crossing.
+
+--- Document Chunk 177 ---
+• Personal Protective Equipment (PPE): This is 
+
+--- Document Chunk 178 ---
+why motorcyclists wear crash helmets. Or 
+
+--- Document Chunk 179 ---
+why people erecting scaffolding are tethered. 
+
+--- Document Chunk 180 ---
+There is no example here for a level crossing. 
+
+--- Document Chunk 181 ---
+But it is, for example, why many railway 
+
+--- Document Chunk 182 ---
+administrations require their trackside staff 
+
+--- Document Chunk 183 ---
+to wear high-visibility clothing. This makes 
+
+--- Document Chunk 184 ---
+them more visible to the train driver, who 
+
+--- Document Chunk 185 ---
+can sound the train’s horn, thereby giving the 
+
+--- Document Chunk 186 ---
+trackside staff more time to get clear of the 
+
+--- Document Chunk 187 ---
+approaching train.
+
+--- Document Chunk 188 ---
+The temptation, because it’s both inexpensive and 
+
+--- Document Chunk 189 ---
+quick to implement, is to rely on the lower levels 
+
+--- Document Chunk 190 ---
+of risk reduction, namely administrative controls 
+
+--- Document Chunk 191 ---
+or PPE. People are unreliable at carrying out 
+
+--- Document Chunk 192 ---
+instructions and obeying alarms, particularly under 
+
+--- Document Chunk 193 ---
+stressful conditions. Therefore, the reliance on 
+
+--- Document Chunk 194 ---
+these lower levels of control should only be used 
+
+--- Document Chunk 195 ---
+where elimination, or substitution or the use of 
+
+--- Document Chunk 196 ---
+engineering controls cannot be achieved.
+
+--- Document Chunk 197 ---
+Safety benefits and costs
+
+--- Document Chunk 198 ---
+It is expected that the engineering and operations 
+
+--- Document Chunk 199 ---
+teams will implement good practice and adopt the 
+
+--- Document Chunk 200 ---
+hierarchy of controls from the outset. Choosing 
+
+--- Document Chunk 201 ---
+which control in the hierarchy to apply introduces 
+
+--- Document Chunk 202 ---
+the concept of calculating the costs involved to 
+
+--- Document Chunk 203 ---
+introduce a safety feature and then comparing 
+
+--- Document Chunk 204 ---
+that with the safety benefit.
+
+--- Document Chunk 205 ---
+Calculating the costs is relatively straightforward 
+
+--- Document Chunk 206 ---
+by asking questions such as: How much will it 
+
+--- Document Chunk 207 ---
+cost to provide this extra design feature? How 
+
+--- Document Chunk 208 ---
+much do any extra parts or items of equipment 
+
+--- Document Chunk 209 ---
+cost to purchase? How much more will it cost to 
+
+--- Document Chunk 210 ---
+operate and maintain the railway with this safety 
+
+--- Document Chunk 211 ---
+feature implemented?
+
+--- Document Chunk 212 ---
+Determining the safety benefit over the lifetime 
+
+--- Document Chunk 213 ---
+of the safety measure is a little harder and, at 
+
+--- Document Chunk 214 ---
+times, controversial, not least because in addition 
+
+--- Document Chunk 215 ---
+to fatalities, there are so many different types of 
+
+--- Document Chunk 216 ---
+injury (both physical and mental). Does the age 
+
+--- Document Chunk 217 ---
+of the individual matter? Or the number of their 
+
+--- Document Chunk 218 ---
+dependants? Does the number of injuries or 
+
+--- Document Chunk 219 ---
+fatalities in any one incident make a difference?
+
+--- Document Chunk 220 ---
+A number of countries have adopted a method of 
+
+--- Document Chunk 221 ---
+converting injuries and fatalities into a common 
+
+--- Document Chunk 222 ---
+measure. One method is shown below as a 
+
+--- Document Chunk 223 ---
+Comparable Fatality Score (CFS) (note that other 
+
+--- Document Chunk 224 ---
+countries and other railway administrations may 
+
+--- Document Chunk 225 ---
+have different conversion rates):
+
+--- Document Chunk 226 ---
+• 10 major injuries to 1 fatality.
+
+--- Document Chunk 227 ---
+• 100 minor injuries to 1 fatality.
+
+--- Document Chunk 228 ---
+• 1000 negligible injuries to 1 fatality.
+
+--- Document Chunk 229 ---
+Each CFS is converted into a monetary value, 
+
+--- Document Chunk 230 ---
+a figure that is set independently, usually at a 
+
+--- Document Chunk 231 ---
+national level, typically with a figure around £1.5m 
+
+--- Document Chunk 232 ---
+to £2m per comparable fatality. By comparing 
+
+--- Document Chunk 233 ---
+the risk to life without the safety measure to the 
+
+--- Document Chunk 234 ---
+risk with the safety measure, a reduction in the 
+
+--- Document Chunk 235 ---
+CFS can be calculated. This benefit can then be 
+
+--- Document Chunk 236 ---
+compared to the cost of implementing the safety 
+
+--- Document Chunk 237 ---
+measure. This allows for a simple Cost-Benefit 
+
+--- Document Chunk 238 ---
+Analysis (CBA). If the cost of implementation 
+
+--- Document Chunk 239 ---
+is much higher than the reduction in CFS, 
+
+--- Document Chunk 240 ---
+Substitution may see a 
+
+--- Document Chunk 241 ---
+level crossing replaced 
+
+--- Document Chunk 242 ---
+with a bridge, although 
+
+--- Document Chunk 243 ---
+bridges bring their own 
+
+--- Document Chunk 244 ---
+set of hazards.  
+
+--- Document Chunk 245 ---
+Photo Shutterstock/
+
+--- Document Chunk 246 ---
+Ivonne Wierink.
+
+--- Document Chunk 247 ---
+“The temptation 
+
+--- Document Chunk 248 ---
+is to rely on the 
+
+--- Document Chunk 249 ---
+lower levels of 
+
+--- Document Chunk 250 ---
+risk reduction”
+
+--- Document Chunk 251 ---
+“Determining 
+
+--- Document Chunk 252 ---
+the safety 
+
+--- Document Chunk 253 ---
+benefit over the 
+
+--- Document Chunk 254 ---
+lifetime of the 
+
+--- Document Chunk 255 ---
+safety measure 
+
+--- Document Chunk 256 ---
+is a little harder 
+
+--- Document Chunk 257 ---
+and, at times, 
+
+--- Document Chunk 258 ---
+controversial”
+
+--- Document Chunk 259 ---
+ IRSE News |  Issue 267  |  June 2020
+
+--- Document Chunk 260 ---
+13
+
+--- Document Chunk 261 ---
+then the project does not have to implement 
+
+--- Document Chunk 262 ---
+the safety measure. In the UK, for example, a 
+
+--- Document Chunk 263 ---
+project is obliged by law to reduce risk to As 
+
+--- Document Chunk 264 ---
+Low As Reasonably Practicable (ALARP) and it is 
+
+--- Document Chunk 265 ---
+this process of comparing project costs with a 
+
+--- Document Chunk 266 ---
+reduction in CFS that enables the project team to 
+
+--- Document Chunk 267 ---
+justify its decisions.
+
+--- Document Chunk 268 ---
+The demonstration of sufficient safety level is 
+
+--- Document Chunk 269 ---
+a complex and challenging process. Different 
+
+--- Document Chunk 270 ---
+countries will have different approaches to 
+
+--- Document Chunk 271 ---
+demonstrate what is acceptable and what is 
+
+--- Document Chunk 272 ---
+not. Adopting good practice through adherence 
+
+--- Document Chunk 273 ---
+to standards or qualitative arguments may be 
+
+--- Document Chunk 274 ---
+sufficient, with a CBA only used in the more 
+
+--- Document Chunk 275 ---
+complex situations. However, CBA on its own is 
+
+--- Document Chunk 276 ---
+not sufficient to demonstrate acceptable safety 
+
+--- Document Chunk 277 ---
+levels. It cannot, for example, be used to claim 
+
+--- Document Chunk 278 ---
+that adherence to statutory duties is not required, 
+
+--- Document Chunk 279 ---
+or that intolerable risks are somehow acceptable 
+
+--- Document Chunk 280 ---
+just because they offer a good CBA. Legislation 
+
+--- Document Chunk 281 ---
+often weights the decision towards safety, 
+
+--- Document Chunk 282 ---
+requiring risk reduction measures that may not 
+
+--- Document Chunk 283 ---
+seem necessary when judged by a CBA alone. And 
+
+--- Document Chunk 284 ---
+it should be noted that benefits may not be limited 
+
+--- Document Chunk 285 ---
+to safety. There may, for example, be efficiency or 
+
+--- Document Chunk 286 ---
+environmental benefits as well.
+
+--- Document Chunk 287 ---
+Defence in depth
+
+--- Document Chunk 288 ---
+How do we design systems that are ‘safe’? 
+
+--- Document Chunk 289 ---
+We consider a process known as ‘Defence in 
+
+--- Document Chunk 290 ---
+depth’. This consists of seven sequential steps as 
+
+--- Document Chunk 291 ---
+discussed below.
+
+--- Document Chunk 292 ---
+Error avoidance: We work to prevent design errors 
+
+--- Document Chunk 293 ---
+occurring in the first place by:
+
+--- Document Chunk 294 ---
+• Keeping the design simple. An overly 
+
+--- Document Chunk 295 ---
+complicated system makes it harder to detect 
+
+--- Document Chunk 296 ---
+errors in the design of the system. Safety and 
+
+--- Document Chunk 297 ---
+non-safety elements of the design should be 
+
+--- Document Chunk 298 ---
+kept separate. Avoid novel design features 
+
+--- Document Chunk 299 ---
+and the use of subtle techniques that are not 
+
+--- Document Chunk 300 ---
+clearly understood by others. Don’t provide 
+
+--- Document Chunk 301 ---
+functionality that isn’t required in case it is 
+
+--- Document Chunk 302 ---
+inadvertently activated. This is particularly 
+
+--- Document Chunk 303 ---
+pertinent for software where complex 
+
+--- Document Chunk 304 ---
+subroutines and self-modifying code can 
+
+--- Document Chunk 305 ---
+result in faults in operation.
+
+--- Document Chunk 306 ---
+• Adherence to standards: People have spent a 
+
+--- Document Chunk 307 ---
+lot of time documenting how things should 
+
+--- Document Chunk 308 ---
+be done so that those who follow can benefit 
+
+--- Document Chunk 309 ---
+from their experience. It also ensures that 
+
+--- Document Chunk 310 ---
+people adopt a common approach to their 
+
+--- Document Chunk 311 ---
+understanding of functional operation.
+
+--- Document Chunk 312 ---
+• Configuration Management: We need to 
+
+--- Document Chunk 313 ---
+ensure that people are working from the 
+
+--- Document Chunk 314 ---
+correct design information, and that the final 
+
+--- Document Chunk 315 ---
+design drawings are marked correctly so 
+
+--- Document Chunk 316 ---
+that the installation, test and commissioning 
+
+--- Document Chunk 317 ---
+engineers can have confidence they are 
+
+--- Document Chunk 318 ---
+installing, testing and commissioning the 
+
+--- Document Chunk 319 ---
+correct design.
+
+--- Document Chunk 320 ---
+• Competence: Ensure those designing 
+
+--- Document Chunk 321 ---
+the system know what they are doing! 
+
+--- Document Chunk 322 ---
+Competence is defined as the combination 
+
+--- Document Chunk 323 ---
+of knowledge and experience, which can 
+
+--- Document Chunk 324 ---
+be grown through training, mentoring, 
+
+--- Document Chunk 325 ---
+observation and assessment.
+
+--- Document Chunk 326 ---
+Error detection: If there is an error in the 
+
+--- Document Chunk 327 ---
+design, we want to find it and remove it 
+
+--- Document Chunk 328 ---
+before it is installed. This means designing 
+
+--- Document Chunk 329 ---
+for testability and validation, checking and 
+
+--- Document Chunk 330 ---
+reviewing designs, performing simulations, doing 
+
+--- Document Chunk 331 ---
+software code walkthroughs and undertaking 
+
+--- Document Chunk 332 ---
+development testing.
+
+--- Document Chunk 333 ---
+Fault avoidance: Even where the design is error-
+
+--- Document Chunk 334 ---
+free, faults can occur in operational service, and 
+
+--- Document Chunk 335 ---
+so controls must be applied to minimise the risk. 
+
+--- Document Chunk 336 ---
+These controls include:
+
+--- Document Chunk 337 ---
+• Design for reliable operation, by ensuring 
+
+--- Document Chunk 338 ---
+components are not stressed when in 
+
+--- Document Chunk 339 ---
+service (e.g. too much current through 
+
+--- Document Chunk 340 ---
+electrical components, or too much load 
+
+--- Document Chunk 341 ---
+for mechanical elements) and by choosing 
+
+--- Document Chunk 342 ---
+reliable components.
+
+--- Document Chunk 343 ---
+• Perform proactive maintenance when in 
+
+--- Document Chunk 344 ---
+service by maintaining at regular intervals or by 
+
+--- Document Chunk 345 ---
+having systems that alert the maintainer when 
+
+--- Document Chunk 346 ---
+in need of maintenance.
+
+--- Document Chunk 347 ---
+Personal Protective 
+
+--- Document Chunk 348 ---
+Equipment is important, 
+
+--- Document Chunk 349 ---
+but cannot guarantee 
+
+--- Document Chunk 350 ---
+workers’ safety.  
+
+--- Document Chunk 351 ---
+Photo Shutterstock/ 
+
+--- Document Chunk 352 ---
+Ian Stewart.
+
+--- Document Chunk 353 ---
+“Demonstration 
+
+--- Document Chunk 354 ---
+of sufficient 
+
+--- Document Chunk 355 ---
+safety level is 
+
+--- Document Chunk 356 ---
+a complex and 
+
+--- Document Chunk 357 ---
+challenging 
+
+--- Document Chunk 358 ---
+process”
+
+--- Document Chunk 359 ---
+ IRSE News |  Issue 267  |  June 2020
+
+--- Document Chunk 360 ---
+14
+
+--- Document Chunk 361 ---
+Fault detection: We are dealing with real-life 
+
+--- Document Chunk 362 ---
+mechanical and electrical systems which will wear 
+
+--- Document Chunk 363 ---
+and fail. So we want to ensure that faults can be 
+
+--- Document Chunk 364 ---
+detected and rectified before any life-threatening 
+
+--- Document Chunk 365 ---
+situation arises. We do this through:
+
+--- Document Chunk 366 ---
+• Specifying appropriate testing and 
+
+--- Document Chunk 367 ---
+maintenance intervals and thresholds.
+
+--- Document Chunk 368 ---
+• Where there are several similar items, these 
+
+--- Document Chunk 369 ---
+can be compared to determine where their 
+
+--- Document Chunk 370 ---
+behaviour diverges.
+
+--- Document Chunk 371 ---
+• Provision of in-service self-diagnostic facilities.
+
+--- Document Chunk 372 ---
+• For software, the use of watchdog timers or 
+
+--- Document Chunk 373 ---
+plausibility checks on data.
+
+--- Document Chunk 374 ---
+Fault tolerance: Knowing that faults will occur, we 
+
+--- Document Chunk 375 ---
+can design our systems to tolerate certain levels of 
+
+--- Document Chunk 376 ---
+faults. Examples include:
+
+--- Document Chunk 377 ---
+• Redundancy: Providing more than one 
+
+--- Document Chunk 378 ---
+channel for the same information or control 
+
+--- Document Chunk 379 ---
+flow. A common approach in computer-
+
+--- Document Chunk 380 ---
+based systems is to have three computers 
+
+--- Document Chunk 381 ---
+undertake the same calculation and a voting 
+
+--- Document Chunk 382 ---
+system checks that at least two of them agree. 
+
+--- Document Chunk 383 ---
+This is known as a 2-out-of-3 voting system). 
+
+--- Document Chunk 384 ---
+Note this protects against random hardware 
+
+--- Document Chunk 385 ---
+failures (one channel may fail) but not against 
+
+--- Document Chunk 386 ---
+systematic faults where there is a software 
+
+--- Document Chunk 387 ---
+fault which causes all three channels to 
+
+--- Document Chunk 388 ---
+produce the same wrong output.
+
+--- Document Chunk 389 ---
+• Diversity: This is similar to redundancy except 
+
+--- Document Chunk 390 ---
+that the channels use different hardware 
+
+--- Document Chunk 391 ---
+and/or software to avoid many systematic 
+
+--- Document Chunk 392 ---
+errors. This can be through design diversity 
+
+--- Document Chunk 393 ---
+(the 2-out-of-3 voting system uses different 
+
+--- Document Chunk 394 ---
+microprocessors), functional diversity (e.g. 
+
+--- Document Chunk 395 ---
+automatic braking, but with a driver on board 
+
+--- Document Chunk 396 ---
+to act in case the automated system fails), 
+
+--- Document Chunk 397 ---
+manufacturing diversity (procure the same 
+
+--- Document Chunk 398 ---
+product but from different suppliers).
+
+--- Document Chunk 399 ---
+Failure handling: We can ensure that we can 
+
+--- Document Chunk 400 ---
+handle failures well through:
+
+--- Document Chunk 401 ---
+• Using known physical or electrical properties 
+
+--- Document Chunk 402 ---
+to ensure that should a fault occur, it fails to a 
+
+--- Document Chunk 403 ---
+known state (e.g. gravity returns a signal arm to 
+
+--- Document Chunk 404 ---
+the stop position).
+
+--- Document Chunk 405 ---
+• Provision of alarms or other warning indicators.
+
+--- Document Chunk 406 ---
+• Instructions for people to follow in the event 
+
+--- Document Chunk 407 ---
+that something does go wrong.
+
+--- Document Chunk 408 ---
+Hazard mitigation: Finally, given the system 
+
+--- Document Chunk 409 ---
+may fail in an unsafe way despite all the above 
+
+--- Document Chunk 410 ---
+best efforts, we consider implementing other 
+
+--- Document Chunk 411 ---
+measures to reduce the overall risk such as crash 
+
+--- Document Chunk 412 ---
+worthiness of vehicles.
+
+--- Document Chunk 413 ---
+Hazard identification and analysis
+
+--- Document Chunk 414 ---
+This is all good theory. But how are hazards 
+
+--- Document Chunk 415 ---
+identified before they result in accidents? There 
+
+--- Document Chunk 416 ---
+are three areas we need to consider:
+
+--- Document Chunk 417 ---
+1. The functions the system has to perf orm.
+
+--- Document Chunk 418 ---
+2. The users o f that system and how they are 
+
+--- Document Chunk 419 ---
+expected to interact with it.
+
+--- Document Chunk 420 ---
+3. Interfaces with other systems.
+
+--- Document Chunk 421 ---
+In order to do this, the system you are analysing 
+
+--- Document Chunk 422 ---
+needs to be comprehensively defined and 
+
+--- Document Chunk 423 ---
+understood. Consider the introduction of a 
+
+--- Document Chunk 424 ---
+station fire panel in an underground station as 
+
+--- Document Chunk 425 ---
+shown in Figure 4.
+
+--- Document Chunk 426 ---
+The fire panel has one function: upon receipt 
+
+--- Document Chunk 427 ---
+of an input from the actuator, it sends a control 
+
+--- Document Chunk 428 ---
+signal via each of its interfaces to external systems, 
+
+--- Document Chunk 429 ---
+so they can perform their functions.
+
+--- Document Chunk 430 ---
+In this example, there are three groups of people: 
+
+--- Document Chunk 431 ---
+firstly the one who presses the actuator who 
+
+--- Document Chunk 432 ---
+may need some instruction or guidance on when 
+
+--- Document Chunk 433 ---
+to press the actuator and what to expect next; 
+
+--- Document Chunk 434 ---
+secondly station staff who need training in the 
+
+--- Document Chunk 435 ---
+Now 
+
+--- Document Chunk 436 ---
+hear 
+
+--- Document Chunk 437 ---
+this!
+
+--- Document Chunk 438 ---
+Fire
+
+--- Document Chunk 439 ---
+panel
+
+--- Document Chunk 440 ---
+Gatelines
+
+--- Document Chunk 441 ---
+Actuator
+
+--- Document Chunk 442 ---
+Lift
+
+--- Document Chunk 443 ---
+Public 
+
+--- Document Chunk 444 ---
+address
+
+--- Document Chunk 445 ---
+Fire 
+
+--- Document Chunk 446 ---
+damper
+
+--- Document Chunk 447 ---
+To safe
+
+--- Document Chunk 448 ---
+floor
+
+--- Document Chunk 449 ---
+Figure 4 – Simplified 
+
+--- Document Chunk 450 ---
+station fire panel  
+
+--- Document Chunk 451 ---
+interface diagram
+
+--- Document Chunk 452 ---
+“How are hazards 
+
+--- Document Chunk 453 ---
+identified before 
+
+--- Document Chunk 454 ---
+they result in 
+
+--- Document Chunk 455 ---
+accidents?”
+
+--- Document Chunk 456 ---
+ IRSE News |  Issue 267  |  June 2020
+
+--- Document Chunk 457 ---
+15
+
+--- Document Chunk 458 ---
+Guideword Definition
+
+--- Document Chunk 459 ---
+No or not No part of the intended result is achieved or the intended condition is absent
+
+--- Document Chunk 460 ---
+More (higher) Quantitative increase
+
+--- Document Chunk 461 ---
+Less (lower) Quantitative decrease
+
+--- Document Chunk 462 ---
+As well as Qualitative modification/increase (e.g. additional material)
+
+--- Document Chunk 463 ---
+Part of Qualitative modification/decrease (e.g. only one of two components in a mixture)
+
+--- Document Chunk 464 ---
+Reverse/opposite Logical opposite of the design intent (e.g. backflow)
+
+--- Document Chunk 465 ---
+Other than Complete substitution, something completely different happens (e.g. wrong material)
+
+--- Document Chunk 466 ---
+Early Relative to clock time
+
+--- Document Chunk 467 ---
+Late Relative to clock time
+
+--- Document Chunk 468 ---
+Likelihood  
+
+--- Document Chunk 469 ---
+category 
+
+--- Document Chunk 470 ---
+Classification  
+
+--- Document Chunk 471 ---
+term
+
+--- Document Chunk 472 ---
+Time frame Midpoint 
+
+--- Document Chunk 473 ---
+likelihood estimate
+
+--- Document Chunk 474 ---
+Description
+
+--- Document Chunk 475 ---
+5 Frequent Less than 1 year 1 in 6 months The event is likely to occur frequently 
+
+--- Document Chunk 476 ---
+(probably annually).
+
+--- Document Chunk 477 ---
+4 Probable 1 year to 5 years 1 in 5 years The event is likely to occur often.
+
+--- Document Chunk 478 ---
+3 Occasional 5 years to 10 years 1 in 10 years The event is likely to occur several times.
+
+--- Document Chunk 479 ---
+2 Remote 10 years to 100 years 1 in 50 years The event can be expected to occur 
+
+--- Document Chunk 480 ---
+during the lifecycle.
+
+--- Document Chunk 481 ---
+1 Improbable 100 years or greater 200 years The event is unlikely but may by exception occur.
+
+--- Document Chunk 482 ---
+event of an alarm; thirdly members of the public 
+
+--- Document Chunk 483 ---
+who are expected to evacuate the station when 
+
+--- Document Chunk 484 ---
+the alarm is activated. Designers and maintainers 
+
+--- Document Chunk 485 ---
+are also important for any system but are not 
+
+--- Document Chunk 486 ---
+considered in this particular scenario.
+
+--- Document Chunk 487 ---
+Five separate interfaces are identified, each of 
+
+--- Document Chunk 488 ---
+which will have electrical, mechanical, physical 
+
+--- Document Chunk 489 ---
+and functional properties. These are:
+
+--- Document Chunk 490 ---
+1. The actua tor input.
+
+--- Document Chunk 491 ---
+2. The fir e damper which closes the damper to 
+
+--- Document Chunk 492 ---
+restrict the flow of oxygen to a fire.
+
+--- Document Chunk 493 ---
+3. The tick et gates, designed to open to permit 
+
+--- Document Chunk 494 ---
+the quick and safe exit of passengers.
+
+--- Document Chunk 495 ---
+4. Automa ted public address system which 
+
+--- Document Chunk 496 ---
+initiates announcements alerting passengers to 
+
+--- Document Chunk 497 ---
+the need to evacuate the station.
+
+--- Document Chunk 498 ---
+5. Lifts which must move people to a 
+
+--- Document Chunk 499 ---
+deemed safe floor.
+
+--- Document Chunk 500 ---
+It is quite usual to hold a Hazard Identification 
+
+--- Document Chunk 501 ---
+(or HazID) workshop. It is important to get 
+
+--- Document Chunk 502 ---
+representation from people who are experienced 
+
+--- Document Chunk 503 ---
+in the system being considered, the environment 
+
+--- Document Chunk 504 ---
+in which it will operate and how things might 
+
+--- Document Chunk 505 ---
+go wrong. A HazID involves systematically 
+
+--- Document Chunk 506 ---
+considering each function, each user operation 
+
+--- Document Chunk 507 ---
+(or reaction in the case of members of the public) 
+
+--- Document Chunk 508 ---
+and each interface. The conversation is seeded 
+
+--- Document Chunk 509 ---
+with guidewords to encourage the meeting to 
+
+--- Document Chunk 510 ---
+think about how the function, user or interface 
+
+--- Document Chunk 511 ---
+might not work as intended. An example of 
+
+--- Document Chunk 512 ---
+potential guidewords and their meanings are 
+
+--- Document Chunk 513 ---
+shown in Table 1.
+
+--- Document Chunk 514 ---
+The workshop members can consider whether 
+
+--- Document Chunk 515 ---
+each deviation from intended operation represents 
+
+--- Document Chunk 516 ---
+a genuine hazard. Once all reasonably foreseeable 
+
+--- Document Chunk 517 ---
+hazards are identified, the hazards can be analysed 
+
+--- Document Chunk 518 ---
+to determine their likelihood and severity of 
+
+--- Document Chunk 519 ---
+outcome. This aids understanding of the risk 
+
+--- Document Chunk 520 ---
+and enables effort to be focussed on those 
+
+--- Document Chunk 521 ---
+with the highest risk. This analysis is often done 
+
+--- Document Chunk 522 ---
+qualitatively, and it is usual to see categorisations 
+
+--- Document Chunk 523 ---
+of likelihood and severity similar to Tables 2 and 3.
+
+--- Document Chunk 524 ---
+Table 1 – Hazard identification guidewords.
+
+--- Document Chunk 525 ---
+Table 2 – Likelihood categorisations.
+
+--- Document Chunk 526 ---
+“A HazID involves 
+
+--- Document Chunk 527 ---
+systematically 
+
+--- Document Chunk 528 ---
+considering each 
+
+--- Document Chunk 529 ---
+function, user 
+
+--- Document Chunk 530 ---
+operation and 
+
+--- Document Chunk 531 ---
+interface”
+
+--- Document Chunk 532 ---
+Severity  
+
+--- Document Chunk 533 ---
+category 
+
+--- Document Chunk 534 ---
+Classification  
+
+--- Document Chunk 535 ---
+term
+
+--- Document Chunk 536 ---
+CFS equivalence Description
+
+--- Document Chunk 537 ---
+1 Negligible 0.001 Non-reportable injury
+
+--- Document Chunk 538 ---
+2 Minor 0.01 Minor injury
+
+--- Document Chunk 539 ---
+3 Major 0.1 Major injury or multiple minor injuries
+
+--- Document Chunk 540 ---
+4 Critical 1 Single fatality or multiple major injuries. Equivalent to 1 CFS
+
+--- Document Chunk 541 ---
+5 Catastrophic Multiple fatalities
+
+--- Document Chunk 542 ---
+Table 3 – Severity categorisations.
+
+--- Document Chunk 543 ---
+ IRSE News |  Issue 267  |  June 2020
+
+--- Document Chunk 544 ---
+16
+
+--- Document Chunk 545 ---
+Likelihood
+
+--- Document Chunk 546 ---
+Severity
+
+--- Document Chunk 547 ---
+Risk classification1 2 3 4 5
+
+--- Document Chunk 548 ---
+Negligible Minor Major Critical Catastrophic
+
+--- Document Chunk 549 ---
+5 Frequent Medium High High High High Intolerable risk: Activity not 
+
+--- Document Chunk 550 ---
+permitted. Hazard to be 
+
+--- Document Chunk 551 ---
+avoided or reduced.
+
+--- Document Chunk 552 ---
+4 Probable Medium Medium High High High
+
+--- Document Chunk 553 ---
+3 Occasional Low Medium Medium High High Tolerable risk: Control measures 
+
+--- Document Chunk 554 ---
+to reduce risk rating to a level 
+
+--- Document Chunk 555 ---
+which is as low as reasonably 
+
+--- Document Chunk 556 ---
+practicable (ALARP).
+
+--- Document Chunk 557 ---
+2 Remote Low Low Medium Medium High
+
+--- Document Chunk 558 ---
+1 Improbable Low Low Low Medium Medium Negligible or low risk: Control 
+
+--- Document Chunk 559 ---
+measures to be maintained and 
+
+--- Document Chunk 560 ---
+reviewed to control residual risk 
+
+--- Document Chunk 561 ---
+as far as reasonably practicable.
+
+--- Document Chunk 562 ---
+Table 4 – Risk matrix. This allows a matrix of risk classification to be 
+
+--- Document Chunk 563 ---
+developed where particular combinations of 
+
+--- Document Chunk 564 ---
+likelihood and severity can yield a risk that is 
+
+--- Document Chunk 565 ---
+intolerable, tolerable or negligible. An example is 
+
+--- Document Chunk 566 ---
+shown in Table 4.
+
+--- Document Chunk 567 ---
+Note that all of the above tables are examples. 
+
+--- Document Chunk 568 ---
+Different railway authorities may have different 
+
+--- Document Chunk 569 ---
+categorisations and different acceptable levels 
+
+--- Document Chunk 570 ---
+of risk. All such categorisations and levels must 
+
+--- Document Chunk 571 ---
+be justified, and this is typically done in a safety 
+
+--- Document Chunk 572 ---
+plan. In extreme cases, likelihood and severity 
+
+--- Document Chunk 573 ---
+may need to be calculated quantitatively; this is 
+
+--- Document Chunk 574 ---
+much harder to do.
+
+--- Document Chunk 575 ---
+Now the hazards are identified and their risk has 
+
+--- Document Chunk 576 ---
+been considered, safety measures can be designed 
+
+--- Document Chunk 577 ---
+to reduce those risks to a more acceptable level. 
+
+--- Document Chunk 578 ---
+A project may need to bring together a number of 
+
+--- Document Chunk 579 ---
+representatives to determine if a risk is acceptable 
+
+--- Document Chunk 580 ---
+based on proposed measures.
+
+--- Document Chunk 581 ---
+Causes vs hazards
+
+--- Document Chunk 582 ---
+A common mistake in this process is to confuse 
+
+--- Document Chunk 583 ---
+causes of hazards as hazards. This can result 
+
+--- Document Chunk 584 ---
+in a long list of so-called hazards to manage, 
+
+--- Document Chunk 585 ---
+increasing the time and cost involved to complete 
+
+--- Document Chunk 586 ---
+the design. Avoiding this confusion is achieved 
+
+--- Document Chunk 587 ---
+by being clear about the functions of the system 
+
+--- Document Chunk 588 ---
+being developed, its users and its interfaces. This 
+
+--- Document Chunk 589 ---
+usually entails developing a diagram showing all 
+
+--- Document Chunk 590 ---
+the possible interfaces, making sure this includes 
+
+--- Document Chunk 591 ---
+the human interactions as well as technical 
+
+--- Document Chunk 592 ---
+interfaces. In the fire panel example, the function 
+
+--- Document Chunk 593 ---
+of providing an alert to each of its interfaces could 
+
+--- Document Chunk 594 ---
+have a hazard of ‘No alert to the interfaces’. This 
+
+--- Document Chunk 595 ---
+could happen because the power supply to the 
+
+--- Document Chunk 596 ---
+panel was faulty. The failing power supply is a 
+
+--- Document Chunk 597 ---
+cause of the hazard.
+
+--- Document Chunk 598 ---
+Be alert!
+
+--- Document Chunk 599 ---
+Samuel C Florman was a Civil engineer who 
+
+--- Document Chunk 600 ---
+started his career in the 1950s. In his book, “The 
+
+--- Document Chunk 601 ---
+Civilised Engineer” he writes (p149):
+
+--- Document Chunk 602 ---
+“There will always be engineering failures. 
+
+--- Document Chunk 603 ---
+But the worst kinds of failures, the most 
+
+--- Document Chunk 604 ---
+inexcusable, are those that could readily be 
+
+--- Document Chunk 605 ---
+prevented if only people stayed alert and took 
+
+--- Document Chunk 606 ---
+reasonable precautions.
+
+--- Document Chunk 607 ---
+“…experience teaches us that society requires a 
+
+--- Document Chunk 608 ---
+cadre of concerned citizens – engineers foremost 
+
+--- Document Chunk 609 ---
+among them – to urge proper action and to 
+
+--- Document Chunk 610 ---
+persist when rebuffed.
+
+--- Document Chunk 611 ---
+“Engineers, being human, are also susceptible 
+
+--- Document Chunk 612 ---
+to the drowsiness that comes in the absence of 
+
+--- Document Chunk 613 ---
+crisis. Perhaps one characteristic of a professional 
+
+--- Document Chunk 614 ---
+is the ability and willingness to stay alert while 
+
+--- Document Chunk 615 ---
+others doze. Engineering responsibility should not 
+
+--- Document Chunk 616 ---
+require the stimulation that comes in the wake 
+
+--- Document Chunk 617 ---
+of catastrophe.”
+
+--- Document Chunk 618 ---
+Staying alert requires the engineer to identify, 
+
+--- Document Chunk 619 ---
+then assess the risks arising from the works being 
+
+--- Document Chunk 620 ---
+undertaken. As engineers, we need to be alert 
+
+--- Document Chunk 621 ---
+to how the design will be operated and how 
+
+--- Document Chunk 622 ---
+the system will be maintained. We must foresee 
+
+--- Document Chunk 623 ---
+changes in the operating environment that will 
+
+--- Document Chunk 624 ---
+affect the system’s operation and consider how 
+
+--- Document Chunk 625 ---
+that design will eventually be decommissioned. 
+
+--- Document Chunk 626 ---
+Risks can arise through many areas. This includes 
+
+--- Document Chunk 627 ---
+the physical aspects, human behaviours, the 
+
+--- Document Chunk 628 ---
+processes which govern how tasks are performed,  
+
+--- Document Chunk 629 ---
+and the ability of people to perform a task when 
+
+--- Document Chunk 630 ---
+under pressure. Having assessed the risks, the 
+
+--- Document Chunk 631 ---
+engineer must design the system (consisting of 
+
+--- Document Chunk 632 ---
+people and processes as well as the products 
+
+--- Document Chunk 633 ---
+themselves) to mitigate against those risks.
+
+--- Document Chunk 634 ---
+“There will 
+
+--- Document Chunk 635 ---
+always be 
+
+--- Document Chunk 636 ---
+engineering 
+
+--- Document Chunk 637 ---
+failures”
+
+--- Document Chunk 638 ---
+About the author ...
+
+--- Document Chunk 639 ---
+David is the professional head of discipline for 
+
+--- Document Chunk 640 ---
+Engineering Management in SNC-Lavalin Atkins 
+
+--- Document Chunk 641 ---
+and works to grow the skills and knowledge of 
+
+--- Document Chunk 642 ---
+those who provide the technical leadership of 
+
+--- Document Chunk 643 ---
+projects. Beginning with an understanding of 
+
+--- Document Chunk 644 ---
+the operational needs, he specifies, designs and 
+
+--- Document Chunk 645 ---
+changes railways to make them safe, operable 
+
+--- Document Chunk 646 ---
+and fit for purpose.
+
+--- Document Chunk 647 ---
+As a railway systems engineer with a broad 
+
+--- Document Chunk 648 ---
+knowledge of rail systems, disciplines and 
+
+--- Document Chunk 649 ---
+operations, coupled with experience across the 
+
+--- Document Chunk 650 ---
+whole development lifecycle, David has taken 
+
+--- Document Chunk 651 ---
+projects from initial concept through design and 
+
+--- Document Chunk 652 ---
+development through to implementation. 
+
+--- Document Chunk 653 ---
+He is currently working in the Engineering 
+
+--- Document Chunk 654 ---
+Management Office of the East Coast 
+
+--- Document Chunk 655 ---
+Digital Programme, bringing digital railway 
+
+--- Document Chunk 656 ---
+techniques to Network Rail’s main line from 
+
+--- Document Chunk 657 ---
+London to Edinburgh.
+

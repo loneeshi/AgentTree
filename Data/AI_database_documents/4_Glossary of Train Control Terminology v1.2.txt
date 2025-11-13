@@ -1,0 +1,1050 @@
+--- Document Chunk 0 ---
+4_Glossary of Train Control Terminology v1.2.docx  20-Dec-21 
+
+--- Document Chunk 1 ---
+Glossary of Train Control Terminology v1.2 
+
+--- Document Chunk 2 ---
+This glossary includes many of the terms that you will encounter in the Certificate (Module A) 
+
+--- Document Chunk 3 ---
+of the IRSE Examination.  Its focus is on commonly used acronyms and on terms where, in 
+
+--- Document Chunk 4 ---
+different countries, there are alternative names in English for the same object, role, or 
+
+--- Document Chunk 5 ---
+function.  It is not a comprehensive list of all train control terminology.  It does not address 
+
+--- Document Chunk 6 ---
+telecommunications terminology because this tends to be more consistent between 
+
+--- Document Chunk 7 ---
+countries. 
+
+--- Document Chunk 8 ---
+You are not expected to learn the descriptions in the 3rd column.  Just look down the first 
+
+--- Document Chunk 9 ---
+column and check if there are any terms that you are not familiar with.  The term in the first 
+
+--- Document Chunk 10 ---
+column is the one that is usually used in the examination. 
+
+--- Document Chunk 11 ---
+ 
+
+--- Document Chunk 12 ---
+Term Alternative Terms & 
+
+--- Document Chunk 13 ---
+Acronyms 
+
+--- Document Chunk 14 ---
+Describing 
+
+--- Document Chunk 15 ---
+Approach control 
+
+--- Document Chunk 16 ---
+(approach release) 
+
+--- Document Chunk 17 ---
+Approach release The restriction of the aspect of a 
+
+--- Document Chunk 18 ---
+signal, to control the speed of a 
+
+--- Document Chunk 19 ---
+train (e.g. to ensure that the 
+
+--- Document Chunk 20 ---
+driver can comply with the turnout 
+
+--- Document Chunk 21 ---
+speed at a junction) 
+
+--- Document Chunk 22 ---
+Approach locking   Approach locking prevents the 
+
+--- Document Chunk 23 ---
+immediate release of a route 
+
+--- Document Chunk 24 ---
+where it is possible that an 
+
+--- Document Chunk 25 ---
+approaching train may be unable 
+
+--- Document Chunk 26 ---
+to stop. 
+
+--- Document Chunk 27 ---
+Aspect  Signal lamp 
+
+--- Document Chunk 28 ---
+Signal light 
+
+--- Document Chunk 29 ---
+Any valid visual indication of a 
+
+--- Document Chunk 30 ---
+signal as displayed to the driver. 
+
+--- Document Chunk 31 ---
+Automatic Train Control  ATC On-board automation that 
+
+--- Document Chunk 32 ---
+contributes to or replaces the 
+
+--- Document Chunk 33 ---
+driver’s judgement and actions in 
+
+--- Document Chunk 34 ---
+respect of controlling the train. It 
+
+--- Document Chunk 35 ---
+encompasses ATO and ATP. 
+
+--- Document Chunk 36 ---
+Automatic Train 
+
+--- Document Chunk 37 ---
+Operation 
+
+--- Document Chunk 38 ---
+ATO A system that automatically 
+
+--- Document Chunk 39 ---
+operates the train’s driving 
+
+--- Document Chunk 40 ---
+controls  
+
+--- Document Chunk 41 ---
+Automatic Train 
+
+--- Document Chunk 42 ---
+Protection 
+
+--- Document Chunk 43 ---
+ATP A safety system that enforces 
+
+--- Document Chunk 44 ---
+either compliance with or 
+
+--- Document Chunk 45 ---
+observation of speed restrictions 
+
+--- Document Chunk 46 ---
+and/or signal aspects by trains. 
+
+--- Document Chunk 47 ---
+Automatic Train 
+
+--- Document Chunk 48 ---
+Supervision 
+
+--- Document Chunk 49 ---
+ATS A non-safety system (common on 
+
+--- Document Chunk 50 ---
+metros) which regulates a train 
+
+--- Document Chunk 51 ---
+service, typically to maintain 
+
+--- Document Chunk 52 ---
+intended traffic patterns and to 
+
+--- Document Chunk 53 ---
+minimise the effects of train 
+
+--- Document Chunk 54 ---
+delays on the operating schedule. 
+
+--- Document Chunk 55 ---
+Automatic Route Setting  ARS A system for setting routes 
+
+--- Document Chunk 56 ---
+without the action of the signaller 
+
+--- Document Chunk 57 ---
+(signal operator). 
+
+--- Document Chunk 58 ---
+Automatic signal  A signal controlled by the 
+
+--- Document Chunk 59 ---
+passage of trains. It does not 
+
+--- Document Chunk 60 ---
+require any action by the signaller 
+
+--- Document Chunk 61 ---
+(signal operator) or ARS. 
+
+--- Document Chunk 62 ---
+4_Glossary of Train Control Terminology v1.2.docx  20-Dec-21 
+
+--- Document Chunk 63 ---
+Term Alternative Terms & 
+
+--- Document Chunk 64 ---
+Acronyms 
+
+--- Document Chunk 65 ---
+Describing 
+
+--- Document Chunk 66 ---
+Axle counter   A method of detecting the 
+
+--- Document Chunk 67 ---
+absence of a train. Track 
+
+--- Document Chunk 68 ---
+mounted wheel sensors detect 
+
+--- Document Chunk 69 ---
+the passing train wheels (axles) 
+
+--- Document Chunk 70 ---
+and the axle counter evaluator 
+
+--- Document Chunk 71 ---
+counts the number of axles 
+
+--- Document Chunk 72 ---
+entering and leaving a train 
+
+--- Document Chunk 73 ---
+detection section at each 
+
+--- Document Chunk 74 ---
+extremity.  
+
+--- Document Chunk 75 ---
+Balise (beacon) Transponder  
+
+--- Document Chunk 76 ---
+Tag 
+
+--- Document Chunk 77 ---
+Beacon 
+
+--- Document Chunk 78 ---
+A track mounted unit that 
+
+--- Document Chunk 79 ---
+exchanges data messages with 
+
+--- Document Chunk 80 ---
+the train. 
+
+--- Document Chunk 81 ---
+Cab Secure Radio  CSR A secure radio communication 
+
+--- Document Chunk 82 ---
+system between driver and 
+
+--- Document Chunk 83 ---
+signaller (signal operator). 
+
+--- Document Chunk 84 ---
+Colour light signal  A signal that conveys its 
+
+--- Document Chunk 85 ---
+information by coloured lights. 
+
+--- Document Chunk 86 ---
+Computer Based 
+
+--- Document Chunk 87 ---
+Interlocking  
+
+--- Document Chunk 88 ---
+CBI 
+
+--- Document Chunk 89 ---
+PBI 
+
+--- Document Chunk 90 ---
+A safety interlocking system 
+
+--- Document Chunk 91 ---
+based on computers or 
+
+--- Document Chunk 92 ---
+processors. 
+
+--- Document Chunk 93 ---
+Communications Based 
+
+--- Document Chunk 94 ---
+Train Control 
+
+--- Document Chunk 95 ---
+CBTC An Automatic Train Control 
+
+--- Document Chunk 96 ---
+system, mostly used on metro 
+
+--- Document Chunk 97 ---
+railways, with train location 
+
+--- Document Chunk 98 ---
+sensing not requiring track 
+
+--- Document Chunk 99 ---
+circuits.  The train controlling 
+
+--- Document Chunk 100 ---
+functions are enabled by 
+
+--- Document Chunk 101 ---
+continuous data communications 
+
+--- Document Chunk 102 ---
+between train and wayside sub-
+
+--- Document Chunk 103 ---
+systems. 
+
+--- Document Chunk 104 ---
+Concentrator   A facility to connect several 
+
+--- Document Chunk 105 ---
+telephone circuits to one handset. 
+
+--- Document Chunk 106 ---
+Control centre. 
+
+--- Document Chunk 107 ---
+(see also Signal box) 
+
+--- Document Chunk 108 ---
+Signalling centre 
+
+--- Document Chunk 109 ---
+Operations control centre 
+
+--- Document Chunk 110 ---
+Dispatch office 
+
+--- Document Chunk 111 ---
+Train control centre 
+
+--- Document Chunk 112 ---
+Network control centre 
+
+--- Document Chunk 113 ---
+A location where train operators 
+
+--- Document Chunk 114 ---
+monitor and control the operation 
+
+--- Document Chunk 115 ---
+of the railway over a large area.  
+
+--- Document Chunk 116 ---
+It usually incorporates operational 
+
+--- Document Chunk 117 ---
+functions beyond simply 
+
+--- Document Chunk 118 ---
+controlling the signals. 
+
+--- Document Chunk 119 ---
+Control table  A part of the signalling system 
+
+--- Document Chunk 120 ---
+specification that defines the 
+
+--- Document Chunk 121 ---
+detail of the signalling interlocking 
+
+--- Document Chunk 122 ---
+controls for each signalling 
+
+--- Document Chunk 123 ---
+function, such as signals, points 
+
+--- Document Chunk 124 ---
+and routes. 
+
+--- Document Chunk 125 ---
+Equipment case    Apparatus case 
+
+--- Document Chunk 126 ---
+Apparatus cupboard 
+
+--- Document Chunk 127 ---
+Location case 
+
+--- Document Chunk 128 ---
+Cubicle 
+
+--- Document Chunk 129 ---
+Signalling Apparatus 
+
+--- Document Chunk 130 ---
+Box(SAB) 
+
+--- Document Chunk 131 ---
+A housing containing apparatus 
+
+--- Document Chunk 132 ---
+which is intended for unprotected 
+
+--- Document Chunk 133 ---
+outdoor use.  
+
+--- Document Chunk 134 ---
+4_Glossary of Train Control Terminology v1.2.docx  20-Dec-21 
+
+--- Document Chunk 135 ---
+Term Alternative Terms & 
+
+--- Document Chunk 136 ---
+Acronyms 
+
+--- Document Chunk 137 ---
+Describing 
+
+--- Document Chunk 138 ---
+European Rail Traffic 
+
+--- Document Chunk 139 ---
+Management System  
+
+--- Document Chunk 140 ---
+ERTMS A system for managing rail traffic, 
+
+--- Document Chunk 141 ---
+enabling it to operate on 
+
+--- Document Chunk 142 ---
+compatible signalling systems 
+
+--- Document Chunk 143 ---
+across European borders. 
+
+--- Document Chunk 144 ---
+European Train Control 
+
+--- Document Chunk 145 ---
+System 
+
+--- Document Chunk 146 ---
+ETCS The train control part of ERTMS. 
+
+--- Document Chunk 147 ---
+Facing Points Facing point switch A track switch at a diverging 
+
+--- Document Chunk 148 ---
+junction in the direction of travel 
+
+--- Document Chunk 149 ---
+Fail Safe FS A characteristic of a system 
+
+--- Document Chunk 150 ---
+which ensures that known, or 
+
+--- Document Chunk 151 ---
+expected malfunctions will 
+
+--- Document Chunk 152 ---
+maintain or place the equipment 
+
+--- Document Chunk 153 ---
+in a safe state. 
+
+--- Document Chunk 154 ---
+Flank protection  Protection from overrunning 
+
+--- Document Chunk 155 ---
+movements approaching on 
+
+--- Document Chunk 156 ---
+converging tracks. 
+
+--- Document Chunk 157 ---
+Fouling point  The position at the convergence 
+
+--- Document Chunk 158 ---
+or divergence of two tracks where 
+
+--- Document Chunk 159 ---
+the structure gauge on each line 
+
+--- Document Chunk 160 ---
+would come into contact. 
+
+--- Document Chunk 161 ---
+Grade of Automation GoA The extent to which the functions 
+
+--- Document Chunk 162 ---
+of the driver are controlled by a 
+
+--- Document Chunk 163 ---
+technical system. 
+
+--- Document Chunk 164 ---
+Global System for Mobile 
+
+--- Document Chunk 165 ---
+Communications 
+
+--- Document Chunk 166 ---
+GSM  The standard which describes 
+
+--- Document Chunk 167 ---
+the protocols for digital networks 
+
+--- Document Chunk 168 ---
+used by mobile communications 
+
+--- Document Chunk 169 ---
+devices. 
+
+--- Document Chunk 170 ---
+Global System for Mobile 
+
+--- Document Chunk 171 ---
+Communications - 
+
+--- Document Chunk 172 ---
+Railway 
+
+--- Document Chunk 173 ---
+GSM-R The system, based on GSM, 
+
+--- Document Chunk 174 ---
+which delivers digital secure 
+
+--- Document Chunk 175 ---
+communications between railway 
+
+--- Document Chunk 176 ---
+users (e.g. drivers and 
+
+--- Document Chunk 177 ---
+signallers).  
+
+--- Document Chunk 178 ---
+Headway  The shortest time (or distance) 
+
+--- Document Chunk 179 ---
+interval between two trains, so 
+
+--- Document Chunk 180 ---
+that the second train can run at 
+
+--- Document Chunk 181 ---
+its full permitted speed without 
+
+--- Document Chunk 182 ---
+being restricted by the signal 
+
+--- Document Chunk 183 ---
+aspects. 
+
+--- Document Chunk 184 ---
+Impedance bond  A device which presents a low 
+
+--- Document Chunk 185 ---
+impedance to traction current and 
+
+--- Document Chunk 186 ---
+a higher impedance to track 
+
+--- Document Chunk 187 ---
+circuit current. 
+
+--- Document Chunk 188 ---
+Insulated Rail Joint  IRJ 
+
+--- Document Chunk 189 ---
+Insulated Block Joint 
+
+--- Document Chunk 190 ---
+(IBJ) 
+
+--- Document Chunk 191 ---
+A joint of two sections of rail with 
+
+--- Document Chunk 192 ---
+insulation between them to 
+
+--- Document Chunk 193 ---
+maintain electrical isolation, 
+
+--- Document Chunk 194 ---
+usually for track circuit purposes. 
+
+--- Document Chunk 195 ---
+Interlocking  A general term applied to the 
+
+--- Document Chunk 196 ---
+system, which sets, secures and 
+
+--- Document Chunk 197 ---
+releases train routes for the safe 
+
+--- Document Chunk 198 ---
+movement of trains and transmits 
+
+--- Document Chunk 199 ---
+safe movement authorities to the 
+
+--- Document Chunk 200 ---
+train driver.   
+
+--- Document Chunk 201 ---
+4_Glossary of Train Control Terminology v1.2.docx  20-Dec-21 
+
+--- Document Chunk 202 ---
+Term Alternative Terms & 
+
+--- Document Chunk 203 ---
+Acronyms 
+
+--- Document Chunk 204 ---
+Describing 
+
+--- Document Chunk 205 ---
+Level crossing.  Grade crossing An intersection at the same 
+
+--- Document Chunk 206 ---
+elevation of a road and one or 
+
+--- Document Chunk 207 ---
+more rail tracks 
+
+--- Document Chunk 208 ---
+Limit of Shunt  LOS An indicator or sign to instruct the 
+
+--- Document Chunk 209 ---
+driver to terminate a shunting 
+
+--- Document Chunk 210 ---
+movement, particularly along a 
+
+--- Document Chunk 211 ---
+line in the wrong direction. 
+
+--- Document Chunk 212 ---
+Line capacity   For a given section of line, the 
+
+--- Document Chunk 213 ---
+practical maximum number of 
+
+--- Document Chunk 214 ---
+trains per hour permitted by the 
+
+--- Document Chunk 215 ---
+signalling system and operational 
+
+--- Document Chunk 216 ---
+constraints. 
+
+--- Document Chunk 217 ---
+Maintainer Signal electrician 
+
+--- Document Chunk 218 ---
+Signal technician 
+
+--- Document Chunk 219 ---
+Technician 
+
+--- Document Chunk 220 ---
+A person who keeps the 
+
+--- Document Chunk 221 ---
+signalling or communications 
+
+--- Document Chunk 222 ---
+systems in safe and reliable 
+
+--- Document Chunk 223 ---
+working order. 
+
+--- Document Chunk 224 ---
+Maintenance manager  A person responsible for the safe 
+
+--- Document Chunk 225 ---
+and reliable working of the 
+
+--- Document Chunk 226 ---
+signalling or communications 
+
+--- Document Chunk 227 ---
+systems and/or for supervising 
+
+--- Document Chunk 228 ---
+the maintenance activities. 
+
+--- Document Chunk 229 ---
+Operator  A person who operates the 
+
+--- Document Chunk 230 ---
+signalling or communications 
+
+--- Document Chunk 231 ---
+systems and is responsible for 
+
+--- Document Chunk 232 ---
+the safe operation of trains. 
+
+--- Document Chunk 233 ---
+Overlap  The distance beyond a signal that 
+
+--- Document Chunk 234 ---
+must be clear before a train is 
+
+--- Document Chunk 235 ---
+permitted to approach it. 
+
+--- Document Chunk 236 ---
+Permissible speed Line speed The maximum allowable safe 
+
+--- Document Chunk 237 ---
+speed over a section of line. 
+
+--- Document Chunk 238 ---
+Point machine  Point operating 
+
+--- Document Chunk 239 ---
+mechanism 
+
+--- Document Chunk 240 ---
+The equipment for the powered 
+
+--- Document Chunk 241 ---
+operation of a set of points 
+
+--- Document Chunk 242 ---
+Points Switches The means by which a train is 
+
+--- Document Chunk 243 ---
+transferred from one track to 
+
+--- Document Chunk 244 ---
+another. 
+
+--- Document Chunk 245 ---
+Possession (of a line) Occupation The complete stoppage of all 
+
+--- Document Chunk 246 ---
+normal train movements on a 
+
+--- Document Chunk 247 ---
+running line or siding, usually for 
+
+--- Document Chunk 248 ---
+engineering purposes.  
+
+--- Document Chunk 249 ---
+Right side failure Negligible risk failure A failure which does not result in 
+
+--- Document Chunk 250 ---
+the protection provided by the 
+
+--- Document Chunk 251 ---
+signalling system being reduced.  
+
+--- Document Chunk 252 ---
+Route locking  Maintained locking  
+
+--- Document Chunk 253 ---
+Route holding 
+
+--- Document Chunk 254 ---
+Maintains the locking associated 
+
+--- Document Chunk 255 ---
+with a route in use until after the 
+
+--- Document Chunk 256 ---
+train has passed clear of the 
+
+--- Document Chunk 257 ---
+equipment being locked (for 
+
+--- Document Chunk 258 ---
+example, points or opposing 
+
+--- Document Chunk 259 ---
+signal).  
+
+--- Document Chunk 260 ---
+Running line Mainline A railway line that is not in a 
+
+--- Document Chunk 261 ---
+siding or depot. 
+
+--- Document Chunk 262 ---
+4_Glossary of Train Control Terminology v1.2.docx  20-Dec-21 
+
+--- Document Chunk 263 ---
+Term Alternative Terms & 
+
+--- Document Chunk 264 ---
+Acronyms 
+
+--- Document Chunk 265 ---
+Describing 
+
+--- Document Chunk 266 ---
+Semaphore signal  Mechanical signal A signal which informs a driver by 
+
+--- Document Chunk 267 ---
+means of the position of a 
+
+--- Document Chunk 268 ---
+mechanical arm during daylight 
+
+--- Document Chunk 269 ---
+and coloured lights during 
+
+--- Document Chunk 270 ---
+darkness 
+
+--- Document Chunk 271 ---
+Signal box Signal cabin 
+
+--- Document Chunk 272 ---
+(see also Control centre) 
+
+--- Document Chunk 273 ---
+The building in which the 
+
+--- Document Chunk 274 ---
+signaller(s) is/are situated 
+
+--- Document Chunk 275 ---
+together with the control and 
+
+--- Document Chunk 276 ---
+indication system for the 
+
+--- Document Chunk 277 ---
+signalling. 
+
+--- Document Chunk 278 ---
+Signaller (signal operator) 
+
+--- Document Chunk 279 ---
+(see also train controller) 
+
+--- Document Chunk 280 ---
+Dispatcher 
+
+--- Document Chunk 281 ---
+Signalman 
+
+--- Document Chunk 282 ---
+Train control operator 
+
+--- Document Chunk 283 ---
+A person responsible for the 
+
+--- Document Chunk 284 ---
+operation of the signalling 
+
+--- Document Chunk 285 ---
+system, to safely control the 
+
+--- Document Chunk 286 ---
+passage and regulation of trains. 
+
+--- Document Chunk 287 ---
+Signalling Equipment 
+
+--- Document Chunk 288 ---
+Room 
+
+--- Document Chunk 289 ---
+SER 
+
+--- Document Chunk 290 ---
+Bungalow 
+
+--- Document Chunk 291 ---
+REB (Relocatable 
+
+--- Document Chunk 292 ---
+Equipment Building) 
+
+--- Document Chunk 293 ---
+A “walk-in” room or independent 
+
+--- Document Chunk 294 ---
+building for housing signalling 
+
+--- Document Chunk 295 ---
+equipment 
+
+--- Document Chunk 296 ---
+Signalling panel Signalling workstation 
+
+--- Document Chunk 297 ---
+Train control workstation 
+
+--- Document Chunk 298 ---
+Control panel 
+
+--- Document Chunk 299 ---
+Switch panel 
+
+--- Document Chunk 300 ---
+The equipment that displays train 
+
+--- Document Chunk 301 ---
+information to the signaller (signal 
+
+--- Document Chunk 302 ---
+operator) and which enables 
+
+--- Document Chunk 303 ---
+control of the signalling by 
+
+--- Document Chunk 304 ---
+buttons, keyboards or 
+
+--- Document Chunk 305 ---
+touchscreens. 
+
+--- Document Chunk 306 ---
+Toe of point  The end of a switch rail furthest 
+
+--- Document Chunk 307 ---
+from the crossing of the rails. 
+
+--- Document Chunk 308 ---
+Track Circuit  TC An electrical device using the 
+
+--- Document Chunk 309 ---
+rails in an electric circuit, which 
+
+--- Document Chunk 310 ---
+detects the absence of trains on a 
+
+--- Document Chunk 311 ---
+defined section of line. 
+
+--- Document Chunk 312 ---
+Trailing points Trailing point switch A track switch at a converging 
+
+--- Document Chunk 313 ---
+junction in the direction of travel 
+
+--- Document Chunk 314 ---
+Train controller Network controller A person responsible for safely 
+
+--- Document Chunk 315 ---
+managing a section of railway 
+
+--- Document Chunk 316 ---
+including prioritising train 
+
+--- Document Chunk 317 ---
+movements, authorising track 
+
+--- Document Chunk 318 ---
+possessions and manging 
+
+--- Document Chunk 319 ---
+incidents.  The person may also 
+
+--- Document Chunk 320 ---
+operate the signalling system as 
+
+--- Document Chunk 321 ---
+shown for a ‘Signaller’ above 
+
+--- Document Chunk 322 ---
+Train Control System TCS The system used in the control 
+
+--- Document Chunk 323 ---
+centre to convert operator inputs 
+
+--- Document Chunk 324 ---
+into commands to the signalling 
+
+--- Document Chunk 325 ---
+system and for sending 
+
+--- Document Chunk 326 ---
+indications from the signalling 
+
+--- Document Chunk 327 ---
+system and train descriptions to 
+
+--- Document Chunk 328 ---
+the signalling panel.  
+
+--- Document Chunk 329 ---
+4_Glossary of Train Control Terminology v1.2.docx  20-Dec-21 
+
+--- Document Chunk 330 ---
+Term Alternative Terms & 
+
+--- Document Chunk 331 ---
+Acronyms 
+
+--- Document Chunk 332 ---
+Describing 
+
+--- Document Chunk 333 ---
+Train driver Train operator 
+
+--- Document Chunk 334 ---
+Locomotive operator 
+
+--- Document Chunk 335 ---
+Engine driver 
+
+--- Document Chunk 336 ---
+Motorman 
+
+--- Document Chunk 337 ---
+The person in the cab of a train 
+
+--- Document Chunk 338 ---
+operating or supervising the 
+
+--- Document Chunk 339 ---
+braking and acceleration of the 
+
+--- Document Chunk 340 ---
+train under instructions from the 
+
+--- Document Chunk 341 ---
+signalling system, a dispatcher or 
+
+--- Document Chunk 342 ---
+lineside signs. 
+
+--- Document Chunk 343 ---
+Wrong Side Failure  WSF A failure that results in the 
+
+--- Document Chunk 344 ---
+protection provided by the 
+
+--- Document Chunk 345 ---
+signalling system being reduced 
+
+--- Document Chunk 346 ---
+or removed. 
+
+--- Document Chunk 347 ---
+ 
+
+--- Document Chunk 348 ---
+The far more comprehensive ‘Glossary of Signalling Terms’ published by the UK Rail Safety 
+
+--- Document Chunk 349 ---
+and Standards Board is acknowledged in the preparation of this appendix. 
+

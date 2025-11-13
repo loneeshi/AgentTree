@@ -1,0 +1,798 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通 基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统( CBTC) 互联互通系统规范”第 3 部分:
+
+--- Document Chunk 4 ---
+车载电子地图》( TZCAMBT 04010. 3一2018 )
+
+--- Document Chunk 5 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 6 ---
+本徐改革经中国城市轨道交通协会于2024 年 09 月03 日批准发布，
+
+--- Document Chunk 7 ---
+自2024 年 09 月 10 日起实施。
+
+--- Document Chunk 8 ---
+一、编辑性修改
+
+--- Document Chunk 9 ---
+1. 第2章中,将*运基信号[2010]267 号文件(RSSP -工铁路信号安
+
+--- Document Chunk 10 ---
+全通信协议》” ,修改为: TB/T 3528. 2 铁路信号安全通信协议 第 2 部
+
+--- Document Chunk 11 ---
+2. 部分字段取值长度有误 ,根据字段字节长度要求修改5 ;包括有
+
+--- Document Chunk 12 ---
+1) 5.3.1,表3 中,序号12，轨道区段属性3行，合义"列修改取
+
+--- Document Chunk 13 ---
+值。将
+
+--- Document Chunk 14 ---
+表3 轨道区段数据结构
+
+--- Document Chunk 15 ---
+数据
+
+--- Document Chunk 16 ---
+ase
+
+--- Document Chunk 17 ---
+peajex| SN Jaen) > same         eM
+
+--- Document Chunk 18 ---
+(字节)
+
+--- Document Chunk 19 ---
+轨道                                          0x000001 :普通上行轨道区自
+
+--- Document Chunk 20 ---
+r      NID           1 ~OxFFFFFFFF                       -
+
+--- Document Chunk 21 ---
+12 |B ecroperty| 4    0 sex, | 0000002. ,普通下行轨道区段
+
+--- Document Chunk 22 ---
+属性          0x000004 ,上行转换轨
+
+--- Document Chunk 23 ---
+--- Page 2 ---
+
+--- Document Chunk 24 ---
+表3 轨道区段数据结构(续表)
+
+--- Document Chunk 25 ---
+让       数据
+
+--- Document Chunk 26 ---
+序量定义| ME | 长度 | 。 数据范围               ay
+
+--- Document Chunk 27 ---
+定义
+
+--- Document Chunk 28 ---
+(字节)
+
+--- Document Chunk 29 ---
+0x000008 ,
+
+--- Document Chunk 30 ---
+0x000010 , si
+
+--- Document Chunk 31 ---
+0x000020, i
+
+--- Document Chunk 32 ---
+0x000040 ,上
+
+--- Document Chunk 33 ---
+-                                                                                   0x000080 ,下行车档
+
+--- Document Chunk 34 ---
+轨道                         。                      行线路约占
+
+--- Document Chunk 35 ---
+12 | eee    NID_     4   1 ~OxFFFFEFFF, 05000100 ,上上行线路终点
+
+--- Document Chunk 36 ---
+jp. |TRPROPERTY,            0 无效      0x000200 ,下行线路终点
+
+--- Document Chunk 37 ---
+属性                                                     0x000400,上行灯泡线边界
+
+--- Document Chunk 38 ---
+0x000800 ,下行灯泡线边界
+
+--- Document Chunk 39 ---
+0x040000,CI 通信轨道区段
+
+--- Document Chunk 40 ---
+0x100000 ,联络线(预留)
+
+--- Document Chunk 41 ---
+参见5.3.5。
+
+--- Document Chunk 42 ---
+修改为:
+
+--- Document Chunk 43 ---
+表3 轨道区段数据结构
+
+--- Document Chunk 44 ---
+序号定义|       长度 | | 数据范围               eM
+
+--- Document Chunk 45 ---
+定义      ate
+
+--- Document Chunk 46 ---
+(字节)
+
+--- Document Chunk 47 ---
+0x00000001 :普通上行轨道区段
+
+--- Document Chunk 48 ---
+0x00000002 ,普通下行轨道区段
+
+--- Document Chunk 49 ---
+“tt                                    0x00000004 ,上行转换轨
+
+--- Document Chunk 50 ---
+b  xe     NI       4 || OxBFFFFFFF, | 0x00000008 ,下行转换轨
+
+--- Document Chunk 51 ---
+mid TRPROPERTY              0无效       0x00000010 ,站台
+
+--- Document Chunk 52 ---
+0x00000020 ,道贫
+
+--- Document Chunk 53 ---
+0x00000040 ,上行车档
+
+--- Document Chunk 54 ---
+0x00000080 ,下行车档
+
+--- Document Chunk 55 ---
+--- Page 3 ---
+
+--- Document Chunk 56 ---
+表3 轨道区段数据结构(续表)
+
+--- Document Chunk 57 ---
+   数据
+
+--- Document Chunk 58 ---
+定义| EE ee | 数据范围       a xx
+
+--- Document Chunk 59 ---
+定义   eee
+
+--- Document Chunk 60 ---
+(字节)
+
+--- Document Chunk 61 ---
+000000100 ,王行线路终点
+
+--- Document Chunk 62 ---
+0x00000200 ,下行线路
+
+--- Document Chunk 63 ---
+轨道                  0x00000400 ,上行灯
+
+--- Document Chunk 64 ---
+RB rRpRoPERTY  ;  A Vial 0MX00000800 下行灯
+
+--- Document Chunk 65 ---
+属性                                                  0x00040000 ,CI 通信轨道区段
+
+--- Document Chunk 66 ---
+0x00100000 ,联络线( 预留)
+
+--- Document Chunk 67 ---
+参见5.3.5。
+
+--- Document Chunk 68 ---
+2), 5.3.5.1 中,将“例如,某轨道区段既为普通上行轨道区段(属性
+
+--- Document Chunk 69 ---
+取值为 0x000001) ,又为上行转换轨(属性取值为 0x000004 ) ,
+
+--- Document Chunk 70 ---
+无其他属性,则轨道区段属性取值应为:0x000005(0x000001 +
+
+--- Document Chunk 71 ---
+0x000004)” ,修改为:例如,某轨道区段既为普通上行轨道区
+
+--- Document Chunk 72 ---
+段(属性取值为 0x00000001) ,又为上行转换轨(属性取值为
+
+--- Document Chunk 73 ---
+0x00000004) , 无其他属性,则轨道区段属性取值应为:
+
+--- Document Chunk 74 ---
+0x00000005 (0x00000001 +0x00000004) 。”
+
+--- Document Chunk 75 ---
+3) 5.4.1,表10 中,序号5，折返区域属性"行，含义"列修改取值兴 将
+
+--- Document Chunk 76 ---
+表10 折返区域数据结构
+
+--- Document Chunk 77 ---
+数据
+
+--- Document Chunk 78 ---
+sala) 变量名 | 长度 | 。 数据范围         eM
+
+--- Document Chunk 79 ---
+定义
+
+--- Document Chunk 80 ---
+(45)
+
+--- Document Chunk 81 ---
+Ox001000 ,上行折返换端区域
+
+--- Document Chunk 82 ---
+0x002000 ,下行折返换兹区域
+
+--- Document Chunk 83 ---
+返                   0x004000,上行无人折返发车区域
+
+--- Document Chunk 84 ---
+Ha abropetery| 4 | apa | NMR, FF AAR eC
+
+--- Document Chunk 85 ---
+性                   03010000, 上行无人折返停车区域
+
+--- Document Chunk 86 ---
+0x020000,下行无人折返停车区域
+
+--- Document Chunk 87 ---
+BNL 5.4.3,
+
+--- Document Chunk 88 ---
+--- Page 4 ---
+
+--- Document Chunk 89 ---
+修改为:
+
+--- Document Chunk 90 ---
+表10 折返区域数据结构
+
+--- Document Chunk 91 ---
+序号|定义| 一     长度 | ”数据范围           含义
+
+--- Document Chunk 92 ---
+定义    man
+
+--- Document Chunk 93 ---
+(字节)
+
+--- Document Chunk 94 ---
+0x00001000 ,上行折返换端区域
+
+--- Document Chunk 95 ---
+0x00002000 ,下行折返换端区域
+
+--- Document Chunk 96 ---
+0x00004000 ,上行无人折返发车
+
+--- Document Chunk 97 ---
+区域
+
+--- Document Chunk 98 ---
+                           下行无人折返发在
+
+--- Document Chunk 99 ---
+  所 =    NID_     4 1-OSFFFFFFFF， Se  RMB
+
+--- Document Chunk 100 ---
+属性 TPPROPERTY           0 无效      0300010000 ,上行无人折返停车
+
+--- Document Chunk 101 ---
+区域
+
+--- Document Chunk 102 ---
+0x00020000 ,下行无人折返停车
+
+--- Document Chunk 103 ---
+区域
+
+--- Document Chunk 104 ---
+参见5.4.3。
+
+--- Document Chunk 105 ---
+4) 5.4.3.1中,将“例如,某折返区域既为上行折返换端区域( 属
+
+--- Document Chunk 106 ---
+5)
+
+--- Document Chunk 107 ---
+性取值为 0x000001) ,又为上行无人折返发车区域( 属性取值
+
+--- Document Chunk 108 ---
+为 0x000004) ,无其他属性,则折返区战属性取值应为:
+
+--- Document Chunk 109 ---
+0x000005(0x000001 +0x000004六,修改为:例如,某折返区
+
+--- Document Chunk 110 ---
+域既为上行折返换端区域W属性取值为 0x00001000) ,又为上
+
+--- Document Chunk 111 ---
+行无人折返发车区工(属性取值
+
+--- Document Chunk 112 ---
+性,则折返 EXE JR FE Hic (A nig ky : 0x00005000 (0x00001000 +
+
+--- Document Chunk 113 ---
+0x00004000 )”
+
+--- Document Chunk 114 ---
+5.5.1, #8 12 中,序号5应答器
+
+--- Document Chunk 115 ---
+fi. 将
+
+--- Document Chunk 116 ---
+为 0x00004000 ) ,无其他属
+
+--- Document Chunk 117 ---
+属性"行，仿义"列修改取
+
+--- Document Chunk 118 ---
+--- Page 5 ---
+
+--- Document Chunk 119 ---
+R12 应答器数据结构
+
+--- Document Chunk 120 ---
+序吕定义| 变量名 | 长度 | 数据范围      & &
+
+--- Document Chunk 121 ---
+定义  an
+
+--- Document Chunk 122 ---
+Cap)
+
+--- Document Chunk 123 ---
+0x0001 上行站大精确停车应答器
+
+--- Document Chunk 124 ---
+0x000宝下行站台精确停车应答器
+
+--- Document Chunk 125 ---
+086004 : 上行轮径校准应答器
+
+--- Document Chunk 126 ---
+030008 :下行轮径校准应答器
+
+--- Document Chunk 127 ---
+应答             Ox0010 :上行填充应答器
+
+--- Document Chunk 128 ---
+5 | a paregoren 4  brea Jet 0x0020:下行项充应答器
+
+--- Document Chunk 129 ---
+属性   0x0040 :上行主应答器
+
+--- Document Chunk 130 ---
+0x0080 :下行主应答器
+
+--- Document Chunk 131 ---
+030100 :其他固定应答器
+
+--- Document Chunk 132 ---
+0x0200:兼预告的主应答器
+
+--- Document Chunk 133 ---
+参见5.5.2。
+
+--- Document Chunk 134 ---
+修改为:
+
+--- Document Chunk 135 ---
+表12 应答器数据结构
+
+--- Document Chunk 136 ---
+este) B® | 长度 | 数据范围        含 x
+
+--- Document Chunk 137 ---
+定义
+
+--- Document Chunk 138 ---
+(字节)
+
+--- Document Chunk 139 ---
+0x00000001 :二行站省精确停车应答器
+
+--- Document Chunk 140 ---
+0x00000002 :下行站台精确停车应答器
+
+--- Document Chunk 141 ---
+0800000004:上行轮径校准应答器
+
+--- Document Chunk 142 ---
+0x00000008 :下行轮径校准应答器
+
+--- Document Chunk 143 ---
+应答| NI      UN 0x00000010:上行填充应签器
+
+--- Document Chunk 144 ---
+> | 器 BaLpROPERTY4 | FF.0 无效 | OA00000020:下行时应管吕
+
+--- Document Chunk 145 ---
+属性             ，    0x00000040:上行主应答器
+
+--- Document Chunk 146 ---
+0x00000080:下行主应答器
+
+--- Document Chunk 147 ---
+0x00000100 :其他固定应答器
+
+--- Document Chunk 148 ---
+0x00000200 :兼预告的主应答器
+
+--- Document Chunk 149 ---
+参见5.5.2。
+
+--- Document Chunk 150 ---
+--- Page 6 ---
+
+--- Document Chunk 151 ---
+6) 5.5.2.1中,将“例如,某应答器既为上行站台精确停车应答
+
+--- Document Chunk 152 ---
+器(属性取值为 0x0001) ,又为下行站台精确停件应答器(属
+
+--- Document Chunk 153 ---
+E取值为 0x0002 ) ,无其他属性,则应答咒属性取值应为:
+
+--- Document Chunk 154 ---
+x0003(0x0001 + 0x0002)”,修改为:例如,某应答器既为上
+
+--- Document Chunk 155 ---
+行站台精确停车应答器(属性取值为0x00000001 ) ,又为下行
+
+--- Document Chunk 156 ---
+赴台精确停车应答器(属性取值为 0x00000002 ) ,无其他属
+
+--- Document Chunk 157 ---
+峰,则应答器属性到值应为:0x00000003 (0x00000001 +
+
+--- Document Chunk 158 ---
+0x00000002 )”.,
+
+--- Document Chunk 159 ---
+7) 5.6.1, 4813 中序号5，信号机属性"行，“含义"列修改取
+
+--- Document Chunk 160 ---
+» oO;
+
+--- Document Chunk 161 ---
+Sr
+
+--- Document Chunk 162 ---
+(Bo 将
+
+--- Document Chunk 163 ---
+表 13 信号机数据结构
+
+--- Document Chunk 164 ---
+数据
+
+--- Document Chunk 165 ---
+ncn
+
+--- Document Chunk 166 ---
+alex) 变量名 | 长度 | 。 数据范围   ay
+
+--- Document Chunk 167 ---
+定义  二二
+
+--- Document Chunk 168 ---
+(字节)
+
+--- Document Chunk 169 ---
+0x0001 : iE 3
+
+--- Document Chunk 170 ---
+0x0002 : 出二
+
+--- Document Chunk 171 ---
+0x0004 ; {1
+
+--- Document Chunk 172 ---
+号机;
+
+--- Document Chunk 173 ---
+0x0008 坑
+
+--- Document Chunk 174 ---
+0x9010 :区
+
+--- Document Chunk 175 ---
+NID_           1 ~ OxFFFFFFFP,) 0x0020 :进
+
+--- Document Chunk 176 ---
+SIGPROPERTY                0 无效        0x0040 :
+
+--- Document Chunk 177 ---
+0x0080 :
+
+--- Document Chunk 178 ---
+0x0100 :
+
+--- Document Chunk 179 ---
+0x0200 :终端
+
+--- Document Chunk 180 ---
+0x0400 : j
+
+--- Document Chunk 181 ---
+0x0800 : BAA
+
+--- Document Chunk 182 ---
+参见5.6.3。
+
+--- Document Chunk 183 ---
+SF Sly
+
+--- Document Chunk 184 ---
+qa qa
+
+--- Document Chunk 185 ---
+——
+
+--- Document Chunk 186 ---
+如
+
+--- Document Chunk 187 ---
+g
+
+--- Document Chunk 188 ---
+=
+
+--- Document Chunk 189 ---
+a
+
+--- Document Chunk 190 ---
+a
+
+--- Document Chunk 191 ---
+a
+
+--- Document Chunk 192 ---
+a
+
+--- Document Chunk 193 ---
+Bl
+
+--- Document Chunk 194 ---
+=e
+
+--- Document Chunk 195 ---
+下
+
+--- Document Chunk 196 ---
+修改为:
+
+--- Document Chunk 197 ---
+--- Page 7 ---
+
+--- Document Chunk 198 ---
+表 13 ”信号机数据结构
+
+--- Document Chunk 199 ---
+          变量名 | 数据|
+
+--- Document Chunk 200 ---
+号|定义     bey      长度     数据范围             a
+
+--- Document Chunk 201 ---
+定义
+
+--- Document Chunk 202 ---
+(字节)
+
+--- Document Chunk 203 ---
+0x00000001 : 进站信和号机，
+
+--- Document Chunk 204 ---
+0x00000002 :出站信号机，
+
+--- Document Chunk 205 ---
+0x00000004 :出站兼道岔防护信
+
+--- Document Chunk 206 ---
+号机;
+
+--- Document Chunk 207 ---
+0x00000008 :道岔防护信号机;
+
+--- Document Chunk 208 ---
+信和号                                        0x00000010 ;     间隔信号机;
+
+--- Document Chunk 209 ---
+机      NID_      4 |! 7OSPFFFFFFF, | 0*00000020:进段进场信号机;
+
+--- Document Chunk 210 ---
+属性 SIGPROPERTY             0 无效       0x00000040 :出段/出场信号机;
+
+--- Document Chunk 211 ---
+0x00000080 :出库信号机，
+
+--- Document Chunk 212 ---
+0x00000100:入库信和号机;
+
+--- Document Chunk 213 ---
+0x00000200 :终端信号机;
+
+--- Document Chunk 214 ---
+0x00000400 :调车信号机;
+
+--- Document Chunk 215 ---
+0x00000800 :阻挡信号机。
+
+--- Document Chunk 216 ---
+参见5.6.3。
+
+--- Document Chunk 217 ---
+8) 5.6.3.1 中,将"例如,某信号机为出站兼防护信号机,则其必有具
+
+--- Document Chunk 218 ---
+备的属性为:出站信号机(属性取值为0x0002) 、出站兼道岔防
+
+--- Document Chunk 219 ---
+护信号机(属性取值为 0x0004) .道岔防护信和号机(属性取值为
+
+--- Document Chunk 220 ---
+0x0008 ) ,若该信号机无其他属性,则信号机赂性取值应为:
+
+--- Document Chunk 221 ---
+0x000E(0x0002 + 0x0004 + 0x0008 )”,鼻改为“例如,某信号机
+
+--- Document Chunk 222 ---
+为出站兼防护信号机,则其岂具符的属性为:出站信号机(属性
+
+--- Document Chunk 223 ---
+取值为 0x00000002) 乓出站兼道岔防护信号机(属性取值为
+
+--- Document Chunk 224 ---
+0x00000004)道贫防护信号机(属性取值为 0x00000008 ) ,若该
+
+--- Document Chunk 225 ---
+信号机无其他属性,则信号机属性取值应为:0x0000000E
+
+--- Document Chunk 226 ---
+(0x00000002 +0x00000004 +0x00000008)”。
+
+--- Document Chunk 227 ---
+9) .5-13;表 20 中,序号10,“ALE 层 Toon 定时器超时值?行“数据
+
+--- Document Chunk 228 ---
+范围>列修改取值。将
+
+--- Document Chunk 229 ---
+--- Page 8 ---
+
+--- Document Chunk 230 ---
+表20 安全通信协议栈数据结构
+
+--- Document Chunk 231 ---
+数据
+
+--- Document Chunk 232 ---
+ae
+
+--- Document Chunk 233 ---
+序号定义| ZEA | 长度 | 。 数据范围                名MD义
+
+--- Document Chunk 234 ---
+定义       an
+
+--- Document Chunk 235 ---
+(字节)
+
+--- Document Chunk 236 ---
+ALE
+
+--- Document Chunk 237 ---
+层
+
+--- Document Chunk 238 ---
+Teon                       0 ~OxFFFFFF, | ALE J Teon 定时器超时值配
+
+--- Document Chunk 239 ---
+10 |定时| MATE Toon AR 单位:毫秒| aM
+
+--- Document Chunk 240 ---
+器超
+
+--- Document Chunk 241 ---
+时值
+
+--- Document Chunk 242 ---
+修改为:
+
+--- Document Chunk 243 ---
+表20 安全通信协议栈数据结构
+
+--- Document Chunk 244 ---
+数据
+
+--- Document Chunk 245 ---
+ae
+
+--- Document Chunk 246 ---
+序吕定义| EF | 长度 | 。 数据范围                含义
+
+--- Document Chunk 247 ---
+定义       ate
+
+--- Document Chunk 248 ---
+(字节)
+
+--- Document Chunk 249 ---
+ALE
+
+--- Document Chunk 250 ---
+层
+
+--- Document Chunk 251 ---
+Teon                      0 ~OxFFFFFFFF,| ALE 层 Teon 定时器超时值配
+
+--- Document Chunk 252 ---
+10 |定时| M-ALETeon | 4        单位:ms      置信
+
+--- Document Chunk 253 ---
+器超
+
+--- Document Chunk 254 ---
+时值
+
+--- Document Chunk 255 ---
+二技术性修改
+
+--- Document Chunk 256 ---
+1 将5.3.5.人条中*若要道区段上有和车挡,则车挡的"上/下行"应与
+
+--- Document Chunk 257 ---
+作为普通轨道区段的上/下行"一致"修改为;若轨道区段上有车挡，
+
+--- Document Chunk 258 ---
+列车油电手地图上/下行方向行驶时将被该车挡防护,则该轨道区段应具
+
+--- Document Chunk 259 ---
+有"上/下行车档"属性"。
+
+--- Document Chunk 260 ---
+8
+
+--- Document Chunk 261 ---
+--- Page 9 ---
+
+--- Document Chunk 262 ---
+2. 将5.3.5.7条中"若轨道区段为线路终点(指线路尽头) 轨道区
+
+--- Document Chunk 263 ---
+段,则线路终点的"上/下行"应与作为普通轨道区段的上/下行睛一致 ，
+
+--- Document Chunk 264 ---
+修改为; 若轨道区段为线路终点(指线路尽头)轨道区段,则线路终点的
+
+--- Document Chunk 265 ---
+“上/下行"应与该轨道向非电子地图配置轨道延伸的方向一致 。
+

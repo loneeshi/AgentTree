@@ -1,0 +1,2196 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+oe 45.020                                                SF
+
+--- Document Chunk 2 ---
+He Be] Sat ris Pi Ee a Ws Zz A 1K Bn HE
+
+--- Document Chunk 3 ---
+T/CAMET 04011.8— 2018
+
+--- Document Chunk 4 ---
+城市轨道交通“基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通接口规范
+
+--- Document Chunk 6 ---
+第8部分:车载人机界面
+
+--- Document Chunk 7 ---
+Urban rail transit 一 Interface specification for interoperability of
+
+--- Document Chunk 8 ---
+communication based train control system
+
+--- Document Chunk 9 ---
+Part 8: Onboard man machine interface
+
+--- Document Chunk 10 ---
+2018-09-10 2%                        2018-12-31 实施
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 12 ---
+--- Page 2 ---
+
+--- Document Chunk 13 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 14 ---
+os. aia
+
+--- Document Chunk 15 ---
+2 规范性引用文件 …
+
+--- Document Chunk 16 ---
+3 术语和缩略语 …
+
+--- Document Chunk 17 ---
+he IIE mm cc cecsttere tne neness ent rmmnntccencc seen ne tre tonnes comin
+
+--- Document Chunk 18 ---
+BT) PRS occas Bartz sig eee et ITne past i cISaaST STEN Ramee oe
+
+--- Document Chunk 19 ---
+4 总体要求描述 ……
+
+--- Document Chunk 20 ---
+5 车载人机界面要求 …
+
+--- Document Chunk 21 ---
+5.1 益体要求 verre
+
+--- Document Chunk 22 ---
+5D, ERE BIR ERIE went ow yy omen aecommeesintididlasouadannitt td inianlasied
+
+--- Document Chunk 23 ---
+5.6 司机室按钮开关、指示灯设置要求
+
+--- Document Chunk 24 ---
+5.7 声音报警…        et
+
+--- Document Chunk 25 ---
+AuwunwnwwnHee ete BH
+
+--- Document Chunk 26 ---
+ee YN
+
+--- Document Chunk 27 ---
+AA
+
+--- Document Chunk 28 ---
+i
+
+--- Document Chunk 29 ---
+oe
+
+--- Document Chunk 30 ---
+--- Page 3 ---
+
+--- Document Chunk 31 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 32 ---
+了
+
+--- Document Chunk 33 ---
+T/CAMET 04011《城市轨道交通 ”基于通信的列车运行控制系统
+
+--- Document Chunk 34 ---
+(CBTC )互联互通接口规范》分为以下八个部分:
+
+--- Document Chunk 35 ---
+一一第 1 部分:应答器报文;
+
+--- Document Chunk 36 ---
+一一第 2 部分:CBTC 系统车地连续通信协议;
+
+--- Document Chunk 37 ---
+一一第 3 部分:车载列车自动保护(ATP)/列车自动运行(ATO)系统
+
+--- Document Chunk 38 ---
+与车辆的接口;
+
+--- Document Chunk 39 ---
+一一第 4 部分:区域控制器(ZC ) 间接口，
+
+--- Document Chunk 40 ---
+一一第5 部分:计算机联锁(CI)间接口;
+
+--- Document Chunk 41 ---
+一一第6 部分:列车自动监控系统(ATS)间接口;
+
+--- Document Chunk 42 ---
+一一第 7 部分:信号各子系统与维护支持系统(MSS)间接口;
+
+--- Document Chunk 43 ---
+一一第 8 部分:车载人机界面。
+
+--- Document Chunk 44 ---
+本部分是 T/CAMET 04011 的第 8 部分。
+
+--- Document Chunk 45 ---
+本部分按照 GB/T 1. 1一2009 给出的规则起草。
+
+--- Document Chunk 46 ---
+请注意本部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 47 ---
+识别这些专利的责任。
+
+--- Document Chunk 48 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 49 ---
+本部分由中国城市轨道交通协会归口 。
+
+--- Document Chunk 50 ---
+本部分起草单位:交控科技股份有限公司 北京全路通信信号研究设
+
+--- Document Chunk 51 ---
+计院集团有限公司中国铁道科学研究院集团有限公司通信信和号研究所、
+
+--- Document Chunk 52 ---
+浙江众合科技股份有限公司 .株洲中车时代电气股份有限公司。
+
+--- Document Chunk 53 ---
+本部分主要起草人 :编写组 :张强、夏夕盛,秦雪梅、.李紫时、刘和鲁鹏、
+
+--- Document Chunk 54 ---
+郑伟、李博、吴苏娇,周在福\杨晓荣张涛。审查组:李中浩`朱翔.赵炜、
+
+--- Document Chunk 55 ---
+郑生全 ,张艳兵.张良.王道敏.张琼燕、.段晨宁、李新文、李德堂 .文成祥、
+
+--- Document Chunk 56 ---
+任敬、朱东飞、肖利君.张守芝 、刘新平。
+
+--- Document Chunk 57 ---
+Vi
+
+--- Document Chunk 58 ---
+--- Page 4 ---
+
+--- Document Chunk 59 ---
+T/CAMET 04011. 8—2018
+
+--- Document Chunk 60 ---
+引 言
+
+--- Document Chunk 61 ---
+为促进中国城市轨道交通建设,实现并满足城市轨道交通互联互通
+
+--- Document Chunk 62 ---
+的需要 ,达到经济适用资源共享、技术先进及可持续发展的目标,制定城
+
+--- Document Chunk 63 ---
+市轨道交通基于通信的列车运行控制系统(CBTC ) 互联互通系列团体
+
+--- Document Chunk 64 ---
+标准。
+
+--- Document Chunk 65 ---
+该系列规范包括《城市轨道交通 基于通信的列车运行控制系统
+
+--- Document Chunk 66 ---
+(CBTC )互联互通系统规范》《城市轨道交通”基于通信的列车运行控制
+
+--- Document Chunk 67 ---
+系统(CBTC ) 互联互通接口规范兴城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 68 ---
+控制系统(CBTC )互联互通测试规范兴城市轨道交通”基于通信的列车
+
+--- Document Chunk 69 ---
+运行控制系统(CBTC )互联互通工程规范》4 个规范(17 个部分) 。
+
+--- Document Chunk 70 ---
+--- Page 5 ---
+
+--- Document Chunk 71 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 72 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 73 ---
+控制系统(CBTC) 互联互通接口规范
+
+--- Document Chunk 74 ---
+第 8 部分:车载人机界面
+
+--- Document Chunk 75 ---
+1 范围
+
+--- Document Chunk 76 ---
+T/CAMET 04011 的本部分 >
+
+--- Document Chunk 77 ---
+开联互通中车载人机界面及操作
+
+--- Document Chunk 78 ---
+版本(包括所有的修改单)适用于本部分。
+
+--- Document Chunk 79 ---
+GB/T 12758—2004 ”城市轨道交通信号系统通用技术条件
+
+--- Document Chunk 80 ---
+GB 50157一2013 ”地铁设计规范
+
+--- Document Chunk 81 ---
+CI/T 407一2012 ”城市轨道交通基于通信的列车自动控制系统技术
+
+--- Document Chunk 82 ---
+要求
+
+--- Document Chunk 83 ---
+3 术语和缩略语
+
+--- Document Chunk 84 ---
+GB/T 12758—2004 和 CJ/T 407—2012 界定的及下列术语和缩略
+
+--- Document Chunk 85 ---
+语适用于本部分。为了便于使用,以下重复列出了其中的主要相关
+
+--- Document Chunk 86 ---
+术语。
+
+--- Document Chunk 87 ---
+--- Page 6 ---
+
+--- Document Chunk 88 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 89 ---
+3.1 术语
+
+--- Document Chunk 90 ---
+3.1.1
+
+--- Document Chunk 91 ---
+城市轨道交通信号 urban rail transit signal
+
+--- Document Chunk 92 ---
+应用于城市轨道灾通系统中,人工或自动实现行车指挥和列车运行
+
+--- Document Chunk 93 ---
+控制 .安全间隔控制技术的总称。
+
+--- Document Chunk 94 ---
+GB/T 12758一2004 ,术语与定义3.11]
+
+--- Document Chunk 95 ---
+3.1.2
+
+--- Document Chunk 96 ---
+基于通信的列车控制“communication based train control ( CBTC)
+
+--- Document Chunk 97 ---
+通过不依赖罗旁列车占用检测设备的列车主动定位技术 .连续熙 -
+
+--- Document Chunk 98 ---
+地双向数据通信技术以及能够执行安全功能的车载各地面处理器而构建
+
+--- Document Chunk 99 ---
+的连续式记车自动控捕系统。
+
+--- Document Chunk 100 ---
+CJAT 407一2012 ,定义3.1.1]
+
+--- Document Chunk 101 ---
+3.1.3
+
+--- Document Chunk 102 ---
+目标速度 target speed
+
+--- Document Chunk 103 ---
+列车运行至前方目标了点应达到的允许速度。
+
+--- Document Chunk 104 ---
+GB/T 12758一2004 ,术语与定义3. 13]
+
+--- Document Chunk 105 ---
+3. 1.4
+
+--- Document Chunk 106 ---
+目标距离“target distance
+
+--- Document Chunk 107 ---
+列车运行至前方日标地点的走行距离。
+
+--- Document Chunk 108 ---
+GB/T 12758一2004 ,术语与定义3. 14]
+
+--- Document Chunk 109 ---
+3. 1.5
+
+--- Document Chunk 110 ---
+安全保护距离“safe protection distance
+
+--- Document Chunk 111 ---
+列车白动防护系统中,列车超速防护实施安全停车控制时 ,为护止售
+
+--- Document Chunk 112 ---
+车位着离散性可能造成的危险 ,而设置的白预定停车位痪至日标地点的
+
+--- Document Chunk 113 ---
+[GBZT 12758一2004 ,术语与定义3.15]
+
+--- Document Chunk 114 ---
+3. 1.6
+
+--- Document Chunk 115 ---
+移动授权 movement authority
+
+--- Document Chunk 116 ---
+列车济给定的行驶方向进入并在某一特定轨道区段内行车的许可。
+
+--- Document Chunk 117 ---
+--- Page 7 ---
+
+--- Document Chunk 118 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 119 ---
+[ CJ/T 407一2012 ,定义3.1.7]
+
+--- Document Chunk 120 ---
+3.2 缩略语
+
+--- Document Chunk 121 ---
+AM :列车自动驾驶模式(Automatic Manual Train Operating Mode)
+
+--- Document Chunk 122 ---
+ATC :列车自动控制(Automatic Train Control)
+
+--- Document Chunk 123 ---
+ATO :列车自动运行(Automatic Train Operation)
+
+--- Document Chunk 124 ---
+ATP:列车自动防护(Automatic Train Protection )
+
+--- Document Chunk 125 ---
+ATS :列车自动监控(Automatic Train Supervision )
+
+--- Document Chunk 126 ---
+CBTC :基于通信的列车控制 (Communication Based Train Control)
+
+--- Document Chunk 127 ---
+CM :列车自动防护模式(Code Train Operating Mode)
+
+--- Document Chunk 128 ---
+CI:计算机联锁(Computer Interlocking)
+
+--- Document Chunk 129 ---
+DCS :数据通信系统(Data Communication System)
+
+--- Document Chunk 130 ---
+MMI:人机接口(Man Machine Interface)
+
+--- Document Chunk 131 ---
+RCB :RGB 色彩模式工业界的一种颜色标准,通过对红(R) 、绿(C)、
+
+--- Document Chunk 132 ---
+蓝(B)三个颜色通道的变化及其相互之间的琶加来得到各式各样的颜色
+
+--- Document Chunk 133 ---
+CRGB 即是代表红、绿、蓝三个通道的颜色)
+
+--- Document Chunk 134 ---
+RM:限制人工驾驶模式( Restricted Train Operating Mode)
+
+--- Document Chunk 135 ---
+4 总体要求描述
+
+--- Document Chunk 136 ---
+本规范对通用性的互联互通车载人机界面进行定义,可根据工程项
+
+--- Document Chunk 137 ---
+目具体情况,对人机界面显示内容进行扩展。
+
+--- Document Chunk 138 ---
+5车载人机界面要求
+
+--- Document Chunk 139 ---
+5.1 总体要求
+
+--- Document Chunk 140 ---
+车载人机界面是司机与 ATP/ATO 设备交互的接口 ,一方面用于向
+
+--- Document Chunk 141 ---
+司机显示来自 ATP/ATO 设备的信息 ,另一方面接收司机输入操作。
+
+--- Document Chunk 142 ---
+MMI 显示屏尺寸宜为 12 英寸,分辩率宜为 1 024 x768(单位:ppi) 。
+
+--- Document Chunk 143 ---
+本文以 12 英寸和 1 024 x768(单位:ppi)分辩率为例介绍 ,若实际项目中
+
+--- Document Chunk 144 ---
+屏幕尺寸变化 ,分辩率及图片 ,文字大小应等比例缩放。主界面分为 25
+
+--- Document Chunk 145 ---
+个主显示区 ,如图 1 所示。
+
+--- Document Chunk 146 ---
+--- Page 8 ---
+
+--- Document Chunk 147 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 148 ---
+1区        8区           9区               10x
+
+--- Document Chunk 149 ---
+eK    12区
+
+--- Document Chunk 150 ---
+13区 | 140
+
+--- Document Chunk 151 ---
+2区                 3区                  ISK | 16区
+
+--- Document Chunk 152 ---
+17区 | 18区
+
+--- Document Chunk 153 ---
+19区 | 20区
+
+--- Document Chunk 154 ---
+4了           57K          6区          7区            21区 | 22区
+
+--- Document Chunk 155 ---
+23区               24K           |        251%
+
+--- Document Chunk 156 ---
+图1 显示屏分区示意图
+
+--- Document Chunk 157 ---
+各个区域的功能和大小分别为( 横坐标像素 x 纵坐标像素) 见表 1。
+
+--- Document Chunk 158 ---
+表1 各个区域的功能和大小
+
+--- Document Chunk 159 ---
+# Kha 5            vy    能           横坐标像素 x纵坐标像素/ppi
+
+--- Document Chunk 160 ---
+[    1 区       超速报管及输出紧急制动显示           128 x95        |
+
+--- Document Chunk 161 ---
+2K         PRES 0 PS Sh             128 x 440
+
+--- Document Chunk 162 ---
+3 区              RE                  542 x 440
+
+--- Document Chunk 163 ---
+4区           ASL thi AK AS bb aS                157 x88
+
+--- Document Chunk 164 ---
+5 区         Aes A] A we Reh              167 x 88
+
+--- Document Chunk 165 ---
+6 区            TN AEE SEE Sh N                 179 x88
+
+--- Document Chunk 166 ---
+7 区                                        167 x88
+
+--- Document Chunk 167 ---
+8 区                                        295 x95
+
+--- Document Chunk 168 ---
+|
+
+--- Document Chunk 169 ---
+9 区              下一站显示                  295 x95
+
+--- Document Chunk 170 ---
+10 区              车次显示                   306 x 95
+
+--- Document Chunk 171 ---
+--- Page 9 ---
+
+--- Document Chunk 172 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 173 ---
+各个区域的功能和大小(续)
+
+--- Document Chunk 174 ---
+横坐标像素 x 纵坐标像素/ppi
+
+--- Document Chunk 175 ---
+177 x88
+
+--- Document Chunk 176 ---
+177 x88
+
+--- Document Chunk 177 ---
+当前驾驶模式显示
+
+--- Document Chunk 178 ---
+177 x88
+
+--- Document Chunk 179 ---
+当前运行等级显示
+
+--- Document Chunk 180 ---
+177 x88
+
+--- Document Chunk 181 ---
+177 x88
+
+--- Document Chunk 182 ---
+列车进入停车窗显示
+
+--- Document Chunk 183 ---
+177 x88
+
+--- Document Chunk 184 ---
+177 x88
+
+--- Document Chunk 185 ---
+177 x88
+
+--- Document Chunk 186 ---
+177 x88
+
+--- Document Chunk 187 ---
+177 x88
+
+--- Document Chunk 188 ---
+177 x 88
+
+--- Document Chunk 189 ---
+177 x88
+
+--- Document Chunk 190 ---
+216 x 145
+
+--- Document Chunk 191 ---
+439 x 145
+
+--- Document Chunk 192 ---
+369 x 145
+
+--- Document Chunk 193 ---
+5.2 主要颜色值定义
+
+--- Document Chunk 194 ---
+i MMT 显示界面中,不同区域不同条件下,使用不同的颜色进行显
+
+--- Document Chunk 195 ---
+主要使用的颜色定义推荐值见表 2。
+
+--- Document Chunk 196 ---
+表2 ”主要颜色值定义推荐值
+
+--- Document Chunk 197 ---
+RGB (255, 255, 255)
+
+--- Document Chunk 198 ---
+RGB (0,12,25)
+
+--- Document Chunk 199 ---
+5
+
+--- Document Chunk 200 ---
+--- Page 10 ---
+
+--- Document Chunk 201 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 202 ---
+表2 主要颜色值定义推荐值(续)
+
+--- Document Chunk 203 ---
+FS       wt           RGB {ft    _|
+
+--- Document Chunk 204 ---
+3             红色               RGB (189,0,0)
+
+--- Document Chunk 205 ---
+|   4             黄色               RGB (255 ,242 ,0)
+
+--- Document Chunk 206 ---
+5            浅灰色             RCB (212,212,212)
+
+--- Document Chunk 207 ---
+6            淡绿色              RGB (45, 144, 51)
+
+--- Document Chunk 208 ---
+| >                证色          ]       RGB (234, 145, 0)
+
+--- Document Chunk 209 ---
+i   8            深蓝色              RCB(37,151.230)
+
+--- Document Chunk 210 ---
+5.3 MMI 显示图例要求
+
+--- Document Chunk 211 ---
+1区超速报警及输出紧急制动显示
+
+--- Document Chunk 212 ---
+超速报警及输出紧急制动亚示是根据预计超越速度限制的时间及距
+
+--- Document Chunk 213 ---
+离 ,对名驶员显示玖报,示意可能发牛的意外状况。初始状态 1 区显示图
+
+--- Document Chunk 214 ---
+标如表 3 所示。各网片居中显示。
+
+--- Document Chunk 215 ---
+5. 3. 1
+
+--- Document Chunk 216 ---
+表3 1区的显示图标
+
+--- Document Chunk 217 ---
+pb                      i               Roof (mm x mm)            ~      ,
+
+--- Document Chunk 218 ---
+PRS     网 标        颜色       a  义
+
+--- Document Chunk 219 ---
+|
+
+--- Document Chunk 220 ---
+118 x83
+
+--- Document Chunk 221 ---
+!                 me     初始状态
+
+--- Document Chunk 222 ---
+列车当前速度超过
+
+--- Document Chunk 223 ---
+5                118 x83    ie RE, 8 9 A ET
+
+--- Document Chunk 224 ---
+Hf         施加制动,以防正列
+
+--- Document Chunk 225 ---
+车触发紧急制动
+
+--- Document Chunk 226 ---
+_
+
+--- Document Chunk 227 ---
+--- Page 11 ---
+
+--- Document Chunk 228 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 229 ---
+表3 1区的显示图标(续)》
+
+--- Document Chunk 230 ---
+=           尺寸(mm x mm)
+
+--- Document Chunk 231 ---
+标            颜色          a x&
+
+--- Document Chunk 232 ---
+118 x83                    本
+
+--- Document Chunk 233 ---
+红色          已输出紧急制动
+
+--- Document Chunk 234 ---
+5.3.2 2区目标速度及目标距离信息显示
+
+--- Document Chunk 235 ---
+目标速度及目标距离信息是显示到下一限制点的距离及目标速度，
+
+--- Document Chunk 236 ---
+两者均受最受限的 ATP 条件决定。
+
+--- Document Chunk 237 ---
+目标距离使用两种方法表示:柱状光带表示法和数字表示法。柱状
+
+--- Document Chunk 238 ---
+光带的最大尺寸为 15 x400 像素,颜色根据目标速度和目标距离的数值
+
+--- Document Chunk 239 ---
+ARAL, UAE 4。柱状光带的左侧为坐标系刻度 ,该坐标系采用对数坐标，
+
+--- Document Chunk 240 ---
+颜色为浅灰 ,其最高端所对应的最远距离为 750 ,最低端固定。光带正
+
+--- Document Chunk 241 ---
+下方为数字表示区 ,单位为米。字体大小为 10 磅 ,颜色为白色。如果目
+
+--- Document Chunk 242 ---
+标距离大于 750 ,则柱状光带显示 750 m,光带正下方为数字按实际距离
+
+--- Document Chunk 243 ---
+显示。
+
+--- Document Chunk 244 ---
+表4 柱状光带颜色定义
+
+--- Document Chunk 245 ---
+目标距离(mm)
+
+--- Document Chunk 246 ---
+150<s< 300
+
+--- Document Chunk 247 ---
+250 <60
+
+--- Document Chunk 248 ---
+0<v<25
+
+--- Document Chunk 249 ---
+v=0
+
+--- Document Chunk 250 ---
+Fl pk BE AG Ph , Ze A US is, A
+
+--- Document Chunk 251 ---
+AF AK DEY (km/h), FARAH 16 磅 ,颜色为白色。
+
+--- Document Chunk 252 ---
+--- Page 12 ---
+
+--- Document Chunk 253 ---
+T/CAMET 04011. 8—2018
+
+--- Document Chunk 254 ---
+Ey fa ia SE Be aS fe AN OP 2 所示。
+
+--- Document Chunk 255 ---
+Ki MRE
+
+--- Document Chunk 256 ---
+< 目标距离刻度
+
+--- Document Chunk 257 ---
+TERS
+
+--- Document Chunk 258 ---
+日标距离数字地下
+
+--- Document Chunk 259 ---
+图2 目标速度及目标距离信息
+
+--- Document Chunk 260 ---
+5.3.3 3区速度表盘显示
+
+--- Document Chunk 261 ---
+5. 3.3.1 速度表盘
+
+--- Document Chunk 262 ---
+速度表盘的尺寸为411 mm x411 mm ,中心点坐标为(399 ,309 ) 。
+
+--- Document Chunk 263 ---
+列车速度采用双备份显示。一种方式是速度表 ,刻度按照 5 km/h 进
+
+--- Document Chunk 264 ---
+行亚示 ,刻度的颜色为浅灰色 ,长刻度线的宽度为 3 像素,长度为 28 像
+
+--- Document Chunk 265 ---
+素。知刻度线的宽度为 2 像素,氏度为 15 像素。每 10 km/h 做一个数字
+
+--- Document Chunk 266 ---
+标志 ,数字的颜色为浅灰色 ,字体大小为 13 态。表盘的速度范围可根据
+
+--- Document Chunk 267 ---
+工程孔曾,最大为 160 km/h。男一种方式是数字,在速度表的中间显示
+
+--- Document Chunk 268 ---
+列车速度值。
+
+--- Document Chunk 269 ---
+沿着度表盘的外边界,显示环形边框,边框的颜色为红色,宽度为3
+
+--- Document Chunk 270 ---
+像素.红色边框的半径为 204 像素。仪表盘从刻度 0 到最大刻度的扇形
+
+--- Document Chunk 271 ---
+弧度为310"。以垂直向上作为 0", -155?"的角度显示 0 km/h ,155?"的角
+
+--- Document Chunk 272 ---
+度显示最大速度。文字距离中心点的半径为 168 像素。刻度到刻度值之
+
+--- Document Chunk 273 ---
+间为 3 (RR, TRAE A iain 3 所示。
+
+--- Document Chunk 274 ---
+8
+
+--- Document Chunk 275 ---
+--- Page 13 ---
+
+--- Document Chunk 276 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 277 ---
+紧急制动干预速度
+
+--- Document Chunk 278 ---
+速度指针 一一一
+
+--- Document Chunk 279 ---
+在速度表盘上以直
+
+--- Document Chunk 280 ---
+处的半径在一条直绚|          5    i     表的圆心。无推荐
+
+--- Document Chunk 281 ---
+速度时 ,不显示此三                      WKH 15 像素,如图
+
+--- Document Chunk 282 ---
+4 所示。
+
+--- Document Chunk 283 ---
+在速度表盘上            5示紧他出一干预连度,三角形的
+
+--- Document Chunk 284 ---
+中线与该速度处的半
+
+--- Document Chunk 285 ---
+图4 推荐速度       AS 紧急制动干预速度
+
+--- Document Chunk 286 ---
+5.3.3.2 ”数字方式显示的列车速度
+
+--- Document Chunk 287 ---
+列车速度指针由指针和指针始端的圆圈组成,这两部分的颜色均为
+
+--- Document Chunk 288 ---
+白色。速度指针的形状如图 6 所示 ,指针的长度不应触到速度表盘的前
+
+--- Document Chunk 289 ---
+度条。在指针始端的圆圈中 ,以数字方式显示当前速度,数字的颜色为上
+
+--- Document Chunk 290 ---
+色 ,字体大小为 18 像素,圆盘半径 41 像素,指针半径 165 像素。列车测
+
+--- Document Chunk 291 ---
+速无效通过统一文本信息显示、图形自定义显示。
+
+--- Document Chunk 292 ---
+--- Page 14 ---
+
+--- Document Chunk 293 ---
+T/CAMET 04011. 8—2018
+
+--- Document Chunk 294 ---
+图6 速度指针(单位:mmy)
+
+--- Document Chunk 295 ---
+5.3.4 4区牵引制动状态显示
+
+--- Document Chunk 296 ---
+牵引制动状态信息表示在 ATO 人蛋式下达引利制动情况 ,如果没有答
+
+--- Document Chunk 297 ---
+入信息将显示初始状态,显示几标及对应含义如表 5 所示。
+
+--- Document Chunk 298 ---
+表5 4区的显示图标
+
+--- Document Chunk 299 ---
+尺寸mm x mm)
+
+--- Document Chunk 300 ---
+139 x83             ay taupe
+
+--- Document Chunk 301 ---
+1                              Me              初始状态
+
+--- Document Chunk 302 ---
+139 x83            本
+
+--- Document Chunk 303 ---
+Boa
+
+--- Document Chunk 304 ---
+wa
+
+--- Document Chunk 305 ---
+a
+
+--- Document Chunk 306 ---
+标
+
+--- Document Chunk 307 ---
+»
+
+--- Document Chunk 308 ---
+大
+
+--- Document Chunk 309 ---
+i
+
+--- Document Chunk 310 ---
+a
+
+--- Document Chunk 311 ---
+wu
+
+--- Document Chunk 312 ---
+10
+
+--- Document Chunk 313 ---
+--- Page 15 ---
+
+--- Document Chunk 314 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 315 ---
+表5 4区的显示图标(续)
+
+--- Document Chunk 316 ---
+es                     Root (mm x mm)         A    、
+
+--- Document Chunk 317 ---
+序号      图   慰            颜色            合    文
+
+--- Document Chunk 318 ---
+139 x83
+
+--- Document Chunk 319 ---
+ie ib bet          HK:
+
+--- Document Chunk 320 ---
+139 x 83
+
+--- Document Chunk 321 ---
+4                                          制动状态
+
+--- Document Chunk 322 ---
+REBAR BE          Wank
+
+--- Document Chunk 323 ---
+5.3.5 5区最高可用驾驶模式显示
+
+--- Document Chunk 324 ---
+有最高可
+
+--- Document Chunk 325 ---
+表6 5区的显示图标
+
+--- Document Chunk 326 ---
+驾驶模式信息显示最高的可用模式级别,如果没有输入信
+
+--- Document Chunk 327 ---
+息将显示初始状态 ,显示图标及对应含义如表 6 所示。
+
+--- Document Chunk 328 ---
+序号     ao       vn)       ae x
+
+--- Document Chunk 329 ---
+) a                 初始状态
+
+--- Document Chunk 330 ---
+2      weet      eer ae
+
+--- Document Chunk 331 ---
+--- Page 16 ---
+
+--- Document Chunk 332 ---
+T/CAMET 04011. 8—2018
+
+--- Document Chunk 333 ---
+表6 5区的显示图标(续)
+
+--- Document Chunk 334 ---
+口       四     尺寸(mm x mm)     os  、
+
+--- Document Chunk 335 ---
+序号    图 标       nes        ey
+
+--- Document Chunk 336 ---
+139 x 83        - edmeite
+
+--- Document Chunk 337 ---
+‘   CM Ge    黑色/浅灰色    ORIEL
+
+--- Document Chunk 338 ---
+139 x83        oy sh oe weet ot
+
+--- Document Chunk 339 ---
+5    AM-|     时色/没灰色    点式自动地驶模式
+
+--- Document Chunk 340 ---
+139 x83     esti  :   、
+
+--- Document Chunk 341 ---
+6   AM-C     navn    HEA A Bs Be BLE
+
+--- Document Chunk 342 ---
+5.3.6 6区列车完整性显示
+
+--- Document Chunk 343 ---
+列车完整性信息显示列车的完整性状态,显示图标及对应含义如
+
+--- Document Chunk 344 ---
+表7 所示。
+
+--- Document Chunk 345 ---
+表7 6区的显示图标
+
+--- Document Chunk 346 ---
+图 标
+
+--- Document Chunk 347 ---
+Rot (mm x mm)
+
+--- Document Chunk 348 ---
+颜色
+
+--- Document Chunk 349 ---
+3
+
+--- Document Chunk 350 ---
+«
+
+--- Document Chunk 351 ---
+177 x83
+
+--- Document Chunk 352 ---
+黑色/淡绿色
+
+--- Document Chunk 353 ---
+列车完整性正常
+
+--- Document Chunk 354 ---
+177 x83
+
+--- Document Chunk 355 ---
+黑色/红色
+
+--- Document Chunk 356 ---
+列车完整性丢失
+
+--- Document Chunk 357 ---
+12
+
+--- Document Chunk 358 ---
+--- Page 17 ---
+
+--- Document Chunk 359 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 360 ---
+5. 3.7 7 区列车头尾设备状态显示
+
+--- Document Chunk 361 ---
+该信息表示列车头尾设备的状态 ,显示图标及对应含义如表 8 所示。
+
+--- Document Chunk 362 ---
+表8 7 区的显示图标
+
+--- Document Chunk 363 ---
+尺寸(mm x mm)
+
+--- Document Chunk 364 ---
+颜色               含   义
+
+--- Document Chunk 365 ---
+94 x83          本端车载 ATC 设备激活，另一
+
+--- Document Chunk 366 ---
+黑色/淡绿色/浅灰色/白色 | 端车载 ATC 设备待机
+
+--- Document Chunk 367 ---
+水端车载 ATC 设备激活,另一
+
+--- Document Chunk 368 ---
+RN
+
+--- Document Chunk 369 ---
+FR ATC 设备故障，另一
+
+--- Document Chunk 370 ---
+ID
+
+--- Document Chunk 371 ---
+V2)
+
+--- Document Chunk 372 ---
+x
+
+--- Document Chunk 373 ---
+5.3.8 8 KA a
+
+--- Document Chunk 374 ---
+VEAP ARAN (4) P,P GA” 的形式显示,无给
+
+--- Document Chunk 375 ---
+Mia IN 4 oh & PR AD AS LR     PKR 18 像素,显示 1 ~6 个文
+
+--- Document Chunk 376 ---
+字站名 ,深蓝色 ,左对齐显示。若站名超过 6 个文字,可通过换行或者缩
+
+--- Document Chunk 377 ---
+小字体的方式显示。显示图标及对应含义如表9 所示。
+
+--- Document Chunk 378 ---
+表9 8区的显示图标
+
+--- Document Chunk 379 ---
+               尺寸(mm x mm)
+
+--- Document Chunk 380 ---
+序号           图   标              颜色       含   义
+
+--- Document Chunk 381 ---
+284 x85         ne ee
+
+--- Document Chunk 382 ---
+1                                      黑色/深蓝色    无输入信息时
+
+--- Document Chunk 383 ---
+<1
+
+--- Document Chunk 384 ---
+--- Page 18 ---
+
+--- Document Chunk 385 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 386 ---
+表9 8区的显示图标(续)
+
+--- Document Chunk 387 ---
+FS                aR           尺寸(mm x mm)        ;
+
+--- Document Chunk 388 ---
+序号            图   标               wm       .   = |
+
+--- Document Chunk 389 ---
+]
+
+--- Document Chunk 390 ---
+284 x 85        ep peep
+
+--- Document Chunk 391 ---
+,                               黑色/深蓝色“| 有输入信息时
+
+--- Document Chunk 392 ---
+5.3.9 9 区下一站显示
+
+--- Document Chunk 393 ---
+该信息显示列车的下一站,以"下一站:车站名称”的形式显示 ,无输
+
+--- Document Chunk 394 ---
+人信息时车站名称显示初始状态。字体大小为 18 像素,显示1 ~6 个文
+
+--- Document Chunk 395 ---
+字站名 ,深蓝色 ,左对齐显示。若站名超过 6 个文字,可通过换行或者缩
+
+--- Document Chunk 396 ---
+小字体的方式显示。显示图标及对应含义如表 10 所示。
+
+--- Document Chunk 397 ---
+表10 9区的显示图标
+
+--- Document Chunk 398 ---
+号                            二                   FEF (mm x mm)              |
+
+--- Document Chunk 399 ---
+序号             网    标                  we    :
+
+--- Document Chunk 400 ---
+十
+
+--- Document Chunk 401 ---
+284 x85
+
+--- Document Chunk 402 ---
+                                    黑色/深蓝色 | 无输入信息时
+
+--- Document Chunk 403 ---
+284 x85
+
+--- Document Chunk 404 ---
+                                 meme, | 有输入信息时
+
+--- Document Chunk 405 ---
+5. 3. 10 10 区车次显示
+
+--- Document Chunk 406 ---
+该信息显示列车的车次号,以 TXXXXXXXX 的形式显示,X为数字
+
+--- Document Chunk 407 ---
+1 ~9,显示1~35 位数字。无输入信息时车次号显示初始状态。字体大小
+
+--- Document Chunk 408 ---
+为 18 像素 ,颜色为浅灰色 ,左对齐显示。若车次号超过 5 个数字 ,可通过
+
+--- Document Chunk 409 ---
+14
+
+--- Document Chunk 410 ---
+--- Page 19 ---
+
+--- Document Chunk 411 ---
+T/CAME
+
+--- Document Chunk 412 ---
+T 04011. 8一2018
+
+--- Document Chunk 413 ---
+换行或者缩小字体的方式显示。显示图标及对应含义如表 11 所示。
+
+--- Document Chunk 414 ---
+表11 10 区的显示图标
+
+--- Document Chunk 415 ---
+序号         mb         von  eM
+
+--- Document Chunk 416 ---
+1                           “ a    初始状态
+
+--- Document Chunk 417 ---
+298 x85
+
+--- Document Chunk 418 ---
+2                                   Pare
+
+--- Document Chunk 419 ---
+153214      meneme | PRPS
+
+--- Document Chunk 420 ---
+5.3.11 11区跳停,扣车显示
+
+--- Document Chunk 421 ---
+该信息表示列车当前的跳停 .扣车状态,根据 ATS 的
+
+--- Document Chunk 422 ---
+示图标及对应含义如表 12 TR
+
+--- Document Chunk 423 ---
+表 12
+
+--- Document Chunk 424 ---
+11 区的显示图标
+
+--- Document Chunk 425 ---
+尺寸(mmxmmy)
+
+--- Document Chunk 426 ---
+颜色
+
+--- Document Chunk 427 ---
+177 x83
+
+--- Document Chunk 428 ---
+黑色
+
+--- Document Chunk 429 ---
+177 x83
+
+--- Document Chunk 430 ---
+黑包/浅灰色/黄色
+
+--- Document Chunk 431 ---
+177 x83
+
+--- Document Chunk 432 ---
+黑色/浅灰色/红色
+
+--- Document Chunk 433 ---
+扣车
+
+--- Document Chunk 434 ---
+--- Page 20 ---
+
+--- Document Chunk 435 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 436 ---
+5. 3. 12 12 区菜单按钮显示
+
+--- Document Chunk 437 ---
+按下该按钮后,将激活弹出菜单。弹出菜单内容各家不作统一处理。
+
+--- Document Chunk 438 ---
+显示图标及对应含义如表 13 所示。
+
+--- Document Chunk 439 ---
+表13 12 区的显示图标
+
+--- Document Chunk 440 ---
+序号  a  | oe  & x
+
+--- Document Chunk 441 ---
+|  83
+
+--- Document Chunk 442 ---
+5.3.13 13 区当前驾驶模式显示
+
+--- Document Chunk 443 ---
+该信息表示列车当前的驾驶模式 ,如果没有输入信息则显示初始状
+
+--- Document Chunk 444 ---
+态。显示网标及对应含义如表 14 所示。
+
+--- Document Chunk 445 ---
+#14 13 区的显示图标
+
+--- Document Chunk 446 ---
+Rt (nm
+
+--- Document Chunk 447 ---
+序号      图 村       人二 ae      a x
+
+--- Document Chunk 448 ---
+|
+
+--- Document Chunk 449 ---
+83
+
+--- Document Chunk 450 ---
+177 x83           _
+
+--- Document Chunk 451 ---
+177 x83
+
+--- Document Chunk 452 ---
+--- Page 21 ---
+
+--- Document Chunk 453 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 454 ---
+表14 13 区的显示图标(续)
+
+--- Document Chunk 455 ---
+尺寸(mm x mm)
+
+--- Document Chunk 456 ---
+颜色
+
+--- Document Chunk 457 ---
+177 x83         wim wee
+
+--- Document Chunk 458 ---
+5.3.14 14区当前运行等级显示
+
+--- Document Chunk 459 ---
+该信息表示列车当前的运行等级,如果没有输入信息则显示初始状
+
+--- Document Chunk 460 ---
+态。亚示图标及对应含义如表 15 所示
+
+--- Document Chunk 461 ---
+2                    —     联镇控制级别
+
+--- Document Chunk 462 ---
+177 x83
+
+--- Document Chunk 463 ---
+点式列车控制级别
+
+--- Document Chunk 464 ---
+3                        黑色/浅灰色     点式列车控制级别
+
+--- Document Chunk 465 ---
+177 x83    step tem es
+
+--- Document Chunk 466 ---
+4         (     |  (             黑色/浅灰色     连续式列车控制级别
+
+--- Document Chunk 467 ---
+--- Page 22 ---
+
+--- Document Chunk 468 ---
+T/CAMET 04011. 8—2018
+
+--- Document Chunk 469 ---
+5.3.15 15 区折返状态显示
+
+--- Document Chunk 470 ---
+该信息明示列车折返的状态 ,无输入信息时显示初始状态。显示图
+
+--- Document Chunk 471 ---
+标及对应含义如表 16 所示。
+
+--- Document Chunk 472 ---
+表16 15 区的显示图标
+
+--- Document Chunk 473 ---
+已             -       Rot (mm x mm)
+
+--- Document Chunk 474 ---
+序号        图 标             颜色                a     义
+
+--- Document Chunk 475 ---
+177 x83
+
+--- Document Chunk 476 ---
+2                          177 x83       满足折返条件后,闪烁,闪烁
+
+--- Document Chunk 477 ---
+黑色/淡绿色“| 的频率推荐值为1 Hz
+
+--- Document Chunk 478 ---
+177 x83       ewe de cae ue was
+
+--- Document Chunk 479 ---
+L_    |
+
+--- Document Chunk 480 ---
+5.3.16 16 区列车进入停车窗显示
+
+--- Document Chunk 481 ---
+该信息显示列车在站内停车的情况 ,无输入信息时显示初始状态。
+
+--- Document Chunk 482 ---
+显示图标及对应含义如表 17 所示。
+
+--- Document Chunk 483 ---
+表17 16 区的显示图标
+
+--- Document Chunk 484 ---
+_        Rest (nm x mm)        a
+
+--- Document Chunk 485 ---
+|      网 标            颜色               义
+
+--- Document Chunk 486 ---
+--- Page 23 ---
+
+--- Document Chunk 487 ---
+T/CAMET 04011, 8一2018
+
+--- Document Chunk 488 ---
+表17 16 区的显示图标(续)
+
+--- Document Chunk 489 ---
+尺二(mm xn
+
+--- Document Chunk 490 ---
+ee      Kobi       SC a      ex
+
+--- Document Chunk 491 ---
+,                    177 x83      ay AE EA PE EK SR BL
+
+--- Document Chunk 492 ---
+.                   黑色/红色    AGL ARE BE
+
+--- Document Chunk 493 ---
+4                    177 x 83      列车进入停车区域且
+
+--- Document Chunk 494 ---
+                                             FR ARE fA,        进人停车窗
+
+--- Document Chunk 495 ---
+177 x83
+
+--- Document Chunk 496 ---
+5.3.17 17 区门状态及门允许命令显示
+
+--- Document Chunk 497 ---
+该信息显示门状态及门允许命令 ,无输入信息时显示初始状态。6、
+
+--- Document Chunk 498 ---
+7.89 级别相同,优先级最高;3 .4.5 级别相同 ,优先级次之;2 优先级最
+
+--- Document Chunk 499 ---
+低(可选,恨据工程需求配置 ) 。
+
+--- Document Chunk 500 ---
+表 18
+
+--- Document Chunk 501 ---
+显示网标及对应含义如表 18 EAN
+
+--- Document Chunk 502 ---
+17 区的显示图标
+
+--- Document Chunk 503 ---
+Fal             th
+
+--- Document Chunk 504 ---
+尺寸Cmnm x mm)
+
+--- Document Chunk 505 ---
+177 x 83
+
+--- Document Chunk 506 ---
+初始状态
+
+--- Document Chunk 507 ---
+177 x83
+
+--- Document Chunk 508 ---
+PR G7 21 687 RAR £8,
+
+--- Document Chunk 509 ---
+强制门允许
+
+--- Document Chunk 510 ---
+--- Page 24 ---
+
+--- Document Chunk 511 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 512 ---
+表18 17 区的显示图标(续)》
+
+--- Document Chunk 513 ---
+站             a               Ret (mm x mm)
+
+--- Document Chunk 514 ---
+序号        图    标              颜包             含    义
+
+--- Document Chunk 515 ---
+3                             177 x 83           允许左右两侧
+
+--- Document Chunk 516 ---
+                         黑色/黄色/浅灰色      车门同时开启
+
+--- Document Chunk 517 ---
+177 x 83
+
+--- Document Chunk 518 ---
+4                                       FA al ET   iA
+
+--- Document Chunk 519 ---
+177 x 83
+
+--- Document Chunk 520 ---
+177 x83
+
+--- Document Chunk 521 ---
+177 x83                    were
+
+--- Document Chunk 522 ---
+177 x 83               _—     本
+
+--- Document Chunk 523 ---
+5                             177 x83          无门允许情况下
+
+--- Document Chunk 524 ---
+黑色/黄色/浅灰色         车门打开
+
+--- Document Chunk 525 ---
+20
+
+--- Document Chunk 526 ---
+--- Page 25 ---
+
+--- Document Chunk 527 ---
+5. 3. 18
+
+--- Document Chunk 528 ---
+该信息显示发车
+
+--- Document Chunk 529 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 530 ---
+18 区发车信息显示
+
+--- Document Chunk 531 ---
+及对应含义如表 19 HAR.
+
+--- Document Chunk 532 ---
+表19 18 区的显示图标
+
+--- Document Chunk 533 ---
+提示信息 ,无输入信息时显示初始状态。显示图标
+
+--- Document Chunk 534 ---
+2           Root (mm x mm)
+
+--- Document Chunk 535 ---
+号           ay
+
+--- Document Chunk 536 ---
+序号       图   标            颜色           含   用
+
+--- Document Chunk 537 ---
+|                                177 x 83             初始状态
+
+--- Document Chunk 538 ---
+2                        有列车发车请求时
+
+--- Document Chunk 539 ---
+3                           关车门提示
+
+--- Document Chunk 540 ---
+5.3.19 19 区客室门控制模式显示
+
+--- Document Chunk 541 ---
+该信息显示客室门的控制
+
+--- Document Chunk 542 ---
+图标及对应含义如表 20 所示。
+
+--- Document Chunk 543 ---
+表20 19 区的显示图标
+
+--- Document Chunk 544 ---
+模式 ,无输入信息时显示初始状态。显示
+
+--- Document Chunk 545 ---
+尺寸(mm x mm)
+
+--- Document Chunk 546 ---
+颜色
+
+--- Document Chunk 547 ---
+177 x83
+
+--- Document Chunk 548 ---
+黑色
+
+--- Document Chunk 549 ---
+21
+
+--- Document Chunk 550 ---
+--- Page 26 ---
+
+--- Document Chunk 551 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 552 ---
+表20 19 区的显示图标(续)
+
+--- Document Chunk 553 ---
+Ket (mm x mm)
+
+--- Document Chunk 554 ---
+颜色
+
+--- Document Chunk 555 ---
+序号         图    标
+
+--- Document Chunk 556 ---
+2      1MM       eee     人工开门,人工关站
+
+--- Document Chunk 557 ---
+177 x83        oe      、
+
+--- Document Chunk 558 ---
+AM       mene     AIT, ALE
+
+--- Document Chunk 559 ---
+177 x83       _  、   aa
+
+--- Document Chunk 560 ---
+4       AA       neva     自动开门,自动关站
+
+--- Document Chunk 561 ---
+目目
+
+--- Document Chunk 562 ---
+5. 3. 20 20 区车辆及站台门状态显示
+
+--- Document Chunk 563 ---
+该信息显示车辆空转/打滑及站台门的状态 ,无输入信息时显示初始
+
+--- Document Chunk 564 ---
+状态。列车车轮打滑优先级最高 ,站台门未关闭次之。显示图标及对应
+
+--- Document Chunk 565 ---
+含义如表 21 所示。
+
+--- Document Chunk 566 ---
+表21 20 区的显示图标
+
+--- Document Chunk 567 ---
+尺寸(mm x mm)
+
+--- Document Chunk 568 ---
+颜色
+
+--- Document Chunk 569 ---
+a
+
+--- Document Chunk 570 ---
+a
+
+--- Document Chunk 571 ---
+es)
+
+--- Document Chunk 572 ---
+吵
+
+--- Document Chunk 573 ---
+«
+
+--- Document Chunk 574 ---
+人慰
+
+--- Document Chunk 575 ---
+177 x83
+
+--- Document Chunk 576 ---
+1                         黑色           初始状态
+
+--- Document Chunk 577 ---
+177 x83                    _
+
+--- Document Chunk 578 ---
+                                         黑色/红色             车轮空转/打滑
+
+--- Document Chunk 579 ---
+22
+
+--- Document Chunk 580 ---
+--- Page 27 ---
+
+--- Document Chunk 581 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 582 ---
+表21 20 区的显示图标(续)
+
+--- Document Chunk 583 ---
+=                         RF (mm x mm)         A    、
+
+--- Document Chunk 584 ---
+序号      图   标          颜色         a   义
+
+--- Document Chunk 585 ---
+177 x83         ee
+
+--- Document Chunk 586 ---
+     iy       BOK          “ees
+
+--- Document Chunk 587 ---
+5.3.21 21区设备故障显示
+
+--- Document Chunk 588 ---
+沪信息显示发生的故障情况,无输入信息时显示初始状态。ATP 故
+
+--- Document Chunk 589 ---
+障优先级最高,ATO 故障优先级次之,RAD 故障优先级最低。显示图标
+
+--- Document Chunk 590 ---
+及对应含义如表 22 所示。除下表介绍图标外,厂商可扬定义图标显示。
+
+--- Document Chunk 591 ---
+表22 21区的显示图标
+
+--- Document Chunk 592 ---
+7           7       尺直(mm x mm)        i    、
+
+--- Document Chunk 593 ---
+序号    图  标      颜色        fa  义
+
+--- Document Chunk 594 ---
++
+
+--- Document Chunk 595 ---
+77 x83
+
+--- Document Chunk 596 ---
+177 x83
+
+--- Document Chunk 597 ---
+线设备通信  上时显示
+
+--- Document Chunk 598 ---
+177 x83
+
+--- Document Chunk 599 ---
+3                    ATP 故障时显坟
+
+--- Document Chunk 600 ---
+十
+
+--- Document Chunk 601 ---
+HAR ATO, He Meat
+
+--- Document Chunk 602 ---
+4                      177 x83     示;若为元余 ATO, BLAH
+
+--- Document Chunk 603 ---
+四    brea |S    aR   BARE
+
+--- Document Chunk 604 ---
+FRE IR E/E Went BR
+
+--- Document Chunk 605 ---
+23
+
+--- Document Chunk 606 ---
+--- Page 28 ---
+
+--- Document Chunk 607 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 608 ---
+5.3.22 22 区车辆段的转换区显示
+
+--- Document Chunk 609 ---
+该信息显示车辆段信息 ,无输入信息时显示初始状态。显示图标及
+
+--- Document Chunk 610 ---
+对应含义如表 23 所示 。
+
+--- Document Chunk 611 ---
+表23 22 区的显示图标
+
+--- Document Chunk 612 ---
+iS              =          尺寸(mm x mm)               .
+
+--- Document Chunk 613 ---
+区         图 标               颜色              含义
+
+--- Document Chunk 614 ---
+177 x83
+
+--- Document Chunk 615 ---
+177 x83           wie) Stes
+
+--- Document Chunk 616 ---
+7                         177 x 83       列车进入库线,无自
+
+--- Document Chunk 617 ---
+黑色/浅灰色/淡绿色 | 动车辆段时不显示
+
+--- Document Chunk 618 ---
+4                             177 x83        NER FE (i hE
+
+--- Document Chunk 619 ---
+黑色/浅灰色     辆段内行驶
+
+--- Document Chunk 620 ---
+5                      177 x83      开口模式下,司机已
+
+--- Document Chunk 621 ---
+黑色/浅灰色     确认前方信号开放
+
+--- Document Chunk 622 ---
+5.3.23 23 区时间显示
+
+--- Document Chunk 623 ---
+该信息显示系统时间 ,无输入信息时显示初始状态。字体大小为 21
+
+--- Document Chunk 624 ---
+像素,居中显示。显示图标及对应含义如表 24 所示。
+
+--- Document Chunk 625 ---
+24
+
+--- Document Chunk 626 ---
+--- Page 29 ---
+
+--- Document Chunk 627 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 628 ---
+表24 23 区的显示图标
+
+--- Document Chunk 629 ---
+|  Jit (mm x mm)
+
+--- Document Chunk 630 ---
+211 x 133
+
+--- Document Chunk 631 ---
+黑色         初始状态
+
+--- Document Chunk 632 ---
+211 x133
+
+--- Document Chunk 633 ---
+黑色/浅灰色       系统时间
+
+--- Document Chunk 634 ---
+LHS) BAM,
+
+--- Document Chunk 635 ---
+OA Ze 25 所示。
+
+--- Document Chunk 636 ---
+ey
+
+--- Document Chunk 637 ---
+439 x 133
+
+--- Document Chunk 638 ---
+黑色/和白色/黄色
+
+--- Document Chunk 639 ---
+2     请确认前方信号开放                      示例
+
+--- Document Chunk 640 ---
+5.3.25 AEM 25 区文字或图标信息显示
+
+--- Document Chunk 641 ---
+文字或图标信息显示区域,由各厂商自定义。
+
+--- Document Chunk 642 ---
+5.4 车载 ATP 切除或 ATP 未激活显示
+
+--- Document Chunk 643 ---
+当前 ATP 切除或未激活时,显术黑屏,同时在屏幕中心显示时间。
+
+--- Document Chunk 644 ---
+25
+
+--- Document Chunk 645 ---
+--- Page 30 ---
+
+--- Document Chunk 646 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 647 ---
+显示时间的文字字体大小为 62 像素,颜色为浅灰色。如图7 所示。
+
+--- Document Chunk 648 ---
+10:09:15
+
+--- Document Chunk 649 ---
+图7 黑屏显示示意图
+
+--- Document Chunk 650 ---
+5.5 整体效果图
+
+--- Document Chunk 651 ---
+5.4 中图标按照分区显示在尺寸为 12 英寸分辩率为1 024 x768 的
+
+--- Document Chunk 652 ---
+MMI 显示屏后 ,整体效果图如图 8 所示。
+
+--- Document Chunk 653 ---
+a a
+
+--- Document Chunk 654 ---
+图8 整体效果图
+
+--- Document Chunk 655 ---
+26
+
+--- Document Chunk 656 ---
+--- Page 31 ---
+
+--- Document Chunk 657 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 658 ---
+5.6 司机室按钮开关、指示灯设置要求
+
+--- Document Chunk 659 ---
+为了配合完成第 5.4 条 MMI 界面显示信息设置或确认 ,在司机室应
+
+--- Document Chunk 660 ---
+配置以下按钮.开关和指示灯。
+
+--- Document Chunk 661 ---
+5.6.1 按钮开关、指示灯布置
+
+--- Document Chunk 662 ---
+司机室按钮.开关、指示灯布置区域如表 26 AR
+
+--- Document Chunk 663 ---
+R26 按钮开关、指示灯布置
+
+--- Document Chunk 664 ---
+序号   名称      相关显示区      备。广
+
+--- Document Chunk 665 ---
+， | aan] 7 区,门状态及门允许命| AERC
+
+--- Document Chunk 666 ---
+按钮     令显示        工程需求)
+
+--- Document Chunk 667 ---
+13   1前驾驶模式显示 ;  .    _
+
+--- Document Chunk 668 ---
+2 ATO RE | ieee nen | 自复起指示灯按负
+
+--- Document Chunk 669 ---
+。 | Mamba ream | 5 uc a ar AME MR
+
+--- Document Chunk 670 ---
+tea     显示
+
+--- Document Chunk 671 ---
+agama rea] 5 区,最高可用驾驶模式|
+
+--- Document Chunk 672 ---
++ | ee   we       自复式指示灯按但
+
+--- Document Chunk 673 ---
+coe    24 区 ,确认信息显示
+
+--- Document Chunk 674 ---
+5 | 确认接包   a ie 二全 | ，自复式指示灯引包
+
+--- Document Chunk 675 ---
+6 | 自动折返按钮 | is 区,折返状态显示    自复式指示灯按乌
+
+--- Document Chunk 676 ---
+室   if
+
+--- Document Chunk 677 ---
+7 | nite | BE FER BEA) 旋转开关
+
+--- Document Chunk 678 ---
+am | 350. HSER ATPL
+
+--- Document Chunk 679 ---
+8 | ATP 切除开关 | 切除或 ATP Ria aK   BRK
+
+--- Document Chunk 680 ---
+5.6.2 功能介绍
+
+--- Document Chunk 681 ---
+5.6.2.1 强制门允许按钮
+
+--- Document Chunk 682 ---
+按下该按钮后,可强制输出门使能信号,同时在 17 区显示强制门多
+
+--- Document Chunk 683 ---
+许图标。车门打开后,在 17 区显示门使能和门打开图标。根据工程需求
+
+--- Document Chunk 684 ---
+设置。
+
+--- Document Chunk 685 ---
+27
+
+--- Document Chunk 686 ---
+--- Page 32 ---
+
+--- Document Chunk 687 ---
+T/CAMET 04011. 8一2018
+
+--- Document Chunk 688 ---
+5.6.2.2 ATO 启动按钮
+
+--- Document Chunk 689 ---
+满足 ATO 启动条件时,两个按钮指示灯同时闪烁,闪烁的频率推荐
+
+--- Document Chunk 690 ---
+值为 1 Hz;同时按下两个按钮后,ATO 启动指示灯常亮。
+
+--- Document Chunk 691 ---
+5. 6.2.3 鸭驶模式升级按钮
+
+--- Document Chunk 692 ---
+实现对预选模式升级选择 ,每按下一次在当前预选模式基础上升一
+
+--- Document Chunk 693 ---
+挡,同时在 S 区显示当前选择的最高可用驾驶模式。选择完毕后 ,应按确
+
+--- Document Chunk 694 ---
+认按钮(序号 5 ) 进行确认 ,确认后当前的最高可用驾驶模式才可生效。
+
+--- Document Chunk 695 ---
+5.6.2.4 驾驶模式降级按钮
+
+--- Document Chunk 696 ---
+实现对预选模式降级选择 ,每按下一次在当前预选模式基础上降一
+
+--- Document Chunk 697 ---
+挡,同时在 5 区显示当前选择的最高可用驾驶模式。选择完毕后 ,应按确
+
+--- Document Chunk 698 ---
+认按钮(序号 5)进行确认 ,确认后当前的最高可用驾驶模式才可生效。
+
+--- Document Chunk 699 ---
+5.6.2.5 确认按钮
+
+--- Document Chunk 700 ---
+该按钮对24 区弹出的待司机确认信息进行确认,司机按下该按钮
+
+--- Document Chunk 701 ---
+后,24 区原有提示信息消失。同时,该按钮用于对驾驶模式降级按钮和
+
+--- Document Chunk 702 ---
+驾驶模式升级按钮设置的最高预设驾驶模式等信息进行确认。
+
+--- Document Chunk 703 ---
+5.6.2.6 自动折返按钮
+
+--- Document Chunk 704 ---
+该按钮对折返过程中司机的操作进行提示和确认,与 15 区图标显示
+
+--- Document Chunk 705 ---
+对应。
+
+--- Document Chunk 706 ---
+5.6.2.7 (RAK
+
+--- Document Chunk 707 ---
+该开关用于选择列车门控模式,具有 MM AM 和 AA 三种挡位 ,与 19
+
+--- Document Chunk 708 ---
+区客室门控制模式显示的三种模式图标对应。
+
+--- Document Chunk 709 ---
+5.6.2.8 ATP 切除开关
+
+--- Document Chunk 710 ---
+该开关用于切除 ATP,当 ATP 切除后,MMI 显示 5.5 条的黑屏状态。
+
+--- Document Chunk 711 ---
+5.7 声音报警
+
+--- Document Chunk 712 ---
+当列车超过推荐速度等特定场景下(包括但不限于) ，MMI 应发出
+
+--- Document Chunk 713 ---
+“滴 .滴……”报警声(报警持续时间在工程中统一) 。
+
+--- Document Chunk 714 ---
+28
+
+--- Document Chunk 715 ---
+--- Page 33 ---
+
+--- Document Chunk 716 ---
+中国城市轨道交通协会凶体标准
+
+--- Document Chunk 717 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 718 ---
+控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 719 ---
+第8 部分:车载人机界面
+
+--- Document Chunk 720 ---
+T/CAMET 04011. 8—2018
+
+--- Document Chunk 721 ---
+*
+
+--- Document Chunk 722 ---
+中国铁道出版社有限公司出版发行
+
+--- Document Chunk 723 ---
+(100054 ,北京市西城区右安门西街8 号》
+
+--- Document Chunk 724 ---
+公司网址: htp://www. tdpress com
+
+--- Document Chunk 725 ---
+北京铭成印刷有限公司印出
+
+--- Document Chunk 726 ---
+开本: 880 mm x1 230 mm 1/32) 印张: 1.25 字数:31干
+
+--- Document Chunk 727 ---
+2019年5月第1版 2019年5月第1 次印刷
+
+--- Document Chunk 728 ---
+书号: 15113 . 5734 定价:15. 00 06
+
+--- Document Chunk 729 ---
+版权所有 侵权必究
+
+--- Document Chunk 730 ---
+凡购买铁道版图书,如有印制质重问题 ,请与本公司发行部联系调换。
+
+--- Document Chunk 731 ---
+发行部电话:路(021)73174 ,市(010)51873174
+

@@ -1,0 +1,1977 @@
+
+--- Page 1 ---
+Comision de Investigacion de
+Accidentes Ferroviarios
+
+INFORME FINAL (IF) 70/2022
+
+Incidente operacional con riesgo de colision ocurrido el 15 de
+agosto de 2022 en la estacidn de Manresa (Barcelona).
+
+English summary included in page 45.
+
+
+--- Page 2 ---
+Advertencia
+
+El presente informe es un documento técnico que refleja el punto de vista de la Comision
+de Investigacion de Accidentes Ferroviarios en relacion con las circunstancias en que se
+produjo el evento objeto de la investigacidn, con sus causas probables y recomendaciones
+de seguridad.
+
+Tal como especifica el RD 623/2014, de 18 de julio en su articulo 4, puntos 4 y 5:
+
+“4, La investigacion tendrd como finalidad la determinacion de las causas del accidente o
+incidente de que se trate y el esclarecimiento de las circunstancias en las que éste se
+produjo con el fin de incrementar la seguridad en el transporte ferroviario y favorecer la
+prevencion de accidentes”.
+
+“5. En ningun caso la investigacién tendr6 como objetivo la determinacion de la culpa o
+responsabilidad del accidente o incidente y serd independiente de cualquier investigaci6n
+judicial”.
+
+Consecuentemente, el uso que se haga de este informe para cualquier proposito distinto al
+de la prevencion de futuros accidentes puede derivar en conclusiones e interpretaciones
+erroneas.
+
+Comision de Investigacion de Accidentes Ferroviarios - CIAF
+
+Subsecretaria
+Ministerio de Transportes, Movilidad y Agenda Urbana
+Gobierno de Espafia
+
+Paseo de la Castellana, 67
+
+28071 Madrid
+Espafia
+
+NIPO: 796-23-042-0
+
+--- Page 3 ---
+INDICE
+
+0 LISTA DE ABREVIATURAS .ssessssssssssssssasssssssssnssasasnnsnssnssnnssnnnnnnssssannnnsnnnnsnsnnnsnnsnsnsssnnsssnsnnnssnnsassns4
+
+2 LAINVESTIGACION Y SU CONTEXTO
+2.1 DECISIONY MO
+22 AMBITO Y LiMIT
+2.3 COMPOSICION DEL EQUIPO INVESTIGADOR .
+2.4 CANALES DE COMUNICACION..
+2.5 METODOS Y TECNICAS DE INVESTIGACION Y ANALISIS ..
+2.6 INTERACCION CON AUTORIDADES JUDICIALES
+2.7 OTROS ASPECTOS DE LA INVESTIGACION
+
+3 DESCRIPCION DEL SUCESO
+3.1 EL SUCESO Y SUS CIRCUNSTANCIAS.
+3.2. DESCRIPCION DE LOS HECHOS
+a) CADENA DE ACONTECIMIENTOS PREVIOS AL SUCESO
+b) PLAN DE EMERGENCIA INTERNO-EXTERNO
+
+4 ANALISIS DEL S
+4.1 COMETIDOS Y DEBERES RELACIONADOS CON EL SUCESO
+4.2. MATERIAL RODANTE E INSTALACIONES TECNICAS..
+4.3 FACTORES HUMANOS usec teesssstesssseeessseeessseess
+4.4. MECANISMOS DE RETROALIMENTACION Y CONTROL .
+4.5 INCIDENCIAS ANTERIORES DE CARACTER SIMILAR.
+
+5 CONCLUSIONES ..00. ees eessseessseeesseessneesssieesssses
+5.1 RESUMEN DEL ANALISIS Y CONCLUSIONES..
+5.2 MEDIDAS ADOPTADAS DESDE EL SUCESO
+5.3 OBSERVACIONES ADICIONALES
+
+6 RECOMENDACIONES DE SEGURIDAD                                                                 “
+
+APPENDIX: ENGLISH SUMMARY OF THE MAIN PARTS OF THE REPORT .........ccssssstsssstessssseesssseessseeeesssees45
+
+COMANAAAAY
+
+
+--- Page 4 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+0 LISTA DE ABREVIATURAS
+
+ADIF
+AESF
+ASFA
+BAB
+BAD
+BLAU
+CG
+CIAF
+CM
+CMS
+CTC
+
+PLO
+
+RCM
+
+RCF
+
+RC del CTC
+RFIG
+
+TT
+
+UT
+
+Administrador de Infraestructuras Ferroviarias
+Agencia Estatal de Seguridad Ferroviaria
+
+Anuncio de Sefiales y Frenado Automatico
+
+Bloqueo Automatico de via Banalizada
+
+Bloqueo Automatico en via Doble
+
+Bloqueo de Liberacion Automatica de via Unica
+Centro de Gestion
+
+Comision de Investigacion de Accidentes Ferroviarios
+Cuadro de Mando (local)
+
+Control, Mando y Sefializacion
+
+Control de Trafico Centralizado
+
+Circuito de via
+
+Equipo de Investigacion
+
+European Railway Traffic Management System
+Investigador Encargado
+
+Jefatura Técnica de Operaciones
+
+Mando Centralizado; CTC
+
+Mando Local
+
+Puesto Local de Operaciones.
+
+Puesto de Mando
+
+Responsable de circulacion de la estacion de Manresa
+Reglamento de Circulacion Ferroviaria
+
+Responsable de circulacion del Control del Trafico Centralizado (CTC).
+Red Ferroviaria de Interés General
+
+Sistema de radiotelefonia Tren-Tierra
+
+Unidad Técnica
+
+Vocal Asesor Técnico
+
+
+--- Page 5 ---
+Informe Final 70/2022
+
+1 RESUMEN
+
+El responsable de circulacion de Manresa (RCM) autorizo mediante telefonema al maquinista del tren
+95128 a emprender la marcha desde la via 5 de la estacidn de Manresa hacia el lado Sant Viceng de
+Castellet a las 18:34 del dia 15 de agosto de 2022, disponiendo el itinerario para ello. A las 18:41,
+cuando el tren 95218 atin no habia iniciado la marcha, el RCM autorizé mediante telefonema al
+maquinista del tren 78443 a rebasar la sefial de entrada 3023 de Manresa del lado de Sant Vicenc de
+Castellet disponiendo un itinerario incompatible con el movimiento que habia autorizado
+previamente. Tras iniciar la marcha, después de trascurrir varios minutos desde que se autorizo su
+movimiento, el tren 95128 talong el desvio n° 19 continuando por via 1, por la que circulaba de frente
+el tren 78443, que iba a estacionarse en via 4. Los maquinistas de ambos trenes, al percatarse de la
+situacion, detuvieron los trenes quedando enfrentados a una distancia de 40 metros (ver Imagen 15,
+
+pagina 25).
+
+Como resultado del incidente operacional sdlo se produjeron dajios en el desvio n219. No se
+
+produjeron dafios personales, ni dafios en el material rodante.
+
+La estacién de Manresa pertenece a linea 220 — Lleida-Pirineus— Bifurcacién Vilanova de la Red
+Ferroviaria de Interés General. Se ubica en el municipio de Manresa, provincia de Barcelona
+
+(Catalufia).
+
+Conclusién: los factores causales fueron una autorizacion indebida de rebase de sefial al tren 78443
+sin haber comprobado si el tren 95218 habia emprendido la marcha y liberado la ruta y, por otro lado,
+el hecho de que el tren 95218 iniciara la marcha estando su orden de marcha invalidada al no haber
+salido inmediatamente tras la emision del primer telefonema. Se han considerado como factores
+
+contributivos la existencia de una situacidn degradada en la estacion de Manresa originada por la
+
+toma de decisiones del RCM, en relacion con las peticiones del Centro de Gestidn de Rodalies para el
+traslado de material rodante averiado; la perturbacién en las condiciones de explotacién de la
+estacion debidas a la ocupacion del circuito CVA3 y en la hora de salida del tren 95218 por el descanso
+que hizo el maquinista del tren 95218, entre otros. Se han considerado como factores sistémicos las
+
+peculiaridades del enclavamiento eléctrico de Manresa, las condiciones de visualizacién de
+
+expedicion de trenes en dicha estacidn, las deficiencias en las habilidades asertivas del personal de
+circulacién y la existencia de problemas recurrentes de comunicacion entre maquinistas y
+
+responsables de circulacién.
+
+--- Page 6 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+Se establecen cuatro recomendaciones a través de la AESF dirigidas a ADIF, Renfe Viajeros y a las
+
+empresas ferroviarias.
+
+2 LAINVESTIGACION Y SU CONTEXTO
+
+2.1 DECISION Y MOTIVO
+
+El Real Decreto 623/2014, de 18 de julio, regula la investigacién de los accidentes e incidentes
+ferroviarios en la Red Ferroviaria de Interés General espafiola, asignando dicha funcion, en su articulo
+
+5, ala Comision de Investigacién de Accidentes Ferroviarios (CIAF).
+
+De conformidad con los articulos 4.1, 9 d) y 14.2 del Real Decreto 623/2014 y en base a lo establecido
+en el articulo 7 b), que establece que la CIAF podra investigar los accidentes y los incidentes que, en
+condiciones ligeramente distintas, pudieran haber provocado accidentes graves, el presidente de la
+CIAF decidio abrir la investigacién del presente suceso el 15 de septiembre de 2022, oida la opinién
+
+de los miembros del Pleno reunidos en sesion plenaria celebrada en dicha fecha.
+
+2.2 AMBITO Y LiMITES DE LA INVESTIGACION
+
+La investigacién trata de abordar la descripcidn de los hechos retrotrayéndose en el tiempo lo
+suficiente para determinar las circunstancias que propiciaron las autorizaciones de rebases de sefial
+en la estaci6n de Manresa. También tratara de indagar en los factores técnicos, humanos y
+
+organizacionales que contribuyeron al modo en que se autorizaron dichos rebases de sefial.
+
+2.3 COMPOSICION DEL EQUIPO INVESTIGADOR
+
+De conformidad con lo establecido en el articulo 9 e) del Real Decreto 623/2014 por el que se regula
+la investigacién de los accidentes e incidentes ferroviarios y la CIAF, el 15 de septiembre de 2022 y
+mediante resolucion del presidente de la CIAF se designa como Investigador Encargado (IE) a un
+Investigador Coordinador adscrito a la Secretaria de dicha Comision. El Investigador Encargado dirige
+al Equipo de Investigacion (El), conformado por un Investigador de Accidentes adscrito también a la
+mencionada Secretaria. Todos ellos son ingenieros y tienen experiencia en la investigacién de
+
+accidentes ferroviarios.
+El Equipo de Investigacion cuenta con el apoyo de los miembros del pleno de la Comision.
+
+El El goza de plena independencia funcional para el desarrollo de las labores investigadoras y seguira
+
+las directrices marcadas por el presidente para la investigacion del suceso.
+
+--- Page 7 ---
+Informe Final 70/2022
+
+2.4 CANALES DE COMUNICACION
+
+El jefe de area de investigacidn de accidentes de la Direccion Corporativa de Seguridad en la
+Circulacion del Administrador de Infraestructuras Ferroviarias (ADIF), mediante mensajeria movil
+(SMS) a las 19:40 horas del dia 15 de agosto de 2022, comunico a la Comision de Investigacion de
+
+Accidentes Ferroviarios que se habia producido el suceso objeto de esta investigacién.
+
+ADIF presento informacion preliminar necesaria para la investigacion del accidente: interpretacién
+del videografico del CTC de la estacion de Barcelona Francia, andlisis de los registradores de seguridad
+de los trenes implicados, transcripcién de las grabaciones de las llamadas entre los agentes
+relacionados con el suceso, actas de las entrevistas con dichos agentes, documentos de admision de
+
+los trenes, etc...
+
+Analizada la informacion remitida, la CIAF consider6 necesario solicitar nueva informacion a ADIF ya
+Renfe Viajeros. ADIF remitid las grabaciones de todas las conversaciones, incluidas las del RCM y el
+RC del CTC con el CG de Rodalies, los libros de telefonemas y de bloqueo del gabinete de circulacién
+de Manresa y la habilitacién del RCM. Renfe Viajeros envio un informe al respecto de la averia de la
+UT en via 5 y la informacion correspondiente al maquinista del tren 95218 y del personal del centro
+
+de gestion.
+
+La CIAF consider6 necesario solicitar informacion adicional a ADIF para conocer las condiciones de
+trafico de la estacidn de Manresa el dia del suceso y a Renfe para conocer las comunicaciones entre
+
+el centro de gestidn y el maquinista el dia del suceso. ADIF remitid documentacidn al respecto.
+
+La documentacion solicitada ha sido entregada a la CIAF en un plazo de tiempo suficiente para no
+perturbar el normal desarrollo de la investigacién, si bien, la informacion sobre las comunicaciones
+entre el centro de gestion y el maquinista el dia del suceso, muy importante para el desarrollo de la
+
+investigacion, no ha sido entregada a la CIAF de forma integra.
+
+La CIAF realizé entrevistas al personal de ADIF, Renfe Viajeros e Irvia que tuvo relacion con el suceso.
+También se han llevado a cabo reuniones con personal de mayor rango jerarquico dentro de las
+organizaciones de ADIF y Renfe Viajeros: subdirectores de circulacion y de instalaciones, por parte de
+ADIF, y jefe de operaciones, por parte de Renfe Viajeros. La disponibilidad del personal para la
+
+realizacion de las entrevistas y reuniones ha sido correcta.
+
+Tanto el administrador de la infraestructura como la empresa ferroviaria han realizado sus propias
+investigaciones sobre el suceso, trasladandoselas a la CIAF. El informe particular de la empresa
+
+ferroviaria fue recibido el 27 de febrero de 2023. El informe del administrador de la infraestructura
+
+--- Page 8 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+(ADIF) fue entregado a la CIAF el 8 de marzo de 2023. Ninguno de los dos informes fue entregado en
+el plazo de tres meses desde que ocurrid el suceso, tal y como indica el procedimiento de
+investigacion aprobado por la CIAF y comunicado a los administradores de infraestructuras y
+
+empresas ferroviarias.
+
+En cumplimiento del articulo 15.2 del Real Decreto 623/2014, de 18 de julio, por el que se regula la
+investigacion de los accidentes e incidentes ferroviarios y la Comision de Investigacién de Accidentes
+Ferroviarios, se remitid el informe provisional a las siguientes entidades para que facilitaran
+informacion técnica pertinente para mejorar la calidad del informe de investigacién: ADIF, Renfe
+
+Viajeros y sindicatos del personal involucrado en el incidente.
+
+2.5 METODOS Y TECNICAS DE INVESTIGACION Y ANALISIS
+
+Para el esclarecimiento de los hechos y la obtencidn de los distintos factores causales, contribuyentes
+y sistémicos que se mencionan en el presente informe se han utilizados las siguientes técnicas y
+
+métodos de investigacién.
+
+En cuanto a técnicas de investigacién, se han realizado entrevistas presenciales con los agentes
+relacionados con el suceso y con sus superiores jerarquicos y se ha analizado la documentacién
+
+entregada por las entidades involucradas.
+
+El método utilizado para contemplar los sucesos y las condiciones que provocaron la incidencia, sus
+precursores y las caracteristicas del marco normativo y de supervision que influyeron en la misma fue
+
+el arbol de causas.
+
+2.6 INTERACCION CON AUTORIDADES JUDICIALES
+
+No procede.
+
+2.7. OTROS ASPECTOS DE LA INVESTIGACION
+
+No procede.
+
+--- Page 9 ---
+Informe Final 70/2022
+
+3 DESCRIPCION DEL SUCESO
+
+3.1 EL SUCESO Y SUS CIRCUNSTANCIAS
+Descripcién
+
+El suceso que se investiga consistid en un incidente operacional con resultado de riesgo de colision
+entre los trenes 95218 y 78443. Tuvo lugar el dia 15 de agosto de 2022, festivo nacional, a las 18:41
+
+en la estacién de Manresa de la linea 220 — Lleida-Pirineus— Bifurcacion Vilanova en el PK. 302+247.
+
+La estacion de Manresa esta situada en las coordenadas: 41°43'5.40"N y 1°49'53.55"E, dentro del
+
+municipio de Manresa, provincia de Barcelona, comunidad autonoma de Catalufia.
+
+El incidente se produjo entre las sefiales de salida y de entrada de la estacion de Manresa del lado
+
+Sant Viceng de Castellet (Barcelona), y esta situado en una zona a nivel y en curva.
+
+Durante el incidente las condiciones meteoroldgicas y de visibilidad eran buenas y era por la tarde.
+
+Lado Sant Vicenc
+de Castellet
+(Barcelona)
+
+Imagen 1 Zona de Ia linea ferroviaria (fuente: Google Earth)
+
+--- Page 10 ---
+10
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+Victimas y dafios materiales
+
+Como resultado del incidente operacional sdlo se produjeron dafios en el desvio n219. No se
+
+produjeron dafios personales, ni dafios en el material rodante.
+
+Interceptaci6on de la via
+
+Tras el incidente se produjo la interceptacion total de via general desde las 18:41 del dia 15 de agosto
+hasta las 3:56 del dia siguiente. Quedaron afectadas en total 15 circulaciones, entre retrasos y
+
+supresiones de trenes, suponiendo una pérdida total de 471 minutos.
+
+Personal y entidades
+
+Resultan relevantes para la investigacidn de este suceso las actuaciones previas del personal
+
+ferroviario siguiente:
+
+Vv
+
+Responsable de circulacién de la estacién de Manresa (RCM). Personal de ADIF.
+
+Vv
+
+Responsable de circulacién de la banda del CTC en la que se ubica la estacion de Manresa
+
+(RC del CTC). Personal de ADIF.
+
+Vv
+
+Inspectores-Reguladores del CTC (Reg. del CTC). Personal de ADIF.
+
+Vv
+
+Técnico del PM. Personal de ADIF.
+
+Vv
+
+Técnico del Centro de Gestion de Rodalies de Barcelona de Renfe Viajeros (Técnico del CG).
+
+Personal de Renfe Viajeros.
+
+Vv
+
+Personal del Centro de Gestion de Rodalies de Barcelona de Renfe Viajeros (Personal del
+CG). Personal de Renfe Viajeros.
+
+> Madquinista de tren 95218. Personal de Renfe Viajeros.
+
+> Madquinista de tren 78443. Personal de Renfe Viajeros.
+
+> Mecanico de la UT 447.047. Personal de Irvia.
+
+Resultan relevantes para la investigacién de este suceso las siguientes entidades:
+
+> ADIF: administrador de la infraestructura en la que se produjo el suceso.
+> Renfe Viajeros: empresa ferroviaria de los maquinistas de los trenes afectados.
+> Irvia: taller de mantenimiento de la unidad técnica averiada en la estacion de Manresa (UT
+
+447.047).
+
+--- Page 11 ---
+Informe Final 70/2022
+
+Material rodante
+
+Las unidades implicadas en el suceso pertenecen al primer lote de la Serie 447. Esta serie es de
+
+traccion eléctrica. La composicion es de tipo Mc-R-Mc. Su velocidad maxima es de 120 km/h.
+
+Imagen 2 Tren Renfe Serie 447.
+
+El tren 78443 era una composicion doble formada por la UT 447.049 en cabeza y la UT 447.117 en
+cola y el tren 95218 era una composicién doble formada la UT 447.059 en cabeza y la UT 447.047 en
+cola y remolcada. Ambas composiciones iban equipadas con el sistema de proteccion ASFA Digital y
+
+disponian de seis vehiculos, 24 ejes, 152 metros de longitud y 437 toneladas de masa remolcada.
+
+El tren 78443 cumplia un servicio de Rodalies de la linea R4 con salida a las 15:48 de la estacién de
+Sant Viceng de Calders y llegada prevista a Manresa a las 18:42 acumulando un retraso con respecto
+
+al horario tedrico de siete minutos.
+
+El tren 95218 cumplia con un servicio especial como material vacio para llevar la UT 447.047, que se
+encontraba averiada, remolcada a los talleres de Montcada. Tenia prevista su salida de la estacién de
+Manresa a las 18:20, siendo expedido minutos mas tarde, y su llegada prevista a Montcada
+
+Bifurcacion a las 19:01.
+
+--- Page 12 ---
+12
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+Infraestructura, instalaciones y comunicaciones
+
+La estacion de Manresa se encuentra situada en el PK 301+700 de la Linea 220 Lleida Pirineus-
+Bifurcacién Vilanova. Se trata de una estacidn en la que se produce la transicién de via unica (lado
+Lleida) a via doble (lado Sant Viceng de Castellet-Barcelona), de forma que en el lado de Lleida la linea
+
+dispone de via Unica con BLAU y en el lado de Sant Viceng de Castellet de via doble con BAD.
+
+En el lado Sant Viceng de Castellet, las vias 2, 4, 6, 3 y 5 tienen sefial de salida que son: 3020/2, 3020/4,
+3020/6, 3020/3 y 3020/5. La entrada desde via impar a la estacién por el lado Sant Viceng de Castellet
+se hace con la sefial 3023. En via par, que es la via para las circulaciones con sentido hacia Sant Vicen¢
+
+de Castellet, esta la sefial de maniobras R1.
+
+Las vias 3 y 5 son vias de mango que acaban en topera. La distancia entre la topera de via 5 y el desvio
+n21}, en el que se bifurcan la via 3 y la via 5, es de 240 metros aproximadamente, y entre la topera
+de via 5 y sefial de salida 3020/5 es de 135 metros. Por otro lado, el circuito de agujas CV A3 implica
+a los desvios n21, n23, n2¢11. La longitud de tres UT de la serie 447 es 228 metros, por lo que el
+estacionamiento de tres unidades en la via 5 supondria la ocupacion del CV A3, el rebase de la sefial
+
+3020/5 y quedar préximo al desvio n21.
+
+Un tren que sale de via 5 hacia via par (lado Sant Viceng de Castellet) tiene que pasar de talon por los
+desvios n21, n23 orientados hacia via desviada, el escape 11/13 orientado hacia via desviada, de talon
+el desvio n219 orientado hacia via directa y por el desvio n221 (del escape 21/23) orientado hacia via
+directa. Un tren que va de via 1 general del lado Sant Vicenc de Castellet hacia via 4 de la estacién
+tiene que pasar por el escape 21/23 orientado a posicién invertida, de punta por el desvio n219
+orientado hacia via desviada y de punta por el desvio n215 orientado hacia via directa. Ambos
+itinerarios son incompatibles ya que implican al escape 21/23 y al desvio n219 en posiciones
+
+contrarias para cada uno de ellos.
+El lado de Sant Viceng de Castellet de la estacidn de Manresa se encuentra en curva.
+
+La estacion de Manresa se puede controlar en Mando Local desde su Gabinete de Circulacién o en
+mando centralizado desde el CTC. Esta gobernada por un enclavamiento eléctrico de cableado libre
+y su descripcion y funcionamiento se regula en la Consigna Serie A n2? 1398 y sus anejos, que detalla
+los movimientos y rutas posibles del enclavamiento de la estacidn, asi como las incompatibilidades
+
+entre los movimientos. En mando local, el enclavamiento eléctrico se gobierna en un Cuadro de
+
+1 La ubicacion de los desvios se refiere a la punta de los espadines y no al piquete.
+
+--- Page 13 ---
+Informe Final 70/2022
+
+Mando instalado en el Gabinete de Circulacion, desde donde se concentra el mando y comprobacion
+
+de los aparatos, sefiales y circuitos de via.
+
+Imagen 3 Cuadro de Mando de la estacién de Manresa
+La estacion de Manresa es cabecera de la linea de Rodalies R4, donde rotan los trenes. Para ello es
+preciso que ocupen vias durante un tiempo, necesario para descanso o el relevo de personal, y para
+
+el ajuste de los horarios.
+
+MANRESA
+
+LMANRESA -1220_LLEIOA PIRINEUS - LHOSPITALET OE LL -Km 201,718
+
+|
+-———           Ir       »
+Be" vias     H
+-——       wa    we    aA 一一一
+cj           Rh
+27 Bev  VIA IV    316
+
+一已 7   “2   Re  i
+ig CV ANS
+aS
+
+Imagen 4 Consigna A de la estacion de Manresa. En azul aparece sefialado el circuito de agujas CV A3
+
+--- Page 14 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+Se incluye a continuacion una imagen que trata de dar una vision de la localizacion de los elementos
+
+mas importantes de la estacion de Manresa para el andlisis de este suceso.
+
+LADO SANT VICENC
+DE CASTELLET-
+
+BARCELONA
+
+r
+
+Escape 11/13
+
+Imagen 5 Detalle de los principales desvios, escapes, sefiales de la estacion de Manresa en el lado de Sant Vicen¢ de Castellet
+
+--- Page 15 ---
+Informe Final 70/2022
+
+3.2 DESCRIPCION DE LOS HECHOS
+
+a) CADENA DE ACONTECIMIENTOS PREVIOS AL SUCESO
+Basandose en los datos de los registradores de los trenes, del videografico del CTC, de los libros de
+telefonemas y de bloqueo de la estacidn, de los registros de grabaciones y de las entrevistas del
+
+personal posteriores al suceso se ha llevado a cabo la siguiente reconstruccién de los hechos.
+
+A las 14:40 el RC de Manresa (RCM) llama al CG de Rodalies para comentar que de la doble
+composicién de autopropulsados de la serie 447 estacionada en via 5 (via con topera), la UT ubicada
+hacia el lado Barcelona (UT 447.047) esta inutil y que, segun informan los mecanicos, sdlo podra salir
+
+remolcada.
+
+Imagen 6 Vista del lado Sant Viceng de Castellet. La via 5 se encontraba ocupada por una doble composicién de trenes de la serie
+447. Se indica la posici6n de la sefial 3020/5 y la del desvio n°1 (D1).
+
+En una llamada posterior, a las 14:46 el RCM llama al CG de Rodalies para comunicarle que ha
+consultado con el CTC la posibilidad de remolcar el material averiado en via 5 (447.047) y que hay
+una serie de hdndicaps que podrian dificultar la operativa ya que la via esta en curva y necesitarian
+dos personas para llevarla a cabo ya que la cabeza de la composici6n rebasaria la sefial de salida
+
+3020/5.
+
+A las 14:53 el Técnico del CG de Rodalies llama al RCM proponiéndole una maniobra para remolcar la
+
+UT averiada consistente en utilizar la doble composicion del tren de las 16:35 h, el 78435, de modo
+
+--- Page 16 ---
+16
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+que la UT que quedase del /ado Terrassa se desplazaria a via 5 para remolcar la UT averiada (447.047)
+y salir como material vacio hacia Montcada y, por otro lado, la otra UT se uniria a la UT operativa para
+formar un tren de viajeros. El Técnico del CG de Rodalies, una vez que le ha comentado la operativa
+deseada, le pregunta si la via 5 tiene capacidad para albergar una tercera UT. El RCM le contesta que
+rebasaria la sefial de salida 3020/5 pero que tendria que comprobar si afecta al desvio n21, y a esto
+el Técnico del CG le responde “/o vas mirando ya, que vamos con tiempo”. Finalmente, el Técnico del
+
+CG le dice que espere y que va a enviar a un operario con el tren 78435 para que la acondicione.
+
+A las 15:30 el RCM llama al CG de Rodalies para comentar que la maniobra es viable ya que la triple
+composicién no pisaria el desvio n21, teniendo en cuenta las siguientes distancias: de topera a desvio
+n21, 243 metros; de topera a sefial de salida 3020/5, 187 metros y triple composicién de unidades
+
+447, 228 metros.
+
+Sobre las 16:20 el RC del CTC llama al RCM para comentarle sobre una circulacion que puede afectar
+
+ala maniobra prevista para remolcar la UT averiada en via 5.
+
+Alas 16:41 llega el maquinista, al que el CG de Rodalies ha encomendado la realizacion de la maniobra
+en Manresa, como viajero del tren 78435, material con el que se realizara dicha maniobra, y comenta
+que esta proximo a tener que hacer los 45 minutos de descanso reglamentario (refrigerio). A las
+16:57, el RCM llama al RC del CTC para comunicarle que el maquinista que va a hacer la maniobra ya
+se encuentra en la estacion y le comenta que éste le ha dicho que esta proximo a tener que hacer los
+45 minutos de refrigerio; ambos debaten la conveniencia de hacer la maniobra antes o después del
+refrigerio, incluso el RC del CTC plantea realizar la maniobra, pasando la UT de via 4 a via 5 y, una vez
+acopladas, hacer otra maniobra de via 5 a via 6 para ser expedidas posteriormente desde esta via.
+Finalmente acuerdan hacer la maniobra de ese modo puesto que la UT que se quedaria en via 4 junto
+
+con la que quedaria en via 5, una vez maniobradas y acopladas, formarian el tren 77554.
+
+Sobre las 17:13, el maquinista se pone en contacto con el RCM para comunicarle que ya esta
+dispuesto para realizar la maniobra, el RCM le explica ésta y le dice que esté atento a sefial. A las
+17:13:58 se establece itinerario de maniobra de via 4 a R1 con indicacion de rebase autorizado de
+salida de via 4 para la UT situada en dicha via que ha de acoplarse a la UT inutil situada en cabeza de
+
+via 5 hacia el lado Barcelona. Este movimiento concluye a las 17:19:48.
+
+--- Page 17 ---
+Informe Final 70/2022
+
+ES
+MAMANRESAEN
+
+crea
+
+Imagen 7 Movimiento de la UT 447.059 de via 4 a via 2 general.
+Mientras se realiza la maniobra, el RCM llama al RC del CTC para pedir que autorice al maquinista del
+tren 78439, que esta llegando a Manresa por el lado de Sant Viceng de Castellet, a cambiar a
+modalidad C ya que le tendra que autorizar el rebase de la sefial de entrada 3023 para estacionarlo
+en via 2 (el enclavamiento no contempla el acceso a via 2 desde el lado Barcelona). Unos minutos
+
+mas tarde, a las 17:23:40, se establece itinerario de R1 a via 5 con indicacion de rebase autorizado.
+
+ES
+MAMANRESA®N
+
+一9597 一
+
+3020/5
+
+—0265—*Ip>
+
+Imagen 8 Movimiento de la UT 447.059 de via 2 general hacia via 5.
+
+En via 5 no caben tres UT 447 por lo que sobre las 17:28, concluida la maniobra completa, queda
+ocupado el CV A3 de agujas, en contra de lo que el RCM habia previsto, y no se libera el itinerario de
+
+R1 a via 5. Se acondicionan las distintas unidades en via 5 y, seguidamente, a pesar de la situacidn, el
+
+17
+
+--- Page 18 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+18
+
+RCM permite el mantenimiento de la ocupacion del CV A3 al tolerar la ausencia del maquinista para
+
+efectuar el refrigerio.
+
+E $
+MAMANRESA
+
+Imagen 9 Ocupacién del circuito de via CV A3 por la UT 447.059 al no tener la via 5 capacidad suficiente para albergar tres
+unidades 447.
+
+A las 17:30:25 el RCM invierte el escape 21/23 para que el tren 78439, que viene desde Sant Vicenc
+de Castellet, se estacione en alguna de las vias pares de Manresa. En un principio su intencidn es
+estacionarlo en via 2 pero no puede al estar el CV A3 ocupado, y ademas el itinerario de la sefial Rl a
+via 5 esta sin disolver. Seguidamente el RCM llama al RC del CTC para comunicarle que el material
+que estaba haciendo la maniobra no ha librado el circuito de via de agujas. Mientras tanto, el tren
+
+78439 se encuentra esperando en la sefial de entrada 3023.
+
+A las 17:32 el Técnico del CG de Rodalies llama al RCM y le comunica que no habian dicho aun nada
+de hacer Ia operativa. También comentan qué hacer con el tren 78439, que esta en la sefial de entrada
+de Manresa 3023 y determinan que con ése van a hacer el tren 77554 que tenia prevista su salida de
+
+Manresa a las 17:27. A las 17:34 el RC del CTC llama al RCM para comunicarle que avance la UT
+
+estacionada en via 4 para dejar espacio suficiente para estacionar ahi al tren 78439, con el que haran
+
+el tren 77554.
+
+Sobre las 17:36 el inspector-regulador del PM de Barcelona Francia recibe la noticia de que en
+Manresa estan haciendo maniobras. Desde el puesto del RC del CTC llaman al RCM para preguntarle
+por la situacion en Manresa. Entre el RC del CTC y el RCM le comentan que van a autorizar al tren
+78439 a rebasar la sefial de entrada 3023 para estacionar en via 4, asi como las maniobras que van a
+
+realizar con las unidades en via 5.
+
+--- Page 19 ---
+Informe Final 70/2022
+
+A las 17:37:19 invierte el desvio n219 y queda el itinerario dispuesto para estacionar dicho tren en via
+
+4.
+
+MAMANRESA.v
+
+crc
+
+\ wo   5   mama
+/ 2        2si/seme \
+
++>
+
+Imagen 10 Tren 78439 ante la sefial de entrada 3023 con el itinerario formado a via 4. La via 4 estaba ocupada por una UT de la
+serie 447.
+
+Entre las 17:40 y las 17:50 aproximadamente, se ejecuta la maniobra de avance de la unidad
+estacionada en via 4 hacia el lado Calaf para dejar hueco a la composicion doble que esta esperando
+en la sefial de entrada 3023 haciendo el servicio de tren 78439. Sobre las 17:50, el RCM da
+autorizacion de rebase de la sefial de entrada al maquinista del tren 78439 y este se estaciona en via
+
+4a las 17:51:43.
+
+E S$
+MAMANRESA EN
+
+crea
+
+Imagen 11 Material de tren 78439 se estaciona en via 4 tras haber maniobrado la UT que se encontraba previamente ocupando
+dicha via hacia el lado Calaf.
+
+19
+
+--- Page 20 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+20
+
+A las 17:53:58 el RCM normaliza el escape 21/23. Seguidamente el RC del CTC llama al RCM y éste le
+vuelve a comentar que con el material del tren 78439 estacionado en via 4 haran el tren 77554 y que
+con el material de via 5 tienen que esperar a las indicaciones del CG y a la finalizacién del descanso
+
+del maquinista.
+
+Instantes después, el RCM llama al RC del CTC y le comunica que le van a tener que autorizar el rebase
+de la sefial de salida de via 4 hacia Sant Vicenc de Castellet (3020/4) ya que la sefial no se abre. El
+inspector-regulador llega para tratar de encontrar una soluci6n, pero se percatan de que el itinerario
+de la sefial de salida de via 4 no se puede establecer, ni abrir su sefial (la razon se explica en apartados
+siguientes). Entre las 17:59:00 y las 18:02:19, durante la llamada, el RC del CTC toma el mando de la
+
+estacion para tratar de mandar salida de via 4, pero finalmente lo devuelve al no poder solucionar
+
+dicho problema. Definitivamente, el RCM tiene que autorizar el rebase de la sefial de salida
+
+mencionada.
+
+A las 18:04 el RC del CTC transmite telefonema n2195 al RCM para que autorice el rebase de la sefial
+de salida 3020/4 a tren 77554. A las 18:07 el RCM autoriza mediante telefonema al maquinista de
+tren 77554 a rebasar la mencionada sefial de salida con marcha a la vista y a las 18:08:40 sale el tren
+
+77554 de la via 4.
+
+a)
+MAMANRESA
+
+Imagen 12 Tren 77554 rebasando autorizadamente la sefial 3020/4 hacia via 2 general.
+Mientras tanto, el Técnico del PM, al tener conocimiento de la situacién, llama al CG de Rodalies para
+preguntar por el maquinista que ha dejado el CV A3 de la estacion de Manresa ocupado, el Técnico
+
+del CG le responde que en ningun momento le habian indicado al RCM la realizacion de la maniobra,
+
+--- Page 21 ---
+Informe Final 70/2022
+
+sino que Unicamente le habian preguntado por la opcion de llevarla a cabo. El Técnico del PM le
+
+comunica al Técnico del CG de Rodalies que el maquinista habia dejado la unidad fuera de piquete.
+
+A las 18:09 el RCM llama al CG de Rodalies y el Técnico del CG de Rodalies le reprocha que haya
+permitido que el maquinista hiciera el descanso cuando habia dejado la estacidn con algunas vias
+bloqueadas. Seguidamente el RCM se pone en contacto con el maquinista para transmitirle que la
+estacidn esta bloqueada por culpa del material que ha estacionado en via 5 y que se tiene que /levar
+el material con celeridad, el maquinista le contesta que en cinco minutos habra finalizado el refrigerio.
+Un minuto mas tarde, el RC del CTC llama al RCM y este ultimo le comenta que el CG de Rodalies /e
+ha echado Ia bronca porque no deberia haber permitido al maquinista a hacer el refrigerio teniendo
+
+bloqueada la via.
+
+A las 18:17:46 el RCM normaliza el desvio n°19 para, de esta manera, formar el itinerario de salida
+de via 5 de la estacion a la via par del trayecto. Instantes después, sobre las 18:19, el inspector-
+regulador del PM se pone en contacto con el RCM para clarificar si él le habia dado autorizacion al
+maquinista para hacer el refrigerio. El RCM le contesta que le dej6 ausentarse y que luego se dio
+cuenta de la ocupacion del circuito de via CV A3. Después de esta llamada, el inspector-regulador
+habla con el Supervisor de linea para comunicarle la situacién del tren de via 5 en Manresa y le
+comunica que van a abrir una ficha de incidencia por la pérdida de minutos de dos trenes (el 78439,
+
+42 minutos y el 77554, 11 minutos).
+
+Alas 18:24 el RCM se pone en contacto con el CG de Rodalies, le comunica que e/ material vacio va a
+salir ya y le pregunta por la maniobra que van a hacer con la UT que queda en topera de via 5, el CG
+responde que quieren hacer el tren 77558 con la UT que esta en via 4, en cabeza, y la UT no averiada
+de via 5, en cola, asumiendo que ambos materiales estan ya acoplados (el CG no conocia la situacién
+de los trenes dentro de la estacidn), pero el RCM les comunica que no lo estan ya que el material
+vacio (tren 95218) todavia no ha salido de via 5, la llamada concluye con el CG exigiendo al RCM que
+no saque el material vacio. Instantes después, el Técnico del CG llama al RCM para pedir explicaciones
+de la situacion en Manresa, le dice que deberian estar acopladas las dos unidades para el tren 77558
+y que no lo estan, el RCM le comenta que esto ha sido imposible ya que el material vacio no habia
+salido todavia de via 5, cuando el Técnico del CG se da cuenta de la situacion, le dice al RCM que no
+
+saque todavia nada.
+
+Seguidamente el RC del CTC llama al RCM para comunicarle que para expedir al material vacio de via
+5 le tendra que autorizar mediante un telefonema como el que le ha dado unos minutos antes para
+
+expedir al tren de via 4, el RCM le comenta que el CG de Rodalies le ha dicho que todavia no lo sacara.
+
+--- Page 22 ---
+22
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+Tras ello, el RC del CTC les comunica la situacion a los inspectores-reguladores y éstos llaman
+inmediatamente al CG de Rodalies para requerir explicaciones al Técnico del CG, pero les contestan
+
+que éste no esta disponible y que les llamara a la mayor brevedad.
+
+A las 18:28 el maquinista del tren 95218 llama al RCM para iniciar la marcha y el RCM le contesta que
+de momento no tienen orden de expedir el tren. A las 18:29 el Técnico del CG de Rodalies llama al
+RCM y le indica que saque el material vacio de via 5 y también le dice que forme el tren 77558 con el
+material que llega haciendo el tren 78443 y que después tratarian de acoplar las dos unidades que
+les quedan separadas (en via 5 y en via 4). Tras ello, el Técnico del CG llama al inspector-regulador y
+le traslada la misma informacidn afiadiéndole que con las unidades que quedarian en via 5 y via 4
+
+formaran el tren de las 19:30 (77562).
+
+A las 18:30 el RCM llama al RC del CTC para comunicarle que les han dado permiso para sacar el
+material de via 5, tras comentarle cémo van a proceder con los trenes siguientes, el RC del CTC pasa
+a explicarle como van a expedir la composicion de la via 5 y los telefonemas que son necesarios para
+ello. Una llamada del CG de Rodalies interrumpe la conversacién y el RCM comunica al RC del CTC
+que puede haber cambio de opinion, inmediatamente el inspector-regulador dice que no va a haber
+mds cambio de opinion y que el material vacio se tiene que ir ya. Tras ello el RC del CTC le transmite
+un telefonema al RCM con n2 196 para que autorice el rebase de la sefial de salida de Manresa a tren
+95218 (material vacio de via 5). Tras esta llamada, el inspector-regulador reprocha al RC del CTC que
+le haya autorizado el rebase de la sefial ya que, en su lugar, le deberia haber autorizado la expedicion,
+
+pues la sefial de salida ya se encontraba rebasada.
+
+A las 18:33 el RCM llama al maquinista de tren 95218 para preguntarle si esta listo para iniciar la
+marcha, respondiendo éste que si y seguidamente le transmite el telefonema de autorizacién de
+rebase de la sefial de salida numero 3020/5 con marcha a la vista hasta la sefial siguiente finalizando
+
+la llamada a las 18:34:28.
+
+Sobre las 18:34:23 el tren 78443 esta llegando a la estacion de Manresa, concretamente se encuentra
+en el circuito de via previo a la sefial de entrada 3023. Sobre las 18:34:32 el RCM comunica al RC del
+CTC que el material de via 5 ya se va a ir y comentan que al maquinista del tren 78443 también hay
+
+que autorizarle la entrada para estacionarlo en via 4.
+
+A las 18:35:27 el Supervisor de linea llama al RCM en referencia a la ficha GIFO abierta por la
+ocupacion prolongada del CVA3 afectando a las entradas y salidas del lado Sant Viceng de Castellet.
+
+Este Supervisor de linea le comenta qué deberia haber hecho con la situacién del descanso del
+
+--- Page 23 ---
+Informe Final 70/2022
+
+maquinista. El RCM afirma que reconoce su culpa. Durante esta conversacién de 2 minutos y 41
+segundos hay dos intentos de contacto por el Maquinista del tren 78443 situado delante de la sefial
+
+de entrada 3023 dando indicacion de parada.
+
+A las 18:37:10, el RCM invierte el escape 21/23 y el desvio n219 para formar itinerario de tren 78443
+a via 4, mientras que el tren 95218 todavia no ha iniciado su marcha desde via 5. Instantes después,
+a las 18:38:09 el RCM y el maquinista del tren 78443 establecen contacto y el RCM le autoriza
+mediante telefonema a rebasar la sefial de entrada 3023 de Manresa con marcha de maniobras hasta
+punto de estacionamiento, sin haber comprobado la salida del tren 95218. A las 18:38:52 el tren
+
+78443 rebasa dicha sefial.
+
+a)
+MAMANRESA®
+
+3040               2            1          2                                         CVA1O
+
+上
+
+CV3039
+
+3020/3
+
+Imagen 13 Tren 78443 se dispone a rebasar autorizadamente la sefial 3023 con el itinerario dispuesto hacia via 4. Tren 95218
+todavia no habia iniciado la marcha.
+
+A las 18:39:03, el maquinista de tren 95218, cuatro minutos después de recibir el telefonema, inicia
+por fin la marcha y a las 18:39:11, se ocupan todos los CV de agujas, a la vez que el tren 78443 esta
+entrando a via 4 con su itinerario formado, y alcanza la velocidad maxima de 17 km/h a las 18:39:43,
+después comienza a frenar y hace uso del freno de emergencia a las 18:39:53, circulando a una
+velocidad de 6km/h al apreciar la proximidad del tren 78443. Dos segundos después el tren queda
+detenido a las 18:39:55. El primer bogie del tren 95218 llega a talonar el desvio n219, aunque no
+
+descarrila y continua por la via.
+
+23
+
+--- Page 24 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+Simultaneamente, el tren 78443 tras el rebase de la sefial alcanza la velocidad maxima de 22 km/ha
+las 18:39:21, seguidamente comienza a frenar a las 18:39:45 al apreciar la presencia por su via del
+tren 95218 y 7 segundos después, a las 18:39:52, queda detenido. Los dos trenes quedaron
+
+enfrentados a una distancia de 40 metros aproximadamente.
+
+Tren 78443
+
+Tren 95218
+
+Imagen 14 Los trenes involucrados quedaron detenidos a una distancia de aproximadamente 40 metros entre sus cabezas.
+
+B) PLAN DE EMERGENCIA INTERNO-EXTERNO
+Una vez constatado el incidente operacional con la situacion de riesgo de colisién entre los trenes
+95218 y 78443, se activa la Ficha 7 sobre actuaciones en descarrilamientos y colisiones del Manual
+de Prevencion y Gestion de Incidencias de ADIF. Se cursa aviso a Renfe Viajeros y a los organos de
+ADIF afectados (Seguridad en la Circulacion, Mantenimiento de Infraestructura, Servicio Itinerante de
+Circulacién) asi como a las Fuerzas y Cuerpos de Seguridad del Estado. Se evacua a los viajeros del
+tren 78443 con ayuda de las Fuerzas y Cuerpos de Seguridad del Estado y de los Bomberos, dada la
+situacion del tren fuera de andenes. Se establece un Plan Alternativo de Transporte de modo que
+
+Renfe Viajeros realiza el servicio de viajeros por carretera entre Sant Vicenc de Castellet y Calaf.
+
+A las 19:25 h se releva al agente responsable de circulacidn de Manresa. A las 19:43 se informa de
+que bomberos y servicios de emergencia se encuentran en la zona y a las 19:45 finaliza el desalojo de
+
+los viajeros del tren 78443.
+
+Un agente de Instalaciones de seguridad procede a establecer los itinerarios haciendo uso de la
+
+manivela para retirar a los trenes. A las 23:20 se inicia movimiento de maniobra para el apartado de
+
+--- Page 25 ---
+Informe Final 70/2022
+
+los autopropulsados 447.049 y 447.117 hacia la sefial 3023. A las 23:50 se inicia movimiento de
+maniobra para el apartado de los autopropulsados 447.059 y 447.047 hacia la sefial R1. A las 0:20 los
+autopropulsados 447.049 y 447.117 se apartan en via 2 y a la 1:10 los autopropulsados 447.059 y
+447.047 se apartan en via 4. A las 1:13 los agentes de enclavamientos inician los trabajos de
+
+reparacion en el desvio n°19, finalizando a las 3:56.
+
+4  ANALISIS DEL SUCESO
+
+De la descripcidn de los hechos se pueden extraer las siguientes constataciones:
+
+1. EIRCM establecio itinerario para tren 78443 desde la sefial de entrada 3023 a via 4 y autoriz0
+al mismo el rebase de la sefial de entrada cuando minutos antes habia autorizado a iniciar la
+marcha al tren 95218 con un itinerario incompatible con el primero y, ademas, sin que éste
+hubiese emprendido la marcha. El maquinista de tren 95218 inicié la marcha, talong el desvio
+n219, pero no descarrild y continud por su via. Este incidente operacional dio como resultado
+una situacion de riesgo de colisién entre los trenes 78443 y 95218.
+
+MANRESA
+
+MANRESA - L220_LLEIDA PIRINEUS - L'HOSPITALET DE LL. - Km 301.719
+
+ozom                       Lo
+en Be    cve       cvaa 四
+ova           ae         piel    一
+
+S16   NS
+
+“RB               R2
+12      ®
+84019 R1                                                          suv         7
+-—                                                                                                   aw 67二
+Fa
+Ic             -一一               Ic     —
+3020/1                             3 |“
+uae            IS11         si
+oe cv il 1   EV.
+3020V VIA Ill
+Sry
+VIAV
+
+Imagen 15 Itinerarios incompatibles de los trenes 95218 (amarillo) y 78443 (azul)
+
+2. Desde que el RCM dicta el telefonema al maquinista de tren 95218 hasta que este reanuda
+la marcha transcurren cuatro minutos y medio aproximadamente. El maquinista no sali0
+inmediatamente tras recibir el telefonema, ni el RCM se percatd, ni por observacién directa
+ni a través de las comprobaciones del cuadro de mando, de que el tren no habia emprendido
+
+la marcha. El RCM autoriz6 al maquinista del tren 78443 el rebase de la sefial de entrada 3023
+
+--- Page 26 ---
+26
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+sin haber comprobado que el movimiento incompatible que habia autorizado (tren 95218 de
+via 5 de la estacion hacia via 2 del trayecto) todavia no se habia ejecutado.
+
+3. Entre las 18:34 que el RCM dio la autorizacién de rebase de la sefial de salida 3020/5 a tren
+95218 (esta sefial ya se encontraba rebasada) y las 18:39 que le autoriza el rebase de la sefial
+de entrada 3023 a tren 78443, el RCM mantuvo llamadas telefénicas con el RC del CTC y el
+Supervisor de linea mientras tenia que realizar la supervision del movimiento de tren 95218.
+
+4. Para la expedicién del tren 95218 era necesaria la transmisidn del telefonema
+correspondiente, ya que se expedia sin orden de la sefial de salida debido a que la cabeza de
+la composicién estaba mas alla de la sefial de salida 3020/5 (la via 5 no tenia capacidad para
+albergar tres unidades 447). Se maniobro en una via que no tenia capacidad suficiente.
+
+5. El telefonema que se emitio para que el tren 78443 rebasara la sefial de entrada 3023 y se
+estacionase en via 4 era necesario debido a las condiciones de funcionamiento del
+enclavamiento de la estacion dadas las circunstancias de explotacion en ese momento: via 4
+ocupada y CV A3 ocupado.
+
+6. La emisién de la orden de expedicién del tren 95218 se retraso en primer lugar por la
+realizacién del descanso reglamentario del maquinista y después por indicaciones del CG de
+
+Rodalies.
+
+4.1 COMETIDOS Y DEBERES RELACIONADOS CON EL SUCESO
+
+Emisién de los telefonemas de rebase de sefial a los trenes 95218 y 78443
+
+Desde que el RCM dicta el telefonema de autorizacidn de rebase, como orden de marcha, al
+maquinista de tren 95218 hasta que éste emprende la misma transcurren cuatro minutos y medio
+aproximadamente, por tanto, el maquinista no salié inmediatamente tras recibir el telefonema. El
+articulo 1.5.1.9. del RCF, en su punto 1, determina que /a orden de marcha de un tren quedard
+invalidada en el caso de que un tren parado no pueda salir inmediatamente después de haber recibido
+la orden de marcha. De este modo, al haber transcurrido cerca de cuatro minutos y medio tras la
+emision del telefonema, la orden de marcha estaba invalidada y, por lo tanto, el tren 95218 no
+
+deberia haber emprendido la marcha.
+
+--- Page 27 ---
+Informe Final 70/2022
+
+Imagen 16 Telefonemas dictados por el RCM en el libro de bloqueo de jaestacibn. La imagen ha sido tratada para su mejor
+visualizacion.
+
+El maquinista del tren 95218 recibio el telefonema por parte del RCM ya que le habia comunicado
+que se encontraba dispuesto para circular, no obstante, el tren no se encontraba dispuesto para
+circular ya que el maquinista no habia realizado todas las operaciones necesarias para ello. Dichas
+operaciones, relacionadas con la TFA del material remolcado, las realiz6 tras recibir el telefonema,
+
+siendo esta la razon de la demora en la salida.
+
+Ademas, la expedicién del tren 95218 mediante telefonema de autorizacién de rebase de sefial
+3020/5 no era la forma mas adecuada debido a que ésta ya se encontraba rebasada. Se deberia haber
+expedido al tren mediante un telefonema de marche el tren, tal y como se indica en el articulo 4.2.1.3.
+del RCF sobre expedicidn de trenes desde vias sin sefial de salida. De acuerdo con este articulo, para
+realizar la expedicion del tren estando la estacion en BAD con CTC en ML, se deberia haber
+comprobado por observacion directa la apertura de una sefial de salida del mismo lado. Sin embargo,
+dadas las condiciones de explotacion de la estacion con el CV A3 ocupado y el itinerario de la sefial
+R1 a via5 sin disolver, la apertura de una sefial de salida del mismo lado no era posible. Si se hubiera
+
+disuelto dicho itinerario, se habria podido abrir la sefial de salida de via 4.
+
+Por otro lado, el RCM no se percato de que el tren no habia emprendido la marcha ya que no
+comprobo si habia efectuado atin su salida, ni por medio de observaci6n directa, ni a través de
+comunicacion con el maquinista o el CTC, ni con el cuadro de mando del gabinete de circulacion de
+Manresa. Por tanto, el RCM autorizo al maquinista del tren 78443 el rebase de la sefial de entrada
+
+3023 sin haber comprobado que el movimiento incompatible que habia autorizado (tren 95218 de
+
+
+--- Page 28 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+via 5 de la estacion hacia via 2 del trayecto) todavia no se habia ejecutado. De acuerdo con el articulo
+5.2.1.2. del RCF, entre las medidas necesarias para garantizar la seguridad que se deben tener en
+cuenta al autorizar un rebase de una sefial que ordena parada, se comprobara que no haya autorizado
+ningun movimiento incompatible. Por tanto, se deberia haber comprobado que el tren 95218 habia
+salido a trayecto antes de haber establecido itinerario de entrada para el tren 78443 y haberle
+
+autorizado el rebase de la sefial de entrada 3023.
+
+De acuerdo con el articulo 2.1.7.2. del RCF, todos los trenes dispondran de sefializacion de cola. La
+sefializacioén de la unidad averiada en via 5 que se remolco no podia estar formada por las sefiales
+propias del vehiculo debido a la desconexidn de su bateria, por lo que, de acuerdo con ese mismo
+articulo, la sefializacion de cola se deberia haber formado por dos sefiales portatiles colocadas en los
+soportes laterales de la parte posterior del ultimo vehiculo o, en su defecto, situadas en el interior de
+la cabina siendo visibles desde el exterior. La CIAF no ha podido constatar que se colocaran ni que se
+
+adoptaran las medidas previstas en el Art. 3.6.4.2. Punto 2 del RCF.
+
+Tiempo transcurrido para la expedicion del tren 95218
+
+El material rodante y el maquinista con los que se queria hacer la maniobra de remolcado de material
+averiado en via 5 llegaron a la estacion de Manresa a las 16:41 y el maquinista comenzo a hacer la
+maniobra a las 17:15 finalizandola a las 17:28. La expedicion del tren 95218 se podria haber realizado
+a partir de entonces, sin embargo, no se realizé en primer lugar porque el maquinista hizo un
+
+descanso y posteriormente por indicaciones del Centro de Gestion de Rodalies.
+
+El suceso acontecié en un dia festivo con una circulacion de trenes de Rodalies cada 50 minutos
+aproximadamente. Llegaba un tren del lado Barcelona, permanecia estacionado en via 4 y rotaba
+hacia el mismo lado a los 50 minutos, ademas solo habia dos movimientos de paso de trenes
+regionales por via 2 (hacia Lleida Pirineus, a las 15:45, y hacia Barcelona Francia, a las 17:06). Por
+tanto, el numero de circulaciones no suponia un impedimento para poder haber expedido el tren lo
+
+antes posible y con la minima afeccion a las circulaciones con origen y destino en Manresa.
+
+MANRESA
+
+16                                  47                                   18
+
+Imagen 17 Malla de circulacion tedrica entre Sant Viceng de Castellet y Calaf entre las 16:00 y las 18:40. En marron, los trenes
+regionales y en rojo los servicios de Rodalies.
+
+--- Page 29 ---
+Informe Final 70/2022
+
+Entre las 17:30 y las 18:24 el maquinista, que habia estado anteriormente de servicio en la estacion
+de L’Hospitalet de Llobregat para la realizacion de maniobras, realiz6 un descanso que él considerd
+reglamentario y obligatorio, a pesar de que ese dia no habia conducido hasta que hizo la propia
+maniobra de via 4 a via 5. Este descanso supuso una perturbacion tanto en la hora a la que se expidid
+
+el material vacio, asi como en las condiciones de explotacion del enclavamiento de la estaci6n.
+
+A pesar de que el CG de Rodalies dispone de la informacion sobre las jornadas de los maquinistas en
+sus aplicaciones informaticas, el CG de Rodalies no conoce las horas de conduccion efectivas de los
+maquinistas que estan haciendo servicios de maniobras en una estacién, por lo que es el propio
+maquinista el que debe conocer cuando le corresponde la realizacién de los descansos
+reglamentarios. No obstante, es conveniente que los centros de gestion conozcan las circunstancias
+
+del personal que trasladan de una estacion a otra para la realizacion de servicios no programados.
+
+Sobre las 18:24 el personal del CG de Rodalies exigio directamente al RCM que no expidiera al tren
+95218 debido a que la operativa en Manresa no se habia resuelto tal y como habian indicado, ya que
+el material de via 4 no se habia acoplado con la cola de via 5, y que por lo tanto debia de esperar. El
+
+RCM acepto esta indicacion del CG de Rodalies y se la comunicé al RC del CTC, que también la acepto.
+
+Como ya se ha comentado previamente, la maniobra que se solicito por parte del CG de Rodalies y
+que se acepto por parte del RCM era factible. De acuerdo con el articulo 3.5.2.1. del RCF, la direccién
+de maniobras le corresponde al responsable de circulacion a cargo de la estacion por lo que es éste
+quién deberia autorizar el inicio y suspensidn de estas y dar instrucciones al personal que deba
+realizarlas sobre su finalidad, y el momento y lugar en que deben realizarse, asi como asegurarse de
+su cumplimiento. No obstante, el proceso de planificacién de la maniobra, principalmente en la
+determinacion del modo de resolverla y del momento en el que ejecutarla, vino indicado por el CG
+
+de Rodalies y fue aceptado por el RCM.
+
+Ambos responsables de circulacién, RCM y RC del CTC, no deberian haber atendido a lo indicado por
+el CG de Rodalies de no expedir al tren 95218 ya que estaba afectando al normal funcionamiento de
+
+la estacion y estaba produciendo una situacion degradada con una afectacion indirecta ala seguridad.
+
+Condiciones de marcha impuestas a los maquinistas de los trenes 95218 y 78443
+
+Las condiciones de marcha especificas impuestas a los dos maquinistas en los respectivos
+telefonemas de rebase de sefiales (marcha a la vista al maquinista del tren 95218 y marcha de
+maniobras al del 78443) por parte del RCM y el cumplimiento de estas por ambos maquinistas han
+
+actuado como barrera que ha evitado la colision de ambos trenes.
+
+--- Page 30 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+Imagen 18 Zona de la estacion en la que se produjo el riesgo de colisién. Se aprecia que es una zona en curva cerrada y a media
+ladera con la zona del desmonte en el lado interior de la curva.
+
+4.2 MATERIAL RODANTE E INSTALACIONES TECNICAS.
+
+Material rodante: averia de la UT 447.047
+
+El dia 15 de agosto por la mafiana un maquinista iba a trasladar la UT 447.047, que estaba estacionada
+en via 5; sin embargo, se encontré con que al liberar saltaba el magnetotérmico 1Q18A (Auxiliar
+Mando de freno) constantemente y, por tanto, el tren no podia traccionar. Tras varias revisiones por
+personal de la empresa de mantenimiento Irvia, se analizo el circuito eléctrico y se detectd una
+derivacion en el cableado del lazo de urgencia del ERTMS que provocaba el salto del mencionado
+magnetotérmico. Por lo tanto, se consider6 que su remolcado era la Unica opcidn factible para
+trasladarlo a los talleres de Montcada. Para ello se realizé la maniobra con una unidad para trasladarla
+
+de via 4 a la cabeza de via 5, para asi remolcar el material averiado.
+
+--- Page 31 ---
+Informe Final 70/2022
+
+Después de que el maquinista realizara la maniobra de via 4 a via 5, se acoplo mecanicamente, por
+
+ambos coches motores impares, y se ejecutaron las operaciones necesarias para su remolque.
+
+Infraestructura e instalaciones: caracteristicas del enclavamiento eléctrico de Manresa para el
+
+analisis del incidente
+
+La operativa que se planted en la estacidn de Manresa llevo a una situacion de explotacion de la
+estacion en la que la via 4 estaba ocupada por una unidad de la serie 447 y el circuito de via de agujas
+CV A3 ocupado por otra unidad 447 que servia como unidad tractora para remolcar el material
+
+averiado de via 5.
+
+De acuerdo con el cuadro de movimientos de la Consigna Serie A n21398 de la Estacion de Manresa,
+el enclavamiento eléctrico no permite la apertura de la sefial 3023 de entrada lado Barcelona con
+rebase autorizado a via 4 si el circuito de via CV 4 esta ocupado. Esta circunstancia hizo necesaria la
+
+emision del telefonema de rebase de sefial para el tren 78443.
+
+CIRCUITOS DE VIA NECESARIAMENTE LIBRES    INDICACIONES DE   Las    SENALES
+
+MOVIMIENTOS       IEVICVIEVIEV EV ICV eV eyycv eV EVICVEV evevev
+
+lezlaraiolaa| ra |m {Wl v | 6 [ao aspceas asus) €2]e2|R2 5), Phe] malo fe Peas py
+io|paso DIRECTO DE BARCELONA A ZARAGOZA [LIL 上| |L          | |vit|e foléielole) le      lelelelelelglo
+11 [ENTRADA LADO BARCELONA A VIA _T         fi       |     |国四四加           6       lel je    [ols
+Bl «   «      +6    |         国吕|    |u[t folelelelel lele| jelelelelelele|
+本| 元  Fi   %  <4 ae    |        国国口        e     e| 2   Blo
+上| 。   了    wa eV     |      |    |     ciele       | {lel |_| lel te    Ho
+
+Imagen 19 Cuadro de movimientos de la estacién de Manresa. El movimiento de entrada del lado Barcelona a via 4 exige el CV 4
+libre.
+
+Por otro lado, de acuerdo con la mencionada consigna, la liberacion normal de itinerarios se realiza
+por tramos segun se van ocupando y liberando sucesivamente por el tren los circuitos de via de la
+ruta establecida, efectuandose en el caso de los itinerarios de entrada, cuando el tren libera el circuito
+de agujas de entrada. De este modo, el itinerario de maniobras de la sefial R1 a via 5, realizado para
+maniobrar la UT tractora a esta via, al no desocuparse el CV A3, no se liberd de forma normal, por lo
+tanto, si se tratase de formar algun itinerario incompatible con el mismo, este no se ejecutaria. Por
+lo tanto, si la via 4 no hubiera estado ocupada, la sefial de entrada 3023 no se habria podido abrir
+para itinerario a via 4 ya que el CV A3 estaba ocupado, ni la sefial de salida 3020/4 se habria podido
+abrir para itinerario de via 4 a via 2 del lado Barcelona. No obstante, si se hubiese liberado de forma
+artificial el itinerario de R1 a via 5, mediante la actuacién sobre el pulsador de Sefiales en Alto del
+Cuadro de Mando o la aplicacién de una disolucion artificial de itinerario desde el CTC, si que se
+
+hubiese podido abrir la sefial de salida 3020/4 hacia el lado Barcelona por via 2.
+
+--- Page 32 ---
+32
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+También cabe mencionar que el enclavamiento no contempla el movimiento de entrada del lado
+Barcelona por la via general impar a via 2 de la estacion, de acuerdo con el cuadro de movimientos
+de su consigna. Ademas, segun lo especificado en el disefio original, la via 1 no dispone de sefial de
+
+salida hacia el lado Barcelona y la via 2 hacia el lado Calaf.
+
+La forma actual de explotacién de Manresa al ser cabecera de linea de Rodalies y la utilizacion de las
+vias pares para hacer las correspondientes rotaciones hace conveniente que se actualice su
+enclavamiento de tal forma que se agilice su operacidn y se garantice la seguridad de los
+movimientos, de modo que ninguno de éstos se tenga que establecer mediante autorizaciones de
+rebase de sefial por parte de los responsables de circulacion de la estacion, sino mediante apertura
+de sefiales. El enclavamiento eléctrico de Manresa presenta una serie de peculiaridades que hace
+que, dada la forma actual de explotacidn de la estacién, los responsables de circulacion de la estacién
+
+tengan que intervenir en un numero elevado de ocasiones.
+
+4.3. FACTORES HUMANOS
+
+Actuaci6n del RCM al no percatarse de que el tren 95218 no salié inmediatamente
+
+EI RCM no se percato de que el tren 95218 no habia emprendido la marcha de forma inmediata tras
+haberle trasladado el telefonema correspondiente. De este modo, asumig errdéneamente que el
+maquinista habia emprendido la marcha y comenzo a preparar el itinerario de entrada del tren 78443,
+
+por lo que minutos después autoriz6 a ese tren la entrada a la estacion de Manresa.
+
+Entre las 18:34 que el RCM dio la autorizacion de rebase de la sefial de salida al maquinista de tren
+95218 y las 18:39, casi cinco minutos mas tarde, que se la dio al del tren 78443, el RCM mantuvo
+llamadas telefonicas con el RC del CTC y el Supervisor de linea que pudieron actuar como elemento
+que contribuyo a un desvio del foco atencional por parte del RCM de la supervision del movimiento
+
+de tren 95218 hacia dichas Ilamadas.
+
+El Supervisor de linea llamg6 al RCM para advertirle que no deberia haber tolerado que se llegase a
+formar tal situacion de explotacién en la estacion de Manresa, al haber permitido al maquinista hacer
+el descanso reglamentario dejando un circuito de via ocupado, es decir, la llamada no tuvo como
+objetivo dar indicaciones operativas al RCM sobre la explotacidn de la estacién, sino que puede
+interpretarse como un apercibimiento por parte de un superior jerarquico. Este tipo de
+interrupciones durante el desarrollo de las funciones del personal de circulacion no mejoran el
+desempeiio de estas y en muchas ocasiones puede suponer un elemento distractor con el riesgo que
+
+ello implica.
+
+--- Page 33 ---
+Informe Final 70/2022
+
+El Supervisor de linea es el superior organico del personal de circulacion que se encuentra en
+
+estaciones y no imparte ordenes operativas a éstos para la coordinacion de la circulacién.
+
+Por otro lado, en el gabinete de circulacidn de Manresa el RCM dispone del teléfono de comunicacién
+con el CTC en un lado distinto en el que se ubica el cuadro de mando (CM), de modo que al atender
+
+a llamadas los responsables de circulacion pueden apartar la vista de dicho cuadro.
+
+Ordenador
+con mallas y
+AGER              Terminal de
+radiotelefonia
+tren-tierra
+
+Megafonia de
+la estacién
+
+Terminal de
+telefonia
+automatica
+
+Libros de paso de
+trenes y
+telefonemas
+
+Imagen 20 Situaci6n de los distintos elementos del gabinete de circulacion de la estacibn de Manresa
+
+EI RCM solo dispone de la informacién aportada por el CM. Las indicaciones de ocupacion de circuitos
+de via en dicho CM consisten en unos visores circulares que se iluminan con una luz blanco-
+amarillenta con la ocupacion de los circuitos de via. Las indicaciones de posicion de los aparatos de
+via de la estacion consisten en unos visores rectangulares que se iluminan con la misma luz blanco-
+amarillenta de los circuitos de via. Ademas, los responsables de circulacién suelen estar mas
+acostumbrados al uso de videograficos, donde es mas facil seguir el recorrido de un tren en una
+estacién. De este modo, para los responsables de circulacion que estan acostumbrados al uso de
+videograficos, la visualizacion de la ocupacién de los circuitos de via en estos cuadros de mando
+
+puede ser mas dificil.
+
+--- Page 34 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+El RCM no dispone de informacion procedente de ningun sistema videografico similar al empleado
+en los CTC 0 al de los sistemas de ayuda al mantenimiento. Unicamente dispone de la informacion
+del CM y de la aplicacién Gtrenes que informa sobre el horario de los trenes (llegada y salida) de la
+
+estacion.
+
+Ademas, Manresa es una estacion con dificultades de visualizacién directa de sefiales y movimientos
+de salida desde el gabinete por estar en curva hacia el lado Barcelona, por ello cabria proponer la
+
+introduccién de elementos que mejoraran la visualizacion de la zona y vias de salida lado Barcelona.
+
+Imagen 21 Detalle de las luces del CM: en amarillo se ilumina la ocupaci6n de los circuitos de via (circulos) y la posicién de los
+aparatos de via (rectangulos).
+
+Por otro lado, el RCM supuso que al haber pasado tiempo suficiente desde que emitio el telefonema
+al tren 95218, éste ya habria abandonado la estacion. Esto puede ser indicativo de una falta de
+conocimiento por parte del RCM de que la salida del tren tiene que ser inmediata cuando se da un
+telefonema, por lo que haria falta la comprobacién fehaciente de su salida y no basarse
+exclusivamente en la percepcion de si ha pasado tiempo suficiente o no o en otro tipo de
+suposiciones, teniendo en cuenta que al realizar movimientos no protegidos por sefiales se carece de
+la proteccién los enclavamientos, y la seguridad descansa en la correcta aplicacion de los
+
+procedimientos reglamentarios.
+
+Actuacion del RCM al permitir la realizaci6n de la maniobra ocupando el CV A3
+
+El telefonema que se emitid para expedir al tren 95218 era necesario ya que la cabeza de la
+composicion estaba mas alla de la sefial de salida 3020/5 debido a que la via 5 no tenia capacidad
+
+para albergar tres unidades 447. Se maniobro en una via que no tenia capacidad suficiente.
+
+--- Page 35 ---
+Informe Final 70/2022
+
+EI RCM respondig positivamente a la peticion del CG de Rodalies de maniobrar una tercera unidad a
+la via 5 ya que consideré que dicha via tenia capacidad suficiente para albergar tres unidades.
+Consider6 esto ultimo porque, a pesar de ser correctas las mediciones consultadas de distancias entre
+toperas, sefial de salida 3020/5 y desvio n21, supuso que el circuito de via de agujas no se ocuparia
+
+en la medida en que la cabeza de la tercera unidad no ocupara fisicamente las agujas del desvio n21.
+
+Cabeza de
+tren sobre D1
+
+Imagen 22 Vista aérea del lado Sant Viceng de Castellet con las tres unidades 447 en via 5: rebasa la sefial 3020/5 y la cabeza se
+queda proxima al desvio n°1.
+
+EI RCM, al conocer que la UT adicional que se iba a maniobrar a via 5 iba a rebasar la sefial 3020/5,
+deberia haber sabido que iba ocupar el circuito de agujas CV A3 y que esto iba a complicar el
+desarrollo de la operativa y a comprometer la normal explotacion de la estacion. Por tanto, se puede
+considerar como un error de falta de conocimiento del funcionamiento de la estacion por parte del
+
+RCM.
+
+Por otro lado, el RCM toleré que el maquinista hiciera el descanso reglamentario dejando el CV A3
+ocupado y complicando la operativa en la estacidn, cuando éste podria haber deshecho la maniobra
+
+sin ningun problema.
+
+El RCM llevaba trabajando para ADIF, en la propia estacién de Manresa, desde mayo, habiendo
+realizado practicas en la misma durante los meses de febrero y marzo. Su breve experiencia pudo
+influir negativamente en una toma de decisiones desacertada a la hora de permitir la maniobra y el
+
+descanso del maquinista. Tuvo una actitud proactiva y dispuesta a la resolucion de la incidencia de
+
+--- Page 36 ---
+36
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+remolcado que planted el CG de Rodalies, sin embargo, esta actitud combinada con una falta de
+experiencia y de ciertos conocimientos es lo que le llevo a una toma de decisiones que condujeron a
+una situacién degradada en la explotacion de la estacion, debiendo autorizar rebases de sefial para
+
+la entrada y salida de trenes en el lado Barcelona.
+
+Actuaci6n del maquinista al emprender la marcha con la orden invalidada
+
+El maquinista del tren 95218 emprendié la marcha a pesar de que deberia haber considerado que la
+orden de marcha estaba invalidada. Se trata de un error consistente en la no consideracién del
+articulo 1.5.1.7. del Libro de Normas del Maquinista del Grupo Renfe, que da cumplimiento al articulo
+
+1.5.1.9. del RCF, por parte del maquinista, por lo que se trata de un error de regla.
+
+La preparacion de las tareas necesarias para iniciar la marcha del tren cuando este ya estaba dado
+dispuesto, a pesar de que las deberia haber realizado previamente, pudo contribuir a este error ya
+que pudo hacer que se distrajera y no fuera plenamente consciente del transcurso del tiempo.
+Ademas, el maquinista consideré erréneamente que el RCM era conocedor de que el tren tardaria
+
+cierto tiempo en salir, aunque no hubo ninguna comunicacién formal a este respecto.
+
+4.4 MECANISMOS DE RETROALIMENTACION Y CONTROL
+
+Autoridad de los agentes de circulacién
+
+Desde las jefaturas de circulacion del area noreste de ADIF, se aprecia una actitud generalizada en el
+personal de circulacion consistente en una carencia de habilidades asertivas que les ayuden a hacer
+efectiva su competencia de direccidn de la circulacidn, de modo que frente a peticiones, solicitudes,
+sugerencias e injerencias de otros agentes ferroviarios, como pueden ser los maquinistas o el
+personal de los centros de gestion, y que implican una alteracion de las condiciones de circulacién
+que ellos tienen que garantizar, responden sin ejercer su autoridad de manera firme y sin capacidad
+de mando. Por ello, es preciso que todo el personal de circulacion conozca y entienda cuales son sus
+funciones, competencias y responsabilidades y que todo el personal de circulacion tenga habilidades
+
+interpersonales para hacerlas prevalecer frente a las injerencias de otros agentes ferroviarios.
+
+La organizacion de tareas en las que su estructura y la jerarquia entre los distintos agentes estan
+claramente definidas favorece el respeto a la autoridad y la capacidad de mando de aquellos agentes
+que tienen encomendadas labores de direccion. Por el contrario, la organizacion de tareas que
+implican a unidades de produccidn independientes (empresas distintas, departamentos o direcciones
+distintas y muy alejadas entre si dentro del organigrama de una misma empresa) no es favorable a
+
+ello, de modo que el correcto desempejio de éstas depende exclusivamente de la cooperacién
+
+--- Page 37 ---
+Informe Final 70/2022
+
+voluntaria entre las mismas. De este modo, las maniobras ferroviarias, al implicar a distintos agentes
+ferroviarios pertenecientes a administradores de infraestructuras y empresas ferroviarias, son una
+
+tarea en las que el respeto a la autoridad para su direccién puede verse limitada.
+
+Por ello, es fundamental el refuerzo de la autoridad de todos los agentes de circulacién. La normativa
+vigente es lo suficientemente clara en el establecimiento de la autoridad de los responsables de
+circulacion para la direccidn de maniobras y, en definitiva, para todo lo relativo a la circulacién, por
+lo que hay que exigir su cumplimiento mediante la deteccion y correccion de actuaciones impropias
+
+por parte de los supervisores de los agentes de circulacién.
+
+Autorizaciones de rebase de sefial
+
+El fallo humano en las autorizaciones de rebase de sefial por parte de los responsables de circulacion
+a la hora de realizar las comprobaciones exigidas por el articulo 5.2.1.2. del RCF no es un fallo
+frecuente en el puesto de mando de la estacion de Barcelona Francia, segun la jefatura de circulacién
+noreste. Desde esta jefatura se insiste a los RC en que, en todo momento y principalmente cuando
+se esta llevando a cabo una labor de seguridad como es el aseguramiento de esta antes de autorizar
+a un maquinista a rebasar una sefial que indica parada, sean conscientes del estado de la situacion
+en la estacién, es decir, de los trenes que hay en ese momento, en qué vias se ubican y los
+movimientos que se encuentran ejecutando. Ademas, también se les debe exigir que tengan una
+
+percepcion del riesgo alta principalmente en situaciones degradadas.
+
+Comunicaciones entre responsables de circulacién y maquinistas
+
+La falta de entendimiento entre maquinistas y responsables de circulacién, como la que se produjo
+en este caso por parte del maquinista del tren 95218 al suponer que el RCM conocia que iba a tardar
+un tiempo en emprender la marcha, se produce con cierta frecuencia. Ademas, se ha evidenciado
+que en muchas bastantes ocasiones los maquinistas asumen que los responsables de circulacién
+conocen exactamente la localizacion y situacion real del tren, cuando ésto realmente no puede ser
+asi. Desde los mandos de supervision de las actividades de los maquinistas, se debe advertir a éstos
+de la importancia que, para el aseguramiento de la seguridad, tiene la correcta transmisién de
+
+informacion entre ellos y los puestos de mando y la formalizacion de esta.
+
+La figura organizativa del mando intermedio en Renfe Viajeros es importante para la realizacién de
+tutelaje de maquinistas, especialmente en zonas en las que hay un alto porcentaje de maquinistas
+con pocos afios de experiencia. En la actualidad, y segun las indagaciones realizadas, dentro de los
+
+servicios de Rodalies en Barcelona hay escasez de este personal y solo se puede dedicar casi en
+
+--- Page 38 ---
+38
+
+Comision de Investigacion de Accidentes Ferroviarios
+
+exclusiva a labores formativas, por lo que les resulta muy dificil llevar a cabo tareas de seguimiento
+
+de los maquinistas. Ademas, apenas hay mandos intermedios con mas de 5 afios de experiencia.
+
+De este modo, Renfe Viajeros deberia disponer los medios y recursos necesarios para que estos
+tutores existan en cantidad conveniente, tengan la capacitacion y aptitud necesarias y ejerzan su
+
+actividad tanto formativa como de supervision y seguimiento.
+
+4.5 INCIDENCIAS ANTERIORES DE CARACTER SIMILAR
+
+Informe Final de la CIAF 12/2019 Accidente ferroviario ocurrido en el antiguo apeadero de
+
+Castellgali (Barcelona), el 8 de febrero de 2019.
+
+El dia 8 de febrero de 2019 a las 18:19 en la linea 220 Lleida-Pirineus-L’Hospitalet de Llobregat entre
+las estaciones de Manresa y Sant Vicenc de Castellet tuvo lugar un accidente grave consistente en
+una colision frontal cerca del antiguo apeadero de Castellgali. Los trenes involucrados fueron el tren
+15624, Media Distancia de Renfe Viajeros entre Lleida y Barcelona, y el tren 28043, Rodalies de Renfe
+Viajeros desde Sant Vicenc de Calders hacia Manresa. El tren 15624 habia sido expedido hacia
+Barcelona desde la estacion de Manresa, que estaba en Mando Local, desde la via 1 mediante un
+telefonema de marche el tren ya que dicha via no tenia sefial de salida, y debido a una incorrecta
+disposicion del itinerario de salida, se le encamino por via impar en sentido contrario al del BAD. El
+tren 28043 circulaba correctamente por via impar en sentido Manresa al amparo del BAD desde la
+
+estacion de Sant Vicenc de Castellet, colateral a lade Manresa.
+
+La carencia de sefial de salida en via 1 por el lado de Barcelona determino que existiera la necesidad
+de aplicar el articulo 4.2.1.3- punto 2 del RCF para la expedicidn de trenes desde la via 1, segun el cual
+el RC debera hacer una serie de operaciones como la comprobacion por observacion directa de otras
+sefiales y la transmisién de telefonemas. Por ello, la CIAF recomendo estudiar la posibilidad de
+modificar las instalaciones de la estacion de Manresa para dotar de sefial de salida a todas las vias de
+
+circulacion.
+
+Informe Final de la CIAF 9/2021 Incidente operacional ocurrido el dia 05/02/2021 en la estacién de
+Blanes (Girona)
+
+El dia 5 de febrero de 2021 sobre las 8:00 de la mafiana en el lado Maganet/Massanes de la estacion
+de Blanes tuvo lugar un incidente operacional consistente en una orden de marcha indebida en el
+que estuvieron implicados dos trenes de Renfe Viajeros: el tren 25603, que habia sido autorizado a
+rebasar la sefial de salida en direccidn a Macganet/Massanes con el bloqueo establecido en sentido
+
+contrario, y el tren 25614 que venia desde Macanet/Massanes que se encontraba detenido frente a
+
+--- Page 39 ---
+Informe Final 70/2022
+
+la sefial de entrada E2 de la estacion de Blanes. Este ultimo era un tren ordinario que circulaba
+inmediatamente después de otro tren que, al venir con retraso, tuvo que ser reacomodado en la
+malla de circulaciones como tren especial con tres numeraciones: 30852 hasta Macanet/Massanes,
+95756 entre Macanet/Massanes y Blanes y 25612 desde Blanes. El suceso quedo en un incidente
+operacional sin mayores consecuencias porque el maquinista del tren 25603 se detuvo al ver al otro
+
+tren, sin llegar a rebasar la sefial de salida.
+
+Contribuy6 a este incidente la existencia de una comunicaci6n directa por el personal del CG de Renfe
+Viajeros a los dos RC involucrados en el incidente de las alteraciones de la malla ese dia, sin que
+internamente en el PM se hubiera llevado a cabo una verificacion de que todos los RC afectados
+estaban informados y de que la informacion transmitida era coherente. Por ello, la CIAF recomendd
+establecer un canal y procedimiento de interlocucién entre el PM y los CG de las EEFF, de forma que
+no se interfiriera en la coordinacién y supervision de la informacién que precisan los RC para
+
+desarrollar sus funciones.
+
+De acuerdo con el personal de ADIF, las llamadas de los CG a los RC del CTC han disminuido en buena
+medida desde el incidente de Blanes. Sin embargo, se siguen produciendo comunicaciones directas
+de los CG a los RC de las estaciones en mando local. De este modo, se deberian concretar los canales
+de comunicacién de los centros de gestion de las empresas ferroviarias con las estaciones en mando
+local, asi como establecer las atribuciones del personal y la funcionalidad de los RC en estas estaciones
+en relacion con los responsables e inspectores-reguladores de la circulacion en las bandas del CTC en
+
+las que se ubican.
+
+--- Page 40 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+5
+
+5.1
+
+CONCLUSIONES
+
+RESUMEN DEL ANALISIS Y CONCLUSIONES
+
+Analizada toda la documentacion y todos los datos se consideran los siguientes factores:
+Causales:
+
+1. Autorizacién de rebase de sefial de entrada 3023 al maquinista del tren 78443 sin haber
+
+comprobado que el movimiento incompatible que se habia autorizado previamente, tren
+95218 de via 5 de la estacion hacia via 2 del trayecto, todavia no se habia ejecutado.
+Incumplimiento del articulo 5.2.1.2. del RCF
+
+Inicio de la marcha del tren 95218 cuando su orden de marcha estaba invalidada al no salir
+
+de forma inmediata tras recibir el telefonema. Incumplimiento del articulo 1.5.1.9. del RCF.
+
+Contributivos:
+
+La falta de experiencia y de ciertos conocimientos del RCM, combinada con una actitud
+proactiva y dispuesta a la resolucién de la incidencia de remolcado que planted el CG de
+Rodalies le llevé a una toma de decisiones que originaron una situacion degradada en la
+explotacién de la estacién, debiendo autorizar rebases de sefial para la entrada y salida de
+trenes en el lado Barcelona
+
+EI CG de Rodalies indico taxativamente al RCM la no expedicidn del tren 95218, cuando este
+ya podria haber sido expedido, siendo aceptada por el RCM y el RC del CTC. Esto supuso una
+injerencia del CG de Rodalies en la gestion de la circulacidn de la estacidn de Manresa
+manteniendo en el tiempo la situacion degradada que estaba teniendo lugar.
+
+La atencién por parte del RCM a llamadas telefonicas que no estaban relacionadas de forma
+directa con la circulacion supuso un elemento distractor a la hora de comprobar la salida del
+tren 95218.
+
+El maquinista de tren 95218 realizo un descanso que considerg obligatorio, cuando no lo era,
+dando lugar a una perturbacién en la hora de salida del tren y en las condiciones de
+explotacién de la estacién.
+
+Problemas en el modo y forma de comunicacién entre el maquinista del tren 95218 y RCM
+que provoca que no se produzca una correcta transmisién de la informacion entre ambos.
+
+Ver Recomendaci6én 70/2022-4
+
+--- Page 41 ---
+Informe Final 70/2022
+
+Sistémicos:
+
+1. El enclavamiento eléctrico de Manresa presenta una serie de peculiaridades y limitaciones
+que hace que se produzcan un numero elevado de situaciones degradadas que obligan al RC
+a intervenir directamente, sin la proteccién del enclavamiento. Ver medidas adoptadas.
+
+2. Existencia de dificultades en la estacidn de Manresa para comprobar de forma fehaciente la
+expedicion de trenes. Ver medidas adoptadas.
+
+3. Deficiencia en las habilidades asertivas del personal de circulacion que dificulta hacer efectiva
+su competencia de direccion de la circulacién frente a las posibles injerencias por parte de
+otros agentes ferroviarios. Ver Recomendaciones 70/2022-1 y 70/2022-2.
+
+4. Comunicaciones directas entre los responsables de circulacién de las estaciones en mando
+
+local y los Centros de Gestion de las empresas ferroviarias. Ver Recomendacion 70/2022-3.
+
+--- Page 42 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+Imagen 23 Arbol de causas del suceso
+
+
+--- Page 43 ---
+Informe Final 70/2022
+
+5.2 MEDIDAS ADOPTADAS DESDE EL SUCESO
+
+Por parte del administrador de infraestructura, actualmente en las Subdirecciones de circulacion se
+esta trabajando en un proyecto de listas de chequeo para, entre otras operativas, facilitar el trabajo
+alos RC cuando tengan que autorizar el rebase de sefial a un tren o una maniobra de modo que quede
+un registro de la actividad. Para ello utilizarian una Tablet en la que marcarian las condiciones que se
+deben cumplir para autorizar el rebase de una sefial. Ademas, desde RRHH de ADIF se esta planteando
+la incorporaci6n de personal de refuerzo para la intervencion en situaciones degradadas. Es necesario
+que esta medida sea operativa y convendria analizar su eficacia una vez que se implemente. Junto a
+
+ella convendria también aumentar la formacion y entrenamiento de los RC.
+
+Por otro lado, la sustitucién del enclavamiento de Manresa por uno electronico se lleva afios
+solicitando, sin embargo, actualmente este proyecto esta en fase de ejecucidn y, segtin ADIF, se prevé
+su puesta en servicio para mayo de 2023. También se va a llevar a cabo la implantacion de un bloqueo
+
+automatico banalizado (BAB) entre Manresa y Terrassa. El BLAU entre Manresa y Calaf se mantendra.
+
+El proyecto contempla la introduccidn de un Puesto Local de Operaciones (PLO). Este sera acorde con
+
+la normativa vigente para el disefio de videograficos y se ejecutara con la tecnologia mas reciente.
+
+El programa de explotacion incluye todos aquellos movimientos que antes no se podian ejecutar
+
+mediante el enclavamiento y que exigian la intervencidn directa del responsable de circulacion.
+
+5.3 OBSERVACIONES ADICIONALES
+
+Al margen de las conclusiones sefialadas anteriormente que tienen una relacién causal con lo
+
+sucedido, durante el proceso de investigacion se han constatado los siguientes hechos:
+
+Con respecto al remolque de la unidad 447 averiada, parece que ésta se remolco sin bateria. No
+obstante, se supone que el freno neumatico de la remolcada estaba en servicio, aunque parece que
+el antibloqueo no funcionaba, por lo tanto, deberia haberse comunicado alguna condicién de
+
+circulacion especial para evitar planos en las ruedas.
+
+Por otro lado, la empresa ferroviaria deberia haber colocado dos sefiales portatiles en los soportes
+laterales de la parte posterior del ultimo vehiculo del tren 95218 que hubieran servido como
+sefializacion de cola, tal y como se establece articulo 2.1.7.2. del RCF o notificar la falta de sefiales de
+
+cola a fin de que se adoptaron las medidas previstas en el Art. 3.6.4.2. Punto 2, del RCF.
+
+--- Page 44 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+6
+
+RECOMENDACIONES DE SEGURIDAD
+
+        ，、 Implei
+Destinatarios mp
+final
+Fomento de las habilidades asertivas del personal de circulacion que
+AESF                ADIF                   70/2022-1         ayuden a hacer efectiva su competencia de direccién de la circulacion y
+que refuercen su autoridad frente a las posibles injerencias por parte de
+otros agentes ferroviarios.
+Reforzar la supervision de las actividades relacionadas con la circulacion
+AESF                 ADIF                    70/2022-2         para garantizar suficiente formacion tedrico-practica de los RC tanto
+antes de asignarles las tareas, como durante el desarrollo de estas.
+Establecer un canal y procedimiento de interlocuci6n entre los RC de las
+ADIF y Empresas                              i                                                                   iari
+AESF    pI       70/2022-3       estaciones en mando local y los CG de las empresas ferroviarias, de
+ferroviarias                                  forma que no se interfiera en la coordinacién y supervision de la
+informacion que precisan estos RC para el desarrollo de sus funciones.
+Instruir al personal de conduccién en la importancia que tiene la correcta
+AESF                Renfe Viajeros         70/2022-4         transmisi6n de informacién entre ellos y los responsables de circulacion
+y la formalizacion de las comunicaciones para garantizar la seguridad.
+
+Madrid, a 16 de marzo de 2023
+
+
+--- Page 45 ---
+Informe Final 70/2022
+
+APPENDIX: ENGLISH SUMMARY OF THE MAIN PARTS OF THE REPORT
+
+Commission Implementing Regulation (EU) 2020/572 of 24 April 2020 on the reporting
+structure to be followed by railway accident and incident investigation reports states
+(Article 3):
+
+“Points 1, 5 and 6 of the Annex | shall be written in a second official European language.
+This translation should be available no later than 3 months after the delivery of the report”.
+
+(Annex | establishes the structure to follow on the reporting).
+
+This appendix contains the translation into English of points 1, 5 and 6 of the final report,
+according to that regulation.
+
+In case of any doubt or contradiction, the corresponding original Spanish text shall prevail.
+
+This report is a technical document that presents the approach of the Spanish National
+Investigation Body (CIAF) to the circumstances of the investigated occurrence, setting out
+its probable causes and safety recommendations.
+
+As stated by Royal Decree 623/2014 of 18 July 2014, in particular Article 4 paragraphs 4
+and 5 thereof:
+
+“4. Investigation shall aim to determine the causes of the accident or incident, and clarify
+its circumstances, so that rail transport safety increases and accidents are prevented.”
+
+“5. The investigation will not deal with allocation of blame nor liability for the accident or
+incident, and it will be independent of any judicial enquiry”.
+
+Consequently, using this report for any other purpose than prevention of future accidents
+or incidents could result in wrong conclusions or interpretations.
+
+
+--- Page 46 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+SUMMARY
+At 18:34 on 15 August 2022, the Local Signaller at Manresa station (LSM) authorised the 95128-train
+driver to start moving from track 5 at Manresa station towards “Sant Vicenc de Castellet” direction
+and arranged this route. At 18:41, even though the 95218 train had not started to move, the LSM
+authorised the 78443-train driver to overtake the entrance signal 3023 at Manresa station on the
+“Sant Vicenc de Castellet” direction, arranging a route that was not compatible with the movement
+
+that had been previously authorised.
+
+The 95218-train started to move several minutes later after the authorisation, it passed by the switch
+#19, which was set to the opposite position, however, it continued along track 1. The 78443-train was
+circulating on the same track towards track 4. Both train drivers noticed the situation and stopped
+
+the trains 40 metres apart from each other.
+
+MANRESA
+
+MANRESA - L220_LLEIDA PIRINEUS - L'HOSPITALET DE LL. - Km 301.719
+
+As a result of this operational incident, only the switch #19 was damaged. There was no personal
+
+injury or damages to the rolling stock.
+
+Manresa station lies within is in the line 220 - Lleida-Pirineus- Vilanova Junction of the Spanish
+National Railway Network. It is located at the municipality of Manresa, in the province of Barcelona
+
+(Catalonia).
+
+--- Page 47 ---
+Informe Final 70/2022
+
+CONCLUSIONS
+
+After analysing all documentation and data, the following factors are considered:
+
+Causes:
+
+The LSM authorised the 78443-train to overtake the entrance signal 3023 but it was not
+checked that the previously authorised movement - route from track 5 of the station to track
+2 for the 95218-train - had not been yet executed. Both movements were not compatible.
+Non-compliance with Article 5.2.1.2. of the Spanish Railway Circulation Regulation.
+
+The 95218-train started to move whilst its running order was not valid as it did not depart
+immediately after receiving the authorisation. Non-compliance with Article 1.5.1.9. of the
+
+Spanish Railway Circulation Regulation.
+
+Contributing factors:
+
+1.
+
+The Railway Undertaking Management Centre (RUMC) asked the LSM for the 447 rolling
+stock unit, that was damaged, to be towed. The lack of experience and appropriate
+knowledge combined with a proactive attitude and willingness to solve this incident led the
+LSM to make decisions that created a degraded situation during the operations at the station.
+Signal-overtakings for entering and exiting of trains on the “Sant Viceng de Castellet”
+
+direction were required.
+
+The RUMC strictly indicated to the LSM that the 95218-train should not be dispatched at that
+particular moment, when it could have already been done, and this was accepted by the LSM
+and the CTC dispatcher. This was an interference from the RUMC in the management of
+traffic at Manresa station, maintaining over time the degraded situation that was taking
+place.
+
+The LSM answered work-telephone calls that were not directly related to traffic whilst
+checking the dispatch of the 95218-train. This is considered as a distracting factor.
+
+The 95218- train driver took a break that he considered mandatory, when it was not, resulting
+in a disruption to the train's departure time and the station's operating conditions.
+
+There were problems in the communications between the 95218-train driver and the LSM
+
+resulting in the incorrect transmission of information. See Recommendation 70/2022-4.
+
+--- Page 48 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+Systemic factors:
+
+1. The electrical interlocking at Manresa station has a series of peculiarities and limitations that
+lead to a high number of degraded situations that oblige the LSM to intervene directly,
+without the protection of the interlocking. See measures taken since the event.
+
+2. Existence of difficulties at Manresa station to check the dispatch of trains. See measures
+taken since the event.
+
+3. Deficiency in the assertive skills of traffic agents which difficults to make effective their
+competence to manage the traffic, avoiding any possible interference by other railway staff.
+See Recommendations 70/2022-1 and 70/2022-2.
+
+4. Direct communications between Local Signallers and the RUMCs. See Recommendation
+
+70/2022-3.
+
+Difficulties at
+Manresa station to
+Peculiarities of electrical                                            the di               、
+Interlocking at Manresa                          >
+station                        \
+\                  Directing           -                                LSM authorised 78443-train
+clement                                             driver without checking the | >
+cece                  \                                                                         95218 dispatch.
+driver took a break
+aw                            x} when it was not                                   rants ||
+Deficiency in the              A            m.                                                       eg                                                                                            |
+-                      andato
+assertive skill             一                                  TY                                 /*\ at Manresa statior                                                                       |
+traffic agents            \                                                          /                                                                                                         |
+Tiererencefom                “                                                                                                                  上
+| theRuMCinthe        S/o                                                                                  、            The 95218-train driver
+°Y management of |                         Nonefective                                                departed when the                   J
+Direct                         | traffic at Manresa                                   communications                _                    order of    a    was
+communications           /                   station                                           between 95218- | 一一                                                  not vali
+
+train driver and
+LSM
+
+between local
+signallers and the
+RUMCs
+
+MEASURES TAKEN SINCE THE EVENT
+
+Traffic Sub-directorates of ADIF are currently working ona project for checklists that will facilitate the
+work of signallers when they have to authorise signal overtakings or other manoeuvres, granting that
+this activity will be recorded. For the accomplishment of this task, they will mark the conditions that
+must be fulfilled to authorise the signal overtaking on their Tablet. In addition, HR department of
+ADIF is considering the incorporation of reinforcement personnel to intervene in degraded situations.
+This measure needs to be operative, and its effectiveness should be analysed when implemented. It
+
+would also be advisable to increase the formation and training of signallers.
+
+On the other hand, the replacement of the Manresa electrical interlocking with an electronic one has
+been requested for years; this project is currently at its execution phase and, according to ADIF, it is
+
+expected to be commissioned in May 2023. The implementation of a two directional automatic
+
+Risk of
+
+collision
+between
+trains
+95218 and
+78443
+
+
+--- Page 49 ---
+Informe Final 70/2022
+
+blocking (TDAB) between Manresa and Terrassa will also be carried out. The single section automatic
+
+blocking (SSAB) between Manresa and Calaf will remain.
+
+The project includes a Local Operations Post (LOP). This will be manufactured in accordance with the
+
+regulations for the design of video graphics and using the latest technology.
+
+The operating program includes all those movements that could not been carried out previously by
+
+the interlocking and that required the direct intervention of the signaller.
+
+ADDITIONAL REMARKS
+In addition to the conclusions drawn, the following facts have been identified during the investigation
+
+process:
+
+With regards to the damaged unit 447 being towed, it seems that it was towed without a battery.
+Given that the anti-locking system was not working, some special traffic conditions should have been
+
+communicated to avoid flats on the wheels.
+
+On the other hand, the railway undertaking (RU) should have placed two portable signals on the side
+supports at the rear of the last vehicle of the 95218-train, as established in Article 2.1.7.2. of the
+Spanish Railway Circulation Regulation or should have notified the lack of these so that measures
+
+foreseen in Art. 3.6.4.2, point 2, of the Spanish Railway Circulation Regulation were adopted.
+
+--- Page 50 ---
+Comision de Investigacion de Accidentes Ferroviarios
+
+SAFETY RECOMENDATIONS
+Final                                       7
+Addressee                       Number     Recommendation
+Implementer
+Encouraging the assertive skills of traffic agents to grant
+their traffic management competence as well as to reinforce
+AESF (NSA-ES) | ADIF (IM)        70/2022-1    their authority to avoid any possible interference by other
+railway staff.
+Strengthening the vigilance of traffic-related activities to
+AESF (NSA-ES) | ADIF (IM)        70/2022-2 | ensure sufficient theoretical and practical training of
+signallers, before and during the assignment of tasks.
+Establishing a channel and procedure for communications
+ADIF       and                between the local signallers and the railways undertakings
+AESF (NSA-ES) | Railway          70/2022-3 | management centres, to avoid interferences in the
+Undertakings                     coordination and supervision of the information required by
+signallers for the performance of their duties.
+Instructing the train drivers on the importance of correct
+AESF (NSA-ES)   Renfe Viajeros  70/2022-4    transmission of information between them and the
+
+(RU)
+
+signallers as well as the formalisation of the communications
+to guarantee safety.
+

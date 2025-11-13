@@ -1,0 +1,1545 @@
+--- Document Chunk 0 ---
+2
+
+--- Document Chunk 1 ---
+Ed Rollings
+
+--- Document Chunk 2 ---
+Back to basics: Level crossings
+
+--- Document Chunk 3 ---
+In this, our latest, “back to basics” article we 
+
+--- Document Chunk 4 ---
+look at how signal and telecoms engineers 
+
+--- Document Chunk 5 ---
+have to consider more than just the 
+
+--- Document Chunk 6 ---
+movement of trains around the network. 
+
+--- Document Chunk 7 ---
+The article makes reference to factors which 
+
+--- Document Chunk 8 ---
+should be considered in the provision and 
+
+--- Document Chunk 9 ---
+operation of level crossings, although legal 
+
+--- Document Chunk 10 ---
+and cultural differences prevail in many 
+
+--- Document Chunk 11 ---
+countries which may override the generic 
+
+--- Document Chunk 12 ---
+principles set out in this article. 
+
+--- Document Chunk 13 ---
+Why do we need level crossings?
+
+--- Document Chunk 14 ---
+In some countries the railway came before roads 
+
+--- Document Chunk 15 ---
+while in others the construction of the railway 
+
+--- Document Chunk 16 ---
+divided land and roads where other rights had 
+
+--- Document Chunk 17 ---
+been established. Either way, it created the 
+
+--- Document Chunk 18 ---
+need for road and rail to cross each other. Level 
+
+--- Document Chunk 19 ---
+crossings vary considerably in type, often on the 
+
+--- Document Chunk 20 ---
+same railway, but members of the public may not 
+
+--- Document Chunk 21 ---
+appreciate the differences in operation as they 
+
+--- Document Chunk 22 ---
+just require a place to cross the railway safely if a 
+
+--- Document Chunk 23 ---
+bridge or underpass cannot be provided. 
+
+--- Document Chunk 24 ---
+Terminology
+
+--- Document Chunk 25 ---
+There are many different terms used to describe 
+
+--- Document Chunk 26 ---
+features of a level crossing around the world. 
+
+--- Document Chunk 27 ---
+Table 1 lists some terms associated with level 
+
+--- Document Chunk 28 ---
+crossings along with a description. Throughout 
+
+--- Document Chunk 29 ---
+this article we shall refer to ‘level crossings’, but 
+
+--- Document Chunk 30 ---
+they are also known as ‘grade’ crossings and ‘rail’ 
+
+--- Document Chunk 31 ---
+or ‘railroad’ crossings.
+
+--- Document Chunk 32 ---
+What is a level crossing? 
+
+--- Document Chunk 33 ---
+So having determined the need to cross the 
+
+--- Document Chunk 34 ---
+railway on the level we can start to define this 
+
+--- Document Chunk 35 ---
+as a ‘level’ crossing. The form of this crossing 
+
+--- Document Chunk 36 ---
+may involve simply designating a place using 
+
+--- Document Chunk 37 ---
+signs, for example, where visibility is good to see 
+
+--- Document Chunk 38 ---
+trains approaching. Railways in many countries 
+
+--- Document Chunk 39 ---
+do not have continuous boundary fences, so it is 
+
+--- Document Chunk 40 ---
+important to designate safe places to cross the 
+
+--- Document Chunk 41 ---
+tracks. Although not usually part of the signal 
+
+--- Document Chunk 42 ---
+engineer’s responsibility, the levelling up of the 
+
+--- Document Chunk 43 ---
+ground from the railway boundaries up to and in 
+
+--- Document Chunk 44 ---
+between the rails gives strength to the definition 
+
+--- Document Chunk 45 ---
+Road crossing application 
+
+--- Document Chunk 46 ---
+and technology varies 
+
+--- Document Chunk 47 ---
+enormously around the 
+
+--- Document Chunk 48 ---
+world. This is one of 
+
+--- Document Chunk 49 ---
+several different types of 
+
+--- Document Chunk 50 ---
+half barrier crossing in the 
+
+--- Document Chunk 51 ---
+UK. Half barrier crossings 
+
+--- Document Chunk 52 ---
+are less expensive than 
+
+--- Document Chunk 53 ---
+full barrier crossings 
+
+--- Document Chunk 54 ---
+and prevent users being 
+
+--- Document Chunk 55 ---
+trapped inside the 
+
+--- Document Chunk 56 ---
+barriers. However there 
+
+--- Document Chunk 57 ---
+is a risk of crossing users 
+
+--- Document Chunk 58 ---
+‘weaving around’ the 
+
+--- Document Chunk 59 ---
+closed half barriers. 
+
+--- Document Chunk 60 ---
+ IRSE News |  Issue 276  |  April 2021
+
+--- Document Chunk 61 ---
+3
+
+--- Document Chunk 62 ---
+of ‘level crossing’. By contrast many footpath 
+
+--- Document Chunk 63 ---
+crossings do not have a built‑up deck, relying 
+
+--- Document Chunk 64 ---
+instead on users to step over the rails. Vehicle 
+
+--- Document Chunk 65 ---
+crossings mostly need a deck to reduce the risk of 
+
+--- Document Chunk 66 ---
+vehicles getting stranded. The design of the deck 
+
+--- Document Chunk 67 ---
+will be informed by the types of vehicle or traffic 
+
+--- Document Chunk 68 ---
+using it, especially the vertical curvature or hump 
+
+--- Document Chunk 69 ---
+which could lead to vehicles becoming stranded 
+
+--- Document Chunk 70 ---
+where the body of the vehicle between axles 
+
+--- Document Chunk 71 ---
+comes into contact with the crossing surface (that 
+
+--- Document Chunk 72 ---
+is, becomes grounded). 
+
+--- Document Chunk 73 ---
+What does the law say?
+
+--- Document Chunk 74 ---
+Some countries insist on measures to manage 
+
+--- Document Chunk 75 ---
+risk of collision with a train, leaving the specific 
+
+--- Document Chunk 76 ---
+arrangements for the level crossing designer 
+
+--- Document Chunk 77 ---
+to decide based on risk. Others prescribe 
+
+--- Document Chunk 78 ---
+arrangements in detail; often a blend of these 
+
+--- Document Chunk 79 ---
+regulations will apply. In some countries it is 
+
+--- Document Chunk 80 ---
+the policy of the railway companies not to 
+
+--- Document Chunk 81 ---
+provide equipment unless required to do so by a 
+
+--- Document Chunk 82 ---
+government entity, as litigation may result where 
+
+--- Document Chunk 83 ---
+other similar crossings are not so equipped if there 
+
+--- Document Chunk 84 ---
+was an accident. 
+
+--- Document Chunk 85 ---
+In some cases, the costs of provision and 
+
+--- Document Chunk 86 ---
+maintenance of a crossing fall on the railway 
+
+--- Document Chunk 87 ---
+authority, sometimes the government or other 
+
+--- Document Chunk 88 ---
+public body will require actions and fund those, 
+
+--- Document Chunk 89 ---
+in other cases costs may fall to the private 
+
+--- Document Chunk 90 ---
+user or be shared. 
+
+--- Document Chunk 91 ---
+In some countries there are many different parts 
+
+--- Document Chunk 92 ---
+of law which can apply, especially where highways 
+
+--- Document Chunk 93 ---
+and road traffic is involved. Often different laws 
+
+--- Document Chunk 94 ---
+will apply for pedestrian crossings or for crossings 
+
+--- Document Chunk 95 ---
+between privately owned land such as farmers’ 
+
+--- Document Chunk 96 ---
+fields or access to a single house.
+
+--- Document Chunk 97 ---
+Safety
+
+--- Document Chunk 98 ---
+Accident statistics demonstrate that level crossings 
+
+--- Document Chunk 99 ---
+are high risk sites for railway operators as well as 
+
+--- Document Chunk 100 ---
+contributing to large numbers of near‑ miss events. 
+
+--- Document Chunk 101 ---
+The reasons for this high level of risk should be 
+
+--- Document Chunk 102 ---
+obvious to railway professionals who are familiar 
+
+--- Document Chunk 103 ---
+with recognising hazards, but level crossing users 
+
+--- Document Chunk 104 ---
+come from a broad spectrum of society who 
+
+--- Document Chunk 105 ---
+may not be familiar with the characteristics of a 
+
+--- Document Chunk 106 ---
+train operations, where long stopping distances 
+
+--- Document Chunk 107 ---
+are normal, and trains are unable to deviate from 
+
+--- Document Chunk 108 ---
+the line of travel. Monitoring of crossing use is 
+
+--- Document Chunk 109 ---
+important as patterns of use (and therefore levels 
+
+--- Document Chunk 110 ---
+of risk) can change significantly over time. In 
+
+--- Document Chunk 111 ---
+recent years, for instance, there have been major 
+
+--- Document Chunk 112 ---
+changes of traffic pattern in some areas due to 
+
+--- Document Chunk 113 ---
+the use of satellite navigation devices and the 
+
+--- Document Chunk 114 ---
+popularity of home delivery courier services.  
+
+--- Document Chunk 115 ---
+Selection of system
+
+--- Document Chunk 116 ---
+Where the law requires protection or warning 
+
+--- Document Chunk 117 ---
+systems to be provided, or the railway or other 
+
+--- Document Chunk 118 ---
+authority chooses to fund provision of equipment 
+
+--- Document Chunk 119 ---
+for their benefit or the benefit of the public, care 
+
+--- Document Chunk 120 ---
+should be taken in choosing the right combination 
+
+--- Document Chunk 121 ---
+of equipment to be safe and effective. Increasingly, 
+
+--- Document Chunk 122 ---
+convenience is being recognised as an important 
+
+--- Document Chunk 123 ---
+factor in system selection. Delaying users or 
+
+--- Document Chunk 124 ---
+trains has consequences, such as cost penalties 
+
+--- Document Chunk 125 ---
+either directly or in productivity loss and can 
+
+--- Document Chunk 126 ---
+lead to frustration which may result in users 
+
+--- Document Chunk 127 ---
+circumventing warnings.
+
+--- Document Chunk 128 ---
+Some railways have risk modelling tools to help 
+
+--- Document Chunk 129 ---
+choose equipment configurations that give the 
+
+--- Document Chunk 130 ---
+most effective risk reduction. Such tools also 
+
+--- Document Chunk 131 ---
+help to support a financial case for investment 
+
+--- Document Chunk 132 ---
+Active warning Warning or protection devices for road users which are activated by a train 
+
+--- Document Chunk 133 ---
+or railway staff.
+
+--- Document Chunk 134 ---
+Deck The support and surface area of a crossing which carries users and/or 
+
+--- Document Chunk 135 ---
+their vehicles.
+
+--- Document Chunk 136 ---
+Full barrier crossing A crossing fully fenced between road and railway when the road is closed. 
+
+--- Document Chunk 137 ---
+May use a single boom on each side or two half booms or equivalent 
+
+--- Document Chunk 138 ---
+equipment, e.g. gates. 
+
+--- Document Chunk 139 ---
+Grounding A vehicle stranded by coming into contact with the crossing surface/deck. 
+
+--- Document Chunk 140 ---
+Occurs when a long wheelbase vehicle traverses a crossing with a severe 
+
+--- Document Chunk 141 ---
+vertical curve or hump. This is often denoted by the sign on the left.
+
+--- Document Chunk 142 ---
+Half barrier A crossing with a barrier closing the entrance lane(s) of each 
+
+--- Document Chunk 143 ---
+carriageway only.  
+
+--- Document Chunk 144 ---
+Humped The vertical profile of a crossing where it rises in the centre – see 
+
+--- Document Chunk 145 ---
+also ‘grounding’.
+
+--- Document Chunk 146 ---
+Level Crossing A designated place where the public can cross the railway safely on the level. 
+
+--- Document Chunk 147 ---
+May also be known as a grade crossing, rail crossing or railroad crossing. It 
+
+--- Document Chunk 148 ---
+may include a sign or other equipment to assist the user. 
+
+--- Document Chunk 149 ---
+Passive crossing A crossing where the user is responsible for assuring their own safety by 
+
+--- Document Chunk 150 ---
+checking for the approach of trains. 
+
+--- Document Chunk 151 ---
+Protecting signal A railway signal used to authorise train movements over a level crossing.
+
+--- Document Chunk 152 ---
+Saltire St Andrews Cross or Crossbuck, commonly used to signify the presence of a 
+
+--- Document Chunk 153 ---
+railway crossing. This is shown to the left.
+
+--- Document Chunk 154 ---
+Wig‑W ag or 
+
+--- Document Chunk 155 ---
+flashing light signal
+
+--- Document Chunk 156 ---
+A road traffic light signal with twin flashing red lights to warn road users 
+
+--- Document Chunk 157 ---
+of the approach of a train. May be used alone or in combination with 
+
+--- Document Chunk 158 ---
+barriers or gates.
+
+--- Document Chunk 159 ---
+Table 1 – UK signalling 
+
+--- Document Chunk 160 ---
+terminology.
+
+--- Document Chunk 161 ---
+“Some countries 
+
+--- Document Chunk 162 ---
+insist on 
+
+--- Document Chunk 163 ---
+measures to 
+
+--- Document Chunk 164 ---
+manage risk of 
+
+--- Document Chunk 165 ---
+collision with  
+
+--- Document Chunk 166 ---
+a train”
+
+--- Document Chunk 167 ---
+ IRSE News |  Issue 276  |  April 2021
+
+--- Document Chunk 168 ---
+4
+
+--- Document Chunk 169 ---
+in risk reduction and may include benefits to 
+
+--- Document Chunk 170 ---
+society through a reduction in lives lost or 
+
+--- Document Chunk 171 ---
+injuries incurred. 
+
+--- Document Chunk 172 ---
+A key input to the selection process is 
+
+--- Document Chunk 173 ---
+understanding the use of a crossing both by 
+
+--- Document Chunk 174 ---
+the railway and by users. A census of use taken 
+
+--- Document Chunk 175 ---
+over several days is helpful to identify all of the 
+
+--- Document Chunk 176 ---
+different types and numbers of users, and their 
+
+--- Document Chunk 177 ---
+characteristics. It is important to understand 
+
+--- Document Chunk 178 ---
+how long they take to traverse the crossing 
+
+--- Document Chunk 179 ---
+and whether users can pass safely if they meet 
+
+--- Document Chunk 180 ---
+on the crossing. What are the approaches like, 
+
+--- Document Chunk 181 ---
+can vehicles stop easily? Do vehicles approach 
+
+--- Document Chunk 182 ---
+at speed, or is there a likelihood of becoming 
+
+--- Document Chunk 183 ---
+stranded on the railway? 
+
+--- Document Chunk 184 ---
+On the railway how many tracks are there? Do all 
+
+--- Document Chunk 185 ---
+trains pass through at line speed or are there some 
+
+--- Document Chunk 186 ---
+trains passing at slower speeds? Is there a station 
+
+--- Document Chunk 187 ---
+or junction nearby which affects speeds? Do 
+
+--- Document Chunk 188 ---
+trains pass in the area or closely follow each other 
+
+--- Document Chunk 189 ---
+and therefore keep the crossing closed for long 
+
+--- Document Chunk 190 ---
+periods? Can visibility of approaching trains and 
+
+--- Document Chunk 191 ---
+therefore warning time be improved by removal of 
+
+--- Document Chunk 192 ---
+lineside vegetation? 
+
+--- Document Chunk 193 ---
+Pedestrian user characteristics may include 
+
+--- Document Chunk 194 ---
+mobility, hearing or sight impaired people; people 
+
+--- Document Chunk 195 ---
+with luggage, pushing cycles, or children/young 
+
+--- Document Chunk 196 ---
+adults or those with cognitive impairment who 
+
+--- Document Chunk 197 ---
+are less risk aware. Distraction factors such as 
+
+--- Document Chunk 198 ---
+mobile devices or moving in groups should also 
+
+--- Document Chunk 199 ---
+be considered. 
+
+--- Document Chunk 200 ---
+When level crossings are renewed these factors 
+
+--- Document Chunk 201 ---
+may have changed considerably so it is vital that a 
+
+--- Document Chunk 202 ---
+thorough assessment is made whenever a change 
+
+--- Document Chunk 203 ---
+is proposed to a crossing.
+
+--- Document Chunk 204 ---
+Historically many crossings were operated by 
+
+--- Document Chunk 205 ---
+railway staff. Automation is now common on 
+
+--- Document Chunk 206 ---
+some railways which makes crossings cheaper to 
+
+--- Document Chunk 207 ---
+operate and manage but this relies on increased 
+
+--- Document Chunk 208 ---
+knowledge and discipline on the part of users. 
+
+--- Document Chunk 209 ---
+Understanding human behaviour factors and the 
+
+--- Document Chunk 210 ---
+interpretation of warnings is a necessary part of 
+
+--- Document Chunk 211 ---
+selecting the best combination of equipment 
+
+--- Document Chunk 212 ---
+to assist users.
+
+--- Document Chunk 213 ---
+Some railways have dedicated level crossings 
+
+--- Document Chunk 214 ---
+specialists while in others it is a general signal 
+
+--- Document Chunk 215 ---
+engineering responsibility. Level crossing 
+
+--- Document Chunk 216 ---
+management extends to engaging with users 
+
+--- Document Chunk 217 ---
+to educate them how to use level crossings 
+
+--- Document Chunk 218 ---
+safely, especially when changes are proposed 
+
+--- Document Chunk 219 ---
+or implemented. This may be through school 
+
+--- Document Chunk 220 ---
+visits, media campaigns or local meetings with 
+
+--- Document Chunk 221 ---
+individuals or groups. 
+
+--- Document Chunk 222 ---
+Proposals to change a crossing or sometimes 
+
+--- Document Chunk 223 ---
+to renew it, may require consultation with 
+
+--- Document Chunk 224 ---
+stakeholders who have an interest. Typically, 
+
+--- Document Chunk 225 ---
+people representing interested groups such 
+
+--- Document Chunk 226 ---
+as the traffic authority, disability groups, the 
+
+--- Document Chunk 227 ---
+emergency services, planning authorities, or 
+
+--- Document Chunk 228 ---
+political representatives may contribute to these 
+
+--- Document Chunk 229 ---
+consultations and expect their views to be taken 
+
+--- Document Chunk 230 ---
+into account. Consultees may express views about 
+
+--- Document Chunk 231 ---
+safety, convenience, appearance, noise, lighting, 
+
+--- Document Chunk 232 ---
+accessibility, disruption during work, to list just 
+
+--- Document Chunk 233 ---
+some of the factors.
+
+--- Document Chunk 234 ---
+Technical protection or  
+
+--- Document Chunk 235 ---
+warning systems
+
+--- Document Chunk 236 ---
+The level crossings engineer has a lot of 
+
+--- Document Chunk 237 ---
+equipment available which can be configured to 
+
+--- Document Chunk 238 ---
+provide an appropriate solution. At the simpler 
+
+--- Document Chunk 239 ---
+end there are warning signs, or instructional 
+
+--- Document Chunk 240 ---
+signs. At the complex end there are complete 
+
+--- Document Chunk 241 ---
+barrier installations with sophisticated obstruction 
+
+--- Document Chunk 242 ---
+detection devices, which can identify people or 
+
+--- Document Chunk 243 ---
+objects on the crossing. These should have a 
+
+--- Document Chunk 244 ---
+high reliability and assurance of safe operation 
+
+--- Document Chunk 245 ---
+which allows them to automatically confirm the 
+
+--- Document Chunk 246 ---
+crossing is clear. 
+
+--- Document Chunk 247 ---
+Crossings may have gates or barriers. These are 
+
+--- Document Chunk 248 ---
+operated either by the railway or by the road user. 
+
+--- Document Chunk 249 ---
+The road may have lights, usually twin flashing 
+
+--- Document Chunk 250 ---
+red, which are accepted as an absolute stop 
+
+--- Document Chunk 251 ---
+An unprotected crossing 
+
+--- Document Chunk 252 ---
+in Chile. The safety of 
+
+--- Document Chunk 253 ---
+road user and the railway 
+
+--- Document Chunk 254 ---
+is very much dependent 
+
+--- Document Chunk 255 ---
+on the signs being 
+
+--- Document Chunk 256 ---
+obeyed.
+
+--- Document Chunk 257 ---
+“Some railways 
+
+--- Document Chunk 258 ---
+have dedicated 
+
+--- Document Chunk 259 ---
+level crossings 
+
+--- Document Chunk 260 ---
+specialists and 
+
+--- Document Chunk 261 ---
+in others it is a 
+
+--- Document Chunk 262 ---
+general signal 
+
+--- Document Chunk 263 ---
+engineering 
+
+--- Document Chunk 264 ---
+responsibility”
+
+--- Document Chunk 265 ---
+ IRSE News |  Issue 276  |  April 2021
+
+--- Document Chunk 266 ---
+5
+
+--- Document Chunk 267 ---
+signal, even by emergency services. Sounders 
+
+--- Document Chunk 268 ---
+may be provided to reinforce a warning and to 
+
+--- Document Chunk 269 ---
+assist vision‑impaired users. The use of surface 
+
+--- Document Chunk 270 ---
+markings on a road or path to identify the safe 
+
+--- Document Chunk 271 ---
+place to stop is another feature along with signs 
+
+--- Document Chunk 272 ---
+and other carriageway markings to help the user 
+
+--- Document Chunk 273 ---
+navigate a crossing. Where railway signals are 
+
+--- Document Chunk 274 ---
+provided, they may be controlled to only allow 
+
+--- Document Chunk 275 ---
+trains to proceed when the crossing is closed and 
+
+--- Document Chunk 276 ---
+clear; they may also be interlocked to prevent the 
+
+--- Document Chunk 277 ---
+crossing being opened for road users once a train 
+
+--- Document Chunk 278 ---
+has been signalled until it has passed through or 
+
+--- Document Chunk 279 ---
+safely stopped. 
+
+--- Document Chunk 280 ---
+In some countries telephones are provided at 
+
+--- Document Chunk 281 ---
+some types of crossings to enable members of 
+
+--- Document Chunk 282 ---
+the public to seek permission to use a crossing. 
+
+--- Document Chunk 283 ---
+These are normally provided where the warning 
+
+--- Document Chunk 284 ---
+time obtained by visual means is less than the 
+
+--- Document Chunk 285 ---
+time needed to cross safely, and no other active 
+
+--- Document Chunk 286 ---
+protection or visible warning is provided. The 
+
+--- Document Chunk 287 ---
+telephones need to be protected from water 
+
+--- Document Chunk 288 ---
+ingress, vandal damage and located in a position 
+
+--- Document Chunk 289 ---
+of safety and with clear instructions on their use 
+
+--- Document Chunk 290 ---
+to cross safely. The telephones are normally 
+
+--- Document Chunk 291 ---
+‘direct lines’ to the controlling signaller. The 
+
+--- Document Chunk 292 ---
+signaller must only be able to talk to one crossing 
+
+--- Document Chunk 293 ---
+at any one time, and the crossing name must 
+
+--- Document Chunk 294 ---
+be displayed to the signaller throughout the 
+
+--- Document Chunk 295 ---
+call. There must be no overhearing, so that one 
+
+--- Document Chunk 296 ---
+crossing user cannot hear instructions intended 
+
+--- Document Chunk 297 ---
+for another crossing and the voice quality must 
+
+--- Document Chunk 298 ---
+provide clear communication. The identity and 
+
+--- Document Chunk 299 ---
+location of the crossing from which the call 
+
+--- Document Chunk 300 ---
+is being made must be clearly and accurately 
+
+--- Document Chunk 301 ---
+displayed to the signaller. 
+
+--- Document Chunk 302 ---
+There are number of problems with telephone 
+
+--- Document Chunk 303 ---
+crossings. The signaller may not have an accurate 
+
+--- Document Chunk 304 ---
+knowledge of where trains are in relation to the 
+
+--- Document Chunk 305 ---
+crossing. This can lead to misunderstanding of 
+
+--- Document Chunk 306 ---
+messages and increases the workload for the 
+
+--- Document Chunk 307 ---
+signaller. Signallers are trained to use ‘safety critical 
+
+--- Document Chunk 308 ---
+communications’ protocols but communicating 
+
+--- Document Chunk 309 ---
+with the public requires an additional skill set. The 
+
+--- Document Chunk 310 ---
+crossing user may not bother to use the telephone 
+
+--- Document Chunk 311 ---
+or may misunderstand the message being given 
+
+--- Document Chunk 312 ---
+and cross with a train approaching. With signal 
+
+--- Document Chunk 313 ---
+control areas getting larger and potentially 
+
+--- Document Chunk 314 ---
+more telephone crossings per signaller the risks 
+
+--- Document Chunk 315 ---
+become even greater. 
+
+--- Document Chunk 316 ---
+At some types of automatic crossing telephones 
+
+--- Document Chunk 317 ---
+are provided for users to alert the signaller if the 
+
+--- Document Chunk 318 ---
+crossing becomes occupied with a failed road 
+
+--- Document Chunk 319 ---
+vehicle. In such situations the telephone is the 
+
+--- Document Chunk 320 ---
+only way of protecting the crossing from an 
+
+--- Document Chunk 321 ---
+approaching train, assuming there is a protecting 
+
+--- Document Chunk 322 ---
+signal in the right place, or an emergency radio 
+
+--- Document Chunk 323 ---
+call can be made to the approaching train with 
+
+--- Document Chunk 324 ---
+time to stop. Such telephones must operate at all 
+
+--- Document Chunk 325 ---
+times and self‑reporting fault monitoring can be 
+
+--- Document Chunk 326 ---
+provided to check the telephone is working.
+
+--- Document Chunk 327 ---
+Where a crossing is supervised the signaller may 
+
+--- Document Chunk 328 ---
+confirm the crossing is safe to allow trains to 
+
+--- Document Chunk 329 ---
+proceed by direct observation from the signal box 
+
+--- Document Chunk 330 ---
+or Closed‑Cir cuit Television (CCTV) from a remote 
+
+--- Document Chunk 331 ---
+location. A crossing attendant may be employed 
+
+--- Document Chunk 332 ---
+to operate barriers or gates; this person would be 
+
+--- Document Chunk 333 ---
+provided with an indicator or other information to 
+
+--- Document Chunk 334 ---
+advise when a train is expected. 
+
+--- Document Chunk 335 ---
+Automatic crossings may not have signals 
+
+--- Document Chunk 336 ---
+interlocked with the crossing and instead rely on 
+
+--- Document Chunk 337 ---
+highly dependable safety features to ensure the 
+
+--- Document Chunk 338 ---
+crossing operates for each train. It is important 
+
+--- Document Chunk 339 ---
+that when a crossing operates there is not too 
+
+--- Document Chunk 340 ---
+much time before a train arrives, or an inconsistent 
+
+--- Document Chunk 341 ---
+time between the arrival of trains, which might 
+
+--- Document Chunk 342 ---
+otherwise encourage poor discipline by users 
+
+--- Document Chunk 343 ---
+who may attempt to circumvent the protection or 
+
+--- Document Chunk 344 ---
+ignore the warning. 
+
+--- Document Chunk 345 ---
+Automatic crossings are activated by the approach 
+
+--- Document Chunk 346 ---
+of a train and rely on train detection equipment; 
+
+--- Document Chunk 347 ---
+treadle, track circuit, axle counter or prediction 
+
+--- Document Chunk 348 ---
+device placed an appropriate distance from the 
+
+--- Document Chunk 349 ---
+crossing to guarantee timely operation. A crossing 
+
+--- Document Chunk 350 ---
+control device may be configured to deal with 
+
+--- Document Chunk 351 ---
+trains approaching from more than one direction. 
+
+--- Document Chunk 352 ---
+“In some 
+
+--- Document Chunk 353 ---
+countries 
+
+--- Document Chunk 354 ---
+telephones 
+
+--- Document Chunk 355 ---
+are provided 
+
+--- Document Chunk 356 ---
+at some types 
+
+--- Document Chunk 357 ---
+of crossings to 
+
+--- Document Chunk 358 ---
+enable members 
+
+--- Document Chunk 359 ---
+of the public to 
+
+--- Document Chunk 360 ---
+seek permission 
+
+--- Document Chunk 361 ---
+to use a crossing”
+
+--- Document Chunk 362 ---
+Quad barrier crossing  
+
+--- Document Chunk 363 ---
+in the USA.
+
+--- Document Chunk 364 ---
+ IRSE News |  Issue 276  |  April 2021
+
+--- Document Chunk 365 ---
+6
+
+--- Document Chunk 366 ---
+Sometimes automatic crossings are provided 
+
+--- Document Chunk 367 ---
+with an escape route or clear exit to avoid users 
+
+--- Document Chunk 368 ---
+being trapped if the crossing operates when they 
+
+--- Document Chunk 369 ---
+are part way across. Unfortunately this leaves an 
+
+--- Document Chunk 370 ---
+opportunity for malicious or unsuspecting users 
+
+--- Document Chunk 371 ---
+to enter the crossing from the opposite direction 
+
+--- Document Chunk 372 ---
+when a train is approaching. 
+
+--- Document Chunk 373 ---
+On some lines it can be useful for train crew to 
+
+--- Document Chunk 374 ---
+operate a crossing, typically where line speed 
+
+--- Document Chunk 375 ---
+is low and only infrequent and less time‑critical 
+
+--- Document Chunk 376 ---
+services operate. This introduces additional 
+
+--- Document Chunk 377 ---
+hazards, similar to where a signaller has to push 
+
+--- Document Chunk 378 ---
+gates across a road; this is really only suitable 
+
+--- Document Chunk 379 ---
+where road speeds are low and traffic infrequent. 
+
+--- Document Chunk 380 ---
+Train drivers may also be required to observe a 
+
+--- Document Chunk 381 ---
+crossing is clear after it has activated automatically 
+
+--- Document Chunk 382 ---
+but before passing over it. This is only practical 
+
+--- Document Chunk 383 ---
+where train speed is low and there is good visibility 
+
+--- Document Chunk 384 ---
+approaching the crossing, allowing them time to 
+
+--- Document Chunk 385 ---
+stop short if there is an obstruction.
+
+--- Document Chunk 386 ---
+In-cab signalling
+
+--- Document Chunk 387 ---
+Systems such as the European Train Control 
+
+--- Document Chunk 388 ---
+System (ETCS) in‑cab signalling presents both 
+
+--- Document Chunk 389 ---
+opportunities and challenges for the operation 
+
+--- Document Chunk 390 ---
+and management of level crossings. 
+
+--- Document Chunk 391 ---
+Above, open crossing with 
+
+--- Document Chunk 392 ---
+lights in New Zealand.
+
+--- Document Chunk 393 ---
+Right, a pedestrian 
+
+--- Document Chunk 394 ---
+crossing in Melbourne, 
+
+--- Document Chunk 395 ---
+Australia.
+
+--- Document Chunk 396 ---
+Initially ETCS was only planned for high‑speed 
+
+--- Document Chunk 397 ---
+lines where level crossings do not exist. As the 
+
+--- Document Chunk 398 ---
+use of ETCS has become more widespread, 
+
+--- Document Chunk 399 ---
+lines which have quite high populations of level 
+
+--- Document Chunk 400 ---
+crossings have been fitted. One feature of level 
+
+--- Document Chunk 401 ---
+crossing operation is the critical timing required. 
+
+--- Document Chunk 402 ---
+As ETCS transmits a movement authority 
+
+--- Document Chunk 403 ---
+to the train and the train reports its position 
+
+--- Document Chunk 404 ---
+there can be a small delay or even a loss of 
+
+--- Document Chunk 405 ---
+transmission in a message. 
+
+--- Document Chunk 406 ---
+While this can be accommodated in the course 
+
+--- Document Chunk 407 ---
+of normal train movement it becomes important 
+
+--- Document Chunk 408 ---
+where reporting the position of a moving train in 
+
+--- Document Chunk 409 ---
+relation to a crossing is concerned. A slight delay 
+
+--- Document Chunk 410 ---
+in triggering an automatic crossing could result in 
+
+--- Document Chunk 411 ---
+the crossing not being closed for sufficient time 
+
+--- Document Chunk 412 ---
+before the arrival of the train. 
+
+--- Document Chunk 413 ---
+Restrictions of speed can be embedded in the 
+
+--- Document Chunk 414 ---
+permitted speed profile to ensure that where users 
+
+--- Document Chunk 415 ---
+need a given number of seconds clear sight of an 
+
+--- Document Chunk 416 ---
+approaching train in order to cross safely this can 
+
+--- Document Chunk 417 ---
+be enforced precisely and cost effectively without 
+
+--- Document Chunk 418 ---
+additional line‑side infrastructure.
+
+--- Document Chunk 419 ---
+“On some lines 
+
+--- Document Chunk 420 ---
+it can be useful 
+
+--- Document Chunk 421 ---
+for train crew 
+
+--- Document Chunk 422 ---
+to operate a 
+
+--- Document Chunk 423 ---
+crossing”
+
+--- Document Chunk 424 ---
+ IRSE News |  Issue 276  |  April 2021
+
+--- Document Chunk 425 ---
+7
+
+--- Document Chunk 426 ---
+Automatic train operation
+
+--- Document Chunk 427 ---
+Automatic train operation is commonly associated 
+
+--- Document Chunk 428 ---
+with metros and other high density urban railways 
+
+--- Document Chunk 429 ---
+which do not have level crossings. Some heavy 
+
+--- Document Chunk 430 ---
+haul freight railways now use automatic operation 
+
+--- Document Chunk 431 ---
+of their trains over long distances. With remote 
+
+--- Document Chunk 432 ---
+management of the operation and driverless trains 
+
+--- Document Chunk 433 ---
+it is important that level crossing use does not 
+
+--- Document Chunk 434 ---
+impact the safety of the rail operation. Automatic 
+
+--- Document Chunk 435 ---
+operation of the level crossings is preferred. This 
+
+--- Document Chunk 436 ---
+is achieved, in some railways, through the use of 
+
+--- Document Chunk 437 ---
+predictor technology which allows for adequate 
+
+--- Document Chunk 438 ---
+warning times for road users and also ensures 
+
+--- Document Chunk 439 ---
+that the level crossing is open long enough for 
+
+--- Document Chunk 440 ---
+road users to clear the crossing once they have 
+
+--- Document Chunk 441 ---
+committed to crossing it. Obstacle detection 
+
+--- Document Chunk 442 ---
+equipment is used to identify any problem with 
+
+--- Document Chunk 443 ---
+the level crossing and in particular where road 
+
+--- Document Chunk 444 ---
+and rail intersect, which informs the train control 
+
+--- Document Chunk 445 ---
+system and revokes the movement authority 
+
+--- Document Chunk 446 ---
+through an emergency brake application. Where 
+
+--- Document Chunk 447 ---
+braking distances may be 2km or more advance 
+
+--- Document Chunk 448 ---
+notice of any problem is essential to manage the 
+
+--- Document Chunk 449 ---
+train to avoid a conflict. The ability to stop a train 
+
+--- Document Chunk 450 ---
+before a level crossing needs to occur outside 
+
+--- Document Chunk 451 ---
+the minimum stopping distance. Anything less 
+
+--- Document Chunk 452 ---
+than that is a situation that raises the likelihood 
+
+--- Document Chunk 453 ---
+of a collision. 
+
+--- Document Chunk 454 ---
+Future opportunities
+
+--- Document Chunk 455 ---
+Any prediction of the future will almost certainly 
+
+--- Document Chunk 456 ---
+prove to be wrong. However, there are a few 
+
+--- Document Chunk 457 ---
+foreseeable developments which will impact 
+
+--- Document Chunk 458 ---
+the future of level crossings. The introduction of 
+
+--- Document Chunk 459 ---
+Future Railway Communications System (FRMCS) 
+
+--- Document Chunk 460 ---
+may allow more use of wireless technology in 
+
+--- Document Chunk 461 ---
+the control and operation of crossings, with 5G 
+
+--- Document Chunk 462 ---
+likely to be used both for FRMCS and autonomous 
+
+--- Document Chunk 463 ---
+vehicle operation. Artificial Intelligence (AI) could 
+
+--- Document Chunk 464 ---
+be harnessed to allow learning from current 
+
+--- Document Chunk 465 ---
+operations and to improve our understanding of 
+
+--- Document Chunk 466 ---
+user behaviours. The use of AI derived solutions 
+
+--- Document Chunk 467 ---
+could prove challenging to safety validate. 
+
+--- Document Chunk 468 ---
+Self‑driving autonomous vehicles may have 
+
+--- Document Chunk 469 ---
+a significant impact on safety improvement 
+
+--- Document Chunk 470 ---
+where messages transmitted from the crossing 
+
+--- Document Chunk 471 ---
+may give advance notice to the road vehicle of 
+
+--- Document Chunk 472 ---
+the imminent operation of a crossing, possibly 
+
+--- Document Chunk 473 ---
+enforcing a controlled brake application. Radio 
+
+--- Document Chunk 474 ---
+communications could also be used to alert an 
+
+--- Document Chunk 475 ---
+approaching train if the crossing is occupied. 
+
+--- Document Chunk 476 ---
+These developments could reduce or eliminate 
+
+--- Document Chunk 477 ---
+human error or misunderstanding which 
+
+--- Document Chunk 478 ---
+contributes to many level crossing incidents.
+
+--- Document Chunk 479 ---
+“Any prediction 
+
+--- Document Chunk 480 ---
+of the future  
+
+--- Document Chunk 481 ---
+will almost 
+
+--- Document Chunk 482 ---
+certainly prove 
+
+--- Document Chunk 483 ---
+to be wrong”
+
+--- Document Chunk 484 ---
+A lightly used, yet fully 
+
+--- Document Chunk 485 ---
+equipped, crossing  
+
+--- Document Chunk 486 ---
+in Switzerland.
+
+--- Document Chunk 487 ---
+Ed is a Chartered Engineer and Fellow 
+
+--- Document Chunk 488 ---
+of the IRSE with a MSc in Railway 
+
+--- Document Chunk 489 ---
+Systems Engineering and Integration 
+
+--- Document Chunk 490 ---
+from the University of Birmingham. 
+
+--- Document Chunk 491 ---
+His career began in 1977 as a signal 
+
+--- Document Chunk 492 ---
+and telecommunications trainee and 
+
+--- Document Chunk 493 ---
+he held various roles in British Rail 
+
+--- Document Chunk 494 ---
+Signal and Telecoms department 
+
+--- Document Chunk 495 ---
+including maintenance, design, and 
+
+--- Document Chunk 496 ---
+project support. 
+
+--- Document Chunk 497 ---
+In 1993 he joined Railtrack as part of a 
+
+--- Document Chunk 498 ---
+team preparing for privatisation before 
+
+--- Document Chunk 499 ---
+becoming signal engineer for the 
+
+--- Document Chunk 500 ---
+Midlands Zone on its inauguration as the 
+
+--- Document Chunk 501 ---
+infrastructure owner. 
+
+--- Document Chunk 502 ---
+His involvement with level crossings 
+
+--- Document Chunk 503 ---
+began in 1985 undertaking scheme 
+
+--- Document Chunk 504 ---
+development for signalling and level 
+
+--- Document Chunk 505 ---
+crossings projects. 
+
+--- Document Chunk 506 ---
+Ed held the post of professional head 
+
+--- Document Chunk 507 ---
+of signalling and technical lead for level 
+
+--- Document Chunk 508 ---
+crossings engineering with Network Rail, 
+
+--- Document Chunk 509 ---
+the GB main line railways infrastructure 
+
+--- Document Chunk 510 ---
+owner. Today he runs a company 
+
+--- Document Chunk 511 ---
+providing signalling and level crossing 
+
+--- Document Chunk 512 ---
+systems engineering consultancy. He 
+
+--- Document Chunk 513 ---
+also edits IRSE News Presidential Papers.
+
+--- Document Chunk 514 ---
+About the author ...
+

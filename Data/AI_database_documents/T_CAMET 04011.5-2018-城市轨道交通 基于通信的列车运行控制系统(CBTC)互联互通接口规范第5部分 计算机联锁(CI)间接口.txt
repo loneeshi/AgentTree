@@ -1,0 +1,2178 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+oie 45.020                                                                    FI ‘
+
+--- Document Chunk 2 ---
+中 Bey Dat ris Pu FH AS GW Zz A £6 be HE
+
+--- Document Chunk 3 ---
+T/CAMET 04011.5— 2018
+
+--- Document Chunk 4 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通接口规范
+
+--- Document Chunk 6 ---
+第5部分: 计算机联锁 ( CI ) 间接口
+
+--- Document Chunk 7 ---
+Urban rail transit 一 Interface specification for interoperability of
+
+--- Document Chunk 8 ---
+communication based train control system
+
+--- Document Chunk 9 ---
+Part 5: Interface between computer interlockings
+
+--- Document Chunk 10 ---
+2018-09-10 发布                        2018-12-31 实施
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 12 ---
+--- Page 2 ---
+
+--- Document Chunk 13 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 14 ---
+id
+
+--- Document Chunk 15 ---
+|
+
+--- Document Chunk 16 ---
+一 a a
+
+--- Document Chunk 17 ---
+2 ”规范性引用文件
+
+--- Document Chunk 18 ---
+3 术语和缩略语
+
+--- Document Chunk 19 ---
+3.1 术语 一
+
+--- Document Chunk 20 ---
+5 CI- CI通信接口报文规范
+
+--- Document Chunk 21 ---
+5.1 接口连接方式 “，
+
+--- Document Chunk 22 ---
+5.2 通信体系结构 …                    -
+
+--- Document Chunk 23 ---
+SB: ETA BYYEHEG DS cc accessecessaccsaineac saszenezapsoseamassvatconsssenseaves
+
+--- Document Chunk 24 ---
+Pm  下  Oil
+
+--- Document Chunk 25 ---
+weRvwouuwennew e RS
+
+--- Document Chunk 26 ---
+三
+
+--- Document Chunk 27 ---
+--- Page 3 ---
+
+--- Document Chunk 28 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 29 ---
+Ill
+
+--- Document Chunk 30 ---
+前
+
+--- Document Chunk 31 ---
+T/CAMET 04011《城市轨道交通”基于通信的列车运行控制系统
+
+--- Document Chunk 32 ---
+(CBTC)互联互通接口规范》分为以下八个部分:
+
+--- Document Chunk 33 ---
+一一第1 部分:应答器报文;
+
+--- Document Chunk 34 ---
+一一第 2 部分:CBTC 系统车地连续通信协议;
+
+--- Document Chunk 35 ---
+一一第 3 部分:车载列车自动保护(ATP)/列车自动运行(ATO) 系统
+
+--- Document Chunk 36 ---
+与车辆的接口;
+
+--- Document Chunk 37 ---
+一一第 4 部分:区域控制器(ZC )间接口;
+
+--- Document Chunk 38 ---
+一一第5 部分:计算机联锁(CI)间接口;
+
+--- Document Chunk 39 ---
+一一第6 部分:列车自动监控系统(ATS ) 间接口;
+
+--- Document Chunk 40 ---
+一一第7 部分:信号各子系统与维护支持系统(MSS ) 间接口;
+
+--- Document Chunk 41 ---
+一一第 8 部分:车载人机界面。
+
+--- Document Chunk 42 ---
+本部分是 T/CAMET 04011 的第 5 部分。
+
+--- Document Chunk 43 ---
+本部分按照 GBXT 1. 1一2009 给出的规则起草。
+
+--- Document Chunk 44 ---
+请注意本部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 45 ---
+识别这些专利的责任。
+
+--- Document Chunk 46 ---
+本规范由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 47 ---
+本部分由中国城市轨道交通协会归口。
+
+--- Document Chunk 48 ---
+本部分起草单位 :北京全路通信信号研究设计院集团有限公司 CEE BY
+
+--- Document Chunk 49 ---
+技股份有限公司中国铁道科学研究院集团有限公司通信信号研究所、株洲
+
+--- Document Chunk 50 ---
+中车时代电气股份有限公司 .浙江众合科技股份有限公司 ,北京交通大学。
+
+--- Document Chunk 51 ---
+本部分主要起草人 SA: BIC KAI ME AS,
+
+--- Document Chunk 52 ---
+汉浩楠段宏伟.张大涛、原志彬、刘清华、胡顺定、王悉。审查组:李中浩、
+
+--- Document Chunk 53 ---
+ARIA ROG RAE ,张艳兵 TK BE FER TKS BIR ERT EEE
+
+--- Document Chunk 54 ---
+文成祥、任敬、朱东飞.肖利君,张守芝 、刘新平。
+
+--- Document Chunk 55 ---
+Wl
+
+--- Document Chunk 56 ---
+--- Page 4 ---
+
+--- Document Chunk 57 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 58 ---
+引
+
+--- Document Chunk 59 ---
+Ill
+
+--- Document Chunk 60 ---
+为促进中国城市轨道交通建设,实现并满足城市轨道交通互联互通
+
+--- Document Chunk 61 ---
+的需要 ,达到经济适用、资源共享 .技术先进及可持续发展的目标 ,制定城
+
+--- Document Chunk 62 ---
+市轨道交通基于通信的列车运行控制系统(CBTC ) 互联互通系列团体
+
+--- Document Chunk 63 ---
+标准。
+
+--- Document Chunk 64 ---
+该系列规范包括《城市轨道交通”基于通信的列车运行控制系统
+
+--- Document Chunk 65 ---
+(CBTC)互联互通系统规范兴城市轨道交通”基于通信的列车运行控制
+
+--- Document Chunk 66 ---
+系统(CBTC ) 互联互通接口规范城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 67 ---
+控制系统(CBTC )互联互通测试规范兴城市轨道交通”基于通信的列车
+
+--- Document Chunk 68 ---
+运行控制系统(CBTC )互联互通工程规范》4 个规范(17 个部分) 。
+
+--- Document Chunk 69 ---
+--- Page 5 ---
+
+--- Document Chunk 70 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 71 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 72 ---
+控制系统( CBTC) 互联互通接口规范
+
+--- Document Chunk 73 ---
+第5 部分:计算机联锁( CI) 间接口
+
+--- Document Chunk 74 ---
+1 范围
+
+--- Document Chunk 75 ---
+内容。
+
+--- Document Chunk 76 ---
+本部分适用于国
+
+--- Document Chunk 77 ---
+下列文件对于本部2请
+
+--- Document Chunk 78 ---
+件,仅所注日期的版本适用于和=
+
+--- Document Chunk 79 ---
+版本(包括所有的修改单)适用于本部分。
+
+--- Document Chunk 80 ---
+GB/T 24339. 1一2009 ”轨道交通 通信、信号和处理系统 第1部
+
+--- Document Chunk 81 ---
+分:封闭式传输系统中的安全相关通信(匡C 62280-1:2002 ,IDT)
+
+--- Document Chunk 82 ---
+TB/T 3027一2015 ”铁路车站计算机联锁技术条件
+
+--- Document Chunk 83 ---
+CI/T 407一2012 ”城市轨道交通基于通信的列车自动控制系统技术
+
+--- Document Chunk 84 ---
+要求
+
+--- Document Chunk 85 ---
+T/CAMET 04010. 1 ”城市轨道交通”基于通信的列车运行控制系统
+
+--- Document Chunk 86 ---
+(CBTC)互联互通系统规范 第1部分:系统总体要求
+
+--- Document Chunk 87 ---
+运基信号[2010] 267 号 RSSP - | 铁路信号安全通信协议
+
+--- Document Chunk 88 ---
+IEEE 802.3 以太网(Ethernet)
+
+--- Document Chunk 89 ---
+迁不注日期的引用文件 ,其最新
+
+--- Document Chunk 90 ---
+--- Page 6 ---
+
+--- Document Chunk 91 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 92 ---
+RFC 791
+
+--- Document Chunk 93 ---
+RFC 768
+
+--- Document Chunk 94 ---
+3 术语和缩略语
+
+--- Document Chunk 95 ---
+互联网协议(Internet Protocol)
+
+--- Document Chunk 96 ---
+户数据报协议(User Datagram Protocol)
+
+--- Document Chunk 97 ---
+CJ/T 407一2012 和 T/CAMET 04010. 1 界定的及下列术语和缩略
+
+--- Document Chunk 98 ---
+语适
+
+--- Document Chunk 99 ---
+术语。
+
+--- Document Chunk 100 ---
+3.1
+
+--- Document Chunk 101 ---
+3.1.1
+
+--- Document Chunk 102 ---
+术语
+
+--- Document Chunk 103 ---
+F 本部分。为了便于使用,以下重复列出了其中的主要相关
+
+--- Document Chunk 104 ---
+基于通信的列车控制“communication based train control (CBTC)
+
+--- Document Chunk 105 ---
+通过不依赖轨旁列车占用检测设备的列车主动定位技术 .连续车 -
+
+--- Document Chunk 106 ---
+地双向数据通信技术以及能够执行安全功能的车载和地面处理器而构建
+
+--- Document Chunk 107 ---
+的连续式列车自动控制系统。
+
+--- Document Chunk 108 ---
+[CIMT 407一2012 ,定义3.1.1]
+
+--- Document Chunk 109 ---
+3.1.2
+
+--- Document Chunk 110 ---
+计算机联锁
+
+--- Document Chunk 111 ---
+computer interiocking
+
+--- Document Chunk 112 ---
+以计算机技术为核心, 自动实现进路.道岔,信号机等防护技术的
+
+--- Document Chunk 113 ---
+[CJZT 407一2012 ,定义3.1.6]j
+
+--- Document Chunk 114 ---
+3.1.3
+
+--- Document Chunk 115 ---
+装备列车 CBTC-equipped trains
+
+--- Document Chunk 116 ---
+装备了 CBTC 系统车载设备且设备处于工作状态的列车。
+
+--- Document Chunk 117 ---
+[ T/CAMET 04010. 1 ,术语3.1.11]
+
+--- Document Chunk 118 ---
+3.1.4
+
+--- Document Chunk 119 ---
+非装备列车“Non-CBTC-equipped trains
+
+--- Document Chunk 120 ---
+没有装备 CBTC 系统车载设备或者 CBTC 系统车载设备处于不工作
+
+--- Document Chunk 121 ---
+状态的列车。
+
+--- Document Chunk 122 ---
+[TZCAMET 04010. 1 ,术语 3. 1. 12]
+
+--- Document Chunk 123 ---
+--- Page 7 ---
+
+--- Document Chunk 124 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 125 ---
+3. 1.5
+
+--- Document Chunk 126 ---
+常态点灯信号机 “inital-lighted signal
+
+--- Document Chunk 127 ---
+无接近信息室外信号机点灯,有接近信息室外信号机根据接近属性
+
+--- Document Chunk 128 ---
+显示的信号机。
+
+--- Document Chunk 129 ---
+3.2 缩略语
+
+--- Document Chunk 130 ---
+ARB :始终占用的分区即非正常占用分区(Always Reporting Block)
+
+--- Document Chunk 131 ---
+CBTC :基于通信的列车控制(Communication Based Train Control)
+
+--- Document Chunk 132 ---
+CI:计算机联锁(Computer Interlocking)
+
+--- Document Chunk 133 ---
+GAL:通用应用层(GCeneral Application Layer)
+
+--- Document Chunk 134 ---
+IPv4 :互联网协议( Internet Protocol , IP) 8998 4 版
+
+--- Document Chunk 135 ---
+MAC :媒体访问控制(Medium Access Control)
+
+--- Document Chunk 136 ---
+RSSP :铁路信号安全协议(Railway Signal Safety Protocol)
+
+--- Document Chunk 137 ---
+TSR :临时限速(Temporary Speed Restriction )
+
+--- Document Chunk 138 ---
+UDP:用户数据报协议(User Datagram Protocol)
+
+--- Document Chunk 139 ---
+4 和总则
+
+--- Document Chunk 140 ---
+本规范重点对互联互通不同线路间计算机联锁系统的通信接口进行
+
+--- Document Chunk 141 ---
+了描述,最终系统功能.系统设备的工程配置,用户界面及操作方式 .与外
+
+--- Document Chunk 142 ---
+部系统接口要求、轨旁设备布置原则等本规范未规定的内容应在后续规
+
+--- Document Chunk 143 ---
+范或工程实施中完成。
+
+--- Document Chunk 144 ---
+本规范对通用性的互联互通接口数据进行定义,可根据工程项目具
+
+--- Document Chunk 145 ---
+体情况 ,对 CI 间通信接口数据交互内容进行扩展。
+
+--- Document Chunk 146 ---
+5 CI- CI通信接口报文规范
+
+--- Document Chunk 147 ---
+5.1 接口连接方式
+
+--- Document Chunk 148 ---
+5.1.1 物理接口
+
+--- Document Chunk 149 ---
+CI 和相邻 CI采用双路宛余的通信通道(将双网分别定义为 A 网和
+
+--- Document Chunk 150 ---
+B 网)以提高系统的可靠性,任何一个单网的故障都不会对系统的正常使
+
+--- Document Chunk 151 ---
+目产生影响。两系统按照A网和 A 网相连`.B 网和 B 网相连接的方式，
+
+--- Document Chunk 152 ---
+3
+
+--- Document Chunk 153 ---
+--- Page 8 ---
+
+--- Document Chunk 154 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 155 ---
+其连接方式见图 1。
+
+--- Document Chunk 156 ---
+B网
+
+--- Document Chunk 157 ---
+ 1 CI-CI双网元余连接图
+
+--- Document Chunk 158 ---
+5.2 通信体系结构
+
+--- Document Chunk 159 ---
+5.2.1 通信模型
+
+--- Document Chunk 160 ---
+图 2 中安全功能模块和通信功能模块属于各子系统内部功能实现，
+
+--- Document Chunk 161 ---
+分别用于实现安全功能和对外通信功能。
+
+--- Document Chunk 162 ---
+应用层数据
+
+--- Document Chunk 163 ---
+安全相关
+
+--- Document Chunk 164 ---
+协议数据单元
+
+--- Document Chunk 165 ---
+协议数据单元
+
+--- Document Chunk 166 ---
+图2 CI- CI通信协议模型
+
+--- Document Chunk 167 ---
+5.2.2 通信机制
+
+--- Document Chunk 168 ---
+CI 间通信机制如下 :
+
+--- Document Chunk 169 ---
+a) CI 间通信采用周期发送的方式进行通信;
+
+--- Document Chunk 170 ---
+b) 通信双方均采用大端字节序进行数据传输。
+
+--- Document Chunk 171 ---
+5.2.3 通信层次结构
+
+--- Document Chunk 172 ---
+CI间通信层次结构划分如图 3 所示。
+
+--- Document Chunk 173 ---
+--- Page 9 ---
+
+--- Document Chunk 174 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 175 ---
+a) 物理层:采用IEEE 802.3 标准协议。
+
+--- Document Chunk 176 ---
+b) 数据链路层:MAC 子层基于 IEEE802. 3 标准。MAC 头
+
+--- Document Chunk 177 ---
+14 个
+
+--- Document Chunk 178 ---
+字节组成,1 个帧校验序列(4 字节)将被加在 Ethernet 帧后面。
+
+--- Document Chunk 179 ---
+c) 网络层:IPv4。
+
+--- Document Chunk 180 ---
+d) 传输层:UDP 协议。
+
+--- Document Chunk 181 ---
+                  e) 安全通信协议层:遵循 CB/T 24339. 1一2009 标准 .TBZT 3027一
+
+--- Document Chunk 182 ---
+2015 标准要求,采用 RSSP - 工铁路信号安全通信协议,同时通
+
+--- Document Chunk 183 ---
+过序列号对宛余网络数据进行过滤 ,不作为本文档描述。
+
+--- Document Chunk 184 ---
+f ”应用层:包括通用应用层和 CI应用层。
+
+--- Document Chunk 185 ---
+注:CIL- CI接口单帧报文1    FBR
+
+--- Document Chunk 186 ---
+SAREE | [-----—-
+
+--- Document Chunk 187 ---
+传输层 (UDP )
+
+--- Document Chunk 188 ---
+[sec 上-一
+
+--- Document Chunk 189 ---
+数据链路层
+
+--- Document Chunk 190 ---
+ae
+
+--- Document Chunk 191 ---
+图3 CI间通信层次结构
+
+--- Document Chunk 192 ---
+5.3 接口数据描述
+
+--- Document Chunk 193 ---
+5.3.1 动态交互描述
+
+--- Document Chunk 194 ---
+CI 与邻站 CI 传输分界线两边的设备信息,包括进路内物理
+
+--- Document Chunk 195 ---
+辑区段、信号机、站台门,紧急关闭按钮.道岔及保护区段状态。
+
+--- Document Chunk 196 ---
+P - 工协议传输的最大信息长度限制。
+
+--- Document Chunk 197 ---
+K Be ie
+
+--- Document Chunk 198 ---
+双方 CI
+
+--- Document Chunk 199 ---
+5
+
+--- Document Chunk 200 ---
+--- Page 10 ---
+
+--- Document Chunk 201 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 202 ---
+向对方传输互联互通相关范于内的本联锁管辖范围的设备状态 ,接收对
+
+--- Document Chunk 203 ---
+方 CI 发送的设备状态。
+
+--- Document Chunk 204 ---
+5.3.1.1 通用应用层消息包定义
+
+--- Document Chunk 205 ---
+按照6RSSP -工铁路信号安全通信协议》,将相邻 CI 间每个周期需
+
+--- Document Chunk 206 ---
+要交互的信息通过组成通用( GAL) 信息包进行传输,如图4 所示。
+
+--- Document Chunk 207 ---
+应用层信息包
+
+--- Document Chunk 208 ---
+k.n
+
+--- Document Chunk 209 ---
+AAR |) MV ae
+
+--- Document Chunk 210 ---
+|   Ae BL                                     通用信息包
+
+--- Document Chunk 211 ---
+J                                                          四
+
+--- Document Chunk 212 ---
+图4 通用信息包和应用层信息包关系结构图
+
+--- Document Chunk 213 ---
+通用信息包
+
+--- Document Chunk 214 ---
+k
+
+--- Document Chunk 215 ---
+5.3.1.2 信息包格式定义
+
+--- Document Chunk 216 ---
+CI间通信的 1 个安全连接每周期最多允许发送 1 个 GAL 消息包，
+
+--- Document Chunk 217 ---
+GAL 消息包中包含 CI 间传输的各条应用信息,每个 GAL 消息包总长不
+
+--- Document Chunk 218 ---
+得超过 1 000 字节 ,格式定义见表I.表2。
+
+--- Document Chunk 219 ---
+表1 通用信息包格式定义
+
+--- Document Chunk 220 ---
+Cc aol 字 @ |长度  信息位定义及说明
+
+--- Document Chunk 221 ---
+1   类型高位
+
+--- Document Chunk 222 ---
+接口信息类型          2 字节 | 0x0606:CI - Cl 接口
+
+--- Document Chunk 223 ---
+2   类型低位
+
+--- Document Chunk 224 ---
+3
+
+--- Document Chunk 225 ---
+Pa    4
+
+--- Document Chunk 226 ---
+snes   5    源 ID   4字节  BT BBE ID”
+
+--- Document Chunk 227 ---
+--- Page 11 ---
+
+--- Document Chunk 228 ---
+T/CAMET 04011, 5一2018
+
+--- Document Chunk 229 ---
+表1 通用信息包格式定义(续)
+
+--- Document Chunk 230 ---
+信息所定义 RE) ee |长度  信息位定义及说明
+
+--- Document Chunk 231 ---
+了
+
+--- Document Chunk 232 ---
+8
+
+--- Document Chunk 233 ---
+  日的ID | 4字节 | 接收方联锁 iD。
+
+--- Document Chunk 234 ---
+10
+
+--- Document Chunk 235 ---
+VW
+
+--- Document Chunk 236 ---
+电子地图版本 | 12 ee wn yey | CO RAR MAAS
+
+--- Document Chunk 237 ---
+wee’ |  oe  PY) cr 问的数据版本校验信息
+
+--- Document Chunk 238 ---
+14
+
+--- Document Chunk 239 ---
+15
+
+--- Document Chunk 240 ---
+本方消息序 | 16      记录发送本条消息时,本方
+
+--- Document Chunk 241 ---
+|
+
+--- Document Chunk 242 ---
+ns fq, |S   OO 的周期计数
+
+--- Document Chunk 243 ---
+18
+
+--- Document Chunk 244 ---
+19
+
+--- Document Chunk 245 ---
+sag ALM   通信周期 | 2字节 | 单位sms
+
+--- Document Chunk 246 ---
+20
+
+--- Document Chunk 247 ---
+21
+
+--- Document Chunk 248 ---
+对方消息“| 22     记录收到对方上一条消息中
+
+--- Document Chunk 249 ---
+本
+
+--- Document Chunk 250 ---
+eae | 93   BAS   OP) push ar ga
+
+--- Document Chunk 251 ---
+24
+
+--- Document Chunk 252 ---
+25
+
+--- Document Chunk 253 ---
+Kal t— [oe     7
+
+--- Document Chunk 254 ---
+记录收到对方上一条消息
+
+--- Document Chunk 255 ---
+|  PP at rt MIRC
+
+--- Document Chunk 256 ---
+28
+
+--- Document Chunk 257 ---
+--- Page 12 ---
+
+--- Document Chunk 258 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 259 ---
+表1 通用信息包格式定义(续)
+
+--- Document Chunk 260 ---
+信息域定义 | FP) = & |长度    信息位定义及说明
+
+--- Document Chunk 261 ---
+|   _       2.   CI — CI fy Bs i WR AR, 001 ~
+
+--- Document Chunk 262 ---
+协议版本号”| 29 | 协议版本号“| 1字节| OY
+
+--- Document Chunk 263 ---
+应用层报文 | 30      se   .| 后续报文长度,以字节为单
+
+--- Document Chunk 264 ---
+总长度 | 3 | 应用报文总长度 | 2 字节 |位,不含长度本身两字节
+
+--- Document Chunk 265 ---
+应用层数据 | | ，应用层数据“| 变长 | 参见表3 格式定义
+
+--- Document Chunk 266 ---
+"D 的具体编号原则在工程实现阶段确定。
+
+--- Document Chunk 267 ---
+,电子地图版本校验信息针对 CILCI TO FH GD CT 共用的信息。著
+
+--- Document Chunk 268 ---
+“电子地图版本校验信息"或协议版本号"与相邻 CL RB, EAT
+
+--- Document Chunk 269 ---
+断开通信处理。
+
+--- Document Chunk 270 ---
+“序列号有效值为1 ~ (2 -1)。发送方应保证生成两包信息包时,两包信息
+
+--- Document Chunk 271 ---
+包中的“本方消息序列号"字段的差值与“通信有周期"相乘等于生成两包消息
+
+--- Document Chunk 272 ---
+的时间问隔。
+
+--- Document Chunk 273 ---
+“当未收到对方消息时,序列号发送 OxFFFF FFFF。
+
+--- Document Chunk 274 ---
+表2 应用层信息格式定义
+
+--- Document Chunk 275 ---
+报文内容             说 OW
+
+--- Document Chunk 276 ---
+“    4 报文结束"
+
+--- Document Chunk 277 ---
+报文长度       报文长度         FUR IEAL ARIST
+
+--- Document Chunk 278 ---
+2                帧长度
+
+--- Document Chunk 279 ---
+3    定义某一条应用信息的
+
+--- Document Chunk 280 ---
+报文类型      af              自定义,详细内容参见5 3.2
+
+--- Document Chunk 281 ---
+4 |标识
+
+--- Document Chunk 282 ---
+5                            0
+
+--- Document Chunk 283 ---
+6                            0
+
+--- Document Chunk 284 ---
+mm      安照    .       义
+
+--- Document Chunk 285 ---
+报文内容 “|7-报| 按照报文格式定义的报| ，自定义,详细内容参见5.3.2
+
+--- Document Chunk 286 ---
+文结束| 文具体内容
+
+--- Document Chunk 287 ---
+--- Page 13 ---
+
+--- Document Chunk 288 ---
+5.3.1.3
+
+--- Document Chunk 289 ---
+5.3.1.3.
+
+--- Document Chunk 290 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 291 ---
+通信状态管理
+
+--- Document Chunk 292 ---
+T CI应对接收到的应用消息进行合法性检查 ,若检查未通
+
+--- Document Chunk 293 ---
+过,认为本周期未收到邻站 CI 的应用信息或主动断开安全连接,并记录
+
+--- Document Chunk 294 ---
+HU ia
+
+--- Document Chunk 295 ---
+a)
+
+--- Document Chunk 296 ---
+b)
+
+--- Document Chunk 297 ---
+©)
+
+--- Document Chunk 298 ---
+5.3.1.3.
+
+--- Document Chunk 299 ---
+a)
+
+--- Document Chunk 300 ---
+b)
+
+--- Document Chunk 301 ---
+ce)
+
+--- Document Chunk 302 ---
+d)
+
+--- Document Chunk 303 ---
+e)
+
+--- Document Chunk 304 ---
+f)
+
+--- Document Chunk 305 ---
+。具体检查方式如下:
+
+--- Document Chunk 306 ---
+消息内容的一致性检查:包括信息的字段合法性检查 .字段组
+
+--- Document Chunk 307 ---
+合合法性检查以及信息完整性愉查;
+
+--- Document Chunk 308 ---
+通用应用(GAL) 信息包消息所应包含的信息的完整性;
+
+--- Document Chunk 309 ---
+其他逻辑检查。
+
+--- Document Chunk 310 ---
+2 CI 应能对通信连接状态进行判断:
+
+--- Document Chunk 311 ---
+CI 判断与邻站 CI 台信和Si时间定义为 Tunaou( 可配
+
+--- Document Chunk 312 ---
+置,推荐值5 JADCI as
+
+--- Document Chunk 313 ---
+YE           HEC BI A FY SEH CI
+
+--- Document Chunk 314 ---
+断(指应用层根据
+
+--- Document Chunk 315 ---
+GAL a5: pe Big ai      bf sk a 47 A
+
+--- Document Chunk 316 ---
+断) 。
+
+--- Document Chunk 317 ---
+若 CI 判断                fH 经达到 Tensws时，
+
+--- Document Chunk 318 ---
+CT 应判断与      +H ie (AEM AE GAL 包头中字段
+
+--- Document Chunk 319 ---
+进行判断,而        Bee Bega Hi) 。
+
+--- Document Chunk 320 ---
+Cl 与邻站 CI 间j      FOP, ACU CI 无法收到邻站汇报
+
+--- Document Chunk 321 ---
+的设备信息。CI 应和将令站所有设条关:  设壮为安全侧,如将通
+
+--- Document Chunk 322 ---
+往邻站进路的始端信号机置为禁止信号,对应来日邻站的区段
+
+--- Document Chunk 323 ---
+KEATS
+
+--- Document Chunk 324 ---
+CI 与邻站 CI 问通信中断的情况下 ,若本站 CI 收到了合法的邻
+
+--- Document Chunk 325 ---
+站 CT 信息,则本站 CI应认为与邻站 CI 连接恢复。
+
+--- Document Chunk 326 ---
+互联互通线网中,CI 与邻站 CI 的通信超时时间应一致,消息有
+
+--- Document Chunk 327 ---
+效期时间应一致
+
+--- Document Chunk 328 ---
+5. 3.2 数据类型定义
+
+--- Document Chunk 329 ---
+表3
+
+--- Document Chunk 330 ---
+规定了 CI 间道信的所有应用信息类型及其含义、发送方向.长
+
+--- Document Chunk 331 ---
+度范围 .发送方式(周期/非周期 ) 的内容。
+
+--- Document Chunk 332 ---
+--- Page 14 ---
+
+--- Document Chunk 333 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 334 ---
+表3 CILCI通信的应用层信息定义
+
+--- Document Chunk 335 ---
+信息类型         信息包名         发送方向 |长度(字节) | 发送方式
+
+--- Document Chunk 336 ---
+0x0201           道岔状态信息包            双向            xx            周期
+
+--- Document Chunk 337 ---
+0x0202        物理区段状态信息包         双向            xx            周期
+
+--- Document Chunk 338 ---
+0x0203     逻辑区段状态信息包     双向       xx       周期
+
+--- Document Chunk 339 ---
+0x0204         信号机状态信息包           双向            xx            周期
+
+--- Document Chunk 340 ---
+0x0205   站台门状态信息包    双向    xx    周期
+
+--- Document Chunk 341 ---
+0x0206      紧急关闭按钮状态信息包       双向            xx            周期
+
+--- Document Chunk 342 ---
+0x0207           照查状态信息包            双向            xx            周期
+
+--- Document Chunk 343 ---
+0x0208            防渡门信息包             双向            xx            周期
+
+--- Document Chunk 344 ---
+0x0209        上电锁闭状态信息包         双向            xx            周期
+
+--- Document Chunk 345 ---
+0x020a          临时限速信息包           双向           xx           周期
+
+--- Document Chunk 346 ---
+0x020b        城市自定义信息包          双向           xx           周期
+
+--- Document Chunk 347 ---
+0x020c      厂商自定义信息包       双向        Xx        周期
+
+--- Document Chunk 348 ---
+5.4 应用信息定义
+
+--- Document Chunk 349 ---
+5.4.1 KER
+
+--- Document Chunk 350 ---
+本 CI应将互联互通相关范围内的本联锁管辖范围的道岔状态发送
+
+--- Document Chunk 351 ---
+给邻站 CI。相邻 CI 间道岔索引顺序应保持一致。道贫状态信息见表4。
+
+--- Document Chunk 352 ---
+R4 道贫状态信息
+
+--- Document Chunk 353 ---
+--- Page 15 ---
+
+--- Document Chunk 354 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 355 ---
+表4 道岔状态信息(续)
+
+--- Document Chunk 356 ---
+字 elk 度            说 明          “|
+
+--- Document Chunk 357 ---
+B7     B6     BS     B4     B3     B2     Bl  |  BO
+
+--- Document Chunk 358 ---
+道岔 1 引导
+
+--- Document Chunk 359 ---
+道岔 1 封镇| 道贫 1 单镇|总饥轩状态: | 省人，全
+
+--- Document Chunk 360 ---
+省全     状态，    HAS:     01b:未引导  0
+
+--- Document Chunk 361 ---
+“(2% | olb:杰封锁 | olb:本单镇 | ei       和
+
+--- Document Chunk 362 ---
+状态          10b:反位
+
+--- Document Chunk 363 ---
+10b :封锁   10b:单锁   10b: 引导总
+
+--- Document Chunk 364 ---
+00b:四开
+
+--- Document Chunk 365 ---
+00b:非法。 | ooh:非法 |         ners
+
+--- Document Chunk 366 ---
+Libs tie | Libs 8tiA tH | 00b:非法     i
+
+--- Document Chunk 367 ---
+1b BRAT
+
+--- Document Chunk 368 ---
+—L.          -一|一       -|          _|
+
+--- Document Chunk 369 ---
+*非法定义 ,正常通信过程中不应发送的设备状态,车出现非法设备状态,接收
+
+--- Document Chunk 370 ---
+feo AA
+
+--- Document Chunk 371 ---
+PANE A
+
+--- Document Chunk 372 ---
+方认为本周期没有收到应用数据包,适用于本协议所有字段。
+
+--- Document Chunk 373 ---
+"默认值定义 ,通信双方在具体工和
+
+--- Document Chunk 374 ---
+始化完成之前发送的状态 ,适出于本协议所有字段。
+
+--- Document Chunk 375 ---
+的信息码字或联锁系统在初
+
+--- Document Chunk 376 ---
+=
+
+--- Document Chunk 377 ---
+5.4.2 物理区段状态信息
+
+--- Document Chunk 378 ---
+本 CI 应将互联互通相关范半
+
+--- Document Chunk 379 ---
+内的本联锁
+
+--- Document Chunk 380 ---
+i区管辖
+
+--- Document Chunk 381 ---
+范围内的物理区段
+
+--- Document Chunk 382 ---
+状态发送给邻站 CI。相邻 CI 间物理区段索引顺序应保持一致。物理区
+
+--- Document Chunk 383 ---
+段状态信息见表 5。
+
+--- Document Chunk 384 ---
+表5 物理区段状态信息
+
+--- Document Chunk 385 ---
+字 段|长 度             em
+
+--- Document Chunk 386 ---
+包含的
+
+--- Document Chunk 387 ---
+区 1字节| mem am ANA ABR LA AY IE BE RE
+
+--- Document Chunk 388 ---
+tin
+
+--- Document Chunk 389 ---
+--- Page 16 ---
+
+--- Document Chunk 390 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 391 ---
+RS 物理区段状态信息(续)
+
+--- Document Chunk 392 ---
+B1
+
+--- Document Chunk 393 ---
+区段 1 故障
+
+--- Document Chunk 394 ---
+BIALRAS :
+
+--- Document Chunk 395 ---
+Olb: K BEA
+
+--- Document Chunk 396 ---
+故障镇闭;
+
+--- Document Chunk 397 ---
+10b:区段故
+
+--- Document Chunk 398 ---
+障锁闭;
+
+--- Document Chunk 399 ---
+00b: 非 法
+
+--- Document Chunk 400 ---
+RE;
+
+--- Document Chunk 401 ---
+11ib:默认值
+
+--- Document Chunk 402 ---
+区段 1 保护
+
+--- Document Chunk 403 ---
+BARA:
+
+--- Document Chunk 404 ---
+Olb: KBR
+
+--- Document Chunk 405 ---
+保护锁闭;
+
+--- Document Chunk 406 ---
+10b:区段保
+
+--- Document Chunk 407 ---
+护锁闭;
+
+--- Document Chunk 408 ---
+00b: 非 法
+
+--- Document Chunk 409 ---
+11b:默认值
+
+--- Document Chunk 410 ---
+区段 1 进路
+
+--- Document Chunk 411 ---
+锁闭状态";
+
+--- Document Chunk 412 ---
+0lb:区段未
+
+--- Document Chunk 413 ---
+进路锁闭;
+
+--- Document Chunk 414 ---
+10b:区段进
+
+--- Document Chunk 415 ---
+路锁闭;
+
+--- Document Chunk 416 ---
+00b:非法状
+
+--- Document Chunk 417 ---
+态
+
+--- Document Chunk 418 ---
+11b:默认值
+
+--- Document Chunk 419 ---
+区段 1 占用
+
+--- Document Chunk 420 ---
+状态":
+
+--- Document Chunk 421 ---
+00b: 区 段
+
+--- Document Chunk 422 ---
+占用;
+
+--- Document Chunk 423 ---
+Olb: 非 法
+
+--- Document Chunk 424 ---
+10b: 区 段
+
+--- Document Chunk 425 ---
+空闲;
+
+--- Document Chunk 426 ---
+11b:默认值
+
+--- Document Chunk 427 ---
+区段 1 Hi
+
+--- Document Chunk 428 ---
+方向":
+
+--- Document Chunk 429 ---
+0lb:上行运
+
+--- Document Chunk 430 ---
+营方向;
+
+--- Document Chunk 431 ---
+10b:下行运
+
+--- Document Chunk 432 ---
+BA;
+
+--- Document Chunk 433 ---
+00b: 无锁闭
+
+--- Document Chunk 434 ---
+方向;
+
+--- Document Chunk 435 ---
+11b:默认值
+
+--- Document Chunk 436 ---
+区段 1 封锁
+
+--- Document Chunk 437 ---
+状态"，
+
+--- Document Chunk 438 ---
+Olb: 区 段
+
+--- Document Chunk 439 ---
+1l0b:区段未
+
+--- Document Chunk 440 ---
+00b: 非 法
+
+--- Document Chunk 441 ---
+11b:默认值
+
+--- Document Chunk 442 ---
+区 段 1ARB
+
+--- Document Chunk 443 ---
+WAS:
+
+--- Document Chunk 444 ---
+Olb: 区 段
+
+--- Document Chunk 445 ---
+ARB;
+
+--- Document Chunk 446 ---
+10b: 区 段
+
+--- Document Chunk 447 ---
+未 ARB;
+
+--- Document Chunk 448 ---
+00b: 非 法
+
+--- Document Chunk 449 ---
+状态;
+
+--- Document Chunk 450 ---
+11b:默认值
+
+--- Document Chunk 451 ---
+“采集轨道继电器状态。
+
+--- Document Chunk 452 ---
+"1. 不同厂家转换时,物理区段中任意一个迎辑区段锁闭 ,则认为物理区段锁闭;
+
+--- Document Chunk 453 ---
+2. 故障锁闭显示级别优先于进路锁闭 ,进路锁闭优先于保护区段锁闭;
+
+--- Document Chunk 454 ---
+3. 进路锁闭包括列车进路.引导进路 ,调车进路锁闭 。
+
+--- Document Chunk 455 ---
+“区段进路锁闭状态的一种 ,不满足解锁原则漏解锁时 。
+
+--- Document Chunk 456 ---
+"协议要求同一计轴内所有锁闭的逻辑区段方向应一致
+
+--- Document Chunk 457 ---
+5.4.3 逻辑区段状态信息
+
+--- Document Chunk 458 ---
+本 CI应将互联互通相关范围
+
+--- Document Chunk 459 ---
+态发送给邻站 CI。相邻 CI [HIE AR
+
+--- Document Chunk 460 ---
+状态信息见表6。
+
+--- Document Chunk 461 ---
+12
+
+--- Document Chunk 462 ---
+内的本联锁区管辖范围的逮辑区段状
+
+--- Document Chunk 463 ---
+区段索引顺序应保持一致。池辑区段
+
+--- Document Chunk 464 ---
+--- Page 17 ---
+
+--- Document Chunk 465 ---
+T/CAMET 04011, 5一2018
+
+--- Document Chunk 466 ---
+RO 逻辑区段状态信息
+
+--- Document Chunk 467 ---
+字 段|长 度           说 明
+
+--- Document Chunk 468 ---
+ra
+
+--- Document Chunk 469 ---
+逻辑区 | 1 字节 | WIR Th HAE AY AS BB
+
+--- Document Chunk 470 ---
+段数量    |
+
+--- Document Chunk 471 ---
+B7               B6               B5               B4               B3               B2               BI                BO
+
+--- Document Chunk 472 ---
+区段 1 锁闭  区段 1保护| 区段1进路| 区段1占用
+
+--- Document Chunk 473 ---
+2xn |方向:       锁闭状态:    锁闭状态":    状态:
+
+--- Document Chunk 474 ---
+字节 | Olb: 上行适| 01b:区段未| 0lb:区段未| 00h:非CBTC
+
+--- Document Chunk 475 ---
+wig x | 营方向，     保护锁闭;   进路锁闭 ;    车占用，
+
+--- Document Chunk 476 ---
+段1 的                Oth: CBTC 车
+
+--- Document Chunk 477 ---
+Bytel                                   占用，
+
+--- Document Chunk 478 ---
+10b; % Bee
+
+--- Document Chunk 479 ---
+闲;
+
+--- Document Chunk 480 ---
+Lb: BRIA
+
+--- Document Chunk 481 ---
+区段 1 封锁
+
+--- Document Chunk 482 ---
+01b: 区 段
+
+--- Document Chunk 483 ---
+10b:区段未
+
+--- Document Chunk 484 ---
+封锁;
+
+--- Document Chunk 485 ---
+00b: 非 法
+
+--- Document Chunk 486 ---
+11lb:默认值    11b:默认值
+
+--- Document Chunk 487 ---
+还辑
+
+--- Document Chunk 488 ---
+区段
+
+--- Document Chunk 489 ---
+逻辑区
+
+--- Document Chunk 490 ---
+Byte2
+
+--- Document Chunk 491 ---
+“HY UR Bk FAG SK Be bi FY 、锁闭等状态信息均应同时发送,主要基于到以
+
+--- Document Chunk 492 ---
+下几点:
+
+--- Document Chunk 493 ---
+a)CBTC 和后备模式下 ,CI 对于列车占用状态获取方式包含物理区段 .逻辑区
+
+--- Document Chunk 494 ---
+段占川;
+
+--- Document Chunk 495 ---
+b) 互联互通的接口文件中需要兼容各家产品特点,不同厂家的上产品内部好和辑或
+
+--- Document Chunk 496 ---
+以物理区段的锁闭 .占用状态为主,或以池辑区段的占用 ,镇闭状态为主;
+
+--- Document Chunk 497 ---
+*)为解决相邻联锁集中区站场状态显示不一敏问题 ,应同时发送物理区段和
+
+--- Document Chunk 498 ---
+凶辑区有段;
+
+--- Document Chunk 499 ---
+d)将处理后的多和辑区段占用状态发送给对方 ,发送方保证发送的状态应与本
+
+--- Document Chunk 500 ---
+方人机界而显示状态一臻,接收方可直接用十人机界面显示相邻线路复视
+
+--- Document Chunk 501 ---
+区域内逻辑区段状态;
+
+--- Document Chunk 502 ---
+e进路锁闭包括列车进路 .引导进路 ,调车进路锁闵 。
+
+--- Document Chunk 503 ---
+13
+
+--- Document Chunk 504 ---
+--- Page 18 ---
+
+--- Document Chunk 505 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 506 ---
+5.4.4 信号机状态信息
+
+--- Document Chunk 507 ---
+本 CI 应将互联互通相关范
+
+--- Document Chunk 508 ---
+围内的本联锁区管辖范围内的信号机状态
+
+--- Document Chunk 509 ---
+发送给邻站 CI。联锁分界点处信号机属于接车方联锁管辖,若联锁分界点
+
+--- Document Chunk 510 ---
+有外置保护区段,则发车方联锁也应向接车方联锁发送该信号机状态信
+
+--- Document Chunk 511 ---
+息。若联锁分界点无外置保护
+
+--- Document Chunk 512 ---
+息。相邻 CI [al
+
+--- Document Chunk 513 ---
+区段,则发车方联锁不发该信号机状态信
+
+--- Document Chunk 514 ---
+信号机索引顺序应保持一致。信和号机状态信息见表7。
+
+--- Document Chunk 515 ---
+表7 信号机状态信息
+
+--- Document Chunk 516 ---
+互联互通相关范围内的本联锁区管辖范围的信号机数量 n
+
+--- Document Chunk 517 ---
+a7 | B6 | Bs | B4 | as | B2 | Bi | BO
+
+--- Document Chunk 518 ---
+其他:非法
+
+--- Document Chunk 519 ---
+信号机 1 显示状态":
+
+--- Document Chunk 520 ---
+0000 0000b :断丝;0001 0001b:红灯;
+
+--- Document Chunk 521 ---
+0001 0010b:黄灯;0001 0100b :绿灯;
+
+--- Document Chunk 522 ---
+0001 1000b:红黄灯;1111 1111b:默认值;
+
+--- Document Chunk 523 ---
+信号机 1 保
+
+--- Document Chunk 524 ---
+PREG:
+
+--- Document Chunk 525 ---
+Olb: 保护建
+
+--- Document Chunk 526 ---
+立请求;
+
+--- Document Chunk 527 ---
+10b: 保护取
+
+--- Document Chunk 528 ---
+消请求;
+
+--- Document Chunk 529 ---
+00b :无命令;
+
+--- Document Chunk 530 ---
+11b:默认值
+
+--- Document Chunk 531 ---
+信号机 1 接
+
+--- Document Chunk 532 ---
+近锁闭:       信号机 1 封
+
+--- Document Chunk 533 ---
+Olb; He 近|锁状态:
+
+--- Document Chunk 534 ---
+锁闭;         01b:封锁;
+
+--- Document Chunk 535 ---
+10b:未接近| 1I0b:未封锁;
+
+--- Document Chunk 536 ---
+锁闭;         00b:非法状
+
+--- Document Chunk 537 ---
+00b:非法状| A;
+
+--- Document Chunk 538 ---
+态;          11b:默认值
+
+--- Document Chunk 539 ---
+11b:默认值
+
+--- Document Chunk 540 ---
+信号机 1 亮
+
+--- Document Chunk 541 ---
+01b:点灯;
+
+--- Document Chunk 542 ---
+10b:灭灯;
+
+--- Document Chunk 543 ---
+00b: 非法状
+
+--- Document Chunk 544 ---
+AB;
+
+--- Document Chunk 545 ---
+11b:默认值
+
+--- Document Chunk 546 ---
+信号机 1 保
+
+--- Document Chunk 547 ---
+护区段有效
+
+--- Document Chunk 548 ---
+beak":
+
+--- Document Chunk 549 ---
+Olb: RPK
+
+--- Document Chunk 550 ---
+BAR;
+
+--- Document Chunk 551 ---
+--- Page 19 ---
+
+--- Document Chunk 552 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 553 ---
+#7 ”信号机状态信息(续)
+
+--- Document Chunk 554 ---
+字段 | 长度                    说 明
+
+--- Document Chunk 555 ---
+10b: 保护区
+
+--- Document Chunk 556 ---
+信号 |信号机                                       段无效;
+
+--- Document Chunk 557 ---
+wR | 1的                                          00b:非法状
+
+--- Document Chunk 558 ---
+态” | Byte3                                        态;
+
+--- Document Chunk 559 ---
+11b: BRACE
+
+--- Document Chunk 560 ---
+“分界处的信号机 ,发车站联锁向接车站联锁仅发送保护区段命令,其他状态
+
+--- Document Chunk 561 ---
+发送默认值;接车站联锁向发车站联锁仅发送的保护区段命令为无命令"，
+
+--- Document Chunk 562 ---
+其他信息发送有效值。
+
+--- Document Chunk 563 ---
+"信号机的有效状态包括 FELL PED ER REL RA RRB,
+
+--- Document Chunk 564 ---
+a) RR RARE V:CBTC Mat HER A SIT AK;
+
+--- Document Chunk 565 ---
+b) FER TERE M Ja eB CER AS PAK
+
+--- Document Chunk 566 ---
+c)亮红黄定义:引导信和号开放;
+
+--- Document Chunk 567 ---
+可断丝定义:亮灯时灯丝继电器沙下;
+
+--- Document Chunk 568 ---
+e)针对常态点灯的信号机:在联锁控区边界处 ,接车站信号机开放作为发车
+
+--- Document Chunk 569 ---
+站信号开放检查条件的场景下(无论实体或者只拟) REA AES LSE AR
+
+--- Document Chunk 570 ---
+亮黄满足发车站信号开放(灭灯开放或者点灯开放) 对此条件的检查。
+
+--- Document Chunk 571 ---
+“1. 发车站联锁向接车站办理的终端在分界点处的进路完整锁闭县其保护区
+
+--- Document Chunk 572 ---
+段建立的触发区段占用条件都具备时开始发送保护区段建立请求,直到保
+
+--- Document Chunk 573 ---
+护区段已锁闭:
+
+--- Document Chunk 574 ---
+2. 发车站联锁收到保护区段停稳信息时 ,或发车站连接分界点处的区段解贸
+
+--- Document Chunk 575 ---
+时发送“保护取消请求” ,直到保护区段已解锁;
+
+--- Document Chunk 576 ---
+4, 主进路与对应保护区段属于不同 CI 时,保护区段所属 CI 收到主进路所属 Ci
+
+--- Document Chunk 577 ---
+发送的"保护取消请求"时,可不考虑主进路 CI 内线路情况 ,无条件采信。
+
+--- Document Chunk 578 ---
+"发送方 CI 应保证:发送*“保护区段有效"状态时,逻辑区段状态信息"包中，
+
+--- Document Chunk 579 ---
+该保护区段内所有膛辑区段的“保护锁闭状态"字段取值均为“区段保护锁
+
+--- Document Chunk 580 ---
+闭"。主进路 CI判断保护区段是否可用时,除*保护区段有效标志"字段外，
+
+--- Document Chunk 581 ---
+可不对保护区段 CI 范围内的其他条件进行判断。若主进路 CI TT TH
+
+--- Document Chunk 582 ---
+断,则出主进路 CI 保证系统的可用性。
+
+--- Document Chunk 583 ---
+--- Page 20 ---
+
+--- Document Chunk 584 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 585 ---
+5.4.5 站台门状态信息
+
+--- Document Chunk 586 ---
+本 CI 将互联互通相关范围内的本联锁区管辖范围的站台门状态信
+
+--- Document Chunk 587 ---
+息发送给邻站 CI。相邻 CI 间站台门索引顺序应保持一致。站台门状态
+
+--- Document Chunk 588 ---
+信息见表8。
+
+--- Document Chunk 589 ---
+表8 站台门状态信息
+
+--- Document Chunk 590 ---
+互联互通相关范围内的本联锁区管辖范围内站台门数量n
+
+--- Document Chunk 591 ---
+B4            B3            B2
+
+--- Document Chunk 592 ---
+站台门 1 旁
+
+--- Document Chunk 593 ---
+路标志 :
+
+--- Document Chunk 594 ---
+0Ib:未旁路;
+
+--- Document Chunk 595 ---
+站台门 2 状态            10b:旁路;
+
+--- Document Chunk 596 ---
+00b:非法状
+
+--- Document Chunk 597 ---
+态;
+
+--- Document Chunk 598 ---
+11b:默认值
+
+--- Document Chunk 599 ---
+5. 4.6 站台紧急关闭按钮信息
+
+--- Document Chunk 600 ---
+本 CI将互联互通相关范围内的本联锁区管辖范围的站台紧急关闭
+
+--- Document Chunk 601 ---
+信息发送给邻站 CI。相邻 CI 间站台紧急关闭索引顺序应保持一致。站
+
+--- Document Chunk 602 ---
+台紧急关闭按钮信息见表9。
+
+--- Document Chunk 603 ---
+表9 站台紧急关闭按钮信息
+
+--- Document Chunk 604 ---
+--- Page 21 ---
+
+--- Document Chunk 605 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 606 ---
+表9 站台紧急关闭按钮信息(续)
+
+--- Document Chunk 607 ---
+长 度           说  明
+
+--- Document Chunk 608 ---
+B7   B6   BS   Ba   B3   B2   Bi   BO
+
+--- Document Chunk 609 ---
+紧急关闭按
+
+--- Document Chunk 610 ---
+0.25 x n                          钮 1 状态:
+
+--- Document Chunk 611 ---
+字节 | ，    、    ，                 OLb: 48 F 5
+
+--- Document Chunk 612 ---
+态| (进位 hei) Reem eee  oh ie Fs
+
+--- Document Chunk 613 ---
+Fy ae)     ial                “                “                00b: 非法状
+
+--- Document Chunk 614 ---
+态;
+
+--- Document Chunk 615 ---
+11b: BRA
+
+--- Document Chunk 616 ---
+5.4.7 照查状态信息
+
+--- Document Chunk 617 ---
+本 CURE ER EA
+
+--- Document Chunk 618 ---
+发送给邻站 C1 HGP
+
+--- Document Chunk 619 ---
+表10。
+
+--- Document Chunk 620 ---
+B7   B6   BS   B4   B3   B2   Bl   BO
+
+--- Document Chunk 621 ---
+(0. 25 xn
+
+--- Document Chunk 622 ---
+信息单| 字节
+
+--- Document Chunk 623 ---
+元状态|《进位 | ”照查4 状态 | 照查3 状态 | 照查2 状态   吸起;
+
+--- Document Chunk 624 ---
+到整)                      00b :非法状态，
+
+--- Document Chunk 625 ---
+11b:默认值
+
+--- Document Chunk 626 ---
+“照查条件在具体下程中做详细定义。例如:照查条件常态吸起,在发车站末
+
+--- Document Chunk 627 ---
+区县锁闭时落下,上电锁闭时赂查状态为落下 。
+
+--- Document Chunk 628 ---
+17
+
+--- Document Chunk 629 ---
+--- Page 22 ---
+
+--- Document Chunk 630 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 631 ---
+5.4.8 防济门信息
+
+--- Document Chunk 632 ---
+本 CI 将互联互通相关范围内的本联锁区管辖范围的防沥门信息发
+
+--- Document Chunk 633 ---
+送给邻站 CI。相邻 CI 间防渡门索引顺序应保持一致。防滤门信息见
+
+--- Document Chunk 634 ---
+表11。
+
+--- Document Chunk 635 ---
+表11 防济门信息
+
+--- Document Chunk 636 ---
+字 段|长 度     说 明
+
+--- Document Chunk 637 ---
+包含的
+
+--- Document Chunk 638 ---
+信息单| 1 字节     互联互通相关范围内的本联锁区管辖范围的防渡门数量 n
+
+--- Document Chunk 639 ---
+元数量
+
+--- Document Chunk 640 ---
+B5    B4    B3    B2    Bl    BO
+
+--- Document Chunk 641 ---
+防渡门1关| BRETT) Be mT 1
+
+--- Document Chunk 642 ---
+门允许:      门请求:      RA:
+
+--- Document Chunk 643 ---
+O1b: RIF;    01b:请求;    01b:关闭;
+
+--- Document Chunk 644 ---
+10b:不允许; | ”10b:未请求; | 10b:开放;
+
+--- Document Chunk 645 ---
+00b:非法状| 00b:非法状| 00b:非法状
+
+--- Document Chunk 646 ---
+A            态
+
+--- Document Chunk 647 ---
+Eas                             aS
+
+--- Document Chunk 648 ---
+态
+
+--- Document Chunk 649 ---
+态
+
+--- Document Chunk 650 ---
+11b:默认值
+
+--- Document Chunk 651 ---
+11b:默认值   11b:默认值
+
+--- Document Chunk 652 ---
+5. 4. 9 上电锁闭状态信息
+
+--- Document Chunk 653 ---
+本 CI将本站上电锁闭状态信息发送给邻站 CI。上电锁闭状态信息
+
+--- Document Chunk 654 ---
+见表 12。
+
+--- Document Chunk 655 ---
+表 12 ”上电锁闭状态信息
+
+--- Document Chunk 656 ---
+字 段              长 度             说 明
+
+--- Document Chunk 657 ---
+包含的信息单元数量                 1 字节         本 CI上电锁闭状态数量 n
+
+--- Document Chunk 658 ---
+上电锁闭状态:
+
+--- Document Chunk 659 ---
+0x55 :设置上电锁闭;
+
+--- Document Chunk 660 ---
+0xaa:未设置上电锁闭;
+
+--- Document Chunk 661 ---
+0xff:默认值;
+
+--- Document Chunk 662 ---
+其他:非法码字
+
+--- Document Chunk 663 ---
+18
+
+--- Document Chunk 664 ---
+--- Page 23 ---
+
+--- Document Chunk 665 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 666 ---
+5.4.10 临时限速信息
+
+--- Document Chunk 667 ---
+本 CI 应将互联互通相关范围内的本联锁管辖范围的临时限速区段
+
+--- Document Chunk 668 ---
+状态发送给邻站 CI。相邻 CI 间临时限速区段索引顺序应保持一致。临
+
+--- Document Chunk 669 ---
+时限速信息抑表 13 。
+
+--- Document Chunk 670 ---
+表13 临时限速信息
+
+--- Document Chunk 671 ---
+字 段|长 度           说 OA
+
+--- Document Chunk 672 ---
+包含的
+
+--- Document Chunk 673 ---
+临时限
+
+--- Document Chunk 674 ---
+速区段
+
+--- Document Chunk 675 ---
+1 字节 | 互联互通相关范围内的本联锁区管辖范财的临时限速区段数其 m
+
+--- Document Chunk 676 ---
+B7               B6               BS               B4               B3               B2               BI                BO
+
+--- Document Chunk 677 ---
+临时限速区| 临时限速区| 临时限速区| 临时限速区
+
+--- Document Chunk 678 ---
+段4 TSR RAS: | BES TSR 状态: | 段 2 TSR 状态: |段 L TSR 状态
+
+--- Document Chunk 679 ---
+临时限| 2瑟x中olb;区县设| OL: ARB) 01b:区段设| 01b:区段设
+
+--- Document Chunk 680 ---
+SRE ae #1 TSR;   TSR;   i TSR;   & TSR;
+
+--- Document Chunk 681 ---
+状态 | CEE) ob: RBA] 10b:区段未| 1b: RELA] 10. KER
+
+--- Document Chunk 682 ---
+LSE) | eye TSR,  BEE TSR;  设置 TSR;  设置 TSR，
+
+--- Document Chunk 683 ---
+00b:非法状| 00b:非法状| 00b:非法状| 00h:非法状
+
+--- Document Chunk 684 ---
+11b:默认值   11b:默兴值   11b:默认值   11b: BRAG
+
+--- Document Chunk 685 ---
+5.4.11 城市自定义信息
+
+--- Document Chunk 686 ---
+本 CI 将互联互通相关范
+
+--- Document Chunk 687 ---
+发送给邻站 CI, UAE 14。
+
+--- Document Chunk 688 ---
+内的本联锁管辖范围的城市自定义信息
+
+--- Document Chunk 689 ---
+表 14 城市自定义信息
+
+--- Document Chunk 690 ---
+字 &             长 度           说 明
+
+--- Document Chunk 691 ---
+城市自定义             ney       报文内容为城市自定义
+
+--- Document Chunk 692 ---
+5.4.12 厂商自定义信息
+
+--- Document Chunk 693 ---
+本 CI 将互联互通相关范围内的本联锁管辖范围的厂商自定义信息
+
+--- Document Chunk 694 ---
+19
+
+--- Document Chunk 695 ---
+--- Page 24 ---
+
+--- Document Chunk 696 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 697 ---
+发送给邻站 Cl, WR 15。
+
+--- Document Chunk 698 ---
+表15 厂商自定义信息
+
+--- Document Chunk 699 ---
+F EB            长 度           说    明
+
+--- Document Chunk 700 ---
+厂商自定义            ma 字节      报文内容为厂商自定义
+
+--- Document Chunk 701 ---
+20
+
+--- Document Chunk 702 ---
+--- Page 25 ---
+
+--- Document Chunk 703 ---
+中国城市轨道交通协会团体标准
+
+--- Document Chunk 704 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 705 ---
+控制系统(CBTC ) 互联互通接口规范
+
+--- Document Chunk 706 ---
+第5 部分:计算机联锁( CI) 间接口
+
+--- Document Chunk 707 ---
+T/CAMET 04011. 5一2018
+
+--- Document Chunk 708 ---
+*
+
+--- Document Chunk 709 ---
+中国铁道出版社有限公司出版发行
+
+--- Document Chunk 710 ---
+(100054 ,北京市西城区右安门西街8 号)
+
+--- Document Chunk 711 ---
+公司网址: http://www. tdpress. com
+
+--- Document Chunk 712 ---
+北京铭成印刷有限公司印刷
+
+--- Document Chunk 713 ---
+FFA: 880 mm xl 230 mm 1/32 印张: ! 字数: 24干
+
+--- Document Chunk 714 ---
+2019年5月第1版 2019年5月第1次印刷
+
+--- Document Chunk 715 ---
+书号: 15113 - 5730    定价; 15.00 元
+
+--- Document Chunk 716 ---
+PALA 侵权必究
+
+--- Document Chunk 717 ---
+凡购买铁道版图书,如有印制质量问题,请与本公司发行部联系调换。
+
+--- Document Chunk 718 ---
+发行部电话:路(021)73174 ,市(010)51873174
+
+--- Document Chunk 719 ---
+--- Page 26 ---
+
+--- Document Chunk 720 ---
+DWE (10) SHER SHOR FSO (1G) 疏洲登洲汗针性党中宣语路订区凡月相千荡
+
+--- Document Chunk 721 ---
+mt |
+
+--- Document Chunk 722 ---
+| | |
+
+--- Document Chunk 723 ---
+ne
+
+--- Document Chunk 724 ---
+1
+
+--- Document Chunk 725 ---
+® oI
+

@@ -1,0 +1,111 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通 ”基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统(CBTC ) 互联互通接口规范”第 4 部分:
+
+--- Document Chunk 4 ---
+KX sae till ae (ZC) 间接口》
+
+--- Document Chunk 5 ---
+( T/CAMET 04011. 4—2018 )
+
+--- Document Chunk 6 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 7 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月03 日批准发布，
+
+--- Document Chunk 8 ---
+自2024 年09 月 10 日起实施。
+
+--- Document Chunk 9 ---
+一、编辑性修改
+
+--- Document Chunk 10 ---
+1.
+
+--- Document Chunk 11 ---
+信协议”
+
+--- Document Chunk 12 ---
+将第 2 章中*运基信号[2010]267 号 RSSP- TI 铁路信号安全通
+
+--- Document Chunk 13 ---
+修改为"TBZT 3528. 1一2018 铁路信号安全通信协议 网-1 部
+
+--- Document Chunk 14 ---
+分: 工型协议”
+
+--- Document Chunk 15 ---
+2.
+
+--- Document Chunk 16 ---
+3.
+
+--- Document Chunk 17 ---
+将3.1.8 "路线运行 overline operation ”修改为路线运行 cross-
+
+--- Document Chunk 18 ---
+line oper:
+
+--- Document Chunk 19 ---
+将5.3.1.1中《RSSP — 1 PRS ree a fr PSL) 1B Bie * TB/T
+
+--- Document Chunk 20 ---
+ation” ,
+
+--- Document Chunk 21 ---
+3528. 1—2018”,
+
+--- Document Chunk 22 ---
+4.
+
+--- Document Chunk 23 ---
+将5.3.2表3(第7  7 Be fe 包名"列中的“物理区段状态信息
+
+--- Document Chunk 24 ---
+包” 修改为"计轴区段状态信息包”。
+
+--- Document Chunk 25 ---
+5.
+
+--- Document Chunk 26 ---
+6.
+
+--- Document Chunk 27 ---
+将5.453(第8 WL) 中“物理区段" 修改为“计轴区段”。
+
+--- Document Chunk 28 ---
+将5.4.4表6 脚注(第 13 页)中的“物理区段" EBON
+
+--- Document Chunk 29 ---
+NG 5.4. 8° 站场信息延时包”第二段(第20 页)中的"物理区段状
+
+--- Document Chunk 30 ---
+1
+
+--- Document Chunk 31 ---
+--- Page 2 ---
+
+--- Document Chunk 32 ---
+了
+
+--- Document Chunk 33 ---
+AVAL 修改为: 计轴区段状态信息包”。
+
+--- Document Chunk 34 ---
+8. 将5.4.9表11 注中(第27 页)的"物理区段状态信息包” 修改为:
+
+--- Document Chunk 35 ---
+“计轴区段状态信息包”。
+
+--- Document Chunk 36 ---
+9. 附录A.1a)中(第27 页)物理区段"改为;证轴区段”。
+

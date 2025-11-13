@@ -1,0 +1,45 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通 ”基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统( CBTC ) 互联互通系统规范 第1部分:
+
+--- Document Chunk 4 ---
+系统总体要求》(T/GAMET 04010. 1一2018 )
+
+--- Document Chunk 5 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 6 ---
+杰修改单经中国城市轨道交通协会于2024 年 09 月 03 日批准发布，
+
+--- Document Chunk 7 ---
+自2024 年 09 月 10 日起实施。
+
+--- Document Chunk 8 ---
+一、编辑性修改
+
+--- Document Chunk 9 ---
+1. 将第2 章中的“科技运函[2004]114 应答器技术条件" 修改为
+
+--- Document Chunk 10 ---
+“TB/T 3485—2017 应答器传输系统技术条件”。
+
+--- Document Chunk 11 ---
+2. 将5.1.4.2 中的"ATO 子系统可控制列车按运行图规定的区间走
+
+--- Document Chunk 12 ---
+行时分行车,自动完成对列车的启动.加速,巡航、.愉行 减速和制动的合
+
+--- Document Chunk 13 ---
+理控制。修改为"ATO 子系统可控制列车按运行图规定的区间走行时分
+
+--- Document Chunk 14 ---
+行车,自动完成对列车的启动.加速.巡航:得行 减速的合理控制。
+

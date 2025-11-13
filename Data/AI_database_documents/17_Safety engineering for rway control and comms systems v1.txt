@@ -1,0 +1,1212 @@
+--- Document Chunk 0 ---
+Safety Engineering for Railway 
+
+--- Document Chunk 1 ---
+Control & Communications 
+
+--- Document Chunk 2 ---
+Systems 
+
+--- Document Chunk 3 ---
+An introductory guide for candidates taking Module A of the IRSE Professional 
+
+--- Document Chunk 4 ---
+Examination
+
+--- Document Chunk 5 ---
+R Short
+
+--- Document Chunk 6 ---
+February 2021
+
+--- Document Chunk 7 ---
+Part 1: Safety Principles
+
+--- Document Chunk 8 ---
+This part should be treated as an addendum to the item in the Module A reading 
+
+--- Document Chunk 9 ---
+list entitled "Back to Basics - Principles of Railway Safety Engineering, IRSE News, 
+
+--- Document Chunk 10 ---
+Issue 267, June 2020“ which explains the identification and analysis of hazards and 
+
+--- Document Chunk 11 ---
+risks. 
+
+--- Document Chunk 12 ---
+Hazard, Risk and Safety Requirements
+
+--- Document Chunk 13 ---
+It is essential to derive a complete and correct
+
+--- Document Chunk 14 ---
+specification of safety requirements as part of system 
+
+--- Document Chunk 15 ---
+development.
+
+--- Document Chunk 16 ---
+Systematic identification of hazards generally involves two phases:
+
+--- Document Chunk 17 ---
+• an empirical phase (exploiting past experience, e.g. checklists)
+
+--- Document Chunk 18 ---
+• a deductive phase (proactive forecasting, e.g. brain-storming, 
+
+--- Document Chunk 19 ---
+structured what-if studies, HAZOP , FMEA).
+
+--- Document Chunk 20 ---
+Hazard Control consists of a number of activities which can be 
+
+--- Document Chunk 21 ---
+summarized as follows:
+
+--- Document Chunk 22 ---
+• define the safety assumptions and system functions related to 
+
+--- Document Chunk 23 ---
+the defined hazards
+
+--- Document Chunk 24 ---
+• define the system architecture and allocate system functions 
+
+--- Document Chunk 25 ---
+within the architecture (technical solution) to meet the safety 
+
+--- Document Chunk 26 ---
+requirements including the defined THRs
+
+--- Document Chunk 27 ---
+• perform the hazard analysis (or causal analysis), to evaluate 
+
+--- Document Chunk 28 ---
+the possible causes of hazards
+
+--- Document Chunk 29 ---
+• determine the safety integrity requirements for the functions 
+
+--- Document Chunk 30 ---
+of the system
+
+--- Document Chunk 31 ---
+• complete the safety requirements specification
+
+--- Document Chunk 32 ---
+• identify potential new hazards arising out of the system design
+
+--- Document Chunk 33 ---
+Process Overview
+
+--- Document Chunk 34 ---
+Risk Acceptance
+
+--- Document Chunk 35 ---
+Risk acceptance criteria depend on national or international legislative requirements.
+
+--- Document Chunk 36 ---
+The Common Safety Method (CSM) promoted by the European Rail Agency (ERA) recognises three risk 
+
+--- Document Chunk 37 ---
+acceptance principles:
+
+--- Document Chunk 38 ---
+use of a code of practice;
+
+--- Document Chunk 39 ---
+use of a similar system as a reference;
+
+--- Document Chunk 40 ---
+explicit risk estimation (here the ERA says “The acceptability of the estimated risks shall be evaluated 
+
+--- Document Chunk 41 ---
+using risk acceptance criteria either derived from or based on legal requirements stated in Community 
+
+--- Document Chunk 42 ---
+legislation or in notified national rules”).
+
+--- Document Chunk 43 ---
+In the UK the legal requirement (Health & Safety at Work Act) is that risk should be made as low as reasonably 
+
+--- Document Chunk 44 ---
+practicable (the ALARP principle – see next page).
+
+--- Document Chunk 45 ---
+In practice the CSM and ALARP principles are convergent, as use of a relevant industry code of practice or use 
+
+--- Document Chunk 46 ---
+of a system similar to one already in use in comparable applications may be accepted as meeting the  ALARP 
+
+--- Document Chunk 47 ---
+principle by following industry best practice.
+
+--- Document Chunk 48 ---
+ALARP
+
+--- Document Chunk 49 ---
+The ALARP principle:
+
+--- Document Chunk 50 ---
+Risk should be made As Low As Reasonably Practicable
+
+--- Document Chunk 51 ---
+A safety measure is not reasonably practicableif its cost is 
+
+--- Document Chunk 52 ---
+grossly disproportionate to the safety benefit which it would 
+
+--- Document Chunk 53 ---
+provide
+
+--- Document Chunk 54 ---
+Ways of demonstrating ALARP:
+
+--- Document Chunk 55 ---
+Cost/benefit analysis – show that the cost of preventing a 
+
+--- Document Chunk 56 ---
+fatality is greater than the nominal value of life. UK has 
+
+--- Document Chunk 57 ---
+financial values for preventing fatalities based on surveys of 
+
+--- Document Chunk 58 ---
+people’s willingness to pay for safety.
+
+--- Document Chunk 59 ---
+Best practice – show that best practice in the industry has been 
+
+--- Document Chunk 60 ---
+applied. It is not considered reasonably practicable to do 
+
+--- Document Chunk 61 ---
+more than the best that others in the same industry achieve. 
+
+--- Document Chunk 62 ---
+Compliance with ENs may be enough to demonstrate ALARP . 
+
+--- Document Chunk 63 ---
+Engineering Safety Management
+
+--- Document Chunk 64 ---
+Safety Management can be defined as the organisational measures applied to ensure that an acceptable level 
+
+--- Document Chunk 65 ---
+of safety is maintained throughout the life of a system. It has much in common with Quality Management: 
+
+--- Document Chunk 66 ---
+both are concerned with the avoidance of loss.
+
+--- Document Chunk 67 ---
+What distinguishes Safety Management from Quality Management, or from the principles of good 
+
+--- Document Chunk 68 ---
+management in general, is that Safety Management must concern itself with events which are sufficiently 
+
+--- Document Chunk 69 ---
+improbable to be ignored by other aspects of management. For this reason hazard identification and risk 
+
+--- Document Chunk 70 ---
+assessment are prominent components of Safety Management.
+
+--- Document Chunk 71 ---
+The respective contributions of Quality Management and Safety Management to the safety of a system can be 
+
+--- Document Chunk 72 ---
+simply stated as follows: Quality Management ensures that the system does what was intended, while Safety 
+
+--- Document Chunk 73 ---
+Management ensures that what was intended was safe.
+
+--- Document Chunk 74 ---
+Safety Management as a Process
+
+--- Document Chunk 75 ---
+The safety management process, especially in high-
+
+--- Document Chunk 76 ---
+hazard industry sectors, such as nuclear power, 
+
+--- Document Chunk 77 ---
+aviation or petro-chemicals, is often depicted as 
+
+--- Document Chunk 78 ---
+‘Plan-Do-Check-Act’ and can be likened to a closed-
+
+--- Document Chunk 79 ---
+loop feedback control system, as illustrated in the 
+
+--- Document Chunk 80 ---
+figure on the right, which is based on the model used 
+
+--- Document Chunk 81 ---
+by the Health and Safety Executive in their guidance.
+
+--- Document Chunk 82 ---
+Safety Management and Safety Integrity
+
+--- Document Chunk 83 ---
+The standards for safety-related electronic systems and software place particular emphasis on two aspects of 
+
+--- Document Chunk 84 ---
+engineering safety management: INDEPENDENCE and DOCUMENTATION.
+
+--- Document Chunk 85 ---
+Independence of Roles
+
+--- Document Chunk 86 ---
+Many roles within an organisation, such as verifier, tester, validator or assessor, are concerned with confirming 
+
+--- Document Chunk 87 ---
+the safety of what has been produced by other roles, such as designers and installers. Independence between 
+
+--- Document Chunk 88 ---
+such roles may be required in order to reduce the probability of people in different roles suffering from the 
+
+--- Document Chunk 89 ---
+same misconceptions or making the same mistakes. 
+
+--- Document Chunk 90 ---
+It is also important that people in roles which involve making judgements about the acceptability of a product 
+
+--- Document Chunk 91 ---
+or process from the point of view of safety should not be influenced by pressure from their peers or 
+
+--- Document Chunk 92 ---
+supervisors, or by considerations of commercial gain. 
+
+--- Document Chunk 93 ---
+Documentation
+
+--- Document Chunk 94 ---
+To engineer is essentially to generate or transform information, and engineering is a social activity involving 
+
+--- Document Chunk 95 ---
+collaboration and exchanges between individuals and organisations.  Engineers work primarily with their 
+
+--- Document Chunk 96 ---
+brains, and documentation is the medium through which the product of this work is recorded and shared with 
+
+--- Document Chunk 97 ---
+others.
+
+--- Document Chunk 98 ---
+Ensuring the safety of complex systems is heavily dependent on large amounts of information being shared 
+
+--- Document Chunk 99 ---
+among all the parties concerned, including designers, operators, safety assessors, regulators and safety 
+
+--- Document Chunk 100 ---
+authorities.  Documents form the principal medium of exchange of information, and there are established 
+
+--- Document Chunk 101 ---
+standards and guidelines for safety in systems engineering which set out requirements for what should be 
+
+--- Document Chunk 102 ---
+documented and by whom the documents should be reviewed and assessed
+
+--- Document Chunk 103 ---
+Safety Case: Origins and Definitions
+
+--- Document Chunk 104 ---
+safety case
+
+--- Document Chunk 105 ---
+the documented demonstration that the 
+
+--- Document Chunk 106 ---
+product complies with the specified safety 
+
+--- Document Chunk 107 ---
+requirements
+
+--- Document Chunk 108 ---
+“A documented body of evidence that provides 
+
+--- Document Chunk 109 ---
+a convincing and valid argument that a system 
+
+--- Document Chunk 110 ---
+is adequately safe for a given application in a 
+
+--- Document Chunk 111 ---
+given environment”
+
+--- Document Chunk 112 ---
+In the term “Safety Case” the word “case” is used with 
+
+--- Document Chunk 113 ---
+the same meaning as in a law court – the evidence 
+
+--- Document Chunk 114 ---
+offered in court to support a claim.
+
+--- Document Chunk 115 ---
+Safety cases were first used in the nuclear 
+
+--- Document Chunk 116 ---
+and off-shore oil industries to gain 
+
+--- Document Chunk 117 ---
+approval from their safety regulators
+
+--- Document Chunk 118 ---
+Why Safety Cases?
+
+--- Document Chunk 119 ---
+• In a Safety Case regime the Developer has to demonstrate that the 
+
+--- Document Chunk 120 ---
+system is safe.
+
+--- Document Chunk 121 ---
+• This is potentially more effective than relying on the Assessor or 
+
+--- Document Chunk 122 ---
+Approver investigating the system to find out if it is safe.
+
+--- Document Chunk 123 ---
+• With complex systems only the Developer has sufficient knowledge of 
+
+--- Document Chunk 124 ---
+the system to produce the evidence of safety   
+
+--- Document Chunk 125 ---
+Structure and Content of a Safety Case
+
+--- Document Chunk 126 ---
+Types of Safety Case
+
+--- Document Chunk 127 ---
+The three types of safety case would apply to a
+
+--- Document Chunk 128 ---
+programmable interlocking system as shown 
+
+--- Document Chunk 129 ---
+here. The signalling logic embodies the 
+
+--- Document Chunk 130 ---
+signalling principles of the railway network, 
+
+--- Document Chunk 131 ---
+while the geographical data configures each 
+
+--- Document Chunk 132 ---
+interlocking to its respective track and signal 
+
+--- Document Chunk 133 ---
+layout. 
+
+--- Document Chunk 134 ---
+Part 2: Achieving Safety Integrity
+
+--- Document Chunk 135 ---
+What is Safety Integrity?
+
+--- Document Chunk 136 ---
+Safety Integrity is defined as the likelihood of a system satisfactorily 
+
+--- Document Chunk 137 ---
+performing the required safety functions under all the stated 
+
+--- Document Chunk 138 ---
+conditions within a stated period of time.
+
+--- Document Chunk 139 ---
+The expression “required safety functions “ includes the function of 
+
+--- Document Chunk 140 ---
+reverting to a safe state in the event of a failure.
+
+--- Document Chunk 141 ---
+To achieve acceptable safety integrity we need to know why failures 
+
+--- Document Chunk 142 ---
+occur and how components and systems behave in the event of failure.
+
+--- Document Chunk 143 ---
+Failures relevant to safety are commonly classified as being  either 
+
+--- Document Chunk 144 ---
+random or systematic.
+
+--- Document Chunk 145 ---
+Random and Systematic 
+
+--- Document Chunk 146 ---
+Failures
+
+--- Document Chunk 147 ---
+• From the point of view of the user, all failures are 
+
+--- Document Chunk 148 ---
+random. If it was known when they would occur they 
+
+--- Document Chunk 149 ---
+could be prevented or avoided.
+
+--- Document Chunk 150 ---
+• The failure of physical components is determined by the 
+
+--- Document Chunk 151 ---
+laws of physics. They appear to happen at random 
+
+--- Document Chunk 152 ---
+because we do not know enough about the precise 
+
+--- Document Chunk 153 ---
+physical condition of the component.
+
+--- Document Chunk 154 ---
+• The significant demarcation is between failures whose 
+
+--- Document Chunk 155 ---
+distribution is known and those whose distribution is 
+
+--- Document Chunk 156 ---
+unknown.
+
+--- Document Chunk 157 ---
+• Failures for which there is reliable statistical data, i.e. 
+
+--- Document Chunk 158 ---
+failures of well-established components, are treated as 
+
+--- Document Chunk 159 ---
+Random Failures
+
+--- Document Chunk 160 ---
+• Failures for which reliable statistics do not exist, e.g. 
+
+--- Document Chunk 161 ---
+design errors (especially software) or failures of new 
+
+--- Document Chunk 162 ---
+types of component, are treated as Systematic Failures.
+
+--- Document Chunk 163 ---
+Failure Categories
+
+--- Document Chunk 164 ---
+Designing to Take Account of Failure
+
+--- Document Chunk 165 ---
+In general, failures classified as “random” are those whose rate of occurrence cannot be made low enough to 
+
+--- Document Chunk 166 ---
+provide to provide sufficient assurance of safety. For such failures safety is assured by means of the fail-safe 
+
+--- Document Chunk 167 ---
+principle, which can be defined as “a design property of signalling equipment, and of the system within which 
+
+--- Document Chunk 168 ---
+it is used, that under failure conditions will provide safety for traffic”.
+
+--- Document Chunk 169 ---
+In practice this is achieved by constructing signalling systems from subsystems or components having well-
+
+--- Document Chunk 170 ---
+defined predictable failure modes and ensuring that failure states correspond to restrictive traffic conditions.
+
+--- Document Chunk 171 ---
+Fail-safety, can be achieved in three different ways:
+
+--- Document Chunk 172 ---
+Inherent fail-safety, where the system or subsystem is designed so that any credible failure mode of any 
+
+--- Document Chunk 173 ---
+of its component parts will result in a restrictive state.
+
+--- Document Chunk 174 ---
+Composite fail-safety. With this technique, each safety-related function is performed by at least two 
+
+--- Document Chunk 175 ---
+items. Each of these items shall be independent from all others, to avoid common-cause failures. Non-
+
+--- Document Chunk 176 ---
+restrictive activities can progress only if the necessary numbers of items agree.
+
+--- Document Chunk 177 ---
+Reactive fail-safety. This technique allows a safety-related function to be performed by a single item, 
+
+--- Document Chunk 178 ---
+provided its safe operation is ensured by rapid detection and negation of any hazardous fault by 
+
+--- Document Chunk 179 ---
+another item.
+
+--- Document Chunk 180 ---
+Inherent Fail-Safety: The Semaphore signal
+
+--- Document Chunk 181 ---
+Perhaps the simplest example of a fail-safe component 
+
+--- Document Chunk 182 ---
+is the semaphore signal with its counterbalance weight 
+
+--- Document Chunk 183 ---
+to restore the signal to the “on” position should the 
+
+--- Document Chunk 184 ---
+operating wire break.
+
+--- Document Chunk 185 ---
+Note that fail-safe behaviour also depends on the drive 
+
+--- Document Chunk 186 ---
+rod being sufficiently strong not to beak or deform 
+
+--- Document Chunk 187 ---
+under any force which may be applied to it.
+
+--- Document Chunk 188 ---
+OFF ON
+
+--- Document Chunk 189 ---
+Counterbalance 
+
+--- Document Chunk 190 ---
+weight
+
+--- Document Chunk 191 ---
+Drive rod
+
+--- Document Chunk 192 ---
+Inherent Fail-Safety: The Signalling Relay
+
+--- Document Chunk 193 ---
+The fail-safe characteristics of the signalling relay are at 
+
+--- Document Chunk 194 ---
+the heart of almost all classical electrical signalling 
+
+--- Document Chunk 195 ---
+safety. In British signal engineering practice the principal 
+
+--- Document Chunk 196 ---
+relay safety characteristics are an armature and contact 
+
+--- Document Chunk 197 ---
+operating mechanism with sufficient restoring forces 
+
+--- Document Chunk 198 ---
+from gravity and spring pressure to ensure that it will 
+
+--- Document Chunk 199 ---
+release when the coil is de-energised, and non-weldable 
+
+--- Document Chunk 200 ---
+contacts formed from mating and silver-impregnated 
+
+--- Document Chunk 201 ---
+carbon pairs. 
+
+--- Document Chunk 202 ---
+Signalling circuitry using such relays is designed so that 
+
+--- Document Chunk 203 ---
+relays are required to be energised to enable a 
+
+--- Document Chunk 204 ---
+“proceed” signal aspect to be given. Any failure, such as 
+
+--- Document Chunk 205 ---
+a broken wire or high-resistance contact, will cause one 
+
+--- Document Chunk 206 ---
+or more relays in the circuit concerned to de-energise, 
+
+--- Document Chunk 207 ---
+in which case a restrictive signal aspect will be 
+
+--- Document Chunk 208 ---
+displayed.
+
+--- Document Chunk 209 ---
+Safety features of Signalling relay
+
+--- Document Chunk 210 ---
+Non-weldable contacts
+
+--- Document Chunk 211 ---
+Restoring spring
+
+--- Document Chunk 212 ---
+Non-magnetic stud to prevent 
+
+--- Document Chunk 213 ---
+armature being held by 
+
+--- Document Chunk 214 ---
+residual magnetism when relay 
+
+--- Document Chunk 215 ---
+de-energised
+
+--- Document Chunk 216 ---
+Composite and Reactive Fail-Safety
+
+--- Document Chunk 217 ---
+Inherent fail-safety is difficult to achieve in electronic systems because they generally comprise a large number 
+
+--- Document Chunk 218 ---
+of electronic components with a wide variety of possible failure modes, so that it is not feasible to design so 
+
+--- Document Chunk 219 ---
+that no credible failure mode of any component will result in an unsafe state.
+
+--- Document Chunk 220 ---
+Inherent fail-safety has been achieved for relatively simple electronic devices, such as the transmitter and 
+
+--- Document Chunk 221 ---
+receiver units of audio frequency track circuits, but for more complex applications based on microprocessors 
+
+--- Document Chunk 222 ---
+and other large-scale integrated electronic components, for example signal interlockings, composite or reactive 
+
+--- Document Chunk 223 ---
+fail-safety, or often a blend of the two, is almost always the preferred solution.
+
+--- Document Chunk 224 ---
+Both techniques depend on there being a very low probability of simultaneous failures in independent parts of 
+
+--- Document Chunk 225 ---
+the overall system. This calls for the system design to ensure that the time to detect and react to individual 
+
+--- Document Chunk 226 ---
+failures is sufficiently short. It is also necessary to ensure that inherent fail-safety will be achieved with regard 
+
+--- Document Chunk 227 ---
+to common-cause failures which might result in multiple simultaneous failures.
+
+--- Document Chunk 228 ---
+Composite Fail-Safety
+
+--- Document Chunk 229 ---
+Composite fail-safety not only requires two 
+
+--- Document Chunk 230 ---
+independent functional channels to agree in 
+
+--- Document Chunk 231 ---
+order to produce and output but also 
+
+--- Document Chunk 232 ---
+requires that neither channel will have 
+
+--- Document Chunk 233 ---
+detected a fault, typically by means of 
+
+--- Document Chunk 234 ---
+internal self-testing routines.
+
+--- Document Chunk 235 ---
+The ability to detect a first fault and isolate 
+
+--- Document Chunk 236 ---
+the faulty channel makes a significant 
+
+--- Document Chunk 237 ---
+contribution to safety. If the first fault were 
+
+--- Document Chunk 238 ---
+to remain undetected indefinitely, the 
+
+--- Document Chunk 239 ---
+probability of a similar fault occurring in the 
+
+--- Document Chunk 240 ---
+second channel during the life of the 
+
+--- Document Chunk 241 ---
+equipment would be far from negligible. 
+
+--- Document Chunk 242 ---
+Reactive Fail-Safety
+
+--- Document Chunk 243 ---
+In the event of a failure of Function A an 
+
+--- Document Chunk 244 ---
+unsafe output can be present until negated 
+
+--- Document Chunk 245 ---
+by the fault detection. Hence the value of T 
+
+--- Document Chunk 246 ---
+for reactive fail-safety is much shorter than 
+
+--- Document Chunk 247 ---
+the value for composite fail-safety.
+
+--- Document Chunk 248 ---
+Reactive fail-safety is to be found in relay 
+
+--- Document Chunk 249 ---
+interlocking, where failure of signal lamps, 
+
+--- Document Chunk 250 ---
+which are not inherently fail-safe, is 
+
+--- Document Chunk 251 ---
+protected by lamp-proving circuits which 
+
+--- Document Chunk 252 ---
+restrict the aspects of relevant signals when 
+
+--- Document Chunk 253 ---
+a lamp failure is detected.
+
+--- Document Chunk 254 ---
+Common-Cause Failures
+
+--- Document Chunk 255 ---
+The Venn diagram and simple fault tree show how a common-cause failure (CCF) can 
+
+--- Document Chunk 256 ---
+undermine the protection given by composite fail-safety. A common-cause failure between 
+
+--- Document Chunk 257 ---
+function and fault detection would have a similar effect on reactive fail-safety.
+
+--- Document Chunk 258 ---
+24
+
+--- Document Chunk 259 ---
+Example of Combination of Safety Techniques within a Signalling System
+
+--- Document Chunk 260 ---
+
+
+--- Document Chunk 261 ---
+
+
+--- Document Chunk 262 ---
+Signals
+
+--- Document Chunk 263 ---
+ATP
+
+--- Document Chunk 264 ---
+Etc
+
+--- Document Chunk 265 ---
+Points Train detection
+
+--- Document Chunk 266 ---
+Points 
+
+--- Document Chunk 267 ---
+detection
+
+--- Document Chunk 268 ---
+Signaller
+
+--- Document Chunk 269 ---
+
+
+--- Document Chunk 270 ---
+Composite or Reactive Fail-Safety
+
+--- Document Chunk 271 ---
+High integrity software
+
+--- Document Chunk 272 ---
+Inherent Fail-Safety
+
+--- Document Chunk 273 ---
+Safe Data transmission
+
+--- Document Chunk 274 ---
+Interlocking
+
+--- Document Chunk 275 ---
+Remote Terminals
+
+--- Document Chunk 276 ---
+Systematic Failures
+
+--- Document Chunk 277 ---
+Systematic failures result from errors which can occur at any 
+
+--- Document Chunk 278 ---
+point in the lifecycle of a system or an item of equipment.
+
+--- Document Chunk 279 ---
+Examples of such errors are shown on the right. It is not 
+
+--- Document Chunk 280 ---
+possible to use the fail-safe principle to protect against the 
+
+--- Document Chunk 281 ---
+effects of systematic failures because there is no way of 
+
+--- Document Chunk 282 ---
+ensuring that the only errors which can occur will be those 
+
+--- Document Chunk 283 ---
+which result in a restrictive state.
+
+--- Document Chunk 284 ---
+Protection against systematic failure depends on preventing 
+
+--- Document Chunk 285 ---
+or detecting and removing errors at each stage of the 
+
+--- Document Chunk 286 ---
+lifecycle. The development of safety-related software is a 
+
+--- Document Chunk 287 ---
+prime example of this approach.
+
+--- Document Chunk 288 ---
+The Advent of Software
+
+--- Document Chunk 289 ---
+The development of processor based systems in the 
+
+--- Document Chunk 290 ---
+1980s brought the problem of software, which cannot 
+
+--- Document Chunk 291 ---
+be fully tested.
+
+--- Document Chunk 292 ---
+The focus of safety assurance then shifted from product 
+
+--- Document Chunk 293 ---
+to process.
+
+--- Document Chunk 294 ---
+The Welding Analogy
+
+--- Document Chunk 295 ---
+Solid State Interlocking
+
+--- Document Chunk 296 ---
+The SIL Concept
+
+--- Document Chunk 297 ---
+• The concept of SIL (Safety Integrity Level) was introduced early in the development of standards 
+
+--- Document Chunk 298 ---
+for safety related software because there was no way of measuring the probability of unsafe 
+
+--- Document Chunk 299 ---
+failure of software.
+
+--- Document Chunk 300 ---
+• There is still no way of measuring this probability.
+
+--- Document Chunk 301 ---
+• Although it is not possible to determine a numerical value for the probability of failure, it is 
+
+--- Document Chunk 302 ---
+reasonable to believe that if more effective design and Verification & Validation methods are 
+
+--- Document Chunk 303 ---
+used, the probability will be lower.
+
+--- Document Chunk 304 ---
+• If the best possible methods are used, the software will have the highest possible safety integrity. 
+
+--- Document Chunk 305 ---
+It was decided to have four categories of method, so that SIL 4 is the highest possible. 
+
+--- Document Chunk 306 ---
+• The SIL concept has been extended from software to cover all types of systematic failure, such as 
+
+--- Document Chunk 307 ---
+errors in requirements, design errors and manufacturing errors.
+
+--- Document Chunk 308 ---
+The SIL Concept Illustrated
+
+--- Document Chunk 309 ---
+Safety integrity 
+
+--- Document Chunk 310 ---
+level 
+
+--- Document Chunk 311 ---
+Description of safety 
+
+--- Document Chunk 312 ---
+integrity 
+
+--- Document Chunk 313 ---
+4 Very High Integrity 
+
+--- Document Chunk 314 ---
+3 
+
+--- Document Chunk 315 ---
+2 
+
+--- Document Chunk 316 ---
+1 
+
+--- Document Chunk 317 ---
+ 
+
+--- Document Chunk 318 ---
+0 Basic Integrity 
+
+--- Document Chunk 319 ---
+ 
+
+--- Document Chunk 320 ---
+Increasing rigour 
+
+--- Document Chunk 321 ---
+and effectiveness
+
+--- Document Chunk 322 ---
+of methods
+
+--- Document Chunk 323 ---
+Definitions of SIL
+
+--- Document Chunk 324 ---
+• The following definitions are shared by standards BS EN 50126, 50128 and 50129
+
+--- Document Chunk 325 ---
+Principles of Development for SIL 
+
+--- Document Chunk 326 ---
+The principles applied in developing high integrity systems and software include, but 
+
+--- Document Chunk 327 ---
+are not restricted to:
+
+--- Document Chunk 328 ---
+top-down design methods
+
+--- Document Chunk 329 ---
+modularity
+
+--- Document Chunk 330 ---
+verified components and component libraries (mainly for software)
+
+--- Document Chunk 331 ---
+verification of each phase of the development lifecycle,
+
+--- Document Chunk 332 ---
+clear documentation and traceability
+
+--- Document Chunk 333 ---
+auditable documents
+
+--- Document Chunk 334 ---
+validation
+
+--- Document Chunk 335 ---
+assessment
+
+--- Document Chunk 336 ---
+configuration management and change control
+
+--- Document Chunk 337 ---
+appropriate consideration of organisation and personnel competency issues
+
+--- Document Chunk 338 ---
+The standards EN 50129 (electronic systems) 
+
+--- Document Chunk 339 ---
+and EN 50128 (software) include tables of 
+
+--- Document Chunk 340 ---
+techniques and measures for implementing 
+
+--- Document Chunk 341 ---
+these principles to meet the required SIL
+
+--- Document Chunk 342 ---
+Part 3: Safety of Data 
+
+--- Document Chunk 343 ---
+Transmission
+
+--- Document Chunk 344 ---
+Railway
+
+--- Document Chunk 345 ---
+Signalling and Data 
+
+--- Document Chunk 346 ---
+Transmission
+
+--- Document Chunk 347 ---
+The diagram shows a state-of-the-art signalling 
+
+--- Document Chunk 348 ---
+system where there are no lineside signals and vital 
+
+--- Document Chunk 349 ---
+data giving authority for train movements is 
+
+--- Document Chunk 350 ---
+transmitted to the train by radio. A fixed data link, 
+
+--- Document Chunk 351 ---
+which may use optical fibres or copper conductors 
+
+--- Document Chunk 352 ---
+for its transmission medium, transmits command 
+
+--- Document Chunk 353 ---
+and status data between lineside equipment and the 
+
+--- Document Chunk 354 ---
+control centre, and a speech link is also provided by 
+
+--- Document Chunk 355 ---
+radio between the signaller and the train driver. This 
+
+--- Document Chunk 356 ---
+system architecture is typical of that adopted for the 
+
+--- Document Chunk 357 ---
+European Train Control System (ETCS)
+
+--- Document Chunk 358 ---
+Conceptual Model of Data Transmission System
+
+--- Document Chunk 359 ---
+Failures, errors and noise may affect any component in the model
+
+--- Document Chunk 360 ---
+Based on the OSI model of open transmission systems
+
+--- Document Chunk 361 ---
+Information may be transmitted through a 
+
+--- Document Chunk 362 ---
+hierarchy of electronic systems which may 
+
+--- Document Chunk 363 ---
+store, forward or otherwise manipulate the 
+
+--- Document Chunk 364 ---
+information. Hardware or software faults in 
+
+--- Document Chunk 365 ---
+any of these systems might corrupt the 
+
+--- Document Chunk 366 ---
+information in unpredictable ways. The vital 
+
+--- Document Chunk 367 ---
+information receiver and the safe process 
+
+--- Document Chunk 368 ---
+must be capable of distinguishing between 
+
+--- Document Chunk 369 ---
+valid and corrupt information. Ways of 
+
+--- Document Chunk 370 ---
+making this distinction include:
+
+--- Document Chunk 371 ---
+• All physical signals above a certain 
+
+--- Document Chunk 372 ---
+amplitude or within a certain frequency 
+
+--- Document Chunk 373 ---
+band
+
+--- Document Chunk 374 ---
+• Digital data which satisfies particular 
+
+--- Document Chunk 375 ---
+coding rules
+
+--- Document Chunk 376 ---
+• Messages which satisfy certain protocols, 
+
+--- Document Chunk 377 ---
+e.g. have correct addresses or valid time 
+
+--- Document Chunk 378 ---
+stamps
+
+--- Document Chunk 379 ---
+Multidimensional View of Information
+
+--- Document Chunk 380 ---
+Sources of Error
+
+--- Document Chunk 381 ---
+Methods of Protecting Information Transmission
+
+--- Document Chunk 382 ---
+Protection in the Physical Signal Dimension
+
+--- Document Chunk 383 ---
+ Screening of cables and equipment housings
+
+--- Document Chunk 384 ---
+ The use of balanced twisted conductors in copper cables
+
+--- Document Chunk 385 ---
+ Suppression of interference at source
+
+--- Document Chunk 386 ---
+ Use of optical fibres as a transmission medium
+
+--- Document Chunk 387 ---
+The Data Dimension – Coding
+
+--- Document Chunk 388 ---
+ Repeat messages
+
+--- Document Chunk 389 ---
+ Block coding
+
+--- Document Chunk 390 ---
+ Convolution or cyclic block coding
+
+--- Document Chunk 391 ---
+Protection in the procedural dimension
+
+--- Document Chunk 392 ---
+ Closed-loop protocols: receiver repeats message back to sender and awaits confirmation from sender before acting 
+
+--- Document Chunk 393 ---
+on message
+
+--- Document Chunk 394 ---
+ Time stamping: message contains time of origin – receiver will reject information which is too old
+
+--- Document Chunk 395 ---
+ Sender’s address included in message – receiver will reject information from wrong sender, e.g. in the event of 
+
+--- Document Chunk 396 ---
+message routing errors or cross-talk
+
+--- Document Chunk 397 ---
+Fail-Safe
+
+--- Document Chunk 398 ---
+The fail-safe principle is applied in the 
+
+--- Document Chunk 399 ---
+transmission of safety information by 
+
+--- Document Chunk 400 ---
+designing the receiving safe process to 
+
+--- Document Chunk 401 ---
+adopt a restrictive state in the event of 
+
+--- Document Chunk 402 ---
+errors being detected or loss of 
+
+--- Document Chunk 403 ---
+transmission
+

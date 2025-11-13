@@ -1,0 +1,540 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通 基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统( CBTC ) 互联互通系统规范 第2 部分:
+
+--- Document Chunk 4 ---
+e224 FLY BES) BE) (T/ CAMET 04010. 2一2018 )
+
+--- Document Chunk 5 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 6 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月03 日批准发布，
+
+--- Document Chunk 7 ---
+自 2024 年 09 月 10 日起实施。
+
+--- Document Chunk 8 ---
+一、编辑性修改
+
+--- Document Chunk 9 ---
+1. 在3.1.9 中,增加来源信息[T/CAMET 04010.1 ,定义3.1.8]。
+
+--- Document Chunk 10 ---
+2. 将3.1. 10 中“保护区段 overlap section” (Be HR PK Be
+
+--- Document Chunk 11 ---
+overlap” ,
+
+--- Document Chunk 12 ---
+3. 4% 3.1.13 的"安全保护距离 safe protection distance” (ERI “Hz
+
+--- Document Chunk 13 ---
+全保护距离 safety margin” ,
+
+--- Document Chunk 14 ---
+4. ¥% 3.1.18 的"“共线运行”mi opeitation ”修改为“共线运行
+
+--- Document Chunk 15 ---
+mixed operation” ,
+
+--- Document Chunk 16 ---
+5. 将3.2 的"CM:列车自动防护模式( Code Train Operating Mode)”
+
+--- Document Chunk 17 ---
+修改为"CM :列车自动防护模式( Coded Train Operating Mode)”。
+
+--- Document Chunk 18 ---
+6. 将表工中的"序号"为"70"所对应的“总体要求中的功能点名称”
+
+--- Document Chunk 19 ---
+列中的“进路解锁及取消”修改为“进路/区段锁财和解锁”。
+
+--- Document Chunk 20 ---
+7将图3 中的“6.2.4 列车轮径校正”修改为"6.2.3.6 列车轮径校
+
+--- Document Chunk 21 ---
+TE” ;将“6.2.4.2 确定列车停站位置" 修改为“6.2.3.8 确定列车停站位
+
+--- Document Chunk 22 ---
+1
+
+--- Document Chunk 23 ---
+--- Page 2 ---
+
+--- Document Chunk 24 ---
+BE” ;将“6.2.3.3 前方CBTC 列车位置"修改为"6.3.2.2 前方CBTC 列车
+
+--- Document Chunk 25 ---
+8. 将图4 中的“6.2.4 列车轮径校正"修改为“6.2.3.6列件轮径校
+
+--- Document Chunk 26 ---
+TE” 。将"6.2.4.2 确定列车停站位置"修改为“6.2.3.8 .和确定列车停站位
+
+--- Document Chunk 27 ---
+"6.2.3.3 前方CBTC 列车位置"修改为“6.3.2.2前方 CBTC 列车
+
+--- Document Chunk 28 ---
+9. 将表3 的标题名称"进从设备故障中恢复的 CBTC 列车完成位置
+
+--- Document Chunk 29 ---
+初始化"修改为”从设备故障审恢复的 CBTC 列车完成位置初始化”。
+
+--- Document Chunk 30 ---
+0. 将表6 的标题名称*确定 CBT 列车位置"修改为:确定 CBTC 列
+
+--- Document Chunk 31 ---
+1. 将图5 中的“6.2.3.3 前方 CBTC 列车位置"修改为"6.3.2.2 前方
+
+--- Document Chunk 32 ---
+CBTC 列车位置" ;将“6.3.2.3 安全进路的限定”的虚线框修改为实线框。
+
+--- Document Chunk 33 ---
+将 6.3.2.2 标题名称"CBTC 列车前方位置 修改为“前方 CBTC
+
+--- Document Chunk 34 ---
+”
+
+--- Document Chunk 35 ---
+列车
+
+--- Document Chunk 36 ---
+mE
+
+--- Document Chunk 37 ---
+将表 18 的标题名称”CBTC 列车前方位置"修改为"前方 CBTC
+
+--- Document Chunk 38 ---
+，
+
+--- Document Chunk 39 ---
+ae
+
+--- Document Chunk 40 ---
+列车
+
+--- Document Chunk 41 ---
+- 将6.4.3.1 的描述"表 28 规定了临时限速限制防护问题"修改
+
+--- Document Chunk 42 ---
+28 规定了临时限速防护功能”。
+
+--- Document Chunk 43 ---
+将6.7.3.3 的描述 当退行距离和退行速度超过允许值%修改
+
+--- Document Chunk 44 ---
+将6.8.2.2的条件 d)项"保持制动瑟施加?修改为:保持制动
+
+--- Document Chunk 45 ---
+动已施加”。
+
+--- Document Chunk 46 ---
+将6.8.2.3 的条件 d) 项”保持制动已施加”修改为:保持制动
+
+--- Document Chunk 47 ---
+动已施加”。
+
+--- Document Chunk 48 ---
+- 将6.8.3.3 的描述"系统方允许列车移动 CBTC 等级下 ,当站人台
+
+--- Document Chunk 49 ---
+门锁闭状态丢失时 ,还来进站的列车应根据接收到的移动授权 ,控制列车
+
+--- Document Chunk 50 ---
+在站台前停车;2修改为:系统方允许列车移动。CBTC 等级下 ,当站台
+
+--- Document Chunk 51 ---
+门锁闭状态丢失时 ,还未进站的列车应根据接收到的移动授权 ,控制列车
+
+--- Document Chunk 52 ---
+2
+
+--- Document Chunk 53 ---
+KOMEE SES
+
+--- Document Chunk 54 ---
+&
+
+--- Document Chunk 55 ---
+内 :
+
+--- Document Chunk 56 ---
+se S
+
+--- Document Chunk 57 ---
+se!
+
+--- Document Chunk 58 ---
+5 a S&S
+
+--- Document Chunk 59 ---
+--- Page 3 ---
+
+--- Document Chunk 60 ---
+19. 将表 49 的标题名称" 车门防护"修改为:站人台门防护"。
+
+--- Document Chunk 61 ---
+20. 将7.2.1 的描述”CBTC 系统应为列车确定 ATO HHA ATO 子系
+
+--- Document Chunk 62 ---
+统在 ATP 子系统的保护下 ,根据 ATS 子系统的命令,实现对列车的自动
+
+--- Document Chunk 63 ---
+驾驶、列车在区间运行的自动调整,并可实现列车的节能运行控制 ATO
+
+--- Document Chunk 64 ---
+子系统可控制列车按运行图规定的区间走行时分行车 自动完成对列车
+
+--- Document Chunk 65 ---
+的启动.加速 ,巡航、惰行 减速和制动的合理控制。修改为:”CBTC 系统
+
+--- Document Chunk 66 ---
+应为列车确定 ATO HAR. ATO PARSE ATP 子系统的保护下,根据
+
+--- Document Chunk 67 ---
+ATS 子系统的命令,实现对列车的月动驾驶、列车在区间运行的自动调
+
+--- Document Chunk 68 ---
+整 ,并可实现列车的节能运行控制。ATO 子系统可控制列车按运行图规
+
+--- Document Chunk 69 ---
+定的区间走行时分行车,自动完成对列车的启动 .加速.巡航、惰行和制动
+
+--- Document Chunk 70 ---
+4合理控制。
+
+--- Document Chunk 71 ---
+21 将表 66 的描述
+
+--- Document Chunk 72 ---
+子功能 #7.3.2.2 6A ATT
+
+--- Document Chunk 73 ---
+CBTC 系统应能自动或者人工关闭站台门
+
+--- Document Chunk 74 ---
+功能分配;
+
+--- Document Chunk 75 ---
+ATS                                                                                   x
+
+--- Document Chunk 76 ---
+CBTC 轨旁
+
+--- Document Chunk 77 ---
+CBTC 车载               xX                   xX
+
+--- Document Chunk 78 ---
+CI                                          xX
+
+--- Document Chunk 79 ---
+修改为:
+
+--- Document Chunk 80 ---
+功能分配
+
+--- Document Chunk 81 ---
+ATS
+
+--- Document Chunk 82 ---
+CBTC 轨旁
+
+--- Document Chunk 83 ---
+CBTC 车载               X
+
+--- Document Chunk 84 ---
+CI
+
+--- Document Chunk 85 ---
+--- Page 4 ---
+
+--- Document Chunk 86 ---
+22. 将8.2.2 的描述”*殉
+
+--- Document Chunk 87 ---
+的地号组
+
+--- Document Chunk 88 ---
+地号组成。
+
+--- Document Chunk 89 ---
+车识别
+
+--- Document Chunk 90 ---
+[成。修改为:列车识别号宜
+
+--- Document Chunk 91 ---
+应
+
+--- Document Chunk 92 ---
+Jill
+
+--- Document Chunk 93 ---
+23. 将8.3 的描述“殉
+
+--- Document Chunk 94 ---
+车的前
+
+--- Document Chunk 95 ---
+来进行追踪并显示在 ATS
+
+--- Document Chunk 96 ---
+具有车组
+
+--- Document Chunk 97 ---
+列车位置报告进行追踪 FH
+
+--- Document Chunk 98 ---
+车场内运行时,应具有车组
+
+--- Document Chunk 99 ---
+户界
+
+--- Document Chunk 100 ---
+lil
+
+--- Document Chunk 101 ---
+ati eK Red
+
+--- Document Chunk 102 ---
+上殉
+
+--- Document Chunk 103 ---
+[号的跟踪 .显示功能。修改为:列车
+
+--- Document Chunk 104 ---
+9前
+
+--- Document Chunk 105 ---
+f 显示在,ATS
+
+--- Document Chunk 106 ---
+[号的跟踪 .显示功能”。
+
+--- Document Chunk 107 ---
+24. 将8.6.4 的描述*在紧急情
+
+--- Document Chunk 108 ---
+强行取得控制权,控制车站的进路和
+
+--- Document Chunk 109 ---
+地控制优先于中央控人
+
+--- Document Chunk 110 ---
+优先于中央控制; 在
+
+--- Document Chunk 111 ---
+25. 将 8.7 的标题“控制
+
+--- Document Chunk 112 ---
+26. 将8.10.1 的描述
+
+--- Document Chunk 113 ---
+区域相关的信息;将”
+
+--- Document Chunk 114 ---
+锁闭的进路/区段以及临时
+
+--- Document Chunk 115 ---
+运行相关的信息,如防
+
+--- Document Chunk 116 ---
+PRA.”
+
+--- Document Chunk 117 ---
+27. 8. 10.2.3 的
+
+--- Document Chunk 118 ---
+fe
+
+--- Document Chunk 119 ---
+il); CE ASS Pill
+
+--- Document Chunk 120 ---
+EBON TEAM OL PS BED HT Cee
+
+--- Document Chunk 121 ---
+控制权 ,控制车站的进路和信号。殉
+
+--- Document Chunk 122 ---
+本地控制或中央控制时
+
+--- Document Chunk 123 ---
+列车运
+
+--- Document Chunk 124 ---
+a) 精确
+
+--- Document Chunk 125 ---
+Higa" ATS 子
+
+--- Document Chunk 126 ---
+载子系统 ATO 子系统 .CI了
+
+--- Document Chunk 127 ---
+车站维护工作站 综合维修
+
+--- Document Chunk 128 ---
+子系统应将自身的报警
+
+--- Document Chunk 129 ---
+系统的报警信息传至控制中
+
+--- Document Chunk 130 ---
+心的信号监测报警工作站。
+
+--- Document Chunk 131 ---
+= RARER
+
+--- Document Chunk 132 ---
+心维护
+
+--- Document Chunk 133 ---
+户界
+
+--- Document Chunk 134 ---
+用    if
+
+--- Document Chunk 135 ---
+况下 ,车站值班员可在控制工
+
+--- Document Chunk 136 ---
+信号列车进路
+
+--- Document Chunk 137 ---
+或中央控制时，
+
+--- Document Chunk 138 ---
+车进路控制权的优先级为本
+
+--- Document Chunk 139 ---
+控制权的优先级为本
+
+--- Document Chunk 140 ---
+人工控制优先了
+
+--- Document Chunk 141 ---
+央工作站上强行取得
+
+--- Document Chunk 142 ---
+列车表号,车次号车组号、目
+
+--- Document Chunk 143 ---
+车表号,车次号 .车组忆<
+
+--- Document Chunk 144 ---
+目的
+
+--- Document Chunk 145 ---
+据 CBTG, 列车位置报告
+
+--- Document Chunk 146 ---
+车在车辆段z停车场内运行时应
+
+--- Document Chunk 147 ---
+后位置应依据 CBTC
+
+--- Document Chunk 148 ---
+上。列车在车辆段/停
+
+--- Document Chunk 149 ---
+E站上
+
+--- Document Chunk 150 ---
+F 自动
+
+--- Document Chunk 151 ---
+也控制
+
+--- Document Chunk 152 ---
+,人工控制优先了
+
+--- Document Chunk 153 ---
+行"修改为"临时
+
+--- Document Chunk 154 ---
+4和区域相关的
+
+--- Document Chunk 155 ---
+F 自动
+
+--- Document Chunk 156 ---
+信息;修改为:”a)
+
+--- Document Chunk 157 ---
+)被控列车运行相关的信息,如防护区段信息、
+
+--- Document Chunk 158 ---
+限速极限和限速值" 修改为:dy被控列车
+
+--- Document Chunk 159 ---
+护区段信息、锁闭的进路/医段 以下临时限
+
+--- Document Chunk 160 ---
+系统可将自身的报警信息、ATP 车
+
+--- Document Chunk 161 ---
+系统的报警信息传至控制中心维护工作站 、
+
+--- Document Chunk 162 ---
+b心的信号监测报警工作站。 修改为:ATS
+
+--- Document Chunk 163 ---
+ri TOR ATP 车载子系统 .ATO 子系统.CI 子
+
+--- Document Chunk 164 ---
+-作站 ,车站维护工作站 `综合维修
+
+--- Document Chunk 165 ---
+1. 删除 6.7.3.3 的描述"退行距离超过限制 ,车载设备应丢失定位”。
+
+--- Document Chunk 166 ---
+--- Page 5 ---
+
+--- Document Chunk 167 ---
+2. 将表50 的描述
+
+--- Document Chunk 168 ---
+功能分配              输入                实现                输出
+
+--- Document Chunk 169 ---
+ATS
+
+--- Document Chunk 170 ---
+CBTC 轨旁
+
+--- Document Chunk 171 ---
+CBTC 车载               X                                       X
+
+--- Document Chunk 172 ---
+修改为:
+
+--- Document Chunk 173 ---
+功能分配
+
+--- Document Chunk 174 ---
+8
+
+--- Document Chunk 175 ---
+现
+
+--- Document Chunk 176 ---
+ATS
+
+--- Document Chunk 177 ---
+CBIC 3%
+
+--- Document Chunk 178 ---
+CBTC 车载
+
+--- Document Chunk 179 ---
+车辆( 外部接口)
+

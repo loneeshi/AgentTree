@@ -1,0 +1,1241 @@
+
+--- Page 1 ---
+IRSE/7
+
+Institution of Railway Signal Engineers
+
+Back to basics: train protection
+
+Questions for the Certificate (Module A) will not be set
+
+on the text which has been struck through
+
+Effective from October 2023 exam
+
+“The driver
+
+is constantly
+making
+judgements
+about the safe
+movement of
+their train”
+
+10
+
+David Fenner
+
+This, the fifth article on ‘back to basics’
+themes, covers the subject of train
+protection. The fundamental requirement
+of a railway signalling system is to ensure a
+train movement can be completed with the
+minimum of risk from human error, while
+
+at the same time allowing as many trains
+
+as possible to run on a given infrastructure.
+Much of the focus of a signalling engineer is
+on the design of the infrastructure control
+system that ensures safe routing of the trains
+and supports the person responsible for
+that activity, the signaller. But the other key
+operative is the driver.
+
+The history of railway signalling is very often about
+the development of systems to prevent the wrong
+signal being given to a driver and the evolution
+
+of the technology that underpins that function.
+Relatively little relates to supporting the driver,
+although it would be wrong to assume there is
+none. It is worth considering the different roles to
+see if there is any underlying reason for this. The
+signaller is dealing with a fixed set of equipment
+that has a limited range of states and thus a limited
+set of options. The requirement is to set specific
+routes at given times to permit the safe passage of
+a train, and to be reminded which of those actions
+have yet to be completed. The driver on the other
+hand is constantly making judgments about the
+safe movement of the train based on information
+from their own route and train performance
+knowledge, signs at the trackside and the signals
+seen. And in the case of signals seen these can
+and often will be changing minute by minute as
+other traffic moves. So the computational task of
+assisting a driver is significantly more sophisticated
+than that required to support a signaller. Maybe
+this is why train protection systems seem to have
+evolved more slowly, with the sophistication of
+train protection requiring computing power akin
+to a processor not a logic box.
+
+Supporting the driver starts with providing clear
+and concise signal indications so there is no
+confusion in the meaning and limited opportunity
+to read the wrong one. One can wonder how
+drivers could see a dim oil lamp flickering behind
+a coloured lens as they approached many of the
+mechanical signals still in service, at least in the
+UK until as little as 15 years ago. Many years ago,
+drivers had the advantage of a dark sky with the
+general absence of town and street lighting. Now
+of course most signals are colour lamps but often
+against a much brighter background. The problem
+is how do we help the driver respond to those
+signals and what other support do we need to give
+them to limit the number of accidents. There are
+two main errors a driver can make:
+
+« Failure to control the speed of the
+train correctly.
+。 Failure to stop at the defined End of
+Authority (EoA).
+It is these functions a train protection
+system must address.
+
+The remainder of this article will start by
+examining the various types of train protection
+and how those may affect the performance of the
+railway. It will then provide a generalised review
+of the development of systems to outline the key
+requirements with examples of systems from the
+UK and other countries.
+
+Warning or protection
+
+Within the overall scope of train protection there
+are two main sub divisions, warning systems
+
+and protection systems. A warning system will
+normally be associated with the location at which
+braking should commence whereas a protection
+system will aim to stop the train at or soon after
+the End of Authority (EoA). A warning system
+
+will alert the driver to take note of information
+presented from the trackside and may initiate
+
+--- Page 2 ---
+IRSE News | Issue 268 | July/August 2020
+
+Supporting the driver
+
+by relaying accurate
+information in the cab and
+reducing the possibility
+
+of mistakes being made
+has been a long running
+focus of the command,
+control and signalling
+industry. The view may
+have improved from the
+steam era to the modern
+day (as shown above)
+
+but increased speed and
+traffic complicates the
+situation.
+
+Photos Westinghouse
+B&S Archive/
+Chippenham Museum and
+Shutterstock/aapsky.
+
+“Train stops
+reduce capacity
+because
+extended
+overrun distance
+increases
+
+the headway
+between trains”
+
+braking action if the driver fails to acknowledge
+the warning. After acknowledgement the train is
+usually solely under driver control. A protection
+system will enforce a brake application should
+the system detect the train is being driven outside
+safe parameters. There are several sub-divisions
+of protection systems. It should be noted there is
+overlap between some of these classifications.
+
+Train stops
+
+Probably the most basic but effective form of train
+protection, train stops are typically mechanical
+devices that trigger a brake application if passed
+when in the ‘protecting’ position. They are
+usually associated with a stop signal. A train stop
+will ensure the train comes to a halt at braking
+distance beyond. To be effective in eliminating
+accidents they require an extended protected
+length of track beyond the signal, which limits
+application to lines with relatively low top speeds
+(around 80km/h) and good brake performance
+— typically metros. There are two fundamental
+weaknesses with such systems; firstly, they
+reduce capacity because the extended overrun
+distance increases the headway between trains,
+and secondly, they do not address the issue of
+overspeed at other locations. There have been
+applications where timed release of train stops is
+used to monitor speed, especially approaching
+buffer stops or high-risk junctions, but they are
+difficult to implement successfully.
+
+Intermittent train protection
+
+Intermittent train protection is provided at those
+locations assessed to pose significant risk. These
+are usually junctions with substantial traffic or a
+particular layout that creates additional risk, for
+example where there is a chance of head-on
+collision. As a train approaches such sites it passes
+through a speed trap and if above a pre-set speed
+will experience a forced brake application.
+
+In more recent systems it will be fed information
+about the current conditions and then calculates
+the safe speed profile to be followed.
+
+Modern systems of this type usually require
+the fitment of an Automatic Train Protection
+(ATP) system to the trains but avoid expensive
+
+investment in a comprehensive trackside ATP
+installation. Many of the systems introduced
+prior to the turn of the century (2000) can be
+considered to be of this form.
+
+Train protection with intermittent update
+
+These systems continuously monitor the
+movement of the train to ensure it is within the
+safe envelope. The driver is provided with an
+indication of the current maximum safe speed but
+otherwise drives to the signals and signs observed
+at the trackside. The train picks up information
+about the infrastructure ahead including the
+traffic conditions at intermittent intervals, usually
+from a balise or beacon or from inductive loops
+laid in the track. The intermittent intervals are
+usually associated with a signal, to facilitate the
+inclusion of information about the extent of any
+current movement authority and any speed limits
+associated with that authority.
+
+These systems provide full supervision of the
+driver at all times and will intervene to reduce the
+train speed back within the safe envelope prior to
+returning control to the driver. The exception to
+this is in the event of a Signal Passed at Danger
+(SPAD) when a ‘trip’ state is entered and the
+
+train is brought to a halt. The systems normally
+include roll back protection, a function of most
+ATP systems, to prevent the train rolling away
+when brakes are released but traction power
+
+is not applied.
+
+Because the system only receives intermittent
+updates, the system may restrict track capacity
+because the train must be driven according to the
+last update received and may thus continue to
+enforce a reducing speed even though the signal
+ahead has changed to a less restrictive aspect. A
+means of partially overcoming this constraint is
+to have ‘infill’ in the form of loops or additional
+balises which augment the update frequency,
+especially approaching critical signals.
+
+One advantage of such ATP systems is, because
+the train is being driven on conventional signals,
+the system can be overlaid on the railway to
+enhance safety. It is thus possible to partially
+equip either or both track and trains with only
+
+11
+
+--- Page 3 ---
+IRSE News | Issue 268 | July/August 2020
+
+selected portions of the route and chosen trains      elsewhere is a typical example. If a distant
+being protected. One disadvantage with this is         signal is approached with a clear indication the
+that an unfitted train which SPADS, may encroach     driver receives a bell (or gong) sound and is free
+on the path of a fitted train, resulting in a serious      to continue. Should the signal be at caution
+accident. Thus, this arrangement would ideally        the sound is a buzzer (or horn) and the driver
+only be used as a migratory configuration.              must acknowledge this both to turn off the
+
+.             .       .          .                         sound and prevent a brake application. After
+Train protection with continuous update       acknowledgement the driver is responsible for
+These systems have the facility to provide updated ”the continued motion of the train. These basic
+movement authority information at any time.          functions are almost identical to the French
+Consequently, they are often part of an in-cab         “Crocodile” system.
+signalling system because the driver is continually       _.
+
+:  °       °  tis interesting-+t te-how-thetechnel f
+fed information on the current safe speed and is      ty     .    i   网      1  总
+no longer required to watch for lineside signals              y                 ged The
+or signs. There may be other reasons, outside          ‘        Li      了了      o
+the scope of the signalling system, for the driver       in- 1906 and implemented shortly afterwards  .
+to watch the passing trackside and one of the
+challenges is to ensure the right balance is struck
+
+,          :        :                            th,      lactrical faed-to indicate cl      ad
+between watching the displays in the cab and                                                     3
+j        fl                                        electrical charge wh     t-ceaution. This foll
+watching the line.                                            ~
+the“failsafeprinciple-b   se-theabsen  f
+Another challenge with these systems is that the      electricity could arise       ral-fail      ituation:
+driver is given advice on the safe speed profile           A     sthe mechanicaHlifting- of th       tact
+based on the train parameters encoded in the          上      eulteHfait      44      ften-The-problem
+“If these                   system. If these parameters are wrong the driver         ith        hanicat     tactsystentisw        全
+may be advised to brake later in the journey than      tearespecially as speed and frequency of use
+parameters are      is desirable, with the risk of passing the End of       increases as was inevitable when Multiple Aspect
+wrong the driver authority (EoA) - the equivalent of a SPAD. Thisis 。 Signalling (MAS)-becarne-commeon-—The forra-of
+may be advised      of particular concern for variable formation trains,     WS inaplemented-by British Rail    s-fr.    th
+to brake later         especially locomotive-hauled freight trains, but is    495.0s-u:    rnagneti    duct    to-convey-the
+.       .            also relevant at times when adhesion is poor.         signal-statuste-the train During the 1950s-wh
+”                                                                    可                                可
+than is desirable        7                    -     加    the-system   bei    talled     onduct
+The major advantage of such systems is the ability 77                 ie      . smn  htep th
+SS    并        sot     Gott p     Ht     +4
+
+to enhance the capacity of the infrastructure.
+
+Because the train and infrastructure are in regular     train-used relays Teday the logic is performed
+
+.        .   .       5  PL   At.   netic-field-detectedb
+contact, and with a safe speed display in the cab,       了                     也
+the limitations of fixed lineside signalling with          Hall Effect sensor
+a limited number of aspects can be removed.          WS-uses-a-perm     tmagnet-centrally located
+Thus, a fixed block railway is no longer limited         between the rails to initiate the onboard system
+to say four or five aspect signals, meaning closer         d-provide the-dei       ith-e-warningif-th
+running is possible and, more importantly,             ignatis-at     ti.       top-      lect      gnet
+release of trains held at a converging junction          is positioned inamediately afterwards wher
+can happen significantly earlier with very short         ignalLmay-show-atine-cl       pectThi         id
+block sections. This form of protection is a              gnetis    rgised-when-thesignalis-clear
+corner stone of moving block systems and the         {g      )-and-effectively        Is the         9;
+heart of Communication Based Train Control        instead sounding-abellinthe-cab (see Figure 二
+(CBTC). Metro railways have been able to gain        The     hc     dile"-syst           ysthe twe
+significant uplift in service frequency as a result         ssages-from-the infrastructure to the train by
+of such application, for example the Victoria line      different voltages appliedtothe“Crocodile’ramp
+in London increased from around 30 to 36 trains        Heeted-b:      iro-brush-on-the de        hiet
+
+per hour in the peak as a result of implementing       mechanically centacting the ramp.
+
+CBTC. Continuous update train protection
+thus offers enhanced performance and options
+
+To-ensure the two-successive magnets are
+
+for reduced trackside equipment as well as         detect 对 et    peed th  system delays output
+-      ae        te-the driver for aporoximatelyen         cate
+improved safety, making the business justification          :              ii          了     -       ‘
+measurably easier.                                     passing the-p         ‘emmagnet this provides
+time for a-stowly moving train te-detect th
+The advantages of in cab signalling and increased      lectromagnet priorte initiating th        ing
+capacity by removal of lineside signals usually         seq       ltthen-gives the dei      roundthr
+means either all trains must be fitted with a             5      dst     knewledg        rning-anc-obser
+suitable system or the configuration of existing        the-signalttn     knowledgementis         Jd
+signals needs to be amended to allow changes        the-brakes-will be applied On passing the signal
+in operational rules. This poses a significant cost      displaying+th      tior-aspeetthetrain- should
+hurdle before such benefits can be gained.             stop-at or before the associated step signal Thus
+Warni                                      the AWS trackside Installation is placed      d
+arning systems                            4 seeends befere the signat-whichis       lly
+Warning systems are usually designed and             interpreted-as about 180m.
+positioned to alert the driver to the presence of         key-technical-chatl      Cop AWC         sui
+a signal or sign at the trackside. The Automatic            ication to third-rait Tesi     4    a    t   了
+Warning System (AWS) in the UK and used              PP                             ed       Fact
+
+12
+
+--- Page 4 ---
+IRSE News | Issue 268 | July/August 2020
+
+The “Crocodile” system conveys two messages to the train by different voltages fed
+to the ramp. The right hand photo shows Eurobalises, TBL antenna and Crocodile
+together in a Belgian application.
+
+Photos Wikimedia CC-BY-SA Charlotte Noblet (left) and Francois Melchior.
+
+AWS receiver
+pre Hall effect
+
+Dragging equipment              TPWS receiver
+ramp
+=
+
+AWS. Left trackside magnets, right, train-carried equipment.
+Photos David Fenner.
+
+1) Signal green. Train responds to both magnets,
+sounds bell to driver, no action.
+
+2) Signal NOT green. Train responds to one magnet,
+sounds horn to driver. If driver does not respond
+to horn brake applied after 2-3 seconds. If driver
+
+responds no action by system.                                                                                           Control Centre
+
+Controls points and signals.
+Watches train position from
+train detection sections.
+Electri                                                  All signals fitted with AWS.
+lectric magnet
+only energised when         Permanent
+signal green               magnet
+
+___Train detection section2 detection section 2
+
+URDU
+
+/0808—
+
+Approx 200m
+
+Figure 1 — AWS application Trains with AWS or full TPWS can share the line.
+
+13
+
+--- Page 5 ---
+IRSE News | Issue 268 | July/August 2020
+
+“Another
+challenge is the
+increasing use
+of bi-directional
+signalling”
+
+“Train stops are
+still a mitigation
+measure rather
+than a control
+system”
+
+Where-high-current DC tractio   tern      d      dents-eaused by-exeess speed the need t
+there-is-a-risk of cross-track-cables-ereating-stray!    tintue-to-reduee-the-harm-caused-by accidents
+mnagnet fields_tnthis-case the AWS detectors-on  tegeth  ith these-humantack   knesses
+the trains-were-desensitised-and-extra- strength    subsequently resulted in the-developmentofth
+magnets-provided for the trackside AWS function:   Frain Protection Warning System-FPWS)-
+tom   se the risk of false AWS information from   feature of AWS and many similar systomeis
+they give the dx       ftwetndications-at
+ther-challenge is the i    sing-use-of bi        y-signat—Fhus-any-fai   the train
+direetienatsighating- Withthe maghnetsinthe      quip   t
+
+tre_ef the track_trains-in-eitherdirection-will     n-be-managed through-approp   procedures:
+detect the fields. Thus; trains passing-overan      hath   se-of AWSthe-use-of a-pernanent
+installation intended forthe opposite direction of magnet ensures-that  maplete-faiture-ofth:
+ementwillexperience-a- warning since the    trackside installation is-very    te-and-simitary
+perm   tmnagnhetwitLbe the last item-passed.    the-driverwillnet   rongindication-ttshould-b
+Ontracks-where-this is-aninfrequent   urrence     dersteed-AWS is nota-fail-safe-systen-with
+sig    be installed    ind-the-driver-this    high Si-rating-Htis-therefore important that fault
+warning does net apply to themtntocatio:       are+reported promptly and suitabl    SUES
+here sueh      tis   frequentor-would — taker-to-operate- safely after dis
+tin the-needto+regulary acknowledge          .
+irrelevant AWS-warnings-the permanent magnet   Basie protection systems
+is-surroundedbya.  fect  mag  二  iL  Rich      于    Hi. stp  tact.  syst  S-   retrain-st  ps
+suppresses the permanent magnetic field wh     placed-on-the track atthe  i   fastop
+a   erse-directi            ti.  ignall d—Fh. Se     sig  |  Sp   1   sty deseribed—WAh:   +4  sig  上
+tputsare feetuiredfrernthe interlocking     js-shewinge asteP-aspPeet  re-is-raised-typically
+学 £     tju t+to-indicat   A.   +A,  ig  Lis        50-60m:   上    Faith: ight Fhis-   gages  ith,
+showing-a-green- aspect but als   hen-areverse    trip.   kK   the-train-which-op:     lant   th
+
+bral    bral
+
+ine-forci     lication The
+pipe toreing  PP ATA
+
+g   t Fnay enable ene AWS installati       il be-passing the signatat danger befere th
+5   fore   ignals-readiagin-oppesite     brakes   pptiedin-whieh-context this-is-a-SPAD
+directions-In-this-case the p:     tmagnet     mitigation measure rather than-pr   tion Wh
+iiLhavetwe-elect         itherend     the-signalis-clearthetrip-arntistowered bet
+ssociated-with the relevant signak             railevel_Train- stops    normally-provided
+，       ，   ，         ，        or-metres-operating int   Sb:   Se ef
+MtHtiple asPeet SignatthehasfesttteeHih-Fnest    significant-risk-of   Uision-in-such locations.
+signals-being-equipped- with AWS      he-th        Extension t
+d-for-dri      |     led      "    bi                      ‘
+二        也           ff     fulloretecti
+automatic reacts       iallyawh           P
+a                7 SSP    J           + bring +he-t
+perating    Agested-raitway    strict          ttainable-s
+spects-Indeed_this caused the Souther         r       上
+-     7                               +
+Reg   British Raitte-experimentwith-an       braint |
+Si
+sephistieated form-of SighaLR    tic AWS             <
+ine     ~        ~    aiid             perating
+{SRAWS)-during the-early 1970's butinthe-end                ，
+this-was-netadested-Th   bl   ¢instineti     throught
+r                  next signal
+hams t                 y bana allt                speed fr      standing start      itHne ai    ‘S
+sys   S  perma     fnPerafy   th    tis oft  a  tieable due te _high
+speed restrictions. These requirements arose after         ed   人   Prac 6         9 "ef
+Pp            4            speeds and-extended braking dist  S-
+
+“Classic” trainstops on the Berlin S-Bahn, photo taken in 2007.
+Photo Kabi/Wikimedia.
+
+14
+
+--- Page 6 ---
+IRSE News | Issue 268 | July/August 2020
+
+1) AWS as before.
+
+2) If train speed less than overspeed sensor value
+when signal red no action, if overspeed brakes
+applied for minimum one minute.
+
+3) If train (front end) passes train stop when signal
+
+red brakes applied for one minute.                                                                                        Control Centre
+Controls points and signals.
+TPW:        ]             1                                                                                    Watches train position from
+S equipment active                     TPWS only fitted to signals protecting         train detection sections.
+
+only when signal red                      junctions and other "high risk" signals
+
+TPWS train stop                    AWS                   TPWS overspeed
+sensor
+
+Train detection section 1                                     Train detection section 2
+
+Typically up to 350m
+
+Figure 2 — Typical TPWS installation.
+
+Frain-steps- have moved on-significantlyfromthis  FPWSis-consideredto-#    igh-probabitity
+technolegy-but they are-still   tion:    stepping-apassengert  thin-th:  tap
+ther-th:   trotsystem.  fly ak     provided-the apPreaeh-speedHis het greater th
+pnechanicateentacttirain-st ey  ter:      in Rh-L29k /上} cLadhesi   detiverth:
+4dusit-firstinstalled in-Germany-and-s   ding  braking-effortef the train-Where approach- speeds
+tries-in-the 1930s-and-revived- inthe 1950s.  are-greater- than-75mph-and risk is assessed-to-b
+S  Lenh   ts have subsequent!    high-additionat  speecoops- may-be-provided
+urred-leading-to-the-systen knewh-as-PZB90-   ti   pproach-te-the-signalFigure 3
+Fhree-tones-are-generated-on-the driving vehicl    leat) 7  二  stantially mitigates-th
+andinteractwith passive tuned-coil:   ted
+s-required-trackside-The-tuned-coils cause
+‘  1
+senate resutting+  imped:   Rang  rc)
+toneis.a-train- stop forcing a brake appiicati
+and  ttyB ty   t  pr ing 全
+signat- Fhe 1999Hztk    s-typically associated
+
+low  xinaum-speedandis-eften- placed short!
+before-aredsignal
+Indusituned-coils are installed-on-the- sleep:
+eb   they-are-naturally only detected by a
+hicle travelling   directi   dde-netneed
+uppression for oppesite-direction movements.
+FPWS-in-the Ui-has related functionality in that
+“     .          £    jaAthi:     i  fh.      A-65kHz—a:
+TPWS is only      mitted by track mounted loope this time    TPWS-is-an intermittent train protection syst
+provided at       * a    ae in :  k 和  H    b   seit   ty-provided-atleeationsthatare
+locations that     two-arming-and one trigger-are-used forth       ee eee ee eee
+matdi   i    £.            d-theother       PI      g       i)   t          了
+are deemed     tase forte “er of movement and tf   *     ther signals fwhere the SPAD-tiski    edLas
+high-risk”        directional-track—Th:  FON ide-the-functi       high} buffer steps-ands    speed-reductions
+eat  c-trap'_fera-train- travelling faster-th:   here-the-approach speed  xeeeds-6Omph
+
+SPI    眼            gras:          approximately LOCkma/h}
+deemedsafeandatrainstop-Figure2Skhould                      °
+ion b
+
+ither-the-speed-trap-ortrain-stop-funct       Fhe-FPWS-systemis- active te step atrain se
+activated a full brake application is initiated and   key-requirementis  firming thetracksid
+intained:-for  minute-bringing the train     :   ;   woes      iced Thi
+astandthetocation at-which the train step:    后好  by meniteriagth:    tfedto-th:
+functi  fHthetrainbrat   fe      d    transmitting toops-Should this fat outside the
+月                  -
+theihitiatsPeed-Pfriertethe brake application.   intended _parameters-an indication is-giventeth
+Fh.  is    tainty-this-willbe-in-e-safet  +      Per   g-signallerand-the-signalin-rearheld
+
+15
+
+--- Page 7 ---
+IRSE News | Issue 268 | July/August 2020
+
+TPWS equipment                                                   TPWS only fitted to signals protecting
+active only when                                                 junctions and other "high risk" signals
+signal red
+TPWS train stop              AWS            TPWS overspeed                               TPWS+ overspeed                                  AWS
+sensor                                      sensor (when used)
+Trigger loop Arming loop                      Trigger loop  Arming loop    Electromagnet Permanent
+(only active when magnet
+|                    signal green)
+eeeeeee koe  peewee le
+ee eo
+>
+
+Typically up to 350m
+
+TPWS+ typically 750m
+
+Figure 3 — Typical TPWS installation including AWS.
+
+“Full ATP systems
+continuously
+monitor the
+movement of the
+train”
+
+16
+
+t-danger-Similarlyth:  board.  i  +i
+tic-to-confirm iti
+
+Hf-diag
+
+ittentt
+
+ith SHL4 requirements,
+fety-needs-to-b   trolled-by-suitable
+p  dures in-th   tota-fault
+PZB90-nerFPWS-car-p:  ft at  idents
+sth    intermittent systems. Bothn systems
+ar    idec-with facilities to-atlow-the-drivert
+syster-aftera-brake int   tien-and
+e-with-the journey, Such reset is required
+te   nd      dereontrotted-e}   St   S
+invelving-conamunicati   ith-the-signalle:
+troller-In-both-cases-_there-is-evid   上
+drivers sometimes resetting without foll
+th  FreetB  村   th the pot
+
+Full ATP systems with
+
+intermittent update
+
+Full ATP systems continuously monitor the
+movement of the train and intervene with a brake
+application should the speed go outside the safe
+envelope. An indication of a suitable speed is given
+to the driver, this speed usually having a small
+margin beneath the safe speed envelope. These
+systems are normally designed in accordance with
+SIL 4 requirements.
+
+ted
+
+'g
+tiaLfer
+
+To enable the train to continuously calculate
+and monitor the safe speed profile information is
+needed about several parameters:
+
+¢ Infrastructure profile.
+
+¢ Distance to the end of the movement authority
+(i.e. stop signal) (EoA).
+
+¢ Current speed of the train.
+
+¢ Distance travelled.
+
+¢ Braking performance of the train.
+¢ Maximum train speed.
+
+The infrastructure profile must reflect the
+permitted speed, including any temporary speed
+limits, covering at least the distance within the
+current movement authority. This includes speed
+limits over junctions which may vary depending
+on the route allocated. It also needs to include
+the gradient profile over the same distance as
+changes to gradient can have a significant effect
+on stopping distance.
+
+The location of the EoA either needs to be known
+or at least it is beyond the range that currently
+needs to be considered (e.g. when driving on
+green signals or the equivalent). To calculate the
+ongoing speed profile, it is obviously necessary to
+know the current speed and how far the train has
+travelled to enable the remaining distance to any
+speed change to be determined.
+
+The braking performance of the train is a
+key parameter in performing the safe speed
+envelope calculation.
+
+The data about the infrastructure including route
+set and signal status is usually fed to the train
+intermittently as data telegrams by balises or
+beacons, most of which will be associated with
+
+a signal (Figure 4). Some systems use inductive
+loops laid in the track to pass the relevant
+telegrams. Infill may be provided where the
+intermittent transmission of data has a significant
+impact on operational capability.
+
+The need to know speed and distance travelled
+results in some fairly complex configurations of
+equipment on board the train. The wheel to rail
+interface is notoriously challenging with relatively
+low adhesion. This makes simple odometry
+inadequate for the purposes of ATP especially as
+the objective is a system with high safety integrity.
+Slip (during acceleration) and slide (during braking)
+are relatively likely, both creating erroneous
+information if reliance is placed on wheel rotation.
+Some systems use an unpowered and under
+braked (or unbraked) axle as the sensor input.
+
+--- Page 8 ---
+IRSE News | Issue 268 | July/August 2020
+
+1) Beacon tells train ‘colour of signal’, permitted speeds
+distance to next beacon, gradient etc.
+
+2) Train computer calculates maximum safe speed,
+advises driver by display in cab.
+
+3) Driver obeys lineside signals and signs.
+
+4) If driver exceeds safe speed brakes applied.
+
+Infill loop updates trains
+approaching signals where
+time may be lost if signal
+changes aspect
+
+A beacon is connected to every
+signal colour and informs train
+of signal state
+
+Train detection section 1                     Trait
+
+detection section 2
+
+Control Centre
+Controls points and signals.
+Watches train position from
+
+train detection sections.
+
+_Train detection section 3 _ detection section 3
+
+—
+Ola
+
+ig TTI
+
+|
+
+el
+
+Ba
+
+a                                                       Wee
+/0808——_                                                                          aws
+TBL beacon
+
+Signal 1
+
+Figure 4 — ATP with
+intermittent update (as
+used by Network Rail
+between London and
+Bristol).
+
+“Odometry for
+ATP is often a
+mix of systems to
+counteract the
+weakness of any
+one of them”
+
+Signal 2          TBL beacon
+
+Another risk with wheel rotation is the slow but
+steady change in size as the wheel wears. Doppler
+radar is sometimes used, but is not without
+challenges especially in damp or snowy conditions
+and of course like wheel rotation it is subject to a
+steady build-up of position error unless corrected.
+Use of a Global Navigation Satellite System (GNSS)
+offers another means. However, it rarely covers all
+conditions, examples being tunnels and urban or
+other ‘canyons’ where lost or reflected signals can
+affect the calculated position. Thus, odometry for
+ATP is often a mix of systems to counteract the
+weakness of any one of them and to support the
+determination of the margin of error on the actual
+estimated position which will tend to increase over
+time and distance travelled. Balises or beacons
+
+on the infrastructure are frequently used as a
+reference point to correct accumulated error. Not
+surprisingly odometry problems are potentially
+the biggest cause of train equipment failure for
+some ATP systems.
+
+A further result of the challenge with odometry
+
+is the need for a “release” speed with many ATP
+systems. Because the train cannot know exactly
+where it is the ATP system will assume worst
+
+case error and therefore bring the train to a halt
+
+a short distance prior to the current EoA. This is
+
+a significant problem if the next update function
+is located close to the EoA and in the case of the
+EoA being at the end of a station platform when,
+for station purposes, it is important to get close to
+the platform end. To counteract these challenges,
+it is normal for the ATP system to return full
+control to the driver on final approach to the EoA
+provided the train is then operated below a low
+“release” speed. This of course means there needs
+to be a short safe overrun beyond the EoA should
+the train pass beyond the EoA, when a “trip” state
+will be entered to bring the train to a stand.
+
+Braking capability is the final parameter the system
+needs. This is generally relatively simple for fixed
+formation multiple unit trains, although a given
+axle may under-perform due to a maintenance
+
+Signal 3         TBL beacon
+
+issue. It is a far more complex challenge for
+variable formation locomotive hauled trains,
+especially freight trains. The usual arrangement
+
+is to request the driver to enter or select brake
+data as part of train preparation. One challenge
+
+in defining the brake performance is whether the
+system needs one or both the service brake and
+emergency brake parameters, and ensuring the
+rolling stock and signal engineer are discussing
+the same function! The rolling stock engineer will
+often regard the emergency brake as the brake
+of last resort (i.e. a vented air pipe) which may
+result in a lower deceleration rate because electric
+braking and wheel slide prevention systems may
+be disabled. If the emergency brake rate is lower
+than the service brake rate it will tend to dominate
+the operating profile because it will require the
+train to be slowed earlier than the service brake.
+Thus, it is important to be clear between parties
+exactly what the parameters mean and how
+
+they will be used.
+
+The inputs from the above data sources are
+typically fed to a multi-channel processing
+
+system prior to being presented to the driver as a
+permitted speed indication and when necessary to
+the brake activation interface.
+
+Full ATP systems with continuous
+update
+
+These systems have the same basic functionality
+and challenges as described for intermittent
+update systems, but the data about infrastructure
+condition is able to be updated at any time. Such
+systems allow in cab signalling as the driver can be
+informed of an update to signalling conditions via
+the cab display.
+
+Early systems achieved continuous update by
+transmitting codes to the train via track circuits.
+
+In practice the number of codes capable of
+transmission this way is severely restricted. So
+usually the train was given a maximum running
+speed and a target speed to achieve at the end of
+the section. Information such as speed restrictions
+
+17
+
+--- Page 9 ---
+IRSE News | Issue 268 | July/August 2020
+
+Opposite ends of
+
+the coded track train
+protection speed
+spectrum:
+
+Left, the LGV-Est line in
+France, equipped with
+TVM430.
+
+Right, London
+Underground's Central
+Line.
+
+Photos Shutterstock/olrat,
+Shutterstock/Ttatty.
+
+“CBTC systems
+incorporate
+continuous
+ATP protection
+using radio
+
+communications”
+
+18
+
+or gradient would have to be used as part of the
+design process when configuring the system for
+the railway. This method of providing continuous
+update is limited to lines using rolling stock with
+very similar brake performance, or at least has to
+be based on the worst brake performance train
+permitted. It was the backbone of the original
+London Underground Victoria Line automatic train
+operation system from 1965 until recently and is
+the basis of the signalling on many of the French
+LGV lines signalled using TVM 430. A significant
+challenge with such systems is the need to ensure
+the train can detect the track circuit code prior
+
+to shorting the track circuit current as part of the
+train detection role. Thus, assuming the detector is
+at the front of the train, it is necessary for all track
+circuit feeds to be ahead the train which means
+that reversal of feed and detector functions is
+necessary for any lengths of track used reversibly.
+
+Another early method of providing continuous
+update was via a loop usually between the rails
+which radiates data to the train. The German LZB
+system is perhaps the best known of this form and
+is also the parent system for several others of this
+type (e.g. SELTrac). In this particular case the data
+rate is low by modern standards (1200 baud up
+link to the train; 600 baud down link). Thus, the
+data volumes handled between track and train
+are relatively low (circa 85 bits per telegram). As
+
+a result much of the calculation is performed in
+the LZB control centre and limited target speed
+data is passed to the train. The loops in the four
+foot are crossed every 100m which both reduces
+interference and provides a distance monitoring
+function to the train by reversing the phase of the
+radiated signal.
+
+The system is in relatively widespread use through
+Germany and Spain, especially on high speed lines,
+with other applications in Austria and elsewhere.
+
+The most recent systems in this category are
+urban CBTC train control systems and ETCS
+Level 2 and above, both of which use radio
+systems to transmit data between track and train.
+
+The major advantage of mobile data packet
+systems is the much larger and reliable data
+bandwidth, meaning more of the processing can
+be performed on the train and be relevant to the
+specific train, resulting in better optimisation.
+They also both open the way for the train to
+inform the infrastructure of its position and its
+operating performance.
+
+CBTC
+
+Many current resignalling projects for metro
+railways are based on Communications Based
+Train Control (CBTC). As the title suggests this is
+
+a highly integrated form of train control covering
+all the important functions of train movement
+including route setting, train location, movement
+authority often based on moving block, train
+supervision and train driving. In the latest systems
+CBTC is often used on a railway working under
+Automatic Train Operation (ATO) or a higher grade
+of automation with the objective of providing the
+maximum achievable capacity on the routes fitted.
+
+CBTC systems incorporate continuous ATP
+protection using radio communications between
+the train and the trackside installation. The actual
+form of the radio link, which is also used for other
+aspects of the CBTC system, varies between
+
+both supplier and application and may include
+Wi-Fi and 4G/LTE, although the majority of new
+systems are likely to use 4G/LTE. The detailed
+methods of implementation are proprietary to
+the manufacturer.
+
+Most systems of this type have been implemented
+on individual lines of a metro or on people mover
+systems (e.g. at airports). This has the advantage
+of a limited range of rolling stock making the train
+parameters consistent and thus maximising the
+capacity gain from moving block.
+
+Two disadvantages are the need, especially on a
+high capacity metro, of having a highly reliable
+system requiring layers of redundancy, and the
+proprietary nature of the systems from each
+manufacturer which for commercial reasons
+restricts the use of such systems on a large
+network of lines.
+
+--- Page 10 ---
+IRSE News | Issue 268 | July/August 2020
+
+“The advent
+
+of through
+international
+trains such as
+Eurostar required
+the trains to
+
+be fitted with
+multiple train
+protection and
+communication
+systems”
+
+China's CTCS system
+shares many concepts
+with ETCS but has
+developed very quickly
+in order to keep up
+
+with infrastructure
+developments across the
+country.
+
+Photo Shutterstock/
+kikujungboy.
+
+ETCS
+
+Until the around the 1990s most EU countries
+had their own train protection systems as well as
+signalling and communications arrangements.
+This resulted in relatively closed markets for
+signalling products and required different
+systems to be available on any driving vehicle
+that might cross from one country to another.
+The advent of through international trains such
+as Eurostar required the trains to be fitted with
+multiple train protection and communication
+systems and for the drivers to be trained in the
+differing signalling arrangements. The opening
+up of markets prompted the EU to propose a
+common standard for rail traffic management
+and especially signalling, train protection and
+radio communications across the EU states which
+culminated in the definition and development of
+ERTMS including ETCS and GSM-R for track to
+train communication.
+
+ETCS provides three primary levels of
+implementation together with others to suit
+specific needs.
+
+Level 1 is essentially an intermittent update ATP
+system associated with existing lineside signals
+with the same facilities and restrictions in terms of
+‘infill’. The primary track to train communication
+media is the balise with infill loops an option.
+
+Level 2 adds a Radio Block Centre (RBC) and
+provides continuous update of movement
+authority and all associated infrastructure data by
+radio. For ETCS the currently specified radio link
+is via a continuously open GSM-R call. However,
+this is likely to change as train radio moves to
+packet switched (4G/LTE or 5G). In the interim
+GSM-R may be supplemented with General
+Packet Radio Service (GPRS), a 2/3G packet
+oriented mobile data standard, to support ATP
+
+in busy areas. It therefore has the functions of a
+continuous update ATP system. Lineside signals
+can be removed but Level 2 retains trackside
+train detection and interlocking functions. Such a
+system can provide the basis for Automatic Train
+Operation (ATO) and has been implemented on
+the Thameslink core through central London.
+
+Level 3, which is not yet fully developed, will
+enable train detection to be based on data
+received by the RBC from the trains in the area. It
+will therefore facilitate the reduction or removal
+of lineside train detection equipment and facilitate
+the introduction of short virtual blocks or perhaps
+moving block. A significant challenge at present
+
+is from variable formation trains (e.g. freight and
+locomotive hauled passenger trains) and proving
+they are complete at all times.
+
+Other ETCS levels also exist, including those
+working with a national ATP system through a
+Specific Transmission Module (Level STM), and
+Level 0 when an equipped train is operating over
+unfitted infrastructure and is thus subject only to
+train ceiling speed supervision.
+
+In addition to these primary levels there also exist
+options for Limited Supervision which effectively
+provides train protection only at critical locations
+and thus corresponds to intermittent train
+protection. Finally, there are proposals for ETCS
+Hybrid Level 3 which provides virtual blocks as
+well as conventional train detection, delivering
+capacity benefits for trains that are Level 3
+enabled, without having to bar the route to Level 2
+or unfitted trains. An article about ETCS Level 3
+and Hybrid Level 3 was published in the April 2017
+issue of IRSE News.
+
+Positive Train Control (PTC)
+
+In North America there is currently a programme
+to implement Positive Train Control (PTC) on
+
+all intercity passenger lines, and on freight lines
+carrying more than 5 million tons per annum
+
+of inhalable toxic substances. PTC is a form of
+ATP in that it requires the prevention of collision
+due to passing the end of authority or passing
+through misaligned points and speed supervision
+to prevent derailment at speed restrictions
+whether permanent or temporary. There is no one
+mandated solution but there is the requirement of
+interoperability between systems as many vehicles
+travel over several networks. It also requires
+provision of arrangements to protect track
+workers. Whilst several systems were proposed
+most installations have settled on one of three
+systems and all will operate with each other.
+
+
+--- Page 11 ---
+IRSE News | Issue 268 | July/August 2020
+
+In a similar way that CTCS
+was created to meet the
+needs of China, PTC was
+developed to meet the
+specific needs of North
+America’s railroads. Union
+Pacific has been one
+
+of the adopters of this
+technology.
+
+Photo Shutterstock/
+AngelDiBilio.
+
+20
+
+The PTC system was mandated by law signed in
+2008. The original law required the system(s) to
+be in place by 2015 but costs and challenges in
+implementation mean this date has been pushed
+back to the end of 2020. The range of operating
+conditions from metro and commuter railways
+to long heavy haul freight lines means variety of
+solutions is too great to discuss here and could
+well be the subject of a separate article.
+
+About the author ...
+
+David joined the S &T department of the
+Southern Region of British Rail in 1968 as a
+student engineer, with his first appointment
+in the telecommunication design office. He
+supported the testing and commissioning of
+passenger information systems, including the
+automatic operation of platform indicators at
+London Bridge and Waterloo East and setting
+a career profile linked with development
+
+of new systems.
+
+In the 1980s David led a team involved with
+train describer development and a new system
+to distribute train location information via
+
+the national teleprinter network, followed by
+the development of the Integrated Electronic
+Control Centre (IECC) including automatic
+route setting. He was also involved in improving
+electromagnetic compatibility between train
+detection and new rolling stock.
+
+Moving to Railtrack in 1994 he was involved
+with the development and implementation
+
+of TPWS and the development of ERTMS in
+Europe, his work including the implementation
+strategy for the UK. Before retirement David
+managed the safety assurance process for the
+Cambrian ERTMS pilot. David is one of the
+contributing editors of IRSE News.
+
+Conclusion
+
+In this article | have attempted to summarise the
+scope of train warning and protection systems
+and to highlight some of the major issues the
+implementation of ATP faces as well as giving an
+insight into some of the systems that exist.
+
+“Back to Basics” and the IRSE Exam
+
+We hope our ‘Back to Basics’ series is
+interesting to all members, bringing topics
+that underpin our profession into focus in a
+simply understood, yet comprehensive way,
+making continuing professional development
+straightforward.
+
+We particularly hope the articles are interesting
+to those of you who are new to the industry
+and are working to build up your knowledge.
+For those considering taking the IRSE exam,
+these articles should be particularly relevant
+for your studies.
+
+As an example, why not think about how you
+would answer this question from the 2019
+Module 5 of the exam, based on what you've
+learnt from the article?
+
+“Describe a system which provides train
+protection for a stop signal or limit of
+movement authority. Using a diagram, clearly
+describe each of the following:
+
+(i) How the speed of a train approaching a stop
+signal or a limit of movement authority is
+monitored and controlled;
+
+(ii) How a train is prevented from ignoring a
+signal displaying a stop aspect or a limit of
+movement authority; and
+
+(iii) The necessary interfaces to the signalling
+
+system including the interlocking and
+control system.”

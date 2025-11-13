@@ -1,0 +1,6654 @@
+--- Document Chunk 0 ---
+Report 12/2020
+
+--- Document Chunk 1 ---
+November 2020
+
+--- Document Chunk 2 ---
+Rail Accident Report
+
+--- Document Chunk 3 ---
+Derailment of a freight train near Wanstead 
+
+--- Document Chunk 4 ---
+Park, London
+
+--- Document Chunk 5 ---
+23 January 2020
+
+--- Document Chunk 6 ---
+ 
+
+--- Document Chunk 7 ---
+This investigation was carried out in accordance with: 
+
+--- Document Chunk 8 ---
+l the Railway Safety Directive 2004/49/EC
+
+--- Document Chunk 9 ---
+l the Railways and Transport Safety Act 2003 
+
+--- Document Chunk 10 ---
+l the Railways (Accident Investigation and Reporting) Regulations 2005.
+
+--- Document Chunk 11 ---
+© Crown copyright 2020
+
+--- Document Chunk 12 ---
+ 
+
+--- Document Chunk 13 ---
+You may re-use this document/publication (not including departmental or agency logos) free of charge 
+
+--- Document Chunk 14 ---
+in any format or medium. You must re-use it accurately and not in a misleading context. The material 
+
+--- Document Chunk 15 ---
+must be acknowledged as Crown copyright and you must give the title of the source publication.  
+
+--- Document Chunk 16 ---
+Where we have identified any third party copyright material you will need to obtain permission from the 
+
+--- Document Chunk 17 ---
+copyright holders concerned. This document/publication is also available at www.gov.uk/raib.
+
+--- Document Chunk 18 ---
+Any enquiries about this publication should be sent to:
+
+--- Document Chunk 19 ---
+RAIB Email: enquiries@raib.gov.uk
+
+--- Document Chunk 20 ---
+The Wharf  Telephone: 01332 253300
+
+--- Document Chunk 21 ---
+Stores Road  Website: www.gov.uk/raib
+
+--- Document Chunk 22 ---
+Derby UK 
+
+--- Document Chunk 23 ---
+DE21 4BA  
+
+--- Document Chunk 24 ---
+This report is published by the Rail Accident Investigation Branch, Department for Transport.
+
+--- Document Chunk 25 ---
+Report 12/2020
+
+--- Document Chunk 26 ---
+Wanstead Park
+
+--- Document Chunk 27 ---
+November 2020
+
+--- Document Chunk 28 ---
+Preface
+
+--- Document Chunk 29 ---
+The purpose of a Rail Accident Investigation Branch (RAIB) investigation is to 
+
+--- Document Chunk 30 ---
+improve railway safety by preventing future railway accidents or by mitigating their 
+
+--- Document Chunk 31 ---
+consequences.  It is not the purpose of such an investigation to establish blame or 
+
+--- Document Chunk 32 ---
+liability. Accordingly, it is inappropriate that RAIB reports should be used to assign 
+
+--- Document Chunk 33 ---
+fault or blame, or determine liability, since neither the investigation nor the reporting 
+
+--- Document Chunk 34 ---
+process has been undertaken for that purpose.
+
+--- Document Chunk 35 ---
+RAIB’s findings are based on its own evaluation of the evidence that was available at 
+
+--- Document Chunk 36 ---
+the time of the investigation and are intended to explain what happened, and why, in a 
+
+--- Document Chunk 37 ---
+fair and unbiased manner. 
+
+--- Document Chunk 38 ---
+Where RAIB has described a factor as being linked to cause and the term is 
+
+--- Document Chunk 39 ---
+unqualified, this means that RAIB has satisfied itself that the evidence supports both 
+
+--- Document Chunk 40 ---
+the presence of the factor and its direct relevance to the causation of the accident or 
+
+--- Document Chunk 41 ---
+incident that is being investigated. However, where RAIB is less confident about the 
+
+--- Document Chunk 42 ---
+existence of a factor, or its role in the causation of the accident or incident, RAIB will 
+
+--- Document Chunk 43 ---
+qualify its findings by use of words such as ‘probable’ or ‘possible’, as appropriate.  
+
+--- Document Chunk 44 ---
+Where there is more than one potential explanation RAIB may describe one factor as 
+
+--- Document Chunk 45 ---
+being ‘more’ or ‘less’ likely than the other.
+
+--- Document Chunk 46 ---
+In some cases factors are described as ‘underlying’. Such factors are also relevant 
+
+--- Document Chunk 47 ---
+to the causation of the accident or incident but are associated with the underlying 
+
+--- Document Chunk 48 ---
+management arrangements or organisational issues (such as working culture).  
+
+--- Document Chunk 49 ---
+Where necessary, words such as ‘probable’ or ‘possible’ can also be used to qualify 
+
+--- Document Chunk 50 ---
+‘underlying factor’.
+
+--- Document Chunk 51 ---
+Use of the word ‘probable’ means that, although it is considered highly likely that the 
+
+--- Document Chunk 52 ---
+factor applied, some small element of uncertainty remains. Use of the word ‘possible’ 
+
+--- Document Chunk 53 ---
+means that, although there is some evidence that supports this factor, there remains a 
+
+--- Document Chunk 54 ---
+more significant degree of uncertainty.
+
+--- Document Chunk 55 ---
+An ‘observation’ is a safety issue discovered as part of the investigation that is not 
+
+--- Document Chunk 56 ---
+considered to be causal or underlying to the accident or incident being investigated, 
+
+--- Document Chunk 57 ---
+but does deserve scrutiny because of a perceived potential for safety learning.  
+
+--- Document Chunk 58 ---
+The above terms are intended to assist readers’ interpretation of the report, and to 
+
+--- Document Chunk 59 ---
+provide suitable explanations where uncertainty remains. The report should therefore 
+
+--- Document Chunk 60 ---
+be interpreted as the view of RAIB, expressed with the sole purpose of improving 
+
+--- Document Chunk 61 ---
+railway safety. 
+
+--- Document Chunk 62 ---
+Any information about casualties is based on figures provided to RAIB from various 
+
+--- Document Chunk 63 ---
+sources.  Considerations of personal privacy may mean that not all of the actual 
+
+--- Document Chunk 64 ---
+effects of the event are recorded in the report. RAIB recognises that sudden 
+
+--- Document Chunk 65 ---
+unexpected events can have both short- and long-term consequences for the physical 
+
+--- Document Chunk 66 ---
+and/or mental health of people who were involved, both directly and indirectly, in what 
+
+--- Document Chunk 67 ---
+happened.
+
+--- Document Chunk 68 ---
+RAIB’s investigation (including its scope, methods, conclusions and recommendations) 
+
+--- Document Chunk 69 ---
+is independent of any inquest or fatal accident inquiry, and all other investigations, 
+
+--- Document Chunk 70 ---
+including those carried out by the safety authority, police or railway industry.
+
+--- Document Chunk 71 ---
+Preface
+
+--- Document Chunk 72 ---
+Report 12/2020
+
+--- Document Chunk 73 ---
+Wanstead Park
+
+--- Document Chunk 74 ---
+4
+
+--- Document Chunk 75 ---
+November 2020
+
+--- Document Chunk 76 ---
+This page is intentionally left blankReport 12/2020
+
+--- Document Chunk 77 ---
+Wanstead Park
+
+--- Document Chunk 78 ---
+November 2020
+
+--- Document Chunk 79 ---
+Report 12/2020
+
+--- Document Chunk 80 ---
+Wanstead Park
+
+--- Document Chunk 81 ---
+5
+
+--- Document Chunk 82 ---
+November 2020
+
+--- Document Chunk 83 ---
+Derailment of a freight train near Wanstead 
+
+--- Document Chunk 84 ---
+Park, London, 23 January 2020
+
+--- Document Chunk 85 ---
+ 
+
+--- Document Chunk 86 ---
+Contents
+
+--- Document Chunk 87 ---
+Preface 3
+
+--- Document Chunk 88 ---
+Summary 7
+
+--- Document Chunk 89 ---
+Introduction 8
+
+--- Document Chunk 90 ---
+Definitions 8
+
+--- Document Chunk 91 ---
+The accident 9
+
+--- Document Chunk 92 ---
+Summary of the accident  9
+
+--- Document Chunk 93 ---
+Context 10
+
+--- Document Chunk 94 ---
+The sequence of events 16
+
+--- Document Chunk 95 ---
+Analysis 19
+
+--- Document Chunk 96 ---
+Identification of the immediate cause  19
+
+--- Document Chunk 97 ---
+Identification of causal factors  19
+
+--- Document Chunk 98 ---
+Underlying factors 43
+
+--- Document Chunk 99 ---
+Observation 45
+
+--- Document Chunk 100 ---
+Previous occurrences of a similar character 46
+
+--- Document Chunk 101 ---
+Summary of conclusions  49
+
+--- Document Chunk 102 ---
+Immediate cause  49
+
+--- Document Chunk 103 ---
+Causal factors 49
+
+--- Document Chunk 104 ---
+Underlying factors  49
+
+--- Document Chunk 105 ---
+Observation 49
+
+--- Document Chunk 106 ---
+Previous RAIB recommendations relevant to this investigation  50
+
+--- Document Chunk 107 ---
+Actions reported as already taken or in progress relevant to this report 51
+
+--- Document Chunk 108 ---
+Actions reported that address factors which otherwise would have resulted   
+
+--- Document Chunk 109 ---
+in a RAIB recommendation  52
+
+--- Document Chunk 110 ---
+Recommendations and learning points 54
+
+--- Document Chunk 111 ---
+Recommendations 54
+
+--- Document Chunk 112 ---
+Learning points 55
+
+--- Document Chunk 113 ---
+Appendices 56
+
+--- Document Chunk 114 ---
+Appendix A – Glossary of abbreviations and acronyms 56
+
+--- Document Chunk 115 ---
+Appendix B – Sources of evidence 57
+
+--- Document Chunk 116 ---
+Appendix C – Copy of letter from RAIB to Network Rail dated 15 September   
+
+--- Document Chunk 117 ---
+2017 in response to a longitudinal timber failure on bridge   
+
+--- Document Chunk 118 ---
+2013 in August 2017. 58
+
+--- Document Chunk 119 ---
+Report 12/2020
+
+--- Document Chunk 120 ---
+Wanstead Park
+
+--- Document Chunk 121 ---
+6
+
+--- Document Chunk 122 ---
+November 2020
+
+--- Document Chunk 123 ---
+This page is intentionally left blank
+
+--- Document Chunk 124 ---
+Report 12/2020
+
+--- Document Chunk 125 ---
+Wanstead Park
+
+--- Document Chunk 126 ---
+7
+
+--- Document Chunk 127 ---
+November 2020
+
+--- Document Chunk 128 ---
+Summary
+
+--- Document Chunk 129 ---
+Shortly before 06:00 hrs on Thursday 23 January 2020, a wagon in the rear half of 
+
+--- Document Chunk 130 ---
+a heavily loaded freight train derailed on a small radius curve as it crossed a bridge 
+
+--- Document Chunk 131 ---
+in east London. The forces from the train caused the rails on the bridge, which were 
+
+--- Document Chunk 132 ---
+attached to large longitudinal timbers, to spread apart. Two adjacent wheelsets 
+
+--- Document Chunk 133 ---
+from different wagons derailed, but one wheelset re-railed itself after travelling a 
+
+--- Document Chunk 134 ---
+short distance. The other wheelset remained derailed as the train continued for 2.5 
+
+--- Document Chunk 135 ---
+miles (4.1 km) before stopping, and this caused significant track damage. Wagons 
+
+--- Document Chunk 136 ---
+positioned behind the derailed wagons remained on the track.
+
+--- Document Chunk 137 ---
+Track where the rails are supported on longitudinal timbers is subject to special 
+
+--- Document Chunk 138 ---
+inspections by staff who have received additional training to undertake this role. 
+
+--- Document Chunk 139 ---
+RAIB found that the condition of the timbers at the point of derailment had severely 
+
+--- Document Chunk 140 ---
+deteriorated because of rot, but this was concealed by their superficially good exterior 
+
+--- Document Chunk 141 ---
+condition. The inspection method and tools used by Network Rail staff were not 
+
+--- Document Chunk 142 ---
+sufficient to detect the poor internal condition of the timber.
+
+--- Document Chunk 143 ---
+The widening of the track gauge was identified, by track recording vehicles operated 
+
+--- Document Chunk 144 ---
+by Network Rail, six times between March 2019 and January 2020. On three 
+
+--- Document Chunk 145 ---
+occasions, the track maintenance gangs responded but undertook work in a nearby 
+
+--- Document Chunk 146 ---
+location due to erroneous GPS data. On three other occasions, the track recording 
+
+--- Document Chunk 147 ---
+vehicles’ software did not report the location of the fault so maintenance staff remained 
+
+--- Document Chunk 148 ---
+unaware of it.
+
+--- Document Chunk 149 ---
+One wagon in the train exerted sufficient force on the weakened track support to force 
+
+--- Document Chunk 150 ---
+the rails apart and cause the wagon to derail. Examination of the first wagon to derail 
+
+--- Document Chunk 151 ---
+and its maintenance records indicated that it had experienced unusually rapid wheel 
+
+--- Document Chunk 152 ---
+wear over several years. It is possible that this meant it was imposing higher than 
+
+--- Document Chunk 153 ---
+normal lateral forces on the track and that this is related to a defect which affected the 
+
+--- Document Chunk 154 ---
+way the bogie was able to rotate.
+
+--- Document Chunk 155 ---
+Following the failure of a longitudinal timber on a bridge in the same area in August 
+
+--- Document Chunk 156 ---
+2017, Network Rail launched a review resulting in an updated standard for the detailed 
+
+--- Document Chunk 157 ---
+inspection and management of longitudinal timbers. The updated standard was under 
+
+--- Document Chunk 158 ---
+development at the time of the accident, and was published in March 2020. 
+
+--- Document Chunk 159 ---
+RAIB has made one recommendation to Network Rail regarding improvements in 
+
+--- Document Chunk 160 ---
+the provision of track recording vehicle data to track maintenance staff, and one 
+
+--- Document Chunk 161 ---
+recommendation to the wagon owner concerning the monitoring of maintenance 
+
+--- Document Chunk 162 ---
+activities to reduce the risk of defective rail vehicles entering service. It has identified 
+
+--- Document Chunk 163 ---
+three learning points covering the management of longitudinal timber systems and 
+
+--- Document Chunk 164 ---
+loading activities in freight loading terminals.
+
+--- Document Chunk 165 ---
+Summary
+
+--- Document Chunk 166 ---
+Report 12/2020
+
+--- Document Chunk 167 ---
+Wanstead Park
+
+--- Document Chunk 168 ---
+8
+
+--- Document Chunk 169 ---
+November 2020
+
+--- Document Chunk 170 ---
+Introduction
+
+--- Document Chunk 171 ---
+Definitions
+
+--- Document Chunk 172 ---
+1 Metric units are used in this report, except when it is normal railway practice to 
+
+--- Document Chunk 173 ---
+give speeds and locations in imperial units. Where appropriate the equivalent 
+
+--- Document Chunk 174 ---
+metric value is also given.
+
+--- Document Chunk 175 ---
+2 References to left and right refer to the train’s direction of travel when the accident 
+
+--- Document Chunk 176 ---
+occurred. 
+
+--- Document Chunk 177 ---
+3 Appendices at the rear of this report contain the following glossaries: 
+
+--- Document Chunk 178 ---
+l acronyms and abbreviations are explained in Appendix A
+
+--- Document Chunk 179 ---
+l sources of evidence used in the investigation are listed in Appendix B. 
+
+--- Document Chunk 180 ---
+Introduction
+
+--- Document Chunk 181 ---
+Report 12/2020
+
+--- Document Chunk 182 ---
+Wanstead Park
+
+--- Document Chunk 183 ---
+9
+
+--- Document Chunk 184 ---
+November 2020
+
+--- Document Chunk 185 ---
+B
+
+--- Document Chunk 186 ---
+A
+
+--- Document Chunk 187 ---
+© Crown Copyright. All rights reserved. Department for Transport 100039241. RAIB 2020
+
+--- Document Chunk 188 ---
+The accident
+
+--- Document Chunk 189 ---
+Summary of the accident 
+
+--- Document Chunk 190 ---
+4 At about 05:54 hrs on Thursday 23 January 2020, two adjacent wagons, 
+
+--- Document Chunk 191 ---
+positioned towards the rear of a 22-wagon freight train, became derailed between 
+
+--- Document Chunk 192 ---
+Woodgrange Park and Wanstead Park in north-east London. The rear wheelset 
+
+--- Document Chunk 193 ---
+of the leading of these wagons derailed with its right-hand wheel dropping to run 
+
+--- Document Chunk 194 ---
+inside the right-hand rail. The derailment occurred on a curve when rail movement 
+
+--- Document Chunk 195 ---
+resulted in an increase in the distance between the rails, known as gauge 
+
+--- Document Chunk 196 ---
+widening or a wide gauge fault. This occurred on a bridge on which the rails were 
+
+--- Document Chunk 197 ---
+supported on longitudinal timbers running continuously beneath each rail.
+
+--- Document Chunk 198 ---
+5 About seven metres beyond the initial point of derailment (POD), and at the end 
+
+--- Document Chunk 199 ---
+of the bridge, the leading left-hand wheel of the following wagon derailed with 
+
+--- Document Chunk 200 ---
+its left-hand wheel running inside the left-hand rail. The five following wagons 
+
+--- Document Chunk 201 ---
+continued without derailing after the rails were able to move back and the gauge 
+
+--- Document Chunk 202 ---
+reduced.
+
+--- Document Chunk 203 ---
+6 The derailed train continued for 4.1 km (2.5 miles), travelling at up to 35 mph 
+
+--- Document Chunk 204 ---
+(56 km/h) and causing extensive damage to the track. The driver was unaware 
+
+--- Document Chunk 205 ---
+of the derailment until the brake pipe between the two affected wagons 
+
+--- Document Chunk 206 ---
+separated causing the train brakes to apply automatically. The train came to a 
+
+--- Document Chunk 207 ---
+stand between Leyton Midland Road and Walthamstow Queens Road stations 
+
+--- Document Chunk 208 ---
+(figure 1).
+
+--- Document Chunk 209 ---
+7 The railway between Woodgrange Park Junction and South Tottenham East 
+
+--- Document Chunk 210 ---
+Junction was closed for repair for 27 days, reopening on 19 February 2020.
+
+--- Document Chunk 211 ---
+Figure 1: Extract from Ordnance Survey map showing location of accident. Wagon number 3415 
+
+--- Document Chunk 212 ---
+derailed at ‘A’. The train came to a stand at ‘B’
+
+--- Document Chunk 213 ---
+The accident
+
+--- Document Chunk 214 ---
+Report 12/2020
+
+--- Document Chunk 215 ---
+Wanstead Park
+
+--- Document Chunk 216 ---
+10
+
+--- Document Chunk 217 ---
+November 2020
+
+--- Document Chunk 218 ---
+ 
+
+--- Document Chunk 219 ---
+ 
+
+--- Document Chunk 220 ---
+ 
+
+--- Document Chunk 221 ---
+Fenchurch Street
+
+--- Document Chunk 222 ---
+Liverpool Street
+
+--- Document Chunk 223 ---
+St Pancras Kings Cross
+
+--- Document Chunk 224 ---
+Gospel Oak
+
+--- Document Chunk 225 ---
+Tottenham Hale
+
+--- Document Chunk 226 ---
+Barking
+
+--- Document Chunk 227 ---
+Ilford
+
+--- Document Chunk 228 ---
+Stratford
+
+--- Document Chunk 229 ---
+Walthamstow
+
+--- Document Chunk 230 ---
+To Acton
+
+--- Document Chunk 231 ---
+Woodgrange Park
+
+--- Document Chunk 232 ---
+Wanstead 
+
+--- Document Chunk 233 ---
+Park
+
+--- Document Chunk 234 ---
+Barking Eurohub
+
+--- Document Chunk 235 ---
+CENTRAL
+
+--- Document Chunk 236 ---
+LONDON
+
+--- Document Chunk 237 ---
+Bridge 456
+
+--- Document Chunk 238 ---
+To Bedford
+
+--- Document Chunk 239 ---
+To Peterborough To Cambridge
+
+--- Document Chunk 240 ---
+To Colchester
+
+--- Document Chunk 241 ---
+To Southend
+
+--- Document Chunk 242 ---
+Train stopped
+
+--- Document Chunk 243 ---
+River Thames
+
+--- Document Chunk 244 ---
+Key:
+
+--- Document Chunk 245 ---
+Station
+
+--- Document Chunk 246 ---
+Railway
+
+--- Document Chunk 247 ---
+Barking to Gospel Oak line
+
+--- Document Chunk 248 ---
+Route of train 6Z54
+
+--- Document Chunk 249 ---
+N
+
+--- Document Chunk 250 ---
+1 mile (1.61 km)
+
+--- Document Chunk 251 ---
+Figure 2: Main railway lines in north-east London
+
+--- Document Chunk 252 ---
+8 There were no injuries. Part of the brake system on wagon number 3415 became 
+
+--- Document Chunk 253 ---
+detached because of vibration caused by the derailment. There was some 
+
+--- Document Chunk 254 ---
+consequential damage to the underside of the wagon’s body and wheels.
+
+--- Document Chunk 255 ---
+9 Infrastructure repair work included replacing 39 pieces of rail, 5,300 concrete 
+
+--- Document Chunk 256 ---
+sleepers, 900 wooden sleepers, removing and replacing 10,000 tonnes of ballast 
+
+--- Document Chunk 257 ---
+and replacing timbers supporting the track at 10 bridges. Lineside cables and 
+
+--- Document Chunk 258 ---
+signalling equipment were also repaired.
+
+--- Document Chunk 259 ---
+Context
+
+--- Document Chunk 260 ---
+Location
+
+--- Document Chunk 261 ---
+10 The Barking to Gospel Oak (Hampstead) line runs in an arc across north-east 
+
+--- Document Chunk 262 ---
+London, passing through Walthamstow and Tottenham (figure 2). Electrification of 
+
+--- Document Chunk 263 ---
+the line was completed in 2018. The route now carries a local passenger service 
+
+--- Document Chunk 264 ---
+every 15 minutes in each direction, and longer-distance freight trains. In the 12 
+
+--- Document Chunk 265 ---
+years prior to the derailment, the route saw a 500% increase in the amount of 
+
+--- Document Chunk 266 ---
+traffic, due to increased passenger services and the opening of new freight and 
+
+--- Document Chunk 267 ---
+port facilities in east London and Essex (paragraph 55).
+
+--- Document Chunk 268 ---
+11 The train involved in the accident (train reporting number 6Z54) was travelling 
+
+--- Document Chunk 269 ---
+west on the up Tottenham & Hampstead line. The derailment occurred as the 
+
+--- Document Chunk 270 ---
+train crossed bridge TAH2/456 spanning Lorne Road, a residential road in 
+
+--- Document Chunk 271 ---
+Forest Gate. The bridge is located at 11 miles 825 yards.1  It forms part of a 
+
+--- Document Chunk 272 ---
+4.9 km long section of elevated railway with numerous metal bridges spanning 
+
+--- Document Chunk 273 ---
+roads, interspersed with masonry arched viaducts and some short sections of 
+
+--- Document Chunk 274 ---
+embankment.
+
+--- Document Chunk 275 ---
+1 Measured from London St Pancras.
+
+--- Document Chunk 276 ---
+The accident
+
+--- Document Chunk 277 ---
+Report 12/2020
+
+--- Document Chunk 278 ---
+Wanstead Park
+
+--- Document Chunk 279 ---
+11
+
+--- Document Chunk 280 ---
+November 2020
+
+--- Document Chunk 281 ---
+12 Bridge 456 is located at the top of a steep gradient ascended by trains travelling 
+
+--- Document Chunk 282 ---
+west from Barking. The 1 in 65 (1.53%) gradient extends for 0.7 km from 
+
+--- Document Chunk 283 ---
+Woodgrange Park Junction, reducing to 1 in 190 (0.52%) at bridge 456. This 
+
+--- Document Chunk 284 ---
+gradient continues for 0.1 km beyond bridge 456, and the track is then level for 
+
+--- Document Chunk 285 ---
+0.4 km to Wanstead Park station. Bridge 456 is located near the mid-point of a 
+
+--- Document Chunk 286 ---
+0.2 km long, 400 metre radius left-hand curve (figure 3). 
+
+--- Document Chunk 287 ---
+Figure 3: Aerial view of bridge 456 and bridge 448 looking north-west (courtesy of Network Rail)
+
+--- Document Chunk 288 ---
+Organisations involved
+
+--- Document Chunk 289 ---
+13 Network Rail owns and maintains the infrastructure. It was the employer of staff 
+
+--- Document Chunk 290 ---
+involved in the inspection and monitoring of the track across bridge 456. 
+
+--- Document Chunk 291 ---
+14 DB Cargo was the operator of the train and employer of the train driver. It was 
+
+--- Document Chunk 292 ---
+also responsible for the loading of the wagons at Barking.
+
+--- Document Chunk 293 ---
+15 VTG Rail UK Ltd was the owner of the wagons involved, and responsible for their 
+
+--- Document Chunk 294 ---
+maintenance as the Entity in Charge of Maintenance.
+
+--- Document Chunk 295 ---
+16 The above freely co-operated with the investigation.
+
+--- Document Chunk 296 ---
+Train and wagons involved
+
+--- Document Chunk 297 ---
+17 Train 6Z54 formed the 05:31 hrs service from Barking Eurohub to Calvert, near 
+
+--- Document Chunk 298 ---
+Aylesbury, via Acton yard. It consisted of 22 loaded JNA, KEA and JXA open 
+
+--- Document Chunk 299 ---
+bogie box wagons hauled by a Class 66 diesel locomotive (number 66154). 
+
+--- Document Chunk 300 ---
+Although all three types of wagon had the same capacity, JXA wagons are larger 
+
+--- Document Chunk 301 ---
+and heavier than the other two types.
+
+--- Document Chunk 302 ---
+The accident
+
+--- Document Chunk 303 ---
+Train 6Z54
+
+--- Document Chunk 304 ---
+Bridge 448
+
+--- Document Chunk 305 ---
+Bridge 456
+
+--- Document Chunk 306 ---
+N
+
+--- Document Chunk 307 ---
+Lorne Road
+
+--- Document Chunk 308 ---
+Report 12/2020
+
+--- Document Chunk 309 ---
+Wanstead Park
+
+--- Document Chunk 310 ---
+12
+
+--- Document Chunk 311 ---
+November 2020
+
+--- Document Chunk 312 ---
+18 Wagon 3415, the first wagon to derail, was a JNA bogie box wagon, weighing 
+
+--- Document Chunk 313 ---
+27.4 tonnes tare. Its load carrying capacity was limited to 74.2 tonnes so that 
+
+--- Document Chunk 314 ---
+its gross loaded weight did not exceed 101.6 tonnes, the maximum permitted 
+
+--- Document Chunk 315 ---
+on Network Rail infrastructure. The wagon was fitted with Davis & Lloyd - ESC1 
+
+--- Document Chunk 316 ---
+3-piece bogies, and wheels with a P6 wheel profile (figure 4). 
+
+--- Document Chunk 317 ---
+Figure 4: Wagon number 3415 with its rear wheelset derailed to the left. Part of wagon number 3114 is 
+
+--- Document Chunk 318 ---
+also visible
+
+--- Document Chunk 319 ---
+19 On departure from Barking on 23 January 2020, the train weighed 2170 
+
+--- Document Chunk 320 ---
+tonnes, excluding the locomotive, and was carrying 1435 tonnes of clay spoil. 
+
+--- Document Chunk 321 ---
+It comprised a rake of wagons being used on a daily round trip from Barking to 
+
+--- Document Chunk 322 ---
+Calvert, returning empty to Barking to be reloaded overnight. Wagon 3415 had 
+
+--- Document Chunk 323 ---
+travelled loaded as part of the same train on the same route on nine previous 
+
+--- Document Chunk 324 ---
+occasions during 2020, including on the two previous days.
+
+--- Document Chunk 325 ---
+20 At the time of derailment, the train was running at 22 mph (35 km/h) on a section 
+
+--- Document Chunk 326 ---
+of line where the maximum permitted speed was 40 mph (64 km/h) and with 
+
+--- Document Chunk 327 ---
+the locomotive under power as the rear part of the train was still ascending the 
+
+--- Document Chunk 328 ---
+gradient. There is no indication that the handling of the train had any influence on 
+
+--- Document Chunk 329 ---
+the cause of the derailment.
+
+--- Document Chunk 330 ---
+21 The second wagon to derail was wagon number 3114. This was a type JXA bogie 
+
+--- Document Chunk 331 ---
+box wagon, and was positioned immediately behind wagon 3415. 
+
+--- Document Chunk 332 ---
+The accident
+
+--- Document Chunk 333 ---
+Report 12/2020
+
+--- Document Chunk 334 ---
+Wanstead Park
+
+--- Document Chunk 335 ---
+13
+
+--- Document Chunk 336 ---
+November 2020
+
+--- Document Chunk 337 ---
+Point of derailment (POD1)
+
+--- Document Chunk 338 ---
+Rail infrastructure and systems involved
+
+--- Document Chunk 339 ---
+22 The railway is double track, and is electrified with 25 kV AC overhead line. It has 
+
+--- Document Chunk 340 ---
+a maximum permitted speed of 45 mph (72 km/h) in both directions, although this 
+
+--- Document Chunk 341 ---
+is reduced to 40 mph (64 km/h) in the vicinity of bridge 456 due to the curvature 
+
+--- Document Chunk 342 ---
+of the line. The track circuit block signalling is operated by a signaller located at 
+
+--- Document Chunk 343 ---
+South Tottenham Station Junction signal box.
+
+--- Document Chunk 344 ---
+23 The track is formed of continuously welded CEN-60 flat-bottomed rails. Most of 
+
+--- Document Chunk 345 ---
+the track is ballasted with rails secured to EG47 sleepers by Pandrol FastClips. 
+
+--- Document Chunk 346 ---
+On bridges fitted with longitudinal timbers, rails are secured by NRS2 baseplates 
+
+--- Document Chunk 347 ---
+which are attached to the timbers using angled baseplate screws (figure 5 and 
+
+--- Document Chunk 348 ---
+figure 6).
+
+--- Document Chunk 349 ---
+Figure 5: Bridge 456 following the accident but before removal of the deck walkway 
+
+--- Document Chunk 350 ---
+24 On bridge 456, the timbers are held at the correct distance apart by tubular steel 
+
+--- Document Chunk 351 ---
+transoms which enclose steel tie rods (figure 6). The timbers rest directly on the 
+
+--- Document Chunk 352 ---
+metal bridge deck and are held in position by metal brackets known as cleats.
+
+--- Document Chunk 353 ---
+25 Supporting running rails on longitudinal timbers, rather than using conventional 
+
+--- Document Chunk 354 ---
+sleepers and ballast, imposes less weight on the bridge and thereby permits 
+
+--- Document Chunk 355 ---
+a lighter and shallower bridge structure. This increases the clearance for high 
+
+--- Document Chunk 356 ---
+vehicles using the roads below. Although less expensive to construct, bridges 
+
+--- Document Chunk 357 ---
+with longitudinal timber systems (also known as waybeams, longitudinal wheel 
+
+--- Document Chunk 358 ---
+timbers, or longitudinal bearers) are vulnerable to developing track geometry 
+
+--- Document Chunk 359 ---
+faults and so have increased inspection and maintenance requirements.
+
+--- Document Chunk 360 ---
+The accident
+
+--- Document Chunk 361 ---
+Report 12/2020
+
+--- Document Chunk 362 ---
+Wanstead Park
+
+--- Document Chunk 363 ---
+14
+
+--- Document Chunk 364 ---
+November 2020
+
+--- Document Chunk 365 ---
+Tubular steel transom 
+
+--- Document Chunk 366 ---
+enclosing a steel tie rod
+
+--- Document Chunk 367 ---
+Longitudinal timbers 
+
+--- Document Chunk 368 ---
+supported on steel deck
+
+--- Document Chunk 369 ---
+Figure 6: Bridge 456 up deck after removal of the deck walkway
+
+--- Document Chunk 370 ---
+26 Network Rail owns over 2,500 spans where the track is supported on longitudinal 
+
+--- Document Chunk 371 ---
+timbers, and has a long-term policy for replacing them with ballasted track where 
+
+--- Document Chunk 372 ---
+possible. This normally requires the complete reconstruction of a bridge to take 
+
+--- Document Chunk 373 ---
+heavier ballasted track. On Anglia route, there are still about 200 track spans fitted 
+
+--- Document Chunk 374 ---
+with longitudinal timbers of which about 30% are softwood and the remainder 
+
+--- Document Chunk 375 ---
+hardwood. A single span bridge carrying two tracks is counted as two track spans 
+
+--- Document Chunk 376 ---
+in this data, and some larger structures carry one or more tracks over several 
+
+--- Document Chunk 377 ---
+successive track spans. The 200 track spans represent about 4% of Anglia route’s 
+
+--- Document Chunk 378 ---
+total number of underbridge spans where roads, watercourses or other features 
+
+--- Document Chunk 379 ---
+pass under the railway. 
+
+--- Document Chunk 380 ---
+27 Bridge 456 was constructed in 1893 using fabricated steel girders and a metal 
+
+--- Document Chunk 381 ---
+deck and the line opened in the following year. The bridge has a single span of 
+
+--- Document Chunk 382 ---
+20.5 metres between abutments, which are skewed at 25° to cater for the relative 
+
+--- Document Chunk 383 ---
+alignments of the railway and Lorne Road. The bridge carries two tracks on 
+
+--- Document Chunk 384 ---
+separate, parallel decks with two outer main girders, and a central main girder 
+
+--- Document Chunk 385 ---
+positioned between the tracks.
+
+--- Document Chunk 386 ---
+28 The longitudinal timbers vary in depth between 275 mm on the left-hand (cess) 
+
+--- Document Chunk 387 ---
+and 350 mm on the right-hand (six-foot) rail. The difference in depth is required 
+
+--- Document Chunk 388 ---
+to achieve a designed track cross-level (cant) of 75 mm. The longitudinal timbers 
+
+--- Document Chunk 389 ---
+were last renewed in 2008.
+
+--- Document Chunk 390 ---
+29 Network Rail monitors its track using a fleet of track recording vehicles. These 
+
+--- Document Chunk 391 ---
+vehicles are formed into trains and cover the national network to a pre-determined 
+
+--- Document Chunk 392 ---
+schedule. They provide data and information to assist track maintenance staff to 
+
+--- Document Chunk 393 ---
+locate track faults.
+
+--- Document Chunk 394 ---
+The accident
+
+--- Document Chunk 395 ---
+Report 12/2020
+
+--- Document Chunk 396 ---
+Wanstead Park
+
+--- Document Chunk 397 ---
+15
+
+--- Document Chunk 398 ---
+November 2020
+
+--- Document Chunk 399 ---
+Staff involved
+
+--- Document Chunk 400 ---
+30 A team leader [longitudinal timbers] from Network Rail’s Barking depot undertook 
+
+--- Document Chunk 401 ---
+an annual detailed inspection of the longitudinal timbers at bridge 456 in June 
+
+--- Document Chunk 402 ---
+2018. He moved to another role in March 2019.
+
+--- Document Chunk 403 ---
+31 An acting team leader [longitudinal timbers] from Network Rail’s Barking depot 
+
+--- Document Chunk 404 ---
+was appointed in March 2019 following training and a period of mentoring. He 
+
+--- Document Chunk 405 ---
+undertook an annual detailed inspection of the longitudinal timbers at bridge 
+
+--- Document Chunk 406 ---
+456 in June 2019. He was appointed as team leader [longitudinal timbers] in 
+
+--- Document Chunk 407 ---
+November 2019.
+
+--- Document Chunk 408 ---
+32 An assistant track manager undertook planned supervisor’s visual inspections of 
+
+--- Document Chunk 409 ---
+the longitudinal timbers at bridge 456 on four occasions during 2019.
+
+--- Document Chunk 410 ---
+33 A team leader [track maintenance] from Barking depot led a group of track 
+
+--- Document Chunk 411 ---
+maintenance staff who attended site in May and June 2019 in response to a wide 
+
+--- Document Chunk 412 ---
+gauge fault, recorded in the vicinity of bridge 456 by track recording vehicles.
+
+--- Document Chunk 413 ---
+34 The track maintenance engineer (TME) for Barking depot was responsible 
+
+--- Document Chunk 414 ---
+for reviewing track geometry data recorded by Network Rail’s track recording 
+
+--- Document Chunk 415 ---
+vehicles. He was also the manager of the assistant track manager, team leaders 
+
+--- Document Chunk 416 ---
+and acting team leader, and responsible for reviewing and signing-off their 
+
+--- Document Chunk 417 ---
+inspection and maintenance reports.
+
+--- Document Chunk 418 ---
+External circumstances
+
+--- Document Chunk 419 ---
+35 The accident occurred in darkness, about two hours before sunrise. The weather 
+
+--- Document Chunk 420 ---
+was dry and cloudy with an air temperature of 8°C. This is unlikely to have had 
+
+--- Document Chunk 421 ---
+any bearing on the accident.
+
+--- Document Chunk 422 ---
+The accident
+
+--- Document Chunk 423 ---
+Report 12/2020
+
+--- Document Chunk 424 ---
+Wanstead Park
+
+--- Document Chunk 425 ---
+16
+
+--- Document Chunk 426 ---
+November 2020
+
+--- Document Chunk 427 ---
+Gauge widening occurred 
+
+--- Document Chunk 428 ---
+due a combination of the 
+
+--- Document Chunk 429 ---
+rotation and compression 
+
+--- Document Chunk 430 ---
+of the right-hand timbers, 
+
+--- Document Chunk 431 ---
+baseplate movement 
+
+--- Document Chunk 432 ---
+(shuffle) and rail rotation
+
+--- Document Chunk 433 ---
+The sequence of events
+
+--- Document Chunk 434 ---
+Events preceding the accident
+
+--- Document Chunk 435 ---
+36 Train 6Z54 completed loading at 03:45 hrs on 23 January 2020 and departed 
+
+--- Document Chunk 436 ---
+from Barking Eurohub at 05:33 hrs. The train proceeded via Barking station and 
+
+--- Document Chunk 437 ---
+crossed Barking flyover. It passed Woodgrange Park Junction where it joined the 
+
+--- Document Chunk 438 ---
+up Tottenham & Hampstead line at about 05:49 hrs.
+
+--- Document Chunk 439 ---
+37 The on-train monitoring recorder (OTMR) data from the locomotive indicates that 
+
+--- Document Chunk 440 ---
+the driver applied full power to climb the 1 in 65 gradient south of Woodgrange 
+
+--- Document Chunk 441 ---
+Park Junction onto the elevated section of line. The train’s speed had reduced 
+
+--- Document Chunk 442 ---
+from 29 mph (47 km/h) at the junction to approximately 22 mph (35 km/h) when 
+
+--- Document Chunk 443 ---
+wagon 3415 reached bridge 456.
+
+--- Document Chunk 444 ---
+Events during the accident
+
+--- Document Chunk 445 ---
+38 The right-hand wheel of the rearmost wheelset on wagon 3415 derailed as it 
+
+--- Document Chunk 446 ---
+passed over bridge 456 (figure 7). Less than a second later, the left-hand wheel 
+
+--- Document Chunk 447 ---
+on the leading wheelset of following wagon 3114 also derailed causing both 
+
+--- Document Chunk 448 ---
+rails to rotate outwards (figure 8). The driver was unaware of these events and 
+
+--- Document Chunk 449 ---
+maintained full power. The train gradually accelerated to 35 mph (56 km/h). 
+
+--- Document Chunk 450 ---
+39 Wagon 3114, the second derailed wagon, re-railed itself after travelling 
+
+--- Document Chunk 451 ---
+approximately 230 metres and crossing two other longitudinal timber bridges. 
+
+--- Document Chunk 452 ---
+Rerailing occurred before Wanstead Park station, as the left-hand curve started to 
+
+--- Document Chunk 453 ---
+transition into a right-hand curve.
+
+--- Document Chunk 454 ---
+Figure 7: Arrangement of wagon 3415’s derailed wheelset immediately after initial point of derailment
+
+--- Document Chunk 455 ---
+The sequence of events
+
+--- Document Chunk 456 ---
+Report 12/2020
+
+--- Document Chunk 457 ---
+Wanstead Park
+
+--- Document Chunk 458 ---
+17
+
+--- Document Chunk 459 ---
+November 2020
+
+--- Document Chunk 460 ---
+Wagon 3114 
+
+--- Document Chunk 461 ---
+leading wheelset
+
+--- Document Chunk 462 ---
+Wagon 3415 
+
+--- Document Chunk 463 ---
+trailing wheelset
+
+--- Document Chunk 464 ---
+Low rail 
+
+--- Document Chunk 465 ---
+(inside of 
+
+--- Document Chunk 466 ---
+curve)
+
+--- Document Chunk 467 ---
+High rail
+
+--- Document Chunk 468 ---
+(outside of 
+
+--- Document Chunk 469 ---
+curve)
+
+--- Document Chunk 470 ---
+Figure 8: Arrangement of two derailed wheelsets after second derailment with both rails rotated 
+
+--- Document Chunk 471 ---
+outwards
+
+--- Document Chunk 472 ---
+40 Wagon 3415 continued with its rear right-hand wheel derailed and running 
+
+--- Document Chunk 473 ---
+inside the right-hand rail for approximately 450 metres. As the train traversed a 
+
+--- Document Chunk 474 ---
+right- hand curve through Wanstead Park station, marks on the railhead indicate 
+
+--- Document Chunk 475 ---
+that the associated left-hand wheel climbed over the railhead and derailed to 
+
+--- Document Chunk 476 ---
+the left. The wagon then continued with both wheels of the rear wheelset of 
+
+--- Document Chunk 477 ---
+the trailing bogie derailed to the left. In this condition it crossed a further seven 
+
+--- Document Chunk 478 ---
+longitudinal timber bridges and damaged the track (figures 9, 10 and 11).
+
+--- Document Chunk 479 ---
+Figures 9, 10 and 11: Examples of track damage between point of derailment and location where train 
+
+--- Document Chunk 480 ---
+stopped
+
+--- Document Chunk 481 ---
+The sequence of events
+
+--- Document Chunk 482 ---
+Report 12/2020
+
+--- Document Chunk 483 ---
+Wanstead Park
+
+--- Document Chunk 484 ---
+18
+
+--- Document Chunk 485 ---
+November 2020
+
+--- Document Chunk 486 ---
+41 The derailed train travelled through Wanstead Park, Leytonstone High Road 
+
+--- Document Chunk 487 ---
+and Leyton Midland Road stations before the brake pipe separated causing 
+
+--- Document Chunk 488 ---
+the train brakes to automatically apply. This occurred about six minutes after 
+
+--- Document Chunk 489 ---
+the derailment, with the train stopping at 8 miles 1300 yards, around 2.5 miles 
+
+--- Document Chunk 490 ---
+(4.1 km) after derailing.
+
+--- Document Chunk 491 ---
+Events following the accident
+
+--- Document Chunk 492 ---
+42 At 06:05 hrs, the driver informed the signaller of a problem with the train. The 
+
+--- Document Chunk 493 ---
+driver inspected the train and advised the signaller that one wheel was derailed 
+
+--- Document Chunk 494 ---
+on a wagon. A Network Rail Mobile Operations Manager attended site and, at 
+
+--- Document Chunk 495 ---
+06:53 hrs, advised that there was considerable damage to rails, sleepers and 
+
+--- Document Chunk 496 ---
+cabling. 
+
+--- Document Chunk 497 ---
+The sequence of events
+
+--- Document Chunk 498 ---
+Report 12/2020
+
+--- Document Chunk 499 ---
+Wanstead Park
+
+--- Document Chunk 500 ---
+19
+
+--- Document Chunk 501 ---
+November 2020
+
+--- Document Chunk 502 ---
+Analysis
+
+--- Document Chunk 503 ---
+Identification of the immediate cause 
+
+--- Document Chunk 504 ---
+43 The track was unable to maintain the correct gauge as train 6Z54 passed 
+
+--- Document Chunk 505 ---
+over it.
+
+--- Document Chunk 506 ---
+44 A derailment mark on the inside face of the right-hand rail on bridge 456 showed 
+
+--- Document Chunk 507 ---
+that a wheel had dropped into the four-foot (the area between the rails) at 
+
+--- Document Chunk 508 ---
+this location. Another derailment mark was identified on the inside face of the 
+
+--- Document Chunk 509 ---
+left- hand rail about seven metres beyond the first mark, showing that a second 
+
+--- Document Chunk 510 ---
+wheel dropped into the four-foot. Post-accident examination of the two wagons 
+
+--- Document Chunk 511 ---
+involved showed that the wheels on the derailed wheelsets were at the correct 
+
+--- Document Chunk 512 ---
+spacing. There was no evidence that they had moved inwards, along the axle, at 
+
+--- Document Chunk 513 ---
+any time. This demonstrates that derailment was a consequence of rail movement 
+
+--- Document Chunk 514 ---
+causing the track gauge (the horizontal distance between the rails) to increase by 
+
+--- Document Chunk 515 ---
+at least 85 mm, sufficient to allow the right-hand wheel of a wagon to drop inside 
+
+--- Document Chunk 516 ---
+the right-hand rail (figure 7). The locations of the derailed wheelsets (trailing on 
+
+--- Document Chunk 517 ---
+one bogie and then leading on a following bogie) and the wheels (right then left) 
+
+--- Document Chunk 518 ---
+are consistent with classic curving behaviour of a conventional bogie vehicle 
+
+--- Document Chunk 519 ---
+on small radius curves, and explain the order that the wheels dropped into the 
+
+--- Document Chunk 520 ---
+four- foot.
+
+--- Document Chunk 521 ---
+45 The absence of derailment marks on the right-hand wheel of wagon 3114 shows 
+
+--- Document Chunk 522 ---
+that wagon 3415 derailed at the first (right-hand rail) derailment mark and 
+
+--- Document Chunk 523 ---
+wagon 3114 at the second (left-hand rail). It is likely that spreading of the rails 
+
+--- Document Chunk 524 ---
+by the derailed wheelset of wagon 3415 provided room for the leading wheelset 
+
+--- Document Chunk 525 ---
+of the following wagon 3114 to derail. The absence of significant damage to 
+
+--- Document Chunk 526 ---
+the left- hand rail at the location where wagon 3415 derailed indicates that the 
+
+--- Document Chunk 527 ---
+accident was initially caused by the right-hand rail rotating or moving outwards.
+
+--- Document Chunk 528 ---
+46 The relatively low speed of the train meant that the cross-level or cant at this 
+
+--- Document Chunk 529 ---
+location was greater than required, a condition known as cant excess. When cant 
+
+--- Document Chunk 530 ---
+excess is present on a small radius curve, the leading outer wheelset on a bogie 
+
+--- Document Chunk 531 ---
+would be expected to be displaced to the outside of the curve (right wheel) and 
+
+--- Document Chunk 532 ---
+the trailing wheelset displaced toward the inside (left wheel), and this is the likely 
+
+--- Document Chunk 533 ---
+reason why it was the right wheel on the trailing wheelset of the trailing bogie of 
+
+--- Document Chunk 534 ---
+wagon 3415 that dropped into the four-foot. 
+
+--- Document Chunk 535 ---
+47 A defect pushing the leading wheelset of the trailing bogie further towards the 
+
+--- Document Chunk 536 ---
+right-hand rail (paragraph 113) is likely to have increased outward lateral forces 
+
+--- Document Chunk 537 ---
+on the right-hand rail.  
+
+--- Document Chunk 538 ---
+Identification of causal factors 
+
+--- Document Chunk 539 ---
+48 The accident occurred due to a combination of the following causal factors:
+
+--- Document Chunk 540 ---
+a. the rail restraint was inadequate leading to a persistent problem with wide 
+
+--- Document Chunk 541 ---
+gauge (paragraph 49)
+
+--- Document Chunk 542 ---
+b. track recording vehicles identified a wide gauge fault but output derived from 
+
+--- Document Chunk 543 ---
+this data did not result in track maintenance staff repairing faults at the correct 
+
+--- Document Chunk 544 ---
+location (paragraph 74)
+
+--- Document Chunk 545 ---
+Analysis
+
+--- Document Chunk 546 ---
+Report 12/2020
+
+--- Document Chunk 547 ---
+Wanstead Park
+
+--- Document Chunk 548 ---
+20
+
+--- Document Chunk 549 ---
+November 2020
+
+--- Document Chunk 550 ---
+Timber 1L
+
+--- Document Chunk 551 ---
+Timber 2LPOD 1
+
+--- Document Chunk 552 ---
+POD 2
+
+--- Document Chunk 553 ---
+c. Network Rail was not aware of the severity of the longitudinal timber 
+
+--- Document Chunk 554 ---
+degradation and so took no action to deal with this (paragraph 95)
+
+--- Document Chunk 555 ---
+d. the condition of the trailing bogie on wagon 3415 imposed unusually high 
+
+--- Document Chunk 556 ---
+lateral forces on the track (paragraph 111). 
+
+--- Document Chunk 557 ---
+Each of these factors is now considered in turn.
+
+--- Document Chunk 558 ---
+49 The rail restraint was inadequate leading to a persistent problem with wide 
+
+--- Document Chunk 559 ---
+gauge.
+
+--- Document Chunk 560 ---
+50 The up line across bridge 456 was supported by four longitudinal timbers under 
+
+--- Document Chunk 561 ---
+each rail, each about 6 metres long and laid end to end. The combined length of 
+
+--- Document Chunk 562 ---
+just over 24 metres was sufficient to cross the bridge and extend a few metres 
+
+--- Document Chunk 563 ---
+onto the embankment at each end, a feature known as a flying end. This was to 
+
+--- Document Chunk 564 ---
+provide a transition between the relatively stiff bridge deck and the more flexible 
+
+--- Document Chunk 565 ---
+ballasted embankment. In the direction of travel, the timbers were numbered 
+
+--- Document Chunk 566 ---
+R4 to R1 supporting the left-hand rail (cess rail) and 4L to 1L supporting the 
+
+--- Document Chunk 567 ---
+right- hand rail (six-foot rail). The initial derailment occurred close to the joint 
+
+--- Document Chunk 568 ---
+between timbers 2L and 1L at the location marked POD 1 on figure 12.
+
+--- Document Chunk 569 ---
+Figure 12: Bridge 456 showing the eight longitudinal timbers on each deck. The timbers associated with 
+
+--- Document Chunk 570 ---
+the derailment are numbered 2L and 1L.
+
+--- Document Chunk 571 ---
+51 The standard gauge (distance between the vertical faces of two rails on the same 
+
+--- Document Chunk 572 ---
+track) on Network Rail infrastructure is 1435 mm. Gauge is either measured 
+
+--- Document Chunk 573 ---
+statically, for instance using a hand-held track gauge, or dynamically when 
+
+--- Document Chunk 574 ---
+additional deflection due to the forces from passing trains is taken into account. 
+
+--- Document Chunk 575 ---
+Dynamic measurements can be recorded either by equipment fitted to the track 
+
+--- Document Chunk 576 ---
+or to a train. The response by maintenance staff to wide gauge faults is specified 
+
+--- Document Chunk 577 ---
+by Network Rail standard NR/L2/TRK/001 mod11 (issue 8), published September 
+
+--- Document Chunk 578 ---
+2015. 
+
+--- Document Chunk 579 ---
+Analysis
+
+--- Document Chunk 580 ---
+Report 12/2020
+
+--- Document Chunk 581 ---
+Wanstead Park
+
+--- Document Chunk 582 ---
+21
+
+--- Document Chunk 583 ---
+November 2020
+
+--- Document Chunk 584 ---
+52 The standard indicates that for a line on which the maximum permissible speed 
+
+--- Document Chunk 585 ---
+for trains is between 26 mph and 50 mph (42 km/h and 80 km/h), the following 
+
+--- Document Chunk 586 ---
+limits apply. If either static or dynamic gauge reaches 1450 mm, the alert limit 
+
+--- Document Chunk 587 ---
+is exceeded and track maintenance staff are required to plan remedial action. 
+
+--- Document Chunk 588 ---
+If the static plus dynamic movement reaches 1460 mm, the intervention limit is 
+
+--- Document Chunk 589 ---
+exceeded and remedial action is required within 14 days, or 36 hours if gauge 
+
+--- Document Chunk 590 ---
+reaches 1470 mm. If the static gauge plus the additional deflection from passing 
+
+--- Document Chunk 591 ---
+trains is 1478 mm or greater, the immediate action limit is reached and the line 
+
+--- Document Chunk 592 ---
+must be immediately blocked to all traffic. These limits are equivalent to wide 
+
+--- Document Chunk 593 ---
+gauge of 15 mm (alert limit), 25 mm and 35 mm (intervention limits) and 43 mm 
+
+--- Document Chunk 594 ---
+(immediate action limit). 
+
+--- Document Chunk 595 ---
+53 Bridge 456’s longitudinal timbers were last renewed in 2008 using Douglas Fir 
+
+--- Document Chunk 596 ---
+(softwood). Network Rail standard NR/L2/TRK/3038 (issue 4), which was current 
+
+--- Document Chunk 597 ---
+in 2008, stated:
+
+--- Document Chunk 598 ---
+‘For complete replacement of Longitudinal Timbers on lines with track 
+
+--- Document Chunk 599 ---
+categories 1A, 1 and 2 only hardwood shall be used. Hardwood timber shall be 
+
+--- Document Chunk 600 ---
+used for other lines unless the written approval is obtained from the Railtrack 
+
+--- Document Chunk 601 ---
+Director’s Nominee for the use of softwood.’
+
+--- Document Chunk 602 ---
+54 The track category is derived from the speed of traffic and equivalent tonnage 
+
+--- Document Chunk 603 ---
+using the line, and ranges from 6 (low speed and low use) to 1A, the highest. 
+
+--- Document Chunk 604 ---
+It is used to determine inspection frequencies and renewals specifications. In 
+
+--- Document Chunk 605 ---
+2008, this section of line carried 2.9 equivalent million gross tonnes per annum2 
+
+--- Document Chunk 606 ---
+(EMGTPA) and was rated track category 4.
+
+--- Document Chunk 607 ---
+55 Between 2008 and 2018, there was a significant increase in rail traffic using 
+
+--- Document Chunk 608 ---
+the Barking to Gospel Oak route. During this period the annual tonnage carried 
+
+--- Document Chunk 609 ---
+increased fivefold from 2.9 EMGTPA to 15.5 EMGTPA. This was due to both the 
+
+--- Document Chunk 610 ---
+doubling of the frequency of passenger services operated by London Overground, 
+
+--- Document Chunk 611 ---
+and increased freight traffic associated with Barking Eurohub and the London 
+
+--- Document Chunk 612 ---
+Gateway container port near Stanford-le-Hope, Essex, which opened in 2013. As 
+
+--- Document Chunk 613 ---
+traffic increased, the track category changed in steps from 4 to 2. It subsequently 
+
+--- Document Chunk 614 ---
+dropped back to category 3 in the immediate vicinity of bridge 456 due to the 
+
+--- Document Chunk 615 ---
+40 mph (64 km/h) permanent speed restriction at that location. Most of the route 
+
+--- Document Chunk 616 ---
+remained within track category 2 (paragraph 22). 
+
+--- Document Chunk 617 ---
+56 The maximum weight of vehicles permitted over bridge 456 was managed 
+
+--- Document Chunk 618 ---
+through Network Rail’s Route Availability (RA) process. The highest routine 
+
+--- Document Chunk 619 ---
+category is RA8 which permits rail vehicles with a maximum gross laden weight 
+
+--- Document Chunk 620 ---
+of 91.4 tonnes, but heavier freight wagons are permitted on some lines by a 
+
+--- Document Chunk 621 ---
+dispensation issued using Network Rail’s RT3973 Heavy Axle Weight process 
+
+--- Document Chunk 622 ---
+after an assessment by the route’s structures and track engineers. Over 25% of 
+
+--- Document Chunk 623 ---
+loaded freight trains operate under a dispensation. The Barking to Gospel Oak 
+
+--- Document Chunk 624 ---
+route had a dispensation allowing its use by wagons of the types in train 6Z54 
+
+--- Document Chunk 625 ---
+loaded to RA10, a category permitting a maximum gross laden weight of 101.6 
+
+--- Document Chunk 626 ---
+tonnes and a maximum axle load of 25.4 tonnes. 
+
+--- Document Chunk 627 ---
+2 The EMGTPA value is obtained by multiplying actual annual tonnage of traffic by factors allowing for axle weight 
+
+--- Document Chunk 628 ---
+and speed.
+
+--- Document Chunk 629 ---
+Analysis
+
+--- Document Chunk 630 ---
+Report 12/2020
+
+--- Document Chunk 631 ---
+Wanstead Park
+
+--- Document Chunk 632 ---
+22
+
+--- Document Chunk 633 ---
+November 2020
+
+--- Document Chunk 634 ---
+10.5 mm
+
+--- Document Chunk 635 ---
+26.9 mm
+
+--- Document Chunk 636 ---
+29.8 mm 29.8 mm
+
+--- Document Chunk 637 ---
+26.5 mm 26.5 mm
+
+--- Document Chunk 638 ---
+30.1 mm
+
+--- Document Chunk 639 ---
+18 mm 20 mm
+
+--- Document Chunk 640 ---
+14 mm
+
+--- Document Chunk 641 ---
+16 mm
+
+--- Document Chunk 642 ---
+12 mm
+
+--- Document Chunk 643 ---
+0
+
+--- Document Chunk 644 ---
+5
+
+--- Document Chunk 645 ---
+10
+
+--- Document Chunk 646 ---
+15
+
+--- Document Chunk 647 ---
+20
+
+--- Document Chunk 648 ---
+25
+
+--- Document Chunk 649 ---
+30
+
+--- Document Chunk 650 ---
+35
+
+--- Document Chunk 651 ---
+40
+
+--- Document Chunk 652 ---
+02/2019
+
+--- Document Chunk 653 ---
+03/2019
+
+--- Document Chunk 654 ---
+04/2019
+
+--- Document Chunk 655 ---
+05/2019
+
+--- Document Chunk 656 ---
+06/2019
+
+--- Document Chunk 657 ---
+07/2019
+
+--- Document Chunk 658 ---
+08/2019
+
+--- Document Chunk 659 ---
+09/2019
+
+--- Document Chunk 660 ---
+10/2019
+
+--- Document Chunk 661 ---
+11/2019
+
+--- Document Chunk 662 ---
+12/2019
+
+--- Document Chunk 663 ---
+01/2020
+
+--- Document Chunk 664 ---
+02/2020
+
+--- Document Chunk 665 ---
+Track gauge relative to 1435 mm (mm)
+
+--- Document Chunk 666 ---
+Date (month/year)
+
+--- Document Chunk 667 ---
+Maximum recorded track gauge near to point of derailment
+
+--- Document Chunk 668 ---
+ Dynamic gauge
+
+--- Document Chunk 669 ---
+(from TRV)
+
+--- Document Chunk 670 ---
+ Static gauge
+
+--- Document Chunk 671 ---
+(from track gauge)
+
+--- Document Chunk 672 ---
+ Intervention limit
+
+--- Document Chunk 673 ---
+ Alert limit
+
+--- Document Chunk 674 ---
+57 The softwood longitudinal timbers on bridge 456 were over 10 years old. Anglia 
+
+--- Document Chunk 675 ---
+Route’s asset management plan showed that bridge 456’s timbers were due to 
+
+--- Document Chunk 676 ---
+be replaced in 2021. Hardwood timbers would normally be expected to last for at 
+
+--- Document Chunk 677 ---
+least 25 years.
+
+--- Document Chunk 678 ---
+58 A GRP (glass fibre reinforced plastic) walkway with a solid surface was installed 
+
+--- Document Chunk 679 ---
+on the up line between the longitudinal timbers on bridge 456 when the timbers 
+
+--- Document Chunk 680 ---
+were renewed in 2008. A similar walkway was installed on the down line across 
+
+--- Document Chunk 681 ---
+the bridge in 2018 during bridge refurbishment work. 
+
+--- Document Chunk 682 ---
+Inadequate rail restraint
+
+--- Document Chunk 683 ---
+59 Evidence of inadequate rail restraint over a period of time is provided by Network 
+
+--- Document Chunk 684 ---
+Rail’s track gauge measurements. The gauge across bridge 456 had exceeded 
+
+--- Document Chunk 685 ---
+the alert limit since at least June 2018 when static gauge of up to 1455 mm was 
+
+--- Document Chunk 686 ---
+recorded during a detailed inspection (paragraph 96), equivalent to wide gauge 
+
+--- Document Chunk 687 ---
+of 20 mm. Track recording vehicles had recorded dynamic gauge exceeding the 
+
+--- Document Chunk 688 ---
+intervention limit at about the same location since March 2019 (figure 13). The 
+
+--- Document Chunk 689 ---
+difference between static and dynamic gauge demonstrates that the track was 
+
+--- Document Chunk 690 ---
+flexible enough for the gauge to widen significantly under train loading. Issues 
+
+--- Document Chunk 691 ---
+associated with the management of track gauge are discussed at paragraph 95 
+
+--- Document Chunk 692 ---
+onwards.
+
+--- Document Chunk 693 ---
+Figure 13: Maximum static and dynamic gauge recorded near point of derailment on each site 
+
+--- Document Chunk 694 ---
+inspection and track recording vehicle run.
+
+--- Document Chunk 695 ---
+Analysis
+
+--- Document Chunk 696 ---
+Report 12/2020
+
+--- Document Chunk 697 ---
+Wanstead Park
+
+--- Document Chunk 698 ---
+23
+
+--- Document Chunk 699 ---
+November 2020
+
+--- Document Chunk 700 ---
+0
+
+--- Document Chunk 701 ---
+50
+
+--- Document Chunk 702 ---
+100
+
+--- Document Chunk 703 ---
+150
+
+--- Document Chunk 704 ---
+200
+
+--- Document Chunk 705 ---
+250
+
+--- Document Chunk 706 ---
+300
+
+--- Document Chunk 707 ---
+350
+
+--- Document Chunk 708 ---
+400
+
+--- Document Chunk 709 ---
+1440 1450 1460 1470 1480 1490 1500 1510 1520
+
+--- Document Chunk 710 ---
+Pressure / bar
+
+--- Document Chunk 711 ---
+Gauge in mm
+
+--- Document Chunk 712 ---
+Bridge 456 Up line - RAIB rail spreader bar tests
+
+--- Document Chunk 713 ---
+Between baseplates 32 & 33
+
+--- Document Chunk 714 ---
+Between baseplates 19 & 20
+
+--- Document Chunk 715 ---
+Between baseplates 3 & 4
+
+--- Document Chunk 716 ---
+Between baseplates 2 & 3
+
+--- Document Chunk 717 ---
+Between baseplates 0 & 1
+
+--- Document Chunk 718 ---
+60 RAIB took post-accident measurements on the bridge to determine if the stiffness 
+
+--- Document Chunk 719 ---
+of the track varied on approach to the point of derailment. A hydraulic ram was 
+
+--- Document Chunk 720 ---
+installed between the rails, and the pressure was increased in increments, 
+
+--- Document Chunk 721 ---
+creating spreading forces up to 50 kN (equivalent to 5 tonnes). This test was 
+
+--- Document Chunk 722 ---
+repeated at five locations across the bridge. The results show that the rails were 
+
+--- Document Chunk 723 ---
+less able to resist movement under the lateral forces imposed by moving trains 
+
+--- Document Chunk 724 ---
+as the point of derailment was approached (figure 14). These results are broadly 
+
+--- Document Chunk 725 ---
+consistent with Network Rail’s track gauge measurements. However, it should 
+
+--- Document Chunk 726 ---
+be noted that accident damage meant that measured stiffness in the area of 
+
+--- Document Chunk 727 ---
+significant damage will be less than before the accident and, due to distribution 
+
+--- Document Chunk 728 ---
+of load along the rails, measured stiffness will also be lower than pre-accident 
+
+--- Document Chunk 729 ---
+values on the approach to this area. 
+
+--- Document Chunk 730 ---
+Figure 14: Change in track stiffness between baseplates. These were numbered from 34 at the start of 
+
+--- Document Chunk 731 ---
+the bridge to 0 at the point of derailment (POD1).
+
+--- Document Chunk 732 ---
+61 Further evidence of pre-accident track movement is provided by the right-hand 
+
+--- Document Chunk 733 ---
+rail’s railhead profile, which varied in shape across the bridge (figure 15). A 
+
+--- Document Chunk 734 ---
+new rail is rolled to a constant profile, but the wear from passing train wheels, 
+
+--- Document Chunk 735 ---
+particularly on the outside rail on curved track, will gradually change this shape. 
+
+--- Document Chunk 736 ---
+The rail showed a relatively consistent amount of wear on the side of the railhead 
+
+--- Document Chunk 737 ---
+(sidewear), but a pronounced change occurred a few metres before the point of 
+
+--- Document Chunk 738 ---
+derailment. In this area, there was less sidewear, suggesting that lateral loads 
+
+--- Document Chunk 739 ---
+from train wheels caused the rail to move away from the wheel flanges. The 
+
+--- Document Chunk 740 ---
+consequential reduction in lateral force exerted on the outer rail by the wheel 
+
+--- Document Chunk 741 ---
+flange would have reduced the amount of rail wear. 
+
+--- Document Chunk 742 ---
+Analysis
+
+--- Document Chunk 743 ---
+Report 12/2020
+
+--- Document Chunk 744 ---
+Wanstead Park
+
+--- Document Chunk 745 ---
+24
+
+--- Document Chunk 746 ---
+November 2020
+
+--- Document Chunk 747 ---
+0
+
+--- Document Chunk 748 ---
+1
+
+--- Document Chunk 749 ---
+2
+
+--- Document Chunk 750 ---
+3
+
+--- Document Chunk 751 ---
+4
+
+--- Document Chunk 752 ---
+5
+
+--- Document Chunk 753 ---
+-30 -25 -20 -15 -10 -5 0 5 10
+
+--- Document Chunk 754 ---
+Sidewear (mm)
+
+--- Document Chunk 755 ---
+Distance from POD (m)
+
+--- Document Chunk 756 ---
+Sidewear measurements on right-hand rail across bridge 456
+
+--- Document Chunk 757 ---
+ Rail sidewear
+
+--- Document Chunk 758 ---
+ Timbers
+
+--- Document Chunk 759 ---
+Direction of travel
+
+--- Document Chunk 760 ---
+Bridge 456
+
+--- Document Chunk 761 ---
+4L                        3L                        2L                       1L
+
+--- Document Chunk 762 ---
+Figure 15: Change in rail wear
+
+--- Document Chunk 763 ---
+Timber deterioration
+
+--- Document Chunk 764 ---
+62 Following the accident, the up line longitudinal timbers were removed from bridge 
+
+--- Document Chunk 765 ---
+456 in four panels, each panel comprising the left-hand and right-hand timber with 
+
+--- Document Chunk 766 ---
+the transoms and tie bars connecting them. They were taken to a secure site and 
+
+--- Document Chunk 767 ---
+laid out for examination by RAIB, an independent timber specialist commissioned 
+
+--- Document Chunk 768 ---
+by RAIB and Network Rail (figure 16 and figure 17). The panels were dismantled 
+
+--- Document Chunk 769 ---
+in controlled stages during the examination.  
+
+--- Document Chunk 770 ---
+Figure 16: Longitudinal timbers laid out for 
+
+--- Document Chunk 771 ---
+examination following removal of the right-hand 
+
+--- Document Chunk 772 ---
+(six-foot) rail. Timber 2L is nearest the camera 
+
+--- Document Chunk 773 ---
+with 1L beyond it.
+
+--- Document Chunk 774 ---
+Figure 17: Timber 2L being cut into sections for 
+
+--- Document Chunk 775 ---
+examination
+
+--- Document Chunk 776 ---
+63 The section of timber 2L supporting the track at the point of derailment (figure 18 
+
+--- Document Chunk 777 ---
+and figure 19) was cut into sections and examined. It was found to be saturated 
+
+--- Document Chunk 778 ---
+with water and extremely soft. A long probe was pushed into the wood at several 
+
+--- Document Chunk 779 ---
+locations without meeting resistance and part of the timber disintegrated while 
+
+--- Document Chunk 780 ---
+being moved during the examination. There was evidence of baseplate screw 
+
+--- Document Chunk 781 ---
+holes having been plugged and re-drilled, indicating that a previous attempt had 
+
+--- Document Chunk 782 ---
+been made to restore the track gauge at this location. This method of re-gauging 
+
+--- Document Chunk 783 ---
+can only be regarded as a temporary measure in softwood as there is often 
+
+--- Document Chunk 784 ---
+insufficient sound material to withstand the forces imposed.
+
+--- Document Chunk 785 ---
+Analysis
+
+--- Document Chunk 786 ---
+Report 12/2020
+
+--- Document Chunk 787 ---
+Wanstead Park
+
+--- Document Chunk 788 ---
+25
+
+--- Document Chunk 789 ---
+November 2020
+
+--- Document Chunk 790 ---
+Face hidden by 
+
+--- Document Chunk 791 ---
+junction plate
+
+--- Document Chunk 792 ---
+Face hidden 
+
+--- Document Chunk 793 ---
+by deck
+
+--- Document Chunk 794 ---
+Face hidden 
+
+--- Document Chunk 795 ---
+by walkway
+
+--- Document Chunk 796 ---
+Elongated 
+
+--- Document Chunk 797 ---
+(widened) 
+
+--- Document Chunk 798 ---
+hole
+
+--- Document Chunk 799 ---
+Existing 
+
+--- Document Chunk 800 ---
+longitudinal 
+
+--- Document Chunk 801 ---
+split (fracture)
+
+--- Document Chunk 802 ---
+Figure 18: Section through timber 2L at the point 
+
+--- Document Chunk 803 ---
+of derailment. The area of decayed timber is 
+
+--- Document Chunk 804 ---
+indicated by the white dashed line.
+
+--- Document Chunk 805 ---
+Figure 19: Section through timber 2L immediately 
+
+--- Document Chunk 806 ---
+before the point of derailment
+
+--- Document Chunk 807 ---
+64 The section of Timber 1L (figure 20) immediately after the point of derailment had 
+
+--- Document Chunk 808 ---
+evidence of a longstanding corner fracture (split) and moisture ingress. This was 
+
+--- Document Chunk 809 ---
+in the area where the leading right-hand wheel of wagon 3415’s trailing bogie was 
+
+--- Document Chunk 810 ---
+probably pushing against the rail (see paragraph 111) at the moment the trailing 
+
+--- Document Chunk 811 ---
+right-hand wheel derailed. The longitudinal fracture ran through the outermost 
+
+--- Document Chunk 812 ---
+baseplate screws. It is likely that this fracture was caused by lateral loads 
+
+--- Document Chunk 813 ---
+imposed by the screws and stresses associated with natural timber shrinkage 
+
+--- Document Chunk 814 ---
+around the screws.
+
+--- Document Chunk 815 ---
+Figure 20: Timber 1L before cutting, but following 
+
+--- Document Chunk 816 ---
+removal of the first baseplate beyond the point of 
+
+--- Document Chunk 817 ---
+derailment
+
+--- Document Chunk 818 ---
+Figure 21: Timber 1L after cutting at the 
+
+--- Document Chunk 819 ---
+position of the first baseplate beyond the point 
+
+--- Document Chunk 820 ---
+of derailment. The area of decayed timber is 
+
+--- Document Chunk 821 ---
+indicated by the white dashed line.
+
+--- Document Chunk 822 ---
+65 The split in timber 1L had been identified and recorded during a detailed 
+
+--- Document Chunk 823 ---
+inspection in June 2019 (refer to paragraph 105). The post-accident examination 
+
+--- Document Chunk 824 ---
+found evidence of fungi growing within the wood indicating the presence of 
+
+--- Document Chunk 825 ---
+air. The presence of a split along the line of the large screws securing the rail 
+
+--- Document Chunk 826 ---
+baseplates meant that the outer row of screws became ineffective in securing the 
+
+--- Document Chunk 827 ---
+rail. The additional horizontal force applied to the inner row of baseplate screws 
+
+--- Document Chunk 828 ---
+had caused their holes to become oval shaped, as the metal screw pressed into 
+
+--- Document Chunk 829 ---
+the partly-decayed wood due to lateral loading from trains (figure 21).
+
+--- Document Chunk 830 ---
+Analysis
+
+--- Document Chunk 831 ---
+Report 12/2020
+
+--- Document Chunk 832 ---
+Wanstead Park
+
+--- Document Chunk 833 ---
+26
+
+--- Document Chunk 834 ---
+November 2020
+
+--- Document Chunk 835 ---
+66 The timber specialist’s report included the following conclusions: 
+
+--- Document Chunk 836 ---
+a. timbers 1L and 2L, adjacent to the derailment location, both had significant 
+
+--- Document Chunk 837 ---
+decay which would have severely reduced their integrity/structural capabilities
+
+--- Document Chunk 838 ---
+b. the extent of decay recorded in timber 2L for approximately 2 metres 
+
+--- Document Chunk 839 ---
+approaching the point of derailment was up to 70% loss of the cross section
+
+--- Document Chunk 840 ---
+c. the amount of decay in timbers 1L and 2L would have resulted in these 
+
+--- Document Chunk 841 ---
+timbers being at risk of deforming either permanently, or when loaded.  
+
+--- Document Chunk 842 ---
+67 Laboratory examination confirmed that timber preservative was present on the 
+
+--- Document Chunk 843 ---
+surfaces, and to a depth of a few millimetres below the surfaces of timbers 1L and 
+
+--- Document Chunk 844 ---
+2L. The heartwood, the dense inner part of the tree trunk which forms the majority 
+
+--- Document Chunk 845 ---
+of a timber section of this size, was not protected. The heartwood of Douglas 
+
+--- Document Chunk 846 ---
+Fir originating from North America and Europe is classified as ‘extremely difficult 
+
+--- Document Chunk 847 ---
+to treat’,3 even under vacuum and pressure treatment cycles.  Preservative 
+
+--- Document Chunk 848 ---
+treatments limited to near the surface of the wood can result in timber appearing 
+
+--- Document Chunk 849 ---
+superficially sound while deeper decay is hidden.
+
+--- Document Chunk 850 ---
+68 It is probable that the rot was partly a consequence of rust flakes collecting on 
+
+--- Document Chunk 851 ---
+the deck and trapping moisture around the base of the timbers. Evidence that 
+
+--- Document Chunk 852 ---
+this was occurring is provided by photographs taken during an inspection in June 
+
+--- Document Chunk 853 ---
+2018 (figure 22). Some of this debris was removed during bridge strengthening 
+
+--- Document Chunk 854 ---
+and refurbishment works completed later that year. It is also probable that 
+
+--- Document Chunk 855 ---
+evaporation of water from the bridge deck and some faces of the longitudinal 
+
+--- Document Chunk 856 ---
+timbers was restricted by the solid walkway installed between the rails on the up 
+
+--- Document Chunk 857 ---
+line in 2008, which restricted ventilation (figure 5).
+
+--- Document Chunk 858 ---
+Figure 22: Photograph from detailed inspection report dated 7 June 2018 showing a restraining cleat 
+
+--- Document Chunk 859 ---
+and rust flakes on the bridge deck prior to deck refurbishment (courtesy of Network Rail)
+
+--- Document Chunk 860 ---
+3 BS EN 350:2016 Durability of wood and wood-based products — Testing and classification of the durability to 
+
+--- Document Chunk 861 ---
+biological agents of wood and wood-based materials.
+
+--- Document Chunk 862 ---
+Analysis
+
+--- Document Chunk 863 ---
+Report 12/2020
+
+--- Document Chunk 864 ---
+Wanstead Park
+
+--- Document Chunk 865 ---
+27
+
+--- Document Chunk 866 ---
+November 2020
+
+--- Document Chunk 867 ---
+B
+
+--- Document Chunk 868 ---
+200 mm
+
+--- Document Chunk 869 ---
+130 mm
+
+--- Document Chunk 870 ---
+350 mm
+
+--- Document Chunk 871 ---
+A
+
+--- Document Chunk 872 ---
+Junction 
+
+--- Document Chunk 873 ---
+Plate
+
+--- Document Chunk 874 ---
+200 mm150 mm
+
+--- Document Chunk 875 ---
+Lateral restraint to timbers
+
+--- Document Chunk 876 ---
+69 Lateral restraint for the longitudinal timbers was provided by cleats attached to 
+
+--- Document Chunk 877 ---
+the bridge deck and by the tie rod and transom (strut) arrangement described in 
+
+--- Document Chunk 878 ---
+paragraph 24. The timbers supporting the right-hand rail were significantly deeper 
+
+--- Document Chunk 879 ---
+than the timbers supporting the left-hand rail due to the need to allow a 75 mm 
+
+--- Document Chunk 880 ---
+cant on the curve (paragraph 28). 
+
+--- Document Chunk 881 ---
+70 The height of the cleats retaining the right-hand rail timbers was less than 50% 
+
+--- Document Chunk 882 ---
+of the timbers’ depth (figure 23). The combined effect of the cleat height and 
+
+--- Document Chunk 883 ---
+tie rod position was to leave the upper section of the timbers 4L-1L with no 
+
+--- Document Chunk 884 ---
+lateral restraint except that provided by transferring load downwards through 
+
+--- Document Chunk 885 ---
+the decayed timber. The tie rods connecting the timbers together to maintain 
+
+--- Document Chunk 886 ---
+track gauge were set horizontally. They passed through the left-hand timbers at 
+
+--- Document Chunk 887 ---
+mid- height, but consequently were below mid-height for the deeper right-hand 
+
+--- Document Chunk 888 ---
+timbers (figure 24).
+
+--- Document Chunk 889 ---
+71 A revision to standard NR/L2/TRK/3038 (issue 6) published in 2014, requires 
+
+--- Document Chunk 890 ---
+new or replacement cleats to be designed with a minimum height of not less 
+
+--- Document Chunk 891 ---
+than 2/3 the depth of the longitudinal bearer. Although this requirement was not 
+
+--- Document Chunk 892 ---
+retrospective, it gives an indication of the importance of the relative height of the 
+
+--- Document Chunk 893 ---
+cleats in restraining the timbers, particularly on curved track where the track is 
+
+--- Document Chunk 894 ---
+subject to lateral forces.
+
+--- Document Chunk 895 ---
+Figure 23: The position of a cleat (marked ‘A’) 
+
+--- Document Chunk 896 ---
+restraining timber 2L with a metal packing behind, 
+
+--- Document Chunk 897 ---
+and a junction plate connecting timber 2L to 
+
+--- Document Chunk 898 ---
+timber 1L
+
+--- Document Chunk 899 ---
+Figure 24: The position of a tie rod (marked ‘B’) 
+
+--- Document Chunk 900 ---
+restraining timber 2L
+
+--- Document Chunk 901 ---
+72 Junction plates connecting the timbers also extended for only part of the timbers’ 
+
+--- Document Chunk 902 ---
+depth (figure 23). This meant that the outside plate connecting 2L and 1L provided 
+
+--- Document Chunk 903 ---
+no support to the upper part of the timber and this is a possible reason for the 
+
+--- Document Chunk 904 ---
+longitudinal split developing in this area. The combination of decayed timber and 
+
+--- Document Chunk 905 ---
+limited direct support from the tie rods and cleats, possibly exacerbated by the 
+
+--- Document Chunk 906 ---
+junction plate arrangement, meant that lateral loading from train wheels would 
+
+--- Document Chunk 907 ---
+result in relatively large movements of the right-hand rail.
+
+--- Document Chunk 908 ---
+Analysis
+
+--- Document Chunk 909 ---
+Report 12/2020
+
+--- Document Chunk 910 ---
+Wanstead Park
+
+--- Document Chunk 911 ---
+28
+
+--- Document Chunk 912 ---
+November 2020
+
+--- Document Chunk 913 ---
+73 The track’s ability to resist gauge widening on bridge 456 is likely to have 
+
+--- Document Chunk 914 ---
+worsened when the vertical split in timber 1L joined up with a horizontal split, 
+
+--- Document Chunk 915 ---
+displacing a section of timber (figure 20). Some of the gauge widening forces 
+
+--- Document Chunk 916 ---
+which could not be resisted by timber 1L will have been transferred by the rail into 
+
+--- Document Chunk 917 ---
+the adjacent section of timber 2L which was already weakened by decay.
+
+--- Document Chunk 918 ---
+74 Track recording vehicles identified a wide gauge fault but output derived 
+
+--- Document Chunk 919 ---
+from this data did not result in track maintenance staff repairing faults at the 
+
+--- Document Chunk 920 ---
+correct location.
+
+--- Document Chunk 921 ---
+75 Track geometry data obtained from track recording vehicles (paragraph 29) is 
+
+--- Document Chunk 922 ---
+supplied to the TME responsible for each section of track. They are required by 
+
+--- Document Chunk 923 ---
+Network Rail standard NR/L2/TRK/001/mod11 to review this data within three 
+
+--- Document Chunk 924 ---
+weeks of issue. The data includes a trace, comprising a multi-channel graph 
+
+--- Document Chunk 925 ---
+showing gauge, alignment and other track geometry parameters. 
+
+--- Document Chunk 926 ---
+76 Geometry faults which exceed the intervention limit are also listed, with their 
+
+--- Document Chunk 927 ---
+global positioning system (GPS) co-ordinates, on a track geometry action report. 
+
+--- Document Chunk 928 ---
+This is also known as an immediate action report or fault report. Network Rail 
+
+--- Document Chunk 929 ---
+states that these co- ordinates are accurate to ±1m, providing the track recording 
+
+--- Document Chunk 930 ---
+vehicle is able to receive a strong enough GPS signal. The signal can be 
+
+--- Document Chunk 931 ---
+restricted when a train is within a structure such as a tunnel or station. There are 
+
+--- Document Chunk 932 ---
+no features of this type at the accident site.
+
+--- Document Chunk 933 ---
+Evidence of track movement at bridge 456
+
+--- Document Chunk 934 ---
+77 RAIB has reviewed track recording vehicle data for the up line across bridge 
+
+--- Document Chunk 935 ---
+456 from June 2018 onwards. On 20 June 2018, a dynamic wide gauge fault of 
+
+--- Document Chunk 936 ---
+23 mm was recorded on bridge 456. This value was 8 mm greater than static 
+
+--- Document Chunk 937 ---
+gauge recorded at the same location during a detailed inspection on 6 June 2018 
+
+--- Document Chunk 938 ---
+(paragraph 97), indicating that track movement was already occurring under 
+
+--- Document Chunk 939 ---
+trains. At this stage, the dynamic gauge fault remained below the intervention limit 
+
+--- Document Chunk 940 ---
+(25 mm).
+
+--- Document Chunk 941 ---
+78 Similar gauge faults were apparent on two subsequent track recording vehicle 
+
+--- Document Chunk 942 ---
+runs during 2018, but the run on 6 February 2019 indicated that the gauge had 
+
+--- Document Chunk 943 ---
+significantly improved, recording wide gauge of just 10.5 mm near the POD. 
+
+--- Document Chunk 944 ---
+However, the next run on 6 March 2019 recorded a wide gauge fault of 26.9 mm. 
+
+--- Document Chunk 945 ---
+Network Rail’s central track geometry processing team compared this data with 
+
+--- Document Chunk 946 ---
+the previous recording on 6 February 2019 and declared the gauge data invalid 
+
+--- Document Chunk 947 ---
+for a 10 chain (201 metre) length of track which, by chance, included bridge 456. 
+
+--- Document Chunk 948 ---
+Consequently, the data was discounted and did not appear in the associated fault 
+
+--- Document Chunk 949 ---
+report so no action was taken. RAIB has identified that the February data was 
+
+--- Document Chunk 950 ---
+significantly different to previous recordings and may itself have been spurious.
+
+--- Document Chunk 951 ---
+79 On 1 May 2019, the next track recording vehicle run recorded a wide gauge fault 
+
+--- Document Chunk 952 ---
+of 29.8 mm in the same location, exhibiting a similar ‘shape’ to the data recorded 
+
+--- Document Chunk 953 ---
+on 6 March (figure 25). This was the first recognised indication of a gauge fault 
+
+--- Document Chunk 954 ---
+exceeding the intervention limit at this location, and was shown on the trace and 
+
+--- Document Chunk 955 ---
+listed on the fault report. 
+
+--- Document Chunk 956 ---
+Analysis
+
+--- Document Chunk 957 ---
+Report 12/2020
+
+--- Document Chunk 958 ---
+Wanstead Park
+
+--- Document Chunk 959 ---
+29
+
+--- Document Chunk 960 ---
+November 2020
+
+--- Document Chunk 961 ---
+29.8 mm
+
+--- Document Chunk 962 ---
+0
+
+--- Document Chunk 963 ---
+5
+
+--- Document Chunk 964 ---
+10
+
+--- Document Chunk 965 ---
+15
+
+--- Document Chunk 966 ---
+20
+
+--- Document Chunk 967 ---
+25
+
+--- Document Chunk 968 ---
+30
+
+--- Document Chunk 969 ---
+35
+
+--- Document Chunk 970 ---
+40
+
+--- Document Chunk 971 ---
+-25 -20 -15 -10 -5 0 5 10 15 20 25
+
+--- Document Chunk 972 ---
+Track gauge relative to 1435 mm (mm)
+
+--- Document Chunk 973 ---
+Distance from POD (m)
+
+--- Document Chunk 974 ---
+Track gauge measured by TRV runs bwetween 6 February and 1 May 2019
+
+--- Document Chunk 975 ---
+ Intervention limit (gauge)
+
+--- Document Chunk 976 ---
+ Alert limit (gauge)
+
+--- Document Chunk 977 ---
+TRV data 01/05/2019
+
+--- Document Chunk 978 ---
+TRV data 06/03/2019
+
+--- Document Chunk 979 ---
+TRV data 06/02/2019
+
+--- Document Chunk 980 ---
+Bridge 456 longitudinal timbers
+
+--- Document Chunk 981 ---
+Bridge 456 deck
+
+--- Document Chunk 982 ---
+Direction of travel
+
+--- Document Chunk 983 ---
+Bridge 456
+
+--- Document Chunk 984 ---
+2L             1L
+
+--- Document Chunk 985 ---
+A
+
+--- Document Chunk 986 ---
+Figure 25: Track gauge recorded by track recording vehicle runs on 6 February, 6 March and 1 May 
+
+--- Document Chunk 987 ---
+2019. The wide gauge peaks at the same location (marked ‘A’) close to the joint between timbers 2L 
+
+--- Document Chunk 988 ---
+and 1L and just ahead of the initial point of derailment.
+
+--- Document Chunk 989 ---
+GPS errors
+
+--- Document Chunk 990 ---
+80 On 23 May 2019, track maintenance staff from Barking depot, led by the team 
+
+--- Document Chunk 991 ---
+leader [track maintenance], attended site during an overnight possession of the 
+
+--- Document Chunk 992 ---
+line. The team leader stated that they used an approved app on a Network Rail 
+
+--- Document Chunk 993 ---
+mobile phone to locate the fault. This app works by manually entering the GPS 
+
+--- Document Chunk 994 ---
+co-ordinates, and this causes the phone to vibrate when within five metres of the 
+
+--- Document Chunk 995 ---
+site, and the display to change colour when within three metres, giving staff a 
+
+--- Document Chunk 996 ---
+three to five metre radius around the reported site to locate and inspect the fault. 
+
+--- Document Chunk 997 ---
+The process is dependent on the mobile phone’s accuracy when receiving the 
+
+--- Document Chunk 998 ---
+GPS signal. In this case, although the GPS co-ordinates put the fault on bridge 
+
+--- Document Chunk 999 ---
+456 (figure 26), staff undertook work about eight metres west of the actual fault 
+
+--- Document Chunk 1000 ---
+location and on a section of track with concrete sleepers. 
+
+--- Document Chunk 1001 ---
+81 The team leader used a cross-level gauge to identify a section of track with 
+
+--- Document Chunk 1002 ---
+wide gauge, and found nine concrete sleepers with crushed or displaced nylon 
+
+--- Document Chunk 1003 ---
+insulation pads4 supporting the right-hand (high) rail. Members of the team 
+
+--- Document Chunk 1004 ---
+unclipped the rail, renewed the nylon pads and clipped the rail back up. When 
+
+--- Document Chunk 1005 ---
+they rechecked with the cross-level gauge, it showed that the gauge was back 
+
+--- Document Chunk 1006 ---
+within tolerance. The team leader signed a form to confirm that work had been 
+
+--- Document Chunk 1007 ---
+undertaken, and under the heading ‘Details of work carried out to repair the 
+
+--- Document Chunk 1008 ---
+fault’, wrote ‘Regauged track’. The team leader stated that he had a quick look at 
+
+--- Document Chunk 1009 ---
+the longitudinal timbers on the bridge and measured the gauge but did not find 
+
+--- Document Chunk 1010 ---
+anything to suggest a wide gauge fault that exceeded the intervention limit on the 
+
+--- Document Chunk 1011 ---
+bridge. 
+
+--- Document Chunk 1012 ---
+82 On 29 May 2019, the next scheduled track recording vehicle run identified and 
+
+--- Document Chunk 1013 ---
+recorded a wide gauge fault in the same location and same magnitude as on 1 
+
+--- Document Chunk 1014 ---
+May (figure 27). The shape of the graph indicated a very similar pattern of gauge 
+
+--- Document Chunk 1015 ---
+widening. On this occasion, the GPS co-ordinates on the fault report put the 
+
+--- Document Chunk 1016 ---
+location of the wide gauge fault just off the bridge.
+
+--- Document Chunk 1017 ---
+4 Pads are required to electrically insulate the rail from sleepers and clips, and are available in different sizes so 
+
+--- Document Chunk 1018 ---
+they can be used to adjust the track gauge.
+
+--- Document Chunk 1019 ---
+Analysis
+
+--- Document Chunk 1020 ---
+Report 12/2020
+
+--- Document Chunk 1021 ---
+Wanstead Park
+
+--- Document Chunk 1022 ---
+30
+
+--- Document Chunk 1023 ---
+November 2020
+
+--- Document Chunk 1024 ---
+Wide gauge faultApproximate location of work
+
+--- Document Chunk 1025 ---
+01/05/2019 GPS location
+
+--- Document Chunk 1026 ---
+0
+
+--- Document Chunk 1027 ---
+5
+
+--- Document Chunk 1028 ---
+10
+
+--- Document Chunk 1029 ---
+15
+
+--- Document Chunk 1030 ---
+20
+
+--- Document Chunk 1031 ---
+25
+
+--- Document Chunk 1032 ---
+30
+
+--- Document Chunk 1033 ---
+35
+
+--- Document Chunk 1034 ---
+40
+
+--- Document Chunk 1035 ---
+-25 -20 -15 -10 -5 0 5 10 15 20 25
+
+--- Document Chunk 1036 ---
+Track gauge relative to 1435 mm (mm)
+
+--- Document Chunk 1037 ---
+Distance from POD (m)
+
+--- Document Chunk 1038 ---
+Track gauge measured by TRV runs between 1 May and 18 September 2019
+
+--- Document Chunk 1039 ---
+ Intervention limit (gauge)
+
+--- Document Chunk 1040 ---
+ Alert limit (gauge)
+
+--- Document Chunk 1041 ---
+TRV data 18/09/2019
+
+--- Document Chunk 1042 ---
+TRV data 29/05/2019
+
+--- Document Chunk 1043 ---
+TRV data 01/05/2019
+
+--- Document Chunk 1044 ---
+Bridge 456 longitudinal timbers
+
+--- Document Chunk 1045 ---
+Bridge 456 deck
+
+--- Document Chunk 1046 ---
+Direction of travel
+
+--- Document Chunk 1047 ---
+A
+
+--- Document Chunk 1048 ---
+B
+
+--- Document Chunk 1049 ---
+Bridge 456
+
+--- Document Chunk 1050 ---
+2L             1L
+
+--- Document Chunk 1051 ---
+Figure 26: Google Earth image showing location of track recording vehicle-generated GPS co-ordinates 
+
+--- Document Chunk 1052 ---
+and the approximate location that re-gauging work was carried out.
+
+--- Document Chunk 1053 ---
+Figure 27: Track gauge data recorded by track recording vehicle runs on 1 May, 29 May and 18 
+
+--- Document Chunk 1054 ---
+September 2019. The graphs show that the gauge profile is a similar shape with a peak value (marked 
+
+--- Document Chunk 1055 ---
+‘A’). Wide gauge exceeding the Alert limit is shown continuing off the bridge (marked ‘B’).
+
+--- Document Chunk 1056 ---
+83 The Barking track maintenance team attended on 9 June and again used the 
+
+--- Document Chunk 1057 ---
+mobile phone app to locate the fault using the GPS co-ordinates. They undertook 
+
+--- Document Chunk 1058 ---
+work to the same section of track as on 23 May, but this time they renewed nylon 
+
+--- Document Chunk 1059 ---
+insulation pads on the left-hand (low) rail, intending to correct the fault. The team 
+
+--- Document Chunk 1060 ---
+leader again recorded ‘Regauged track’.
+
+--- Document Chunk 1061 ---
+Analysis
+
+--- Document Chunk 1062 ---
+Report 12/2020
+
+--- Document Chunk 1063 ---
+Wanstead Park
+
+--- Document Chunk 1064 ---
+31
+
+--- Document Chunk 1065 ---
+November 2020
+
+--- Document Chunk 1066 ---
+Wide gauge fault
+
+--- Document Chunk 1067 ---
+29/05/2019
+
+--- Document Chunk 1068 ---
+01/05/201918/09/2019
+
+--- Document Chunk 1069 ---
+84 On 18 September, the next track recording vehicle run identified a wide gauge 
+
+--- Document Chunk 1070 ---
+fault of 26.5 mm in a similar location to the faults recorded on 1 May and 29 May. 
+
+--- Document Chunk 1071 ---
+However, this time, the GPS co-ordinates printed on the fault report put the fault 
+
+--- Document Chunk 1072 ---
+further off the bridge. A team from Barking depot attended on 29 September led 
+
+--- Document Chunk 1073 ---
+by an assistant team leader. They renewed more nylon insulation pads on the 
+
+--- Document Chunk 1074 ---
+concrete-sleepered track off the bridge. 
+
+--- Document Chunk 1075 ---
+Figure 28: Google Earth image showing location of track recording vehicle-generated GPS co-ordinates 
+
+--- Document Chunk 1076 ---
+compared with location of the wide gauge fault
+
+--- Document Chunk 1077 ---
+85 Figure 28 shows the GPS co-ordinates for the gauge faults recorded on 1 May 
+
+--- Document Chunk 1078 ---
+2019, 29 May 2019 and 18 September 2019 plotted on Google Earth. The faults 
+
+--- Document Chunk 1079 ---
+were recorded by equipment on different track recording vehicles and are up to 
+
+--- Document Chunk 1080 ---
+6.5 metres from the actual location of the wide gauge fault. Two of the locations 
+
+--- Document Chunk 1081 ---
+are off the bridge on the concrete-sleepered track. 
+
+--- Document Chunk 1082 ---
+86 The range of co-ordinates recorded by different GPS units for the same track 
+
+--- Document Chunk 1083 ---
+fault indicates that the GPS systems did not achieve the expected accuracy of 
+
+--- Document Chunk 1084 ---
+±1 metre (paragraph 76). 
+
+--- Document Chunk 1085 ---
+Hysteresis threshold for reporting faults
+
+--- Document Chunk 1086 ---
+87 For the next two track recording vehicle runs on 11 December 2019 and 8 
+
+--- Document Chunk 1087 ---
+January 2020, wide gauge faults of 26.5 mm and 30.1 mm respectively were 
+
+--- Document Chunk 1088 ---
+recorded on bridge 456. On both occasions, the fault exceeded the intervention 
+
+--- Document Chunk 1089 ---
+limit (figure 29 and figure 30) but was missing from the associated fault report. 
+
+--- Document Chunk 1090 ---
+88 The same issue caused both omissions and is explained by an extract from the 
+
+--- Document Chunk 1091 ---
+track recording vehicle trace for 8 Jan 2020 (figure 31). This shows wide gauge 
+
+--- Document Chunk 1092 ---
+faults, automatically highlighted in red on the trace, corresponding with bridges 
+
+--- Document Chunk 1093 ---
+456 and 448 located within a section of continuous wide gauge. The wide gauge 
+
+--- Document Chunk 1094 ---
+fault of 30.1 mm on bridge 456 is less severe than the wide gauge fault of 
+
+--- Document Chunk 1095 ---
+34.4 mm recorded on bridge 448.
+
+--- Document Chunk 1096 ---
+Analysis
+
+--- Document Chunk 1097 ---
+Report 12/2020
+
+--- Document Chunk 1098 ---
+Wanstead Park
+
+--- Document Chunk 1099 ---
+32
+
+--- Document Chunk 1100 ---
+November 2020
+
+--- Document Chunk 1101 ---
+30.1 mm
+
+--- Document Chunk 1102 ---
+0
+
+--- Document Chunk 1103 ---
+5
+
+--- Document Chunk 1104 ---
+10
+
+--- Document Chunk 1105 ---
+15
+
+--- Document Chunk 1106 ---
+20
+
+--- Document Chunk 1107 ---
+25
+
+--- Document Chunk 1108 ---
+30
+
+--- Document Chunk 1109 ---
+35
+
+--- Document Chunk 1110 ---
+40
+
+--- Document Chunk 1111 ---
+-25 -20 -15 -10 -5 0 5 10 15 20 25
+
+--- Document Chunk 1112 ---
+Track gauge relative to 1435 mm (in mm)
+
+--- Document Chunk 1113 ---
+Distance from POD (m)
+
+--- Document Chunk 1114 ---
+Track gauge measured by TRV runs on 11 December 2019 and 8 January 2020
+
+--- Document Chunk 1115 ---
+ Intervention limit (gauge)
+
+--- Document Chunk 1116 ---
+ Alert limit (gauge)
+
+--- Document Chunk 1117 ---
+TRV data 08/01/2020
+
+--- Document Chunk 1118 ---
+TRV data 11/12/2019
+
+--- Document Chunk 1119 ---
+Bridge 456 longitudinal timbers
+
+--- Document Chunk 1120 ---
+Bridge 456 deck
+
+--- Document Chunk 1121 ---
+Direction of travel
+
+--- Document Chunk 1122 ---
+Bridge 456
+
+--- Document Chunk 1123 ---
+2L             1L
+
+--- Document Chunk 1124 ---
+30.1 mm
+
+--- Document Chunk 1125 ---
+34.4 mm
+
+--- Document Chunk 1126 ---
+0
+
+--- Document Chunk 1127 ---
+5
+
+--- Document Chunk 1128 ---
+10
+
+--- Document Chunk 1129 ---
+15
+
+--- Document Chunk 1130 ---
+20
+
+--- Document Chunk 1131 ---
+25
+
+--- Document Chunk 1132 ---
+30
+
+--- Document Chunk 1133 ---
+35
+
+--- Document Chunk 1134 ---
+40
+
+--- Document Chunk 1135 ---
+-140 -120 -100 -80 -60 -40 -20 0 20 40 60 80 100 120 140 160
+
+--- Document Chunk 1136 ---
+Track gauge relative to 1435 mm (in mm)
+
+--- Document Chunk 1137 ---
+Distance before or after POD (in metres)
+
+--- Document Chunk 1138 ---
+Track gauge measured by TRV runs on 11 Dec 2019 and 8 Jan 2020
+
+--- Document Chunk 1139 ---
+ Intervention limit (gauge)
+
+--- Document Chunk 1140 ---
+ Hysteresis threshold (gauge)
+
+--- Document Chunk 1141 ---
+TRV data 08/01/2020
+
+--- Document Chunk 1142 ---
+TRV data 11/12/2019
+
+--- Document Chunk 1143 ---
+Bridge 456 deck
+
+--- Document Chunk 1144 ---
+Bridge 448 deck
+
+--- Document Chunk 1145 ---
+Bridge 456                                             Bridge 448
+
+--- Document Chunk 1146 ---
+Direction of travel
+
+--- Document Chunk 1147 ---
+40
+
+--- Document Chunk 1148 ---
+30
+
+--- Document Chunk 1149 ---
+20
+
+--- Document Chunk 1150 ---
+10
+
+--- Document Chunk 1151 ---
+0
+
+--- Document Chunk 1152 ---
+Gauge Widening (mm)
+
+--- Document Chunk 1153 ---
+Bridge 456 Bridge 448
+
+--- Document Chunk 1154 ---
+Extent of continuous wide gauge exceeding hysteresis threshold
+
+--- Document Chunk 1155 ---
+Figure 29: Track gauge data recorded by track recording vehicle runs on 11 December 2019 and 8 
+
+--- Document Chunk 1156 ---
+January 2020. The peak wide gauge fault value recorded on 8 January 2020 is indicated.
+
+--- Document Chunk 1157 ---
+Figure 30: Track gauge data recorded by track recording vehicle runs on 11 December 2019 and 8 
+
+--- Document Chunk 1158 ---
+January 2020, but extending over a longer distance than figure 29. The peak wide gauge faults at 
+
+--- Document Chunk 1159 ---
+bridges 456 and 448 on 8 January 2020 are indicated together with the hysteresis threshold.
+
+--- Document Chunk 1160 ---
+Figure 31: Extract from the track recording vehicle trace recorded on 8 January 2020 showing track 
+
+--- Document Chunk 1161 ---
+gauge. Faults exceeding the intervention limit (25 mm) are automatically highlighted in red. The 
+
+--- Document Chunk 1162 ---
+hysteresis threshold (5.8 mm) and the positions of bridges 456 and 448 have been added.
+
+--- Document Chunk 1163 ---
+Analysis
+
+--- Document Chunk 1164 ---
+Report 12/2020
+
+--- Document Chunk 1165 ---
+Wanstead Park
+
+--- Document Chunk 1166 ---
+33
+
+--- Document Chunk 1167 ---
+November 2020
+
+--- Document Chunk 1168 ---
+89 The TrueTrak recording system used by Network Rail’s fleet of track recording 
+
+--- Document Chunk 1169 ---
+vehicles incorporates a feature to provide a single GPS location for each track 
+
+--- Document Chunk 1170 ---
+geometry fault. Fault sheets are produced following each run which show the 
+
+--- Document Chunk 1171 ---
+type of fault detected, its magnitude and the GPS location where the fault is 
+
+--- Document Chunk 1172 ---
+most severe. They do not show the distance over which the fault extends. To 
+
+--- Document Chunk 1173 ---
+enable it to distinguish between consecutive faults, the processing software 
+
+--- Document Chunk 1174 ---
+applies a pre- set quantity known as the hysteresis threshold value. The recorded 
+
+--- Document Chunk 1175 ---
+magnitude of the fault must improve until it is better than this threshold for the 
+
+--- Document Chunk 1176 ---
+system to register the end of one fault and the start of the next.
+
+--- Document Chunk 1177 ---
+90 For wide gauge, the hysteresis threshold value was set nationally at 5.8 mm, 
+
+--- Document Chunk 1178 ---
+equivalent to a gauge of 1440.8 mm. However, as gauge widening may occur 
+
+--- Document Chunk 1179 ---
+over long sections of track, particularly on curves, only identifying the location and 
+
+--- Document Chunk 1180 ---
+magnitude of the peak (widest) reading will have the effect of hiding other peaks 
+
+--- Document Chunk 1181 ---
+within a length of track which continually exceeds the threshold.
+
+--- Document Chunk 1182 ---
+91 On both 11 December 2019 and 8 January 2020, the hysteresis threshold value 
+
+--- Document Chunk 1183 ---
+for gauge was exceeded continuously for a distance of about 240 metres on a 
+
+--- Document Chunk 1184 ---
+section of track which included bridges 456 and 448. Consequently, this was 
+
+--- Document Chunk 1185 ---
+reported as a single fault with a GPS location corresponding to the maximum 
+
+--- Document Chunk 1186 ---
+recorded wide gauge which occurred at bridge 448. The lower peak on bridge 456 
+
+--- Document Chunk 1187 ---
+was not reported on either fault sheet and was therefore not addressed.
+
+--- Document Chunk 1188 ---
+92 Gauge widening greater than the hysteresis threshold between bridges 456 and 
+
+--- Document Chunk 1189 ---
+448 probably occurred because of a combination of worn or damaged nylon 
+
+--- Document Chunk 1190 ---
+insulation pads and rail wear. Network Rail has confirmed that this section of track 
+
+--- Document Chunk 1191 ---
+did not require designed gauge widening.5  
+
+--- Document Chunk 1192 ---
+93 When the trace and fault reports were received by the TME following a track 
+
+--- Document Chunk 1193 ---
+recording vehicle run, technical staff at Barking depot reviewed the trace and 
+
+--- Document Chunk 1194 ---
+compared it with the previous trace. The purpose was to identify repeat faults 
+
+--- Document Chunk 1195 ---
+and poor sections of track where intervention is required. Actionable faults which 
+
+--- Document Chunk 1196 ---
+exceeded the intervention limit (also known as Level 2 faults) were reviewed 
+
+--- Document Chunk 1197 ---
+at a regular maintenance planning meeting and entered into Network Rail’s 
+
+--- Document Chunk 1198 ---
+computerised workbank (Ellipse) so they could be monitored and closed-out 
+
+--- Document Chunk 1199 ---
+when remedial work was complete. The TME did not consider that it was the 
+
+--- Document Chunk 1200 ---
+responsibility of the depot staff to check that faults shown on the trace were 
+
+--- Document Chunk 1201 ---
+included on the fault reports and there was no requirement to do so in the 
+
+--- Document Chunk 1202 ---
+Network Rail procedure TRK/001 mod 11 ‘Track geometry - Inspections and 
+
+--- Document Chunk 1203 ---
+minimum actions’, issue 8 published in September 2015. However, if the review 
+
+--- Document Chunk 1204 ---
+by depot staff identified an anomaly, this would be checked with the central track 
+
+--- Document Chunk 1205 ---
+geometry processing team and, if necessary, the fault would be added to the 
+
+--- Document Chunk 1206 ---
+Ellipse work bank for correction.
+
+--- Document Chunk 1207 ---
+94 The data from the track recording vehicle run on 8 January was received by the 
+
+--- Document Chunk 1208 ---
+TME on 15 January. At the time of the accident, the technical review was ongoing 
+
+--- Document Chunk 1209 ---
+in preparation for a maintenance planning meeting scheduled for 23 January (the 
+
+--- Document Chunk 1210 ---
+day of the accident).
+
+--- Document Chunk 1211 ---
+5 Track gauge is sometimes deliberately designed to be a few millimetres wider than 1435 mm on tight curves to 
+
+--- Document Chunk 1212 ---
+reduce rail wear. 
+
+--- Document Chunk 1213 ---
+Analysis
+
+--- Document Chunk 1214 ---
+Report 12/2020
+
+--- Document Chunk 1215 ---
+Wanstead Park
+
+--- Document Chunk 1216 ---
+34
+
+--- Document Chunk 1217 ---
+November 2020
+
+--- Document Chunk 1218 ---
+95 Network Rail was not aware of the severity of the longitudinal timber 
+
+--- Document Chunk 1219 ---
+degradation and so took no action to deal with this.
+
+--- Document Chunk 1220 ---
+The inspection process
+
+--- Document Chunk 1221 ---
+96 On 6 June 2018, the team leader [longitudinal timbers] for Barking depot 
+
+--- Document Chunk 1222 ---
+undertook an annual detailed inspection of the timbers supporting the up line 
+
+--- Document Chunk 1223 ---
+on bridge 456. This was a role for which he had received specialist training and 
+
+--- Document Chunk 1224 ---
+which he had undertaken for six years. He was responsible for inspecting 21 
+
+--- Document Chunk 1225 ---
+structures, most of which comprised two individual spans and which incorporated 
+
+--- Document Chunk 1226 ---
+282 individual timbers. 
+
+--- Document Chunk 1227 ---
+97 Although the team leader was not undertaking a scheduled Supervisor’s visual 
+
+--- Document Chunk 1228 ---
+track inspection, he used form TEF3021 ‘Supervisor’s Visual Inspection of 
+
+--- Document Chunk 1229 ---
+Longitudinal Timbers – Issue 6 Sept 2013’ to record static gauge readings at 12 
+
+--- Document Chunk 1230 ---
+positions across the bridge, as there was nowhere to record this information on 
+
+--- Document Chunk 1231 ---
+the detailed inspection form itself. His report indicates that the static track gauge 
+
+--- Document Chunk 1232 ---
+ranged between 1445 mm and 1455 mm, equivalent to wide gauge of 10 mm to 
+
+--- Document Chunk 1233 ---
+20 mm. As the static gauge exceeded the alert limit of 1450 mm, equivalent to 
+
+--- Document Chunk 1234 ---
+wide gauge of 15 mm, at several locations towards the middle of the bridge, he 
+
+--- Document Chunk 1235 ---
+recorded ‘adjust gauge’ on this form.
+
+--- Document Chunk 1236 ---
+98 He also used form TEF3014 ‘Detailed Inspection of Longitudinal Timber System 
+
+--- Document Chunk 1237 ---
+report – Issue 5 Dec 2010’ to record the detailed inspection. He noted that timber 
+
+--- Document Chunk 1238 ---
+2L was in ‘good’ condition, but that there was a 300 mm long split at the end of 
+
+--- Document Chunk 1239 ---
+the timber where the derailment occurred. He recorded that timber 1L was in ‘fair’ 
+
+--- Document Chunk 1240 ---
+condition with rot starting at the end furthest from timber 2L. He also identified 
+
+--- Document Chunk 1241 ---
+that the plate decking was corroding, with debris on the bridge. He assessed that 
+
+--- Document Chunk 1242 ---
+all the timbers on the up line had five years’ remaining life. On the final page, he 
+
+--- Document Chunk 1243 ---
+recorded ‘Some of the timbers are starting to show signs of deterioration on the 
+
+--- Document Chunk 1244 ---
+up road [up line] so life span has been reduced.’  
+
+--- Document Chunk 1245 ---
+99 The GRP walkway fitted between the timbers had not been removed as required 
+
+--- Document Chunk 1246 ---
+by standard TRK/3038 (issue 6), so the team leader was unable to view the 
+
+--- Document Chunk 1247 ---
+inside faces of the timber. Clause 8.2 which covers the annual detailed inspection 
+
+--- Document Chunk 1248 ---
+states:
+
+--- Document Chunk 1249 ---
+‘Where walkway boards prevent inspection of significant elements of the 
+
+--- Document Chunk 1250 ---
+longitudinal timber system e.g. cleats, transoms and tie rods, the boards shall 
+
+--- Document Chunk 1251 ---
+be removed to allow inspection.’
+
+--- Document Chunk 1252 ---
+100 The team leader recorded ‘Underside of timbers not inspected’ and ‘Inside of 
+
+--- Document Chunk 1253 ---
+timber not accessible due to fibre glass walkway’ in his report. 
+
+--- Document Chunk 1254 ---
+101 The presence of fixed walkways was an ongoing issue at four spans on the 
+
+--- Document Chunk 1255 ---
+Barking to Gospel Oak line where there were walkways installed, including 
+
+--- Document Chunk 1256 ---
+bridges 456 and 448. The team leader stated that walkways were never removed 
+
+--- Document Chunk 1257 ---
+for inspections (figure 32). The walkway on bridge 456 had been installed to 
+
+--- Document Chunk 1258 ---
+assist staff walking along the track, but as the bridge was located on a section of 
+
+--- Document Chunk 1259 ---
+track where access was prohibited except during a possession or line blockage, 
+
+--- Document Chunk 1260 ---
+it was rarely used. As there was insufficient time during a possession to remove/
+
+--- Document Chunk 1261 ---
+reinstall the walkways and complete a detailed examination, the TME planned to 
+
+--- Document Chunk 1262 ---
+have the walkways removed permanently during 2020.
+
+--- Document Chunk 1263 ---
+Analysis
+
+--- Document Chunk 1264 ---
+Report 12/2020
+
+--- Document Chunk 1265 ---
+Wanstead Park
+
+--- Document Chunk 1266 ---
+35
+
+--- Document Chunk 1267 ---
+November 2020
+
+--- Document Chunk 1268 ---
+Figure 32: View of bridge 456 deck following the accident, but before the walkway was removed. With 
+
+--- Document Chunk 1269 ---
+the walkway in place, the inside faces of the longitudinal timbers were not visible for inspection.
+
+--- Document Chunk 1270 ---
+102 In December 2018, the TME visited bridge 456 during a planned two-yearly 
+
+--- Document Chunk 1271 ---
+track maintenance engineer’s inspection. He observed and recorded a split in a 
+
+--- Document Chunk 1272 ---
+longitudinal timber on the down line, but did not observe anything amiss with the 
+
+--- Document Chunk 1273 ---
+track or any of the longitudinal timbers on the up line. The first indication of a wide 
+
+--- Document Chunk 1274 ---
+gauge fault was not apparent until three months later (paragraph 78). 
+
+--- Document Chunk 1275 ---
+103 In March 2019, the acting team leader [longitudinal timbers] took over 
+
+--- Document Chunk 1276 ---
+responsibility for detailed longitudinal timber inspections for Barking depot. On 19 
+
+--- Document Chunk 1277 ---
+June 2019, he undertook an annual detailed inspection of bridge 456. He used 
+
+--- Document Chunk 1278 ---
+form TEF3021 to record the gauge which ranged from 1448 mm to 1453 mm, 
+
+--- Document Chunk 1279 ---
+equivalent to wide gauge of 13 mm to 18 mm, and was 14 mm near the POD. The 
+
+--- Document Chunk 1280 ---
+gauge exceeded the alert limit but remained below the intervention limit and he 
+
+--- Document Chunk 1281 ---
+recorded ‘adjust gauge’ on the form.
+
+--- Document Chunk 1282 ---
+104 During the detailed inspection he stated that he checked for damage, loose 
+
+--- Document Chunk 1283 ---
+screws, and large splits but found nothing loose. He was unable to inspect the 
+
+--- Document Chunk 1284 ---
+inside of the timbers and reported ‘inside of timber not accessible due to fibre 
+
+--- Document Chunk 1285 ---
+glass walkway’. He also identified that 12 cleats were corroding and wrote ‘New 
+
+--- Document Chunk 1286 ---
+cleat system required.’  
+
+--- Document Chunk 1287 ---
+105 He identified a split in timber 1L and observed that part of the timber was out of 
+
+--- Document Chunk 1288 ---
+alignment. He recorded ‘15mm split’ in the relevant part of the TEF3104 report 
+
+--- Document Chunk 1289 ---
+and included three photographs of the split in his report (figure 33 and figure 34).
+
+--- Document Chunk 1290 ---
+Analysis
+
+--- Document Chunk 1291 ---
+Report 12/2020
+
+--- Document Chunk 1292 ---
+Wanstead Park
+
+--- Document Chunk 1293 ---
+36
+
+--- Document Chunk 1294 ---
+November 2020
+
+--- Document Chunk 1295 ---
+106 In answer to the question ‘what method did you use to test timber integrity’, the 
+
+--- Document Chunk 1296 ---
+report states ‘hammer and drill’. The report does not record which timbers were 
+
+--- Document Chunk 1297 ---
+tested, but the acting team leader [longitudinal timbers] did not identify decay 
+
+--- Document Chunk 1298 ---
+within timbers 1L or 2L. Standard TRK/3038 (issue 6) states ‘Test drillings of 
+
+--- Document Chunk 1299 ---
+timber shall only be taken when there are signs of deterioration or other grounds 
+
+--- Document Chunk 1300 ---
+to suspect decay of the timber.’  The photographs show that the visible faces of 
+
+--- Document Chunk 1301 ---
+timber 2L showed no sign of the interior deterioration. This was probably because 
+
+--- Document Chunk 1302 ---
+of the effect of the timber preservative (paragraph 67). 
+
+--- Document Chunk 1303 ---
+107 The acting team leader had not reviewed a copy of the most recent track 
+
+--- Document Chunk 1304 ---
+recording vehicle trace prior to commencing his inspection, despite his training 
+
+--- Document Chunk 1305 ---
+telling him that he should do so (paragraph 134). He was therefore unaware that 
+
+--- Document Chunk 1306 ---
+during the previous month, two track recording vehicle runs had recorded wide 
+
+--- Document Chunk 1307 ---
+gauge faults on, or near, the bridge (paragraphs 79 and 82).
+
+--- Document Chunk 1308 ---
+Figure 33 and figure 34: Views of 15 mm wide split in timber 1L recorded in the detailed inspection 
+
+--- Document Chunk 1309 ---
+report dated 19 June 2019 (courtesy of Network Rail). The same split is visible in figure 20.
+
+--- Document Chunk 1310 ---
+108 The acting team leader ticked ‘No’ to the questions ‘Is there any lateral and/or 
+
+--- Document Chunk 1311 ---
+vertical movement Under Load’ and ‘Is there any sign of gauge spread’. He also 
+
+--- Document Chunk 1312 ---
+reported that drainage was ‘G’ (i.e. Good) and marked Timber 1L condition as 
+
+--- Document Chunk 1313 ---
+‘Fair’, and Timber 2L condition as ‘Good’, with 4 years’ serviceable life remaining 
+
+--- Document Chunk 1314 ---
+on all timbers. He did not add any comment on the final page of the report headed 
+
+--- Document Chunk 1315 ---
+‘General observation & Recommendations’ because he considered it would be 
+
+--- Document Chunk 1316 ---
+repeating information in the body of the report. On 3 July 2019, the TME signed 
+
+--- Document Chunk 1317 ---
+off both the TEF3021 and TEF3014 reports without adding any comments. The 
+
+--- Document Chunk 1318 ---
+TME stated that it was difficult from a photograph to know the severity of the split 
+
+--- Document Chunk 1319 ---
+and there was nothing that brought his attention to the split being a concern.
+
+--- Document Chunk 1320 ---
+109 The assistant track manager undertook planned supervisor’s visual inspections 
+
+--- Document Chunk 1321 ---
+of the longitudinal timbers on 8 February, 23 May, 22 August and 10 November 
+
+--- Document Chunk 1322 ---
+2019. On each occasion, he measured the static gauge (figure 13) and recorded 
+
+--- Document Chunk 1323 ---
+this on a TEF3021 form. In the vicinity of the POD, gauge measurements ranged 
+
+--- Document Chunk 1324 ---
+between 1455 mm (equivalent to 20 mm wide gauge) on 23 May 2019, and 1447 
+
+--- Document Chunk 1325 ---
+mm (equivalent to 12 mm wide gauge) on 10 November 2019. He marked the 
+
+--- Document Chunk 1326 ---
+timber condition ‘Fair’ for all eight longitudinal timbers on the up line on each 
+
+--- Document Chunk 1327 ---
+occasion. 
+
+--- Document Chunk 1328 ---
+Analysis
+
+--- Document Chunk 1329 ---
+Report 12/2020
+
+--- Document Chunk 1330 ---
+Wanstead Park
+
+--- Document Chunk 1331 ---
+37
+
+--- Document Chunk 1332 ---
+November 2020
+
+--- Document Chunk 1333 ---
+110 On the report for the 22 August 2019 inspection, the supervisor wrote ‘timber 
+
+--- Document Chunk 1334 ---
+gauge job’ with a reference number. This referred to a work order to correct the 
+
+--- Document Chunk 1335 ---
+wide gauge fault that had been raised in Ellipse on 25 July 2018 following the 
+
+--- Document Chunk 1336 ---
+note added to the detailed inspection report the previous month (paragraph 97). 
+
+--- Document Chunk 1337 ---
+However, this activity had been repeatedly reprioritised and the work deferred 
+
+--- Document Chunk 1338 ---
+because site reports and inspections indicated that the gauge was not 
+
+--- Document Chunk 1339 ---
+deteriorating and had not yet exceeded the intervention limit. The TME also 
+
+--- Document Chunk 1340 ---
+understood that the previous five track recording vehicle runs had shown there 
+
+--- Document Chunk 1341 ---
+were no gauge faults on the bridge, and that the gauge faults that were shown 
+
+--- Document Chunk 1342 ---
+related to the concrete sleepers near the bridge with crushed nylon pads where 
+
+--- Document Chunk 1343 ---
+remedial work had been undertaken (paragraph 81). Although there was an 
+
+--- Document Chunk 1344 ---
+established process for raising queries, the TME did not consider it was his 
+
+--- Document Chunk 1345 ---
+team’s responsibility to cross-check the centrally-produced fault sheets against 
+
+--- Document Chunk 1346 ---
+the traces for errors or omissions. 
+
+--- Document Chunk 1347 ---
+111 The condition of the trailing bogie on wagon 3415 imposed unusually high 
+
+--- Document Chunk 1348 ---
+lateral loading on the track.
+
+--- Document Chunk 1349 ---
+112 The curving behaviour of conventional rolling stock means that significant lateral 
+
+--- Document Chunk 1350 ---
+track forces are normal when trains negotiate small radius curves. However, 
+
+--- Document Chunk 1351 ---
+the presence of unusually high lateral forces applied to the track by the trailing 
+
+--- Document Chunk 1352 ---
+bogie of wagon 3415 is suggested by the following six wagons not derailing when 
+
+--- Document Chunk 1353 ---
+travelling over the position where the bogie derailed (the leading bogie of wagon 
+
+--- Document Chunk 1354 ---
+3114 derailed beyond this position). This implies that the rails on the curve spread 
+
+--- Document Chunk 1355 ---
+outwards as the trailing bogie of wagon 3415 travelled past, and moved back 
+
+--- Document Chunk 1356 ---
+before the remaining wagons passed. Damage to bridge timbers (paragraphs 62 
+
+--- Document Chunk 1357 ---
+to 73) indicates that most of the spread was due to movement of the right-hand 
+
+--- Document Chunk 1358 ---
+rail. It is possible that the trailing bogie applied unusually high lateral forces 
+
+--- Document Chunk 1359 ---
+because of a combination of the following two factors:     
+
+--- Document Chunk 1360 ---
+l a defect on wagon 3415 (paragraph 113)
+
+--- Document Chunk 1361 ---
+l uneven payload (paragraph 124).  
+
+--- Document Chunk 1362 ---
+Defect on wagon 3415
+
+--- Document Chunk 1363 ---
+113 Evidence that wagon 3415’s trailing bogie was imposing a high lateral force 
+
+--- Document Chunk 1364 ---
+(figure 35) on the right-hand rail is provided in the following paragraphs by 
+
+--- Document Chunk 1365 ---
+considering wheel flange wear over the previous three years. Curving behaviour 
+
+--- Document Chunk 1366 ---
+under cant excess suggests that the right wheel flange of the trailing bogies of 
+
+--- Document Chunk 1367 ---
+each wagon would have been close to, and probably in contact with, the outer 
+
+--- Document Chunk 1368 ---
+(right-hand) rail (paragraph 46).  
+
+--- Document Chunk 1369 ---
+Analysis
+
+--- Document Chunk 1370 ---
+Report 12/2020
+
+--- Document Chunk 1371 ---
+Wanstead Park
+
+--- Document Chunk 1372 ---
+38
+
+--- Document Chunk 1373 ---
+November 2020
+
+--- Document Chunk 1374 ---
+ 
+
+--- Document Chunk 1375 ---
+ 
+
+--- Document Chunk 1376 ---
+Vertical force from weight 
+
+--- Document Chunk 1377 ---
+of wagon and loadAdditional horizontal 
+
+--- Document Chunk 1378 ---
+force from bogie offset
+
+--- Document Chunk 1379 ---
+Horizontal force 
+
+--- Document Chunk 1380 ---
+from curving
+
+--- Document Chunk 1381 ---
+Resultant force 
+
+--- Document Chunk 1382 ---
+causing rail movement 
+
+--- Document Chunk 1383 ---
+and rail/timber rotation
+
+--- Document Chunk 1384 ---
+Rail
+
+--- Document Chunk 1385 ---
+Wheel
+
+--- Document Chunk 1386 ---
+Figure 35: Simplified diagram showing forces acting from wheel to rail to cause rail movement and 
+
+--- Document Chunk 1387 ---
+rotation
+
+--- Document Chunk 1388 ---
+114 The corners of the wagon are numbered 1 to 4 in a clockwise direction (as seen 
+
+--- Document Chunk 1389 ---
+from above). On 23 January 2020, the 2-3 end of the wagon was leading so the 
+
+--- Document Chunk 1390 ---
+trailing bogie was at the 1-4 end of the wagon. Analysis of maintenance records 
+
+--- Document Chunk 1391 ---
+provided by the wagon’s owner, VTG, shows that wagon 3415 was removed 
+
+--- Document Chunk 1392 ---
+from service in November 2017, August 2018 and September 2019 because its 
+
+--- Document Chunk 1393 ---
+wheel flanges had worn thin and were approaching the wear limit. For wheels with 
+
+--- Document Chunk 1394 ---
+the P6 profile, as fitted to this wagon, the minimum permitted flange thickness 
+
+--- Document Chunk 1395 ---
+is 24 mm. On each occasion, the significant flange wear had occurred to the 
+
+--- Document Chunk 1396 ---
+wheels fitted to the 1-4 end bogie, but only affected one wheel on each wheelset. 
+
+--- Document Chunk 1397 ---
+Records do not show whether this was the left-hand side or right-hand side. On 
+
+--- Document Chunk 1398 ---
+each occasion, two full profile wheelsets were fitted to the 1-4 end bogie before 
+
+--- Document Chunk 1399 ---
+the wagon re-entered traffic. VTG’s Wheel Exchange Authorisation forms show 
+
+--- Document Chunk 1400 ---
+that throughout this time, the wheelsets on the 2-3 end bogie experienced normal 
+
+--- Document Chunk 1401 ---
+wear and were not changed.
+
+--- Document Chunk 1402 ---
+115 The most recent wheelset change took place in October 2019. Following the 
+
+--- Document Chunk 1403 ---
+derailment on 23 January 2020, wheel measurements showed that the right- hand 
+
+--- Document Chunk 1404 ---
+flanges on the two wheelsets fitted to the 1-4 end bogie were at least 2 mm 
+
+--- Document Chunk 1405 ---
+thinner than those on the left-hand wheels, despite having been in service for 
+
+--- Document Chunk 1406 ---
+less than four months. This unusually high wear is consistent with the right-hand 
+
+--- Document Chunk 1407 ---
+wheels of this bogie running for longer in flange contact with the rail than the 
+
+--- Document Chunk 1408 ---
+left- hand wheels.
+
+--- Document Chunk 1409 ---
+116 A detailed inspection of the 1-4 end bogie, undertaken by RAIB before the wagon 
+
+--- Document Chunk 1410 ---
+body was lifted from the bogie, found that the bogie centre pivot, provided to allow 
+
+--- Document Chunk 1411 ---
+bogie rotation when the wagon goes around curves, was offset by 7 mm to the 
+
+--- Document Chunk 1412 ---
+right of the wagon body centre-line. This suggested an issue with the bogie pivot 
+
+--- Document Chunk 1413 ---
+so RAIB and VTG carried out further examinations of this centre pivot, and the 
+
+--- Document Chunk 1414 ---
+2-3 end bogie centre pivot, after the body was lifted from the bogies.
+
+--- Document Chunk 1415 ---
+Analysis
+
+--- Document Chunk 1416 ---
+Report 12/2020
+
+--- Document Chunk 1417 ---
+Wanstead Park
+
+--- Document Chunk 1418 ---
+39
+
+--- Document Chunk 1419 ---
+November 2020
+
+--- Document Chunk 1420 ---
+1- 4 end 
+
+--- Document Chunk 1421 ---
+bogie
+
+--- Document Chunk 1422 ---
+2- 3 end 
+
+--- Document Chunk 1423 ---
+bogie
+
+--- Document Chunk 1424 ---
+Left LeftRight Right
+
+--- Document Chunk 1425 ---
+117 To permit bogie rotation, the top of each bogie is fitted with a bogie centre pivot 
+
+--- Document Chunk 1426 ---
+with an internal diameter of 17 inches (432 mm) (figure 36). This encloses and 
+
+--- Document Chunk 1427 ---
+supports a slightly smaller top centre pivot fitted to the underside of the wagon’s 
+
+--- Document Chunk 1428 ---
+underframe (figure 37). The two parts are designed to allow a radial clearance of 
+
+--- Document Chunk 1429 ---
+approximately 6 mm between each of the vertical faces within the assembly. This 
+
+--- Document Chunk 1430 ---
+is to allow the bogie to move laterally into the appropriate position relative to the 
+
+--- Document Chunk 1431 ---
+wagon body. The large horizontal surfaces of these steel castings are designed to 
+
+--- Document Chunk 1432 ---
+be in contact and support the weight of the wagon body in conjunction with side 
+
+--- Document Chunk 1433 ---
+bearers.6
+
+--- Document Chunk 1434 ---
+Figure 36: The 1-4 end bogie and bogie centre 
+
+--- Document Chunk 1435 ---
+pivot after removal from wagon 3415
+
+--- Document Chunk 1436 ---
+Figure 37: The 2-3 end top centre pivot with 
+
+--- Document Chunk 1437 ---
+pin, located on the underside of the wagon’s 
+
+--- Document Chunk 1438 ---
+underframe
+
+--- Document Chunk 1439 ---
+Figure 38: The 1-4 end bogie centre pivot on 
+
+--- Document Chunk 1440 ---
+wagon 3415
+
+--- Document Chunk 1441 ---
+Figure 39: The 2-3 end bogie centre pivot
+
+--- Document Chunk 1442 ---
+118 Examination of the bogie centre pivot attached to each bogie found a difference 
+
+--- Document Chunk 1443 ---
+in the wear patterns, with uneven contact apparent on the 1-4 end, but relatively 
+
+--- Document Chunk 1444 ---
+uniform contact on the 2-3 end (figure 38 and figure 39).6  
+
+--- Document Chunk 1445 ---
+6 A component located on the side frame of a bogie (one per side) which provides vertical support to the vehicle 
+
+--- Document Chunk 1446 ---
+body while allowing the bogie to rotate.
+
+--- Document Chunk 1447 ---
+Analysis
+
+--- Document Chunk 1448 ---
+Report 12/2020
+
+--- Document Chunk 1449 ---
+Wanstead Park
+
+--- Document Chunk 1450 ---
+40
+
+--- Document Chunk 1451 ---
+November 2020
+
+--- Document Chunk 1452 ---
+119 The bogie centre pivots incorporate a central upstand, 40 mm high and 108 
+
+--- Document Chunk 1453 ---
+mm diameter with a 63 mm diameter hole to contain a pin. The upstand fits into 
+
+--- Document Chunk 1454 ---
+a recess in the top centre pivot. On the 2-3 end, the top centre pivot recess 
+
+--- Document Chunk 1455 ---
+measured 43 mm deep, into which the 40 mm high upstand could fit without 
+
+--- Document Chunk 1456 ---
+making contact at the top when the large horizonal faces of the castings were 
+
+--- Document Chunk 1457 ---
+in contact. On the 1-4 end, the recess was also 43 mm deep, but it contained a 
+
+--- Document Chunk 1458 ---
+5mm thick plug of hardened debris-impregnated grease which had the effect of 
+
+--- Document Chunk 1459 ---
+reducing its depth to 38 mm (figure 40 and figure 41). The grease plug pressed 
+
+--- Document Chunk 1460 ---
+against the top of the upstand and carried part of the load intended to be carried 
+
+--- Document Chunk 1461 ---
+on the large horizontal faces. This prevented the bearing from being correctly 
+
+--- Document Chunk 1462 ---
+seated on the horizontal surfaces (figure 42 and figure 43).
+
+--- Document Chunk 1463 ---
+Figure 40: Part of the grease plug extracted from 
+
+--- Document Chunk 1464 ---
+the 1-4 end top centre pivot recess on wagon 
+
+--- Document Chunk 1465 ---
+3415
+
+--- Document Chunk 1466 ---
+Figure 41: The largest piece of metal debris 
+
+--- Document Chunk 1467 ---
+extracted from the 1-4 end top centre pivot recess
+
+--- Document Chunk 1468 ---
+Figure 42: Diagram showing the wrongly seated 1-4 end (left) bogie centre pivot on wagon 3415
+
+--- Document Chunk 1469 ---
+Analysis
+
+--- Document Chunk 1470 ---
+Grease layer 
+
+--- Document Chunk 1471 ---
+1.2 mm thick
+
+--- Document Chunk 1472 ---
+Grease layer 
+
+--- Document Chunk 1473 ---
+3.6 mm thick
+
+--- Document Chunk 1474 ---
+Polished surface 
+
+--- Document Chunk 1475 ---
+on side of upstand
+
+--- Document Chunk 1476 ---
+Unpolished surface
+
+--- Document Chunk 1477 ---
+Wagon 3415 1-4 end bogie pivot
+
+--- Document Chunk 1478 ---
+Polished surface on upper 
+
+--- Document Chunk 1479 ---
+face with gouge marks
+
+--- Document Chunk 1480 ---
+Gap filled with grease plug 
+
+--- Document Chunk 1481 ---
+impregnated with metal fragments
+
+--- Document Chunk 1482 ---
+Polished 
+
+--- Document Chunk 1483 ---
+surface
+
+--- Document Chunk 1484 ---
+Bogie centre pivot
+
+--- Document Chunk 1485 ---
+Top centre pivot
+
+--- Document Chunk 1486 ---
+Pin
+
+--- Document Chunk 1487 ---
+36-39 mm 43 mm
+
+--- Document Chunk 1488 ---
+Report 12/2020
+
+--- Document Chunk 1489 ---
+Wanstead Park
+
+--- Document Chunk 1490 ---
+41
+
+--- Document Chunk 1491 ---
+November 2020
+
+--- Document Chunk 1492 ---
+Figure 43: Diagram showing the correctly seated 2-3 end bogie centre pivot
+
+--- Document Chunk 1493 ---
+120 Part of the recovered grease plug was tested by RAIB to determine the maximum 
+
+--- Document Chunk 1494 ---
+compressive force the material could withstand. Samples of the grease were 
+
+--- Document Chunk 1495 ---
+formed into 12 mm diameter x 4.7 mm thick pellets and placed into a testing rig 
+
+--- Document Chunk 1496 ---
+which restricted lateral expansion. A force of up to 60 kN (6,000 kg) was applied 
+
+--- Document Chunk 1497 ---
+and the amount of compression measured and recorded. A series of samples 
+
+--- Document Chunk 1498 ---
+were each able to support a load of at least 170 N/mm2 before the grease started 
+
+--- Document Chunk 1499 ---
+to break down and flow. The test rig reproduced loading conditions that were 
+
+--- Document Chunk 1500 ---
+similar to those that the grease plug was subject to when constrained in the 
+
+--- Document Chunk 1501 ---
+bogie pivot. As the top of the central upstand has a surface area of approximately 
+
+--- Document Chunk 1502 ---
+6,000 mm2, the grease plug would have been capable of carrying the weight of 
+
+--- Document Chunk 1503 ---
+one end of a fully loaded wagon body. 
+
+--- Document Chunk 1504 ---
+121 When the bogie was installed, the grease would have been of a normal viscosity 
+
+--- Document Chunk 1505 ---
+and would have flowed relatively freely. Grease contains oil and a thickening 
+
+--- Document Chunk 1506 ---
+agent, but on examination, the grease had lost the volatile compounds of the oil, 
+
+--- Document Chunk 1507 ---
+and gained some debris. This had resulted in it gradually hardening to form the 
+
+--- Document Chunk 1508 ---
+plug found in the recess.
+
+--- Document Chunk 1509 ---
+122 The source and role of the three pieces of metal debris in the grease plug is 
+
+--- Document Chunk 1510 ---
+uncertain, but they may have formed as a result of earlier repair work. It is 
+
+--- Document Chunk 1511 ---
+possible that the metal debris had played a part in transferring part of the wagon 
+
+--- Document Chunk 1512 ---
+body load into an off-centre position on the upstand, so encouraging an uneven 
+
+--- Document Chunk 1513 ---
+build-up of dried grease to one side of the pivot.  This could have been enough to 
+
+--- Document Chunk 1514 ---
+bias the bogie to one side and/or to restrict its free movement. 
+
+--- Document Chunk 1515 ---
+Analysis
+
+--- Document Chunk 1516 ---
+Polished surface Rusted surface Rusted top surface Gap
+
+--- Document Chunk 1517 ---
+Bogie centre pivot
+
+--- Document Chunk 1518 ---
+Polished surface 
+
+--- Document Chunk 1519 ---
+Wagon 3415 2-3 end bogie pivot
+
+--- Document Chunk 1520 ---
+Top centre pivot
+
+--- Document Chunk 1521 ---
+Pin
+
+--- Document Chunk 1522 ---
+39 mm 43 mm
+
+--- Document Chunk 1523 ---
+Report 12/2020
+
+--- Document Chunk 1524 ---
+Wanstead Park
+
+--- Document Chunk 1525 ---
+42
+
+--- Document Chunk 1526 ---
+November 2020
+
+--- Document Chunk 1527 ---
+0 5 10 15 20
+
+--- Document Chunk 1528 ---
+Wheel load (tonnes)
+
+--- Document Chunk 1529 ---
+Left-hand wheel
+
+--- Document Chunk 1530 ---
+Right-hand wheel
+
+--- Document Chunk 1531 ---
+Locomotive
+
+--- Document Chunk 1532 ---
+3110 (4)
+
+--- Document Chunk 1533 ---
+3415 (16)
+
+--- Document Chunk 1534 ---
+3114 (17)
+
+--- Document Chunk 1535 ---
+3125 (18)
+
+--- Document Chunk 1536 ---
+Maximum wheel load 
+
+--- Document Chunk 1537 ---
+(12.7 tonnes) permitted 
+
+--- Document Chunk 1538 ---
+by Railway Group 
+
+--- Document Chunk 1539 ---
+Standard GMRT2141.
+
+--- Document Chunk 1540 ---
+Wagon numbers (position in train)
+
+--- Document Chunk 1541 ---
+Gross loaded weight
+
+--- Document Chunk 1542 ---
+102.3 tonnes
+
+--- Document Chunk 1543 ---
+100.1 tonnes
+
+--- Document Chunk 1544 ---
+105.0 tonnes
+
+--- Document Chunk 1545 ---
+105.4 tonnes
+
+--- Document Chunk 1546 ---
+123 This wagon defect is considered to be a factor, since the resulting restricted bogie 
+
+--- Document Chunk 1547 ---
+movement possibly explains the uneven flange wear on the right-hand wheels 
+
+--- Document Chunk 1548 ---
+of the trailing bogie on wagon 3415 and the abnormally high forces that would 
+
+--- Document Chunk 1549 ---
+be associated with this. The defect is not considered sufficient in itself to have 
+
+--- Document Chunk 1550 ---
+resulted in the lateral loading needed to cause the derailment. This is evidenced 
+
+--- Document Chunk 1551 ---
+by the same bogie passing over bridge 456 without derailing on nine previous 
+
+--- Document Chunk 1552 ---
+occasions in the same month (paragraph 19). 
+
+--- Document Chunk 1553 ---
+Uneven payload
+
+--- Document Chunk 1554 ---
+124 The wagons of train 6Z54 had been weighed when they arrived at Barking 
+
+--- Document Chunk 1555 ---
+for loading, and again after they were loaded on 23 January 2020. On both 
+
+--- Document Chunk 1556 ---
+occasions, the weighing equipment recorded the weight of each wheel. Weighing 
+
+--- Document Chunk 1557 ---
+on arrival allowed the amount of residual payload from previous journeys to be 
+
+--- Document Chunk 1558 ---
+taken into account when determining the maximum amount of material which 
+
+--- Document Chunk 1559 ---
+should be loaded at Barking. Prior to loading on 23 January 2020, the average 
+
+--- Document Chunk 1560 ---
+residual payload in each wagon was about 6.6 tonnes and the maximum was 
+
+--- Document Chunk 1561 ---
+13.5 tonnes.
+
+--- Document Chunk 1562 ---
+125 The wagons were loaded at Barking using a 360° excavator with a weighing 
+
+--- Document Chunk 1563 ---
+facility, working from the right-hand side of the train. This method of loading, and 
+
+--- Document Chunk 1564 ---
+the nature of the clayey material involved, contributed to the payload in every 
+
+--- Document Chunk 1565 ---
+wagon being off-set towards the right-hand side when the train left Barking on 
+
+--- Document Chunk 1566 ---
+23 January. Wagon 3415 did not exceed the maximum gross vehicle weight, 
+
+--- Document Chunk 1567 ---
+but the load was concentrated towards the rear right corner of the wagon. The 
+
+--- Document Chunk 1568 ---
+load on the leading and trailing wheelsets on the trailing bogie weighed 26.4 
+
+--- Document Chunk 1569 ---
+tonnes and 25.95 tonnes respectively, both exceeding the 25.4 tonne RA10 limit 
+
+--- Document Chunk 1570 ---
+(paragraph 56). In addition, the payload was off-set so that the two right- hand 
+
+--- Document Chunk 1571 ---
+wheels on this bogie were carrying over 6 tonnes more than the left-hand wheels 
+
+--- Document Chunk 1572 ---
+with a maximum wheel load of 14.9 tonnes, which can be compared to the 
+
+--- Document Chunk 1573 ---
+12.7 tonnes carried if the maximum permitted vehicle load is distributed equally 
+
+--- Document Chunk 1574 ---
+between all wagon wheels (figure 44). The maximum wheel load is also defined 
+
+--- Document Chunk 1575 ---
+by Railway Group Standard GMRT2141 ‘Permissible track forces and resistance 
+
+--- Document Chunk 1576 ---
+to derailment and roll-over of railway vehicles’ as not exceeding 124.5 kN. This is 
+
+--- Document Chunk 1577 ---
+equivalent to a wheel load of 12.7 tonnes.
+
+--- Document Chunk 1578 ---
+Figure 44: Wagon loading
+
+--- Document Chunk 1579 ---
+Analysis
+
+--- Document Chunk 1580 ---
+Report 12/2020
+
+--- Document Chunk 1581 ---
+Wanstead Park
+
+--- Document Chunk 1582 ---
+43
+
+--- Document Chunk 1583 ---
+November 2020
+
+--- Document Chunk 1584 ---
+126 Industry guidance7 published by the National Freight Safety Group includes the 
+
+--- Document Chunk 1585 ---
+following advice under the heading ‘Bulk load distribution’:
+
+--- Document Chunk 1586 ---
+‘Wagons when fully loaded or otherwise are required to operate within 
+
+--- Document Chunk 1587 ---
+parameters of weight distribution. Unbalanced wagons change the ride 
+
+--- Document Chunk 1588 ---
+characteristics of a wagon and are likely to have a greater propensity to derail. 
+
+--- Document Chunk 1589 ---
+As a general rule the more evenly loaded from side to side and end to end the 
+
+--- Document Chunk 1590 ---
+lower the risk.
+
+--- Document Chunk 1591 ---
+The side to side placement of the load should be controlled and monitored… In 
+
+--- Document Chunk 1592 ---
+practice parties should target for balanced loading and manage their activities to 
+
+--- Document Chunk 1593 ---
+reduce the potential inadvertent bias generated from loading activities. This can 
+
+--- Document Chunk 1594 ---
+be achieved by monitoring the performance of their activities (visual or weights 
+
+--- Document Chunk 1595 ---
+recorded) and providing feedback to the staff undertaking the load placement, 
+
+--- Document Chunk 1596 ---
+identifying actions to be taken. The load placement process may require 
+
+--- Document Chunk 1597 ---
+redesign if staff are unable to adjust loading to within the parameters.’
+
+--- Document Chunk 1598 ---
+127 RAIB has also analysed wagon loading data for the three preceding journeys. On 
+
+--- Document Chunk 1599 ---
+three of the four occasions including 23 January, all wagons were more heavily 
+
+--- Document Chunk 1600 ---
+loaded on the right-hand side. The recorded weight exceeded 12.7 tonnes for 
+
+--- Document Chunk 1601 ---
+89% of the wheels on the right-hand side of the train on 23 January. Over the four 
+
+--- Document Chunk 1602 ---
+journeys, the average was 80%.
+
+--- Document Chunk 1603 ---
+128 The magnitude of the payload and its unevenness would have affected the 
+
+--- Document Chunk 1604 ---
+vertical loads on the bogie pivot assembly and the side bearers and, as a result, 
+
+--- Document Chunk 1605 ---
+the horizontal friction forces acting at each of the various associated contact 
+
+--- Document Chunk 1606 ---
+points and surfaces. It is possible that this combined with the behaviour of the 
+
+--- Document Chunk 1607 ---
+defective bogie pivot arrangement to exacerbate the restriction on bogie rotation, 
+
+--- Document Chunk 1608 ---
+thereby further increasing the lateral forces on the rails.
+
+--- Document Chunk 1609 ---
+Underlying factors
+
+--- Document Chunk 1610 ---
+129 Network Rail’s inspection and maintenance processes were insufficiently 
+
+--- Document Chunk 1611 ---
+rigorous to identify timber deterioration before an unsafe situation 
+
+--- Document Chunk 1612 ---
+developed. 
+
+--- Document Chunk 1613 ---
+130 Network Rail manages and monitors the safety of its longitudinal timber assets 
+
+--- Document Chunk 1614 ---
+by a combination of timber inspections by trained staff, data provided by track 
+
+--- Document Chunk 1615 ---
+recording vehicle runs, and planned track inspections.
+
+--- Document Chunk 1616 ---
+131 The acting team leader [longitudinal timbers], who undertook the detailed 
+
+--- Document Chunk 1617 ---
+inspection in June 2019 (paragraph 103), had attended and passed an ‘Inspection 
+
+--- Document Chunk 1618 ---
+& Maintenance of Longitudinal Timber’ training course in January 2019. Delegates 
+
+--- Document Chunk 1619 ---
+attending this course were required to have already attended a supervisor’s visual 
+
+--- Document Chunk 1620 ---
+inspection course to enable them to recognise signs of track movement and 
+
+--- Document Chunk 1621 ---
+interpret track geometry traces produced following a track recording vehicle run. 
+
+--- Document Chunk 1622 ---
+The acting team leader had attended and passed this course in November 2018.
+
+--- Document Chunk 1623 ---
+7 National freight safety group code of practice ‘Loading bulk wagons’ NFSG-COP-004 published July 2019.
+
+--- Document Chunk 1624 ---
+Analysis
+
+--- Document Chunk 1625 ---
+Report 12/2020
+
+--- Document Chunk 1626 ---
+Wanstead Park
+
+--- Document Chunk 1627 ---
+44
+
+--- Document Chunk 1628 ---
+November 2020
+
+--- Document Chunk 1629 ---
+132 The longitudinal timbers course was run by an experienced Network Rail trainer. 
+
+--- Document Chunk 1630 ---
+The course materials provided an extensive overview of the issues associated 
+
+--- Document Chunk 1631 ---
+with inspecting and maintaining longitudinal timber systems. The two-day course 
+
+--- Document Chunk 1632 ---
+was intended to be entirely classroom-based and the syllabus did not include any 
+
+--- Document Chunk 1633 ---
+practical elements. There was no structured opportunity for delegates to look for 
+
+--- Document Chunk 1634 ---
+rot, wear or damage, and there was no opportunity to practice testing techniques 
+
+--- Document Chunk 1635 ---
+such as assessing the internal condition of timber by taking drill samples and 
+
+--- Document Chunk 1636 ---
+sounding with a hammer (listening to the noise made when striking the timber 
+
+--- Document Chunk 1637 ---
+with a hammer). The training was not specific on where or how inspectors should 
+
+--- Document Chunk 1638 ---
+drill into timbers to detect decay.
+
+--- Document Chunk 1639 ---
+133 Inspectors are required to assess the remaining life of the timbers, but this is a 
+
+--- Document Chunk 1640 ---
+very subjective assessment - not easy to teach without practical elements, and 
+
+--- Document Chunk 1641 ---
+dependent on variables including the amount of rail traffic, wheel loadings and 
+
+--- Document Chunk 1642 ---
+track geometry. The training course included advice on looking for visual signs 
+
+--- Document Chunk 1643 ---
+of failure starting, although these can be hard to identify in softwood such as the 
+
+--- Document Chunk 1644 ---
+Douglas Fir used on bridge 456. Assessing the remaining life of a softwood timber 
+
+--- Document Chunk 1645 ---
+was not specifically covered by the training. Some assets, such as earthworks, 
+
+--- Document Chunk 1646 ---
+use a scoring system to assess asset condition, but there is no similar system for 
+
+--- Document Chunk 1647 ---
+longitudinal timber inspections.
+
+--- Document Chunk 1648 ---
+134 Delegates were instructed that they should obtain and review background 
+
+--- Document Chunk 1649 ---
+information, including recent track recording vehicle traces, prior to an inspection. 
+
+--- Document Chunk 1650 ---
+135 The training course referred to use of the TEF3014 form (paragraph 98), but there 
+
+--- Document Chunk 1651 ---
+was no guidance on how to complete the form and no guidance on whether the 
+
+--- Document Chunk 1652 ---
+timber grading (Good/Fair/Poor) should apply to the whole timber or to its worst 
+
+--- Document Chunk 1653 ---
+part. The course did not refer to the importance of completing the comments and 
+
+--- Document Chunk 1654 ---
+recommendations section of the report to guide those responsible for reviewing it.
+
+--- Document Chunk 1655 ---
+136 The techniques available to Network Rail timber inspectors seeking to determine 
+
+--- Document Chunk 1656 ---
+the internal condition of timbers were limited to sounding with a hammer and 
+
+--- Document Chunk 1657 ---
+taking drill samples. For timbers of this size, the effectiveness of a hammer test 
+
+--- Document Chunk 1658 ---
+is limited, as a timber that made a hollow sound when hit would already be in an 
+
+--- Document Chunk 1659 ---
+unsafe condition.
+
+--- Document Chunk 1660 ---
+137 The drill provided to inspectors formed relatively large holes with the potential 
+
+--- Document Chunk 1661 ---
+to introduce water, and so encourage rot, in the inner parts of timbers. Standard 
+
+--- Document Chunk 1662 ---
+NR/ L2/TRK/3038 (issue 6) therefore limited the use of drills to instances where 
+
+--- Document Chunk 1663 ---
+there were signs of deterioration or other grounds to suspect decay of the timber. 
+
+--- Document Chunk 1664 ---
+As demonstrated at bridge 456, timbers appearing to be in good condition can 
+
+--- Document Chunk 1665 ---
+have a good surface concealing a rotten core (paragraph 67).
+
+--- Document Chunk 1666 ---
+138 The timber specialist commissioned by RAIB to inspect timbers from bridge 456 
+
+--- Document Chunk 1667 ---
+(paragraphs 62 and 66) concluded that the internal decay in timbers 1L and 2L 
+
+--- Document Chunk 1668 ---
+should have been detected by an effective inspection regime. The training given 
+
+--- Document Chunk 1669 ---
+to longitudinal timber inspectors and the techniques available to them when 
+
+--- Document Chunk 1670 ---
+undertaking inspections were likely to be insufficient to achieve this.
+
+--- Document Chunk 1671 ---
+Analysis
+
+--- Document Chunk 1672 ---
+Report 12/2020
+
+--- Document Chunk 1673 ---
+Wanstead Park
+
+--- Document Chunk 1674 ---
+45
+
+--- Document Chunk 1675 ---
+November 2020
+
+--- Document Chunk 1676 ---
+139 VTG’s processes did not recognise an underlying problem with wagon 
+
+--- Document Chunk 1677 ---
+3415 despite the unusual distribution and rate of flange wear on some of its 
+
+--- Document Chunk 1678 ---
+wheelsets.
+
+--- Document Chunk 1679 ---
+140 The need for frequent replacement of some wheelsets on wagon 3415 and the 
+
+--- Document Chunk 1680 ---
+nature of wheel wear on the trailing bogie provided VTG with an opportunity to 
+
+--- Document Chunk 1681 ---
+recognise a problem requiring consideration as a possible safety issue. However, 
+
+--- Document Chunk 1682 ---
+the problem was not identified and so VTG did not consider the underlying cause 
+
+--- Document Chunk 1683 ---
+and its possible implications for safety. 
+
+--- Document Chunk 1684 ---
+141 VTG stated that it did not have any specific process for monitoring or identifying 
+
+--- Document Chunk 1685 ---
+unusual wheel wear patterns. Instead, it relied on the vigilance of the 
+
+--- Document Chunk 1686 ---
+organisations responsible for maintaining the wagons or supplying the wheelsets 
+
+--- Document Chunk 1687 ---
+to identify wear patterns which might indicate a significant geometry fault. VTG 
+
+--- Document Chunk 1688 ---
+provided records of wear patterns for wheelsets fitted to other wagons in the 
+
+--- Document Chunk 1689 ---
+same train, and RAIB found no other examples of wheel wear occurring as rapidly 
+
+--- Document Chunk 1690 ---
+as on wagon 3415.
+
+--- Document Chunk 1691 ---
+142 VTG also stated that uneven wheel flange wear can occur on wagons fitted with 
+
+--- Document Chunk 1692 ---
+3-piece bogies, such as those fitted to wagon 3415. The wear often occurs when 
+
+--- Document Chunk 1693 ---
+the bogie needs to steer on sections of track with small radius curves and no 
+
+--- Document Chunk 1694 ---
+flange lubrication, such as in sidings. Spilt sand and aggregates collecting on the 
+
+--- Document Chunk 1695 ---
+track in loading areas can also contribute by grinding the wheelset flanges against 
+
+--- Document Chunk 1696 ---
+the rails.
+
+--- Document Chunk 1697 ---
+143 Although uneven wheel flange wear is not unusual, significant wear on two 
+
+--- Document Chunk 1698 ---
+wheels on the same side of a bogie does appear to be so. Wheel wear data 
+
+--- Document Chunk 1699 ---
+provided by VTG for most of the other wagons on the train, measured following 
+
+--- Document Chunk 1700 ---
+the accident, showed a variation in flange wear of up to 3 mm when other wheels 
+
+--- Document Chunk 1701 ---
+on the same wheelset were compared. However, only wagon 3415 exhibited rapid 
+
+--- Document Chunk 1702 ---
+flange wear on the same side of both wheelsets on the same bogie. 
+
+--- Document Chunk 1703 ---
+Observation
+
+--- Document Chunk 1704 ---
+144 Three wagons on train 6Z54 exceeded the maximum permitted weight.
+
+--- Document Chunk 1705 ---
+145 Wagon wheel weights measured after loading on 23 January 2020 
+
+--- Document Chunk 1706 ---
+(paragraph 125) were used by loading staff to calculate the total weight of the 
+
+--- Document Chunk 1707 ---
+train, and this weight was passed to a member of DB Cargo staff at Barking. They 
+
+--- Document Chunk 1708 ---
+informed the DB Cargo TOPS office by phone who entered the train’s details 
+
+--- Document Chunk 1709 ---
+into TOPS (Total Operations Processing System) which is operated by Network 
+
+--- Document Chunk 1710 ---
+Rail for purposes including assisting management and recording freight train 
+
+--- Document Chunk 1711 ---
+operations. TOPS carried out some checks before providing output indicating that 
+
+--- Document Chunk 1712 ---
+the train was permitted to leave the loading facility. As only the total train weight 
+
+--- Document Chunk 1713 ---
+had been provided, TOPS calculated the average weight per wagon, checked that 
+
+--- Document Chunk 1714 ---
+this was within the permitted limit, and released the train for departure.
+
+--- Document Chunk 1715 ---
+Analysis
+
+--- Document Chunk 1716 ---
+Report 12/2020
+
+--- Document Chunk 1717 ---
+Wanstead Park
+
+--- Document Chunk 1718 ---
+46
+
+--- Document Chunk 1719 ---
+November 2020
+
+--- Document Chunk 1720 ---
+146 On 23 January, train 6Z54 departed from Barking with a total gross weight of 
+
+--- Document Chunk 1721 ---
+2167 tonnes excluding the locomotive. The maximum theoretical weight for the 
+
+--- Document Chunk 1722 ---
+22 wagons of train 6Z54, each at the maximum permitted weight of 101.6 tonnes, 
+
+--- Document Chunk 1723 ---
+was 2235 tonnes and TOPS released the train on this basis. However, the train 
+
+--- Document Chunk 1724 ---
+was released with three overweight wagons. These were wagons 3114 and 3125 
+
+--- Document Chunk 1725 ---
+positioned directly behind wagon 3415. These weighed 105 tonnes and 105.45 
+
+--- Document Chunk 1726 ---
+tonnes respectively, with the weight concentrated towards the trailing bogie in 
+
+--- Document Chunk 1727 ---
+both cases (figure 44). The other overloaded wagon was the fourth in the train 
+
+--- Document Chunk 1728 ---
+and weighed 102.35 tonnes. All three overloaded wagons were of the JXA type 
+
+--- Document Chunk 1729 ---
+which are larger vehicles (paragraph 17) and therefore may have appeared to 
+
+--- Document Chunk 1730 ---
+be less full. These three wagons were each carrying a residual payload of at 
+
+--- Document Chunk 1731 ---
+least 10 tonnes on arrival at Barking (paragraph 124). Despite only three wagons 
+
+--- Document Chunk 1732 ---
+exceeding the 101.6 tonnes gross weight limit for RA10, uneven loading meant 
+
+--- Document Chunk 1733 ---
+that 24 of the 88 individual axles (27%) had loads in excess of 25.4 tonnes, 
+
+--- Document Chunk 1734 ---
+and 82 of the 176 individual wheels (46%) had loads in excess of 12.7 tonnes 
+
+--- Document Chunk 1735 ---
+(paragraph 125).
+
+--- Document Chunk 1736 ---
+147 An alternative way to enter train data into the TOPS system, is to input the total 
+
+--- Document Chunk 1737 ---
+weight of each individual wagon. Had this been done on 23 January 2020, TOPS 
+
+--- Document Chunk 1738 ---
+would have prevented the train from being released because three wagons 
+
+--- Document Chunk 1739 ---
+exceeded the maximum permitted weight of 101.6 tonnes (paragraph 18). The 
+
+--- Document Chunk 1740 ---
+total weight of wagon 3415 was 100.15 tonnes and was not sufficient for TOPS to 
+
+--- Document Chunk 1741 ---
+prevent the train commencing its journey. Network Rail has stated that it does not 
+
+--- Document Chunk 1742 ---
+mandate that weighbridge weights for each wagon are entered into TOPS, but if 
+
+--- Document Chunk 1743 ---
+overloading is identified, the wagons should be returned to the terminal to allow 
+
+--- Document Chunk 1744 ---
+product to be removed.
+
+--- Document Chunk 1745 ---
+148 For the journeys on 18, 21 and 22 January, only one wagon in each train 
+
+--- Document Chunk 1746 ---
+exceeded the 101.6 tonne gross laden weight limit. However, uneven loading 
+
+--- Document Chunk 1747 ---
+meant that an average of 26% of individual axles exceeded the 25.4 tonne 
+
+--- Document Chunk 1748 ---
+maximum axle weight limit (paragraph 56).
+
+--- Document Chunk 1749 ---
+Previous occurrences of a similar character
+
+--- Document Chunk 1750 ---
+Derailment of a freight train at Bexley, 4 February 1997
+
+--- Document Chunk 1751 ---
+149 A freight train derailed on Bridge 799, immediately east of Bexley station in 
+
+--- Document Chunk 1752 ---
+south-east London, because of lateral movement of the track on the longitudinal 
+
+--- Document Chunk 1753 ---
+timbers on the bridge and a resultant widening of the track gauge. The derailment 
+
+--- Document Chunk 1754 ---
+resulted in substantial damage to the viaduct carrying the track. Four members of 
+
+--- Document Chunk 1755 ---
+the public who were working in or near the arches under the viaduct were injured.
+
+--- Document Chunk 1756 ---
+150 The investigation by HM Railway Inspectorate8 found that the 12th wagon in the 
+
+--- Document Chunk 1757 ---
+train was substantially overloaded. It derailed but remained upright. This resulted 
+
+--- Document Chunk 1758 ---
+in the forces exerted on the track being on average larger than normal. The train 
+
+--- Document Chunk 1759 ---
+was travelling in excess of the speed limit specified for freight trains on the route. 
+
+--- Document Chunk 1760 ---
+The investigation also found that the longitudinal timbers of the bridge were 
+
+--- Document Chunk 1761 ---
+severely decayed and overdue for replacement.
+
+--- Document Chunk 1762 ---
+8 https://www.railwaysarchive.co.uk/docsummary.php?docID=179.
+
+--- Document Chunk 1763 ---
+Analysis
+
+--- Document Chunk 1764 ---
+Report 12/2020
+
+--- Document Chunk 1765 ---
+Wanstead Park
+
+--- Document Chunk 1766 ---
+47
+
+--- Document Chunk 1767 ---
+November 2020
+
+--- Document Chunk 1768 ---
+Derailment near Liverpool Central underground station, 26 October 2005 (RAIB 
+
+--- Document Chunk 1769 ---
+Report 14/2006)
+
+--- Document Chunk 1770 ---
+151 The last bogie of a three-car passenger train derailed due to the widening of 
+
+--- Document Chunk 1771 ---
+the track gauge during the passage of the train because the track was in poor 
+
+--- Document Chunk 1772 ---
+condition. Track maintenance was not sufficient to prevent the condition of the 
+
+--- Document Chunk 1773 ---
+track deteriorating over time. A computer simulation study, undertaken as part of 
+
+--- Document Chunk 1774 ---
+the RAIB investigation, demonstrated the influence that the leading wheelsets 
+
+--- Document Chunk 1775 ---
+had on the gauge presented to the following wheelsets. It showed that, on track 
+
+--- Document Chunk 1776 ---
+having poor rail-sleeper lateral restraint, preceding wheelsets progressively widen 
+
+--- Document Chunk 1777 ---
+the gauge. It also showed how increased flexibility led to increased spreading 
+
+--- Document Chunk 1778 ---
+force and hence to progressive rail fixing damage which resulted in more spread.
+
+--- Document Chunk 1779 ---
+Derailment at Angerstein Junction, 2 April 2014 (RAIB Report 11/2015)
+
+--- Document Chunk 1780 ---
+152 Two wagons of a nominally empty freight train derailed on the approach to 
+
+--- Document Chunk 1781 ---
+Angerstein Junction, near Charlton in south-east London. The wagons derailed 
+
+--- Document Chunk 1782 ---
+because the leading right-hand wheel on one of them was carrying insufficient 
+
+--- Document Chunk 1783 ---
+load to prevent the wheel climbing up the outer rail on a curved section of track. 
+
+--- Document Chunk 1784 ---
+The insufficient load was due to a combination of a track defect, an unevenly 
+
+--- Document Chunk 1785 ---
+distributed residual payload in the wagon, and an uneven distribution of load 
+
+--- Document Chunk 1786 ---
+associated with a twisted bogie.
+
+--- Document Chunk 1787 ---
+Derailment at Washwood Heath West Junction, Birmingam, 23 March 2015 (RAIB 
+
+--- Document Chunk 1788 ---
+Report 01/2016)
+
+--- Document Chunk 1789 ---
+153 One bogie of a wagon in a container train derailed on a set of points as it crossed 
+
+--- Document Chunk 1790 ---
+between lines at Washwood Heath West Junction, in Birmingham. The bogie 
+
+--- Document Chunk 1791 ---
+ran derailed for 121 metres before rerailing itself as it ran through another set of 
+
+--- Document Chunk 1792 ---
+points. The track contained a twist fault of a magnitude which Network Rail’s track 
+
+--- Document Chunk 1793 ---
+maintenance standard specified should be rectified within 36 hours. Network Rail 
+
+--- Document Chunk 1794 ---
+was not aware of the existence of this fault at the time. 
+
+--- Document Chunk 1795 ---
+154 Wagons should be capable of negotiating a track twist of a magnitude which the 
+
+--- Document Chunk 1796 ---
+track standard allows to remain in a line open to traffic. When examined after the 
+
+--- Document Chunk 1797 ---
+derailment, the liner on the centre pivot of the bogie was found to be worn beyond 
+
+--- Document Chunk 1798 ---
+its maintenance limit. The centre pivot liner is made from a plastic material and 
+
+--- Document Chunk 1799 ---
+is provided to allow relative movement between the body centre pivot and the 
+
+--- Document Chunk 1800 ---
+bogie. The worn liner had restricted the freedom of the bogie to rotate, increasing 
+
+--- Document Chunk 1801 ---
+its rotational stiffness. Furthermore, it resulted in reduced side bearer clearances, 
+
+--- Document Chunk 1802 ---
+increasing wheel unloading in track twist conditions. Both the increased rotational 
+
+--- Document Chunk 1803 ---
+stiffness and the increased wheel unloading reduced the wagon’s resistance to 
+
+--- Document Chunk 1804 ---
+derailment, causing it to derail when it encountered the track twist on the curved 
+
+--- Document Chunk 1805 ---
+track. The worn centre pivot liner had not been identified during maintenance of 
+
+--- Document Chunk 1806 ---
+the wagon as the maintenance instructions were unclear about when it should be 
+
+--- Document Chunk 1807 ---
+inspected. A check on other wagons in the same fleet revealed that a number of 
+
+--- Document Chunk 1808 ---
+other wagons of the same type had experienced a similar degree of centre pivot 
+
+--- Document Chunk 1809 ---
+liner wear.
+
+--- Document Chunk 1810 ---
+Analysis
+
+--- Document Chunk 1811 ---
+Report 12/2020
+
+--- Document Chunk 1812 ---
+Wanstead Park
+
+--- Document Chunk 1813 ---
+48
+
+--- Document Chunk 1814 ---
+November 2020
+
+--- Document Chunk 1815 ---
+Freight train derailment at Lewisham, south- east London, 24 January 2017 (RAIB 
+
+--- Document Chunk 1816 ---
+Report 04/2018)
+
+--- Document Chunk 1817 ---
+155 Two wagons of a freight train derailed on newly laid track at Courthill Loop South 
+
+--- Document Chunk 1818 ---
+Junction in Lewisham. The first of the wagons ran derailed, damaging the track, 
+
+--- Document Chunk 1819 ---
+then overturned spilling its payload of sand. The RAIB investigation found that 
+
+--- Document Chunk 1820 ---
+the derailment occurred because this wagon, which was probably carrying an 
+
+--- Document Chunk 1821 ---
+uneven payload, encountered a significant track twist on tightly curved track. This 
+
+--- Document Chunk 1822 ---
+resulted in there being insufficient wheel load to prevent its flange climbing over 
+
+--- Document Chunk 1823 ---
+the railhead.
+
+--- Document Chunk 1824 ---
+Failure of a longitudinal timber at bridge 2013, Haringey, August 2017
+
+--- Document Chunk 1825 ---
+156 Part of a longitudinal timber from bridge 2013 (St Ann’s Road) in Haringey, north 
+
+--- Document Chunk 1826 ---
+London, fell onto the pavement of the street below on another part of the Barking 
+
+--- Document Chunk 1827 ---
+to Gospel Oak route. On this bridge, the longitudinal timbers span between 
+
+--- Document Chunk 1828 ---
+cross- girders but without a metal deck, so the underside of the timbers is visible 
+
+--- Document Chunk 1829 ---
+from beneath the bridge. A member of the public reported the incident to the 
+
+--- Document Chunk 1830 ---
+police. There were no injuries.
+
+--- Document Chunk 1831 ---
+157 The longitudinal timbers on this bridge had already been identified as being in 
+
+--- Document Chunk 1832 ---
+need of renewal, but as this was a relatively long bridge, the work was repeatedly 
+
+--- Document Chunk 1833 ---
+deferred due to shortcomings with the arrangements for planning and funding 
+
+--- Document Chunk 1834 ---
+the work. RAIB undertook a preliminary examination, but as the incident did not 
+
+--- Document Chunk 1835 ---
+appear to be directly associated with the movement of a train, it did not undertake 
+
+--- Document Chunk 1836 ---
+a full investigation. However, RAIB highlighted its concerns in a letter to Network 
+
+--- Document Chunk 1837 ---
+Rail and the Office of Rail and Road (ORR) (Appendix C). 
+
+--- Document Chunk 1838 ---
+158 A Network Rail internal investigation found that the affected softwood timber 
+
+--- Document Chunk 1839 ---
+had rotted internally to the heartwood, which crushed under load resulting in 
+
+--- Document Chunk 1840 ---
+the section of wood detaching. The investigation also found that the route asset 
+
+--- Document Chunk 1841 ---
+manager was not informed that the timber required renewal and that detailed 
+
+--- Document Chunk 1842 ---
+knowledge of work needing to be done was lost due to the departure of staff. 
+
+--- Document Chunk 1843 ---
+159 ORR carried out an intervention and in November 2018, issued a Special 
+
+--- Document Chunk 1844 ---
+Track Inspections Intervention Report to Network Rail which addressed the 
+
+--- Document Chunk 1845 ---
+management of longitudinal timbers on Anglia route, including factors relating to 
+
+--- Document Chunk 1846 ---
+the incident at bridge 2013. The review found that the route conducted no formal 
+
+--- Document Chunk 1847 ---
+analysis of inspection information to see trends. The report recommended that the 
+
+--- Document Chunk 1848 ---
+route should define in more detail exactly when and where drill samples should be 
+
+--- Document Chunk 1849 ---
+taken and when a hammer should be used for sounding.
+
+--- Document Chunk 1850 ---
+Analysis
+
+--- Document Chunk 1851 ---
+Report 12/2020
+
+--- Document Chunk 1852 ---
+Wanstead Park
+
+--- Document Chunk 1853 ---
+49
+
+--- Document Chunk 1854 ---
+November 2020
+
+--- Document Chunk 1855 ---
+Summary of conclusions 
+
+--- Document Chunk 1856 ---
+Immediate cause 
+
+--- Document Chunk 1857 ---
+160 The track was unable to maintain the correct gauge as train 6Z54 passed over it 
+
+--- Document Chunk 1858 ---
+(paragraph 43).
+
+--- Document Chunk 1859 ---
+Causal factors
+
+--- Document Chunk 1860 ---
+161 The causal factors were:
+
+--- Document Chunk 1861 ---
+a. the rail restraint was inadequate leading to a persistent problem with wide 
+
+--- Document Chunk 1862 ---
+gauge (paragraph 49, see action already taken (paragraph 171) hence no 
+
+--- Document Chunk 1863 ---
+recommendation, Learning point 1)
+
+--- Document Chunk 1864 ---
+b. track recording vehicles identified a wide gauge fault but output derived from 
+
+--- Document Chunk 1865 ---
+this data did not result in track maintenance staff repairing faults at the correct 
+
+--- Document Chunk 1866 ---
+location (paragraph 74, Recommendation 1)
+
+--- Document Chunk 1867 ---
+c. Network Rail was not aware of the severity of the longitudinal timber 
+
+--- Document Chunk 1868 ---
+degradation and so took no action to deal with this (paragraph 95, see action 
+
+--- Document Chunk 1869 ---
+already taken (paragraphs 171 to 173) hence no recommendation, Learning 
+
+--- Document Chunk 1870 ---
+point 2)
+
+--- Document Chunk 1871 ---
+d. the condition of the trailing bogie on wagon 3415 imposed unusually high 
+
+--- Document Chunk 1872 ---
+lateral loading on the track (paragraph 111) due to a combination of the 
+
+--- Document Chunk 1873 ---
+following:
+
+--- Document Chunk 1874 ---
+i. a defect on wagon 3415 (paragraph 113, Recommendation 2)
+
+--- Document Chunk 1875 ---
+ii. uneven payload (paragraph 124, Learning point 3).
+
+--- Document Chunk 1876 ---
+Underlying factors 
+
+--- Document Chunk 1877 ---
+162 The underlying factors were:
+
+--- Document Chunk 1878 ---
+a. Network Rail’s inspection and maintenance processes were insufficiently 
+
+--- Document Chunk 1879 ---
+rigorous to identify timber deterioration before an unsafe situation 
+
+--- Document Chunk 1880 ---
+developed (paragraph 129, action already taken (paragraph 172) hence no 
+
+--- Document Chunk 1881 ---
+recommendation)
+
+--- Document Chunk 1882 ---
+b. VTG’s processes did not recognise an underlying problem with the wagon or 
+
+--- Document Chunk 1883 ---
+bogie despite the unusual distribution and rate of flange wear on the wheels 
+
+--- Document Chunk 1884 ---
+on some of its wheelsets (paragraph 139, Recommendation 2).
+
+--- Document Chunk 1885 ---
+Observation
+
+--- Document Chunk 1886 ---
+163 Three wagons on train 6Z54 exceeded the maximum permitted weight 
+
+--- Document Chunk 1887 ---
+(paragraph 144, Learning point 3).
+
+--- Document Chunk 1888 ---
+Summary of conclusions 
+
+--- Document Chunk 1889 ---
+Report 12/2020
+
+--- Document Chunk 1890 ---
+Wanstead Park
+
+--- Document Chunk 1891 ---
+50
+
+--- Document Chunk 1892 ---
+November 2020
+
+--- Document Chunk 1893 ---
+Previous RAIB recommendations relevant to this 
+
+--- Document Chunk 1894 ---
+investigation 
+
+--- Document Chunk 1895 ---
+164 The following recommendations, which were made by RAIB as a result of its 
+
+--- Document Chunk 1896 ---
+previous investigations, have relevance to this investigation.
+
+--- Document Chunk 1897 ---
+Freight train derailment at Angerstein Junction, 2 April 2014 (RAIB report 11/2015), 
+
+--- Document Chunk 1898 ---
+published August 2015
+
+--- Document Chunk 1899 ---
+165 Recommendation 5 of the RAIB report into the derailment at Angerstein Junction 
+
+--- Document Chunk 1900 ---
+is relevant to the Wanstead Park derailment because it relates to the detection 
+
+--- Document Chunk 1901 ---
+of incorrectly loaded wagons. The intention of this recommendation was to 
+
+--- Document Chunk 1902 ---
+encourage use of available monitoring data from wheel impact load detection 
+
+--- Document Chunk 1903 ---
+systems, such as Gotcha, to inform rolling stock maintenance.
+
+--- Document Chunk 1904 ---
+Network Rail should review the potential to use wheel impact load detection 
+
+--- Document Chunk 1905 ---
+system data to provide information about possible defects, such as uneven 
+
+--- Document Chunk 1906 ---
+wheel loading or uneven load distribution, relating to specific wagons. The 
+
+--- Document Chunk 1907 ---
+review should include cosideration of how this information could be used to 
+
+--- Document Chunk 1908 ---
+improve control of overall derailment risk (such as identifying the need for 
+
+--- Document Chunk 1909 ---
+entities in charge of maintenance to check the condition of suspect wagons and 
+
+--- Document Chunk 1910 ---
+take appropriate remedial action). Network Rail should seek inputs from relevant 
+
+--- Document Chunk 1911 ---
+entities in charge of maintenance as part of the review. If justified by the review, 
+
+--- Document Chunk 1912 ---
+Network Rail should implement track side and reporting processes needed for 
+
+--- Document Chunk 1913 ---
+collecting and disseminating this information.
+
+--- Document Chunk 1914 ---
+166 Recommendation 6 is also relevant:
+
+--- Document Chunk 1915 ---
+RSSB, in consultation with industry, should review the risks associated with 
+
+--- Document Chunk 1916 ---
+the uneven loading of wagons, with particular reference to partial loads, 
+
+--- Document Chunk 1917 ---
+and propose any necessary mitigation, so that the extent of permitted load 
+
+--- Document Chunk 1918 ---
+imbalance is effectively controlled.
+
+--- Document Chunk 1919 ---
+Previous RAIB recommendations relevant to this investigation
+
+--- Document Chunk 1920 ---
+Report 12/2020
+
+--- Document Chunk 1921 ---
+Wanstead Park
+
+--- Document Chunk 1922 ---
+51
+
+--- Document Chunk 1923 ---
+November 2020
+
+--- Document Chunk 1924 ---
+Actions reported as already taken or in progress relevant to 
+
+--- Document Chunk 1925 ---
+this report
+
+--- Document Chunk 1926 ---
+Network Rail - track recording vehicle data
+
+--- Document Chunk 1927 ---
+167 Network Rail has informed RAIB that the Network Rail Technical Authority has 
+
+--- Document Chunk 1928 ---
+been investigating how track geometry gauge fault reporting can be improved to 
+
+--- Document Chunk 1929 ---
+identify all discrete gauge faults, and to aid track engineers with understanding 
+
+--- Document Chunk 1930 ---
+the distance they need to inspect when visiting a wide gauge site. It is working 
+
+--- Document Chunk 1931 ---
+with its suppliers to investigate alternatives to the hysteresis calculation.
+
+--- Document Chunk 1932 ---
+168 Network Rail has stated that it has identified the main reason for differences in 
+
+--- Document Chunk 1933 ---
+the positional accuracy reported by the various track recording vehicles and is 
+
+--- Document Chunk 1934 ---
+working with its supplier to introduce an upgrade for its track recording vehicle 
+
+--- Document Chunk 1935 ---
+fleet to deal with this issue.
+
+--- Document Chunk 1936 ---
+VTG – wagon maintenance
+
+--- Document Chunk 1937 ---
+169 VTG has informed RAIB that it is working on a data-driven maintenance 
+
+--- Document Chunk 1938 ---
+programme for its wagons. This will involve input from trackside wheel weighing 
+
+--- Document Chunk 1939 ---
+equipment, GPS tracking of wagons, and vehicle mileage.
+
+--- Document Chunk 1940 ---
+DB Cargo - control of train loading operations
+
+--- Document Chunk 1941 ---
+170 DB Cargo has informed RAIB that it has amended its procedures for loading 
+
+--- Document Chunk 1942 ---
+trains at Barking to ensure wagons are not released from the facility with 
+
+--- Document Chunk 1943 ---
+individual axle loads exceeding 25.4 tonnes. 
+
+--- Document Chunk 1944 ---
+Actions reported as already taken or in progress relevant to this report
+
+--- Document Chunk 1945 ---
+Report 12/2020
+
+--- Document Chunk 1946 ---
+Wanstead Park
+
+--- Document Chunk 1947 ---
+52
+
+--- Document Chunk 1948 ---
+November 2020
+
+--- Document Chunk 1949 ---
+Actions reported that address factors which otherwise 
+
+--- Document Chunk 1950 ---
+would have resulted in a RAIB recommendation 
+
+--- Document Chunk 1951 ---
+171 Following several incidents on Anglia route, including the failure of part of a timber 
+
+--- Document Chunk 1952 ---
+at bridge 2013 in August 2017 (paragraph 156), Network Rail commenced a 
+
+--- Document Chunk 1953 ---
+detailed review of how it manages its longitudinal timber systems. Actions taken 
+
+--- Document Chunk 1954 ---
+on Anglia route as a result of this review have included:
+
+--- Document Chunk 1955 ---
+a. creating a new role of senior asset engineer (track structures) to centralise 
+
+--- Document Chunk 1956 ---
+responsibility for managing the process of inspecting and renewing 
+
+--- Document Chunk 1957 ---
+longitudinal timber systems and to provide support for team leaders based at 
+
+--- Document Chunk 1958 ---
+depots and responsible for longitudinal timbers
+
+--- Document Chunk 1959 ---
+b. instructing TMEs to provide reports to the senior asset engineer (track 
+
+--- Document Chunk 1960 ---
+structures) for all longitudinal timber structures requiring renewal within three 
+
+--- Document Chunk 1961 ---
+years so that the asset engineer can check that the correct priority has been 
+
+--- Document Chunk 1962 ---
+assigned
+
+--- Document Chunk 1963 ---
+c. introducing a four-weekly meeting between the senior asset engineer (track 
+
+--- Document Chunk 1964 ---
+structures), track renewals engineer and structures engineer to co-ordinate the 
+
+--- Document Chunk 1965 ---
+work of the delivery teams.
+
+--- Document Chunk 1966 ---
+172 In March 2020, Network Rail published issue 7 of standard NR/L2/TRK/3038 
+
+--- Document Chunk 1967 ---
+‘Longitudinal Bearer Systems – Inspection, Maintenance and Design’. Issuing 
+
+--- Document Chunk 1968 ---
+the significantly updated standard was already at an advanced stage when 
+
+--- Document Chunk 1969 ---
+the accident occurred at bridge 456. The new version of the standard provides 
+
+--- Document Chunk 1970 ---
+additional guidance for staff and introduces a new TEF 3279 Long Bearer 
+
+--- Document Chunk 1971 ---
+Management Plan for each structure. This requires provision of photographs and 
+
+--- Document Chunk 1972 ---
+sketches and is intended to exist as a live document, being updated when work 
+
+--- Document Chunk 1973 ---
+is completed. After each detailed examination TEF3279 shall be reviewed and, if 
+
+--- Document Chunk 1974 ---
+necessary, revised by the TME and the section manager (track). The Long Bearer 
+
+--- Document Chunk 1975 ---
+Management Plan requires a structure specific risk assessment of the frequency 
+
+--- Document Chunk 1976 ---
+at which any walkways should be lifted.
+
+--- Document Chunk 1977 ---
+Standard 3038 (issue 7) also includes:
+
+--- Document Chunk 1978 ---
+a. advice on factors to consider when establishing the year of expiry of the 
+
+--- Document Chunk 1979 ---
+bearers (module 2, clause 5.7)
+
+--- Document Chunk 1980 ---
+b. the requirement for examinations to include drainage and ventilation 
+
+--- Document Chunk 1981 ---
+arrangements (module 2, clause 5.4)
+
+--- Document Chunk 1982 ---
+c. the requirement that non-destructive and intrusive testing shall include the 
+
+--- Document Chunk 1983 ---
+use of an approved microdrill [a very small diameter drill to avoid drilling large 
+
+--- Document Chunk 1984 ---
+holes in timbers]
+
+--- Document Chunk 1985 ---
+d. a reminder that the internal condition of the timber can be poor even if the 
+
+--- Document Chunk 1986 ---
+surface is good (module 2, Clause 5.5)
+
+--- Document Chunk 1987 ---
+e. a requirement that staff responsible for inspecting longitudinal timber systems 
+
+--- Document Chunk 1988 ---
+should be provided with information on recently recorded track faults in 
+
+--- Document Chunk 1989 ---
+advance of their inspection.
+
+--- Document Chunk 1990 ---
+Actions reported that address factors which otherwise would have resulted in a RAIB recommendation
+
+--- Document Chunk 1991 ---
+Report 12/2020
+
+--- Document Chunk 1992 ---
+Wanstead Park
+
+--- Document Chunk 1993 ---
+53
+
+--- Document Chunk 1994 ---
+November 2020
+
+--- Document Chunk 1995 ---
+173 Network Rail has notified RAIB that it is updating its training syllabus to 
+
+--- Document Chunk 1996 ---
+accompany the roll-out of issue 7 of standard NR/L2/TRK/3038. The full course 
+
+--- Document Chunk 1997 ---
+will be delivered to staff learning to undertake longitudinal timber inspections. 
+
+--- Document Chunk 1998 ---
+Staff who already hold the competency and are currently responsible for 
+
+--- Document Chunk 1999 ---
+undertaking these inspections will receive training on new and updated elements. 
+
+--- Document Chunk 2000 ---
+The specification for the new course includes measures to address the following 
+
+--- Document Chunk 2001 ---
+gaps identified by RAIB during this investigation:
+
+--- Document Chunk 2002 ---
+a. how to grade the timber as Good / Fair / Poor ratings and link this to estimated 
+
+--- Document Chunk 2003 ---
+remaining life, taking account of site conditions
+
+--- Document Chunk 2004 ---
+b. how to complete the TEF3014 form (including the importance of highlighting 
+
+--- Document Chunk 2005 ---
+key findings in the summary of the inspection report so that the need for any 
+
+--- Document Chunk 2006 ---
+action is identified).
+
+--- Document Chunk 2007 ---
+Actions reported that address factors which otherwise would have resulted in a RAIB recommendation
+
+--- Document Chunk 2008 ---
+Report 12/2020
+
+--- Document Chunk 2009 ---
+Wanstead Park
+
+--- Document Chunk 2010 ---
+54
+
+--- Document Chunk 2011 ---
+November 2020
+
+--- Document Chunk 2012 ---
+Recommendations and learning points
+
+--- Document Chunk 2013 ---
+Recommendations
+
+--- Document Chunk 2014 ---
+174 The following recommendations are made:9
+
+--- Document Chunk 2015 ---
+1 The intent of this recommendation is to reduce the risk that track 
+
+--- Document Chunk 2016 ---
+maintenance staff miss defects identified by track recording vehicles; it is 
+
+--- Document Chunk 2017 ---
+likely that work already started by Network Rail will assist implementation 
+
+--- Document Chunk 2018 ---
+of this recommendation.
+
+--- Document Chunk 2019 ---
+ Network Rail should take measures to improve the clarity of information 
+
+--- Document Chunk 2020 ---
+provided from Track Recording Vehicle systems, and the procedures 
+
+--- Document Chunk 2021 ---
+adopted by those investigating defects, to assist track maintenance staff 
+
+--- Document Chunk 2022 ---
+to correctly locate all recorded defects. The improvements shall include 
+
+--- Document Chunk 2023 ---
+consideration of: 
+
+--- Document Chunk 2024 ---
+l ways of identifying discrete defects when these occur within one area 
+
+--- Document Chunk 2025 ---
+of relatively poor track quality where multiple defects are currently 
+
+--- Document Chunk 2026 ---
+reported as a single defect at one location due to the ‘hysteresis 
+
+--- Document Chunk 2027 ---
+threshold’ feature of the track recording vehicle system
+
+--- Document Chunk 2028 ---
+l the extent to which staff should look for defects beyond a nominal 
+
+--- Document Chunk 2029 ---
+defect position due to inaccuracies in locations determined using 
+
+--- Document Chunk 2030 ---
+global positioning system (GPS) equipment (paragraph 161).
+
+--- Document Chunk 2031 ---
+2 The intent of this recommendation is to reduce the risk of defective rail 
+
+--- Document Chunk 2032 ---
+vehicles entering service; it is likely that work already started by VTG will 
+
+--- Document Chunk 2033 ---
+assist implementation of this recommendation.
+
+--- Document Chunk 2034 ---
+ VTG should review and improve monitoring of maintenance activities 
+
+--- Document Chunk 2035 ---
+on individual rail wagons to detect repetitive maintenance requirements 
+
+--- Document Chunk 2036 ---
+which may indicate an underlying fault which is not being addressed 
+
+--- Document Chunk 2037 ---
+(paragraph 162b).
+
+--- Document Chunk 2038 ---
+ This recommendation may apply to other Entities in Charge of 
+
+--- Document Chunk 2039 ---
+Maintenance. 
+
+--- Document Chunk 2040 ---
+9 Those identified in the recommendations have a general and ongoing obligation to comply with health and safety 
+
+--- Document Chunk 2041 ---
+legislation, and need to take these recommendations into account in ensuring the safety of their employees and 
+
+--- Document Chunk 2042 ---
+others. 
+
+--- Document Chunk 2043 ---
+Additionally, for the purposes of regulation 12(1) of the Railways (Accident Investigation and Reporting) Regulations 
+
+--- Document Chunk 2044 ---
+2005, these recommendations are addressed to the Office of Rail and Road to enable it to carry out its duties under 
+
+--- Document Chunk 2045 ---
+regulation 12(2) to: 
+
+--- Document Chunk 2046 ---
+(a) ensure that recommendations are duly considered and where appropriate acted upon; and 
+
+--- Document Chunk 2047 ---
+(b) report back to RAIB details of any implementation measures, or the reasons why no implementation 
+
+--- Document Chunk 2048 ---
+measures are being taken.
+
+--- Document Chunk 2049 ---
+Copies of both the regulations and the accompanying guidance notes (paragraphs 200 to 203) can be found on 
+
+--- Document Chunk 2050 ---
+RAIB’s website www.gov.uk/raib.
+
+--- Document Chunk 2051 ---
+Recommendations and learning points
+
+--- Document Chunk 2052 ---
+Report 12/2020
+
+--- Document Chunk 2053 ---
+Wanstead Park
+
+--- Document Chunk 2054 ---
+55
+
+--- Document Chunk 2055 ---
+November 2020
+
+--- Document Chunk 2056 ---
+Learning points
+
+--- Document Chunk 2057 ---
+175 RAIB has identified the following important learning points:10
+
+--- Document Chunk 2058 ---
+1 Staff involved with management of longitudinal timber systems 
+
+--- Document Chunk 2059 ---
+constructed from softwood are reminded that these may lose significant 
+
+--- Document Chunk 2060 ---
+strength before decay or degradation becomes clearly visible on the 
+
+--- Document Chunk 2061 ---
+surface (paragraph 161).
+
+--- Document Chunk 2062 ---
+2 The importance of providing longitudinal timbers with an environment 
+
+--- Document Chunk 2063 ---
+which is free from standing water, well ventilated and fully visible to staff 
+
+--- Document Chunk 2064 ---
+carrying out inspections (paragraph 161).
+
+--- Document Chunk 2065 ---
+3 Freight terminal operators and freight operating companies are reminded 
+
+--- Document Chunk 2066 ---
+of the importance of avoiding over-loaded or unevenly loaded wagons 
+
+--- Document Chunk 2067 ---
+as addressed by the National Freight Safety Group code of practice 
+
+--- Document Chunk 2068 ---
+‘Loading bulk wagons’ NFSG-COP-004. This should include:
+
+--- Document Chunk 2069 ---
+l allowing for any residual payloads from previous journeys
+
+--- Document Chunk 2070 ---
+l adopting loading techniques which reduce any tendency to fill wagons 
+
+--- Document Chunk 2071 ---
+unevenly
+
+--- Document Chunk 2072 ---
+l using wagon weighing data and Gotcha monitoring system data to 
+
+--- Document Chunk 2073 ---
+identify uneven loading (paragraphs 161 and 163).
+
+--- Document Chunk 2074 ---
+10 ‘Learning points’ are intended to disseminate safety learning that is not covered by a recommendation. They are 
+
+--- Document Chunk 2075 ---
+included in a report when RAIB wishes to reinforce the importance of compliance with existing safety arrangements 
+
+--- Document Chunk 2076 ---
+(where RAIB has not identified management issues that justify a recommendation) and the consequences of failing 
+
+--- Document Chunk 2077 ---
+to do so. They also record good practice and actions already taken by industry bodies that may have a wider 
+
+--- Document Chunk 2078 ---
+application.
+
+--- Document Chunk 2079 ---
+Recommendations and learning points
+
+--- Document Chunk 2080 ---
+Report 12/2020
+
+--- Document Chunk 2081 ---
+Wanstead Park
+
+--- Document Chunk 2082 ---
+56
+
+--- Document Chunk 2083 ---
+November 2020
+
+--- Document Chunk 2084 ---
+Appendices
+
+--- Document Chunk 2085 ---
+Appendix A – Glossary of abbreviations and acronyms
+
+--- Document Chunk 2086 ---
+EMGTPA Equivalent million gross tonnes per annum
+
+--- Document Chunk 2087 ---
+GPS Global positioning system
+
+--- Document Chunk 2088 ---
+ORR Office of Rail and Road
+
+--- Document Chunk 2089 ---
+POD Point of derailment
+
+--- Document Chunk 2090 ---
+RSSB Rail Safety and Standards Board
+
+--- Document Chunk 2091 ---
+TME Track maintenance engineer
+
+--- Document Chunk 2092 ---
+TOPS Total Operations Processing System
+
+--- Document Chunk 2093 ---
+Appendices
+
+--- Document Chunk 2094 ---
+Report 12/2020
+
+--- Document Chunk 2095 ---
+Wanstead Park
+
+--- Document Chunk 2096 ---
+57
+
+--- Document Chunk 2097 ---
+November 2020
+
+--- Document Chunk 2098 ---
+Appendix B – Sources of evidence 
+
+--- Document Chunk 2099 ---
+RAIB used the following sources of evidence in this investigation: 
+
+--- Document Chunk 2100 ---
+l information provided by witnesses
+
+--- Document Chunk 2101 ---
+l Network Rail standards
+
+--- Document Chunk 2102 ---
+l longitudinal timber and track inspection records
+
+--- Document Chunk 2103 ---
+l track recording vehicle data
+
+--- Document Chunk 2104 ---
+l examination of the accident site including measurement and testing of the track
+
+--- Document Chunk 2105 ---
+l physical examination of longitudinal timbers
+
+--- Document Chunk 2106 ---
+l wagon maintenance records
+
+--- Document Chunk 2107 ---
+l examination of wagons 3415 and 3114
+
+--- Document Chunk 2108 ---
+l wagon loading (WeighWell) data
+
+--- Document Chunk 2109 ---
+l on-train monitoring recorder (OTMR) data from locomotive number 66154.
+
+--- Document Chunk 2110 ---
+Appendices
+
+--- Document Chunk 2111 ---
+Report 12/2020
+
+--- Document Chunk 2112 ---
+Wanstead Park
+
+--- Document Chunk 2113 ---
+58
+
+--- Document Chunk 2114 ---
+November 2020
+
+--- Document Chunk 2115 ---
+Figure 1: Timber section 
+
+--- Document Chunk 2116 ---
+found on pavement
+
+--- Document Chunk 2117 ---
+Figure 2: Condition of longitudinal timber on removal
+
+--- Document Chunk 2118 ---
+Bridge 2013 carries the Gospel Oak to Barking line (TAH1 and TAH2) over the junctions of St 
+
+--- Document Chunk 2119 ---
+Ann’s Road and Seven Sisters Road in Haringey, north London. The line is currently being 
+
+--- Document Chunk 2120 ---
+electrified, which will allow an improved passenger service and an increase in the number of 
+
+--- Document Chunk 2121 ---
+freight paths available to access the London Gateway container port on the Thames east of 
+
+--- Document Chunk 2122 ---
+Tilbury. Project works have included renewal of four bridges and modernisation of six others, 
+
+--- Document Chunk 2123 ---
+but the route has still has numerous underbridges with longitudinal timber track support 
+
+--- Document Chunk 2124 ---
+systems.
+
+--- Document Chunk 2125 ---
+Appendices
+
+--- Document Chunk 2126 ---
+Appendix C – Copy of letter from RAIB to Network Rail dated 15 
+
+--- Document Chunk 2127 ---
+September 2017 in response to a longitudinal timber failure on 
+
+--- Document Chunk 2128 ---
+bridge 2013 in August 2017.
+
+--- Document Chunk 2129 ---
+Corporate Investigation and Assurance Manager 
+
+--- Document Chunk 2130 ---
+Network Rail 
+
+--- Document Chunk 2131 ---
+The Quadrant: MK 
+
+--- Document Chunk 2132 ---
+Elder Gate 
+
+--- Document Chunk 2133 ---
+Milton Keynes 
+
+--- Document Chunk 2134 ---
+MK9 1EN
+
+--- Document Chunk 2135 ---
+Dear 
+
+--- Document Chunk 2136 ---
+Partial loss of track support, bridge 2013, St Ann’s Road, Haringey, 26 August 2017 
+
+--- Document Chunk 2137 ---
+I am writing to advise you of the outcome of the RAIB’s preliminary examination into an 
+
+--- Document Chunk 2138 ---
+incident that occurred at St Ann’s Road, Haringey overnight on 25/26 August 2017. A large 
+
+--- Document Chunk 2139 ---
+piece of timber was found under the bridge by a member of the public (figure 1), and was 
+
+--- Document Chunk 2140 ---
+reported to Network Rail by the Metropolitan Police. The wood was part of an unsupported 
+
+--- Document Chunk 2141 ---
+longitudinal timber (ie there was no supporting deck plate) carrying the 6 foot rail of the up line 
+
+--- Document Chunk 2142 ---
+which had rotted. Network Rail staff initially imposed a 5 mph emergency speed restriction, but 
+
+--- Document Chunk 2143 ---
+the line was later blocked when track maintenance staff determined that the timber had to be 
+
+--- Document Chunk 2144 ---
+renewed. The remaining section of the timber was found to have rotted through from the top 
+
+--- Document Chunk 2145 ---
+and it disintegrated as it was being removed from the bridge on 28 August (figure 2). Sections 
+
+--- Document Chunk 2146 ---
+examined by the RAIB on 30 August were found to be spongy and wet.
+
+--- Document Chunk 2147 ---
+Report 12/2020
+
+--- Document Chunk 2148 ---
+Wanstead Park
+
+--- Document Chunk 2149 ---
+59
+
+--- Document Chunk 2150 ---
+November 2020
+
+--- Document Chunk 2151 ---
+The current longitudinal timbers on bridge 2013 were installed in about 1986 with a 20 year 
+
+--- Document Chunk 2152 ---
+service life. By 2012, their condition had deteriorated to the extent that the Barking Track 
+
+--- Document Chunk 2153 ---
+Maintenance Engineer proposed that the timbers be renewed. 
+
+--- Document Chunk 2154 ---
+Longitudinal timber systems, because of their vulnerability, are subject to annual inspections in 
+
+--- Document Chunk 2155 ---
+accordance with Network Rail standard NR/L2/TRK/3038. The last three TEF3014 long timber 
+
+--- Document Chunk 2156 ---
+examination reports for this bridge have marked the timbers as ‘red’, meaning replacement 
+
+--- Document Chunk 2157 ---
+required in 1-12 months. The length of the bridge meant that this activity exceeded the 
+
+--- Document Chunk 2158 ---
+capability of the local delivery unit and required funding from the CAPEX budget. The RAIB 
+
+--- Document Chunk 2159 ---
+understands that, prior to the incident, this renewal work was planned for 2019. 
+
+--- Document Chunk 2160 ---
+Prior to the line reopening after an eight month electrification blockade in February 2017, the 
+
+--- Document Chunk 2161 ---
+newly-appointed Infrastructure Maintenance engineer (IME) sent an email to the RAM [Track] 
+
+--- Document Chunk 2162 ---
+proposing that advantage be taken of the blockade to gain access and renew timbers. The 
+
+--- Document Chunk 2163 ---
+RAM [Track] did not take the proposal forward, apparently due to budget constraints. The line 
+
+--- Document Chunk 2164 ---
+reopened with tie bars fitted and a 20 mph emergency speed restriction. The poor condition 
+
+--- Document Chunk 2165 ---
+of the longitudinal timbers is illustrated in a photograph dated January 2017 (figure 3) which 
+
+--- Document Chunk 2166 ---
+shows the disintegration of the top surface.
+
+--- Document Chunk 2167 ---
+Figure 3: photograph dated January 2017 Figure 4: damaged timber from below. Daylight is 
+
+--- Document Chunk 2168 ---
+visible.
+
+--- Document Chunk 2169 ---
+A structures visual examination report dated March 2017 identified that urgent attention 
+
+--- Document Chunk 2170 ---
+was required to replace the severely decayed wheel-timbers. This concern was raised by 
+
+--- Document Chunk 2171 ---
+the examiner even though longitudinal timbers are not deemed a structures asset. The IME 
+
+--- Document Chunk 2172 ---
+forwarded a copy of this report to the RAM [Track] to reinforce his request that action be 
+
+--- Document Chunk 2173 ---
+taken. The most recent supervisor’s inspection in August 2017 also categorised the affected 
+
+--- Document Chunk 2174 ---
+timber as ‘poor’. 
+
+--- Document Chunk 2175 ---
+It is apparent that numerous warnings were raised about the deterioration of the longitudinal 
+
+--- Document Chunk 2176 ---
+timbers on this bridge. In view of the similarities with the 1997 Bexley derailment which was 
+
+--- Document Chunk 2177 ---
+caused by significant deterioration to the track support and fastenings, I would like to draw 
+
+--- Document Chunk 2178 ---
+your attention to the following aspects of this event:
+
+--- Document Chunk 2179 ---
+1. The RAM [Track] did not approve work to renew the longitudinal timbers. The RAIB has 
+
+--- Document Chunk 2180 ---
+not sought to establish why, but observes that as the longitudinal timbers on bridge 2013 
+
+--- Document Chunk 2181 ---
+were un-supported (ie there was no deck plate beneath the timbers - figure 4), so were 
+
+--- Document Chunk 2182 ---
+required to have the strength necessary to carry and transfer rail traffic loading to the 
+
+--- Document Chunk 2183 ---
+supporting structure.
+
+--- Document Chunk 2184 ---
+2. A review, required by standard NR/L2/TRK/3038 when the tonnage of traffic using a 
+
+--- Document Chunk 2185 ---
+longitudinal timber bridge was expected to increase significantly, either did not occur, or 
+
+--- Document Chunk 2186 ---
+did not identify that work was urgently required.
+
+--- Document Chunk 2187 ---
+Appendices
+
+--- Document Chunk 2188 ---
+Report 12/2020
+
+--- Document Chunk 2189 ---
+Wanstead Park
+
+--- Document Chunk 2190 ---
+60
+
+--- Document Chunk 2191 ---
+November 2020
+
+--- Document Chunk 2192 ---
+Appendices
+
+--- Document Chunk 2193 ---
+3. It would appear that the sponsors of the electrification project either did not identify, or did 
+
+--- Document Chunk 2194 ---
+not promote/support work which essential for the project’s own success. This is surprising, 
+
+--- Document Chunk 2195 ---
+as the scope of the project included bridgeworks elsewhere on the line.
+
+--- Document Chunk 2196 ---
+The RAIB has decided to take no further action in respect of this incident. However, given 
+
+--- Document Chunk 2197 ---
+the apparent safety management issues it raises, we advise Network Rail to take the above 
+
+--- Document Chunk 2198 ---
+points into account when concluding their own investigation and developing recommendations 
+
+--- Document Chunk 2199 ---
+to prevent a reoccurrence. I am copying this letter to the Office of Rail and Road for their 
+
+--- Document Chunk 2200 ---
+information.
+
+--- Document Chunk 2201 ---
+Yours sincerely,
+
+--- Document Chunk 2202 ---
+Deputy Chief Inspector of Rail Accidents 
+
+--- Document Chunk 2203 ---
+Copy to: 
+
+--- Document Chunk 2204 ---
+ 
+
+--- Document Chunk 2205 ---
+Office of Rail and Road, 
+
+--- Document Chunk 2206 ---
+1 Kemble Street, 
+
+--- Document Chunk 2207 ---
+London 
+
+--- Document Chunk 2208 ---
+WC2B 4AN
+
+--- Document Chunk 2209 ---
+This report is published by the Rail Accident Investigation Branch, 
+
+--- Document Chunk 2210 ---
+Department for Transport.
+
+--- Document Chunk 2211 ---
+© Crown copyright 2020
+
+--- Document Chunk 2212 ---
+Any enquiries about this publication should be sent to:
+
+--- Document Chunk 2213 ---
+RAIB Email: enquiries@raib.gov.uk
+
+--- Document Chunk 2214 ---
+The Wharf  Telephone: 01332 253300
+
+--- Document Chunk 2215 ---
+Stores Road  Website: www.gov.uk/raib
+
+--- Document Chunk 2216 ---
+Derby UK
+
+--- Document Chunk 2217 ---
+DE21 4BA  
+

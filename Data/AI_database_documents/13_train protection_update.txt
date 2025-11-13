@@ -1,0 +1,3405 @@
+--- Document Chunk 0 ---
+10
+
+--- Document Chunk 1 ---
+David Fenner
+
+--- Document Chunk 2 ---
+Back to basics: train protection
+
+--- Document Chunk 3 ---
+This, the fifth article on ‘back to basics’ 
+
+--- Document Chunk 4 ---
+themes, covers the subject of train 
+
+--- Document Chunk 5 ---
+protection. The fundamental requirement 
+
+--- Document Chunk 6 ---
+of a railway signalling system is to ensure a 
+
+--- Document Chunk 7 ---
+train movement can be completed with the 
+
+--- Document Chunk 8 ---
+minimum of risk from human error, while 
+
+--- Document Chunk 9 ---
+at the same time allowing as many trains 
+
+--- Document Chunk 10 ---
+as possible to run on a given infrastructure. 
+
+--- Document Chunk 11 ---
+Much of the focus of a signalling engineer is 
+
+--- Document Chunk 12 ---
+on the design of the infrastructure control 
+
+--- Document Chunk 13 ---
+system that ensures safe routing of the trains 
+
+--- Document Chunk 14 ---
+and supports the person responsible for 
+
+--- Document Chunk 15 ---
+that activity, the signaller. But the other key 
+
+--- Document Chunk 16 ---
+operative is the driver.
+
+--- Document Chunk 17 ---
+The history of railway signalling is very often about 
+
+--- Document Chunk 18 ---
+the development of systems to prevent the wrong 
+
+--- Document Chunk 19 ---
+signal being given to a driver and the evolution 
+
+--- Document Chunk 20 ---
+of the technology that underpins that function. 
+
+--- Document Chunk 21 ---
+Relatively little relates to supporting the driver, 
+
+--- Document Chunk 22 ---
+although it would be wrong to assume there is 
+
+--- Document Chunk 23 ---
+none. It is worth considering the different roles to 
+
+--- Document Chunk 24 ---
+see if there is any underlying reason for this. The 
+
+--- Document Chunk 25 ---
+signaller is dealing with a fixed set of equipment 
+
+--- Document Chunk 26 ---
+that has a limited range of states and thus a limited 
+
+--- Document Chunk 27 ---
+set of options. The requirement is to set specific 
+
+--- Document Chunk 28 ---
+routes at given times to permit the safe passage of 
+
+--- Document Chunk 29 ---
+a train, and to be reminded which of those actions 
+
+--- Document Chunk 30 ---
+have yet to be completed. The driver on the other 
+
+--- Document Chunk 31 ---
+hand is constantly making judgments about the 
+
+--- Document Chunk 32 ---
+safe movement of the train based on information 
+
+--- Document Chunk 33 ---
+from their own route and train performance 
+
+--- Document Chunk 34 ---
+knowledge, signs at the trackside and the signals 
+
+--- Document Chunk 35 ---
+seen. And in the case of signals seen these can 
+
+--- Document Chunk 36 ---
+and often will be changing minute by minute as 
+
+--- Document Chunk 37 ---
+other traffic moves. So the computational task of 
+
+--- Document Chunk 38 ---
+assisting a driver is significantly more sophisticated 
+
+--- Document Chunk 39 ---
+than that required to support a signaller. Maybe 
+
+--- Document Chunk 40 ---
+this is why train protection systems seem to have 
+
+--- Document Chunk 41 ---
+evolved more slowly, with the sophistication of 
+
+--- Document Chunk 42 ---
+train protection requiring computing power akin 
+
+--- Document Chunk 43 ---
+to a processor not a logic box.
+
+--- Document Chunk 44 ---
+Supporting the driver starts with providing clear 
+
+--- Document Chunk 45 ---
+and concise signal indications so there is no 
+
+--- Document Chunk 46 ---
+confusion in the meaning and limited opportunity 
+
+--- Document Chunk 47 ---
+to read the wrong one. One can wonder how 
+
+--- Document Chunk 48 ---
+drivers could see a dim oil lamp flickering behind 
+
+--- Document Chunk 49 ---
+a coloured lens as they approached many of the 
+
+--- Document Chunk 50 ---
+mechanical signals still in service, at least in the 
+
+--- Document Chunk 51 ---
+UK until as little as 15 years ago. Many years ago, 
+
+--- Document Chunk 52 ---
+drivers had the advantage of a dark sky with the 
+
+--- Document Chunk 53 ---
+general absence of town and street lighting. Now 
+
+--- Document Chunk 54 ---
+of course most signals are colour lamps but often 
+
+--- Document Chunk 55 ---
+against a much brighter background. The problem 
+
+--- Document Chunk 56 ---
+is how do we help the driver respond to those 
+
+--- Document Chunk 57 ---
+signals and what other support do we need to give 
+
+--- Document Chunk 58 ---
+them to limit the number of accidents. There are 
+
+--- Document Chunk 59 ---
+two main errors a driver can make:
+
+--- Document Chunk 60 ---
+• Failure to control the speed of the 
+
+--- Document Chunk 61 ---
+train correctly.
+
+--- Document Chunk 62 ---
+• Failure to stop at the defined End of 
+
+--- Document Chunk 63 ---
+Authority (EoA).
+
+--- Document Chunk 64 ---
+It is these functions a train protection 
+
+--- Document Chunk 65 ---
+system must address.
+
+--- Document Chunk 66 ---
+The remainder of this article will start by 
+
+--- Document Chunk 67 ---
+examining the various types of train protection 
+
+--- Document Chunk 68 ---
+and how those may affect the performance of the 
+
+--- Document Chunk 69 ---
+railway. It will then provide a generalised review 
+
+--- Document Chunk 70 ---
+of the development of systems to outline the key 
+
+--- Document Chunk 71 ---
+requirements with examples of systems from the 
+
+--- Document Chunk 72 ---
+UK and other countries.
+
+--- Document Chunk 73 ---
+Warning or protection
+
+--- Document Chunk 74 ---
+Within the overall scope of train protection there 
+
+--- Document Chunk 75 ---
+are two main sub divisions, warning systems 
+
+--- Document Chunk 76 ---
+and protection systems. A warning system will 
+
+--- Document Chunk 77 ---
+normally be associated with the location at which 
+
+--- Document Chunk 78 ---
+braking should commence whereas a protection 
+
+--- Document Chunk 79 ---
+system will aim to stop the train at or soon after 
+
+--- Document Chunk 80 ---
+the End of Authority (EoA). A warning system 
+
+--- Document Chunk 81 ---
+will alert the driver to take note of information 
+
+--- Document Chunk 82 ---
+presented from the trackside and may initiate 
+
+--- Document Chunk 83 ---
+“The driver 
+
+--- Document Chunk 84 ---
+is constantly 
+
+--- Document Chunk 85 ---
+making 
+
+--- Document Chunk 86 ---
+judgements 
+
+--- Document Chunk 87 ---
+about the safe 
+
+--- Document Chunk 88 ---
+movement of 
+
+--- Document Chunk 89 ---
+their train”
+
+--- Document Chunk 90 ---
+Questions for the Certificate (Module A) will not be set
+
+--- Document Chunk 91 ---
+on the text which has been struck through
+
+--- Document Chunk 92 ---
+Effective from October 2023 exam
+
+--- Document Chunk 93 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 94 ---
+11
+
+--- Document Chunk 95 ---
+braking action if the driver fails to acknowledge 
+
+--- Document Chunk 96 ---
+the warning. After acknowledgement the train is 
+
+--- Document Chunk 97 ---
+usually solely under driver control. A protection 
+
+--- Document Chunk 98 ---
+system will enforce a brake application should 
+
+--- Document Chunk 99 ---
+the system detect the train is being driven outside 
+
+--- Document Chunk 100 ---
+safe parameters. There are several sub-divisions 
+
+--- Document Chunk 101 ---
+of protection systems. It should be noted there is 
+
+--- Document Chunk 102 ---
+overlap between some of these classifications.
+
+--- Document Chunk 103 ---
+Train stops
+
+--- Document Chunk 104 ---
+Probably the most basic but effective form of train 
+
+--- Document Chunk 105 ---
+protection, train stops are typically mechanical 
+
+--- Document Chunk 106 ---
+devices that trigger a brake application if passed 
+
+--- Document Chunk 107 ---
+when in the ‘protecting’ position. They are 
+
+--- Document Chunk 108 ---
+usually associated with a stop signal. A train stop 
+
+--- Document Chunk 109 ---
+will ensure the train comes to a halt at braking 
+
+--- Document Chunk 110 ---
+distance beyond. To be effective in eliminating 
+
+--- Document Chunk 111 ---
+accidents they require an extended protected 
+
+--- Document Chunk 112 ---
+length of track beyond the signal, which limits 
+
+--- Document Chunk 113 ---
+application to lines with relatively low top speeds 
+
+--- Document Chunk 114 ---
+(around 80km/h) and good brake performance 
+
+--- Document Chunk 115 ---
+– typically metros. There are two fundamental 
+
+--- Document Chunk 116 ---
+weaknesses with such systems; firstly, they 
+
+--- Document Chunk 117 ---
+reduce capacity because the extended overrun 
+
+--- Document Chunk 118 ---
+distance increases the headway between trains, 
+
+--- Document Chunk 119 ---
+and secondly, they do not address the issue of 
+
+--- Document Chunk 120 ---
+overspeed at other locations. There have been 
+
+--- Document Chunk 121 ---
+applications where timed release of train stops is 
+
+--- Document Chunk 122 ---
+used to monitor speed, especially approaching 
+
+--- Document Chunk 123 ---
+buffer stops or high-risk junctions, but they are 
+
+--- Document Chunk 124 ---
+difficult to implement successfully.
+
+--- Document Chunk 125 ---
+Intermittent train protection
+
+--- Document Chunk 126 ---
+Intermittent train protection is provided at those 
+
+--- Document Chunk 127 ---
+locations assessed to pose significant risk. These 
+
+--- Document Chunk 128 ---
+are usually junctions with substantial traffic or a 
+
+--- Document Chunk 129 ---
+particular layout that creates additional risk, for 
+
+--- Document Chunk 130 ---
+example where there is a chance of head-on 
+
+--- Document Chunk 131 ---
+collision. As a train approaches such sites it passes 
+
+--- Document Chunk 132 ---
+through a speed trap and if above a pre-set speed 
+
+--- Document Chunk 133 ---
+will experience a forced brake application. 
+
+--- Document Chunk 134 ---
+In more recent systems it will be fed information 
+
+--- Document Chunk 135 ---
+about the current conditions and then calculates 
+
+--- Document Chunk 136 ---
+the safe speed profile to be followed.
+
+--- Document Chunk 137 ---
+Modern systems of this type usually require 
+
+--- Document Chunk 138 ---
+the fitment of an Automatic Train Protection 
+
+--- Document Chunk 139 ---
+(ATP) system to the trains but avoid expensive 
+
+--- Document Chunk 140 ---
+investment in a comprehensive trackside ATP 
+
+--- Document Chunk 141 ---
+installation. Many of the systems introduced 
+
+--- Document Chunk 142 ---
+prior to the turn of the century (2000) can be 
+
+--- Document Chunk 143 ---
+considered to be of this form.
+
+--- Document Chunk 144 ---
+Train protection with intermittent update
+
+--- Document Chunk 145 ---
+These systems continuously monitor the 
+
+--- Document Chunk 146 ---
+movement of the train to ensure it is within the 
+
+--- Document Chunk 147 ---
+safe envelope. The driver is provided with an 
+
+--- Document Chunk 148 ---
+indication of the current maximum safe speed but 
+
+--- Document Chunk 149 ---
+otherwise drives to the signals and signs observed 
+
+--- Document Chunk 150 ---
+at the trackside. The train picks up information 
+
+--- Document Chunk 151 ---
+about the infrastructure ahead including the 
+
+--- Document Chunk 152 ---
+traffic conditions at intermittent intervals, usually 
+
+--- Document Chunk 153 ---
+from a balise or beacon or from inductive loops 
+
+--- Document Chunk 154 ---
+laid in the track. The intermittent intervals are 
+
+--- Document Chunk 155 ---
+usually associated with a signal, to facilitate the 
+
+--- Document Chunk 156 ---
+inclusion of information about the extent of any 
+
+--- Document Chunk 157 ---
+current movement authority and any speed limits 
+
+--- Document Chunk 158 ---
+associated with that authority.
+
+--- Document Chunk 159 ---
+These systems provide full supervision of the 
+
+--- Document Chunk 160 ---
+driver at all times and will intervene to reduce the 
+
+--- Document Chunk 161 ---
+train speed back within the safe envelope prior to 
+
+--- Document Chunk 162 ---
+returning control to the driver. The exception to 
+
+--- Document Chunk 163 ---
+this is in the event of a Signal Passed at Danger 
+
+--- Document Chunk 164 ---
+(SPAD) when a ‘trip’ state is entered and the 
+
+--- Document Chunk 165 ---
+train is brought to a halt. The systems normally 
+
+--- Document Chunk 166 ---
+include roll back protection, a function of most 
+
+--- Document Chunk 167 ---
+ATP systems, to prevent the train rolling away 
+
+--- Document Chunk 168 ---
+when brakes are released but traction power 
+
+--- Document Chunk 169 ---
+is not applied.
+
+--- Document Chunk 170 ---
+Because the system only receives intermittent 
+
+--- Document Chunk 171 ---
+updates, the system may restrict track capacity 
+
+--- Document Chunk 172 ---
+because the train must be driven according to the 
+
+--- Document Chunk 173 ---
+last update received and may thus continue to 
+
+--- Document Chunk 174 ---
+enforce a reducing speed even though the signal 
+
+--- Document Chunk 175 ---
+ahead has changed to a less restrictive aspect. A 
+
+--- Document Chunk 176 ---
+means of partially overcoming this constraint is 
+
+--- Document Chunk 177 ---
+to have ‘infill’ in the form of loops or additional 
+
+--- Document Chunk 178 ---
+balises which augment the update frequency, 
+
+--- Document Chunk 179 ---
+especially approaching critical signals.
+
+--- Document Chunk 180 ---
+One advantage of such ATP systems is, because 
+
+--- Document Chunk 181 ---
+the train is being driven on conventional signals, 
+
+--- Document Chunk 182 ---
+the system can be overlaid on the railway to 
+
+--- Document Chunk 183 ---
+enhance safety. It is thus possible to partially 
+
+--- Document Chunk 184 ---
+equip either or both track and trains with only 
+
+--- Document Chunk 185 ---
+Supporting the driver 
+
+--- Document Chunk 186 ---
+by relaying accurate 
+
+--- Document Chunk 187 ---
+information in the cab and 
+
+--- Document Chunk 188 ---
+reducing the possibility 
+
+--- Document Chunk 189 ---
+of mistakes being made 
+
+--- Document Chunk 190 ---
+has been a long running 
+
+--- Document Chunk 191 ---
+focus of the command, 
+
+--- Document Chunk 192 ---
+control and signalling 
+
+--- Document Chunk 193 ---
+industry. The view may 
+
+--- Document Chunk 194 ---
+have improved from the 
+
+--- Document Chunk 195 ---
+steam era to the modern 
+
+--- Document Chunk 196 ---
+day (as shown above) 
+
+--- Document Chunk 197 ---
+but increased speed and 
+
+--- Document Chunk 198 ---
+traffic complicates the 
+
+--- Document Chunk 199 ---
+situation.
+
+--- Document Chunk 200 ---
+Photos Westinghouse 
+
+--- Document Chunk 201 ---
+B&S Archive/
+
+--- Document Chunk 202 ---
+Chippenham Museum and 
+
+--- Document Chunk 203 ---
+Shutterstock/aapsky.
+
+--- Document Chunk 204 ---
+“Train stops 
+
+--- Document Chunk 205 ---
+reduce capacity 
+
+--- Document Chunk 206 ---
+because 
+
+--- Document Chunk 207 ---
+extended 
+
+--- Document Chunk 208 ---
+overrun distance 
+
+--- Document Chunk 209 ---
+increases 
+
+--- Document Chunk 210 ---
+the headway 
+
+--- Document Chunk 211 ---
+between trains”
+
+--- Document Chunk 212 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 213 ---
+12
+
+--- Document Chunk 214 ---
+selected portions of the route and chosen trains 
+
+--- Document Chunk 215 ---
+being protected. One disadvantage with this is 
+
+--- Document Chunk 216 ---
+that an unfitted train which SPADS, may encroach 
+
+--- Document Chunk 217 ---
+on the path of a fitted train, resulting in a serious 
+
+--- Document Chunk 218 ---
+accident. Thus, this arrangement would ideally 
+
+--- Document Chunk 219 ---
+only be used as a migratory configuration.
+
+--- Document Chunk 220 ---
+Train protection with continuous update
+
+--- Document Chunk 221 ---
+These systems have the facility to provide updated 
+
+--- Document Chunk 222 ---
+movement authority information at any time. 
+
+--- Document Chunk 223 ---
+Consequently, they are often part of an in-cab 
+
+--- Document Chunk 224 ---
+signalling system because the driver is continually 
+
+--- Document Chunk 225 ---
+fed information on the current safe speed and is 
+
+--- Document Chunk 226 ---
+no longer required to watch for lineside signals 
+
+--- Document Chunk 227 ---
+or signs. There may be other reasons, outside 
+
+--- Document Chunk 228 ---
+the scope of the signalling system, for the driver 
+
+--- Document Chunk 229 ---
+to watch the passing trackside and one of the 
+
+--- Document Chunk 230 ---
+challenges is to ensure the right balance is struck 
+
+--- Document Chunk 231 ---
+between watching the displays in the cab and 
+
+--- Document Chunk 232 ---
+watching the line.
+
+--- Document Chunk 233 ---
+Another challenge with these systems is that the 
+
+--- Document Chunk 234 ---
+driver is given advice on the safe speed profile 
+
+--- Document Chunk 235 ---
+based on the train parameters encoded in the 
+
+--- Document Chunk 236 ---
+system. If these parameters are wrong the driver 
+
+--- Document Chunk 237 ---
+may be advised to brake later in the journey than 
+
+--- Document Chunk 238 ---
+is desirable, with the risk of passing the End of 
+
+--- Document Chunk 239 ---
+Authority (EoA) – the equivalent of a SPAD. This is 
+
+--- Document Chunk 240 ---
+of particular concern for variable formation trains, 
+
+--- Document Chunk 241 ---
+especially locomotive-hauled freight trains, but is 
+
+--- Document Chunk 242 ---
+also relevant at times when adhesion is poor.
+
+--- Document Chunk 243 ---
+The major advantage of such systems is the ability 
+
+--- Document Chunk 244 ---
+to enhance the capacity of the infrastructure. 
+
+--- Document Chunk 245 ---
+Because the train and infrastructure are in regular 
+
+--- Document Chunk 246 ---
+contact, and with a safe speed display in the cab, 
+
+--- Document Chunk 247 ---
+the limitations of fixed lineside signalling with 
+
+--- Document Chunk 248 ---
+a limited number of aspects can be removed. 
+
+--- Document Chunk 249 ---
+Thus, a fixed block railway is no longer limited 
+
+--- Document Chunk 250 ---
+to say four or five aspect signals, meaning closer 
+
+--- Document Chunk 251 ---
+running is possible and, more importantly, 
+
+--- Document Chunk 252 ---
+release of trains held at a converging junction 
+
+--- Document Chunk 253 ---
+can happen significantly earlier with very short 
+
+--- Document Chunk 254 ---
+block sections. This form of protection is a 
+
+--- Document Chunk 255 ---
+corner stone of moving block systems and the 
+
+--- Document Chunk 256 ---
+heart of Communication Based Train Control 
+
+--- Document Chunk 257 ---
+(CBTC). Metro railways have been able to gain 
+
+--- Document Chunk 258 ---
+significant uplift in service frequency as a result 
+
+--- Document Chunk 259 ---
+of such application, for example the Victoria line 
+
+--- Document Chunk 260 ---
+in London increased from around 30 to 36 trains 
+
+--- Document Chunk 261 ---
+per hour in the peak as a result of implementing 
+
+--- Document Chunk 262 ---
+CBTC. Continuous update train protection 
+
+--- Document Chunk 263 ---
+thus offers enhanced performance and options 
+
+--- Document Chunk 264 ---
+for reduced trackside equipment as well as 
+
+--- Document Chunk 265 ---
+improved safety, making the business justification 
+
+--- Document Chunk 266 ---
+measurably easier.
+
+--- Document Chunk 267 ---
+The advantages of in cab signalling and increased 
+
+--- Document Chunk 268 ---
+capacity by removal of lineside signals usually 
+
+--- Document Chunk 269 ---
+means either all trains must be fitted with a 
+
+--- Document Chunk 270 ---
+suitable system or the configuration of existing 
+
+--- Document Chunk 271 ---
+signals needs to be amended to allow changes 
+
+--- Document Chunk 272 ---
+in operational rules. This poses a significant cost 
+
+--- Document Chunk 273 ---
+hurdle before such benefits can be gained.
+
+--- Document Chunk 274 ---
+Warning systems
+
+--- Document Chunk 275 ---
+Warning systems are usually designed and 
+
+--- Document Chunk 276 ---
+positioned to alert the driver to the presence of 
+
+--- Document Chunk 277 ---
+a signal or sign at the trackside. The Automatic 
+
+--- Document Chunk 278 ---
+Warning System (AWS) in the UK and used 
+
+--- Document Chunk 279 ---
+elsewhere is a typical example. If a distant 
+
+--- Document Chunk 280 ---
+signal is approached with a clear indication the 
+
+--- Document Chunk 281 ---
+driver receives a bell (or gong) sound and is free 
+
+--- Document Chunk 282 ---
+to continue. Should the signal be at caution 
+
+--- Document Chunk 283 ---
+the sound is a buzzer (or horn) and the driver 
+
+--- Document Chunk 284 ---
+must acknowledge this both to turn off the 
+
+--- Document Chunk 285 ---
+sound and prevent a brake application. After 
+
+--- Document Chunk 286 ---
+acknowledgement the driver is responsible for 
+
+--- Document Chunk 287 ---
+the continued motion of the train. These basic 
+
+--- Document Chunk 288 ---
+functions are almost identical to the French 
+
+--- Document Chunk 289 ---
+“Crocodile” system.
+
+--- Document Chunk 290 ---
+It is interesting to note how the technology of 
+
+--- Document Chunk 291 ---
+this system has changed. The basic system was 
+
+--- Document Chunk 292 ---
+developed by the Great Western Railway, trialled 
+
+--- Document Chunk 293 ---
+in 1906 and implemented shortly afterwards 
+
+--- Document Chunk 294 ---
+across their network. Initially the communication 
+
+--- Document Chunk 295 ---
+between track and train was a ramp in the track 
+
+--- Document Chunk 296 ---
+with an electrical feed to indicate clear and no 
+
+--- Document Chunk 297 ---
+electrical charge when at caution. This follows 
+
+--- Document Chunk 298 ---
+the “fail safe” principle because the absence of 
+
+--- Document Chunk 299 ---
+electricity could arise in several failure situations 
+
+--- Document Chunk 300 ---
+whereas the mechanical lifting of the contact 
+
+--- Document Chunk 301 ---
+shoe would fail much less often. The problem 
+
+--- Document Chunk 302 ---
+with a mechanical contact system is wear and 
+
+--- Document Chunk 303 ---
+tear especially as speed and frequency of use 
+
+--- Document Chunk 304 ---
+increases as was inevitable when Multiple Aspect 
+
+--- Document Chunk 305 ---
+Signalling (MAS) became common. The form of 
+
+--- Document Chunk 306 ---
+AWS implemented by British Railways from the 
+
+--- Document Chunk 307 ---
+1950s uses magnetic induction to convey the 
+
+--- Document Chunk 308 ---
+signal status to the train. During the 1950s when 
+
+--- Document Chunk 309 ---
+the system was being installed, semiconductor 
+
+--- Document Chunk 310 ---
+devices were new so the equipment on the 
+
+--- Document Chunk 311 ---
+train used relays. Today the logic is performed 
+
+--- Document Chunk 312 ---
+by a PLC and the magnetic field detected by a 
+
+--- Document Chunk 313 ---
+Hall Effect sensor.
+
+--- Document Chunk 314 ---
+AWS uses a permanent magnet centrally located 
+
+--- Document Chunk 315 ---
+between the rails to initiate the onboard system 
+
+--- Document Chunk 316 ---
+and provide the driver with a warning if the 
+
+--- Document Chunk 317 ---
+signal is at caution or stop. An electromagnet 
+
+--- Document Chunk 318 ---
+is positioned immediately afterwards where a 
+
+--- Document Chunk 319 ---
+signal may show a line clear aspect. This second 
+
+--- Document Chunk 320 ---
+magnet is energised when the signal is clear 
+
+--- Document Chunk 321 ---
+(green) and effectively cancels the warning, 
+
+--- Document Chunk 322 ---
+instead sounding a bell in the cab (see Figure 1). 
+
+--- Document Chunk 323 ---
+The French “Crocodile” system conveys the two 
+
+--- Document Chunk 324 ---
+messages from the infrastructure to the train by 
+
+--- Document Chunk 325 ---
+different voltages applied to the “Crocodile” ramp 
+
+--- Document Chunk 326 ---
+collected by a wire brush on the driving vehicle 
+
+--- Document Chunk 327 ---
+mechanically contacting the ramp.
+
+--- Document Chunk 328 ---
+To ensure the two successive magnets are 
+
+--- Document Chunk 329 ---
+detected at low speed the system delays output 
+
+--- Document Chunk 330 ---
+to the driver for approximately one second after 
+
+--- Document Chunk 331 ---
+passing the permanent magnet. This provides 
+
+--- Document Chunk 332 ---
+time for a slowly moving train to detect the 
+
+--- Document Chunk 333 ---
+electromagnet prior to initiating the warning 
+
+--- Document Chunk 334 ---
+sequence. It then gives the driver around three 
+
+--- Document Chunk 335 ---
+seconds to acknowledge a warning and observe 
+
+--- Document Chunk 336 ---
+the signal. If no acknowledgement is received 
+
+--- Document Chunk 337 ---
+the brakes will be applied. On passing the signal 
+
+--- Document Chunk 338 ---
+displaying the caution aspect the train should 
+
+--- Document Chunk 339 ---
+stop at or before the associated stop signal. Thus 
+
+--- Document Chunk 340 ---
+the AWS trackside installation is placed around 
+
+--- Document Chunk 341 ---
+4 seconds before the signal, which is normally 
+
+--- Document Chunk 342 ---
+interpreted as about 180m.
+
+--- Document Chunk 343 ---
+A key technical challenge for AWS arose with its 
+
+--- Document Chunk 344 ---
+application to third rail electrified infrastructure. 
+
+--- Document Chunk 345 ---
+“If these 
+
+--- Document Chunk 346 ---
+parameters are 
+
+--- Document Chunk 347 ---
+wrong the driver 
+
+--- Document Chunk 348 ---
+may be advised 
+
+--- Document Chunk 349 ---
+to brake later 
+
+--- Document Chunk 350 ---
+than is desirable”
+
+--- Document Chunk 351 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 352 ---
+13
+
+--- Document Chunk 353 ---
+Approx 200m
+
+--- Document Chunk 354 ---
+All signals fitted with AWS
+
+--- Document Chunk 355 ---
+Control Centre
+
+--- Document Chunk 356 ---
+Controls points and signals.
+
+--- Document Chunk 357 ---
+Watches train position from 
+
+--- Document Chunk 358 ---
+train detection sections.
+
+--- Document Chunk 359 ---
+Train detection section 1 Train detection section 2
+
+--- Document Chunk 360 ---
+1) Signal green. Train responds to both magnets, 
+
+--- Document Chunk 361 ---
+sounds bell to driver, no action.
+
+--- Document Chunk 362 ---
+2) Signal NOT green. Train responds to one magnet,
+
+--- Document Chunk 363 ---
+sounds horn to driver. If driver does not respond
+
+--- Document Chunk 364 ---
+to horn brake applied after 2-3 seconds. If driver
+
+--- Document Chunk 365 ---
+responds no action by system.
+
+--- Document Chunk 366 ---
+Electric magnet
+
+--- Document Chunk 367 ---
+only energised when 
+
+--- Document Chunk 368 ---
+signal green
+
+--- Document Chunk 369 ---
+Permanent
+
+--- Document Chunk 370 ---
+magnet
+
+--- Document Chunk 371 ---
+The “Crocodile” system conveys two messages to the train by different voltages fed 
+
+--- Document Chunk 372 ---
+to the ramp. The right hand photo shows Eurobalises, TBL antenna and Crocodile 
+
+--- Document Chunk 373 ---
+together in a Belgian application.
+
+--- Document Chunk 374 ---
+Photos Wikimedia CC-BY-SA Charlotte Noblet (left) and François Melchior.
+
+--- Document Chunk 375 ---
+AWS. Left trackside magnets, right, train-carried equipment.
+
+--- Document Chunk 376 ---
+Photos David Fenner.
+
+--- Document Chunk 377 ---
+Dragging equipment 
+
+--- Document Chunk 378 ---
+ramp
+
+--- Document Chunk 379 ---
+Permanent magnet
+
+--- Document Chunk 380 ---
+Electromagnet
+
+--- Document Chunk 381 ---
+TPWS receiver
+
+--- Document Chunk 382 ---
+AWS receiver 
+
+--- Document Chunk 383 ---
+pre Hall effect
+
+--- Document Chunk 384 ---
+Figure 1 – AWS application Trains with AWS or full TPWS can share the line.
+
+--- Document Chunk 385 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 386 ---
+14
+
+--- Document Chunk 387 ---
+Where high current DC traction systems are used 
+
+--- Document Chunk 388 ---
+there is a risk of cross track cables creating ‘stray’ 
+
+--- Document Chunk 389 ---
+magnet fields. In this case the AWS detectors on 
+
+--- Document Chunk 390 ---
+the trains were desensitised and extra strength 
+
+--- Document Chunk 391 ---
+magnets provided for the trackside AWS functions 
+
+--- Document Chunk 392 ---
+to minimise the risk of false AWS information from 
+
+--- Document Chunk 393 ---
+the stray fields.
+
+--- Document Chunk 394 ---
+Another challenge is the increasing use of bi-
+
+--- Document Chunk 395 ---
+directional signalling. With the magnets in the 
+
+--- Document Chunk 396 ---
+centre of the track, trains in either direction will 
+
+--- Document Chunk 397 ---
+detect the fields. Thus, trains passing over an 
+
+--- Document Chunk 398 ---
+installation intended for the opposite direction of 
+
+--- Document Chunk 399 ---
+movement will experience a warning since the 
+
+--- Document Chunk 400 ---
+permanent magnet will be the last item passed. 
+
+--- Document Chunk 401 ---
+On tracks where this is an infrequent occurrence 
+
+--- Document Chunk 402 ---
+a sign may be installed to remind the driver this 
+
+--- Document Chunk 403 ---
+warning does not apply to them. In locations 
+
+--- Document Chunk 404 ---
+where such movement is more frequent or would 
+
+--- Document Chunk 405 ---
+result in the need to regularly acknowledge 
+
+--- Document Chunk 406 ---
+irrelevant AWS warnings, the permanent magnet 
+
+--- Document Chunk 407 ---
+is surrounded by an electromagnet coil which 
+
+--- Document Chunk 408 ---
+suppresses the permanent magnetic field when 
+
+--- Document Chunk 409 ---
+a reverse direction movement is signalled. Thus, 
+
+--- Document Chunk 410 ---
+outputs are required from the interlocking 
+
+--- Document Chunk 411 ---
+system not just to indicate when the signal is 
+
+--- Document Chunk 412 ---
+showing a green aspect but also when a reverse 
+
+--- Document Chunk 413 ---
+direction route is set. Occasionally the signalling 
+
+--- Document Chunk 414 ---
+arrangement may enable one AWS installation 
+
+--- Document Chunk 415 ---
+to be used for two signals reading in opposite 
+
+--- Document Chunk 416 ---
+directions. In this case the permanent magnet 
+
+--- Document Chunk 417 ---
+will have two electromagnets one either end 
+
+--- Document Chunk 418 ---
+associated with the relevant signal.
+
+--- Document Chunk 419 ---
+Multiple aspect signalling has resulted in most 
+
+--- Document Chunk 420 ---
+signals being equipped with AWS meaning the 
+
+--- Document Chunk 421 ---
+need for driver acknowledgement can become 
+
+--- Document Chunk 422 ---
+a semi-automatic reaction, especially when 
+
+--- Document Chunk 423 ---
+operating a congested railway on restrictive 
+
+--- Document Chunk 424 ---
+aspects. Indeed, this caused the Southern 
+
+--- Document Chunk 425 ---
+Region of British Rail to experiment with a more 
+
+--- Document Chunk 426 ---
+sophisticated form of Signal Repeating AWS 
+
+--- Document Chunk 427 ---
+(SRAWS) during the early 1970’s but in the end 
+
+--- Document Chunk 428 ---
+this was not adopted. The problem of instinctive 
+
+--- Document Chunk 429 ---
+response is exacerbated by the application of the 
+
+--- Document Chunk 430 ---
+system to severe permanent and all temporary 
+
+--- Document Chunk 431 ---
+speed restrictions. These requirements arose after 
+
+--- Document Chunk 432 ---
+accidents caused by excess speed. The need to 
+
+--- Document Chunk 433 ---
+continue to reduce the harm caused by accidents 
+
+--- Document Chunk 434 ---
+together with these human factor weaknesses 
+
+--- Document Chunk 435 ---
+subsequently resulted in the development of the 
+
+--- Document Chunk 436 ---
+Train Protection Warning System (TPWS).
+
+--- Document Chunk 437 ---
+A feature of AWS and many similar systems is 
+
+--- Document Chunk 438 ---
+they give the driver one of two indications at 
+
+--- Document Chunk 439 ---
+every signal. Thus, any failure of the train borne 
+
+--- Document Chunk 440 ---
+equipment is quickly revealed to the driver and 
+
+--- Document Chunk 441 ---
+can be managed through appropriate procedures. 
+
+--- Document Chunk 442 ---
+In the case of AWS, the use of a permanent 
+
+--- Document Chunk 443 ---
+magnet ensures that a complete failure of the 
+
+--- Document Chunk 444 ---
+trackside installation is very remote and similarly 
+
+--- Document Chunk 445 ---
+the driver will note a wrong indication. It should be 
+
+--- Document Chunk 446 ---
+understood, AWS is not a fail-safe system with a 
+
+--- Document Chunk 447 ---
+high SIL rating. It is therefore important that faults 
+
+--- Document Chunk 448 ---
+are reported promptly and suitable measures 
+
+--- Document Chunk 449 ---
+taken to operate safely after discovery.
+
+--- Document Chunk 450 ---
+Basic protection systems
+
+--- Document Chunk 451 ---
+The earliest protection systems were train stops 
+
+--- Document Chunk 452 ---
+placed on the track at the location of a stop 
+
+--- Document Chunk 453 ---
+signal, as previously described. When the signal 
+
+--- Document Chunk 454 ---
+is showing a stop aspect an arm is raised typically 
+
+--- Document Chunk 455 ---
+50-60mm above rail height. This engages with a 
+
+--- Document Chunk 456 ---
+trip cock on the train which opens a vent on the 
+
+--- Document Chunk 457 ---
+brake pipe forcing a brake application. The train 
+
+--- Document Chunk 458 ---
+will be passing the signal at danger before the 
+
+--- Document Chunk 459 ---
+brakes are applied in which context this is a SPAD 
+
+--- Document Chunk 460 ---
+mitigation measure rather than prevention. When 
+
+--- Document Chunk 461 ---
+the signal is clear the trip arm is lowered below 
+
+--- Document Chunk 462 ---
+rail level. Train stops were normally provided 
+
+--- Document Chunk 463 ---
+on metros operating in tunnels because of the 
+
+--- Document Chunk 464 ---
+significant risk of a collision in such locations. 
+
+--- Document Chunk 465 ---
+Extension to other locations has followed. To gain 
+
+--- Document Chunk 466 ---
+full protection requires a long enough overrun 
+
+--- Document Chunk 467 ---
+to bring the train to a halt from the maximum 
+
+--- Document Chunk 468 ---
+attainable speed prior to the brake application. 
+
+--- Document Chunk 469 ---
+For metros this is usually an associated design 
+
+--- Document Chunk 470 ---
+constraint limiting capacity and creating some 
+
+--- Document Chunk 471 ---
+operating constraints such as restricting speed 
+
+--- Document Chunk 472 ---
+through closed stations when the overlap at the 
+
+--- Document Chunk 473 ---
+next signal is based on the maximum attainable 
+
+--- Document Chunk 474 ---
+speed from a standing start. For main line railways 
+
+--- Document Chunk 475 ---
+the concept is often not practicable due to higher 
+
+--- Document Chunk 476 ---
+speeds and extended braking distances.
+
+--- Document Chunk 477 ---
+“Another 
+
+--- Document Chunk 478 ---
+challenge is the 
+
+--- Document Chunk 479 ---
+increasing use 
+
+--- Document Chunk 480 ---
+of bi-directional 
+
+--- Document Chunk 481 ---
+signalling”
+
+--- Document Chunk 482 ---
+“Train stops are 
+
+--- Document Chunk 483 ---
+still a mitigation 
+
+--- Document Chunk 484 ---
+measure rather 
+
+--- Document Chunk 485 ---
+than a control 
+
+--- Document Chunk 486 ---
+system”
+
+--- Document Chunk 487 ---
+“Classic” trainstops on the Berlin S-Bahn, photo taken in 2007.
+
+--- Document Chunk 488 ---
+Photo Kabi/Wikimedia.
+
+--- Document Chunk 489 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 490 ---
+15
+
+--- Document Chunk 491 ---
+Typically up to 350m
+
+--- Document Chunk 492 ---
+TPWS only fitted to signals protecting  
+
+--- Document Chunk 493 ---
+junctions and other "high risk" signals
+
+--- Document Chunk 494 ---
+TPWS equipment active
+
+--- Document Chunk 495 ---
+only when signal red
+
+--- Document Chunk 496 ---
+Control Centre
+
+--- Document Chunk 497 ---
+Controls points and signals.
+
+--- Document Chunk 498 ---
+Watches train position from 
+
+--- Document Chunk 499 ---
+train detection sections.
+
+--- Document Chunk 500 ---
+Train detection section 1 Train detection section 2
+
+--- Document Chunk 501 ---
+1) AWS as before.
+
+--- Document Chunk 502 ---
+2) If train speed less than overspeed sensor value
+
+--- Document Chunk 503 ---
+when signal red no action, if overspeed brakes 
+
+--- Document Chunk 504 ---
+applied for minimum one minute.
+
+--- Document Chunk 505 ---
+3) If train (front end) passes train stop when signal
+
+--- Document Chunk 506 ---
+red brakes applied for one minute.  
+
+--- Document Chunk 507 ---
+TPWS train stop TPWS overspeed
+
+--- Document Chunk 508 ---
+sensor
+
+--- Document Chunk 509 ---
+AWS
+
+--- Document Chunk 510 ---
+Train stops have moved on significantly from this 
+
+--- Document Chunk 511 ---
+technology, but they are still a mitigation measure 
+
+--- Document Chunk 512 ---
+rather than a control system. An early advance 
+
+--- Document Chunk 513 ---
+on mechanical contact train stop systems was 
+
+--- Document Chunk 514 ---
+“Indusi”, first installed in Germany and surrounding 
+
+--- Document Chunk 515 ---
+countries in the 1930s and revived in the 1950s. 
+
+--- Document Chunk 516 ---
+Several enhancements have subsequently 
+
+--- Document Chunk 517 ---
+occurred leading to the system known as PZB90. 
+
+--- Document Chunk 518 ---
+Three tones are generated on the driving vehicle 
+
+--- Document Chunk 519 ---
+and interact with passive tuned coils mounted 
+
+--- Document Chunk 520 ---
+as required trackside. The tuned coils cause 
+
+--- Document Chunk 521 ---
+the relevant frequency on the motive unit to 
+
+--- Document Chunk 522 ---
+resonate resulting in an impedance change and 
+
+--- Document Chunk 523 ---
+thus activating the required action. The 2000Hz 
+
+--- Document Chunk 524 ---
+tone is a train stop forcing a brake application 
+
+--- Document Chunk 525 ---
+and is will typically resonate on passing a red 
+
+--- Document Chunk 526 ---
+signal. The 1000Hz tone is typically associated 
+
+--- Document Chunk 527 ---
+with a caution signal and requires a driver 
+
+--- Document Chunk 528 ---
+acknowledgement followed by a speed reduction 
+
+--- Document Chunk 529 ---
+within a set time whilst a 500Hz tone requires a 
+
+--- Document Chunk 530 ---
+lower maximum speed and is often placed shortly 
+
+--- Document Chunk 531 ---
+before a red signal. 
+
+--- Document Chunk 532 ---
+Indusi tuned coils are installed on the sleeper 
+
+--- Document Chunk 533 ---
+ends so they are naturally only detected by a 
+
+--- Document Chunk 534 ---
+vehicle travelling in one direction and do not need 
+
+--- Document Chunk 535 ---
+suppression for opposite-direction movements. 
+
+--- Document Chunk 536 ---
+TPWS in the UK has related functionality in that 
+
+--- Document Chunk 537 ---
+tones, in this case six of them around 65kHz, are 
+
+--- Document Chunk 538 ---
+transmitted by track mounted loops this time 
+
+--- Document Chunk 539 ---
+centrally mounted in the track. Three frequencies, 
+
+--- Document Chunk 540 ---
+two arming and one trigger, are used for the 
+
+--- Document Chunk 541 ---
+normal direction of movement and the other 
+
+--- Document Chunk 542 ---
+three for trains in the opposite direction on bi-
+
+--- Document Chunk 543 ---
+directional track. These provide the functions 
+
+--- Document Chunk 544 ---
+of a ‘speed trap’ for a train travelling faster than 
+
+--- Document Chunk 545 ---
+deemed safe and a train stop (Figure 2). Should 
+
+--- Document Chunk 546 ---
+either the speed trap or train stop function be 
+
+--- Document Chunk 547 ---
+activated a full brake application is initiated and 
+
+--- Document Chunk 548 ---
+maintained for one minute, bringing the train to 
+
+--- Document Chunk 549 ---
+a stand. The location at which the train stops is 
+
+--- Document Chunk 550 ---
+a function of the train brake performance and 
+
+--- Document Chunk 551 ---
+the initial speed prior to the brake application. 
+
+--- Document Chunk 552 ---
+There is no certainty this will be in a safe location. 
+
+--- Document Chunk 553 ---
+TPWS is considered to have a high probability 
+
+--- Document Chunk 554 ---
+of stopping a passenger train within the overlap 
+
+--- Document Chunk 555 ---
+provided the approach speed is not greater than 
+
+--- Document Chunk 556 ---
+75mph (120km/h) and adhesion can deliver the 
+
+--- Document Chunk 557 ---
+braking effort of the train. Where approach speeds 
+
+--- Document Chunk 558 ---
+are greater than 75mph and risk is assessed to be 
+
+--- Document Chunk 559 ---
+high additional overspeed loops may be provided 
+
+--- Document Chunk 560 ---
+earlier on approach to the signal (Figure 3 
+
+--- Document Chunk 561 ---
+overleaf). The system substantially mitigates the 
+
+--- Document Chunk 562 ---
+risk with a SPAD but does not eliminate it.
+
+--- Document Chunk 563 ---
+The speed trap function of TPWS is determined 
+
+--- Document Chunk 564 ---
+jointly by the train and the infrastructure. The 
+
+--- Document Chunk 565 ---
+train has a preset on board timer. At the trackside 
+
+--- Document Chunk 566 ---
+the arming and trigger loops are separated by 
+
+--- Document Chunk 567 ---
+a predetermined distance corresponding to 
+
+--- Document Chunk 568 ---
+a defined speed based on the standard timer 
+
+--- Document Chunk 569 ---
+setting. Current implementations assume two 
+
+--- Document Chunk 570 ---
+standard timer settings, one for passenger trains 
+
+--- Document Chunk 571 ---
+and a longer setting for freight trains. Thus, the 
+
+--- Document Chunk 572 ---
+speed trap will activate if a train passes above a 
+
+--- Document Chunk 573 ---
+predefined speed based on its ‘type’. This gives 
+
+--- Document Chunk 574 ---
+rise to not infrequent cases where a marginal 
+
+--- Document Chunk 575 ---
+overspeed results in a heavy brake application that 
+
+--- Document Chunk 576 ---
+was probably ‘unnecessary’ in terms of the train 
+
+--- Document Chunk 577 ---
+being able to stop where required. This can cause 
+
+--- Document Chunk 578 ---
+drivers to dislike the system which is a concern as 
+
+--- Document Chunk 579 ---
+it may lead to misuse.
+
+--- Document Chunk 580 ---
+TPWS is an intermittent train protection system 
+
+--- Document Chunk 581 ---
+because it is only provided at locations that are 
+
+--- Document Chunk 582 ---
+deemed high-risk. Those are defined as signals 
+
+--- Document Chunk 583 ---
+protecting a convergent junction and selected 
+
+--- Document Chunk 584 ---
+other signals (where the SPAD risk is assessed as 
+
+--- Document Chunk 585 ---
+high), buffer stops and severe speed reductions 
+
+--- Document Chunk 586 ---
+where the approach speed is or exceeds 60mph 
+
+--- Document Chunk 587 ---
+(approximately 100km/h).
+
+--- Document Chunk 588 ---
+The TPWS system is active to stop a train so 
+
+--- Document Chunk 589 ---
+a key requirement is confirming the trackside 
+
+--- Document Chunk 590 ---
+equipment is functioning when required. This 
+
+--- Document Chunk 591 ---
+is done by monitoring the current fed to the 
+
+--- Document Chunk 592 ---
+transmitting loops. Should this fall outside the 
+
+--- Document Chunk 593 ---
+intended parameters an indication is given to the 
+
+--- Document Chunk 594 ---
+supervising signaller and the signal in rear held 
+
+--- Document Chunk 595 ---
+Figure 2 – Typical TPWS installation.
+
+--- Document Chunk 596 ---
+“TPWS is only 
+
+--- Document Chunk 597 ---
+provided at 
+
+--- Document Chunk 598 ---
+locations that  
+
+--- Document Chunk 599 ---
+are deemed 
+
+--- Document Chunk 600 ---
+high-risk”
+
+--- Document Chunk 601 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 602 ---
+16
+
+--- Document Chunk 603 ---
+at danger. Similarly, the on-board equipment is 
+
+--- Document Chunk 604 ---
+self-diagnostic to confirm it is functional at the 
+
+--- Document Chunk 605 ---
+start of a journey and in some cases intermittently 
+
+--- Document Chunk 606 ---
+thereafter. As with AWS this system was not 
+
+--- Document Chunk 607 ---
+designed in accordance with SIL 4 requirements, 
+
+--- Document Chunk 608 ---
+so safety needs to be controlled by suitable 
+
+--- Document Chunk 609 ---
+procedures in the event of a fault.
+
+--- Document Chunk 610 ---
+Neither PZB90 nor TPWS can prevent all accidents 
+
+--- Document Chunk 611 ---
+as they are intermittent systems. Both systems 
+
+--- Document Chunk 612 ---
+are provided with facilities to allow the driver to 
+
+--- Document Chunk 613 ---
+reset the system after a brake intervention and 
+
+--- Document Chunk 614 ---
+continue with the journey. Such reset is required 
+
+--- Document Chunk 615 ---
+to be conducted under controlled circumstances 
+
+--- Document Chunk 616 ---
+involving communication with the signaller or 
+
+--- Document Chunk 617 ---
+a controller. In both cases there is evidence of 
+
+--- Document Chunk 618 ---
+drivers sometimes resetting without following 
+
+--- Document Chunk 619 ---
+the correct procedure, with the potential for a 
+
+--- Document Chunk 620 ---
+serious accident.
+
+--- Document Chunk 621 ---
+Full ATP systems with  
+
+--- Document Chunk 622 ---
+intermittent update
+
+--- Document Chunk 623 ---
+Full ATP systems continuously monitor the 
+
+--- Document Chunk 624 ---
+movement of the train and intervene with a brake 
+
+--- Document Chunk 625 ---
+application should the speed go outside the safe 
+
+--- Document Chunk 626 ---
+envelope. An indication of a suitable speed is given 
+
+--- Document Chunk 627 ---
+to the driver, this speed usually having a small 
+
+--- Document Chunk 628 ---
+margin beneath the safe speed envelope. These 
+
+--- Document Chunk 629 ---
+systems are normally designed in accordance with 
+
+--- Document Chunk 630 ---
+SIL 4 requirements.
+
+--- Document Chunk 631 ---
+To enable the train to continuously calculate 
+
+--- Document Chunk 632 ---
+and monitor the safe speed profile information is 
+
+--- Document Chunk 633 ---
+needed about several parameters:
+
+--- Document Chunk 634 ---
+• Infrastructure profile.
+
+--- Document Chunk 635 ---
+• Distance to the end of the movement authority 
+
+--- Document Chunk 636 ---
+(i.e. stop signal) (EoA).
+
+--- Document Chunk 637 ---
+• Current speed of the train.
+
+--- Document Chunk 638 ---
+• Distance travelled.
+
+--- Document Chunk 639 ---
+• Braking performance of the train.
+
+--- Document Chunk 640 ---
+• Maximum train speed.
+
+--- Document Chunk 641 ---
+The infrastructure profile must reflect the 
+
+--- Document Chunk 642 ---
+permitted speed, including any temporary speed 
+
+--- Document Chunk 643 ---
+limits, covering at least the distance within the 
+
+--- Document Chunk 644 ---
+current movement authority. This includes speed 
+
+--- Document Chunk 645 ---
+limits over junctions which may vary depending 
+
+--- Document Chunk 646 ---
+on the route allocated. It also needs to include 
+
+--- Document Chunk 647 ---
+the gradient profile over the same distance as 
+
+--- Document Chunk 648 ---
+changes to gradient can have a significant effect 
+
+--- Document Chunk 649 ---
+on stopping distance.
+
+--- Document Chunk 650 ---
+The location of the EoA either needs to be known 
+
+--- Document Chunk 651 ---
+or at least it is beyond the range that currently 
+
+--- Document Chunk 652 ---
+needs to be considered (e.g. when driving on 
+
+--- Document Chunk 653 ---
+green signals or the equivalent). To calculate the 
+
+--- Document Chunk 654 ---
+ongoing speed profile, it is obviously necessary to 
+
+--- Document Chunk 655 ---
+know the current speed and how far the train has 
+
+--- Document Chunk 656 ---
+travelled to enable the remaining distance to any 
+
+--- Document Chunk 657 ---
+speed change to be determined.
+
+--- Document Chunk 658 ---
+The braking performance of the train is a 
+
+--- Document Chunk 659 ---
+key parameter in performing the safe speed 
+
+--- Document Chunk 660 ---
+envelope calculation.
+
+--- Document Chunk 661 ---
+The data about the infrastructure including route 
+
+--- Document Chunk 662 ---
+set and signal status is usually fed to the train 
+
+--- Document Chunk 663 ---
+intermittently as data telegrams by balises or 
+
+--- Document Chunk 664 ---
+beacons, most of which will be associated with 
+
+--- Document Chunk 665 ---
+a signal (Figure 4). Some systems use inductive 
+
+--- Document Chunk 666 ---
+loops laid in the track to pass the relevant 
+
+--- Document Chunk 667 ---
+telegrams. Infill may be provided where the 
+
+--- Document Chunk 668 ---
+intermittent transmission of data has a significant 
+
+--- Document Chunk 669 ---
+impact on operational capability.
+
+--- Document Chunk 670 ---
+The need to know speed and distance travelled 
+
+--- Document Chunk 671 ---
+results in some fairly complex configurations of 
+
+--- Document Chunk 672 ---
+equipment on board the train. The wheel to rail 
+
+--- Document Chunk 673 ---
+interface is notoriously challenging with relatively 
+
+--- Document Chunk 674 ---
+low adhesion. This makes simple odometry 
+
+--- Document Chunk 675 ---
+inadequate for the purposes of ATP especially as 
+
+--- Document Chunk 676 ---
+the objective is a system with high safety integrity. 
+
+--- Document Chunk 677 ---
+Slip (during acceleration) and slide (during braking) 
+
+--- Document Chunk 678 ---
+are relatively likely, both creating erroneous 
+
+--- Document Chunk 679 ---
+information if reliance is placed on wheel rotation. 
+
+--- Document Chunk 680 ---
+Some systems use an unpowered and under 
+
+--- Document Chunk 681 ---
+braked (or unbraked) axle as the sensor input. 
+
+--- Document Chunk 682 ---
+Typically up to 350m
+
+--- Document Chunk 683 ---
+TPWS only fitted to signals protecting  
+
+--- Document Chunk 684 ---
+junctions and other "high risk" signals
+
+--- Document Chunk 685 ---
+TPWS equipment
+
+--- Document Chunk 686 ---
+active only when
+
+--- Document Chunk 687 ---
+signal red
+
+--- Document Chunk 688 ---
+AWS AWS
+
+--- Document Chunk 689 ---
+Permanent 
+
+--- Document Chunk 690 ---
+magnet
+
+--- Document Chunk 691 ---
+Electromagnet
+
+--- Document Chunk 692 ---
+(only active when
+
+--- Document Chunk 693 ---
+signal green)
+
+--- Document Chunk 694 ---
+TPWS+ typically 750m
+
+--- Document Chunk 695 ---
+TPWS train stop TPWS overspeed
+
+--- Document Chunk 696 ---
+sensor
+
+--- Document Chunk 697 ---
+Trigger loop Arming loop
+
+--- Document Chunk 698 ---
+TPWS+ overspeed
+
+--- Document Chunk 699 ---
+sensor (when used)
+
+--- Document Chunk 700 ---
+Arming loopTrigger loop
+
+--- Document Chunk 701 ---
+Figure 3 – Typical TPWS installation including AWS.
+
+--- Document Chunk 702 ---
+“Full ATP systems 
+
+--- Document Chunk 703 ---
+continuously 
+
+--- Document Chunk 704 ---
+monitor the 
+
+--- Document Chunk 705 ---
+movement of the 
+
+--- Document Chunk 706 ---
+train”
+
+--- Document Chunk 707 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 708 ---
+17
+
+--- Document Chunk 709 ---
+Another risk with wheel rotation is the slow but 
+
+--- Document Chunk 710 ---
+steady change in size as the wheel wears. Doppler 
+
+--- Document Chunk 711 ---
+radar is sometimes used, but is not without 
+
+--- Document Chunk 712 ---
+challenges especially in damp or snowy conditions 
+
+--- Document Chunk 713 ---
+and of course like wheel rotation it is subject to a 
+
+--- Document Chunk 714 ---
+steady build-up of position error unless corrected. 
+
+--- Document Chunk 715 ---
+Use of a Global Navigation Satellite System (GNSS) 
+
+--- Document Chunk 716 ---
+offers another means. However, it rarely covers all 
+
+--- Document Chunk 717 ---
+conditions, examples being tunnels and urban or 
+
+--- Document Chunk 718 ---
+other ‘canyons’ where lost or reflected signals can 
+
+--- Document Chunk 719 ---
+affect the calculated position. Thus, odometry for 
+
+--- Document Chunk 720 ---
+ATP is often a mix of systems to counteract the 
+
+--- Document Chunk 721 ---
+weakness of any one of them and to support the 
+
+--- Document Chunk 722 ---
+determination of the margin of error on the actual 
+
+--- Document Chunk 723 ---
+estimated position which will tend to increase over 
+
+--- Document Chunk 724 ---
+time and distance travelled. Balises or beacons 
+
+--- Document Chunk 725 ---
+on the infrastructure are frequently used as a 
+
+--- Document Chunk 726 ---
+reference point to correct accumulated error. Not 
+
+--- Document Chunk 727 ---
+surprisingly odometry problems are potentially 
+
+--- Document Chunk 728 ---
+the biggest cause of train equipment failure for 
+
+--- Document Chunk 729 ---
+some ATP systems.
+
+--- Document Chunk 730 ---
+A further result of the challenge with odometry 
+
+--- Document Chunk 731 ---
+is the need for a “release” speed with many ATP 
+
+--- Document Chunk 732 ---
+systems. Because the train cannot know exactly 
+
+--- Document Chunk 733 ---
+where it is the ATP system will assume worst 
+
+--- Document Chunk 734 ---
+case error and therefore bring the train to a halt 
+
+--- Document Chunk 735 ---
+a short distance prior to the current EoA. This is 
+
+--- Document Chunk 736 ---
+a significant problem if the next update function 
+
+--- Document Chunk 737 ---
+is located close to the EoA and in the case of the 
+
+--- Document Chunk 738 ---
+EoA being at the end of a station platform when, 
+
+--- Document Chunk 739 ---
+for station purposes, it is important to get close to 
+
+--- Document Chunk 740 ---
+the platform end. To counteract these challenges, 
+
+--- Document Chunk 741 ---
+it is normal for the ATP system to return full 
+
+--- Document Chunk 742 ---
+control to the driver on final approach to the EoA 
+
+--- Document Chunk 743 ---
+provided the train is then operated below a low 
+
+--- Document Chunk 744 ---
+“release” speed. This of course means there needs 
+
+--- Document Chunk 745 ---
+to be a short safe overrun beyond the EoA should 
+
+--- Document Chunk 746 ---
+the train pass beyond the EoA, when a “trip” state 
+
+--- Document Chunk 747 ---
+will be entered to bring the train to a stand.
+
+--- Document Chunk 748 ---
+Braking capability is the final parameter the system 
+
+--- Document Chunk 749 ---
+needs. This is generally relatively simple for fixed 
+
+--- Document Chunk 750 ---
+formation multiple unit trains, although a given 
+
+--- Document Chunk 751 ---
+axle may under-perform due to a maintenance 
+
+--- Document Chunk 752 ---
+issue. It is a far more complex challenge for 
+
+--- Document Chunk 753 ---
+variable formation locomotive hauled trains, 
+
+--- Document Chunk 754 ---
+especially freight trains. The usual arrangement 
+
+--- Document Chunk 755 ---
+is to request the driver to enter or select brake 
+
+--- Document Chunk 756 ---
+data as part of train preparation. One challenge 
+
+--- Document Chunk 757 ---
+in defining the brake performance is whether the 
+
+--- Document Chunk 758 ---
+system needs one or both the service brake and 
+
+--- Document Chunk 759 ---
+emergency brake parameters, and ensuring the 
+
+--- Document Chunk 760 ---
+rolling stock and signal engineer are discussing 
+
+--- Document Chunk 761 ---
+the same function! The rolling stock engineer will 
+
+--- Document Chunk 762 ---
+often regard the emergency brake as the brake 
+
+--- Document Chunk 763 ---
+of last resort (i.e. a vented air pipe) which may 
+
+--- Document Chunk 764 ---
+result in a lower deceleration rate because electric 
+
+--- Document Chunk 765 ---
+braking and wheel slide prevention systems may 
+
+--- Document Chunk 766 ---
+be disabled. If the emergency brake rate is lower 
+
+--- Document Chunk 767 ---
+than the service brake rate it will tend to dominate 
+
+--- Document Chunk 768 ---
+the operating profile because it will require the 
+
+--- Document Chunk 769 ---
+train to be slowed earlier than the service brake. 
+
+--- Document Chunk 770 ---
+Thus, it is important to be clear between parties 
+
+--- Document Chunk 771 ---
+exactly what the parameters mean and how 
+
+--- Document Chunk 772 ---
+they will be used.
+
+--- Document Chunk 773 ---
+The inputs from the above data sources are 
+
+--- Document Chunk 774 ---
+typically fed to a multi-channel processing 
+
+--- Document Chunk 775 ---
+system prior to being presented to the driver as a 
+
+--- Document Chunk 776 ---
+permitted speed indication and when necessary to 
+
+--- Document Chunk 777 ---
+the brake activation interface.
+
+--- Document Chunk 778 ---
+Full ATP systems with continuous 
+
+--- Document Chunk 779 ---
+update
+
+--- Document Chunk 780 ---
+These systems have the same basic functionality 
+
+--- Document Chunk 781 ---
+and challenges as described for intermittent 
+
+--- Document Chunk 782 ---
+update systems, but the data about infrastructure 
+
+--- Document Chunk 783 ---
+condition is able to be updated at any time. Such 
+
+--- Document Chunk 784 ---
+systems allow in cab signalling as the driver can be 
+
+--- Document Chunk 785 ---
+informed of an update to signalling conditions via 
+
+--- Document Chunk 786 ---
+the cab display.
+
+--- Document Chunk 787 ---
+Early systems achieved continuous update by 
+
+--- Document Chunk 788 ---
+transmitting codes to the train via track circuits. 
+
+--- Document Chunk 789 ---
+In practice the number of codes capable of 
+
+--- Document Chunk 790 ---
+transmission this way is severely restricted. So 
+
+--- Document Chunk 791 ---
+usually the train was given a maximum running 
+
+--- Document Chunk 792 ---
+speed and a target speed to achieve at the end of 
+
+--- Document Chunk 793 ---
+the section. Information such as speed restrictions 
+
+--- Document Chunk 794 ---
+Control Centre
+
+--- Document Chunk 795 ---
+Controls points and signals.
+
+--- Document Chunk 796 ---
+Watches train position from 
+
+--- Document Chunk 797 ---
+train detection sections.
+
+--- Document Chunk 798 ---
+Signal 1 Signal 2 Signal 3
+
+--- Document Chunk 799 ---
+Train detection section 1 Train detection section 2 Train detection section 3
+
+--- Document Chunk 800 ---
+TBL beacon TBL beacon TBL beacon
+
+--- Document Chunk 801 ---
+AWS AWS AWS
+
+--- Document Chunk 802 ---
+Infill loop updates trains
+
+--- Document Chunk 803 ---
+approaching signals where
+
+--- Document Chunk 804 ---
+time may be lost if signal 
+
+--- Document Chunk 805 ---
+changes aspect
+
+--- Document Chunk 806 ---
+First beacon to tell train
+
+--- Document Chunk 807 ---
+if Signal 1 is red
+
+--- Document Chunk 808 ---
+1) Beacon tells train ‘colour of signal’, permitted speeds
+
+--- Document Chunk 809 ---
+distance to next beacon, gradient etc.
+
+--- Document Chunk 810 ---
+2) Train computer calculates maximum safe speed,
+
+--- Document Chunk 811 ---
+advises driver by display in cab.
+
+--- Document Chunk 812 ---
+3) Driver obeys lineside signals and signs.
+
+--- Document Chunk 813 ---
+4) If driver exceeds safe speed brakes applied.
+
+--- Document Chunk 814 ---
+A beacon is connected to every
+
+--- Document Chunk 815 ---
+signal colour and informs train
+
+--- Document Chunk 816 ---
+of signal state
+
+--- Document Chunk 817 ---
+Figure 4 – ATP with 
+
+--- Document Chunk 818 ---
+intermittent update (as 
+
+--- Document Chunk 819 ---
+used by Network Rail 
+
+--- Document Chunk 820 ---
+between London and 
+
+--- Document Chunk 821 ---
+Bristol).
+
+--- Document Chunk 822 ---
+“Odometry for 
+
+--- Document Chunk 823 ---
+ATP is often a 
+
+--- Document Chunk 824 ---
+mix of systems to 
+
+--- Document Chunk 825 ---
+counteract the 
+
+--- Document Chunk 826 ---
+weakness of any 
+
+--- Document Chunk 827 ---
+one of them”
+
+--- Document Chunk 828 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 829 ---
+18
+
+--- Document Chunk 830 ---
+or gradient would have to be used as part of the 
+
+--- Document Chunk 831 ---
+design process when configuring the system for 
+
+--- Document Chunk 832 ---
+the railway. This method of providing continuous 
+
+--- Document Chunk 833 ---
+update is limited to lines using rolling stock with 
+
+--- Document Chunk 834 ---
+very similar brake performance, or at least has to 
+
+--- Document Chunk 835 ---
+be based on the worst brake performance train 
+
+--- Document Chunk 836 ---
+permitted. It was the backbone of the original 
+
+--- Document Chunk 837 ---
+London Underground Victoria Line automatic train 
+
+--- Document Chunk 838 ---
+operation system from 1965 until recently and is 
+
+--- Document Chunk 839 ---
+the basis of the signalling on many of the French 
+
+--- Document Chunk 840 ---
+LGV lines signalled using TVM 430. A significant 
+
+--- Document Chunk 841 ---
+challenge with such systems is the need to ensure 
+
+--- Document Chunk 842 ---
+the train can detect the track circuit code prior 
+
+--- Document Chunk 843 ---
+to shorting the track circuit current as part of the 
+
+--- Document Chunk 844 ---
+train detection role. Thus, assuming the detector is 
+
+--- Document Chunk 845 ---
+at the front of the train, it is necessary for all track 
+
+--- Document Chunk 846 ---
+circuit feeds to be ahead the train which means 
+
+--- Document Chunk 847 ---
+that reversal of feed and detector functions is 
+
+--- Document Chunk 848 ---
+necessary for any lengths of track used reversibly.
+
+--- Document Chunk 849 ---
+Another early method of providing continuous 
+
+--- Document Chunk 850 ---
+update was via a loop usually between the rails 
+
+--- Document Chunk 851 ---
+which radiates data to the train. The German LZB 
+
+--- Document Chunk 852 ---
+system is perhaps the best known of this form and 
+
+--- Document Chunk 853 ---
+is also the parent system for several others of this 
+
+--- Document Chunk 854 ---
+type (e.g. SELTrac). In this particular case the data 
+
+--- Document Chunk 855 ---
+rate is low by modern standards (1200 baud up 
+
+--- Document Chunk 856 ---
+link to the train; 600 baud down link). Thus, the 
+
+--- Document Chunk 857 ---
+data volumes handled between track and train 
+
+--- Document Chunk 858 ---
+are relatively low (circa 85 bits per telegram). As 
+
+--- Document Chunk 859 ---
+a result much of the calculation is performed in 
+
+--- Document Chunk 860 ---
+the LZB control centre and limited target speed 
+
+--- Document Chunk 861 ---
+data is passed to the train. The loops in the four 
+
+--- Document Chunk 862 ---
+foot are crossed every 100m which both reduces 
+
+--- Document Chunk 863 ---
+interference and provides a distance monitoring 
+
+--- Document Chunk 864 ---
+function to the train by reversing the phase of the 
+
+--- Document Chunk 865 ---
+radiated signal.
+
+--- Document Chunk 866 ---
+The system is in relatively widespread use through 
+
+--- Document Chunk 867 ---
+Germany and Spain, especially on high speed lines, 
+
+--- Document Chunk 868 ---
+with other applications in Austria and elsewhere.
+
+--- Document Chunk 869 ---
+The most recent systems in this category are 
+
+--- Document Chunk 870 ---
+urban CBTC train control systems and ETCS 
+
+--- Document Chunk 871 ---
+Level 2 and above, both of which use radio 
+
+--- Document Chunk 872 ---
+systems to transmit data between track and train.
+
+--- Document Chunk 873 ---
+The major advantage of mobile data packet 
+
+--- Document Chunk 874 ---
+systems is the much larger and reliable data 
+
+--- Document Chunk 875 ---
+bandwidth, meaning more of the processing can 
+
+--- Document Chunk 876 ---
+be performed on the train and be relevant to the 
+
+--- Document Chunk 877 ---
+specific train, resulting in better optimisation. 
+
+--- Document Chunk 878 ---
+They also both open the way for the train to 
+
+--- Document Chunk 879 ---
+inform the infrastructure of its position and its 
+
+--- Document Chunk 880 ---
+operating performance.
+
+--- Document Chunk 881 ---
+CBTC
+
+--- Document Chunk 882 ---
+Many current resignalling projects for metro 
+
+--- Document Chunk 883 ---
+railways are based on Communications Based 
+
+--- Document Chunk 884 ---
+Train Control (CBTC). As the title suggests this is 
+
+--- Document Chunk 885 ---
+a highly integrated form of train control covering 
+
+--- Document Chunk 886 ---
+all the important functions of train movement 
+
+--- Document Chunk 887 ---
+including route setting, train location, movement 
+
+--- Document Chunk 888 ---
+authority often based on moving block, train 
+
+--- Document Chunk 889 ---
+supervision and train driving. In the latest systems 
+
+--- Document Chunk 890 ---
+CBTC is often used on a railway working under 
+
+--- Document Chunk 891 ---
+Automatic Train Operation (ATO) or a higher grade 
+
+--- Document Chunk 892 ---
+of automation with the objective of providing the 
+
+--- Document Chunk 893 ---
+maximum achievable capacity on the routes fitted.
+
+--- Document Chunk 894 ---
+CBTC systems incorporate continuous ATP 
+
+--- Document Chunk 895 ---
+protection using radio communications between 
+
+--- Document Chunk 896 ---
+the train and the trackside installation. The actual 
+
+--- Document Chunk 897 ---
+form of the radio link, which is also used for other 
+
+--- Document Chunk 898 ---
+aspects of the CBTC system, varies between 
+
+--- Document Chunk 899 ---
+both supplier and application and may include 
+
+--- Document Chunk 900 ---
+Wi-Fi and 4G/LTE, although the majority of new 
+
+--- Document Chunk 901 ---
+systems are likely to use 4G/LTE. The detailed 
+
+--- Document Chunk 902 ---
+methods of implementation are proprietary to 
+
+--- Document Chunk 903 ---
+the manufacturer.
+
+--- Document Chunk 904 ---
+Most systems of this type have been implemented 
+
+--- Document Chunk 905 ---
+on individual lines of a metro or on people mover 
+
+--- Document Chunk 906 ---
+systems (e.g. at airports). This has the advantage 
+
+--- Document Chunk 907 ---
+of a limited range of rolling stock making the train 
+
+--- Document Chunk 908 ---
+parameters consistent and thus maximising the 
+
+--- Document Chunk 909 ---
+capacity gain from moving block.
+
+--- Document Chunk 910 ---
+Two disadvantages are the need, especially on a 
+
+--- Document Chunk 911 ---
+high capacity metro, of having a highly reliable 
+
+--- Document Chunk 912 ---
+system requiring layers of redundancy, and the 
+
+--- Document Chunk 913 ---
+proprietary nature of the systems from each 
+
+--- Document Chunk 914 ---
+manufacturer which for commercial reasons 
+
+--- Document Chunk 915 ---
+restricts the use of such systems on a large 
+
+--- Document Chunk 916 ---
+network of lines.
+
+--- Document Chunk 917 ---
+Opposite ends of 
+
+--- Document Chunk 918 ---
+the coded track train 
+
+--- Document Chunk 919 ---
+protection speed 
+
+--- Document Chunk 920 ---
+spectrum: 
+
+--- Document Chunk 921 ---
+Left, the LGV-Est line in 
+
+--- Document Chunk 922 ---
+France, equipped with 
+
+--- Document Chunk 923 ---
+TVM430. 
+
+--- Document Chunk 924 ---
+Right, London 
+
+--- Document Chunk 925 ---
+Underground’s Central 
+
+--- Document Chunk 926 ---
+Line.
+
+--- Document Chunk 927 ---
+Photos Shutterstock/olrat, 
+
+--- Document Chunk 928 ---
+Shutterstock/Ttatty.
+
+--- Document Chunk 929 ---
+“CBTC systems 
+
+--- Document Chunk 930 ---
+incorporate 
+
+--- Document Chunk 931 ---
+continuous 
+
+--- Document Chunk 932 ---
+ATP protection 
+
+--- Document Chunk 933 ---
+using radio 
+
+--- Document Chunk 934 ---
+communications”
+
+--- Document Chunk 935 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 936 ---
+19
+
+--- Document Chunk 937 ---
+ETCS
+
+--- Document Chunk 938 ---
+Until the around the 1990s most EU countries 
+
+--- Document Chunk 939 ---
+had their own train protection systems as well as 
+
+--- Document Chunk 940 ---
+signalling and communications arrangements. 
+
+--- Document Chunk 941 ---
+This resulted in relatively closed markets for 
+
+--- Document Chunk 942 ---
+signalling products and required different 
+
+--- Document Chunk 943 ---
+systems to be available on any driving vehicle 
+
+--- Document Chunk 944 ---
+that might cross from one country to another. 
+
+--- Document Chunk 945 ---
+The advent of through international trains such 
+
+--- Document Chunk 946 ---
+as Eurostar required the trains to be fitted with 
+
+--- Document Chunk 947 ---
+multiple train protection and communication 
+
+--- Document Chunk 948 ---
+systems and for the drivers to be trained in the 
+
+--- Document Chunk 949 ---
+differing signalling arrangements. The opening 
+
+--- Document Chunk 950 ---
+up of markets prompted the EU to propose a 
+
+--- Document Chunk 951 ---
+common standard for rail traffic management 
+
+--- Document Chunk 952 ---
+and especially signalling, train protection and 
+
+--- Document Chunk 953 ---
+radio communications across the EU states which 
+
+--- Document Chunk 954 ---
+culminated in the definition and development of 
+
+--- Document Chunk 955 ---
+ERTMS including ETCS and GSM-R for track to 
+
+--- Document Chunk 956 ---
+train communication.
+
+--- Document Chunk 957 ---
+ETCS provides three primary levels of 
+
+--- Document Chunk 958 ---
+implementation together with others to suit 
+
+--- Document Chunk 959 ---
+specific needs.
+
+--- Document Chunk 960 ---
+Level 1 is essentially an intermittent update ATP 
+
+--- Document Chunk 961 ---
+system associated with existing lineside signals 
+
+--- Document Chunk 962 ---
+with the same facilities and restrictions in terms of 
+
+--- Document Chunk 963 ---
+‘infill’. The primary track to train communication 
+
+--- Document Chunk 964 ---
+media is the balise with infill loops an option.
+
+--- Document Chunk 965 ---
+Level 2 adds a Radio Block Centre (RBC) and 
+
+--- Document Chunk 966 ---
+provides continuous update of movement 
+
+--- Document Chunk 967 ---
+authority and all associated infrastructure data by 
+
+--- Document Chunk 968 ---
+radio. For ETCS the currently specified radio link 
+
+--- Document Chunk 969 ---
+is via a continuously open GSM-R call. However, 
+
+--- Document Chunk 970 ---
+this is likely to change as train radio moves to 
+
+--- Document Chunk 971 ---
+packet switched (4G/LTE or 5G). In the interim 
+
+--- Document Chunk 972 ---
+GSM-R may be supplemented with General 
+
+--- Document Chunk 973 ---
+Packet Radio Service (GPRS), a 2/3G packet 
+
+--- Document Chunk 974 ---
+oriented mobile data standard, to support ATP 
+
+--- Document Chunk 975 ---
+in busy areas. It therefore has the functions of a 
+
+--- Document Chunk 976 ---
+continuous update ATP system. Lineside signals 
+
+--- Document Chunk 977 ---
+can be removed but Level 2 retains trackside 
+
+--- Document Chunk 978 ---
+train detection and interlocking functions. Such a 
+
+--- Document Chunk 979 ---
+system can provide the basis for Automatic Train 
+
+--- Document Chunk 980 ---
+Operation (ATO) and has been implemented on 
+
+--- Document Chunk 981 ---
+the Thameslink core through central London.
+
+--- Document Chunk 982 ---
+Level 3, which is not yet fully developed, will 
+
+--- Document Chunk 983 ---
+enable train detection to be based on data 
+
+--- Document Chunk 984 ---
+received by the RBC from the trains in the area. It 
+
+--- Document Chunk 985 ---
+will therefore facilitate the reduction or removal 
+
+--- Document Chunk 986 ---
+of lineside train detection equipment and facilitate 
+
+--- Document Chunk 987 ---
+the introduction of short virtual blocks or perhaps 
+
+--- Document Chunk 988 ---
+moving block. A significant challenge at present 
+
+--- Document Chunk 989 ---
+is from variable formation trains (e.g. freight and 
+
+--- Document Chunk 990 ---
+locomotive hauled passenger trains) and proving 
+
+--- Document Chunk 991 ---
+they are complete at all times.
+
+--- Document Chunk 992 ---
+Other ETCS levels also exist, including those 
+
+--- Document Chunk 993 ---
+working with a national ATP system through a 
+
+--- Document Chunk 994 ---
+Specific Transmission Module (Level STM), and 
+
+--- Document Chunk 995 ---
+Level 0 when an equipped train is operating over 
+
+--- Document Chunk 996 ---
+unfitted infrastructure and is thus subject only to 
+
+--- Document Chunk 997 ---
+train ceiling speed supervision.
+
+--- Document Chunk 998 ---
+In addition to these primary levels there also exist 
+
+--- Document Chunk 999 ---
+options for Limited Supervision which effectively 
+
+--- Document Chunk 1000 ---
+provides train protection only at critical locations 
+
+--- Document Chunk 1001 ---
+and thus corresponds to intermittent train 
+
+--- Document Chunk 1002 ---
+protection. Finally, there are proposals for ETCS 
+
+--- Document Chunk 1003 ---
+Hybrid Level 3 which provides virtual blocks as 
+
+--- Document Chunk 1004 ---
+well as conventional train detection, delivering 
+
+--- Document Chunk 1005 ---
+capacity benefits for trains that are Level 3 
+
+--- Document Chunk 1006 ---
+enabled, without having to bar the route to Level 2 
+
+--- Document Chunk 1007 ---
+or unfitted trains. An article about ETCS Level 3 
+
+--- Document Chunk 1008 ---
+and Hybrid Level 3 was published in the April 2017 
+
+--- Document Chunk 1009 ---
+issue of IRSE News.
+
+--- Document Chunk 1010 ---
+Positive Train Control (PTC)
+
+--- Document Chunk 1011 ---
+In North America there is currently a programme 
+
+--- Document Chunk 1012 ---
+to implement Positive Train Control (PTC) on 
+
+--- Document Chunk 1013 ---
+all intercity passenger lines, and on freight lines 
+
+--- Document Chunk 1014 ---
+carrying more than 5 million tons per annum 
+
+--- Document Chunk 1015 ---
+of inhalable toxic substances. PTC is a form of 
+
+--- Document Chunk 1016 ---
+ATP in that it requires the prevention of collision 
+
+--- Document Chunk 1017 ---
+due to passing the end of authority or passing 
+
+--- Document Chunk 1018 ---
+through misaligned points and speed supervision 
+
+--- Document Chunk 1019 ---
+to prevent derailment at speed restrictions 
+
+--- Document Chunk 1020 ---
+whether permanent or temporary. There is no one 
+
+--- Document Chunk 1021 ---
+mandated solution but there is the requirement of 
+
+--- Document Chunk 1022 ---
+interoperability between systems as many vehicles 
+
+--- Document Chunk 1023 ---
+travel over several networks. It also requires 
+
+--- Document Chunk 1024 ---
+provision of arrangements to protect track 
+
+--- Document Chunk 1025 ---
+workers. Whilst several systems were proposed 
+
+--- Document Chunk 1026 ---
+most installations have settled on one of three 
+
+--- Document Chunk 1027 ---
+systems and all will operate with each other.
+
+--- Document Chunk 1028 ---
+China’s CTCS system 
+
+--- Document Chunk 1029 ---
+shares many concepts 
+
+--- Document Chunk 1030 ---
+with ETCS but has 
+
+--- Document Chunk 1031 ---
+developed very quickly 
+
+--- Document Chunk 1032 ---
+in order to keep up 
+
+--- Document Chunk 1033 ---
+with infrastructure 
+
+--- Document Chunk 1034 ---
+developments across the 
+
+--- Document Chunk 1035 ---
+country.
+
+--- Document Chunk 1036 ---
+Photo Shutterstock/
+
+--- Document Chunk 1037 ---
+kikujungboy.
+
+--- Document Chunk 1038 ---
+“The advent 
+
+--- Document Chunk 1039 ---
+of through 
+
+--- Document Chunk 1040 ---
+international 
+
+--- Document Chunk 1041 ---
+trains such as 
+
+--- Document Chunk 1042 ---
+Eurostar required 
+
+--- Document Chunk 1043 ---
+the trains to 
+
+--- Document Chunk 1044 ---
+be fitted with 
+
+--- Document Chunk 1045 ---
+multiple train 
+
+--- Document Chunk 1046 ---
+protection and 
+
+--- Document Chunk 1047 ---
+communication 
+
+--- Document Chunk 1048 ---
+systems”
+
+--- Document Chunk 1049 ---
+About the author ...
+
+--- Document Chunk 1050 ---
+David joined the S &T department of the 
+
+--- Document Chunk 1051 ---
+Southern Region of British Rail in 1968 as a 
+
+--- Document Chunk 1052 ---
+student engineer, with his first appointment 
+
+--- Document Chunk 1053 ---
+in the telecommunication design office. He 
+
+--- Document Chunk 1054 ---
+supported the testing and commissioning of 
+
+--- Document Chunk 1055 ---
+passenger information systems, including the 
+
+--- Document Chunk 1056 ---
+automatic operation of platform indicators at 
+
+--- Document Chunk 1057 ---
+London Bridge and Waterloo East and setting 
+
+--- Document Chunk 1058 ---
+a career profile linked with development 
+
+--- Document Chunk 1059 ---
+of new systems.
+
+--- Document Chunk 1060 ---
+In the 1980s David led a team involved with 
+
+--- Document Chunk 1061 ---
+train describer development and a new system 
+
+--- Document Chunk 1062 ---
+to distribute train location information via 
+
+--- Document Chunk 1063 ---
+the national teleprinter network, followed by 
+
+--- Document Chunk 1064 ---
+the development of the Integrated Electronic 
+
+--- Document Chunk 1065 ---
+Control Centre (IECC) including automatic 
+
+--- Document Chunk 1066 ---
+route setting. He was also involved in improving 
+
+--- Document Chunk 1067 ---
+electromagnetic compatibility between train 
+
+--- Document Chunk 1068 ---
+detection and new rolling stock.
+
+--- Document Chunk 1069 ---
+Moving to Railtrack in 1994 he was involved 
+
+--- Document Chunk 1070 ---
+with the development and implementation 
+
+--- Document Chunk 1071 ---
+of TPWS and the development of ERTMS in 
+
+--- Document Chunk 1072 ---
+Europe, his work including the implementation 
+
+--- Document Chunk 1073 ---
+strategy for the UK. Before retirement David 
+
+--- Document Chunk 1074 ---
+managed the safety assurance process for the 
+
+--- Document Chunk 1075 ---
+Cambrian ERTMS pilot. David is one of the 
+
+--- Document Chunk 1076 ---
+contributing editors of IRSE News.
+
+--- Document Chunk 1077 ---
+“Back to Basics” and the IRSE Exam
+
+--- Document Chunk 1078 ---
+We hope our ‘Back to Basics’ series is 
+
+--- Document Chunk 1079 ---
+interesting to all members, bringing topics 
+
+--- Document Chunk 1080 ---
+that underpin our profession into focus in a 
+
+--- Document Chunk 1081 ---
+simply understood, yet comprehensive way, 
+
+--- Document Chunk 1082 ---
+making continuing professional development 
+
+--- Document Chunk 1083 ---
+straightforward.
+
+--- Document Chunk 1084 ---
+We particularly hope the articles are interesting 
+
+--- Document Chunk 1085 ---
+to those of you who are new to the industry 
+
+--- Document Chunk 1086 ---
+and are working to build up your knowledge. 
+
+--- Document Chunk 1087 ---
+For those considering taking the IRSE exam, 
+
+--- Document Chunk 1088 ---
+these articles should be particularly relevant 
+
+--- Document Chunk 1089 ---
+for your studies.
+
+--- Document Chunk 1090 ---
+As an example, why not think about how you 
+
+--- Document Chunk 1091 ---
+would answer this question from the 2019  
+
+--- Document Chunk 1092 ---
+Module 5 of the exam, based on what you’ve 
+
+--- Document Chunk 1093 ---
+learnt from the article?
+
+--- Document Chunk 1094 ---
+“Describe a system which provides train 
+
+--- Document Chunk 1095 ---
+protection for a stop signal or limit of 
+
+--- Document Chunk 1096 ---
+movement authority. Using a diagram, clearly 
+
+--- Document Chunk 1097 ---
+describe each of the following:
+
+--- Document Chunk 1098 ---
+(i)  How the speed o f a train approaching a stop 
+
+--- Document Chunk 1099 ---
+signal or a limit of movement authority is 
+
+--- Document Chunk 1100 ---
+monitored and controlled;
+
+--- Document Chunk 1101 ---
+(ii)  How a train is pr evented from ignoring a 
+
+--- Document Chunk 1102 ---
+signal displaying a stop aspect or a limit of 
+
+--- Document Chunk 1103 ---
+movement authority; and
+
+--- Document Chunk 1104 ---
+(iii) The necessary interfaces to the signalling 
+
+--- Document Chunk 1105 ---
+system including the interlocking and 
+
+--- Document Chunk 1106 ---
+control system.”
+
+--- Document Chunk 1107 ---
+ IRSE News |  Issue 268  |  July/August 2020
+
+--- Document Chunk 1108 ---
+20
+
+--- Document Chunk 1109 ---
+The PTC system was mandated by law signed in 
+
+--- Document Chunk 1110 ---
+2008. The original law required the system(s) to 
+
+--- Document Chunk 1111 ---
+be in place by 2015 but costs and challenges in 
+
+--- Document Chunk 1112 ---
+implementation mean this date has been pushed 
+
+--- Document Chunk 1113 ---
+back to the end of 2020. The range of operating 
+
+--- Document Chunk 1114 ---
+conditions from metro and commuter railways 
+
+--- Document Chunk 1115 ---
+to long heavy haul freight lines means variety of 
+
+--- Document Chunk 1116 ---
+solutions is too great to discuss here and could 
+
+--- Document Chunk 1117 ---
+well be the subject of a separate article.
+
+--- Document Chunk 1118 ---
+In a similar way that CTCS 
+
+--- Document Chunk 1119 ---
+was created to meet the 
+
+--- Document Chunk 1120 ---
+needs of China, PTC was 
+
+--- Document Chunk 1121 ---
+developed to meet the 
+
+--- Document Chunk 1122 ---
+specific needs of North 
+
+--- Document Chunk 1123 ---
+America’s railroads. Union 
+
+--- Document Chunk 1124 ---
+Pacific has been one 
+
+--- Document Chunk 1125 ---
+of the adopters of this 
+
+--- Document Chunk 1126 ---
+technology.
+
+--- Document Chunk 1127 ---
+Photo Shutterstock/
+
+--- Document Chunk 1128 ---
+AngelDiBilio.
+
+--- Document Chunk 1129 ---
+Conclusion
+
+--- Document Chunk 1130 ---
+In this article I have attempted to summarise the 
+
+--- Document Chunk 1131 ---
+scope of train warning and protection systems 
+
+--- Document Chunk 1132 ---
+and to highlight some of the major issues the 
+
+--- Document Chunk 1133 ---
+implementation of ATP faces as well as giving an 
+
+--- Document Chunk 1134 ---
+insight into some of the systems that exist.
+

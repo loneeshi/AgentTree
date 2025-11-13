@@ -1,0 +1,5178 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+Ks deat                   SD
+
+--- Document Chunk 2 ---
+中 [5] Sk ris Pi UH 4S a Bi Sz A 1K hn HE
+
+--- Document Chunk 3 ---
+T/CAMET 04010.2— 2018
+
+--- Document Chunk 4 ---
+城市轨道交通“基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通系统规范
+
+--- Document Chunk 6 ---
+第2部分: 系统架构和功能分配
+
+--- Document Chunk 7 ---
+Urban rail transit 一 System specification for interoperability of
+
+--- Document Chunk 8 ---
+communication based train control system
+
+--- Document Chunk 9 ---
+Part 2: System architecture and functional allocations
+
+--- Document Chunk 10 ---
+2018-09-10 发布                        2018-12-31 实施
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 12 ---
+--- Page 2 ---
+
+--- Document Chunk 13 ---
+引言
+
+--- Document Chunk 14 ---
+el
+
+--- Document Chunk 15 ---
+wwe
+
+--- Document Chunk 16 ---
+nw
+
+--- Document Chunk 17 ---
+3
+
+--- Document Chunk 18 ---
+3.
+
+--- Document Chunk 19 ---
+4.
+
+--- Document Chunk 20 ---
+4.
+
+--- Document Chunk 21 ---
+a 本
+
+--- Document Chunk 22 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 23 ---
+.1
+
+--- Document Chunk 24 ---
+se  assesesoeoc econeesesesseesssesseoeeeeeeveseseeesesssssessseseeeeeeeee
+
+--- Document Chunk 25 ---
+1
+
+--- Document Chunk 26 ---
+2
+
+--- Document Chunk 27 ---
+CBTC 系统物理接口和功能接口
+
+--- Document Chunk 28 ---
+6.1
+
+--- Document Chunk 29 ---
+ana
+
+--- Document Chunk 30 ---
+ARRAAASD
+
+--- Document Chunk 31 ---
+Doo wm上FF wm
+
+--- Document Chunk 32 ---
+.10
+
+--- Document Chunk 33 ---
+.11
+
+--- Document Chunk 34 ---
+ATP 的主要功衣
+
+--- Document Chunk 35 ---
+移动防 ‘ i 和日标点的
+
+--- Document Chunk 36 ---
+列 车实际过度/列车 运行方向确定 -
+
+--- Document Chunk 37 ---
+监督/ 强制允许速度  和和人允许运行方向
+
+--- Document Chunk 38 ---
+列车折
+
+--- Document Chunk 39 ---
+车载 ATP 用户界面
+
+--- Document Chunk 40 ---
+--- Page 3 ---
+
+--- Document Chunk 41 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 42 ---
+7.1 功能描述和            40
+
+--- Document Chunk 43 ---
+7.2 WORE ATO 曲线es             .40
+
+--- Document Chunk 44 ---
+7.4 Ee            .43
+
+--- Document Chunk 45 ---
+7.5 车载 ATO 用户界面                             … 45
+
+--- Document Chunk 46 ---
+7.6 自诊断,故障报警及数据记录                   … 45
+
+--- Document Chunk 47 ---
+ATS 功能分配…               ceeeen ees
+
+--- Document Chunk 48 ---
+8.1 功能描述和
+
+--- Document Chunk 49 ---
+8.2 列车识别
+
+--- Document Chunk 50 ---
+8.3 列车追踪
+
+--- Document Chunk 51 ---
+8.4 列车进路办理站pp
+
+--- Document Chunk 52 ---
+8.6
+
+--- Document Chunk 53 ---
+8.7
+
+--- Document Chunk 54 ---
+8.8
+
+--- Document Chunk 55 ---
+8.9
+
+--- Document Chunk 56 ---
+8.
+
+--- Document Chunk 57 ---
+oo
+
+--- Document Chunk 58 ---
++ 48
+
+--- Document Chunk 59 ---
+“- 48
+
+--- Document Chunk 60 ---
+… 51
+
+--- Document Chunk 61 ---
+… 53
+
+--- Document Chunk 62 ---
+= 53
+
+--- Document Chunk 63 ---
+54
+
+--- Document Chunk 64 ---
+… 56
+
+--- Document Chunk 65 ---
+= 58
+
+--- Document Chunk 66 ---
+… 59
+
+--- Document Chunk 67 ---
+- 61
+
+--- Document Chunk 68 ---
+控制列车运行
+
+--- Document Chunk 69 ---
+时刻表编制…
+
+--- Document Chunk 70 ---
+模拟增训…
+
+--- Document Chunk 71 ---
+10 用户界面
+
+--- Document Chunk 72 ---
+Cl 功能分配
+
+--- Document Chunk 73 ---
+9.1
+
+--- Document Chunk 74 ---
+9.5 故障监测及操作记录
+
+--- Document Chunk 75 ---
+--- Page 4 ---
+
+--- Document Chunk 76 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 77 ---
+2
+
+--- Document Chunk 78 ---
+Dil}
+
+--- Document Chunk 79 ---
+T/CAMET 04010《城市轨道交通”基于通信的列车运行控制系统
+
+--- Document Chunk 80 ---
+(CBTC )互联互通系统规范》分为以下四个部分:
+
+--- Document Chunk 81 ---
+识别
+
+--- Document Chunk 82 ---
+通信
+
+--- Document Chunk 83 ---
+限公
+
+--- Document Chunk 84 ---
+ME
+
+--- Document Chunk 85 ---
+一一第1 部分:系统总体要求;
+
+--- Document Chunk 86 ---
+一一第 2 部分:系统架构和功能分配，
+
+--- Document Chunk 87 ---
+第 3 部分:车载电子地网，
+
+--- Document Chunk 88 ---
+一一第4 部分:互联互通危害分析。
+
+--- Document Chunk 89 ---
+本部分是 T/CAMET 04010 的第 2 部分。
+
+--- Document Chunk 90 ---
+本部分按照 GB/T 1. 1一2009 给出的规则起章。
+
+--- Document Chunk 91 ---
+请       部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 92 ---
+这些 LAIN DEE
+
+--- Document Chunk 93 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出
+
+--- Document Chunk 94 ---
+本部分由中国城市轨道交通协会归口
+
+--- Document Chunk 95 ---
+本部分起草单位:交控科技股份有限公司 .北京交通大学 .北京全路
+
+--- Document Chunk 96 ---
+研究设计院集团有限公司 .中国铁道科学研究院集团有限公司
+
+--- Document Chunk 97 ---
+言号研究所 .株洲中车时代电气股份有限公司 .浙江众合科技股份有
+
+--- Document Chunk 98 ---
+司。
+
+--- Document Chunk 99 ---
+本部分主要起草人 :编写组:部春海 .黄友能.王伟 .刘波 ZEB .王悉 、
+
+--- Document Chunk 100 ---
+AS PIE SE XU AE IS PE MAD a A HEB EE ,高晓菲.胡顺定。
+
+--- Document Chunk 101 ---
+审查组:李中浩、,朱翔 ,赵炜.郑生全 IR TK ET SIRE .段晨宁、
+
+--- Document Chunk 102 ---
+李新文 ,李德堂 文成祥 EM ARR EE A SSPE ,刘新平
+
+--- Document Chunk 103 ---
+°
+
+--- Document Chunk 104 ---
+Wl
+
+--- Document Chunk 105 ---
+--- Page 5 ---
+
+--- Document Chunk 106 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 107 ---
+引
+
+--- Document Chunk 108 ---
+Dil}
+
+--- Document Chunk 109 ---
+为促进中国城市轨道交通建设.实现并满足城市轨道交通互联互通
+
+--- Document Chunk 110 ---
+的需槛.达到经济适用 VEY        技术先进及可持续发展的目标,制定城
+
+--- Document Chunk 111 ---
+市轨道交通基于通信的列车运行控制系统(CBTC ) 互联互通系列财体
+
+--- Document Chunk 112 ---
+祭准
+
+--- Document Chunk 113 ---
+该系列规范包括《城市轨道交通 基于通信的列车运行控制系统
+
+--- Document Chunk 114 ---
+(CBTC )艺联互通系统规范》居《城市轨道交通 基于通信的列车运行控
+
+--- Document Chunk 115 ---
+制系统(CBTC )互联五通接口规范》《城市轨道交通”基于通信的列车
+
+--- Document Chunk 116 ---
+i                                                 基于通信的
+
+--- Document Chunk 117 ---
+--- Page 6 ---
+
+--- Document Chunk 118 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 119 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 120 ---
+空制系统( CBTC ) 互联互通系统规范
+
+--- Document Chunk 121 ---
+第 2 部分:系统架构和功能分配
+
+--- Document Chunk 122 ---
+1 范围
+
+--- Document Chunk 123 ---
+T/CAMET 04010 的本部分5        互通的系统黑构种功能分配
+
+--- Document Chunk 124 ---
+技术要求,包括瑟联互四     冰晶接口和功能接11 ,以及
+
+--- Document Chunk 125 ---
+ATP ATO ATS .CI 4A
+
+--- Document Chunk 126 ---
+asain
+
+--- Document Chunk 127 ---
+设计   ve - " it,
+
+--- Document Chunk 128 ---
+aj
+
+--- Document Chunk 129 ---
+=
+
+--- Document Chunk 130 ---
+a
+
+--- Document Chunk 131 ---
+马
+
+--- Document Chunk 132 ---
+=
+
+--- Document Chunk 133 ---
+a
+
+--- Document Chunk 134 ---
+wy
+
+--- Document Chunk 135 ---
+= 3
+
+--- Document Chunk 136 ---
+S
+
+--- Document Chunk 137 ---
+eng
+
+--- Document Chunk 138 ---
+“BBA SCPE Ob FAS OMY   ae    HO. FUSE FL ION AY ST 3
+
+--- Document Chunk 139 ---
+AE ASI LE FL UL Fy ASSES FA Poe ASE SE STD SCPE BCR BF
+
+--- Document Chunk 140 ---
+WAS (4 4G FOF AT AY AE BPE) GN PAB
+
+--- Document Chunk 141 ---
+GB/T 12758—2004 ”城市轨道交通信号系统通用技术条件
+
+--- Document Chunk 142 ---
+GB 50157一2013 ”地铁设计规范
+
+--- Document Chunk 143 ---
+C/T 407一2012 城市轨道交通基于通信的列车和动控制系统技术
+
+--- Document Chunk 144 ---
+要求
+
+--- Document Chunk 145 ---
+T/CAMET 04010. 1一2018 城市轨道交通 基于通信的列车运行控
+
+--- Document Chunk 146 ---
+制系统(CBTC ) 互联互通系统规范“第1 部分:系统总体要求
+
+--- Document Chunk 147 ---
+3 术语和缩略语
+
+--- Document Chunk 148 ---
+GB/T 12758一2004 GB 50157一2013 CJ/T 407一2012 和 T/CAMET
+
+--- Document Chunk 149 ---
+]
+
+--- Document Chunk 150 ---
+--- Page 7 ---
+
+--- Document Chunk 151 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 152 ---
+04010. 1一2018 界定的及下列术诸和缩略诸适用于本部分.为了使于使用，
+
+--- Document Chunk 153 ---
+以下重复列出了其中的主要相关术语。
+
+--- Document Chunk 154 ---
+3.1 术语
+
+--- Document Chunk 155 ---
+3.1.1
+
+--- Document Chunk 156 ---
+城市轨道交通信号 urban rail transit signal
+
+--- Document Chunk 157 ---
+Wi FL Po TIT SB a 3 a FR EP, AT at ESE AE A HE A) 4 TF
+
+--- Document Chunk 158 ---
+控制 .安全间隔控制技术的总称
+
+--- Document Chunk 159 ---
+(GB/T 12758一2004 ,术语与定义3.1]
+
+--- Document Chunk 160 ---
+3. 1.2
+
+--- Document Chunk 161 ---
+基于通信的列车控制“communication based train control (CBTC )
+
+--- Document Chunk 162 ---
+通过不依囊轨淮列车碳用检测设备的列车主动定位技术,连续车 -
+
+--- Document Chunk 163 ---
+地双向数据通信技术以及能够执行安全功能的车载和地面处理器而构建
+
+--- Document Chunk 164 ---
+的连续式列车自动控制系统
+
+--- Document Chunk 165 ---
+[CJMT 407一2012 ,定义3.1.1]
+
+--- Document Chunk 166 ---
+3.1.3
+
+--- Document Chunk 167 ---
+移动闭塞”moving block
+
+--- Document Chunk 168 ---
+前方列车与后续列革之间的最小安全霹踪间隔距离单元不预定设
+
+--- Document Chunk 169 ---
+定 ,并随列车的移动.速度的变化而变化的内赛方式
+
+--- Document Chunk 170 ---
+[GB/T 127582004 术诗与定义3. 10]
+
+--- Document Chunk 171 ---
+3. 1.4
+
+--- Document Chunk 172 ---
+列车自动控制”automatic train control
+
+--- Document Chunk 173 ---
+言号系统自动实现列车监控 .安全防护和运行控制等技术的总称。
+
+--- Document Chunk 174 ---
+[ GB 50157—2013 ,定义2.0.37]】]
+
+--- Document Chunk 175 ---
+3.1.5
+
+--- Document Chunk 176 ---
+列车自动监控automatic train supervision
+
+--- Document Chunk 177 ---
+根据列车时刻表为列车运行自动设定进路 ,指挥行车 .实施列车运行
+
+--- Document Chunk 178 ---
+管理等技术的总称。
+
+--- Document Chunk 179 ---
+[ GB $0157一2013 ,定义2.0.38]
+
+--- Document Chunk 180 ---
+ID
+
+--- Document Chunk 181 ---
+--- Page 8 ---
+
+--- Document Chunk 182 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 183 ---
+3.1.6
+
+--- Document Chunk 184 ---
+列车自动防护 automatic train protection
+
+--- Document Chunk 185 ---
+自动实现列车运行间隔.超速防护.进路安全和车门等监控技术的
+
+--- Document Chunk 186 ---
+CB 50157—2013 ,定义2.0.39)
+
+--- Document Chunk 187 ---
+3. 1.7
+
+--- Document Chunk 188 ---
+列车自动运行 automatic train operation
+
+--- Document Chunk 189 ---
+白动实现列车加速 .调速 .停千和车门开财 .提示等
+
+--- Document Chunk 190 ---
+GB 50157—2013 ,定义2.0.40]
+
+--- Document Chunk 191 ---
+制技术的总称
+
+--- Document Chunk 192 ---
+3.1.8
+
+--- Document Chunk 193 ---
+it SMEG «computer interlocking
+
+--- Document Chunk 194 ---
+JAS AR A Robs a Se UE a 2 AES LE BAR AY
+
+--- Document Chunk 195 ---
+M Bie
+
+--- Document Chunk 196 ---
+ALPE
+
+--- Document Chunk 197 ---
+CJ/T 407一2012 ,定义3.1.6]
+
+--- Document Chunk 198 ---
+3. 1.9
+
+--- Document Chunk 199 ---
+维护支持系统   maintenance anne system
+
+--- Document Chunk 200 ---
+息 NTL FA SH HC Be PTI
+
+--- Document Chunk 201 ---
+BEM Ie
+
+--- Document Chunk 202 ---
+3.1.10
+
+--- Document Chunk 203 ---
+保护区段 overlap section
+
+--- Document Chunk 204 ---
+为实现起过         iE Ze eS
+
+--- Document Chunk 205 ---
+[GB/T 12758一2004 ,术语与定义3.121
+
+--- Document Chunk 206 ---
+3.1.11
+
+--- Document Chunk 207 ---
+目标速度”target speed
+
+--- Document Chunk 208 ---
+列车运行至前方目标地点应达到的允许速度
+
+--- Document Chunk 209 ---
+[GBZT 12758一2004 ,术语与定义3.13]
+
+--- Document Chunk 210 ---
+3. 1. 12
+
+--- Document Chunk 211 ---
+目标距离 “target distance
+
+--- Document Chunk 212 ---
+列车运行至前方目标地点的走行距离。
+
+--- Document Chunk 213 ---
+--- Page 9 ---
+
+--- Document Chunk 214 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 215 ---
+[CBZT 12758一2004 ,术语与定义3.14]
+
+--- Document Chunk 216 ---
+3. 1. 13
+
+--- Document Chunk 217 ---
+安全保护距离”safe protection distance
+
+--- Document Chunk 218 ---
+列车自动防护系统中,列车超速防护实施安全停
+
+--- Document Chunk 219 ---
+车控制时 ,为防止停
+
+--- Document Chunk 220 ---
+车位置离散性可能造成的危险 ,而设置的自荐定停车位置至日标地点的
+
+--- Document Chunk 221 ---
+安全距离。
+
+--- Document Chunk 222 ---
+[CBZT 12758一2004 ,术语与定义3.15]
+
+--- Document Chunk 223 ---
+.14
+
+--- Document Chunk 224 ---
+危险点danger point
+
+--- Document Chunk 225 ---
+列车运行前方不允许列车任何部位越过的特定点。
+
+--- Document Chunk 226 ---
+[ T/CAMET 04010. 1 .术语和缩略语3.1.101
+
+--- Document Chunk 227 ---
+3.1.15
+
+--- Document Chunk 228 ---
+移动授权”movement authority
+
+--- Document Chunk 229 ---
+列车滑给定的行驶方向进入并在某--特定轨道区段内行车的许可
+
+--- Document Chunk 230 ---
+{ CJ/T 407—2012 ,定义3.1.7]
+
+--- Document Chunk 231 ---
+3.1.16
+
+--- Document Chunk 232 ---
+限制速度”restricted speed
+
+--- Document Chunk 233 ---
+线路 .车辆结构千限制及列车移动授权所尖取的最严属的速度
+
+--- Document Chunk 234 ---
+限制。
+
+--- Document Chunk 235 ---
+[CJMT 407一2012 ,定义3.1.11]
+
+--- Document Chunk 236 ---
+3. 1. 17
+
+--- Document Chunk 237 ---
+互联互通 interoperability
+
+--- Document Chunk 238 ---
+装备不同信号厂家和车载设备的列车可以在装备不同信号厂家轨穷设
+
+--- Document Chunk 239 ---
+备的一条轨道交通线路内或多条轨道交通线路上无颖互通 .安全可靠
+
+--- Document Chunk 240 ---
+»
+
+--- Document Chunk 241 ---
+=
+
+--- Document Chunk 242 ---
+ii
+
+--- Document Chunk 243 ---
+Fc
+
+--- Document Chunk 244 ---
+[T/CAMET 04010.1 ,术语和缩略语 3. 1. 16]
+
+--- Document Chunk 245 ---
+3.1.18
+
+--- Document Chunk 246 ---
+共线运行“mix operation
+
+--- Document Chunk 247 ---
+装备不同厂家车载信号设备的列车可以在装备同一厂家轨旁信号设
+
+--- Document Chunk 248 ---
+--- Page 10 ---
+
+--- Document Chunk 249 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 250 ---
+备线路上支持以点式列车控则
+
+--- Document Chunk 251 ---
+运营-
+
+--- Document Chunk 252 ---
+3.2 缩略语
+
+--- Document Chunk 253 ---
+AM:列车自动驾驶模式(Automatic Train Operating Mode )
+
+--- Document Chunk 254 ---
+ATC :列车自动控制(Automatie Train Control)
+
+--- Document Chunk 255 ---
+ATO :列车自动运行(Automatic Train Operation )
+
+--- Document Chunk 256 ---
+ATP:列车月动防护(Automatic Train Protection)
+
+--- Document Chunk 257 ---
+ATS :列车自动监控(Automatie Train Supervision )
+
+--- Document Chunk 258 ---
+CBTC:基于通信的列车控制系统(Comnunication Based Train
+
+--- Document Chunk 259 ---
+Control )
+
+--- Document Chunk 260 ---
+CL: i+ FE ALD Hil ( Copa fo
+
+--- Document Chunk 261 ---
+CM 42 (1 3) BigP is
+
+--- Document Chunk 262 ---
+DCS :数据通信
+
+--- Document Chunk 263 ---
+MSS :维护支持
+
+--- Document Chunk 264 ---
+RM :限制人工
+
+--- Document Chunk 265 ---
+SIL:安全完整性等
+
+--- Document Chunk 266 ---
+列车控制级别无
+
+--- Document Chunk 267 ---
+eH
+
+--- Document Chunk 268 ---
+4 系统架构
+
+--- Document Chunk 269 ---
+4.1 架构组成
+
+--- Document Chunk 270 ---
+CBTC 系统由 ATS .CBTC Pes ( PHF CBTC 设备,含区威控制器等) 、
+
+--- Document Chunk 271 ---
+CBTC 车载(车载 CBTC 设备,含千载 ATP 车载 ATO 等) .CIL.DCS 子系统
+
+--- Document Chunk 272 ---
+组成-
+
+--- Document Chunk 273 ---
+4.2 CBTC 系统物理接口和功能接口
+
+--- Document Chunk 274 ---
+CBTC 系统物理接口和功能接口示意图见图1 ,互联互通下 CBTC 系
+
+--- Document Chunk 275 ---
+统物理接口和功能接口示意图见图2。
+
+--- Document Chunk 276 ---
+--- Page 11 ---
+
+--- Document Chunk 277 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 278 ---
+ATS
+
+--- Document Chunk 279 ---
+CBTC 44K
+
+--- Document Chunk 280 ---
+LEU |e                                            可应答器
+
+--- Document Chunk 281 ---
+one+|              功能接11
+
+--- Document Chunk 282 ---
+~               物理接11
+
+--- Document Chunk 283 ---
+图1 CBTC 系统物理接口和功能接口示意图
+
+--- Document Chunk 284 ---
+T
+
+--- Document Chunk 285 ---
+t
+
+--- Document Chunk 286 ---
+1
+
+--- Document Chunk 287 ---
+Sek
+
+--- Document Chunk 288 ---
+CBTC车载
+
+--- Document Chunk 289 ---
+T
+
+--- Document Chunk 290 ---
+1
+
+--- Document Chunk 291 ---
+LEU 上一一一  一| 应答回
+
+--- Document Chunk 292 ---
+----- {ref
+
+--- Document Chunk 293 ---
+ae
+
+--- Document Chunk 294 ---
+图2 互联互通下 CBTC 系统物理接口和功能接口示意图
+
+--- Document Chunk 295 ---
+|
+
+--- Document Chunk 296 ---
+--- Page 12 ---
+
+--- Document Chunk 297 ---
+相对于 CBTC 系统物理接口和功能接口
+
+--- Document Chunk 298 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 299 ---
+,互联互通下 CBTC 系统物
+
+--- Document Chunk 300 ---
+理接口和功能接口 ,增加了列车与邻线地面设备间的接口 ,以及各线间地
+
+--- Document Chunk 301 ---
+面设备间的接口(CBTC 轨旁间及 CI设备间)
+
+--- Document Chunk 302 ---
+5 功能对照
+
+--- Document Chunk 303 ---
+功能分配与总体要求的对照内容见表 1。
+
+--- Document Chunk 304 ---
+功能对照表
+
+--- Document Chunk 305 ---
+表1
+
+--- Document Chunk 306 ---
+分| 总体要求中的功能点和名称                             REI AS SE
+
+--- Document Chunk 307 ---
+初始化 CBTC 列车位置                            6.2.2
+
+--- Document Chunk 308 ---
+2     确定 CBTC 列车位置 国                6.2.3       :
+
+--- Document Chunk 309 ---
+3      wiz Li BE 占用状态                           6.2.4              -
+
+--- Document Chunk 310 ---
+4     防护列车 于类位置报告                       6.2.5.2
+
+--- Document Chunk 311 ---
+5         BUA oe HERE DK                                  6.2.5.3
+
+--- Document Chunk 312 ---
+6 | 确定前方 CBTC 列车位置                      6.3.2.2
+
+--- Document Chunk 313 ---
+7 | 确定前方安全进路限制                         6.3.2.3
+
+--- Document Chunk 314 ---
+8          确定移动授权                              6.3.3.2
+
+--- Document Chunk 315 ---
+9             ‘iff 定 日标点                                  6.3.4.2
+
+--- Document Chunk 316 ---
+10        win A AY AH BL                                 6.3.4.3
+
+--- Document Chunk 317 ---
+11      道岔状态防护                  6.3.4.4
+
+--- Document Chunk 318 ---
+12       车载故障处理                      6.3.5.2
+
+--- Document Chunk 319 ---
+13        内定速度限抽 防护                                 6.4.2
+
+--- Document Chunk 320 ---
+14       临时限速限制防护                          6.4.3
+
+--- Document Chunk 321 ---
+--- Page 13 ---
+
+--- Document Chunk 322 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 323 ---
+表1 功能对照表(续)
+
+--- Document Chunk 324 ---
+JR) 总体时求中的功能点和名称                         对应不文革
+
+--- Document Chunk 325 ---
+15        确定制动曲线                          6.4.4
+
+--- Document Chunk 326 ---
+16           列车超速防护                                   6.4.4.3               ;
+
+--- Document Chunk 327 ---
+17        列不过度测定                          6.6.2
+
+--- Document Chunk 328 ---
+18        iM) GE TS DE                             6.6.2.3
+
+--- Document Chunk 329 ---
+19        Fz AAR AS GE                         6.6.2.4
+
+--- Document Chunk 330 ---
+20         你车运行方向确定                                  6.6.3
+
+--- Document Chunk 331 ---
+21         列 igi 间防护                              6.7.3.2
+
+--- Document Chunk 332 ---
+22             退行防护                                   6.7.3.3
+
+--- Document Chunk 333 ---
+23 | 战过移动 HA    防护 |                   6.7.4.1
+
+--- Document Chunk 334 ---
+24 | 移动授权更新超时防护                                 6. 1. 4.3
+
+--- Document Chunk 335 ---
+25             A ou dill oy 208 fi                                       6. 1. 4.4
+
+--- Document Chunk 336 ---
+26              WAT FTF                                        6.8. 2
+
+--- Document Chunk 337 ---
+27            站台门控制                                  6.8.2.3
+
+--- Document Chunk 338 ---
+28             车门防护                                  6. 8.3.2
+
+--- Document Chunk 339 ---
+29            车门防护切除                                    6.8.4.4
+
+--- Document Chunk 340 ---
+30             站台门防护                                      6.8.3
+
+--- Document Chunk 341 ---
+| 3                列车折返                                              6.9
+
+--- Document Chunk 342 ---
+32 | 4g ATP 界面功能                  6.10.1
+
+--- Document Chunk 343 ---
+ATP [ie    eH es
+
+--- Document Chunk 344 ---
+3 | amen               a
+
+--- Document Chunk 345 ---
+34          模式转换                           6.2.3. 10
+
+--- Document Chunk 346 ---
+--- Page 14 ---
+
+--- Document Chunk 347 ---
+表1
+
+--- Document Chunk 348 ---
+| 总体要求中的功能点名称
+
+--- Document Chunk 349 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 350 ---
+功能对照表(续)
+
+--- Document Chunk 351 ---
+BENE CRE
+
+--- Document Chunk 352 ---
+35               ZC il] FG 3E
+
+--- Document Chunk 353 ---
+6.3.4.5
+
+--- Document Chunk 354 ---
+36             电子地图存储
+
+--- Document Chunk 355 ---
+6.2.2.4
+
+--- Document Chunk 356 ---
+37             f          fh: FW
+
+--- Document Chunk 357 ---
+6.2.3.8
+
+--- Document Chunk 358 ---
+38            确定 ATO MER                                        7.2.1
+
+--- Document Chunk 359 ---
+39              Hi wh HE                                       7.2.2
+
+--- Document Chunk 360 ---
+40
+
+--- Document Chunk 361 ---
+AGAR ATO. 曲线调整列车速度
+
+--- Document Chunk 362 ---
+44
+
+--- Document Chunk 363 ---
+45                 a
+
+--- Document Chunk 364 ---
+及数据记录
+
+--- Document Chunk 365 ---
+46 | ATO 发送列车运和
+
+--- Document Chunk 366 ---
+47          ATO 发送旅客信息                                     7.6.3
+
+--- Document Chunk 367 ---
+48           fy az) AI                                         8.2
+
+--- Document Chunk 368 ---
+可          ATS Bi) jE                                          8.3
+
+--- Document Chunk 369 ---
+/ 50       列车进路办理                       8.4
+
+--- Document Chunk 370 ---
+SI        列车月动调整                        8.5.1
+
+--- Document Chunk 371 ---
+52                    节能运行                                                   8.5.2
+
+--- Document Chunk 372 ---
+53                       扣车                                                       8.6.1
+
+--- Document Chunk 373 ---
+54         提前发车                        8.6.2
+
+--- Document Chunk 374 ---
+--- Page 15 ---
+
+--- Document Chunk 375 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 376 ---
+表1 功能对照表(续)
+
+--- Document Chunk 377 ---
+FE) 总体要求中的功能点名称                       RY RE AS SOE
+
+--- Document Chunk 378 ---
+55           跳售                            8.6.3
+
+--- Document Chunk 379 ---
+56         设置/收消临时限速                                      8.7
+
+--- Document Chunk 380 ---
+57      时刻表编制管理                      “88
+
+--- Document Chunk 381 ---
+58                模拟培 训                                            8.9
+
+--- Document Chunk 382 ---
+59         ATS 界面功能                           8. 10.1
+
+--- Document Chunk 383 ---
+60 |      ATS 数据记录                       8. 10.2.4
+
+--- Document Chunk 384 ---
+61       中控/站控转换                       8.6.4
+
+--- Document Chunk 385 ---
+62         进路办理                          9.2.2
+
+--- Document Chunk 386 ---
+63            保护区段建六                                     9.2.4
+
+--- Document Chunk 387 ---
+64         进路/区段锁闭                               9.3.2
+
+--- Document Chunk 388 ---
+65        道岔单操.单饥                            9.3.3
+
+--- Document Chunk 389 ---
+66             AE Wi LX Ty Sf                                         9.3.2
+
+--- Document Chunk 390 ---
+67       “RO edie                         9.4
+
+--- Document Chunk 391 ---
+68          CHE                            Ke
+
+--- Document Chunk 392 ---
+CL AL KE ,故障报管
+
+--- Document Chunk 393 ---
+70          ADE Bee We POE Ma                                  9.3.2
+
+--- Document Chunk 394 ---
+71        计轴故障恢复                        9.3.4
+
+--- Document Chunk 395 ---
+72           扣车                            8.6.1
+
+--- Document Chunk 396 ---
+73               STE / TE                                           8.6.4
+
+--- Document Chunk 397 ---
+74      CI权限设置                          无
+
+--- Document Chunk 398 ---
+6 ATP 功能分配
+
+--- Document Chunk 399 ---
+6. 1
+
+--- Document Chunk 400 ---
+10
+
+--- Document Chunk 401 ---
+ATP 的主要功能
+
+--- Document Chunk 402 ---
+ATP 的主要功能见图3。
+
+--- Document Chunk 403 ---
+--- Page 16 ---
+
+--- Document Chunk 404 ---
+6.2.2 初始
+
+--- Document Chunk 405 ---
+化CBTC
+
+--- Document Chunk 406 ---
+列车位置
+
+--- Document Chunk 407 ---
+6.2.4 列车
+
+--- Document Chunk 408 ---
+轮径校正
+
+--- Document Chunk 409 ---
+CBTC列
+
+--- Document Chunk 410 ---
+车位置
+
+--- Document Chunk 411 ---
+6.2.3.2 ME A
+
+--- Document Chunk 412 ---
+4
+
+--- Document Chunk 413 ---
+8.3 ATS对
+
+--- Document Chunk 414 ---
+CBTC列
+
+--- Document Chunk 415 ---
+6.2.3.4 UAE
+
+--- Document Chunk 416 ---
+BOEEME
+
+--- Document Chunk 417 ---
+6.2.3.3 前
+
+--- Document Chunk 418 ---
+方CBTC
+
+--- Document Chunk 419 ---
+列车位置
+
+--- Document Chunk 420 ---
+6.2.4.2 Hi
+
+--- Document Chunk 421 ---
+iH Bay
+
+--- Document Chunk 422 ---
+HARES
+
+--- Document Chunk 423 ---
+说明:
+
+--- Document Chunk 424 ---
+TAL HE—         内容;
+
+--- Document Chunk 425 ---
+虚线恰一一本章节描述内容。
+
+--- Document Chunk 426 ---
+ 3 ATP 主要功能
+
+--- Document Chunk 427 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 428 ---
+6.3.3 移
+
+--- Document Chunk 429 ---
+动授权
+
+--- Document Chunk 430 ---
+的确 定 |
+
+--- Document Chunk 431 ---
+6.4.2 FE
+
+--- Document Chunk 432 ---
+限制速度
+
+--- Document Chunk 433 ---
+防护
+
+--- Document Chunk 434 ---
+临时站
+
+--- Document Chunk 435 ---
+制防护
+
+--- Document Chunk 436 ---
+11
+
+--- Document Chunk 437 ---
+--- Page 17 ---
+
+--- Document Chunk 438 ---
+T/CAMET 04010, 2一2018
+
+--- Document Chunk 439 ---
+6.2 列车位置确定
+
+--- Document Chunk 440 ---
+6.2.1 确定列车位置关系图
+
+--- Document Chunk 441 ---
+Pel 4 概括了本段中所描述
+
+--- Document Chunk 442 ---
+的子功能(实线框)之间的接口,以及其他
+
+--- Document Chunk 443 ---
+段落中描述的子功能(虚线框)间的接口。
+
+--- Document Chunk 444 ---
+6.2.4 列车轮径以
+
+--- Document Chunk 445 ---
+6.2.2 初始化
+
+--- Document Chunk 446 ---
+CBTC列芷
+
+--- Document Chunk 447 ---
+位置
+
+--- Document Chunk 448 ---
+确定
+
+--- Document Chunk 449 ---
+CBTC列芷位置
+
+--- Document Chunk 450 ---
+实线杠一一定位功能的条件;
+
+--- Document Chunk 451 ---
+一一定位功能的用途
+
+--- Document Chunk 452 ---
+1 83ATS4CBTC 1
+
+--- Document Chunk 453 ---
+AAG 1
+
+--- Document Chunk 454 ---
+图4 确定列车位置关系图
+
+--- Document Chunk 455 ---
+6.2.2 初始化CBTC 列车位置
+
+--- Document Chunk 456 ---
+6.2.2.1 概述
+
+--- Document Chunk 457 ---
+此功能用于初始化 CBTC 列车位置,即确定 CBTC 装备列车的初始
+
+--- Document Chunk 458 ---
+位置。表2 ~表4 规定了列车定位初始化的内容。
+
+--- Document Chunk 459 ---
+--- Page 18 ---
+
+--- Document Chunk 460 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 461 ---
+6. 2.2.2 进入CBTC 区域的CBTC 列车位置初始化
+
+--- Document Chunk 462 ---
+CBTC 列车位置初始化,并白动检测符列符合装备 CBTC 设备的
+
+--- Document Chunk 463 ---
+列车,进入CBTC 区城无震手动输入列车位置或列车长度的数据,匈
+
+--- Document Chunk 464 ---
+表2 进入CBTC 区域的CBTC 列车位置初始化
+
+--- Document Chunk 465 ---
+T
+
+--- Document Chunk 466 ---
+功能分配                     答         入
+
+--- Document Chunk 467 ---
+ATS
+
+--- Document Chunk 468 ---
+CBTC HL3y               X
+
+--- Document Chunk 469 ---
+CBTC 44k
+
+--- Document Chunk 470 ---
+DI HE NY ABE se
+
+--- Document Chunk 471 ---
+LEU”
+
+--- Document Chunk 472 ---
+Br CBTC 设备的列车，
+
+--- Document Chunk 473 ---
+从 CBTC i ff HEE PE                      FA aN SN Ae EC IE TY BS
+
+--- Document Chunk 474 ---
+RS 进从设备故障中恢复的
+
+--- Document Chunk 475 ---
+Dy fie 5} Fie      4p   人
+
+--- Document Chunk 476 ---
+CBTC 列车完成位置初始化
+
+--- Document Chunk 477 ---
+输
+
+--- Document Chunk 478 ---
+ATS
+
+--- Document Chunk 479 ---
+CBTC HL9F
+
+--- Document Chunk 480 ---
+CBTC 424%
+
+--- Document Chunk 481 ---
+6. 2. 2.4 电子地图存储
+
+--- Document Chunk 482 ---
+CBTC 系统的车载设备和轨沈设备应根据运行和答辖范围的不同，
+
+--- Document Chunk 483 ---
+分别存储相关线路范围的电子地赂,见表 4 :
+
+--- Document Chunk 484 ---
+--- Page 19 ---
+
+--- Document Chunk 485 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 486 ---
+表4 ”电子地图存储
+
+--- Document Chunk 487 ---
+功能分配        输    入       实 现        输 出
+
+--- Document Chunk 488 ---
+ATS             |
+
+--- Document Chunk 489 ---
+CBTC HLF                   |            X                                    X                                         X
+
+--- Document Chunk 490 ---
+CBTC 车载                 X                   X                      X
+
+--- Document Chunk 491 ---
+6.2.3 确定CBTC 列车位置
+
+--- Document Chunk 492 ---
+6.2.3.1 概述
+
+--- Document Chunk 493 ---
+此功能确定列车运行前方和后方的相邻 CBTC 列车的位置。 表5 ~
+
+--- Document Chunk 494 ---
+故 13 规定了列车位置用途的内容，
+
+--- Document Chunk 495 ---
+6. 2.3.2 确定列车长度
+
+--- Document Chunk 496 ---
+CBTC 列车位着应能确定列车长度,见去5
+
+--- Document Chunk 497 ---
+RS 确定列车长度
+
+--- Document Chunk 498 ---
+功能分配                 答       入              实       现                 Si       出
+
+--- Document Chunk 499 ---
+ATS                                                               X
+
+--- Document Chunk 500 ---
+CBTC HL 9%                                               ;           X
+
+--- Document Chunk 501 ---
+CBTC 424k           X          Xx                      |
+
+--- Document Chunk 502 ---
+6.2.3.3 确定CBTC 列车位置
+
+--- Document Chunk 503 ---
+CBTC 列车位置的俏定应包括安全、准确地确定列车车头和和车尾的
+
+--- Document Chunk 504 ---
+位置,并用足够的分状率和精准度米满足性能和安全而求,见表6，
+
+--- Document Chunk 505 ---
+表6 确定CBT 列车位置
+
+--- Document Chunk 506 ---
+功能分配             输 入           实 ws | i 出      ‘|
+
+--- Document Chunk 507 ---
+ATS.                                                                                X
+
+--- Document Chunk 508 ---
+CBTC 4 3¢                     xX                 :                   /                 XxX
+
+--- Document Chunk 509 ---
+CBTC 车载                     x                        x                |           x         _|
+
+--- Document Chunk 510 ---
+14
+
+--- Document Chunk 511 ---
+--- Page 20 ---
+
+--- Document Chunk 512 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 513 ---
+6.2.3.4 位置误差校正
+
+--- Document Chunk 514 ---
+CBTC 列车位置的确定应包含测距误差的影响,并对位置误差包含
+
+--- Document Chunk 515 ---
+表7 位置误差校正
+
+--- Document Chunk 516 ---
+[            功能分配                     输         人                 实         Be                     输         出
+
+--- Document Chunk 517 ---
+ATS                                       X
+
+--- Document Chunk 518 ---
+CBTC 419    |              X
+
+--- Document Chunk 519 ---
+CBTC 4:48                         X                             X                                X
+
+--- Document Chunk 520 ---
+6. 2.3.5 列车完整性检测
+
+--- Document Chunk 521 ---
+CBTC 系统应能实现列车的完整性检测 AE BR Be aa 完
+
+--- Document Chunk 522 ---
+二整性愉查电路中断时,应对列车仿
+
+--- Document Chunk 523 ---
+天 eae 同时系统应对后续追踪列车进行安全防护 ,保证后续
+
+--- Document Chunk 524 ---
+运行,匈友8
+
+--- Document Chunk 525 ---
+RS 列车完整性检测
+
+--- Document Chunk 526 ---
+—
+
+--- Document Chunk 527 ---
+功能分配  fe A  实 现  fit oth
+
+--- Document Chunk 528 ---
+ATS                                                                                 入
+
+--- Document Chunk 529 ---
+CBTC 4) 33                                                                            X
+
+--- Document Chunk 530 ---
+CBTC 42 4%                     X            |            x
+
+--- Document Chunk 531 ---
+cl
+
+--- Document Chunk 532 ---
+外部系统( 车辆)      X
+
+--- Document Chunk 533 ---
+6.2.3.6 列车轮径校正
+
+--- Document Chunk 534 ---
+CBTC 系统应能实现列车轮径尽正功能,系统宜在列车进入转换
+
+--- Document Chunk 535 ---
+轨前设置轮径自动补偿设备,并在出段/场前完成自动轮径补偿,见
+
+--- Document Chunk 536 ---
+15
+
+--- Document Chunk 537 ---
+--- Page 21 ---
+
+--- Document Chunk 538 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 539 ---
+RI 列车轮径校正
+
+--- Document Chunk 540 ---
+功能分配  mw 入 | em  ah
+
+--- Document Chunk 541 ---
+ATS      |
+
+--- Document Chunk 542 ---
+CBTC 4h 3%   x  |
+
+--- Document Chunk 543 ---
+6.2.3.7 列车升级至 CBTC 级别
+
+--- Document Chunk 544 ---
+当系统由点式列车控制级别或联锁
+
+--- Document Chunk 545 ---
+级别时 ,应满足如下转换条件:
+
+--- Document Chunk 546 ---
+一一ATP 车载设备无放了,且完成列车定位;
+
+--- Document Chunk 547 ---
+一一ATP 车载设符收到 ATP 轨和党设备发送的有效 MA AE bb
+
+--- Document Chunk 548 ---
+制级别升级为连续式列车控制
+
+--- Document Chunk 549 ---
+#10
+
+--- Document Chunk 550 ---
+R10 列车升级至 CBTC 级别
+
+--- Document Chunk 551 ---
+功能分配                     和输          入                  实         Ji                     输         出
+
+--- Document Chunk 552 ---
+ATS                                                   x
+
+--- Document Chunk 553 ---
+CBTC 4%                              x
+
+--- Document Chunk 554 ---
+CBTC 4: 4k            X              X                X
+
+--- Document Chunk 555 ---
+四        cl                 x         |                         x
+
+--- Document Chunk 556 ---
+6.2.3.8 确定列车停站位置
+
+--- Document Chunk 557 ---
+CBTC 系统应根据不同的列车长度 ,确定列车的侣站位置,匈表 11 :
+
+--- Document Chunk 558 ---
+表11 确定列车停站位置
+
+--- Document Chunk 559 ---
+功能分配                     输 入                              Hi                     输         出
+
+--- Document Chunk 560 ---
+7
+
+--- Document Chunk 561 ---
+ATS
+
+--- Document Chunk 562 ---
+CBTC HL 9%
+
+--- Document Chunk 563 ---
+CBTC 4: 4k                X                   X                     X
+
+--- Document Chunk 564 ---
+--- Page 22 ---
+
+--- Document Chunk 565 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 566 ---
+6.2.3.9 列车驾驶模式
+
+--- Document Chunk 567 ---
+列车应具有的驾驶模式包括:列车魏动运行模式(AM) .列车自动防
+
+--- Document Chunk 568 ---
+护模式(CM) .限制人工驾驶模式(RM) AE BR tht] ACT. 25 Soh ESE CEUM ) 、列
+
+--- Document Chunk 569 ---
+车自动运行模式(AM) ,列车自动防护模式(CM )为列车正常运行模式，
+
+--- Document Chunk 570 ---
+见表 12。
+
+--- Document Chunk 571 ---
+R12 列车驾驶模式
+
+--- Document Chunk 572 ---
+功能分配     we 入 | 祥
+
+--- Document Chunk 573 ---
+x        现                 输       出
+
+--- Document Chunk 574 ---
+ATS                                       |                                         x
+
+--- Document Chunk 575 ---
+CBTC Hy   :                                                                        Xx
+
+--- Document Chunk 576 ---
+CBTC 424k                                                                           : X
+
+--- Document Chunk 577 ---
+6.2.3.10 Bape seem
+
+--- Document Chunk 578 ---
+ihe 28 se 4B
+
+--- Document Chunk 579 ---
+RM , #4 75 Slt Be i
+
+--- Document Chunk 580 ---
+AE AE he AE th
+
+--- Document Chunk 581 ---
+Bf bv Mid ak A
+
+--- Document Chunk 582 ---
+显示，
+
+--- Document Chunk 583 ---
+为保证行竺安全
+
+--- Document Chunk 584 ---
+为RM 时,列车应他
+
+--- Document Chunk 585 ---
+AES Be A rh AI EB Te                 PH Ae Hey MBE UL
+
+--- Document Chunk 586 ---
+功能分配
+
+--- Document Chunk 587 ---
+ATS
+
+--- Document Chunk 588 ---
+|    CBTC HLS
+
+--- Document Chunk 589 ---
+| CBTC 4.48      X       X        X
+
+--- Document Chunk 590 ---
+6. 2.4 确定轨道区段占用状态
+
+--- Document Chunk 591 ---
+6.2.4.1 概述
+
+--- Document Chunk 592 ---
+此功能用于确定轨道区段的占用状态。 表 14 和表 15 规定了轨道区
+
+--- Document Chunk 593 ---
+段占用状态的内容:
+
+--- Document Chunk 594 ---
+--- Page 23 ---
+
+--- Document Chunk 595 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 596 ---
+6.2.4.2 轨道区段的占用状态
+
+--- Document Chunk 597 ---
+CBTC 系统可恨据轨穷次级占用检测设备提供的信息,结合 CBTC
+
+--- Document Chunk 598 ---
+列车汇报的位置信息 ,确定轨道区段的占用状态(有一辆或多箱车占用
+
+--- Document Chunk 599 ---
+区段,包括 CBTC 列 A(R)  AL TC LTH CBTC 车载设备的列车) 见
+
+--- Document Chunk 600 ---
+表14。
+
+--- Document Chunk 601 ---
+表14 轨道区段的占用状态
+
+--- Document Chunk 602 ---
+|    功能分本       mw 入 | 实 om    etl
+
+--- Document Chunk 603 ---
+|             ATS                                                       X
+
+--- Document Chunk 604 ---
+CBTC AL ae                                   xX                 xX
+
+--- Document Chunk 605 ---
+CBTC 424k               x
+
+--- Document Chunk 606 ---
+cl                      x                x
+
+--- Document Chunk 607 ---
+外部系统(次级占用检测设备》       x
+
+--- Document Chunk 608 ---
+6.2.4.3 前方轨道区段占用状态
+
+--- Document Chunk 609 ---
+“4 CBTC 列车前方区段被族障列车或者非 CBTC 装备列车占用时，
+
+--- Document Chunk 610 ---
+CBTC 系统应根据前方区段占用状态确定 CBTC 列车的安全边界, 见
+
+--- Document Chunk 611 ---
+表15。
+
+--- Document Chunk 612 ---
+表 15 ”前方轨道区段的占用状态
+
+--- Document Chunk 613 ---
+功能分配                       输          入                   实          BL                       输          出
+
+--- Document Chunk 614 ---
+ATS
+
+--- Document Chunk 615 ---
+CBTC Has                                               X
+
+--- Document Chunk 616 ---
+CBTC 车载                                                                                                          X
+
+--- Document Chunk 617 ---
+cl               xX
+
+--- Document Chunk 618 ---
+6.2.5 故障管理
+
+--- Document Chunk 619 ---
+6. 2.5.1 概述
+
+--- Document Chunk 620 ---
+与基础的 CBTC 系统功能组合,后备轨旁系统和/或操作程序应在确
+
+--- Document Chunk 621 ---
+18
+
+--- Document Chunk 622 ---
+--- Page 24 ---
+
+--- Document Chunk 623 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 624 ---
+定列车位置功能故障情况下 ,为列车移动提供安全保障- 表 16 和表 17
+
+--- Document Chunk 625 ---
+规定了列车位置功能故障的内容。
+
+--- Document Chunk 626 ---
+6. 2.5.2 防护列车丢失位置报告
+
+--- Document Chunk 627 ---
+当列车丢失位置报告后,CBTC 系统将提供移动授权防护,避免其他
+
+--- Document Chunk 628 ---
+列车进入无位置汇报列车占用的区段,见表 16。
+
+--- Document Chunk 629 ---
+表16 防护列车丢失位置报告
+
+--- Document Chunk 630 ---
+功能分配                       输          人                   实          Jal                       和输          出
+
+--- Document Chunk 631 ---
+ATS
+
+--- Document Chunk 632 ---
+CBTC 493                              X        |          x
+
+--- Document Chunk 633 ---
+CBTC 4:48  a ae
+
+--- Document Chunk 634 ---
+四        CT           x     -      i
+
+--- Document Chunk 635 ---
+6.2.5.3 列车完整性丢失防护
+
+--- Document Chunk 636 ---
+在恰测到列车完整性于失时,CBTC 系统将提供移动授权防护,避免
+
+--- Document Chunk 637 ---
+其他列车进入无位置汇报列车占用的区段,见表 17。
+
+--- Document Chunk 638 ---
+表17 列车完整性丢失防护
+
+--- Document Chunk 639 ---
+功能分配           fi 入         BL          输 出
+
+--- Document Chunk 640 ---
+|  CBTC ATS 设备
+
+--- Document Chunk 641 ---
+ ‘care MLSS                                       X          i             x
+
+--- Document Chunk 642 ---
+CBT 车载              X                x
+
+--- Document Chunk 643 ---
+CI                 X
+
+--- Document Chunk 644 ---
+6.3 移动防护限制和目标点的确定
+
+--- Document Chunk 645 ---
+6.3.1 移动防护限制和相关的目标点
+
+--- Document Chunk 646 ---
+这一功能为 CBTC 列车确立了移动防护限制和相关的目标点。网 5
+
+--- Document Chunk 647 ---
+为移动保护的限定和目标点测定。
+
+--- Document Chunk 648 ---
+--- Page 25 ---
+
+--- Document Chunk 649 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 650 ---
+| 6.7.4.3 wade | |
+
+--- Document Chunk 651 ---
+1 | 更新超时的防护 | |
+
+--- Document Chunk 652 ---
+iW):
+
+--- Document Chunk 653 ---
+‘SEER AL — Fe PE LAE LU AR A
+
+--- Document Chunk 654 ---
+型授权保护的限定和失效防护
+
+--- Document Chunk 655 ---
+AS 移动保护的限定和目标点测定
+
+--- Document Chunk 656 ---
+6.3.2 确定移动防护的潜在限制
+
+--- Document Chunk 657 ---
+6.3.2.1 功能描述
+
+--- Document Chunk 658 ---
+此功能用于确定 CBTC 列车前方移动授权的限制 表 18 和表 19 规
+
+--- Document Chunk 659 ---
+定了列车位置用途的内容。
+
+--- Document Chunk 660 ---
+6.3.2.2 CBTC 列车前方位置
+
+--- Document Chunk 661 ---
+对于每辆 CBTC 列车 ,应确定列车前方的 CBTC 列车位置,见表 18
+
+--- Document Chunk 662 ---
+20
+
+--- Document Chunk 663 ---
+--- Page 26 ---
+
+--- Document Chunk 664 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 665 ---
+#18 CBTC 列车前方位置
+
+--- Document Chunk 666 ---
+此功能确定移动授权。表
+
+--- Document Chunk 667 ---
+3.2 移动授权的确定
+
+--- Document Chunk 668 ---
+为对列车进行合适的移动防护
+
+--- Document Chunk 669 ---
+6. 3.
+
+--- Document Chunk 670 ---
+权限制位置,见表 20-
+
+--- Document Chunk 671 ---
+AR il, CBTC
+
+--- Document Chunk 672 ---
+R20 ”移动授权的确定
+
+--- Document Chunk 673 ---
+Zi bps
+
+--- Document Chunk 674 ---
+系统应估算最大移动授
+
+--- Document Chunk 675 ---
+动授权的内容，
+
+--- Document Chunk 676 ---
+功能分配                 输        人             实       现                 输       出
+
+--- Document Chunk 677 ---
+ATS
+
+--- Document Chunk 678 ---
+CBTC HLF                                         x                        x
+
+--- Document Chunk 679 ---
+CBTC 424k             x                                  x
+
+--- Document Chunk 680 ---
+6.3.2.3 前方安全进路限制
+
+--- Document Chunk 681 ---
+AP FEA CBTC 列车,系统应确定列车的安全进路位置,见表 19
+
+--- Document Chunk 682 ---
+表 19 ”前方安全进路限制
+
+--- Document Chunk 683 ---
+功能分配       gCALOwos      条。 出
+
+--- Document Chunk 684 ---
+ATS            |        Ag                         %
+
+--- Document Chunk 685 ---
+CBTC HUy          S/ x                        Rp               X
+
+--- Document Chunk 686 ---
+CBTC 4:48        o                             a            x
+
+--- Document Chunk 687 ---
+CT                                                       IK
+
+--- Document Chunk 688 ---
+.3.3 移动授权的                                  &
+
+--- Document Chunk 689 ---
+6.3.3.1 概述     rE Ee
+
+--- Document Chunk 690 ---
+功能分配                 输 入             实现                 输 出
+
+--- Document Chunk 691 ---
+ATS                                                                                X
+
+--- Document Chunk 692 ---
+CBTC HL}                X                   X                     x
+
+--- Document Chunk 693 ---
+CBTC 车载                                               x                            X
+
+--- Document Chunk 694 ---
+CI                           X
+
+--- Document Chunk 695 ---
+--- Page 27 ---
+
+--- Document Chunk 696 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 697 ---
+6.3.4 目标点确定
+
+--- Document Chunk 698 ---
+6. 3.4.1 概述
+
+--- Document Chunk 699 ---
+此功能确定移动防护限制的目标点。表21 ~表 24 规定了目慰点的
+
+--- Document Chunk 700 ---
+6.3.4.2 目标点确定
+
+--- Document Chunk 701 ---
+为了确保列车不超过移动授权,CBTC 系统应确定一个日标点,多
+
+--- Document Chunk 702 ---
+表21 目标点确定
+
+--- Document Chunk 703 ---
+功能分配                 ii 入              SO                 输 出
+
+--- Document Chunk 704 ---
+ATS
+
+--- Document Chunk 705 ---
+CBTC 43                     X                        X
+
+--- Document Chunk 706 ---
+CBTC 424%                     X                        X                            X
+
+--- Document Chunk 707 ---
+Cl                           X
+
+--- Document Chunk 708 ---
+6.3.4.3 响应紧急停车按钮的按下
+
+--- Document Chunk 709 ---
+当 ATP 轨旁设备接收到站台紧急停车按钮被按下的信息时,应通过
+
+--- Document Chunk 710 ---
+车地通信设备向列车发送相点的列竺控制命令信息,见表22。
+
+--- Document Chunk 711 ---
+表22 响应紧急停车按钮的按下
+
+--- Document Chunk 712 ---
+功能分呈 | 给 入      实现
+
+--- Document Chunk 713 ---
+ATS      |
+
+--- Document Chunk 714 ---
+CBTC Lge    |                 xX
+
+--- Document Chunk 715 ---
+CBTC 车载               |     x
+
+--- Document Chunk 716 ---
+CI       |     xX
+
+--- Document Chunk 717 ---
+6.3.4.4 道岔状态防护
+
+--- Document Chunk 718 ---
+CBTC 系统应控制区域内道岔状态并进行防护。当道贫状态委失
+
+--- Document Chunk 719 ---
+时 ,移动授权回撤至道岔区域的边界位置;当列车已台人丢失状态的道岔
+
+--- Document Chunk 720 ---
+22
+
+--- Document Chunk 721 ---
+--- Page 28 ---
+
+--- Document Chunk 722 ---
+区域时 ,列车应实施
+
+--- Document Chunk 723 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 724 ---
+表23 道岔状态保护
+
+--- Document Chunk 725 ---
+功能分配
+
+--- Document Chunk 726 ---
+Si        A                实        现                   输         出
+
+--- Document Chunk 727 ---
+ATS
+
+--- Document Chunk 728 ---
+CBTC Ha
+
+--- Document Chunk 729 ---
+CBTC 车载
+
+--- Document Chunk 730 ---
+CI
+
+--- Document Chunk 731 ---
+6.3.4.5 ZC 切换
+
+--- Document Chunk 732 ---
+BY A AE 256 SU) A li] Ik Sa eV] BSL AS SS EA A 8K
+
+--- Document Chunk 733 ---
+FA DEA FG 8 TRE KG AE aR ATP 设备应同时与移灾、接管线路的
+
+--- Document Chunk 734 ---
+AOL ATP 设备建立通信,并根据列车是否越过移交边界选择采用移交/
+
+--- Document Chunk 735 ---
+接管线路的轨旁 ATP 设备发送的 MA 5 移交、接管线路的轨劳 ATP 设备
+
+--- Document Chunk 736 ---
+间应互传线路状态 .列车位置等信息 OF Tad EK ATP 设备发送 MA 信息，
+
+--- Document Chunk 737 ---
+见表24。
+
+--- Document Chunk 738 ---
+R24 LC 切换
+
+--- Document Chunk 739 ---
+功能分配            ih A          BL            输 出
+
+--- Document Chunk 740 ---
+ATS                  X
+
+--- Document Chunk 741 ---
+CBTC HL gy                                 X
+
+--- Document Chunk 742 ---
+CBTC 车载                                 X                   x
+
+--- Document Chunk 743 ---
+Cl                   x
+
+--- Document Chunk 744 ---
+6.3.5 故障管理
+
+--- Document Chunk 745 ---
+6. 3.5.1 概述
+
+--- Document Chunk 746 ---
+本功能明确 AT
+
+--- Document Chunk 747 ---
+6.3.5.2 ”故障管理
+
+--- Document Chunk 748 ---
+列车的非预期移
+
+--- Document Chunk 749 ---
+故障管理的要求。表 25 规定了故障管理的内容。
+
+--- Document Chunk 750 ---
+动 ATP 轨旁设备故障 .车载设备故障 ,超过系统人允
+
+--- Document Chunk 751 ---
+23
+
+--- Document Chunk 752 ---
+--- Page 29 ---
+
+--- Document Chunk 753 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 754 ---
+Re eb as ,与行车安全相关的故障均
+
+--- Document Chunk 755 ---
+应产生紧急制动.匈表 25
+
+--- Document Chunk 756 ---
+表25 故障管理
+
+--- Document Chunk 757 ---
+功能分配            fh 人          实 现            i 出
+
+--- Document Chunk 758 ---
+ATS                                                        x
+
+--- Document Chunk 759 ---
+CBTC HL oF                Xx
+
+--- Document Chunk 760 ---
+CBTC 424%            xX              xX                xX
+
+--- Document Chunk 761 ---
+Cl
+
+--- Document Chunk 762 ---
+6.4 ATP 曲线确定
+
+--- Document Chunk 763 ---
+6.4.1 ATP 曲线计算
+
+--- Document Chunk 764 ---
+该功能用于计算 ATP ME , WEE
+
+--- Document Chunk 765 ---
+6 所示
+
+--- Document Chunk 766 ---
+Sieh
+
+--- Document Chunk 767 ---
+iba
+
+--- Document Chunk 768 ---
+6.4.3 临时限速
+
+--- Document Chunk 769 ---
+限
+
+--- Document Chunk 770 ---
+6.4.4.2 [PRAY
+
+--- Document Chunk 771 ---
+制动曲线
+
+--- Document Chunk 772 ---
+ 6 ATP 曲线计算
+
+--- Document Chunk 773 ---
+6.4.2 固定限制速度防护
+
+--- Document Chunk 774 ---
+此功能确定列车的国定限制速度。表 26 和表 27 规定了固定限制速
+
+--- Document Chunk 775 ---
+度防护。
+
+--- Document Chunk 776 ---
+24
+
+--- Document Chunk 777 ---
+--- Page 30 ---
+
+--- Document Chunk 778 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 779 ---
+6.4.2.1 固定线路限制速度
+
+--- Document Chunk 780 ---
+CBTC 应提供固定线路限速的限制防护.见表 26.
+
+--- Document Chunk 781 ---
+表26 固定线路限制速度
+
+--- Document Chunk 782 ---
+功能分配
+
+--- Document Chunk 783 ---
+ATS
+
+--- Document Chunk 784 ---
+CBTC 4%
+
+--- Document Chunk 785 ---
+CBTC 车载
+
+--- Document Chunk 786 ---
+cl
+
+--- Document Chunk 787 ---
+6.4.2.2 WAH HR iil
+
+--- Document Chunk 788 ---
+BML SI 7 Fighting
+
+--- Document Chunk 789 ---
+功能分配                                                  输     出
+
+--- Document Chunk 790 ---
+ATS                         |
+
+--- Document Chunk 791 ---
+CBTC Hx
+
+--- Document Chunk 792 ---
+CBTC 4:48                                            X         |
+
+--- Document Chunk 793 ---
+6.4.3 临时限速限制防护
+
+--- Document Chunk 794 ---
+6.4.3.1 概述
+
+--- Document Chunk 795 ---
+此功能确定列车的临时限速防护，才28 规定了临时限速限制防护
+
+--- Document Chunk 796 ---
+问题-
+
+--- Document Chunk 797 ---
+6.4.3.2 临时限制速度限制
+
+--- Document Chunk 798 ---
+CBTC 应按照系统设置的临时限速 ,为列车计算移动授权,对临时限
+
+--- Document Chunk 799 ---
+速进行防护,见表 28.
+
+--- Document Chunk 800 ---
+He 28 临时限制速度限制
+
+--- Document Chunk 801 ---
+mies | th    实 ee 册
+
+--- Document Chunk 802 ---
+ATS                                             xX                                                                  |
+
+--- Document Chunk 803 ---
+--- Page 31 ---
+
+--- Document Chunk 804 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 805 ---
+表 28 ”临时限制速度限制(续)
+
+--- Document Chunk 806 ---
+给 入   实 现 | eee
+
+--- Document Chunk 807 ---
+6.4.4 确定制动曲线
+
+--- Document Chunk 808 ---
+6. 4.4.1 概述
+
+--- Document Chunk 809 ---
+此功能确定制动曲线,以保证列车在指定的日慰点停个，表 29 和表
+
+--- Document Chunk 810 ---
+30 规定制动遇线的内容
+
+--- Document Chunk 811 ---
+6. 4.4.2 目标点的制动曲线
+
+--- Document Chunk 812 ---
+表 29 规定了日标点制动曲线的内容
+
+--- Document Chunk 813 ---
+表 29 目标点的制动曲线
+
+--- Document Chunk 814 ---
+输     入          实     Mt            输
+
+--- Document Chunk 815 ---
+功能分配
+
+--- Document Chunk 816 ---
+ATS
+
+--- Document Chunk 817 ---
+CBTC 轨有党                     x
+
+--- Document Chunk 818 ---
+CBTC 424k                     x                        x            |               x
+
+--- Document Chunk 819 ---
+6.4.4.3 By ib tl oh th Se ae at isk BE OR
+
+--- Document Chunk 820 ---
+CBTC Jie (4 ii Hl Hy UR Le EE Vd Ga MT IS BIE iT HE, WL 2 30
+
+--- Document Chunk 821 ---
+表30 防止制动曲线超过速度限制
+
+--- Document Chunk 822 ---
+功能分本                         | %
+
+--- Document Chunk 823 ---
+ATS         |
+
+--- Document Chunk 824 ---
+CBTC 轨旁
+
+--- Document Chunk 825 ---
+CBTC 车载
+
+--- Document Chunk 826 ---
+6.4.5 计算ATP 曲线
+
+--- Document Chunk 827 ---
+6.4.5.1 概述
+
+--- Document Chunk 828 ---
+此功能用于计算完整的 ATP 曲线。表 31 规定了 ATP 曲线的内容。
+
+--- Document Chunk 829 ---
+26
+
+--- Document Chunk 830 ---
+--- Page 32 ---
+
+--- Document Chunk 831 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 832 ---
+6. 4.5.2 ATP 曲线
+
+--- Document Chunk 833 ---
+CBTC 应为每辆列车计算完整的 ATP 册线,见表 31。
+
+--- Document Chunk 834 ---
+表31 ATP 曲线
+
+--- Document Chunk 835 ---
+功能分配          oO         实现      输出
+
+--- Document Chunk 836 ---
+ATS
+
+--- Document Chunk 837 ---
+CBTC HL ae                xX
+
+--- Document Chunk 838 ---
+CBTC 42 4%             x               X         X
+
+--- Document Chunk 839 ---
+6.5 确定限制速度
+
+--- Document Chunk 840 ---
+6.5.1 CBTC 列车限制速度
+
+--- Document Chunk 841 ---
+此功能确定对 CBTC 列车的限制速度。
+
+--- Document Chunk 842 ---
+图7概括了本条目描“述的子功能接口和其他条目描述的子功能
+
+--- Document Chunk 843 ---
+接口。
+
+--- Document Chunk 844 ---
+----------
+
+--- Document Chunk 845 ---
+1 6.7.2.2 授权速度 |
+
+--- Document Chunk 846 ---
+1 鉴季和防护 1
+
+--- Document Chunk 847 ---
+1 645iMATP |
+
+--- Document Chunk 848 ---
+| ed
+
+--- Document Chunk 849 ---
+图7 确定限制速度
+
+--- Document Chunk 850 ---
+6.5.2 确定限制速度
+
+--- Document Chunk 851 ---
+6.5.2.1 概述
+
+--- Document Chunk 852 ---
+此功能确定列车当前位置的限制速度。表 32 规定了限制速度的
+
+--- Document Chunk 853 ---
+内容。
+
+--- Document Chunk 854 ---
+6.5.2.2 确定授权速度
+
+--- Document Chunk 855 ---
+CBTC 应基于 ATP 曲线 ,确定列车当前位置的限制速度,见表 32。
+
+--- Document Chunk 856 ---
+27
+
+--- Document Chunk 857 ---
+--- Page 33 ---
+
+--- Document Chunk 858 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 859 ---
+R32 ”确定授权速度
+
+--- Document Chunk 860 ---
+功能分配  输 入  实 Be  输 出
+
+--- Document Chunk 861 ---
+ATS
+
+--- Document Chunk 862 ---
+CBTC 4) 3
+
+--- Document Chunk 863 ---
+CBTC 4 4k                     xX                        xX                            X
+
+--- Document Chunk 864 ---
+6.6 列车实际速度/列车运行方向确定
+
+--- Document Chunk 865 ---
+6. 6.1 概述
+
+--- Document Chunk 866 ---
+PAL 8 概括了本条日描述的子功能接口和其他条日描述的子功能接口，
+
+--- Document Chunk 867 ---
+上
+
+--- Document Chunk 868 ---
+6.6.3 CBTCHI 4:          1 6.7.3.2 监督防护 |
+
+--- Document Chunk 869 ---
+运行方向确定           1
+
+--- Document Chunk 870 ---
+图8 实际列车速度/运行方向确定
+
+--- Document Chunk 871 ---
+6.6.2 CBIC 列车速度测定
+
+--- Document Chunk 872 ---
+6. 6.2.1 概述
+
+--- Document Chunk 873 ---
+此功能确定列车的速度。表 33 ~ 表 35 规定了 CBTC 列车速度测定
+
+--- Document Chunk 874 ---
+的内容。
+
+--- Document Chunk 875 ---
+6.6.2.2 确定CBTC 列车实际速度
+
+--- Document Chunk 876 ---
+CBTC 应确定每辆 CBTC 装备列车的实际速度 ,速度满足分辨率和精
+
+--- Document Chunk 877 ---
+度的要求,见表33。
+
+--- Document Chunk 878 ---
+28
+
+--- Document Chunk 879 ---
+--- Page 34 ---
+
+--- Document Chunk 880 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 881 ---
+表33 确定 CBTC 列车实际速度
+
+--- Document Chunk 882 ---
+功能分配           输     A         实     BL           输     i
+
+--- Document Chunk 883 ---
+|         ATS       |
+
+--- Document Chunk 884 ---
+CBTC Hh
+
+--- Document Chunk 885 ---
+     CBTC HAR            X              X                X
+
+--- Document Chunk 886 ---
+6. 6.2.3 测速误差补偿
+
+--- Document Chunk 887 ---
+CBTC 系统应能够补偿测速误差产生的影响,并对测速作出合适的
+
+--- Document Chunk 888 ---
+补偿,匈表34
+
+--- Document Chunk 889 ---
+功能分配
+
+--- Document Chunk 890 ---
+CBTC 4h
+
+--- Document Chunk 891 ---
+CBTC 4:48
+
+--- Document Chunk 892 ---
+Dy fie} Fic
+
+--- Document Chunk 893 ---
+ATS
+
+--- Document Chunk 894 ---
+CBTC HLF
+
+--- Document Chunk 895 ---
+CBTC 车载
+
+--- Document Chunk 896 ---
+cl
+
+--- Document Chunk 897 ---
+6.6.3 CBTC 列车运行方向确定
+
+--- Document Chunk 898 ---
+6.6.3.1 概述
+
+--- Document Chunk 899 ---
+此功能确定列车实际运行方向。表 36 规定了 CBTC 列车运行方向。
+
+--- Document Chunk 900 ---
+6.6.3.2 确定CBTC 列车运行方向
+
+--- Document Chunk 901 ---
+CBTC 系统应确定每辆 CBTC 列车的实际运行方向,见表36。
+
+--- Document Chunk 902 ---
+29
+
+--- Document Chunk 903 ---
+--- Page 35 ---
+
+--- Document Chunk 904 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 905 ---
+表36 确定CBTC 列车运行方向
+
+--- Document Chunk 906 ---
+功能分配          输    人        实    现          输    出
+
+--- Document Chunk 907 ---
+ATS
+
+--- Document Chunk 908 ---
+CBTC 轨旁
+
+--- Document Chunk 909 ---
+ CBTC 车载               xX                  xX
+
+--- Document Chunk 910 ---
+cl
+
+--- Document Chunk 911 ---
+6.7 监督/强制允许速度和允许运行方向
+
+--- Document Chunk 912 ---
+6.7.1 功能描述
+
+--- Document Chunk 913 ---
+该功能是监督和强制执行允许速度和允许运行方向。
+
+--- Document Chunk 914 ---
+6.7.2 速度监督和防护
+
+--- Document Chunk 915 ---
+6.7.2.1 概述
+
+--- Document Chunk 916 ---
+此功能监督和防护列车速度,如网9 Tas, E37 ANH 38 规定了速
+
+--- Document Chunk 917 ---
+度监 笃和防护的内容。
+
+--- Document Chunk 918 ---
+6.7.2 速度监督和防
+
+--- Document Chunk 919 ---
+护
+
+--- Document Chunk 920 ---
+6.7.2.3 最不利情况
+
+--- Document Chunk 921 ---
+影响
+
+--- Document Chunk 922 ---
+6.7.3.2 监督/防护运
+
+--- Document Chunk 923 ---
+行方向
+
+--- Document Chunk 924 ---
+6.7.3.3 退行防护
+
+--- Document Chunk 925 ---
+6.7.4.3 移动授权更
+
+--- Document Chunk 926 ---
+新超时处理
+
+--- Document Chunk 927 ---
+图9 监督/施加授权速度和运行方向
+
+--- Document Chunk 928 ---
+30
+
+--- Document Chunk 929 ---
+--- Page 36 ---
+
+--- Document Chunk 930 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 931 ---
+6.7.2.2 速度监督和防护
+
+--- Document Chunk 932 ---
+如果列车实际速度超过限制速度,CBTC 应实施紧急制动,见表 37。
+
+--- Document Chunk 933 ---
+表37 速度监督和防护
+
+--- Document Chunk 934 ---
+功能分配          输 入        SOB          输 出
+
+--- Document Chunk 935 ---
+ATS                                               X         |
+
+--- Document Chunk 936 ---
+CBTC 轨旁     7                                  |         本
+
+--- Document Chunk 937 ---
+CBTC 车载           X      Tx     7       “xX |
+
+--- Document Chunk 938 ---
+6.7.2.3   最不利情况下的影响
+
+--- Document Chunk 939 ---
+CBTC 的速度监督/执行应包括对最
+
+--- Document Chunk 940 ---
+反应时间的补偿,见表 38
+
+--- Document Chunk 941 ---
+表38 最不利情况下的影响
+
+--- Document Chunk 942 ---
+功能分本 | 答 入       实现         给 由 |
+
+--- Document Chunk 943 ---
+#况下系统储差.反应次数和
+
+--- Document Chunk 944 ---
+ATS                                                                                                                                                                          |
+
+--- Document Chunk 945 ---
+CBTC Ha
+
+--- Document Chunk 946 ---
+CBTC 42 4¥%                     X                        X                            XxX
+
+--- Document Chunk 947 ---
+6.7.3 运行方向监督和防护
+
+--- Document Chunk 948 ---
+6.7.3.1 功能描述
+
+--- Document Chunk 949 ---
+此切能监督和防护列车运行方向。表 39 和表 40 规定了运行方向监
+
+--- Document Chunk 950 ---
+TF ABT PAZ,
+
+--- Document Chunk 951 ---
+6.7.3.2 监督/防护运行方向
+
+--- Document Chunk 952 ---
+如果列车实际和运行方向与授权的列车运行方向不一致,CBTC 应实
+
+--- Document Chunk 953 ---
+施紧急制动,见表 39。
+
+--- Document Chunk 954 ---
+表 39 监督/防护运行方向
+
+--- Document Chunk 955 ---
+功能分配                 输       A              实       Bl                 输       出
+
+--- Document Chunk 956 ---
+ATS                                                                                              x
+
+--- Document Chunk 957 ---
+31
+
+--- Document Chunk 958 ---
+--- Page 37 ---
+
+--- Document Chunk 959 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 960 ---
+表39 监督/防护运行方向(续)
+
+--- Document Chunk 961 ---
+功能分配         输    人       实 现
+
+--- Document Chunk 962 ---
+6.7.3.3 退行防护
+
+--- Document Chunk 963 ---
+ATP 车载设备应具有
+
+--- Document Chunk 964 ---
+汪信时,系统应立即采取紧急抽动 在列 guste saan
+
+--- Document Chunk 965 ---
+HS Bi) AE PR YE BE Ni BI BAY UL TES EB ald. ERE eR EAT.
+
+--- Document Chunk 966 ---
+见表 40,
+
+--- Document Chunk 967 ---
+表40 退行防护
+
+--- Document Chunk 968 ---
+功能分配     输 入       wo   fi 出
+
+--- Document Chunk 969 ---
+vrs                                                                 |
+
+--- Document Chunk 970 ---
+CBTC HLF                              |           x
+
+--- Document Chunk 971 ---
+CBTC FAR     Xx            X      |     x
+
+--- Document Chunk 972 ---
+6.7.4 故障管理
+
+--- Document Chunk 973 ---
+6.7.4.1 越过移动授权终点的响应
+
+--- Document Chunk 974 ---
+系统应确保不会越过移动授权终点 表41 ~ 表44 规定了故障管理
+
+--- Document Chunk 975 ---
+的内容
+
+--- Document Chunk 976 ---
+表41 越过移动授权终点的响应
+
+--- Document Chunk 977 ---
+功能分配                 fi 入             实
+
+--- Document Chunk 978 ---
+ATS
+
+--- Document Chunk 979 ---
+CBTC 43%                     X
+
+--- Document Chunk 980 ---
+CBTC 44k
+
+--- Document Chunk 981 ---
+6.7.4.2 移动授权更新时的速度防护
+
+--- Document Chunk 982 ---
+移动授权更新时,如果列车的实际运行速度超过移动授权更新后的
+
+--- Document Chunk 983 ---
+32
+
+--- Document Chunk 984 ---
+--- Page 38 ---
+
+--- Document Chunk 985 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 986 ---
+紧急制动触发速度,系统应实施紧急制动，见表 42
+
+--- Document Chunk 987 ---
+R42 移动授权更新的速度防护
+
+--- Document Chunk 988 ---
+T
+
+--- Document Chunk 989 ---
+功能分配                 输       入       |       实       现                 输       出
+
+--- Document Chunk 990 ---
+ATS   |                   X
+
+--- Document Chunk 991 ---
+CBTC 43}     X
+
+--- Document Chunk 992 ---
+CBTC 4A                                       x              Xx
+
+--- Document Chunk 993 ---
+6.7.4.3 移动授权更新超时的防护
+
+--- Document Chunk 994 ---
+移动授权更新超时,系统应全
+
+--- Document Chunk 995 ---
+功能分配
+
+--- Document Chunk 996 ---
+CBTC 轨党
+
+--- Document Chunk 997 ---
+CBTC 424k
+
+--- Document Chunk 998 ---
+6.7.4.4 紧急制动线
+
+--- Document Chunk 999 ---
+在保证安全的条件      BAP SIAM 8 3A ZS il) WL RE 44。
+
+--- Document Chunk 1000 ---
+wok il Be fe
+
+--- Document Chunk 1001 ---
+功能分配     fh 入    x OH     Sh 出
+
+--- Document Chunk 1002 ---
+ATS                                                                                                                x
+
+--- Document Chunk 1003 ---
+CBTC Hy
+
+--- Document Chunk 1004 ---
+CBTC 车载               X                 X                   X
+
+--- Document Chunk 1005 ---
+6. 8车门/站台门控制
+
+--- Document Chunk 1006 ---
+6. 8.1 功能描述
+
+--- Document Chunk 1007 ---
+此功能实现车门/站台门控制 ,如图 10 所示。
+
+--- Document Chunk 1008 ---
+33
+
+--- Document Chunk 1009 ---
+--- Page 39 ---
+
+--- Document Chunk 1010 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1011 ---
+6.8.4.2 车门状                6.8.3.3 站台门
+
+--- Document Chunk 1012 ---
+SERB                    锁闭状态防护
+
+--- Document Chunk 1013 ---
+ 10 车门/站台门控制
+
+--- Document Chunk 1014 ---
+6.8.2 车门允许
+
+--- Document Chunk 1015 ---
+6.8.2.1 概述
+
+--- Document Chunk 1016 ---
+表45 ~表47 规定了车门允许的内容。
+
+--- Document Chunk 1017 ---
+6.8.2.2 车门允许
+
+--- Document Chunk 1018 ---
+CBTC 在开车门之前,应满足下列条件;
+
+--- Document Chunk 1019 ---
+a) 列车"正确对齐" 在一个指定的停止点,停止点偏差在允许范
+
+--- Document Chunk 1020 ---
+AL;
+
+--- Document Chunk 1021 ---
+b) 开门侧与站台一致;
+
+--- Document Chunk 1022 ---
+c) 列车零速;
+
+--- Document Chunk 1023 ---
+d) 保持制动已施加。
+
+--- Document Chunk 1024 ---
+列车在车站规定的位置停准停稳后,车载 ATP 应允许打开对应侧车
+
+--- Document Chunk 1025 ---
+门及站台门或双侧车门及站台门 ,并可选择通过自开自关、自开人关、人
+
+--- Document Chunk 1026 ---
+34
+
+--- Document Chunk 1027 ---
+--- Page 40 ---
+
+--- Document Chunk 1028 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1029 ---
+开人关三种方式,自动或者人工打开车门: 在AM 驾驶异式下 ,可提供三
+
+--- Document Chunk 1030 ---
+种开门方式,CM 驾驶模式下 ,仅能实现人工开门。匈表 45 。
+
+--- Document Chunk 1031 ---
+列车在车站停车超出停车窗范围,车载设备应不允许车门和站台门
+
+--- Document Chunk 1032 ---
+打开,司机可在车载设备防护条件下前进或后退 ,直至停车对位。
+
+--- Document Chunk 1033 ---
+表45 车门允许
+
+--- Document Chunk 1034 ---
+功能分配 | 输入    实现     输出
+
+--- Document Chunk 1035 ---
+ATS
+
+--- Document Chunk 1036 ---
+cBre Hy)
+
+--- Document Chunk 1037 ---
+-  CBTC 车载      X       X    |    X
+
+--- Document Chunk 1038 ---
+6.8.2.3 站台门控制
+
+--- Document Chunk 1039 ---
+CBTC 应打开站台门之前,应愉查下列条件满足:
+
+--- Document Chunk 1040 ---
+a)列车"正确对齐"在一个指定的停止点,停止点偏差在允许范
+
+--- Document Chunk 1041 ---
+b)站台门侧与车门侧一致，
+
+--- Document Chunk 1042 ---
+c)列车零速;
+
+--- Document Chunk 1043 ---
+d) 保持制动已施加。
+
+--- Document Chunk 1044 ---
+控制内容见表 46.
+
+--- Document Chunk 1045 ---
+表46 站台门控制
+
+--- Document Chunk 1046 ---
+功能分配  输 入  实 现  输 出
+
+--- Document Chunk 1047 ---
+ATS
+
+--- Document Chunk 1048 ---
+CBTC 轨旁
+
+--- Document Chunk 1049 ---
+CBTC 车载         |            x                        x                            X
+
+--- Document Chunk 1050 ---
+CI
+
+--- Document Chunk 1051 ---
+6.8.2.4 车门操作切除
+
+--- Document Chunk 1052 ---
+车辆可以提供单个车门切除功能(全自动下) ,切除后的车门不响应
+
+--- Document Chunk 1053 ---
+35
+
+--- Document Chunk 1054 ---
+--- Page 41 ---
+
+--- Document Chunk 1055 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 1056 ---
+列车开门命令,匈表 47.
+
+--- Document Chunk 1057 ---
+表47 车门操作切除
+
+--- Document Chunk 1058 ---
+功能分配
+
+--- Document Chunk 1059 ---
+ATS
+
+--- Document Chunk 1060 ---
+CBTC HLH
+
+--- Document Chunk 1061 ---
+CBTC 车载                              x                                  X                                       X
+
+--- Document Chunk 1062 ---
+cl
+
+--- Document Chunk 1063 ---
+Sh ih RE ( 4:4)
+
+--- Document Chunk 1064 ---
+6.8.3 车门\站人台门防护
+
+--- Document Chunk 1065 ---
+6. 8.3.1 概述
+
+--- Document Chunk 1066 ---
+#48 MR 49 规定了车门和站台门防护的内容。
+
+--- Document Chunk 1067 ---
+6.8.3.2 车门防护
+
+--- Document Chunk 1068 ---
+仅在车门处于“关闭上且锁闭"状态时,系统方允许列车移动,见表 48 。
+
+--- Document Chunk 1069 ---
+R48 AMP
+
+--- Document Chunk 1070 ---
+功能分配                     输         人                 实         Sil
+
+--- Document Chunk 1071 ---
+ATS
+
+--- Document Chunk 1072 ---
+CBTC 4h 3
+
+--- Document Chunk 1073 ---
+CBTC 车载        xX         xX   ; |      xX
+
+--- Document Chunk 1074 ---
+|    cl       |
+
+--- Document Chunk 1075 ---
+6. 8.3.3 站台门锁闭状态防护
+
+--- Document Chunk 1076 ---
+仅在站台门处于“关闭且镜闭"状态时,系统方允许列车移动 CBTC
+
+--- Document Chunk 1077 ---
+等级下 ,当站台门锁闭状态委失时,还未进站的列车应根据接收到的移动
+
+--- Document Chunk 1078 ---
+授权,控制列车在站台前停车;已进站未停稳以及正在出站的列车应立即
+
+--- Document Chunk 1079 ---
+紧急制动;已完全出站的列车不受影响,见表 49 。
+
+--- Document Chunk 1080 ---
+36
+
+--- Document Chunk 1081 ---
+--- Page 42 ---
+
+--- Document Chunk 1082 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1083 ---
+表49 车门防护
+
+--- Document Chunk 1084 ---
+功能分配                          输           A                     实           现                          输           出
+
+--- Document Chunk 1085 ---
+ATS
+
+--- Document Chunk 1086 ---
+CBTC 轨旁           X             X
+
+--- Document Chunk 1087 ---
+CBTC 车载                         X               X
+
+--- Document Chunk 1088 ---
+cl               x
+
+--- Document Chunk 1089 ---
+6.8.4 故障管理
+
+--- Document Chunk 1090 ---
+6.8.4.1 概述
+
+--- Document Chunk 1091 ---
+# 50 ~   « 52 MEY   ee Deve smns (yap!     容
+
+--- Document Chunk 1092 ---
+ 列车在运行过和
+
+--- Document Chunk 1093 ---
+APTA BAR
+
+--- Document Chunk 1094 ---
+b) AWRRAES
+
+--- Document Chunk 1095 ---
+c) 实施紧急  4
+
+--- Document Chunk 1096 ---
+d) 实施全常用制到
+
+--- Document Chunk 1097 ---
+委失防护内容见表 50。
+
+--- Document Chunk 1098 ---
+表50 车门状态丢失防护
+
+--- Document Chunk 1099 ---
+功能分配  输 入  实 现  输 出
+
+--- Document Chunk 1100 ---
+ATS
+
+--- Document Chunk 1101 ---
+CBTC HL oF
+
+--- Document Chunk 1102 ---
+CBTC 车载
+
+--- Document Chunk 1103 ---
+6. 8.4.3 站台门状态丢失的响应
+
+--- Document Chunk 1104 ---
+当列车靠近车站时或者列车已在站台区域时 ,站台门关闭状态丢失 ，
+
+--- Document Chunk 1105 ---
+CBTC 系统采取保证列车安全的措施,见表 51。
+
+--- Document Chunk 1106 ---
+37
+
+--- Document Chunk 1107 ---
+--- Page 43 ---
+
+--- Document Chunk 1108 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1109 ---
+表51 站人台门状态丢失的响应
+
+--- Document Chunk 1110 ---
+功能分配                  if       A              实       BL
+
+--- Document Chunk 1111 ---
+ATS
+
+--- Document Chunk 1112 ---
+CBTC Hs                   X                     X
+
+--- Document Chunk 1113 ---
+| em eR                               x                 x
+
+--- Document Chunk 1114 ---
+-       CI                     X
+
+--- Document Chunk 1115 ---
+6.8.4.4 车门防护切除
+
+--- Document Chunk 1116 ---
+系统在车门故障时,可提供车门切除功能,此时 ATP 不再对车门状
+
+--- Document Chunk 1117 ---
+态进行防护,见表 52.5
+
+--- Document Chunk 1118 ---
+R52 车门防护切除
+
+--- Document Chunk 1119 ---
+功能分配  输 入 | 实 Ho) 给 Mi
+
+--- Document Chunk 1120 ---
+ATS                                                                                                                 X
+
+--- Document Chunk 1121 ---
+CBTC HL
+
+--- Document Chunk 1122 ---
+CBTC 424%                    x                       x                          X
+
+--- Document Chunk 1123 ---
+cl
+
+--- Document Chunk 1124 ---
+6.9 列车折返
+
+--- Document Chunk 1125 ---
+列车折返方式应包括 ATO 无人自动折返模式.ATO 有人和摇动折返模
+
+--- Document Chunk 1126 ---
+式 .ATP 监督下的人工折返模式。表 53 规定了列车折返方式的内容
+
+--- Document Chunk 1127 ---
+表53 ”列车折返方式
+
+--- Document Chunk 1128 ---
+功能分配      il    ff 入           SB             mi 出     |
+
+--- Document Chunk 1129 ---
+ATS          |         x                                                      |
+
+--- Document Chunk 1130 ---
+CBTC 轨旁        |           xX
+
+--- Document Chunk 1131 ---
+CBTC 车载        |           X                       X                          X
+
+--- Document Chunk 1132 ---
+CT           |         xX
+
+--- Document Chunk 1133 ---
+38
+
+--- Document Chunk 1134 ---
+--- Page 44 ---
+
+--- Document Chunk 1135 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1136 ---
+6.10 a ATP 用户界面
+
+--- Document Chunk 1137 ---
+6.10.1 CBTC 车载 ATP 显示数据
+
+--- Document Chunk 1138 ---
+表 54 规定了车载 ATP 显示数据界面的内容,CBTC 车载显示屏幕显
+
+--- Document Chunk 1139 ---
+AR ATP 数据应包括:
+
+--- Document Chunk 1140 ---
+a) 列车运行模式;
+
+--- Document Chunk 1141 ---
+b) CBTC 运行状态，
+
+--- Document Chunk 1142 ---
+c) 当前列车速度，
+
+--- Document Chunk 1143 ---
+d) 当前最大允许 CBTC 速度;
+
+--- Document Chunk 1144 ---
+e) 超速报等-
+
+--- Document Chunk 1145 ---
+表54 CBIC 车载 ATP 显示数据
+
+--- Document Chunk 1146 ---
+功能分配          输    人        实    Ji          输    出   ]
+
+--- Document Chunk 1147 ---
+ATS
+
+--- Document Chunk 1148 ---
+CBTC HL oF
+
+--- Document Chunk 1149 ---
+CBTC 42 48                     X                        X                            x               |
+
+--- Document Chunk 1150 ---
+6.10.2 CBTC 车载 ATP 输入数据
+
+--- Document Chunk 1151 ---
+#55 规定了车载 ATP 输入数据的内容,用户 ATP 信息输入到 CBTC
+
+--- Document Chunk 1152 ---
+a)         选择;
+
+--- Document Chunk 1153 ---
+b) 超速报警情况确认。
+
+--- Document Chunk 1154 ---
+#55 CBTC 车载 ATP 输入数据
+
+--- Document Chunk 1155 ---
+功能分配
+
+--- Document Chunk 1156 ---
+ATS
+
+--- Document Chunk 1157 ---
+|        CBTC Hy
+
+--- Document Chunk 1158 ---
+上   CBTC 车载            X              x              |  X
+
+--- Document Chunk 1159 ---
+39
+
+--- Document Chunk 1160 ---
+--- Page 45 ---
+
+--- Document Chunk 1161 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 1162 ---
+6.11 自诊断,故障报警及数据记录
+
+--- Document Chunk 1163 ---
+ATP 车载设备具备自诊断 .故障报答及列车运行重要数据的记录功
+
+--- Document Chunk 1164 ---
+能,并可通过离线设备打印。记录的内容包括事件的时间和日期 ,并保存
+
+--- Document Chunk 1165 ---
+7天,保存的数据可实现上传,并宜实现自动转存。记录内容包括:设备
+
+--- Document Chunk 1166 ---
+运行状况,行车里程 .控制情况 ,驾驶模式 .速度 .列车日检数据。表 56 规
+
+--- Document Chunk 1167 ---
+定了自诊断 故障报警及数据记录的内容。
+
+--- Document Chunk 1168 ---
+ROG 自诊断,故障报警及数据记录
+
+--- Document Chunk 1169 ---
+功能分配                          输           入                     实           J                          输           th
+
+--- Document Chunk 1170 ---
+ATS                                                                                                                 xX
+
+--- Document Chunk 1171 ---
+CBTC Hg
+
+--- Document Chunk 1172 ---
+CBTC 42 4&8               x                 x
+
+--- Document Chunk 1173 ---
+7 ATO 功能分配
+
+--- Document Chunk 1174 ---
+7.1 功能描述
+
+--- Document Chunk 1175 ---
+ATO 主要功能如网 11 ras.
+
+--- Document Chunk 1176 ---
+7.2 确定ATO 曲线
+
+--- Document Chunk 1177 ---
+7.2.1 为启动.停止.调速 ,确定 ATO 曲线
+
+--- Document Chunk 1178 ---
+CBTC 系统应为列车确定 ATO 曲线 ATO 子系统在 ATP 子系统的
+
+--- Document Chunk 1179 ---
+保护下 ,根据 ATS 子系统的命令,实现对列车的自动驾驶、列车在区
+
+--- Document Chunk 1180 ---
+间运行的自动调整,并可实现列车的节能运行控制 ATO 子系统可控
+
+--- Document Chunk 1181 ---
+制列车按运行网规定的区间走行时分行车,自动完成对列车的启动、
+
+--- Document Chunk 1182 ---
+加速 .巡航、惰行 .减速和制动的合理控制。表 57 规定了 ATO 曲线的
+
+--- Document Chunk 1183 ---
+内容。
+
+--- Document Chunk 1184 ---
+40
+
+--- Document Chunk 1185 ---
+--- Page 46 ---
+
+--- Document Chunk 1186 ---
+T/CAMET 04010, 2一2018
+
+--- Document Chunk 1187 ---
+6.8.2.3 站台门
+
+--- Document Chunk 1188 ---
+控制
+
+--- Document Chunk 1189 ---
+功能分配                       Siti          A                   实          Sl                       输          出
+
+--- Document Chunk 1190 ---
+ATS                          X
+
+--- Document Chunk 1191 ---
+CBTC HLF
+
+--- Document Chunk 1192 ---
+CBTC 车载                    X                       xX                          x
+
+--- Document Chunk 1193 ---
+7.2.2 列车进站精确停车
+
+--- Document Chunk 1194 ---
+ATO 子系统应具备列车进站精确停车功能,不同编组的列车可以停
+
+--- Document Chunk 1195 ---
+靠的不同的停车位置。表 58 规定了列车进站精确停车的内容。
+
+--- Document Chunk 1196 ---
+41
+
+--- Document Chunk 1197 ---
+--- Page 47 ---
+
+--- Document Chunk 1198 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1199 ---
+表 58 列车进站精确停车
+
+--- Document Chunk 1200 ---
+功能分配             输入           实 Ow             钵由]
+
+--- Document Chunk 1201 ---
+ATS                                                                            |
+
+--- Document Chunk 1202 ---
+CBTC HL                         :                     |
+
+--- Document Chunk 1203 ---
+CBTC 车载                     X                        X                            X
+
+--- Document Chunk 1204 ---
+7.3 列车速度调整
+
+--- Document Chunk 1205 ---
+7.3.1
+
+--- Document Chunk 1206 ---
+的内容。
+
+--- Document Chunk 1207 ---
+根据 ATO 曲线调整列车速度
+
+--- Document Chunk 1208 ---
+CBTC 系统须根据 ATO 肌线调整列车速度
+
+--- Document Chunk 1209 ---
+表 59 列车调速功能
+
+--- Document Chunk 1210 ---
+#59 规定了列车测速
+
+--- Document Chunk 1211 ---
+功能分配                     和输
+
+--- Document Chunk 1212 ---
+A
+
+--- Document Chunk 1213 ---
+实 ee ee
+
+--- Document Chunk 1214 ---
+ATS
+
+--- Document Chunk 1215 ---
+CBTC 轨劳
+
+--- Document Chunk 1216 ---
+CBTC 424%
+
+--- Document Chunk 1217 ---
+7.3.2 Be
+
+--- Document Chunk 1218 ---
+表 60 规定了 ATO 响应 ATS 跳停的内容
+
+--- Document Chunk 1219 ---
+表60 ATO 响应 ATS 系统设置的跳停命令
+
+--- Document Chunk 1220 ---
+|
+
+--- Document Chunk 1221 ---
+功能分配                       ‘ii          人                   实 现 |              输 出
+
+--- Document Chunk 1222 ---
+ATS                  x |                            x
+
+--- Document Chunk 1223 ---
+CBTC #3                                     | ;
+
+--- Document Chunk 1224 ---
+CBTC 车载            X              X       |         Xx
+
+--- Document Chunk 1225 ---
+7.3.3 运营调整
+
+--- Document Chunk 1226 ---
+在 AM 模式下,ATO 子系统可恨据 ATS 的调整指令控制区间走行时
+
+--- Document Chunk 1227 ---
+分,达到列车运行自动调整的目的: 表61 规定了列车自动调整的内容:
+
+--- Document Chunk 1228 ---
+42
+
+--- Document Chunk 1229 ---
+--- Page 48 ---
+
+--- Document Chunk 1230 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1231 ---
+表61 列车运行自动调整功能
+
+--- Document Chunk 1232 ---
+功能分配         输 人       实 现         输
+
+--- Document Chunk 1233 ---
+ATS.                                    x                                                                           x
+
+--- Document Chunk 1234 ---
+CBTC HLF
+
+--- Document Chunk 1235 ---
+CBTC 4248                     xX                        x                           x
+
+--- Document Chunk 1236 ---
+7.3.4 在线列车监控
+
+--- Document Chunk 1237 ---
+ATO 子系统向 ATS 子系统发送列车运行信息,以便 ATS 子系统能对
+
+--- Document Chunk 1238 ---
+在线列车进行!       #62 规定了在线列车进行监控的内容
+
+--- Document Chunk 1239 ---
+R62 在线列车进行监控
+
+--- Document Chunk 1240 ---
+切能分配                 ffi 人              GM      |          输 出
+
+--- Document Chunk 1241 ---
+ATS                                                                                x
+
+--- Document Chunk 1242 ---
+CBTC Aas                                         x                        X
+
+--- Document Chunk 1243 ---
+CBTC 44k                     X                        X                        |
+
+--- Document Chunk 1244 ---
+7.4 门控制
+
+--- Document Chunk 1245 ---
+7.4.1 开列车门/站台门
+
+--- Document Chunk 1246 ---
+表63 Ald 64 规定了门控制的内容
+
+--- Document Chunk 1247 ---
+7.4.1.1 开列车门
+
+--- Document Chunk 1248 ---
+在 AM 驾驶模式下,在 ATP 的防护下可提供月动开门或者人工开门
+
+--- Document Chunk 1249 ---
+西种开门方式,见表 63 -
+
+--- Document Chunk 1250 ---
+#63 ANAM
+
+--- Document Chunk 1251 ---
+功能分配 | fA  实 Rt  eon |
+
+--- Document Chunk 1252 ---
+          CBTC 43
+
+--- Document Chunk 1253 ---
+43
+
+--- Document Chunk 1254 ---
+--- Page 49 ---
+
+--- Document Chunk 1255 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1256 ---
+表 63 开列车门(续)
+
+--- Document Chunk 1257 ---
+功能分配            输 入          实 Hh            输 出
+
+--- Document Chunk 1258 ---
+CBTC 车载               X                 X
+
+--- Document Chunk 1259 ---
+cl
+
+--- Document Chunk 1260 ---
+车辆(外部接口)         X                           X
+
+--- Document Chunk 1261 ---
+7.4.1.2 开站台门
+
+--- Document Chunk 1262 ---
+CBTC 系统须能自动或者人工开启站人台门,匈表 64。
+
+--- Document Chunk 1263 ---
+R64 FAN
+
+--- Document Chunk 1264 ---
+Dy file 5 Fie
+
+--- Document Chunk 1265 ---
+输         和人                 实        Hi
+
+--- Document Chunk 1266 ---
+Sit
+
+--- Document Chunk 1267 ---
+ATS
+
+--- Document Chunk 1268 ---
+CBTC 43
+
+--- Document Chunk 1269 ---
+CBTC 4248
+
+--- Document Chunk 1270 ---
+cl
+
+--- Document Chunk 1271 ---
+7.4.2 关列车门/站台
+
+--- Document Chunk 1272 ---
+7.4.2.1 概述
+
+--- Document Chunk 1273 ---
+表65 AH 66 规定
+
+--- Document Chunk 1274 ---
+7.4.2.2 关闭列车门
+
+--- Document Chunk 1275 ---
+在 AM 驾驶模式下 ,可提供自动关门或者人工关门丙种关门方式,见
+
+--- Document Chunk 1276 ---
+表65 和表 66 。
+
+--- Document Chunk 1277 ---
+门
+
+--- Document Chunk 1278 ---
+了关列车门/站人台门:
+
+--- Document Chunk 1279 ---
+表65 关闭列车门
+
+--- Document Chunk 1280 ---
+功能分配
+
+--- Document Chunk 1281 ---
+输          入                   实          现
+
+--- Document Chunk 1282 ---
+ATS
+
+--- Document Chunk 1283 ---
+CBTC HL
+
+--- Document Chunk 1284 ---
+CBTC 车载
+
+--- Document Chunk 1285 ---
+CT
+
+--- Document Chunk 1286 ---
+车辆(外部接口)
+
+--- Document Chunk 1287 ---
+44
+
+--- Document Chunk 1288 ---
+--- Page 50 ---
+
+--- Document Chunk 1289 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 1290 ---
+R66 关闭站台门
+
+--- Document Chunk 1291 ---
+子功能:关闭站台门
+
+--- Document Chunk 1292 ---
+CBTC 系统应能自动或者人工关闭站台门
+
+--- Document Chunk 1293 ---
+功能分配
+
+--- Document Chunk 1294 ---
+ATS                                                                                                                 x
+
+--- Document Chunk 1295 ---
+CBTC HLF
+
+--- Document Chunk 1296 ---
+CBTC 4: 4k
+
+--- Document Chunk 1297 ---
+在列车显示屏
+
+--- Document Chunk 1298 ---
+定,，表 67 规定了
+
+--- Document Chunk 1299 ---
+Ws hh ZAM TF BE ABT)
+
+--- Document Chunk 1300 ---
+功能分配
+
+--- Document Chunk 1301 ---
+ATS
+
+--- Document Chunk 1302 ---
+CBTC 49
+
+--- Document Chunk 1303 ---
+CBTC 4248                    X                       X                          x
+
+--- Document Chunk 1304 ---
+7.6 ACh ABRSRABER
+
+--- Document Chunk 1305 ---
+7.6.1 概述
+
+--- Document Chunk 1306 ---
+# 68 和表 69 规定了自诊断 Ca SF Re BH i aE AYA FE
+
+--- Document Chunk 1307 ---
+7.6.2 自诊断、 meee Ro
+
+--- Document Chunk 1308 ---
+ATO 子系统应具有自诊断功能,记录和分析故障报警信息,并能将
+
+--- Document Chunk 1309 ---
+报警信息传至中心 ATS ,见表 68 。
+
+--- Document Chunk 1310 ---
+45
+
+--- Document Chunk 1311 ---
+--- Page 51 ---
+
+--- Document Chunk 1312 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1313 ---
+ROS 自诊断故障报警及数据记录
+
+--- Document Chunk 1314 ---
+上              功能分配                          输           人                     实           Hil                          输           出
+
+--- Document Chunk 1315 ---
+ATS                                                                                                                 x
+
+--- Document Chunk 1316 ---
+CBTC HL 3F
+
+--- Document Chunk 1317 ---
+CBTC 424%           xX             X
+
+--- Document Chunk 1318 ---
+7.6.3 车载旅客信息数据
+
+--- Document Chunk 1319 ---
+ATO 车载设备应向 TMS 提供丰关车载旅客信息的数据,见表 69
+
+--- Document Chunk 1320 ---
+表 69 ”车载旅客信息数据
+
+--- Document Chunk 1321 ---
+功能分配                  Sit        A               实        JL                  输        出
+
+--- Document Chunk 1322 ---
+ATS
+
+--- Document Chunk 1323 ---
+CBTC 4
+
+--- Document Chunk 1324 ---
+CBTC 448               x                 X
+
+--- Document Chunk 1325 ---
+外部车辆系统                                                         x
+
+--- Document Chunk 1326 ---
+8 ATS 功能分配
+
+--- Document Chunk 1327 ---
+8.1 功能描述
+
+--- Document Chunk 1328 ---
+网 12 总结了主要前与 CBTC 相关的 ATS 功能。
+
+--- Document Chunk 1329 ---
+8.2 列车识别
+
+--- Document Chunk 1330 ---
+8.2.1 概述
+
+--- Document Chunk 1331 ---
+#70 WRT 规定了列车识别导的内容。
+
+--- Document Chunk 1332 ---
+8.2.2 CBTC 的运行列车识别号
+
+--- Document Chunk 1333 ---
+每一个运行在 CBTC 区域内的装备 CBTC 的列车都应该分配一个和运
+
+--- Document Chunk 1334 ---
+行列车标识号,列车识别号应由列车表号 .车次号 .车组号.目的地号组
+
+--- Document Chunk 1335 ---
+成。见表 70。
+
+--- Document Chunk 1336 ---
+46
+
+--- Document Chunk 1337 ---
+--- Page 52 ---
+
+--- Document Chunk 1338 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1339 ---
+.3.3 CBTC列车
+
+--- Document Chunk 1340 ---
+位置测定
+
+--- Document Chunk 1341 ---
+.7 iY PA Wt
+
+--- Document Chunk 1342 ---
+Mai
+
+--- Document Chunk 1343 ---
+-
+
+--- Document Chunk 1344 ---
+| 8.6 列车运行控制 | 一一~|
+
+--- Document Chunk 1345 ---
+8.6.1 414%    |             8.6.3 BEF
+
+--- Document Chunk 1346 ---
+图12 ATS 的主要功能
+
+--- Document Chunk 1347 ---
+8.6.2 提前发企
+
+--- Document Chunk 1348 ---
+#70 CBIC 的运行列车识别号
+
+--- Document Chunk 1349 ---
+功能人本 | 输 入 |
+
+--- Document Chunk 1350 ---
+二一一
+
+--- Document Chunk 1351 ---
+ATS                                    xX
+
+--- Document Chunk 1352 ---
+CBTC HL
+
+--- Document Chunk 1353 ---
+CBTC 车载                    X
+
+--- Document Chunk 1354 ---
+47
+
+--- Document Chunk 1355 ---
+--- Page 53 ---
+
+--- Document Chunk 1356 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1357 ---
+8. 2.3 列车识别号丢失处理
+
+--- Document Chunk 1358 ---
+在列车识别号因故丢失情况下 ,系统应根据运行网.列车位置及时间
+
+--- Document Chunk 1359 ---
+自动推竺并自动设置列车识别号,且能通过车 - 地双向通信传输信息校
+
+--- Document Chunk 1360 ---
+表71 列车识别号丢失处理
+
+--- Document Chunk 1361 ---
+功能分配                       输          A                   实          现                       ‘iti          出
+
+--- Document Chunk 1362 ---
+ATS                          x                        x                            x
+
+--- Document Chunk 1363 ---
+CBTC 4g
+
+--- Document Chunk 1364 ---
+CBTC 4.48                     x
+
+--- Document Chunk 1365 ---
+8.3 列车追踪
+
+--- Document Chunk 1366 ---
+ATS 系统应该具有自动追跨
+
+--- Document Chunk 1367 ---
+的列车记录并
+
+--- Document Chunk 1368 ---
+取所有运行在 CBTC bx bk iy he f& CBTC
+
+--- Document Chunk 1369 ---
+EATS 用户界面显示位置 .标识.列车时刻表,及其他的相关的
+
+--- Document Chunk 1370 ---
+信息并保持      息的能力。 列车的前后位置应该依据 CBTC 列车位置报
+
+--- Document Chunk 1371 ---
+告来进行追                  TS 用户界面上列车在车辆段/停车场内运行时应具
+
+--- Document Chunk 1372 ---
+有车组号的跟踪.显示切能。表 72 规定了 ATS 列车追踪的内容
+
+--- Document Chunk 1373 ---
+表72 ATS 列车追踪
+
+--- Document Chunk 1374 ---
+功能分配          给 入 |         Bi          i 出
+
+--- Document Chunk 1375 ---
+ATS                              xX                xX
+
+--- Document Chunk 1376 ---
+CBTC Hx      |        x
+
+--- Document Chunk 1377 ---
+CBTC 424k            :   x
+
+--- Document Chunk 1378 ---
+cl
+
+--- Document Chunk 1379 ---
+8.4 列车进路办理
+
+--- Document Chunk 1380 ---
+8.4.1 概述
+
+--- Document Chunk 1381 ---
+表73 ~表75 规定了列车进路办理的内容。
+
+--- Document Chunk 1382 ---
+48
+
+--- Document Chunk 1383 ---
+--- Page 54 ---
+
+--- Document Chunk 1384 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1385 ---
+8. 4.2 列车进路办理一一自动
+
+--- Document Chunk 1386 ---
+ATS 系统应该具有列车自动办理进路的功能。ATS 系统依照列车运
+
+--- Document Chunk 1387 ---
+行图/时刻表 ,在线列车运行信息 .车站联锁表自动设置发车进路 ,指挥在
+
+--- Document Chunk 1388 ---
+线列车运行,见表73。
+
+--- Document Chunk 1389 ---
+表73 列车进路自动办理
+
+--- Document Chunk 1390 ---
+功能分配          输    A        实    Bl          输    出
+
+--- Document Chunk 1391 ---
+ATS               X      |     X     十        X
+
+--- Document Chunk 1392 ---
+CBTC 轨劳                 X               xX
+
+--- Document Chunk 1393 ---
+CBTC 424k            x
+
+--- Document Chunk 1394 ---
+ia      cl              ce)        OA             X       |
+
+--- Document Chunk 1395 ---
+8.4.3 WEATEM DS                    ‘A
+
+--- Document Chunk 1396 ---
+J
+
+--- Document Chunk 1397 ---
+ATS 系统应该              i
+
+--- Document Chunk 1398 ---
+功能分配           入      实           fi 出
+
+--- Document Chunk 1399 ---
+ATS                                               X
+
+--- Document Chunk 1400 ---
+CBTC HLF                     道                     X
+
+--- Document Chunk 1401 ---
+CBTC 424k
+
+--- Document Chunk 1402 ---
+CT                xX       |                        x
+
+--- Document Chunk 1403 ---
+8.4.4 列车进路办理一一冲突检查
+
+--- Document Chunk 1404 ---
+当列车运行偏离计划,不同运行交路的列车经过同一地点时,系统应能
+
+--- Document Chunk 1405 ---
+检测到列车计划冲突,并提示调度员采取列车计划冲突干预方案,见表 75
+
+--- Document Chunk 1406 ---
+表75 列车进路冲突检查
+
+--- Document Chunk 1407 ---
+功能分配  | OA   x OW    输
+
+--- Document Chunk 1408 ---
+X
+
+--- Document Chunk 1409 ---
+|
+
+--- Document Chunk 1410 ---
+ATS
+
+--- Document Chunk 1411 ---
+CBTC #L3F
+
+--- Document Chunk 1412 ---
+49
+
+--- Document Chunk 1413 ---
+--- Page 55 ---
+
+--- Document Chunk 1414 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1415 ---
+表75 列车进路冲突检查(续)
+
+--- Document Chunk 1416 ---
+功能分配   输 和   实 BL   输 出
+
+--- Document Chunk 1417 ---
+CBTC 车载
+
+--- Document Chunk 1418 ---
+CT
+
+--- Document Chunk 1419 ---
+8.5 列车调整
+
+--- Document Chunk 1420 ---
+8.5.1 列车自动调整
+
+--- Document Chunk 1421 ---
+8.5.1.1 概述
+
+--- Document Chunk 1422 ---
+表76~表78 规定了列车调整的内容。
+
+--- Document Chunk 1423 ---
+8.5.1.2 自动调度
+
+--- Document Chunk 1424 ---
+ATS 系统可包括月动调度功能,见表 76、
+
+--- Document Chunk 1425 ---
+#76 自动调度
+
+--- Document Chunk 1426 ---
+功能分配                       条          入                   实          Bt                       输          出
+
+--- Document Chunk 1427 ---
+ATS                                    x                                  X
+
+--- Document Chunk 1428 ---
+CBTC 4g
+
+--- Document Chunk 1429 ---
+CBTC 4:48                                                                            X
+
+--- Document Chunk 1430 ---
+8.5.1.3 列车时刻表/发车( 运行)间隔调整
+
+--- Document Chunk 1431 ---
+ATS 系统可具有监视与白动调整的功能,见表 7,
+
+--- Document Chunk 1432 ---
+表77 ”列车时刻表调整功能
+
+--- Document Chunk 1433 ---
+功能分配  输 A  实现  fe 出
+
+--- Document Chunk 1434 ---
+ATS                                    x                                  X
+
+--- Document Chunk 1435 ---
+CBTC 43%
+
+--- Document Chunk 1436 ---
+CBTC 4A                                                           X
+
+--- Document Chunk 1437 ---
+8.5.1.4 冲突自动调整
+
+--- Document Chunk 1438 ---
+在 CBTC 列车位置报告的基础上,ATS 系统应包括基于列车位置报
+
+--- Document Chunk 1439 ---
+告的列车自动调整功能.来处理列车冲突,以把整个系统的延迟减少到最
+
+--- Document Chunk 1440 ---
+50
+
+--- Document Chunk 1441 ---
+--- Page 56 ---
+
+--- Document Chunk 1442 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 1443 ---
+小,见表78。
+
+--- Document Chunk 1444 ---
+表78 冲突自动调整
+
+--- Document Chunk 1445 ---
+功能分配            fw A          aR            输
+
+--- Document Chunk 1446 ---
+ATS                    x                   X
+
+--- Document Chunk 1447 ---
+CBTC 4.9%
+
+--- Document Chunk 1448 ---
+CBTC 4:4                                                                            X
+
+--- Document Chunk 1449 ---
+cl
+
+--- Document Chunk 1450 ---
+8.5.2 节能运行
+
+--- Document Chunk 1451 ---
+ATS 系统串具有通过实时控制及协调列车加过
+
+--- Document Chunk 1452 ---
+来实施能源优化的功能，才79 需
+
+--- Document Chunk 1453 ---
+表79 节能运行
+
+--- Document Chunk 1454 ---
+六                        ]                                zi
+
+--- Document Chunk 1455 ---
+功能分配                       Si           A                    KB                       输 出
+
+--- Document Chunk 1456 ---
+ATS                          x                        X
+
+--- Document Chunk 1457 ---
+CBTC 4a
+
+--- Document Chunk 1458 ---
+列车滑行.列车制动
+
+--- Document Chunk 1459 ---
+定了节能运行的内
+
+--- Document Chunk 1460 ---
+CBTC 4: 4%                                               X                            入
+
+--- Document Chunk 1461 ---
+8.6 列车运行控制
+
+--- Document Chunk 1462 ---
+8.6.1 扣车
+
+--- Document Chunk 1463 ---
+ATS 系统应具有在车站扣革能力. 8 80 规定了扣车的内容
+
+--- Document Chunk 1464 ---
+#80 扣车功能
+
+--- Document Chunk 1465 ---
+功能分本 | 和输 入           实 BL
+
+--- Document Chunk 1466 ---
+ATS                    xX                   x
+
+--- Document Chunk 1467 ---
+CBTC We        |                      |                      |
+
+--- Document Chunk 1468 ---
+CBTC 424k       |                                        |   :        xX
+
+--- Document Chunk 1469 ---
+SI
+
+--- Document Chunk 1470 ---
+--- Page 57 ---
+
+--- Document Chunk 1471 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1472 ---
+8.6.2 提前发车
+
+--- Document Chunk 1473 ---
+ATS 系统应具有设置站台提前发车的功能-。 表 81 规定了提前发车
+
+--- Document Chunk 1474 ---
+的内容。
+
+--- Document Chunk 1475 ---
+表81 提前发车
+
+--- Document Chunk 1476 ---
+|。功能分配       iA      zw       输出
+
+--- Document Chunk 1477 ---
+ATS           x           xX
+
+--- Document Chunk 1478 ---
+CBTC 43%
+
+--- Document Chunk 1479 ---
+CBTC 4:48
+
+--- Document Chunk 1480 ---
+8.6.3 BE
+
+--- Document Chunk 1481 ---
+LATE 一个或多个装备 CBTC 的列车经过下一个或下
+
+--- Document Chunk 1482 ---
+几个车站而不停车的功能，圾 82 般定了跳停车站的内容，
+
+--- Document Chunk 1483 ---
+R82 跳停车站
+
+--- Document Chunk 1484 ---
+功能分配         ih 入       SB         ‘fi
+
+--- Document Chunk 1485 ---
+ATS                                    x                                  x
+
+--- Document Chunk 1486 ---
+CBTC 4.3%
+
+--- Document Chunk 1487 ---
+CBTC 424                                                                                                           X
+
+--- Document Chunk 1488 ---
+8.6.4 控制权转换
+
+--- Document Chunk 1489 ---
+在紧急情况下 ,车站值班员可在控制工作站上上强行取得控制权 ,控制
+
+--- Document Chunk 1490 ---
+车站的进路和信和导列车渤路控制权的优先级为本地控制优先于中央控
+
+--- Document Chunk 1491 ---
+制;在本地控制或中央控制时,人工控制优先于自动控制: 表 83 规定了
+
+--- Document Chunk 1492 ---
+控制权转换的内容-
+
+--- Document Chunk 1493 ---
+表 83 ”控制权转换
+
+--- Document Chunk 1494 ---
+L  功能分本 | A |
+
+--- Document Chunk 1495 ---
+--
+
+--- Document Chunk 1496 ---
+实 钢                    和输
+
+--- Document Chunk 1497 ---
+CBTC HLF         |                          |
+
+--- Document Chunk 1498 ---
+--- Page 58 ---
+
+--- Document Chunk 1499 ---
+表83 控制
+
+--- Document Chunk 1500 ---
+功能分配
+
+--- Document Chunk 1501 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1502 ---
+权转换(续)
+
+--- Document Chunk 1503 ---
+CBTC 车载
+
+--- Document Chunk 1504 ---
+Cl
+
+--- Document Chunk 1505 ---
+二,一
+
+--- Document Chunk 1506 ---
+运行
+
+--- Document Chunk 1507 ---
+8.7 控制列车
+
+--- Document Chunk 1508 ---
+ATS 系统应具有在 CBTC 区域内任何轨道区段.设置(与下消) 临时
+
+--- Document Chunk 1509 ---
+FA
+
+--- Document Chunk 1510 ---
+A)
+
+--- Document Chunk 1511 ---
+CBTC HLF
+
+--- Document Chunk 1512 ---
+CBTC 424%
+
+--- Document Chunk 1513 ---
+切能分配
+
+--- Document Chunk 1514 ---
+时刻表编制
+
+--- Document Chunk 1515 ---
+实                          Sig
+
+--- Document Chunk 1516 ---
+ATS
+
+--- Document Chunk 1517 ---
+CBTC HLF
+
+--- Document Chunk 1518 ---
+CBTC 424k
+
+--- Document Chunk 1519 ---
+8.9 模拟培训
+
+--- Document Chunk 1520 ---
+ATS 应具备模拟演示及培训系统 ,实现对调度员的培训。表 86 规定
+
+--- Document Chunk 1521 ---
+了模拟培训的内容。
+
+--- Document Chunk 1522 ---
+53
+
+--- Document Chunk 1523 ---
+--- Page 59 ---
+
+--- Document Chunk 1524 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1525 ---
+表86 模拟培训
+
+--- Document Chunk 1526 ---
+功能分配                 输       A              实       现                 给       il
+
+--- Document Chunk 1527 ---
+ATS                                             x                                           xX                                                xX
+
+--- Document Chunk 1528 ---
+CBTC $135                                                             |
+
+--- Document Chunk 1529 ---
+CBTC 424%
+
+--- Document Chunk 1530 ---
+8.10 AAA
+
+--- Document Chunk 1531 ---
+8.10.1 显示数据
+
+--- Document Chunk 1532 ---
+CBTC 的 ATS 显示应能走泵以下信息:
+
+--- Document Chunk 1533 ---
+a) 精确的和区域相关的信息，
+
+--- Document Chunk 1534 ---
+b) 列车状态相关信息;
+
+--- Document Chunk 1535 ---
+c) 列车移动授权/进路信息;
+
+--- Document Chunk 1536 ---
+d) 被控列车运行相关的信息.如防护区段信息、锁闭的进路/区段
+
+--- Document Chunk 1537 ---
+以及临时限速极限和限速值;
+
+--- Document Chunk 1538 ---
+e) 其他
+
+--- Document Chunk 1539 ---
+# 87 规定了 ATS 显示数据的内容-
+
+--- Document Chunk 1540 ---
+表87 ATS 显示数据
+
+--- Document Chunk 1541 ---
+功能分配                 Siti       A              实       现                 输       ih
+
+--- Document Chunk 1542 ---
+ATS                                             x                                           X                                                 X
+
+--- Document Chunk 1543 ---
+CBTC HL                     X
+
+--- Document Chunk 1544 ---
+CBTC 4: 4%                     X
+
+--- Document Chunk 1545 ---
+CT                   x
+
+--- Document Chunk 1546 ---
+8.10.2 数据管理
+
+--- Document Chunk 1547 ---
+8.10.2.1 概述
+
+--- Document Chunk 1548 ---
+表88 ~ 3290 规定了 CBTC 输入数据的内容。
+
+--- Document Chunk 1549 ---
+54
+
+--- Document Chunk 1550 ---
+--- Page 60 ---
+
+--- Document Chunk 1551 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1552 ---
+8. 10.2.2 CBTC 输入数据
+
+--- Document Chunk 1553 ---
+CBTC 的 ATS 用户界面显示应能够接收以下 ATS 用户输入:
+
+--- Document Chunk 1554 ---
+a) 办理和取消进路输入;
+
+--- Document Chunk 1555 ---
+b) 建立和取消防护区段 ,锁闭进路/区段,以及临时限速输入;
+
+--- Document Chunk 1556 ---
+c) 其他。
+
+--- Document Chunk 1557 ---
+表 88 规定了 CBTC 输入数据的内容。
+
+--- Document Chunk 1558 ---
+#88 CBIC 输入数据
+
+--- Document Chunk 1559 ---
+功能分配 | 答 入       zB         输出
+
+--- Document Chunk 1560 ---
+ATS    |      xX             x               x
+
+--- Document Chunk 1561 ---
+CBTC 4135
+
+--- Document Chunk 1562 ---
+CBTC 车载
+
+--- Document Chunk 1563 ---
+8. 10. 2.3 发送报警数据
+
+--- Document Chunk 1564 ---
+ATS 子系统可将自身的报有      ATP 4 ARE ABE 、ATO 子系统 .Cl
+
+--- Document Chunk 1565 ---
+子系统的报答信息传至控制中心维护工作站 ,车站维
+
+--- Document Chunk 1566 ---
+中心的信和吕监测报答工作站,见表89
+
+--- Document Chunk 1567 ---
+表89 发送报警数据
+
+--- Document Chunk 1568 ---
+功能分配          答    入        实 钢          输 出
+
+--- Document Chunk 1569 ---
+ATS               X              X
+
+--- Document Chunk 1570 ---
+CBTC M33            X
+
+--- Document Chunk 1571 ---
+CBTC 4:48            X
+
+--- Document Chunk 1572 ---
+cl                X                      |                   |
+
+--- Document Chunk 1573 ---
+1     MSS                                     |         |
+
+--- Document Chunk 1574 ---
+8. 10. 2.4 数据记录及回放
+
+--- Document Chunk 1575 ---
+系统应对各种操作信息 .设备运行状态信息及运行数据进行记录和
+
+--- Document Chunk 1576 ---
+备份,并具有根据记录数据对任何时间 ,任何信息点进行过程回放功能，
+
+--- Document Chunk 1577 ---
+综合维修中心的信号监测报警工作站系统应具备在线回放功能,回放记
+
+--- Document Chunk 1578 ---
+55
+
+--- Document Chunk 1579 ---
+--- Page 61 ---
+
+--- Document Chunk 1580 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1581 ---
+录应保存不少于30 天,匈表 90-
+
+--- Document Chunk 1582 ---
+表90 数据记录及回放
+
+--- Document Chunk 1583 ---
+[sites aa mw A | 实则    th
+
+--- Document Chunk 1584 ---
+|   ATS      X      xX      X
+
+--- Document Chunk 1585 ---
+CBTC 43%  1   X
+
+--- Document Chunk 1586 ---
+CRBTC 车载    | x
+
+--- Document Chunk 1587 ---
+cl |     X
+
+--- Document Chunk 1588 ---
+MSS                  X
+
+--- Document Chunk 1589 ---
+I
+
+--- Document Chunk 1590 ---
+9 CI 功能分配
+
+--- Document Chunk 1591 ---
+9.1 功能描述
+
+--- Document Chunk 1592 ---
+CBTC 相关的 C1E主要功能分配 ,如网 13 ras.
+
+--- Document Chunk 1593 ---
+国 保护区段建立  |一     进路办理    AI
+
+--- Document Chunk 1594 ---
+~
+
+--- Document Chunk 1595 ---
+aanenu |    [ ae 2M
+
+--- Document Chunk 1596 ---
+图13 CI的主要功能
+
+--- Document Chunk 1597 ---
+| 车站冉锁/区问冉镇
+
+--- Document Chunk 1598 ---
+9.2 进路办理
+
+--- Document Chunk 1599 ---
+9.2.1 功能描述
+
+--- Document Chunk 1600 ---
+表91 ~表 93 规定了进路办理的内容。
+
+--- Document Chunk 1601 ---
+9.2.2 进路办理
+
+--- Document Chunk 1602 ---
+联锁应具备进路办理功能。包括人工办理列车进路.设置自动进路
+
+--- Document Chunk 1603 ---
+和月动折返进路。联锁将办理的进路信息提供给 ATP 系统,用于移动授
+
+--- Document Chunk 1604 ---
+权的计算,见表 91。
+
+--- Document Chunk 1605 ---
+56
+
+--- Document Chunk 1606 ---
+--- Page 62 ---
+
+--- Document Chunk 1607 ---
+功能分配
+
+--- Document Chunk 1608 ---
+ATS
+
+--- Document Chunk 1609 ---
+表91
+
+--- Document Chunk 1610 ---
+进路办理
+
+--- Document Chunk 1611 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 1612 ---
+CBTC HL 3
+
+--- Document Chunk 1613 ---
+CBTC 车载
+
+--- Document Chunk 1614 ---
+cl
+
+--- Document Chunk 1615 ---
+x       X
+
+--- Document Chunk 1616 ---
+9.2.3 装有无效 CBTC 装备的列车进路办理
+
+--- Document Chunk 1617 ---
+对于设备故障的 CBTC 列车或无装备的列车,在前方进路出河并重
+
+--- Document Chunk 1618 ---
+新开放后 ,装有无效 CBTC     HY        ,见表 92,
+
+--- Document Chunk 1619 ---
+ES            ce)
+
+--- Document Chunk 1620 ---
+Bis 5 2 NE Dp
+
+--- Document Chunk 1621 ---
+功能分配         2       A         3                   输 出
+
+--- Document Chunk 1622 ---
+ATS           oO                            7.)
+
+--- Document Chunk 1623 ---
+CRTC 4.98        EB:                           4d
+
+--- Document Chunk 1624 ---
+CBTC 车载
+
+--- Document Chunk 1625 ---
+cl
+
+--- Document Chunk 1626 ---
+9.2.4 保护区段
+
+--- Document Chunk 1627 ---
+4.
+
+--- Document Chunk 1628 ---
+联锁子系统除对正常的列车进路进行防护外,还应建立列车进路的
+
+--- Document Chunk 1629 ---
+保护区段,并予以防护,见表 93 。
+
+--- Document Chunk 1630 ---
+表93 ”保护区段
+
+--- Document Chunk 1631 ---
+功能分配                 输       入             KH                 给       出
+
+--- Document Chunk 1632 ---
+ATS                              X
+
+--- Document Chunk 1633 ---
+CBTC #35                                                                                         X
+
+--- Document Chunk 1634 ---
+CBTC 车载
+
+--- Document Chunk 1635 ---
+a                      x                            x                             7
+
+--- Document Chunk 1636 ---
+57
+
+--- Document Chunk 1637 ---
+--- Page 63 ---
+
+--- Document Chunk 1638 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1639 ---
+9.3 锁闭/解锁进路/区段
+
+--- Document Chunk 1640 ---
+9.3.1 概述
+
+--- Document Chunk 1641 ---
+表94 ~表 97 规定了锁闭/解锁进路/区段的内容。
+
+--- Document Chunk 1642 ---
+9.3.2 进路/区段锁闭
+
+--- Document Chunk 1643 ---
+系统应具有锁闭(并随后解锁) CBTC 区域内的道贫.信号机或轨道
+
+--- Document Chunk 1644 ---
+区段的能力,CI子系统应对进路实现预先锁闭和接近锁闭 ,锁闭的进路
+
+--- Document Chunk 1645 ---
+随列车的运行自动分段解锁,见表 94。
+
+--- Document Chunk 1646 ---
+R94 进路/区段锁闭
+
+--- Document Chunk 1647 ---
+功能分配                 fi 入              实 现                 输 出
+
+--- Document Chunk 1648 ---
+ATS                          X                                                     X
+
+--- Document Chunk 1649 ---
+CBTC HL                                                           x
+
+--- Document Chunk 1650 ---
+CBTC 车载
+
+--- Document Chunk 1651 ---
+CI                           X                        X
+
+--- Document Chunk 1652 ---
+9.3.3 joe AHR BH
+
+--- Document Chunk 1653 ---
+联锁应具备道岔单独操纵及锁闭的能力,见表 95 。
+
+--- Document Chunk 1654 ---
+表95 道岔操作
+
+--- Document Chunk 1655 ---
+功能分配         输    A       实    现         输    出
+
+--- Document Chunk 1656 ---
+ES
+
+--- Document Chunk 1657 ---
+CBTC fF                                         xX
+
+--- Document Chunk 1658 ---
+CBTC 车载
+
+--- Document Chunk 1659 ---
+CI               xX             xX
+
+--- Document Chunk 1660 ---
+9.3.4 计轴故障恢复
+
+--- Document Chunk 1661 ---
+系统应具有计轴故障恢复的能力,见表 96。
+
+--- Document Chunk 1662 ---
+58
+
+--- Document Chunk 1663 ---
+--- Page 64 ---
+
+--- Document Chunk 1664 ---
+功能分配
+
+--- Document Chunk 1665 ---
+ATS
+
+--- Document Chunk 1666 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1667 ---
+表 96
+
+--- Document Chunk 1668 ---
+计轴故障恢复
+
+--- Document Chunk 1669 ---
+CBTC HL
+
+--- Document Chunk 1670 ---
+CBTC 车载
+
+--- Document Chunk 1671 ---
+CI
+
+--- Document Chunk 1672 ---
+9.4 紧急停车按钮
+
+--- Document Chunk 1673 ---
+联锁子系统检查站台紧急停车按钮的状态 ,一旦检测到按钮被按下 ，
+
+--- Document Chunk 1674 ---
+应立即关闭相应的进路。表 97 规定了紧急停车按钮的内容。
+
+--- Document Chunk 1675 ---
+RI ”紧急停车按钮
+
+--- Document Chunk 1676 ---
+功能分配                          输            人                     实           Bl
+
+--- Document Chunk 1677 ---
+输 出
+
+--- Document Chunk 1678 ---
+ATS                                                                                 X
+
+--- Document Chunk 1679 ---
+CBTC HL                                     X                     X
+
+--- Document Chunk 1680 ---
+care  车载
+
+--- Document Chunk 1681 ---
+cl                           X                        X
+
+--- Document Chunk 1682 ---
+9.5 故障监测及操作记录
+
+--- Document Chunk 1683 ---
+CI子系统具有自检 .魏诊断和对信号机、转缴机等
+
+--- Document Chunk 1684 ---
+监测报葡功能,并在车站的维护工作站上显示及报有
+
+--- Document Chunk 1685 ---
+记录的内容。
+
+--- Document Chunk 1686 ---
+监测及操
+
+--- Document Chunk 1687 ---
+功能分配
+
+--- Document Chunk 1688 ---
+ATS
+
+--- Document Chunk 1689 ---
+基础信号设备的
+
+--- Document Chunk 1690 ---
+。表 98 规定了放障
+
+--- Document Chunk 1691 ---
+|         CBTC LaF
+
+--- Document Chunk 1692 ---
+59
+
+--- Document Chunk 1693 ---
+--- Page 65 ---
+
+--- Document Chunk 1694 ---
+T/CAMET 04010. 2—2018
+
+--- Document Chunk 1695 ---
+表98 故障检测(续)
+
+--- Document Chunk 1696 ---
+[suntan
+
+--- Document Chunk 1697 ---
+输
+
+--- Document Chunk 1698 ---
+人
+
+--- Document Chunk 1699 ---
+现
+
+--- Document Chunk 1700 ---
+CBTC 车载
+
+--- Document Chunk 1701 ---
+CI
+
+--- Document Chunk 1702 ---
+60
+
+--- Document Chunk 1703 ---
+--- Page 66 ---
+
+--- Document Chunk 1704 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1705 ---
+参考文 献
+
+--- Document Chunk 1706 ---
+[1] IEEE 1474.3 IEEE Recommended Practice for Communications-Based
+
+--- Document Chunk 1707 ---
+Train Control (CBTC) System Design and Functional Allocations
+
+--- Document Chunk 1708 ---
+61
+
+--- Document Chunk 1709 ---
+--- Page 67 ---
+
+--- Document Chunk 1710 ---
+中国城市轨道灾通协会用体标准
+
+--- Document Chunk 1711 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 1712 ---
+控制系统( CBTC) 互联互通系统规范
+
+--- Document Chunk 1713 ---
+第 2 部分:系统架构和功能分配
+
+--- Document Chunk 1714 ---
+T/CAMET 04010. 2一2018
+
+--- Document Chunk 1715 ---
+*
+
+--- Document Chunk 1716 ---
+HEP PATE WG BL AT RES ve) RR BST
+
+--- Document Chunk 1717 ---
+(100054 ,北京市是城攻有安门西街8 号)
+
+--- Document Chunk 1718 ---
+公司网址: http://www. tdpress. com
+
+--- Document Chunk 1719 ---
+北京销成印刷有限公司印刷
+
+--- Document Chunk 1720 ---
+JE AS: 880 mm x1 230 mm 1/32 印张: 2.25 字数: 61 二
+
+--- Document Chunk 1721 ---
+2019 年5月第1版 2019年5月第1次印刷
+
+--- Document Chunk 1722 ---
+PS: 15113-5656 定价; 20.00 元
+
+--- Document Chunk 1723 ---
+版权所有 ”侵权必究
+
+--- Document Chunk 1724 ---
+凡购买铁道版图书,如有印制质量问题,请与木公司发行部联系调换。
+
+--- Document Chunk 1725 ---
+发行部电话:路(021)73174 ,市(010)51873174
+

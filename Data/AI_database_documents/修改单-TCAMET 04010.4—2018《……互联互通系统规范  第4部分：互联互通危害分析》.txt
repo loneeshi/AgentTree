@@ -1,0 +1,807 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+中国城市轨道交通协会
+
+--- Document Chunk 2 ---
+《城市轨道交通 ”基于通信的列车运行控制
+
+--- Document Chunk 3 ---
+系统( CBTC) 互联互通系统规范 第4部分:
+
+--- Document Chunk 4 ---
+BE Bid fe = 5 if) (T/CAMET04010. 4一2018 )
+
+--- Document Chunk 5 ---
+团体标准第 1 号修改单
+
+--- Document Chunk 6 ---
+本修改单经中国城市轨道交通协会于2024 年 09 月 03 日批准发布，
+
+--- Document Chunk 7 ---
+H 2024 年09 月 10 日起实施。
+
+--- Document Chunk 8 ---
+一、编辑性修改
+
+--- Document Chunk 9 ---
+1. 将第 2 章中的“GBXT 32588. 1一2016 ”轨道交通“自动化的城市
+
+--- Document Chunk 10 ---
+轨道交通(AUCT) 安全要求 第 工部分:总则(IEC 6227:2009,MOD)"修
+
+--- Document Chunk 11 ---
+Moy: CB/T 32588. 12016 ”轨道交通”自动化的城市儿道交通
+
+--- Document Chunk 12 ---
+(AUGT) 安全要求 第 1 部分:总则(IEC 62267 :2009 , MOD)” 5
+
+--- Document Chunk 13 ---
+2. 术语修改:
+
+--- Document Chunk 14 ---
+a) 将术语3.1.6“跨线运行 overline opetation” 修改为“路线运行
+
+--- Document Chunk 15 ---
+cross-line operation ”。
+
+--- Document Chunk 16 ---
+b) 将术语 3.1.8“共线运行miix,operation ”修改为 “共线运行
+
+--- Document Chunk 17 ---
+mixed operation” ,
+
+--- Document Chunk 18 ---
+YS 4 EAS EFT oh Ae ML”
+
+--- Document Chunk 19 ---
+d) AN BRASTE 3. 1. 10“ Fe Ai iskiz # interoperabetrial operation :装
+
+--- Document Chunk 20 ---
+备不同厂家和车载设备的列车可以在装备不同广家轨旁设备的
+
+--- Document Chunk 21 ---
+多条轨道交通线路上满足互联互通功能要求,且系统性能满足
+
+--- Document Chunk 22 ---
+-程要求 ,开始载客运营。
+
+--- Document Chunk 23 ---
+1
+
+--- Document Chunk 24 ---
+--- Page 2 ---
+
+--- Document Chunk 25 ---
+e) GARI 3.1. 11" AZ local line ”修改为”本线/单线 local line”。
+
+--- Document Chunk 26 ---
+全“删除术语 3. 1. 13“ 428 single line”。
+
+--- Document Chunk 27 ---
+3. 缩略语修改:
+
+--- Document Chunk 28 ---
+a) 将3.2 缩略语中的“VOBC :车载控制器(Vehicle On-Board Controller)”
+
+--- Document Chunk 29 ---
+修改为"VOBC :车载控制器( Vehicle Onboard Controller) ” ;
+
+--- Document Chunk 30 ---
+b) 在3.2 缩略语中增加"MSS :维护支持系统(Maintemance Support System)”.
+
+--- Document Chunk 31 ---
+3. 将4.2.2图4及图5 中应答器作海外部设备与“计算机联锁"通
+
+--- Document Chunk 32 ---
+信 ,将图4 中与计算机联锁接后设备中第二个“轨道电路”修改为:站台
+
+--- Document Chunk 33 ---
+紧急停车按钮” 。更换图 全和图5 为:
+
+--- Document Chunk 34 ---
+Pluss
+
+--- Document Chunk 35 ---
+rweeyy
+
+--- Document Chunk 36 ---
+vevvy
+
+--- Document Chunk 37 ---
+CATsATP/ cyATSJATP/
+
+--- Document Chunk 38 ---
+DCS/计各/电源等 | DCSMSS/ HH
+
+--- Document Chunk 39 ---
+车载设备 (VOBC)
+
+--- Document Chunk 40 ---
+Lbbdbdéi
+
+--- Document Chunk 41 ---
+ES RRIMBR
+
+--- Document Chunk 42 ---
+图4单线\CBTC 系统架构示意图
+
+--- Document Chunk 43 ---
+4. 完善表乓表2、表3 和表4 中细节描述:
+
+--- Document Chunk 44 ---
+a) ,将4.2:3 表1”信号系统接口”列第三项“防淹门"修改为”信
+
+--- Document Chunk 45 ---
+号系统与防渡门接口"。
+
+--- Document Chunk 46 ---
+b) 将4.2.4表2 修改为
+
+--- Document Chunk 47 ---
+2
+
+--- Document Chunk 48 ---
+--- Page 3 ---
+
+--- Document Chunk 49 ---
+BOM AY DISD BRYN 9
+
+--- Document Chunk 50 ---
+>                    SOD LEK
+
+--- Document Chunk 51 ---
+ee __—  [OsSte WE
+
+--- Document Chunk 52 ---
+GEWNGGESS)
+
+--- Document Chunk 53 ---
+--- Page 4 ---
+
+--- Document Chunk 54 ---
+Sd€H         Sd€H         Sd€H          H       TAG eS EH
+
+--- Document Chunk 55 ---
+il
+
+--- Document Chunk 56 ---
+i                  Hl                  Hl                  H          Wo   donne
+
+--- Document Chunk 57 ---
+Herel Zaye |
+
+--- Document Chunk 58 ---
+Ss d€H         sd€H          H            H       EL GH LY Ba ate [Sk
+
+--- Document Chunk 59 ---
+H                    H                    H                    H              ETH IS VITA
+
+--- Document Chunk 60 ---
+SAMO
+
+--- Document Chunk 61 ---
+H                    H                    H                    H            SALA 8) al te TT Ad
+
+--- Document Chunk 62 ---
+(OLY dV © )     et
+
+--- Document Chunk 63 ---
+                   At te
+
+--- Document Chunk 64 ---
+.        isi       oat        q     (ee WIG se Be | ph
+
+--- Document Chunk 65 ---
+CPO LALA
+
+--- Document Chunk 66 ---
+sSd€H         S 其百         S共了          H       ae CH Se Tae
+
+--- Document Chunk 67 ---
+DB) EY 2    REM,
+
+--- Document Chunk 68 ---
+S                     S                  S 并再                  H            1H el ZF A SHY WP eT
+
+--- Document Chunk 69 ---
+(HEE GS HA              _
+
+--- Document Chunk 70 ---
+、                   、                se                                     Few
+
+--- Document Chunk 71 ---
+.         s        ae    waemsicn | AR ewia
+
+--- Document Chunk 72 ---
+WV                  Wo                  Wu                 wad
+
+--- Document Chunk 73 ---
+eM         MMe LY         Mm              nea               BEN PLY to |e
+
+--- Document Chunk 74 ---
+Mike he | eh) ee Ie |e LY A eae
+
+--- Document Chunk 75 ---
+--- Page 5 ---
+
+--- Document Chunk 76 ---
+SYM Ig YS t=
+
+--- Document Chunk 77 ---
+ee
+
+--- Document Chunk 78 ---
+(SEES PAY hh) ie |S IWe
+
+--- Document Chunk 79 ---
+H              H              H              H        TS SMM OK | HT
+
+--- Document Chunk 80 ---
+/ bth SL GBR oe        um)
+
+--- Document Chunk 81 ---
+CML Uae BC Te [et
+
+--- Document Chunk 82 ---
+S            S            S            H       YT ESE | a
+
+--- Document Chunk 83 ---
+BD) SYM | tyre
+
+--- Document Chunk 84 ---
+SdH         S4€H         S4€H         SH€H       SEZOR HOMEY TF
+
+--- Document Chunk 85 ---
+WY                  WO                  Wu                 Wa
+
+--- Document Chunk 86 ---
+平请         Mie LY         MW              Mm               BE Mes FEL ty
+
+--- Document Chunk 87 ---
+Miele De he | GU RA ie) fe LT) fie LT
+
+--- Document Chunk 88 ---
+(华海)
+
+--- Document Chunk 89 ---
+--- Page 6 ---
+
+--- Document Chunk 90 ---
+c) 将6.2表3"事故场景初步分解"列“1 级编号"为"Ref - 21" FF
+
+--- Document Chunk 91 ---
+事故 | 1 级编号      事故场景初步分解       2 级编号- 站事故场景细化分解
+
+--- Document Chunk 92 ---
+灾难 | Reft20 | eee ee
+
+--- Document Chunk 93 ---
+桥梁同时存在列
+
+--- Document Chunk 94 ---
+基础         sped WHEN         of      车数量过多,导致
+
+--- Document Chunk 95 ---
+建设    Ref-21       基础设施过度承载        Ref-21.1    桥梁损坏, 从而导
+
+--- Document Chunk 96 ---
+损坏                                                        致行车事故
+
+--- Document Chunk 97 ---
+Re
+
+--- Document Chunk 98 ---
+d) -将6:3 表4(第 126 页) 事故场景"列“编号"为"Ref-21.1”行
+
+--- Document Chunk 99 ---
+的"基础措施超负荷承载"修改为: 桥梁同时存在列车数量过
+
+--- Document Chunk 100 ---
+多,导致桥梁损坏,从而导致行车引
+
+--- Document Chunk 101 ---
+HC” 。将"互联互通"列“编
+
+--- Document Chunk 102 ---
+时"为"RefF21. FFA" EMIT GAT AR BOY. BPR
+
+--- Document Chunk 103 ---
+时存在列车数量过多,导致桥梁损
+
+--- Document Chunk 104 ---
+4 修改部分如下:
+
+--- Document Chunk 105 ---
+a)
+
+--- Document Chunk 106 ---
+坏,从而导致行车事故"。表
+
+--- Document Chunk 107 ---
+在6.3表4(第19 页)和7.3表15
+
+--- Document Chunk 108 ---
+维护需求 SR- 0-1 “营运责任方制
+
+--- Document Chunk 109 ---
+范,运营人员必须确定该计轴区段确实无列车或者
+
+--- Document Chunk 110 ---
+(第 145 页 ) Ppa Boe
+
+--- Document Chunk 111 ---
+定计轴直接复位的操作规
+
+--- Document Chunk 112 ---
+他障碍
+
+--- Document Chunk 113 ---
+物占用或接近 ,方可进行直接复位操作”修改为;运营责任
+
+--- Document Chunk 114 ---
+方制定计轴直接复位的操作规范，
+
+--- Document Chunk 115 ---
+段确实无列车或者其他障碍物占
+
+--- Document Chunk 116 ---
+位操作”。
+
+--- Document Chunk 117 ---
+运营人员应确定该计轴区
+
+--- Document Chunk 118 ---
+或接近,方可进行直接复
+
+--- Document Chunk 119 ---
+在653表4(第'102 页)和7.1.6表13(第 142 页)中,将系统需
+
+--- Document Chunk 120 ---
+求SR-S-75*信号系统应保证 CBTC 列车在防渡门进路停稳 ,方
+
+--- Document Chunk 121 ---
+可和葛许关闭防渡门"修改为:信号系统应保证 CBTC 列车在防
+
+--- Document Chunk 122 ---
+渡门所属进路的进路外方停稳 ,方可允许关闭防渡门”。
+
+--- Document Chunk 123 ---
+--- Page 7 ---
+
+--- Document Chunk 124 ---
+T°C7-PU
+
+--- Document Chunk 125 ---
+a
+
+--- Document Chunk 126 ---
+SUG SE AY ae
+
+--- Document Chunk 127 ---
+WAR LAR                    商事      aes
+
+--- Document Chunk 128 ---
+/ | HAL AMELTL) sy-0-S                   SOS      Ly 6 4
+
+--- Document Chunk 129 ---
+Hy fay 52 See          Wich es       mY “Mt      Se ae
+
+--- Document Chunk 130 ---
+ra   ‘      “4 Ma a    (u     i ew         ert ee
+
+--- Document Chunk 131 ---
+BU ACT MSY        Fe ee) 69-VHS ME 4) ota) aes 2) Ice
+
+--- Document Chunk 132 ---
+WG ES Eh           fk     aS    Rt WW
+
+--- Document Chunk 133 ---
+-           he LY a ol ae 34      POT ay       th
+
+--- Document Chunk 134 ---
+2 RE PAY                 je EY   Ma Sy
+
+--- Document Chunk 135 ---
+| RIESE IEPT                            ila           Pak 4
+
+--- Document Chunk 136 ---
+GAA LEY fu
+
+--- Document Chunk 137 ---
+TINGS ee)
+
+--- Document Chunk 138 ---
+a    oz
+
+--- Document Chunk 139 ---
+at     ae      eM | WYRE Be
+
+--- Document Chunk 140 ---
+Beil | BY SAL / ACRES     “         “ond    和     ag            Ll    YEG        =’
+
+--- Document Chunk 141 ---
+gs                  BEART MCT | DY  BMA | Me | Ba   oe
+
+--- Document Chunk 142 ---
+Ye
+
+--- Document Chunk 143 ---
+--- Page 8 ---
+
+--- Document Chunk 144 ---
+d)
+
+--- Document Chunk 145 ---
+6. 参考文献删除"[ 12
+
+--- Document Chunk 146 ---
+性 .可维护性和安全性规范及示例(IEC 62278 :2002 IDT) ”。
+
+--- Document Chunk 147 ---
+二、技术性修改
+
+--- Document Chunk 148 ---
+1. 在第2 章中增力
+
+--- Document Chunk 149 ---
+在6.3表4(第123 页)和7.3表15(第 148 页)中,将建设运营
+
+--- Document Chunk 150 ---
+E常"修改为:运营
+
+--- Document Chunk 151 ---
+维护需求 SR-0-42 “运营
+
+--- Document Chunk 152 ---
+了
+
+--- Document Chunk 153 ---
+单位确保信号系统运
+
+--- Document Chunk 154 ---
+责任方确保信
+
+--- Document Chunk 155 ---
+营环境 .电磁环境
+
+--- Document Chunk 156 ---
+号系统运营环境\电磁环境
+
+--- Document Chunk 157 ---
+在6.3表4(第127 页)和7.3 表15(第 148页)中,将建设运营
+
+--- Document Chunk 158 ---
+维护需求 SR-0-47 ”信号系统无法检测或防护基础设施拥塌导
+
+--- Document Chunk 159 ---
+致行车事故,运营责任序应运营责任方应制定基础设施夫塌应
+
+--- Document Chunk 160 ---
+急预案,避免或减纤事故影响
+
+--- Document Chunk 161 ---
+防护基础设施失声导致行车弹
+
+--- Document Chunk 162 ---
+Wa AE THR ,避免或减轻事
+
+--- Document Chunk 163 ---
+“修改为:信和
+
+--- Document Chunk 164 ---
+事故， 运音责任方应制定基础设施
+
+--- Document Chunk 165 ---
+节故影响 ”。
+
+--- Document Chunk 166 ---
+] GB/T 2
+
+--- Document Chunk 167 ---
+2. 修改安全要求的描述;
+
+--- Document Chunk 168 ---
+在6.3 表4(第20 49 55 .57(两处) 100.106 和111 页和7.2
+
+--- Document Chunk 169 ---
+表14(第 143 页)中 ,将互联互通接口需求 SR-L235VYOBC 和 ZC
+
+--- Document Chunk 170 ---
+a)
+
+--- Document Chunk 171 ---
+562—2008 轨道交通可靠性.可
+
+--- Document Chunk 172 ---
+“TB/T 3485一2017 应答器传输系统技术条件”。
+
+--- Document Chunk 173 ---
+间通信采
+
+--- Document Chunk 174 ---
+RSSP- 工安全通信协议”修改为:
+
+--- Document Chunk 175 ---
+“VOBC All ZC 间通
+
+--- Document Chunk 176 ---
+信采用 RSSP-I或 RSSP-I 安全通信协议”。
+
+--- Document Chunk 177 ---
+在6.3 484 (F524 26 27.28 29(两不)32 .33 .35 .37 40( Hi
+
+--- Document Chunk 178 ---
+处) Al Ai
+
+--- Document Chunk 179 ---
+35 GL) 和731.4表11(第141 页)中,将系统需求
+
+--- Document Chunk 180 ---
+SR-S-25 "互联互通列车在 CBTC ITC 级别下移动授权防护中
+
+--- Document Chunk 181 ---
+最大退行停车距离应>各厂商本线的最大退行停车距离;列
+
+--- Document Chunk 182 ---
+车退行超过互联互通最大退行停车距离时,车载 ATP 输出紧
+
+--- Document Chunk 183 ---
+和急制动" 修改为:”
+
+--- Document Chunk 184 ---
+权防护中最大退行停车距离应大了
+
+--- Document Chunk 185 ---
+互联互通列车在 CBTC ITC 级别下移动授
+
+--- Document Chunk 186 ---
+F 或等于各广商本线的最大
+
+--- Document Chunk 187 ---
+--- Page 9 ---
+
+--- Document Chunk 188 ---
+退行停车距离;列车退行超过所运行线路最大退行 EB 触发距
+
+--- Document Chunk 189 ---
+离时 ,车载 ATP 输出紧急制动”。
+
+--- Document Chunk 190 ---
+c) 在6.3表4(第26.27.30.31(两处) 32 34, Mb), 36.37,
+
+--- Document Chunk 191 ---
+39 41 42 和136 页)和7.1.4表1LH第1页)中,将系统需
+
+--- Document Chunk 192 ---
+求 SR-S-33 "互联互通列车在 CBTC ITC 级别下移动授权防护
+
+--- Document Chunk 193 ---
+中最大后溜停车距离应 如各厂商杰线的最大后汐停车距离;
+
+--- Document Chunk 194 ---
+列车后溜超过互联互通最大后溜停车距离时,车载 ATP 输出
+
+--- Document Chunk 195 ---
+紧急制动" 修改为:互联互通列车在 CBTC ITC 级别下移动
+
+--- Document Chunk 196 ---
+授权防护中最大后汐停车距离应大于或等于各厂商本线的最
+
+--- Document Chunk 197 ---
+大后汐停车距离;列车后溜超过所运行线路最大后溜 EB 触发
+
+--- Document Chunk 198 ---
+距离时 ,车载 ATP 输出紧急制动”。
+
+--- Document Chunk 199 ---
+d) 在6.3表4(第56 和115 页)和7.2表14(第144 页)中,将互联
+
+--- Document Chunk 200 ---
+互通接口需求 SR-I-24“VOBC 和 CI 间通信采用 RSSP-I 安全
+
+--- Document Chunk 201 ---
+通信协议”修改为:“VOBC 和 CI 间通信采用 RSSP-I或 RSSP- IT
+
+--- Document Chunk 202 ---
+安全通信协议”。
+
+--- Document Chunk 203 ---
+e)在6.3表4(第100 页)和7.1.5表12(第 142 页)中,将系统需求
+
+--- Document Chunk 204 ---
+SR-S-73 "车地应答器通信应满足欧标要求"修改为马车地应答
+
+--- Document Chunk 205 ---
+器通信应满足 TB/T 3485 ABER”
+
+--- Document Chunk 206 ---
+3. 在6.3表4(第110 页)危害编号"SHA局0"对应的“安全需求"中
+
+--- Document Chunk 207 ---
+增加 SR-0-51 ,并在7.3 表15(第 148 页 )引,增加运营维护安全要求 SR-
+
+--- Document Chunk 208 ---
+0-51“道贫维护符合道岔专业相关规定(如道岔安装/维护后进行密贴检
+
+--- Document Chunk 209 ---
+查)”。表4 修改部分和表 ISH BOB IY AHF
+
+--- Document Chunk 210 ---
+4. 在7.1.3 $10 (745140 页)中,删除安全需求编号为 SR-S-87 .SR-
+
+--- Document Chunk 211 ---
+S-88 和SR-S-90 的行;在7.1.6表13(第142 页)中,增加安全需求 SR-S-
+
+--- Document Chunk 212 ---
+87 SR-S-88 和 SR-S-90。表 10 修改部分和表 13 修改部分如下:
+
+--- Document Chunk 213 ---
+--- Page 10 ---
+
+--- Document Chunk 214 ---
+(aH
+
+--- Document Chunk 215 ---
+AREER)
+
+--- Document Chunk 216 ---
+% pam ) Baseeans |! OS
+
+--- Document Chunk 217 ---
+TES Wy lh My BOE
+
+--- Document Chunk 218 ---
+une    SE WT OIE)
+
+--- Document Chunk 219 ---
+vay | CALE wes
+
+--- Document Chunk 220 ---
+ARE SPORE AVENE Ee
+
+--- Document Chunk 221 ---
+Cee | Tig Bal GH A ILA Lge |                 emi            7
+
+--- Document Chunk 222 ---
+BE |g ue Na            sewn a          (a Mages        aac)
+
+--- Document Chunk 223 ---
+sae oe wooed.        yess easy | OP WHS |W Me & We ney Jeena) CES | poe
+
+--- Document Chunk 224 ---
+与对如集岳下     BOG RSE     MY ROC    see
+
+--- Document Chunk 225 ---
+twig | _ 2 Aee Ea
+
+--- Document Chunk 226 ---
+ray | OMA FU TEE) 0
+
+--- Document Chunk 227 ---
+AAR FMR LY Meee
+
+--- Document Chunk 228 ---
+| sq A SFR eT
+
+--- Document Chunk 229 ---
+wie     (PAVE
+
+--- Document Chunk 230 ---
+Feat xd | SE We aD ll ee ATH | 88-S us
+
+--- Document Chunk 231 ---
+BFE | WU Hl oh BSN he TE
+
+--- Document Chunk 232 ---
+aL     a     ONE) WE ORE    及
+
+--- Document Chunk 233 ---
+BUM | Bat fea ee    “      PERE | re           名及 |
+
+--- Document Chunk 234 ---
+ae       a      Wivesas| sy    mene | 各及 | area | ame
+
+--- Document Chunk 235 ---
+CEE WESZYRRME p¥
+
+--- Document Chunk 236 ---
+10
+
+--- Document Chunk 237 ---
+--- Page 11 ---
+
+--- Document Chunk 238 ---
+HP LTE GASES TE) CLT 2 DATE     TO
+
+--- Document Chunk 239 ---
+ig AR AY OG SC).     0s-0-¥S
+
+--- Document Chunk 240 ---
+eed                     MID
+
+--- Document Chunk 241 ---
+CAG )¥IGKSSEAHSIABREME ole
+
+--- Document Chunk 242 ---
+Bibel
+
+--- Document Chunk 243 ---
+| gape}      wit |     wc) foe
+
+--- Document Chunk 244 ---
+sha mtg PSO7S) weerexnmg SVMS) we aseeunmmg 84MM a Veeal
+
+--- Document Chunk 245 ---
+收听   人   SM anew | om
+
+--- Document Chunk 246 ---
+ae     AA iY 2b          “      a           Lewes | 0g   Le tie
+
+--- Document Chunk 247 ---
+we     了     weeumenacn | egy | OPM | BRE ARB | Ge
+
+--- Document Chunk 248 ---
+CH) WEEPREWE ve
+
+--- Document Chunk 249 ---
+11
+
+--- Document Chunk 250 ---
+--- Page 12 ---
+
+--- Document Chunk 251 ---
+R10 ”联锁系统安全要求列表(续表)
+
+--- Document Chunk 252 ---
+安全要求编号                           安全要求
+
+--- Document Chunk 253 ---
+SR-S-86    联锁控制道岔的命令必须同排列的进路中道盆的位置一致，
+
+--- Document Chunk 254 ---
+          同时锁闭道岔 ,联锁设备才能建立进路
+
+--- Document Chunk 255 ---
+SR-S-89         道岔受进路锁闭.区段锁闭\人工单独锁闭或区段占用时 ,联锁
+
+--- Document Chunk 256 ---
+         须不能控制道岔移动
+
+--- Document Chunk 257 ---
+SR-S-92          CI监控站台半的开启和关闭状态,如果站台门打开,应关闭与
+
+--- Document Chunk 258 ---
+         该屏项六相关联的进路
+
+--- Document Chunk 259 ---
+表 13 ”其他安全要求列表(续表)
+
+--- Document Chunk 260 ---
+安全要求编号                           安全要求
+
+--- Document Chunk 261 ---
+SR-S-75        信号系统应保证 CBTC 列车在防渡门所属进路的进路外方停
+
+--- Document Chunk 262 ---
+—         Fa 7 PVP RAB IEN
+
+--- Document Chunk 263 ---
+SR-S-87       道岔子系统能给出正确的道岔状态表示
+
+--- Document Chunk 264 ---
+SR-S-88      HAGA TENE, ONL aE AE 22, TD a EI EL AS WEL 38
+
+--- Document Chunk 265 ---
+—         下次联锁或人工转换道岔命令下达
+
+--- Document Chunk 266 ---
+SR-S-90      只有当道岔位置与操作要求一致,并经恰查月动开闭器的两
+
+--- Document Chunk 267 ---
+四         组接点排的相应接点位置正确,才能构成道岔位置的正确表示
+
+--- Document Chunk 268 ---
+SR-S-98        信号设备的硬件:机械结构零部件不能使用易燃材料
+

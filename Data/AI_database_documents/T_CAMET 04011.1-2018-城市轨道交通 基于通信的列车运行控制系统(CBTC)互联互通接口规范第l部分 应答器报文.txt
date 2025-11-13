@@ -1,0 +1,1209 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+ 45.020                                                                    SI
+
+--- Document Chunk 2 ---
+中 ey nk ris Pi FH Ae a We Zz A £6 be HE
+
+--- Document Chunk 3 ---
+T/CAMET 04011.1—2018
+
+--- Document Chunk 4 ---
+城市轨道交通 基于通信的列车运行
+
+--- Document Chunk 5 ---
+控制系统 ( CBTC ) 互联互通接口规范
+
+--- Document Chunk 6 ---
+第1部分: 应答器报文
+
+--- Document Chunk 7 ---
+Urban rail transit 一 Interface specification for interoperability of
+
+--- Document Chunk 8 ---
+communication based train control system
+
+--- Document Chunk 9 ---
+Part 1: Balise protocol
+
+--- Document Chunk 10 ---
+2018-09-10 发布                        2018-12-31 实施
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 12 ---
+--- Page 2 ---
+
+--- Document Chunk 13 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 14 ---
+只 吾
+
+--- Document Chunk 15 ---
+术语和缩略语
+
+--- Document Chunk 16 ---
+3.1 术语 creer
+
+--- Document Chunk 17 ---
+3.2 缩略语
+
+--- Document Chunk 18 ---
+4 总则 ………
+
+--- Document Chunk 19 ---
+5 接口描述
+
+--- Document Chunk 20 ---
+5.2 通信结构及接口连接方式 :………
+
+--- Document Chunk 21 ---
+5.3 应答器报文结构 pp          ;
+
+--- Document Chunk 22 ---
+5.4 SPIRE EA coe cc cee cee cee cue ceeceu en sessescuecuecee ce seeaesaeeaeecneces
+
+--- Document Chunk 23 ---
+KEW Ow WHY HY NE Ee
+
+--- Document Chunk 24 ---
+--- Page 3 ---
+
+--- Document Chunk 25 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 26 ---
+my
+
+--- Document Chunk 27 ---
+Ti}
+
+--- Document Chunk 28 ---
+T/CAMET 04011《城市轨道交通“基于通信的列车运行控制系统
+
+--- Document Chunk 29 ---
+(CBTC )互联互通接口规范》分为以下人个部分，
+
+--- Document Chunk 30 ---
+一一第 1 部分:应答器报文;
+
+--- Document Chunk 31 ---
+一一第 2 部分:CBTC 系统车地连续通信协议;
+
+--- Document Chunk 32 ---
+一一第3 部分:车载列车自动保护(ATP)/列车自动运行(ATO )系统
+
+--- Document Chunk 33 ---
+与车辆的接口;
+
+--- Document Chunk 34 ---
+一一第4 部分:区域控制器(ZC)间接口;
+
+--- Document Chunk 35 ---
+一一第5 部分:计算机联锁(CI)间接口;
+
+--- Document Chunk 36 ---
+一一第6 部分:列车自动监控系统(ATS )间接口;
+
+--- Document Chunk 37 ---
+一一第7 部分:信号各子系统与维护支持系统(MSS)间接口;
+
+--- Document Chunk 38 ---
+一一第8 部分:车载人机界面。
+
+--- Document Chunk 39 ---
+本部分是 T/CAMET 04011 的第 1 部分。
+
+--- Document Chunk 40 ---
+本部分按照 CBXT 1. 1一2009 给出的规则起章。
+
+--- Document Chunk 41 ---
+请注意本部分的某些内容可能涉及专利,本部分的发布机构不承担
+
+--- Document Chunk 42 ---
+识别这些专利的责任。
+
+--- Document Chunk 43 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 44 ---
+本部分由中国城市轨道交通协会归口。
+
+--- Document Chunk 45 ---
+本部分起草单位:北京全路通信信号研究 没计院集团有限公司、交控科
+
+--- Document Chunk 46 ---
+技股份有限公司、.中国铁道科学研究院集团有:月公司通信信号研究所、株洲
+
+--- Document Chunk 47 ---
+中车时代电气股份有限公司 .浙江众合科技股份有限公司 ,北京交通大学。
+
+--- Document Chunk 48 ---
+本部分主要起草人:编写组:张国振.王佳.张振兴` 刘波、杨旭文、
+
+--- Document Chunk 49 ---
+YE ESE ,戴玫欣、杨晓荣 胡顺定\周在福`黄友能、刘键。审查组:李中浩、
+
+--- Document Chunk 50 ---
+ASB .赵炜.郑生全 ,张艳兵 .张良.王道敏 SKI BURT ZEB AE
+
+--- Document Chunk 51 ---
+文成祥 ME RAR KB GREE 、.刘新平。
+
+--- Document Chunk 52 ---
+WI
+
+--- Document Chunk 53 ---
+--- Page 4 ---
+
+--- Document Chunk 54 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 55 ---
+引
+
+--- Document Chunk 56 ---
+Ill
+
+--- Document Chunk 57 ---
+为促进中国城市轨道交通建设,实现并满足城市轨道交通互联互通
+
+--- Document Chunk 58 ---
+的需要 ,达到经济适用、资源共享.技术先进及可持续发展的目标,制定城
+
+--- Document Chunk 59 ---
+市轨道交通基于通信的列车运行控制系统(CBTC ) 互联互通系列团体
+
+--- Document Chunk 60 ---
+标准。
+
+--- Document Chunk 61 ---
+该系列规范包括《城市轨道交通“基于通信的列车运行控制系统
+
+--- Document Chunk 62 ---
+(CBTC )互联互通系统规范兴城市轨道交通”基于通信的列车运行控制
+
+--- Document Chunk 63 ---
+系统(CBTC )互联互通接口规范兴城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 64 ---
+控制系统(CBTC ) 互联互通测试规范光城市轨道交通“基于通信的列车
+
+--- Document Chunk 65 ---
+运行控制系统(CBTC) 互联互通工程规范24 个规范(17 个部分) 。
+
+--- Document Chunk 66 ---
+--- Page 5 ---
+
+--- Document Chunk 67 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 68 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 69 ---
+空制系统( CBTC ) 互联互通接口规范
+
+--- Document Chunk 70 ---
+第 1 部分:应答器报文
+
+--- Document Chunk 71 ---
+1 范围
+
+--- Document Chunk 72 ---
+T/CAMET 04011 的本部分站 aa hie Hy Ee HE
+
+--- Document Chunk 73 ---
+GB/T 24339. 1—2009  Pres:  通信、信号和处理系统 第1部
+
+--- Document Chunk 74 ---
+分:封闭式传输系统中的安全相关通信(耿C 62280-1 ;2002 ,IDT)
+
+--- Document Chunk 75 ---
+TB/T 2615一1994 ”铁路信和号故障 - 安全原则
+
+--- Document Chunk 76 ---
+TB/T 3485一2017 ”应答器传输系统技术条件
+
+--- Document Chunk 77 ---
+CJAT 407一2012 ”城市轨道交通基于通信的列车自动控制系统技术
+
+--- Document Chunk 78 ---
+要求
+
+--- Document Chunk 79 ---
+3 术语和缩略语
+
+--- Document Chunk 80 ---
+CI/T 407一2012 界定的及下列术语和缩略语适用于本部分。为了
+
+--- Document Chunk 81 ---
+便于使用,以下重复列出了其中的主要相关术语。
+
+--- Document Chunk 82 ---
+--- Page 6 ---
+
+--- Document Chunk 83 ---
+T/CAMET 04011, 1一2018
+
+--- Document Chunk 84 ---
+3.1.1
+
+--- Document Chunk 85 ---
+基于通信的列车控制”communication based train control (CBTC)
+
+--- Document Chunk 86 ---
+通过不依闲轨旁列车占用检测设备的列车主动定位技术 .连续车 -
+
+--- Document Chunk 87 ---
+地双向数据通信技术以及能够执行安全功能的车载和地面处理器而构建
+
+--- Document Chunk 88 ---
+的连续式列车自动控制系统。
+
+--- Document Chunk 89 ---
+[cJT 407一2012 ,定义3.1.1]
+
+--- Document Chunk 90 ---
+3. 1.2
+
+--- Document Chunk 91 ---
+移动授权 movement authority
+
+--- Document Chunk 92 ---
+列车沿给定的行驶方向进入并在某一特定轨道区段内行车的许可。
+
+--- Document Chunk 93 ---
+[ CJ/T 407一2012 ,定义3.1.7]
+
+--- Document Chunk 94 ---
+3.1.3
+
+--- Document Chunk 95 ---
+3M SNM primary balise with prediction function
+
+--- Document Chunk 96 ---
+兼具预告应答器功能的主应答器,所对应的进路指的是其所对应的
+
+--- Document Chunk 97 ---
+信号机内方的第一条进路;所预告的进路指的是沿进路开放方向的第二
+
+--- Document Chunk 98 ---
+架信号机所防护的进路。
+
+--- Document Chunk 99 ---
+3.2 缩略语
+
+--- Document Chunk 100 ---
+ATP:列车自动防护(Automatic Train Protection )
+
+--- Document Chunk 101 ---
+BTM :应答器传输模块( Balise Transfer Module)
+
+--- Document Chunk 102 ---
+CBTC :基于通信的列车控制(Communication Based Train Control)
+
+--- Document Chunk 103 ---
+LEU:轨旁电子单元(Lineside Electronic Unit)
+
+--- Document Chunk 104 ---
+4 总则
+
+--- Document Chunk 105 ---
+4.1 满足城市轨道交通互联互通要求的 CBTC 系统应遵守本规范。
+
+--- Document Chunk 106 ---
+4.2 本规范中应答器报文的制定以不依赖于特定的电子地图描述方式
+
+--- Document Chunk 107 ---
+为原则。
+
+--- Document Chunk 108 ---
+--- Page 7 ---
+
+--- Document Chunk 109 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 110 ---
+5 HO
+
+--- Document Chunk 111 ---
+5.1 总体要求
+
+--- Document Chunk 112 ---
+5.1.1 CBTC 系统中,车载 ATP 应通过生载 BTM 实现与应答器的通信。
+
+--- Document Chunk 113 ---
+当列车经过地面应答器时,车载应答器天线激活地面应答吉,并接收应答
+
+--- Document Chunk 114 ---
+器循环发送的应答器报文。
+
+--- Document Chunk 115 ---
+5.1.2 CBTC 系统应通过车载 BTM 和应答器传输报文实现如下功能:
+
+--- Document Chunk 116 ---
+a) 建立列车定位;
+
+--- Document Chunk 117 ---
+b) 校正列车位置;
+
+--- Document Chunk 118 ---
+c) “传输点式移动授权;
+
+--- Document Chunk 119 ---
+d) 监控应答器通信状态。
+
+--- Document Chunk 120 ---
+5.1.3 CBTC 的点式后备系统或点式信号主用系统应满足图 1 所示结
+
+--- Document Chunk 121 ---
+构的要求。
+
+--- Document Chunk 122 ---
+国 车载ATP设备
+
+--- Document Chunk 123 ---
+注:LEU 可通过联锁设备或信号机点灯电路控制,如采几信号机点灯电路
+
+--- Document Chunk 124 ---
+控制 ,应考虑是售能够满足线路拓扑要求。
+
+--- Document Chunk 125 ---
+图1 点式系统结构图
+
+--- Document Chunk 126 ---
+5.1.4 CBTC 的点式后备系统或点式信号主用系统基本功能分配如下 :
+
+--- Document Chunk 127 ---
+a) ”信号机由联锁设备控制;
+
+--- Document Chunk 128 ---
+b) 联锁或信号机点灯电路通过 LEU 控制有源应答器报文;
+
+--- Document Chunk 129 ---
+--- Page 8 ---
+
+--- Document Chunk 130 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 131 ---
+c) 车载设备通过应答器天线获取应答器信息,根据点式移动授
+
+--- Document Chunk 132 ---
+权,生成制动曲线并进行相应的防护。
+
+--- Document Chunk 133 ---
+5.1.5 地面应答器采用无线通信方式向车载应答器天线单方向持续重
+
+--- Document Chunk 134 ---
+复的传送报文。
+
+--- Document Chunk 135 ---
+5.1.6 应答器按照报文是否可变,可分为无源应答器和有源应答器。
+
+--- Document Chunk 136 ---
+其中无源应答器又称固定应答器,有源应答器可分为主应答器和填充应
+
+--- Document Chunk 137 ---
+答器两种。固定应答器报文不可变,主应答器与填充应答器报文可变,主
+
+--- Document Chunk 138 ---
+应答器布置在其对应信号机外方 ,填充应答器布置在其描述的主应答器
+
+--- Document Chunk 139 ---
+外方 ,填充应答器与主应答器的距离宜保证列车不至降速时收到填充应
+
+--- Document Chunk 140 ---
+答器报文。
+
+--- Document Chunk 141 ---
+5.1.7 在无点式后备模式时,系统应只配置固定应答器。
+
+--- Document Chunk 142 ---
+5.2 通信结构及接口连接方式
+
+--- Document Chunk 143 ---
+5.2.1 物理接口应满足如下要求:地面有源应答器应通过 LEU 进行编
+
+--- Document Chunk 144 ---
+码,有源应答器与 LEU 间应采用专用电缆连接。车载应答器天线与 BTM
+
+--- Document Chunk 145 ---
+应通过专用馈缆连接。
+
+--- Document Chunk 146 ---
+5.2.2 地面应答器与车载应答器天线间的信息传输接口(也称接口
+
+--- Document Chunk 147 ---
+A) 应答器编码与解码应满足 CB/T 24339. 1一2009 和 TB/T 3485一2017
+
+--- Document Chunk 148 ---
+的要求。
+
+--- Document Chunk 149 ---
+5.2.3 通信故障的处理应符合以下原则 :
+
+--- Document Chunk 150 ---
+a) 如 BTM 无法对应答器报文解码、应答器天线无法激活应答器、
+
+--- Document Chunk 151 ---
+传输错误等原因导致车载设备无法接收应答器报文 ,车载设备
+
+--- Document Chunk 152 ---
+应按照应答器丢失处理,应满足 TB/T 2615一1994 中要求的故
+
+--- Document Chunk 153 ---
+障导向安全原则。
+
+--- Document Chunk 154 ---
+b) 有源应答器与 LEU 通信故障时,应答器应发送应答器默认报
+
+--- Document Chunk 155 ---
+文;LEU 与联锁通信中断时,LEU 向应答器发送 LEU 默认报文，
+
+--- Document Chunk 156 ---
+并经应 nce thine 应答器默认报文和 LEU 默认报
+
+--- Document Chunk 157 ---
+文的组包方式参见
+
+--- Document Chunk 158 ---
+--- Page 9 ---
+
+--- Document Chunk 159 ---
+5.3 应答器报文结构
+
+--- Document Chunk 160 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 161 ---
+5.3.1 报文结构
+
+--- Document Chunk 162 ---
+本规范采用 830 位长报文结构,用户信息包中不足的比特位以 1
+
+--- Document Chunk 163 ---
+补齐。
+
+--- Document Chunk 164 ---
+报文结构定义(信息蚌)见表 1。
+
+--- Document Chunk 165 ---
+表1 信息帧的报文结构定义
+
+--- Document Chunk 166 ---
+pes] 20    weit | 位数        备 。 广
+
+--- Document Chunk 167 ---
+Q_UPDOWN                       示
+
+--- Document Chunk 168 ---
+信息传送的方向(0 = 车对地,1 = 地对
+
+--- Document Chunk 169 ---
+) ,本规范中统一为1
+
+--- Document Chunk 170 ---
+M_VERSION
+
+--- Document Chunk 171 ---
+中的位置(000 = 1,
+
+--- Document Chunk 172 ---
+下设置应答器组,本变
+
+--- Document Chunk 173 ---
+前
+
+--- Document Chunk 174 ---
+一个相同 ) ,本规范采用 00
+
+--- Document Chunk 175 ---
+M_MCOUNT*    8     报文计数器(0 ~255)
+
+--- Document Chunk 176 ---
+NID_L"         10     线路编号
+
+--- Document Chunk 177 ---
+NID_BG*        14     应答器(组 )编号
+
+--- Document Chunk 178 ---
+Q_LINK       1    应答器(组)的链接关系 (0 = 不被链接 ，
+
+--- Document Chunk 179 ---
+1 =被链接) ,本规范采用0
+
+--- Document Chunk 180 ---
+FAL fei               772 | 用户信息包区
+
+--- Document Chunk 181 ---
+信息结束              8     =11111111 ,表示信息帧结束
+
+--- Document Chunk 182 ---
+--- Page 10 ---
+
+--- Document Chunk 183 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 184 ---
+表1 信息帧的报文结构定义(续)
+
+--- Document Chunk 185 ---
+注:"M_MCOUNT(报文计数器) :单个应答器会对应多条报文,本变量表示本
+
+--- Document Chunk 186 ---
+报文在这些报文中的序号。固定应答器只包含一条报文,M_MCOUNT设
+
+--- Document Chunk 187 ---
+为2355。有源应答器默认报文,M_MCOUNT 设为232。LEU 默认报文,M_
+
+--- Document Chunk 188 ---
+MCOUNT 设为0。M_MCOUNT 值禁用253 和254。其他报文 M_MCOUNT
+
+--- Document Chunk 189 ---
+由厂商自定。
+
+--- Document Chunk 190 ---
+"NID_L:线路编号采用区域内统一编号的方式,可在区域线路规划时统一
+
+--- Document Chunk 191 ---
+分配。
+
+--- Document Chunk 192 ---
+“NID_BG :应答器(组)编号,用于在一条线路内 ,唯一识别的 ID ,由5 位十
+
+--- Document Chunk 193 ---
+进制数表示,最大值为 16 383,
+
+--- Document Chunk 194 ---
+5. 3.2 用户信息包
+
+--- Document Chunk 195 ---
+5.3.2.1 ETCS-44 包定义见表2。
+
+--- Document Chunk 196 ---
+表2 ETCS44 包定义
+
+--- Document Chunk 197 ---
+变量名     位数                   说 明
+
+--- Document Chunk 198 ---
+NID_PACKET    8     信息包标识码 =0010 1100
+
+--- Document Chunk 199 ---
+验证方向(00 = 反向有效,01 = 正向有效,10 = 双向
+
+--- Document Chunk 200 ---
+7a ata      ”|有效,=备用)
+
+--- Document Chunk 201 ---
+L_PACKET     这    信息包位数 ,根据子包组成情况而定 ,为整个 ETCS-
+
+--- Document Chunk 202 ---
+44 (AFA) 的位数
+
+--- Document Chunk 203 ---
+NID_XUSER      9      用户数据包标识码
+
+--- Document Chunk 204 ---
+2
+
+--- Document Chunk 205 ---
+XXXXXX                由 NID_XUSER 确定的信息包
+
+--- Document Chunk 206 ---
+每个 ETCS-44 包应只包含一个子包 ,一个应答器报文中可包含多个
+
+--- Document Chunk 207 ---
+ETCS-44 包。
+
+--- Document Chunk 208 ---
+5.3.2.2 地图版本信息包定义(202 Fd) Wz 3。
+
+--- Document Chunk 209 ---
+表3 地图版本信息包定义
+
+--- Document Chunk 210 ---
+NID_XUSER      9     用户数据包标识码 =0 1100 1010( 202)
+
+--- Document Chunk 211 ---
+M_EDITION     16     地图版本信息(本应答器所辖范围内的地图版本)
+
+--- Document Chunk 212 ---
+--- Page 11 ---
+
+--- Document Chunk 213 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 214 ---
+5. 3.2.3 公共信息包定义(203 子包)见表4。
+
+--- Document Chunk 215 ---
+表4 公共信息包定义
+
+--- Document Chunk 216 ---
+号      变量名                           说 明
+
+--- Document Chunk 217 ---
+1 |NID_XUSER          9      用户数据包标识码 =0 1100 1011(203)
+
+--- Document Chunk 218 ---
+主应答器时为该处信号机显示状态。
+
+--- Document Chunk 219 ---
+QSIGNAL-ASPECT | "9 | 填充应答器时为所填充进路始端信号袖的状态
+
+--- Document Chunk 220 ---
+该应答器预告信号状态。该位仅对于主应答器
+
+--- Document Chunk 221 ---
+2                       有效,该位表示该主应答器歉具预告应答器功能
+
+--- Document Chunk 222 ---
+Q_SIGNAL_ASPECT_   19   时 ,对应的沿进路方向第二架信号机显示状态。
+
+--- Document Chunk 223 ---
+PRE                          对于不兼具预告功能的主应答器,该位城全部填0。
+
+--- Document Chunk 224 ---
+填充应答器该位无效(填充应答器全部填 0) ，
+
+--- Document Chunk 225 ---
+AME AA AR ih RM
+
+--- Document Chunk 226 ---
+联锁与 LEU 通信状态:
+
+--- Document Chunk 227 ---
+0:联锁与 LEU 通信正常;
+
+--- Document Chunk 228 ---
+1:联锁与 LEU 通信中断。
+
+--- Document Chunk 229 ---
+C_CI_LEU           1      24 C_LEU_BALISE 49 1( 8) LEU 与应答器通信
+
+--- Document Chunk 230 ---
+3                    中断)时 ,该位无效。
+
+--- Document Chunk 231 ---
+如系统采用点灯电路的方式哎动 LEU ,点灯电
+
+--- Document Chunk 232 ---
+路故障,按照 LEU 与联锁遂信中断处理
+
+--- Document Chunk 233 ---
+LEU 与应答器通信状态:
+
+--- Document Chunk 234 ---
+C_LEU_BALISE       1     0:LRU 与应答器通信正常;
+
+--- Document Chunk 235 ---
+1:LEU 与应答器通信中断
+
+--- Document Chunk 236 ---
+4   D_DIS               24     主应答器至 MA 终点距离
+
+--- Document Chunk 237 ---
+D_DIS_OVERLAP       24      主应答回至进路末端保护区段起点的距离
+
+--- Document Chunk 238 ---
+N_SWITCH           4      道岔数量 ,最多 15 个
+
+--- Document Chunk 239 ---
+NID_SWITCH1        16     道岔 1 编号
+
+--- Document Chunk 240 ---
+S_SWITCHL_STATE      2      道岔 1 状态:10-定位,01 反位,其他无效
+
+--- Document Chunk 241 ---
+NID_SWITCH2         16      道岔 2 编号
+
+--- Document Chunk 242 ---
+° [sswincnz stave | 2 | 道售2 状态:10定位,0 反位,其他无效
+
+--- Document Chunk 243 ---
+NID_SWITCHN        16      道岔 N 编号
+
+--- Document Chunk 244 ---
+S_SWITCHN_STATE     2      it N 状态:10-定位,01 反位,其他无效
+
+--- Document Chunk 245 ---
+注:道贫撕述顺序按照主应答器向 MA 终点的顺序排列。
+
+--- Document Chunk 246 ---
+--- Page 12 ---
+
+--- Document Chunk 247 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 248 ---
+表4中,Q_SIGNAL_ASPECT 取值应符合表 5 的规定。
+
+--- Document Chunk 249 ---
+#5 Q_SIGNAL_ASPECT 取值
+
+--- Document Chunk 250 ---
+信号机显示状态
+
+--- Document Chunk 251 ---
+Q_SIGNAL_ASPECT 值
+
+--- Document Chunk 252 ---
+红灯,引导、灭灯、`或故障都以红灯处理      XX0 0000 0000 0000 0001
+
+--- Document Chunk 253 ---
+绿灯或者黄灯(进路仅涉及顺向道岔反位)
+
+--- Document Chunk 254 ---
+2   无保护区自                                      XX0 0000 0000 0000 0010
+
+--- Document Chunk 255 ---
+3   wa ee  XX0 0000 0000 0000 0011
+
+--- Document Chunk 256 ---
+BEAT 1(U1)无保护区段
+
+--- Document Chunk 257 ---
+XX0 0000 0000 0000 0100
+
+--- Document Chunk 258 ---
+黄灯 1(U1)有保护区段
+
+--- Document Chunk 259 ---
+XX0 0000 0000 0000 0101
+
+--- Document Chunk 260 ---
+6     黄灯 2(U2)无保护区段                     XX0 0000 0000 0000 1000
+
+--- Document Chunk 261 ---
+了      黄灯 2(U2) 有保护区段                      XX0 0000 0000 0000 1001
+
+--- Document Chunk 262 ---
+8     BUT 3( U3) ARF K Be                     XX0 0000 0000 0000 1100
+
+--- Document Chunk 263 ---
+9     BEAT 3(U3)有保护区段                      XX0 0000 0000 0000 1101
+
+--- Document Chunk 264 ---
+黄灯 N(CUN)无保护区段
+
+--- Document Chunk 265 ---
+XXA BCDE FCHI JKLM NP00
+
+--- Document Chunk 266 ---
+(N =A BCDE FGHI JKLM NP)
+
+--- Document Chunk 267 ---
+注:XX 为预留 ,默认为 00。
+
+--- Document Chunk 268 ---
+黄灯 NCUN)有保护区段
+
+--- Document Chunk 269 ---
+XXA BCDE FGHI JKLM NPO1
+
+--- Document Chunk 270 ---
+(N =A BCDE FGHI JKLM NP)
+
+--- Document Chunk 271 ---
+黄灯序号的确认原则为:对了
+
+--- Document Chunk 272 ---
+F Q_SIGNAL_ASPECT 中 A BCDE FGHI
+
+--- Document Chunk 273 ---
+JKLM NP0Q ,从第 3 位(P)开始 ,每一位表示对向道岔(不包含顺向道岔)
+
+--- Document Chunk 274 ---
+的状态,对向道岔定位为 0,对向道岔反位为,可最多表示 15 个对向道
+
+--- Document Chunk 275 ---
+岔,不足 15 个对向道岔,为0。第 1 位(Q)表示是否有保护区段,0 表示
+
+--- Document Chunk 276 ---
+无保护区段 ,1 表示有保护
+
+--- Document Chunk 277 ---
+个对向道岔反位,第2个对
+
+--- Document Chunk 278 ---
+态及对应内容见表 6。
+
+--- Document Chunk 279 ---
+8
+
+--- Document Chunk 280 ---
+区段。例如前方进路存在 3 个对向道岔,第 1
+
+--- Document Chunk 281 ---
+向道岔定位,第 3 个对向道岔反位。信和号机状
+
+--- Document Chunk 282 ---
+--- Page 13 ---
+
+--- Document Chunk 283 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 284 ---
+表6 信号机状态及对应内容
+
+--- Document Chunk 285 ---
+信号机显示状态           | Q_SIGNAL_ASPECT ff
+
+--- Document Chunk 286 ---
+1        DUT 5 (US) HARP RK BE             |   XX0 0000 0000 0001 0100
+
+--- Document Chunk 287 ---
+2     黄灯5S(U5)有保护区段           XX0 0000 0000 0001 0101
+
+--- Document Chunk 288 ---
+a) 区分对向道贫和顺向道岔的方式:
+
+--- Document Chunk 289 ---
+1) 从线路上沿指定方向搜索到道岔 ,若先搜索到该道岔的贫
+
+--- Document Chunk 290 ---
+前区域,后搜索到该道岔的贫后区域,则该道岔为该方向
+
+--- Document Chunk 291 ---
+上的对向道岔。
+
+--- Document Chunk 292 ---
+说明;
+
+--- Document Chunk 293 ---
+对于主应答器 VB01 ,若办理 XO1-X03 进路,因进路内存在两个对癌道岔
+
+--- Document Chunk 294 ---
+POL P03, H POL 为反位 POS 为定位 ,故 XOl 信号机显示状态应为黄灯 1(U1)
+
+--- Document Chunk 295 ---
+有保护区段;若办理 X01-X04 进路,办进路内存在两个对向道岔 POL .P03 ,且
+
+--- Document Chunk 296 ---
+POL 为反位 .P03 为反位 ,故 XO 信和叶机品示状态应为黄灯3(U3)有保护区段，
+
+--- Document Chunk 297 ---
+图2 黄灯序号不连续场景示例
+
+--- Document Chunk 298 ---
+--- Page 14 ---
+
+--- Document Chunk 299 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 300 ---
+c)
+
+--- Document Chunk 301 ---
+d)
+
+--- Document Chunk 302 ---
+e)
+
+--- Document Chunk 303 ---
+f)
+
+--- Document Chunk 304 ---
+Q_SIGNAL_ASPECT 所表示的范围为主应答器对应的信号机所
+
+--- Document Chunk 305 ---
+防护的进路的情况(即使该主应答器兼具预告应答器功能,Q_
+
+--- Document Chunk 306 ---
+SIGNAL_ASPECT 也不报告前方预告进路的情况)。Q_SIGNAL_
+
+--- Document Chunk 307 ---
+ASPECT 所表示的道岔不包含保护区段的道岔。
+
+--- Document Chunk 308 ---
+Q_SIGNAL_ASPECT_PRE 取值:Q_SIGNAL_ASPECT_PRE 的定
+
+--- Document Chunk 309 ---
+义方式与 Q_SIGNAL_APSECT 完全相同 ,范围为兼预告的主应
+
+--- Document Chunk 310 ---
+答器所预告的第二架信和号机处开始至第二架信和号防护的进路
+
+--- Document Chunk 311 ---
+末端。如果 Q_SIGNAL_APSECT 为红灯,则Q_SIGNAL _
+
+--- Document Chunk 312 ---
+ASPECT_PRE 取值为0。
+
+--- Document Chunk 313 ---
+D_DIHS :主应答器至 MA 终点距离 ,至多 160 km(1em 分辩率) 。
+
+--- Document Chunk 314 ---
+如果该应答器为填充应答器,则该距离为填充应答器对应的主
+
+--- Document Chunk 315 ---
+应答器 MA 终点距离。如果进路有保护区段,则 MA 终点放置
+
+--- Document Chunk 316 ---
+在保护区段的末端。如果进路无保护区段,则 MA 终点位于进
+
+--- Document Chunk 317 ---
+路最后一个区段的末端。若进路内有车挡,则 MA 终点应不越
+
+--- Document Chunk 318 ---
+过车挡。红灯情况下 ,该距离为主应答器至主应答器所在进路
+
+--- Document Chunk 319 ---
+末端距离。默认报文中,D_DIS填0。
+
+--- Document Chunk 320 ---
+对于兼预告的主应答器,则该距离与预告进路是否开放相关。
+
+--- Document Chunk 321 ---
+如果预告进路未开放,则该距离遵从上述原则。如果预告进路
+
+--- Document Chunk 322 ---
+开放,则该距离为兼预告主应答器至第二架信号机防护进路的
+
+--- Document Chunk 323 ---
+终点的距离 ,保护区段处理方式相同。
+
+--- Document Chunk 324 ---
+D_DIS_OVERLAP:主应答器至进路保护区段起点的距离,至多
+
+--- Document Chunk 325 ---
+160 km(1 cm 分辩率) 。如果该应答器为填充应答器,则该距离
+
+--- Document Chunk 326 ---
+为填充应答器对应的主应答器至主应答器对应的信号机防护进
+
+--- Document Chunk 327 ---
+路末端的保护区有段起点距离。如果进路无保护区有段,D_DIS_
+
+--- Document Chunk 328 ---
+OVERLAP 填0。默认报文中,D_DIS_OVERLAP填0。
+
+--- Document Chunk 329 ---
+对于兼预告的主应答器,则该距离与预告进路是否开放相关。
+
+--- Document Chunk 330 ---
+如果预告进路未开放, 则该距离遵从上述原则。如果预告进路
+
+--- Document Chunk 331 ---
+--- Page 15 ---
+
+--- Document Chunk 332 ---
+g)
+
+--- Document Chunk 333 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 334 ---
+开放,则该距离为兼预告主应符咒至第一架信叶机防护进路末
+
+--- Document Chunk 335 ---
+端的保护区段起点距离 ,保护区段处理方式相同。
+
+--- Document Chunk 336 ---
+NID_SWITCR:线路内统 :编切由唯一。
+
+--- Document Chunk 337 ---
+h) N_SWITCH:MA 范赎内道爹的数关.如果进路包含保护区段，
+
+--- Document Chunk 338 ---
+则保护区段内的道贫也人包合在内。道贫数基应不大于 15 .该包
+
+--- Document Chunk 339 ---
+根据不同的道岔数基是变长的。 道岔数显不足15 个,包的医
+
+--- Document Chunk 340 ---
+度按照实际的道贫数量确定，如果 MA SL AL A AL HUN
+
+--- Document Chunk 341 ---
+SWITCH 为0.NID_SWITCH 和S_SWITCH_STATE 位不存在。
+
+--- Document Chunk 342 ---
+默认报文中认为 MA 范围内没有道岔- 这里的道岔包含对问道
+
+--- Document Chunk 343 ---
+贫和顺向道岔
+
+--- Document Chunk 344 ---
+iD 道岔描述顺序按照主应答器向 MA 终点的顺序排绚:
+
+--- Document Chunk 345 ---
+5.3.3 厂商良定义包(204 Ff) MH 7.
+
+--- Document Chunk 346 ---
+表7 厂商自定义包
+
+--- Document Chunk 347 ---
+NF     eae      位数                   说    明
+
+--- Document Chunk 348 ---
+1 |NID_XUSRR        9      用户数提包标识码 =0 1100 1100(204)
+
+--- Document Chunk 349 ---
+2 | NID_PROVIDER    8     厂商标识
+
+--- Document Chunk 350 ---
+3 | DLRESERVED     x    SG Fe LS GF A hg ak
+
+--- Document Chunk 351 ---
+5.3.4 城市月定义包(205 F fd) WA 8.
+
+--- Document Chunk 352 ---
+表8 城市自定义包
+
+--- Document Chunk 353 ---
+ee] ome | het                 zB           |
+
+--- Document Chunk 354 ---
+1 | NID_XUSER       9     用户数据包标识码 =0 1100 1101( 205)
+
+--- Document Chunk 355 ---
+2 | NID_CITY                      8            域市标识
+
+--- Document Chunk 356 ---
+3 |D_CITY          X     城市自定义内容及格式
+
+--- Document Chunk 357 ---
+5.4 应答器发包
+
+--- Document Chunk 358 ---
+va
+
+--- Document Chunk 359 ---
+ hk A BLA OL WL Zz 9,
+
+--- Document Chunk 360 ---
+--- Page 16 ---
+
+--- Document Chunk 361 ---
+T/CAMET 04011. 1一2018
+
+--- Document Chunk 362 ---
+表9 应答器发包
+
+--- Document Chunk 363 ---
+Vis) 应答器类型 | 报文类型   功能      包含的信息包
+
+--- Document Chunk 364 ---
+1 | 无源应答器| NAA   定位   地图版木信息包(202 了包》 _|
+
+--- Document Chunk 365 ---
+SEAT Rt | 地图版本信息包(202 FL) 、公
+
+--- Document Chunk 366 ---
+送;     共信息包(203 子包) .厂商白定义
+
+--- Document Chunk 367 ---
+”       正常报文 | 灭灯时发| 信息伺(204 子包.可选) .城市自定
+
+--- Document Chunk 368 ---
+送红灯报文 | 义信息包(205 子包 ,可选)
+
+--- Document Chunk 369 ---
+本        有源应答| 地多版本信息包(202 子但) 、公
+
+--- Document Chunk 370 ---
+点答回 |应答器默
+
+--- Document Chunk 371 ---
+3 | ARNE hae #855 LRU sti | 其信息包(203 -~ @), C_LEL_
+
+--- Document Chunk 372 ---
+信中断      | BALISE 为1
+
+--- Document Chunk 373 ---
+地网版本信息包(202 上包) A
+
+--- Document Chunk 374 ---
+LEU 默认| LEU 与联|
+
+--- Document Chunk 375 ---
+4                   共信息包(203    ,C_CI_LEU
+
+--- Document Chunk 376 ---
+报文    Soka (er ot  B08 FE)
+
+--- Document Chunk 377 ---
+12
+
+--- Document Chunk 378 ---
+--- Page 17 ---
+
+--- Document Chunk 379 ---
+中国城市轨道交通协会财体标准
+
+--- Document Chunk 380 ---
+城市轨道交通”基于通信的列车运行
+
+--- Document Chunk 381 ---
+控制系统{CBTC ) 互联互通接口规范
+
+--- Document Chunk 382 ---
+第 1 部分:应答器报文
+
+--- Document Chunk 383 ---
+T/CAMET 04011.1一2018
+
+--- Document Chunk 384 ---
+*
+
+--- Document Chunk 385 ---
+中国铁道出版社有有限公司出版发行
+
+--- Document Chunk 386 ---
+(100054 .北京市晤城区右安门西街8 FF)
+
+--- Document Chunk 387 ---
+4S ARYL: http://www, tdpress. cont
+
+--- Document Chunk 388 ---
+ee RTH IM EL A AT PAR ZS
+
+--- Document Chunk 389 ---
+于本: 880 mm x1 230 mm 1/32 印张:0.75 字数:17 下
+
+--- Document Chunk 390 ---
+2019 年5帮第1版 2019年5帮第1次印刷
+
+--- Document Chunk 391 ---
+Te: 15113 + $707    定价:15.00 元
+
+--- Document Chunk 392 ---
+版权所有 ALU SE
+
+--- Document Chunk 393 ---
+:铁道版图 A, 如有印制质此问题,请与不公司发行部联系调换
+
+--- Document Chunk 394 ---
+发行部电话:路(021)73174 ,市(010)51873174
+
+--- Document Chunk 395 ---
+SLU
+
+--- Document Chunk 396 ---
+--- Page 18 ---
+
+--- Document Chunk 397 ---
+|
+
+--- Document Chunk 398 ---
+|
+
+--- Document Chunk 399 ---
+MI
+
+--- Document Chunk 400 ---
+6
+
+--- Document Chunk 401 ---
+HSERE SS-8 SSORRMRM (LEO) SHSBINKLSREH BHI
+
+--- Document Chunk 402 ---
+> OUDy RY aR EE MS
+

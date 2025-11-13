@@ -1,0 +1,3615 @@
+--- Document Chunk 0 ---
+--- Page 1 ---
+
+--- Document Chunk 1 ---
+ICS 45.020
+
+--- Document Chunk 2 ---
+Q 84                                  《一
+
+--- Document Chunk 3 ---
+Ai  体  标  aE
+
+--- Document Chunk 4 ---
+T/CAMET 04018.1— 2019
+
+--- Document Chunk 5 ---
+城市轨道交通 “CBTC信和号系统规范
+
+--- Document Chunk 6 ---
+第1部分: ATP子系统
+
+--- Document Chunk 7 ---
+Urban rail transit 一 System specification of
+
+--- Document Chunk 8 ---
+communication based train control system
+
+--- Document Chunk 9 ---
+Part 1: ATP subsystem
+
+--- Document Chunk 10 ---
+2019-07-30 发布                        2019-11-01 实施
+
+--- Document Chunk 11 ---
+中国城市轨道交通协会 发 布
+
+--- Document Chunk 12 ---
+--- Page 2 ---
+
+--- Document Chunk 13 ---
+中国城市轨道交通协会
+
+--- Document Chunk 14 ---
+关于批准发布
+
+--- Document Chunk 15 ---
+《市域快轨交通技术规范
+
+--- Document Chunk 16 ---
+等 19 项团体标准的公告
+
+--- Document Chunk 17 ---
+we
+
+--- Document Chunk 18 ---
+中城轨[2019 124 号
+
+--- Document Chunk 19 ---
+经中国城市轨道交通协会第二届第十一次会长常务办公会批准,发
+
+--- Document Chunk 20 ---
+布《市域快轨交通技术规范?等 19 项团体标准,现予以公布(详见下表) 。
+
+--- Document Chunk 21 ---
+序号         标准编号                       标准名称                  实施日期
+
+--- Document Chunk 22 ---
+1      T/CAMET 01001一2019 | 市域块轨交通技术规范                       2019-12-01
+
+--- Document Chunk 23 ---
+2      T/CAMET 01002—2019 | 城市轨道交通效能评价措标体系             2019 — 12-01
+
+--- Document Chunk 24 ---
+3    T/CAMET 04016—2019 | 城市轨道交通系统设备综合联调规范      2019-12-01
+
+--- Document Chunk 25 ---
+城市轨道交通 全自动运行系统规范
+
+--- Document Chunk 26 ---
+4 | T/CAMET 04017.1一2019 | | 部分,需求                         2019-11-01
+
+--- Document Chunk 27 ---
+城市轨道交通 ”全自动运行系统规范
+
+--- Document Chunk 28 ---
+5 | YCAMET 04017.2—2019 | | 孝分.核心设备产品                  2019-11-01
+
+--- Document Chunk 29 ---
+6 | catET04017.3一2019 | 城市轴适交通 ”全自动运行系统规花      2019 - 11-01
+
+--- Document Chunk 30 ---
+3 部分:接口
+
+--- Document Chunk 31 ---
+了     T/CAMET 04017.4—2019   城市轨道交通“全自动运行系统规范        2019-11-01
+
+--- Document Chunk 32 ---
+4 部分:调试及验证
+
+--- Document Chunk 33 ---
+城市轨道交通”全自动运行系统规范
+
+--- Document Chunk 34 ---
+8 | T/CAMET 04017.5一2019 | 5 部分.工程安全评信                    2019 - 11-01
+
+--- Document Chunk 35 ---
+城市轨道交通”全自动运行系统规范
+
+--- Document Chunk 36 ---
+c         6                                      2019 — 11 —O1
+
+--- Document Chunk 37 ---
+9 | T/CAMET 04017. 6—2019 | 6 部分,初期运营基本条件                19-1
+
+--- Document Chunk 38 ---
+10 | T/CAMET 04017. 7—2019  aee      2019-11-01
+
+--- Document Chunk 39 ---
+--- Page 3 ---
+
+--- Document Chunk 40 ---
+续上表
+
+--- Document Chunk 41 ---
+序号         标准编号                       标准名称                  实施日期
+
+--- Document Chunk 42 ---
+11    T/CAMET 04018. 1一2019   aren 信号系统规范 第  2019 -11 一01
+
+--- Document Chunk 43 ---
+12 | T/CAMET 04018.2一2019   eo rea 信号系统规范“第  2019-11-01
+
+--- Document Chunk 44 ---
+13    T/CAMET 04018. 3一2019   aca 信号系统规范 第   2019-11-01
+
+--- Document Chunk 45 ---
+14 | T/CAMET 04018.4—2019   eek 信号系统规范第   2019-11-01
+
+--- Document Chunk 46 ---
+15 | T/CAMET 04018.5—2019   ae tes Wuan os 人   第   2019 -11 一01
+
+--- Document Chunk 47 ---
+16     T/CAMET 08006—2019    toe   道岔系统工程”检测技  2019-12-01
+
+--- Document Chunk 48 ---
+17    T/CAMET 11001. 1—2019   eee aah eee   2019-12-01
+
+--- Document Chunk 49 ---
+18 | T/CAMET 11001. 2—2019   a ae noah bee   2019-12-01
+
+--- Document Chunk 50 ---
+19 | T/CAMET 11001.3—2019   sone woth nee   2019-12-01
+
+--- Document Chunk 51 ---
+中国城市轨道交通协会
+
+--- Document Chunk 52 ---
+2019 年7月30日
+
+--- Document Chunk 53 ---
+--- Page 4 ---
+
+--- Document Chunk 54 ---
+WAN wd = wm
+
+--- Document Chunk 55 ---
+Fei
+
+--- Document Chunk 56 ---
+7
+
+--- Document Chunk 57 ---
+7
+
+--- Document Chunk 58 ---
+7
+
+--- Document Chunk 59 ---
+了
+
+--- Document Chunk 60 ---
+了
+
+--- Document Chunk 61 ---
+8
+
+--- Document Chunk 62 ---
+了
+
+--- Document Chunk 63 ---
+oo oo po pp oo ge
+
+--- Document Chunk 64 ---
+CoC wmnn nun 上上mb
+
+--- Document Chunk 65 ---
+T/CAMET 04018, 1一2019
+
+--- Document Chunk 66 ---
+规范性引用文件 reese
+
+--- Document Chunk 67 ---
+术语和定义 …-
+
+--- Document Chunk 68 ---
+ERR …-
+
+--- Document Chunk 69 ---
+一般要求
+
+--- Document Chunk 70 ---
+性能要求 cece cee ceetee cee ree neces ene eee nen see cet en nee ceeesuee cee cecesane cas
+
+--- Document Chunk 71 ---
+3 TEPER cee
+
+--- Document Chunk 72 ---
+.4 GELB TE RR WD A ie AT HR BEE
+
+--- Document Chunk 73 ---
+.5 PERETE ER wer eee reece eee ee                名
+
+--- Document Chunk 74 ---
+管理临时限下站pe 11
+
+--- Document Chunk 75 ---
+Dooooow amnb 一一<<
+
+--- Document Chunk 76 ---
+安全间隔防搞 并
+
+--- Document Chunk 77 ---
+列车完整性监督 …和1
+
+--- Document Chunk 78 ---
+--- Page 5 ---
+
+--- Document Chunk 79 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 80 ---
+I0 CBTC 控制级别建立
+
+--- Document Chunk 81 ---
+I1 列车退出 CBTC KR ，
+
+--- Document Chunk 82 ---
+12 开门防护 ，        tee
+
+--- Document Chunk 83 ---
+13  an
+
+--- Document Chunk 84 ---
+14       ]监控 -
+
+--- Document Chunk 85 ---
+pokanh men
+
+--- Document Chunk 86 ---
+16 列车准备 +     、
+
+--- Document Chunk 87 ---
+17 驾驶模式管理 eee
+
+--- Document Chunk 88 ---
+18 通信状态监督和故障处理
+
+--- Document Chunk 89 ---
+20 界面显示 -
+
+--- Document Chunk 90 ---
+9 接口与通道要求、
+
+--- Document Chunk 91 ---
+9.1 ATP/ATO 车载设备与车辆接口要求 -
+
+--- Document Chunk 92 ---
+9.2 ATS 与 ATP 地面设备应用层接口要求 ……
+
+--- Document Chunk 93 ---
+oo
+
+--- Document Chunk 94 ---
+a
+
+--- Document Chunk 95 ---
+9.3 ATS 45 ATP/ATO 车载设备应用层接口要求 ………
+
+--- Document Chunk 96 ---
+9.4 ATP/ATO 车载设备与 ATP 地面设备应
+
+--- Document Chunk 97 ---
+9.5 CI与ATP 地面设备应用层接口要求 ，
+
+--- Document Chunk 98 ---
+9.6 《CI与ATPZATO 车载设备应用层接口要求…
+
+--- Document Chunk 99 ---
+10 ”电磁兼容防护要求 -
+
+--- Document Chunk 100 ---
+10.1 电磁发射和抗扰
+
+--- Document Chunk 101 ---
+10.2 ATP FRB ARRAY BH cece cece
+
+--- Document Chunk 102 ---
+10.3 接地 -       a    .
+
+--- Document Chunk 103 ---
+11 供电及电源设备要求 veers
+
+--- Document Chunk 104 ---
+11.1 ATP 地面设备供电要求
+
+--- Document Chunk 105 ---
+11.2 ATP 车载设备供电要求 -
+
+--- Document Chunk 106 ---
+附录 A(规范性附录) ATP 子系统的系统参数值 …             aa
+
+--- Document Chunk 107 ---
+WV
+
+--- Document Chunk 108 ---
+--- Page 6 ---
+
+--- Document Chunk 109 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 110 ---
+了
+
+--- Document Chunk 111 ---
+T/CAMET 04018《城市轨道交通 ”CBTC 信号系统规范》分为以下五
+
+--- Document Chunk 112 ---
+个部分:
+
+--- Document Chunk 113 ---
+一一第 1 部分:ATP 子系统;
+
+--- Document Chunk 114 ---
+一一第 2 部分:ATO 子系统
+
+--- Document Chunk 115 ---
+一一第 3 部分:ATS 子系统;
+
+--- Document Chunk 116 ---
+一一第4部分:CI子系统;
+
+--- Document Chunk 117 ---
+一一第5 部分:基于 WLAN
+
+--- Document Chunk 118 ---
+的 DCS 子系统。
+
+--- Document Chunk 119 ---
+本部分是 T/CAMET 04018 的第 1 部分。
+
+--- Document Chunk 120 ---
+本部分按照 GBXT 1.1一200
+
+--- Document Chunk 121 ---
+9 给出的规则起草。
+
+--- Document Chunk 122 ---
+请注意本文件的某些内容可能涉及专利,本文件的发布机构不承担
+
+--- Document Chunk 123 ---
+识别这些专利的责任。
+
+--- Document Chunk 124 ---
+本部分由中国城市轨道交通协会技术装备专业委员会提出。
+
+--- Document Chunk 125 ---
+本部分由中国城市轨道交通
+
+--- Document Chunk 126 ---
+协会归口 。
+
+--- Document Chunk 127 ---
+本部分起草单位:北京交通大学、交控科技股份有限公司\卡斯柯信
+
+--- Document Chunk 128 ---
+号有限公司、北京全路通信信号研究设计院有限公司、.中国铁道科学研究
+
+--- Document Chunk 129 ---
+院集团有限公司。
+
+--- Document Chunk 130 ---
+本部分主要起草人:唐涛、人部春海、.黄友能、刘波、刘宏杰、杨旭文、
+
+--- Document Chunk 131 ---
+Ef ER TEN RS OI FP NA.
+
+--- Document Chunk 132 ---
+--- Page 7 ---
+
+--- Document Chunk 133 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 134 ---
+城市轨道交通 CBTC 信号系统规范
+
+--- Document Chunk 135 ---
+第 1部分:ATP 子系统
+
+--- Document Chunk 136 ---
+1 范围
+
+--- Document Chunk 137 ---
+T/CAMET 04018 的本部分规定了城市轨道交通 CBTC 信和号系统
+
+--- Document Chunk 138 ---
+中ATP 子系统的一般要求、环境条你性能要求、功能要求 .接口与通
+
+--- Document Chunk 139 ---
+HER .电磁兼容防护梯   ED    RE OR FE
+
+--- Document Chunk 140 ---
+本部分适用于 120flaw7p      PG MAL REE RSE HB
+
+--- Document Chunk 141 ---
+Fie PIAA TH a Re LIA
+
+--- Document Chunk 142 ---
+2 规范性引用文件
+
+--- Document Chunk 143 ---
+FSU SCHER FANE    用        HS 岂是注日期的引用文
+
+--- Document Chunk 144 ---
+件,仅所注日期的版本章            是  hes 由期的引用文件 ,其最新
+
+--- Document Chunk 145 ---
+GB/T 12758一2004 ”城市轨关交通信号系统通用技术条件
+
+--- Document Chunk 146 ---
+GB/T 20438.6 ”电气/电子/可编程电子安全相关系统的功能安全
+
+--- Document Chunk 147 ---
+第6 部分: GBXT 20438.2 和 GB/T 20438.3 的应用指南(GBZXT
+
+--- Document Chunk 148 ---
+20438. 6一2017 ,IEC 61508-6 :2010 ,IDT)
+
+--- Document Chunk 149 ---
+GB/T 21562—2008 轨道交通 ”可靠性.可用性.可维护性和安全
+
+--- Document Chunk 150 ---
+性规范及示例(IEC 62278 2002 , IDT)
+
+--- Document Chunk 151 ---
+GB/T 21563 ”轨道交通”机车车辆设备”冲击和振动试验(GBZT
+
+--- Document Chunk 152 ---
+21563一2018 ,IEC 61373 :2010,MOD)
+
+--- Document Chunk 153 ---
+GB/T 24338.4 轨道交通 电磁兼容 第3-2 部分:机车车辆 设
+
+--- Document Chunk 154 ---
+4% (GB/T 24338. 4一2018 ,IEC 62236-3-2:2008 ,MOD)
+
+--- Document Chunk 155 ---
+--- Page 8 ---
+
+--- Document Chunk 156 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 157 ---
+GB/T 24338.5 轨道交通 电磁兼容 第4部分:信号和通信设备
+
+--- Document Chunk 158 ---
+的发射与抗扰度(GBXT 24338. 5一2018 ,IEC 62236-4:2008 ,MOD)
+
+--- Document Chunk 159 ---
+GB/T 24339. 1 ”轨道交通 ”通信、信号和处理系统 第1 部分:封闭
+
+--- Document Chunk 160 ---
+式传输系统中的安全相关通信(GB/ZT 24339. 1—2009, IEC 62280-1;
+
+--- Document Chunk 161 ---
+2002 ,IDT)》
+
+--- Document Chunk 162 ---
+GB/T 24339.2 ”轨道交通 通信、信号和处理系统 第2 部分:开放
+
+--- Document Chunk 163 ---
+式传输系统中的安全相关通信(GBZT 24339. 2—2009, IEC 62280-2:
+
+--- Document Chunk 164 ---
+2002 ,IDT)
+
+--- Document Chunk 165 ---
+GB/T 25119一2010 ”轨道交通 机车车辆电子装置(IEC 60571:
+
+--- Document Chunk 166 ---
+2006,MOD)
+
+--- Document Chunk 167 ---
+GB 50157一2013 ”地铁设计规范
+
+--- Document Chunk 168 ---
+GB/T 50343 ”建筑物电子信息系统防雷技术规范
+
+--- Document Chunk 169 ---
+CI/T 407一2012 ”城市轨道交通基于通信的列车自动控制系统技术
+
+--- Document Chunk 170 ---
+要求
+
+--- Document Chunk 171 ---
+TB/T 2846 ”铁路地面信号产品振动试验方法
+
+--- Document Chunk 172 ---
+TB/T 2953一2015 ”铁路地面信号产品高温及低温试验方法
+
+--- Document Chunk 173 ---
+3 术语和定义
+
+--- Document Chunk 174 ---
+GB/T 12758一2004 、CBZT 21562一2008 , GB 50157—2013 和 CJ/T
+
+--- Document Chunk 175 ---
+407一2012 界定的及下列术语和定义适用于本文件。为了便于使用,以
+
+--- Document Chunk 176 ---
+下重复列出了其中的主要相关术语。
+
+--- Document Chunk 177 ---
+3. 1
+
+--- Document Chunk 178 ---
+基于通信的列车控制 communication based train control( CBTC)
+
+--- Document Chunk 179 ---
+通过不依翰轨旁列车占用检测设备的列车主动定位技术 .连续车-地
+
+--- Document Chunk 180 ---
+双向数据通信技术以及能够执行安全功能的车载和地面处理器而构建的
+
+--- Document Chunk 181 ---
+连续式列车自动控制系统。
+
+--- Document Chunk 182 ---
+[CJ/T 407一2012 ,定义3.1.1]
+
+--- Document Chunk 183 ---
+3. 2
+
+--- Document Chunk 184 ---
+列车自动控制”automatic train controt
+
+--- Document Chunk 185 ---
+信和号系统自动实现列车监控,安全防护和运行控制等技术的总称。
+
+--- Document Chunk 186 ---
+--- Page 9 ---
+
+--- Document Chunk 187 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 188 ---
+{ GB 50157一2013 ,定义 2.0.37]
+
+--- Document Chunk 189 ---
+3.3
+
+--- Document Chunk 190 ---
+列车自动监控 automatic train supervision
+
+--- Document Chunk 191 ---
+根据列车时刻表为列车运行自动设定进路 IRIE TT ESCH a
+
+--- Document Chunk 192 ---
+管理等技术的总称。
+
+--- Document Chunk 193 ---
+GB 50157一2013 ,定义 2.0.38
+
+--- Document Chunk 194 ---
+3.4
+
+--- Document Chunk 195 ---
+列车自动防护 automatic train protection
+
+--- Document Chunk 196 ---
+自动实现列车运行间隔,超速防护,进路安全和车门等监控技术的总称。
+
+--- Document Chunk 197 ---
+GB 50157一2013 ,定义2.0.39
+
+--- Document Chunk 198 ---
+3.5
+
+--- Document Chunk 199 ---
+列车自动运行”automatic train operation
+
+--- Document Chunk 200 ---
+自动实现列车加速 `调速 .停车和车门开闭 .提示等控制技术的总称。
+
+--- Document Chunk 201 ---
+GB 5$0157一2013 ,定义2.0. 40
+
+--- Document Chunk 202 ---
+3.6
+
+--- Document Chunk 203 ---
+计算机联锁 computer interlocking
+
+--- Document Chunk 204 ---
+以计算机技术为核心,自动实现进路,道岔\信号机等防护技术的总称。
+
+--- Document Chunk 205 ---
+CIT 407一2012 ,定义3.1.6]
+
+--- Document Chunk 206 ---
+3.7
+
+--- Document Chunk 207 ---
+移动授权”movement authority
+
+--- Document Chunk 208 ---
+列车沿给定的行驶方向进入并在某一特定轨道区跋内行车的许可。
+
+--- Document Chunk 209 ---
+CJ/T 407一2012 ,定义3.1.7]
+
+--- Document Chunk 210 ---
+3. 8
+
+--- Document Chunk 211 ---
+JERR RA] headway
+
+--- Document Chunk 212 ---
+在同一线路、同向运行的两列列车的前端经过线路同一地点的间隔
+
+--- Document Chunk 213 ---
+时间。
+
+--- Document Chunk 214 ---
+3.9
+
+--- Document Chunk 215 ---
+旅行速度”operation speed
+
+--- Document Chunk 216 ---
+正常运营情况下 ,列车从起点站发车至终点站停车的平均运行速度。
+
+--- Document Chunk 217 ---
+3
+
+--- Document Chunk 218 ---
+--- Page 10 ---
+
+--- Document Chunk 219 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 220 ---
+3. 10
+
+--- Document Chunk 221 ---
+制动
+
+--- Document Chunk 222 ---
+3. 11
+
+--- Document Chunk 223 ---
+3. 12
+
+--- Document Chunk 224 ---
+3.13
+
+--- Document Chunk 225 ---
+3.14
+
+--- Document Chunk 226 ---
+3.15
+
+--- Document Chunk 227 ---
+GB 50157一2013 ,定义2.0.4]
+
+--- Document Chunk 228 ---
+列车安全制动模型 safe train braking model
+
+--- Document Chunk 229 ---
+根据列车安全间隔,依据列车特性 线路参数及运营条件生成的列车
+
+--- Document Chunk 230 ---
+Hees
+
+--- Document Chunk 231 ---
+限制速度 restricted speed
+
+--- Document Chunk 232 ---
+线路 .车辆结构等限制及列车移动授权所获取的最严格的速度限制。
+
+--- Document Chunk 233 ---
+CJ/T 407一2012 ,定义3.1.11]
+
+--- Document Chunk 234 ---
+保护区段 overlap section
+
+--- Document Chunk 235 ---
+为实现超速防护 .保证安全停车而延伸的闭塞
+
+--- Document Chunk 236 ---
+GB/T 12758一2004 ,术语与定义3. 12]
+
+--- Document Chunk 237 ---
+ca
+
+--- Document Chunk 238 ---
+目标速度 target speed
+
+--- Document Chunk 239 ---
+列车运行至前方日标地点应达到的允许速度。
+
+--- Document Chunk 240 ---
+GB/T 12758一2004 ,术语与定义3.13]
+
+--- Document Chunk 241 ---
+目标距离“target distance
+
+--- Document Chunk 242 ---
+列车运行至前方目标地点的走行距离。
+
+--- Document Chunk 243 ---
+GB/T 12758一2004 ,术语与定义3. 14]
+
+--- Document Chunk 244 ---
+Fett ”reliability
+
+--- Document Chunk 245 ---
+产品在规定条件下和规定时间区间(2 ,2 ) 内完成规定功能的能力。
+
+--- Document Chunk 246 ---
+GB/T 21562一2008 ,术语与定义3.30]
+
+--- Document Chunk 247 ---
+3. 16
+
+--- Document Chunk 248 ---
+的时
+
+--- Document Chunk 249 ---
+4
+
+--- Document Chunk 250 ---
+可用性 availability
+
+--- Document Chunk 251 ---
+在要求的外部资源得到保证的前提下 ,产品在规定的条件下和规定
+
+--- Document Chunk 252 ---
+刻或时间区间内处于可执行规定功能状态的能力。
+
+--- Document Chunk 253 ---
+--- Page 11 ---
+
+--- Document Chunk 254 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 255 ---
+{ GB/T 21562一2008 ,术语与定义3.4]
+
+--- Document Chunk 256 ---
+3. 17
+
+--- Document Chunk 257 ---
+可维护性 maintainability
+
+--- Document Chunk 258 ---
+在规定的条件下 ,使用规定的程序和资源进行维修时 ,对
+
+--- Document Chunk 259 ---
+条件下的产品在规定的时间区间内 ,能完成指定的实际维修了
+
+--- Document Chunk 260 ---
+于给定使用
+
+--- Document Chunk 261 ---
+[ GB/T 21562一2008 ,术语与定义3.20]
+
+--- Document Chunk 262 ---
+3. 18
+
+--- Document Chunk 263 ---
+安全性safety
+
+--- Document Chunk 264 ---
+免除不可接受的风险影响的特性。
+
+--- Document Chunk 265 ---
+[ GB/T 21562—2008 ,术语点
+
+--- Document Chunk 266 ---
+4 缩略语
+
+--- Document Chunk 267 ---
+AM:列车自动芍             i    i    va g Mode)
+
+--- Document Chunk 268 ---
+ATP : 37 Fh DAE
+
+--- Document Chunk 269 ---
+ATS FE 4 SUE ag
+
+--- Document Chunk 270 ---
+CBTC ; SEF 38 15 AY FIRS          ayOn Based Train
+
+--- Document Chunk 271 ---
+CM;  fee AL AE Bh Code Train Operating Mode)
+
+--- Document Chunk 272 ---
+MA :移动授权(Movement Authority )
+
+--- Document Chunk 273 ---
+MMI:人机交互界面(Man Machine Interface)
+
+--- Document Chunk 274 ---
+MTBF :平均故障间隔时间(Mean Time Between Failures)
+
+--- Document Chunk 275 ---
+MTTR :平均修复时间(Mean Time To Repair)
+
+--- Document Chunk 276 ---
+RM :限制人工驾驶模式(Restricted Train Operating Mode)
+
+--- Document Chunk 277 ---
+SIL:安全完整性等级(Safety Integrity Level)
+
+--- Document Chunk 278 ---
+TMS :列车管理系统(Train Management System)
+
+--- Document Chunk 279 ---
+[作的能力。
+
+--- Document Chunk 280 ---
+--- Page 12 ---
+
+--- Document Chunk 281 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 282 ---
+5 一般要求
+
+--- Document Chunk 283 ---
+5.1 ATP子系统应确保列车的安全运行,实现列车运行间隔控制 .超速
+
+--- Document Chunk 284 ---
+防护和车门监控等功能,包括 ATP 车载设备.ATP I
+
+--- Document Chunk 285 ---
+5.2 ATP 车载设备应满足24 h 运营的要求,ATP 地面设备应满足每周
+
+--- Document Chunk 286 ---
+7 天每天 24 h 不间断运营的要求。
+
+--- Document Chunk 287 ---
+5.3 ATP 车载设备配置要求:每列车宜头尾两端各设一套 ATP 车载设
+
+--- Document Chunk 288 ---
+备。当列车两端各设置一套三取二或二乘二取二安全计算机平台构成的
+
+--- Document Chunk 289 ---
+ATP 车载设备时,则车头、车尾可不考虑宛余,否则头尾两端车载设备应
+
+--- Document Chunk 290 ---
+满足元余的要求。
+
+--- Document Chunk 291 ---
+5.4 在司机控制台上应设置车载信号设备的人机界面显示器和司机操
+
+--- Document Chunk 292 ---
+作的按钮和指示灯,人机界面的显示器应采用 LCD 彩色显示屏,最低分
+
+--- Document Chunk 293 ---
+BERBER 640 x480 像素。
+
+--- Document Chunk 294 ---
+5.5 ATP 车载设备的开关、按钮及表示灯包括:
+
+--- Document Chunk 295 ---
+a) 驾驶模式转换开关或按钮;
+
+--- Document Chunk 296 ---
+b) 自动折返按钮及表示灯;
+
+--- Document Chunk 297 ---
+c) 确认按钮;
+
+--- Document Chunk 298 ---
+d) 车载设备切除开关。
+
+--- Document Chunk 299 ---
+5.6 ATP子系统应适应不同方向、固定编组列车的运行。
+
+--- Document Chunk 300 ---
+5.7 ATP子系统可适应不同方向,不同编组列车的混合运行。
+
+--- Document Chunk 301 ---
+5.8 ATP子系统应适应不同车辆性能的列车共线运行。
+
+--- Document Chunk 302 ---
+5.9 ATP 地面设备宜采用列车位置报告和列车占用检测设备的元余方
+
+--- Document Chunk 303 ---
+式获得列车位置 ,以满足系统正常及降级运用的要求。
+
+--- Document Chunk 304 ---
+5. 10 ATP 车载设备在不同的 ATP 地面设备控制区域间切换应不影响
+
+--- Document Chunk 305 ---
+列车正常运行。
+
+--- Document Chunk 306 ---
+5.11 ATP 子系统应满足连续通信的列车控制点式列车控制、联锁控
+
+--- Document Chunk 307 ---
+制三种级别的要求:
+
+--- Document Chunk 308 ---
+a) “连续通信的列车控制级别(CBTC RH) 为信号系统的正常控制方
+
+--- Document Chunk 309 ---
+式,应基于移动闭塞原理,采用连续速度曲线控制方式,实时监督列
+
+--- Document Chunk 310 ---
+--- Page 13 ---
+
+--- Document Chunk 311 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 312 ---
+车运行;
+
+--- Document Chunk 313 ---
+b) 点式列车控制级别(点式级别) 为信号系统的降级控制方式,应
+
+--- Document Chunk 314 ---
+基于固定闭塞原理,采用连续速度曲线控制方式,实时监督列
+
+--- Document Chunk 315 ---
+车运行;
+
+--- Document Chunk 316 ---
+c) 联锁控制级别(联锁级别) 为信号系统的降级控制方式,ATP 车
+
+--- Document Chunk 317 ---
+载设备应提供限制人工驾驶下的速度防护功能。
+
+--- Document Chunk 318 ---
+5. 12 ATP 车载设备应至少支持限制 RM BSC ATP 防护下的 CM 模式，
+
+--- Document Chunk 319 ---
+如果装备 ATO 设备的,还应支持 AM 模式。
+
+--- Document Chunk 320 ---
+5. 13 ATP 车载设备应与车辆电路一起提供设备切除功能(非限制人工
+
+--- Document Chunk 321 ---
+鸭驶模式) ,此时 ATP 自动防护设备被切除,ATP 车载设备不对列车运行
+
+--- Document Chunk 322 ---
+进行防护 ,司机按操作规程驾驶列车运行。
+
+--- Document Chunk 323 ---
+5.14 ATP子系统应具备无人自动折返功能。
+
+--- Document Chunk 324 ---
+5.15 在具有列车作业方式的车辆段/停车场,ATP 子系统应提供超速
+
+--- Document Chunk 325 ---
+防护功能。
+
+--- Document Chunk 326 ---
+5. 16 ATP/ATO 车载设备和 ATP 地面设备应具备与 ATS 校核时钟的
+
+--- Document Chunk 327 ---
+能力。
+
+--- Document Chunk 328 ---
+5. 17 ATP 车载设备严禁超出车辆限界,ATP 地面设备严禁侵入设备
+
+--- Document Chunk 329 ---
+限界。
+
+--- Document Chunk 330 ---
+6 KR
+
+--- Document Chunk 331 ---
+6.1 ATP/ATO 车载设备应满足 CB/T 25119—2010 中第 4 章“环境条
+
+--- Document Chunk 332 ---
+TE” BEAR
+
+--- Document Chunk 333 ---
+6.2 ATP/ATO 车载设备应满足 GBXT 21563 的要求。
+
+--- Document Chunk 334 ---
+6.3 ATP/ATO 车载设备的 IP 防护等级要求分以下三类:
+
+--- Document Chunk 335 ---
+a) 安装在车体内部设计了车载机柜的 ATP/ATO 车载设备 耳 防护
+
+--- Document Chunk 336 ---
+等级应不低于 IP50;
+
+--- Document Chunk 337 ---
+b) 安装在司机室驾驶台上的 MMI 设备 IP 防护等级应不低
+
+--- Document Chunk 338 ---
+于 IP32;
+
+--- Document Chunk 339 ---
+c) 安装在车体外部的 ATP/ATO 车载设备 中 防护等级应不低
+
+--- Document Chunk 340 ---
+7
+
+--- Document Chunk 341 ---
+--- Page 14 ---
+
+--- Document Chunk 342 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 343 ---
+于 IP65。
+
+--- Document Chunk 344 ---
+6.4 ATP 地面设备应不低于 TB/T 2953一2015 中第 3 类产品的要求。
+
+--- Document Chunk 345 ---
+6.5 ATP 地面设备应满足 TBZT 2846 中的相关要求。
+
+--- Document Chunk 346 ---
+6.6 ATP子系统运用于特殊环境条件时,应保证 ATP 子系统在相应地
+
+--- Document Chunk 347 ---
+区的环境条件下安全可靠地运行,或采取必要的附加措施保证 ATP 子系
+
+--- Document Chunk 348 ---
+统安全可靠了运行。
+
+--- Document Chunk 349 ---
+7 性能要求
+
+--- Document Chunk 350 ---
+7.1 安全性要求
+
+--- Document Chunk 351 ---
+7.1.1 ATP子系统中完成与行车安全功能相关的设备应满足 SIL4 级要
+
+--- Document Chunk 352 ---
+7.1.2 ATP子系统应符合政障一安全原则。
+
+--- Document Chunk 353 ---
+7.1.3 ATP子系统应采用二乘二取二或三取二安全宛余结构,二乘二
+
+--- Document Chunk 354 ---
+取二或三取二宛余结构的定义应符合 GB/T 20438. 6 的要求。
+
+--- Document Chunk 355 ---
+7.1.4 与ATP子系统进行的安全信息传输应满足 GBT 24339. 1 及
+
+--- Document Chunk 356 ---
+GB/T 24339. 2 的要求。
+
+--- Document Chunk 357 ---
+7.2 可靠性.可用性要求
+
+--- Document Chunk 358 ---
+7.2.1 ATP 车载设备平均故障间隔时间应满足:MTBF>10: h。
+
+--- Document Chunk 359 ---
+7.2.2 ATP 地面设备平均故障间隔时间应满足:MTBF>>10  h。
+
+--- Document Chunk 360 ---
+7.2.3 ATP子系统可用人性应不小于 99. 99%,
+
+--- Document Chunk 361 ---
+7
+
+--- Document Chunk 362 ---
+7
+
+--- Document Chunk 363 ---
+7
+
+--- Document Chunk 364 ---
+.2.4 ATP子系统的设计寿命为15 年。
+
+--- Document Chunk 365 ---
+可维护性要求
+
+--- Document Chunk 366 ---
+-3.1 ATP子系统应具有自诊断或远程诊断能力, 以减少系统平均修
+
+--- Document Chunk 367 ---
+复时间(MTTR ) 。
+
+--- Document Chunk 368 ---
+7.3.2 按照设备所在地点划分,平均修复时间要求为:
+
+--- Document Chunk 369 ---
+a) ATP 车载设备的平均修复时间:MTTR反30 min;
+
+--- Document Chunk 370 ---
+b) 安装在车站的 ATP 地面设备的平均修复时间 sMTTR <45 min;
+
+--- Document Chunk 371 ---
+c) 安装在轨旁的 ATP 地面设备的平均修复时间 :MTTR<4 h。
+
+--- Document Chunk 372 ---
+7.3.3 ATP子系统应能提供数据记录功能,记录的数据应能反映系统
+
+--- Document Chunk 373 ---
+8
+
+--- Document Chunk 374 ---
+WNNN DN
+
+--- Document Chunk 375 ---
+--- Page 15 ---
+
+--- Document Chunk 376 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 377 ---
+运行状况。记录的内容包括事件的时间和日期,数据记录时间要求见附
+
+--- Document Chunk 378 ---
+om A 中表A.1。
+
+--- Document Chunk 379 ---
+7.3.4
+
+--- Document Chunk 380 ---
+ATP 子系统的记录数据应可直接或通过外接 PC SC BN I BIE
+
+--- Document Chunk 381 ---
+他可读格式输出和打印 ,并可按要求传送至车站及控制中心 ATS 或其他
+
+--- Document Chunk 382 ---
+子系统。
+
+--- Document Chunk 383 ---
+7.4 追踪间隔时间和旅行速度要求
+
+--- Document Chunk 384 ---
+对应特定线路与特定列车的设计追踪间踊时间和设计旅行速度应考
+
+--- Document Chunk 385 ---
+虑下列因素:
+
+--- Document Chunk 386 ---
+a)
+
+--- Document Chunk 387 ---
+b)
+
+--- Document Chunk 388 ---
+ce)
+
+--- Document Chunk 389 ---
+d)
+
+--- Document Chunk 390 ---
+e)
+
+--- Document Chunk 391 ---
+ip)
+
+--- Document Chunk 392 ---
+8)
+
+--- Document Chunk 393 ---
+h)
+
+--- Document Chunk 394 ---
+i)
+
+--- Document Chunk 395 ---
+j)
+
+--- Document Chunk 396 ---
+a
+
+--- Document Chunk 397 ---
+性
+
+--- Document Chunk 398 ---
+.1
+
+--- Document Chunk 399 ---
+a)
+
+--- Document Chunk 400 ---
+a
+
+--- Document Chunk 401 ---
+b)
+
+--- Document Chunk 402 ---
+c)
+
+--- Document Chunk 403 ---
+线路配线;
+
+--- Document Chunk 404 ---
+列车参数， ay
+
+--- Document Chunk 405 ---
+WE SE Bae SF itd
+
+--- Document Chunk 406 ---
+=
+
+--- Document Chunk 407 ---
+司机反应
+
+--- Document Chunk 408 ---
+令或状态信息的传输时全
+
+--- Document Chunk 409 ---
+ATP 子系统响应时间 ,包括位置报告更新后生成新的移动授权
+
+--- Document Chunk 410 ---
+所需时间、对应联锁条件生成新的移动授权所需时间、移动授
+
+--- Document Chunk 411 ---
+权更新后对应生成新的速度-距离曲线所需时间等。
+
+--- Document Chunk 412 ---
+能指标
+
+--- Document Chunk 413 ---
+装备 ATP 车载设备的列车自动控制系统的主要响应时间要求 :
+
+--- Document Chunk 414 ---
+控制命令的反应时间 ,即命令发出至被控系统开始执行的时间
+
+--- Document Chunk 415 ---
+应小于或等于1 s;
+
+--- Document Chunk 416 ---
+车载信号设备自接收到地面信息至完成处理的时间应小于或
+
+--- Document Chunk 417 ---
+等于0.75 s;
+
+--- Document Chunk 418 ---
+当车载信号设备识别到涉及行车安全的系统故障时 ,应立即发
+
+--- Document Chunk 419 ---
+9
+
+--- Document Chunk 420 ---
+可
+
+--- Document Chunk 421 ---
+--- Page 16 ---
+
+--- Document Chunk 422 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 423 ---
+8 WHER
+
+--- Document Chunk 424 ---
+出紧急制动命令,且延时应小于或等于0.75 s。
+
+--- Document Chunk 425 ---
+7.5.2 ATP 车载设备上电启动时间应小于 60 s。
+
+--- Document Chunk 426 ---
+8.1 列车速度和位置测定
+
+--- Document Chunk 427 ---
+8.1.1
+
+--- Document Chunk 428 ---
+ATP 子系统在 CBTC 区域内应能
+
+--- Document Chunk 429 ---
+列车两端的位置) 和运行方向。
+
+--- Document Chunk 430 ---
+8.1.2 ATP 车载设备应采
+
+--- Document Chunk 431 ---
+相互校验 ,并实行断路检查。
+
+--- Document Chunk 432 ---
+8.1.3 ATP子系统的测速分辩率和精度指标应符合附录 A 中表 A. 1 的
+
+--- Document Chunk 433 ---
+要求。
+
+--- Document Chunk 434 ---
+8.1.4
+
+--- Document Chunk 435 ---
+AS Hf 3) AY REA A
+
+--- Document Chunk 436 ---
+元余方式的测速系统,速度信息的输出应
+
+--- Document Chunk 437 ---
+列车进入 CBTC 区域或从故障状态恢复时,ATP 车载设备应能通
+
+--- Document Chunk 438 ---
+过读取应答器信息来自动初始化定位。
+
+--- Document Chunk 439 ---
+8.1.5 ATP 车载设备应具有空转、打滑检测功能,以及列车速度和位置
+
+--- Document Chunk 440 ---
+测量误差修正功能。
+
+--- Document Chunk 441 ---
+8.1.6 应答器的配置应满足系统无故障时的以下要求:
+
+--- Document Chunk 442 ---
+a) 在由转换轨进和人正线前,ATP 车载设备应完成列车速度/列车
+
+--- Document Chunk 443 ---
+位置的测定;
+
+--- Document Chunk 444 ---
+b) 在由联络线进人本线路运营前,ATP 车载设备应完成列车速
+
+--- Document Chunk 445 ---
+度/列车位置的测定;
+
+--- Document Chunk 446 ---
+c) 在车站站台、正线停车线进人正线前,ATP 车载设备应完成列
+
+--- Document Chunk 447 ---
+车速度/列车位置的测定;
+
+--- Document Chunk 448 ---
+d) “在点式列车控制级别下 ,保证列车读取可变应答器的信号显示
+
+--- Document Chunk 449 ---
+与地面信号显示一致;
+
+--- Document Chunk 450 ---
+e) 在分歧线路处实现列车重定位。
+
+--- Document Chunk 451 ---
+8. 1.7 采用车轮转动来测量列车速度/位置时,ATP 车载设备宜具备自
+
+--- Document Chunk 452 ---
+动轮径补偿功能。
+
+--- Document Chunk 453 ---
+8.1.8 ATP 车载设备应具有零速度检测功能,零速度检测的标准值应
+
+--- Document Chunk 454 ---
+符合附录 A
+
+--- Document Chunk 455 ---
+10
+
+--- Document Chunk 456 ---
+P表 4A. 1 的要求。
+
+--- Document Chunk 457 ---
+--- Page 17 ---
+
+--- Document Chunk 458 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 459 ---
+8.2 ”列车安全制动曲线计算
+
+--- Document Chunk 460 ---
+8.2.1 ATP子系统应采用连续的速度-距离曲线列车安全制动模型 ,实
+
+--- Document Chunk 461 ---
+现列车速度控制 ,防止列车超速 ,确保追踪列车之间的安全行车间隔。
+
+--- Document Chunk 462 ---
+8. 2.2 列车安全制动模型应包括下列因素 :
+
+--- Document Chunk 463 ---
+a) 前行列车位置及不确定性;
+
+--- Document Chunk 464 ---
+b) 本车位置及不确定性;
+
+--- Document Chunk 465 ---
+c) 列车长度;
+
+--- Document Chunk 466 ---
+d) 列车编组;
+
+--- Document Chunk 467 ---
+e) ATP 车载设备测速误差;
+
+--- Document Chunk 468 ---
+f) ATP 车载设备响应时间;
+
+--- Document Chunk 469 ---
+gs) 设备间通信延迟;
+
+--- Document Chunk 470 ---
+h) 列车的最大加速度;
+
+--- Document Chunk 471 ---
+i) ATP 车载设备检测到超速时,车辆从切除牵引到紧急制动施加
+
+--- Document Chunk 472 ---
+并生效前的最大响应时间;
+
+--- Document Chunk 473 ---
+j) 列车可保证的紧急制动率;
+
+--- Document Chunk 474 ---
+k) 线路坡度。
+
+--- Document Chunk 475 ---
+8.2.3 列车安全制动模型的参数和接口形式应结合具体 ATP 子系统应
+
+--- Document Chunk 476 ---
+用工程确定 ,应为不同列车结构,性能指标及运营管理模式配备不同的参
+
+--- Document Chunk 477 ---
+数或接口形式。
+
+--- Document Chunk 478 ---
+8.2.4 采用 ATP 车载设备防护的列车应不超过限制速度和移动授权
+
+--- Document Chunk 479 ---
+终点。
+
+--- Document Chunk 480 ---
+8. 2.5 ATP 车载设备实施紧急制动时 ,列车停车前中途不得缓解。
+
+--- Document Chunk 481 ---
+8. 2.6 ATP 车载设备实施紧急制动停车后,如果导致列车紧急制动的
+
+--- Document Chunk 482 ---
+原因已解除 ,则紧急制动宜能自动缓解。
+
+--- Document Chunk 483 ---
+8.3 管理临时限速
+
+--- Document Chunk 484 ---
+8.3.1 ATP子系统应支持 ATS 设置和取消临时限速 ,并能够自动存储
+
+--- Document Chunk 485 ---
+临时限速信息。
+
+--- Document Chunk 486 ---
+8.3.2 ATP 车载设备工作在 CBTC 级别时,应保证列车在通过临时限速
+
+--- Document Chunk 487 ---
+区域范围时的速度不超过临时限速值的要求。
+
+--- Document Chunk 488 ---
+11
+
+--- Document Chunk 489 ---
+--- Page 18 ---
+
+--- Document Chunk 490 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 491 ---
+8.3.3 负责临时限速管理的 ATP 地面设备应保持与 ATS 连续通信。
+
+--- Document Chunk 492 ---
+8.3.4 负责临时限速管理的 ATP 地面设备重启后,应与 ATS 通信,要
+
+--- Document Chunk 493 ---
+求人工在 ATS 上对设备存储的限速值或上电后默认设置的初始限速值
+
+--- Document Chunk 494 ---
+进行确认后,ATP 也面设备的临时限速功能方可投入正常工作。
+
+--- Document Chunk 495 ---
+8.4 处理 MA
+
+--- Document Chunk 496 ---
+8.4.1 MA应根据下列因素确定 :
+
+--- Document Chunk 497 ---
+a) 列车位置和运行方向;
+
+--- Document Chunk 498 ---
+态 .信号机状态;
+
+--- Document Chunk 499 ---
+c) 前方装备 ATP 车载设备列车的尾部最不利位置;
+
+--- Document Chunk 500 ---
+d) BAAR ATP 车载设备的列车或 ATP 车载设备失效的列车
+
+--- Document Chunk 501 ---
+所占用区域的边界及最不利条件下的列车尾部位置;
+
+--- Document Chunk 502 ---
+ec) 周定闭塞和准移动闭塞下 ,闭塞分区的边界;
+
+--- Document Chunk 503 ---
+f) 《站台紧急关闭状态和站台门状态;
+
+--- Document Chunk 504 ---
+g) 车挡前端;
+
+--- Document Chunk 505 ---
+h) 封锁的轨道区段边界。
+
+--- Document Chunk 506 ---
+8.4.2 ATP地面设备应周期性计算并向 ATP 车载设备发送移动授权。
+
+--- Document Chunk 507 ---
+8.4.3 列车升级为CBTC 级别前,ATP 地面设备应能确定列车前方移动
+
+--- Document Chunk 508 ---
+授权范围内没有其他列车。
+
+--- Document Chunk 509 ---
+8.4.4 如果ATP 车载设备接收到的移动授权突然网撤时,列车速
+
+--- Document Chunk 510 ---
+越了新的速度-距离曲线速度,则 ATP 车载设备应立 waniabe
+
+--- Document Chunk 511 ---
+8.4.5 点式列车控制级别下 ,在列车运行过程中:
+
+--- Document Chunk 512 ---
+a) 当ATP 车载设备接收到的移动授权信息没有时效性时,ATP 车
+
+--- Document Chunk 513 ---
+载设备收到的移动授权应持续有效 ,直到收到下一个移动授权
+
+--- Document Chunk 514 ---
+lk;
+
+--- Document Chunk 515 ---
+b) 4 ATP 车载设备接收到的移动授权信息具有时效性时,移动授
+
+--- Document Chunk 516 ---
+权有效时间的设置不应影响列车的正常运行。
+
+--- Document Chunk 517 ---
+8.4.6 CBTC 列车控制级别下 ,在列车运行过程中:
+
+--- Document Chunk 518 ---
+a) ATP 4: ik & Iie xt BEM BAY EAL ATP 多面设备的包括移动授
+
+--- Document Chunk 519 ---
+12
+
+--- Document Chunk 520 ---
+--- Page 19 ---
+
+--- Document Chunk 521 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 522 ---
+权的信息进行时效性判断,如超过了所规定的时间 ,ATP 车载
+
+--- Document Chunk 523 ---
+设备应采取导向安全的措施;
+
+--- Document Chunk 524 ---
+b) ATP 地面设备应对接收到的来自 ATP 车载设备的包括位置汇
+
+--- Document Chunk 525 ---
+报的信息进行时效性判断,如超过了所规定的时间,ATP 地面
+
+--- Document Chunk 526 ---
+设备应采取导向安全的措施。
+
+--- Document Chunk 527 ---
+8.5 超速防护
+
+--- Document Chunk 528 ---
+8. 5.1 ATP 车载设备应根据安全制动模型和限制速度计算速度-距离
+
+--- Document Chunk 529 ---
+线,并实时监督列车运行。当测定的列车速度超过速度-距离曲线速度
+
+--- Document Chunk 530 ---
+时,ATP 车载设备应立 即实施制动， 以保证列车安全间隔。
+
+--- Document Chunk 531 ---
+8.5.2 ATP 限制速度应按下有    有Ps芝格的限制条件确定 :
+
+--- Document Chunk 532 ---
+a) 线路限速;
+
+--- Document Chunk 533 ---
+b) 临时限速;  zr
+
+--- Document Chunk 534 ---
+c) FUER Ale
+
+--- Document Chunk 535 ---
+d) 45 ATP 车             7]        ip
+
+--- Document Chunk 536 ---
+e) PRIEF 4 HVE    ra     wee (E   区段的限制
+
+--- Document Chunk 537 ---
+速度;
+
+--- Document Chunk 538 ---
+£) (RIED! OR SQ UBeNER BE DX Be BL ANGE  K   区段的限制
+
+--- Document Chunk 539 ---
+速度;
+
+--- Document Chunk 540 ---
+g) FRIED AE TER Ee RE
+
+--- Document Chunk 541 ---
+8.5.3 当列车进站停车时,ATP 子系统应保证列车头部进入有效站台
+
+--- Document Chunk 542 ---
+时的速度不超过站人台的限制速度;列车出站过程中,ATP 子系统应保证列
+
+--- Document Chunk 543 ---
+车尾部离开有效站台前的速度不超过站台的限制速度。
+
+--- Document Chunk 544 ---
+8.6 红灯误出发防护
+
+--- Document Chunk 545 ---
+8. 6.1 当列车在信号机前停车点停车时,在确认前方信号开放前,ATP
+
+--- Document Chunk 546 ---
+车载设备应禁止列车移动。其中,CBTC 控制级别下,ATP 车载设备应自
+
+--- Document Chunk 547 ---
+动确认
+
+--- Document Chunk 548 ---
+确认前
+
+--- Document Chunk 549 ---
+8.6.2
+
+--- Document Chunk 550 ---
+备宜能连
+
+--- Document Chunk 551 ---
+前方信号状态;点式控制级别下,ATP 车载设备可自动或人工方式
+
+--- Document Chunk 552 ---
+方信号状态。
+
+--- Document Chunk 553 ---
+点式控制级别下 ,当列车在站台运营停车点停车时,ATP 车载设
+
+--- Document Chunk 554 ---
+办续接收前方地面信号状态信息 ,以保证列车安全。
+
+--- Document Chunk 555 ---
+13
+
+--- Document Chunk 556 ---
+--- Page 20 ---
+
+--- Document Chunk 557 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 558 ---
+8. 6.3 点式控制级别下,对于无法通过连续通信获得前方地面信号状
+
+--- Document Chunk 559 ---
+态信息的信号机前,列车可在人工确认前方信号开放后转到点式开口防
+
+--- Document Chunk 560 ---
+护状态下运行。
+
+--- Document Chunk 561 ---
+8.7 安全间隔防护
+
+--- Document Chunk 562 ---
+8.7.1 对CBTC区域内的所有列车都应进行列车安全分隔。
+
+--- Document Chunk 563 ---
+8.7.2 ATP 子系统应根据线路数据和 CI 子系统提供的列车进路等信
+
+--- Document Chunk 564 ---
+息确定相应列车的运行权限,并保证前行列车和追踪列车间的安全间隔。
+
+--- Document Chunk 565 ---
+8.7.3 ATP子系统应连续.自动地对轨道占用/空闲状态及列车位置进
+
+--- Document Chunk 566 ---
+行检测 ,保证系统对列车进路的安全控制和对列车运行速度及间隔的安
+
+--- Document Chunk 567 ---
+全控制 。
+
+--- Document Chunk 568 ---
+8.7.4 在CBTC 级别下,应基于前行列车瞬时停车(撞硬墙) 的原则实
+
+--- Document Chunk 569 ---
+现装备 ATP 车载设备列车的安全分隔。
+
+--- Document Chunk 570 ---
+8.7.5 当正线上运行列车故障时,ATP 子系统应允许后续列车以限制
+
+--- Document Chunk 571 ---
+人工驾驶模式接近故障列车实施救援, ATP 地面设备应对后续追踪
+
+--- Document Chunk 572 ---
+CBTC 列车实施安全运营保护。
+
+--- Document Chunk 573 ---
+8.7.6 混合模式运行时安全间隔防护:
+
+--- Document Chunk 574 ---
+a) “对于未装备 ATP 车载设备或 ATP 车载设备故障的列车 ,其安全
+
+--- Document Chunk 575 ---
+间隔防护可通过地面列车占用检测设备或遵照由运营部门规
+
+--- Document Chunk 576 ---
+定的操作程序来实现;
+
+--- Document Chunk 577 ---
+a) 前方列车未安装 ATP 车载设备或 ATP 车载设备故障时,ATP 地
+
+--- Document Chunk 578 ---
+面设备给后续 CBTC 级别列车的移动授权应至少限制到前方列
+
+--- Document Chunk 579 ---
+车所在区域的边界及最不利条件下的列车尾部位置 ,宜限制到
+
+--- Document Chunk 580 ---
+与前方列车间隔一个占用检测设备空闲区段所在区域的边
+
+--- Document Chunk 581 ---
+界处。
+
+--- Document Chunk 582 ---
+8.7.7 ATP子系统应防护列车在最大坡道及任何负载情况下的退行或
+
+--- Document Chunk 583 ---
+Jai.
+
+--- Document Chunk 584 ---
+8.7.8 当设置站台扣车命令时,CI子系统可关闭出站信号机,此时 ATP
+
+--- Document Chunk 585 ---
+地面设备应保证不向列车发送人允许列车出站运行的移动授权;列车在进
+
+--- Document Chunk 586 ---
+站过程中设置扣车命令时 ,应不影响列车正常进站。
+
+--- Document Chunk 587 ---
+14
+
+--- Document Chunk 588 ---
+--- Page 21 ---
+
+--- Document Chunk 589 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 590 ---
+8.7.9 ATP子系统应按相关条件要求,仅在车站站台门关闭且锁闭(站
+
+--- Document Chunk 591 ---
+台门互锁解除时除外)、紧急停车按钮未按下时允许列车进入站台停车。
+
+--- Document Chunk 592 ---
+8.7.10 ATP子系统宜在移动授权满足列车完全出站的条件下才允许
+
+--- Document Chunk 593 ---
+列车驶离站台。
+
+--- Document Chunk 594 ---
+8.8 退行防护
+
+--- Document Chunk 595 ---
+ATP 车载设备应监督实际列车行驶方向,当退行距离或退行速度超
+
+--- Document Chunk 596 ---
+过容许量时,系统应产生报警并立即采取紧急制动。退行防护应符合附
+
+--- Document Chunk 597 ---
+录 A 中表 A. 1 的要求。
+
+--- Document Chunk 598 ---
+8.9 列车完整性监督
+
+--- Document Chunk 599 ---
+8.9.1 ATP子系统应连续监督从车辆接口获得的列车完整性信息 ,当
+
+--- Document Chunk 600 ---
+列车完整性丢失时,ATP 车载设备应实施紧急制动 ,并在车载人机界面上
+
+--- Document Chunk 601 ---
+提示 。
+
+--- Document Chunk 602 ---
+8. 9.2 ATP 车载设备检测到列车完整性丢失后 ,在故障修复前应不允
+
+--- Document Chunk 603 ---
+许列车继续运行。
+
+--- Document Chunk 604 ---
+8.10 CBTC 控制级别建立
+
+--- Document Chunk 605 ---
+8. 10.1 在进入CBTC 区域前,ATP子系统应获得 CBTC 区域边界信息。
+
+--- Document Chunk 606 ---
+8.10.2 列车进入 CBTC 区域应包含以下运行情形;
+
+--- Document Chunk 607 ---
+a) 列车出车辆段/停车场,从非设备区进入正线设备区转换轨;
+
+--- Document Chunk 608 ---
+b) 列车从正线故障区域进入非故障区域;
+
+--- Document Chunk 609 ---
+c) 列车从正线非设备区域进入设备区域;
+
+--- Document Chunk 610 ---
+d) 列车进入试车线试车。
+
+--- Document Chunk 611 ---
+8. 10.3 在进入CBTC 区域前,应对 ATP 子系统及相应的轨旁设备进行
+
+--- Document Chunk 612 ---
+检查,以验证是否满足进入 CBTC 区域的条件 ,并为操作维护人员提供检
+
+--- Document Chunk 613 ---
+查结果信息。检查的条件包括以下内容:
+
+--- Document Chunk 614 ---
+a) ATP 车载设备工作正常;
+
+--- Document Chunk 615 ---
+b) ATP 车载设备与车辆接口正常;
+
+--- Document Chunk 616 ---
+c) ATP 控制制动,牵引、车门逻辑正常;
+
+--- Document Chunk 617 ---
+d) 列车完整;
+
+--- Document Chunk 618 ---
+e) 车地通信正常。
+
+--- Document Chunk 619 ---
+15
+
+--- Document Chunk 620 ---
+--- Page 22 ---
+
+--- Document Chunk 621 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 622 ---
+8. 10.4 以调车作业方式出车辆段/停车场时,列车应在出车辆段/停车
+
+--- Document Chunk 623 ---
+场的转换轨处进行驾驶模式的转换,车载设备应自动或人工转换为 CM
+
+--- Document Chunk 624 ---
+驾驶模式或 AM 驾驶模式。
+
+--- Document Chunk 625 ---
+8. 10.5 以列车作业方式出车辆段/停车场时,若为升通 ATP 防护功能
+
+--- Document Chunk 626 ---
+的车辆段/停车场 ,列车可在由车辆段/停车场停车库线运行至车辆段/停
+
+--- Document Chunk 627 ---
+车场前进行驾驶模式的转换,车载设备应自动或人工转换为 CM 驾驶模
+
+--- Document Chunk 628 ---
+式或 AM 驾驶模式。
+
+--- Document Chunk 629 ---
+8. 10.6 列车自转换轨区段进入正线作业时,ATP 车载设备应能立即建
+
+--- Document Chunk 630 ---
+立和完成列车进入ATC 监控区的工作,ATP 车载设备升级 CBTC 控制级
+
+--- Document Chunk 631 ---
+别的条件应包括但不限于以下内容:
+
+--- Document Chunk 632 ---
+a) ATP 车载设备识别并确认列车位置;
+
+--- Document Chunk 633 ---
+b) 已预设或人工选择 CBTC 控制级别;
+
+--- Document Chunk 634 ---
+c) ATP 车载设备从 ATP 地面设备接收到 MA,
+
+--- Document Chunk 635 ---
+8. 10.7 装备 ATP 车载设备的列车在进入 CBTC 区域时可不停车升级
+
+--- Document Chunk 636 ---
+CBTC 控制级别。
+
+--- Document Chunk 637 ---
+8.11 列车退出 CBTC 区域
+
+--- Document Chunk 638 ---
+8.11.1 退出CBTC 区域之前(如进入车辆段/停车场前) ,ATP 子系统
+
+--- Document Chunk 639 ---
+应获得 CBTC 区域边界信息 ,并提前给出相应的指示 。
+
+--- Document Chunk 640 ---
+8.11.2 满足退出 CBTC 区域条件时,经司机确认后,ATP 车载设备可
+
+--- Document Chunk 641 ---
+转和人 RM 模式运行。
+
+--- Document Chunk 642 ---
+8.11.3 装备 ATP 车载设备的列车在退出 CBTC 区域时可不停车在人
+
+--- Document Chunk 643 ---
+工确认后退出 CBTC 控制级别。
+
+--- Document Chunk 644 ---
+8.12 ”开门防护
+
+--- Document Chunk 645 ---
+8. 12.1 CM 模式和ANM 模式下,ATP 车载设备应检查下面的条件全部
+
+--- Document Chunk 646 ---
+满足后才能允许打开规定侧的车门:
+
+--- Document Chunk 647 ---
+a) 列车以规定停车精度在车站内指定的停车点停车;
+
+--- Document Chunk 648 ---
+b) 检测到零速度信息。
+
+--- Document Chunk 649 ---
+8.12.2 CM 模式和AM 模式下,ATP 车载设备宜检查列车处于制动状
+
+--- Document Chunk 650 ---
+态(含保持制动或紧急制动)后才允许打开规定侧车门。
+
+--- Document Chunk 651 ---
+16
+
+--- Document Chunk 652 ---
+--- Page 23 ---
+
+--- Document Chunk 653 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 654 ---
+8. 13 车门状态监控
+
+--- Document Chunk 655 ---
+8. 13.1 ATP 车载设备应监控车门的开启和关闭状态。
+
+--- Document Chunk 656 ---
+8. 13.2 CM 模式和AM 异式下 ,列车运行过程中,若检测到车门不为关
+
+--- Document Chunk 657 ---
+闭且锁闭状态,ATP 可采取下列措施之一:
+
+--- Document Chunk 658 ---
+a) 实施紧急制动;
+
+--- Document Chunk 659 ---
+b) 切除牵引,但不实施制动;
+
+--- Document Chunk 660 ---
+c) 不切除牵引,也不实施制动 ,列车运行至下一站。
+
+--- Document Chunk 661 ---
+8. 13.3 CM 模式和 AM 模式下 ,车门关闭日锁闵后才允洗列车自车站
+
+--- Document Chunk 662 ---
+启动发车( 车门旁路时除外) 。
+
+--- Document Chunk 663 ---
+8.13.4 RM 模式列车运行过理     ‘IRA RET IE I. eee
+
+--- Document Chunk 664 ---
+WHENAH KA A BGO EN m2
+
+--- Document Chunk 665 ---
+急制动。
+
+--- Document Chunk 666 ---
+8. 14 ”站台门监控
+
+--- Document Chunk 667 ---
+8.14.1                                                系统应持续检查站
+
+--- Document Chunk 668 ---
+台门是否处于关闭                        有除外) ,并符合以下
+
+--- Document Chunk 669 ---
+a)                                  统应禁止列车进入、
+
+--- Document Chunk 670 ---
+在站台   NE ERE ili 3 til BD 5
+
+--- Document Chunk 671 ---
+b) 站人台门正常的开关司     政已正常停车的列车实施紧急
+
+--- Document Chunk 672 ---
+制动。
+
+--- Document Chunk 673 ---
+8.14.2 CBTC 级别下,ATP 车载设备应提供站台门与列车车门的联动
+
+--- Document Chunk 674 ---
+功能;点式级别下,ATP 车载设备宜提供站人台门与列车车门的联动功能。
+
+--- Document Chunk 675 ---
+8. 14.3 ATP 车载设备应仅打开与站台规定侧的车门相对应的站人台门。
+
+--- Document Chunk 676 ---
+8.15 ”站台紧急停车按钮防护
+
+--- Document Chunk 677 ---
+8. 15. 1 ATP 子系统应监督站台紧急停车按钮的状态。
+
+--- Document Chunk 678 ---
+8. 15.2 当ATP 地面设备接收到站台紧急停车按钮被按下的信息时，
+
+--- Document Chunk 679 ---
+应通过车地通信设备向列车发送相应的列车控制命令信息,ATP 车载
+
+--- Document Chunk 680 ---
+设备应禁止列车进入.在站人台内移动和秽出站台,必要时应实施紧急
+
+--- Document Chunk 681 ---
+制动。
+
+--- Document Chunk 682 ---
+17
+
+--- Document Chunk 683 ---
+--- Page 24 ---
+
+--- Document Chunk 684 ---
+T/CAMET 04018, 1一2019
+
+--- Document Chunk 685 ---
+8.16 ”列车准备
+
+--- Document Chunk 686 ---
+8.16.1 ATP子系统应具有必要的自动检测能力及报警和表示
+
+--- Document Chunk 687 ---
+装置。
+
+--- Document Chunk 688 ---
+列车的非预期移动.ATP 地面设备故障.车载设备故障超过系统允许范
+
+--- Document Chunk 689 ---
+生紧急制动 。
+
+--- Document Chunk 690 ---
+围的车地通信中断等均应给出报警提示 ,与行车安全相关的故齐均应产
+
+--- Document Chunk 691 ---
+8. 16.2 ATP/ATO 车载设备应具有日检功能,日检应包含紧急制动测
+
+--- Document Chunk 692 ---
+试,宜包含无线状态检测 ,并宜提供车载广播测试信号。
+
+--- Document Chunk 693 ---
+8.17 ”驾驶模式管理
+
+--- Document Chunk 694 ---
+8. 17.1 ATP 车载设备应至少支持 RM Hest ATP 防护下的 CM 模
+
+--- Document Chunk 695 ---
+果装备 ATO 设备的,还应支持 AM 模式:
+
+--- Document Chunk 696 ---
+a) AM:司机监控下的列车自动运行模式;
+
+--- Document Chunk 697 ---
+b) CM:司机在列车自动防护设备监控下驾驶列车运行;
+
+--- Document Chunk 698 ---
+式,如
+
+--- Document Chunk 699 ---
+©) RM:在地面设备故障或未设地面信息设备的线路 ,列车按规定
+
+--- Document Chunk 700 ---
+限速运行 ,超速时实施制动 ,直至停车。
+
+--- Document Chunk 701 ---
+8.17.2 在RM 驾驶模式下,ATP 车载设备限制列车在固定的低速之下
+
+--- Document Chunk 702 ---
+运行,司机根据调度命令和地面信号显示营驶列车 ,列车运行超过该固定
+
+--- Document Chunk 703 ---
+的速度时,ATP 车载设备对列车实施紧急制动 ,强迫列车停车。
+
+--- Document Chunk 704 ---
+8. 17. 3 ”驾驶模式转换应符合下列规定:
+
+--- Document Chunk 705 ---
+a) “车辆段(场)未全部纳入 ATP 子系统监控时 ,应在 ATP 子系统
+
+--- Document Chunk 706 ---
+监控区域与非监控区域的分界处,设驾驶模式转换区。根据信
+
+--- Document Chunk 707 ---
+号系统的性能特点和运营需要,驾驶模式转换可自动或了
+
+--- Document Chunk 708 ---
+成。转换区的信号设备应与监控区域的信号设备一致。
+
+--- Document Chunk 709 ---
+和 动完
+
+--- Document Chunk 710 ---
+b) 在驾驶模式转换区域,ATP 车载设备人机界面上宜提供驾驶模
+
+--- Document Chunk 711 ---
+式转换的提示。
+
+--- Document Chunk 712 ---
+c) 蜀驶模式由低向高转换时 ,列车可不停车转换驾驶模式。
+
+--- Document Chunk 713 ---
+d) AM 模式下,ATP 车载设备应监督 ATO 设备的运行状态
+
+--- Document Chunk 714 ---
+满足自动驾驶条件时应自动退出 AM 模式并进行提示 ,必要时
+
+--- Document Chunk 715 ---
+实施紧急制动。
+
+--- Document Chunk 716 ---
+e) 由AMZCM 模式向 RM 模式转换时 ,应在列车停车,由司机确认
+
+--- Document Chunk 717 ---
+18
+
+--- Document Chunk 718 ---
+--- Page 25 ---
+
+--- Document Chunk 719 ---
+T/CAMET 04018, 1一2019
+
+--- Document Chunk 720 ---
+后转换驾驶模式;但在退出 CBTC 区域时,除非运营需要,可不
+
+--- Document Chunk 721 ---
+停车由司机确认后转换为 RM 模式。
+
+--- Document Chunk 722 ---
+8.17.4 四驶模式转换应予记录或表示。
+
+--- Document Chunk 723 ---
+8. 18 通信状态监督和故障处理
+
+--- Document Chunk 724 ---
+8. 18.1 ATP子系统应具有通信状态监督功能,在通信故障后 ,应
+
+--- Document Chunk 725 ---
+报警并保证导向安全侧:
+
+--- Document Chunk 726 ---
+a) ATP 车载设备与 ATP 地面设备互相监督之间的通信状态;
+
+--- Document Chunk 727 ---
+b) ATP 地面设备应监督其与 CI 的通信状态;
+
+--- Document Chunk 728 ---
+c) ATP 地面设备应监督其与相邻 ATP 地面设备的通信状态。
+
+--- Document Chunk 729 ---
+8. 18.2 当采用计轴设备作为列车占用检测设备时,计轴设备故障或计
+
+--- Document Chunk 730 ---
+轴数据传输发生错误时,ATP 子系统能确定的计轴设备改障应不影响
+
+--- Document Chunk 731 ---
+CBTC 级别列车的正常运营。
+
+--- Document Chunk 732 ---
+8. 18.3 当某一区域的 ATP 地面设备故障时,ATP 车载设备应产生报警
+
+--- Document Chunk 733 ---
+并紧急制动列车 ,司机应将驾驶模式转换为 RM 轰驶模式 ,并按地面信号
+
+--- Document Chunk 734 ---
+显示人工驾驶列车运行。
+
+--- Document Chunk 735 ---
+8.18.4 当列车越过车地通信故障区段后,通过车地通信设备收到可靠
+
+--- Document Chunk 736 ---
+的移动授权信息,且列车测速/定位功能正常,ATP 车载设备应提示司机，
+
+--- Document Chunk 737 ---
+司机可在停车/不停车的情况下将列车升级到 CBTC 级别以 CM 模式或
+
+--- Document Chunk 738 ---
+AM 模式运行。
+
+--- Document Chunk 739 ---
+8. 18.5 ATP 车载设备故障时 ,应产生报警并紧急制动停车。司机应根
+
+--- Document Chunk 740 ---
+据地面信号显示驾驶列车,以限制人工或非限制人工驾驶等驾驶模式执
+
+--- Document Chunk 741 ---
+行故障运行 ,联锁设备保证列车运行进路的安全。ATP 地面设备应识别
+
+--- Document Chunk 742 ---
+非通信列车和通信列车,实现二者的共线混跑。
+
+--- Document Chunk 743 ---
+8. 19 列车折返
+
+--- Document Chunk 744 ---
+8. 19.1 ATP子系统在 CM 和AM 模式下应支持在定义的折返区域完成
+
+--- Document Chunk 745 ---
+列车的自动换端,不得导致列车降级。
+
+--- Document Chunk 746 ---
+8. 19.2 站后折返时,由站台运行至折返区域的过程,可由司机驾驶或
+
+--- Document Chunk 747 ---
+ATO 自动驾驶完成。
+
+--- Document Chunk 748 ---
+8. 19.3 站前折返时,列车运行到折返站的过程,可由司机驾驶或 ATO
+
+--- Document Chunk 749 ---
+19
+
+--- Document Chunk 750 ---
+--- Page 26 ---
+
+--- Document Chunk 751 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 752 ---
+自动驾驶完成。
+
+--- Document Chunk 753 ---
+8. 19. 4
+
+--- Document Chunk 754 ---
+备换端过程中不会使打开状态的车门误关闭。
+
+--- Document Chunk 755 ---
+8.19.5
+
+--- Document Chunk 756 ---
+ATP 车载设备宜跟车辆配合提供开门换端功能,在 ATP 车载设
+
+--- Document Chunk 757 ---
+ATP 子系统宜具备无人自动折返功能。列车在规定的无人自
+
+--- Document Chunk 758 ---
+动折返进入地点停车,司机完成相应的确认操作后 ,列车可在无人驾驶的
+
+--- Document Chunk 759 ---
+情况下 ,自动从到达站台进入和折出折返线,最后进入发车股道定点停车
+
+--- Document Chunk 760 ---
+后,自动打开车门和站台门。
+
+--- Document Chunk 761 ---
+8.20 ”界面显示
+
+--- Document Chunk 762 ---
+8. 20.1
+
+--- Document Chunk 763 ---
+一个。
+
+--- Document Chunk 764 ---
+8. 20. 2
+
+--- Document Chunk 765 ---
+a)
+
+--- Document Chunk 766 ---
+b)
+
+--- Document Chunk 767 ---
+c)
+
+--- Document Chunk 768 ---
+d)
+
+--- Document Chunk 769 ---
+e)
+
+--- Document Chunk 770 ---
+f)
+
+--- Document Chunk 771 ---
+8)
+
+--- Document Chunk 772 ---
+8.20.3
+
+--- Document Chunk 773 ---
+a)
+
+--- Document Chunk 774 ---
+b)
+
+--- Document Chunk 775 ---
+c)
+
+--- Document Chunk 776 ---
+d)
+
+--- Document Chunk 777 ---
+e)
+
+--- Document Chunk 778 ---
+f)
+
+--- Document Chunk 779 ---
+&)
+
+--- Document Chunk 780 ---
+h)
+
+--- Document Chunk 781 ---
+i)
+
+--- Document Chunk 782 ---
+i)
+
+--- Document Chunk 783 ---
+20
+
+--- Document Chunk 784 ---
+作为车载设备人机界面的显示屏,应在每个司机室中各配置
+
+--- Document Chunk 785 ---
+车载 MMI 上应至少提供下列信息的显示:
+
+--- Document Chunk 786 ---
+列车速度;
+
+--- Document Chunk 787 ---
+速度-距离曲线速度;
+
+--- Document Chunk 788 ---
+控制级别和驾驶模式;
+
+--- Document Chunk 789 ---
+ATP 车载设备工作状态;
+
+--- Document Chunk 790 ---
+ATO 设备工作状态(如果装备 ATO);
+
+--- Document Chunk 791 ---
+超速报警;
+
+--- Document Chunk 792 ---
+ATP 施加紧急制动状态。
+
+--- Document Chunk 793 ---
+车载 MMI 上宜提供下列信息的显示 :
+
+--- Document Chunk 794 ---
+目标速度;
+
+--- Document Chunk 795 ---
+目标距离;
+
+--- Document Chunk 796 ---
+车次号;
+
+--- Document Chunk 797 ---
+目的地名 ;
+
+--- Document Chunk 798 ---
+乘务人员的身份识别号;
+
+--- Document Chunk 799 ---
+停准指示;
+
+--- Document Chunk 800 ---
+发车提示;
+
+--- Document Chunk 801 ---
+关车门提示;
+
+--- Document Chunk 802 ---
+车门和站台门状态;
+
+--- Document Chunk 803 ---
+--- Page 27 ---
+
+--- Document Chunk 804 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 805 ---
+k) ATO 牵引、制动 ,惰行状态信息;
+
+--- Document Chunk 806 ---
+1) 空转/打滑状态表丰;
+
+--- Document Chunk 807 ---
+m) 列车制动力状态;
+
+--- Document Chunk 808 ---
+n) ATP 车载设备头尾设备状态;
+
+--- Document Chunk 809 ---
+0) 跳停.扣车状态;
+
+--- Document Chunk 810 ---
+p) 日期和时间信息;
+
+--- Document Chunk 811 ---
+q) 列车完整性;
+
+--- Document Chunk 812 ---
+r) “折返提示，
+
+--- Document Chunk 813 ---
+s) “转换区提示。
+
+--- Document Chunk 814 ---
+8.20.4 ae A LSE TF aL omer Pr rel AF Fil fe A:
+
+--- Document Chunk 815 ---
+a) 乘务人员的身
+
+--- Document Chunk 816 ---
+b) ATP FERRY cay 4
+
+--- Document Chunk 817 ---
+9.1 ATP/ATO 4%
+
+--- Document Chunk 818 ---
+9.1.1 ATP/ATO 4             ew Ay SRE, RUE
+
+--- Document Chunk 819 ---
+全和对列车实施连续有
+
+--- Document Chunk 820 ---
+9.1.2 ATP/ATO 车载                   F关量 .模拟量 .通信接
+
+--- Document Chunk 821 ---
+口三种。
+
+--- Document Chunk 822 ---
+9.1.3 涉及行车安全的电气接口应采用安全输人/输出接口方式。
+
+--- Document Chunk 823 ---
+9.1.4 ATP/ATO 车载设备应能够通过安全或非安全接口采集表 1 中的
+
+--- Document Chunk 824 ---
+表1 采集的开关量信息
+
+--- Document Chunk 825 ---
+ATP/ATO 车载设备输入信号                 安全接口
+
+--- Document Chunk 826 ---
+列车完整性                          是
+
+--- Document Chunk 827 ---
+列车车门关闭旦锁闭                                 是
+
+--- Document Chunk 828 ---
+21
+
+--- Document Chunk 829 ---
+--- Page 28 ---
+
+--- Document Chunk 830 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 831 ---
+表1
+
+--- Document Chunk 832 ---
+采集的开关量信息(续)
+
+--- Document Chunk 833 ---
+ATP/ATO 车载设备输入信号
+
+--- Document Chunk 834 ---
+安全接口
+
+--- Document Chunk 835 ---
+[
+
+--- Document Chunk 836 ---
+|
+
+--- Document Chunk 837 ---
+车辆牵引已切除
+
+--- Document Chunk 838 ---
+是
+
+--- Document Chunk 839 ---
+车辆已实施紧急制动
+
+--- Document Chunk 840 ---
+是
+
+--- Document Chunk 841 ---
+牵引制动手柄在零位且方向手柄向前
+
+--- Document Chunk 842 ---
+是
+
+--- Document Chunk 843 ---
+ATO 启动按钮
+
+--- Document Chunk 844 ---
+运行模式状态确认和/或预设模式选择
+
+--- Document Chunk 845 ---
+自动折返(AR)按钮
+
+--- Document Chunk 846 ---
+AMF
+
+--- Document Chunk 847 ---
+AMR
+
+--- Document Chunk 848 ---
+ANF
+
+--- Document Chunk 849 ---
+7
+
+--- Document Chunk 850 ---
+右门关
+
+--- Document Chunk 851 ---
+/
+
+--- Document Chunk 852 ---
+门控方式
+
+--- Document Chunk 853 ---
+注:“/"表示"对是否安全接口不做要
+
+--- Document Chunk 854 ---
+/
+
+--- Document Chunk 855 ---
+aR”
+
+--- Document Chunk 856 ---
+9.1.5 ATP/ATO 车载设备宜能够通过安全或非安全接口采集表2 4
+
+--- Document Chunk 857 ---
+关量信息。
+
+--- Document Chunk 858 ---
+BSF
+
+--- Document Chunk 859 ---
+R2 采集的开关量信息
+
+--- Document Chunk 860 ---
+ATP/ATO 车载设备输入信和号
+
+--- Document Chunk 861 ---
+安全接口
+
+--- Document Chunk 862 ---
+ATP 已切除
+
+--- Document Chunk 863 ---
+/
+
+--- Document Chunk 864 ---
+车辆保持制动已施加
+
+--- Document Chunk 865 ---
+是
+
+--- Document Chunk 866 ---
+9.1.6 ATP/ATO 车载设备应能够通过安全或非安全接口输出表3
+
+--- Document Chunk 867 ---
+Ft
+
+--- Document Chunk 868 ---
+BES Ra MH RSM AGE
+
+--- Document Chunk 869 ---
+F关量信息。
+
+--- Document Chunk 870 ---
+22
+
+--- Document Chunk 871 ---
+i
+
+--- Document Chunk 872 ---
+的
+
+--- Document Chunk 873 ---
+--- Page 29 ---
+
+--- Document Chunk 874 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 875 ---
+表3 采集的开关量信息
+
+--- Document Chunk 876 ---
+ATP/ATO 车载设备输出信号                 安全接口
+
+--- Document Chunk 877 ---
+紧急制动                              是
+
+--- Document Chunk 878 ---
+牵引切除                              是
+
+--- Document Chunk 879 ---
+左门开门允许                            是
+
+--- Document Chunk 880 ---
+右门开门允许                            是
+
+--- Document Chunk 881 ---
+白动折返(AR)灯-                          7
+
+--- Document Chunk 882 ---
+ATO 已激活                           /
+
+--- Document Chunk 883 ---
+ATO 牵引输出                          7
+
+--- Document Chunk 884 ---
+ATO 制动输出                          /
+
+--- Document Chunk 885 ---
+保持制动输出命令                          /
+
+--- Document Chunk 886 ---
+开左门命令                             /
+
+--- Document Chunk 887 ---
+|            开右门命令                             /
+
+--- Document Chunk 888 ---
+关左门命令                i
+
+--- Document Chunk 889 ---
+右关门命令                             7
+
+--- Document Chunk 890 ---
+ATO 启动灯                           7
+
+--- Document Chunk 891 ---
+注:“/"表示“对是知安全接口不做要求" 。                             ]
+
+--- Document Chunk 892 ---
+9. 1.7 ATP/ATO 车载设备可通过安全或非安全接口输出表 4 中的开关
+
+--- Document Chunk 893 ---
+量信息。
+
+--- Document Chunk 894 ---
+表4 采集的开关量信息
+
+--- Document Chunk 895 ---
+ATP/ATO 车载设备输出信号                 安全接口
+
+--- Document Chunk 896 ---
+最大常用制动                          /
+
+--- Document Chunk 897 ---
+BEL“ /" Bean" de RATE AB BOR” 0
+
+--- Document Chunk 898 ---
+9.1.8 ATP/ATO 车载设备可通过电压或电流或通信和输出或者继电器
+
+--- Document Chunk 899 ---
+23
+
+--- Document Chunk 900 ---
+--- Page 30 ---
+
+--- Document Chunk 901 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 902 ---
+级位编码方式输出期望的牵引/人制动加速度值。
+
+--- Document Chunk 903 ---
+9.1.9 ATP/ATO 车载设备应能与 TMS 实现信息交换。
+
+--- Document Chunk 904 ---
+9.1.10 ATP/ATO 车载设备宜能向 TMS 提供时钟信号,以满足 TMS 时
+
+--- Document Chunk 905 ---
+钟与 CBTC 信号系统时钟同步的需要。
+
+--- Document Chunk 906 ---
+9.2 ATS 与ATP 地面设备应用层接口要求
+
+--- Document Chunk 907 ---
+9.2.1
+
+--- Document Chunk 908 ---
+通信的方式。
+
+--- Document Chunk 909 ---
+ATS 与 ATP 地面设备间的数据传输宜基于 IP Pik.
+
+--- Document Chunk 910 ---
+9.2.2 ATS 与ATP 地面设备间信息交换采
+
+--- Document Chunk 911 ---
+周期通信和/或事件触发
+
+--- Document Chunk 912 ---
+9.2.3 从ATS到ATP 地面设备的信息见表5。
+
+--- Document Chunk 913 ---
+#5 从ATS到ATP 地面设备的信息内容
+
+--- Document Chunk 914 ---
+具体信息
+
+--- Document Chunk 915 ---
+首次上电临时限速确认信息
+
+--- Document Chunk 916 ---
+信息说明
+
+--- Document Chunk 917 ---
+指 ATS 在 ATP 地面设备首次上电申请时 ,确认 ATP
+
+--- Document Chunk 918 ---
+地面设备的临时限速信息
+
+--- Document Chunk 919 ---
+临时限速一次设置/取消信息
+
+--- Document Chunk 920 ---
+指 ATS 采用"二次确认"方式设置/取消临时限速信
+
+--- Document Chunk 921 ---
+息时的第一次命令下达
+
+--- Document Chunk 922 ---
+临时限速二次设置/取消信息
+
+--- Document Chunk 923 ---
+指 ATS 采用"二次确认"方式设置/取消临时限速信
+
+--- Document Chunk 924 ---
+息时的第二次命令下达
+
+--- Document Chunk 925 ---
+校时信息
+
+--- Document Chunk 926 ---
+指 ATS 与 ATP 地面设备之间的时钟同步信息
+
+--- Document Chunk 927 ---
+具体信息
+
+--- Document Chunk 928 ---
+9.2.4 从ATP地面设备到 ATS 的信息见表6。
+
+--- Document Chunk 929 ---
+表6 从ATP 地面设备到 ATS 的信息内容
+
+--- Document Chunk 930 ---
+信息说明
+
+--- Document Chunk 931 ---
+首次上电临时限速确认
+
+--- Document Chunk 932 ---
+申请信息
+
+--- Document Chunk 933 ---
+指 ATP 地面设备首次上电时向 ATS 汇报上电 ,并上
+
+--- Document Chunk 934 ---
+传存储或初始设置的临时限速,请 ATS 确认的申请
+
+--- Document Chunk 935 ---
+信息
+
+--- Document Chunk 936 ---
+临时限速一次确认信息
+
+--- Document Chunk 937 ---
+24
+
+--- Document Chunk 938 ---
+指 ATS 采用"二次确认"方式设置/取消临时限速信
+
+--- Document Chunk 939 ---
+息时,ATP 地面设备对第一次命令的确认
+
+--- Document Chunk 940 ---
+--- Page 31 ---
+
+--- Document Chunk 941 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 942 ---
+表6 从ATP 地面设备到 ATS 的信息内容(续)
+
+--- Document Chunk 943 ---
+具体信息
+
+--- Document Chunk 944 ---
+信息说明
+
+--- Document Chunk 945 ---
+临时限速二次确认信
+
+--- Document Chunk 946 ---
+a     指 ATS 采用“二次确认"方式设置/取消临时限速信
+
+--- Document Chunk 947 ---
+” |息时,ATP 地面设备对第二次命令的确认
+
+--- Document Chunk 948 ---
+全线临时限速状态信
+
+--- Document Chunk 949 ---
+a
+
+--- Document Chunk 950 ---
+OS) BR An BRL
+
+--- Document Chunk 951 ---
+指全部线路上已经设置的临时限速信息,含限速区
+
+--- Document Chunk 952 ---
+校时信息
+
+--- Document Chunk 953 ---
+指 ATS 与 ATP 地面设备之间的时钟同步信息
+
+--- Document Chunk 954 ---
+9.3 ATS 与ATP/ATO 车载设备
+
+--- Document Chunk 955 ---
+ATS 与 ATP/ATO JPR
+
+--- Document Chunk 956 ---
+9.3.1
+
+--- Document Chunk 957 ---
+触发通信的方式。
+
+--- Document Chunk 958 ---
+9.3.3 JA ATS I A
+
+--- Document Chunk 959 ---
+表7
+
+--- Document Chunk 960 ---
+F 卫协议。
+
+--- Document Chunk 961 ---
+具体信息
+
+--- Document Chunk 962 ---
+列车运萌识别信息
+
+--- Document Chunk 963 ---
+A fy ke
+
+--- Document Chunk 964 ---
+5 AS UR Bt) AE Ses 4 Dt BE BG YK
+
+--- Document Chunk 965 ---
+下一站
+
+--- Document Chunk 966 ---
+省本次列车运行所要到达的前方站人台
+
+--- Document Chunk 967 ---
+Ri oe Si
+
+--- Document Chunk 968 ---
+者 ATS 或人工根据列车实际运营与计划的偏差情
+
+--- Document Chunk 969 ---
+,对在线运营的列车所做的调整策略,包括扣车 .跳
+
+--- Document Chunk 970 ---
+\调整站停时间 ,调整列车在区间运行时间(或区间
+
+--- Document Chunk 971 ---
+行等级)等方式
+
+--- Document Chunk 972 ---
+校时信息
+
+--- Document Chunk 973 ---
+者 ATS 5 ATP/ATO 车载设备之间的时钟同步信息
+
+--- Document Chunk 974 ---
+9.3.4 JK ATP/ATO 车载设备到 ATS 的信息见表8。
+
+--- Document Chunk 975 ---
+25
+
+--- Document Chunk 976 ---
+--- Page 32 ---
+
+--- Document Chunk 977 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 978 ---
+表8 从ATP/ATO 车载设备到 ATS 的信息内容
+
+--- Document Chunk 979 ---
+具体信息
+
+--- Document Chunk 980 ---
+信息说明
+
+--- Document Chunk 981 ---
+列车运行速度和方向
+
+--- Document Chunk 982 ---
+指 ATP/ATO 车载设备测量的实奈列车速度信息，
+
+--- Document Chunk 983 ---
+ARE METH
+
+--- Document Chunk 984 ---
+AE HS Hl Be AS A SK
+
+--- Document Chunk 985 ---
+指 ATP/ATO 车载设备当前的控制级别和驾驶模式
+
+--- Document Chunk 986 ---
+信息
+
+--- Document Chunk 987 ---
+车门状态
+
+--- Document Chunk 988 ---
+指 ATP/ATO 车载设备采集到的列车车门的实际状
+
+--- Document Chunk 989 ---
+态,反映列车车门是否处于关闭旦镇闭状态
+
+--- Document Chunk 990 ---
+停稳信息           指列车在规定区域停车,满足夫速条件的信息
+
+--- Document Chunk 991 ---
+.           te UE (es AL OR AH SA,
+
+--- Document Chunk 992 ---
+列车报管信息       包括设备运行状态告警、列车紧急制动告警等内容
+
+--- Document Chunk 993 ---
+校时信息             指 ATS 5 ATP/ATO 车载设备之间的时钟同步信息
+
+--- Document Chunk 994 ---
+9.4 ATP/ATO 车载设备与 ATP 地面设备应用层接口要求
+
+--- Document Chunk 995 ---
+9.4.1 ATP/ATO 车载设备与 ATP 地面设备间的数据传输宜基于 耻协
+
+--- Document Chunk 996 ---
+议,应保证数据传输的安全性。
+
+--- Document Chunk 997 ---
+9.4.2 ATP/ATO 车载设备与 ATP 地面设备间信息交换采用周期通信
+
+--- Document Chunk 998 ---
+和/或事件触发通信的方式。
+
+--- Document Chunk 999 ---
+9.4.3 J ATP/ATO 车载设备到 ATP 地面设备的信息见表9。
+
+--- Document Chunk 1000 ---
+#9 从ATP/ATO 车载设备到ATP 地面设备的信息内容
+
+--- Document Chunk 1001 ---
+具体信息
+
+--- Document Chunk 1002 ---
+信息说明
+
+--- Document Chunk 1003 ---
+列车位置信息
+
+--- Document Chunk 1004 ---
+指 ATP/ATO 车载设备自主测基的列车实际位置信
+
+--- Document Chunk 1005 ---
+息,以及可能存在的误差信息
+
+--- Document Chunk 1006 ---
+列车运行速度和方向
+
+--- Document Chunk 1007 ---
+指列车测量的实际速度信息 ,含速度值和方向信息
+
+--- Document Chunk 1008 ---
+停稳信息
+
+--- Document Chunk 1009 ---
+指列车在规定区域停车 ,满足零速条件的信息
+
+--- Document Chunk 1010 ---
+列车控制级别和驾驶模式
+
+--- Document Chunk 1011 ---
+指 ATP/ATO 车载设备当前的控制级别和驾驶模式
+
+--- Document Chunk 1012 ---
+信息
+
+--- Document Chunk 1013 ---
+26
+
+--- Document Chunk 1014 ---
+--- Page 33 ---
+
+--- Document Chunk 1015 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 1016 ---
+表9 从ATP/ATO 车载设备到ATP 地面设备的信息内容(续)
+
+--- Document Chunk 1017 ---
+具体信息
+
+--- Document Chunk 1018 ---
+列车完整性
+
+--- Document Chunk 1019 ---
+信息说明
+
+--- Document Chunk 1020 ---
+指 ATP/ATO 车载设备采集到的列车编组完整的
+
+--- Document Chunk 1021 ---
+信息
+
+--- Document Chunk 1022 ---
+无人折返状态指示信息
+
+--- Document Chunk 1023 ---
+指 ATP/ATO 车载设备对无人自动折返状态的指示
+
+--- Document Chunk 1024 ---
+信息
+
+--- Document Chunk 1025 ---
+9.4.4 从ATP地面设备到 ATP/ATO 车载设备的信息见表 10。
+
+--- Document Chunk 1026 ---
+#10 KATP 地面设备到ATP/ATO 车载设备的信息内容
+
+--- Document Chunk 1027 ---
+具体信息
+
+--- Document Chunk 1028 ---
+信息说明
+
+--- Document Chunk 1029 ---
+CBTC 级别移动授权信息
+
+--- Document Chunk 1030 ---
+指为保证列车安全运行,ATP 地面设备计算并向列
+
+--- Document Chunk 1031 ---
+车发送的对列车运行位置和速度的许可信息
+
+--- Document Chunk 1032 ---
+临时限速信息
+
+--- Document Chunk 1033 ---
+指 ATS 根据运营需要,设置并下发的临时速度限制
+
+--- Document Chunk 1034 ---
+信息
+
+--- Document Chunk 1035 ---
+无人折返按钮信息
+
+--- Document Chunk 1036 ---
+指办理无人白动折返的按钮状态信息
+
+--- Document Chunk 1037 ---
+9.5 CI与ATP 地面设备应用层接口要求
+
+--- Document Chunk 1038 ---
+9.5.1
+
+--- Document Chunk 1039 ---
+输的安全性。
+
+--- Document Chunk 1040 ---
+CI与ATP 地面设备间的数据传输宜基于 IP 协议 ,应保证数据传
+
+--- Document Chunk 1041 ---
+9.5.2 CI与ATP 地面设备间信息交换采用周期通信和/或事件触发通
+
+--- Document Chunk 1042 ---
+信的方式。
+
+--- Document Chunk 1043 ---
+9.5.3 从CI到ATP地面设备的信息见表 11。
+
+--- Document Chunk 1044 ---
+表11 从CI到ATP 地面设备的信息内容
+
+--- Document Chunk 1045 ---
+具体信息                                信息说明
+
+--- Document Chunk 1046 ---
+区段状态      指物理区段检测设备检测到的区段状态信息
+
+--- Document Chunk 1047 ---
+无人折返按钮信息    指办理无人自动折返的按钮状态信息
+
+--- Document Chunk 1048 ---
+站台门的状态信息，   hF3
+
+--- Document Chunk 1049 ---
+站台门状态     指站台门的状态信息,反映站台门是否处于关闭且
+
+--- Document Chunk 1050 ---
+BUA RAS
+
+--- Document Chunk 1051 ---
+27
+
+--- Document Chunk 1052 ---
+--- Page 34 ---
+
+--- Document Chunk 1053 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 1054 ---
+表11 从CI到ATP 地面设备的信息内容(续)
+
+--- Document Chunk 1055 ---
+具体信息            信息说明
+
+--- Document Chunk 1056 ---
+站台紧急关闭状态   指站台的紧急停车按钮是否按下的状态
+
+--- Document Chunk 1057 ---
+be   进路状态 信号机状态
+
+--- Document Chunk 1058 ---
+进路信息     指联锁的进路信息 ,包括进路状态、信号机状态、区
+
+--- Document Chunk 1059 ---
+9.5.4 从ATP 地面设备到 CI 的信息见表12。
+
+--- Document Chunk 1060 ---
+表12 从ATP 地面设备到 CI的信息内容
+
+--- Document Chunk 1061 ---
+具体信息                           信息说明
+
+--- Document Chunk 1062 ---
+指 ATP 地面设备根据列车的属性信息控制对应的
+
+--- Document Chunk 1063 ---
+凡号机的列车接近信息“| 信号机接近信息,联锁可利用该信息作为信号机的强
+
+--- Document Chunk 1064 ---
+制命令,控制信号机开关灯显示
+
+--- Document Chunk 1065 ---
+，       .          指 ATP 地面设备传递给 CI 的逻辑区段状态信息，
+
+--- Document Chunk 1066 ---
+BBR BER       联镇可利用该信息跟踪列车的位轩
+
+--- Document Chunk 1067 ---
+were          指 ATP A TUE ae SRA 4 A BLT
+
+--- Document Chunk 1068 ---
+“vs        用来解锁保护区段
+
+--- Document Chunk 1069 ---
+加          指 ATP 地面设备送绘联鲁的列车跨压进路始端信
+
+--- Document Chunk 1070 ---
+He         号机信息,作为联镇开始解锁进路的条件之一
+
+--- Document Chunk 1071 ---
+元人折过闪二牛二信息“| _指ATP 地面设备传递给联镇的无人自动折返状态
+
+--- Document Chunk 1072 ---
+的指示信息
+
+--- Document Chunk 1073 ---
+9.6 CI与ATP/ATO 车载设备应用层接口要求
+
+--- Document Chunk 1074 ---
+9.6.1 CI与 ATP/ATO 车载设备间的数据传输宜基于 IP 协议,应保证
+
+--- Document Chunk 1075 ---
+数据传输的安全性。
+
+--- Document Chunk 1076 ---
+9.6.2 CLA ATP/ATO 车载设备问信息交换采用周期通信和/或事件触
+
+--- Document Chunk 1077 ---
+发通信的方式。
+
+--- Document Chunk 1078 ---
+9.6.3 从CI到ATP/ATO 车载设备的信息见表 13,
+
+--- Document Chunk 1079 ---
+28
+
+--- Document Chunk 1080 ---
+--- Page 35 ---
+
+--- Document Chunk 1081 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 1082 ---
+表13 ”从 CI到ATP/ATO 车载设备的信息内容
+
+--- Document Chunk 1083 ---
+具体信息                           信息说明
+
+--- Document Chunk 1084 ---
+站台门状态          指站台门是否处于关闭旦锁闭的状态信息
+
+--- Document Chunk 1085 ---
+9.6.4 从 ATP/ATO FAG Cl 的信息见表 14。
+
+--- Document Chunk 1086 ---
+表 14 从 ATP/ATO 车载设备到 CI 的信息内容
+
+--- Document Chunk 1087 ---
+共休信息                           信息说明                   |
+
+--- Document Chunk 1088 ---
+wanes      指 ATP/ATO 车载设备发出的站台门控制命令,CI
+
+--- Document Chunk 1089 ---
+        可利用该信息控制站台门]F/关
+
+--- Document Chunk 1090 ---
+10.1
+
+--- Document Chunk 1091 ---
+10.1.1
+
+--- Document Chunk 1092 ---
+过程中 ,应
+
+--- Document Chunk 1093 ---
+了骚扰。
+
+--- Document Chunk 1094 ---
+10. 1.2 ATP % a WA Bye fe            att MS tic oe RE AL GB/T
+
+--- Document Chunk 1095 ---
+24338. 4 的要求。       eH ais
+
+--- Document Chunk 1096 ---
+10.1.3 ATP $i Ty is Ho AY Hi 1       入发射与抗扰度应满足 CB/T
+
+--- Document Chunk 1097 ---
+24338. 5 的要求。
+
+--- Document Chunk 1098 ---
+10.2 ATP 子系统室内设备的防雷
+
+--- Document Chunk 1099 ---
+ATP 子系统室内设备的防雷应满足 GB/T 50343 的要求。
+
+--- Document Chunk 1100 ---
+10. 3 接地
+
+--- Document Chunk 1101 ---
+10.3.1 ATP子系统室外设备的金属箱、盒壳体应通过接地系统接地。
+
+--- Document Chunk 1102 ---
+严禁用钢轨代替地线。
+
+--- Document Chunk 1103 ---
+10. 3. 2 ATP 车载设备的保护接地应与车体可靠连接,并考虑连接面的
+
+--- Document Chunk 1104 ---
+电化学相容性,连接导体的横截面积不小于4 mm’ ,
+
+--- Document Chunk 1105 ---
+10. 3.3 ATP 车载设备的地线应经车辆的接地装置接地。
+
+--- Document Chunk 1106 ---
+29
+
+--- Document Chunk 1107 ---
+--- Page 36 ---
+
+--- Document Chunk 1108 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 1109 ---
+11 供电及电源设备要求
+
+--- Document Chunk 1110 ---
+11.1 ATP 地面设备供电要求
+
+--- Document Chunk 1111 ---
+11.1.1 ATP 地面设备供电应属于一级负荷 ,应设两路独立电源供电。
+
+--- Document Chunk 1112 ---
+11. 1.2 ATP 地面设备应采用专用的电源屏及配电屏供电,应选用不间
+
+--- Document Chunk 1113 ---
+断电源(UPS) 。
+
+--- Document Chunk 1114 ---
+11.2 ATP 车载设备供电要求
+
+--- Document Chunk 1115 ---
+ATP 车载设备电源可直接采用车辆 110 V 蓄电池电源或经稳压变流
+
+--- Document Chunk 1116 ---
+设备变换后供电,并应设过压和过流保护。
+
+--- Document Chunk 1117 ---
+30
+
+--- Document Chunk 1118 ---
+--- Page 37 ---
+
+--- Document Chunk 1119 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 1120 ---
+附 录 A
+
+--- Document Chunk 1121 ---
+(规范性附录)
+
+--- Document Chunk 1122 ---
+ATP 子系统的系统参数值
+
+--- Document Chunk 1123 ---
+表A.1 规定了 ATP 子系统的系统参数值。
+
+--- Document Chunk 1124 ---
+表A.1 ATP子系统的系统参数值
+
+--- Document Chunk 1125 ---
+参数                             取值范围
+
+--- Document Chunk 1126 ---
+ATP 车载设备数据记录时间                   2168 h
+
+--- Document Chunk 1127 ---
+ATP 地面设备数据记录时间                   2720 b
+
+--- Document Chunk 1128 ---
+单个 CBTC 地面设备可以处理的列车数量        230 列
+
+--- Document Chunk 1129 ---
+列车位置最大测量误差                       <2%
+
+--- Document Chunk 1130 ---
+用于 ATP 功能的列车测速分辩率                2 km/h
+
+--- Document Chunk 1131 ---
+<2 km/h
+
+--- Document Chunk 1132 ---
+用于 ATP 功能的列车测速误差
+
+--- Document Chunk 1133 ---
+列车速度命令的分辩率
+
+--- Document Chunk 1134 ---
+土0.5 km/h~ +5 km/h
+
+--- Document Chunk 1135 ---
+车载设备至地面设备的信息传输延时
+
+--- Document Chunk 1136 ---
+地面设备至车载设备的信息传输延时
+
+--- Document Chunk 1137 ---
+零速度检测
+
+--- Document Chunk 1138 ---
+EMAL <1 km/h 的范围，
+
+--- Document Chunk 1139 ---
+且持续时间不小于2 s
+
+--- Document Chunk 1140 ---
+退行防护
+
+--- Document Chunk 1141 ---
+20.5 m 285 m PAy—MaR SS km/h
+
+--- Document Chunk 1142 ---
+31
+
+--- Document Chunk 1143 ---
+--- Page 38 ---
+
+--- Document Chunk 1144 ---
+T/CAMET 04018. 1—2019
+
+--- Document Chunk 1145 ---
+32
+
+--- Document Chunk 1146 ---
+参考文献
+
+--- Document Chunk 1147 ---
+IEEE Std 1474. 1™-2004 基于通信的列车自动控制系统性能和功
+
+--- Document Chunk 1148 ---
+能需求(IEEE Standard for Communications-Based Train Control Performance
+
+--- Document Chunk 1149 ---
+and Functional Requirements )
+
+--- Document Chunk 1150 ---
+TEEE Std 1474. 2™-2003 ”基于通信的列车自动控制系统用户接口需
+
+--- Document Chunk 1151 ---
+求(IEEE Standard for User Interface Requirements in Communications-
+
+--- Document Chunk 1152 ---
+Based Train Control (CBTC) Systems)
+
+--- Document Chunk 1153 ---
+IEEE Std 1474. 3™-2008 ”基于通信的列车自动控制系统设计和功
+
+--- Document Chunk 1154 ---
+能分配(IEEE Recommended Practice for Communications一Based Train
+
+--- Document Chunk 1155 ---
+Control (CBTC) System Design and Functional Allocations)
+
+--- Document Chunk 1156 ---
+IEEE Std 1483-2000 ”有轨车辆运输控制用处理机系统主要功能的验证
+
+--- Document Chunk 1157 ---
+标准(IEEE Standard for the Verification of Vital Functions in Processor一
+
+--- Document Chunk 1158 ---
+Based Systems Used in Rail Transit Control )
+
+--- Document Chunk 1159 ---
+IEEE Std 1478-2001 铁路运行车辆电子设备的环境条件标准(IEEE
+
+--- Document Chunk 1160 ---
+Standard for Environmental Conditions for Transit Rail Car Electronic
+
+--- Document Chunk 1161 ---
+Equipment)
+
+--- Document Chunk 1162 ---
+TEC 62278 GRA PRET SEE FEE Pk Pe Ee ( RAMS) BL
+
+--- Document Chunk 1163 ---
+Ye A ih WA ( Railway applications—Specification and demonstration of
+
+--- Document Chunk 1164 ---
+Reliability , Availability, Maintainability and Safety (RAMS) )
+
+--- Document Chunk 1165 ---
+TEC 62279 ”铁路应用 通信、信号和处理系统”铁路控制和保护系统软
+
+--- Document Chunk 1166 ---
+件(Railway applications—Communications, signaling and processing
+
+--- Document Chunk 1167 ---
+systems—Software for railway control and protection systems )
+
+--- Document Chunk 1168 ---
+TEC 62425 ”铁路应用 通信、信号和处理系统 安全性相关的电子
+
+--- Document Chunk 1169 ---
+系统(Railway applications一Communication ，signaling and processing
+
+--- Document Chunk 1170 ---
+systems—Safety related electronic systems for signaling )
+
+--- Document Chunk 1171 ---
+--- Page 39 ---
+
+--- Document Chunk 1172 ---
+T/CAMET 04018, 1一2019
+
+--- Document Chunk 1173 ---
+[9] GB 9254一2008 ”信息技术设备的无线电骚扰限值和测量方法
+
+--- Document Chunk 1174 ---
+[10] GB/T 32588.1 轨道交通 自动化的城市轨道交通(AUGT) 安全
+
+--- Document Chunk 1175 ---
+BOR 第1部分:总则(IEC 62267:2009,MOD)
+
+--- Document Chunk 1176 ---
+[11] 铁运[2006]26 号”铁路信号设备雷电及电磁兼容综合防护实施
+
+--- Document Chunk 1177 ---
+导意见
+
+--- Document Chunk 1178 ---
+[12] FRR ( 2007139 号”铁路防雷.电磁兼容及接地工程技术暂行
+
+--- Document Chunk 1179 ---
+规定
+
+--- Document Chunk 1180 ---
+int
+
+--- Document Chunk 1181 ---
+33
+
+--- Document Chunk 1182 ---
+--- Page 40 ---
+
+--- Document Chunk 1183 ---
+中国城市轨道交通协会团体标准
+
+--- Document Chunk 1184 ---
+城市轨道交通 CBIC 信号系统规范
+
+--- Document Chunk 1185 ---
+第1部分:ATP 子系统
+
+--- Document Chunk 1186 ---
+T/CAMET 04018. 1一2019
+
+--- Document Chunk 1187 ---
+*
+
+--- Document Chunk 1188 ---
+中国铁道出版社有限公司出版发行
+
+--- Document Chunk 1189 ---
+(100054 ,北京市西城区布安门西街8 号)
+
+--- Document Chunk 1190 ---
+出版社网址 : hup://www. tdpress. com
+
+--- Document Chunk 1191 ---
+北京柏力行彩印有限公司印刷
+
+--- Document Chunk 1192 ---
+开本: 880 mm x1 230 mm 1/32 印张: 1.25 FRM. 33 千
+
+--- Document Chunk 1193 ---
+2019年11 月第1版 2019年11月第1次印刷
+
+--- Document Chunk 1194 ---
+书号: 15113 - 5863 ”定价:15. 00 元
+
+--- Document Chunk 1195 ---
+LMA 侵权必究
+
+--- Document Chunk 1196 ---
+凡购买铁道版图书,如有和印制质基问题,请与本社发行部联系调换。
+
+--- Document Chunk 1197 ---
+发行部电话:路(021)73174 ,市(010)51873174
+
+--- Document Chunk 1198 ---
+--- Page 41 ---
+
+--- Document Chunk 1199 ---
+用 |
+
+--- Document Chunk 1200 ---
+|
+
+--- Document Chunk 1201 ---
+6
+
+--- Document Chunk 1202 ---
+MBM OLA BIKE mea
+
+--- Document Chunk 1203 ---
+SWNdLY bat we
+
+--- Document Chunk 1204 ---
+QD cuby a antes eR EE MS
+
