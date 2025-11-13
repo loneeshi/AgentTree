@@ -1,0 +1,974 @@
+{
+  "entities": [
+    {
+      "name": "CAMET",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "互联互通接口",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "系统车地连续通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "中国",
+      "type": "GPE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "城市轨道交通 基于通信",
+      "type": "WORK_OF_ART",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2一2018",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "CM",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2024 年 09 月 03",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "日",
+      "type": "GPE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2024 年 09 月 10 日起",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "1. 9 的\"保护区",
+      "type": "WORK_OF_ART",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "14",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "3",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "4",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "VOBC",
+      "type": "TECH",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "RSSP",
+      "type": "TECH",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "ZC",
+      "type": "TECH",
+      "frequency": 3,
+      "contexts": []
+    },
+    {
+      "name": "UDP",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "车载控制器",
+      "type": "SYSTEM",
+      "frequency": 5,
+      "contexts": []
+    },
+    {
+      "name": "当使用安全通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "车载",
+      "type": "GPE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": ")",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "5.",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "ATS",
+      "type": "TECH",
+      "frequency": 7,
+      "contexts": []
+    },
+    {
+      "name": "当德用安全通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "6",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": ")条",
+      "type": "PERSON",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "CI",
+      "type": "TECH",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "FA",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "5 CI",
+      "type": "QUANTITY",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "二",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "FESS",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "TBZT",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "安全通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2010",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "工铁路",
+      "type": "ORG",
+      "frequency": 3,
+      "contexts": []
+    },
+    {
+      "name": "3528",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "铁路信号安全通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "全通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2 铁路",
+      "type": "QUANTITY",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "EN",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "EN 50159",
+      "type": "STANDARD",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "欧洲",
+      "type": "LOC",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "for Information Transmission Systems",
+      "type": "ORG",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "TBAT",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "中和",
+      "type": "GPE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "EN50159",
+      "type": "STANDARD",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2序",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "1一",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "1",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "两",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "通信风险均由安全通信协议",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "7",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "TBMT",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "12",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2表15",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "1一(22",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "NIE",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "TBT",
+      "type": "TECH",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "15",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "CBTC系统",
+      "type": "UNKNOWN",
+      "frequency": 11,
+      "contexts": []
+    },
+    {
+      "name": "基于通信的列车控制系统",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "轨旁设备",
+      "type": "UNKNOWN",
+      "frequency": 3,
+      "contexts": []
+    },
+    {
+      "name": "车载设备",
+      "type": "UNKNOWN",
+      "frequency": 3,
+      "contexts": []
+    },
+    {
+      "name": "控制中心",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "区域控制器",
+      "type": "UNKNOWN",
+      "frequency": 8,
+      "contexts": []
+    },
+    {
+      "name": "数据通信系统",
+      "type": "UNKNOWN",
+      "frequency": 5,
+      "contexts": []
+    },
+    {
+      "name": "速度传感器",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "列车运行监控",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "列车间隔控制",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "车地双向实时通信",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "IEEE 1474标准",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "DCS",
+      "type": "UNKNOWN",
+      "frequency": 9,
+      "contexts": []
+    },
+    {
+      "name": "ATP",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "列车自动保护",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "ATO",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "列车自动运行",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "IEEE 802.11g标准",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "列车自动监控系统",
+      "type": "UNKNOWN",
+      "frequency": 3,
+      "contexts": []
+    },
+    {
+      "name": "车地双向通信",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "列车移动授权计算",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "列车运行状态",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "轨旁AP",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "无线信号",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "车载电台",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "系统",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "EN 50126标准",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "SIL2安全等级",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "IEEE 802.3标准",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "传输控制指令和状态信息",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "联锁系统",
+      "type": "UNKNOWN",
+      "frequency": 5,
+      "contexts": []
+    },
+    {
+      "name": "移动授权",
+      "type": "UNKNOWN",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "列车",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "调度指令",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "控制信息",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "状态数据",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "道岔安全",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "信号机状态安全",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    }
+  ],
+  "relations": [
+    {
+      "subject": "CBTC系统",
+      "relation": "缩写",
+      "object": "基于通信的列车控制系统",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "轨旁设备",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "车载设备",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "控制中心",
+      "context": ""
+    },
+    {
+      "subject": "轨旁设备",
+      "relation": "包括",
+      "object": "区域控制器",
+      "context": ""
+    },
+    {
+      "subject": "轨旁设备",
+      "relation": "包括",
+      "object": "数据通信系统",
+      "context": ""
+    },
+    {
+      "subject": "车载设备",
+      "relation": "包括",
+      "object": "车载控制器",
+      "context": ""
+    },
+    {
+      "subject": "车载设备",
+      "relation": "包括",
+      "object": "速度传感器",
+      "context": ""
+    },
+    {
+      "subject": "控制中心",
+      "relation": "负责",
+      "object": "列车运行监控",
+      "context": ""
+    },
+    {
+      "subject": "区域控制器",
+      "relation": "负责",
+      "object": "列车间隔控制",
+      "context": ""
+    },
+    {
+      "subject": "数据通信系统",
+      "relation": "实现",
+      "object": "车地双向实时通信",
+      "context": ""
+    },
+    {
+      "subject": "车载控制器",
+      "relation": "基于",
+      "object": "速度传感器",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "基于",
+      "object": "IEEE 1474标准",
+      "context": ""
+    },
+    {
+      "subject": "ZC",
+      "relation": "缩写",
+      "object": "区域控制器",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "缩写",
+      "object": "数据通信系统",
+      "context": ""
+    },
+    {
+      "subject": "ATP",
+      "relation": "缩写",
+      "object": "列车自动保护",
+      "context": ""
+    },
+    {
+      "subject": "ATO",
+      "relation": "缩写",
+      "object": "列车自动运行",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "基于",
+      "object": "IEEE 802.11g标准",
+      "context": ""
+    },
+    {
+      "subject": "ATS",
+      "relation": "缩写",
+      "object": "列车自动监控系统",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "区域控制器",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "列车自动监控系统",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "数据通信系统",
+      "context": ""
+    },
+    {
+      "subject": "数据通信系统",
+      "relation": "实现",
+      "object": "车地双向通信",
+      "context": ""
+    },
+    {
+      "subject": "区域控制器",
+      "relation": "负责",
+      "object": "列车移动授权计算",
+      "context": ""
+    },
+    {
+      "subject": "列车自动监控系统",
+      "relation": "控制",
+      "object": "列车运行状态",
+      "context": ""
+    },
+    {
+      "subject": "轨旁AP",
+      "relation": "发送",
+      "object": "无线信号",
+      "context": ""
+    },
+    {
+      "subject": "车载电台",
+      "relation": "接收",
+      "object": "无线信号",
+      "context": ""
+    },
+    {
+      "subject": "系统",
+      "relation": "基于",
+      "object": "EN 50126标准",
+      "context": ""
+    },
+    {
+      "subject": "系统",
+      "relation": "基于",
+      "object": "SIL2安全等级",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "ATS",
+      "context": ""
+    },
+    {
+      "subject": "ATS",
+      "relation": "连接",
+      "object": "DCS",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "连接",
+      "object": "ZC",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "基于",
+      "object": "IEEE 802.3标准",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "负责",
+      "object": "传输控制指令和状态信息",
+      "context": ""
+    },
+    {
+      "subject": "联锁系统",
+      "relation": "接收",
+      "object": "ATS",
+      "context": ""
+    },
+    {
+      "subject": "联锁系统",
+      "relation": "发送",
+      "object": "移动授权",
+      "context": ""
+    },
+    {
+      "subject": "CI",
+      "relation": "缩写",
+      "object": "联锁系统",
+      "context": ""
+    },
+    {
+      "subject": "车载控制器",
+      "relation": "根据",
+      "object": "移动授权",
+      "context": ""
+    },
+    {
+      "subject": "VOBC",
+      "relation": "缩写",
+      "object": "车载控制器",
+      "context": ""
+    },
+    {
+      "subject": "区域控制器",
+      "relation": "控制",
+      "object": "列车移动授权计算",
+      "context": ""
+    },
+    {
+      "subject": "区域控制器",
+      "relation": "通过",
+      "object": "DCS",
+      "context": ""
+    },
+    {
+      "subject": "区域控制器",
+      "relation": "通信",
+      "object": "列车",
+      "context": ""
+    },
+    {
+      "subject": "ATS",
+      "relation": "监控",
+      "object": "列车运行状态",
+      "context": ""
+    },
+    {
+      "subject": "ATS",
+      "relation": "发送",
+      "object": "调度指令",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "实现",
+      "object": "车地双向通信",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "传输",
+      "object": "控制信息",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "传输",
+      "object": "状态数据",
+      "context": ""
+    },
+    {
+      "subject": "联锁系统",
+      "relation": "保障",
+      "object": "道岔安全",
+      "context": ""
+    },
+    {
+      "subject": "联锁系统",
+      "relation": "保障",
+      "object": "信号机状态安全",
+      "context": ""
+    }
+  ],
+  "statistics": {
+    "num_entities": 100,
+    "num_relations": 49,
+    "num_relation_types": 15,
+    "relation_types": [
+      "传输",
+      "保障",
+      "包括",
+      "发送",
+      "基于",
+      "实现",
+      "接收",
+      "控制",
+      "根据",
+      "监控",
+      "缩写",
+      "负责",
+      "连接",
+      "通信",
+      "通过"
+    ],
+    "top_entities": [
+      {
+        "name": "CBTC系统",
+        "type": "UNKNOWN",
+        "frequency": 11
+      },
+      {
+        "name": "DCS",
+        "type": "UNKNOWN",
+        "frequency": 9
+      },
+      {
+        "name": "区域控制器",
+        "type": "UNKNOWN",
+        "frequency": 8
+      },
+      {
+        "name": "ATS",
+        "type": "TECH",
+        "frequency": 7
+      },
+      {
+        "name": "车载控制器",
+        "type": "SYSTEM",
+        "frequency": 5
+      },
+      {
+        "name": "数据通信系统",
+        "type": "UNKNOWN",
+        "frequency": 5
+      },
+      {
+        "name": "联锁系统",
+        "type": "UNKNOWN",
+        "frequency": 5
+      },
+      {
+        "name": "ZC",
+        "type": "TECH",
+        "frequency": 3
+      },
+      {
+        "name": "工铁路",
+        "type": "ORG",
+        "frequency": 3
+      },
+      {
+        "name": "轨旁设备",
+        "type": "UNKNOWN",
+        "frequency": 3
+      }
+    ]
+  }
+}

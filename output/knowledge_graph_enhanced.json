@@ -1,0 +1,3024 @@
+{
+  "修改单-TCAMET 04013.3—2018《......互联互通工程规范  第3部分：交付基本条件》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "ORG",
+        "start": 189,
+        "end": 193
+      },
+      {
+        "text": "TZCAMET",
+        "type": "TECH",
+        "start": 55,
+        "end": 62
+      },
+      {
+        "text": "信号系统",
+        "type": "SYSTEM",
+        "start": 194,
+        "end": 198
+      },
+      {
+        "text": "线运营的信和号系统",
+        "type": "SYSTEM",
+        "start": 39,
+        "end": 48
+      },
+      {
+        "text": "ARIE",
+        "type": "TECH",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "ES",
+        "type": "TECH",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "text": "ATP",
+        "type": "TECH",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "互通接口",
+        "type": "SYSTEM",
+        "start": 29,
+        "end": 33
+      },
+      {
+        "text": "按照互联互通接口",
+        "type": "SYSTEM",
+        "start": 66,
+        "end": 74
+      }
+    ],
+    "relations": [
+      {
+        "subject": "3一2018 ) 团体标准第 1 号修改单",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 第 3 部分: 本修改单经中国城市轨道交通协会于2024 年 09 月 03 日批准发布， 自2024 年 09 月 10 日起实施"
+      },
+      {
+        "subject": "线运营的信和号系统",
+        "relation": "has_part",
+        "object": "本线地面"
+      },
+      {
+        "subject": "线运营的信和号系统",
+        "relation": "has_part",
+        "object": "本线车 载\\他线车载) 获得该线独立第三方的互联互通安全认证证书"
+      },
+      {
+        "subject": "4信号系统",
+        "relation": "has_part",
+        "object": "本线地 车载) 获得该线独立第三方的互联互通安全评 iB” --- --- 3. 2条中”CBTC 区域应覆盖正线"
+      },
+      {
+        "subject": "4信号系统",
+        "relation": "has_part",
+        "object": "转换轨"
+      },
+      {
+        "subject": "4信号系统",
+        "relation": "has_part",
+        "object": "各互联互通线 路之间的联络线(以具体工程项目情况为准) 修改为\"CBTC了系统控制 区域应覆盖正线"
+      },
+      {
+        "subject": "接管线路的轨旁 ATP 设备间应",
+        "relation": "based_on",
+        "object": "联 互通接口规范交换信息”修改为: 移交"
+      },
+      {
+        "subject": "接管线路的轨旁 ATP 设备间应",
+        "relation": "based_on",
+        "object": "互联互通接口规范交换信息”"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 9,
+      "total_relations": 8,
+      "entity_types": {
+        "ORG": 1,
+        "TECH": 4,
+        "SYSTEM": 4
+      },
+      "relation_types": {
+        "based_on": 3,
+        "has_part": 5
+      }
+    }
+  },
+  "修改单-TCAMET 04011.4—2018《……互联互通接口规范  第4部分：区域控制器（ZC）间接口》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 44,
+        "end": 48
+      },
+      {
+        "text": "KX",
+        "type": "TECH",
+        "start": 68,
+        "end": 70
+      },
+      {
+        "text": "ZC",
+        "type": "TECH",
+        "start": 84,
+        "end": 86
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 97,
+        "end": 102
+      },
+      {
+        "text": "互联互通接口",
+        "type": "SYSTEM",
+        "start": 51,
+        "end": 57
+      },
+      {
+        "text": "RSSP",
+        "type": "TECH",
+        "start": 24,
+        "end": 28
+      },
+      {
+        "text": "TI",
+        "type": "TECH",
+        "start": 30,
+        "end": 32
+      },
+      {
+        "text": "TBZT",
+        "type": "TECH",
+        "start": 45,
+        "end": 49
+      },
+      {
+        "text": "TI 铁路信号",
+        "type": "ORG",
+        "start": 30,
+        "end": 37
+      },
+      {
+        "text": "铁路信号安全通信协议",
+        "type": "SYSTEM",
+        "start": 7,
+        "end": 17
+      },
+      {
+        "text": "工型协议",
+        "type": "SYSTEM",
+        "start": 27,
+        "end": 31
+      },
+      {
+        "text": "PRS",
+        "type": "TECH",
+        "start": 12,
+        "end": 15
+      },
+      {
+        "text": "PSL",
+        "type": "TECH",
+        "start": 25,
+        "end": 28
+      },
+      {
+        "text": "TB",
+        "type": "TECH",
+        "start": 39,
+        "end": 41
+      },
+      {
+        "text": "WL",
+        "type": "TECH",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "EBON",
+        "type": "TECH",
+        "start": 23,
+        "end": 27
+      },
+      {
+        "text": "NG",
+        "type": "TECH",
+        "start": 28,
+        "end": 30
+      },
+      {
+        "text": "AVAL",
+        "type": "TECH",
+        "start": 77,
+        "end": 81
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通 ”",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统(CBTC ) 互联互通接口规范”第 4 部分: KX sae till ae (ZC) 间接口》 ( T/CAMET 04011"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 18,
+      "total_relations": 1,
+      "entity_types": {
+        "TECH": 14,
+        "SYSTEM": 3,
+        "ORG": 1
+      },
+      "relation_types": {
+        "based_on": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04010.3—2018《……互联互通系统规范  第3部分：车载电子地图》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 44,
+        "end": 48
+      },
+      {
+        "text": "TZCAMBT",
+        "type": "TECH",
+        "start": 76,
+        "end": 83
+      },
+      {
+        "text": "互联互通系统",
+        "type": "SYSTEM",
+        "start": 50,
+        "end": 56
+      },
+      {
+        "text": "车载电子地图",
+        "type": "ORG",
+        "start": 67,
+        "end": 73
+      },
+      {
+        "text": "RSSP",
+        "type": "TECH",
+        "start": 117,
+        "end": 121
+      },
+      {
+        "text": "TB",
+        "type": "TECH",
+        "start": 144,
+        "end": 146
+      },
+      {
+        "text": "TB/T 3528",
+        "type": "STANDARD",
+        "start": 144,
+        "end": 153
+      },
+      {
+        "text": "全通信协议",
+        "type": "SYSTEM",
+        "start": 130,
+        "end": 135
+      },
+      {
+        "text": "工铁路",
+        "type": "ORG",
+        "start": 123,
+        "end": 126
+      },
+      {
+        "text": "SN",
+        "type": "TECH",
+        "start": 119,
+        "end": 121
+      },
+      {
+        "text": "NID",
+        "type": "TECH",
+        "start": 167,
+        "end": 170
+      },
+      {
+        "text": "铁路信号安全通信协议",
+        "type": "SYSTEM",
+        "start": 2,
+        "end": 12
+      },
+      {
+        "text": "NMR",
+        "type": "TECH",
+        "start": 114,
+        "end": 117
+      },
+      {
+        "text": "FF",
+        "type": "TECH",
+        "start": 119,
+        "end": 121
+      },
+      {
+        "text": "AAR",
+        "type": "TECH",
+        "start": 122,
+        "end": 125
+      },
+      {
+        "text": "BNL",
+        "type": "TECH",
+        "start": 172,
+        "end": 175
+      },
+      {
+        "text": "OSFFFFFFFF",
+        "type": "TECH",
+        "start": 332,
+        "end": 342
+      },
+      {
+        "text": "RMB",
+        "type": "TECH",
+        "start": 347,
+        "end": 350
+      },
+      {
+        "text": "TPPROPERTY",
+        "type": "TECH",
+        "start": 354,
+        "end": 364
+      },
+      {
+        "text": "NI",
+        "type": "TECH",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "text": "UN",
+        "type": "TECH",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "ALE",
+        "type": "TECH",
+        "start": 18,
+        "end": 21
+      },
+      {
+        "text": "ZEA",
+        "type": "TECH",
+        "start": 89,
+        "end": 92
+      },
+      {
+        "text": "MATE",
+        "type": "TECH",
+        "start": 176,
+        "end": 180
+      },
+      {
+        "text": "AR",
+        "type": "TECH",
+        "start": 186,
+        "end": 188
+      },
+      {
+        "text": "EF",
+        "type": "TECH",
+        "start": 238,
+        "end": 240
+      },
+      {
+        "text": "安全通信协议",
+        "type": "SYSTEM",
+        "start": 65,
+        "end": 71
+      },
+      {
+        "text": "Toon 定时器",
+        "type": "ORG",
+        "start": 24,
+        "end": 32
+      },
+      {
+        "text": "表20 安全通信",
+        "type": "ORG",
+        "start": 61,
+        "end": 69
+      },
+      {
+        "text": "MATE Toon",
+        "type": "ORG",
+        "start": 176,
+        "end": 185
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统( CBTC) 互联互通系统规范”第 3 部分: 车载电子地图》( TZCAMBT 04010"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 30,
+      "total_relations": 1,
+      "entity_types": {
+        "TECH": 20,
+        "SYSTEM": 4,
+        "ORG": 5,
+        "STANDARD": 1
+      },
+      "relation_types": {
+        "based_on": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04011.7—2018《……互联互通接口规范  第7部分：信号各子系统与维护支持系统（MSS）间接口》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 44,
+        "end": 48
+      },
+      {
+        "text": "MSS",
+        "type": "TECH",
+        "start": 79,
+        "end": 82
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 94,
+        "end": 99
+      },
+      {
+        "text": "信号各子系统",
+        "type": "SYSTEM",
+        "start": 65,
+        "end": 71
+      },
+      {
+        "text": "与维护广持系统",
+        "type": "SYSTEM",
+        "start": 71,
+        "end": 78
+      },
+      {
+        "text": "互联互通接口",
+        "type": "SYSTEM",
+        "start": 50,
+        "end": 56
+      },
+      {
+        "text": "VOBC",
+        "type": "TECH",
+        "start": 103,
+        "end": 107
+      },
+      {
+        "text": "ELON",
+        "type": "TECH",
+        "start": 193,
+        "end": 197
+      },
+      {
+        "text": "MSS-SCI",
+        "type": "TECH",
+        "start": 201,
+        "end": 208
+      },
+      {
+        "text": "车载计算机( Vehicle Onboard Computer)",
+        "type": "ORG",
+        "start": 109,
+        "end": 141
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通 ”基于通信的列车运行控制 系统(CBTC) 互联互通接口规范 第7部分: 信号各子系统",
+        "relation": "connects_with",
+        "object": "》 ( T/CAMET 04011"
+      },
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通 ”",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统(CBTC) 互联互通接口规范 第7部分: 信号各子系统与维护广持系统(MSS ) 间接口》 ( T/CAMET 04011"
+      },
+      {
+        "subject": "CBTC",
+        "relation": "abbreviation_of",
+        "object": "系统"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 10,
+      "total_relations": 3,
+      "entity_types": {
+        "TECH": 6,
+        "SYSTEM": 3,
+        "ORG": 1
+      },
+      "relation_types": {
+        "connects_with": 1,
+        "based_on": 1,
+        "abbreviation_of": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04012.2—2018《......互联互通测试规范 第2部分：点式部分测试及验证》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 4,
+        "end": 8
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "text": "TOL",
+        "type": "TECH",
+        "start": 117,
+        "end": 120
+      },
+      {
+        "text": "铁路信号安全通信协议",
+        "type": "SYSTEM",
+        "start": 141,
+        "end": 151
+      },
+      {
+        "text": "下型协议",
+        "type": "SYSTEM",
+        "start": 160,
+        "end": 164
+      },
+      {
+        "text": "IEEE",
+        "type": "TECH",
+        "start": 4,
+        "end": 8
+      },
+      {
+        "text": "IEEE 802",
+        "type": "STANDARD",
+        "start": 4,
+        "end": 12
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通”",
+        "relation": "based_on",
+        "object": "通信的列车运行控制"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 7,
+      "total_relations": 1,
+      "entity_types": {
+        "TECH": 4,
+        "SYSTEM": 2,
+        "STANDARD": 1
+      },
+      "relation_types": {
+        "based_on": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04011.8—2018《......互联互通接口规范  第8部分：车载人机界面》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 45,
+        "end": 49
+      },
+      {
+        "text": "GQAMET",
+        "type": "TECH",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "text": "互联互通接口",
+        "type": "SYSTEM",
+        "start": 52,
+        "end": 58
+      },
+      {
+        "text": "车载人机界面",
+        "type": "ORG",
+        "start": 67,
+        "end": 73
+      },
+      {
+        "text": "CM",
+        "type": "TECH",
+        "start": 61,
+        "end": 63
+      },
+      {
+        "text": "LAG",
+        "type": "TECH",
+        "start": 124,
+        "end": 127
+      },
+      {
+        "text": "ASCHI",
+        "type": "TECH",
+        "start": 128,
+        "end": 133
+      },
+      {
+        "text": "IRE",
+        "type": "TECH",
+        "start": 134,
+        "end": 137
+      },
+      {
+        "text": "MD",
+        "type": "TECH",
+        "start": 138,
+        "end": 140
+      },
+      {
+        "text": "城市轨道交通信号系统",
+        "type": "SYSTEM",
+        "start": 176,
+        "end": 186
+      },
+      {
+        "text": "注7",
+        "type": "ORG",
+        "start": 63,
+        "end": 65
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通 ”",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统( CBTC ) 互联互通接口规范 第8部分: 车载人机界面》(T/GQAMET 04011"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 11,
+      "total_relations": 1,
+      "entity_types": {
+        "TECH": 7,
+        "SYSTEM": 2,
+        "ORG": 2
+      },
+      "relation_types": {
+        "based_on": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04010.2—2018《……互联互通系统规范  第2部分：系统架构和功能分配》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "ORG",
+        "start": 51,
+        "end": 55
+      },
+      {
+        "text": "FLY",
+        "type": "TECH",
+        "start": 72,
+        "end": 75
+      },
+      {
+        "text": "BES",
+        "type": "TECH",
+        "start": 76,
+        "end": 79
+      },
+      {
+        "text": "BE",
+        "type": "TECH",
+        "start": 81,
+        "end": 83
+      },
+      {
+        "text": "互联互通系统",
+        "type": "SYSTEM",
+        "start": 51,
+        "end": 57
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 4,
+        "end": 9
+      },
+      {
+        "text": "HR",
+        "type": "TECH",
+        "start": 102,
+        "end": 104
+      },
+      {
+        "text": "PK",
+        "type": "TECH",
+        "start": 105,
+        "end": 107
+      },
+      {
+        "text": "ERI",
+        "type": "TECH",
+        "start": 164,
+        "end": 167
+      },
+      {
+        "text": "CM",
+        "type": "TECH",
+        "start": 259,
+        "end": 261
+      },
+      {
+        "text": "进从设备",
+        "type": "SYSTEM",
+        "start": 61,
+        "end": 65
+      },
+      {
+        "text": "CBT",
+        "type": "TECH",
+        "start": 13,
+        "end": 16
+      },
+      {
+        "text": "KOMEE",
+        "type": "TECH",
+        "start": 139,
+        "end": 144
+      },
+      {
+        "text": "SES",
+        "type": "TECH",
+        "start": 145,
+        "end": 148
+      },
+      {
+        "text": "ATO",
+        "type": "TECH",
+        "start": 18,
+        "end": 21
+      },
+      {
+        "text": "HHA",
+        "type": "TECH",
+        "start": 22,
+        "end": 25
+      },
+      {
+        "text": "ATP",
+        "type": "TECH",
+        "start": 36,
+        "end": 39
+      },
+      {
+        "text": "ATS",
+        "type": "TECH",
+        "start": 52,
+        "end": 55
+      },
+      {
+        "text": "HAR",
+        "type": "ORG",
+        "start": 45,
+        "end": 48
+      },
+      {
+        "text": "PARSE",
+        "type": "TECH",
+        "start": 4,
+        "end": 9
+      },
+      {
+        "text": "ATO PARSE ATP",
+        "type": "ORG",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "ATT",
+        "type": "TECH",
+        "start": 3,
+        "end": 6
+      },
+      {
+        "text": "CI",
+        "type": "TECH",
+        "start": 62,
+        "end": 64
+      },
+      {
+        "text": "ATS x CBTC",
+        "type": "ORG",
+        "start": 34,
+        "end": 44
+      },
+      {
+        "text": "CBTC 车载 X",
+        "type": "ORG",
+        "start": 90,
+        "end": 99
+      },
+      {
+        "text": "FH",
+        "type": "TECH",
+        "start": 42,
+        "end": 44
+      },
+      {
+        "text": "PRA",
+        "type": "TECH",
+        "start": 95,
+        "end": 98
+      },
+      {
+        "text": "中央",
+        "type": "ORG",
+        "start": 42,
+        "end": 44
+      },
+      {
+        "text": "CE",
+        "type": "TECH",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "ASS",
+        "type": "TECH",
+        "start": 15,
+        "end": 18
+      },
+      {
+        "text": "EBON",
+        "type": "TECH",
+        "start": 24,
+        "end": 28
+      },
+      {
+        "text": "TEAM",
+        "type": "TECH",
+        "start": 29,
+        "end": 33
+      },
+      {
+        "text": "OL",
+        "type": "TECH",
+        "start": 34,
+        "end": 36
+      },
+      {
+        "text": "PS",
+        "type": "TECH",
+        "start": 37,
+        "end": 39
+      },
+      {
+        "text": "BED",
+        "type": "TECH",
+        "start": 40,
+        "end": 43
+      },
+      {
+        "text": "HT",
+        "type": "TECH",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "载子系统",
+        "type": "SYSTEM",
+        "start": 58,
+        "end": 62
+      },
+      {
+        "text": "车站维护工作站",
+        "type": "SYSTEM",
+        "start": 4,
+        "end": 11
+      },
+      {
+        "text": "心的信号监测报警工作站",
+        "type": "SYSTEM",
+        "start": 41,
+        "end": 52
+      },
+      {
+        "text": "RARER",
+        "type": "TECH",
+        "start": 2,
+        "end": 7
+      },
+      {
+        "text": "CBTG",
+        "type": "TECH",
+        "start": 10,
+        "end": 14
+      },
+      {
+        "text": "TOR",
+        "type": "TECH",
+        "start": 127,
+        "end": 130
+      },
+      {
+        "text": "车载子系统",
+        "type": "SYSTEM",
+        "start": 135,
+        "end": 140
+      },
+      {
+        "text": "信息传至控制中心维护工作站",
+        "type": "SYSTEM",
+        "start": 86,
+        "end": 99
+      },
+      {
+        "text": "防护区段信息",
+        "type": "ORG",
+        "start": 13,
+        "end": 19
+      },
+      {
+        "text": "CBIC",
+        "type": "TECH",
+        "start": 132,
+        "end": 136
+      },
+      {
+        "text": "车载设备",
+        "type": "SYSTEM",
+        "start": 43,
+        "end": 47
+      },
+      {
+        "text": "外部接口",
+        "type": "SYSTEM",
+        "start": 152,
+        "end": 156
+      },
+      {
+        "text": "CBTC 车载 X X",
+        "type": "ORG",
+        "start": 102,
+        "end": 113
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统( CBTC ) 互联互通系统规范 第2 部分: e224 FLY BES) BE)"
+      },
+      {
+        "subject": "还来进站的列车应",
+        "relation": "based_on",
+        "object": "接收到的移动授权"
+      },
+      {
+        "subject": "还未进站的列车应",
+        "relation": "based_on",
+        "object": "接收到的移动授权"
+      },
+      {
+        "subject": "列车位置报告 车在车辆段z停车场内运行时应 后位置应",
+        "relation": "based_on",
+        "object": "CBTC 上"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 49,
+      "total_relations": 4,
+      "entity_types": {
+        "ORG": 8,
+        "TECH": 32,
+        "SYSTEM": 9
+      },
+      "relation_types": {
+        "based_on": 4
+      }
+    }
+  },
+  "修改单-TCAMET 04012.1—2018《......互联互通测试规范 第1部分：CBTC部分测试及验证》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 43,
+        "end": 47
+      },
+      {
+        "text": "TZCAMET",
+        "type": "TECH",
+        "start": 82,
+        "end": 89
+      },
+      {
+        "text": "BX",
+        "type": "TECH",
+        "start": 320,
+        "end": 322
+      },
+      {
+        "text": "RSSP",
+        "type": "TECH",
+        "start": 3,
+        "end": 7
+      },
+      {
+        "text": "TBMT",
+        "type": "TECH",
+        "start": 43,
+        "end": 47
+      },
+      {
+        "text": "工铁路信号安全通信协议",
+        "type": "SYSTEM",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "IEEE",
+        "type": "TECH",
+        "start": 29,
+        "end": 33
+      },
+      {
+        "text": "IEEE 802",
+        "type": "STANDARD",
+        "start": 29,
+        "end": 37
+      },
+      {
+        "text": "铁路信号安全通信协议",
+        "type": "SYSTEM",
+        "start": 3,
+        "end": 13
+      },
+      {
+        "text": "工型协议",
+        "type": "SYSTEM",
+        "start": 21,
+        "end": 25
+      },
+      {
+        "text": "ATS",
+        "type": "TECH",
+        "start": 172,
+        "end": 175
+      },
+      {
+        "text": "测试接口",
+        "type": "SYSTEM",
+        "start": 132,
+        "end": 136
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统(CBTC ) 互联互通测试规范一第 1 部分: CBTC 部分测试及验证》 (TZCAMET'04012"
+      },
+      {
+        "subject": "列车将",
+        "relation": "based_on",
+        "object": "命令在跳停车站停车”修改为 “1)设置跳停命令"
+      },
+      {
+        "subject": "列车将",
+        "relation": "based_on",
+        "object": "命令 在跳停车站不停车"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 12,
+      "total_relations": 3,
+      "entity_types": {
+        "TECH": 7,
+        "SYSTEM": 4,
+        "STANDARD": 1
+      },
+      "relation_types": {
+        "based_on": 3
+      }
+    }
+  },
+  "修改单-TCAMET 04011.5—2018《……互联互通接口规范  第5部分：计算机联锁（CI）间接口》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 4,
+        "end": 8
+      },
+      {
+        "text": "CD",
+        "type": "TECH",
+        "start": 33,
+        "end": 35
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 46,
+        "end": 51
+      },
+      {
+        "text": "互联互通接口",
+        "type": "SYSTEM",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "text": "封闭式传输系统",
+        "type": "SYSTEM",
+        "start": 29,
+        "end": 36
+      },
+      {
+        "text": "IDT",
+        "type": "TECH",
+        "start": 16,
+        "end": 19
+      },
+      {
+        "text": "GBZT",
+        "type": "TECH",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "text": "HS",
+        "type": "TECH",
+        "start": 46,
+        "end": 48
+      },
+      {
+        "text": "SE",
+        "type": "TECH",
+        "start": 49,
+        "end": 51
+      },
+      {
+        "text": "IEC",
+        "type": "TECH",
+        "start": 71,
+        "end": 74
+      },
+      {
+        "text": "RSSP",
+        "type": "TECH",
+        "start": 121,
+        "end": 125
+      },
+      {
+        "text": "TBZT",
+        "type": "TECH",
+        "start": 146,
+        "end": 150
+      },
+      {
+        "text": "IEC 62280",
+        "type": "STANDARD",
+        "start": 71,
+        "end": 80
+      },
+      {
+        "text": "传输系统",
+        "type": "SYSTEM",
+        "start": 58,
+        "end": 62
+      },
+      {
+        "text": "TBMT",
+        "type": "TECH",
+        "start": 56,
+        "end": 60
+      },
+      {
+        "text": "铁路信号安全通信协议",
+        "type": "SYSTEM",
+        "start": 8,
+        "end": 18
+      },
+      {
+        "text": "中\"信息",
+        "type": "ORG",
+        "start": 8,
+        "end": 12
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通”",
+        "relation": "based_on",
+        "object": "通信的列车运行控制"
+      },
+      {
+        "subject": "CD",
+        "relation": "abbreviation_of",
+        "object": "计算机联锁"
+      },
+      {
+        "subject": "信号",
+        "relation": "connects_with",
+        "object": "(正C"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 17,
+      "total_relations": 3,
+      "entity_types": {
+        "TECH": 11,
+        "SYSTEM": 4,
+        "STANDARD": 1,
+        "ORG": 1
+      },
+      "relation_types": {
+        "based_on": 1,
+        "abbreviation_of": 1,
+        "connects_with": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04010.1—2018《……互联互通系统规范 第1部分：系统总体要求》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 45,
+        "end": 49
+      },
+      {
+        "text": "GAMET",
+        "type": "TECH",
+        "start": 77,
+        "end": 82
+      },
+      {
+        "text": "互联互通系统",
+        "type": "SYSTEM",
+        "start": 52,
+        "end": 58
+      },
+      {
+        "text": "TB",
+        "type": "TECH",
+        "start": 86,
+        "end": 88
+      },
+      {
+        "text": "TB/T 3485—2017",
+        "type": "STANDARD",
+        "start": 86,
+        "end": 100
+      },
+      {
+        "text": "应答器传输系统",
+        "type": "SYSTEM",
+        "start": 101,
+        "end": 108
+      },
+      {
+        "text": "ATO",
+        "type": "TECH",
+        "start": 19,
+        "end": 22
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通 ”",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统( CBTC ) 互联互通系统规范 第1部分: 系统总体要求》(T/GAMET 04010"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 7,
+      "total_relations": 1,
+      "entity_types": {
+        "TECH": 4,
+        "SYSTEM": 2,
+        "STANDARD": 1
+      },
+      "relation_types": {
+        "based_on": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04011.6—2018《  ……互联互通接口规范  第6部分：列车自动监控系统（ATS）间接口》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 44,
+        "end": 48
+      },
+      {
+        "text": "ATS",
+        "type": "TECH",
+        "start": 76,
+        "end": 79
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 90,
+        "end": 95
+      },
+      {
+        "text": "列车自动监控系统",
+        "type": "SYSTEM",
+        "start": 67,
+        "end": 75
+      },
+      {
+        "text": "列车自动监控",
+        "type": "SYSTEM",
+        "start": 67,
+        "end": 73
+      },
+      {
+        "text": "互联互通接口",
+        "type": "SYSTEM",
+        "start": 50,
+        "end": 56
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统( CBTC) 互联互通接口规范”第 6 部分: 列车自动监控系统(ATS) 间接口》 ( T/CAMET 04011"
+      },
+      {
+        "subject": "ATS",
+        "relation": "abbreviation_of",
+        "object": "列车自动监控系统"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 6,
+      "total_relations": 2,
+      "entity_types": {
+        "TECH": 3,
+        "SYSTEM": 3
+      },
+      "relation_types": {
+        "based_on": 1,
+        "abbreviation_of": 1
+      }
+    }
+  },
+  "修改单-TCAMET 04010.4—2018《……互联互通系统规范  第4部分：互联互通危害分析》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 45,
+        "end": 49
+      },
+      {
+        "text": "BE",
+        "type": "TECH",
+        "start": 66,
+        "end": 68
+      },
+      {
+        "text": "互联互通系统",
+        "type": "SYSTEM",
+        "start": 51,
+        "end": 57
+      },
+      {
+        "text": "AUCT",
+        "type": "TECH",
+        "start": 96,
+        "end": 100
+      },
+      {
+        "text": "IEC",
+        "type": "TECH",
+        "start": 116,
+        "end": 119
+      },
+      {
+        "text": "MOD",
+        "type": "TECH",
+        "start": 130,
+        "end": 133
+      },
+      {
+        "text": "IEC 6227",
+        "type": "STANDARD",
+        "start": 116,
+        "end": 124
+      },
+      {
+        "text": "CB",
+        "type": "TECH",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "text": "YS",
+        "type": "TECH",
+        "start": 51,
+        "end": 53
+      },
+      {
+        "text": "EAS",
+        "type": "TECH",
+        "start": 56,
+        "end": 59
+      },
+      {
+        "text": "EFT",
+        "type": "TECH",
+        "start": 60,
+        "end": 63
+      },
+      {
+        "text": "ML",
+        "type": "TECH",
+        "start": 70,
+        "end": 72
+      },
+      {
+        "text": "BRASTE",
+        "type": "TECH",
+        "start": 3,
+        "end": 9
+      },
+      {
+        "text": "GARI",
+        "type": "TECH",
+        "start": 146,
+        "end": 150
+      },
+      {
+        "text": "AZ",
+        "type": "TECH",
+        "start": 158,
+        "end": 160
+      },
+      {
+        "text": "VOBC",
+        "type": "ORG",
+        "start": 69,
+        "end": 73
+      },
+      {
+        "text": "备不同厂家和车载设备",
+        "type": "SYSTEM",
+        "start": 62,
+        "end": 72
+      },
+      {
+        "text": "以在装备不同广家轨旁设备",
+        "type": "SYSTEM",
+        "start": 76,
+        "end": 88
+      },
+      {
+        "text": "车载控制器",
+        "type": "SYSTEM",
+        "start": 220,
+        "end": 225
+      },
+      {
+        "text": "Board Controller)",
+        "type": "ORG",
+        "start": 237,
+        "end": 254
+      },
+      {
+        "text": "MSS",
+        "type": "TECH",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "text": "维护支持系统",
+        "type": "SYSTEM",
+        "start": 14,
+        "end": 20
+      },
+      {
+        "text": "中应答器作海外部设备",
+        "type": "SYSTEM",
+        "start": 7,
+        "end": 17
+      },
+      {
+        "text": "中与计算机联锁接后设备",
+        "type": "SYSTEM",
+        "start": 34,
+        "end": 45
+      },
+      {
+        "text": "DCS",
+        "type": "TECH",
+        "start": 39,
+        "end": 42
+      },
+      {
+        "text": "HH",
+        "type": "TECH",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "ES",
+        "type": "TECH",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "text": "RRIMBR",
+        "type": "TECH",
+        "start": 27,
+        "end": 33
+      },
+      {
+        "text": "车载设备",
+        "type": "SYSTEM",
+        "start": 3,
+        "end": 7
+      },
+      {
+        "text": "表3",
+        "type": "ORG",
+        "start": 62,
+        "end": 64
+      },
+      {
+        "text": "信号系统",
+        "type": "SYSTEM",
+        "start": 7,
+        "end": 11
+      },
+      {
+        "text": "信号系统接口",
+        "type": "SYSTEM",
+        "start": 7,
+        "end": 13
+      },
+      {
+        "text": "号系统与防渡门接口",
+        "type": "SYSTEM",
+        "start": 29,
+        "end": 38
+      },
+      {
+        "text": "BOM",
+        "type": "TECH",
+        "start": 19,
+        "end": 22
+      },
+      {
+        "text": "AY",
+        "type": "TECH",
+        "start": 23,
+        "end": 25
+      },
+      {
+        "text": "DISD",
+        "type": "TECH",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "text": "BRYN",
+        "type": "TECH",
+        "start": 31,
+        "end": 35
+      },
+      {
+        "text": "SOD",
+        "type": "TECH",
+        "start": 40,
+        "end": 43
+      },
+      {
+        "text": "LEK",
+        "type": "TECH",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "text": "WE",
+        "type": "TECH",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "GEWNGGESS",
+        "type": "TECH",
+        "start": 10,
+        "end": 19
+      },
+      {
+        "text": "WE GEW",
+        "type": "ORG",
+        "start": 7,
+        "end": 13
+      },
+      {
+        "text": "NGGES",
+        "type": "ORG",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "text": "TAG",
+        "type": "TECH",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "EL",
+        "type": "TECH",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "text": "GH",
+        "type": "TECH",
+        "start": 51,
+        "end": 53
+      },
+      {
+        "text": "LY",
+        "type": "TECH",
+        "start": 54,
+        "end": 56
+      },
+      {
+        "text": "ETH",
+        "type": "TECH",
+        "start": 12,
+        "end": 15
+      },
+      {
+        "text": "IS",
+        "type": "TECH",
+        "start": 16,
+        "end": 18
+      },
+      {
+        "text": "VITA",
+        "type": "TECH",
+        "start": 19,
+        "end": 23
+      },
+      {
+        "text": "SAMO",
+        "type": "TECH",
+        "start": 24,
+        "end": 28
+      },
+      {
+        "text": "SALA",
+        "type": "TECH",
+        "start": 37,
+        "end": 41
+      },
+      {
+        "text": "TT",
+        "type": "TECH",
+        "start": 51,
+        "end": 53
+      },
+      {
+        "text": "OLY",
+        "type": "TECH",
+        "start": 58,
+        "end": 61
+      },
+      {
+        "text": "WIG",
+        "type": "TECH",
+        "start": 14,
+        "end": 17
+      },
+      {
+        "text": "CPO",
+        "type": "TECH",
+        "start": 29,
+        "end": 32
+      },
+      {
+        "text": "LALA",
+        "type": "TECH",
+        "start": 33,
+        "end": 37
+      },
+      {
+        "text": "CH",
+        "type": "TECH",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "DB",
+        "type": "TECH",
+        "start": 22,
+        "end": 24
+      },
+      {
+        "text": "EY",
+        "type": "TECH",
+        "start": 26,
+        "end": 28
+      },
+      {
+        "text": "REM",
+        "type": "TECH",
+        "start": 31,
+        "end": 34
+      },
+      {
+        "text": "ZF",
+        "type": "TECH",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "text": "SHY",
+        "type": "TECH",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "text": "WP",
+        "type": "TECH",
+        "start": 6,
+        "end": 8
+      },
+      {
+        "text": "HEE",
+        "type": "TECH",
+        "start": 13,
+        "end": 16
+      },
+      {
+        "text": "GS",
+        "type": "TECH",
+        "start": 17,
+        "end": 19
+      },
+      {
+        "text": "HA",
+        "type": "TECH",
+        "start": 20,
+        "end": 22
+      },
+      {
+        "text": "FF",
+        "type": "TECH",
+        "start": 33,
+        "end": 35
+      },
+      {
+        "text": "WHEN",
+        "type": "TECH",
+        "start": 25,
+        "end": 29
+      },
+      {
+        "text": "eee",
+        "type": "ORG",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "text": "HC",
+        "type": "TECH",
+        "start": 46,
+        "end": 48
+      },
+      {
+        "text": "FFA",
+        "type": "TECH",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "EMIT",
+        "type": "TECH",
+        "start": 5,
+        "end": 9
+      },
+      {
+        "text": "GAT",
+        "type": "TECH",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "text": "AR",
+        "type": "TECH",
+        "start": 14,
+        "end": 16
+      },
+      {
+        "text": "BOY",
+        "type": "TECH",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "BPR",
+        "type": "TECH",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "IDT",
+        "type": "TECH",
+        "start": 30,
+        "end": 33
+      },
+      {
+        "text": "IEC 62278",
+        "type": "STANDARD",
+        "start": 14,
+        "end": 23
+      },
+      {
+        "text": "单位确保信号系统",
+        "type": "SYSTEM",
+        "start": 19,
+        "end": 27
+      },
+      {
+        "text": "AE",
+        "type": "TECH",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "THR",
+        "type": "TECH",
+        "start": 6,
+        "end": 9
+      },
+      {
+        "text": "GB",
+        "type": "TECH",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "text": "GB/T 2",
+        "type": "STANDARD",
+        "start": 53,
+        "end": 59
+      },
+      {
+        "text": "SR-L235VYOBC",
+        "type": "TECH",
+        "start": 25,
+        "end": 37
+      },
+      {
+        "text": "ZC",
+        "type": "TECH",
+        "start": 40,
+        "end": 42
+      },
+      {
+        "text": "TB",
+        "type": "TECH",
+        "start": 67,
+        "end": 69
+      },
+      {
+        "text": "RSSP",
+        "type": "TECH",
+        "start": 101,
+        "end": 105
+      },
+      {
+        "text": "RSSP-I",
+        "type": "TECH",
+        "start": 148,
+        "end": 154
+      },
+      {
+        "text": "TB/T 3485",
+        "type": "STANDARD",
+        "start": 67,
+        "end": 76
+      },
+      {
+        "text": "应答器传输系统",
+        "type": "SYSTEM",
+        "start": 82,
+        "end": 89
+      },
+      {
+        "text": "将互联互通接口",
+        "type": "SYSTEM",
+        "start": 15,
+        "end": 22
+      },
+      {
+        "text": "工安全通信协议",
+        "type": "SYSTEM",
+        "start": 107,
+        "end": 114
+      },
+      {
+        "text": "安全通信协议",
+        "type": "SYSTEM",
+        "start": 155,
+        "end": 161
+      },
+      {
+        "text": "SR-S",
+        "type": "TECH",
+        "start": 20,
+        "end": 24
+      },
+      {
+        "text": "ITC",
+        "type": "TECH",
+        "start": 42,
+        "end": 45
+      },
+      {
+        "text": "ATP",
+        "type": "TECH",
+        "start": 106,
+        "end": 109
+      },
+      {
+        "text": "EB",
+        "type": "TECH",
+        "start": 196,
+        "end": 198
+      },
+      {
+        "text": "SR-I",
+        "type": "TECH",
+        "start": 25,
+        "end": 29
+      },
+      {
+        "text": "CI",
+        "type": "TECH",
+        "start": 40,
+        "end": 42
+      },
+      {
+        "text": "互通接口",
+        "type": "SYSTEM",
+        "start": 18,
+        "end": 22
+      },
+      {
+        "text": "通信协议",
+        "type": "SYSTEM",
+        "start": 59,
+        "end": 63
+      },
+      {
+        "text": "IT",
+        "type": "TECH",
+        "start": 25,
+        "end": 27
+      },
+      {
+        "text": "CI 间通信",
+        "type": "ORG",
+        "start": 2,
+        "end": 8
+      },
+      {
+        "text": "ABER",
+        "type": "ORG",
+        "start": 71,
+        "end": 75
+      },
+      {
+        "text": "ISH",
+        "type": "TECH",
+        "start": 115,
+        "end": 118
+      },
+      {
+        "text": "BOB",
+        "type": "TECH",
+        "start": 119,
+        "end": 122
+      },
+      {
+        "text": "IY",
+        "type": "TECH",
+        "start": 123,
+        "end": 125
+      },
+      {
+        "text": "AHF",
+        "type": "TECH",
+        "start": 126,
+        "end": 129
+      },
+      {
+        "text": "AREER",
+        "type": "TECH",
+        "start": 217,
+        "end": 222
+      },
+      {
+        "text": "(aH AREE",
+        "type": "ORG",
+        "start": 213,
+        "end": 221
+      },
+      {
+        "text": "OS",
+        "type": "TECH",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "TES",
+        "type": "TECH",
+        "start": 3,
+        "end": 6
+      },
+      {
+        "text": "BOE",
+        "type": "TECH",
+        "start": 16,
+        "end": 19
+      },
+      {
+        "text": "SE",
+        "type": "TECH",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "text": "WT",
+        "type": "TECH",
+        "start": 27,
+        "end": 29
+      },
+      {
+        "text": "OIE",
+        "type": "TECH",
+        "start": 30,
+        "end": 33
+      },
+      {
+        "text": "CALE",
+        "type": "TECH",
+        "start": 41,
+        "end": 45
+      },
+      {
+        "text": "ARE",
+        "type": "TECH",
+        "start": 50,
+        "end": 53
+      },
+      {
+        "text": "SPORE",
+        "type": "ORG",
+        "start": 54,
+        "end": 59
+      },
+      {
+        "text": "CALE wes",
+        "type": "ORG",
+        "start": 41,
+        "end": 49
+      },
+      {
+        "text": "AVENE",
+        "type": "TECH",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "ILA",
+        "type": "TECH",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "text": "MID",
+        "type": "TECH",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "text": "CAG",
+        "type": "TECH",
+        "start": 13,
+        "end": 16
+      },
+      {
+        "text": "IGKSSEAHSIABREME",
+        "type": "TECH",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "SVMS",
+        "type": "TECH",
+        "start": 74,
+        "end": 78
+      },
+      {
+        "text": "S)",
+        "type": "ORG",
+        "start": 77,
+        "end": 79
+      },
+      {
+        "text": "SM",
+        "type": "TECH",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "AA",
+        "type": "TECH",
+        "start": 16,
+        "end": 18
+      },
+      {
+        "text": "SM anew |",
+        "type": "ORG",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "BRE",
+        "type": "TECH",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "ARB",
+        "type": "TECH",
+        "start": 4,
+        "end": 7
+      },
+      {
+        "text": "WEEPREWE",
+        "type": "TECH",
+        "start": 17,
+        "end": 25
+      },
+      {
+        "text": "联锁系统",
+        "type": "SYSTEM",
+        "start": 46,
+        "end": 50
+      },
+      {
+        "text": "联锁设备",
+        "type": "SYSTEM",
+        "start": 116,
+        "end": 120
+      },
+      {
+        "text": "CH)",
+        "type": "ORG",
+        "start": 13,
+        "end": 16
+      },
+      {
+        "text": "PVP",
+        "type": "TECH",
+        "start": 156,
+        "end": 159
+      },
+      {
+        "text": "RAB",
+        "type": "TECH",
+        "start": 160,
+        "end": 163
+      },
+      {
+        "text": "IEN",
+        "type": "TECH",
+        "start": 164,
+        "end": 167
+      },
+      {
+        "text": "HAGA",
+        "type": "TECH",
+        "start": 202,
+        "end": 206
+      },
+      {
+        "text": "TENE",
+        "type": "TECH",
+        "start": 207,
+        "end": 211
+      },
+      {
+        "text": "ONL",
+        "type": "TECH",
+        "start": 213,
+        "end": 216
+      },
+      {
+        "text": "TD",
+        "type": "TECH",
+        "start": 227,
+        "end": 229
+      },
+      {
+        "text": "EI",
+        "type": "TECH",
+        "start": 232,
+        "end": 234
+      },
+      {
+        "text": "AS",
+        "type": "TECH",
+        "start": 238,
+        "end": 240
+      },
+      {
+        "text": "WEL",
+        "type": "TECH",
+        "start": 241,
+        "end": 244
+      },
+      {
+        "text": "道岔子系统",
+        "type": "SYSTEM",
+        "start": 176,
+        "end": 181
+      },
+      {
+        "text": "信号设备",
+        "type": "SYSTEM",
+        "start": 339,
+        "end": 343
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通 ”",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统( CBTC) 互联互通系统规范 第4部分: BE Bid fe = 5 if) (T/CAMET04010. 4一2018 ) 团体标准第 1 号修改单"
+      },
+      {
+        "subject": "AUCT",
+        "relation": "abbreviation_of",
+        "object": "轨道交通"
+      },
+      {
+        "subject": "将互联 互通接口需求 SR-I-24“VOBC",
+        "relation": "connects_with",
+        "object": "采用 RSSP-I 安全 通信协议”修改为:“VOBC"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 149,
+      "total_relations": 3,
+      "entity_types": {
+        "TECH": 109,
+        "SYSTEM": 22,
+        "STANDARD": 4,
+        "ORG": 14
+      },
+      "relation_types": {
+        "based_on": 1,
+        "abbreviation_of": 1,
+        "connects_with": 1
+      }
+    }
+  },
+  "修改单TCAMET 04011.1—2018《……互联互通接口规范  第1部分：应答器报文》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 44,
+        "end": 48
+      },
+      {
+        "text": "ZCAMIET",
+        "type": "TECH",
+        "start": 78,
+        "end": 85
+      },
+      {
+        "text": "互联互通接口",
+        "type": "SYSTEM",
+        "start": 51,
+        "end": 57
+      },
+      {
+        "text": "HIBS",
+        "type": "TECH",
+        "start": 90,
+        "end": 94
+      },
+      {
+        "text": "BA",
+        "type": "TECH",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "text": "GB",
+        "type": "TECH",
+        "start": 28,
+        "end": 30
+      },
+      {
+        "text": "GB/T 24339",
+        "type": "STANDARD",
+        "start": 28,
+        "end": 38
+      },
+      {
+        "text": "IEC",
+        "type": "TECH",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "text": "IDT",
+        "type": "TECH",
+        "start": 63,
+        "end": 66
+      },
+      {
+        "text": "BBC",
+        "type": "ORG",
+        "start": 70,
+        "end": 73
+      },
+      {
+        "text": "FH",
+        "type": "TECH",
+        "start": 107,
+        "end": 109
+      },
+      {
+        "text": "IEC 62280",
+        "type": "STANDARD",
+        "start": 44,
+        "end": 53
+      },
+      {
+        "text": "封闭式传输系统",
+        "type": "SYSTEM",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "text": "信号和处理系统",
+        "type": "SYSTEM",
+        "start": 99,
+        "end": 106
+      },
+      {
+        "text": "TB",
+        "type": "TECH",
+        "start": 9,
+        "end": 11
+      },
+      {
+        "text": "TB/T 3485",
+        "type": "STANDARD",
+        "start": 9,
+        "end": 18
+      },
+      {
+        "text": "也称接口",
+        "type": "SYSTEM",
+        "start": 56,
+        "end": 60
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通“",
+        "relation": "based_on",
+        "object": "通信的列车迁行控制 系统( CBTC ) 互联互通接口规范全 第 1 部分， 应答器报文》(T/ZCAMIET 04011"
+      },
+      {
+        "subject": "信号",
+        "relation": "connects_with",
+        "object": "(IEC 62280-T:2002 ， IDT) ” BBC“ GB/T 24339一2023 轨道交通 通信 信号和处理系统 FH 系统中的安全相关通信(IEC 62280:2014"
+      },
+      {
+        "subject": "修改为“地面应答器",
+        "relation": "connects_with",
+        "object": "(也称接口 A)"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 17,
+      "total_relations": 3,
+      "entity_types": {
+        "TECH": 9,
+        "SYSTEM": 4,
+        "STANDARD": 3,
+        "ORG": 1
+      },
+      "relation_types": {
+        "based_on": 1,
+        "connects_with": 2
+      }
+    }
+  },
+  "修改单-TCAMET 04011.2—2018《……互联互通接口规范  第2部分：CBTC系统车地连续通信协议》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 43,
+        "end": 47
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 88,
+        "end": 93
+      },
+      {
+        "text": "互联互通接口",
+        "type": "SYSTEM",
+        "start": 50,
+        "end": 56
+      },
+      {
+        "text": "系统车地连续通信协议",
+        "type": "SYSTEM",
+        "start": 72,
+        "end": 82
+      },
+      {
+        "text": "CM",
+        "type": "TECH",
+        "start": 179,
+        "end": 181
+      },
+      {
+        "text": "VOBC",
+        "type": "TECH",
+        "start": 4,
+        "end": 8
+      },
+      {
+        "text": "RSSP",
+        "type": "TECH",
+        "start": 121,
+        "end": 125
+      },
+      {
+        "text": "ZC",
+        "type": "TECH",
+        "start": 140,
+        "end": 142
+      },
+      {
+        "text": "UDP",
+        "type": "TECH",
+        "start": 175,
+        "end": 178
+      },
+      {
+        "text": "车载控制器",
+        "type": "SYSTEM",
+        "start": 10,
+        "end": 15
+      },
+      {
+        "text": "当使用安全通信协议",
+        "type": "SYSTEM",
+        "start": 111,
+        "end": 120
+      },
+      {
+        "text": "ATS",
+        "type": "TECH",
+        "start": 108,
+        "end": 111
+      },
+      {
+        "text": "RSSPSJL",
+        "type": "TECH",
+        "start": 171,
+        "end": 178
+      },
+      {
+        "text": "当德用安全通信协议",
+        "type": "SYSTEM",
+        "start": 254,
+        "end": 263
+      },
+      {
+        "text": "CI",
+        "type": "TECH",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "FA",
+        "type": "TECH",
+        "start": 96,
+        "end": 98
+      },
+      {
+        "text": "FESS",
+        "type": "TECH",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "TBZT",
+        "type": "TECH",
+        "start": 54,
+        "end": 58
+      },
+      {
+        "text": "安全通信协议",
+        "type": "SYSTEM",
+        "start": 41,
+        "end": 47
+      },
+      {
+        "text": "工铁路",
+        "type": "ORG",
+        "start": 35,
+        "end": 38
+      },
+      {
+        "text": "铁路信号安全通信协议",
+        "type": "SYSTEM",
+        "start": 2,
+        "end": 12
+      },
+      {
+        "text": "全通信协议",
+        "type": "SYSTEM",
+        "start": 40,
+        "end": 45
+      },
+      {
+        "text": "EN",
+        "type": "TECH",
+        "start": 11,
+        "end": 13
+      },
+      {
+        "text": "EN 50159",
+        "type": "STANDARD",
+        "start": 11,
+        "end": 19
+      },
+      {
+        "text": "欧洲",
+        "type": "LOC",
+        "start": 25,
+        "end": 27
+      },
+      {
+        "text": "for Information Transmission Systems",
+        "type": "ORG",
+        "start": 83,
+        "end": 119
+      },
+      {
+        "text": "TBAT",
+        "type": "TECH",
+        "start": 17,
+        "end": 21
+      },
+      {
+        "text": "通信协议",
+        "type": "SYSTEM",
+        "start": 7,
+        "end": 11
+      },
+      {
+        "text": "工铁路信号安全 通信",
+        "type": "ORG",
+        "start": 26,
+        "end": 36
+      },
+      {
+        "text": "EN50159",
+        "type": "STANDARD",
+        "start": 246,
+        "end": 253
+      },
+      {
+        "text": "TBMT",
+        "type": "TECH",
+        "start": 43,
+        "end": 47
+      },
+      {
+        "text": "工铁路 通信",
+        "type": "ORG",
+        "start": 30,
+        "end": 36
+      },
+      {
+        "text": "NIE",
+        "type": "TECH",
+        "start": 212,
+        "end": 215
+      },
+      {
+        "text": "TBT",
+        "type": "TECH",
+        "start": 25,
+        "end": 28
+      },
+      {
+        "text": "TBT 3528",
+        "type": "STANDARD",
+        "start": 25,
+        "end": 33
+      },
+      {
+        "text": "通信风险均由安全通信协议",
+        "type": "SYSTEM",
+        "start": 266,
+        "end": 278
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统(CBTC ) 互联互通接口规范 第 2 部分: CBTC 系统车地连续通信协议》 ( T/CAMET"
+      },
+      {
+        "subject": "应断开",
+        "relation": "connects_with",
+        "object": "\"修改为:”当使用安全通信协议 RSSP"
+      },
+      {
+        "subject": "VOBC 判断",
+        "relation": "connects_with",
+        "object": "后*且不再与该 ZC 重新建立通信后"
+      },
+      {
+        "subject": "凡断开",
+        "relation": "connects_with",
+        "object": "\"修改为:” 当使用安全通信协议 RSSPSJL 时wVOBC 判 断与 ATS 断开通信后"
+      },
+      {
+        "subject": "当判断",
+        "relation": "connects_with",
+        "object": "上断开并且不再与对方 建立连接后"
+      },
+      {
+        "subject": "应断开",
+        "relation": "connects_with",
+        "object": "协议 RSSP -工时"
+      },
+      {
+        "subject": "两包信息报中的\"本方消息序列号\"字段的差 值",
+        "relation": "connects_with",
+        "object": "周期\" 相乘等于生成两包消息的时间间隔\" 修改为:序列号有 2 --- --- 效值为 1一(2 -1)"
+      },
+      {
+        "subject": "两包信息包中的 “本方消息序列号”字段的差值",
+        "relation": "connects_with",
+        "object": "周期\"相乘等于生成两包消息的 时间间隔"
+      },
+      {
+        "subject": "本消息的“本方消息序列号\"",
+        "relation": "connects_with",
+        "object": "周期\"相乘不应大于该消息的实际处理时间”"
+      },
+      {
+        "subject": "12 中*运基信",
+        "relation": "connects_with",
+        "object": "协议沁修改为\"TBMT 3528"
+      },
+      {
+        "subject": "风险",
+        "relation": "has_part",
+        "object": "重复删除. 2 中\"运基信号K2010 ]267 号文件(RSSP -工铁路信号安 4. 2 表29 的脚注“序列号有效值为1一(2 -1)"
+      },
+      {
+        "subject": "方应保证生成两包信息包时， 而包信息报中的“本方消息序列号\"字段的 差值",
+        "relation": "connects_with",
+        "object": "周期\" 相乘等于4 有效值为1一(2 -1)"
+      },
+      {
+        "subject": "两包信息包 中的“本方消息序列号\"字段 息的 4差值",
+        "relation": "connects_with",
+        "object": "周期\" 相乘等于生成两包消 间间隔"
+      },
+      {
+        "subject": "本消息的“本方消息序列号\"",
+        "relation": "connects_with",
+        "object": "周期” 1 相乘不应大于该消息的实际处理时间”"
+      },
+      {
+        "subject": "15. 3 中 d)条中\"EN50159:2010 中提及的7 种开放式网 络存在的安全通信风险均由安全通信协议进行防护*羽险",
+        "relation": "has_part",
+        "object": "重复"
+      },
+      {
+        "subject": "方应保证生成两包信息包时， 而包信息报中的“本方消息序列号\"字段的 差值",
+        "relation": "connects_with",
+        "object": "周期\" 相乘等于4 有效值为1一(2” -1)"
+      },
+      {
+        "subject": "两包信息包 3 --- --- 中的“本方消息序列号\"字段的差值",
+        "relation": "connects_with",
+        "object": "周期\"相乘等于生成两包消 息的时间间隔"
+      },
+      {
+        "subject": "本消息的“本方消息序列号\"",
+        "relation": "connects_with",
+        "object": "有周期” 相乘不应大于该消息的实际处理时间”"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 36,
+      "total_relations": 18,
+      "entity_types": {
+        "TECH": 18,
+        "SYSTEM": 10,
+        "ORG": 4,
+        "STANDARD": 3,
+        "LOC": 1
+      },
+      "relation_types": {
+        "based_on": 1,
+        "connects_with": 15,
+        "has_part": 2
+      }
+    }
+  },
+  "修改单-TCAMET 04013.1—2018《......互联互通工程规范  第1部分：工程设计》.txt": {
+    "entities": [
+      {
+        "text": "CBTC",
+        "type": "TECH",
+        "start": 43,
+        "end": 47
+      },
+      {
+        "text": "CAMET",
+        "type": "TECH",
+        "start": 74,
+        "end": 79
+      },
+      {
+        "text": "RARE",
+        "type": "TECH",
+        "start": 154,
+        "end": 158
+      },
+      {
+        "text": "RS",
+        "type": "TECH",
+        "start": 159,
+        "end": 161
+      },
+      {
+        "text": "SEAGIZ",
+        "type": "ORG",
+        "start": 214,
+        "end": 220
+      },
+      {
+        "text": "SB",
+        "type": "TECH",
+        "start": 488,
+        "end": 490
+      },
+      {
+        "text": "测列车占用出清的最小单元",
+        "type": "SYSTEM",
+        "start": 464,
+        "end": 476
+      },
+      {
+        "text": "BB",
+        "type": "TECH",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "KAA",
+        "type": "TECH",
+        "start": 6,
+        "end": 9
+      },
+      {
+        "text": "ATS",
+        "type": "TECH",
+        "start": 11,
+        "end": 14
+      },
+      {
+        "text": "道岔区",
+        "type": "LOC",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "text": "ATO",
+        "type": "TECH",
+        "start": 181,
+        "end": 184
+      },
+      {
+        "text": "AA",
+        "type": "TECH",
+        "start": 6,
+        "end": 8
+      },
+      {
+        "text": "FBS",
+        "type": "TECH",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "text": "HG",
+        "type": "TECH",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "text": "MEAP",
+        "type": "TECH",
+        "start": 30,
+        "end": 34
+      },
+      {
+        "text": "TT",
+        "type": "TECH",
+        "start": 35,
+        "end": 37
+      },
+      {
+        "text": "AE",
+        "type": "TECH",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "text": "RSS",
+        "type": "TECH",
+        "start": 7,
+        "end": 10
+      },
+      {
+        "text": "AT",
+        "type": "TECH",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "PBS",
+        "type": "TECH",
+        "start": 106,
+        "end": 109
+      },
+      {
+        "text": "SI",
+        "type": "TECH",
+        "start": 311,
+        "end": 313
+      }
+    ],
+    "relations": [
+      {
+        "subject": " --- 中国城市轨道交通协会 《城市轨道交通“",
+        "relation": "based_on",
+        "object": "通信的列车运行控制 系统(CBTC ) 互联互通工程规范一第1部分: 工程设计》( T/CAMET)04013"
+      },
+      {
+        "subject": "在道岔区段内，",
+        "relation": "based_on",
+        "object": "三段式轨道区段进行划分"
+      },
+      {
+        "subject": "工程项目",
+        "relation": "based_on",
+        "object": "具体情况确定\""
+      },
+      {
+        "subject": "A AE A RSS SoS. 2的a) 5) 将\"站台内ATO 位置校正应答器的距离应符合表 2 的规定\"修 改为:站台内 ATO 位告校正应答器的距离参考值如表 2 所示， [程项目",
+        "relation": "based_on",
+        "object": "具体情况确定”"
+      },
+      {
+        "subject": "工程项目",
+        "relation": "based_on",
+        "object": "具体情况 2) 将表 3 标题”ATO 校正应答器布置间距\"修改为"
+      },
+      {
+        "subject": "表3 修改为: 表3 ATO 校正应答器布置间距参考值(单位为米) sl 5 82 10 S3 站台中心点到 FB2 的距离+5 S4 Wi AA PBS 的距离二20 --- --- 4) 将pb)“站台内位置校正应答器的距离应符合表 4 的规定\"修改 为”站台内位置校正应答器的距离参考值如表 4 所芍*王程项 目",
+        "relation": "based_on",
+        "object": "具体情况确定”"
+      }
+    ],
+    "metadata": {
+      "language": "zh"
+    },
+    "statistics": {
+      "total_entities": 22,
+      "total_relations": 6,
+      "entity_types": {
+        "TECH": 19,
+        "ORG": 1,
+        "SYSTEM": 1,
+        "LOC": 1
+      },
+      "relation_types": {
+        "based_on": 6
+      }
+    }
+  }
+}

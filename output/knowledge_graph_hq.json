@@ -1,0 +1,990 @@
+{
+  "4_Glossary of Train Control Terminology v1.2.txt": {
+    "entities": [
+      {
+        "text": "Chunk",
+        "type": "MISC",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "text": "Control Te",
+        "type": "MISC",
+        "start": 45,
+        "end": 55
+      },
+      {
+        "text": "##logy",
+        "type": "MISC",
+        "start": 60,
+        "end": 64
+      },
+      {
+        "text": "Chun",
+        "type": "MISC",
+        "start": 101,
+        "end": 105
+      },
+      {
+        "text": "IRSE Examination",
+        "type": "MISC",
+        "start": 312,
+        "end": 328
+      },
+      {
+        "text": "English",
+        "type": "MISC",
+        "start": 141,
+        "end": 148
+      },
+      {
+        "text": "Chun",
+        "type": "ORG",
+        "start": 13,
+        "end": 17
+      },
+      {
+        "text": "Chunk",
+        "type": "ORG",
+        "start": 102,
+        "end": 107
+      },
+      {
+        "text": "Control AT",
+        "type": "ORG",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "text": "ATO",
+        "type": "ORG",
+        "start": 43,
+        "end": 46
+      },
+      {
+        "text": "ATP",
+        "type": "ORG",
+        "start": 51,
+        "end": 54
+      },
+      {
+        "text": "Control",
+        "type": "ORG",
+        "start": 46,
+        "end": 53
+      },
+      {
+        "text": "Te",
+        "type": "MISC",
+        "start": 54,
+        "end": 56
+      },
+      {
+        "text": "A",
+        "type": "PER",
+        "start": 39,
+        "end": 40
+      },
+      {
+        "text": "##x",
+        "type": "PER",
+        "start": 40,
+        "end": 41
+      },
+      {
+        "text": "Bali",
+        "type": "PER",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "text": "Cab Secure",
+        "type": "ORG",
+        "start": 258,
+        "end": 268
+      },
+      {
+        "text": "P",
+        "type": "ORG",
+        "start": 143,
+        "end": 144
+      },
+      {
+        "text": "CBTC",
+        "type": "ORG",
+        "start": 117,
+        "end": 121
+      },
+      {
+        "text": "##nt Chun",
+        "type": "PER",
+        "start": 10,
+        "end": 17
+      },
+      {
+        "text": "Doc",
+        "type": "ORG",
+        "start": 94,
+        "end": 97
+      },
+      {
+        "text": "European",
+        "type": "ORG",
+        "start": 40,
+        "end": 48
+      },
+      {
+        "text": "Rail Traffic",
+        "type": "MISC",
+        "start": 49,
+        "end": 61
+      },
+      {
+        "text": "ER",
+        "type": "ORG",
+        "start": 139,
+        "end": 141
+      },
+      {
+        "text": "European",
+        "type": "MISC",
+        "start": 331,
+        "end": 339
+      },
+      {
+        "text": "Train Control",
+        "type": "MISC",
+        "start": 36,
+        "end": 49
+      },
+      {
+        "text": "ETCS",
+        "type": "ORG",
+        "start": 115,
+        "end": 119
+      },
+      {
+        "text": "ERTM",
+        "type": "ORG",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "text": "System for Mobile",
+        "type": "MISC",
+        "start": 34,
+        "end": 51
+      },
+      {
+        "text": "GSM",
+        "type": "MISC",
+        "start": 125,
+        "end": 128
+      },
+      {
+        "text": "System",
+        "type": "MISC",
+        "start": 34,
+        "end": 40
+      },
+      {
+        "text": "Mobile",
+        "type": "MISC",
+        "start": 45,
+        "end": 51
+      },
+      {
+        "text": "GSM",
+        "type": "ORG",
+        "start": 164,
+        "end": 167
+      },
+      {
+        "text": "Joint",
+        "type": "MISC",
+        "start": 98,
+        "end": 103
+      },
+      {
+        "text": "##k",
+        "type": "MISC",
+        "start": 123,
+        "end": 124
+      },
+      {
+        "text": "I",
+        "type": "ORG",
+        "start": 134,
+        "end": 135
+      },
+      {
+        "text": "Shu",
+        "type": "ORG",
+        "start": 187,
+        "end": 190
+      },
+      {
+        "text": "LOS",
+        "type": "ORG",
+        "start": 194,
+        "end": 197
+      },
+      {
+        "text": "Over",
+        "type": "PER",
+        "start": 27,
+        "end": 31
+      },
+      {
+        "text": "##nt Chunk",
+        "type": "PER",
+        "start": 10,
+        "end": 18
+      },
+      {
+        "text": "Chun",
+        "type": "PER",
+        "start": 13,
+        "end": 17
+      },
+      {
+        "text": "##k",
+        "type": "ORG",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "text": "Track",
+        "type": "LOC",
+        "start": 27,
+        "end": 32
+      },
+      {
+        "text": "Circuit",
+        "type": "MISC",
+        "start": 33,
+        "end": 40
+      },
+      {
+        "text": "TC",
+        "type": "LOC",
+        "start": 42,
+        "end": 44
+      },
+      {
+        "text": "Side",
+        "type": "MISC",
+        "start": 10,
+        "end": 14
+      },
+      {
+        "text": "WSF",
+        "type": "ORG",
+        "start": 24,
+        "end": 27
+      },
+      {
+        "text": "of",
+        "type": "MISC",
+        "start": 94,
+        "end": 96
+      },
+      {
+        "text": "Signalling Te",
+        "type": "ORG",
+        "start": 97,
+        "end": 110
+      },
+      {
+        "text": "##rms",
+        "type": "MISC",
+        "start": 110,
+        "end": 113
+      },
+      {
+        "text": "UK Rail Safety",
+        "type": "ORG",
+        "start": 132,
+        "end": 146
+      },
+      {
+        "text": "Standards Board",
+        "type": "ORG",
+        "start": 180,
+        "end": 195
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Glossary of Train Control Terminology",
+        "relation": "Glossary of Train Control Terminology v1.2",
+        "object": "has part"
+      },
+      {
+        "subject": "Glossary of Train Control Terminology v1.2",
+        "relation": "Glossary of Train Control Terminology",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "acronym",
+        "relation": "English",
+        "object": "language of work or name</s>"
+      },
+      {
+        "subject": "train control terminology",
+        "relation": "terminology",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "IPv6",
+        "relation": "IPv7",
+        "object": "followed by"
+      },
+      {
+        "subject": "IPv7",
+        "relation": "IPv6",
+        "object": "follows</s>"
+      },
+      {
+        "subject": "Document Chunk 8",
+        "relation": "Document Chunk",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "Document",
+        "relation": "Chunk",
+        "object": "has part"
+      },
+      {
+        "subject": "Chunk",
+        "relation": "Document",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Document Chunk",
+        "relation": "Column",
+        "object": "has part"
+      },
+      {
+        "subject": "Column",
+        "relation": "Document Chunk",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Approach locking",
+        "relation": "lock",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Signal lamp",
+        "relation": "Signal light",
+        "object": "different from"
+      },
+      {
+        "subject": "Signal light",
+        "relation": "Signal lamp",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Automatic Train Control",
+        "relation": "On-board automation",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "ATP",
+        "relation": "ATO",
+        "object": "has part</s>"
+      },
+      {
+        "subject": "Automatic Train",
+        "relation": "Automatic Train",
+        "object": "different from"
+      },
+      {
+        "subject": "Automatic Train",
+        "relation": "Automatic Train",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Automatic Train",
+        "relation": "non-safety system",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Automatic Route Setting",
+        "relation": "ARS",
+        "object": "part of"
+      },
+      {
+        "subject": "ARS",
+        "relation": "Automatic Route Setting",
+        "object": "has part</s>"
+      },
+      {
+        "subject": "Automatic signal",
+        "relation": "signal",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "signaller",
+        "relation": "ARS",
+        "object": "different from"
+      },
+      {
+        "subject": "ARS",
+        "relation": "signaller",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "4_Glossary of Train Control Terminology",
+        "relation": "Document Chunk 62",
+        "object": "has part"
+      },
+      {
+        "subject": "Document Chunk 63",
+        "relation": "4_Glossary of Train Control Terminology",
+        "object": "part of"
+      },
+      {
+        "subject": "Document Chunk 64",
+        "relation": "4_Glossary of Train Control Terminology",
+        "object": "part of"
+      },
+      {
+        "subject": "Document Chunk 65",
+        "relation": "4_Glossary of Train Control Terminology",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Axle counter",
+        "relation": "Document Chunk",
+        "object": "part of"
+      },
+      {
+        "subject": "axle",
+        "relation": "wheel",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Balise (beacon)",
+        "relation": "Document Chunk 75",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Transponder",
+        "relation": "Beacon",
+        "object": "connects with"
+      },
+      {
+        "subject": "Beacon",
+        "relation": "Transponder",
+        "object": "connects with</s>"
+      },
+      {
+        "subject": "Interlocking",
+        "relation": "safety interlocking system",
+        "object": "different from"
+      },
+      {
+        "subject": "safety interlocking system",
+        "relation": "Interlocking",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Communications Based",
+        "relation": "Train Control",
+        "object": "different from"
+      },
+      {
+        "subject": "Train Control",
+        "relation": "Communications Based",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Automatic Train Control",
+        "relation": "metro",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "train",
+        "relation": "wayside",
+        "object": "connects with"
+      },
+      {
+        "subject": "wayside",
+        "relation": "train",
+        "object": "connects with</s>"
+      },
+      {
+        "subject": "Document Chunk 104",
+        "relation": "Document Chunk",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "handset",
+        "relation": "telephone",
+        "object": "connects with</s>"
+      },
+      {
+        "subject": "Document Chunk 106",
+        "relation": "Control centre",
+        "object": "facet of</s>"
+      },
+      {
+        "subject": "Signal box",
+        "relation": "Operations control centre",
+        "object": "part of"
+      },
+      {
+        "subject": "Operations control centre",
+        "relation": "Signal box",
+        "object": "has part"
+      },
+      {
+        "subject": "Dispatch office",
+        "relation": "Operations control centre",
+        "object": "part of"
+      },
+      {
+        "subject": "Train control centre",
+        "relation": "Operations control centre",
+        "object": "part of"
+      },
+      {
+        "subject": "Network control centre",
+        "relation": "Operations control centre",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Document Chunk 116",
+        "relation": "Document Chunk 117",
+        "object": "followed by"
+      },
+      {
+        "subject": "Document Chunk 117",
+        "relation": "Document Chunk 118",
+        "object": "followed by"
+      },
+      {
+        "subject": "Document Chunk 118",
+        "relation": "Document Chunk 117",
+        "object": "follows</s>"
+      },
+      {
+        "subject": "Document Chunk 119",
+        "relation": "Control table",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "interlocking",
+        "relation": "signalling",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Equipment case",
+        "relation": "Apparatus cupboard",
+        "object": "connects with"
+      },
+      {
+        "subject": "Apparatus cupboard",
+        "relation": "Equipment case",
+        "object": "connects with"
+      },
+      {
+        "subject": "Cubicle",
+        "relation": "Equipment case",
+        "object": "connects with"
+      },
+      {
+        "subject": "4_Glossary of Train Control Terminology",
+        "relation": "Document Chunk 134",
+        "object": "has part"
+      },
+      {
+        "subject": "Document Chunk 135",
+        "relation": "4_Glossary of Train Control Terminology",
+        "object": "part of"
+      },
+      {
+        "subject": "Document Chunk 136",
+        "relation": "4_Glossary of Train Control Terminology",
+        "object": "part of"
+      },
+      {
+        "subject": "Document Chunk 137",
+        "relation": "4_Glossary of Train Control Terminology",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "European Rail Traffic",
+        "relation": "rail traffic",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "European Train Control",
+        "relation": "ECS",
+        "object": "part of"
+      },
+      {
+        "subject": "ECS",
+        "relation": "European Train Control",
+        "object": "has part</s>"
+      },
+      {
+        "subject": "ERTMS",
+        "relation": "train control",
+        "object": "use</s>"
+      },
+      {
+        "subject": "Facing Points Facing point switch",
+        "relation": "track switch",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Document Chunk 154",
+        "relation": "Document Chunk 155",
+        "object": "followed by"
+      },
+      {
+        "subject": "Document Chunk 155",
+        "relation": "Document Chunk 154",
+        "object": "follows"
+      },
+      {
+        "subject": "Document Chunk 156",
+        "relation": "Document Chunk 154",
+        "object": "follows"
+      },
+      {
+        "subject": "Document Chunk 157",
+        "relation": "Document Chunk 158",
+        "object": "followed by"
+      },
+      {
+        "subject": "Document Chunk 158",
+        "relation": "Document Chunk 159",
+        "object": "followed by"
+      },
+      {
+        "subject": "Document Chunk 159",
+        "relation": "Document Chunk 158",
+        "object": "follows"
+      },
+      {
+        "subject": "Document Chunk 160",
+        "relation": "Document Chunk 159",
+        "object": "follows</s>"
+      },
+      {
+        "subject": "Grade of Automation GoA",
+        "relation": "Automation GoA",
+        "object": "facet of</s>"
+      },
+      {
+        "subject": "Global System for Mobile",
+        "relation": "GSM",
+        "object": "has part"
+      },
+      {
+        "subject": "GSM",
+        "relation": "Global System for Mobile",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "GSM-R",
+        "relation": "GSM",
+        "object": "based on</s>"
+      },
+      {
+        "subject": "Headway",
+        "relation": "distance",
+        "object": "different from"
+      },
+      {
+        "subject": "distance",
+        "relation": "Headway",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "traction current",
+        "relation": "current",
+        "object": "subclass of"
+      },
+      {
+        "subject": "current",
+        "relation": "current",
+        "object": "subclass of"
+      },
+      {
+        "subject": "current",
+        "relation": "current",
+        "object": "subclass of"
+      },
+      {
+        "subject": "Insulated Rail Joint",
+        "relation": "Insulated Block Joint",
+        "object": "connects with"
+      },
+      {
+        "subject": "Insulated Block Joint",
+        "relation": "Insulated Rail Joint",
+        "object": "connects with</s>"
+      },
+      {
+        "subject": "Interlocking",
+        "relation": "train route",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Level crossing",
+        "relation": "Train Control Terminology",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Grade crossing",
+        "relation": "intersection",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "sign",
+        "relation": "indicator",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Line capacity",
+        "relation": "trains",
+        "object": "part of"
+      },
+      {
+        "subject": "trains",
+        "relation": "Line capacity",
+        "object": "has part</s>"
+      },
+      {
+        "subject": "Signal electrician",
+        "relation": "Signal technician",
+        "object": "different from"
+      },
+      {
+        "subject": "Signal technician",
+        "relation": "Signal electrician",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Maintenance manager",
+        "relation": "maintaining",
+        "object": "field of this occupation"
+      },
+      {
+        "subject": "maintaining",
+        "relation": "Maintenance manager",
+        "object": "practiced by"
+      },
+      {
+        "subject": "maintaining",
+        "relation": "Maintenance manager",
+        "object": "practiced by</s>"
+      },
+      {
+        "subject": "Operator",
+        "relation": "signalling",
+        "object": "field of this occupation"
+      },
+      {
+        "subject": "signalling",
+        "relation": "Operator",
+        "object": "practiced by</s>"
+      },
+      {
+        "subject": "Document Chunk 233",
+        "relation": "Document Chunk 234",
+        "object": "followed by"
+      },
+      {
+        "subject": "Document Chunk 234",
+        "relation": "Document Chunk 233",
+        "object": "follows"
+      },
+      {
+        "subject": "Document Chunk 235",
+        "relation": "Document Chunk 234",
+        "object": "follows</s>"
+      },
+      {
+        "subject": "Permissible speed Line speed",
+        "relation": "Line speed",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Points Switches",
+        "relation": "Points machine",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "train",
+        "relation": "track",
+        "object": "has part"
+      },
+      {
+        "subject": "track",
+        "relation": "train",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Possession (of a line) Occupation",
+        "relation": "Document Chunk 245",
+        "object": "has part</s>"
+      },
+      {
+        "subject": "siding",
+        "relation": "train",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Document Chunk 249",
+        "relation": "Document Chunk",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "Right side failure",
+        "relation": "Negligible risk failure",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Route locking",
+        "relation": "Maintained locking",
+        "object": "different from"
+      },
+      {
+        "subject": "Maintained locking",
+        "relation": "Route locking",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Route holding",
+        "relation": "Route",
+        "object": "part of"
+      },
+      {
+        "subject": "Route",
+        "relation": "Route holding",
+        "object": "has part"
+      },
+      {
+        "subject": "railway line",
+        "relation": "depot",
+        "object": "has part"
+      },
+      {
+        "subject": "depot",
+        "relation": "railway line",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Semaphore signal",
+        "relation": "Mechanical signal",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "train controller",
+        "relation": "Train control operator",
+        "object": "different from"
+      },
+      {
+        "subject": "Train control operator",
+        "relation": "train controller",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Signalling workstation",
+        "relation": "Train control workstation",
+        "object": "different from"
+      },
+      {
+        "subject": "Train control workstation",
+        "relation": "Signalling workstation",
+        "object": "different from</s>"
+      },
+      {
+        "subject": "Document Chunk 306",
+        "relation": "Toe of point",
+        "object": "has part"
+      },
+      {
+        "subject": "Toe of point",
+        "relation": "Document Chunk 306",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Chunk 307",
+        "relation": "Document Chunk",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "Track Circuit",
+        "relation": "Document Chunk",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "electric circuit",
+        "relation": "electrical device",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Network controller",
+        "relation": "Train controller",
+        "object": "subclass of</s>"
+      },
+      {
+        "subject": "Train Control System",
+        "relation": "TCS",
+        "object": "operator</s>"
+      },
+      {
+        "subject": "train description",
+        "relation": "signalling",
+        "object": "part of</s>"
+      },
+      {
+        "subject": "Glossary of Train Control Terminology",
+        "relation": "2.2",
+        "object": "publication date</s>"
+      },
+      {
+        "subject": "Train driver",
+        "relation": "Locomotive operator",
+        "object": "different from"
+      },
+      {
+        "subject": "Locomotive operator",
+        "relation": "Train driver",
+        "object": "different from"
+      },
+      {
+        "subject": "Engine driver",
+        "relation": "Train driver",
+        "object": "different from"
+      },
+      {
+        "subject": "Document Chunk 343",
+        "relation": "Document Chunk",
+        "object": "instance of</s>"
+      },
+      {
+        "subject": "Wrong Side Failure",
+        "relation": "WSF A failure",
+        "object": "has cause"
+      },
+      {
+        "subject": "WSF A failure",
+        "relation": "Wrong Side Failure",
+        "object": "has effect</s>"
+      },
+      {
+        "subject": "Glossary of Signalling Terms",
+        "relation": "UK Rail Safety",
+        "object": "publisher</s>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "entities": [
+    {
+      "name": "GAMET",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "互联互通系统",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "中国",
+      "type": "GPE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "城市轨道交通",
+      "type": "WORK_OF_ART",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "第1",
+      "type": "ORDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "1一2018",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2024",
+      "type": "DATE",
+      "frequency": 2,
+      "contexts": []
+    },
+    {
+      "name": "TB",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "TB/T 3485—2017",
+      "type": "STANDARD",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "应答器传输系统",
+      "type": "SYSTEM",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "年 09 月 03",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "日",
+      "type": "GPE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "1.",
+      "type": "PERCENT",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "第2",
+      "type": "ORDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2004",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2017",
+      "type": "DATE",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "2",
+      "type": "CARDINAL",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "ATO",
+      "type": "TECH",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "CBTC系统",
+      "type": "UNKNOWN",
+      "frequency": 5,
+      "contexts": []
+    },
+    {
+      "name": "IEEE 802.11g标准",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "ZC",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "区域控制器",
+      "type": "UNKNOWN",
+      "frequency": 4,
+      "contexts": []
+    },
+    {
+      "name": "ATS",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "列车自动监控系统",
+      "type": "UNKNOWN",
+      "frequency": 4,
+      "contexts": []
+    },
+    {
+      "name": "DCS",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "数据通信系统",
+      "type": "UNKNOWN",
+      "frequency": 5,
+      "contexts": []
+    },
+    {
+      "name": "控制指令",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "状态信息",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "移动授权",
+      "type": "UNKNOWN",
+      "frequency": 3,
+      "contexts": []
+    },
+    {
+      "name": "车载控制器",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "列车位置",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "运行计划",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "轨旁设备",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "车载设备",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    },
+    {
+      "name": "SIL4安全等级",
+      "type": "UNKNOWN",
+      "frequency": 1,
+      "contexts": []
+    }
+  ],
+  "relations": [
+    {
+      "subject": "CBTC系统",
+      "relation": "基于",
+      "object": "IEEE 802.11g标准",
+      "context": ""
+    },
+    {
+      "subject": "ZC",
+      "relation": "缩写",
+      "object": "区域控制器",
+      "context": ""
+    },
+    {
+      "subject": "ATS",
+      "relation": "缩写",
+      "object": "列车自动监控系统",
+      "context": ""
+    },
+    {
+      "subject": "DCS",
+      "relation": "缩写",
+      "object": "数据通信系统",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "区域控制器",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "列车自动监控系统",
+      "context": ""
+    },
+    {
+      "subject": "CBTC系统",
+      "relation": "包括",
+      "object": "数据通信系统",
+      "context": ""
+    },
+    {
+      "subject": "数据通信系统",
+      "relation": "传输",
+      "object": "控制指令",
+      "context": ""
+    },
+    {
+      "subject": "数据通信系统",
+      "relation": "传输",
+      "object": "状态信息",
+      "context": ""
+    },
+    {
+      "subject": "区域控制器",
+      "relation": "计算",
+      "object": "移动授权",
+      "context": ""
+    },
+    {
+      "subject": "区域控制器",
+      "relation": "发送",
+      "object": "移动授权",
+      "context": ""
+    },
+    {
+      "subject": "车载控制器",
+      "relation": "接收",
+      "object": "移动授权",
+      "context": ""
+    },
+    {
+      "subject": "列车自动监控系统",
+      "relation": "监控",
+      "object": "列车位置",
+      "context": ""
+    },
+    {
+      "subject": "列车自动监控系统",
+      "relation": "调整",
+      "object": "运行计划",
+      "context": ""
+    },
+    {
+      "subject": "轨旁设备",
+      "relation": "连接",
+      "object": "车载设备",
+      "context": ""
+    },
+    {
+      "subject": "数据通信系统",
+      "relation": "基于",
+      "object": "SIL4安全等级",
+      "context": ""
+    }
+  ],
+  "statistics": {
+    "num_entities": 35,
+    "num_relations": 16,
+    "num_relation_types": 10,
+    "relation_types": [
+      "传输",
+      "包括",
+      "发送",
+      "基于",
+      "接收",
+      "监控",
+      "缩写",
+      "计算",
+      "调整",
+      "连接"
+    ],
+    "top_entities": [
+      {
+        "name": "CBTC系统",
+        "type": "UNKNOWN",
+        "frequency": 5
+      },
+      {
+        "name": "数据通信系统",
+        "type": "UNKNOWN",
+        "frequency": 5
+      },
+      {
+        "name": "区域控制器",
+        "type": "UNKNOWN",
+        "frequency": 4
+      },
+      {
+        "name": "列车自动监控系统",
+        "type": "UNKNOWN",
+        "frequency": 4
+      },
+      {
+        "name": "移动授权",
+        "type": "UNKNOWN",
+        "frequency": 3
+      },
+      {
+        "name": "2024",
+        "type": "DATE",
+        "frequency": 2
+      },
+      {
+        "name": "GAMET",
+        "type": "TECH",
+        "frequency": 1
+      },
+      {
+        "name": "互联互通系统",
+        "type": "SYSTEM",
+        "frequency": 1
+      },
+      {
+        "name": "中国",
+        "type": "GPE",
+        "frequency": 1
+      },
+      {
+        "name": "城市轨道交通",
+        "type": "WORK_OF_ART",
+        "frequency": 1
+      }
+    ]
+  }
+}

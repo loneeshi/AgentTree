@@ -1,0 +1,8 @@
+transformers
+torch
+spacy
+tqdm
+
+# For Chinese language support (optional but recommended)
+# Run: python -m spacy download zh_core_web_sm
+# This will enable better Chinese text processing
